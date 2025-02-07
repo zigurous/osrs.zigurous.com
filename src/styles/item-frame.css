@@ -1,0 +1,111 @@
+.item-frame {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 48px;
+  height: 48px;
+  padding: var(--spacing-sm);
+  background-color: var(--color-surface-2);
+  border-radius: var(--radius-sm);
+}
+
+.item-frame--sm {
+  width: 40px;
+  height: 40px;
+  padding: var(--spacing-xs);
+}
+
+.item-frame--md {
+  width: 48px;
+  height: 48px;
+  padding: var(--spacing-sm);
+}
+
+.item-frame--lg {
+  width: 64px;
+  height: 64px;
+  padding: var(--spacing-md);
+}
+
+.item-frame--border {
+  box-shadow: inset 0 0 0 1.5px var(--color-surface-1);
+}
+
+.item-frame--pet {
+  background-image: linear-gradient(to bottom, rgb(from #19b2ff r g b / 0), rgb(from #19b2ff r g b / 0.25));
+  box-shadow:
+    inset 0 0 0 1.5px var(--color-surface-1),
+    inset 0 0 0 2.5px #19b2ff;
+}
+
+.item-frame--unique {
+  background-image: linear-gradient(to bottom, rgb(from #ff19ff r g b / 0), rgb(from #ff19ff r g b / 0.25));
+  box-shadow:
+    inset 0 0 0 1.5px var(--color-surface-1),
+    inset 0 0 0 2.5px #ff19ff;
+}
+
+.item-frame--megarare {
+  background-image: linear-gradient(to bottom, rgb(from #ffd700 r g b / 0), rgb(from #ffd700 r g b / 0.25));
+  box-shadow:
+    inset 0 0 0 1.5px var(--color-surface-1),
+    inset 0 0 0 2.5px #ffd700;
+}
+
+.item-frame--borderless {
+  background-color: transparent !important;
+  box-shadow: none;
+}
+
+.item-frame--placeholder {
+  visibility: hidden;
+}
+
+.item-frame--newline {
+  height: 0;
+  padding: 0;
+  flex-basis: 100%;
+  margin-top: -8px;
+  visibility: hidden;
+}
+
+.item-frame--newline ~ .item-frame,
+.item-frame--newline ~ a > .item-frame {
+  margin-top: calc(-1 * var(--spacing-sm));
+}
+
+.item-frame--transmute,
+.item-frame--plus,
+.item-frame--equals {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent !important;
+  box-shadow: none;
+  width: 16px;
+  padding: 0;
+  font-weight: 600;
+  font-size: 1.25rem;
+  color: var(--color-surface-4);
+}
+
+.item-frame--transmute,
+.item-frame--equals {
+  margin: 0 -2px;
+}
+
+.item-frame--plus {
+  margin: 0 -6px;
+}
+
+.item-frame > img {
+  object-fit: contain;
+  max-width: 100%;
+  max-height: 100%;
+  transform: scale(1.1);
+}
+
+a[href] > .item-frame:hover {
+  background-color: var(--color-surface-1);
+}
