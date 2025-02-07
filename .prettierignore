@@ -1,0 +1,11 @@
+build/
+coverage/
+dist/
+node_modules/
+public/
+package.json
+.cache/
+.github/
+.vscode/
+.snapshots/
+*.min.js

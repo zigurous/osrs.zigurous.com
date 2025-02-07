@@ -1,20 +1,33 @@
-import type { GatsbyConfig } from "gatsby";
+import type { GatsbyConfig } from 'gatsby';
 
 const config: GatsbyConfig = {
   siteMetadata: {
-    title: `OSRS Region Planner`,
-    siteUrl: `https://www.yourdomain.tld`
+    title: 'OSRS Region Planner',
+    siteUrl: 'https://adamgraham.github.io/osrs-region-planner',
   },
-  // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.
-  // If you use VSCode you can also use the GraphQL plugin
-  // Learn more at: https://gatsby.dev/graphql-typegen
-  graphqlTypegen: true,
-  plugins: ["gatsby-plugin-sitemap", {
-    resolve: 'gatsby-plugin-manifest',
-    options: {
-      "icon": "src/images/icon.png"
-    }
-  }]
+  plugins: [
+    'gatsby-plugin-sitemap',
+    {
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+        name: 'OSRS Region Planner',
+        short_name: 'Region Planner',
+        start_url: '/',
+        display: 'standalone',
+        theme_color: '#c2410c',
+        background_color: '#28221d',
+        icon: './src/images/favicon.ico',
+      },
+    },
+    'gatsby-transformer-json',
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: './src/data/',
+      },
+    },
+  ],
+  trailingSlash: 'never',
 };
 
 export default config;
