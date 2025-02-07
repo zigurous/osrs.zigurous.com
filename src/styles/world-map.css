@@ -52,3 +52,22 @@
 .world-map.selected.tirannwn .world-map__image > g#tirannwn { opacity: 1; }
 .world-map.selected.varlamore .world-map__image > g#varlamore { opacity: 1; }
 .world-map.selected.wilderness .world-map__image > g#wilderness { opacity: 1; }
+
+.world-map__badges > .area-badge {
+  position: absolute;
+  transform: translate(-50%, -50%) scale(0.5);
+  transition: none;
+  cursor: pointer;
+}
+
+.world-map__badges > .area-badge#asgarnia { left: 65%; top: 38%; }
+.world-map__badges > .area-badge#desert { left: 79%; top: 75%; }
+.world-map__badges > .area-badge#fremennik { left: 56.5%; top: 19%; }
+.world-map__badges > .area-badge#kandarin { left: 50%; top: 57%; }
+.world-map__badges > .area-badge#karamja { left: 61%; top: 69%; }
+.world-map__badges > .area-badge#kourend { left: 17%; top: 29%; }
+.world-map__badges > .area-badge#misthalin { left: 74%; top: 46%; }
+.world-map__badges > .area-badge#morytania { left: 87%; top: 44%; }
+.world-map__badges > .area-badge#tirannwn { left: 39.5%; top: 54%; }
+.world-map__badges > .area-badge#varlamore { left: 19%; top: 71%; }
+.world-map__badges > .area-badge#wilderness { left: 74%; top: 17%; }

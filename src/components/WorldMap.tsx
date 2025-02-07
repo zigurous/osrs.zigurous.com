@@ -1,6 +1,7 @@
 import classNames from 'classnames';
 import { navigate } from 'gatsby';
 import React, { useEffect, useRef, useState } from 'react';
+import AreaBadge from './AreaBadge';
 import WorldMapSVG from './WorldMapSVG';
 import { useRegionsContext } from '../context';
 import '../styles/world-map.css';
@@ -10,7 +11,7 @@ const MAP_SIZE = { width: 463, height: 215 };
 export default function WorldMap() {
   const ref = useRef<HTMLDivElement>(null);
   const [scale, setScale] = useState(1);
-  const { selectedRegion } = useRegionsContext();
+  const { regions, selectedRegion } = useRegionsContext();
 
   const [observer] = useState(
     () =>
@@ -64,6 +65,25 @@ export default function WorldMap() {
             }
           }}
         />
+        <div className="world-map__badges">
+          {regions.map(region => {
+            const selected = Boolean(selectedRegion?.id === region.id);
+            return (
+              <AreaBadge
+                key={region.id}
+                region={region}
+                selected={selected}
+                deselected={!selected && !!selectedRegion}
+                onClick={() => {
+                  /* @ts-ignore */
+                  navigate(selected ? '' : `#${region.id}`, {
+                    replace: true,
+                  });
+                }}
+              />
+            );
+          })}
+        </div>
       </div>
     </div>
   );
