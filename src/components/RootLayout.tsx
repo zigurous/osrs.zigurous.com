@@ -1,4 +1,5 @@
 import React from 'react';
+import ClientProviders from './ClientProviders';
 import PageFrame from './PageFrame';
 
 interface RootLayoutProps {
@@ -6,11 +7,13 @@ interface RootLayoutProps {
   location: Location;
 }
 
-export default function RootLayout({ children }: RootLayoutProps) {
+export default function RootLayout({ children, location }: RootLayoutProps) {
   return (
-    <div className="app" id="root">
-      <main className="flex w-full h-full">{children}</main>
-      <PageFrame />
-    </div>
+    <ClientProviders location={location}>
+      <div className="app" id="root">
+        <main className="flex w-full h-full">{children}</main>
+        <PageFrame />
+      </div>
+    </ClientProviders>
   );
 }
