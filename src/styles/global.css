@@ -1,0 +1,65 @@
+[data-theme="dark"],
+[data-theme="dark"] * {
+  --color-white: #ffffff;
+  --color-silver: #cccccc;
+  --color-gray: #777777;
+  --color-portage: #b79d7e;
+  --color-waikawa-grey: #736559;
+  --color-pickled-bluewood: #3e362f;
+  --color-cloud-burst: #312a25;
+  --color-big-stone: #28221d;
+  --color-dark-body: #1b1612;
+  --color-primary: #20c2fe;
+  --color-secondary: #c2410c;
+
+  --color-foreground: var(--color-white);
+  --color-background: var(--color-dark-body);
+  --color-border: var(--color-waikawa-grey);
+  --color-surface-1: var(--color-big-stone);
+  --color-surface-2: var(--color-cloud-burst);
+  --color-surface-3: var(--color-pickled-bluewood);
+  --color-surface-4: var(--color-waikawa-grey);
+  --color-surface-5: var(--color-portage);
+
+  --rgb-primary: 194 65 12;
+  --rgb-secondary: 32 194 254;
+}
+
+@font-face {
+  font-family: "RuneScape";
+  src: url("../fonts/runescape.ttf");
+}
+
+.font-runescape {
+  font-family: "RuneScape", sans-serif;
+  text-shadow: 1px 1px var(--color-shadow);
+}
+
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.app {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  padding: 18px;
+  overflow: hidden;
+  background-color: #303030;
+}
+
+.display,
+.title,
+.title-lg,
+.title-md,
+.title-sm,
+.subtitle,
+.eyebrow {
+  font-family: "PT Serif", serif;
+}
+
+a.text-primary:hover {
+  text-decoration: underline;
+}
