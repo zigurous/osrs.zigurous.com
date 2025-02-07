@@ -1,5 +1,6 @@
 import classNames from 'classnames';
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
+import Tooltip from './Tooltip';
 import WikiLink from './WikiLink';
 import type { ItemData } from '../types';
 import { formatNameFromId } from '../utils';
@@ -32,6 +33,7 @@ export default function ItemFrame({
   size,
 }: ItemFrameProps) {
   const ref = useRef<HTMLDivElement>(null);
+  const [hovering, setHovering] = useState(false);
   if (!item) return <ItemFrameEmpty border={border} className={className} />;
   const CustomFrame = customFrames.find(frame => item.id.startsWith(frame.id));
   if (CustomFrame) return <CustomFrame.Component />;
@@ -53,6 +55,8 @@ export default function ItemFrame({
           },
           className,
         )}
+        onMouseEnter={e => setHovering(true)}
+        onMouseLeave={e => setHovering(false)}
         ref={ref}
       >
         {item && (
@@ -61,6 +65,9 @@ export default function ItemFrame({
             aria-hidden
             src={`https://oldschool.runescape.wiki/images/${item.icon || item.id}.png`}
           />
+        )}
+        {hovering && ref.current && (
+          <Tooltip element={ref.current} text={label} />
         )}
       </div>
     </WikiLink>
