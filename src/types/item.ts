@@ -6,3 +6,8 @@ export interface ItemData {
   name?: string;
   tags?: ItemTag[];
 }
+
+export interface PetData extends Omit<ItemData, 'tags'> {
+  source: string | string[];
+  tags: ['pet'];
+}

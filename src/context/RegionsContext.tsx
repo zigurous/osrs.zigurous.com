@@ -68,6 +68,7 @@ export const dataQuery = graphql`
         id: jsonId
         name
         description
+        pets
       }
     }
   }

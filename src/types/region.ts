@@ -15,4 +15,5 @@ export interface Region {
   id: RegionId;
   name: string;
   description: string;
+  pets: string[];
 }

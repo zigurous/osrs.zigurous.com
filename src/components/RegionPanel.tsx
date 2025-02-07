@@ -2,6 +2,7 @@ import { Text } from '@zigurous/forge-react';
 import classNames from 'classnames';
 import React, { useState } from 'react';
 import AreaBadge from './AreaBadge';
+import RegionPanelPets from './RegionPanelPets';
 import RegionPanelTabs from './RegionPanelTabs';
 import { useRegionsContext } from '../context';
 import type { Region } from '../types';
@@ -69,6 +70,8 @@ export default function RegionPanel() {
 
 function renderTab(selectedTab: RegionPanelTab, selectedRegion: Region) {
   switch (selectedTab) {
+    case 'Pets':
+      return <RegionPanelPets region={selectedRegion} />;
     default:
       return null;
   }

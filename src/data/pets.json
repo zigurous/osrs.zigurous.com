@@ -1,0 +1,349 @@
+[
+  {
+    "id": "Abyssal_orphan",
+    "source": "Abyssal_Sire",
+    "tags": ["pet"]
+  },
+  {
+    "id": "Abyssal_protector",
+    "source": "Guardians_of_the_Rift",
+    "tags": ["pet"]
+  },
+  {
+    "id": "Baby_chinchompa",
+    "icon": "Baby_chinchompa_(grey)",
+    "source": "Hunter",
+    "tags": ["pet"]
+  },
+  {
+    "id": "Baby_mole",
+    "source": "Giant_Mole",
+    "tags": ["pet"]
+  },
+  {
+    "id": "Baron",
+    "source": "Duke_Sucellus",
+    "tags": ["pet"]
+  },
+  {
+    "id": "Beaver",
+    "source": "Woodcutting",
+    "tags": ["pet"]
+  },
+  {
+    "id": "Bloodhound",
+    "source": "Clue_scroll_(master)",
+    "tags": ["pet"]
+  },
+  {
+    "id": "Broav",
+    "source": "While_Guthix_Sleeps",
+    "tags": ["pet"]
+  },
+  {
+    "id": "Butch",
+    "source": "Vardorvis",
+    "tags": ["pet"]
+  },
+  {
+    "id": "Callisto_cub",
+    "source": ["Callisto", "Artio"],
+    "tags": ["pet"]
+  },
+  {
+    "id": "Cat",
+    "icon": "Pet_cat_(black)",
+    "source": "Gertrude's_Cat",
+    "tags": ["pet"]
+  },
+  {
+    "id": "Chompy_chick",
+    "source": "Chompy_bird",
+    "tags": ["pet"]
+  },
+  {
+    "id": "Fishbowl_(pet)",
+    "icon": "Fishbowl_(blue)",
+    "name": "Pet Fish",
+    "source": "Harry's_Fishing_Shop.",
+    "tags": ["pet"]
+  },
+  {
+    "id": "Giant_squirrel",
+    "source": "Agility",
+    "tags": ["pet"]
+  },
+  {
+    "id": "Hellcat",
+    "icon": "Hell-kitten",
+    "source": "Hell-Rat",
+    "tags": ["pet"]
+  },
+  {
+    "id": "Hellpuppy",
+    "source": "Cerberus",
+    "tags": ["pet"]
+  },
+  {
+    "id": "Herbi",
+    "source": "Herbiboar",
+    "tags": ["pet"]
+  },
+  {
+    "id": "Heron",
+    "source": "Fishing",
+    "tags": ["pet"]
+  },
+  {
+    "id": "Huberte",
+    "source": "Hueycoatl",
+    "tags": ["pet"]
+  },
+  {
+    "id": "Ikkle_hydra",
+    "icon": "Ikkle_hydra_(serpentine)",
+    "source": "Alchemical_Hydra",
+    "tags": ["pet"]
+  },
+  {
+    "id": "Jal-nib-rek",
+    "source": "Inferno",
+    "tags": ["pet"]
+  },
+  {
+    "id": "Kalphite_princess",
+    "source": "Kalphite_Queen",
+    "tags": ["pet"]
+  },
+  {
+    "id": "Lil'viathan",
+    "source": "The_Leviathan",
+    "tags": ["pet"]
+  },
+  {
+    "id": "Lil'_creator",
+    "source": "Soul_Wars",
+    "tags": ["pet"]
+  },
+  {
+    "id": "Lil'_zik",
+    "source": "Theatre_of_Blood",
+    "tags": ["pet"]
+  },
+  {
+    "id": "Little_nightmare",
+    "source": "The_Nightmare",
+    "tags": ["pet"]
+  },
+  {
+    "id": "Moxi",
+    "source": "Amoxliatl",
+    "tags": ["pet"]
+  },
+  {
+    "id": "Muphin",
+    "icon": "Muphin_(ranged)",
+    "source": "Phantom_Muspah",
+    "tags": ["pet"]
+  },
+  {
+    "id": "Nexling",
+    "source": "Nex",
+    "tags": ["pet"]
+  },
+  {
+    "id": "Nid",
+    "source": "Araxxor",
+    "tags": ["pet"]
+  },
+  {
+    "id": "Noon",
+    "source": "Grotesque_Guardians",
+    "tags": ["pet"]
+  },
+  {
+    "id": "Olmlet",
+    "source": "Chambers_of_Xeric",
+    "tags": ["pet"]
+  },
+  {
+    "id": "Pet_chaos_elemental",
+    "source": ["Chaos_Elemental", "Chaos_Fanatic"],
+    "tags": ["pet"]
+  },
+  {
+    "id": "Pet_dagannoth_prime",
+    "source": "Dagannoth_Prime",
+    "tags": ["pet"]
+  },
+  {
+    "id": "Pet_dagannoth_rex",
+    "source": "Dagannoth_Rex",
+    "tags": ["pet"]
+  },
+  {
+    "id": "Pet_dagannoth_supreme",
+    "source": "Dagannoth_Supreme",
+    "tags": ["pet"]
+  },
+  {
+    "id": "Pet_dark_core",
+    "source": "Corporeal_Beast",
+    "tags": ["pet"]
+  },
+  {
+    "id": "Pet_general_graardor",
+    "source": "General_Graardor",
+    "tags": ["pet"]
+  },
+  {
+    "id": "Pet_k'ril_tsutsaroth",
+    "source": "K'ril_Tsutsaroth",
+    "tags": ["pet"]
+  },
+  {
+    "id": "Pet_kraken",
+    "source": "Kraken",
+    "tags": ["pet"]
+  },
+  {
+    "id": "Pet_kree'arra",
+    "source": "Kree'arra",
+    "tags": ["pet"]
+  },
+  {
+    "id": "Pet_penance_queen",
+    "source": "Barbarian_Assault",
+    "tags": ["pet"]
+  },
+  {
+    "id": "Pet_rock",
+    "source": "Askeladden",
+    "tags": ["pet"]
+  },
+  {
+    "id": "Pet_smoke_devil",
+    "source": "Thermonuclear_smoke_devil",
+    "tags": ["pet"]
+  },
+  {
+    "id": "Pet_snakeling",
+    "source": "Zulrah",
+    "tags": ["pet"]
+  },
+  {
+    "id": "Pet_zilyana",
+    "source": "Commander_Zilyana",
+    "tags": ["pet"]
+  },
+  {
+    "id": "Phoenix",
+    "source": "Wintertodt",
+    "tags": ["pet"]
+  },
+  {
+    "id": "Prince_black_dragon",
+    "source": "King_Black_Dragon",
+    "tags": ["pet"]
+  },
+  {
+    "id": "Quetzin",
+    "source": "Hunters'_Rumours",
+    "tags": ["pet"]
+  },
+  {
+    "id": "Rift_guardian",
+    "source": "Runecraft",
+    "tags": ["pet"]
+  },
+  {
+    "id": "Rock_golem",
+    "source": "Mining",
+    "tags": ["pet"]
+  },
+  {
+    "id": "Rocky",
+    "source": "Thieving",
+    "tags": ["pet"]
+  },
+  {
+    "id": "Scorpia's_offspring",
+    "source": "Scorpia",
+    "tags": ["pet"]
+  },
+  {
+    "id": "Scurry",
+    "source": "Scurrius",
+    "tags": ["pet"]
+  },
+  {
+    "id": "Skotos",
+    "source": "Skotizo",
+    "tags": ["pet"]
+  },
+  {
+    "id": "Smol_heredit",
+    "source": "Fortis_Colosseum",
+    "tags": ["pet"]
+  },
+  {
+    "id": "Smolcano",
+    "source": "Zalcano",
+    "tags": ["pet"]
+  },
+  {
+    "id": "Sraracha",
+    "source": "Sarachnis",
+    "tags": ["pet"]
+  },
+  {
+    "id": "Tangleroot",
+    "source": "Farming",
+    "tags": ["pet"]
+  },
+  {
+    "id": "Tiny_tempor",
+    "source": "Tempoross",
+    "tags": ["pet"]
+  },
+  {
+    "id": "Toy_cat",
+    "source": "Construction",
+    "tags": ["pet"]
+  },
+  {
+    "id": "Tumeken's_guardian",
+    "source": "Tombs_of_Amascut",
+    "tags": ["pet"]
+  },
+  {
+    "id": "Tzrek-jad",
+    "source": "TzHaar_Fight_Cave",
+    "tags": ["pet"]
+  },
+  {
+    "id": "Venenatis_spiderling",
+    "source": ["Venenatis", "Spindel"],
+    "tags": ["pet"]
+  },
+  {
+    "id": "Vet'ion_jr.",
+    "source": ["Vet'ion", "Calvar'ion"],
+    "tags": ["pet"]
+  },
+  {
+    "id": "Vorki",
+    "source": "Vorkath",
+    "tags": ["pet"]
+  },
+  {
+    "id": "Wisp",
+    "source": "The_Whisperer",
+    "tags": ["pet"]
+  },
+  {
+    "id": "Youngllef",
+    "source": "The_Gauntlet",
+    "tags": ["pet"]
+  }
+]
