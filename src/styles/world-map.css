@@ -1,0 +1,54 @@
+.world-map {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  user-select: none;
+}
+
+.world-map__container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+}
+
+.world-map__image {
+  object-fit: contain;
+  pointer-events: none;
+  shape-rendering: crispEdges;
+  image-rendering: -webkit-crisp-edges;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+  -ms-interpolation-mode: nearest-neighbor;
+}
+
+.world-map__image path {
+  cursor: pointer;
+  pointer-events: all;
+}
+
+.world-map__image > g {
+  opacity: 1;
+  will-change: opacity;
+}
+
+.world-map.selected .world-map__image > g {
+  opacity: var(--opacity-disabled);
+}
+
+.world-map.selected.asgarnia .world-map__image > g#asgarnia { opacity: 1; }
+.world-map.selected.desert .world-map__image > g#desert { opacity: 1; }
+.world-map.selected.fremennik .world-map__image > g#fremennik { opacity: 1; }
+.world-map.selected.kandarin .world-map__image > g#kandarin { opacity: 1; }
+.world-map.selected.karamja .world-map__image > g#karamja { opacity: 1; }
+.world-map.selected.kourend .world-map__image > g#kourend { opacity: 1; }
+.world-map.selected.misthalin .world-map__image > g#misthalin { opacity: 1; }
+.world-map.selected.morytania .world-map__image > g#morytania { opacity: 1; }
+.world-map.selected.tirannwn .world-map__image > g#tirannwn { opacity: 1; }
+.world-map.selected.varlamore .world-map__image > g#varlamore { opacity: 1; }
+.world-map.selected.wilderness .world-map__image > g#wilderness { opacity: 1; }
