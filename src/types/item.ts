@@ -1,4 +1,4 @@
-export type ItemTag = 'unique' | 'megarare' | 'pet';
+export type ItemTag = 'unique' | 'megarare' | 'pet' | '2h';
 
 export interface ItemData {
   id: string;

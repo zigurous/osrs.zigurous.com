@@ -1,4 +1,5 @@
 export { default as AreaBadge } from './AreaBadge';
+export { default as EquipmentInventory } from './EquipmentInventory';
 export { default as ItemFrame } from './ItemFrame';
 export { default as PageFrame } from './PageFrame';
 export { default as RegionPanel } from './RegionPanel';

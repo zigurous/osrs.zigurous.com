@@ -2,6 +2,7 @@ import { Text } from '@zigurous/forge-react';
 import classNames from 'classnames';
 import React, { useState } from 'react';
 import AreaBadge from './AreaBadge';
+import RegionPanelBestInSlot from './RegionPanelBestInSlot';
 import RegionPanelPets from './RegionPanelPets';
 import RegionPanelTabs from './RegionPanelTabs';
 import { useRegionsContext } from '../context';
@@ -72,6 +73,8 @@ function renderTab(selectedTab: RegionPanelTab, selectedRegion: Region) {
   switch (selectedTab) {
     case 'Pets':
       return <RegionPanelPets region={selectedRegion} />;
+    case 'Best In Slot':
+      return <RegionPanelBestInSlot region={selectedRegion} />;
     default:
       return null;
   }

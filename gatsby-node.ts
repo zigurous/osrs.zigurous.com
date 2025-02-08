@@ -6,6 +6,22 @@ export const createSchemaCustomization = ({
 }: CreateSchemaCustomizationArgs) => {
   const { createTypes } = actions;
   const typeDefs = `
+    type BestInSlotJson implements Node @dontInfer {
+      combatStyle: String!
+      equipment: [BestInSlotEquipmentSlot!]!
+    }
+    type BestInSlotEquipmentSlot {
+      id: String!
+      items: [BestInSlotItem!]!
+    }
+    type BestInSlotItem {
+      id: String!
+      icon: String
+      name: String
+      tags: [String!]
+      regions: [String!]!
+      ammo: BestInSlotItem
+    }
     type PetsJson implements Node @dontInfer {
       jsonId: String!
       icon: String
