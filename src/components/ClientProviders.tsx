@@ -1,5 +1,5 @@
 import React from 'react';
-import { RegionsContextProvider } from '../context';
+import { ItemsContextProvider, RegionsContextProvider } from '../context';
 
 interface ClientProvidersProps {
   children?: React.ReactNode;
@@ -11,8 +11,10 @@ export default function ClientProviders({
   location,
 }: ClientProvidersProps) {
   return (
-    <RegionsContextProvider location={location}>
-      {children}
-    </RegionsContextProvider>
+    <ItemsContextProvider>
+      <RegionsContextProvider location={location}>
+        {children}
+      </RegionsContextProvider>
+    </ItemsContextProvider>
   );
 }

@@ -22,6 +22,12 @@ export const createSchemaCustomization = ({
       regions: [String!]!
       ammo: BestInSlotItem
     }
+    type ItemsJson implements Node @dontInfer {
+      jsonId: String!
+      icon: String
+      name: String
+      tags: [String!]
+    }
     type PetsJson implements Node @dontInfer {
       jsonId: String!
       icon: String

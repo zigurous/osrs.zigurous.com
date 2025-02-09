@@ -1,0 +1,584 @@
+[
+  {
+    "id": "Abyssal_pearls",
+    "icon": "Abyssal_pearls_5"
+  },
+  {
+    "id": "Alchemist_labcoat",
+    "icon": "Alchemist_labcoat_(apron_off)"
+  },
+  {
+    "id": "Alchemist_pants",
+    "icon": "Alchemist_pants_(apron_off)"
+  },
+  {
+    "id": "Alchemist's_amulet",
+    "icon": "Alchemist's_amulet_(charged)"
+  },
+  {
+    "id": "Amulet_of_the_monarchs",
+    "tags": ["unique"]
+  },
+  {
+    "id": "Amylase_crystal",
+    "icon": "Amylase_crystal_5"
+  },
+  {
+    "id": "Arrow_shaft",
+    "icon": "Arrow_shaft_5"
+  },
+  {
+    "id": "Auto-weed",
+    "icon": "Weeds"
+  },
+  {
+    "id": "Bag_full_of_gems",
+    "icon": "Bag_full_of_gems_(golden_nuggets)"
+  },
+  {
+    "id": "Bank",
+    "icon": "Mahogany_chest_icon"
+  },
+  {
+    "id": "Bank_chest",
+    "icon": "Mahogany_chest_icon"
+  },
+  {
+    "id": "Barb-tailed_kebbit",
+    "icon": "Barb-tailed_kebbit_icon"
+  },
+  {
+    "id": "Bird_nest",
+    "icon": "Bird_nest_(empty)"
+  },
+  {
+    "id": "Bird_nest_(egg)",
+    "icon": "Bird_nest_(red_egg)"
+  },
+  {
+    "id": "Black_salamander_(Hunter)",
+    "icon": "Black_salamander",
+    "name": "Black Salamander"
+  },
+  {
+    "id": "Black_warlock",
+    "icon": "Black_warlock_icon"
+  },
+  {
+    "id": "Blessed_bone_statuette",
+    "icon": "Blessed_bone_statuette_(eagle)"
+  },
+  {
+    "id": "Bolt_rack",
+    "icon": "Bolt_rack_5"
+  },
+  {
+    "id": "Bonemeal",
+    "icon": "Dragon_bonemeal"
+  },
+  {
+    "id": "Brimstone_key",
+    "icon": "Brimstone_key_1"
+  },
+  {
+    "id": "Broad_arrows",
+    "icon": "Broad_arrows_5"
+  },
+  {
+    "id": "Broad_arrowheads",
+    "icon": "Broad_arrowheads_5"
+  },
+  {
+    "id": "Butler",
+    "icon": "Butler_chathead"
+  },
+  {
+    "id": "Carnivorous_chinchompa",
+    "icon": "Red_chinchompa"
+  },
+  {
+    "id": "Cerulean_twitch",
+    "icon": "Cerulean_twitch_icon"
+  },
+  {
+    "id": "Chinchompa_(Hunter)",
+    "icon": "Chinchompa",
+    "name": "Chinchompa"
+  },
+  {
+    "id": "Clue_nest",
+    "icon": "Clue_nest_(beginner)"
+  },
+  {
+    "id": "Coin_pouch",
+    "icon": "Coin_pouch_(man_&_woman)"
+  },
+  {
+    "id": "Coins",
+    "icon": "Coins_10000"
+  },
+  {
+    "id": "Common_kebbit",
+    "icon": "Common_kebbit_icon"
+  },
+  {
+    "id": "Cook_(servant)",
+    "icon": "Cook_(servant)_chathead"
+  },
+  {
+    "id": "Copper_longtail",
+    "icon": "Copper_longtail_icon"
+  },
+  {
+    "id": "Crimson_swift",
+    "icon": "Crimson_swift_icon"
+  },
+  {
+    "id": "Crystal_blessing",
+    "tags": ["unique"]
+  },
+  {
+    "id": "Crystal_acorn",
+    "icon": "Crystal_acorn_5"
+  },
+  {
+    "id": "Crystal_armour_seed",
+    "icon": "Crystal_armour_seed"
+  },
+  {
+    "id": "Crystal_shard",
+    "icon": "Crystal_shard_25"
+  },
+  {
+    "id": "Crystal_tool_seed",
+    "icon": "Crystal_tool_seed"
+  },
+  {
+    "id": "Crystal_weapon_seed",
+    "icon": "Crystal_weapon_seed"
+  },
+  {
+    "id": "Dark_kebbit",
+    "icon": "Dark_kebbit_icon"
+  },
+  {
+    "id": "Dashing_kebbit",
+    "icon": "Dashing_kebbit_icon"
+  },
+  {
+    "id": "Deadman's_cape#Cosmetic",
+    "icon": "Deadman's_cape_(cosmetic)",
+    "name": "Deadman's cape"
+  },
+  {
+    "id": "Deadman's_chest#Cosmetic",
+    "icon": "Deadman's_chest_(cosmetic)",
+    "name": "Deadman's chest"
+  },
+  {
+    "id": "Deadman's_legs#Cosmetic",
+    "icon": "Deadman's_legs_(cosmetic)",
+    "name": "Deadman's legs"
+  },
+  {
+    "id": "Demon_butler",
+    "icon": "Demon_butler_chathead"
+  },
+  {
+    "id": "Desert_devil",
+    "icon": "Desert_devil_icon"
+  },
+  {
+    "id": "Devil's_element",
+    "tags": ["unique"]
+  },
+  {
+    "id": "Drygore_blowpipe",
+    "tags": ["unique"]
+  },
+  {
+    "id": "Ecto-token",
+    "icon": "Ecto-token_3"
+  },
+  {
+    "id": "Embertailed_jerboa",
+    "icon": "Embertailed_jerboa_icon"
+  },
+  {
+    "id": "Emperor_ring",
+    "tags": ["unique"]
+  },
+  {
+    "id": "Enhanced_crystal_teleport_seed",
+    "icon": "Enhanced_crystal_teleport_seed"
+  },
+  {
+    "id": "Enhanced_crystal_weapon_seed",
+    "icon": "Enhanced_crystal_weapon_seed"
+  },
+  {
+    "id": "Feldip_weasel",
+    "icon": "Feldip_weasel_icon"
+  },
+  {
+    "id": "Fossil_Island_fossil",
+    "icon": "Unidentified_large_fossil"
+  },
+  {
+    "id": "Ghommal's_hilt",
+    "icon": "Ghommal's_hilt_6"
+  },
+  {
+    "id": "Glistening_tear",
+    "icon": "Glistening_tear_5"
+  },
+  {
+    "id": "Gloves_of_the_damned",
+    "tags": ["unique"]
+  },
+  {
+    "id": "Goading_potion",
+    "icon": "Goading_potion(4)"
+  },
+  {
+    "id": "Gold_decorative_armour",
+    "icon": "Cw_armour_3_icon"
+  },
+  {
+    "id": "Golden_armadyl_special_attack",
+    "icon": "Armadyl_hilt"
+  },
+  {
+    "id": "Golden_bandos_special_attack",
+    "icon": "Bandos_hilt"
+  },
+  {
+    "id": "Golden_saradomin_special_attack",
+    "icon": "Saradomin_hilt"
+  },
+  {
+    "id": "Golden_zamorak_special_attack",
+    "icon": "Zamorak_hilt"
+  },
+  {
+    "id": "Golden_warbler",
+    "icon": "Golden_warbler_icon"
+  },
+  {
+    "id": "Grimy_herb",
+    "icon": "Grimy_guam_leaf",
+    "name": "Grimy Herbs"
+  },
+  {
+    "id": "Hallowed_mark",
+    "icon": "Hallowed_mark_25"
+  },
+  {
+    "id": "Herb",
+    "name": "Herbs"
+  },
+  {
+    "id": "Horned_graahk",
+    "icon": "Horned_graahk_icon"
+  },
+  {
+    "id": "House_keys",
+    "icon": "House_keys_1"
+  },
+  {
+    "id": "Hunter_Kit_(spell)",
+    "icon": "Hunter_Kit",
+    "name": "Hunter Kit"
+  },
+  {
+    "id": "Hunter_spear_tips",
+    "icon": "Hunter_spear_tips_5"
+  },
+  {
+    "id": "Imbuing",
+    "icon": "Scroll_of_imbuing"
+  },
+  {
+    "id": "Javelin_shaft",
+    "icon": "Javelin_shaft_5"
+  },
+  {
+    "id": "Karamjan_monkey_(item)",
+    "name": "Karamjan Monkey"
+  },
+  {
+    "id": "Kebbit_bolts",
+    "icon": "Kebbit_bolts"
+  },
+  {
+    "id": "Larran's_key",
+    "icon": "Larran's_key_1"
+  },
+  {
+    "id": "Long_kebbit_bolts",
+    "icon": "Long_kebbit_bolts"
+  },
+  {
+    "id": "Maid",
+    "icon": "Maid_chathead"
+  },
+  {
+    "id": "Maniacal_monkey_(item)",
+    "name": "Maniacal Monkey"
+  },
+  {
+    "id": "Mermaid's_tear",
+    "icon": "Mermaid's_tear_5"
+  },
+  {
+    "id": "Moonlight_antelope",
+    "icon": "Moonlight_antelope_icon"
+  },
+  {
+    "id": "Moonlight_moth",
+    "icon": "Moonlight_moth_icon"
+  },
+  {
+    "id": "Nature's_reprisal",
+    "tags": ["unique"]
+  },
+  {
+    "id": "Naval_shirt",
+    "icon": "Grey_naval_shirt"
+  },
+  {
+    "id": "Navy_slacks",
+    "icon": "Grey_navy_slacks"
+  },
+  {
+    "id": "Nothing",
+    "icon": "Bank_filler"
+  },
+  {
+    "id": "Numulite",
+    "icon": "Numulite_25"
+  },
+  {
+    "id": "Ogre_arrow_shaft",
+    "icon": "Ogre_arrow_shaft_5"
+  },
+  {
+    "id": "Orange_salamander_(Hunter)",
+    "icon": "Orange_salamander",
+    "name": "Orange Salamander"
+  },
+  {
+    "id": "Pharaoh's_sceptre",
+    "icon": "Pharaoh's_sceptre_(1)"
+  },
+  {
+    "id": "Pieces_of_eight",
+    "icon": "Pieces_of_eight_1"
+  },
+  {
+    "id": "Polar_kebbit",
+    "icon": "Polar_kebbit_icon"
+  },
+  {
+    "id": "Prescription_goggles",
+    "icon": "Prescription_goggles_(focused)"
+  },
+  {
+    "id": "Prickly_kebbit",
+    "icon": "Prickly_kebbit_icon"
+  },
+  {
+    "id": "Pyre_fox",
+    "icon": "Pyre_fox_icon"
+  },
+  {
+    "id": "Raids_megarare_voucher",
+    "tags": ["unique"]
+  },
+  {
+    "id": "Razor-backed_kebbit",
+    "icon": "Razor-backed_kebbit_icon"
+  },
+  {
+    "id": "Red_decorative_armour",
+    "icon": "Cw_armour_1_icon"
+  },
+  {
+    "id": "Red_salamander_(Hunter)",
+    "icon": "Red_salamander",
+    "name": "Red Salamander"
+  },
+  {
+    "id": "Revenant_ether",
+    "icon": "Revenant_ether_5"
+  },
+  {
+    "id": "Rick",
+    "icon": "Rick_chathead"
+  },
+  {
+    "id": "Ruby_harvest",
+    "icon": "Ruby_harvest_icon"
+  },
+  {
+    "id": "Sabre-toothed_kebbit",
+    "icon": "Sabre-toothed_kebbit_icon"
+  },
+  {
+    "id": "Sabre-toothed_kyatt",
+    "icon": "Sabre-toothed_kyatt_icon"
+  },
+  {
+    "id": "Sapphire_glacialis",
+    "icon": "Sapphire_glacialis_icon"
+  },
+  {
+    "id": "Saradomin_brew",
+    "icon": "Saradomin_brew(4)"
+  },
+  {
+    "id": "Scythe_of_vitur",
+    "tags": ["megarare"]
+  },
+  {
+    "id": "Seaweed_spore",
+    "icon": "Seaweed_spore_5"
+  },
+  {
+    "id": "Skeleton_monkey_(item)",
+    "name": "Skeleton Monkey"
+  },
+  {
+    "id": "Snowy_knight",
+    "icon": "Snowy_knight_icon"
+  },
+  {
+    "id": "Soul_cape",
+    "icon": "Soul_cape_(red)"
+  },
+  {
+    "id": "Spined_larupia",
+    "icon": "Spined_larupia_icon"
+  },
+  {
+    "id": "Spirit_flakes",
+    "icon": "Spirit_flakes_9"
+  },
+  {
+    "id": "Spotted_kebbit",
+    "icon": "Spotted_kebbit_icon"
+  },
+  {
+    "id": "Stardust",
+    "icon": "Stardust_175"
+  },
+  {
+    "id": "Sunfire_splinters",
+    "icon": "Sunfire_splinters_4"
+  },
+  {
+    "id": "Sunlight_antelope",
+    "icon": "Sunlight_antelope_icon"
+  },
+  {
+    "id": "Sunlight_Moth",
+    "icon": "Sunlight_Moth_icon"
+  },
+  {
+    "id": "Sunlight_spear",
+    "tags": ["unique"]
+  },
+  {
+    "id": "Sunlit_bracers",
+    "tags": ["unique"]
+  },
+  {
+    "id": "Supply_crate_(Mahogany_Homes)",
+    "name": "Supply Crate"
+  },
+  {
+    "id": "Tecu_salamander_(Hunter)",
+    "icon": "Tecu_salamander",
+    "name": "Tecu Salamander"
+  },
+  {
+    "id": "The_dogsword",
+    "tags": ["unique"]
+  },
+  {
+    "id": "Thousand-dragon_ward",
+    "tags": ["unique"]
+  },
+  {
+    "id": "Thunder_khopesh",
+    "tags": ["unique"]
+  },
+  {
+    "id": "Trading_sticks",
+    "icon": "Trading_sticks_10000"
+  },
+  {
+    "id": "Tribal_top",
+    "icon": "Tribal_top_(brown)"
+  },
+  {
+    "id": "Tricorn_hat",
+    "icon": "Grey_tricorn_hat"
+  },
+  {
+    "id": "Tropical_wagtail",
+    "icon": "Tropical_wagtail_icon"
+  },
+  {
+    "id": "Tumeken's_shadow",
+    "tags": ["megarare"]
+  },
+  {
+    "id": "Twisted_bow",
+    "tags": ["megarare"]
+  },
+  {
+    "id": "Valuables",
+    "icon": "Valuables_5"
+  },
+  {
+    "id": "Villager_robe",
+    "icon": "Villager_robe_(brown)"
+  },
+  {
+    "id": "Villager_hat",
+    "icon": "Villager_hat_(brown)"
+  },
+  {
+    "id": "Villager_sandals",
+    "icon": "Villager_sandals_(brown)"
+  },
+  {
+    "id": "Villager_armband",
+    "icon": "Villager_armband_(brown)"
+  },
+  {
+    "id": "White_decorative_armour",
+    "icon": "Cw_armour_2_icon"
+  },
+  {
+    "id": "White_rabbit",
+    "icon": "White_rabbit_icon"
+  },
+  {
+    "id": "Wild_kebbit",
+    "icon": "Wild_kebbit_icon"
+  },
+  {
+    "id": "XP",
+    "icon": "XP_drops_icon"
+  },
+  {
+    "id": "Zombie_monkey_(item)",
+    "name": "Zombie Monkey"
+  },
+  {
+    "id": "Zombie_pirate_key",
+    "icon": "Zombie_pirate_key_1"
+  }
+]

@@ -7,6 +7,8 @@ export function toTitleCase(title: string): string {
     .replace(/(?<!')\b(?!')\w/g, l => l.toUpperCase())
     .replace(' Of ', ' of ')
     .replace(' De ', ' de ')
+    .replace(' The ', ' the ')
+    .replace(' And ', ' and ')
     .replace('(E)', '(e)');
 }
 
