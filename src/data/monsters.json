@@ -1,0 +1,3168 @@
+[
+  {
+    "id": "Aberrant_spectre",
+    "requiredCombatLevel": 65,
+    "requiredSlayerLevel": 60,
+    "slayerMasters": [
+      "Vannaka",
+      "Chaeldar",
+      "Konar_quo_Maten",
+      "Nieve",
+      "Duradel"
+    ],
+    "locations": [
+      "Slayer_Tower",
+      "Stronghold_Slayer_Cave"
+    ],
+    "notableDrops": [
+      "Lava_battlestaff",
+      "Mystic_robe_bottom_(dark)"
+    ]
+  },
+  {
+    "id": "Abyssal_demon",
+    "requiredCombatLevel": 85,
+    "requiredSlayerLevel": 85,
+    "slayerMasters": [
+      "Krystilia",
+      "Vannaka",
+      "Chaeldar",
+      "Konar_quo_Maten",
+      "Nieve",
+      "Duradel"
+    ],
+    "locations": [
+      "Slayer_Tower",
+      "Catacombs_of_Kourend",
+      "Abyssal_Area",
+      "Wilderness_Slayer_Cave"
+    ],
+    "notableDrops": [
+      "Abyssal_whip",
+      "Abyssal_dagger",
+      "Abyssal_head"
+    ]
+  },
+  {
+    "id": "Abyssal_Sire",
+    "subtitle": "Boss",
+    "requiredCombatLevel": 85,
+    "requiredSlayerLevel": 85,
+    "slayerMasters": [
+      "Vannaka",
+      "Chaeldar",
+      "Konar_quo_Maten",
+      "Nieve",
+      "Duradel"
+    ],
+    "locations": [
+      "Abyssal_Nexus"
+    ],
+    "notableDrops": [
+      "Abyssal_orphan",
+      "Unsired",
+      "Abyssal_head",
+      "Abyssal_dagger",
+      "Abyssal_whip",
+      "Jar_of_miasma",
+      "#newline",
+      "Bludgeon_spine",
+      "Bludgeon_claw",
+      "Bludgeon_axon",
+      "#transmute",
+      "Abyssal_bludgeon"
+    ]
+  },
+  {
+    "id": "Adamant_dragon",
+    "slayerMasters": [
+      "Konar_quo_Maten",
+      "Nieve",
+      "Duradel"
+    ],
+    "locations": [
+      "Lithkren_Vault"
+    ],
+    "notableDrops": [
+      "Draconic_visage",
+      "Dragon_metal_slice",
+      "Dragon_limbs",
+      "Dragon_plateskirt",
+      "Dragon_platelegs"
+    ]
+  },
+  {
+    "id": "Alchemical_Hydra",
+    "subtitle": "Boss",
+    "requiredSlayerLevel": 95,
+    "slayerMasters": [
+      "Konar_quo_Maten"
+    ],
+    "locations": [
+      "Karuulm_Slayer_Dungeon"
+    ],
+    "notableDrops": [
+      "Ikkle_hydra",
+      "Hydra's_claw",
+      "Hydra_leather",
+      "Hydra_tail",
+      "Hydra's_eye",
+      "Hydra's_fang",
+      "Hydra's_heart",
+      "Alchemical_hydra_heads",
+      "Jar_of_chemicals",
+      "Dragon_knife",
+      "Dragon_thrownaxe"
+    ]
+  },
+  {
+    "id": "Ancient_Wyvern",
+    "requiredCombatLevel": 60,
+    "requiredSlayerLevel": 82,
+    "slayerMasters": [
+      "Chaeldar",
+      "Konar_quo_Maten",
+      "Nieve",
+      "Duradel"
+    ],
+    "locations": [
+      "Wyvern_Cave"
+    ],
+    "notableDrops": [
+      "Wyvern_visage",
+      "Granite_longsword",
+      "Granite_boots"
+    ]
+  },
+  {
+    "id": "Ankou",
+    "requiredCombatLevel": 40,
+    "slayerMasters": [
+      "Krystilia",
+      "Vannaka",
+      "Konar_quo_Maten",
+      "Nieve",
+      "Duradel"
+    ],
+    "locations": [
+      "The_Forgotten_Cemetery",
+      "Wilderness_Slayer_Cave",
+      "Stronghold_Slayer_Cave",
+      "Catacombs_of_Kourend"
+    ]
+  },
+  {
+    "id": "Ankou",
+    "requiredCombatLevel": 40,
+    "slayerMasters": [
+      "Vannaka",
+      "Konar_quo_Maten",
+      "Nieve",
+      "Duradel"
+    ],
+    "locations": [
+      "Stronghold_of_Security"
+    ],
+    "notableDrops": [
+      "Left_skull_half"
+    ]
+  },
+  {
+    "id": "Araxxor",
+    "icon": "Nid",
+    "subtitle": "Boss",
+    "requiredSlayerLevel": 92,
+    "slayerMasters": [
+      "Nieve",
+      "Duradel"
+    ],
+    "locations": [
+      "Morytania_Spider_Cave"
+    ],
+    "notableDrops": [
+      "Nid",
+      "Araxyte_fang",
+      "Noxious_point",
+      "Noxious_blade",
+      "Noxious_pommel",
+      "Araxyte_head",
+      "Jar_of_venom",
+      "Coagulated_venom",
+      "Araxyte_venom_sack",
+      "Spider_cave_teleport"
+    ]
+  },
+  {
+    "id": "Araxyte",
+    "requiredSlayerLevel": 92,
+    "slayerMasters": [
+      "Nieve",
+      "Duradel"
+    ],
+    "locations": [
+      "Morytania_Spider_Cave"
+    ],
+    "notableDrops": [
+      "Aranea_boots",
+      "Araxyte_venom_sack"
+    ]
+  },
+  {
+    "id": "Armoured_Zombie",
+    "icon": "Broken_zombie_helmet",
+    "requiredCombatLevel": 10,
+    "slayerMasters": [
+      "Turael",
+      "Spria",
+      "Mazchna"
+    ],
+    "locations": [
+      "Zemouregal's_Base"
+    ],
+    "notableDrops": [
+      "Broken_zombie_axe",
+      "Zombie_champion_scroll"
+    ],
+    "hideFromMenu": true
+  },
+  {
+    "id": "Armoured_zombie_(Zemouregal's_Fort)",
+    "icon": "Broken_zombie_helmet",
+    "name": "Armoured Zombie",
+    "subtitle": "Zemouregal's Fort",
+    "requiredCombatLevel": 10,
+    "slayerMasters": [
+      "Turael",
+      "Spria",
+      "Mazchna"
+    ],
+    "locations": [
+      "Zemouregal's_Fort"
+    ],
+    "notableDrops": [
+      "Broken_zombie_axe",
+      "Broken_zombie_helmet",
+      "Zombie_champion_scroll"
+    ],
+    "hideFromMenu": true
+  },
+  {
+    "id": "Aviansie",
+    "icon": "Ensouled_aviansie_head",
+    "slayerMasters": [
+      "Krystilia",
+      "Chaeldar",
+      "Konar_quo_Maten",
+      "Nieve",
+      "Duradel"
+    ],
+    "locations": [
+      "God_Wars_Dungeon",
+      "Wilderness_God_Wars_Dungeon"
+    ]
+  },
+  {
+    "id": "Bandit",
+    "icon": "Highwayman_mask",
+    "requiredCombatLevel": 40,
+    "slayerMasters": [
+      "Krystilia"
+    ],
+    "locations": [
+      "Bandit_Camp_(Wilderness)"
+    ]
+  },
+  {
+    "id": "Banshee",
+    "requiredCombatLevel": 20,
+    "requiredSlayerLevel": 15,
+    "slayerMasters": [
+      "Turael",
+      "Spria",
+      "Mazchna"
+    ],
+    "locations": [
+      "Slayer_Tower"
+    ],
+    "notableDrops": [
+      "Mystic_gloves_(dark)"
+    ]
+  },
+  {
+    "id": "Basilisk",
+    "requiredCombatLevel": 40,
+    "requiredSlayerLevel": 40,
+    "slayerMasters": [
+      "Vannaka",
+      "Chaeldar",
+      "Konar_quo_Maten",
+      "Nieve",
+      "Duradel"
+    ],
+    "locations": [
+      "Fremennik_Slayer_Dungeon",
+      "Jormungand's_Prison"
+    ],
+    "notableDrops": [
+      "Mystic_hat_(light)",
+      "Basilisk_head"
+    ]
+  },
+  {
+    "id": "Basilisk_Knight",
+    "requiredCombatLevel": 40,
+    "requiredSlayerLevel": 60,
+    "slayerMasters": [
+      "Chaeldar",
+      "Konar_quo_Maten",
+      "Nieve",
+      "Duradel"
+    ],
+    "locations": [
+      "Jormungand's_Prison"
+    ],
+    "notableDrops": [
+      "Basilisk_jaw",
+      "Basilisk_head"
+    ]
+  },
+  {
+    "id": "Bat",
+    "icon": "Bat_wing",
+    "requiredCombatLevel": 5,
+    "slayerMasters": [
+      "Turael",
+      "Spria",
+      "Mazchna"
+    ],
+    "locations": [
+      "Mos_Le'Harmless_Cave",
+      "Abandoned_Mine",
+      "Silvarea",
+      "Haunted_Woods",
+      "Taverley_Dungeon",
+      "Dark_Altar",
+      "Coal_Trucks",
+      "Mount_Karuulm",
+      "Wilderness",
+      "Slayer_Tower",
+      "Underground_Pass_(dungeon)",
+      "Slepe",
+      "Goblin_Cave",
+      "Yanille_Agility_Dungeon",
+      "Legends'_Guild#Dungeon",
+      "Heroes'_Guild#Basement",
+      "Chaos_Druid_Tower",
+      "Brine_Rat_Cavern"
+    ]
+  },
+  {
+    "id": "Bear",
+    "icon": "Ensouled_bear_head",
+    "requiredCombatLevel": 13,
+    "slayerMasters": [
+      "Krystilia",
+      "Turael",
+      "Spria",
+      "Mazchna"
+    ],
+    "locations": [
+      "Wilderness",
+      "Rellekka",
+      "Ardougne",
+      "Kebos_Lowlands",
+      "Isafdar",
+      "Mind_Altar",
+      "Varrock"
+    ]
+  },
+  {
+    "id": "Bird",
+    "icon": "Rubber_chicken",
+    "slayerMasters": [
+      "Turael",
+      "Spria"
+    ],
+    "locations": [
+      "River_Lum",
+      "Lumbridge",
+      "South_Falador_Farm",
+      "Port_Sarim",
+      "Corsair_Cove",
+      "Port_Piscarilius"
+    ],
+    "hideFromMenu": true
+  },
+  {
+    "id": "Black_demon",
+    "icon": "Black_demon_mask",
+    "requiredCombatLevel": 80,
+    "slayerMasters": [
+      "Krystilia",
+      "Chaeldar",
+      "Konar_quo_Maten",
+      "Nieve",
+      "Duradel"
+    ],
+    "locations": [
+      "Taverley_Dungeon",
+      "Edgeville_Dungeon#Wilderness_area_(members_only)",
+      "Brimhaven_Dungeon",
+      "Catacombs_of_Kourend",
+      "Chasm_of_Fire",
+      "Wilderness_Slayer_Cave"
+    ]
+  },
+  {
+    "id": "Black_dragon",
+    "requiredCombatLevel": 80,
+    "slayerMasters": [
+      "Krystilia",
+      "Konar_quo_Maten",
+      "Nieve",
+      "Duradel"
+    ],
+    "locations": [
+      "Taverley_Dungeon",
+      "Lava_Maze_Dungeon",
+      "Evil_Chicken's_Lair",
+      "Myths'_Guild#Basement",
+      "Wilderness_Slayer_Cave"
+    ],
+    "notableDrops": [
+      "Draconic_visage"
+    ]
+  },
+  {
+    "id": "Black_Knight",
+    "icon": "Elite_black_full_helm",
+    "slayerMasters": [
+      "Krystilia"
+    ],
+    "locations": [
+      "Wilderness",
+      "Lava_Maze"
+    ]
+  },
+  {
+    "id": "Bloodveld",
+    "requiredCombatLevel": 50,
+    "requiredSlayerLevel": 50,
+    "slayerMasters": [
+      "Krystilia",
+      "Vannaka",
+      "Chaeldar",
+      "Konar_quo_Maten",
+      "Nieve",
+      "Duradel"
+    ],
+    "locations": [
+      "Slayer_Tower",
+      "Stronghold_Slayer_Cave",
+      "God_Wars_Dungeon",
+      "Wilderness_God_Wars_Dungeon",
+      "Meiyerditch_Laboratories"
+    ],
+    "notableDrops": [
+      "Black_boots"
+    ]
+  },
+  {
+    "id": "Blue_dragon",
+    "icon": "Blue_dragon_mask",
+    "requiredCombatLevel": 65,
+    "slayerMasters": [
+      "Vannaka",
+      "Chaeldar",
+      "Konar_quo_Maten",
+      "Nieve",
+      "Duradel"
+    ],
+    "locations": [
+      "Taverley_Dungeon",
+      "Ruins_of_Tapoyauik",
+      "Ogre_Enclave",
+      "Myths'_Guild#Basement",
+      "Isle_of_Souls_Dungeon",
+      "Heroes'_Guild#Basement"
+    ],
+    "notableDrops": [
+      "Scaly_blue_dragonhide"
+    ]
+  },
+  {
+    "id": "Brimstone_chest",
+    "icon": "Brimstone_key_1",
+    "slayerMasters": [
+      "Konar_quo_Maten"
+    ],
+    "locations": [
+      "Mount_Karuulm"
+    ],
+    "notableDrops": [
+      "Brimstone_key",
+      "#transmute",
+      "Mystic_hat_(dusk)",
+      "Mystic_robe_top_(dusk)",
+      "Mystic_robe_bottom_(dusk)",
+      "Mystic_gloves_(dusk)",
+      "Mystic_boots_(dusk)",
+      "Broken_dragon_hasta"
+    ],
+    "hideFromMenu": true
+  },
+  {
+    "id": "Brine_rat",
+    "requiredCombatLevel": 45,
+    "requiredSlayerLevel": 47,
+    "slayerMasters": [
+      "Vannaka",
+      "Chaeldar",
+      "Konar_quo_Maten",
+      "Nieve"
+    ],
+    "locations": [
+      "Brine_Rat_Cavern"
+    ],
+    "notableDrops": [
+      "Brine_sabre"
+    ]
+  },
+  {
+    "id": "Bronze_dragon",
+    "icon": "Bronze_dragon_mask",
+    "requiredCombatLevel": 75,
+    "slayerMasters": [
+      "Konar_quo_Maten"
+    ],
+    "locations": [
+      "Brimhaven_Dungeon",
+      "Catacombs_of_Kourend"
+    ],
+    "notableDrops": [
+      "Dragon_plateskirt",
+      "Dragon_platelegs"
+    ]
+  },
+  {
+    "id": "Brutal_black_dragon",
+    "requiredCombatLevel": 80,
+    "requiredSlayerLevel": 77,
+    "slayerMasters": [
+      "Konar_quo_Maten",
+      "Nieve",
+      "Duradel"
+    ],
+    "locations": [
+      "Catacombs_of_Kourend"
+    ],
+    "notableDrops": [
+      "Draconic_visage",
+      "Dragon_plateskirt",
+      "Dragon_platelegs",
+      "Dragon_spear"
+    ]
+  },
+  {
+    "id": "Brutal_blue_dragon",
+    "icon": "Blue_dragon_mask",
+    "requiredCombatLevel": 65,
+    "slayerMasters": [
+      "Konar_quo_Maten",
+      "Nieve",
+      "Duradel"
+    ],
+    "locations": [
+      "Catacombs_of_Kourend",
+      "Ruins_of_Tapoyauik"
+    ],
+    "notableDrops": [
+      "Draconic_visage",
+      "Scaly_blue_dragonhide"
+    ],
+    "hideFromMenu": true
+  },
+  {
+    "id": "Brutal_red_dragon",
+    "icon": "Red_dragon_icon",
+    "requiredCombatLevel": 68,
+    "slayerMasters": [
+      "Konar_quo_Maten",
+      "Nieve",
+      "Duradel"
+    ],
+    "locations": [
+      "Catacombs_of_Kourend"
+    ],
+    "notableDrops": [
+      "Draconic_visage"
+    ],
+    "hideFromMenu": true
+  },
+  {
+    "id": "Catablepon",
+    "icon": "Moss_lizard_tail",
+    "requiredCombatLevel": 35,
+    "slayerMasters": [
+      "Mazchna"
+    ],
+    "locations": [
+      "Stronghold_of_Security"
+    ],
+    "notableDrops": [
+      "Top_of_sceptre"
+    ]
+  },
+  {
+    "id": "Cave_bug",
+    "requiredSlayerLevel": 7,
+    "slayerMasters": [
+      "Turael",
+      "Spria",
+      "Mazchna"
+    ],
+    "locations": [
+      "Lumbridge_Swamp_Caves",
+      "Dorgesh-Kaan_South_Dungeon"
+    ]
+  },
+  {
+    "id": "Cave_crawler",
+    "requiredCombatLevel": 10,
+    "requiredSlayerLevel": 10,
+    "slayerMasters": [
+      "Turael",
+      "Spria",
+      "Mazchna"
+    ],
+    "locations": [
+      "Fremennik_Slayer_Dungeon",
+      "Lumbridge_Swamp_Caves",
+      "Dorgesh-Kaan_South_Dungeon",
+      "Ruins_of_Tapoyauik"
+    ],
+    "notableDrops": [
+      "Bronze_boots"
+    ]
+  },
+  {
+    "id": "Cave_horror",
+    "requiredCombatLevel": 85,
+    "requiredSlayerLevel": 58,
+    "slayerMasters": [
+      "Chaeldar",
+      "Nieve",
+      "Duradel"
+    ],
+    "locations": [
+      "Mos_Le'Harmless_Cave"
+    ],
+    "notableDrops": [
+      "Black_mask"
+    ]
+  },
+  {
+    "id": "Cave_kraken",
+    "requiredCombatLevel": 80,
+    "requiredSlayerLevel": 87,
+    "slayerMasters": [
+      "Chaeldar",
+      "Konar_quo_Maten",
+      "Nieve",
+      "Duradel"
+    ],
+    "locations": [
+      "Kraken_Cove"
+    ],
+    "notableDrops": [
+      "Uncharged_trident"
+    ]
+  },
+  {
+    "id": "Cave_slime",
+    "requiredCombatLevel": 15,
+    "requiredSlayerLevel": 17,
+    "slayerMasters": [
+      "Turael",
+      "Spria",
+      "Mazchna"
+    ],
+    "locations": [
+      "Lumbridge_Swamp_Caves",
+      "Dorgesh-Kaan_South_Dungeon"
+    ],
+    "notableDrops": [
+      "Iron_boots"
+    ]
+  },
+  {
+    "id": "Cerberus",
+    "subtitle": "Boss",
+    "requiredSlayerLevel": 91,
+    "slayerMasters": [
+      "Vannaka",
+      "Chaeldar",
+      "Konar_quo_Maten",
+      "Nieve",
+      "Duradel"
+    ],
+    "locations": [
+      "Cerberus'_Lair"
+    ],
+    "notableDrops": [
+      "Hellpuppy",
+      "Eternal_crystal",
+      "Pegasian_crystal",
+      "Primordial_crystal",
+      "Smouldering_stone",
+      "Jar_of_souls",
+      "Key_master_teleport"
+    ]
+  },
+  {
+    "id": "Chaos_druid",
+    "icon": "Ensouled_chaos_druid_head",
+    "slayerMasters": [
+      "Krystilia"
+    ],
+    "locations": [
+      "Edgeville_Dungeon#Wilderness_area_(members_only)"
+    ]
+  },
+  {
+    "id": "Chilled_jelly",
+    "icon": "Jelly_icon",
+    "requiredCombatLevel": 57,
+    "requiredSlayerLevel": 52,
+    "slayerMasters": [
+      "Vannaka",
+      "Chaeldar",
+      "Konar_quo_Maten"
+    ],
+    "locations": [
+      "Ruins_of_Tapoyauik"
+    ],
+    "notableDrops": [
+      "Mithril_boots"
+    ]
+  },
+  {
+    "id": "Cockatrice",
+    "requiredCombatLevel": 25,
+    "requiredSlayerLevel": 25,
+    "slayerMasters": [
+      "Mazchna",
+      "Vannaka"
+    ],
+    "locations": [
+      "Fremennik_Slayer_Dungeon"
+    ],
+    "notableDrops": [
+      "Cockatrice_head",
+      "Mystic_boots_(light)"
+    ]
+  },
+  {
+    "id": "Cow",
+    "icon": "Cow_mask",
+    "requiredCombatLevel": 5,
+    "slayerMasters": [
+      "Turael",
+      "Spria"
+    ],
+    "locations": [
+      "Lumbridge",
+      "Ardougne",
+      "Crafting_Guild",
+      "Gwenith",
+      "South_Falador_Farm",
+      "Hosidius",
+      "Zanaris",
+      "Isle_of_Souls",
+      "Kebos_Lowlands"
+    ],
+    "hideFromMenu": true
+  },
+  {
+    "id": "Crawling_Hand",
+    "requiredSlayerLevel": 5,
+    "slayerMasters": [
+      "Turael",
+      "Spria",
+      "Mazchna"
+    ],
+    "locations": [
+      "Slayer_Tower"
+    ],
+    "notableDrops": [
+      "Crawling_hand_(item)"
+    ]
+  },
+  {
+    "id": "Crocodile",
+    "icon": "Zebo",
+    "requiredCombatLevel": 50,
+    "slayerMasters": [
+      "Vannaka"
+    ],
+    "locations": [
+      "River_Elid",
+      "Ruins_of_Ullek",
+      "Ruins_of_Unkah"
+    ]
+  },
+  {
+    "id": "Cyclops",
+    "icon": "Cyclops_head",
+    "requiredCombatLevel": 25,
+    "slayerMasters": [
+      "Mazchna",
+      "Vannaka"
+    ],
+    "locations": [
+      "Warriors'_Guild"
+    ],
+    "notableDrops": [
+      "Dragon_defender",
+      "Rune_defender"
+    ]
+  },
+  {
+    "id": "Dagannoth",
+    "icon": "Ensouled_dagannoth_head",
+    "requiredCombatLevel": 75,
+    "slayerMasters": [
+      "Vannaka",
+      "Chaeldar",
+      "Konar_quo_Maten",
+      "Nieve",
+      "Duradel"
+    ],
+    "locations": [
+      "Lighthouse#Dungeon",
+      "Waterbirth_Island_Dungeon",
+      "Catacombs_of_Kourend",
+      "Jormungand's_Prison"
+    ]
+  },
+  {
+    "id": "Dark_beast",
+    "requiredCombatLevel": 90,
+    "requiredSlayerLevel": 90,
+    "slayerMasters": [
+      "Konar_quo_Maten",
+      "Nieve",
+      "Duradel"
+    ],
+    "locations": [
+      "Mourner_Tunnels",
+      "Iorwerth_Dungeon"
+    ],
+    "notableDrops": [
+      "Dark_bow"
+    ]
+  },
+  {
+    "id": "Dark_warrior",
+    "icon": "Iron_med_helm",
+    "slayerMasters": [
+      "Krystilia"
+    ],
+    "locations": [
+      "Dark_Warriors'_Fortress"
+    ]
+  },
+  {
+    "id": "Demonic_gorilla",
+    "icon": "Zenyte_shard",
+    "requiredCombatLevel": 80,
+    "slayerMasters": [
+      "Krystilia",
+      "Chaeldar",
+      "Konar_quo_Maten",
+      "Nieve",
+      "Duradel"
+    ],
+    "locations": [
+      "Crash_Site_Cavern"
+    ],
+    "notableDrops": [
+      "Zenyte_shard",
+      "Heavy_frame",
+      "Light_frame",
+      "Ballista_limbs",
+      "Monkey_tail",
+      "Ballista_spring"
+    ]
+  },
+  {
+    "id": "Desert_Wolf",
+    "icon": "Wolf_bones",
+    "requiredCombatLevel": 20,
+    "slayerMasters": [
+      "Turael",
+      "Spria",
+      "Mazchna"
+    ],
+    "locations": [
+      "Kharidian_Desert",
+      "Necropolis"
+    ]
+  },
+  {
+    "id": "Deviant_spectre",
+    "icon": "Aberrant_spectre_icon",
+    "requiredCombatLevel": 65,
+    "requiredSlayerLevel": 60,
+    "slayerMasters": [
+      "Vannaka",
+      "Chaeldar",
+      "Konar_quo_Maten",
+      "Nieve",
+      "Duradel"
+    ],
+    "locations": [
+      "Catacombs_of_Kourend"
+    ],
+    "notableDrops": [
+      "Lava_battlestaff",
+      "Mystic_robe_bottom_(dark)"
+    ]
+  },
+  {
+    "id": "Dire_Wolf",
+    "icon": "Wolf_mask",
+    "requiredCombatLevel": 20,
+    "slayerMasters": [
+      "Turael",
+      "Spria",
+      "Mazchna"
+    ],
+    "locations": [
+      "Wolf_Den",
+      "Mynydd",
+      "Arandar",
+      "Isafdar",
+      "Lletya"
+    ]
+  },
+  {
+    "id": "Drake",
+    "requiredSlayerLevel": 84,
+    "slayerMasters": [
+      "Konar_quo_Maten",
+      "Nieve",
+      "Duradel"
+    ],
+    "locations": [
+      "Karuulm_Slayer_Dungeon"
+    ],
+    "notableDrops": [
+      "Drake's_claw",
+      "Drake's_tooth",
+      "Dragon_knife",
+      "Dragon_thrownaxe"
+    ]
+  },
+  {
+    "id": "Dust_devil",
+    "requiredCombatLevel": 70,
+    "requiredSlayerLevel": 65,
+    "slayerMasters": [
+      "Krystilia",
+      "Vannaka",
+      "Chaeldar",
+      "Konar_quo_Maten",
+      "Nieve",
+      "Duradel"
+    ],
+    "locations": [
+      "Smoke_Dungeon",
+      "Catacombs_of_Kourend",
+      "Wilderness_Slayer_Cave"
+    ],
+    "notableDrops": [
+      "Dust_battlestaff",
+      "Dragon_chainbody"
+    ]
+  },
+  {
+    "id": "Dwarf",
+    "icon": "Mountain_Dwarf_icon",
+    "requiredCombatLevel": 6,
+    "slayerMasters": [
+      "Turael",
+      "Spria"
+    ],
+    "locations": [
+      "Dwarven_Mine",
+      "Lovakengj",
+      "Ice_Mountain",
+      "Keldagrim",
+      "Taverley_Dungeon",
+      "Yanille",
+      "Coal_Trucks",
+      "Falador"
+    ]
+  },
+  {
+    "id": "Earth_warrior",
+    "icon": "Bronze_full_helm",
+    "requiredCombatLevel": 35,
+    "slayerMasters": [
+      "Krystilia"
+    ],
+    "locations": [
+      "Edgeville_Dungeon#Wilderness_area_(members_only)"
+    ],
+    "notableDrops": [
+      "Earth_warrior_champion_scroll"
+    ]
+  },
+  {
+    "id": "Elder_Chaos_druid",
+    "icon": "Elder_chaos_hood",
+    "slayerMasters": [
+      "Krystilia"
+    ],
+    "locations": [
+      "Chaos_Temple_(Wilderness)"
+    ],
+    "notableDrops": [
+      "Elder_chaos_hood",
+      "Elder_chaos_top",
+      "Elder_chaos_robe"
+    ],
+    "hideFromMenu": true
+  },
+  {
+    "id": "Elven_Crystal_Chest",
+    "icon": "Enhanced_crystal_key",
+    "slayerMasters": [],
+    "locations": [
+      "Prifddinas"
+    ],
+    "notableDrops": [
+      "Enhanced_crystal_key",
+      "#transmute",
+      "Dragonstone_full_helm",
+      "Dragonstone_platebody",
+      "Dragonstone_platelegs",
+      "Dragonstone_gauntlets",
+      "Dragonstone_boots",
+      "Uncut_onyx"
+    ],
+    "hideFromMenu": true
+  },
+  {
+    "id": "Elves",
+    "icon": "Ensouled_elf_head",
+    "requiredCombatLevel": 70,
+    "slayerMasters": [
+      "Vannaka",
+      "Chaeldar",
+      "Nieve",
+      "Duradel"
+    ],
+    "locations": [
+      "Lletya",
+      "Prifddinas",
+      "Iorwerth_Camp",
+      "Iorwerth_Dungeon"
+    ]
+  },
+  {
+    "id": "Ent",
+    "icon": "Ent's_roots",
+    "slayerMasters": [
+      "Krystilia"
+    ],
+    "locations": [
+      "Chaos_Temple_(Wilderness)"
+    ]
+  },
+  {
+    "id": "Fever_spider",
+    "requiredCombatLevel": 40,
+    "requiredSlayerLevel": 42,
+    "slayerMasters": [
+      "Vannaka",
+      "Chaeldar"
+    ],
+    "locations": [
+      "Braindeath_Island"
+    ]
+  },
+  {
+    "id": "Fire_giant",
+    "icon": "Fire_of_Unseasonal_Warmth_icon",
+    "requiredCombatLevel": 65,
+    "slayerMasters": [
+      "Krystilia",
+      "Vannaka",
+      "Chaeldar",
+      "Konar_quo_Maten",
+      "Nieve",
+      "Duradel"
+    ],
+    "locations": [
+      "Karuulm_Slayer_Dungeon",
+      "Stronghold_Slayer_Cave",
+      "Catacombs_of_Kourend",
+      "Waterfall_Dungeon",
+      "Brimhaven_Dungeon",
+      "Giants'_Den",
+      "Isle_of_Souls_Dungeon",
+      "Smoke_Dungeon",
+      "Deep_Wilderness_Dungeon"
+    ],
+    "notableDrops": [
+      "Giant_champion_scroll"
+    ]
+  },
+  {
+    "id": "Flesh_Crawler",
+    "icon": "Swamp_cave_bug_icon_(historical)",
+    "requiredCombatLevel": 15,
+    "slayerMasters": [
+      "Mazchna"
+    ],
+    "locations": [
+      "Stronghold_of_Security"
+    ],
+    "notableDrops": [
+      "Bottom_of_sceptre"
+    ]
+  },
+  {
+    "id": "Fossil_Island_Wyvern",
+    "name": "Fossil Island Wyverns",
+    "icon": "Fossil_Island_wyverns_icon",
+    "requiredCombatLevel": 60,
+    "requiredSlayerLevel": 66,
+    "slayerMasters": [
+      "Chaeldar",
+      "Konar_quo_Maten",
+      "Nieve",
+      "Duradel"
+    ],
+    "locations": [
+      "Wyvern_Cave"
+    ],
+    "notableDrops": [
+      "Wyvern_visage",
+      "Granite_longsword",
+      "Granite_boots"
+    ]
+  },
+  {
+    "id": "Frost_Nagua",
+    "icon": "Moxi",
+    "requiredCombatLevel": 70,
+    "requiredSlayerLevel": 48,
+    "slayerMasters": [
+      "Chaeldar",
+      "Konar_quo_Maten"
+    ],
+    "locations": [
+      "Ruins_of_Tapoyauik"
+    ],
+    "notableDrops": [
+      "Glacial_temotli",
+      "Pendant_of_ates",
+      "Tooth_half_of_key_(moon_key)",
+      "Frozen_tear"
+    ]
+  },
+  {
+    "id": "Gargoyle",
+    "requiredCombatLevel": 80,
+    "requiredSlayerLevel": 75,
+    "slayerMasters": [
+      "Vannaka",
+      "Chaeldar",
+      "Konar_quo_Maten",
+      "Nieve",
+      "Duradel"
+    ],
+    "locations": [
+      "Slayer_Tower"
+    ],
+    "notableDrops": [
+      "Granite_maul",
+      "Mystic_robe_top_(dark)",
+      "Adamant_boots"
+    ]
+  },
+  {
+    "id": "Ghost",
+    "icon": "Ghostly_hood",
+    "requiredCombatLevel": 13,
+    "slayerMasters": [
+      "Turael",
+      "Spria",
+      "Mazchna"
+    ],
+    "locations": [
+      "Stronghold_of_Security",
+      "Catacombs_of_Kourend",
+      "Death_Altar",
+      "Taverley_Dungeon",
+      "Crumbling_Tower",
+      "Grave_of_Scorpius",
+      "Ectofuntus",
+      "The_Forgotten_Cemetery",
+      "Draynor_Manor",
+      "Mynydd",
+      "Varrock_Sewers",
+      "West_Ardougne"
+    ]
+  },
+  {
+    "id": "Ghoul",
+    "icon": "Zombie_mask",
+    "requiredCombatLevel": 25,
+    "slayerMasters": [
+      "Mazchna",
+      "Vannaka"
+    ],
+    "locations": [
+      "Canifis"
+    ],
+    "notableDrops": [
+      "Ghoul_champion_scroll"
+    ]
+  },
+  {
+    "id": "Giant_rat",
+    "icon": "Giant_rat_bone",
+    "slayerMasters": [
+      "Turael",
+      "Spria"
+    ],
+    "locations": [
+      "Lumbridge_Swamp",
+      "Clock_Tower_dungeon",
+      "Stronghold_of_Security",
+      "Grand_Tree_mine",
+      "Ardougne_Sewers",
+      "Varrock_Sewers",
+      "Edgeville_Dungeon",
+      "Ruins_(west)",
+      "Land's_End",
+      "Goblin_Cave",
+      "Mistrock",
+      "Slepe",
+      "The_Hollows"
+    ]
+  },
+  {
+    "id": "Goblin",
+    "icon": "Goblin_mask",
+    "slayerMasters": [
+      "Turael",
+      "Spria"
+    ],
+    "locations": [
+      "Lumbridge",
+      "Stronghold_of_Security",
+      "Observatory_Dungeon",
+      "Goblin_Cave",
+      "Goblin_Village",
+      "God_Wars_Dungeon",
+      "Clock_Tower_Dungeon",
+      "Dorgeshuun_Mines",
+      "Port_Sarim",
+      "Gnome_maze",
+      "Lumbridge_Swamp_Caves"
+    ],
+    "notableDrops": [
+      "Goblin_champion_scroll"
+    ]
+  },
+  {
+    "id": "Greater_demon",
+    "icon": "Greater_demon_mask",
+    "requiredCombatLevel": 70,
+    "slayerMasters": [
+      "Krystilia",
+      "Chaeldar",
+      "Konar_quo_Maten",
+      "Nieve",
+      "Duradel"
+    ],
+    "locations": [
+      "Chasm_of_Fire",
+      "Wilderness_Slayer_Cave",
+      "Catacombs_of_Kourend",
+      "Karuulm_Slayer_Dungeon",
+      "Brimhaven_Dungeon",
+      "Isle_of_Souls_Dungeon",
+      "Ogre_Enclave",
+      "Wilderness",
+      "Sisterhood_Sanctuary",
+      "Lava_Maze_Dungeon"
+    ]
+  },
+  {
+    "id": "Greater_Nechryael",
+    "icon": "Nechryael_icon",
+    "requiredCombatLevel": 85,
+    "requiredSlayerLevel": 80,
+    "slayerMasters": [
+      "Vannaka",
+      "Chaeldar",
+      "Konar_quo_Maten",
+      "Nieve",
+      "Duradel"
+    ],
+    "locations": [
+      "Iorwerth_Dungeon",
+      "Catacombs_of_Kourend",
+      "Wilderness_Slayer_Cave"
+    ],
+    "notableDrops": [
+      "Rune_boots"
+    ]
+  },
+  {
+    "id": "Green_dragon",
+    "icon": "Green_dragon_mask",
+    "requiredCombatLevel": 52,
+    "slayerMasters": [
+      "Krystilia"
+    ],
+    "locations": [
+      "Dark_Warriors'_Fortress",
+      "Graveyard_of_Shadows",
+      "Lava_Maze"
+    ]
+  },
+  {
+    "id": "Grimy_Lizard",
+    "icon": "Sulphur_Lizard_icon",
+    "requiredSlayerLevel": 44,
+    "slayerMasters": [
+      "Turael",
+      "Spria",
+      "Mazchna",
+      "Vannaka",
+      "Chaeldar"
+    ],
+    "locations": [
+      "Neypotzli"
+    ],
+    "notableDrops": [
+      "Mystic_gloves_(light)"
+    ]
+  },
+  {
+    "id": "Grotesque_Guardians",
+    "subtitle": "Boss",
+    "requiredCombatLevel": 80,
+    "requiredSlayerLevel": 75,
+    "slayerMasters": [
+      "Vannaka",
+      "Chaeldar",
+      "Konar_quo_Maten",
+      "Nieve",
+      "Duradel"
+    ],
+    "locations": [
+      "Slayer_Tower"
+    ],
+    "notableDrops": [
+      "Noon",
+      "Black_tourmaline_core",
+      "Granite_gloves",
+      "Granite_ring",
+      "Granite_hammer",
+      "Jar_of_stone",
+      "Granite_dust"
+    ]
+  },
+  {
+    "id": "Grubby_Chest",
+    "icon": "Grubby_key",
+    "slayerMasters": [],
+    "locations": [
+      "Forthos_Dungeon"
+    ],
+    "notableDrops": [
+      "Grubby_key",
+      "#transmute",
+      "Blue_egg_sac",
+      "Orange_egg_sac"
+    ],
+    "hideFromMenu": true
+  },
+  {
+    "id": "Harpie_Bug_Swarm",
+    "requiredCombatLevel": 45,
+    "requiredSlayerLevel": 33,
+    "slayerMasters": [
+      "Vannaka"
+    ],
+    "locations": [
+      "Tai_Bwo_Wannai"
+    ],
+    "notableDrops": [
+      "Steel_boots"
+    ]
+  },
+  {
+    "id": "Hellhound",
+    "icon": "Ensouled_hellhound_head",
+    "requiredCombatLevel": 75,
+    "slayerMasters": [
+      "Krystilia",
+      "Vannaka",
+      "Chaeldar",
+      "Konar_quo_Maten",
+      "Nieve",
+      "Duradel"
+    ],
+    "locations": [
+      "Stronghold_Slayer_Cave",
+      "Taverley_Dungeon",
+      "Karuulm_Slayer_Dungeon",
+      "Catacombs_of_Kourend",
+      "Wilderness_Slayer_Cave",
+      "Witchaven_Dungeon",
+      "Resource_Area"
+    ],
+    "notableDrops": [
+      "Smouldering_stone"
+    ]
+  },
+  {
+    "id": "Hill_Giant",
+    "icon": "Ensouled_giant_head",
+    "requiredCombatLevel": 25,
+    "slayerMasters": [
+      "Krystilia",
+      "Mazchna",
+      "Vannaka"
+    ],
+    "locations": [
+      "Catacombs_of_Kourend",
+      "Edgeville_Dungeon",
+      "Giant_Pit",
+      "Giants'_Plateau",
+      "Giants'_Den",
+      "Kandarin",
+      "Deep_Wilderness_Dungeon",
+      "Taverley_Dungeon",
+      "Lava_Maze",
+      "Gnome_maze",
+      "Boneyard_Hunter_area"
+    ],
+    "notableDrops": [
+      "Giant_key",
+      "Giant_champion_scroll"
+    ]
+  },
+  {
+    "id": "Hill_Giant_(Varlamore)",
+    "icon": "Ensouled_giant_head",
+    "name": "Hill Giant",
+    "requiredCombatLevel": 25,
+    "slayerMasters": [
+      "Mazchna",
+      "Vannaka"
+    ],
+    "locations": [
+      "Avium_Savannah"
+    ],
+    "notableDrops": [
+      "Giant_key",
+      "Giant_champion_scroll"
+    ]
+  },
+  {
+    "id": "Hobgoblin",
+    "icon": "Hobgoblin_guard_icon",
+    "requiredCombatLevel": 20,
+    "slayerMasters": [
+      "Mazchna",
+      "Vannaka"
+    ],
+    "locations": [
+      "Bandit_Camp_mine",
+      "Hosidius_vinery",
+      "God_Wars_Dungeon",
+      "Crafting_Guild",
+      "Outpost",
+      "Asgarnian_Ice_Dungeon",
+      "Edgeville_Dungeon"
+    ],
+    "notableDrops": [
+      "Hobgoblin_champion_scroll"
+    ]
+  },
+  {
+    "id": "Hydra",
+    "requiredSlayerLevel": 95,
+    "slayerMasters": [
+      "Konar_quo_Maten"
+    ],
+    "locations": [
+      "Karuulm_Slayer_Dungeon"
+    ],
+    "notableDrops": [
+      "Hydra's_eye",
+      "Hydra's_fang",
+      "Hydra's_heart",
+      "Hydra_tail",
+      "Dragon_knife",
+      "Dragon_thrownaxe"
+    ]
+  },
+  {
+    "id": "Icefiend",
+    "icon": "Ice_quartz",
+    "requiredCombatLevel": 20,
+    "slayerMasters": [
+      "Turael",
+      "Spria"
+    ],
+    "locations": [
+      "Ruins_of_Tapoyauik",
+      "Ice_Mountain",
+      "Ralos'_Rise",
+      "Mons_Gratia"
+    ]
+  },
+  {
+    "id": "Ice_giant",
+    "icon": "Rock_golem_(blurite)",
+    "requiredCombatLevel": 50,
+    "slayerMasters": [
+      "Krystilia",
+      "Vannaka"
+    ],
+    "locations": [
+      "Asgarnian_Ice_Dungeon",
+      "Frozen_Waste_Plateau",
+      "Wilderness_Slayer_Cave",
+      "Ruins_of_Tapoyauik",
+      "White_Wolf_Mountain"
+    ],
+    "notableDrops": [
+      "Giant_champion_scroll"
+    ]
+  },
+  {
+    "id": "Ice_warrior",
+    "icon": "Blurite_sword",
+    "requiredCombatLevel": 45,
+    "slayerMasters": [
+      "Krystilia",
+      "Mazchna",
+      "Vannaka"
+    ],
+    "locations": [
+      "Ice_Queen's_Lair",
+      "Asgarnian_Ice_Dungeon",
+      "Frozen_Waste_Plateau",
+      "Ruins_of_Tapoyauik",
+      "White_Wolf_Mountain"
+    ]
+  },
+  {
+    "id": "Imp",
+    "icon": "Ensouled_imp_head",
+    "slayerMasters": [],
+    "locations": [
+      "Ardougne_Monastery",
+      "Hosidius",
+      "Varrock",
+      "Karamja_Volcano",
+      "Yanille",
+      "God_Wars_Dungeon",
+      "Stonecutter_Outpost",
+      "Chasm_of_Fire",
+      "Kingstown",
+      "Civitas_illa_Fortis",
+      "Isle_of_Souls",
+      "Edgeville",
+      "South_Falador_Farm",
+      "Wilderness_God_Wars_Dungeon"
+    ],
+    "notableDrops": [
+      "Imp_champion_scroll"
+    ],
+    "hideFromMenu": true
+  },
+  {
+    "id": "Infernal_Mage",
+    "requiredCombatLevel": 40,
+    "requiredSlayerLevel": 45,
+    "slayerMasters": [
+      "Vannaka"
+    ],
+    "locations": [
+      "Slayer_Tower"
+    ],
+    "notableDrops": [
+      "Lava_battlestaff",
+      "Mystic_hat_(dark)",
+      "Mystic_boots_(dark)"
+    ]
+  },
+  {
+    "id": "Iorwerth_Warrior",
+    "icon": "Iorwerth_Warrior_(1)_chathead",
+    "requiredCombatLevel": 70,
+    "slayerMasters": [
+      "Vannaka",
+      "Chaeldar",
+      "Nieve",
+      "Duradel"
+    ],
+    "locations": [
+      "Iorwerth_Dungeon"
+    ],
+    "notableDrops": [
+      "Enhanced_crystal_teleport_seed"
+    ],
+    "hideFromMenu": true
+  },
+  {
+    "id": "Iron_dragon",
+    "icon": "Iron_dragon_mask",
+    "requiredCombatLevel": 80,
+    "slayerMasters": [
+      "Konar_quo_Maten",
+      "Nieve",
+      "Duradel"
+    ],
+    "locations": [
+      "Brimhaven_Dungeon",
+      "Isle_of_Souls_Dungeon",
+      "Catacombs_of_Kourend"
+    ],
+    "notableDrops": [
+      "Draconic_visage",
+      "Dragon_plateskirt",
+      "Dragon_platelegs"
+    ]
+  },
+  {
+    "id": "Jackal",
+    "icon": "Jackal_bone",
+    "requiredCombatLevel": 15,
+    "slayerMasters": [
+      "Turael",
+      "Spria",
+      "Mazchna"
+    ],
+    "locations": [
+      "Kharidian_Desert"
+    ]
+  },
+  {
+    "id": "Jelly",
+    "requiredCombatLevel": 57,
+    "requiredSlayerLevel": 52,
+    "slayerMasters": [
+      "Krystilia",
+      "Vannaka",
+      "Chaeldar",
+      "Konar_quo_Maten"
+    ],
+    "locations": [
+      "Fremennik_Slayer_Dungeon",
+      "Wilderness_Slayer_Cave"
+    ],
+    "notableDrops": [
+      "Mithril_boots"
+    ]
+  },
+  {
+    "id": "Jogre",
+    "slayerMasters": [],
+    "locations": [
+      "Pothole_Dungeon"
+    ],
+    "notableDrops": [
+      "Jogre_champion_scroll"
+    ],
+    "hideFromMenu": true
+  },
+  {
+    "id": "Jungle_horror",
+    "icon": "Ensouled_horror_head",
+    "requiredCombatLevel": 65,
+    "slayerMasters": [
+      "Vannaka",
+      "Chaeldar"
+    ],
+    "locations": [
+      "Mos_Le'Harmless_Cave"
+    ]
+  },
+  {
+    "id": "Jungle_spider",
+    "icon": "Spider_carcass",
+    "slayerMasters": [
+      "Turael",
+      "Spria"
+    ],
+    "locations": [
+      "Karamja",
+      "Tai_Bwo_Wannai",
+      "Kharazi_Jungle",
+      "Brimhaven"
+    ]
+  },
+  {
+    "id": "Jungle_Wolf",
+    "icon": "Wolf_bones",
+    "requiredCombatLevel": 20,
+    "slayerMasters": [
+      "Turael",
+      "Spria",
+      "Mazchna"
+    ],
+    "locations": [
+      "Kharazi_Jungle"
+    ]
+  },
+  {
+    "id": "Kalphite",
+    "icon": "Kq_head",
+    "requiredCombatLevel": 15,
+    "slayerMasters": [
+      "Turael",
+      "Spria",
+      "Mazchna",
+      "Vannaka",
+      "Chaeldar",
+      "Konar_quo_Maten",
+      "Nieve",
+      "Duradel"
+    ],
+    "locations": [
+      "Kalphite_Cave",
+      "Kalphite_Lair"
+    ]
+  },
+  {
+    "id": "Killerwatt",
+    "requiredCombatLevel": 50,
+    "requiredSlayerLevel": 37,
+    "slayerMasters": [
+      "Mazchna"
+    ],
+    "locations": [
+      "Killerwatt_plane"
+    ]
+  },
+  {
+    "id": "Kraken",
+    "subtitle": "Boss",
+    "requiredCombatLevel": 80,
+    "requiredSlayerLevel": 87,
+    "slayerMasters": [
+      "Chaeldar",
+      "Konar_quo_Maten",
+      "Nieve",
+      "Duradel"
+    ],
+    "locations": [
+      "Kraken_Cove"
+    ],
+    "notableDrops": [
+      "Pet_kraken",
+      "Kraken_tentacle",
+      "Trident_of_the_seas",
+      "Jar_of_dirt"
+    ]
+  },
+  {
+    "id": "Kurask",
+    "requiredCombatLevel": 65,
+    "requiredSlayerLevel": 70,
+    "slayerMasters": [
+      "Vannaka",
+      "Chaeldar",
+      "Konar_quo_Maten",
+      "Nieve",
+      "Duradel"
+    ],
+    "locations": [
+      "Fremennik_Slayer_Dungeon",
+      "Iorwerth_Dungeon"
+    ],
+    "notableDrops": [
+      "Leaf-bladed_battleaxe",
+      "Leaf-bladed_sword",
+      "Mystic_robe_top_(light)",
+      "Kurask_head"
+    ]
+  },
+  {
+    "id": "Lava_dragon",
+    "icon": "Lava_dragon_mask",
+    "slayerMasters": [
+      "Krystilia"
+    ],
+    "locations": [
+      "Lava_Dragon_Isle"
+    ],
+    "notableDrops": [
+      "Draconic_visage",
+      "Lava_battlestaff"
+    ]
+  },
+  {
+    "id": "Larran's_big_chest",
+    "icon": "Larran's_key_1",
+    "slayerMasters": [
+      "Krystilia"
+    ],
+    "locations": [
+      "Wilderness"
+    ],
+    "notableDrops": [
+      "Larran's_key",
+      "#transmute",
+      "Dagon'hai_hat",
+      "Dagon'hai_robe_top",
+      "Dagon'hai_robe_bottom"
+    ],
+    "hideFromMenu": true
+  },
+  {
+    "id": "Lesser_demon",
+    "icon": "Lesser_demon_mask",
+    "requiredCombatLevel": 60,
+    "slayerMasters": [
+      "Krystilia",
+      "Vannaka",
+      "Chaeldar"
+    ],
+    "locations": [
+      "Crandor_and_Karamja_Dungeon",
+      "Sisterhood_Sanctuary",
+      "Chasm_of_Fire",
+      "Catacombs_of_Kourend",
+      "Wilderness_Slayer_Cave",
+      "Taverley_Dungeon",
+      "King_Black_Dragon_Lair",
+      "Isle_of_Souls_Dungeon",
+      "Temple_of_Ikov_(dungeon)",
+      "Viyeldi_caves",
+      "Lava_Maze",
+      "Demonic_Ruins",
+      "Crandor"
+    ],
+    "notableDrops": [
+      "Lesser_demon_champion_scroll"
+    ]
+  },
+  {
+    "id": "Lesser_nagua",
+    "requiredCombatLevel": 70,
+    "requiredSlayerLevel": 48,
+    "slayerMasters": [
+      "Chaeldar",
+      "Konar_quo_Maten"
+    ],
+    "locations": [
+      "Ruins_of_Tapoyauik",
+      "Neypotzli"
+    ],
+    "hideFromMenu": true
+  },
+  {
+    "id": "Lizard",
+    "icon": "Desert_Lizard_icon",
+    "requiredSlayerLevel": 22,
+    "slayerMasters": [
+      "Turael",
+      "Spria",
+      "Mazchna"
+    ],
+    "locations": [
+      "Kharidian_Desert"
+    ],
+    "notableDrops": [
+      "Mystic_gloves_(light)"
+    ]
+  },
+  {
+    "id": "Lizardman",
+    "icon": "Lizardmen_icon",
+    "slayerMasters": [
+      "Chaeldar",
+      "Konar_quo_Maten",
+      "Nieve",
+      "Duradel"
+    ],
+    "locations": [
+      "Lizardman_Canyon",
+      "Lizardman_Caves",
+      "Lizardman_Settlement",
+      "Lizardman_Temple"
+    ]
+  },
+  {
+    "id": "Lizardman_brute",
+    "icon": "Lizardmen_icon",
+    "slayerMasters": [
+      "Chaeldar",
+      "Konar_quo_Maten",
+      "Nieve",
+      "Duradel"
+    ],
+    "locations": [
+      "Lizardman_Canyon",
+      "Lizardman_Settlement"
+    ],
+    "notableDrops": [
+      "Xeric's_talisman",
+      "Lizardman_fang",
+      "Xerician_fabric"
+    ],
+    "hideFromMenu": true
+  },
+  {
+    "id": "Lizardman_shaman",
+    "icon": "Lizardmen_icon",
+    "slayerMasters": [
+      "Chaeldar",
+      "Konar_quo_Maten",
+      "Nieve",
+      "Duradel"
+    ],
+    "locations": [
+      "Lizardman_Canyon",
+      "Lizardman_Caves",
+      "Lizardman_Temple"
+    ],
+    "notableDrops": [
+      "Dragon_warhammer",
+      "Xeric's_talisman",
+      "Lizardman_fang",
+      "Xerician_fabric"
+    ],
+    "hideFromMenu": true
+  },
+  {
+    "id": "Magic_axe",
+    "icon": "Iron_battleaxe",
+    "requirements": [
+      {
+        "skill": "thieving",
+        "level": "23"
+      }
+    ],
+    "slayerMasters": [
+      "Krystilia"
+    ],
+    "locations": [
+      "Magic_axe_hut"
+    ]
+  },
+  {
+    "id": "Mammoth",
+    "icon": "Rare_fossilised_tusk",
+    "slayerMasters": [
+      "Krystilia"
+    ],
+    "locations": [
+      "Chaos_Temple_(Wilderness)"
+    ]
+  },
+  {
+    "id": "Maniacal_monkey",
+    "icon": "Maniacal_monkey_(item)",
+    "slayerMasters": [
+      "Turael",
+      "Spria"
+    ],
+    "locations": [
+      "Kruk's_Dungeon"
+    ]
+  },
+  {
+    "id": "Mithril_dragon",
+    "slayerMasters": [
+      "Konar_quo_Maten",
+      "Nieve",
+      "Duradel"
+    ],
+    "locations": [
+      "Ancient_Cavern"
+    ],
+    "notableDrops": [
+      "Draconic_visage",
+      "Dragon_full_helm",
+      "Chewed_bones"
+    ]
+  },
+  {
+    "id": "Minotaur",
+    "icon": "Reanimate_Minotaur",
+    "requiredCombatLevel": 7,
+    "slayerMasters": [
+      "Turael",
+      "Spria"
+    ],
+    "locations": [
+      "Stronghold_of_Security"
+    ],
+    "notableDrops": [
+      "Right_skull_half"
+    ]
+  },
+  {
+    "id": "Mogre",
+    "requiredCombatLevel": 30,
+    "requiredSlayerLevel": 32,
+    "slayerMasters": [
+      "Mazchna",
+      "Vannaka"
+    ],
+    "locations": [
+      "Mudskipper_Point"
+    ],
+    "notableDrops": [
+      "Mudskipper_hat",
+      "Flippers"
+    ]
+  },
+  {
+    "id": "Molanisk",
+    "requiredCombatLevel": 50,
+    "requiredSlayerLevel": 39,
+    "slayerMasters": [
+      "Vannaka"
+    ],
+    "locations": [
+      "Dorgesh-Kaan_South_Dungeon"
+    ]
+  },
+  {
+    "id": "Monkey",
+    "icon": "Monkey_(Trouble_Brewing)",
+    "slayerMasters": [
+      "Turael",
+      "Spria"
+    ],
+    "locations": [
+      "Karamja",
+      "Temple_of_Marimbo_Dungeon",
+      "Crash_Site_Cavern",
+      "Ape_Atoll_Dungeon",
+      "Marim",
+      "Mos_Le'Harmless",
+      "Shilo_Village",
+      "Temple_of_Marimbo",
+      "Tai_Bwo_Wannai",
+      "Brimhaven"
+    ],
+    "hideFromMenu": true
+  },
+  {
+    "id": "Moon_chest",
+    "icon": "Moon_key",
+    "slayerMasters": [],
+    "locations": [
+      "Ruins_of_Tapoyauik"
+    ],
+    "notableDrops": [
+      "Moon_key",
+      "#transmute",
+      "Helmet_of_the_moon",
+      "Uncut_onyx"
+    ],
+    "hideFromMenu": true
+  },
+  {
+    "id": "Moss_giant",
+    "icon": "Bryophyta_icon_(mobile)",
+    "requiredCombatLevel": 40,
+    "slayerMasters": [
+      "Krystilia",
+      "Vannaka"
+    ],
+    "locations": [
+      "Brimhaven_Dungeon",
+      "Catacombs_of_Kourend",
+      "Giants'_Den",
+      "Pirate's_Cove",
+      "Varrock_Sewers",
+      "Iorwerth_Dungeon",
+      "Isle_of_Souls",
+      "Varlamore",
+      "Wilderness",
+      "Moss_Giant_Island",
+      "Kourend_Woodland",
+      "Kandarin",
+      "Crandor"
+    ],
+    "notableDrops": [
+      "Mossy_key",
+      "Giant_champion_scroll"
+    ]
+  },
+  {
+    "id": "Mutated_Bloodveld",
+    "icon": "Bloodveld_icon",
+    "requiredCombatLevel": 50,
+    "requiredSlayerLevel": 50,
+    "slayerMasters": [
+      "Vannaka",
+      "Chaeldar",
+      "Konar_quo_Maten",
+      "Nieve",
+      "Duradel"
+    ],
+    "locations": [
+      "Catacombs_of_Kourend",
+      "Iorwerth_Dungeon",
+      "Meiyerditch_Laboratories"
+    ],
+    "notableDrops": [
+      "Black_boots"
+    ]
+  },
+  {
+    "id": "Nechryael",
+    "requiredCombatLevel": 85,
+    "requiredSlayerLevel": 80,
+    "slayerMasters": [
+      "Vannaka",
+      "Chaeldar",
+      "Konar_quo_Maten",
+      "Nieve",
+      "Duradel"
+    ],
+    "locations": [
+      "Slayer_Tower"
+    ],
+    "notableDrops": [
+      "Rune_boots"
+    ]
+  },
+  {
+    "id": "Ogre",
+    "icon": "Ensouled_ogre_head",
+    "requiredCombatLevel": 40,
+    "slayerMasters": [
+      "Vannaka"
+    ],
+    "locations": [
+      "Yanille",
+      "Jiggig",
+      "Corsair_Cove_Dungeon",
+      "Feldip_Hills",
+      "Gu'Tanoth",
+      "Combat_Training_Camp",
+      "Chaos_Druid_Tower",
+      "Witchaven_Dungeon",
+      "Clock_Tower_dungeon",
+      "Gnome_maze"
+    ]
+  },
+  {
+    "id": "Ogress_Shaman",
+    "icon": "Shaman_mask",
+    "requiredCombatLevel": 40,
+    "slayerMasters": [
+      "Vannaka"
+    ],
+    "locations": [
+      "Corsair_Cove_Dungeon"
+    ],
+    "notableDrops": [
+      "Shaman_mask"
+    ],
+    "hideFromMenu": true
+  },
+  {
+    "id": "Ogress_Warrior",
+    "icon": "Shaman_mask",
+    "requiredCombatLevel": 40,
+    "slayerMasters": [
+      "Vannaka"
+    ],
+    "locations": [
+      "Corsair_Cove_Dungeon"
+    ],
+    "notableDrops": [
+      "Shaman_mask"
+    ],
+    "hideFromMenu": true
+  },
+  {
+    "id": "Otherworldly_being",
+    "icon": "Wizard_hat",
+    "requiredCombatLevel": 40,
+    "slayerMasters": [
+      "Vannaka"
+    ],
+    "locations": [
+      "Zanaris"
+    ]
+  },
+  {
+    "id": "Pirate",
+    "icon": "Pirate_pete_(interface_item)",
+    "slayerMasters": [
+      "Krystilia"
+    ],
+    "locations": [
+      "Pirates'_Hideout",
+      "Chaos_Temple_(Wilderness)"
+    ]
+  },
+  {
+    "id": "Pyrefiend",
+    "requiredCombatLevel": 25,
+    "requiredSlayerLevel": 30,
+    "slayerMasters": [
+      "Mazchna",
+      "Vannaka"
+    ],
+    "locations": [
+      "Smoke_Dungeon",
+      "Sisterhood_Sanctuary",
+      "Fremennik_Slayer_Dungeon",
+      "Isle_of_Souls",
+      "God_Wars_Dungeon",
+      "Wilderness_God_Wars_Dungeon"
+    ],
+    "notableDrops": [
+      "Steel_boots"
+    ]
+  },
+  {
+    "id": "Red_dragon",
+    "requiredCombatLevel": 68,
+    "slayerMasters": [
+      "Konar_quo_Maten",
+      "Nieve",
+      "Duradel"
+    ],
+    "locations": [
+      "Brimhaven_Dungeon",
+      "Forthos_Dungeon",
+      "Myths'_Guild#Basement"
+    ]
+  },
+  {
+    "id": "Revenants",
+    "icon": "Revenant_icon",
+    "slayerMasters": [
+      "Krystilia"
+    ],
+    "locations": [
+      "Revenant_Caves"
+    ],
+    "notableDrops": [
+      "Craw's_bow",
+      "Viggora's_chainmace",
+      "Thammaron's_sceptre",
+      "Amulet_of_avarice",
+      "Ancient_crystal",
+      "Bracelet_of_ethereum",
+      "Revenant_ether",
+      "Ancient_relic",
+      "Ancient_effigy",
+      "Ancient_medallion",
+      "Ancient_statuette",
+      "Ancient_totem",
+      "Ancient_emblem",
+      "Revenant_cave_teleport"
+    ]
+  },
+  {
+    "id": "Rockslug",
+    "requiredCombatLevel": 20,
+    "requiredSlayerLevel": 20,
+    "slayerMasters": [
+      "Mazchna"
+    ],
+    "locations": [
+      "Fremennik_Slayer_Dungeon",
+      "Lumbridge_Swamp_Caves",
+      "Dorgesh-Kaan_South_Dungeon"
+    ],
+    "notableDrops": [
+      "Mystic_gloves_(light)"
+    ]
+  },
+  {
+    "id": "Rogue",
+    "icon": "Thief_Rogue",
+    "slayerMasters": [
+      "Krystilia"
+    ],
+    "locations": [
+      "Rogues'_Castle"
+    ]
+  },
+  {
+    "id": "Rune_dragon",
+    "slayerMasters": [
+      "Konar_quo_Maten",
+      "Nieve",
+      "Duradel"
+    ],
+    "locations": [
+      "Lithkren_Vault"
+    ],
+    "notableDrops": [
+      "Draconic_visage",
+      "Dragon_metal_lump",
+      "Dragon_limbs",
+      "Dragon_plateskirt",
+      "Dragon_platelegs"
+    ]
+  },
+  {
+    "id": "Scabarite",
+    "icon": "Locust_rider_icon",
+    "requiredCombatLevel": 85,
+    "slayerMasters": [
+      "Nieve"
+    ],
+    "locations": [
+      "Sophanem_Dungeon",
+      "Uzer_Mastaba"
+    ]
+  },
+  {
+    "id": "Scorpion",
+    "icon": "Scorpia's_offspring",
+    "requiredCombatLevel": 7,
+    "slayerMasters": [
+      "Krystilia",
+      "Turael",
+      "Spria",
+      "Mazchna"
+    ],
+    "locations": [
+      "Kruk's_Dungeon",
+      "Ape_Atoll",
+      "Dwarven_Mine",
+      "Stonecutter_Outpost",
+      "Wilderness",
+      "Al_Kharid_mine",
+      "Stronghold_of_Security",
+      "Karamja_Volcano",
+      "Scorpion_Pit",
+      "Ruins_of_Unkah",
+      "Temple_of_Ikov_(dungeon)"
+    ]
+  },
+  {
+    "id": "Sea_snake",
+    "requiredCombatLevel": 50,
+    "requiredSlayerLevel": 40,
+    "slayerMasters": [
+      "Vannaka"
+    ],
+    "locations": [
+      "Miscellania_and_Etceteria_dungeon"
+    ],
+    "notableDrops": [
+      "Broad_arrows"
+    ]
+  },
+  {
+    "id": "Shade",
+    "icon": "Fiyr_remains",
+    "requiredCombatLevel": 30,
+    "slayerMasters": [
+      "Mazchna",
+      "Vannaka"
+    ],
+    "locations": [
+      "Mort'ton",
+      "Shade_Catacombs",
+      "Catacombs_of_Kourend",
+      "Stronghold_of_Security"
+    ]
+  },
+  {
+    "id": "Shadow_warrior",
+    "icon": "Black_robe",
+    "requiredCombatLevel": 60,
+    "slayerMasters": [
+      "Chaeldar",
+      "Vannaka"
+    ],
+    "locations": [
+      "Legends'_Guild#Dungeon"
+    ]
+  },
+  {
+    "id": "Skeletal_Wyvern",
+    "requiredCombatLevel": 70,
+    "requiredSlayerLevel": 72,
+    "slayerMasters": [
+      "Chaeldar",
+      "Konar_quo_Maten",
+      "Nieve",
+      "Duradel"
+    ],
+    "locations": [
+      "Asgarnian_Ice_Dungeon"
+    ],
+    "notableDrops": [
+      "Draconic_visage",
+      "Granite_legs"
+    ]
+  },
+  {
+    "id": "Skeleton",
+    "icon": "Skull_(item)",
+    "requiredCombatLevel": 15,
+    "slayerMasters": [
+      "Krystilia",
+      "Turael",
+      "Spria",
+      "Mazchna"
+    ],
+    "locations": [
+      "Wilderness",
+      "Shayzien_Crypts",
+      "Stronghold_of_Security",
+      "Tarn's_Lair",
+      "Crandor_and_Karamja_Dungeon",
+      "Edgeville_Dungeon",
+      "Ape_Atoll_Dungeon",
+      "Wilderness_Agility_Course",
+      "Temple_of_Ikov_(dungeon)",
+      "Bone_Yard",
+      "Digsite_Dungeon",
+      "Underground_Pass_(dungeon)",
+      "Crandor",
+      "Varrock_Sewers",
+      "Edgeville_Dungeon#Wilderness_area_(members_only)",
+      "Taverley_Dungeon",
+      "Forthos_Ruin",
+      "Catacombs_of_Kourend",
+      "Dark_Altar",
+      "Yanille_Dungeon",
+      "Glarial's_Tomb",
+      "Shayziens'_Wall",
+      "Draynor_Sewers",
+      "Isle_of_Souls_Dungeon",
+      "Ogre_Enclave",
+      "Waterfall_Dungeon"
+    ],
+    "notableDrops": [
+      "Skeleton_champion_scroll"
+    ]
+  },
+  {
+    "id": "Skeleton_fremennik",
+    "icon": "Skull_(item)",
+    "name": "Skeleton",
+    "requiredCombatLevel": 15,
+    "slayerMasters": [
+      "Krystilia",
+      "Turael",
+      "Spria",
+      "Mazchna"
+    ],
+    "locations": [
+      "Brine_Rat_Cavern"
+    ]
+  },
+  {
+    "id": "Smoke_devil",
+    "requiredCombatLevel": 85,
+    "requiredSlayerLevel": 93,
+    "slayerMasters": [
+      "Konar_quo_Maten",
+      "Nieve",
+      "Duradel"
+    ],
+    "locations": [
+      "Smoke_Devil_Dungeon"
+    ],
+    "notableDrops": [
+      "Occult_necklace",
+      "Dragon_chainbody"
+    ]
+  },
+  {
+    "id": "Sourhog",
+    "icon": "Sourhog_foot",
+    "slayerMasters": [
+      "Spria"
+    ],
+    "locations": [
+      "Sourhog_Cave"
+    ],
+    "hideFromMenu": true
+  },
+  {
+    "id": "Spider",
+    "icon": "Huge_spider_icon",
+    "slayerMasters": [
+      "Krystilia"
+    ],
+    "locations": [
+      "Wilderness",
+      "Demonic_Ruins",
+      "Escape_Caves",
+      "Deep_Wilderness_Dungeon",
+      "Ruins_(east)",
+      "Ruins_(west)",
+      "Lava_Maze",
+      "Lava_Maze_Dungeon",
+      "Lava_Dragon_Isle",
+      "King_Black_Dragon_Lair",
+      "Frozen_Waste_Plateau",
+      "Edgeville_Dungeon#Wilderness_area_(members_only)",
+      "Web_Chasm"
+    ]
+  },
+  {
+    "id": "Spiritual_mage",
+    "requiredCombatLevel": 60,
+    "requiredSlayerLevel": 83,
+    "slayerMasters": [
+      "Krystilia",
+      "Vannaka",
+      "Chaeldar",
+      "Nieve",
+      "Duradel"
+    ],
+    "locations": [
+      "God_Wars_Dungeon",
+      "God_Wars_Dungeon#Ancient_Prison",
+      "Wilderness_God_Wars_Dungeon"
+    ],
+    "notableDrops": [
+      "Dragon_boots"
+    ]
+  },
+  {
+    "id": "Spiritual_mage#Zaros",
+    "name": "Spiritual Creature",
+    "subtitle": "Zaros",
+    "requiredCombatLevel": 60,
+    "requiredSlayerLevel": 83,
+    "slayerMasters": [
+      "Vannaka",
+      "Chaeldar",
+      "Nieve",
+      "Duradel"
+    ],
+    "locations": [
+      "God_Wars_Dungeon#Ancient_Prison"
+    ],
+    "notableDrops": [
+      "Ancient_ceremonial_mask",
+      "Ancient_ceremonial_top",
+      "Ancient_ceremonial_legs",
+      "Ancient_ceremonial_gloves",
+      "Ancient_ceremonial_boots"
+    ],
+    "hideFromMenu": true
+  },
+  {
+    "id": "Spiritual_ranger",
+    "requiredCombatLevel": 60,
+    "requiredSlayerLevel": 63,
+    "slayerMasters": [
+      "Krystilia",
+      "Vannaka",
+      "Chaeldar",
+      "Nieve",
+      "Duradel"
+    ],
+    "locations": [
+      "God_Wars_Dungeon",
+      "God_Wars_Dungeon#Ancient_Prison",
+      "Wilderness_God_Wars_Dungeon"
+    ]
+  },
+  {
+    "id": "Spiritual_warrior",
+    "requiredCombatLevel": 60,
+    "requiredSlayerLevel": 68,
+    "slayerMasters": [
+      "Krystilia",
+      "Vannaka",
+      "Chaeldar",
+      "Nieve",
+      "Duradel"
+    ],
+    "locations": [
+      "God_Wars_Dungeon",
+      "God_Wars_Dungeon#Ancient_Prison",
+      "Wilderness_God_Wars_Dungeon"
+    ]
+  },
+  {
+    "id": "Steel_dragon",
+    "icon": "Steel_dragon_mask",
+    "requiredCombatLevel": 85,
+    "slayerMasters": [
+      "Konar_quo_Maten",
+      "Nieve",
+      "Duradel"
+    ],
+    "locations": [
+      "Brimhaven_Dungeon",
+      "Catacombs_of_Kourend"
+    ],
+    "notableDrops": [
+      "Draconic_visage",
+      "Dragon_plateskirt",
+      "Dragon_platelegs"
+    ]
+  },
+  {
+    "id": "Sulphur_Lizard",
+    "requiredSlayerLevel": 44,
+    "slayerMasters": [
+      "Turael",
+      "Spria",
+      "Mazchna",
+      "Vannaka",
+      "Chaeldar"
+    ],
+    "locations": [
+      "Karuulm_Slayer_Dungeon"
+    ],
+    "notableDrops": [
+      "Mystic_gloves_(light)"
+    ]
+  },
+  {
+    "id": "Sulphur_Nagua",
+    "icon": "Lesser_nagua_icon",
+    "requiredCombatLevel": 70,
+    "requiredSlayerLevel": 48,
+    "slayerMasters": [
+      "Chaeldar",
+      "Konar_quo_Maten"
+    ],
+    "locations": [
+      "Neypotzli"
+    ],
+    "notableDrops": [
+      "Sulphur_blades"
+    ]
+  },
+  {
+    "id": "Superior_slayer_monster",
+    "icon": "Bigger_and_Badder",
+    "slayerMasters": [
+      "Krystilia",
+      "Turael",
+      "Spria",
+      "Mazchna",
+      "Vannaka",
+      "Chaeldar",
+      "Konar_quo_Maten",
+      "Nieve",
+      "Duradel"
+    ],
+    "locations": [
+      "Asgarnia",
+      "Desert",
+      "Fremennik",
+      "Kandarin",
+      "Karamja",
+      "Kourend",
+      "Misthalin",
+      "Morytania",
+      "Tirannwn",
+      "Varlamore",
+      "Wilderness"
+    ],
+    "notableDrops": [
+      "Imbued_heart",
+      "Eternal_gem",
+      "Dust_battlestaff",
+      "Mist_battlestaff"
+    ],
+    "hideFromMenu": true
+  },
+  {
+    "id": "Suqah",
+    "requiredCombatLevel": 85,
+    "slayerMasters": [
+      "Nieve",
+      "Duradel"
+    ],
+    "locations": [
+      "Lunar_Isle"
+    ]
+  },
+  {
+    "id": "Temple_Spider",
+    "icon": "Sraracha",
+    "slayerMasters": [
+      "Turael",
+      "Spria"
+    ],
+    "locations": [
+      "Forthos_Dungeon"
+    ]
+  },
+  {
+    "id": "Terror_dog",
+    "requiredCombatLevel": 60,
+    "requiredSlayerLevel": 40,
+    "slayerMasters": [
+      "Vannaka"
+    ],
+    "locations": [
+      "Tarn's_Lair"
+    ],
+    "notableDrops": [
+      "Granite_helm"
+    ]
+  },
+  {
+    "id": "Thermonuclear_smoke_devil",
+    "subtitle": "Boss",
+    "requiredCombatLevel": 85,
+    "requiredSlayerLevel": 93,
+    "slayerMasters": [
+      "Konar_quo_Maten",
+      "Nieve",
+      "Duradel"
+    ],
+    "locations": [
+      "Smoke_Devil_Dungeon"
+    ],
+    "notableDrops": [
+      "Pet_smoke_devil",
+      "Occult_necklace",
+      "Smoke_battlestaff",
+      "Dragon_chainbody",
+      "Jar_of_smoke"
+    ]
+  },
+  {
+    "id": "Tormented_Demon",
+    "icon": "Burning_claw",
+    "requiredCombatLevel": 70,
+    "slayerMasters": [
+      "Krystilia",
+      "Chaeldar",
+      "Konar_quo_Maten",
+      "Nieve",
+      "Duradel"
+    ],
+    "locations": [
+      "Ancient_Guthixian_Temple"
+    ],
+    "notableDrops": [
+      "Tormented_synapse",
+      "#transmute",
+      "Emberlight",
+      "Scorching_bow",
+      "Purging_staff",
+      "#newline",
+      "Burning_claw",
+      "#transmute",
+      "Burning_claws"
+    ]
+  },
+  {
+    "id": "Troll",
+    "icon": "Ensouled_troll_head",
+    "requiredCombatLevel": 60,
+    "slayerMasters": [
+      "Vannaka",
+      "Chaeldar",
+      "Konar_quo_Maten",
+      "Nieve",
+      "Duradel"
+    ],
+    "locations": [
+      "Death_Plateau_(location)",
+      "Troll_Stronghold_(location)",
+      "Keldagrim",
+      "Mount_Quidamortem"
+    ]
+  },
+  {
+    "id": "Turoth",
+    "requiredCombatLevel": 60,
+    "requiredSlayerLevel": 55,
+    "slayerMasters": [
+      "Vannaka",
+      "Chaeldar",
+      "Konar_quo_Maten",
+      "Nieve"
+    ],
+    "locations": [
+      "Fremennik_Slayer_Dungeon"
+    ],
+    "notableDrops": [
+      "Leaf-bladed_sword",
+      "Mystic_robe_bottom_(light)"
+    ]
+  },
+  {
+    "id": "Twisted_Banshee",
+    "icon": "Banshee_icon",
+    "requiredCombatLevel": 20,
+    "requiredSlayerLevel": 15,
+    "slayerMasters": [
+      "Turael",
+      "Spria",
+      "Mazchna"
+    ],
+    "locations": [
+      "Catacombs_of_Kourend"
+    ],
+    "notableDrops": [
+      "Mystic_gloves_(dark)"
+    ]
+  },
+  {
+    "id": "TzHaar",
+    "icon": "Tok-Xil_(Construction)_icon",
+    "slayerMasters": [
+      "Chaeldar",
+      "Nieve",
+      "Duradel"
+    ],
+    "locations": [
+      "Mor_Ul_Rek"
+    ]
+  },
+  {
+    "id": "TzHaar-Ket",
+    "icon": "TzHaar-Ket_chathead",
+    "slayerMasters": [
+      "Chaeldar",
+      "Nieve",
+      "Duradel"
+    ],
+    "locations": [
+      "Mor_Ul_Rek"
+    ],
+    "notableDrops": [
+      "Tzhaar-ket-om",
+      "Obsidian_helmet",
+      "Obsidian_platebody",
+      "Obsidian_platelegs",
+      "Obsidian_cape",
+      "Toktz-ket-xil"
+    ],
+    "hideFromMenu": true
+  },
+  {
+    "id": "TzHaar-Mej_(monster)",
+    "name": "TzHaar-Mej",
+    "icon": "TzHaar-Mej_chathead",
+    "slayerMasters": [
+      "Chaeldar",
+      "Nieve",
+      "Duradel"
+    ],
+    "locations": [
+      "Mor_Ul_Rek"
+    ],
+    "notableDrops": [
+      "Toktz-mej-tal",
+      "Obsidian_cape"
+    ],
+    "hideFromMenu": true
+  },
+  {
+    "id": "TzHaar-Xil",
+    "icon": "TzHaar-Xil_chathead",
+    "slayerMasters": [
+      "Chaeldar",
+      "Nieve",
+      "Duradel"
+    ],
+    "locations": [
+      "Mor_Ul_Rek"
+    ],
+    "notableDrops": [
+      "Toktz-xil-ul",
+      "Toktz-xil-ek",
+      "Toktz-xil-ak",
+      "Obsidian_cape"
+    ],
+    "hideFromMenu": true
+  },
+  {
+    "id": "Undead_Druid",
+    "icon": "Mask_of_ranul",
+    "requiredCombatLevel": 10,
+    "slayerMasters": [
+      "Turael",
+      "Spria",
+      "Mazchna"
+    ],
+    "locations": [
+      "Forthos_Dungeon"
+    ],
+    "notableDrops": [
+      "Mask_of_ranul",
+      "Grubby_key",
+      "Zombie_champion_scroll"
+    ],
+    "hideFromMenu": true
+  },
+  {
+    "id": "Vampyre",
+    "icon": "Vyre_icon",
+    "requiredCombatLevel": 35,
+    "requiredSlayerLevel": 38,
+    "slayerMasters": [
+      "Mazchna",
+      "Vannaka",
+      "Chaeldar",
+      "Konar_quo_Maten",
+      "Nieve",
+      "Duradel"
+    ],
+    "locations": [
+      "Haunted_Woods",
+      "Slepe",
+      "Darkmeyer",
+      "Burgh_de_Rott",
+      "Meiyerditch"
+    ]
+  },
+  {
+    "id": "Vyrewatch_Sentinel",
+    "icon": "Vyre_icon",
+    "requiredCombatLevel": 35,
+    "requiredSlayerLevel": 38,
+    "slayerMasters": [
+      "Mazchna",
+      "Vannaka",
+      "Chaeldar",
+      "Konar_quo_Maten",
+      "Nieve",
+      "Duradel"
+    ],
+    "locations": [
+      "Darkmeyer"
+    ],
+    "notableDrops": [
+      "Blood_shard"
+    ],
+    "hideFromMenu": true
+  },
+  {
+    "id": "Wall_beast",
+    "requiredCombatLevel": 30,
+    "requiredSlayerLevel": 35,
+    "slayerMasters": [
+      "Mazchna"
+    ],
+    "locations": [
+      "Lumbridge_Swamp_Caves"
+    ],
+    "notableDrops": [
+      "Mystic_hat_(light)"
+    ]
+  },
+  {
+    "id": "Warped_Jelly",
+    "icon": "Jelly_icon",
+    "requiredCombatLevel": 57,
+    "requiredSlayerLevel": 52,
+    "slayerMasters": [
+      "Vannaka",
+      "Chaeldar",
+      "Konar_quo_Maten"
+    ],
+    "locations": [
+      "Catacombs_of_Kourend"
+    ],
+    "notableDrops": [
+      "Mithril_boots"
+    ]
+  },
+  {
+    "id": "Warped_creatures",
+    "icon": "Warped_Terrorbird_icon",
+    "requiredSlayerLevel": 56,
+    "slayerMasters": [
+      "Chaeldar",
+      "Konar_quo_Maten",
+      "Nieve",
+      "Duradel"
+    ],
+    "locations": [
+      "Poison_Waste_Dungeon"
+    ],
+    "notableDrops": [
+      "Warped_sceptre"
+    ]
+  },
+  {
+    "id": "Waterfiend",
+    "icon": "Circlet_of_water",
+    "requiredCombatLevel": 75,
+    "slayerMasters": [
+      "Konar_quo_Maten",
+      "Duradel"
+    ],
+    "locations": [
+      "Ancient_Cavern",
+      "Kraken_Cove",
+      "Iorwerth_Dungeon"
+    ],
+    "notableDrops": [
+      "Mist_battlestaff"
+    ]
+  },
+  {
+    "id": "Werewolf",
+    "icon": "Wolfbane",
+    "requiredCombatLevel": 60,
+    "slayerMasters": [
+      "Vannaka"
+    ],
+    "locations": [
+      "Canifis"
+    ]
+  },
+  {
+    "id": "Wild_dog",
+    "icon": "Ensouled_dog_head",
+    "requiredCombatLevel": 15,
+    "slayerMasters": [
+      "Turael",
+      "Spria",
+      "Mazchna"
+    ],
+    "locations": [
+      "Brimhaven_Dungeon"
+    ]
+  },
+  {
+    "id": "Wolf",
+    "icon": "Wolf_mask",
+    "requiredCombatLevel": 20,
+    "slayerMasters": [
+      "Turael",
+      "Spria",
+      "Mazchna"
+    ],
+    "locations": [
+      "Stronghold_of_Security",
+      "Feldip_Hills",
+      "White_Wolf_Mountain",
+      "Rellekka",
+      "West_Ardougne",
+      "Outpost",
+      "Forthos_Ruin",
+      "Sinclair_Mansion",
+      "Gnome_maze"
+    ]
+  },
+  {
+    "id": "Wyrm",
+    "requiredSlayerLevel": 62,
+    "slayerMasters": [
+      "Chaeldar",
+      "Konar_quo_Maten",
+      "Nieve",
+      "Duradel"
+    ],
+    "locations": [
+      "Karuulm_Slayer_Dungeon"
+    ],
+    "notableDrops": [
+      "Dragon_harpoon",
+      "Dragon_sword",
+      "Dragon_knife",
+      "Dragon_thrownaxe"
+    ]
+  },
+  {
+    "id": "Wyrmling",
+    "icon": "Wyrm_icon",
+    "requiredSlayerLevel": 62,
+    "slayerMasters": [
+      "Chaeldar",
+      "Konar_quo_Maten",
+      "Nieve",
+      "Duradel"
+    ],
+    "locations": [
+      "Neypotzli"
+    ]
+  },
+  {
+    "id": "Zombie",
+    "icon": "Zombie_head",
+    "requiredCombatLevel": 10,
+    "slayerMasters": [
+      "Krystilia",
+      "Turael",
+      "Spria",
+      "Mazchna"
+    ],
+    "locations": [
+      "Stronghold_of_Security",
+      "Shayzien_Crypts",
+      "Tarn's_Lair",
+      "Chaos_Temple_(Wilderness)",
+      "Graveyard_of_Shadows" ,
+      "Ruins_(east)",
+      "Underground_Pass_(dungeon)",
+      "Edgeville_Dungeon",
+      "Wizards'_Guild#Basement",
+      "Draynor_Sewers",
+      "West_Ardougne",
+      "Glarial's_Tomb",
+      "Varrock_Sewers",
+      "Tree_Gnome_Village_Dungeon"
+    ],
+    "notableDrops": [
+      "Zombie_champion_scroll"
+    ]
+  },
+  {
+    "id": "Zombie_pirate",
+    "icon": "Zombie_pirate_key_1",
+    "slayerMasters": [
+      "Krystilia",
+      "Turael",
+      "Spria",
+      "Mazchna"
+    ],
+    "locations": [
+      "Chaos_Temple_(Wilderness)"
+    ],
+    "notableDrops": [
+      "Teleport_anchoring_scroll",
+      "Zombie_pirate_key"
+    ],
+    "hideFromMenu": true
+  },
+  {
+    "id": "Zygomite",
+    "icon": "Mutated_zygomite_icon",
+    "requiredCombatLevel": 60,
+    "requiredSlayerLevel": 57,
+    "slayerMasters": [
+      "Chaeldar",
+      "Konar_quo_Maten",
+      "Nieve",
+      "Duradel"
+    ],
+    "locations": [
+      "Zanaris",
+      "Fossil_Island"
+    ]
+  }
+]

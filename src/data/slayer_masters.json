@@ -1,0 +1,53 @@
+[
+  {
+    "id": "Krystilia",
+    "image": "Krystilia_chathead",
+    "region": "wilderness"
+  },
+  {
+    "id": "Turael",
+    "image": "Turael_chathead",
+    "region": "asgarnia"
+  },
+  {
+    "id": "Spria",
+    "image": "Spria_chathead",
+    "region": "misthalin"
+  },
+  {
+    "id": "Mazchna",
+    "image": "Mazchna_chathead",
+    "region": "morytania",
+    "requiredCombatLevel": 20
+  },
+  {
+    "id": "Vannaka",
+    "image": "Vannaka_chathead",
+    "region": "misthalin",
+    "requiredCombatLevel": 40
+  },
+  {
+    "id": "Chaeldar",
+    "image": "Chaeldar_chathead",
+    "region": "misthalin",
+    "requiredCombatLevel": 70
+  },
+  {
+    "id": "Konar_quo_Maten",
+    "image": "Konar_quo_Maten_chathead",
+    "region": "kourend",
+    "requiredCombatLevel": 75
+  },
+  {
+    "id": "Nieve",
+    "image": "Nieve_chathead",
+    "region": "kandarin",
+    "requiredCombatLevel": 85
+  },
+  {
+    "id": "Duradel",
+    "image": "Duradel_chathead",
+    "region": "karamja",
+    "requiredCombatLevel": 100
+  }
+]

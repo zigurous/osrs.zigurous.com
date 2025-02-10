@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 import AreaBadge from './AreaBadge';
 import RegionPanelBestInSlot from './RegionPanelBestInSlot';
 import RegionPanelPets from './RegionPanelPets';
+import RegionPanelSlayer from './RegionPanelSlayer';
 import RegionPanelTabs from './RegionPanelTabs';
 import { useRegionsContext } from '../context';
 import type { Region } from '../types';
@@ -75,6 +76,8 @@ function renderTab(selectedTab: RegionPanelTab, selectedRegion: Region) {
       return <RegionPanelPets region={selectedRegion} />;
     case 'Best In Slot':
       return <RegionPanelBestInSlot region={selectedRegion} />;
+    case 'Slayer':
+      return <RegionPanelSlayer region={selectedRegion} />;
     default:
       return null;
   }

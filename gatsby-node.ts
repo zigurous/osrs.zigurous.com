@@ -28,6 +28,24 @@ export const createSchemaCustomization = ({
       name: String
       tags: [String!]
     }
+    type LocationsJson implements Node @dontInfer {
+      jsonId: String!
+      name: String
+      region: String!
+      tags: [String!]
+    }
+    type MonstersJson implements Node @dontInfer {
+      jsonId: String!
+      icon: String
+      name: String
+      subtitle: String
+      requiredCombatLevel: Int
+      requiredSlayerLevel: Int
+      slayerMasters: [String!]!
+      locations: [String!]!
+      notableDrops: [String!]
+      hideFromMenu: Boolean
+    }
     type PetsJson implements Node @dontInfer {
       jsonId: String!
       icon: String
@@ -40,6 +58,12 @@ export const createSchemaCustomization = ({
       name: String!
       description: String!
       pets: [String!]!
+    }
+    type SlayerMastersJson implements Node @dontInfer {
+      jsonId: String!
+      image: String!
+      region: String!
+      requiredCombatLevel: Int
     }
   `;
   const coerceItemSource = (value: any) => {
