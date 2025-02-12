@@ -3,7 +3,7 @@ import React, { useRef, useState } from 'react';
 import Tooltip from './Tooltip';
 import WikiLink from './WikiLink';
 import type { ItemData } from '../types';
-import { formatNameFromId } from '../utils';
+import { autoDetectIcon, formatNameFromId } from '../utils';
 import '../styles/item-frame.css';
 
 interface ItemFrameProps {
@@ -15,15 +15,6 @@ interface ItemFrameProps {
   size?: 'sm' | 'md' | 'lg';
 }
 
-const customFrames = [
-  { id: '#empty', Component: ItemFrameEmpty },
-  { id: '#placeholder', Component: ItemFramePlaceholder },
-  { id: '#newline', Component: ItemFrameNewline },
-  { id: '#transmute', Component: ItemFrameTransmute },
-  { id: '#plus', Component: ItemFramePlus },
-  { id: '#equals', Component: ItemFrameEquals },
-];
-
 export default function ItemFrame({
   border,
   borderless,
@@ -32,15 +23,21 @@ export default function ItemFrame({
   item,
   size,
 }: ItemFrameProps) {
-  const ref = useRef<HTMLDivElement>(null);
+  const ref = useRef<HTMLAnchorElement>(null);
   const [hovering, setHovering] = useState(false);
+
   if (!item) return <ItemFrameEmpty border={border} className={className} />;
   const CustomFrame = customFrames.find(frame => item.id.startsWith(frame.id));
   if (CustomFrame) return <CustomFrame.Component />;
+
   const label = item.name || formatNameFromId(item.id);
+  const ParentComponent = item.transmutations ? 'div' : React.Fragment;
+  const parentProps = item.transmutations ? { className: 'relative' } : {};
+
   return (
-    <WikiLink aria-label={label} className="relative" wikiId={item.id}>
-      <div
+    <ParentComponent {...parentProps}>
+      <WikiLink
+        aria-label={label}
         className={classNames(
           'item-frame',
           {
@@ -57,28 +54,49 @@ export default function ItemFrame({
         )}
         onMouseEnter={e => setHovering(true)}
         onMouseLeave={e => setHovering(false)}
+        wikiId={item.id}
         ref={ref}
       >
-        {item && (
-          <img
-            alt=""
-            aria-hidden
-            src={`https://oldschool.runescape.wiki/images/${item.icon || item.id}.png`}
-          />
-        )}
+        <img
+          alt=""
+          aria-hidden
+          src={`https://oldschool.runescape.wiki/images/${item.icon || item.id}.png`}
+        />
         {hovering && ref.current && (
           <Tooltip element={ref.current} text={label} />
         )}
-      </div>
-    </WikiLink>
+      </WikiLink>
+      {item.transmutations && (
+        <div className="item-frame__sub-items shadow-sm">
+          {item.transmutations.map((id, index) => (
+            <ItemFrame
+              item={{ id, icon: autoDetectIcon(id) }}
+              key={`${id}-${index}`}
+              size="sm"
+            />
+          ))}
+        </div>
+      )}
+    </ParentComponent>
   );
 }
 
+const customFrames = [
+  { id: '#empty', Component: ItemFrameEmpty },
+  { id: '#placeholder', Component: ItemFramePlaceholder },
+  { id: '#spacer', Component: ItemFrameSpacer },
+  { id: '#newline', Component: ItemFrameNewline },
+  { id: '#transmute', Component: ItemFrameTransmute },
+  { id: '#plus', Component: ItemFramePlus },
+  { id: '#equals', Component: ItemFrameEquals },
+];
+
 function ItemFrameEmpty({ border, className }: Omit<ItemFrameProps, 'item'>) {
   return (
-    <div
+    <span
       className={classNames(
         'item-frame',
+        'item-frame--empty',
         {
           'item-frame--border': border,
         },
@@ -89,21 +107,25 @@ function ItemFrameEmpty({ border, className }: Omit<ItemFrameProps, 'item'>) {
 }
 
 function ItemFramePlaceholder() {
-  return <div aria-hidden className="item-frame item-frame--placeholder" />;
+  return <span aria-hidden className="item-frame item-frame--placeholder" />;
+}
+
+function ItemFrameSpacer() {
+  return <span aria-hidden className="item-frame item-frame--spacer" />;
 }
 
 function ItemFrameNewline() {
-  return <div aria-hidden className="item-frame item-frame--newline" />;
+  return <span aria-hidden className="item-frame item-frame--newline" />;
 }
 
 function ItemFrameTransmute() {
-  return <div className="item-frame item-frame--transmute">{'🞂'}</div>;
+  return <span className="item-frame item-frame--transmute">{'🞂'}</span>;
 }
 
 function ItemFramePlus() {
-  return <div className="item-frame item-frame--plus">{'+'}</div>;
+  return <span className="item-frame item-frame--plus">{'+'}</span>;
 }
 
 function ItemFrameEquals() {
-  return <div className="item-frame item-frame--equals">{'='}</div>;
+  return <span className="item-frame item-frame--equals">{'='}</span>;
 }

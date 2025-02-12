@@ -1,7 +1,23 @@
 [
   {
+    "id": "Abyssal_head",
+    "transmutations": [
+      "#transmute",
+      "Red_slayer_helmet",
+      "Stuffed_abyssal_head"
+    ]
+  },
+  {
     "id": "Abyssal_pearls",
     "icon": "Abyssal_pearls_5"
+  },
+  {
+    "id": "Alchemical_hydra_heads",
+    "transmutations": [
+      "#transmute",
+      "Hydra_slayer_helmet",
+      "Stuffed_hydra_heads"
+    ]
   },
   {
     "id": "Alchemist_labcoat",
@@ -24,6 +40,62 @@
     "icon": "Amylase_crystal_5"
   },
   {
+    "id": "Ancient_essence",
+    "icon": "Ancient_essence_500"
+  },
+  {
+    "id": "Ancient_icon",
+    "transmutations": [
+      "#plus",
+      "Ancient_staff",
+      "#equals",
+      "Ancient_sceptre"
+    ]
+  },
+  {
+    "id": "Ancient_hilt",
+    "transmutations": [
+      "#plus",
+      "Godsword_blade",
+      "#equals",
+      "Ancient_godsword"
+    ]
+  },
+  {
+    "id": "Araxyte_fang",
+    "transmutations": [
+      "#plus",
+      "Amulet_of_torture",
+      "#equals",
+      "Amulet_of_rancour"
+    ]
+  },
+  {
+    "id": "Araxyte_head",
+    "transmutations": [
+      "#transmute",
+      "Araxyte_slayer_helmet"
+    ]
+  },
+  {
+    "id": "Arcane_sigil",
+    "transmutations": [
+      "#plus",
+      "Blessed_spirit_shield",
+      "#equals",
+      "Arcane_spirit_shield"
+    ]
+  },
+  {
+    "id": "Armadyl_hilt",
+    "transmutations": [
+      "#plus",
+      "Godsword_blade",
+      "#equals",
+      "Armadyl_godsword"
+    ]
+  },
+  {
     "id": "Arrow_shaft",
     "icon": "Arrow_shaft_5"
   },
@@ -32,8 +104,26 @@
     "icon": "Weeds"
   },
   {
+    "id": "Avernic_defender_hilt",
+    "transmutations": [
+      "#plus",
+      "Dragon_defender",
+      "#equals",
+      "Avernic_defender"
+    ]
+  },
+  {
     "id": "Bag_full_of_gems",
     "icon": "Bag_full_of_gems_(golden_nuggets)"
+  },
+  {
+    "id": "Bandos_hilt",
+    "transmutations": [
+      "#plus",
+      "Godsword_blade",
+      "#equals",
+      "Bandos_godsword"
+    ]
   },
   {
     "id": "Bank",
@@ -48,6 +138,50 @@
     "icon": "Barb-tailed_kebbit_icon"
   },
   {
+    "id": "Basilisk_head",
+    "transmutations": [
+      "#transmute",
+      "Stuffed_basilisk_head"
+    ]
+  },
+  {
+    "id": "Basilisk_jaw",
+    "transmutations": [
+      "#plus",
+      "Helm_of_neitiznot",
+      "#equals",
+      "Neitiznot_faceguard"
+    ]
+  },
+  {
+    "id": "Bellator_vestige",
+    "transmutations": [
+      "#transmute",
+      "Bellator_ring"
+    ]
+  },
+  {
+    "id": "Big_harpoonfish",
+    "transmutations": [
+      "#transmute",
+      "Stuffed_big_harpoonfish"
+    ]
+  },
+  {
+    "id": "Big_shark",
+    "transmutations": [
+      "#transmute",
+      "Stuffed_big_shark"
+    ]
+  },
+  {
+    "id": "Big_swordfish",
+    "transmutations": [
+      "#transmute",
+      "Stuffed_big_swordfish"
+    ]
+  },
+  {
     "id": "Bird_nest",
     "icon": "Bird_nest_(empty)"
   },
@@ -56,9 +190,25 @@
     "icon": "Bird_nest_(red_egg)"
   },
   {
+    "id": "Black_mask",
+    "transmutations": [
+      "#transmute",
+      "Slayer_helmet"
+    ]
+  },
+  {
     "id": "Black_salamander_(Hunter)",
     "icon": "Black_salamander",
     "name": "Black Salamander"
+  },
+  {
+    "id": "Black_tourmaline_core",
+    "transmutations": [
+      "#plus",
+      "Bandos_boots",
+      "#equals",
+      "Guardian_boots"
+    ]
   },
   {
     "id": "Black_warlock",
@@ -69,12 +219,80 @@
     "icon": "Blessed_bone_statuette_(eagle)"
   },
   {
+    "id": "Blood_quartz",
+    "transmutations": [
+      "#plus",
+      "Ancient_sceptre",
+      "#equals",
+      "Blood_ancient_sceptre"
+    ]
+  },
+  {
+    "id": "Blood_shard",
+    "transmutations": [
+      "#plus",
+      "Amulet_of_fury",
+      "#equals",
+      "Amulet_of_blood_fury"
+    ]
+  },
+  {
+    "id": "Bludgeon_axon",
+    "transmutations": [
+      "#plus",
+      "Bludgeon_claw",
+      "Bludgeon_spine",
+      "#equals",
+      "Abyssal_bludgeon"
+    ]
+  },
+  {
+    "id": "Bludgeon_claw",
+    "transmutations": [
+      "#plus",
+      "Bludgeon_axon",
+      "Bludgeon_spine",
+      "#equals",
+      "Abyssal_bludgeon"
+    ]
+  },
+  {
+    "id": "Bludgeon_spine",
+    "transmutations": [
+      "#plus",
+      "Bludgeon_axon",
+      "Bludgeon_claw",
+      "#equals",
+      "Abyssal_bludgeon"
+    ]
+  },
+  {
     "id": "Bolt_rack",
     "icon": "Bolt_rack_5"
   },
   {
     "id": "Bonemeal",
     "icon": "Dragon_bonemeal"
+  },
+  {
+    "id": "Bottom_of_sceptre",
+    "transmutations": [
+      "#plus",
+      "Top_of_sceptre",
+      "Left_skull_half",
+      "Right_skull_half",
+      "#equals",
+      "Skull_sceptre"
+    ]
+  },
+  {
+    "id": "Breach_of_the_scarab",
+    "transmutations": [
+      "#plus",
+      "Keris_partisan",
+      "#equals",
+      "Keris_partisan_of_breaching"
+    ]
   },
   {
     "id": "Brimstone_key",
@@ -87,6 +305,43 @@
   {
     "id": "Broad_arrowheads",
     "icon": "Broad_arrowheads_5"
+  },
+  {
+    "id": "Broken_dragon_hasta",
+    "transmutations": [
+      "#transmute",
+      "Dragon_hasta"
+    ]
+  },
+  {
+    "id": "Broken_zombie_axe",
+    "transmutations": [
+      "#transmute",
+      "Zombie_axe"
+    ]
+  },
+  {
+    "id": "Broken_zombie_helmet",
+    "transmutations": [
+      "#transmute",
+      "Zombie_helmet"
+    ]
+  },
+  {
+    "id": "Bryophyta's_essence",
+    "transmutations": [
+      "#plus",
+      "Battlestaff",
+      "#equals",
+      "Bryophyta's_staff"
+    ]
+  },
+  {
+    "id": "Burning_claw",
+    "transmutations": [
+      "#transmute",
+      "Burning_claws"
+    ]
   },
   {
     "id": "Butler",
@@ -106,8 +361,24 @@
     "name": "Chinchompa"
   },
   {
+    "id": "Claws_of_callisto",
+    "transmutations": [
+      "#plus",
+      "Viggora's_chainmace",
+      "#equals",
+      "Ursine_chainmace"
+    ]
+  },
+  {
     "id": "Clue_nest",
     "icon": "Clue_nest_(beginner)"
+  },
+  {
+    "id": "Cockatrice_head",
+    "transmutations": [
+      "#transmute",
+      "Stuffed_cockatrice_head"
+    ]
   },
   {
     "id": "Coin_pouch",
@@ -130,6 +401,14 @@
     "icon": "Copper_longtail_icon"
   },
   {
+    "id": "Crawling_hand_(item)",
+    "name": "Crawling Hand",
+    "transmutations": [
+      "#transmute",
+      "Stuffed_crawling_hand"
+    ]
+  },
+  {
     "id": "Crimson_swift",
     "icon": "Crimson_swift_icon"
   },
@@ -143,7 +422,13 @@
   },
   {
     "id": "Crystal_armour_seed",
-    "icon": "Crystal_armour_seed"
+    "icon": "Crystal_armour_seed",
+    "transmutations": [
+      "#transmute",
+      "Crystal_helm",
+      "Crystal_body",
+      "Crystal_legs"
+    ]
   },
   {
     "id": "Crystal_shard",
@@ -151,11 +436,31 @@
   },
   {
     "id": "Crystal_tool_seed",
-    "icon": "Crystal_tool_seed"
+    "icon": "Crystal_tool_seed",
+    "transmutations": [
+      "#transmute",
+      "Crystal_axe",
+      "Crystal_harpoon",
+      "Crystal_pickaxe"
+    ]
   },
   {
     "id": "Crystal_weapon_seed",
-    "icon": "Crystal_weapon_seed"
+    "icon": "Crystal_weapon_seed",
+    "transmutations": [
+      "#transmute",
+      "Crystal_bow",
+      "Crystal_halberd",
+      "Crystal_shield"
+    ]
+  },
+  {
+    "id": "Dark_claw",
+    "transmutations": [
+      "#transmute",
+      "Purple_slayer_helmet",
+      "Dark_flippers"
+    ]
   },
   {
     "id": "Dark_kebbit",
@@ -193,12 +498,92 @@
     "tags": ["unique"]
   },
   {
+    "id": "Dizana's_quiver#Uncharged",
+    "icon": "Dizana's_quiver_(uncharged)",
+    "name": "Dizana's Quiver (uncharged)"
+  },
+  {
+    "id": "Draconic_visage",
+    "transmutations": [
+      "#plus",
+      "Anti-dragon_shield",
+      "#equals",
+      "Dragonfire_shield"
+    ]
+  },
+  {
+    "id": "Dragon_limbs",
+    "transmutations": [
+      "#transmute",
+      "Dragon_crossbow"
+    ]
+  },
+  {
+    "id": "Dragon_metal_lump",
+    "transmutations": [
+      "#transmute",
+      "Dragon_platebody"
+    ]
+  },
+  {
+    "id": "Dragon_metal_slice",
+    "transmutations": [
+      "#transmute",
+      "Dragon_kiteshield"
+    ]
+  },
+  {
+    "id": "Drake's_claw",
+    "transmutations": [
+      "#plus",
+      "Boots_of_stone",
+      "#equals",
+      "Boots_of_brimstone"
+    ]
+  },
+  {
+    "id": "Drake's_tooth",
+    "transmutations": [
+      "#plus",
+      "Holy_sandals",
+      "#equals",
+      "Devout_boots"
+    ]
+  },
+  {
     "id": "Drygore_blowpipe",
     "tags": ["unique"]
   },
   {
+    "id": "Echo_crystal",
+    "transmutations": [
+      "#plus",
+      "Guardian_boots",
+      "#equals",
+      "Echo_boots"
+    ]
+  },
+  {
     "id": "Ecto-token",
     "icon": "Ecto-token_3"
+  },
+  {
+    "id": "Eldritch_orb",
+    "transmutations": [
+      "#plus",
+      "Nightmare_staff",
+      "#equals",
+      "Eldritch_nightmare_staff"
+    ]
+  },
+  {
+    "id": "Elysian_sigil",
+    "transmutations": [
+      "#plus",
+      "Blessed_spirit_shield",
+      "#equals",
+      "Elysian_spirit_shield"
+    ]
   },
   {
     "id": "Embertailed_jerboa",
@@ -210,15 +595,93 @@
   },
   {
     "id": "Enhanced_crystal_teleport_seed",
-    "icon": "Enhanced_crystal_teleport_seed"
+    "icon": "Enhanced_crystal_teleport_seed",
+    "transmutations": [
+      "#transmute",
+      "Eternal_teleport_crystal"
+    ]
   },
   {
     "id": "Enhanced_crystal_weapon_seed",
-    "icon": "Enhanced_crystal_weapon_seed"
+    "icon": "Enhanced_crystal_weapon_seed",
+    "transmutations": [
+      "#transmute",
+      "Bow_of_faerdhinen",
+      "Blade_of_saeldor"
+    ]
+  },
+  {
+    "id": "Eternal_crystal",
+    "transmutations": [
+      "#plus",
+      "Infinity_boots",
+      "#equals",
+      "Eternal_boots"
+    ]
+  },
+  {
+    "id": "Eternal_gem",
+    "transmutations": [
+      "#plus",
+      "Gold_bar",
+      "#equals",
+      "Slayer_ring_(eternal)"
+    ]
+  },
+  {
+    "id": "Executioner's_axe_head",
+    "transmutations": [
+      "#plus",
+      "Leviathan's_lure",
+      "Siren's_staff",
+      "Eye_of_the_duke",
+      "#equals",
+      "Soulreaper_axe"
+    ]
+  },
+  {
+    "id": "Eye_of_the_corruptor",
+    "transmutations": [
+      "#plus",
+      "Keris_partisan",
+      "#equals",
+      "Keris_partisan_of_corruption"
+    ]
+  },
+  {
+    "id": "Eye_of_the_duke",
+    "transmutations": [
+      "#plus",
+      "Leviathan's_lure",
+      "Siren's_staff",
+      "Executioner's_axe_head",
+      "#equals",
+      "Soulreaper_axe"
+    ]
+  },
+  {
+    "id": "Fangs_of_venenatis",
+    "transmutations": [
+      "#plus",
+      "Craw's_bow",
+      "#equals",
+      "Webweaver_bow"
+    ]
   },
   {
     "id": "Feldip_weasel",
     "icon": "Feldip_weasel_icon"
+  },
+  {
+    "id": "Fire_element_staff_crown",
+    "transmutations": [
+      "#plus",
+      "Ice_element_staff_crown",
+      "#plus",
+      "Battlestaff",
+      "#equals",
+      "Twinflame_staff"
+    ]
   },
   {
     "id": "Fossil_Island_fossil",
@@ -265,6 +728,15 @@
     "icon": "Golden_warbler_icon"
   },
   {
+    "id": "Granite_dust",
+    "transmutations": [
+      "#plus",
+      "Cannonball",
+      "#equals",
+      "Granite_cannonball"
+    ]
+  },
+  {
     "id": "Grimy_herb",
     "icon": "Grimy_guam_leaf",
     "name": "Grimy Herbs"
@@ -274,8 +746,33 @@
     "icon": "Hallowed_mark_25"
   },
   {
+    "id": "Harmonised_orb",
+    "transmutations": [
+      "#plus",
+      "Nightmare_staff",
+      "#equals",
+      "Harmonised_nightmare_staff"
+    ]
+  },
+  {
+    "id": "Heavy_frame",
+    "transmutations": [
+      "#transmute",
+      "Heavy_ballista"
+    ]
+  },
+  {
     "id": "Herb",
     "name": "Herbs"
+  },
+  {
+    "id": "Holy_elixir",
+    "transmutations": [
+      "#plus",
+      "Spirit_shield",
+      "#equals",
+      "Blessed_spirit_shield"
+    ]
   },
   {
     "id": "Horned_graahk",
@@ -284,6 +781,16 @@
   {
     "id": "House_keys",
     "icon": "House_keys_1"
+  },
+  {
+    "id": "Hueycoatl_hide",
+    "transmutations": [
+      "#transmute",
+      "Hueycoatl_hide_coif",
+      "Hueycoatl_hide_body",
+      "Hueycoatl_hide_chaps",
+      "Hueycoatl_hide_vambraces"
+    ]
   },
   {
     "id": "Hunter_Kit_(spell)",
@@ -295,6 +802,82 @@
     "icon": "Hunter_spear_tips_5"
   },
   {
+    "id": "Hydra_leather",
+    "transmutations": [
+      "#transmute",
+      "Ferocious_gloves"
+    ]
+  },
+  {
+    "id": "Hydra_tail",
+    "transmutations": [
+      "#plus",
+      "Bonecrusher",
+      "Dragonbone_necklace",
+      "#equals",
+      "Bonecrusher_necklace"
+    ]
+  },
+  {
+    "id": "Hydra's_claw",
+    "transmutations": [
+      "#plus",
+      "Zamorakian_hasta",
+      "#equals",
+      "Dragon_hunter_lance"
+    ]
+  },
+  {
+    "id": "Hydra's_eye",
+    "transmutations": [
+      "#plus",
+      "Hydra's_fang",
+      "Hydra's_heart",
+      "#equals",
+      "Brimstone_ring"
+    ]
+  },
+  {
+    "id": "Hydra's_fang",
+    "transmutations": [
+      "#plus",
+      "Hydra's_eye",
+      "Hydra's_heart",
+      "#equals",
+      "Brimstone_ring"
+    ]
+  },
+  {
+    "id": "Hydra's_heart",
+    "transmutations": [
+      "#plus",
+      "Hydra's_eye",
+      "Hydra's_fang",
+      "#equals",
+      "Brimstone_ring"
+    ]
+  },
+  {
+    "id": "Ice_element_staff_crown",
+    "transmutations": [
+      "#plus",
+      "Fire_element_staff_crown",
+      "#plus",
+      "Battlestaff",
+      "#equals",
+      "Twinflame_staff"
+    ]
+  },
+  {
+    "id": "Ice_quartz",
+    "transmutations": [
+      "#plus",
+      "Ancient_sceptre",
+      "#equals",
+      "Ice_ancient_sceptre"
+    ]
+  },
+  {
     "id": "Imbuing",
     "icon": "Scroll_of_imbuing"
   },
@@ -303,24 +886,157 @@
     "icon": "Javelin_shaft_5"
   },
   {
+    "id": "Jewel_of_the_sun",
+    "transmutations": [
+      "#plus",
+      "Keris_partisan",
+      "#equals",
+      "Keris_partisan_of_the_sun"
+    ]
+  },
+  {
     "id": "Karamjan_monkey_(item)",
     "name": "Karamjan Monkey"
+  },
+  {
+    "id": "Kbd_heads",
+    "transmutations": [
+      "#transmute",
+      "Black_slayer_helmet",
+      "Stuffed_kbd_heads"
+    ]
   },
   {
     "id": "Kebbit_bolts",
     "icon": "Kebbit_bolts"
   },
   {
+    "id": "Kodai_insignia",
+    "transmutations": [
+      "#plus",
+      "Master_wand",
+      "#equals",
+      "Kodai_wand"
+    ]
+  },
+  {
+    "id": "Kq_head",
+    "transmutations": [
+      "#transmute",
+      "Green_slayer_helmet",
+      "Stuffed_kq_head"
+    ]
+  },
+  {
+    "id": "Kraken_tentacle",
+    "transmutations": [
+      "#plus",
+      "Abyssal_whip",
+      "#equals",
+      "Abyssal_tentacle"
+    ]
+  },
+  {
+    "id": "Kurask_head",
+    "transmutations": [
+      "#transmute",
+      "Stuffed_kurask_head"
+    ]
+  },
+  {
     "id": "Larran's_key",
     "icon": "Larran's_key_1"
+  },
+  {
+    "id": "Left_skull_half",
+    "transmutations": [
+      "#plus",
+      "Right_skull_half",
+      "Top_of_sceptre",
+      "Bottom_of_sceptre",
+      "#equals",
+      "Skull_sceptre"
+    ]
+  },
+  {
+    "id": "Leviathan's_lure",
+    "transmutations": [
+      "#plus",
+      "Siren's_staff",
+      "Executioner's_axe_head",
+      "Eye_of_the_duke",
+      "#equals",
+      "Soulreaper_axe"
+    ]
+  },
+  {
+    "id": "Light_frame",
+    "transmutations": [
+      "#transmute",
+      "Light_ballista"
+    ]
   },
   {
     "id": "Long_kebbit_bolts",
     "icon": "Long_kebbit_bolts"
   },
   {
+    "id": "Loop_half_of_key_(moon_key)",
+    "transmutations": [
+      "#plus",
+      "Tooth_half_of_key_(moon_key)",
+      "#equals",
+      "Moon_key"
+    ]
+  },
+  {
+    "id": "Magic_fang",
+    "transmutations": [
+      "#transmute",
+      "Trident_of_the_swamp",
+      "Toxic_staff_of_the_dead"
+    ]
+  },
+  {
+    "id": "Magus_vestige",
+    "transmutations": [
+      "#transmute",
+      "Magus_ring"
+    ]
+  },
+  {
     "id": "Maid",
     "icon": "Maid_chathead"
+  },
+  {
+    "id": "Malediction_shard_1",
+    "transmutations": [
+      "#plus",
+      "Malediction_shard_2",
+      "Malediction_shard_3",
+      "#equals",
+      "Malediction_ward"
+    ]
+  },
+  {
+    "id": "Malediction_shard_2",
+    "transmutations": [
+      "#plus",
+      "Malediction_shard_1",
+      "Malediction_shard_3",
+      "#equals",
+      "Malediction_ward"
+    ]
+  },
+  {
+    "id": "Malediction_shard_3",
+    "transmutations": [
+      "#plus",
+      "Malediction_shard_1",
+      "Malediction_shard_2",
+      "#equals",
+      "Malediction_ward"
+    ]
   },
   {
     "id": "Maniacal_monkey_(item)",
@@ -351,12 +1067,81 @@
     "icon": "Grey_navy_slacks"
   },
   {
+    "id": "Nihil_horn",
+    "transmutations": [
+      "#plus",
+      "Armadyl_crossbow",
+      "#equals",
+      "Zaryte_crossbow"
+    ]
+  },
+  {
     "id": "Nothing",
     "icon": "Bank_filler"
   },
   {
+    "id": "Noxious_point",
+    "transmutations": [
+      "#plus",
+      "Noxious_blade",
+      "Noxious_pommel",
+      "#equals",
+      "Noxious_halberd"
+    ]
+  },
+  {
+    "id": "Noxious_blade",
+    "transmutations": [
+      "#plus",
+      "Noxious_point",
+      "Noxious_pommel",
+      "#equals",
+      "Noxious_halberd"
+    ]
+  },
+  {
+    "id": "Noxious_pommel",
+    "transmutations": [
+      "#plus",
+      "Noxious_point",
+      "Noxious_blade",
+      "#equals",
+      "Noxious_halberd"
+    ]
+  },
+  {
     "id": "Numulite",
     "icon": "Numulite_25"
+  },
+  {
+    "id": "Odium_shard_1",
+    "transmutations": [
+      "#plus",
+      "Odium_shard_2",
+      "Odium_shard_3",
+      "#equals",
+      "Odium_ward"
+    ]
+  },
+  {
+    "id": "Odium_shard_2",
+    "transmutations": [
+      "#plus",
+      "Odium_shard_1",
+      "Odium_shard_3",
+      "#equals",
+      "Odium_ward"
+    ]
+  },
+  {
+    "id": "Odium_shard_3",
+    "transmutations": [
+      "#plus",
+      "Odium_shard_1",
+      "Odium_shard_2",
+      "#equals",
+      "Odium_ward"
+    ]
   },
   {
     "id": "Ogre_arrow_shaft",
@@ -366,6 +1151,15 @@
     "id": "Orange_salamander_(Hunter)",
     "icon": "Orange_salamander",
     "name": "Orange Salamander"
+  },
+  {
+    "id": "Pegasian_crystal",
+    "transmutations": [
+      "#plus",
+      "Ranger_boots",
+      "#equals",
+      "Pegasian_boots"
+    ]
   },
   {
     "id": "Pharaoh's_sceptre",
@@ -386,6 +1180,15 @@
   {
     "id": "Prickly_kebbit",
     "icon": "Prickly_kebbit_icon"
+  },
+  {
+    "id": "Primordial_crystal",
+    "transmutations": [
+      "#plus",
+      "Dragon_boots",
+      "#equals",
+      "Primordial_boots"
+    ]
   },
   {
     "id": "Pyre_fox",
@@ -417,6 +1220,17 @@
     "icon": "Rick_chathead"
   },
   {
+    "id": "Right_skull_half",
+    "transmutations": [
+      "#plus",
+      "Left_skull_half",
+      "Top_of_sceptre",
+      "Bottom_of_sceptre",
+      "#equals",
+      "Skull_sceptre"
+    ]
+  },
+  {
     "id": "Ruby_harvest",
     "icon": "Ruby_harvest_icon"
   },
@@ -437,6 +1251,31 @@
     "icon": "Saradomin_brew(4)"
   },
   {
+    "id": "Saradomin_hilt",
+    "transmutations": [
+      "#plus",
+      "Godsword_blade",
+      "#equals",
+      "Saradomin_godsword"
+    ]
+  },
+  {
+    "id": "Scaly_blue_dragonhide",
+    "transmutations": [
+      "#transmute",
+      "Blue_dragon_scale"
+    ]
+  },
+  {
+    "id": "Scurrius'_spine",
+    "transmutations": [
+      "#transmute",
+      "Bone_mace",
+      "Bone_shortbow",
+      "Bone_staff"
+    ]
+  },
+  {
     "id": "Scythe_of_vitur",
     "tags": ["megarare"]
   },
@@ -445,8 +1284,71 @@
     "icon": "Seaweed_spore_5"
   },
   {
+    "id": "Serpentine_visage",
+    "transmutations": [
+      "#transmute",
+      "Serpentine_helm"
+    ]
+  },
+  {
+    "id": "Shadow_quartz",
+    "transmutations": [
+      "#plus",
+      "Ancient_sceptre",
+      "#equals",
+      "Shadow_ancient_sceptre"
+    ]
+  },
+  {
+    "id": "Siren's_staff",
+    "transmutations": [
+      "#plus",
+      "Leviathan's_lure",
+      "Executioner's_axe_head",
+      "Eye_of_the_duke",
+      "#equals",
+      "Soulreaper_axe"
+    ]
+  },
+  {
+    "id": "Skeletal_visage",
+    "transmutations": [
+      "#plus",
+      "Anti-dragon_shield",
+      "#equals",
+      "Dragonfire_ward"
+    ]
+  },
+  {
     "id": "Skeleton_monkey_(item)",
     "name": "Skeleton Monkey"
+  },
+  {
+    "id": "Skull_of_vet'ion",
+    "transmutations": [
+      "#plus",
+      "Thammaron's_sceptre",
+      "#equals",
+      "Accursed_sceptre"
+    ]
+  },
+  {
+    "id": "Smoke_quartz",
+    "transmutations": [
+      "#plus",
+      "Ancient_sceptre",
+      "#equals",
+      "Smoke_ancient_sceptre"
+    ]
+  },
+  {
+    "id": "Smouldering_stone",
+    "transmutations": [
+      "#transmute",
+      "Infernal_axe",
+      "Infernal_harpoon",
+      "Infernal_pickaxe"
+    ]
   },
   {
     "id": "Snowy_knight",
@@ -457,12 +1359,30 @@
     "icon": "Soul_cape_(red)"
   },
   {
+    "id": "Spectral_sigil",
+    "transmutations": [
+      "#plus",
+      "Blessed_spirit_shield",
+      "#equals",
+      "Spectral_spirit_shield"
+    ]
+  },
+  {
     "id": "Spined_larupia",
     "icon": "Spined_larupia_icon"
   },
   {
     "id": "Spirit_flakes",
     "icon": "Spirit_flakes_9"
+  },
+  {
+    "id": "Spirit_shield",
+    "transmutations": [
+      "#plus",
+      "Holy_elixir",
+      "#equals",
+      "Blessed_spirit_shield"
+    ]
   },
   {
     "id": "Spotted_kebbit",
@@ -497,6 +1417,13 @@
     "name": "Supply Crate"
   },
   {
+    "id": "Tanzanite_fang",
+    "transmutations": [
+      "#transmute",
+      "Toxic_blowpipe"
+    ]
+  },
+  {
     "id": "Tecu_salamander_(Hunter)",
     "icon": "Tecu_salamander",
     "name": "Tecu Salamander"
@@ -510,8 +1437,51 @@
     "tags": ["unique"]
   },
   {
+    "id": "Thread_of_elidinis",
+    "transmutations": [
+      "#plus",
+      "Rune_pouch",
+      "#equals",
+      "Divine_rune_pouch"
+    ]
+  },
+  {
     "id": "Thunder_khopesh",
     "tags": ["unique"]
+  },
+  {
+    "id": "Tonalztics_of_ralos#Uncharged",
+    "icon": "Tonalztics_of_ralos_(uncharged)",
+    "name": "Tonalztics of Ralos (uncharged)"
+  },
+  {
+    "id": "Tooth_half_of_key_(moon_key)",
+    "transmutations": [
+      "#plus",
+      "Loop_half_of_key_(moon_key)",
+      "#equals",
+      "Moon_key"
+    ]
+  },
+  {
+    "id": "Top_of_sceptre",
+    "transmutations": [
+      "#plus",
+      "Bottom_of_sceptre",
+      "Left_skull_half",
+      "Right_skull_half",
+      "#equals",
+      "Skull_sceptre"
+    ]
+  },
+  {
+    "id": "Tormented_synapse",
+    "transmutations": [
+      "#transmute",
+      "Emberlight",
+      "Scorching_bow",
+      "Purging_staff"
+    ]
   },
   {
     "id": "Trading_sticks",
@@ -538,8 +1508,29 @@
     "tags": ["megarare"]
   },
   {
+    "id": "Ultor_vestige",
+    "transmutations": [
+      "#transmute",
+      "Ultor_ring"
+    ]
+  },
+  {
     "id": "Valuables",
     "icon": "Valuables_5"
+  },
+  {
+    "id": "Venator_shard",
+    "transmutations": [
+      "#transmute",
+      "Venator_bow"
+    ]
+  },
+  {
+    "id": "Venator_vestige",
+    "transmutations": [
+      "#transmute",
+      "Venator_ring"
+    ]
   },
   {
     "id": "Villager_robe",
@@ -558,6 +1549,54 @@
     "icon": "Villager_armband_(brown)"
   },
   {
+    "id": "Voidwaker_blade",
+    "transmutations": [
+      "#plus",
+      "Voidwaker_hilt",
+      "Voidwaker_gem",
+      "#equals",
+      "Voidwaker"
+    ]
+  },
+  {
+    "id": "Voidwaker_hilt",
+    "transmutations": [
+      "#plus",
+      "Voidwaker_blade",
+      "Voidwaker_gem",
+      "#equals",
+      "Voidwaker"
+    ]
+  },
+  {
+    "id": "Voidwaker_gem",
+    "transmutations": [
+      "#plus",
+      "Voidwaker_blade",
+      "Voidwaker_hilt",
+      "#equals",
+      "Voidwaker"
+    ]
+  },
+  {
+    "id": "Volatile_orb",
+    "transmutations": [
+      "#plus",
+      "Nightmare_staff",
+      "#equals",
+      "Volatile_nightmare_staff"
+    ]
+  },
+  {
+    "id": "Vorkath's_head",
+    "transmutations": [
+      "#transmute",
+      "Ava's_assembler",
+      "Turquoise_slayer_helmet",
+      "Vorkath's_stuffed_head"
+    ]
+  },
+  {
     "id": "White_decorative_armour",
     "icon": "Cw_armour_2_icon"
   },
@@ -570,8 +1609,54 @@
     "icon": "Wild_kebbit_icon"
   },
   {
+    "id": "Wyvern_visage",
+    "transmutations": [
+      "#plus",
+      "Elemental_shield",
+      "#equals",
+      "Ancient_wyvern_shield"
+    ]
+  },
+  {
+    "id": "Xerician_fabric",
+    "transmutations": [
+      "#transmute",
+      "Xerician_hat",
+      "Xerician_top",
+      "Xerician_robe"
+    ]
+  },
+  {
     "id": "XP",
     "icon": "XP_drops_icon"
+  },
+  {
+    "id": "Zalcano_shard",
+    "transmutations": [
+      "#plus",
+      "Dragon_pickaxe",
+      "#equals",
+      "Dragon_pickaxe_(or)"
+    ]
+  },
+  {
+    "id": "Zamorak_hilt",
+    "transmutations": [
+      "#plus",
+      "Godsword_blade",
+      "#equals",
+      "Zamorak_godsword"
+    ]
+  },
+  {
+    "id": "Zenyte_shard",
+    "transmutations": [
+      "#transmute",
+      "Ring_of_suffering",
+      "Necklace_of_anguish",
+      "Tormented_bracelet",
+      "Amulet_of_torture"
+    ]
   },
   {
     "id": "Zombie_monkey_(item)",
@@ -580,5 +1665,9 @@
   {
     "id": "Zombie_pirate_key",
     "icon": "Zombie_pirate_key_1"
+  },
+  {
+    "id": "Zulrah's_scales",
+    "icon": "Zulrah's_scales_5"
   }
 ]

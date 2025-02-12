@@ -27,6 +27,7 @@ export const createSchemaCustomization = ({
       icon: String
       name: String
       tags: [String!]
+      transmutations: [String!]
     }
     type LocationsJson implements Node @dontInfer {
       jsonId: String!

@@ -9,7 +9,8 @@ export function toTitleCase(title: string): string {
     .replace(' De ', ' de ')
     .replace(' The ', ' the ')
     .replace(' And ', ' and ')
-    .replace('(E)', '(e)');
+    .replace('(E)', '(e)')
+    .replace('(Or)', '(or)');
 }
 
 export function capitalizeFirstLetter(str: string) {

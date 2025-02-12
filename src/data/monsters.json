@@ -61,16 +61,13 @@
     "notableDrops": [
       "Abyssal_orphan",
       "Unsired",
-      "Abyssal_head",
+      "Bludgeon_axon",
+      "Bludgeon_claw",
+      "Bludgeon_spine",
       "Abyssal_dagger",
       "Abyssal_whip",
-      "Jar_of_miasma",
-      "#newline",
-      "Bludgeon_spine",
-      "Bludgeon_claw",
-      "Bludgeon_axon",
-      "#transmute",
-      "Abyssal_bludgeon"
+      "Abyssal_head",
+      "Jar_of_miasma"
     ]
   },
   {
@@ -109,10 +106,10 @@
       "Hydra's_eye",
       "Hydra's_fang",
       "Hydra's_heart",
-      "Alchemical_hydra_heads",
-      "Jar_of_chemicals",
       "Dragon_knife",
-      "Dragon_thrownaxe"
+      "Dragon_thrownaxe",
+      "Alchemical_hydra_heads",
+      "Jar_of_chemicals"
     ]
   },
   {
@@ -185,11 +182,10 @@
       "Noxious_point",
       "Noxious_blade",
       "Noxious_pommel",
-      "Araxyte_head",
-      "Jar_of_venom",
       "Coagulated_venom",
       "Araxyte_venom_sack",
-      "Spider_cave_teleport"
+      "Araxyte_head",
+      "Jar_of_venom"
     ]
   },
   {
@@ -715,8 +711,7 @@
       "Pegasian_crystal",
       "Primordial_crystal",
       "Smouldering_stone",
-      "Jar_of_souls",
-      "Key_master_teleport"
+      "Jar_of_souls"
     ]
   },
   {
@@ -1377,8 +1372,8 @@
       "Granite_gloves",
       "Granite_ring",
       "Granite_hammer",
-      "Jar_of_stone",
-      "Granite_dust"
+      "Granite_dust",
+      "Jar_of_stone"
     ]
   },
   {
@@ -2764,14 +2759,7 @@
     ],
     "notableDrops": [
       "Tormented_synapse",
-      "#transmute",
-      "Emberlight",
-      "Scorching_bow",
-      "Purging_staff",
-      "#newline",
-      "Burning_claw",
-      "#transmute",
-      "Burning_claws"
+      "Burning_claw"
     ]
   },
   {

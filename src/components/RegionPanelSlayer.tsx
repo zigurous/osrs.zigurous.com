@@ -29,50 +29,46 @@ export default function RegionPanelSlayer({ region }: RegionPanelSlayerProps) {
   );
   return (
     <>
-      {(masters.length > 0 || monsters.length > 0) && (
-        <RegionPanelSection title="Slayer">
-          {masters.length > 0 && (
-            <TitledCard title="Masters" caption="Requirement" type="list">
-              <ul>
-                {masters.map(master => (
-                  <SlayerMasterListItem key={master.id} master={master} />
-                ))}
-              </ul>
-            </TitledCard>
-          )}
-          {monsters.length > 0 && (
-            <TitledCard title="Monsters" caption="Requirement" type="list">
-              <ul>
-                {monsters.map(monster =>
-                  monster.hideFromMenu ? null : (
-                    <SlayerMonsterListItem key={monster.id} monster={monster} />
-                  ),
-                )}
-              </ul>
-            </TitledCard>
-          )}
-          {dungeons.length > 0 && (
-            <TitledCard title="Locations" type="list">
-              <ul>
-                {dungeons.map(dungeon => (
-                  <SlayerDungeonListItem key={dungeon.id} dungeon={dungeon} />
-                ))}
-              </ul>
-            </TitledCard>
-          )}
-        </RegionPanelSection>
-      )}
-      {monsters.length > 0 && (
-        <>
-          <hr className="thick" />
-          <RegionPanelSection title="Notable Drops">
-            {monsters.map(monster => {
-              if (!monster.notableDrops) return null;
-              const drops = itemsContext.getItemsByIds(monster.notableDrops);
-              if (!drops || drops.length === 0) return null;
-              return (
+      <RegionPanelSection title="Slayer">
+        {masters.length > 0 && (
+          <TitledCard title="Masters" caption="Requirement" type="list">
+            <ul>
+              {masters.map(master => (
+                <SlayerMasterListItem key={master.id} master={master} />
+              ))}
+            </ul>
+          </TitledCard>
+        )}
+        {monsters.length > 0 && (
+          <TitledCard title="Monsters" caption="Requirement" type="list">
+            <ul>
+              {monsters.map(monster =>
+                monster.hideFromMenu ? null : (
+                  <SlayerMonsterListItem key={monster.id} monster={monster} />
+                ),
+              )}
+            </ul>
+          </TitledCard>
+        )}
+        {dungeons.length > 0 && (
+          <TitledCard title="Locations" type="list">
+            <ul>
+              {dungeons.map(dungeon => (
+                <SlayerDungeonListItem key={dungeon.id} dungeon={dungeon} />
+              ))}
+            </ul>
+          </TitledCard>
+        )}
+      </RegionPanelSection>
+      <hr className="thick" />
+      <RegionPanelSection title="Notable Drops">
+        <ul className="drops-list">
+          {monsters.map(monster => {
+            if (!monster.notableDrops) return null;
+            const drops = itemsContext.getItemsByIds(monster.notableDrops);
+            return (
+              <li id={monster.id} key={monster.id}>
                 <TitledCard
-                  key={monster.id}
                   subtitle={monster.subtitle}
                   title={monster.name || formatNameFromId(monster.id)}
                   titleIconSize={14}
@@ -81,11 +77,11 @@ export default function RegionPanelSlayer({ region }: RegionPanelSlayerProps) {
                 >
                   <ItemsStack items={drops} />
                 </TitledCard>
-              );
-            })}
-          </RegionPanelSection>
-        </>
-      )}
+              </li>
+            );
+          })}
+        </ul>
+      </RegionPanelSection>
     </>
   );
 }

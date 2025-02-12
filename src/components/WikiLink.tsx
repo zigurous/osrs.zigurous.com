@@ -7,22 +7,21 @@ type WikiLinkProps = {
   wikiId: string;
 } & React.ComponentPropsWithoutRef<'a'>;
 
-export default function WikiLink({
-  children,
-  className,
-  textual,
-  wikiId,
-  ...rest
-}: WikiLinkProps) {
-  return (
-    <a
-      id={wikiId}
-      className={classNames(className, { link: textual })}
-      href={`https://oldschool.runescape.wiki/w/${wikiId}`}
-      target="_blank"
-      {...rest}
-    >
-      {children || formatNameFromId(wikiId)}
-    </a>
-  );
-}
+const WikiLink = React.forwardRef<HTMLAnchorElement, WikiLinkProps>(
+  ({ children, className, textual, wikiId, ...rest }, ref) => {
+    return (
+      <a
+        id={wikiId}
+        className={classNames(className, { link: textual })}
+        href={`https://oldschool.runescape.wiki/w/${wikiId}`}
+        ref={ref}
+        target="_blank"
+        {...rest}
+      >
+        {children || formatNameFromId(wikiId)}
+      </a>
+    );
+  },
+);
+
+export default WikiLink;

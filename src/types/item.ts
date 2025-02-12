@@ -5,9 +5,9 @@ export interface ItemData {
   icon?: string;
   name?: string;
   tags?: ItemTag[];
+  transmutations?: string[];
 }
 
-export interface PetData extends Omit<ItemData, 'tags'> {
+export interface PetData extends Omit<ItemData, 'transmutations'> {
   source: string | string[];
-  tags: ['pet'];
 }

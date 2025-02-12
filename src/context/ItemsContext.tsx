@@ -1,6 +1,7 @@
 import { graphql, useStaticQuery } from 'gatsby';
 import React, { createContext, useCallback, useContext } from 'react';
 import type { ItemData, PetData } from '../types';
+import { autoDetectIcon } from '../utils';
 
 interface ItemsContextData {
   items: ItemData[];
@@ -52,19 +53,6 @@ export function ItemsContextProvider({ children }: React.PropsWithChildren) {
   );
 }
 
-function autoDetectIcon(id: string): string | undefined {
-  return [
-    '_arrow',
-    '_bolts',
-    '_bolts_(e)',
-    '_bolt_tips',
-    '_javelin_heads',
-    '_seed',
-  ].some(str => id.endsWith(str))
-    ? `${id}_5`
-    : undefined;
-}
-
 interface ItemsQueryData {
   items: {
     nodes: ItemData[];
@@ -82,6 +70,7 @@ const dataQuery = graphql`
         icon
         name
         tags
+        transmutations
       }
     }
     pets: allPetsJson {
