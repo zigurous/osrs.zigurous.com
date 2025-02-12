@@ -3,8 +3,20 @@
     "id": "asgarnia",
     "name": "Asgarnia",
     "description": "The Kingdom of Asgarnia is one of the main kingdoms of Gielinor. Asgarnia's primary economic activities are crafting, mining, and fishing. It also has a notable navy based in Port Sarim.",
+    "bosses": [
+      "Cerberus",
+      "Commander_Zilyana",
+      "General_Graardor",
+      "Giant_Mole",
+      "K'ril_Tsutsaroth",
+      "Kree'arra",
+      "Nex",
+      "Royal_Titans",
+      "The_Whisperer"
+    ],
     "pets": [
       "Baby_mole",
+      "Bran",
       "Hellpuppy",
       "Nexling",
       "Pet_general_graardor",
@@ -18,6 +30,14 @@
     "id": "desert",
     "name": "Desert",
     "description": "The Kharidian Desert is an expansive region located south of the nations of Misthalin and Morytania. The desert becomes a dangerous region south of the Shantay Pass, requiring travelers to drink from waterskins or other sources of water to avoid dehydration.",
+    "bosses": [
+      "Kalphite_Queen",
+      "Tempoross",
+      "The_Leviathan"
+    ],
+    "raids": [
+      "Tombs_of_Amascut"
+    ],
     "pets": [
       "Abyssal_protector",
       "Kalphite_princess",
@@ -30,6 +50,12 @@
     "id": "fremennik",
     "name": "Fremennik",
     "description": "The Fremennik Province is a region of various settlements ruled by the Fremennik and barbarians, found north of Kandarin. Besides the mainland, it includes many island settlements, due to the seafaring nature of the Fremennik.",
+    "bosses": [
+      "Dagannoth_Kings",
+      "Duke_Sucellus",
+      "Phantom_Muspah",
+      "Vorkath"
+    ],
     "pets": [
       "Baron",
       "Muphin",
@@ -44,6 +70,10 @@
     "id": "kandarin",
     "name": "Kandarin",
     "description": "Kandarin is one of the largest kingdoms in Gielinor ruled by King Lathas of East Ardougne. It encompasses most of the lands west of White Wolf Mountain. Kandarin is bordered by Asgarnia to the east, the Fremennik Province to the north, the forests of Tirannwn to the west, and the Feldip Hills to the south.",
+    "bosses": [
+      "Kraken",
+      "Thermonuclear_smoke_devil"
+    ],
     "pets": [
       "Broav",
       "Chompy_chick",
@@ -57,6 +87,10 @@
     "id": "karamja",
     "name": "Karamja",
     "description": "Karamja is a large island in Gielinor. It is located to the south of the major kingdoms of Asgarnia and Kandarin. The island contains mostly jungle and tropical geography. Different tribes of Karamja speak different Karamjan languages.",
+    "bosses": [
+      "TzHaar_Fight_Cave",
+      "Inferno"
+    ],
     "pets": [
       "Jal-nib-rek",
       "Tzrek-jad"
@@ -66,6 +100,16 @@
     "id": "kourend",
     "name": "Kourend",
     "description": "Great Kourend is a kingdom in the continent of Zeah, found far west of the mainland across the Western Sea. One of the largest kingdoms in Gielinor, it is larger than Misthalin and Asgarnia combined, and is similar in size to Kandarin.",
+    "bosses": [
+      "Alchemical_Hydra",
+      "Hespori",
+      "Sarachnis",
+      "Skotizo",
+      "Wintertodt"
+    ],
+    "raids": [
+      "Chambers_of_Xeric"
+    ],
     "pets": [
       "Ikkle_hydra",
       "Olmlet",
@@ -78,6 +122,13 @@
     "id": "misthalin",
     "name": "Misthalin",
     "description": "Misthalin is a major kingdom within Gielinor, the most powerful human nation and by far the oldest. Its capital, Varrock, has existed in some form since soon after the end of the God Wars. It is divided in half by the River Lum, and its eastern border with Morytania is the River Salve.",
+    "bosses": [
+      "Abyssal_Sire",
+      "Bryophyta",
+      "Deranged_archaeologist",
+      "Obor",
+      "Scurrius"
+    ],
     "pets": [
       "Abyssal_orphan",
       "Cat",
@@ -91,6 +142,15 @@
     "id": "morytania",
     "name": "Morytania",
     "description": "Morytania is an area in the easternmost part of Gielinor. Often described as a land of evil, the land is filled with many aggressive creatures such as vampyres, werewolves, ghasts, and the undead. It is currently ruled by Lord Drakan.",
+    "bosses": [
+      "Araxxor",
+      "Barrows",
+      "Grotesque_Guardians",
+      "The_Nightmare"
+    ],
+    "raids": [
+      "Theatre_of_Blood"
+    ],
     "pets": [
       "Lil'_zik",
       "Little_nightmare",
@@ -102,6 +162,11 @@
     "id": "tirannwn",
     "name": "Tirannwn",
     "description": "Tirannwn is a heavily forested region located west of Kandarin. It is said that the elves retreated here after the God Wars. Apart from elves, there are rabbits, dire wolves, and grizzly bears that inhabit Tirannwn. The many traps and dense forest make travelling through Tirannwn difficult and potentially dangerous.",
+    "bosses": [
+      "The_Gauntlet",
+      "Zalcano",
+      "Zulrah"
+    ],
     "pets": [
       "Pet_snakeling",
       "Smolcano",
@@ -112,6 +177,13 @@
     "id": "varlamore",
     "name": "Varlamore",
     "description": "The Kingdom of Varlamore, also known as the Shining Kingdom, is a kingdom found in the continent of Zeah, far west of the mainland across the Western Sea. Like Great Kourend, it stands as one of the largest kingdoms in Gielinor, and one of the most distinct, given its isolation from the rest of the mainland.",
+    "bosses": [
+      "Amoxliatl",
+      "Fortis_Colosseum",
+      "Hueycoatl",
+      "Moons_of_Peril",
+      "Vardorvis"
+    ],
     "pets": [
       "Butch",
       "Huberte",
@@ -124,6 +196,17 @@
     "id": "wilderness",
     "name": "Wilderness",
     "description": "The Wilderness, also known as the Wild or Wildy, is a large and dangerous wasteland that makes up most of north-eastern Gielinor.",
+    "bosses": [
+      "Callisto",
+      "Chaos_Elemental",
+      "Chaos_Fanatic",
+      "Corporeal_Beast",
+      "Crazy_archaeologist",
+      "King_Black_Dragon",
+      "Scorpia",
+      "Venenatis",
+      "Vet'ion"
+    ],
     "pets": [
       "Callisto_cub",
       "Pet_chaos_elemental",

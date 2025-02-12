@@ -1,0 +1,807 @@
+[
+  {
+    "id": "Abyssal_Sire",
+    "icon": "Abyssal_Sire_icon_(mobile)",
+    "category": "boss",
+    "subcategory": "slayer",
+    "recommendedCombatStyle": ["melee", "ranged", "magic"],
+    "notableDrops": [
+      "Abyssal_orphan",
+      "Unsired",
+      "Bludgeon_axon",
+      "Bludgeon_claw",
+      "Bludgeon_spine",
+      "Abyssal_dagger",
+      "Abyssal_whip",
+      "Abyssal_head",
+      "Jar_of_miasma"
+    ]
+  },
+  {
+    "id": "Alchemical_Hydra",
+    "icon": "Alchemical_Hydra_icon_(mobile)",
+    "category": "boss",
+    "subcategory": "slayer",
+    "recommendedCombatStyle": ["melee", "ranged"],
+    "notableDrops": [
+      "Ikkle_hydra",
+      "Hydra's_claw",
+      "Hydra_leather",
+      "Hydra_tail",
+      "Hydra's_eye",
+      "Hydra's_fang",
+      "Hydra's_heart",
+      "Dragon_knife",
+      "Dragon_thrownaxe",
+      "Alchemical_hydra_heads",
+      "Jar_of_chemicals"
+    ]
+  },
+  {
+    "id": "Amoxliatl",
+    "icon": "Moxi",
+    "category": "boss",
+    "recommendedCombatStyle": ["melee"],
+    "notableDrops": [
+      "Moxi",
+      "Glacial_temotli",
+      "Pendant_of_ates",
+      "Frozen_tear",
+      "Tooth_half_of_key_(moon_key)"
+    ]
+  },
+  {
+    "id": "Araxxor",
+    "icon": "Nid",
+    "category": "boss",
+    "subcategory": "slayer",
+    "recommendedCombatStyle": ["melee"],
+    "notableDrops": [
+      "Nid",
+      "Araxyte_fang",
+      "Noxious_point",
+      "Noxious_blade",
+      "Noxious_pommel",
+      "Coagulated_venom",
+      "Araxyte_venom_sack",
+      "Araxyte_head",
+      "Jar_of_venom"
+    ]
+  },
+  {
+    "id": "Barrows",
+    "icon": "Barrows_Brothers_icon_(mobile)",
+    "category": "boss",
+    "subcategory": "minigame",
+    "recommendedCombatStyle": ["hybrid", "magic"],
+    "notableDrops": [
+      "Ahrim's_staff",
+      "Dharok's_greataxe",
+      "Guthan's_warspear",
+      "Torag's_hammers",
+      "Verac's_flail",
+      "Karil's_crossbow",
+      "Bolt_rack",
+      "#newline",
+      "Ahrim's_hood",
+      "Dharok's_helm",
+      "Guthan's_helm",
+      "Torag's_helm",
+      "Verac's_helm",
+      "Karil's_coif",
+      "#newline",
+      "Ahrim's_robetop",
+      "Dharok's_platebody",
+      "Guthan's_platebody",
+      "Torag's_platebody",
+      "Verac's_brassard",
+      "Karil's_leathertop",
+      "#newline",
+      "Ahrim's_robeskirt",
+      "Dharok's_platelegs",
+      "Guthan's_chainskirt",
+      "Torag's_platelegs",
+      "Verac's_plateskirt",
+      "Karil's_leatherskirt"
+    ]
+  },
+  {
+    "id": "Bryophyta",
+    "icon": "Bryophyta_icon_(mobile)",
+    "category": "boss",
+    "recommendedCombatStyle": ["melee"],
+    "notableDrops": [
+      "Bryophyta's_essence"
+    ]
+  },
+  {
+    "id": "Callisto",
+    "icon": "Callisto_cub",
+    "title": "Callisto / Artio",
+    "category": "boss",
+    "subcategory": "wilderness",
+    "recommendedCombatStyle": ["ranged", "magic"],
+    "notableDrops": [
+      "Callisto_cub",
+      "Tyrannical_ring",
+      "Claws_of_callisto",
+      "Voidwaker_hilt",
+      "Dragon_pickaxe",
+      "Dragon_2h_sword"
+    ]
+  },
+  {
+    "id": "Cerberus",
+    "icon": "Cerberus_icon",
+    "category": "boss",
+    "subcategory": "slayer",
+    "recommendedCombatStyle": ["melee"],
+    "notableDrops": [
+      "Hellpuppy",
+      "The_dogsword",
+      "Eternal_crystal",
+      "Pegasian_crystal",
+      "Primordial_crystal",
+      "Smouldering_stone",
+      "Jar_of_souls"
+    ]
+  },
+  {
+    "id": "Chaos_Elemental",
+    "icon": "Pet_chaos_elemental",
+    "category": "boss",
+    "subcategory": "wilderness",
+    "recommendedCombatStyle": ["melee", "ranged"],
+    "notableDrops": [
+      "Pet_chaos_elemental",
+      "Dragon_pickaxe",
+      "Dragon_2h_sword"
+    ]
+  },
+  {
+    "id": "Chaos_Fanatic",
+    "icon": "Ancient_staff",
+    "category": "boss",
+    "subcategory": "wilderness",
+    "recommendedCombatStyle": ["ranged"],
+    "notableDrops": [
+      "Pet_chaos_elemental",
+      "Odium_shard_1",
+      "Malediction_shard_1"
+    ]
+  },
+  {
+    "id": "Commander_Zilyana",
+    "icon": "Commander_Zilyana_icon_(mobile)",
+    "category": "boss",
+    "subcategory": "gwd",
+    "recommendedCombatStyle": ["ranged"],
+    "notableDrops": [
+      "Pet_zilyana",
+      "Armadyl_crossbow",
+      "Saradomin_hilt",
+      "Saradomin_sword",
+      "Saradomin's_light"
+    ]
+  },
+  {
+    "id": "Corporeal_Beast",
+    "icon": "Corporeal_Beast_icon_(mobile)",
+    "category": "boss",
+    "subcategory": "wilderness",
+    "recommendedCombatStyle": ["melee"],
+    "notableDrops": [
+      "Pet_dark_core",
+      "Elysian_sigil",
+      "Spectral_sigil",
+      "Arcane_sigil",
+      "Spirit_shield",
+      "Holy_elixir",
+      "Jar_of_spirits"
+    ]
+  },
+  {
+    "id": "Crazy_archaeologist",
+    "icon": "Fedora",
+    "category": "boss",
+    "subcategory": "wilderness",
+    "recommendedCombatStyle": ["magic"],
+    "notableDrops": [
+      "Fedora",
+      "Odium_shard_2",
+      "Malediction_shard_2"
+    ]
+  },
+  {
+    "id": "Dagannoth_Kings",
+    "icon": "Dagannoth_Kings_icon_(mobile)",
+    "category": "boss",
+    "recommendedCombatStyle": ["hybrid"],
+    "notableDrops": [
+      "Amulet_of_the_monarchs",
+      "Emperor_ring",
+      "Berserker_ring",
+      "Warrior_ring",
+      "Seers_ring",
+      "Archers_ring",
+      "#newline",
+      "Pet_dagannoth_prime",
+      "Pet_dagannoth_rex",
+      "Pet_dagannoth_supreme",
+      "Dragon_axe",
+      "Mud_battlestaff",
+      "Seercull"
+    ]
+  },
+  {
+    "id": "Deranged_archaeologist",
+    "icon": "Unidentified_small_fossil",
+    "category": "boss",
+    "recommendedCombatStyle": ["magic"],
+    "notableDrops": [
+      "Nothing"
+    ]
+  },
+  {
+    "id": "Duke_Sucellus",
+    "icon": "Baron",
+    "category": "boss",
+    "subcategory": "dt2",
+    "recommendedCombatStyle": ["melee"],
+    "notableDrops": [
+      "Baron",
+      "Magus_vestige",
+      "Eye_of_the_duke",
+      "Chromium_ingot",
+      "Virtus_mask",
+      "Virtus_robe_top",
+      "Virtus_robe_bottom",
+      "Ice_quartz",
+      "Frozen_tablet",
+      "Awakener's_orb"
+    ]
+  },
+  {
+    "id": "Fortis_Colosseum",
+    "icon": "Smol_heredit",
+    "subtitle": "Sol Heredit",
+    "category": "boss",
+    "subcategory": "minigame",
+    "recommendedCombatStyle": ["melee", "hybrid"],
+    "notableDrops": [
+      "Smol_heredit",
+      "Sunlight_spear",
+      "Sunlit_bracers",
+      "Dizana's_quiver",
+      "Sunfire_fanatic_helm",
+      "Sunfire_fanatic_cuirass",
+      "Sunfire_fanatic_chausses",
+      "Tonalztics_of_ralos",
+      "Echo_crystal",
+      "Uncut_onyx",
+      "Sunfire_splinters"
+    ]
+  },
+  {
+    "id": "General_Graardor",
+    "icon": "General_Graardor_icon_(mobile)",
+    "category": "boss",
+    "subcategory": "gwd",
+    "recommendedCombatStyle": ["melee", "ranged"],
+    "notableDrops": [
+      "Pet_general_graardor",
+      "Bandos_chestplate",
+      "Bandos_tassets",
+      "Bandos_boots",
+      "Bandos_hilt"
+    ]
+  },
+  {
+    "id": "Giant_Mole",
+    "icon": "Giant_Mole_icon_(mobile)",
+    "category": "boss",
+    "recommendedCombatStyle": ["melee", "ranged", "magic"],
+    "notableDrops": [
+      "Baby_mole",
+      "Mole_skin",
+      "Mole_claw"
+    ]
+  },
+  {
+    "id": "Grotesque_Guardians",
+    "icon": "Grotesque_Guardians_icon_(mobile)",
+    "category": "boss",
+    "subcategory": "slayer",
+    "recommendedCombatStyle": ["melee", "ranged"],
+    "notableDrops": [
+      "Noon",
+      "Gloves_of_the_damned",
+      "Black_tourmaline_core",
+      "Granite_gloves",
+      "Granite_ring",
+      "Granite_hammer",
+      "Granite_dust",
+      "Jar_of_stone"
+    ]
+  },
+  {
+    "id": "Hespori",
+    "icon": "Hespori_icon_(mobile)",
+    "category": "boss",
+    "recommendedCombatStyle": ["melee"],
+    "notableDrops": [
+      "Nature's_reprisal",
+      "Bottomless_compost_bucket",
+      "Attas_seed",
+      "Iasor_seed",
+      "Kronos_seed"
+    ]
+  },
+  {
+    "id": "Hueycoatl",
+    "icon": "Huberte",
+    "category": "boss",
+    "recommendedCombatStyle": ["melee"],
+    "notableDrops": [
+      "Huberte",
+      "Dragon_hunter_wand",
+      "Tome_of_earth",
+      "Soiled_page",
+      "Hueycoatl_hide",
+      "Huasca_seed",
+      "Tooth_half_of_key_(moon_key)"
+    ]
+  },
+  {
+    "id": "Inferno",
+    "icon": "Tzrek-zuk",
+    "subtitle": "TzKal-Zuk",
+    "category": "boss",
+    "subcategory": "minigame",
+    "recommendedCombatStyle": ["hybrid", "ranged"],
+    "notableDrops": [
+      "Jal-nib-rek",
+      "Infernal_cape"
+    ]
+  },
+  {
+    "id": "K'ril_Tsutsaroth",
+    "icon": "K'ril_Tsutsaroth_icon_(mobile)",
+    "category": "boss",
+    "subcategory": "gwd",
+    "recommendedCombatStyle": ["melee", "ranged"],
+    "notableDrops": [
+      "Pet_k'ril_tsutsaroth",
+      "Zamorakian_spear",
+      "Staff_of_the_dead",
+      "Steam_battlestaff",
+      "Zamorak_hilt"
+    ]
+  },
+  {
+    "id": "Kalphite_Queen",
+    "icon": "Kalphite_Queen_icon_(mobile)",
+    "category": "boss",
+    "recommendedCombatStyle": ["melee", "ranged"],
+    "notableDrops": [
+      "Kalphite_princess",
+      "Drygore_blowpipe",
+      "Dragon_pickaxe",
+      "Dragon_2h_sword",
+      "Dragon_chainbody",
+      "Kq_head",
+      "Jar_of_sand"
+    ]
+  },
+  {
+    "id": "King_Black_Dragon",
+    "icon": "King_Black_Dragon_icon_(mobile)",
+    "category": "boss",
+    "subcategory": "wilderness",
+    "recommendedCombatStyle": ["melee", "ranged"],
+    "notableDrops": [
+      "Prince_black_dragon",
+      "Thunder_khopesh",
+      "Thousand-dragon_ward",
+      "Draconic_visage",
+      "Kbd_heads",
+      "Dragon_pickaxe"
+    ]
+  },
+  {
+    "id": "Kraken",
+    "icon": "Kraken_icon_(mobile)",
+    "category": "boss",
+    "subcategory": "slayer",
+    "recommendedCombatStyle": ["magic"],
+    "notableDrops": [
+      "Pet_kraken",
+      "Kraken_tentacle",
+      "Trident_of_the_seas",
+      "Jar_of_dirt"
+    ]
+  },
+  {
+    "id": "Kree'arra",
+    "icon": "Kree'arra_icon_(mobile)",
+    "category": "boss",
+    "subcategory": "gwd",
+    "recommendedCombatStyle": ["ranged"],
+    "notableDrops": [
+      "Pet_kree'arra",
+      "Armadyl_helmet",
+      "Armadyl_chestplate",
+      "Armadyl_chainskirt",
+      "Armadyl_hilt"
+    ]
+  },
+  {
+    "id": "Moons_of_Peril",
+    "icon": "Varlamore_crest",
+    "category": "boss",
+    "subcategory": "minigame",
+    "recommendedCombatStyle": ["melee"],
+    "notableDrops": [
+      "Dual_macuahuitl",
+      "Blood_moon_chestplate",
+      "#spacer",
+      "Eclipse_atlatl",
+      "Eclipse_moon_chestplate",
+      "#spacer",
+      "Blue_moon_spear",
+      "Blue_moon_chestplate",
+      "#newline",
+      "Blood_moon_helm",
+      "Blood_moon_tassets",
+      "#spacer",
+      "Eclipse_moon_helm",
+      "Eclipse_moon_tassets",
+      "#spacer",
+      "Blue_moon_helm",
+      "Blue_moon_tassets"
+    ]
+  },
+  {
+    "id": "Nex",
+    "icon": "Nex_icon_(mobile)",
+    "category": "boss",
+    "subcategory": "gwd",
+    "recommendedCombatStyle": ["melee", "ranged"],
+    "notableDrops": [
+      "Nexling",
+      "Torva_full_helm",
+      "Torva_platebody",
+      "Torva_platelegs",
+      "Nihil_horn",
+      "Zaryte_vambraces",
+      "Ancient_hilt"
+    ]
+  },
+  {
+    "id": "Obor",
+    "icon": "Obor_icon_(mobile)",
+    "category": "boss",
+    "recommendedCombatStyle": ["melee", "ranged", "magic"],
+    "notableDrops": [
+      "Hill_giant_club"
+    ]
+  },
+  {
+    "id": "Phantom_Muspah",
+    "icon": "Muphin_(ranged)",
+    "category": "boss",
+    "recommendedCombatStyle": ["ranged", "magic"],
+    "notableDrops": [
+      "Muphin",
+      "Venator_shard",
+      "Ancient_icon",
+      "Charged_ice",
+      "Frozen_cache",
+      "Ancient_essence"
+    ]
+  },
+  {
+    "id": "Royal_Titans",
+    "icon": "",
+    "category": "boss",
+    "recommendedCombatStyle": ["hybrid"],
+    "notableDrops": [
+      "Bran",
+      "Deadeye_prayer_scroll",
+      "Mystic_vigour_prayer_scroll",
+      "Ice_element_staff_crown",
+      "Fire_element_staff_crown",
+      "Giantsoul_amulet",
+      "Desiccated_page"
+    ]
+  },
+  {
+    "id": "Sarachnis",
+    "icon": "Sarachnis_icon_(mobile)",
+    "category": "boss",
+    "recommendedCombatStyle": ["melee"],
+    "notableDrops": [
+      "Sraracha",
+      "Sarachnis_cudgel",
+      "Giant_egg_sac(full)",
+      "Jar_of_eyes"
+    ]
+  },
+  {
+    "id": "Scorpia",
+    "icon": "Scorpia's_offspring",
+    "category": "boss",
+    "subcategory": "wilderness",
+    "recommendedCombatStyle": ["magic"],
+    "notableDrops": [
+      "Scorpia's_offspring",
+      "Odium_shard_3",
+      "Malediction_shard_3",
+      "Dragon_2h_sword"
+    ]
+  },
+  {
+    "id": "Scurrius",
+    "icon": "Scurry",
+    "category": "boss",
+    "recommendedCombatStyle": ["melee", "ranged", "magic"],
+    "notableDrops": [
+      "Scurry",
+      "Scurrius'_spine"
+    ]
+  },
+  {
+    "id": "Skotizo",
+    "icon": "Skotizo_icon_(mobile)",
+    "category": "boss",
+    "recommendedCombatStyle": ["melee"],
+    "notableDrops": [
+      "Skotos",
+      "Dark_claw",
+      "Dark_totem",
+      "Ancient_shard",
+      "Uncut_onyx",
+      "Jar_of_darkness"
+    ]
+  },
+  {
+    "id": "Tempoross",
+    "icon": "Tempoross_icon_(mobile)",
+    "category": "skilling-boss",
+    "subcategory": "fishing",
+    "recommendedCombatStyle": ["fishing"],
+    "notableDrops": [
+      "Tiny_tempor",
+      "Dragon_harpoon",
+      "Fish_barrel",
+      "Tackle_box",
+      "Tome_of_water",
+      "Soaked_page",
+      "Big_harpoonfish",
+      "Spirit_angler_headband",
+      "Spirit_angler_top",
+      "Spirit_angler_waders",
+      "Spirit_angler_boots",
+      "Spirit_flakes"
+    ]
+  },
+  {
+    "id": "The_Gauntlet",
+    "icon": "Crystalline_Hunllef_icon_(mobile)",
+    "subtitle": "Hunllef",
+    "category": "boss",
+    "subcategory": "minigame",
+    "recommendedCombatStyle": ["hybrid"],
+    "notableDrops": [
+      "Youngllef",
+      "Crystal_blessing",
+      "Crystal_armour_seed",
+      "Crystal_weapon_seed",
+      "Enhanced_crystal_weapon_seed",
+      "Crystal_shard",
+      "Gauntlet_cape"
+    ]
+  },
+  {
+    "id": "The_Leviathan",
+    "icon": "Lil'viathan",
+    "category": "boss",
+    "subcategory": "dt2",
+    "recommendedCombatStyle": ["ranged"],
+    "notableDrops": [
+      "Lil'viathan",
+      "Venator_vestige",
+      "Leviathan's_lure",
+      "Chromium_ingot",
+      "Virtus_mask",
+      "Virtus_robe_top",
+      "Virtus_robe_bottom",
+      "Smoke_quartz",
+      "Scarred_tablet",
+      "Awakener's_orb"
+    ]
+  },
+  {
+    "id": "The_Nightmare",
+    "icon": "The_Nightmare_icon_(mobile)",
+    "category": "boss",
+    "recommendedCombatStyle": ["melee"],
+    "notableDrops": [
+      "Little_nightmare",
+      "Inquisitor's_mace",
+      "Inquisitor's_great_helm",
+      "Inquisitor's_hauberk",
+      "Inquisitor's_plateskirt",
+      "Slepey_tablet",
+      "Parasitic_egg",
+      "Nightmare_staff",
+      "Volatile_orb",
+      "Harmonised_orb",
+      "Eldritch_orb",
+      "Jar_of_dreams"
+    ]
+  },
+  {
+    "id": "The_Whisperer",
+    "icon": "Wisp",
+    "category": "boss",
+    "subcategory": "dt2",
+    "recommendedCombatStyle": ["magic"],
+    "notableDrops": [
+      "Wisp",
+      "Bellator_vestige",
+      "Siren's_staff",
+      "Chromium_ingot",
+      "Virtus_mask",
+      "Virtus_robe_top",
+      "Virtus_robe_bottom",
+      "Shadow_quartz",
+      "Sirenic_tablet",
+      "Awakener's_orb"
+    ]
+  },
+  {
+    "id": "Thermonuclear_smoke_devil",
+    "icon": "Thermonuclear_smoke_devil_icon_(mobile)",
+    "category": "boss",
+    "subcategory": "slayer",
+    "recommendedCombatStyle": ["magic"],
+    "notableDrops": [
+      "Pet_smoke_devil",
+      "Devil's_element",
+      "Occult_necklace",
+      "Smoke_battlestaff",
+      "Dragon_chainbody",
+      "Jar_of_smoke"
+    ]
+  },
+  {
+    "id": "TzHaar_Fight_Cave",
+    "icon": "Tzrek-jad",
+    "title": "Fight Caves",
+    "subtitle": "TzTok-Jad",
+    "category": "boss",
+    "subcategory": "minigame",
+    "recommendedCombatStyle": ["hybrid", "ranged"],
+    "notableDrops": [
+      "Tzrek-jad",
+      "Fire_cape"
+    ]
+  },
+  {
+    "id": "Vardorvis",
+    "icon": "Butch",
+    "category": "boss",
+    "subcategory": "dt2",
+    "recommendedCombatStyle": ["melee"],
+    "notableDrops": [
+      "Butch",
+      "Ultor_vestige",
+      "Executioner's_axe_head",
+      "Chromium_ingot",
+      "Virtus_mask",
+      "Virtus_robe_top",
+      "Virtus_robe_bottom",
+      "Blood_quartz",
+      "Strangled_tablet",
+      "Awakener's_orb"
+    ]
+  },
+  {
+    "id": "Venenatis",
+    "icon": "Venenatis_spiderling",
+    "title": "Venenatis / Spindel",
+    "category": "boss",
+    "subcategory": "wilderness",
+    "recommendedCombatStyle": ["melee", "ranged"],
+    "notableDrops": [
+      "Venenatis_spiderling",
+      "Treasonous_ring",
+      "Fangs_of_venenatis",
+      "Voidwaker_gem",
+      "Dragon_pickaxe",
+      "Dragon_2h_sword"
+    ]
+  },
+  {
+    "id": "Vet'ion",
+    "icon": "Vet'ion_jr.",
+    "title": "Vet'ion / Calvar'ion",
+    "category": "boss",
+    "subcategory": "wilderness",
+    "recommendedCombatStyle": ["melee"],
+    "notableDrops": [
+      "Vet'ion_jr.",
+      "Ring_of_the_gods",
+      "Skull_of_vet'ion",
+      "Voidwaker_blade",
+      "Dragon_pickaxe",
+      "Dragon_2h_sword"
+    ]
+  },
+  {
+    "id": "Vorkath",
+    "icon": "Vorkath_icon_(mobile)",
+    "category": "boss",
+    "recommendedCombatStyle": ["melee", "ranged"],
+    "notableDrops": [
+      "Vorki",
+      "Vorkath's_head",
+      "Draconic_visage",
+      "Skeletal_visage",
+      "Dragonbone_necklace",
+      "Jar_of_decay"
+    ]
+  },
+  {
+    "id": "Wintertodt",
+    "icon": "Wintertodt_icon_(mobile)",
+    "category": "skilling-boss",
+    "subcategory": "firemaking",
+    "recommendedCombatStyle": ["firemaking", "woodcutting"],
+    "notableDrops": [
+      "Phoenix",
+      "Pyromancer_hood",
+      "Pyromancer_garb",
+      "Pyromancer_robe",
+      "Pyromancer_boots",
+      "Warm_gloves",
+      "#newline",
+      "Dragon_axe",
+      "Bruma_torch",
+      "Tome_of_fire",
+      "Burnt_page"
+    ]
+  },
+  {
+    "id": "Zalcano",
+    "icon": "Zalcano_icon_(mobile)",
+    "category": "skilling-boss",
+    "subcategory": "mining",
+    "recommendedCombatStyle": ["mining"],
+    "notableDrops": [
+      "Smolcano",
+      "Zalcano_shard",
+      "Crystal_tool_seed",
+      "Crystal_shard",
+      "Uncut_onyx"
+    ]
+  },
+  {
+    "id": "Zulrah",
+    "icon": "Zulrah_icon_(mobile)",
+    "category": "boss",
+    "recommendedCombatStyle": ["ranged", "magic"],
+    "notableDrops": [
+      "Pet_snakeling",
+      "Tanzanite_fang",
+      "Magic_fang",
+      "Serpentine_visage",
+      "Uncut_onyx",
+      "Zulrah's_scales",
+      "Jar_of_swamp",
+      "Tanzanite_mutagen",
+      "Magma_mutagen"
+    ]
+  }
+]

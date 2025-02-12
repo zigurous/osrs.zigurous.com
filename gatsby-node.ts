@@ -22,6 +22,16 @@ export const createSchemaCustomization = ({
       regions: [String!]!
       ammo: BestInSlotItem
     }
+    type BossesJson implements Node @dontInfer {
+      jsonId: String!
+      icon: String
+      title: String
+      subtitle: String
+      category: String!
+      subcategory: String
+      notableDrops: [String!]!
+      recommendedCombatStyle: [String!]!
+    }
     type ItemsJson implements Node @dontInfer {
       jsonId: String!
       icon: String
@@ -54,10 +64,21 @@ export const createSchemaCustomization = ({
       source: ItemSource!
       tags: [String!]!
     }
+    type RaidsJson implements Node @dontInfer {
+      jsonId: String!
+      icon: String!
+      title: String
+      subtitle: String
+      category: String!
+      notableDrops: [String!]!
+      recommendedCombatStyle: [String!]!
+    }
     type RegionsJson implements Node @dontInfer {
       jsonId: String!
       name: String!
       description: String!
+      bosses: [String!]!
+      raids: [String!]
       pets: [String!]!
     }
     type SlayerMastersJson implements Node @dontInfer {

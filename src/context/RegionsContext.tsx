@@ -68,6 +68,8 @@ export const dataQuery = graphql`
         id: jsonId
         name
         description
+        bosses
+        raids
         pets
       }
     }

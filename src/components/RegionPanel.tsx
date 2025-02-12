@@ -3,6 +3,7 @@ import classNames from 'classnames';
 import React, { useState } from 'react';
 import AreaBadge from './AreaBadge';
 import RegionPanelBestInSlot from './RegionPanelBestInSlot';
+import RegionPanelBosses from './RegionPanelBosses';
 import RegionPanelPets from './RegionPanelPets';
 import RegionPanelSlayer from './RegionPanelSlayer';
 import RegionPanelTabs from './RegionPanelTabs';
@@ -72,6 +73,8 @@ export default function RegionPanel() {
 
 function renderTab(selectedTab: RegionPanelTab, selectedRegion: Region) {
   switch (selectedTab) {
+    case 'Bosses':
+      return <RegionPanelBosses region={selectedRegion} />;
     case 'Pets':
       return <RegionPanelPets region={selectedRegion} />;
     case 'Best In Slot':

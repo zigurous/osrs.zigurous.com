@@ -36,6 +36,11 @@
     "tags": ["pet"]
   },
   {
+    "id": "Bran",
+    "source": "Royal_Titans",
+    "tags": ["pet"]
+  },
+  {
     "id": "Broav",
     "source": "While_Guthix_Sleeps",
     "tags": ["pet"]
