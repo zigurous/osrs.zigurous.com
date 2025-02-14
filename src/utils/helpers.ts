@@ -38,29 +38,59 @@ export function getActivityGroup(activity: Activity): ActivityGroup {
 }
 
 export function getIconForActivity(activity: Activity): string | undefined {
-  const category = getActivityGroup(activity);
-  // prettier-ignore
-  switch (category) {
+  const activityGroup = getActivityGroup(activity);
+  switch (activityGroup) {
+    case 'pvm':
+      if (activity.icon) return activity.icon;
+      break;
     case 'quest':
     case 'misc':
+      // prettier-ignore
       switch (activity.category) {
         case 'boss': return 'Monster_Examine';
         case 'guild': return 'Map_link_icon';
         case 'minigame': return 'Minigame_icon';
         case 'raid': return 'Raids_icon';
       }
+      break;
   }
-  return getIconForActivityGroup(category as ActivityGroup);
+  return getIconForActivityGroup(activityGroup);
 }
 
-export function getIconForActivityGroup(id: ActivityGroup): string | undefined {
-  // prettier-ignore
-  switch (id) {
-    case 'pvm': return 'Combat_icon';
-    case 'pvp': return 'Skull_(status)_icon';
-    case 'quest': return 'Quest_point_icon';
-    case 'misc': return 'Instruction_manual';
-    default: return getIconForCombatStyle(id as CombatStyle);
+export function getIconForActivityGroup(
+  activityGroup: ActivityGroup,
+): string | undefined {
+  switch (activityGroup) {
+    case 'pvm':
+      return 'Combat_icon';
+    case 'pvp':
+      return 'Skull_(status)_icon';
+    case 'melee':
+    case 'ranged':
+    case 'magic':
+      return getIconForCombatStyle(activityGroup as CombatStyle);
+    case 'prayer':
+    case 'runecraft':
+    case 'construction':
+    case 'agility':
+    case 'herblore':
+    case 'thieving':
+    case 'crafting':
+    case 'fletching':
+    case 'slayer':
+    case 'hunter':
+    case 'mining':
+    case 'smithing':
+    case 'fishing':
+    case 'cooking':
+    case 'firemaking':
+    case 'woodcutting':
+    case 'farming':
+      return getIconForSkill(activityGroup as Skill);
+    case 'quest':
+      return 'Quest_point_icon';
+    case 'misc':
+      return 'Instruction_manual';
   }
 }
 
