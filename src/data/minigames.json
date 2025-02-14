@@ -1,0 +1,654 @@
+[
+  {
+    "id": "Barbarian_Assault",
+    "category": "minigame",
+    "subcategory": "pvm",
+    "recommendedCombatStyle": ["ranged"],
+    "notableDrops": [
+      "Pet_penance_queen",
+      "Fighter_torso",
+      "Penance_skirt",
+      "Runner_boots",
+      "Penance_gloves",
+      "Granite_helm",
+      "Granite_body",
+      "Fighter_hat",
+      "Ranger_hat",
+      "Runner_hat",
+      "Healer_hat"
+    ]
+  },
+  {
+    "id": "Blast_Furnace",
+    "category": "minigame",
+    "subcategory": "smithing",
+    "notableDrops": [
+      "Runite_bar",
+      "Adamantite_bar",
+      "Mithril_bar",
+      "Gold_bar",
+      "Silver_bar"
+    ]
+  },
+  {
+    "id": "Bounty_Hunter",
+    "category": "minigame",
+    "subcategory": "pvp",
+    "notableDrops": [
+      "Vesta's_longsword",
+      "Statius's_warhammer",
+      "Zuriel's_staff",
+      "Morrigan's_javelin",
+      "Dark_bow_imbue_scroll",
+      "Dragon_mace_imbue_scroll",
+      "Dragon_longsword_imbue_scroll",
+      "Vesta's_spear",
+      "Statius's_full_helm_(bh)",
+      "Zuriel's_hood_(bh)",
+      "Morrigan's_coif_(bh)",
+      "Barrelchest_anchor_imbue_scroll",
+      "Abyssal_dagger_imbue_scroll",
+      "Bounty_hunter_ornament_kit",
+      "Vesta's_chainbody_(bh)",
+      "Statius's_platebody_(bh)",
+      "Zuriel's_robe_top_(bh)",
+      "Morrigan's_leather_body_(bh)",
+      "Elder_maul_ornament_kit",
+      "Heavy_ballista_ornament_kit",
+      "Elder_chaos_robes_ornament_kit",
+      "Vesta's_plateskirt_(bh)",
+      "Statius's_platelegs_(bh)",
+      "Zuriel's_robe_bottom_(bh)",
+      "Morrigan's_leather_chaps_(bh)",
+      "Morrigan's_throwing_axe",
+      "Target_teleport_scroll"
+    ]
+  },
+  {
+    "id": "Brimhaven_Agility_Arena",
+    "category": "minigame",
+    "subcategory": "agility",
+    "notableDrops": [
+      "Agility_arena_ticket",
+      "Brimhaven_voucher",
+      "Pirate's_hook",
+      "Toadflax",
+      "Snapdragon",
+      "Amylase_pack",
+      "#newline",
+      "Graceful_hood_(Agility_Arena)",
+      "Graceful_cape_(Agility_Arena)",
+      "Graceful_top_(Agility_Arena)",
+      "Graceful_legs_(Agility_Arena)",
+      "Graceful_gloves_(Agility_Arena)",
+      "Graceful_boots_(Agility_Arena)"
+    ]
+  },
+  {
+    "id": "Burthorpe_Games_Room",
+    "category": "minigame",
+    "subcategory": "misc",
+    "notableDrops": [
+      "Nothing"
+    ]
+  },
+  {
+    "id": "Castle_Wars",
+    "category": "minigame",
+    "subcategory": "pvp",
+    "notableDrops": [
+      "Castle_wars_ticket",
+      "Red_decorative_armour",
+      "White_decorative_armour",
+      "Gold_decorative_armour",
+      "Saradomin_halo",
+      "Zamorak_halo",
+      "Guthix_halo",
+      "Decorative_armour_(magic_hat)",
+      "Decorative_armour_(magic_top)",
+      "Decorative_armour_(magic_legs)",
+      "Castlewars_hood_(Saradomin)",
+      "Castlewars_cloak_(Saradomin)",
+      "Saradomin_banner",
+      "#placeholder",
+      "Decorative_armour_(ranged_top)",
+      "Decorative_armour_(ranged_legs)",
+      "Decorative_armour_(quiver)",
+      "Castlewars_hood_(Zamorak)",
+      "Castlewars_cloak_(Zamorak)",
+      "Zamorak_banner"
+    ]
+  },
+  {
+    "id": "Emir's_Arena",
+    "category": "minigame",
+    "subcategory": "pvp",
+    "notableDrops": [
+      "Scroll_of_imbuing",
+      "Blighted_surge_sack"
+    ]
+  },
+  {
+    "id": "Fishing_Trawler",
+    "category": "minigame",
+    "subcategory": "fishing",
+    "notableDrops": [
+      "Angler_hat",
+      "Angler_top",
+      "Angler_waders",
+      "Angler_boots"
+    ]
+  },
+  {
+    "id": "Fortis_Colosseum",
+    "category": "minigame",
+    "subcategory": "pvm",
+    "recommendedCombatStyle": ["melee", "hybrid"],
+    "notableDrops": [
+      "Smol_heredit",
+      "Sunlight_spear",
+      "Sunlit_bracers",
+      "Dizana's_quiver",
+      "Sunfire_fanatic_helm",
+      "Sunfire_fanatic_cuirass",
+      "Sunfire_fanatic_chausses",
+      "Tonalztics_of_ralos",
+      "Echo_crystal",
+      "Uncut_onyx",
+      "Sunfire_splinters"
+    ]
+  },
+  {
+    "id": "Giants'_Foundry",
+    "category": "minigame",
+    "subcategory": "smithing",
+    "notableDrops": [
+      "Colossal_blade",
+      "Smiths_tunic",
+      "Smiths_trousers",
+      "Smiths_gloves",
+      "Smiths_boots",
+      "Double_ammo_mould",
+      "Kovac's_grog",
+      "Smithing_catalyst",
+      "Ore_pack_(Giants'_Foundry)"
+    ]
+  },
+  {
+    "id": "Gnome_Ball",
+    "category": "minigame",
+    "subcategory": "ranged",
+    "notableDrops": [
+      "Gnomeball"
+    ]
+  },
+  {
+    "id": "Gnome_Restaurant",
+    "category": "minigame",
+    "subcategory": "cooking",
+    "notableDrops": [
+      "Grand_seed_pod",
+      "Gnome_scarf",
+      "Gnome_goggles",
+      "Mint_cake",
+      "Gnomeball"
+    ]
+  },
+  {
+    "id": "Guardians_of_the_Rift",
+    "category": "minigame",
+    "subcategory": "runecraft",
+    "notableDrops": [
+      "Abyssal_protector",
+      "Abyssal_pearls",
+      "Catalytic_talisman",
+      "Abyssal_needle",
+      "Abyssal_green_dye",
+      "Abyssal_blue_dye",
+      "Abyssal_red_dye",
+      "Hat_of_the_eye",
+      "Robe_top_of_the_eye",
+      "Robe_bottoms_of_the_eye",
+      "Boots_of_the_eye",
+      "Ring_of_the_elements",
+      "Abyssal_lantern",
+      "Guardian's_eye",
+      "Intricate_pouch",
+      "Lost_bag",
+      "Tarnished_locket"
+    ]
+  },
+  {
+    "id": "Hallowed_Sepulchre",
+    "category": "minigame",
+    "subcategory": "agility",
+    "notableDrops": [
+      "Hallowed_mark",
+      "Hallowed_token",
+      "Hallowed_grapple",
+      "Hallowed_focus",
+      "Hallowed_symbol",
+      "Hallowed_hammer",
+      "Hallowed_ring",
+      "Dark_dye",
+      "Dark_acorn",
+      "Strange_old_lockpick",
+      "Ring_of_endurance",
+      "Mysterious_page"
+    ]
+  },
+  {
+    "id": "Impetuous_Impulses",
+    "title": "Puro-Puro",
+    "category": "minigame",
+    "subcategory": "hunter",
+    "notableDrops": [
+      "Lucky_impling_jar",
+      "Dragon_impling_jar",
+      "Ninja_impling_jar",
+      "Magpie_impling_jar",
+      "Nature_impling_jar",
+      "Eclectic_impling_jar",
+      "Essence_impling_jar",
+      "Earth_impling_jar",
+      "Gourmet_impling_jar",
+      "Young_impling_jar",
+      "Baby_impling_jar"
+    ]
+  },
+  {
+    "id": "Inferno",
+    "category": "minigame",
+    "subcategory": "pvm",
+    "recommendedCombatStyle": ["ranged", "hybrid"],
+    "notableDrops": [
+      "Jal-nib-rek",
+      "Infernal_cape"
+    ]
+  },
+  {
+    "id": "Last_Man_Standing",
+    "category": "minigame",
+    "subcategory": "pvp",
+    "notableDrops": [
+      "Deadman's_chest#Cosmetic",
+      "Deadman's_legs#Cosmetic",
+      "Deadman's_cape#Cosmetic",
+      "Armadyl_halo",
+      "Bandos_halo",
+      "Seren_halo",
+      "Ancient_halo",
+      "Brassica_halo",
+      "Golden_armadyl_special_attack",
+      "Golden_bandos_special_attack",
+      "Golden_saradomin_special_attack",
+      "Golden_zamorak_special_attack",
+      "Granite_clamp",
+      "Ornate_maul_handle",
+      "Steam_staff_upgrade_kit",
+      "Lava_staff_upgrade_kit",
+      "Dragon_pickaxe_upgrade_kit",
+      "Ward_upgrade_kit",
+      "Green_dark_bow_paint",
+      "Yellow_dark_bow_paint",
+      "White_dark_bow_paint",
+      "Blue_dark_bow_paint",
+      "Volcanic_whip_mix",
+      "Frozen_whip_mix",
+      "Guthixian_icon",
+      "Swift_blade",
+      "Rune_pouch"
+    ]
+  },
+  {
+    "id": "Mage_Arena",
+    "category": "minigame",
+    "subcategory": "magic",
+    "recommendedCombatStyle": ["magic"],
+    "notableDrops": [
+      "Imbued_saradomin_cape",
+      "Saradomin_Strike",
+      "Imbued_zamorak_cape",
+      "Flames_of_Zamorak",
+      "Imbued_guthix_cape",
+      "Claws_of_Guthix"
+    ]
+  },
+  {
+    "id": "Mage_Training_Arena",
+    "category": "minigame",
+    "subcategory": "magic",
+    "notableDrops": [
+      "Infinity_hat",
+      "Infinity_top",
+      "Infinity_bottoms",
+      "Infinity_boots",
+      "Infinity_gloves",
+      "Mage's_book",
+      "Bones_to_Peaches",
+      "Master_wand",
+      "Teacher_wand",
+      "Apprentice_wand",
+      "Beginner_wand"
+    ]
+  },
+  {
+    "id": "Mahogany_Homes",
+    "category": "minigame",
+    "subcategory": "construction",
+    "notableDrops": [
+      "Carpenter's_helmet",
+      "Carpenter's_shirt",
+      "Carpenter's_trousers",
+      "Carpenter's_boots",
+      "Amy's_saw",
+      "Plank_sack",
+      "#newline",
+      "Hosidius_blueprints",
+      "Supply_crate_(Mahogany_Homes)"
+    ]
+  },
+  {
+    "id": "Mastering_Mixology",
+    "category": "minigame",
+    "subcategory": "herblore",
+    "notableDrops": [
+      "Prescription_goggles",
+      "Alchemist_labcoat",
+      "Alchemist_pants",
+      "Alchemist_gloves",
+      "Alchemist's_amulet",
+      "Reagent_pouch",
+      "Chugging_barrel",
+      "Potion_storage",
+      "Expert_potion_pack",
+      "Adept_potion_pack",
+      "Apprentice_potion_pack",
+      "Aldarium"
+    ]
+  },
+  {
+    "id": "Mess",
+    "category": "minigame",
+    "subcategory": "cooking",
+    "notableDrops": [
+      "XP"
+    ]
+  },
+  {
+    "id": "Nightmare_Zone",
+    "category": "minigame",
+    "subcategory": "pvm",
+    "notableDrops": [
+      "Imbuing",
+      "Scroll_of_redirection",
+      "Herb_box",
+      "Flax"
+    ]
+  },
+  {
+    "id": "Pest_Control",
+    "category": "minigame",
+    "subcategory": "pvm",
+    "notableDrops": [
+      "Void_melee_helm",
+      "Void_ranger_helm",
+      "Void_mage_helm",
+      "Void_knight_top",
+      "Void_knight_robe",
+      "Void_knight_gloves",
+      "Void_knight_mace",
+      "Void_seal"
+    ]
+  },
+  {
+    "id": "Pyramid_Plunder",
+    "category": "minigame",
+    "subcategory": "thieving",
+    "notableDrops": [
+      "Pharaoh's_sceptre",
+      "Golden_statuette",
+      "Golden_scarab",
+      "Gold_seal"
+    ]
+  },
+  {
+    "id": "Ranging_Guild#Minigame",
+    "title": "Shooting Range",
+    "category": "minigame",
+    "subcategory": "ranged",
+    "notableDrops": [
+      "Archery_ticket"
+    ]
+  },
+  {
+    "id": "Rat_Pits",
+    "category": "minigame",
+    "subcategory": "quest",
+    "notableDrops": [
+      "Coins"
+    ]
+  },
+  {
+    "id": "Rogues'_Den",
+    "category": "minigame",
+    "subcategory": "thieving",
+    "notableDrops": [
+      "Rogue_mask",
+      "Rogue_top",
+      "Rogue_trousers",
+      "Rogue_gloves",
+      "Rogue_boots"
+    ]
+  },
+  {
+    "id": "Shades_of_Mort'ton_(minigame)",
+    "title": "Shades of Mort'ton",
+    "category": "minigame",
+    "subcategory": "prayer",
+    "notableDrops": [
+      "Zealot's_helm",
+      "Zealot's_robe_top",
+      "Zealot's_robe_bottom",
+      "Zealot's_boots",
+      "Amulet_of_the_damned",
+      "Flamtaer_bag",
+      "Fine_cloth",
+      "Gold_locks",
+      "Silver_locks",
+      "Black_locks",
+      "Steel_locks",
+      "Bronze_locks",
+      "Bloody_notes",
+      "Tree_wizards'_journal"
+    ]
+  },
+  {
+    "id": "Sorceress's_Garden",
+    "category": "minigame",
+    "subcategory": "thieving",
+    "notableDrops": [
+      "Summer_sq'irkjuice",
+      "Autumn_sq'irkjuice",
+      "Spring_sq'irkjuice",
+      "Winter_sq'irkjuice"
+    ]
+  },
+  {
+    "id": "Soul_Wars",
+    "category": "minigame",
+    "subcategory": "pvp",
+    "notableDrops": [
+      "Lil'_creator",
+      "Ectoplasmator",
+      "Soul_cape",
+      "Spoils_of_war",
+      "Imbuing"
+    ]
+  },
+  {
+    "id": "Stealing_artefacts",
+    "category": "minigame",
+    "subcategory": "thieving",
+    "notableDrops": [
+      "Stolen_pendant",
+      "Stolen_garnet_ring",
+      "Stolen_family_heirloom",
+      "Stolen_circlet",
+      "Stolen_jewelry_box"
+    ]
+  },
+  {
+    "id": "Tackle_organised_crime",
+    "category": "minigame",
+    "subcategory": "pvm",
+    "notableDrops": [
+      "Training_manual"
+    ]
+  },
+  {
+    "id": "Tai_Bwo_Wannai_Cleanup",
+    "category": "minigame",
+    "subcategory": "woodcutting",
+    "notableDrops": [
+      "Trading_sticks",
+      "Gout_tuber",
+      "Red_topaz_machete",
+      "Tribal_mask_(combat)",
+      "Tribal_mask_(disease)",
+      "Tribal_mask_(poison)",
+      "#newline",
+      "Tribal_top",
+      "Villager_robe",
+      "Villager_hat",
+      "Villager_sandals",
+      "Villager_armband"
+    ]
+  },
+  {
+    "id": "Tears_of_Guthix_(minigame)",
+    "title": "Tears of Guthix",
+    "category": "minigame",
+    "subcategory": "quest",
+    "notableDrops": [
+      "XP"
+    ]
+  },
+  {
+    "id": "Temple_Trekking",
+    "category": "minigame",
+    "subcategory": "misc",
+    "notableDrops": [
+      "Bow_string",
+      "Pure_essence",
+      "Silver_bar",
+      "Herb",
+      "Coal",
+      "Watermelon_seed",
+      "Raw_lobster",
+      "Lumberjack_hat",
+      "Lumberjack_top",
+      "Lumberjack_legs",
+      "Lumberjack_boots"
+    ]
+  },
+  {
+    "id": "The_Gauntlet",
+    "category": "minigame",
+    "subcategory": "pvm",
+    "recommendedCombatStyle": ["hybrid"],
+    "notableDrops": [
+      "Youngllef",
+      "Crystal_blessing",
+      "Crystal_armour_seed",
+      "Crystal_weapon_seed",
+      "Enhanced_crystal_weapon_seed",
+      "Crystal_shard",
+      "Gauntlet_cape"
+    ]
+  },
+  {
+    "id": "Tithe_Farm",
+    "category": "minigame",
+    "subcategory": "farming",
+    "notableDrops": [
+      "Farmer's_strawhat",
+      "Farmer's_jacket",
+      "Farmer's_boro_trousers",
+      "Farmer's_boots",
+      "Seed_box",
+      "Herb_sack",
+      "#newline",
+      "Auto-weed",
+      "Gricoller's_can",
+      "Herb_box",
+      "Bologa's_blessing",
+      "Grape_seed"
+    ]
+  },
+  {
+    "id": "Trouble_Brewing",
+    "category": "minigame",
+    "subcategory": "cooking",
+    "notableDrops": [
+      "Pieces_of_eight",
+      "Tricorn_hat",
+      "Naval_shirt",
+      "Navy_slacks",
+      "The_stuff",
+      "Rum_(red)",
+      "Rum_(blue)",
+      "Cutthroat_flag",
+      "Gilded_smile_flag",
+      "Bronze_fist_flag",
+      "Lucky_shot_flag",
+      "Treasure_flag",
+      "Phasmatys_flag"
+    ]
+  },
+  {
+    "id": "TzHaar_Fight_Cave",
+    "title": "Fight Cave",
+    "category": "minigame",
+    "subcategory": "pvm",
+    "recommendedCombatStyle": ["ranged", "melee"],
+    "notableDrops": [
+      "Tzrek-jad",
+      "Fire_cape"
+    ]
+  },
+  {
+    "id": "TzHaar_Fight_Pit",
+    "title": "Fight Pit",
+    "category": "minigame",
+    "subcategory": "pvp",
+    "notableDrops": [
+      "Tokkul"
+    ]
+  },
+  {
+    "id": "TzHaar-Ket-Rak's_Challenges",
+    "title": "Jad Challenges",
+    "category": "minigame",
+    "subcategory": "pvm",
+    "recommendedCombatStyle": ["ranged"],
+    "notableDrops": [
+      "Tokkul"
+    ]
+  },
+  {
+    "id": "Volcanic_Mine",
+    "category": "minigame",
+    "subcategory": "mining",
+    "notableDrops": [
+      "Dragon_pickaxe_(broken)",
+      "Prospector_helmet",
+      "Prospector_jacket",
+      "Prospector_legs",
+      "Prospector_boots",
+      "Heat-proof_vessel",
+      "Ash_covered_tome",
+      "Volcanic_mine_teleport"
+    ]
+  }
+]

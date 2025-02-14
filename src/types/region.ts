@@ -15,7 +15,9 @@ export interface Region {
   id: RegionId;
   name: string;
   description: string;
-  bosses: string[];
   raids?: string[];
+  bosses: string[];
+  minigames: string[];
+  guilds?: string[];
   pets: string[];
 }

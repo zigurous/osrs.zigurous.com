@@ -1,3 +1,5 @@
+export { default as ActivityCard } from './ActivityCard';
+export { default as ActivityFilter } from './ActivityFilter';
 export { default as AreaBadge } from './AreaBadge';
 export { default as EquipmentInventory } from './EquipmentInventory';
 export { default as ItemFrame } from './ItemFrame';

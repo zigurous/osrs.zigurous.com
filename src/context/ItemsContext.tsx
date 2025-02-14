@@ -1,7 +1,7 @@
 import { graphql, useStaticQuery } from 'gatsby';
 import React, { createContext, useCallback, useContext } from 'react';
 import type { ItemData, PetData } from '../types';
-import { autoDetectIcon } from '../utils';
+import { autoDetectItemIcon } from '../utils';
 
 interface ItemsContextData {
   items: ItemData[];
@@ -30,7 +30,7 @@ export function ItemsContextProvider({ children }: React.PropsWithChildren) {
       data.items.nodes.find(item => item.id === id) ||
       data.pets.nodes.find(pet => pet.id === id) || {
         id,
-        icon: autoDetectIcon(id),
+        icon: autoDetectItemIcon(id),
       },
     [data.items.nodes],
   );

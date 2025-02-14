@@ -3,7 +3,7 @@ import React, { useRef, useState } from 'react';
 import Tooltip from './Tooltip';
 import WikiLink from './WikiLink';
 import type { ItemData } from '../types';
-import { autoDetectIcon, formatNameFromId } from '../utils';
+import { autoDetectItemIcon, formatNameFromId } from '../utils';
 import '../styles/item-frame.css';
 
 interface ItemFrameProps {
@@ -70,7 +70,7 @@ export default function ItemFrame({
         <div className="item-frame__sub-items shadow-sm">
           {item.transmutations.map((id, index) => (
             <ItemFrame
-              item={{ id, icon: autoDetectIcon(id) }}
+              item={{ id, icon: autoDetectItemIcon(id) }}
               key={`${id}-${index}`}
               size="sm"
             />

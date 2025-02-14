@@ -1,5 +1,16 @@
+export function capitalizeFirstLetter(str: string) {
+  return str.charAt(0).toUpperCase() + str.slice(1);
+}
+
 export function formatNameFromId(id: string) {
-  return toTitleCase(id.replace(/_/g, ' '));
+  switch (id) {
+    case 'pvm':
+      return 'PvM';
+    case 'pvp':
+      return 'PvP';
+    default:
+      return toTitleCase(id.replace(/_/g, ' '));
+  }
 }
 
 export function toTitleCase(title: string): string {
@@ -11,8 +22,4 @@ export function toTitleCase(title: string): string {
     .replace(' And ', ' and ')
     .replace('(E)', '(e)')
     .replace('(Or)', '(or)');
-}
-
-export function capitalizeFirstLetter(str: string) {
-  return str.charAt(0).toUpperCase() + str.slice(1);
 }

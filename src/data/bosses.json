@@ -328,6 +328,7 @@
     "id": "Hespori",
     "icon": "Hespori_icon_(mobile)",
     "category": "boss",
+    "subcategory": "farming",
     "recommendedCombatStyle": ["melee"],
     "notableDrops": [
       "Nature's_reprisal",
@@ -358,7 +359,7 @@
     "subtitle": "TzKal-Zuk",
     "category": "boss",
     "subcategory": "minigame",
-    "recommendedCombatStyle": ["hybrid", "ranged"],
+    "recommendedCombatStyle": ["ranged", "hybrid"],
     "notableDrops": [
       "Jal-nib-rek",
       "Infernal_cape"
@@ -567,7 +568,7 @@
   {
     "id": "Tempoross",
     "icon": "Tempoross_icon_(mobile)",
-    "category": "skilling-boss",
+    "category": "boss",
     "subcategory": "fishing",
     "recommendedCombatStyle": ["fishing"],
     "notableDrops": [
@@ -682,7 +683,7 @@
     "subtitle": "TzTok-Jad",
     "category": "boss",
     "subcategory": "minigame",
-    "recommendedCombatStyle": ["hybrid", "ranged"],
+    "recommendedCombatStyle": ["ranged", "melee"],
     "notableDrops": [
       "Tzrek-jad",
       "Fire_cape"
@@ -756,7 +757,7 @@
   {
     "id": "Wintertodt",
     "icon": "Wintertodt_icon_(mobile)",
-    "category": "skilling-boss",
+    "category": "boss",
     "subcategory": "firemaking",
     "recommendedCombatStyle": ["firemaking", "woodcutting"],
     "notableDrops": [
@@ -776,7 +777,7 @@
   {
     "id": "Zalcano",
     "icon": "Zalcano_icon_(mobile)",
-    "category": "skilling-boss",
+    "category": "boss",
     "subcategory": "mining",
     "recommendedCombatStyle": ["mining"],
     "notableDrops": [

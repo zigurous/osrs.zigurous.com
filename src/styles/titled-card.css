@@ -26,8 +26,13 @@
   color: rgb(from var(--color-foreground) r g b / var(--opacity-muted));
 }
 
+.titled-card__caption > i {
+  user-select: none;
+}
+
 .titled-card__icon {
   object-fit: contain;
+  user-select: none;
   margin-right: var(--spacing-md);
   width: 21px;
   height: 21px;

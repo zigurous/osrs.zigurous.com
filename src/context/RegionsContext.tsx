@@ -61,15 +61,17 @@ interface RegionsQueryData {
   };
 }
 
-export const dataQuery = graphql`
+const dataQuery = graphql`
   query RegionsQuery {
     regions: allRegionsJson {
       nodes {
         id: jsonId
         name
         description
-        bosses
         raids
+        bosses
+        minigames
+        guilds
         pets
       }
     }

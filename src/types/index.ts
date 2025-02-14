@@ -1,5 +1,4 @@
 export * from './activity';
-export * from './combat-style';
 export * from './drop-source';
 export * from './equipment';
 export * from './item';

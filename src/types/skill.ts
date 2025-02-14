@@ -1,3 +1,5 @@
-import { Skills } from '../enums';
+import { combatSkills, nonCombatSkills, skills } from '../utils';
 
-export type Skill = keyof typeof Skills;
+export type Skill = (typeof skills)[number];
+export type CombatSkill = (typeof combatSkills)[number];
+export type NonCombatSkill = (typeof nonCombatSkills)[number];

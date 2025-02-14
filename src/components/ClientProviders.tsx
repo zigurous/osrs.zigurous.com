@@ -1,5 +1,10 @@
 import React from 'react';
-import { ItemsContextProvider, RegionsContextProvider } from '../context';
+import {
+  ActivitiesContextProvider,
+  ItemsContextProvider,
+  RegionsContextProvider,
+  FilterContextProvider,
+} from '../context';
 
 interface ClientProvidersProps {
   children?: React.ReactNode;
@@ -11,10 +16,12 @@ export default function ClientProviders({
   location,
 }: ClientProvidersProps) {
   return (
-    <ItemsContextProvider>
-      <RegionsContextProvider location={location}>
-        {children}
-      </RegionsContextProvider>
-    </ItemsContextProvider>
+    <RegionsContextProvider location={location}>
+      <ItemsContextProvider>
+        <ActivitiesContextProvider>
+          <FilterContextProvider>{children}</FilterContextProvider>
+        </ActivitiesContextProvider>
+      </ItemsContextProvider>
+    </RegionsContextProvider>
   );
 }

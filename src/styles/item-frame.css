@@ -112,6 +112,7 @@
 
 .item-frame > img {
   object-fit: contain;
+  user-select: none;
   max-width: 100%;
   max-height: 100%;
   transform: scale(1.1);

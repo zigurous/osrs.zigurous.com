@@ -1,0 +1,30 @@
+.activity-filter {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: var(--spacing-sm);
+}
+
+.activity-filter > button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  aspect-ratio: 1 / 1;
+  background-color: var(--color-surface-3);
+  border-radius: var(--radius-sm);
+}
+
+.activity-filter > button:disabled {
+  background-color: var(--color-surface-2);
+}
+
+.activity-filter > button.selected {
+  background-color: var(--color-surface-4);
+  opacity: 1;
+}
+
+.activity-filter > button > img {
+  width: 50%;
+  height: 50%;
+  object-fit: contain;
+  user-select: none;
+}

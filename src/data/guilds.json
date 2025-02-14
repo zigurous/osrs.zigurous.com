@@ -1,0 +1,195 @@
+[
+  {
+    "id": "Champions'_Guild",
+    "category": "guild",
+    "subcategory": "quest",
+    "notableDrops": [
+      "Rune_chainbody",
+      "Rune_plateskirt",
+      "Rune_platelegs",
+      "Rune_mace",
+      "Rune_longsword",
+      "Green_d'hide_chaps",
+      "Green_d'hide_vambraces"
+    ]
+  },
+  {
+    "id": "Cooks'_Guild",
+    "category": "guild",
+    "subcategory": "cooking",
+    "notableDrops": [
+      "Cooking_cape",
+      "Jug_of_wine",
+      "Summer_pie",
+      "Wild_pie",
+      "Admiral_pie",
+      "Garden_pie"
+    ]
+  },
+  {
+    "id": "Crafting_Guild",
+    "category": "guild",
+    "subcategory": "crafting",
+    "notableDrops": [
+      "Crafting_cape",
+      "Bank_chest"
+    ]
+  },
+  {
+    "id": "Farming_Guild",
+    "category": "guild",
+    "subcategory": "farming",
+    "notableDrops": [
+      "Hespori_seed",
+      "Attas_seed",
+      "Iasor_seed",
+      "Kronos_seed",
+      "Celastrus_seed",
+      "Redwood_tree_seed"
+    ]
+  },
+  {
+    "id": "Fishing_Guild",
+    "category": "guild",
+    "subcategory": "fishing",
+    "notableDrops": [
+      "Fishing_cape",
+      "Shark",
+      "Swordfish",
+      "Lobster"
+    ]
+  },
+  {
+    "id": "Heroes'_Guild",
+    "category": "guild",
+    "subcategory": "quest",
+    "notableDrops": [
+      "Dragon_mace",
+      "Dragon_battleaxe"
+    ]
+  },
+  {
+    "id": "Hunter_Guild",
+    "category": "guild",
+    "subcategory": "hunter",
+    "notableDrops": [
+      "Mixed_hide_base",
+      "Moonlight_moth",
+      "Moonlight_antelope",
+      "Cooked_moonlight_antelope",
+      "Cooked_sunlight_antelope",
+      "Cooked_dashing_kebbit",
+      "Trapper's_tipple"
+    ]
+  },
+  {
+    "id": "Legends'_Guild",
+    "category": "guild",
+    "subcategory": "quest",
+    "notableDrops": [
+      "Cape_of_legends",
+      "Shield_right_half",
+      "Swordfish",
+      "Mithril_seeds",
+      "Bank_chest"
+    ]
+  },
+  {
+    "id": "Mining_Guild",
+    "category": "guild",
+    "subcategory": "mining",
+    "notableDrops": [
+      "Mining_cape",
+      "Rune_pickaxe",
+      "Amethyst",
+      "Expert_mining_gloves",
+      "Bag_full_of_gems",
+      "Soft_clay_pack"
+    ]
+  },
+  {
+    "id": "Myths'_Guild",
+    "category": "guild",
+    "subcategory": "quest",
+    "notableDrops": [
+      "Mythical_cape",
+      "Shield_right_half",
+      "Dragon_metal_shard",
+      "Dragon_battleaxe",
+      "Dragon_mace",
+      "Dragon_longsword",
+      "Dragon_dagger"
+    ]
+  },
+  {
+    "id": "Ranging_Guild",
+    "category": "guild",
+    "subcategory": "ranged",
+    "notableDrops": [
+      "Ranging_cape",
+      "Green_d'hide_body",
+      "Rune_arrow",
+      "Rune_thrownaxe",
+      "Barb_bolttips",
+      "Archery_ticket"
+    ]
+  },
+  {
+    "id": "Servants'_Guild",
+    "category": "guild",
+    "subcategory": "construction",
+    "notableDrops": [
+      "Demon_butler",
+      "Butler",
+      "Cook_(servant)",
+      "Maid",
+      "Rick"
+    ]
+  },
+  {
+    "id": "Warriors'_Guild",
+    "category": "guild",
+    "subcategory": "melee",
+    "notableDrops": [
+      "Dragon_defender",
+      "Rune_defender",
+      "Ghommal's_hilt",
+      "Strength_cape",
+      "Attack_cape"
+    ]
+  },
+  {
+    "id": "Wizards'_Guild",
+    "category": "guild",
+    "subcategory": "magic",
+    "notableDrops": [
+      "Magic_cape",
+      "Mystic_hat",
+      "Mystic_robe_top",
+      "Mystic_robe_bottom",
+      "Mystic_gloves",
+      "Mystic_boots"
+    ]
+  },
+  {
+    "id": "Woodcutting_Guild",
+    "category": "guild",
+    "subcategory": "woodcutting",
+    "notableDrops": [
+      "Logs",
+      "Oak_logs",
+      "Willow_logs",
+      "Maple_logs",
+      "Yew_logs",
+      "Magic_logs",
+      "Redwood_logs",
+      "Rune_axe",
+      "Mahogany_plank",
+      "Bird_nest",
+      "Evil_chicken_head",
+      "Evil_chicken_wings",
+      "Evil_chicken_legs",
+      "Evil_chicken_feet"
+    ]
+  }
+]

@@ -14,6 +14,19 @@
       "Royal_Titans",
       "The_Whisperer"
     ],
+    "minigames": [
+      "Burthorpe_Games_Room",
+      "Impetuous_Impulses",
+      "Mahogany_Homes",
+      "Pest_Control",
+      "Rogues'_Den"
+    ],
+    "guilds": [
+      "Crafting_Guild",
+      "Heroes'_Guild",
+      "Mining_Guild",
+      "Warriors'_Guild"
+    ],
     "pets": [
       "Baby_mole",
       "Bran",
@@ -30,13 +43,21 @@
     "id": "desert",
     "name": "Desert",
     "description": "The Kharidian Desert is an expansive region located south of the nations of Misthalin and Morytania. The desert becomes a dangerous region south of the Shantay Pass, requiring travelers to drink from waterskins or other sources of water to avoid dehydration.",
+    "raids": [
+      "Tombs_of_Amascut"
+    ],
     "bosses": [
       "Kalphite_Queen",
       "Tempoross",
       "The_Leviathan"
     ],
-    "raids": [
-      "Tombs_of_Amascut"
+    "minigames": [
+      "Emir's_Arena",
+      "Giants'_Foundry",
+      "Guardians_of_the_Rift",
+      "Mage_Training_Arena",
+      "Pyramid_Plunder",
+      "Sorceress's_Garden"
     ],
     "pets": [
       "Abyssal_protector",
@@ -56,6 +77,10 @@
       "Phantom_Muspah",
       "Vorkath"
     ],
+    "minigames": [
+      "Blast_Furnace",
+      "Impetuous_Impulses"
+    ],
     "pets": [
       "Baron",
       "Muphin",
@@ -74,6 +99,24 @@
       "Kraken",
       "Thermonuclear_smoke_devil"
     ],
+    "minigames": [
+      "Barbarian_Assault",
+      "Castle_Wars",
+      "Fishing_Trawler",
+      "Gnome_Ball",
+      "Gnome_Restaurant",
+      "Impetuous_Impulses",
+      "Nightmare_Zone",
+      "Ranging_Guild#Minigame"
+    ],
+    "guilds": [
+      "Fishing_Guild",
+      "Legends'_Guild",
+      "Myths'_Guild",
+      "Ranging_Guild",
+      "Servants'_Guild",
+      "Wizards'_Guild"
+    ],
     "pets": [
       "Broav",
       "Chompy_chick",
@@ -91,6 +134,14 @@
       "TzHaar_Fight_Cave",
       "Inferno"
     ],
+    "minigames": [
+      "Brimhaven_Agility_Arena",
+      "Inferno",
+      "Tai_Bwo_Wannai_Cleanup",
+      "TzHaar_Fight_Cave",
+      "TzHaar_Fight_Pit",
+      "TzHaar-Ket-Rak's_Challenges"
+    ],
     "pets": [
       "Jal-nib-rek",
       "Tzrek-jad"
@@ -100,6 +151,9 @@
     "id": "kourend",
     "name": "Kourend",
     "description": "Great Kourend is a kingdom in the continent of Zeah, found far west of the mainland across the Western Sea. One of the largest kingdoms in Gielinor, it is larger than Misthalin and Asgarnia combined, and is similar in size to Kandarin.",
+    "raids": [
+      "Chambers_of_Xeric"
+    ],
     "bosses": [
       "Alchemical_Hydra",
       "Hespori",
@@ -107,8 +161,16 @@
       "Skotizo",
       "Wintertodt"
     ],
-    "raids": [
-      "Chambers_of_Xeric"
+    "minigames": [
+      "Impetuous_Impulses",
+      "Mess",
+      "Stealing_artefacts",
+      "Tackle_organised_crime",
+      "Tithe_Farm"
+    ],
+    "guilds": [
+      "Farming_Guild",
+      "Woodcutting_Guild"
     ],
     "pets": [
       "Ikkle_hydra",
@@ -129,6 +191,18 @@
       "Obor",
       "Scurrius"
     ],
+    "minigames": [
+      "Impetuous_Impulses",
+      "Mahogany_Homes",
+      "Rat_Pits",
+      "Soul_Wars",
+      "Tears_of_Guthix_(minigame)",
+      "Volcanic_Mine"
+    ],
+    "guilds": [
+      "Champions'_Guild",
+      "Cooks'_Guild"
+    ],
     "pets": [
       "Abyssal_orphan",
       "Cat",
@@ -142,14 +216,21 @@
     "id": "morytania",
     "name": "Morytania",
     "description": "Morytania is an area in the easternmost part of Gielinor. Often described as a land of evil, the land is filled with many aggressive creatures such as vampyres, werewolves, ghasts, and the undead. It is currently ruled by Lord Drakan.",
+    "raids": [
+      "Theatre_of_Blood"
+    ],
     "bosses": [
       "Araxxor",
       "Barrows",
       "Grotesque_Guardians",
       "The_Nightmare"
     ],
-    "raids": [
-      "Theatre_of_Blood"
+    "minigames": [
+      "Hallowed_Sepulchre",
+      "Impetuous_Impulses",
+      "Shades_of_Mort'ton_(minigame)",
+      "Temple_Trekking",
+      "Trouble_Brewing"
     ],
     "pets": [
       "Lil'_zik",
@@ -167,6 +248,10 @@
       "Zalcano",
       "Zulrah"
     ],
+    "minigames": [
+      "Impetuous_Impulses",
+      "The_Gauntlet"
+    ],
     "pets": [
       "Pet_snakeling",
       "Smolcano",
@@ -183,6 +268,14 @@
       "Hueycoatl",
       "Moons_of_Peril",
       "Vardorvis"
+    ],
+    "minigames": [
+      "Fortis_Colosseum",
+      "Impetuous_Impulses",
+      "Mastering_Mixology"
+    ],
+    "guilds": [
+      "Hunter_Guild"
     ],
     "pets": [
       "Butch",
@@ -206,6 +299,11 @@
       "Scorpia",
       "Venenatis",
       "Vet'ion"
+    ],
+    "minigames": [
+      "Bounty_Hunter",
+      "Last_Man_Standing",
+      "Mage_Arena"
     ],
     "pets": [
       "Callisto_cub",
