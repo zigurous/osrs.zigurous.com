@@ -1,6 +1,6 @@
 import React, { createContext, useContext, useState } from 'react';
 import type { Activity } from '../types';
-import { activityFilters, getActivityGroup } from '../utils';
+import { activityFilters } from '../utils';
 
 type Filter = (typeof activityFilters)[number];
 
@@ -76,8 +76,11 @@ export function FilterContextProvider({ children }: React.PropsWithChildren) {
             return previous.slice(0, previous.indexOf(pivot)).concat(range);
           });
         },
-        isActivityFiltered: (activity: Activity) =>
-          selection.includes(getActivityGroup(activity)),
+        isActivityFiltered: (activity: Activity) => {
+          return selection.some(filter =>
+            activity.sortingGroups.includes(filter),
+          );
+        },
       }}
     >
       {children}

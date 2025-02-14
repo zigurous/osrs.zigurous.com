@@ -3,6 +3,7 @@
     "id": "Chambers_of_Xeric",
     "icon": "Great_Olm_icon_(mobile)",
     "category": "raid",
+    "sortingGroups": ["pvm"],
     "recommendedCombatStyle": ["hybrid"],
     "notableDrops": [
       "Olmlet",
@@ -30,6 +31,7 @@
     "id": "Theatre_of_Blood",
     "icon": "Verzik_Vitur_icon_(mobile)",
     "category": "raid",
+    "sortingGroups": ["pvm"],
     "recommendedCombatStyle": ["hybrid"],
     "notableDrops": [
       "Lil'_zik",
@@ -51,6 +53,7 @@
     "id": "Tombs_of_Amascut",
     "icon": "Tumeken's_guardian",
     "category": "raid",
+    "sortingGroups": ["pvm"],
     "recommendedCombatStyle": ["hybrid"],
     "notableDrops": [
       "Tumeken's_guardian",

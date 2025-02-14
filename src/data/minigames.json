@@ -2,7 +2,7 @@
   {
     "id": "Barbarian_Assault",
     "category": "minigame",
-    "subcategory": "pvm",
+    "sortingGroups": ["pvm"],
     "recommendedCombatStyle": ["ranged"],
     "notableDrops": [
       "Pet_penance_queen",
@@ -21,7 +21,7 @@
   {
     "id": "Blast_Furnace",
     "category": "minigame",
-    "subcategory": "smithing",
+    "sortingGroups": ["smithing"],
     "notableDrops": [
       "Runite_bar",
       "Adamantite_bar",
@@ -33,7 +33,7 @@
   {
     "id": "Bounty_Hunter",
     "category": "minigame",
-    "subcategory": "pvp",
+    "sortingGroups": ["pvp"],
     "notableDrops": [
       "Vesta's_longsword",
       "Statius's_warhammer",
@@ -67,7 +67,7 @@
   {
     "id": "Brimhaven_Agility_Arena",
     "category": "minigame",
-    "subcategory": "agility",
+    "sortingGroups": ["agility"],
     "notableDrops": [
       "Agility_arena_ticket",
       "Brimhaven_voucher",
@@ -87,7 +87,7 @@
   {
     "id": "Burthorpe_Games_Room",
     "category": "minigame",
-    "subcategory": "misc",
+    "sortingGroups": ["misc"],
     "notableDrops": [
       "Nothing"
     ]
@@ -95,7 +95,7 @@
   {
     "id": "Castle_Wars",
     "category": "minigame",
-    "subcategory": "pvp",
+    "sortingGroups": ["pvp"],
     "notableDrops": [
       "Castle_wars_ticket",
       "Red_decorative_armour",
@@ -122,7 +122,7 @@
   {
     "id": "Emir's_Arena",
     "category": "minigame",
-    "subcategory": "pvp",
+    "sortingGroups": ["pvp"],
     "notableDrops": [
       "Scroll_of_imbuing",
       "Blighted_surge_sack"
@@ -131,7 +131,7 @@
   {
     "id": "Fishing_Trawler",
     "category": "minigame",
-    "subcategory": "fishing",
+    "sortingGroups": ["fishing"],
     "notableDrops": [
       "Angler_hat",
       "Angler_top",
@@ -142,7 +142,7 @@
   {
     "id": "Fortis_Colosseum",
     "category": "minigame",
-    "subcategory": "pvm",
+    "sortingGroups": ["pvm"],
     "recommendedCombatStyle": ["melee", "hybrid"],
     "notableDrops": [
       "Smol_heredit",
@@ -161,7 +161,7 @@
   {
     "id": "Giants'_Foundry",
     "category": "minigame",
-    "subcategory": "smithing",
+    "sortingGroups": ["smithing"],
     "notableDrops": [
       "Colossal_blade",
       "Smiths_tunic",
@@ -177,7 +177,7 @@
   {
     "id": "Gnome_Ball",
     "category": "minigame",
-    "subcategory": "ranged",
+    "sortingGroups": ["ranged", "agility"],
     "notableDrops": [
       "Gnomeball"
     ]
@@ -185,7 +185,7 @@
   {
     "id": "Gnome_Restaurant",
     "category": "minigame",
-    "subcategory": "cooking",
+    "sortingGroups": ["cooking"],
     "notableDrops": [
       "Grand_seed_pod",
       "Gnome_scarf",
@@ -197,7 +197,7 @@
   {
     "id": "Guardians_of_the_Rift",
     "category": "minigame",
-    "subcategory": "runecraft",
+    "sortingGroups": ["runecraft"],
     "notableDrops": [
       "Abyssal_protector",
       "Abyssal_pearls",
@@ -221,7 +221,7 @@
   {
     "id": "Hallowed_Sepulchre",
     "category": "minigame",
-    "subcategory": "agility",
+    "sortingGroups": ["agility"],
     "notableDrops": [
       "Hallowed_mark",
       "Hallowed_token",
@@ -241,7 +241,7 @@
     "id": "Impetuous_Impulses",
     "title": "Puro-Puro",
     "category": "minigame",
-    "subcategory": "hunter",
+    "sortingGroups": ["hunter"],
     "notableDrops": [
       "Lucky_impling_jar",
       "Dragon_impling_jar",
@@ -259,7 +259,7 @@
   {
     "id": "Inferno",
     "category": "minigame",
-    "subcategory": "pvm",
+    "sortingGroups": ["pvm"],
     "recommendedCombatStyle": ["ranged", "hybrid"],
     "notableDrops": [
       "Jal-nib-rek",
@@ -269,7 +269,7 @@
   {
     "id": "Last_Man_Standing",
     "category": "minigame",
-    "subcategory": "pvp",
+    "sortingGroups": ["pvp"],
     "notableDrops": [
       "Deadman's_chest#Cosmetic",
       "Deadman's_legs#Cosmetic",
@@ -303,7 +303,7 @@
   {
     "id": "Mage_Arena",
     "category": "minigame",
-    "subcategory": "magic",
+    "sortingGroups": ["magic"],
     "recommendedCombatStyle": ["magic"],
     "notableDrops": [
       "Imbued_saradomin_cape",
@@ -317,7 +317,7 @@
   {
     "id": "Mage_Training_Arena",
     "category": "minigame",
-    "subcategory": "magic",
+    "sortingGroups": ["magic"],
     "notableDrops": [
       "Infinity_hat",
       "Infinity_top",
@@ -335,7 +335,7 @@
   {
     "id": "Mahogany_Homes",
     "category": "minigame",
-    "subcategory": "construction",
+    "sortingGroups": ["construction"],
     "notableDrops": [
       "Carpenter's_helmet",
       "Carpenter's_shirt",
@@ -351,7 +351,7 @@
   {
     "id": "Mastering_Mixology",
     "category": "minigame",
-    "subcategory": "herblore",
+    "sortingGroups": ["herblore"],
     "notableDrops": [
       "Prescription_goggles",
       "Alchemist_labcoat",
@@ -370,7 +370,7 @@
   {
     "id": "Mess",
     "category": "minigame",
-    "subcategory": "cooking",
+    "sortingGroups": ["cooking"],
     "notableDrops": [
       "XP"
     ]
@@ -378,7 +378,7 @@
   {
     "id": "Nightmare_Zone",
     "category": "minigame",
-    "subcategory": "pvm",
+    "sortingGroups": ["pvm"],
     "notableDrops": [
       "Imbuing",
       "Scroll_of_redirection",
@@ -389,7 +389,7 @@
   {
     "id": "Pest_Control",
     "category": "minigame",
-    "subcategory": "pvm",
+    "sortingGroups": ["pvm"],
     "notableDrops": [
       "Void_melee_helm",
       "Void_ranger_helm",
@@ -404,7 +404,7 @@
   {
     "id": "Pyramid_Plunder",
     "category": "minigame",
-    "subcategory": "thieving",
+    "sortingGroups": ["thieving"],
     "notableDrops": [
       "Pharaoh's_sceptre",
       "Golden_statuette",
@@ -416,7 +416,7 @@
     "id": "Ranging_Guild#Minigame",
     "title": "Shooting Range",
     "category": "minigame",
-    "subcategory": "ranged",
+    "sortingGroups": ["ranged"],
     "notableDrops": [
       "Archery_ticket"
     ]
@@ -424,7 +424,7 @@
   {
     "id": "Rat_Pits",
     "category": "minigame",
-    "subcategory": "quest",
+    "sortingGroups": ["quest", "misc"],
     "notableDrops": [
       "Coins"
     ]
@@ -432,7 +432,7 @@
   {
     "id": "Rogues'_Den",
     "category": "minigame",
-    "subcategory": "thieving",
+    "sortingGroups": ["thieving"],
     "notableDrops": [
       "Rogue_mask",
       "Rogue_top",
@@ -445,7 +445,7 @@
     "id": "Shades_of_Mort'ton_(minigame)",
     "title": "Shades of Mort'ton",
     "category": "minigame",
-    "subcategory": "prayer",
+    "sortingGroups": ["prayer", "firemaking", "pvm"],
     "notableDrops": [
       "Zealot's_helm",
       "Zealot's_robe_top",
@@ -466,7 +466,7 @@
   {
     "id": "Sorceress's_Garden",
     "category": "minigame",
-    "subcategory": "thieving",
+    "sortingGroups": ["thieving"],
     "notableDrops": [
       "Summer_sq'irkjuice",
       "Autumn_sq'irkjuice",
@@ -477,7 +477,7 @@
   {
     "id": "Soul_Wars",
     "category": "minigame",
-    "subcategory": "pvp",
+    "sortingGroups": ["pvp"],
     "notableDrops": [
       "Lil'_creator",
       "Ectoplasmator",
@@ -489,7 +489,7 @@
   {
     "id": "Stealing_artefacts",
     "category": "minigame",
-    "subcategory": "thieving",
+    "sortingGroups": ["thieving"],
     "notableDrops": [
       "Stolen_pendant",
       "Stolen_garnet_ring",
@@ -501,7 +501,7 @@
   {
     "id": "Tackle_organised_crime",
     "category": "minigame",
-    "subcategory": "pvm",
+    "sortingGroups": ["pvm", "melee"],
     "notableDrops": [
       "Training_manual"
     ]
@@ -509,7 +509,7 @@
   {
     "id": "Tai_Bwo_Wannai_Cleanup",
     "category": "minigame",
-    "subcategory": "woodcutting",
+    "sortingGroups": ["woodcutting"],
     "notableDrops": [
       "Trading_sticks",
       "Gout_tuber",
@@ -529,7 +529,7 @@
     "id": "Tears_of_Guthix_(minigame)",
     "title": "Tears of Guthix",
     "category": "minigame",
-    "subcategory": "quest",
+    "sortingGroups": ["quest", "misc"],
     "notableDrops": [
       "XP"
     ]
@@ -537,7 +537,7 @@
   {
     "id": "Temple_Trekking",
     "category": "minigame",
-    "subcategory": "misc",
+    "sortingGroups": ["misc", "pvm"],
     "notableDrops": [
       "Bow_string",
       "Pure_essence",
@@ -555,7 +555,7 @@
   {
     "id": "The_Gauntlet",
     "category": "minigame",
-    "subcategory": "pvm",
+    "sortingGroups": ["pvm"],
     "recommendedCombatStyle": ["hybrid"],
     "notableDrops": [
       "Youngllef",
@@ -570,7 +570,7 @@
   {
     "id": "Tithe_Farm",
     "category": "minigame",
-    "subcategory": "farming",
+    "sortingGroups": ["farming"],
     "notableDrops": [
       "Farmer's_strawhat",
       "Farmer's_jacket",
@@ -589,7 +589,7 @@
   {
     "id": "Trouble_Brewing",
     "category": "minigame",
-    "subcategory": "cooking",
+    "sortingGroups": ["cooking", "fletching"],
     "notableDrops": [
       "Pieces_of_eight",
       "Tricorn_hat",
@@ -610,7 +610,7 @@
     "id": "TzHaar_Fight_Cave",
     "title": "Fight Cave",
     "category": "minigame",
-    "subcategory": "pvm",
+    "sortingGroups": ["pvm"],
     "recommendedCombatStyle": ["ranged", "melee"],
     "notableDrops": [
       "Tzrek-jad",
@@ -621,7 +621,7 @@
     "id": "TzHaar_Fight_Pit",
     "title": "Fight Pit",
     "category": "minigame",
-    "subcategory": "pvp",
+    "sortingGroups": ["pvp"],
     "notableDrops": [
       "Tokkul"
     ]
@@ -630,7 +630,7 @@
     "id": "TzHaar-Ket-Rak's_Challenges",
     "title": "Jad Challenges",
     "category": "minigame",
-    "subcategory": "pvm",
+    "sortingGroups": ["pvm"],
     "recommendedCombatStyle": ["ranged"],
     "notableDrops": [
       "Tokkul"
@@ -639,7 +639,7 @@
   {
     "id": "Volcanic_Mine",
     "category": "minigame",
-    "subcategory": "mining",
+    "sortingGroups": ["mining"],
     "notableDrops": [
       "Dragon_pickaxe_(broken)",
       "Prospector_helmet",

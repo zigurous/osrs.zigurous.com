@@ -2,7 +2,7 @@
   {
     "id": "Champions'_Guild",
     "category": "guild",
-    "subcategory": "quest",
+    "sortingGroups": ["quest"],
     "notableDrops": [
       "Rune_chainbody",
       "Rune_plateskirt",
@@ -16,7 +16,7 @@
   {
     "id": "Cooks'_Guild",
     "category": "guild",
-    "subcategory": "cooking",
+    "sortingGroups": ["cooking"],
     "notableDrops": [
       "Cooking_cape",
       "Jug_of_wine",
@@ -29,7 +29,7 @@
   {
     "id": "Crafting_Guild",
     "category": "guild",
-    "subcategory": "crafting",
+    "sortingGroups": ["crafting"],
     "notableDrops": [
       "Crafting_cape",
       "Bank_chest"
@@ -38,7 +38,7 @@
   {
     "id": "Farming_Guild",
     "category": "guild",
-    "subcategory": "farming",
+    "sortingGroups": ["farming"],
     "notableDrops": [
       "Hespori_seed",
       "Attas_seed",
@@ -51,7 +51,7 @@
   {
     "id": "Fishing_Guild",
     "category": "guild",
-    "subcategory": "fishing",
+    "sortingGroups": ["fishing"],
     "notableDrops": [
       "Fishing_cape",
       "Shark",
@@ -62,7 +62,7 @@
   {
     "id": "Heroes'_Guild",
     "category": "guild",
-    "subcategory": "quest",
+    "sortingGroups": ["quest"],
     "notableDrops": [
       "Dragon_mace",
       "Dragon_battleaxe"
@@ -71,7 +71,7 @@
   {
     "id": "Hunter_Guild",
     "category": "guild",
-    "subcategory": "hunter",
+    "sortingGroups": ["hunter"],
     "notableDrops": [
       "Mixed_hide_base",
       "Moonlight_moth",
@@ -85,7 +85,7 @@
   {
     "id": "Legends'_Guild",
     "category": "guild",
-    "subcategory": "quest",
+    "sortingGroups": ["quest"],
     "notableDrops": [
       "Cape_of_legends",
       "Shield_right_half",
@@ -97,7 +97,7 @@
   {
     "id": "Mining_Guild",
     "category": "guild",
-    "subcategory": "mining",
+    "sortingGroups": ["mining"],
     "notableDrops": [
       "Mining_cape",
       "Rune_pickaxe",
@@ -110,7 +110,7 @@
   {
     "id": "Myths'_Guild",
     "category": "guild",
-    "subcategory": "quest",
+    "sortingGroups": ["quest"],
     "notableDrops": [
       "Mythical_cape",
       "Shield_right_half",
@@ -124,7 +124,7 @@
   {
     "id": "Ranging_Guild",
     "category": "guild",
-    "subcategory": "ranged",
+    "sortingGroups": ["ranged"],
     "notableDrops": [
       "Ranging_cape",
       "Green_d'hide_body",
@@ -137,7 +137,7 @@
   {
     "id": "Servants'_Guild",
     "category": "guild",
-    "subcategory": "construction",
+    "sortingGroups": ["construction"],
     "notableDrops": [
       "Demon_butler",
       "Butler",
@@ -149,7 +149,7 @@
   {
     "id": "Warriors'_Guild",
     "category": "guild",
-    "subcategory": "melee",
+    "sortingGroups": ["melee"],
     "notableDrops": [
       "Dragon_defender",
       "Rune_defender",
@@ -161,7 +161,7 @@
   {
     "id": "Wizards'_Guild",
     "category": "guild",
-    "subcategory": "magic",
+    "sortingGroups": ["magic"],
     "notableDrops": [
       "Magic_cape",
       "Mystic_hat",
@@ -174,7 +174,7 @@
   {
     "id": "Woodcutting_Guild",
     "category": "guild",
-    "subcategory": "woodcutting",
+    "sortingGroups": ["woodcutting"],
     "notableDrops": [
       "Logs",
       "Oak_logs",

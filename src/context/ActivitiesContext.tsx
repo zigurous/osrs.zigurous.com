@@ -1,7 +1,6 @@
 import { graphql, useStaticQuery } from 'gatsby';
 import React, { createContext, useCallback, useContext, useMemo } from 'react';
 import type { Activity, Boss, Guild, Minigame, Raid } from '../types'; // prettier-ignore
-import { getActivityGroup } from '../utils';
 
 interface ActivitiesContextData {
   all: Activity[];
@@ -41,21 +40,16 @@ export function ActivitiesContextProvider({
 }: React.PropsWithChildren) {
   const data = useStaticQuery<ActivitiesQueryData>(dataQuery);
 
-  const allActivities = useMemo(() => {
-    const nodes = [
-      ...data.raids.nodes,
-      ...data.bosses.nodes,
-      ...data.minigames.nodes,
-      ...data.guilds.nodes,
-    ];
-    const mapActivityToGroup = (activity: Activity) => ({
-      ...activity,
-      sortingGroup: getActivityGroup(activity),
-    });
-    return nodes
-      .map(mapActivityToGroup)
-      .sort((a, b) => a.id.localeCompare(b.id)) as Activity[];
-  }, [data]);
+  const allActivities = useMemo(
+    () =>
+      [
+        ...data.raids.nodes,
+        ...data.bosses.nodes,
+        ...data.minigames.nodes,
+        ...data.guilds.nodes,
+      ].sort((a, b) => a.id.localeCompare(b.id)) as Activity[],
+    [data],
+  );
 
   const getActivityById = useCallback(
     (id: string) => allActivities.find(activity => activity.id === id),
@@ -126,6 +120,7 @@ const dataQuery = graphql`
         title
         subtitle
         category
+        sortingGroups
         notableDrops
         recommendedCombatStyle
       }
@@ -137,7 +132,7 @@ const dataQuery = graphql`
         title
         subtitle
         category
-        subcategory
+        sortingGroups
         notableDrops
         recommendedCombatStyle
       }
@@ -148,7 +143,7 @@ const dataQuery = graphql`
         title
         subtitle
         category
-        subcategory
+        sortingGroups
         notableDrops
         recommendedCombatStyle
       }
@@ -159,7 +154,7 @@ const dataQuery = graphql`
         title
         subtitle
         category
-        subcategory
+        sortingGroups
         notableDrops
       }
     }

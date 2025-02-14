@@ -20,6 +20,7 @@ export default function RegionPanelActivities({
   const activities = useMemo(() => {
     const ids = [
       ...new Set([
+        ...(region.raids || []),
         ...region.bosses,
         ...region.minigames,
         ...(region.guilds || []),
@@ -37,7 +38,8 @@ export default function RegionPanelActivities({
       : activities;
 
   const disabledFilters = activityFilters.filter(
-    filter => !activities.some(activity => activity.sortingGroup === filter),
+    filter =>
+      !activities.some(activity => activity.sortingGroups?.includes(filter)),
   );
 
   return (

@@ -9,8 +9,7 @@ export interface Activity extends Omit<DropSource, 'name'> {
   title?: string;
   subtitle?: string;
   category: string;
-  subcategory?: string;
-  sortingGroup?: ActivityGroup;
+  sortingGroups: ActivityGroup[];
 }
 
 export type CombatStyle = 'melee' | 'ranged' | 'magic' | 'hybrid';
@@ -20,26 +19,16 @@ export interface CombatActivity extends Activity {
 
 export interface Boss extends CombatActivity {
   category: 'boss';
-  subcategory?:
-    | 'slayer'
-    | 'wilderness'
-    | 'minigame'
-    | 'quest'
-    | 'gwd'
-    | 'dt2'
-    | Skill;
 }
 
-export interface Raid extends Omit<Boss, 'category' | 'subcategory'> {
+export interface Raid extends Omit<Boss, 'category'> {
   category: 'raid';
 }
 
 export interface Minigame extends Activity {
   category: 'minigame';
-  subcategory: Skill | 'pvm' | 'pvp' | 'misc';
 }
 
 export interface Guild extends Activity {
   category: 'guild';
-  subcategory: Skill | 'quest' | 'melee';
 }

@@ -10,36 +10,33 @@ export function sortByName(
 }
 
 export function sortBySkill(a: Activity, b: Activity): number {
-  let aIndex = a.subcategory ? skills.indexOf(a.subcategory as Skill) : -1;
-  let bIndex = b.subcategory ? skills.indexOf(b.subcategory as Skill) : -1;
+  const aSkill = getAssociatedSkill(a);
+  const bSkill = getAssociatedSkill(b);
+  let aIndex = aSkill ? skills.indexOf(aSkill) : -1;
+  let bIndex = bSkill ? skills.indexOf(bSkill) : -1;
   if (aIndex === -1) aIndex = Number.MAX_SAFE_INTEGER;
   if (bIndex === -1) bIndex = Number.MAX_SAFE_INTEGER;
-  return aIndex - bIndex || sortByName(a, b);
+  return aIndex - bIndex;
 }
 
 export function sortByActivity(a: Activity, b: Activity): number {
-  let aIndex = activityFilters.indexOf(getActivityGroup(a));
-  let bIndex = activityFilters.indexOf(getActivityGroup(b));
+  const aGroup = a.sortingGroups.length > 0 ? a.sortingGroups[0] : 'misc';
+  const bGroup = b.sortingGroups.length > 0 ? b.sortingGroups[0] : 'misc';
+  let aIndex = activityFilters.indexOf(aGroup);
+  let bIndex = activityFilters.indexOf(bGroup);
   if (aIndex === -1) aIndex = Number.MAX_SAFE_INTEGER;
   if (bIndex === -1) bIndex = Number.MAX_SAFE_INTEGER;
-  return aIndex - bIndex || sortByName(a, b);
+  return aIndex - bIndex;
 }
 
-export function getActivityGroup(activity: Activity): ActivityGroup {
-  if (activityFilters.includes(activity.subcategory as ActivityGroup)) {
-    return activity.subcategory as ActivityGroup;
-  }
-  // prettier-ignore
-  switch (activity.category) {
-    case 'boss': return 'pvm';
-    case 'raid': return 'pvm';
-    default: return 'misc';
-  }
+export function getAssociatedSkill(activity: Activity): Skill | undefined {
+  return activity.sortingGroups.find(g => skills.includes(g as Skill)) as Skill;
 }
 
 export function getIconForActivity(activity: Activity): string | undefined {
-  const activityGroup = getActivityGroup(activity);
-  switch (activityGroup) {
+  const sortingGroup =
+    activity.sortingGroups.length > 0 ? activity.sortingGroups[0] : 'misc';
+  switch (sortingGroup) {
     case 'pvm':
       if (activity.icon) return activity.icon;
       break;
@@ -54,7 +51,7 @@ export function getIconForActivity(activity: Activity): string | undefined {
       }
       break;
   }
-  return getIconForActivityGroup(activityGroup);
+  return getIconForActivityGroup(sortingGroup);
 }
 
 export function getIconForActivityGroup(

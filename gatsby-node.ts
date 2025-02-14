@@ -28,7 +28,7 @@ export const createSchemaCustomization = ({
       title: String
       subtitle: String
       category: String!
-      subcategory: String
+      sortingGroups: [String!]!
       notableDrops: [String!]!
       recommendedCombatStyle: [String!]!
     }
@@ -37,7 +37,7 @@ export const createSchemaCustomization = ({
       title: String
       subtitle: String
       category: String!
-      subcategory: String!
+      sortingGroups: [String!]!
       notableDrops: [String!]!
     }
     type ItemsJson implements Node @dontInfer {
@@ -58,7 +58,7 @@ export const createSchemaCustomization = ({
       title: String
       subtitle: String
       category: String!
-      subcategory: String!
+      sortingGroups: [String!]!
       notableDrops: [String!]!
       recommendedCombatStyle: [String!]
     }
@@ -87,6 +87,7 @@ export const createSchemaCustomization = ({
       title: String
       subtitle: String
       category: String!
+      sortingGroups: [String!]!
       notableDrops: [String!]!
       recommendedCombatStyle: [String!]!
     }
