@@ -1,0 +1,107 @@
+[
+  {
+    "id": "Aerial_fishing",
+    "category": "skilling",
+    "sortingGroups": ["hunter", "fishing"],
+    "notableDrops": [
+      "Golden_tench",
+      "Pearl_fishing_rod",
+      "Pearl_fly_fishing_rod",
+      "Pearl_barbarian_rod",
+      "Fish_sack",
+      "#newline",
+      "Angler_hat",
+      "Angler_top",
+      "Angler_waders",
+      "Angler_boots"
+    ]
+  },
+  {
+    "id": "Ape_Atoll_Agility_Course",
+    "category": "skilling",
+    "sortingGroups": ["agility"],
+    "notableDrops": [
+      "Mark_of_grace",
+      "Karamjan_monkey_(item)",
+      "Zombie_monkey_(item)",
+      "Maniacal_monkey_(item)",
+      "Skeleton_monkey_(item)",
+      "Kruk_jr",
+      "Princely_monkey"
+    ]
+  },
+  {
+    "id": "Colossal_Wyrm_Agility_Course",
+    "category": "skilling",
+    "sortingGroups": ["agility"],
+    "notableDrops": [
+      "Graceful_hood_(Varlamore)",
+      "Graceful_top_(Varlamore)",
+      "Graceful_legs_(Varlamore)",
+      "Graceful_gloves_(Varlamore)",
+      "Graceful_boots_(Varlamore)",
+      "Graceful_cape_(Varlamore)",
+      "#newline",
+      "Termites",
+      "Colossal_wyrm_teleport_scroll",
+      "Graceful_crafting_kit",
+      "Amylase_pack",
+      "Calcified_acorn"
+    ]
+  },
+  {
+    "id": "Forestry",
+    "category": "skilling",
+    "sortingGroups": ["woodcutting"],
+    "notableDrops": [
+      "Fox_whistle",
+      "Petal_garland",
+      "Golden_pheasant_egg",
+      "Sturdy_beehive_parts",
+      "Bird_nest_(egg)",
+      "#newline",
+      "Pheasant_hat",
+      "Pheasant_legs",
+      "Pheasant_boots",
+      "Pheasant_cape"
+    ]
+  },
+  {
+    "id": "Hunters'_Rumours",
+    "category": "skilling",
+    "sortingGroups": ["hunter"],
+    "notableDrops": [
+      "Quetzin",
+      "Guild_hunter_headwear",
+      "Guild_hunter_top",
+      "Guild_hunter_legs",
+      "Guild_hunter_boots",
+      "Huntsman's_kit",
+      "Perfected_quetzal_whistle"
+    ]
+  },
+  {
+    "id": "Motherlode_Mine",
+    "category": "skilling",
+    "sortingGroups": ["mining"],
+    "notableDrops": [
+      "Prospector_helmet",
+      "Prospector_jacket",
+      "Prospector_legs",
+      "Prospector_boots",
+      "Coal_bag",
+      "Gem_bag"
+    ]
+  },
+  {
+    "id": "Shooting_Stars",
+    "category": "skilling",
+    "sortingGroups": ["mining"],
+    "notableDrops": [
+      "Stardust",
+      "#transmute",
+      "Celestial_ring",
+      "Star_fragment"
+    ]
+  }
+]

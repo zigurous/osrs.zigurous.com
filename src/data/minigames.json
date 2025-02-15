@@ -177,7 +177,7 @@
   {
     "id": "Gnome_Ball",
     "category": "minigame",
-    "sortingGroups": ["ranged", "agility"],
+    "sortingGroups": ["ranged", "agility", "misc"],
     "notableDrops": [
       "Gnomeball"
     ]
@@ -416,7 +416,7 @@
     "id": "Ranging_Guild#Minigame",
     "title": "Shooting Range",
     "category": "minigame",
-    "sortingGroups": ["ranged"],
+    "sortingGroups": ["ranged", "misc"],
     "notableDrops": [
       "Archery_ticket"
     ]
@@ -424,7 +424,7 @@
   {
     "id": "Rat_Pits",
     "category": "minigame",
-    "sortingGroups": ["quest", "misc"],
+    "sortingGroups": ["misc", "quest"],
     "notableDrops": [
       "Coins"
     ]
@@ -501,7 +501,7 @@
   {
     "id": "Tackle_organised_crime",
     "category": "minigame",
-    "sortingGroups": ["pvm", "melee"],
+    "sortingGroups": ["misc", "pvm", "melee"],
     "notableDrops": [
       "Training_manual"
     ]
@@ -529,7 +529,7 @@
     "id": "Tears_of_Guthix_(minigame)",
     "title": "Tears of Guthix",
     "category": "minigame",
-    "sortingGroups": ["quest", "misc"],
+    "sortingGroups": ["misc", "quest"],
     "notableDrops": [
       "XP"
     ]

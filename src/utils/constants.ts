@@ -68,8 +68,8 @@ export const activityFilters = [
   'melee',
   'ranged',
   'magic',
-  'prayer',
   // skilling
+  'prayer',
   'runecraft',
   'construction',
   'agility',
@@ -89,3 +89,40 @@ export const activityFilters = [
   'quest',
   'misc',
 ] as const;
+
+export const iconOrder = [
+  // combat
+  'Raids',
+  'Master_Reanimation',
+  'Monster_Examine',
+  'Combat_icon',
+  'Skull_(status)_icon',
+  'Slayer_icon',
+  'Attack_icon',
+  'Ranged_icon',
+  'Magic_icon',
+  // skilling
+  'Prayer_icon',
+  'Runecraft_icon',
+  'Construction_icon',
+  'Agility_icon',
+  'Herblore_icon',
+  'Thieving_icon',
+  'Crafting_icon',
+  'Fletching_icon',
+  'Hunter_icon',
+  'Mining_icon',
+  'Smithing_icon',
+  'Fishing_icon',
+  'Cooking_icon',
+  'Firemaking_icon',
+  'Woodcutting_icon',
+  'Farming_icon',
+  // other
+  'Minigame_icon',
+  'Distractions_and_Diversions',
+  'Quest_point_icon',
+  'Map_link_icon',
+  'Crystal_key',
+  'Collection_log',
+];

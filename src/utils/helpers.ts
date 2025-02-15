@@ -1,4 +1,4 @@
-import { activityFilters, combatSkills, nonCombatSkills, skills } from './constants'; // prettier-ignore
+import { activityFilters, combatSkills, iconOrder, nonCombatSkills, skills } from './constants'; // prettier-ignore
 import { capitalizeFirstLetter } from './formatting';
 import type { Activity, ActivityGroup, CombatSkill, CombatStyle, NonCombatSkill, Skill } from '../types'; // prettier-ignore
 
@@ -9,16 +9,6 @@ export function sortByName(
   return (a.title || a.name || a.id).localeCompare(b.title || b.name || b.id);
 }
 
-export function sortBySkill(a: Activity, b: Activity): number {
-  const aSkill = getAssociatedSkill(a);
-  const bSkill = getAssociatedSkill(b);
-  let aIndex = aSkill ? skills.indexOf(aSkill) : -1;
-  let bIndex = bSkill ? skills.indexOf(bSkill) : -1;
-  if (aIndex === -1) aIndex = Number.MAX_SAFE_INTEGER;
-  if (bIndex === -1) bIndex = Number.MAX_SAFE_INTEGER;
-  return aIndex - bIndex;
-}
-
 export function sortByActivity(a: Activity, b: Activity): number {
   const aGroup = a.sortingGroups.length > 0 ? a.sortingGroups[0] : 'misc';
   const bGroup = b.sortingGroups.length > 0 ? b.sortingGroups[0] : 'misc';
@@ -26,7 +16,29 @@ export function sortByActivity(a: Activity, b: Activity): number {
   let bIndex = activityFilters.indexOf(bGroup);
   if (aIndex === -1) aIndex = Number.MAX_SAFE_INTEGER;
   if (bIndex === -1) bIndex = Number.MAX_SAFE_INTEGER;
-  return aIndex - bIndex;
+  return aIndex - bIndex || sortByName(a, b);
+}
+
+export function sortByIcon(a: Activity, b: Activity): number {
+  const aIcon = getIconForActivity(a);
+  const bIcon = getIconForActivity(b);
+  let aIndex = aIcon ? iconOrder.indexOf(aIcon) : -1;
+  let bIndex = bIcon ? iconOrder.indexOf(bIcon) : -1;
+  if (aIndex === -1) aIndex = Number.MAX_SAFE_INTEGER;
+  if (bIndex === -1) bIndex = Number.MAX_SAFE_INTEGER;
+  if (a.icon && a.sortingGroups[0] === 'pvm') aIndex = Number.MIN_SAFE_INTEGER;
+  if (b.icon && b.sortingGroups[0] === 'pvm') bIndex = Number.MIN_SAFE_INTEGER;
+  return aIndex - bIndex || sortByName(a, b);
+}
+
+export function sortBySkill(a: Activity, b: Activity): number {
+  const aSkill = getAssociatedSkill(a);
+  const bSkill = getAssociatedSkill(b);
+  let aIndex = aSkill ? skills.indexOf(aSkill) : -1;
+  let bIndex = bSkill ? skills.indexOf(bSkill) : -1;
+  if (aIndex === -1) aIndex = Number.MAX_SAFE_INTEGER;
+  if (bIndex === -1) bIndex = Number.MAX_SAFE_INTEGER;
+  return aIndex - bIndex || sortByName(a, b);
 }
 
 export function getAssociatedSkill(activity: Activity): Skill | undefined {
@@ -36,22 +48,21 @@ export function getAssociatedSkill(activity: Activity): Skill | undefined {
 export function getIconForActivity(activity: Activity): string | undefined {
   const sortingGroup =
     activity.sortingGroups.length > 0 ? activity.sortingGroups[0] : 'misc';
-  switch (sortingGroup) {
-    case 'pvm':
-      if (activity.icon) return activity.icon;
-      break;
-    case 'quest':
-    case 'misc':
-      // prettier-ignore
-      switch (activity.category) {
-        case 'boss': return 'Monster_Examine';
-        case 'guild': return 'Map_link_icon';
-        case 'minigame': return 'Minigame_icon';
-        case 'raid': return 'Raids_icon';
-      }
-      break;
+  if (sortingGroup === 'pvm' && activity.icon) return activity.icon;
+  const icon = getIconForActivityGroup(sortingGroup);
+  if (icon && sortingGroup !== 'misc') return icon;
+  // prettier-ignore
+  switch (activity.category) {
+    case 'boss': return 'Master_Reanimation';
+    case 'chest': return 'Crystal_key';
+    case 'distraction_and_diversion': return 'Distractions_and_Diversions';
+    case 'guild': return 'Map_link_icon';
+    case 'location': return 'Map_link_icon';
+    case 'minigame': return 'Minigame_icon';
+    case 'monster': return 'Monster_Examine';
+    case 'raid': return 'Raids';
   }
-  return getIconForActivityGroup(sortingGroup);
+  return 'Collection_log';
 }
 
 export function getIconForActivityGroup(
@@ -87,7 +98,9 @@ export function getIconForActivityGroup(
     case 'quest':
       return 'Quest_point_icon';
     case 'misc':
-      return 'Instruction_manual';
+      return 'Collection_log';
+    default:
+      return undefined;
   }
 }
 

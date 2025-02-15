@@ -5,7 +5,7 @@ import ActivityFilter from './ActivityFilter';
 import RegionPanelSection from './RegionPanelSection';
 import { useActivitiesContext, useFilterContext } from '../context';
 import type { Region } from '../types';
-import { activityFilters, sortByActivity } from '../utils';
+import { activityFilters, sortByIcon } from '../utils';
 
 interface RegionPanelActivitiesProps {
   region: Region;
@@ -24,12 +24,14 @@ export default function RegionPanelActivities({
         ...region.bosses,
         ...region.minigames,
         ...(region.guilds || []),
+        ...region.skilling,
+        ...(region.misc || []),
       ]),
     ];
     return ids
       .map(context.getActivityById)
       .filter(activity => !!activity)
-      .sort(sortByActivity);
+      .sort(sortByIcon);
   }, [region, region.id, context.getActivityById]);
 
   const filteredActivities =

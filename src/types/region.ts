@@ -15,9 +15,11 @@ export interface Region {
   id: RegionId;
   name: string;
   description: string;
+  skilling: string[];
   raids?: string[];
   bosses: string[];
   minigames: string[];
   guilds?: string[];
+  misc?: string[];
   pets: string[];
 }

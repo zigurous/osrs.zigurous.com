@@ -47,8 +47,8 @@ export default function ActivityCard({
 function getSubtitle(activity: Activity) {
   // prettier-ignore
   switch (activity.category) {
-    case 'raid': return 'Raid';
     case 'boss': return 'Boss';
+    case 'raid': return 'Raid';
     default: return undefined;
   }
 }

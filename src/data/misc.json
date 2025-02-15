@@ -1,0 +1,337 @@
+[
+  {
+    "id": "Ancient_Magicks",
+    "category": "spellbook",
+    "sortingGroups": ["magic"],
+    "notableDrops": [
+      "Ancient_spellbook"
+    ]
+  },
+  {
+    "id": "Arceuus_spellbook",
+    "category": "spellbook",
+    "sortingGroups": ["magic"],
+    "notableDrops": [
+      "Arceuus_spellbook"
+    ]
+  },
+  {
+    "id": "Brimstone_chest",
+    "category": "chest",
+    "sortingGroups": ["slayer", "misc"],
+    "notableDrops": [
+      "Brimstone_key",
+      "#transmute",
+      "Mystic_hat_(dusk)",
+      "Mystic_robe_top_(dusk)",
+      "Mystic_robe_bottom_(dusk)",
+      "Mystic_gloves_(dusk)",
+      "Mystic_boots_(dusk)",
+      "Broken_dragon_hasta"
+    ]
+  },
+  {
+    "id": "Catacombs_of_Kourend",
+    "category": "location",
+    "sortingGroups": ["slayer", "pvm"],
+    "notableDrops": [
+      "Ancient_shard",
+      "Dark_totem",
+      "Dark_totem_top",
+      "Dark_totem_middle",
+      "Dark_totem_base"
+    ]
+  },
+  {
+    "id": "Champions'_Challenge",
+    "category": "distraction_and_diversion",
+    "sortingGroups": ["misc", "pvm"],
+    "notableDrops": [
+      "Champion's_cape",
+      "Earth_warrior_champion_scroll",
+      "Ghoul_champion_scroll",
+      "Giant_champion_scroll",
+      "Goblin_champion_scroll",
+      "Hobgoblin_champion_scroll",
+      "Imp_champion_scroll",
+      "Jogre_champion_scroll",
+      "Lesser_demon_champion_scroll",
+      "Skeleton_champion_scroll",
+      "Zombie_champion_scroll"
+    ]
+  },
+  {
+    "id": "Chompy_bird_hunting",
+    "sortingGroups": ["ranged", "misc"],
+    "notableDrops": [
+      "Chompy_chick",
+      "Chompy_bird_hat_(ogre_expert)",
+      "Chompy_bird_hat_(expert)",
+      "Chompy_bird_hat_(ogre_dragon_archer)",
+      "Chompy_bird_hat_(dragon_archer)",
+      "Chompy_bird_hat_(expert_ogre_dragon_archer)",
+      "Chompy_bird_hat_(expert_dragon_archer)"
+    ]
+  },
+  {
+    "id": "Combat_Ring_(Shayzien)",
+    "title": "Shayzien Combat Ring",
+    "sortingGroups": ["misc", "pvm", "melee"],
+    "notableDrops": [
+      "Shayzien_helm_(1)",
+      "Shayzien_helm_(2)",
+      "Shayzien_helm_(3)",
+      "Shayzien_helm_(4)",
+      "Shayzien_helm_(5)",
+      "#newline",
+      "Shayzien_platebody_(1)",
+      "Shayzien_platebody_(2)",
+      "Shayzien_platebody_(3)",
+      "Shayzien_platebody_(4)",
+      "Shayzien_body_(5)",
+      "#newline",
+      "Shayzien_greaves_(1)",
+      "Shayzien_greaves_(2)",
+      "Shayzien_greaves_(3)",
+      "Shayzien_greaves_(4)",
+      "Shayzien_greaves_(5)",
+      "#newline",
+      "Shayzien_gloves_(1)",
+      "Shayzien_gloves_(2)",
+      "Shayzien_gloves_(3)",
+      "Shayzien_gloves_(4)",
+      "Shayzien_gloves_(5)",
+      "#newline",
+      "Shayzien_boots_(1)",
+      "Shayzien_boots_(2)",
+      "Shayzien_boots_(3)",
+      "Shayzien_boots_(4)",
+      "Shayzien_boots_(5)"
+    ]
+  },
+  {
+    "id": "Creature_Creation",
+    "sortingGroups": ["misc", "pvm"],
+    "notableDrops": [
+      "Tea_flask",
+      "Plain_satchel",
+      "Green_satchel",
+      "Red_satchel",
+      "Black_satchel",
+      "Gold_satchel",
+      "Rune_satchel"
+    ]
+  },
+  {
+    "id": "Demonic_gorilla",
+    "title": "Demonic Gorillas",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
+    "notableDrops": [
+      "Zenyte_shard",
+      "Heavy_frame",
+      "Light_frame",
+      "Ballista_limbs",
+      "Monkey_tail",
+      "Ballista_spring"
+    ]
+  },
+  {
+    "id": "Elder_Chaos_druid",
+    "title": "Elder Chaos Druids",
+    "category": "monster",
+    "sortingGroups": ["pvm", "slayer"],
+    "notableDrops": [
+      "Elder_chaos_hood",
+      "Elder_chaos_top",
+      "Elder_chaos_robe"
+    ]
+  },
+  {
+    "id": "Elven_Crystal_Chest",
+    "category": "chest",
+    "sortingGroups": ["misc"],
+    "notableDrops": [
+      "Enhanced_crystal_key",
+      "#transmute",
+      "Dragonstone_full_helm",
+      "Dragonstone_platebody",
+      "Dragonstone_platelegs",
+      "Dragonstone_gauntlets",
+      "Dragonstone_boots",
+      "Uncut_onyx"
+    ]
+  },
+  {
+    "id": "Forthos_Dungeon",
+    "category": "location",
+    "sortingGroups": ["pvm"],
+    "notableDrops": [
+      "Mask_of_ranul",
+      "Tattered_sun_page",
+      "Tattered_moon_page",
+      "Tattered_temple_page",
+      "Temple_coin",
+      "Temple_key",
+      "Grubby_key"
+    ]
+  },
+  {
+    "id": "Fossil_Island",
+    "category": "location",
+    "sortingGroups": ["misc"],
+    "notableDrops": [
+      "Scribbled_note",
+      "Partial_note",
+      "Ancient_note",
+      "Ancient_writings",
+      "Experimental_note",
+      "Paragraph_of_text",
+      "Musty_smelling_note",
+      "Hastily_scrawled_note",
+      "Old_writing",
+      "Short_note"
+    ]
+  },
+  {
+    "id": "Fountain_of_Rune",
+    "category": "location",
+    "sortingGroups": ["misc"],
+    "notableDrops": [
+      "Amulet_of_eternal_glory",
+      "High_Level_Alchemy",
+      "Coins"
+    ]
+  },
+  {
+    "id": "Friendly_Forester",
+    "category": "npc",
+    "sortingGroups": ["woodcutting"],
+    "notableDrops": [
+      "Forestry_kit",
+      "Log_brace",
+      "Clothes_pouch_blueprint",
+      "Cape_pouch",
+      "Log_basket",
+      "Felling_axe_handle",
+      "Funky_shaped_log",
+      "Forestry_hat",
+      "Forestry_top",
+      "Forestry_legs",
+      "Forestry_boots",
+      "Twitcher's_gloves"
+    ]
+  },
+  {
+    "id": "Grubby_Chest",
+    "category": "chest",
+    "sortingGroups": ["misc"],
+    "notableDrops": [
+      "Grubby_key",
+      "#transmute",
+      "Blue_egg_sac",
+      "Orange_egg_sac"
+    ]
+  },
+  {
+    "id": "Larran's_big_chest",
+    "category": "chest",
+    "sortingGroups": ["slayer", "misc"],
+    "notableDrops": [
+      "Larran's_key",
+      "#transmute",
+      "Dagon'hai_hat",
+      "Dagon'hai_robe_top",
+      "Dagon'hai_robe_bottom"
+    ]
+  },
+  {
+    "id": "Lunar_spellbook",
+    "category": "spellbook",
+    "sortingGroups": ["magic"],
+    "notableDrops": [
+      "Lunar_spellbook"
+    ]
+  },
+  {
+    "id": "Moon_chest",
+    "category": "chest",
+    "sortingGroups": ["misc"],
+    "notableDrops": [
+      "Moon_key",
+      "#transmute",
+      "Helmet_of_the_moon",
+      "Uncut_onyx"
+    ]
+  },
+  {
+    "id": "Revenants",
+    "category": "monster",
+    "sortingGroups": ["pvm", "pvp", "slayer"],
+    "notableDrops": [
+      "Craw's_bow",
+      "Viggora's_chainmace",
+      "Thammaron's_sceptre",
+      "Amulet_of_avarice",
+      "Ancient_crystal",
+      "Bracelet_of_ethereum",
+      "Revenant_ether",
+      "Ancient_relic",
+      "Ancient_effigy",
+      "Ancient_medallion",
+      "Ancient_statuette",
+      "Ancient_totem",
+      "Ancient_emblem",
+      "Revenant_cave_teleport"
+    ]
+  },
+  {
+    "id": "Ruins_of_Camdozaal",
+    "category": "location",
+    "sortingGroups": ["misc", "mining", "fishing"],
+    "notableDrops": [
+      "Imcando_hammer",
+      "Barronite_mace",
+      "Ancient_globe",
+      "Ancient_astroscope",
+      "Ancient_carcanet",
+      "Ancient_ledger",
+      "Ancient_treatise"
+    ]
+  },
+  {
+    "id": "Standard_spellbook",
+    "category": "spellbook",
+    "sortingGroups": ["magic"],
+    "notableDrops": [
+      "Standard_spellbook"
+    ]
+  },
+  {
+    "id": "Tormented_Demon",
+    "title": "Tormented Demons",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
+    "notableDrops": [
+      "Tormented_synapse",
+      "Burning_claw"
+    ]
+  },
+  {
+    "id": "TzHaar",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
+    "notableDrops": [
+      "Obsidian_cape",
+      "Toktz-ket-xil",
+      "Tzhaar-ket-om",
+      "Toktz-xil-ak",
+      "Toktz-xil-ek",
+      "Toktz-mej-tal",
+      "Toktz-xil-ul",
+      "Obsidian_helmet",
+      "Obsidian_platebody",
+      "Obsidian_platelegs"
+    ]
+  }
+]

@@ -138,6 +138,19 @@
     "icon": "Barb-tailed_kebbit_icon"
   },
   {
+    "id": "Barronite_mace",
+    "transmutations": [
+      "#equals",
+      "Barronite_handle",
+      "Barronite_guard",
+      "Barronite_head"
+    ]
+  },
+  {
+    "id": "Barronite_shards",
+    "icon": "Barronite_shards_25"
+  },
+  {
     "id": "Basilisk_head",
     "transmutations": [
       "#transmute",
@@ -465,6 +478,36 @@
   {
     "id": "Dark_kebbit",
     "icon": "Dark_kebbit_icon"
+  },
+  {
+    "id": "Dark_totem_base",
+    "transmutations": [
+      "#plus",
+      "Dark_totem_top",
+      "Dark_totem_middle",
+      "#equals",
+      "Dark_totem"
+    ]
+  },
+  {
+    "id": "Dark_totem_middle",
+    "transmutations": [
+      "#plus",
+      "Dark_totem_top",
+      "Dark_totem_base",
+      "#equals",
+      "Dark_totem"
+    ]
+  },
+  {
+    "id": "Dark_totem_top",
+    "transmutations": [
+      "#plus",
+      "Dark_totem_middle",
+      "Dark_totem_base",
+      "#equals",
+      "Dark_totem"
+    ]
   },
   {
     "id": "Dashing_kebbit",
@@ -1421,6 +1464,27 @@
     "transmutations": [
       "#transmute",
       "Toxic_blowpipe"
+    ]
+  },
+  {
+    "id": "Tattered_moon_page",
+    "transmutations": [
+      "#transmute",
+      "Tome_of_the_moon"
+    ]
+  },
+  {
+    "id": "Tattered_sun_page",
+    "transmutations": [
+      "#transmute",
+      "Tome_of_the_sun"
+    ]
+  },
+  {
+    "id": "Tattered_temple_page",
+    "transmutations": [
+      "#transmute",
+      "Tome_of_the_temple"
     ]
   },
   {

@@ -1,14 +1,14 @@
 import type { DropSource } from './drop-source';
-import type { Skill } from './skill';
 import { activityFilters } from '../utils';
 
 export type ActivityGroup = (typeof activityFilters)[number];
-export interface Activity extends Omit<DropSource, 'name'> {
+
+export interface Activity extends DropSource {
   id: string;
   icon?: string;
   title?: string;
   subtitle?: string;
-  category: string;
+  category?: string;
   sortingGroups: ActivityGroup[];
 }
 

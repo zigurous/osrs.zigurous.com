@@ -43,10 +43,12 @@ export function ActivitiesContextProvider({
   const allActivities = useMemo(
     () =>
       [
+        ...data.skilling.nodes,
         ...data.raids.nodes,
         ...data.bosses.nodes,
         ...data.minigames.nodes,
         ...data.guilds.nodes,
+        ...data.misc.nodes,
       ].sort((a, b) => a.id.localeCompare(b.id)) as Activity[],
     [data],
   );
@@ -97,6 +99,9 @@ export function ActivitiesContextProvider({
 }
 
 interface ActivitiesQueryData {
+  skilling: {
+    nodes: Activity[];
+  };
   raids: {
     nodes: Raid[];
   };
@@ -109,10 +114,23 @@ interface ActivitiesQueryData {
   guilds: {
     nodes: Guild[];
   };
+  misc: {
+    nodes: Activity[];
+  };
 }
 
 const dataQuery = graphql`
   query ActivitiesQuery {
+    skilling: allSkillingJson {
+      nodes {
+        id: jsonId
+        title
+        subtitle
+        category
+        sortingGroups
+        notableDrops
+      }
+    }
     raids: allRaidsJson {
       nodes {
         id: jsonId
@@ -149,6 +167,16 @@ const dataQuery = graphql`
       }
     }
     guilds: allGuildsJson {
+      nodes {
+        id: jsonId
+        title
+        subtitle
+        category
+        sortingGroups
+        notableDrops
+      }
+    }
+    misc: allMiscJson {
       nodes {
         id: jsonId
         title

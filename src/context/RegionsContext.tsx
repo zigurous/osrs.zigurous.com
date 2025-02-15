@@ -68,10 +68,12 @@ const dataQuery = graphql`
         id: jsonId
         name
         description
+        skilling
         raids
         bosses
         minigames
         guilds
+        misc
         pets
       }
     }

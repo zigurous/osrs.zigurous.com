@@ -3,8 +3,8 @@
     "id": "Abyssal_Sire",
     "icon": "Abyssal_Sire_icon_(mobile)",
     "category": "boss",
-    "recommendedCombatStyle": ["melee", "ranged", "magic"],
     "sortingGroups": ["pvm", "slayer"],
+    "recommendedCombatStyle": ["melee", "ranged", "magic"],
     "notableDrops": [
       "Abyssal_orphan",
       "Unsired",

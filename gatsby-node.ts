@@ -62,6 +62,14 @@ export const createSchemaCustomization = ({
       notableDrops: [String!]!
       recommendedCombatStyle: [String!]
     }
+    type MiscJson implements Node @dontInfer {
+      jsonId: String!
+      title: String
+      subtitle: String
+      category: String
+      sortingGroups: [String!]!
+      notableDrops: [String!]!
+    }
     type MonstersJson implements Node @dontInfer {
       jsonId: String!
       icon: String
@@ -95,11 +103,21 @@ export const createSchemaCustomization = ({
       jsonId: String!
       name: String!
       description: String!
+      skilling: [String!]!
       raids: [String!]
       bosses: [String!]!
       minigames: [String!]!
       guilds: [String!]
+      misc: [String!]
       pets: [String!]!
+    }
+    type SkillingJson implements Node @dontInfer {
+      jsonId: String!
+      title: String
+      subtitle: String
+      category: String
+      sortingGroups: [String!]!
+      notableDrops: [String!]!
     }
     type SlayerMastersJson implements Node @dontInfer {
       jsonId: String!

@@ -1031,25 +1031,6 @@
     "hideFromMenu": true
   },
   {
-    "id": "Elven_Crystal_Chest",
-    "icon": "Enhanced_crystal_key",
-    "slayerMasters": [],
-    "locations": [
-      "Prifddinas"
-    ],
-    "notableDrops": [
-      "Enhanced_crystal_key",
-      "#transmute",
-      "Dragonstone_full_helm",
-      "Dragonstone_platebody",
-      "Dragonstone_platelegs",
-      "Dragonstone_gauntlets",
-      "Dragonstone_boots",
-      "Uncut_onyx"
-    ],
-    "hideFromMenu": true
-  },
-  {
     "id": "Elves",
     "icon": "Ensouled_elf_head",
     "requiredCombatLevel": 70,
@@ -1375,21 +1356,6 @@
       "Granite_dust",
       "Jar_of_stone"
     ]
-  },
-  {
-    "id": "Grubby_Chest",
-    "icon": "Grubby_key",
-    "slayerMasters": [],
-    "locations": [
-      "Forthos_Dungeon"
-    ],
-    "notableDrops": [
-      "Grubby_key",
-      "#transmute",
-      "Blue_egg_sac",
-      "Orange_egg_sac"
-    ],
-    "hideFromMenu": true
   },
   {
     "id": "Harpie_Bug_Swarm",
@@ -2058,21 +2024,6 @@
       "Temple_of_Marimbo",
       "Tai_Bwo_Wannai",
       "Brimhaven"
-    ],
-    "hideFromMenu": true
-  },
-  {
-    "id": "Moon_chest",
-    "icon": "Moon_key",
-    "slayerMasters": [],
-    "locations": [
-      "Ruins_of_Tapoyauik"
-    ],
-    "notableDrops": [
-      "Moon_key",
-      "#transmute",
-      "Helmet_of_the_moon",
-      "Uncut_onyx"
     ],
     "hideFromMenu": true
   },
