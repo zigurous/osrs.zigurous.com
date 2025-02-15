@@ -30,7 +30,7 @@ export default function ActivityCard({
       )}
       onClickHeader={expandable ? () => setExpanded(!expanded) : undefined}
       shadow={false}
-      subtitle={activity.category === 'boss' ? 'Boss' : undefined}
+      subtitle={getSubtitle(activity)}
       title={activity.title || formatNameFromId(activity.id)}
       titleIconId={getIconForActivity(activity)}
       titleIconSize={expandable ? undefined : 14}
@@ -42,4 +42,13 @@ export default function ActivityCard({
       {items.length > 0 && <ItemsStack items={items} />}
     </TitledCard>
   );
+}
+
+function getSubtitle(activity: Activity) {
+  // prettier-ignore
+  switch (activity.category) {
+    case 'raid': return 'Raid';
+    case 'boss': return 'Boss';
+    default: return undefined;
+  }
 }
