@@ -2,7 +2,7 @@
   {
     "id": "Barbarian_Assault",
     "category": "minigame",
-    "sortingGroups": ["pvm"],
+    "sortingGroups": ["pvm", "ranged"],
     "recommendedCombatStyle": ["ranged"],
     "notableDrops": [
       "Pet_penance_queen",
@@ -142,7 +142,7 @@
   {
     "id": "Fortis_Colosseum",
     "category": "minigame",
-    "sortingGroups": ["pvm"],
+    "sortingGroups": ["pvm", "melee"],
     "recommendedCombatStyle": ["melee", "hybrid"],
     "notableDrops": [
       "Smol_heredit",
@@ -259,7 +259,7 @@
   {
     "id": "Inferno",
     "category": "minigame",
-    "sortingGroups": ["pvm"],
+    "sortingGroups": ["pvm", "ranged"],
     "recommendedCombatStyle": ["ranged", "hybrid"],
     "notableDrops": [
       "Jal-nib-rek",
@@ -378,7 +378,7 @@
   {
     "id": "Nightmare_Zone",
     "category": "minigame",
-    "sortingGroups": ["pvm"],
+    "sortingGroups": ["pvm", "melee", "ranged"],
     "notableDrops": [
       "Imbuing",
       "Scroll_of_redirection",
@@ -389,7 +389,7 @@
   {
     "id": "Pest_Control",
     "category": "minigame",
-    "sortingGroups": ["pvm"],
+    "sortingGroups": ["pvm", "melee", "ranged", "magic"],
     "notableDrops": [
       "Void_melee_helm",
       "Void_ranger_helm",
@@ -555,7 +555,7 @@
   {
     "id": "The_Gauntlet",
     "category": "minigame",
-    "sortingGroups": ["pvm"],
+    "sortingGroups": ["pvm", "magic", "ranged", "melee"],
     "recommendedCombatStyle": ["hybrid"],
     "notableDrops": [
       "Youngllef",
@@ -610,7 +610,7 @@
     "id": "TzHaar_Fight_Cave",
     "title": "Fight Cave",
     "category": "minigame",
-    "sortingGroups": ["pvm"],
+    "sortingGroups": ["pvm", "ranged", "melee"],
     "recommendedCombatStyle": ["ranged", "melee"],
     "notableDrops": [
       "Tzrek-jad",

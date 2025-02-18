@@ -3,7 +3,7 @@
     "id": "Abyssal_Sire",
     "icon": "Abyssal_Sire_icon_(mobile)",
     "category": "boss",
-    "sortingGroups": ["pvm", "slayer"],
+    "sortingGroups": ["pvm", "slayer", "melee", "ranged", "magic"],
     "recommendedCombatStyle": ["melee", "ranged", "magic"],
     "notableDrops": [
       "Abyssal_orphan",
@@ -21,7 +21,7 @@
     "id": "Alchemical_Hydra",
     "icon": "Alchemical_Hydra_icon_(mobile)",
     "category": "boss",
-    "sortingGroups": ["pvm", "slayer"],
+    "sortingGroups": ["pvm", "slayer", "melee", "ranged"],
     "recommendedCombatStyle": ["melee", "ranged"],
     "notableDrops": [
       "Ikkle_hydra",
@@ -41,7 +41,7 @@
     "id": "Amoxliatl",
     "icon": "Moxi",
     "category": "boss",
-    "sortingGroups": ["pvm"],
+    "sortingGroups": ["pvm", "melee"],
     "recommendedCombatStyle": ["melee"],
     "notableDrops": [
       "Moxi",
@@ -55,7 +55,7 @@
     "id": "Araxxor",
     "icon": "Nid",
     "category": "boss",
-    "sortingGroups": ["pvm", "slayer"],
+    "sortingGroups": ["pvm", "slayer", "melee"],
     "recommendedCombatStyle": ["melee"],
     "notableDrops": [
       "Nid",
@@ -73,7 +73,7 @@
     "id": "Barrows",
     "icon": "Barrows_Brothers_icon_(mobile)",
     "category": "boss",
-    "sortingGroups": ["pvm"],
+    "sortingGroups": ["pvm", "melee", "ranged", "magic"],
     "recommendedCombatStyle": ["hybrid", "magic"],
     "notableDrops": [
       "Ahrim's_staff",
@@ -110,8 +110,8 @@
     "id": "Bryophyta",
     "icon": "Bryophyta_icon_(mobile)",
     "category": "boss",
-    "sortingGroups": ["pvm"],
-    "recommendedCombatStyle": ["melee"],
+    "sortingGroups": ["pvm", "melee", "ranged", "woodcutting"],
+    "recommendedCombatStyle": ["melee", "ranged"],
     "notableDrops": [
       "Bryophyta's_essence"
     ]
@@ -121,7 +121,7 @@
     "icon": "Callisto_cub",
     "title": "Callisto / Artio",
     "category": "boss",
-    "sortingGroups": ["pvm", "slayer"],
+    "sortingGroups": ["pvm", "slayer", "ranged", "magic"],
     "recommendedCombatStyle": ["ranged", "magic"],
     "notableDrops": [
       "Callisto_cub",
@@ -136,8 +136,8 @@
     "id": "Cerberus",
     "icon": "Cerberus_icon",
     "category": "boss",
-    "sortingGroups": ["pvm", "slayer"],
-    "recommendedCombatStyle": ["melee"],
+    "sortingGroups": ["pvm", "slayer", "melee", "ranged"],
+    "recommendedCombatStyle": ["melee", "ranged"],
     "notableDrops": [
       "Hellpuppy",
       "The_dogsword",
@@ -152,8 +152,8 @@
     "id": "Chaos_Elemental",
     "icon": "Pet_chaos_elemental",
     "category": "boss",
-    "sortingGroups": ["pvm"],
-    "recommendedCombatStyle": ["melee", "ranged"],
+    "sortingGroups": ["pvm", "ranged", "melee"],
+    "recommendedCombatStyle": ["ranged", "melee"],
     "notableDrops": [
       "Pet_chaos_elemental",
       "Dragon_pickaxe",
@@ -164,7 +164,7 @@
     "id": "Chaos_Fanatic",
     "icon": "Ancient_staff",
     "category": "boss",
-    "sortingGroups": ["pvm"],
+    "sortingGroups": ["pvm", "ranged"],
     "recommendedCombatStyle": ["ranged"],
     "notableDrops": [
       "Pet_chaos_elemental",
@@ -176,7 +176,7 @@
     "id": "Commander_Zilyana",
     "icon": "Commander_Zilyana_icon_(mobile)",
     "category": "boss",
-    "sortingGroups": ["pvm"],
+    "sortingGroups": ["pvm", "ranged"],
     "recommendedCombatStyle": ["ranged"],
     "notableDrops": [
       "Pet_zilyana",
@@ -190,7 +190,7 @@
     "id": "Corporeal_Beast",
     "icon": "Corporeal_Beast_icon_(mobile)",
     "category": "boss",
-    "sortingGroups": ["pvm"],
+    "sortingGroups": ["pvm", "melee"],
     "recommendedCombatStyle": ["melee"],
     "notableDrops": [
       "Pet_dark_core",
@@ -206,7 +206,7 @@
     "id": "Crazy_archaeologist",
     "icon": "Fedora",
     "category": "boss",
-    "sortingGroups": ["pvm"],
+    "sortingGroups": ["pvm", "magic"],
     "recommendedCombatStyle": ["magic"],
     "notableDrops": [
       "Fedora",
@@ -218,7 +218,7 @@
     "id": "Dagannoth_Kings",
     "icon": "Dagannoth_Kings_icon_(mobile)",
     "category": "boss",
-    "sortingGroups": ["pvm", "slayer"],
+    "sortingGroups": ["pvm", "slayer", "magic", "ranged", "melee"],
     "recommendedCombatStyle": ["hybrid"],
     "notableDrops": [
       "Amulet_of_the_monarchs",
@@ -240,7 +240,7 @@
     "id": "Deranged_archaeologist",
     "icon": "Unidentified_small_fossil",
     "category": "boss",
-    "sortingGroups": ["pvm"],
+    "sortingGroups": ["pvm", "magic"],
     "recommendedCombatStyle": ["magic"],
     "notableDrops": [
       "Nothing"
@@ -250,7 +250,7 @@
     "id": "Duke_Sucellus",
     "icon": "Baron",
     "category": "boss",
-    "sortingGroups": ["pvm"],
+    "sortingGroups": ["pvm", "melee"],
     "recommendedCombatStyle": ["melee"],
     "notableDrops": [
       "Baron",
@@ -270,7 +270,7 @@
     "icon": "Smol_heredit",
     "subtitle": "Sol Heredit",
     "category": "boss",
-    "sortingGroups": ["pvm"],
+    "sortingGroups": ["pvm", "melee"],
     "recommendedCombatStyle": ["melee", "hybrid"],
     "notableDrops": [
       "Smol_heredit",
@@ -290,8 +290,8 @@
     "id": "General_Graardor",
     "icon": "General_Graardor_icon_(mobile)",
     "category": "boss",
-    "sortingGroups": ["pvm"],
-    "recommendedCombatStyle": ["melee", "ranged"],
+    "sortingGroups": ["pvm", "melee", "ranged", "magic"],
+    "recommendedCombatStyle": ["melee", "ranged", "magic"],
     "notableDrops": [
       "Pet_general_graardor",
       "Bandos_chestplate",
@@ -304,8 +304,8 @@
     "id": "Giant_Mole",
     "icon": "Giant_Mole_icon_(mobile)",
     "category": "boss",
-    "sortingGroups": ["pvm"],
-    "recommendedCombatStyle": ["melee", "ranged", "magic"],
+    "sortingGroups": ["pvm", "ranged", "magic", "melee"],
+    "recommendedCombatStyle": ["ranged", "magic", "melee"],
     "notableDrops": [
       "Baby_mole",
       "Mole_skin",
@@ -316,7 +316,7 @@
     "id": "Grotesque_Guardians",
     "icon": "Grotesque_Guardians_icon_(mobile)",
     "category": "boss",
-    "sortingGroups": ["pvm", "slayer"],
+    "sortingGroups": ["pvm", "slayer", "melee", "ranged"],
     "recommendedCombatStyle": ["melee", "ranged"],
     "notableDrops": [
       "Noon",
@@ -333,7 +333,7 @@
     "id": "Hespori",
     "icon": "Hespori_icon_(mobile)",
     "category": "boss",
-    "sortingGroups": ["farming", "pvm"],
+    "sortingGroups": ["farming", "pvm", "melee"],
     "recommendedCombatStyle": ["melee"],
     "notableDrops": [
       "Nature's_reprisal",
@@ -347,7 +347,7 @@
     "id": "Hueycoatl",
     "icon": "Huberte",
     "category": "boss",
-    "sortingGroups": ["pvm"],
+    "sortingGroups": ["pvm", "melee"],
     "recommendedCombatStyle": ["melee"],
     "notableDrops": [
       "Huberte",
@@ -364,7 +364,7 @@
     "icon": "Tzrek-zuk",
     "subtitle": "TzKal-Zuk",
     "category": "boss",
-    "sortingGroups": ["pvm", "slayer"],
+    "sortingGroups": ["pvm", "slayer", "ranged"],
     "recommendedCombatStyle": ["ranged", "hybrid"],
     "notableDrops": [
       "Jal-nib-rek",
@@ -375,8 +375,8 @@
     "id": "K'ril_Tsutsaroth",
     "icon": "K'ril_Tsutsaroth_icon_(mobile)",
     "category": "boss",
-    "sortingGroups": ["pvm", "slayer"],
-    "recommendedCombatStyle": ["melee", "ranged"],
+    "sortingGroups": ["pvm", "slayer", "ranged", "melee", "magic"],
+    "recommendedCombatStyle": ["ranged", "melee", "magic"],
     "notableDrops": [
       "Pet_k'ril_tsutsaroth",
       "Zamorakian_spear",
@@ -389,7 +389,7 @@
     "id": "Kalphite_Queen",
     "icon": "Kalphite_Queen_icon_(mobile)",
     "category": "boss",
-    "sortingGroups": ["pvm", "slayer"],
+    "sortingGroups": ["pvm", "slayer", "melee", "ranged"],
     "recommendedCombatStyle": ["melee", "ranged"],
     "notableDrops": [
       "Kalphite_princess",
@@ -405,7 +405,7 @@
     "id": "King_Black_Dragon",
     "icon": "King_Black_Dragon_icon_(mobile)",
     "category": "boss",
-    "sortingGroups": ["pvm", "slayer"],
+    "sortingGroups": ["pvm", "slayer", "melee", "ranged"],
     "recommendedCombatStyle": ["melee", "ranged"],
     "notableDrops": [
       "Prince_black_dragon",
@@ -433,8 +433,8 @@
     "id": "Kree'arra",
     "icon": "Kree'arra_icon_(mobile)",
     "category": "boss",
-    "sortingGroups": ["pvm", "slayer"],
-    "recommendedCombatStyle": ["ranged"],
+    "sortingGroups": ["pvm", "slayer", "ranged", "magic"],
+    "recommendedCombatStyle": ["ranged", "magic"],
     "notableDrops": [
       "Pet_kree'arra",
       "Armadyl_helmet",
@@ -447,7 +447,7 @@
     "id": "Moons_of_Peril",
     "icon": "Varlamore_crest",
     "category": "boss",
-    "sortingGroups": ["pvm"],
+    "sortingGroups": ["pvm", "melee"],
     "recommendedCombatStyle": ["melee"],
     "notableDrops": [
       "Dual_macuahuitl",
@@ -473,8 +473,8 @@
     "id": "Nex",
     "icon": "Nex_icon_(mobile)",
     "category": "boss",
-    "sortingGroups": ["pvm"],
-    "recommendedCombatStyle": ["melee", "ranged"],
+    "sortingGroups": ["pvm", "ranged", "melee"],
+    "recommendedCombatStyle": ["ranged", "melee"],
     "notableDrops": [
       "Nexling",
       "Torva_full_helm",
@@ -489,8 +489,8 @@
     "id": "Obor",
     "icon": "Obor_icon_(mobile)",
     "category": "boss",
-    "sortingGroups": ["pvm"],
-    "recommendedCombatStyle": ["melee", "ranged", "magic"],
+    "sortingGroups": ["pvm", "magic", "ranged", "melee"],
+    "recommendedCombatStyle": ["magic", "ranged", "melee"],
     "notableDrops": [
       "Hill_giant_club"
     ]
@@ -499,7 +499,7 @@
     "id": "Phantom_Muspah",
     "icon": "Muphin_(ranged)",
     "category": "boss",
-    "sortingGroups": ["pvm"],
+    "sortingGroups": ["pvm", "ranged", "magic"],
     "recommendedCombatStyle": ["ranged", "magic"],
     "notableDrops": [
       "Muphin",
@@ -514,7 +514,7 @@
     "id": "Royal_Titans",
     "icon": "Bran",
     "category": "boss",
-    "sortingGroups": ["pvm"],
+    "sortingGroups": ["pvm", "melee", "ranged", "magic"],
     "recommendedCombatStyle": ["hybrid"],
     "notableDrops": [
       "Bran",
@@ -530,7 +530,7 @@
     "id": "Sarachnis",
     "icon": "Sarachnis_icon_(mobile)",
     "category": "boss",
-    "sortingGroups": ["pvm", "slayer"],
+    "sortingGroups": ["pvm", "slayer", "melee"],
     "recommendedCombatStyle": ["melee"],
     "notableDrops": [
       "Sraracha",
@@ -543,7 +543,7 @@
     "id": "Scorpia",
     "icon": "Scorpia's_offspring",
     "category": "boss",
-    "sortingGroups": ["pvm", "slayer"],
+    "sortingGroups": ["pvm", "slayer", "magic"],
     "recommendedCombatStyle": ["magic"],
     "notableDrops": [
       "Scorpia's_offspring",
@@ -556,7 +556,7 @@
     "id": "Scurrius",
     "icon": "Scurry",
     "category": "boss",
-    "sortingGroups": ["pvm"],
+    "sortingGroups": ["pvm", "melee", "ranged", "magic"],
     "recommendedCombatStyle": ["melee", "ranged", "magic"],
     "notableDrops": [
       "Scurry",
@@ -567,8 +567,8 @@
     "id": "Skotizo",
     "icon": "Skotizo_icon_(mobile)",
     "category": "boss",
-    "sortingGroups": ["pvm", "slayer"],
-    "recommendedCombatStyle": ["melee"],
+    "sortingGroups": ["pvm", "slayer", "melee", "ranged"],
+    "recommendedCombatStyle": ["melee", "ranged"],
     "notableDrops": [
       "Skotos",
       "Dark_claw",
@@ -582,7 +582,7 @@
     "id": "Tempoross",
     "icon": "Tempoross_icon_(mobile)",
     "category": "boss",
-    "sortingGroups": ["fishing", "pvm"],
+    "sortingGroups": ["fishing", "cooking", "pvm"],
     "recommendedCombatStyle": ["fishing"],
     "notableDrops": [
       "Tiny_tempor",
@@ -604,7 +604,7 @@
     "icon": "Crystalline_Hunllef_icon_(mobile)",
     "subtitle": "Hunllef",
     "category": "boss",
-    "sortingGroups": ["pvm"],
+    "sortingGroups": ["pvm", "magic", "ranged", "melee"],
     "recommendedCombatStyle": ["hybrid"],
     "notableDrops": [
       "Youngllef",
@@ -620,7 +620,7 @@
     "id": "The_Leviathan",
     "icon": "Lil'viathan",
     "category": "boss",
-    "sortingGroups": ["pvm"],
+    "sortingGroups": ["pvm", "ranged"],
     "recommendedCombatStyle": ["ranged"],
     "notableDrops": [
       "Lil'viathan",
@@ -639,8 +639,8 @@
     "id": "The_Nightmare",
     "icon": "The_Nightmare_icon_(mobile)",
     "category": "boss",
-    "sortingGroups": ["pvm"],
-    "recommendedCombatStyle": ["melee"],
+    "sortingGroups": ["pvm", "melee", "magic"],
+    "recommendedCombatStyle": ["melee", "magic"],
     "notableDrops": [
       "Little_nightmare",
       "Inquisitor's_mace",
@@ -660,7 +660,7 @@
     "id": "The_Whisperer",
     "icon": "Wisp",
     "category": "boss",
-    "sortingGroups": ["pvm"],
+    "sortingGroups": ["pvm", "magic"],
     "recommendedCombatStyle": ["magic"],
     "notableDrops": [
       "Wisp",
@@ -679,8 +679,8 @@
     "id": "Thermonuclear_smoke_devil",
     "icon": "Thermonuclear_smoke_devil_icon_(mobile)",
     "category": "boss",
-    "sortingGroups": ["pvm", "slayer", "magic"],
-    "recommendedCombatStyle": ["magic"],
+    "sortingGroups": ["pvm", "slayer", "magic", "melee"],
+    "recommendedCombatStyle": ["magic", "melee"],
     "notableDrops": [
       "Pet_smoke_devil",
       "Devil's_element",
@@ -696,7 +696,7 @@
     "title": "Fight Caves",
     "subtitle": "TzTok-Jad",
     "category": "boss",
-    "sortingGroups": ["pvm", "slayer"],
+    "sortingGroups": ["pvm", "slayer", "ranged", "melee"],
     "recommendedCombatStyle": ["ranged", "melee"],
     "notableDrops": [
       "Tzrek-jad",
@@ -707,7 +707,7 @@
     "id": "Vardorvis",
     "icon": "Butch",
     "category": "boss",
-    "sortingGroups": ["pvm"],
+    "sortingGroups": ["pvm", "melee"],
     "recommendedCombatStyle": ["melee"],
     "notableDrops": [
       "Butch",
@@ -727,7 +727,7 @@
     "icon": "Venenatis_spiderling",
     "title": "Venenatis / Spindel",
     "category": "boss",
-    "sortingGroups": ["pvm", "slayer"],
+    "sortingGroups": ["pvm", "slayer", "melee", "ranged"],
     "recommendedCombatStyle": ["melee", "ranged"],
     "notableDrops": [
       "Venenatis_spiderling",
@@ -743,7 +743,7 @@
     "icon": "Vet'ion_jr.",
     "title": "Vet'ion / Calvar'ion",
     "category": "boss",
-    "sortingGroups": ["pvm", "slayer"],
+    "sortingGroups": ["pvm", "slayer", "melee"],
     "recommendedCombatStyle": ["melee"],
     "notableDrops": [
       "Vet'ion_jr.",
@@ -758,7 +758,7 @@
     "id": "Vorkath",
     "icon": "Vorkath_icon_(mobile)",
     "category": "boss",
-    "sortingGroups": ["pvm", "slayer"],
+    "sortingGroups": ["pvm", "slayer", "melee", "ranged"],
     "recommendedCombatStyle": ["melee", "ranged"],
     "notableDrops": [
       "Vorki",
@@ -774,8 +774,8 @@
     "id": "Wintertodt",
     "icon": "Wintertodt_icon_(mobile)",
     "category": "boss",
-    "sortingGroups": ["firemaking", "pvm"],
-    "recommendedCombatStyle": ["firemaking", "woodcutting"],
+    "sortingGroups": ["firemaking", "woodcutting", "fletching", "pvm"],
+    "recommendedCombatStyle": ["firemaking"],
     "notableDrops": [
       "Phoenix",
       "Pyromancer_hood",
@@ -808,8 +808,8 @@
     "id": "Zulrah",
     "icon": "Zulrah_icon_(mobile)",
     "category": "boss",
-    "sortingGroups": ["pvm"],
-    "recommendedCombatStyle": ["ranged", "magic"],
+    "sortingGroups": ["pvm", "magic", "ranged"],
+    "recommendedCombatStyle": ["magic", "ranged"],
     "notableDrops": [
       "Pet_snakeling",
       "Tanzanite_fang",
