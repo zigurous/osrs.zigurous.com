@@ -25,6 +25,8 @@ export default function RegionPanelActivities({
         ...region.minigames,
         ...(region.guilds || []),
         ...region.skilling,
+        ...region.dungeons,
+        ...region.monsters,
         ...(region.misc || []),
       ]),
     ];

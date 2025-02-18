@@ -194,7 +194,7 @@
   { "id": "Paterdomus_Temple", "region": "misthalin" },
   { "id": "Pirate's_Cove", "region": "fremennik" },
   { "id": "Pirates'_Hideout", "region": "wilderness" },
-  { "id": "Poison_Waste_Dungeon", "region": "kandarin", "tags": ["slayer"] },
+  { "id": "Poison_Waste_Dungeon", "region": "tirannwn", "tags": ["slayer"] },
   { "id": "Port_Piscarilius", "region": "kourend" },
   { "id": "Port_Sarim", "region": "asgarnia" },
   { "id": "Pothole_Dungeon", "region": "karamja" },

@@ -2,9 +2,10 @@
   {
     "id": "Abyssal_head",
     "transmutations": [
-      "#transmute",
-      "Red_slayer_helmet",
-      "Stuffed_abyssal_head"
+      "#plus",
+      "Slayer_helmet",
+      "#equals",
+      "Red_slayer_helmet"
     ]
   },
   {
@@ -14,9 +15,10 @@
   {
     "id": "Alchemical_hydra_heads",
     "transmutations": [
-      "#transmute",
-      "Hydra_slayer_helmet",
-      "Stuffed_hydra_heads"
+      "#plus",
+      "Slayer_helmet",
+      "#equals",
+      "Hydra_slayer_helmet"
     ]
   },
   {
@@ -292,10 +294,8 @@
     "transmutations": [
       "#plus",
       "Top_of_sceptre",
-      "Left_skull_half",
-      "Right_skull_half",
       "#equals",
-      "Skull_sceptre"
+      "Runed_sceptre"
     ]
   },
   {
@@ -426,10 +426,6 @@
     "icon": "Crimson_swift_icon"
   },
   {
-    "id": "Crystal_blessing",
-    "tags": ["unique"]
-  },
-  {
     "id": "Crystal_acorn",
     "icon": "Crystal_acorn_5"
   },
@@ -444,8 +440,20 @@
     ]
   },
   {
+    "id": "Crystal_blessing",
+    "tags": ["unique"]
+  },
+  {
     "id": "Crystal_shard",
     "icon": "Crystal_shard_25"
+  },
+  {
+    "id": "Crystal_teleport_seed",
+    "icon": "Crystal_teleport_seed",
+    "transmutations": [
+      "#transmute",
+      "Teleport_crystal"
+    ]
   },
   {
     "id": "Crystal_tool_seed",
@@ -465,6 +473,15 @@
       "Crystal_bow",
       "Crystal_halberd",
       "Crystal_shield"
+    ]
+  },
+  {
+    "id": "Dagannoth_hide",
+    "transmutations": [
+      "#transmute",
+      "Spined_helm",
+      "Spined_body",
+      "Spined_chaps"
     ]
   },
   {
@@ -944,9 +961,10 @@
   {
     "id": "Kbd_heads",
     "transmutations": [
-      "#transmute",
-      "Black_slayer_helmet",
-      "Stuffed_kbd_heads"
+      "#plus",
+      "Slayer_helmet",
+      "#equals",
+      "Black_slayer_helmet"
     ]
   },
   {
@@ -965,9 +983,10 @@
   {
     "id": "Kq_head",
     "transmutations": [
-      "#transmute",
-      "Green_slayer_helmet",
-      "Stuffed_kq_head"
+      "#plus",
+      "Slayer_helmet",
+      "#equals",
+      "Green_slayer_helmet"
     ]
   },
   {
@@ -995,10 +1014,8 @@
     "transmutations": [
       "#plus",
       "Right_skull_half",
-      "Top_of_sceptre",
-      "Bottom_of_sceptre",
       "#equals",
-      "Skull_sceptre"
+      "Strange_skull"
     ]
   },
   {
@@ -1267,15 +1284,20 @@
     "transmutations": [
       "#plus",
       "Left_skull_half",
-      "Top_of_sceptre",
-      "Bottom_of_sceptre",
       "#equals",
-      "Skull_sceptre"
+      "Strange_skull"
     ]
   },
   {
     "id": "Ruby_harvest",
     "icon": "Ruby_harvest_icon"
+  },
+  {
+    "id": "Runite_limbs",
+    "transmutations": [
+      "#transmute",
+      "Rune_crossbow"
+    ]
   },
   {
     "id": "Sabre-toothed_kebbit",
@@ -1284,6 +1306,15 @@
   {
     "id": "Sabre-toothed_kyatt",
     "icon": "Sabre-toothed_kyatt_icon"
+  },
+  {
+    "id": "Salve_shard",
+    "transmutations": [
+      "#plus",
+      "Ball_of_wool",
+      "#equals",
+      "Salve_amulet"
+    ]
   },
   {
     "id": "Sapphire_glacialis",
@@ -1467,6 +1498,15 @@
     ]
   },
   {
+    "id": "Tarn's_diary",
+    "transmutations": [
+      "#plus",
+      "Salve_amulet",
+      "#transmute",
+      "Salve_amulet_(e)"
+    ]
+  },
+  {
     "id": "Tattered_moon_page",
     "transmutations": [
       "#transmute",
@@ -1532,10 +1572,8 @@
     "transmutations": [
       "#plus",
       "Bottom_of_sceptre",
-      "Left_skull_half",
-      "Right_skull_half",
       "#equals",
-      "Skull_sceptre"
+      "Runed_sceptre"
     ]
   },
   {
@@ -1656,8 +1694,7 @@
     "transmutations": [
       "#transmute",
       "Ava's_assembler",
-      "Turquoise_slayer_helmet",
-      "Vorkath's_stuffed_head"
+      "Turquoise_slayer_helmet"
     ]
   },
   {

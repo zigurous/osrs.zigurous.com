@@ -36,7 +36,7 @@ export function ItemsContextProvider({ children }: React.PropsWithChildren) {
   );
 
   const getItemsByIds = useCallback(
-    (ids: string[]) => ids.map(getItemById),
+    (ids: string[]) => ids?.map(getItemById) ?? [],
     [getItemById],
   );
 
@@ -54,12 +54,8 @@ export function ItemsContextProvider({ children }: React.PropsWithChildren) {
 }
 
 interface ItemsQueryData {
-  items: {
-    nodes: ItemData[];
-  };
-  pets: {
-    nodes: PetData[];
-  };
+  items: { nodes: ItemData[] };
+  pets: { nodes: PetData[] };
 }
 
 const dataQuery = graphql`

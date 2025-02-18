@@ -99,9 +99,14 @@
     "category": "guild",
     "sortingGroups": ["mining"],
     "notableDrops": [
-      "Mining_cape",
       "Rune_pickaxe",
+      "Iron_ore",
+      "Coal",
+      "Mithril_ore",
+      "Adamantite_ore",
+      "Runite_ore",
       "Amethyst",
+      "Mining_cape",
       "Expert_mining_gloves",
       "Bag_full_of_gems",
       "Soft_clay_pack"

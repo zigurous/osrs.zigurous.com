@@ -32,3 +32,7 @@ export interface Minigame extends Activity {
 export interface Guild extends Activity {
   category: 'guild';
 }
+
+export interface Dungeon extends Activity {
+  category: 'dungeon';
+}

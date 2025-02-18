@@ -121,7 +121,7 @@
     "icon": "Callisto_cub",
     "title": "Callisto / Artio",
     "category": "boss",
-    "sortingGroups": ["pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "recommendedCombatStyle": ["ranged", "magic"],
     "notableDrops": [
       "Callisto_cub",
@@ -218,7 +218,7 @@
     "id": "Dagannoth_Kings",
     "icon": "Dagannoth_Kings_icon_(mobile)",
     "category": "boss",
-    "sortingGroups": ["pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "recommendedCombatStyle": ["hybrid"],
     "notableDrops": [
       "Amulet_of_the_monarchs",
@@ -364,7 +364,7 @@
     "icon": "Tzrek-zuk",
     "subtitle": "TzKal-Zuk",
     "category": "boss",
-    "sortingGroups": ["pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "recommendedCombatStyle": ["ranged", "hybrid"],
     "notableDrops": [
       "Jal-nib-rek",
@@ -375,7 +375,7 @@
     "id": "K'ril_Tsutsaroth",
     "icon": "K'ril_Tsutsaroth_icon_(mobile)",
     "category": "boss",
-    "sortingGroups": ["pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "recommendedCombatStyle": ["melee", "ranged"],
     "notableDrops": [
       "Pet_k'ril_tsutsaroth",
@@ -389,7 +389,7 @@
     "id": "Kalphite_Queen",
     "icon": "Kalphite_Queen_icon_(mobile)",
     "category": "boss",
-    "sortingGroups": ["pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "recommendedCombatStyle": ["melee", "ranged"],
     "notableDrops": [
       "Kalphite_princess",
@@ -405,7 +405,7 @@
     "id": "King_Black_Dragon",
     "icon": "King_Black_Dragon_icon_(mobile)",
     "category": "boss",
-    "sortingGroups": ["pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "recommendedCombatStyle": ["melee", "ranged"],
     "notableDrops": [
       "Prince_black_dragon",
@@ -420,7 +420,7 @@
     "id": "Kraken",
     "icon": "Kraken_icon_(mobile)",
     "category": "boss",
-    "sortingGroups": ["pvm", "slayer"],
+    "sortingGroups": ["pvm", "slayer", "magic"],
     "recommendedCombatStyle": ["magic"],
     "notableDrops": [
       "Pet_kraken",
@@ -433,7 +433,7 @@
     "id": "Kree'arra",
     "icon": "Kree'arra_icon_(mobile)",
     "category": "boss",
-    "sortingGroups": ["pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "recommendedCombatStyle": ["ranged"],
     "notableDrops": [
       "Pet_kree'arra",
@@ -530,7 +530,7 @@
     "id": "Sarachnis",
     "icon": "Sarachnis_icon_(mobile)",
     "category": "boss",
-    "sortingGroups": ["pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "recommendedCombatStyle": ["melee"],
     "notableDrops": [
       "Sraracha",
@@ -543,7 +543,7 @@
     "id": "Scorpia",
     "icon": "Scorpia's_offspring",
     "category": "boss",
-    "sortingGroups": ["pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "recommendedCombatStyle": ["magic"],
     "notableDrops": [
       "Scorpia's_offspring",
@@ -567,7 +567,7 @@
     "id": "Skotizo",
     "icon": "Skotizo_icon_(mobile)",
     "category": "boss",
-    "sortingGroups": ["pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "recommendedCombatStyle": ["melee"],
     "notableDrops": [
       "Skotos",
@@ -679,7 +679,7 @@
     "id": "Thermonuclear_smoke_devil",
     "icon": "Thermonuclear_smoke_devil_icon_(mobile)",
     "category": "boss",
-    "sortingGroups": ["pvm", "slayer"],
+    "sortingGroups": ["pvm", "slayer", "magic"],
     "recommendedCombatStyle": ["magic"],
     "notableDrops": [
       "Pet_smoke_devil",
@@ -696,7 +696,7 @@
     "title": "Fight Caves",
     "subtitle": "TzTok-Jad",
     "category": "boss",
-    "sortingGroups": ["pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "recommendedCombatStyle": ["ranged", "melee"],
     "notableDrops": [
       "Tzrek-jad",
@@ -727,7 +727,7 @@
     "icon": "Venenatis_spiderling",
     "title": "Venenatis / Spindel",
     "category": "boss",
-    "sortingGroups": ["pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "recommendedCombatStyle": ["melee", "ranged"],
     "notableDrops": [
       "Venenatis_spiderling",
@@ -743,7 +743,7 @@
     "icon": "Vet'ion_jr.",
     "title": "Vet'ion / Calvar'ion",
     "category": "boss",
-    "sortingGroups": ["pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "recommendedCombatStyle": ["melee"],
     "notableDrops": [
       "Vet'ion_jr.",
@@ -758,7 +758,7 @@
     "id": "Vorkath",
     "icon": "Vorkath_icon_(mobile)",
     "category": "boss",
-    "sortingGroups": ["pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "recommendedCombatStyle": ["melee", "ranged"],
     "notableDrops": [
       "Vorki",
@@ -766,7 +766,8 @@
       "Draconic_visage",
       "Skeletal_visage",
       "Dragonbone_necklace",
-      "Jar_of_decay"
+      "Jar_of_decay",
+      "Superior_dragon_bones"
     ]
   },
   {

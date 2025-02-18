@@ -98,18 +98,10 @@ function isMonsterInRegion(
 }
 
 interface SlayerQueryData {
-  masters: {
-    nodes: SlayerMaster[];
-  };
-  monsters: {
-    nodes: SlayerMonster[];
-  };
-  dungeons: {
-    nodes: SlayerDungeon[];
-  };
-  locations: {
-    nodes: GameLocation[];
-  };
+  masters: { nodes: SlayerMaster[] };
+  monsters: { nodes: SlayerMonster[] };
+  dungeons: { nodes: SlayerDungeon[] };
+  locations: { nodes: GameLocation[] };
 }
 
 const dataQuery = graphql`
@@ -122,7 +114,7 @@ const dataQuery = graphql`
         requiredCombatLevel
       }
     }
-    monsters: allMonstersJson {
+    monsters: allSlayerMonstersJson {
       nodes {
         id: jsonId
         icon
@@ -130,7 +122,6 @@ const dataQuery = graphql`
         subtitle
         requiredCombatLevel
         requiredSlayerLevel
-        slayerMasters
         locations
         notableDrops
         hideFromMenu
@@ -141,7 +132,6 @@ const dataQuery = graphql`
         id: jsonId
         name
         region
-        tags
       }
     }
     locations: allLocationsJson {
@@ -149,7 +139,6 @@ const dataQuery = graphql`
         id: jsonId
         name
         region
-        tags
       }
     }
   }

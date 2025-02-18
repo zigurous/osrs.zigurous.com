@@ -64,7 +64,6 @@ export const activityFilters = [
   // combat
   'pvm',
   'pvp',
-  'slayer',
   'melee',
   'ranged',
   'magic',
@@ -77,6 +76,7 @@ export const activityFilters = [
   'thieving',
   'crafting',
   'fletching',
+  'slayer',
   'hunter',
   'mining',
   'smithing',
@@ -86,7 +86,7 @@ export const activityFilters = [
   'woodcutting',
   'farming',
   // other
-  'quest',
+  'dungeon',
   'misc',
 ] as const;
 
@@ -97,7 +97,6 @@ export const iconOrder = [
   'Monster_Examine',
   'Combat_icon',
   'Skull_(status)_icon',
-  'Slayer_icon',
   'Attack_icon',
   'Ranged_icon',
   'Magic_icon',
@@ -110,6 +109,7 @@ export const iconOrder = [
   'Thieving_icon',
   'Crafting_icon',
   'Fletching_icon',
+  'Slayer_icon',
   'Hunter_icon',
   'Mining_icon',
   'Smithing_icon',
@@ -123,6 +123,7 @@ export const iconOrder = [
   'Distractions_and_Diversions',
   'Quest_point_icon',
   'Map_link_icon',
+  'Dungeon_map_link_icon',
   'Crystal_key',
   'Collection_log',
 ];

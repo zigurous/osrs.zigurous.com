@@ -20,6 +20,8 @@ export interface Region {
   bosses: string[];
   minigames: string[];
   guilds?: string[];
+  dungeons: string[];
+  monsters: string[];
   misc?: string[];
   pets: string[];
 }

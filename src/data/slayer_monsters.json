@@ -1,6 +1,8 @@
 [
   {
     "id": "Aberrant_spectre",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 65,
     "requiredSlayerLevel": 60,
     "slayerMasters": [
@@ -16,11 +18,14 @@
     ],
     "notableDrops": [
       "Lava_battlestaff",
-      "Mystic_robe_bottom_(dark)"
+      "Mystic_robe_bottom_(dark)",
+      "Grimy_herb"
     ]
   },
   {
     "id": "Abyssal_demon",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 85,
     "requiredSlayerLevel": 85,
     "slayerMasters": [
@@ -40,12 +45,15 @@
     "notableDrops": [
       "Abyssal_whip",
       "Abyssal_dagger",
-      "Abyssal_head"
+      "Abyssal_head",
+      "Ensouled_abyssal_head"
     ]
   },
   {
     "id": "Abyssal_Sire",
     "subtitle": "Boss",
+    "category": "boss",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 85,
     "requiredSlayerLevel": 85,
     "slayerMasters": [
@@ -72,6 +80,8 @@
   },
   {
     "id": "Adamant_dragon",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "slayerMasters": [
       "Konar_quo_Maten",
       "Nieve",
@@ -85,12 +95,15 @@
       "Dragon_metal_slice",
       "Dragon_limbs",
       "Dragon_plateskirt",
-      "Dragon_platelegs"
+      "Dragon_platelegs",
+      "Ensouled_dragon_head"
     ]
   },
   {
     "id": "Alchemical_Hydra",
     "subtitle": "Boss",
+    "category": "boss",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredSlayerLevel": 95,
     "slayerMasters": [
       "Konar_quo_Maten"
@@ -114,6 +127,8 @@
   },
   {
     "id": "Ancient_Wyvern",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 60,
     "requiredSlayerLevel": 82,
     "slayerMasters": [
@@ -128,11 +143,14 @@
     "notableDrops": [
       "Wyvern_visage",
       "Granite_longsword",
-      "Granite_boots"
+      "Granite_boots",
+      "Wyvern_bones"
     ]
   },
   {
     "id": "Ankou",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 40,
     "slayerMasters": [
       "Krystilia",
@@ -150,6 +168,8 @@
   },
   {
     "id": "Ankou",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 40,
     "slayerMasters": [
       "Vannaka",
@@ -168,6 +188,8 @@
     "id": "Araxxor",
     "icon": "Nid",
     "subtitle": "Boss",
+    "category": "boss",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredSlayerLevel": 92,
     "slayerMasters": [
       "Nieve",
@@ -190,6 +212,8 @@
   },
   {
     "id": "Araxyte",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredSlayerLevel": 92,
     "slayerMasters": [
       "Nieve",
@@ -200,12 +224,15 @@
     ],
     "notableDrops": [
       "Aranea_boots",
+      "Araxyte_head",
       "Araxyte_venom_sack"
     ]
   },
   {
     "id": "Armoured_Zombie",
     "icon": "Broken_zombie_helmet",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 10,
     "slayerMasters": [
       "Turael",
@@ -216,8 +243,7 @@
       "Zemouregal's_Base"
     ],
     "notableDrops": [
-      "Broken_zombie_axe",
-      "Zombie_champion_scroll"
+      "Broken_zombie_axe"
     ],
     "hideFromMenu": true
   },
@@ -226,6 +252,8 @@
     "icon": "Broken_zombie_helmet",
     "name": "Armoured Zombie",
     "subtitle": "Zemouregal's Fort",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 10,
     "slayerMasters": [
       "Turael",
@@ -237,14 +265,15 @@
     ],
     "notableDrops": [
       "Broken_zombie_axe",
-      "Broken_zombie_helmet",
-      "Zombie_champion_scroll"
+      "Broken_zombie_helmet"
     ],
     "hideFromMenu": true
   },
   {
     "id": "Aviansie",
     "icon": "Ensouled_aviansie_head",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "slayerMasters": [
       "Krystilia",
       "Chaeldar",
@@ -255,11 +284,18 @@
     "locations": [
       "God_Wars_Dungeon",
       "Wilderness_God_Wars_Dungeon"
+    ],
+    "notableDrops": [
+      "Runite_limbs",
+      "Adamantite_bar",
+      "Ensouled_aviansie_head"
     ]
   },
   {
     "id": "Bandit",
     "icon": "Highwayman_mask",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 40,
     "slayerMasters": [
       "Krystilia"
@@ -270,6 +306,8 @@
   },
   {
     "id": "Banshee",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 20,
     "requiredSlayerLevel": 15,
     "slayerMasters": [
@@ -281,11 +319,14 @@
       "Slayer_Tower"
     ],
     "notableDrops": [
+      "Pure_essence",
       "Mystic_gloves_(dark)"
     ]
   },
   {
     "id": "Basilisk",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 40,
     "requiredSlayerLevel": 40,
     "slayerMasters": [
@@ -300,12 +341,14 @@
       "Jormungand's_Prison"
     ],
     "notableDrops": [
-      "Mystic_hat_(light)",
-      "Basilisk_head"
+      "Basilisk_head",
+      "Mystic_hat_(light)"
     ]
   },
   {
     "id": "Basilisk_Knight",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 40,
     "requiredSlayerLevel": 60,
     "slayerMasters": [
@@ -319,12 +362,15 @@
     ],
     "notableDrops": [
       "Basilisk_jaw",
-      "Basilisk_head"
+      "Basilisk_head",
+      "Mystic_hat_(light)"
     ]
   },
   {
     "id": "Bat",
     "icon": "Bat_wing",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 5,
     "slayerMasters": [
       "Turael",
@@ -355,6 +401,8 @@
   {
     "id": "Bear",
     "icon": "Ensouled_bear_head",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 13,
     "slayerMasters": [
       "Krystilia",
@@ -375,6 +423,8 @@
   {
     "id": "Bird",
     "icon": "Rubber_chicken",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "slayerMasters": [
       "Turael",
       "Spria"
@@ -392,6 +442,8 @@
   {
     "id": "Black_demon",
     "icon": "Black_demon_mask",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 80,
     "slayerMasters": [
       "Krystilia",
@@ -407,10 +459,15 @@
       "Catacombs_of_Kourend",
       "Chasm_of_Fire",
       "Wilderness_Slayer_Cave"
+    ],
+    "notableDrops": [
+      "Ensouled_demon_head"
     ]
   },
   {
     "id": "Black_dragon",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 80,
     "slayerMasters": [
       "Krystilia",
@@ -426,12 +483,17 @@
       "Wilderness_Slayer_Cave"
     ],
     "notableDrops": [
-      "Draconic_visage"
+      "Draconic_visage",
+      "Black_dragonhide",
+      "Dragon_bones",
+      "Ensouled_dragon_head"
     ]
   },
   {
     "id": "Black_Knight",
     "icon": "Elite_black_full_helm",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "slayerMasters": [
       "Krystilia"
     ],
@@ -442,6 +504,8 @@
   },
   {
     "id": "Bloodveld",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 50,
     "requiredSlayerLevel": 50,
     "slayerMasters": [
@@ -460,12 +524,15 @@
       "Meiyerditch_Laboratories"
     ],
     "notableDrops": [
-      "Black_boots"
+      "Blood_rune",
+      "Ensouled_bloodveld_head"
     ]
   },
   {
     "id": "Blue_dragon",
     "icon": "Blue_dragon_mask",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 65,
     "slayerMasters": [
       "Vannaka",
@@ -483,12 +550,17 @@
       "Heroes'_Guild#Basement"
     ],
     "notableDrops": [
-      "Scaly_blue_dragonhide"
+      "Scaly_blue_dragonhide",
+      "Blue_dragonhide",
+      "Dragon_bones",
+      "Ensouled_dragon_head"
     ]
   },
   {
     "id": "Brimstone_chest",
     "icon": "Brimstone_key_1",
+    "category": "chest",
+    "sortingGroups": ["misc", "slayer"],
     "slayerMasters": [
       "Konar_quo_Maten"
     ],
@@ -509,6 +581,8 @@
   },
   {
     "id": "Brine_rat",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 45,
     "requiredSlayerLevel": 47,
     "slayerMasters": [
@@ -527,6 +601,8 @@
   {
     "id": "Bronze_dragon",
     "icon": "Bronze_dragon_mask",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 75,
     "slayerMasters": [
       "Konar_quo_Maten"
@@ -537,11 +613,14 @@
     ],
     "notableDrops": [
       "Dragon_plateskirt",
-      "Dragon_platelegs"
+      "Dragon_platelegs",
+      "Ensouled_dragon_head"
     ]
   },
   {
     "id": "Brutal_black_dragon",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 80,
     "requiredSlayerLevel": 77,
     "slayerMasters": [
@@ -556,12 +635,17 @@
       "Draconic_visage",
       "Dragon_plateskirt",
       "Dragon_platelegs",
-      "Dragon_spear"
+      "Dragon_spear",
+      "Black_dragonhide",
+      "Dragon_bones",
+      "Ensouled_dragon_head"
     ]
   },
   {
     "id": "Brutal_blue_dragon",
     "icon": "Blue_dragon_mask",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 65,
     "slayerMasters": [
       "Konar_quo_Maten",
@@ -574,13 +658,18 @@
     ],
     "notableDrops": [
       "Draconic_visage",
-      "Scaly_blue_dragonhide"
+      "Scaly_blue_dragonhide",
+      "Blue_dragonhide",
+      "Dragon_bones",
+      "Ensouled_dragon_head"
     ],
     "hideFromMenu": true
   },
   {
     "id": "Brutal_red_dragon",
     "icon": "Red_dragon_icon",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 68,
     "slayerMasters": [
       "Konar_quo_Maten",
@@ -591,13 +680,18 @@
       "Catacombs_of_Kourend"
     ],
     "notableDrops": [
-      "Draconic_visage"
+      "Draconic_visage",
+      "Red_dragonhide",
+      "Dragon_bones",
+      "Ensouled_dragon_head"
     ],
     "hideFromMenu": true
   },
   {
     "id": "Catablepon",
     "icon": "Moss_lizard_tail",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 35,
     "slayerMasters": [
       "Mazchna"
@@ -611,6 +705,8 @@
   },
   {
     "id": "Cave_bug",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredSlayerLevel": 7,
     "slayerMasters": [
       "Turael",
@@ -624,6 +720,8 @@
   },
   {
     "id": "Cave_crawler",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 10,
     "requiredSlayerLevel": 10,
     "slayerMasters": [
@@ -638,11 +736,19 @@
       "Ruins_of_Tapoyauik"
     ],
     "notableDrops": [
-      "Bronze_boots"
+      "Vial_of_water",
+      "White_berries",
+      "Unicorn_horn_dust",
+      "Eye_of_newt",
+      "Red_spiders'_eggs",
+      "Limpwurt_root",
+      "Snape_grass"
     ]
   },
   {
     "id": "Cave_horror",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 85,
     "requiredSlayerLevel": 58,
     "slayerMasters": [
@@ -659,6 +765,8 @@
   },
   {
     "id": "Cave_kraken",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm", "magic"],
     "requiredCombatLevel": 80,
     "requiredSlayerLevel": 87,
     "slayerMasters": [
@@ -676,6 +784,8 @@
   },
   {
     "id": "Cave_slime",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 15,
     "requiredSlayerLevel": 17,
     "slayerMasters": [
@@ -686,14 +796,13 @@
     "locations": [
       "Lumbridge_Swamp_Caves",
       "Dorgesh-Kaan_South_Dungeon"
-    ],
-    "notableDrops": [
-      "Iron_boots"
     ]
   },
   {
     "id": "Cerberus",
     "subtitle": "Boss",
+    "category": "boss",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredSlayerLevel": 91,
     "slayerMasters": [
       "Vannaka",
@@ -717,16 +826,23 @@
   {
     "id": "Chaos_druid",
     "icon": "Ensouled_chaos_druid_head",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "slayerMasters": [
       "Krystilia"
     ],
     "locations": [
       "Edgeville_Dungeon#Wilderness_area_(members_only)"
+    ],
+    "notableDrops": [
+      "Grimy_herb"
     ]
   },
   {
     "id": "Chilled_jelly",
     "icon": "Jelly_icon",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 57,
     "requiredSlayerLevel": 52,
     "slayerMasters": [
@@ -738,11 +854,15 @@
       "Ruins_of_Tapoyauik"
     ],
     "notableDrops": [
-      "Mithril_boots"
+      "Clue_scroll_(hard)",
+      "Tooth_half_of_key_(moon_key)",
+      "Frozen_tear"
     ]
   },
   {
     "id": "Cockatrice",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 25,
     "requiredSlayerLevel": 25,
     "slayerMasters": [
@@ -754,12 +874,15 @@
     ],
     "notableDrops": [
       "Cockatrice_head",
-      "Mystic_boots_(light)"
+      "Mystic_boots_(light)",
+      "Clue_scroll_(medium)"
     ]
   },
   {
     "id": "Cow",
     "icon": "Cow_mask",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 5,
     "slayerMasters": [
       "Turael",
@@ -780,6 +903,8 @@
   },
   {
     "id": "Crawling_Hand",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredSlayerLevel": 5,
     "slayerMasters": [
       "Turael",
@@ -796,6 +921,8 @@
   {
     "id": "Crocodile",
     "icon": "Zebo",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 50,
     "slayerMasters": [
       "Vannaka"
@@ -809,6 +936,8 @@
   {
     "id": "Cyclops",
     "icon": "Cyclops_head",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 25,
     "slayerMasters": [
       "Mazchna",
@@ -825,6 +954,8 @@
   {
     "id": "Dagannoth",
     "icon": "Ensouled_dagannoth_head",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 75,
     "slayerMasters": [
       "Vannaka",
@@ -835,13 +966,42 @@
     ],
     "locations": [
       "Lighthouse#Dungeon",
-      "Waterbirth_Island_Dungeon",
       "Catacombs_of_Kourend",
       "Jormungand's_Prison"
     ]
   },
   {
+    "id": "Dagannoth_(Waterbirth_Island)",
+    "icon": "Ensouled_dagannoth_head",
+    "name": "Dagannoth",
+    "subtitle": "Waterbirth Island",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
+    "requiredCombatLevel": 75,
+    "slayerMasters": [
+      "Vannaka",
+      "Chaeldar",
+      "Konar_quo_Maten",
+      "Nieve",
+      "Duradel"
+    ],
+    "locations": [
+      "Waterbirth_Island_Dungeon"
+    ],
+    "notableDrops": [
+      "Fremennik_helm",
+      "Fremennik_shield",
+      "Fremennik_blade",
+      "Dagannoth_hide",
+      "Spined_gloves",
+      "Spined_boots"
+    ],
+    "hideFromMenu": true
+  },
+  {
     "id": "Dark_beast",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 90,
     "requiredSlayerLevel": 90,
     "slayerMasters": [
@@ -860,6 +1020,8 @@
   {
     "id": "Dark_warrior",
     "icon": "Iron_med_helm",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "slayerMasters": [
       "Krystilia"
     ],
@@ -870,6 +1032,8 @@
   {
     "id": "Demonic_gorilla",
     "icon": "Zenyte_shard",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 80,
     "slayerMasters": [
       "Krystilia",
@@ -893,6 +1057,8 @@
   {
     "id": "Desert_Wolf",
     "icon": "Wolf_bones",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 20,
     "slayerMasters": [
       "Turael",
@@ -907,6 +1073,8 @@
   {
     "id": "Deviant_spectre",
     "icon": "Aberrant_spectre_icon",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 65,
     "requiredSlayerLevel": 60,
     "slayerMasters": [
@@ -921,12 +1089,15 @@
     ],
     "notableDrops": [
       "Lava_battlestaff",
-      "Mystic_robe_bottom_(dark)"
+      "Mystic_robe_bottom_(dark)",
+      "Grimy_herb"
     ]
   },
   {
     "id": "Dire_Wolf",
     "icon": "Wolf_mask",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 20,
     "slayerMasters": [
       "Turael",
@@ -943,6 +1114,8 @@
   },
   {
     "id": "Drake",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredSlayerLevel": 84,
     "slayerMasters": [
       "Konar_quo_Maten",
@@ -956,11 +1129,14 @@
       "Drake's_claw",
       "Drake's_tooth",
       "Dragon_knife",
-      "Dragon_thrownaxe"
+      "Dragon_thrownaxe",
+      "Drake_bones"
     ]
   },
   {
     "id": "Dust_devil",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 70,
     "requiredSlayerLevel": 65,
     "slayerMasters": [
@@ -984,6 +1160,8 @@
   {
     "id": "Dwarf",
     "icon": "Mountain_Dwarf_icon",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 6,
     "slayerMasters": [
       "Turael",
@@ -1003,20 +1181,21 @@
   {
     "id": "Earth_warrior",
     "icon": "Bronze_full_helm",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 35,
     "slayerMasters": [
       "Krystilia"
     ],
     "locations": [
       "Edgeville_Dungeon#Wilderness_area_(members_only)"
-    ],
-    "notableDrops": [
-      "Earth_warrior_champion_scroll"
     ]
   },
   {
     "id": "Elder_Chaos_druid",
     "icon": "Elder_chaos_hood",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "slayerMasters": [
       "Krystilia"
     ],
@@ -1033,6 +1212,8 @@
   {
     "id": "Elves",
     "icon": "Ensouled_elf_head",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 70,
     "slayerMasters": [
       "Vannaka",
@@ -1045,11 +1226,17 @@
       "Prifddinas",
       "Iorwerth_Camp",
       "Iorwerth_Dungeon"
+    ],
+    "notableDrops": [
+      "Crystal_teleport_seed",
+      "Crystal_shard"
     ]
   },
   {
     "id": "Ent",
     "icon": "Ent's_roots",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "slayerMasters": [
       "Krystilia"
     ],
@@ -1059,6 +1246,8 @@
   },
   {
     "id": "Fever_spider",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 40,
     "requiredSlayerLevel": 42,
     "slayerMasters": [
@@ -1072,6 +1261,8 @@
   {
     "id": "Fire_giant",
     "icon": "Fire_of_Unseasonal_Warmth_icon",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 65,
     "slayerMasters": [
       "Krystilia",
@@ -1093,12 +1284,15 @@
       "Deep_Wilderness_Dungeon"
     ],
     "notableDrops": [
-      "Giant_champion_scroll"
+      "Ensouled_giant_head",
+      "Big_bones"
     ]
   },
   {
     "id": "Flesh_Crawler",
     "icon": "Swamp_cave_bug_icon_(historical)",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 15,
     "slayerMasters": [
       "Mazchna"
@@ -1114,6 +1308,8 @@
     "id": "Fossil_Island_Wyvern",
     "name": "Fossil Island Wyverns",
     "icon": "Fossil_Island_wyverns_icon",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 60,
     "requiredSlayerLevel": 66,
     "slayerMasters": [
@@ -1128,12 +1324,15 @@
     "notableDrops": [
       "Wyvern_visage",
       "Granite_longsword",
-      "Granite_boots"
+      "Granite_boots",
+      "Wyvern_bones"
     ]
   },
   {
     "id": "Frost_Nagua",
     "icon": "Moxi",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 70,
     "requiredSlayerLevel": 48,
     "slayerMasters": [
@@ -1152,6 +1351,8 @@
   },
   {
     "id": "Gargoyle",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 80,
     "requiredSlayerLevel": 75,
     "slayerMasters": [
@@ -1173,6 +1374,8 @@
   {
     "id": "Ghost",
     "icon": "Ghostly_hood",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 13,
     "slayerMasters": [
       "Turael",
@@ -1197,6 +1400,8 @@
   {
     "id": "Ghoul",
     "icon": "Zombie_mask",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 25,
     "slayerMasters": [
       "Mazchna",
@@ -1204,14 +1409,13 @@
     ],
     "locations": [
       "Canifis"
-    ],
-    "notableDrops": [
-      "Ghoul_champion_scroll"
     ]
   },
   {
     "id": "Giant_rat",
     "icon": "Giant_rat_bone",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "slayerMasters": [
       "Turael",
       "Spria"
@@ -1235,6 +1439,8 @@
   {
     "id": "Goblin",
     "icon": "Goblin_mask",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "slayerMasters": [
       "Turael",
       "Spria"
@@ -1251,14 +1457,13 @@
       "Port_Sarim",
       "Gnome_maze",
       "Lumbridge_Swamp_Caves"
-    ],
-    "notableDrops": [
-      "Goblin_champion_scroll"
     ]
   },
   {
     "id": "Greater_demon",
     "icon": "Greater_demon_mask",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 70,
     "slayerMasters": [
       "Krystilia",
@@ -1278,11 +1483,16 @@
       "Wilderness",
       "Sisterhood_Sanctuary",
       "Lava_Maze_Dungeon"
+    ],
+    "notableDrops": [
+      "Ensouled_demon_head"
     ]
   },
   {
     "id": "Greater_Nechryael",
     "icon": "Nechryael_icon",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 85,
     "requiredSlayerLevel": 80,
     "slayerMasters": [
@@ -1298,12 +1508,15 @@
       "Wilderness_Slayer_Cave"
     ],
     "notableDrops": [
-      "Rune_boots"
+      "Rune_boots",
+      "High_Level_Alchemy"
     ]
   },
   {
     "id": "Green_dragon",
     "icon": "Green_dragon_mask",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 52,
     "slayerMasters": [
       "Krystilia"
@@ -1312,11 +1525,18 @@
       "Dark_Warriors'_Fortress",
       "Graveyard_of_Shadows",
       "Lava_Maze"
+    ],
+    "notableDrops": [
+      "Green_dragonhide",
+      "Dragon_bones",
+      "Ensouled_dragon_head"
     ]
   },
   {
     "id": "Grimy_Lizard",
     "icon": "Sulphur_Lizard_icon",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredSlayerLevel": 44,
     "slayerMasters": [
       "Turael",
@@ -1335,6 +1555,8 @@
   {
     "id": "Grotesque_Guardians",
     "subtitle": "Boss",
+    "category": "boss",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 80,
     "requiredSlayerLevel": 75,
     "slayerMasters": [
@@ -1359,6 +1581,8 @@
   },
   {
     "id": "Harpie_Bug_Swarm",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 45,
     "requiredSlayerLevel": 33,
     "slayerMasters": [
@@ -1366,14 +1590,13 @@
     ],
     "locations": [
       "Tai_Bwo_Wannai"
-    ],
-    "notableDrops": [
-      "Steel_boots"
     ]
   },
   {
     "id": "Hellhound",
     "icon": "Ensouled_hellhound_head",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 75,
     "slayerMasters": [
       "Krystilia",
@@ -1393,12 +1616,16 @@
       "Resource_Area"
     ],
     "notableDrops": [
-      "Smouldering_stone"
+      "Smouldering_stone",
+      "Ensouled_hellhound_head",
+      "Clue_scroll_(hard)"
     ]
   },
   {
     "id": "Hill_Giant",
     "icon": "Ensouled_giant_head",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 25,
     "slayerMasters": [
       "Krystilia",
@@ -1406,11 +1633,7 @@
       "Vannaka"
     ],
     "locations": [
-      "Catacombs_of_Kourend",
       "Edgeville_Dungeon",
-      "Giant_Pit",
-      "Giants'_Plateau",
-      "Giants'_Den",
       "Kandarin",
       "Deep_Wilderness_Dungeon",
       "Taverley_Dungeon",
@@ -1420,13 +1643,58 @@
     ],
     "notableDrops": [
       "Giant_key",
-      "Giant_champion_scroll"
+      "Ensouled_giant_head",
+      "Big_bones"
+    ]
+  },
+  {
+    "id": "Hill_Giant_(Giants'_Plateau)",
+    "icon": "Ensouled_giant_head",
+    "name": "Hill Giant",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
+    "requiredCombatLevel": 25,
+    "slayerMasters": [
+      "Mazchna",
+      "Vannaka"
+    ],
+    "locations": [
+      "Giants'_Plateau"
+    ],
+    "notableDrops": [
+      "Giant_key",
+      "Ensouled_giant_head",
+      "Big_bones"
+    ]
+  },
+  {
+    "id": "Hill_Giant_(Kourend)",
+    "icon": "Ensouled_giant_head",
+    "name": "Hill Giant",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
+    "requiredCombatLevel": 25,
+    "slayerMasters": [
+      "Mazchna",
+      "Vannaka"
+    ],
+    "locations": [
+      "Catacombs_of_Kourend",
+      "Giant_Pit",
+      "Giants'_Den"
+    ],
+    "notableDrops": [
+      "Giant_key",
+      "Ensouled_giant_head",
+      "Big_bones"
     ]
   },
   {
     "id": "Hill_Giant_(Varlamore)",
     "icon": "Ensouled_giant_head",
     "name": "Hill Giant",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 25,
     "slayerMasters": [
       "Mazchna",
@@ -1437,12 +1705,15 @@
     ],
     "notableDrops": [
       "Giant_key",
-      "Giant_champion_scroll"
+      "Ensouled_giant_head",
+      "Big_bones"
     ]
   },
   {
     "id": "Hobgoblin",
     "icon": "Hobgoblin_guard_icon",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 20,
     "slayerMasters": [
       "Mazchna",
@@ -1456,13 +1727,12 @@
       "Outpost",
       "Asgarnian_Ice_Dungeon",
       "Edgeville_Dungeon"
-    ],
-    "notableDrops": [
-      "Hobgoblin_champion_scroll"
     ]
   },
   {
     "id": "Hydra",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredSlayerLevel": 95,
     "slayerMasters": [
       "Konar_quo_Maten"
@@ -1476,12 +1746,15 @@
       "Hydra's_heart",
       "Hydra_tail",
       "Dragon_knife",
-      "Dragon_thrownaxe"
+      "Dragon_thrownaxe",
+      "Hydra_bones"
     ]
   },
   {
     "id": "Icefiend",
     "icon": "Ice_quartz",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 20,
     "slayerMasters": [
       "Turael",
@@ -1497,6 +1770,8 @@
   {
     "id": "Ice_giant",
     "icon": "Rock_golem_(blurite)",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 50,
     "slayerMasters": [
       "Krystilia",
@@ -1510,12 +1785,15 @@
       "White_Wolf_Mountain"
     ],
     "notableDrops": [
-      "Giant_champion_scroll"
+      "Ensouled_giant_head",
+      "Big_bones"
     ]
   },
   {
     "id": "Ice_warrior",
     "icon": "Blurite_sword",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 45,
     "slayerMasters": [
       "Krystilia",
@@ -1533,6 +1811,8 @@
   {
     "id": "Imp",
     "icon": "Ensouled_imp_head",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "slayerMasters": [],
     "locations": [
       "Ardougne_Monastery",
@@ -1550,13 +1830,12 @@
       "South_Falador_Farm",
       "Wilderness_God_Wars_Dungeon"
     ],
-    "notableDrops": [
-      "Imp_champion_scroll"
-    ],
     "hideFromMenu": true
   },
   {
     "id": "Infernal_Mage",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 40,
     "requiredSlayerLevel": 45,
     "slayerMasters": [
@@ -1574,6 +1853,8 @@
   {
     "id": "Iorwerth_Warrior",
     "icon": "Iorwerth_Warrior_(1)_chathead",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 70,
     "slayerMasters": [
       "Vannaka",
@@ -1585,13 +1866,17 @@
       "Iorwerth_Dungeon"
     ],
     "notableDrops": [
-      "Enhanced_crystal_teleport_seed"
+      "Crystal_teleport_seed",
+      "Enhanced_crystal_teleport_seed",
+      "Crystal_shard"
     ],
     "hideFromMenu": true
   },
   {
     "id": "Iron_dragon",
     "icon": "Iron_dragon_mask",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 80,
     "slayerMasters": [
       "Konar_quo_Maten",
@@ -1606,12 +1891,15 @@
     "notableDrops": [
       "Draconic_visage",
       "Dragon_plateskirt",
-      "Dragon_platelegs"
+      "Dragon_platelegs",
+      "Ensouled_dragon_head"
     ]
   },
   {
     "id": "Jackal",
     "icon": "Jackal_bone",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 15,
     "slayerMasters": [
       "Turael",
@@ -1624,6 +1912,8 @@
   },
   {
     "id": "Jelly",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 57,
     "requiredSlayerLevel": 52,
     "slayerMasters": [
@@ -1637,23 +1927,24 @@
       "Wilderness_Slayer_Cave"
     ],
     "notableDrops": [
-      "Mithril_boots"
+      "Clue_scroll_(hard)"
     ]
   },
   {
     "id": "Jogre",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "slayerMasters": [],
     "locations": [
       "Pothole_Dungeon"
-    ],
-    "notableDrops": [
-      "Jogre_champion_scroll"
     ],
     "hideFromMenu": true
   },
   {
     "id": "Jungle_horror",
     "icon": "Ensouled_horror_head",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 65,
     "slayerMasters": [
       "Vannaka",
@@ -1666,6 +1957,8 @@
   {
     "id": "Jungle_spider",
     "icon": "Spider_carcass",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "slayerMasters": [
       "Turael",
       "Spria"
@@ -1680,6 +1973,8 @@
   {
     "id": "Jungle_Wolf",
     "icon": "Wolf_bones",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 20,
     "slayerMasters": [
       "Turael",
@@ -1693,6 +1988,8 @@
   {
     "id": "Kalphite",
     "icon": "Kq_head",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 15,
     "slayerMasters": [
       "Turael",
@@ -1707,10 +2004,15 @@
     "locations": [
       "Kalphite_Cave",
       "Kalphite_Lair"
+    ],
+    "notableDrops": [
+      "Nothing"
     ]
   },
   {
     "id": "Killerwatt",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 50,
     "requiredSlayerLevel": 37,
     "slayerMasters": [
@@ -1723,6 +2025,8 @@
   {
     "id": "Kraken",
     "subtitle": "Boss",
+    "category": "boss",
+    "sortingGroups": ["slayer", "pvm", "magic"],
     "requiredCombatLevel": 80,
     "requiredSlayerLevel": 87,
     "slayerMasters": [
@@ -1743,6 +2047,8 @@
   },
   {
     "id": "Kurask",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 65,
     "requiredSlayerLevel": 70,
     "slayerMasters": [
@@ -1766,6 +2072,8 @@
   {
     "id": "Lava_dragon",
     "icon": "Lava_dragon_mask",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "slayerMasters": [
       "Krystilia"
     ],
@@ -1774,12 +2082,18 @@
     ],
     "notableDrops": [
       "Draconic_visage",
-      "Lava_battlestaff"
+      "Lava_battlestaff",
+      "Black_dragonhide",
+      "Lava_dragon_bones",
+      "Lava_scale",
+      "Ensouled_dragon_head"
     ]
   },
   {
     "id": "Larran's_big_chest",
     "icon": "Larran's_key_1",
+    "category": "chest",
+    "sortingGroups": ["misc", "slayer"],
     "slayerMasters": [
       "Krystilia"
     ],
@@ -1798,6 +2112,8 @@
   {
     "id": "Lesser_demon",
     "icon": "Lesser_demon_mask",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 60,
     "slayerMasters": [
       "Krystilia",
@@ -1820,11 +2136,13 @@
       "Crandor"
     ],
     "notableDrops": [
-      "Lesser_demon_champion_scroll"
+      "Ensouled_demon_head"
     ]
   },
   {
     "id": "Lesser_nagua",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 70,
     "requiredSlayerLevel": 48,
     "slayerMasters": [
@@ -1840,6 +2158,8 @@
   {
     "id": "Lizard",
     "icon": "Desert_Lizard_icon",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredSlayerLevel": 22,
     "slayerMasters": [
       "Turael",
@@ -1854,8 +2174,9 @@
     ]
   },
   {
-    "id": "Lizardman",
-    "icon": "Lizardmen_icon",
+    "id": "Lizardmen",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "slayerMasters": [
       "Chaeldar",
       "Konar_quo_Maten",
@@ -1867,59 +2188,19 @@
       "Lizardman_Caves",
       "Lizardman_Settlement",
       "Lizardman_Temple"
-    ]
-  },
-  {
-    "id": "Lizardman_brute",
-    "icon": "Lizardmen_icon",
-    "slayerMasters": [
-      "Chaeldar",
-      "Konar_quo_Maten",
-      "Nieve",
-      "Duradel"
-    ],
-    "locations": [
-      "Lizardman_Canyon",
-      "Lizardman_Settlement"
-    ],
-    "notableDrops": [
-      "Xeric's_talisman",
-      "Lizardman_fang",
-      "Xerician_fabric"
-    ],
-    "hideFromMenu": true
-  },
-  {
-    "id": "Lizardman_shaman",
-    "icon": "Lizardmen_icon",
-    "slayerMasters": [
-      "Chaeldar",
-      "Konar_quo_Maten",
-      "Nieve",
-      "Duradel"
-    ],
-    "locations": [
-      "Lizardman_Canyon",
-      "Lizardman_Caves",
-      "Lizardman_Temple"
     ],
     "notableDrops": [
       "Dragon_warhammer",
       "Xeric's_talisman",
       "Lizardman_fang",
       "Xerician_fabric"
-    ],
-    "hideFromMenu": true
+    ]
   },
   {
     "id": "Magic_axe",
     "icon": "Iron_battleaxe",
-    "requirements": [
-      {
-        "skill": "thieving",
-        "level": "23"
-      }
-    ],
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "slayerMasters": [
       "Krystilia"
     ],
@@ -1930,6 +2211,8 @@
   {
     "id": "Mammoth",
     "icon": "Rare_fossilised_tusk",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "slayerMasters": [
       "Krystilia"
     ],
@@ -1940,6 +2223,8 @@
   {
     "id": "Maniacal_monkey",
     "icon": "Maniacal_monkey_(item)",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "slayerMasters": [
       "Turael",
       "Spria"
@@ -1950,6 +2235,8 @@
   },
   {
     "id": "Mithril_dragon",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "slayerMasters": [
       "Konar_quo_Maten",
       "Nieve",
@@ -1961,12 +2248,15 @@
     "notableDrops": [
       "Draconic_visage",
       "Dragon_full_helm",
-      "Chewed_bones"
+      "Chewed_bones",
+      "Ensouled_dragon_head"
     ]
   },
   {
     "id": "Minotaur",
     "icon": "Reanimate_Minotaur",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 7,
     "slayerMasters": [
       "Turael",
@@ -1981,6 +2271,8 @@
   },
   {
     "id": "Mogre",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 30,
     "requiredSlayerLevel": 32,
     "slayerMasters": [
@@ -1997,6 +2289,8 @@
   },
   {
     "id": "Molanisk",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 50,
     "requiredSlayerLevel": 39,
     "slayerMasters": [
@@ -2009,6 +2303,8 @@
   {
     "id": "Monkey",
     "icon": "Monkey_(Trouble_Brewing)",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "slayerMasters": [
       "Turael",
       "Spria"
@@ -2028,8 +2324,30 @@
     "hideFromMenu": true
   },
   {
+    "id": "Moonlight_Cockatrice",
+    "icon": "Cockatrice_icon",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
+    "requiredCombatLevel": 25,
+    "requiredSlayerLevel": 25,
+    "slayerMasters": [
+      "Mazchna",
+      "Vannaka"
+    ],
+    "locations": [
+      "Neypotzli"
+    ],
+    "notableDrops": [
+      "Cockatrice_head",
+      "Mystic_boots_(light)",
+      "Clue_scroll_(medium)"
+    ]
+  },
+  {
     "id": "Moss_giant",
     "icon": "Bryophyta_icon_(mobile)",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 40,
     "slayerMasters": [
       "Krystilia",
@@ -2052,12 +2370,15 @@
     ],
     "notableDrops": [
       "Mossy_key",
-      "Giant_champion_scroll"
+      "Ensouled_giant_head",
+      "Big_bones"
     ]
   },
   {
     "id": "Mutated_Bloodveld",
     "icon": "Bloodveld_icon",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 50,
     "requiredSlayerLevel": 50,
     "slayerMasters": [
@@ -2073,11 +2394,14 @@
       "Meiyerditch_Laboratories"
     ],
     "notableDrops": [
-      "Black_boots"
+      "Blood_rune",
+      "Ensouled_bloodveld_head"
     ]
   },
   {
     "id": "Nechryael",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 85,
     "requiredSlayerLevel": 80,
     "slayerMasters": [
@@ -2097,26 +2421,26 @@
   {
     "id": "Ogre",
     "icon": "Ensouled_ogre_head",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 40,
     "slayerMasters": [
       "Vannaka"
     ],
     "locations": [
-      "Yanille",
-      "Jiggig",
-      "Corsair_Cove_Dungeon",
       "Feldip_Hills",
       "Gu'Tanoth",
+      "Yanille",
       "Combat_Training_Camp",
       "Chaos_Druid_Tower",
-      "Witchaven_Dungeon",
-      "Clock_Tower_dungeon",
-      "Gnome_maze"
+      "Witchaven_Dungeon"
     ]
   },
   {
     "id": "Ogress_Shaman",
     "icon": "Shaman_mask",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 40,
     "slayerMasters": [
       "Vannaka"
@@ -2132,6 +2456,8 @@
   {
     "id": "Ogress_Warrior",
     "icon": "Shaman_mask",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 40,
     "slayerMasters": [
       "Vannaka"
@@ -2147,6 +2473,8 @@
   {
     "id": "Otherworldly_being",
     "icon": "Wizard_hat",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 40,
     "slayerMasters": [
       "Vannaka"
@@ -2158,6 +2486,8 @@
   {
     "id": "Pirate",
     "icon": "Pirate_pete_(interface_item)",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "slayerMasters": [
       "Krystilia"
     ],
@@ -2168,6 +2498,8 @@
   },
   {
     "id": "Pyrefiend",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 25,
     "requiredSlayerLevel": 30,
     "slayerMasters": [
@@ -2183,11 +2515,13 @@
       "Wilderness_God_Wars_Dungeon"
     ],
     "notableDrops": [
-      "Steel_boots"
+      "Clue_scroll_(medium)"
     ]
   },
   {
     "id": "Red_dragon",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 68,
     "slayerMasters": [
       "Konar_quo_Maten",
@@ -2198,11 +2532,18 @@
       "Brimhaven_Dungeon",
       "Forthos_Dungeon",
       "Myths'_Guild#Basement"
+    ],
+    "notableDrops": [
+      "Red_dragonhide",
+      "Dragon_bones",
+      "Ensouled_dragon_head"
     ]
   },
   {
     "id": "Revenants",
     "icon": "Revenant_icon",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "slayerMasters": [
       "Krystilia"
     ],
@@ -2228,6 +2569,8 @@
   },
   {
     "id": "Rockslug",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 20,
     "requiredSlayerLevel": 20,
     "slayerMasters": [
@@ -2245,6 +2588,8 @@
   {
     "id": "Rogue",
     "icon": "Thief_Rogue",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "slayerMasters": [
       "Krystilia"
     ],
@@ -2254,6 +2599,8 @@
   },
   {
     "id": "Rune_dragon",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "slayerMasters": [
       "Konar_quo_Maten",
       "Nieve",
@@ -2267,12 +2614,15 @@
       "Dragon_metal_lump",
       "Dragon_limbs",
       "Dragon_plateskirt",
-      "Dragon_platelegs"
+      "Dragon_platelegs",
+      "Ensouled_dragon_head"
     ]
   },
   {
     "id": "Scabarite",
     "icon": "Locust_rider_icon",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 85,
     "slayerMasters": [
       "Nieve"
@@ -2285,6 +2635,8 @@
   {
     "id": "Scorpion",
     "icon": "Scorpia's_offspring",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 7,
     "slayerMasters": [
       "Krystilia",
@@ -2308,6 +2660,8 @@
   },
   {
     "id": "Sea_snake",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 50,
     "requiredSlayerLevel": 40,
     "slayerMasters": [
@@ -2315,14 +2669,13 @@
     ],
     "locations": [
       "Miscellania_and_Etceteria_dungeon"
-    ],
-    "notableDrops": [
-      "Broad_arrows"
     ]
   },
   {
     "id": "Shade",
     "icon": "Fiyr_remains",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 30,
     "slayerMasters": [
       "Mazchna",
@@ -2338,6 +2691,8 @@
   {
     "id": "Shadow_warrior",
     "icon": "Black_robe",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 60,
     "slayerMasters": [
       "Chaeldar",
@@ -2349,6 +2704,8 @@
   },
   {
     "id": "Skeletal_Wyvern",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 70,
     "requiredSlayerLevel": 72,
     "slayerMasters": [
@@ -2362,12 +2719,17 @@
     ],
     "notableDrops": [
       "Draconic_visage",
-      "Granite_legs"
+      "Granite_legs",
+      "Dragon_platelegs",
+      "Dragon_plateskirt",
+      "Wyvern_bones"
     ]
   },
   {
     "id": "Skeleton",
     "icon": "Skull_(item)",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 15,
     "slayerMasters": [
       "Krystilia",
@@ -2402,15 +2764,14 @@
       "Isle_of_Souls_Dungeon",
       "Ogre_Enclave",
       "Waterfall_Dungeon"
-    ],
-    "notableDrops": [
-      "Skeleton_champion_scroll"
     ]
   },
   {
     "id": "Skeleton_fremennik",
     "icon": "Skull_(item)",
     "name": "Skeleton",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 15,
     "slayerMasters": [
       "Krystilia",
@@ -2424,6 +2785,8 @@
   },
   {
     "id": "Smoke_devil",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm", "magic"],
     "requiredCombatLevel": 85,
     "requiredSlayerLevel": 93,
     "slayerMasters": [
@@ -2442,6 +2805,8 @@
   {
     "id": "Sourhog",
     "icon": "Sourhog_foot",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "slayerMasters": [
       "Spria"
     ],
@@ -2453,6 +2818,8 @@
   {
     "id": "Spider",
     "icon": "Huge_spider_icon",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "slayerMasters": [
       "Krystilia"
     ],
@@ -2474,6 +2841,8 @@
   },
   {
     "id": "Spiritual_mage",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 60,
     "requiredSlayerLevel": 83,
     "slayerMasters": [
@@ -2496,6 +2865,8 @@
     "id": "Spiritual_mage#Zaros",
     "name": "Spiritual Creature",
     "subtitle": "Zaros",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 60,
     "requiredSlayerLevel": 83,
     "slayerMasters": [
@@ -2518,6 +2889,8 @@
   },
   {
     "id": "Spiritual_ranger",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 60,
     "requiredSlayerLevel": 63,
     "slayerMasters": [
@@ -2535,6 +2908,8 @@
   },
   {
     "id": "Spiritual_warrior",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 60,
     "requiredSlayerLevel": 68,
     "slayerMasters": [
@@ -2553,6 +2928,8 @@
   {
     "id": "Steel_dragon",
     "icon": "Steel_dragon_mask",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 85,
     "slayerMasters": [
       "Konar_quo_Maten",
@@ -2566,11 +2943,14 @@
     "notableDrops": [
       "Draconic_visage",
       "Dragon_plateskirt",
-      "Dragon_platelegs"
+      "Dragon_platelegs",
+      "Ensouled_dragon_head"
     ]
   },
   {
     "id": "Sulphur_Lizard",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredSlayerLevel": 44,
     "slayerMasters": [
       "Turael",
@@ -2589,6 +2969,8 @@
   {
     "id": "Sulphur_Nagua",
     "icon": "Lesser_nagua_icon",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 70,
     "requiredSlayerLevel": 48,
     "slayerMasters": [
@@ -2599,12 +2981,15 @@
       "Neypotzli"
     ],
     "notableDrops": [
-      "Sulphur_blades"
+      "Sulphur_blades",
+      "Sulphurous_essence"
     ]
   },
   {
     "id": "Superior_slayer_monster",
     "icon": "Bigger_and_Badder",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "slayerMasters": [
       "Krystilia",
       "Turael",
@@ -2639,6 +3024,8 @@
   },
   {
     "id": "Suqah",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 85,
     "slayerMasters": [
       "Nieve",
@@ -2646,11 +3033,17 @@
     ],
     "locations": [
       "Lunar_Isle"
+    ],
+    "notableDrops": [
+      "Suqah_hide",
+      "Suqah_tooth"
     ]
   },
   {
     "id": "Temple_Spider",
     "icon": "Sraracha",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "slayerMasters": [
       "Turael",
       "Spria"
@@ -2661,6 +3054,8 @@
   },
   {
     "id": "Terror_dog",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 60,
     "requiredSlayerLevel": 40,
     "slayerMasters": [
@@ -2676,6 +3071,8 @@
   {
     "id": "Thermonuclear_smoke_devil",
     "subtitle": "Boss",
+    "category": "boss",
+    "sortingGroups": ["slayer", "pvm", "magic"],
     "requiredCombatLevel": 85,
     "requiredSlayerLevel": 93,
     "slayerMasters": [
@@ -2697,6 +3094,8 @@
   {
     "id": "Tormented_Demon",
     "icon": "Burning_claw",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 70,
     "slayerMasters": [
       "Krystilia",
@@ -2716,6 +3115,8 @@
   {
     "id": "Troll",
     "icon": "Ensouled_troll_head",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 60,
     "slayerMasters": [
       "Vannaka",
@@ -2733,6 +3134,8 @@
   },
   {
     "id": "Turoth",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 60,
     "requiredSlayerLevel": 55,
     "slayerMasters": [
@@ -2752,6 +3155,8 @@
   {
     "id": "Twisted_Banshee",
     "icon": "Banshee_icon",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 20,
     "requiredSlayerLevel": 15,
     "slayerMasters": [
@@ -2763,24 +3168,15 @@
       "Catacombs_of_Kourend"
     ],
     "notableDrops": [
+      "Pure_essence",
       "Mystic_gloves_(dark)"
     ]
   },
   {
     "id": "TzHaar",
     "icon": "Tok-Xil_(Construction)_icon",
-    "slayerMasters": [
-      "Chaeldar",
-      "Nieve",
-      "Duradel"
-    ],
-    "locations": [
-      "Mor_Ul_Rek"
-    ]
-  },
-  {
-    "id": "TzHaar-Ket",
-    "icon": "TzHaar-Ket_chathead",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "slayerMasters": [
       "Chaeldar",
       "Nieve",
@@ -2791,54 +3187,24 @@
     ],
     "notableDrops": [
       "Tzhaar-ket-om",
-      "Obsidian_helmet",
-      "Obsidian_platebody",
-      "Obsidian_platelegs",
-      "Obsidian_cape",
-      "Toktz-ket-xil"
-    ],
-    "hideFromMenu": true
-  },
-  {
-    "id": "TzHaar-Mej_(monster)",
-    "name": "TzHaar-Mej",
-    "icon": "TzHaar-Mej_chathead",
-    "slayerMasters": [
-      "Chaeldar",
-      "Nieve",
-      "Duradel"
-    ],
-    "locations": [
-      "Mor_Ul_Rek"
-    ],
-    "notableDrops": [
       "Toktz-mej-tal",
-      "Obsidian_cape"
-    ],
-    "hideFromMenu": true
-  },
-  {
-    "id": "TzHaar-Xil",
-    "icon": "TzHaar-Xil_chathead",
-    "slayerMasters": [
-      "Chaeldar",
-      "Nieve",
-      "Duradel"
-    ],
-    "locations": [
-      "Mor_Ul_Rek"
-    ],
-    "notableDrops": [
       "Toktz-xil-ul",
       "Toktz-xil-ek",
       "Toktz-xil-ak",
-      "Obsidian_cape"
-    ],
-    "hideFromMenu": true
+      "Toktz-ket-xil",
+      "Obsidian_cape",
+      "Obsidian_helmet",
+      "Obsidian_platebody",
+      "Obsidian_platelegs",
+      "Tokkul",
+      "Ensouled_tzhaar_head"
+    ]
   },
   {
     "id": "Undead_Druid",
     "icon": "Mask_of_ranul",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 10,
     "slayerMasters": [
       "Turael",
@@ -2850,14 +3216,15 @@
     ],
     "notableDrops": [
       "Mask_of_ranul",
-      "Grubby_key",
-      "Zombie_champion_scroll"
+      "Grubby_key"
     ],
     "hideFromMenu": true
   },
   {
     "id": "Vampyre",
     "icon": "Vyre_icon",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 35,
     "requiredSlayerLevel": 38,
     "slayerMasters": [
@@ -2879,6 +3246,8 @@
   {
     "id": "Vyrewatch_Sentinel",
     "icon": "Vyre_icon",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 35,
     "requiredSlayerLevel": 38,
     "slayerMasters": [
@@ -2899,6 +3268,8 @@
   },
   {
     "id": "Wall_beast",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 30,
     "requiredSlayerLevel": 35,
     "slayerMasters": [
@@ -2914,6 +3285,8 @@
   {
     "id": "Warped_Jelly",
     "icon": "Jelly_icon",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 57,
     "requiredSlayerLevel": 52,
     "slayerMasters": [
@@ -2925,12 +3298,14 @@
       "Catacombs_of_Kourend"
     ],
     "notableDrops": [
-      "Mithril_boots"
+      "Clue_scroll_(hard)"
     ]
   },
   {
     "id": "Warped_creatures",
     "icon": "Warped_Terrorbird_icon",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm", "magic"],
     "requiredSlayerLevel": 56,
     "slayerMasters": [
       "Chaeldar",
@@ -2948,6 +3323,8 @@
   {
     "id": "Waterfiend",
     "icon": "Circlet_of_water",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 75,
     "slayerMasters": [
       "Konar_quo_Maten",
@@ -2965,6 +3342,8 @@
   {
     "id": "Werewolf",
     "icon": "Wolfbane",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 60,
     "slayerMasters": [
       "Vannaka"
@@ -2976,6 +3355,8 @@
   {
     "id": "Wild_dog",
     "icon": "Ensouled_dog_head",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 15,
     "slayerMasters": [
       "Turael",
@@ -2989,6 +3370,8 @@
   {
     "id": "Wolf",
     "icon": "Wolf_mask",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 20,
     "slayerMasters": [
       "Turael",
@@ -3009,6 +3392,8 @@
   },
   {
     "id": "Wyrm",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredSlayerLevel": 62,
     "slayerMasters": [
       "Chaeldar",
@@ -3023,12 +3408,15 @@
       "Dragon_harpoon",
       "Dragon_sword",
       "Dragon_knife",
-      "Dragon_thrownaxe"
+      "Dragon_thrownaxe",
+      "Wyrm_bones"
     ]
   },
   {
     "id": "Wyrmling",
     "icon": "Wyrm_icon",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredSlayerLevel": 62,
     "slayerMasters": [
       "Chaeldar",
@@ -3043,6 +3431,8 @@
   {
     "id": "Zombie",
     "icon": "Zombie_head",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 10,
     "slayerMasters": [
       "Krystilia",
@@ -3065,14 +3455,13 @@
       "Glarial's_Tomb",
       "Varrock_Sewers",
       "Tree_Gnome_Village_Dungeon"
-    ],
-    "notableDrops": [
-      "Zombie_champion_scroll"
     ]
   },
   {
     "id": "Zombie_pirate",
     "icon": "Zombie_pirate_key_1",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "slayerMasters": [
       "Krystilia",
       "Turael",
@@ -3084,6 +3473,7 @@
     ],
     "notableDrops": [
       "Teleport_anchoring_scroll",
+      "Adamant_seeds",
       "Zombie_pirate_key"
     ],
     "hideFromMenu": true
@@ -3091,6 +3481,8 @@
   {
     "id": "Zygomite",
     "icon": "Mutated_zygomite_icon",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 60,
     "requiredSlayerLevel": 57,
     "slayerMasters": [
@@ -3102,6 +3494,10 @@
     "locations": [
       "Zanaris",
       "Fossil_Island"
+    ],
+    "notableDrops": [
+      "Pyrophosphite",
+      "Calcite"
     ]
   }
 ]

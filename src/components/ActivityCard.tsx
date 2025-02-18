@@ -17,8 +17,9 @@ export default function ActivityCard({
 }: ActivityCardProps) {
   const [expanded, setExpanded] = useState(false);
   const context = useItemsContext();
-  const items = context.getItemsByIds(activity.notableDrops);
-  const expandable = items.length > 0;
+  const items =
+    activity.notableDrops && context.getItemsByIds(activity.notableDrops);
+  const expandable = items && items.length > 0;
   return (
     <TitledCard
       className={classNames(
@@ -39,7 +40,7 @@ export default function ActivityCard({
         expandable ? (expanded ? 'expand_less' : 'expand_more') : 'open_in_new'
       }
     >
-      {items.length > 0 && <ItemsStack items={items} />}
+      {items && items.length > 0 && <ItemsStack items={items} />}
     </TitledCard>
   );
 }

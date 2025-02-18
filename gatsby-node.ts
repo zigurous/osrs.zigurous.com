@@ -32,6 +32,14 @@ export const createSchemaCustomization = ({
       notableDrops: [String!]!
       recommendedCombatStyle: [String!]!
     }
+    type DungeonsJson implements Node @dontInfer {
+      jsonId: String!
+      title: String
+      subtitle: String
+      category: String
+      sortingGroups: [String!]!
+      notableDrops: [String!]
+    }
     type GuildsJson implements Node @dontInfer {
       jsonId: String!
       title: String
@@ -68,19 +76,7 @@ export const createSchemaCustomization = ({
       subtitle: String
       category: String
       sortingGroups: [String!]!
-      notableDrops: [String!]!
-    }
-    type MonstersJson implements Node @dontInfer {
-      jsonId: String!
-      icon: String
-      name: String
-      subtitle: String
-      requiredCombatLevel: Int
-      requiredSlayerLevel: Int
-      slayerMasters: [String!]!
-      locations: [String!]!
       notableDrops: [String!]
-      hideFromMenu: Boolean
     }
     type PetsJson implements Node @dontInfer {
       jsonId: String!
@@ -108,6 +104,8 @@ export const createSchemaCustomization = ({
       bosses: [String!]!
       minigames: [String!]!
       guilds: [String!]
+      dungeons: [String!]!
+      monsters: [String!]!
       misc: [String!]
       pets: [String!]!
     }
@@ -124,6 +122,20 @@ export const createSchemaCustomization = ({
       image: String!
       region: String!
       requiredCombatLevel: Int
+    }
+    type SlayerMonstersJson implements Node @dontInfer {
+      jsonId: String!
+      icon: String
+      name: String
+      subtitle: String
+      category: String!
+      sortingGroups: [String!]!
+      requiredCombatLevel: Int
+      requiredSlayerLevel: Int
+      slayerMasters: [String!]!
+      locations: [String!]!
+      notableDrops: [String!]
+      hideFromMenu: Boolean
     }
   `;
   const coerceItemSource = (value: any) => {

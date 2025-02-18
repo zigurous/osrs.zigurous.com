@@ -4,6 +4,8 @@
     "name": "Asgarnia",
     "description": "The Kingdom of Asgarnia is one of the main kingdoms of Gielinor. Asgarnia's primary economic activities are crafting, mining, and fishing. It also has a notable navy based in Port Sarim.",
     "skilling": [
+      "Dwarven_Mine",
+      "Heroes'_Guild_mine",
       "Motherlode_Mine",
       "Shooting_Stars"
     ],
@@ -31,7 +33,24 @@
       "Mining_Guild",
       "Warriors'_Guild"
     ],
+    "dungeons": [
+      "Asgarnian_Ice_Dungeon",
+      "God_Wars_Dungeon",
+      "Taverly_Dungeon"
+    ],
+    "monsters": [
+      "Aviansie",
+      "Black_dragon",
+      "Blue_dragon",
+      "Hellhound",
+      "Hill_Giant",
+      "Ice_giant",
+      "Mogre",
+      "Skeletal_Wyvern",
+      "Spiritual_mage"
+    ],
     "misc": [
+      "Crystal_chest",
       "Ruins_of_Camdozaal"
     ],
     "pets": [
@@ -69,6 +88,18 @@
       "Pyramid_Plunder",
       "Sorceress's_Garden"
     ],
+    "dungeons": [
+      "Kalphite_Cave",
+      "Kalphite_Lair",
+      "Smoke_Dungeon"
+    ],
+    "monsters": [
+      "Dust_devil",
+      "Fire_giant",
+      "Hill_Giant_(Giants'_Plateau)",
+      "Kalphite",
+      "Pyrefiend"
+    ],
     "misc": [
       "Ancient_Magicks"
     ],
@@ -85,7 +116,9 @@
     "name": "Fremennik",
     "description": "The Fremennik Province is a region of various settlements ruled by the Fremennik and barbarians, found north of Kandarin. Besides the mainland, it includes many island settlements, due to the seafaring nature of the Fremennik.",
     "skilling": [
-
+      "Jatizso_mine",
+      "Lunar_Isle_mine",
+      "Salt_Mine"
     ],
     "bosses": [
       "Dagannoth_Kings",
@@ -96,6 +129,27 @@
     "minigames": [
       "Blast_Furnace",
       "Impetuous_Impulses"
+    ],
+    "dungeons": [
+      "Fremennik_Slayer_Dungeon",
+      "Ghorrock_Dungeon",
+      "Jormungand's_Prison",
+      "Waterbirth_Island_Dungeon"
+    ],
+    "monsters": [
+      "Basilisk",
+      "Basilisk_Knight",
+      "Brine_rat",
+      "Cave_crawler",
+      "Cockatrice",
+      "Dagannoth_(Waterbirth_Island)",
+      "Jelly",
+      "Kurask",
+      "Moss_giant",
+      "Pyrefiend",
+      "Rockslug",
+      "Suqah",
+      "Turoth"
     ],
     "misc": [
       "Lunar_spellbook"
@@ -116,7 +170,8 @@
     "description": "Kandarin is one of the largest kingdoms in Gielinor ruled by King Lathas of East Ardougne. It encompasses most of the lands west of White Wolf Mountain. Kandarin is bordered by Asgarnia to the east, the Fremennik Province to the north, the forests of Tirannwn to the west, and the Feldip Hills to the south.",
     "skilling": [
       "Ape_Atoll_Agility_Course",
-      "Forestry"
+      "Forestry",
+      "Red_chinchompa_hunting_ground"
     ],
     "bosses": [
       "Kraken",
@@ -140,11 +195,31 @@
       "Servants'_Guild",
       "Wizards'_Guild"
     ],
+    "dungeons": [
+      "Ancient_Cavern",
+      "Corsair_Cove_Dungeon",
+      "Kraken_Cove",
+      "Smoke_Devil_Dungeon",
+      "Stronghold_Slayer_Cave"
+    ],
+    "monsters": [
+      "Aberrant_spectre",
+      "Bloodveld",
+      "Cave_kraken",
+      "Demonic_gorilla",
+      "Fire_giant",
+      "Hellhound",
+      "Hill_Giant",
+      "Mithril_dragon",
+      "Moss_giant",
+      "Smoke_devil",
+      "Waterfiend"
+    ],
     "misc": [
       "Creature_Creation",
       "Chompy_bird_hunting",
-      "Demonic_gorilla",
-      "Friendly_Forester"
+      "Friendly_Forester",
+      "Sinister_chest"
     ],
     "pets": [
       "Broav",
@@ -160,7 +235,7 @@
     "name": "Karamja",
     "description": "Karamja is a large island in Gielinor. It is located to the south of the major kingdoms of Asgarnia and Kandarin. The island contains mostly jungle and tropical geography. Different tribes of Karamja speak different Karamjan languages.",
     "skilling": [
-
+      "Shilo_Village_mine"
     ],
     "bosses": [
       "TzHaar_Fight_Cave",
@@ -174,8 +249,21 @@
       "TzHaar_Fight_Pit",
       "TzHaar-Ket-Rak's_Challenges"
     ],
-    "misc": [
+    "dungeons": [
+      "Brimhaven_Dungeon",
+      "Crandor_and_Karamja_Dungeon"
+    ],
+    "monsters": [
+      "Bronze_dragon",
+      "Fire_giant",
+      "Iron_dragon",
+      "Moss_giant",
+      "Red_dragon",
+      "Steel_dragon",
       "TzHaar"
+    ],
+    "misc": [
+      "Mor_Ul_Rek"
     ],
     "pets": [
       "Jal-nib-rek",
@@ -211,12 +299,36 @@
       "Farming_Guild",
       "Woodcutting_Guild"
     ],
+    "dungeons": [
+      "Catacombs_of_Kourend",
+      "Chasm_of_Fire",
+      "Forthos_Dungeon",
+      "Giants'_Den",
+      "Karuulm_Slayer_Dungeon",
+      "Lizardman_Caves"
+    ],
+    "monsters": [
+      "Abyssal_demon",
+      "Deviant_spectre",
+      "Drake",
+      "Dust_devil",
+      "Fire_giant",
+      "Greater_Nechryael",
+      "Hellhound",
+      "Hill_Giant_(Kourend)",
+      "Hydra",
+      "Ice_giant",
+      "Lizardmen",
+      "Moss_giant",
+      "Mutated_Bloodveld",
+      "Twisted_Banshee",
+      "Warped_Jelly",
+      "Wyrm"
+    ],
     "misc": [
       "Arceuus_spellbook",
       "Brimstone_chest",
-      "Catacombs_of_Kourend",
       "Combat_Ring_(Shayzien)",
-      "Forthos_Dungeon",
       "Grubby_Chest"
     ],
     "pets": [
@@ -232,7 +344,8 @@
     "name": "Misthalin",
     "description": "Misthalin is a major kingdom within Gielinor, the most powerful human nation and by far the oldest. Its capital, Varrock, has existed in some form since soon after the end of the God Wars. It is divided in half by the River Lum, and its eastern border with Morytania is the River Salve.",
     "skilling": [
-      "Forestry"
+      "Forestry",
+      "H.A.M._Hideout"
     ],
     "bosses": [
       "Abyssal_Sire",
@@ -253,11 +366,38 @@
       "Champions'_Guild",
       "Cooks'_Guild"
     ],
+    "dungeons": [
+      "Edgeville_Dungeon",
+      "Isle_of_Souls_Dungeon",
+      "Lithkren_Vault",
+      "Lumbridge_Swamp_Caves",
+      "Stronghold_of_Security",
+      "Wyvern_Cave"
+    ],
+    "monsters": [
+      "Abyssal_demon",
+      "Adamant_dragon",
+      "Armoured_Zombie",
+      "Black_dragon",
+      "Cave_crawler",
+      "Fire_giant",
+      "Fossil_Island_Wyvern",
+      "Hill_Giant",
+      "Moss_giant",
+      "Pyrefiend",
+      "Rockslug",
+      "Rune_dragon",
+      "Tormented_Demon",
+      "Zygomite"
+    ],
     "misc": [
+      "Abyssal_Space",
       "Champions'_Challenge",
+      "Dark_Chest",
       "Fossil_Island",
       "Friendly_Forester",
-      "Tormented_Demon"
+      "Isle_of_Souls",
+      "Zanaris"
     ],
     "pets": [
       "Abyssal_orphan",
@@ -273,7 +413,7 @@
     "name": "Morytania",
     "description": "Morytania is an area in the easternmost part of Gielinor. Often described as a land of evil, the land is filled with many aggressive creatures such as vampyres, werewolves, ghasts, and the undead. It is currently ruled by Lord Drakan.",
     "skilling": [
-
+      "Daeyalt_essence_mine"
     ],
     "raids": [
       "Theatre_of_Blood"
@@ -291,8 +431,29 @@
       "Temple_Trekking",
       "Trouble_Brewing"
     ],
+    "dungeons": [
+      "Morytania_Spider_Cave",
+      "Mos_Le'Harmless_Cave",
+      "Sisterhood_Sanctuary",
+      "Tarn's_Lair"
+    ],
+    "monsters": [
+      "Aberrant_spectre",
+      "Abyssal_demon",
+      "Araxyte",
+      "Banshee",
+      "Bloodveld",
+      "Cave_horror",
+      "Crawling_Hand",
+      "Gargoyle",
+      "Infernal_Mage",
+      "Nechryael",
+      "Pyrefiend",
+      "Terror_dog",
+      "Vyrewatch_Sentinel"
+    ],
     "misc": [
-
+      "Slayer_Tower"
     ],
     "pets": [
       "Lil'_zik",
@@ -306,7 +467,8 @@
     "name": "Tirannwn",
     "description": "Tirannwn is a heavily forested region located west of Kandarin. It is said that the elves retreated here after the God Wars. Apart from elves, there are rabbits, dire wolves, and grizzly bears that inhabit Tirannwn. The many traps and dense forest make travelling through Tirannwn difficult and potentially dangerous.",
     "skilling": [
-      "Forestry"
+      "Forestry",
+      "Trahaearn_mine"
     ],
     "bosses": [
       "The_Gauntlet",
@@ -316,6 +478,19 @@
     "minigames": [
       "Impetuous_Impulses",
       "The_Gauntlet"
+    ],
+    "dungeons": [
+      "Iorwerth_Dungeon",
+      "Poison_Waste_Dungeon"
+    ],
+    "monsters": [
+      "Dark_beast",
+      "Greater_Nechryael",
+      "Iorwerth_Warrior",
+      "Kurask",
+      "Mutated_Bloodveld",
+      "Warped_creatures",
+      "Waterfiend"
     ],
     "misc": [
       "Elven_Crystal_Chest",
@@ -351,6 +526,21 @@
     "guilds": [
       "Hunter_Guild"
     ],
+    "dungeons": [
+      "Neypotzli",
+      "Ruins_of_Tapoyauik"
+    ],
+    "monsters": [
+      "Blue_dragon",
+      "Cave_crawler",
+      "Chilled_jelly",
+      "Frost_Nagua",
+      "Hill_Giant_(Varlamore)",
+      "Ice_giant",
+      "Moonlight_Cockatrice",
+      "Moss_giant",
+      "Sulphur_Nagua"
+    ],
     "misc": [
       "Moon_chest"
     ],
@@ -367,7 +557,7 @@
     "name": "Wilderness",
     "description": "The Wilderness, also known as the Wild or Wildy, is a large and dangerous wasteland that makes up most of north-eastern Gielinor.",
     "skilling": [
-
+      "Resource_Area"
     ],
     "bosses": [
       "Callisto",
@@ -385,11 +575,34 @@
       "Last_Man_Standing",
       "Mage_Arena"
     ],
-    "misc": [
+    "dungeons": [
+      "Revenant_Caves",
+      "Wilderness_God_Wars_Dungeon",
+      "Wilderness_Slayer_Cave"
+    ],
+    "monsters": [
+      "Abyssal_demon",
+      "Black_dragon",
+      "Dust_devil",
       "Elder_Chaos_druid",
+      "Fire_giant",
+      "Greater_Nechryael",
+      "Green_dragon",
+      "Hellhound",
+      "Hill_Giant",
+      "Ice_giant",
+      "Jelly",
+      "Lava_dragon",
+      "Moss_giant",
+      "Revenants",
+      "Spiritual_mage",
+      "Zombie_pirate"
+    ],
+    "misc": [
       "Fountain_of_Rune",
       "Larran's_big_chest",
-      "Revenants"
+      "Muddy_chest",
+      "Zombie_Pirate's_Locker"
     ],
     "pets": [
       "Callisto_cub",

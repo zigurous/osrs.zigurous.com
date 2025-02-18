@@ -50,6 +50,31 @@
     ]
   },
   {
+    "id": "Daeyalt_essence_mine",
+    "category": "skilling",
+    "sortingGroups": ["mining"],
+    "notableDrops": [
+      "Daeyalt_shard",
+      "#transmute",
+      "Daeyalt_essence"
+    ]
+  },
+  {
+    "id": "Dwarven_Mine",
+    "category": "skilling",
+    "sortingGroups": ["mining"],
+    "notableDrops": [
+      "Copper_ore",
+      "Tin_ore",
+      "Iron_ore",
+      "Coal",
+      "Gold_ore",
+      "Mithril_ore",
+      "Adamantite_ore",
+      "Clay"
+    ]
+  },
+  {
     "id": "Forestry",
     "category": "skilling",
     "sortingGroups": ["woodcutting"],
@@ -67,6 +92,31 @@
     ]
   },
   {
+    "id": "H.A.M._Hideout",
+    "category": "skilling",
+    "sortingGroups": ["thieving"],
+    "notableDrops": [
+      "Ham_hood",
+      "Ham_shirt",
+      "Ham_robe",
+      "Ham_gloves",
+      "Ham_boots",
+      "Ham_cloak",
+      "Ham_logo"
+    ]
+  },
+  {
+    "id": "Heroes'_Guild_mine",
+    "category": "skilling",
+    "sortingGroups": ["mining"],
+    "notableDrops": [
+      "Coal",
+      "Mithril_ore",
+      "Adamantite_ore",
+      "Runite_ore"
+    ]
+  },
+  {
     "id": "Hunters'_Rumours",
     "category": "skilling",
     "sortingGroups": ["hunter"],
@@ -78,6 +128,36 @@
       "Guild_hunter_boots",
       "Huntsman's_kit",
       "Perfected_quetzal_whistle"
+    ]
+  },
+  {
+    "id": "Jatizso_mine",
+    "category": "skilling",
+    "sortingGroups": ["mining"],
+    "notableDrops": [
+      "Tin_ore",
+      "Iron_ore",
+      "Adamantite_ore",
+      "Coal",
+      "Mithril_ore"
+    ]
+  },
+  {
+    "id": "Lunar_Isle_mine",
+    "category": "skilling",
+    "sortingGroups": ["mining"],
+    "notableDrops": [
+      "Uncut_opal",
+      "Uncut_jade",
+      "Uncut_red_topaz",
+      "Uncut_sapphire",
+      "Uncut_emerald",
+      "Uncut_ruby",
+      "Uncut_diamond",
+      "Rune_essence",
+      "Silver_ore",
+      "Gold_ore",
+      "Lunar_ore"
     ]
   },
   {
@@ -94,6 +174,40 @@
     ]
   },
   {
+    "id": "Red_chinchompa_hunting_ground",
+    "category": "skilling",
+    "sortingGroups": ["hunter"],
+    "notableDrops": [
+      "Baby_chinchompa",
+      "Red_chinchompa"
+    ]
+  },
+  {
+    "id": "Salt_Mine",
+    "category": "skilling",
+    "sortingGroups": ["mining"],
+    "notableDrops": [
+      "Efh_salt",
+      "Urt_salt",
+      "Te_salt",
+      "Basalt"
+    ]
+  },
+  {
+    "id": "Shilo_Village_mine",
+    "category": "skilling",
+    "sortingGroups": ["mining"],
+    "notableDrops": [
+      "Uncut_opal",
+      "Uncut_jade",
+      "Uncut_red_topaz",
+      "Uncut_sapphire",
+      "Uncut_emerald",
+      "Uncut_ruby",
+      "Uncut_diamond"
+    ]
+  },
+  {
     "id": "Shooting_Stars",
     "category": "skilling",
     "sortingGroups": ["mining"],
@@ -102,6 +216,21 @@
       "#transmute",
       "Celestial_ring",
       "Star_fragment"
+    ]
+  },
+  {
+    "id": "Trahaearn_mine",
+    "category": "skilling",
+    "sortingGroups": ["mining"],
+    "notableDrops": [
+      "Iron_ore",
+      "Silver_ore",
+      "Coal",
+      "Gold_ore",
+      "Mithril_ore",
+      "Adamantite_ore",
+      "Runite_ore",
+      "Soft_clay"
     ]
   }
 ]

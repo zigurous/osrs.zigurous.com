@@ -177,7 +177,7 @@
   {
     "id": "Gnome_Ball",
     "category": "minigame",
-    "sortingGroups": ["ranged", "agility", "misc"],
+    "sortingGroups": ["ranged", "agility"],
     "notableDrops": [
       "Gnomeball"
     ]
@@ -416,7 +416,7 @@
     "id": "Ranging_Guild#Minigame",
     "title": "Shooting Range",
     "category": "minigame",
-    "sortingGroups": ["ranged", "misc"],
+    "sortingGroups": ["ranged"],
     "notableDrops": [
       "Archery_ticket"
     ]

@@ -1,0 +1,386 @@
+[
+  {
+    "id": "Ancient_Cavern",
+    "category": "dungeon",
+    "sortingGroups": ["dungeon", "pvm"]
+  },
+  {
+    "id": "Ancient_Guthixian_Temple",
+    "category": "dungeon",
+    "sortingGroups": ["dungeon", "pvm"]
+  },
+  {
+    "id": "Ape_Atoll_Dungeon",
+    "category": "dungeon",
+    "sortingGroups": ["dungeon", "pvm"]
+  },
+  {
+    "id": "Asgarnian_Ice_Dungeon",
+    "category": "dungeon",
+    "sortingGroups": ["dungeon", "pvm", "slayer"]
+  },
+  {
+    "id": "Brimhaven_Dungeon",
+    "category": "dungeon",
+    "sortingGroups": ["dungeon", "pvm", "slayer"]
+  },
+  {
+    "id": "Brine_Rat_Cavern",
+    "category": "dungeon",
+    "sortingGroups": ["dungeon", "pvm"]
+  },
+  {
+    "id": "Catacombs_of_Kourend",
+    "category": "dungeon",
+    "sortingGroups": ["dungeon", "pvm", "slayer"],
+    "notableDrops": [
+      "Ancient_shard",
+      "Dark_totem",
+      "Dark_totem_top",
+      "Dark_totem_middle",
+      "Dark_totem_base"
+    ]
+  },
+  {
+    "id": "Chasm_of_Fire",
+    "category": "dungeon",
+    "sortingGroups": ["dungeon", "pvm", "slayer"]
+  },
+  {
+    "id": "Corsair_Cove_Dungeon",
+    "category": "dungeon",
+    "sortingGroups": ["dungeon", "pvm"]
+  },
+  {
+    "id": "Crabclaw_Caves",
+    "category": "dungeon",
+    "sortingGroups": ["dungeon", "pvm"]
+  },
+  {
+    "id": "Crandor_and_Karamja_Dungeon",
+    "title": "Karamja Dungeon",
+    "category": "dungeon",
+    "sortingGroups": ["dungeon", "pvm"]
+  },
+  {
+    "id": "Crash_Site_Cavern",
+    "category": "dungeon",
+    "sortingGroups": ["dungeon", "pvm"]
+  },
+  {
+    "id": "Deep_Wilderness_Dungeon",
+    "category": "dungeon",
+    "sortingGroups": ["dungeon", "pvm"]
+  },
+  {
+    "id": "Dorgesh-Kaan_South_Dungeon",
+    "category": "dungeon",
+    "sortingGroups": ["dungeon", "pvm", "slayer"]
+  },
+  {
+    "id": "Edgeville_Dungeon",
+    "category": "dungeon",
+    "sortingGroups": ["dungeon", "pvm"]
+  },
+  {
+    "id": "Forthos_Dungeon",
+    "category": "dungeon",
+    "sortingGroups": [
+      "dungeon",
+      "pvm",
+      "slayer",
+      "prayer",
+      "crafting",
+      "thieving",
+      "herblore"
+    ],
+    "notableDrops": [
+      "Mask_of_ranul",
+      "Tattered_sun_page",
+      "Tattered_moon_page",
+      "Tattered_temple_page",
+      "Temple_coin",
+      "Temple_key",
+      "Grubby_key"
+    ]
+  },
+  {
+    "id": "Fremennik_Slayer_Dungeon",
+    "category": "dungeon",
+    "sortingGroups": ["dungeon", "pvm", "slayer"]
+  },
+  {
+    "id": "Ghorrock_Dungeon",
+    "category": "dungeon",
+    "sortingGroups": ["dungeon", "pvm"]
+  },
+  {
+    "id": "Giants'_Den",
+    "category": "dungeon",
+    "sortingGroups": ["dungeon", "pvm", "slayer"]
+  },
+  {
+    "id": "God_Wars_Dungeon",
+    "category": "dungeon",
+    "sortingGroups": ["dungeon", "pvm", "slayer"]
+  },
+  {
+    "id": "Ice_Troll_Caves",
+    "category": "dungeon",
+    "sortingGroups": ["dungeon", "pvm"]
+  },
+  {
+    "id": "Iorwerth_Dungeon",
+    "category": "dungeon",
+    "sortingGroups": ["dungeon", "pvm", "slayer"]
+  },
+  {
+    "id": "Isle_of_Souls_Dungeon",
+    "category": "dungeon",
+    "sortingGroups": ["dungeon", "pvm", "thieving", "mining"]
+  },
+  {
+    "id": "Jormungand's_Prison",
+    "category": "dungeon",
+    "sortingGroups": ["dungeon", "pvm", "slayer"]
+  },
+  {
+    "id": "Kalphite_Cave",
+    "category": "dungeon",
+    "sortingGroups": ["dungeon", "pvm", "slayer"]
+  },
+  {
+    "id": "Kalphite_Lair",
+    "category": "dungeon",
+    "sortingGroups": ["dungeon", "pvm", "slayer"]
+  },
+  {
+    "id": "Karuulm_Slayer_Dungeon",
+    "category": "dungeon",
+    "sortingGroups": ["dungeon", "pvm", "slayer"]
+  },
+  {
+    "id": "Kraken_Cove",
+    "category": "dungeon",
+    "sortingGroups": ["dungeon", "pvm", "slayer"]
+  },
+  {
+    "id": "Kruk's_Dungeon",
+    "category": "dungeon",
+    "sortingGroups": ["dungeon", "pvm", "hunter"]
+  },
+  {
+    "id": "Lava_Maze_Dungeon",
+    "category": "dungeon",
+    "sortingGroups": ["dungeon", "pvm"]
+  },
+  {
+    "id": "Lighthouse#Dungeon",
+    "title": "Lighthouse Dungeon",
+    "category": "dungeon",
+    "sortingGroups": ["dungeon", "pvm"]
+  },
+  {
+    "id": "Lithkren_Vault",
+    "category": "dungeon",
+    "sortingGroups": ["dungeon", "pvm", "slayer"]
+  },
+  {
+    "id": "Lizardman_Caves",
+    "category": "dungeon",
+    "sortingGroups": ["dungeon", "pvm", "slayer"]
+  },
+  {
+    "id": "Lizardman_Temple",
+    "category": "dungeon",
+    "sortingGroups": ["dungeon", "pvm", "thieving"]
+  },
+  {
+    "id": "Lumbridge_Swamp_Caves",
+    "category": "dungeon",
+    "sortingGroups": ["dungeon", "pvm", "slayer"]
+  },
+  {
+    "id": "Meiyerditch_Laboratories",
+    "category": "dungeon",
+    "sortingGroups": ["dungeon", "pvm"]
+  },
+  {
+    "id": "Miscellania_and_Etceteria_dungeon",
+    "category": "dungeon",
+    "sortingGroups": ["dungeon", "pvm"]
+  },
+  {
+    "id": "Morytania_Spider_Cave",
+    "category": "dungeon",
+    "sortingGroups": ["dungeon", "pvm", "slayer"]
+  },
+  {
+    "id": "Mos_Le'Harmless_Cave",
+    "category": "dungeon",
+    "sortingGroups": ["dungeon", "pvm", "slayer"]
+  },
+  {
+    "id": "Mourner_Tunnels",
+    "category": "dungeon",
+    "sortingGroups": ["dungeon", "pvm"]
+  },
+  {
+    "id": "Neypotzli",
+    "category": "dungeon",
+    "sortingGroups": ["dungeon", "pvm", "slayer"]
+  },
+  {
+    "id": "Ogre_Enclave",
+    "category": "dungeon",
+    "sortingGroups": ["dungeon", "pvm"]
+  },
+  {
+    "id": "Poison_Waste_Dungeon",
+    "category": "dungeon",
+    "sortingGroups": ["dungeon", "pvm", "slayer"]
+  },
+  {
+    "id": "Pothole_Dungeon",
+    "category": "dungeon",
+    "sortingGroups": ["dungeon", "pvm"]
+  },
+  {
+    "id": "Revenant_Caves",
+    "category": "dungeon",
+    "sortingGroups": ["dungeon", "pvm", "pvp", "slayer"]
+  },
+  {
+    "id": "Ruins_of_Tapoyauik",
+    "category": "dungeon",
+    "sortingGroups": ["dungeon", "pvm", "slayer"]
+  },
+  {
+    "id": "Scabaras_Dungeon",
+    "category": "dungeon",
+    "sortingGroups": ["dungeon", "pvm"]
+  },
+  {
+    "id": "Shayzien_Crypts",
+    "category": "dungeon",
+    "sortingGroups": ["dungeon", "pvm"]
+  },
+  {
+    "id": "Sisterhood_Sanctuary",
+    "category": "dungeon",
+    "sortingGroups": ["dungeon", "pvm"]
+  },
+  {
+    "id": "Smoke_Devil_Dungeon",
+    "category": "dungeon",
+    "sortingGroups": ["dungeon", "pvm", "slayer"]
+  },
+  {
+    "id": "Smoke_Dungeon",
+    "category": "dungeon",
+    "sortingGroups": ["dungeon", "pvm", "slayer"]
+  },
+  {
+    "id": "Sophanem_Dungeon",
+    "category": "dungeon",
+    "sortingGroups": ["dungeon", "pvm"]
+  },
+  {
+    "id": "Stronghold_of_Security",
+    "category": "dungeon",
+    "sortingGroups": ["dungeon", "pvm"],
+    "notableDrops": [
+      "Left_skull_half",
+      "Right_skull_half",
+      "Top_of_sceptre",
+      "Bottom_of_sceptre"
+    ]
+  },
+  {
+    "id": "Stronghold_Slayer_Cave",
+    "category": "dungeon",
+    "sortingGroups": ["dungeon", "pvm", "slayer"]
+  },
+  {
+    "id": "Tarn's_Lair",
+    "category": "dungeon",
+    "sortingGroups": ["dungeon", "pvm", "slayer"],
+    "notableDrops": [
+      "Salve_shard",
+      "Tarn's_diary"
+    ]
+  },
+  {
+    "id": "Taverly_Dungeon",
+    "category": "dungeon",
+    "sortingGroups": ["dungeon", "pvm", "slayer"]
+  },
+  {
+    "id": "Underground_Pass_(dungeon)",
+    "title": "Underground Pass",
+    "category": "dungeon",
+    "sortingGroups": ["dungeon"]
+  },
+  {
+    "id": "Varrock_Sewers",
+    "category": "dungeon",
+    "sortingGroups": ["dungeon", "pvm"]
+  },
+  {
+    "id": "Waterbirth_Island_Dungeon",
+    "category": "dungeon",
+    "sortingGroups": ["dungeon", "pvm", "slayer"]
+  },
+  {
+    "id": "Waterfall_Dungeon",
+    "category": "dungeon",
+    "sortingGroups": ["dungeon", "pvm"]
+  },
+  {
+    "id": "Wilderness_God_Wars_Dungeon",
+    "category": "dungeon",
+    "sortingGroups": ["dungeon", "pvm"],
+    "notableDrops": [
+      "Ecumenical_key"
+    ]
+  },
+  {
+    "id": "Wilderness_Slayer_Cave",
+    "category": "dungeon",
+    "sortingGroups": ["dungeon", "pvm", "slayer"],
+    "notableDrops": [
+      "Trouver_parchment",
+      "Looting_bag_note",
+      "Ring_of_wealth_scroll",
+      "Magic_shortbow_scroll",
+      "Blighted_anglerfish",
+      "Blighted_manta_ray",
+      "Blighted_karambwan",
+      "Blighted_super_restore(4)",
+      "Blighted_vengeance_sack",
+      "Blighted_ancient_ice_sack",
+      "Blighted_teleport_spell_sack",
+      "Blighted_entangle_sack"
+    ]
+  },
+  {
+    "id": "Witchaven_Dungeon",
+    "category": "dungeon",
+    "sortingGroups": ["dungeon", "pvm"]
+  },
+  {
+    "id": "Wyvern_Cave",
+    "category": "dungeon",
+    "sortingGroups": ["dungeon", "pvm", "slayer"]
+  },
+  {
+    "id": "Yanille_Dungeon",
+    "category": "dungeon",
+    "sortingGroups": ["dungeon", "pvm", "agility", "herblore"]
+  },
+  {
+    "id": "Zemouregal's_Base",
+    "category": "dungeon",
+    "sortingGroups": ["dungeon", "pvm"]
+  }
+]

@@ -67,7 +67,6 @@ const dataQuery = graphql`
         icon
         name
         source
-        tags
       }
     }
   }

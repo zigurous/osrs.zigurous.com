@@ -1,31 +1,15 @@
 import { graphql, useStaticQuery } from 'gatsby';
 import React, { createContext, useCallback, useContext, useMemo } from 'react';
-import type { Activity, Boss, Guild, Minigame, Raid } from '../types'; // prettier-ignore
+import type { Activity, Boss, Dungeon, Guild, Minigame, Raid } from '../types'; // prettier-ignore
 
 interface ActivitiesContextData {
-  all: Activity[];
-  raids: Raid[];
-  bosses: Boss[];
-  minigames: Minigame[];
-  guilds: Guild[];
+  activities: Activity[];
   getActivityById: (id: string) => Activity | undefined;
-  getBossById: (id: string) => Boss | undefined;
-  getRaidById: (id: string) => Raid | undefined;
-  getMinigameById: (id: string) => Minigame | undefined;
-  getGuildById: (id: string) => Guild | undefined;
 }
 
 const defaultData: ActivitiesContextData = {
-  all: [],
-  raids: [],
-  bosses: [],
-  minigames: [],
-  guilds: [],
+  activities: [],
   getActivityById: () => undefined,
-  getBossById: () => undefined,
-  getRaidById: () => undefined,
-  getMinigameById: () => undefined,
-  getGuildById: () => undefined,
 };
 
 const ActivitiesContext = createContext<ActivitiesContextData>(defaultData);
@@ -39,58 +23,31 @@ export function ActivitiesContextProvider({
   children,
 }: React.PropsWithChildren) {
   const data = useStaticQuery<ActivitiesQueryData>(dataQuery);
-
-  const allActivities = useMemo(
+  const activities = useMemo(
     () =>
       [
-        ...data.skilling.nodes,
         ...data.raids.nodes,
         ...data.bosses.nodes,
         ...data.minigames.nodes,
         ...data.guilds.nodes,
+        ...data.skilling.nodes,
+        ...data.dungeons.nodes,
+        ...data.monsters.nodes,
         ...data.misc.nodes,
       ].sort((a, b) => a.id.localeCompare(b.id)) as Activity[],
     [data],
   );
 
   const getActivityById = useCallback(
-    (id: string) => allActivities.find(activity => activity.id === id),
-    [allActivities],
-  );
-
-  const getRaidById = useCallback(
-    (id: string) => data.raids.nodes.find(raid => raid.id === id),
-    [data.raids.nodes],
-  );
-
-  const getBossById = useCallback(
-    (id: string) => data.bosses.nodes.find(boss => boss.id === id),
-    [data.bosses.nodes],
-  );
-
-  const getMinigameById = useCallback(
-    (id: string) => data.minigames.nodes.find(minigame => minigame.id === id),
-    [data.minigames.nodes],
-  );
-
-  const getGuildById = useCallback(
-    (id: string) => data.guilds.nodes.find(guild => guild.id === id),
-    [data.guilds.nodes],
+    (id: string) => activities.find(activity => activity.id === id),
+    [activities],
   );
 
   return (
     <ActivitiesContext.Provider
       value={{
-        all: allActivities,
-        raids: data.raids.nodes,
-        bosses: data.bosses.nodes,
-        minigames: data.minigames.nodes,
-        guilds: data.guilds.nodes,
+        activities,
         getActivityById,
-        getRaidById,
-        getBossById,
-        getMinigameById,
-        getGuildById,
       }}
     >
       {children}
@@ -99,38 +56,18 @@ export function ActivitiesContextProvider({
 }
 
 interface ActivitiesQueryData {
-  skilling: {
-    nodes: Activity[];
-  };
-  raids: {
-    nodes: Raid[];
-  };
-  bosses: {
-    nodes: Boss[];
-  };
-  minigames: {
-    nodes: Minigame[];
-  };
-  guilds: {
-    nodes: Guild[];
-  };
-  misc: {
-    nodes: Activity[];
-  };
+  raids: { nodes: Raid[] };
+  bosses: { nodes: Boss[] };
+  minigames: { nodes: Minigame[] };
+  guilds: { nodes: Guild[] };
+  skilling: { nodes: Activity[] };
+  dungeons: { nodes: Dungeon[] };
+  monsters: { nodes: Activity[] };
+  misc: { nodes: Activity[] };
 }
 
 const dataQuery = graphql`
   query ActivitiesQuery {
-    skilling: allSkillingJson {
-      nodes {
-        id: jsonId
-        title
-        subtitle
-        category
-        sortingGroups
-        notableDrops
-      }
-    }
     raids: allRaidsJson {
       nodes {
         id: jsonId
@@ -170,6 +107,36 @@ const dataQuery = graphql`
       nodes {
         id: jsonId
         title
+        subtitle
+        category
+        sortingGroups
+        notableDrops
+      }
+    }
+    skilling: allSkillingJson {
+      nodes {
+        id: jsonId
+        title
+        subtitle
+        category
+        sortingGroups
+        notableDrops
+      }
+    }
+    dungeons: allDungeonsJson {
+      nodes {
+        id: jsonId
+        title
+        subtitle
+        category
+        sortingGroups
+        notableDrops
+      }
+    }
+    monsters: allSlayerMonstersJson(filter: { category: { eq: "monster" } }) {
+      nodes {
+        id: jsonId
+        title: name
         subtitle
         category
         sortingGroups

@@ -73,6 +73,8 @@ const dataQuery = graphql`
         bosses
         minigames
         guilds
+        dungeons
+        monsters
         misc
         pets
       }

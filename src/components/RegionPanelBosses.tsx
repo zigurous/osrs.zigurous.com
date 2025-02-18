@@ -80,12 +80,8 @@ export default function RegionPanelBosses({ region }: RegionPanelBossesProps) {
 }
 
 interface BossingQueryData {
-  bosses: {
-    nodes: Boss[];
-  };
-  raids: {
-    nodes: Raid[];
-  };
+  bosses: { nodes: Boss[] };
+  raids: { nodes: Raid[] };
 }
 
 const dataQuery = graphql`
@@ -93,7 +89,6 @@ const dataQuery = graphql`
     bosses: allBossesJson {
       nodes {
         id: jsonId
-        icon
         title
         subtitle
         notableDrops
@@ -102,7 +97,6 @@ const dataQuery = graphql`
     raids: allRaidsJson {
       nodes {
         id: jsonId
-        icon
         title
         subtitle
         notableDrops

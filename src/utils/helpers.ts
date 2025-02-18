@@ -46,22 +46,30 @@ export function getAssociatedSkill(activity: Activity): Skill | undefined {
 }
 
 export function getIconForActivity(activity: Activity): string | undefined {
+  // prettier-ignore
+  switch (activity.category) {
+    case 'chest': return 'Crystal_key';
+    case 'dungeon': return 'Dungeon_map_link_icon';
+    case 'location': return 'Map_link_icon';
+  }
+
   const sortingGroup =
     activity.sortingGroups.length > 0 ? activity.sortingGroups[0] : 'misc';
   if (sortingGroup === 'pvm' && activity.icon) return activity.icon;
+
   const icon = getIconForActivityGroup(sortingGroup);
   if (icon && sortingGroup !== 'misc') return icon;
+
   // prettier-ignore
   switch (activity.category) {
     case 'boss': return 'Master_Reanimation';
-    case 'chest': return 'Crystal_key';
     case 'distraction_and_diversion': return 'Distractions_and_Diversions';
     case 'guild': return 'Map_link_icon';
-    case 'location': return 'Map_link_icon';
     case 'minigame': return 'Minigame_icon';
     case 'monster': return 'Monster_Examine';
     case 'raid': return 'Raids';
   }
+
   return 'Collection_log';
 }
 
@@ -95,8 +103,8 @@ export function getIconForActivityGroup(
     case 'woodcutting':
     case 'farming':
       return getIconForSkill(activityGroup as Skill);
-    case 'quest':
-      return 'Quest_point_icon';
+    case 'dungeon':
+      return 'Dungeon_map_link_icon';
     case 'misc':
       return 'Collection_log';
     default:
