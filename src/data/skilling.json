@@ -13,6 +13,19 @@
     ]
   },
   {
+    "id": "Achey_Tree",
+    "title": "Achey Trees",
+    "category": "skilling",
+    "sortingGroups": ["woodcutting"],
+    "notableDrops": [
+      "Achey_tree_logs",
+      "#transmute",
+      "Ogre_arrow",
+      "Brutal_arrows",
+      "Comp_ogre_bow"
+    ]
+  },
+  {
     "id": "Aerial_fishing",
     "category": "skilling",
     "sortingGroups": ["hunter", "fishing"],
@@ -69,6 +82,16 @@
     ]
   },
   {
+    "id": "Arctic_pine_trees",
+    "category": "skilling",
+    "sortingGroups": ["woodcutting"],
+    "notableDrops": [
+      "Arctic_pine_logs",
+      "#transmute",
+      "Neitiznot_shield"
+    ]
+  },
+  {
     "id": "Ardougne_Rooftop_Course",
     "category": "skilling",
     "sortingGroups": ["agility"],
@@ -90,6 +113,18 @@
     "sortingGroups": ["agility"],
     "notableDrops": [
       "Mark_of_grace"
+    ]
+  },
+  {
+    "id": "Blisterwood_tree",
+    "category": "skilling",
+    "sortingGroups": ["woodcutting"],
+    "notableDrops": [
+      "Blisterwood_logs",
+      "#transmute",
+      "Blisterwood_sickle",
+      "#transmute",
+      "Blisterwood_flail"
     ]
   },
   {
@@ -118,6 +153,15 @@
     "notableDrops": [
       "Body_rune",
       "Body_tiara"
+    ]
+  },
+  {
+    "id": "Burnt_trees",
+    "subtitle": "Fossil Island",
+    "category": "skilling",
+    "sortingGroups": ["woodcutting"],
+    "notableDrops": [
+      "Charcoal"
     ]
   },
   {
@@ -173,6 +217,15 @@
       "Daeyalt_shard",
       "#transmute",
       "Daeyalt_essence"
+    ]
+  },
+  {
+    "id": "Dead_trees",
+    "category": "skilling",
+    "sortingGroups": ["woodcutting"],
+    "notableDrops": [
+      "Logs",
+      "Charcoal"
     ]
   },
   {
@@ -243,6 +296,7 @@
   },
   {
     "id": "Forestry",
+    "subtitle": "Events",
     "category": "skilling",
     "sortingGroups": ["woodcutting"],
     "notableDrops": [
@@ -281,6 +335,84 @@
     ]
   },
   {
+    "id": "Hardwood_Grove",
+    "category": "skilling",
+    "sortingGroups": ["woodcutting"],
+    "notableDrops": [
+      "Trading_sticks",
+      "#transmute",
+      "Teak_logs",
+      "Mahogany_logs"
+    ]
+  },
+  {
+    "id": "Hardwood_trees#Ape_Atoll",
+    "title": "Hardwood Trees",
+    "subtitle": "Ape Atoll",
+    "category": "skilling",
+    "sortingGroups": ["woodcutting"],
+    "notableDrops": [
+      "Teak_logs",
+      "Mahogany_logs"
+    ]
+  },
+  {
+    "id": "Hardwood_trees#Isle_of_Souls",
+    "title": "Hardwood Trees",
+    "subtitle": "Isle of Souls",
+    "category": "skilling",
+    "sortingGroups": ["woodcutting"],
+    "notableDrops": [
+      "Teak_logs",
+      "Mahogany_logs"
+    ]
+  },
+  {
+    "id": "Hardwood_trees#Kharazi_Jungle",
+    "title": "Hardwood Trees",
+    "subtitle": "Kharazi Jungle",
+    "category": "skilling",
+    "sortingGroups": ["woodcutting"],
+    "notableDrops": [
+      "Teak_logs",
+      "Mahogany_logs"
+    ]
+  },
+  {
+    "id": "Hardwood_trees#Mos_Le'Harmless",
+    "title": "Hardwood Trees",
+    "subtitle": "Mos Le'Harmless",
+    "category": "skilling",
+    "sortingGroups": ["woodcutting"],
+    "notableDrops": [
+      "Teak_logs",
+      "Mahogany_logs"
+    ]
+  },
+  {
+    "id": "Hardwood_trees#Prifddinas",
+    "title": "Hardwood Trees",
+    "subtitle": "Prifddinas",
+    "category": "skilling",
+    "sortingGroups": ["woodcutting"],
+    "notableDrops": [
+      "Teak_logs",
+      "Mahogany_logs",
+      "Crystal_shard"
+    ]
+  },
+  {
+    "id": "Hardwood_trees#Uzer_Oasis",
+    "title": "Hardwood Trees",
+    "subtitle": "Uzer Oasis",
+    "category": "skilling",
+    "sortingGroups": ["woodcutting"],
+    "notableDrops": [
+      "Teak_logs",
+      "Mahogany_logs"
+    ]
+  },
+  {
     "id": "Heroes'_Guild_mine",
     "category": "skilling",
     "sortingGroups": ["mining"],
@@ -289,6 +421,14 @@
       "Mithril_ore",
       "Adamantite_ore",
       "Runite_ore"
+    ]
+  },
+  {
+    "id": "Hollow_trees",
+    "category": "skilling",
+    "sortingGroups": ["woodcutting"],
+    "notableDrops": [
+      "Bark"
     ]
   },
   {
@@ -351,6 +491,29 @@
       "Silver_ore",
       "Gold_ore",
       "Lunar_ore"
+    ]
+  },
+  {
+    "id": "Mahogany_tree#Farming_Guild",
+    "title": "Mahogany Trees",
+    "subtitle": "Farming Guild",
+    "category": "skilling",
+    "sortingGroups": ["woodcutting"],
+    "notableDrops": [
+      "Mahogany_logs"
+    ]
+  },
+  {
+    "id": "Mature_juniper_tree",
+    "title": "Juniper Trees",
+    "category": "skilling",
+    "sortingGroups": ["woodcutting"],
+    "notableDrops": [
+      "Juniper_logs",
+      "#transmute",
+      "Juniper_charcoal",
+      "#transmute",
+      "Dynamite"
     ]
   },
   {
@@ -439,6 +602,14 @@
     ]
   },
   {
+    "id": "Redwood_trees",
+    "category": "skilling",
+    "sortingGroups": ["woodcutting"],
+    "notableDrops": [
+      "Redwood_logs"
+    ]
+  },
+  {
     "id": "Rellekka_Rooftop_Course",
     "category": "skilling",
     "sortingGroups": ["agility"],
@@ -466,6 +637,18 @@
       "Twisted_extract",
       "Mangled_extract",
       "Scarred_extract"
+    ]
+  },
+  {
+    "id": "Scrapey_tree",
+    "title": "Scrapey Trees",
+    "subtitle": "Trouble Brewing",
+    "category": "skilling",
+    "sortingGroups": ["woodcutting"],
+    "notableDrops": [
+      "Scrapey_tree_logs",
+      "#transmute",
+      "Scrapey_bark"
     ]
   },
   {
@@ -520,6 +703,17 @@
     ]
   },
   {
+    "id": "Sulliusceps",
+    "subtitle": "Fossil Island",
+    "category": "skilling",
+    "sortingGroups": ["woodcutting"],
+    "notableDrops": [
+      "Mushroom",
+      "Mort_myre_fungus",
+      "Sulliuscep_cap"
+    ]
+  },
+  {
     "id": "Sunfire_runes",
     "title": "Sunfire Runecrafting",
     "category": "skilling",
@@ -535,6 +729,36 @@
     ]
   },
   {
+    "id": "Teak_tree#Castle_Wars",
+    "title": "Teak Tree",
+    "subtitle": "Castle Wars",
+    "category": "skilling",
+    "sortingGroups": ["woodcutting"],
+    "notableDrops": [
+      "Teak_logs"
+    ]
+  },
+  {
+    "id": "Teak_tree#Locus_Oasis",
+    "title": "Teak Trees",
+    "subtitle": "Locus Oasis",
+    "category": "skilling",
+    "sortingGroups": ["woodcutting"],
+    "notableDrops": [
+      "Teak_logs"
+    ]
+  },
+  {
+    "id": "Teak_tree#Ruins_of_Ullek",
+    "title": "Teak Trees",
+    "subtitle": "Ruins of Ullek",
+    "category": "skilling",
+    "sortingGroups": ["woodcutting"],
+    "notableDrops": [
+      "Teak_logs"
+    ]
+  },
+  {
     "id": "Trahaearn_mine",
     "category": "skilling",
     "sortingGroups": ["mining"],
@@ -547,6 +771,133 @@
       "Adamantite_ore",
       "Runite_ore",
       "Soft_clay"
+    ]
+  },
+  {
+    "id": "Trees#Al_Kharid",
+    "title": "Trees",
+    "subtitle": "Al Kharid",
+    "category": "skilling",
+    "sortingGroups": ["woodcutting"],
+    "notableDrops": [
+      "Logs",
+      "Magic_logs"
+    ]
+  },
+  {
+    "id": "Trees#Asgarnia",
+    "title": "Trees",
+    "subtitle": "Mainland",
+    "category": "skilling",
+    "sortingGroups": ["woodcutting"],
+    "notableDrops": [
+      "Logs",
+      "Oak_logs",
+      "Willow_logs",
+      "Yew_logs"
+    ]
+  },
+  {
+    "id": "Trees#Fremennik",
+    "title": "Trees",
+    "subtitle": "Mainland",
+    "category": "skilling",
+    "sortingGroups": ["woodcutting"],
+    "notableDrops": [
+      "Logs",
+      "Oak_logs",
+      "Maple_logs"
+    ]
+  },
+  {
+    "id": "Trees#Isle_of_Souls",
+    "title": "Trees",
+    "subtitle": "Isle of Souls",
+    "category": "skilling",
+    "sortingGroups": ["woodcutting"],
+    "notableDrops": [
+      "Logs",
+      "Maple_logs",
+      "Yew_logs"
+    ]
+  },
+  {
+    "id": "Trees#Kandarin",
+    "title": "Trees",
+    "subtitle": "Mainland",
+    "category": "skilling",
+    "sortingGroups": ["woodcutting"],
+    "notableDrops": [
+      "Logs",
+      "Oak_logs",
+      "Willow_logs",
+      "Maple_logs",
+      "Yew_logs",
+      "Magic_logs"
+    ]
+  },
+  {
+    "id": "Trees#Kourend",
+    "title": "Trees",
+    "category": "skilling",
+    "sortingGroups": ["woodcutting"],
+    "notableDrops": [
+      "Logs",
+      "Oak_logs",
+      "Willow_logs",
+      "Maple_logs",
+      "Yew_logs",
+      "Magic_logs"
+    ]
+  },
+  {
+    "id": "Trees#Misthalin",
+    "title": "Trees",
+    "subtitle": "Mainland",
+    "category": "skilling",
+    "sortingGroups": ["woodcutting"],
+    "notableDrops": [
+      "Logs",
+      "Oak_logs",
+      "Willow_logs",
+      "Yew_logs"
+    ]
+  },
+  {
+    "id": "Trees#Morytania",
+    "title": "Trees",
+    "subtitle": "Mainland",
+    "category": "skilling",
+    "sortingGroups": ["woodcutting"],
+    "notableDrops": [
+      "Logs",
+      "Yew_logs"
+    ]
+  },
+  {
+    "id": "Trees#Tirannwn",
+    "title": "Trees",
+    "category": "skilling",
+    "sortingGroups": ["woodcutting"],
+    "notableDrops": [
+      "Logs",
+      "Maple_logs",
+      "Yew_logs",
+      "Magic_logs"
+    ]
+  },
+  {
+    "id": "Trees#Varlamore",
+    "title": "Trees",
+    "category": "skilling",
+    "sortingGroups": ["woodcutting"],
+    "notableDrops": [
+      "Logs",
+      "Oak_logs",
+      "Willow_logs",
+      "Maple_logs",
+      "Yew_logs",
+      "Magic_logs"
     ]
   },
   {

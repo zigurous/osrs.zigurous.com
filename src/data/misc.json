@@ -48,6 +48,11 @@
     ]
   },
   {
+    "id": "Canoe",
+    "category": "skilling",
+    "sortingGroups": ["woodcutting"]
+  },
+  {
     "id": "Champions'_Challenge",
     "category": "distraction_and_diversion",
     "sortingGroups": ["misc", "pvm"],
@@ -140,20 +145,20 @@
   {
     "id": "Dark_Chest",
     "category": "chest",
-    "sortingGroups": ["misc"],
+    "sortingGroups": ["misc", "thieving", "crafting"],
     "notableDrops": [
-      "Dark_key",
-      "#transmute",
-      "Shield_left_half",
-      "Dragon_plateskirt",
-      "Dragon_platelegs",
-      "#newline",
       "Dark_key",
       "#transmute",
       "Green_dragon_leather",
       "Blue_dragon_leather",
       "Red_dragon_leather",
-      "Black_dragon_leather"
+      "Black_dragon_leather",
+      "#newline",
+      "Dark_key",
+      "#transmute",
+      "Shield_left_half",
+      "Dragon_plateskirt",
+      "Dragon_platelegs"
     ]
   },
   {
@@ -169,6 +174,19 @@
       "Dragonstone_gauntlets",
       "Dragonstone_boots",
       "Uncut_onyx"
+    ]
+  },
+  {
+    "id": "Ents",
+    "category": "monster",
+    "sortingGroups": ["woodcutting"],
+    "notableDrops": [
+      "Logs",
+      "Oak_logs",
+      "Willow_logs",
+      "Maple_logs",
+      "Yew_logs",
+      "Magic_logs"
     ]
   },
   {
@@ -245,6 +263,7 @@
   },
   {
     "id": "Friendly_Forester",
+    "subtitle": "Shop",
     "category": "npc",
     "sortingGroups": ["woodcutting"],
     "notableDrops": [
@@ -303,6 +322,16 @@
     ]
   },
   {
+    "id": "Kharidian_cactus",
+    "category": "skilling",
+    "sortingGroups": ["woodcutting"],
+    "notableDrops": [
+      "Knife",
+      "#transmute",
+      "Waterskin"
+    ]
+  },
+  {
     "id": "Larran's_big_chest",
     "category": "chest",
     "sortingGroups": ["misc", "slayer"],
@@ -320,6 +349,28 @@
     "sortingGroups": ["magic"],
     "notableDrops": [
       "Lunar_spellbook"
+    ]
+  },
+  {
+    "id": "Managing_Miscellania",
+    "category": "misc",
+    "sortingGroups": [
+      "misc",
+      "woodcutting",
+      "farming",
+      "fishing",
+      "mining"
+    ],
+    "notableDrops": [
+      "Grimy_herb",
+      "Flax",
+      "Seeds",
+      "Coal",
+      "Maple_logs",
+      "Teak_logs",
+      "Mahogany_logs",
+      "Tuna",
+      "Swordfish"
     ]
   },
   {
