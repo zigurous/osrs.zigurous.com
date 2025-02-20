@@ -140,25 +140,6 @@
     ]
   },
   {
-    "id": "Fortis_Colosseum",
-    "category": "minigame",
-    "sortingGroups": ["pvm", "melee"],
-    "recommendedCombatStyle": ["melee", "hybrid"],
-    "notableDrops": [
-      "Smol_heredit",
-      "Sunlight_spear",
-      "Sunlit_bracers",
-      "Dizana's_quiver",
-      "Sunfire_fanatic_helm",
-      "Sunfire_fanatic_cuirass",
-      "Sunfire_fanatic_chausses",
-      "Tonalztics_of_ralos",
-      "Echo_crystal",
-      "Uncut_onyx",
-      "Sunfire_splinters"
-    ]
-  },
-  {
     "id": "Giants'_Foundry",
     "category": "minigame",
     "sortingGroups": ["smithing"],
@@ -254,16 +235,6 @@
       "Gourmet_impling_jar",
       "Young_impling_jar",
       "Baby_impling_jar"
-    ]
-  },
-  {
-    "id": "Inferno",
-    "category": "minigame",
-    "sortingGroups": ["pvm", "ranged"],
-    "recommendedCombatStyle": ["ranged", "hybrid"],
-    "notableDrops": [
-      "Jal-nib-rek",
-      "Infernal_cape"
     ]
   },
   {
@@ -553,21 +524,6 @@
     ]
   },
   {
-    "id": "The_Gauntlet",
-    "category": "minigame",
-    "sortingGroups": ["pvm", "magic", "ranged", "melee"],
-    "recommendedCombatStyle": ["hybrid"],
-    "notableDrops": [
-      "Youngllef",
-      "Crystal_blessing",
-      "Crystal_armour_seed",
-      "Crystal_weapon_seed",
-      "Enhanced_crystal_weapon_seed",
-      "Crystal_shard",
-      "Gauntlet_cape"
-    ]
-  },
-  {
     "id": "Tithe_Farm",
     "category": "minigame",
     "sortingGroups": ["farming"],
@@ -604,17 +560,6 @@
       "Lucky_shot_flag",
       "Treasure_flag",
       "Phasmatys_flag"
-    ]
-  },
-  {
-    "id": "TzHaar_Fight_Cave",
-    "title": "Fight Cave",
-    "category": "minigame",
-    "sortingGroups": ["pvm", "ranged", "melee"],
-    "recommendedCombatStyle": ["ranged", "melee"],
-    "notableDrops": [
-      "Tzrek-jad",
-      "Fire_cape"
     ]
   },
   {
