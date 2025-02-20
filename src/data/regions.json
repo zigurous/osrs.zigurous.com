@@ -4,8 +4,13 @@
     "name": "Asgarnia",
     "description": "The Kingdom of Asgarnia is one of the main kingdoms of Gielinor. Asgarnia's primary economic activities are crafting, mining, and fishing. It also has a notable navy based in Port Sarim.",
     "skilling": [
+      "Air_Altar",
+      "Body_Altar",
       "Dwarven_Mine",
+      "Falador_Rooftop_Course",
       "Heroes'_Guild_mine",
+      "Law_Altar",
+      "Mind_Altar",
       "Motherlode_Mine",
       "Shooting_Stars"
     ],
@@ -51,6 +56,10 @@
     ],
     "misc": [
       "Crystal_chest",
+      "Estate_agent#Falador",
+      "Grace",
+      "Portal_(Player-owned_house)#Rimmington",
+      "Portal_(Player-owned_house)#Taverly",
       "Ruins_of_Camdozaal"
     ],
     "pets": [
@@ -70,7 +79,12 @@
     "name": "Desert",
     "description": "The Kharidian Desert is an expansive region located south of the nations of Misthalin and Morytania. The desert becomes a dangerous region south of the Shantay Pass, requiring travelers to drink from waterskins or other sources of water to avoid dehydration.",
     "skilling": [
-
+      "Agility_Pyramid",
+      "Al_Kharid_Rooftop_Course",
+      "Fire_Altar",
+      "Lava_runes",
+      "Pollnivneach_Rooftop_Course",
+      "Scar_essence_mine"
     ],
     "raids": [
       "Tombs_of_Amascut"
@@ -101,7 +115,8 @@
       "Pyrefiend"
     ],
     "misc": [
-      "Ancient_Magicks"
+      "Ancient_Magicks",
+      "Portal_(Player-owned_house)#Pollnivneach"
     ],
     "pets": [
       "Abyssal_protector",
@@ -116,8 +131,11 @@
     "name": "Fremennik",
     "description": "The Fremennik Province is a region of various settlements ruled by the Fremennik and barbarians, found north of Kandarin. Besides the mainland, it includes many island settlements, due to the seafaring nature of the Fremennik.",
     "skilling": [
+      "Astral_Altar",
       "Jatizso_mine",
       "Lunar_Isle_mine",
+      "Penguin_Agility_Course",
+      "Rellekka_Rooftop_Course",
       "Salt_Mine"
     ],
     "bosses": [
@@ -152,7 +170,9 @@
       "Turoth"
     ],
     "misc": [
-      "Lunar_spellbook"
+      "Lunar_spellbook",
+      "Portal_(Player-owned_house)#Rellekka",
+      "Stonemason"
     ],
     "pets": [
       "Baron",
@@ -170,8 +190,14 @@
     "description": "Kandarin is one of the largest kingdoms in Gielinor ruled by King Lathas of East Ardougne. It encompasses most of the lands west of White Wolf Mountain. Kandarin is bordered by Asgarnia to the east, the Fremennik Province to the north, the forests of Tirannwn to the west, and the Feldip Hills to the south.",
     "skilling": [
       "Ape_Atoll_Agility_Course",
+      "Ardougne_Rooftop_Course",
+      "Barbarian_Outpost_Agility_Course",
       "Forestry",
-      "Red_chinchompa_hunting_ground"
+      "Gnome_Stronghold_Agility_Course",
+      "Ourania_Altar",
+      "Red_chinchompa_hunting_ground",
+      "Seers'_Village_Rooftop_Course",
+      "Wrath_Altar"
     ],
     "bosses": [
       "Kraken",
@@ -218,7 +244,10 @@
     "misc": [
       "Creature_Creation",
       "Chompy_bird_hunting",
+      "Estate_agent#Ardougne",
+      "Estate_agent#Seers'_Village",
       "Friendly_Forester",
+      "Portal_(Player-owned_house)#Yanille",
       "Sinister_chest"
     ],
     "pets": [
@@ -235,6 +264,7 @@
     "name": "Karamja",
     "description": "Karamja is a large island in Gielinor. It is located to the south of the major kingdoms of Asgarnia and Kandarin. The island contains mostly jungle and tropical geography. Different tribes of Karamja speak different Karamjan languages.",
     "skilling": [
+      "Nature_Altar",
       "Shilo_Village_mine"
     ],
     "bosses": [
@@ -263,7 +293,8 @@
       "TzHaar"
     ],
     "misc": [
-      "Mor_Ul_Rek"
+      "Mor_Ul_Rek",
+      "Portal_(Player-owned_house)#Brimhaven"
     ],
     "pets": [
       "Jal-nib-rek",
@@ -276,7 +307,11 @@
     "description": "Great Kourend is a kingdom in the continent of Zeah, found far west of the mainland across the Western Sea. One of the largest kingdoms in Gielinor, it is larger than Misthalin and Asgarnia combined, and is similar in size to Kandarin.",
     "skilling": [
       "Aerial_fishing",
-      "Forestry"
+      "Arceuus_Library",
+      "Blood_Altar_(Kourend)",
+      "Forestry",
+      "Shayzien_Agility_Course",
+      "Soul_Altar"
     ],
     "raids": [
       "Chambers_of_Xeric"
@@ -329,7 +364,10 @@
       "Arceuus_spellbook",
       "Brimstone_chest",
       "Combat_Ring_(Shayzien)",
-      "Grubby_Chest"
+      "Estate_agent#Hosidius",
+      "Grubby_Chest",
+      "Portal_(Player-owned_house)#Hosidius",
+      "Sawmill"
     ],
     "pets": [
       "Ikkle_hydra",
@@ -344,8 +382,16 @@
     "name": "Misthalin",
     "description": "Misthalin is a major kingdom within Gielinor, the most powerful human nation and by far the oldest. Its capital, Varrock, has existed in some form since soon after the end of the God Wars. It is divided in half by the River Lum, and its eastern border with Morytania is the River Salve.",
     "skilling": [
+      "Abyss",
+      "Cosmic_Altar",
+      "Dorgesh-Kaan_Agility_Course",
+      "Draynor_Village_Rooftop_Course",
+      "Earth_Altar",
       "Forestry",
-      "H.A.M._Hideout"
+      "H.A.M._Hideout",
+      "Underwater_Agility_and_Thieving",
+      "Varrock_Rooftop_Course",
+      "Water_Altar"
     ],
     "bosses": [
       "Abyssal_Sire",
@@ -391,12 +437,14 @@
       "Zygomite"
     ],
     "misc": [
-      "Abyssal_Space",
+      "Abyssal_Area",
       "Champions'_Challenge",
       "Dark_Chest",
+      "Estate_agent#Varrock",
       "Fossil_Island",
       "Friendly_Forester",
       "Isle_of_Souls",
+      "Sawmill",
       "Zanaris"
     ],
     "pets": [
@@ -413,7 +461,10 @@
     "name": "Morytania",
     "description": "Morytania is an area in the easternmost part of Gielinor. Often described as a land of evil, the land is filled with many aggressive creatures such as vampyres, werewolves, ghasts, and the undead. It is currently ruled by Lord Drakan.",
     "skilling": [
-      "Daeyalt_essence_mine"
+      "Blood_Altar",
+      "Canifis_Rooftop_Course",
+      "Daeyalt_essence_mine",
+      "Werewolf_Agility_Course"
     ],
     "raids": [
       "Theatre_of_Blood"
@@ -467,7 +518,9 @@
     "name": "Tirannwn",
     "description": "Tirannwn is a heavily forested region located west of Kandarin. It is said that the elves retreated here after the God Wars. Apart from elves, there are rabbits, dire wolves, and grizzly bears that inhabit Tirannwn. The many traps and dense forest make travelling through Tirannwn difficult and potentially dangerous.",
     "skilling": [
+      "Death_Altar",
       "Forestry",
+      "Prifddinas_Agility_Course",
       "Trahaearn_mine"
     ],
     "bosses": [
@@ -494,7 +547,9 @@
     ],
     "misc": [
       "Elven_Crystal_Chest",
-      "Friendly_Forester"
+      "Friendly_Forester",
+      "Portal_(Player-owned_house)#Prifddinas",
+      "Sawmill"
     ],
     "pets": [
       "Pet_snakeling",
@@ -509,7 +564,8 @@
     "skilling": [
       "Colossal_Wyrm_Agility_Course",
       "Forestry",
-      "Hunters'_Rumours"
+      "Hunters'_Rumours",
+      "Sunfire_runes"
     ],
     "bosses": [
       "Amoxliatl",
@@ -542,7 +598,10 @@
       "Sulphur_Nagua"
     ],
     "misc": [
-      "Moon_chest"
+      "Estate_agent#Varlamore",
+      "Metla",
+      "Moon_chest",
+      "Portal_(Player-owned_house)#Aldarin"
     ],
     "pets": [
       "Butch",
@@ -557,7 +616,9 @@
     "name": "Wilderness",
     "description": "The Wilderness, also known as the Wild or Wildy, is a large and dangerous wasteland that makes up most of north-eastern Gielinor.",
     "skilling": [
-      "Resource_Area"
+      "Chaos_Altar",
+      "Resource_Area",
+      "Wilderness_Agility_Course"
     ],
     "bosses": [
       "Callisto",

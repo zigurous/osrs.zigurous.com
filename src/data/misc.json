@@ -1,9 +1,8 @@
 [
   {
-    "id": "Abyssal_Space",
+    "id": "Abyssal_Area",
     "category": "location",
     "sortingGroups": [
-      "runecraft",
       "slayer",
       "pvm"
     ]
@@ -14,6 +13,15 @@
     "sortingGroups": ["magic"],
     "notableDrops": [
       "Ancient_spellbook"
+    ]
+  },
+  {
+    "id": "Arceuus_Library",
+    "title": "Arceuus Library",
+    "category": "misc",
+    "sortingGroups": ["magic", "runecraft", "misc"],
+    "notableDrops": [
+      "Book_of_arcane_knowledge"
     ]
   },
   {
@@ -164,6 +172,48 @@
     ]
   },
   {
+    "id": "Estate_agent#Ardougne",
+    "title": "Estate Agent",
+    "subtitle": "Ardougne",
+    "category": "npc",
+    "sortingGroups": ["construction"]
+  },
+  {
+    "id": "Estate_agent#Falador",
+    "title": "Estate Agent",
+    "subtitle": "Falador",
+    "category": "npc",
+    "sortingGroups": ["construction"]
+  },
+  {
+    "id": "Estate_agent#Hosidius",
+    "title": "Estate Agent",
+    "subtitle": "Hosidius",
+    "category": "npc",
+    "sortingGroups": ["construction"]
+  },
+  {
+    "id": "Estate_agent#Seers'_Village",
+    "title": "Estate Agent",
+    "subtitle": "Seers' Village",
+    "category": "npc",
+    "sortingGroups": ["construction"]
+  },
+  {
+    "id": "Estate_agent#Varlamore",
+    "title": "Estate Agent",
+    "subtitle": "Civitas illa Fortis",
+    "category": "npc",
+    "sortingGroups": ["construction"]
+  },
+  {
+    "id": "Estate_agent#Varrock",
+    "title": "Estate Agent",
+    "subtitle": "Varrock",
+    "category": "npc",
+    "sortingGroups": ["construction"]
+  },
+  {
     "id": "Fossil_Island",
     "category": "location",
     "sortingGroups": [
@@ -213,6 +263,21 @@
     ]
   },
   {
+    "id": "Grace",
+    "subtitle": "NPC",
+    "category": "npc",
+    "sortingGroups": ["agility"],
+    "notableDrops": [
+      "Graceful_hood",
+      "Graceful_top",
+      "Graceful_legs",
+      "Graceful_gloves",
+      "Graceful_boots",
+      "Graceful_cape",
+      "Amylase_pack"
+    ]
+  },
+  {
     "id": "Grubby_Chest",
     "category": "chest",
     "sortingGroups": ["misc"],
@@ -258,6 +323,19 @@
     ]
   },
   {
+    "id": "Metla",
+    "subtitle": "NPC",
+    "category": "npc",
+    "sortingGroups": ["construction"],
+    "notableDrops": [
+      "Limestone_brick",
+      "Marble_block",
+      "Gold_leaf",
+      "Magic_stone",
+      "Condensed_gold"
+    ]
+  },
+  {
     "id": "Moon_chest",
     "category": "chest",
     "sortingGroups": ["misc"],
@@ -293,6 +371,69 @@
       "Death_rune",
       "Chaos_rune"
     ]
+  },
+  {
+    "id": "Portal_(Player-owned_house)#Aldarin",
+    "title": "House Portal",
+    "subtitle": "Aldarin",
+    "category": "portal",
+    "sortingGroups": ["construction"]
+  },
+  {
+    "id": "Portal_(Player-owned_house)#Brimhaven",
+    "title": "House Portal",
+    "subtitle": "Brimhaven",
+    "category": "portal",
+    "sortingGroups": ["construction"]
+  },
+  {
+    "id": "Portal_(Player-owned_house)#Hosidius",
+    "title": "House Portal",
+    "subtitle": "Hosidius",
+    "category": "portal",
+    "sortingGroups": ["construction"]
+  },
+  {
+    "id": "Portal_(Player-owned_house)#Pollnivneach",
+    "title": "House Portal",
+    "subtitle": "Pollnivneach",
+    "category": "portal",
+    "sortingGroups": ["construction"]
+  },
+  {
+    "id": "Portal_(Player-owned_house)#Prifddinas",
+    "title": "House Portal",
+    "subtitle": "Prifddinas",
+    "category": "portal",
+    "sortingGroups": ["construction"]
+  },
+  {
+    "id": "Portal_(Player-owned_house)#Rellekka",
+    "title": "House Portal",
+    "subtitle": "Rellekka",
+    "category": "portal",
+    "sortingGroups": ["construction"]
+  },
+  {
+    "id": "Portal_(Player-owned_house)#Rimmington",
+    "title": "House Portal",
+    "subtitle": "Rimmington",
+    "category": "portal",
+    "sortingGroups": ["construction"]
+  },
+  {
+    "id": "Portal_(Player-owned_house)#Taverly",
+    "title": "House Portal",
+    "subtitle": "Taverly",
+    "category": "portal",
+    "sortingGroups": ["construction"]
+  },
+  {
+    "id": "Portal_(Player-owned_house)#Yanille",
+    "title": "House Portal",
+    "subtitle": "Yanille",
+    "category": "portal",
+    "sortingGroups": ["construction"]
   },
   {
     "id": "Resource_Area",
@@ -337,6 +478,20 @@
     ]
   },
   {
+    "id": "Sawmill",
+    "category": "misc",
+    "sortingGroups": ["construction"],
+    "notableDrops": [
+      "Plank",
+      "Oak_plank",
+      "Teak_plank",
+      "Mahogany_plank",
+      "Saw",
+      "Bolt_of_cloth",
+      "Steel_nails"
+    ]
+  },
+  {
     "id": "Sinister_chest",
     "category": "chest",
     "sortingGroups": ["misc"],
@@ -362,6 +517,19 @@
     "sortingGroups": ["magic"],
     "notableDrops": [
       "Standard_spellbook"
+    ]
+  },
+  {
+    "id": "Stonemason",
+    "subtitle": "NPC",
+    "category": "npc",
+    "sortingGroups": ["construction"],
+    "notableDrops": [
+      "Limestone_brick",
+      "Marble_block",
+      "Magic_stone",
+      "Gold_leaf",
+      "Condensed_gold"
     ]
   },
   {
