@@ -28,18 +28,22 @@
   {
     "id": "Aerial_fishing",
     "category": "skilling",
-    "sortingGroups": ["hunter", "fishing"],
+    "sortingGroups": ["fishing", "hunter"],
     "notableDrops": [
+      "Bluegill",
+      "Common_tench",
+      "Mottled_eel",
+      "Greater_siren",
       "Golden_tench",
+      "#newline",
+      "#newline",
+      "Molch_pearl",
+      "#transmute",
+      "Angler's_outfit",
       "Pearl_fishing_rod",
       "Pearl_fly_fishing_rod",
       "Pearl_barbarian_rod",
-      "Fish_sack",
-      "#newline",
-      "Angler_hat",
-      "Angler_top",
-      "Angler_waders",
-      "Angler_boots"
+      "Fish_sack"
     ]
   },
   {
@@ -108,11 +112,48 @@
     ]
   },
   {
+    "id": "Avium_Savannah",
+    "category": "skilling",
+    "sortingGroups": ["hunter"],
+    "notableDrops": [
+      "Embertailed_jerboa",
+      "Pyre_fox",
+      "Sunlight_Moth",
+      "Sunlight_antelope",
+      "Moonlight_moth",
+      "Moonlight_antelope"
+    ]
+  },
+  {
     "id": "Barbarian_Outpost_Agility_Course",
     "category": "skilling",
     "sortingGroups": ["agility"],
     "notableDrops": [
       "Mark_of_grace"
+    ]
+  },
+  {
+    "id": "Bird_house_trapping",
+    "title": "Bird Houses",
+    "subtitle": "Fossil Island",
+    "category": "skilling",
+    "sortingGroups": ["hunter"],
+    "notableDrops": [
+      "Clockwork",
+      "Raw_bird_meat",
+      "Feather",
+      "Bird_nest_(seeds)",
+      "Clue_nest"
+    ]
+  },
+  {
+    "id": "Black_chinchompa_(Hunter)",
+    "title": "Black Chinchompas",
+    "category": "skilling",
+    "sortingGroups": ["hunter"],
+    "notableDrops": [
+      "Baby_chinchompa",
+      "Black_chinchompa"
     ]
   },
   {
@@ -156,6 +197,14 @@
     ]
   },
   {
+    "id": "Boneyard_Hunter_area",
+    "category": "skilling",
+    "sortingGroups": ["hunter"],
+    "notableDrops": [
+      "Black_salamander_(Hunter)"
+    ]
+  },
+  {
     "id": "Burnt_trees",
     "subtitle": "Fossil Island",
     "category": "skilling",
@@ -165,11 +214,29 @@
     ]
   },
   {
+    "id": "Canifis_Hunter_area",
+    "category": "skilling",
+    "sortingGroups": ["hunter"],
+    "notableDrops": [
+      "Swamp_lizard"
+    ]
+  },
+  {
     "id": "Canifis_Rooftop_Course",
     "category": "skilling",
     "sortingGroups": ["agility"],
     "notableDrops": [
       "Mark_of_grace"
+    ]
+  },
+  {
+    "id": "Carnivorous_chinchompa",
+    "title": "Red Chinchompas",
+    "category": "skilling",
+    "sortingGroups": ["hunter"],
+    "notableDrops": [
+      "Baby_chinchompa",
+      "Red_chinchompa"
     ]
   },
   {
@@ -207,6 +274,17 @@
     "notableDrops": [
       "Cosmic_rune",
       "Cosmic_tiara"
+    ]
+  },
+  {
+    "id": "Crystal_impling",
+    "title": "Crystal Implings",
+    "category": "skilling",
+    "sortingGroups": ["hunter"],
+    "notableDrops": [
+      "Elven_signet",
+      "Crystal_acorn",
+      "Crystal_shard"
     ]
   },
   {
@@ -254,6 +332,15 @@
     ]
   },
   {
+    "id": "Drift_net_fishing",
+    "category": "skilling",
+    "sortingGroups": ["fishing", "hunter"],
+    "notableDrops": [
+      "Pufferfish",
+      "Clue_bottle_(medium)"
+    ]
+  },
+  {
     "id": "Dwarven_Mine",
     "category": "skilling",
     "sortingGroups": ["mining"],
@@ -283,6 +370,20 @@
     "sortingGroups": ["agility"],
     "notableDrops": [
       "Mark_of_grace"
+    ]
+  },
+  {
+    "id": "Feldip_Hunter_area",
+    "category": "skilling",
+    "sortingGroups": ["hunter"],
+    "notableDrops": [
+      "Crimson_swift",
+      "Feldip_weasel",
+      "Tropical_wagtail",
+      "Spined_larupia",
+      "Barb-tailed_kebbit",
+      "Black_warlock",
+      "Carnivorous_chinchompa"
     ]
   },
   {
@@ -413,6 +514,16 @@
     ]
   },
   {
+    "id": "Herbiboar",
+    "subtitle": "Fossil Island",
+    "category": "skilling",
+    "sortingGroups": ["hunter"],
+    "notableDrops": [
+      "Herbi",
+      "Grimy_herb"
+    ]
+  },
+  {
     "id": "Heroes'_Guild_mine",
     "category": "skilling",
     "sortingGroups": ["mining"],
@@ -446,6 +557,17 @@
     ]
   },
   {
+    "id": "Isle_of_Souls#Hunter",
+    "title": "Isle of Souls",
+    "category": "skilling",
+    "sortingGroups": ["hunter"],
+    "notableDrops": [
+      "Crimson_swift",
+      "Copper_longtail",
+      "Chinchompa_(Hunter)"
+    ]
+  },
+  {
     "id": "Jatizso_mine",
     "category": "skilling",
     "sortingGroups": ["mining"],
@@ -455,6 +577,24 @@
       "Adamantite_ore",
       "Coal",
       "Mithril_ore"
+    ]
+  },
+  {
+    "id": "Karamja_Hunter_area",
+    "category": "skilling",
+    "sortingGroups": ["hunter"],
+    "notableDrops": [
+      "Horned_graahk"
+    ]
+  },
+  {
+    "id": "Kourend_Woodland",
+    "category": "skilling",
+    "sortingGroups": ["hunter"],
+    "notableDrops": [
+      "Copper_longtail",
+      "Ruby_harvest",
+      "Chinchompa_(Hunter)"
     ]
   },
   {
@@ -504,6 +644,15 @@
     ]
   },
   {
+    "id": "Maniacal_monkey_(Hunter)",
+    "title": "Maniacal Monkeys",
+    "category": "skilling",
+    "sortingGroups": ["hunter"],
+    "notableDrops": [
+      "Monkey_tail"
+    ]
+  },
+  {
     "id": "Mature_juniper_tree",
     "title": "Juniper Trees",
     "category": "skilling",
@@ -523,6 +672,17 @@
     "notableDrops": [
       "Mind_rune",
       "Mind_tiara"
+    ]
+  },
+  {
+    "id": "Mons_Gratia#Hunter",
+    "title": "Mons Gratia Hunter Area",
+    "category": "skilling",
+    "sortingGroups": ["hunter"],
+    "notableDrops": [
+      "Cerulean_twitch",
+      "Sapphire_glacialis",
+      "Snowy_knight"
     ]
   },
   {
@@ -548,6 +708,14 @@
     ]
   },
   {
+    "id": "Necropolis_Hunter_area",
+    "category": "skilling",
+    "sortingGroups": ["hunter"],
+    "notableDrops": [
+      "Orange_salamander_(Hunter)"
+    ]
+  },
+  {
     "id": "Ourania_Altar",
     "category": "skilling",
     "sortingGroups": ["runecraft"],
@@ -569,11 +737,45 @@
     ]
   },
   {
+    "id": "Ourania_Hunter_area",
+    "category": "skilling",
+    "sortingGroups": ["hunter"],
+    "notableDrops": [
+      "Red_salamander_(Hunter)"
+    ]
+  },
+  {
     "id": "Penguin_Agility_Course",
     "category": "skilling",
     "sortingGroups": ["agility"],
     "notableDrops": [
       "Clockwork_suit"
+    ]
+  },
+  {
+    "id": "Piscatoris_falconry_area",
+    "category": "skilling",
+    "sortingGroups": ["hunter"],
+    "notableDrops": [
+      "Spotted_kebbit",
+      "Dark_kebbit",
+      "Dashing_kebbit"
+    ]
+  },
+  {
+    "id": "Piscatoris_Hunter_area",
+    "category": "skilling",
+    "sortingGroups": ["hunter"],
+    "notableDrops": [
+      "Common_kebbit",
+      "Copper_longtail",
+      "Ruby_harvest",
+      "Wild_kebbit",
+      "Ferret",
+      "White_rabbit",
+      "Prickly_kebbit",
+      "Razor-backed_kebbit",
+      "Chinchompa_(Hunter)"
     ]
   },
   {
@@ -593,20 +795,24 @@
     ]
   },
   {
-    "id": "Red_chinchompa_hunting_ground",
-    "category": "skilling",
-    "sortingGroups": ["hunter"],
-    "notableDrops": [
-      "Baby_chinchompa",
-      "Red_chinchompa"
-    ]
-  },
-  {
     "id": "Redwood_trees",
     "category": "skilling",
     "sortingGroups": ["woodcutting"],
     "notableDrops": [
       "Redwood_logs"
+    ]
+  },
+  {
+    "id": "Rellekka_Hunter_area",
+    "category": "skilling",
+    "sortingGroups": ["hunter"],
+    "notableDrops": [
+      "Polar_kebbit",
+      "Cerulean_twitch",
+      "Sapphire_glacialis",
+      "Snowy_knight",
+      "Sabre-toothed_kebbit",
+      "Sabre-toothed_kyatt"
     ]
   },
   {
@@ -626,6 +832,16 @@
       "Urt_salt",
       "Te_salt",
       "Basalt"
+    ]
+  },
+  {
+    "id": "Sandworms",
+    "category": "skilling",
+    "sortingGroups": ["hunter"],
+    "notableDrops": [
+      "Bucket_of_sandworms",
+      "#transmute",
+      "Sandworms"
     ]
   },
   {
@@ -756,6 +972,16 @@
     "sortingGroups": ["woodcutting"],
     "notableDrops": [
       "Teak_logs"
+    ]
+  },
+  {
+    "id": "Tecu_salamander_(Hunter)",
+    "title": "Tecu Salamanders",
+    "category": "skilling",
+    "sortingGroups": ["hunter"],
+    "notableDrops": [
+      "Immature_tecu_salamander",
+      "Tecu_salamander"
     ]
   },
   {
@@ -910,6 +1136,16 @@
       "Seaweed_spore",
       "Merfolk_trident",
       "Fossil_Island_fossil"
+    ]
+  },
+  {
+    "id": "Uzer_Hunter_area",
+    "category": "skilling",
+    "sortingGroups": ["hunter"],
+    "notableDrops": [
+      "Golden_warbler",
+      "Desert_devil",
+      "Orange_salamander_(Hunter)"
     ]
   },
   {

@@ -64,6 +64,10 @@
     ]
   },
   {
+    "id": "Angler's_outfit",
+    "icon": "Angler_hat"
+  },
+  {
     "id": "Araxyte_fang",
     "transmutations": [
       "#plus",
@@ -1109,6 +1113,10 @@
   {
     "id": "Mermaid's_tear",
     "icon": "Mermaid's_tear_5"
+  },
+  {
+    "id": "Molch_pearl",
+    "icon": "Molch_pearl_5"
   },
   {
     "id": "Moonlight_antelope",

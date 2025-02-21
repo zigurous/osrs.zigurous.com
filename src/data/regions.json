@@ -86,10 +86,12 @@
       "Hardwood_trees#Uzer_Oasis",
       "Kharidian_cactus",
       "Lava_runes",
+      "Necropolis_Hunter_area",
       "Pollnivneach_Rooftop_Course",
       "Scar_essence_mine",
       "Teak_tree#Ruins_of_Ullek",
-      "Trees#Al_Kharid"
+      "Trees#Al_Kharid",
+      "Uzer_Hunter_area"
     ],
     "raids": [
       "Tombs_of_Amascut"
@@ -141,6 +143,7 @@
       "Jatizso_mine",
       "Lunar_Isle_mine",
       "Penguin_Agility_Course",
+      "Rellekka_Hunter_area",
       "Rellekka_Rooftop_Course",
       "Salt_Mine",
       "Trees#Fremennik"
@@ -201,11 +204,16 @@
       "Ape_Atoll_Agility_Course",
       "Ardougne_Rooftop_Course",
       "Barbarian_Outpost_Agility_Course",
+      "Carnivorous_chinchompa",
+      "Feldip_Hunter_area",
       "Forestry",
       "Gnome_Stronghold_Agility_Course",
       "Hardwood_trees#Ape_Atoll",
+      "Maniacal_monkey_(Hunter)",
       "Ourania_Altar",
-      "Red_chinchompa_hunting_ground",
+      "Ourania_Hunter_area",
+      "Piscatoris_falconry_area",
+      "Piscatoris_Hunter_area",
       "Seers'_Village_Rooftop_Course",
       "Teak_tree#Castle_Wars",
       "Trees#Kandarin",
@@ -278,6 +286,7 @@
     "skilling": [
       "Hardwood_Grove",
       "Hardwood_trees#Kharazi_Jungle",
+      "Karamja_Hunter_area",
       "Nature_Altar",
       "Shilo_Village_mine"
     ],
@@ -324,9 +333,11 @@
       "Arceuus_Library",
       "Blood_Altar_(Kourend)",
       "Forestry",
+      "Kourend_Woodland",
       "Mahogany_tree#Farming_Guild",
       "Mature_juniper_tree",
       "Redwood_trees",
+      "Sandworms",
       "Shayzien_Agility_Course",
       "Soul_Altar",
       "Trees#Kourend"
@@ -402,14 +413,18 @@
     "description": "Misthalin is a major kingdom within Gielinor, the most powerful human nation and by far the oldest. Its capital, Varrock, has existed in some form since soon after the end of the God Wars. It is divided in half by the River Lum, and its eastern border with Morytania is the River Salve.",
     "skilling": [
       "Abyss",
+      "Bird_house_trapping",
       "Burnt_trees",
       "Cosmic_Altar",
       "Dorgesh-Kaan_Agility_Course",
       "Draynor_Village_Rooftop_Course",
+      "Drift_net_fishing",
       "Earth_Altar",
       "Forestry",
       "H.A.M._Hideout",
       "Hardwood_trees#Isle_of_Souls",
+      "Herbiboar",
+      "Isle_of_Souls#Hunter",
       "Sulliusceps",
       "Trees#Isle_of_Souls",
       "Trees#Misthalin",
@@ -488,6 +503,7 @@
     "skilling": [
       "Blisterwood_tree",
       "Blood_Altar",
+      "Canifis_Hunter_area",
       "Canifis_Rooftop_Course",
       "Daeyalt_essence_mine",
       "Hardwood_trees#Mos_Le'Harmless",
@@ -548,6 +564,8 @@
     "name": "Tirannwn",
     "description": "Tirannwn is a heavily forested region located west of Kandarin. It is said that the elves retreated here after the God Wars. Apart from elves, there are rabbits, dire wolves, and grizzly bears that inhabit Tirannwn. The many traps and dense forest make travelling through Tirannwn difficult and potentially dangerous.",
     "skilling": [
+      "Carnivorous_chinchompa",
+      "Crystal_impling",
       "Death_Altar",
       "Forestry",
       "Hardwood_trees#Prifddinas",
@@ -594,11 +612,13 @@
     "name": "Varlamore",
     "description": "The Kingdom of Varlamore, also known as the Shining Kingdom, is a kingdom found in the continent of Zeah, far west of the mainland across the Western Sea. Like Great Kourend, it stands as one of the largest kingdoms in Gielinor, and one of the most distinct, given its isolation from the rest of the mainland.",
     "skilling": [
+      "Avium_Savannah",
       "Colossal_Wyrm_Agility_Course",
       "Forestry",
       "Hunters'_Rumours",
       "Sunfire_runes",
       "Teak_tree#Locus_Oasis",
+      "Tecu_salamander_(Hunter)",
       "Trees#Varlamore"
     ],
     "bosses": [
@@ -627,6 +647,7 @@
       "Frost_Nagua",
       "Hill_Giant_(Varlamore)",
       "Ice_giant",
+      "Mons_Gratia#Hunter",
       "Moonlight_Cockatrice",
       "Moss_giant",
       "Sulphur_Nagua"
@@ -650,6 +671,8 @@
     "name": "Wilderness",
     "description": "The Wilderness, also known as the Wild or Wildy, is a large and dangerous wasteland that makes up most of north-eastern Gielinor.",
     "skilling": [
+      "Black_chinchompa_(Hunter)",
+      "Boneyard_Hunter_area",
       "Chaos_Altar",
       "Dead_trees",
       "Resource_Area",
