@@ -78,6 +78,14 @@ export const createSchemaCustomization = ({
       sortingGroups: [String!]!
       notableDrops: [String!]
     }
+    type NpcsJson implements Node @dontInfer {
+      jsonId: String!
+      title: String
+      subtitle: String
+      category: String
+      sortingGroups: [String!]!
+      notableDrops: [String!]
+    }
     type PetsJson implements Node @dontInfer {
       jsonId: String!
       icon: String

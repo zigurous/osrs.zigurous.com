@@ -72,6 +72,22 @@
     ]
   },
   {
+    "id": "Amethyst#Crafting",
+    "title": "Amethyst",
+    "category": "skilling",
+    "sortingGroups": ["crafting"],
+    "notableDrops": [
+      "Chisel",
+      "#plus",
+      "Amethyst",
+      "#equals",
+      "Amethyst_bolt_tips",
+      "Amethyst_arrowtips",
+      "Amethyst_javelin_heads",
+      "Amethyst_dart_tip"
+    ]
+  },
+  {
     "id": "Ape_Atoll_Agility_Course",
     "category": "skilling",
     "sortingGroups": ["agility"],
@@ -139,11 +155,10 @@
     "category": "skilling",
     "sortingGroups": ["hunter"],
     "notableDrops": [
-      "Clockwork",
-      "Raw_bird_meat",
-      "Feather",
       "Bird_nest_(seeds)",
-      "Clue_nest"
+      "Clue_nest",
+      "Raw_bird_meat",
+      "Feather"
     ]
   },
   {
@@ -154,6 +169,20 @@
     "notableDrops": [
       "Baby_chinchompa",
       "Black_chinchompa"
+    ]
+  },
+  {
+    "id": "Black_dragonhide_armour",
+    "category": "skilling",
+    "sortingGroups": ["crafting"],
+    "notableDrops": [
+      "Black_dragonhide",
+      "#transmute",
+      "Black_dragon_leather",
+      "#transmute",
+      "Black_d'hide_body",
+      "Black_d'hide_chaps",
+      "Black_d'hide_vambraces"
     ]
   },
   {
@@ -185,6 +214,20 @@
     "sortingGroups": ["runecraft"],
     "notableDrops": [
       "Blood_rune"
+    ]
+  },
+  {
+    "id": "Blue_dragonhide_armour",
+    "category": "skilling",
+    "sortingGroups": ["crafting"],
+    "notableDrops": [
+      "Blue_dragonhide",
+      "#transmute",
+      "Blue_dragon_leather",
+      "#transmute",
+      "Blue_d'hide_body",
+      "Blue_d'hide_chaps",
+      "Blue_d'hide_vambraces"
     ]
   },
   {
@@ -277,6 +320,55 @@
     ]
   },
   {
+    "id": "Crafting#Birdhouses",
+    "title": "Bird Houses",
+    "subtitle": "Fossil Island",
+    "category": "skilling",
+    "sortingGroups": ["crafting"],
+    "notableDrops": [
+      "Bird_house",
+      "Oak_bird_house",
+      "Willow_bird_house",
+      "Teak_bird_house",
+      "Maple_bird_house",
+      "Mahogany_bird_house",
+      "Yew_bird_house",
+      "Magic_bird_house",
+      "Redwood_bird_house"
+    ]
+  },
+  {
+    "id": "Crafting#Gems",
+    "title": "Cutting Gems",
+    "category": "skilling",
+    "sortingGroups": ["crafting"],
+    "notableDrops": [
+      "Chisel",
+      "#plus",
+      "Uncut_sapphire",
+      "#equals",
+      "Sapphire",
+      "#newline",
+      "Chisel",
+      "#plus",
+      "Uncut_emerald",
+      "#equals",
+      "Emerald",
+      "#newline",
+      "Chisel",
+      "#plus",
+      "Uncut_ruby",
+      "#equals",
+      "Ruby",
+      "#newline",
+      "Chisel",
+      "#plus",
+      "Uncut_diamond",
+      "#equals",
+      "Diamond"
+    ]
+  },
+  {
     "id": "Crystal_impling",
     "title": "Crystal Implings",
     "category": "skilling",
@@ -285,6 +377,27 @@
       "Elven_signet",
       "Crystal_acorn",
       "Crystal_shard"
+    ]
+  },
+  {
+    "id": "Crystal_singing",
+    "category": "skilling",
+    "sortingGroups": ["crafting"],
+    "notableDrops": [
+      "Bow_of_faerdhinen",
+      "Blade_of_saeldor",
+      "Crystal_helm",
+      "Crystal_body",
+      "Crystal_legs",
+      "Eternal_teleport_crystal",
+      "Enhanced_crystal_key",
+      "Crystal_bow",
+      "Crystal_halberd",
+      "Crystal_shield",
+      "Crystal_axe",
+      "Crystal_harpoon",
+      "Crystal_pickaxe",
+      "Celestial_signet"
     ]
   },
   {
@@ -414,11 +527,39 @@
     ]
   },
   {
+    "id": "Glassblowing",
+    "category": "skilling",
+    "sortingGroups": ["crafting"],
+    "notableDrops": [
+      "Beer_glass",
+      "Empty_candle_lantern",
+      "Empty_oil_lamp",
+      "Vial",
+      "Unpowered_orb",
+      "Lantern_lens",
+      "Empty_light_orb"
+    ]
+  },
+  {
     "id": "Gnome_Stronghold_Agility_Course",
     "category": "skilling",
     "sortingGroups": ["agility"],
     "notableDrops": [
       "Mark_of_grace"
+    ]
+  },
+  {
+    "id": "Green_dragonhide_armour",
+    "category": "skilling",
+    "sortingGroups": ["crafting"],
+    "notableDrops": [
+      "Green_dragonhide",
+      "#transmute",
+      "Green_dragon_leather",
+      "#transmute",
+      "Green_d'hide_body",
+      "Green_d'hide_chaps",
+      "Green_d'hide_vambraces"
     ]
   },
   {
@@ -543,6 +684,19 @@
     ]
   },
   {
+    "id": "Hueycoatl_hide_armour",
+    "category": "skilling",
+    "sortingGroups": ["crafting"],
+    "notableDrops": [
+      "Hueycoatl_hide",
+      "#transmute",
+      "Hueycoatl_hide_coif",
+      "Hueycoatl_hide_body",
+      "Hueycoatl_hide_chaps",
+      "Hueycoatl_hide_vambraces"
+    ]
+  },
+  {
     "id": "Hunters'_Rumours",
     "category": "skilling",
     "sortingGroups": ["hunter"],
@@ -616,6 +770,31 @@
     ]
   },
   {
+    "id": "Leather_armour",
+    "category": "skilling",
+    "sortingGroups": ["crafting"],
+    "notableDrops": [
+      "Leather",
+      "#transmute",
+      "Leather_gloves",
+      "Leather_boots",
+      "Leather_cowl",
+      "Leather_body",
+      "Leather_chaps",
+      "Leather_vambraces"
+    ]
+  },
+  {
+    "id": "Loom",
+    "category": "skilling",
+    "sortingGroups": ["crafting"],
+    "notableDrops": [
+      "Basket",
+      "Empty_sack",
+      "Drift_net"
+    ]
+  },
+  {
     "id": "Lunar_Isle_mine",
     "category": "skilling",
     "sortingGroups": ["mining"],
@@ -675,6 +854,17 @@
     ]
   },
   {
+    "id": "Mixed_hide_armour",
+    "category": "skilling",
+    "sortingGroups": ["crafting"],
+    "notableDrops": [
+      "Mixed_hide_top",
+      "Mixed_hide_legs",
+      "Mixed_hide_boots",
+      "Mixed_hide_cape"
+    ]
+  },
+  {
     "id": "Mons_Gratia#Hunter",
     "title": "Mons Gratia Hunter Area",
     "category": "skilling",
@@ -713,6 +903,81 @@
     "sortingGroups": ["hunter"],
     "notableDrops": [
       "Orange_salamander_(Hunter)"
+    ]
+  },
+  {
+    "id": "Obelisk_of_Air",
+    "title": "Air Obelisk",
+    "category": "skilling",
+    "sortingGroups": ["crafting"],
+    "notableDrops": [
+      "Unpowered_orb",
+      "#transmute",
+      "Air_orb",
+      "#plus",
+      "Battlestaff",
+      "#equals",
+      "Air_battlestaff"
+    ]
+  },
+  {
+    "id": "Obelisk_of_Earth",
+    "title": "Earth Obelisk",
+    "category": "skilling",
+    "sortingGroups": ["crafting"],
+    "notableDrops": [
+      "Unpowered_orb",
+      "#transmute",
+      "Earth_orb",
+      "#plus",
+      "Battlestaff",
+      "#equals",
+      "Earth_battlestaff"
+    ]
+  },
+  {
+    "id": "Obelisk_of_Fire",
+    "title": "Fire Obelisk",
+    "category": "skilling",
+    "sortingGroups": ["crafting"],
+    "notableDrops": [
+      "Unpowered_orb",
+      "#transmute",
+      "Fire_orb",
+      "#plus",
+      "Battlestaff",
+      "#equals",
+      "Fire_battlestaff"
+    ]
+  },
+  {
+    "id": "Obelisk_of_Water",
+    "title": "Water Obelisk",
+    "category": "skilling",
+    "sortingGroups": ["crafting"],
+    "notableDrops": [
+      "Unpowered_orb",
+      "#transmute",
+      "Water_orb",
+      "#plus",
+      "Battlestaff",
+      "#equals",
+      "Water_battlestaff"
+    ]
+  },
+  {
+    "id": "Onyx#Crafting",
+    "title": "Onyx Jewellery",
+    "category": "skilling",
+    "sortingGroups": ["crafting"],
+    "notableDrops": [
+      "Onyx",
+      "Gold_bar",
+      "#transmute",
+      "Ring_of_stone",
+      "Berserker_necklace",
+      "Regen_bracelet",
+      "Amulet_of_fury"
     ]
   },
   {
@@ -787,11 +1052,38 @@
     ]
   },
   {
+    "id": "Pottery_Oven",
+    "category": "skilling",
+    "sortingGroups": ["crafting"],
+    "notableDrops": [
+      "Bowl",
+      "Empty_cup",
+      "Empty_plant_pot",
+      "Pie_dish",
+      "Pot",
+      "Pot_lid"
+    ]
+  },
+  {
     "id": "Prifddinas_Agility_Course",
     "category": "skilling",
     "sortingGroups": ["agility"],
     "notableDrops": [
       "Crystal_shard"
+    ]
+  },
+  {
+    "id": "Red_dragonhide_armour",
+    "category": "skilling",
+    "sortingGroups": ["crafting"],
+    "notableDrops": [
+      "Red_dragonhide",
+      "#transmute",
+      "Red_dragon_leather",
+      "#transmute",
+      "Red_d'hide_body",
+      "Red_d'hide_chaps",
+      "Red_d'hide_vambraces"
     ]
   },
   {
@@ -911,11 +1203,69 @@
     ]
   },
   {
+    "id": "Snakeskin_armour",
+    "category": "skilling",
+    "sortingGroups": ["crafting"],
+    "notableDrops": [
+      "Snakeskin",
+      "#transmute",
+      "Snakeskin_bandana",
+      "Snakeskin_body",
+      "Snakeskin_boots",
+      "Snakeskin_chaps",
+      "Snakeskin_vambraces"
+    ]
+  },
+  {
+    "id": "Snelms",
+    "category": "skilling",
+    "sortingGroups": ["crafting"],
+    "notableDrops": [
+      "Pointed_blood'n'tar_snelm",
+      "Blood'n'tar_snelm",
+      "Pointed_bruise_blue_snelm",
+      "Bruise_blue_snelm",
+      "Pointed_myre_snelm",
+      "Myre_snelm",
+      "Broken_bark_snelm",
+      "Pointed_ochre_snelm",
+      "Ochre_snelm"
+    ]
+  },
+  {
     "id": "Soul_Altar",
     "category": "skilling",
     "sortingGroups": ["runecraft"],
     "notableDrops": [
       "Soul_rune"
+    ]
+  },
+  {
+    "id": "Spinning_wheel",
+    "category": "skilling",
+    "sortingGroups": ["crafting"],
+    "notableDrops": [
+      "Ball_of_wool",
+      "Bow_string",
+      "Crossbow_string",
+      "Magic_string",
+      "Rope"
+    ]
+  },
+  {
+    "id": "Splitbark_armour",
+    "category": "skilling",
+    "sortingGroups": ["crafting"],
+    "notableDrops": [
+      "Bark",
+      "#transmute",
+      "Splitbark_helm",
+      "Splitbark_body",
+      "Splitbark_gauntlets",
+      "Splitbark_legs",
+      "Splitbark_boots",
+      "#newline",
+      "Fine_cloth"
     ]
   },
   {
@@ -1194,6 +1544,44 @@
     "notableDrops": [
       "Wrath_rune",
       "Wrath_tiara"
+    ]
+  },
+  {
+    "id": "Xerician_robes",
+    "category": "skilling",
+    "sortingGroups": ["crafting"],
+    "notableDrops": [
+      "Xerician_fabric",
+      "#transmute",
+      "Xerician_hat",
+      "Xerician_top",
+      "Xerician_robe"
+    ]
+  },
+  {
+    "id": "Yak-hide_armour",
+    "category": "skilling",
+    "sortingGroups": ["crafting"],
+    "notableDrops": [
+      "Yak-hide",
+      "#transmute",
+      "Yak-hide_armour_(top)",
+      "Yak-hide_armour_(legs)"
+    ]
+  },
+  {
+    "id": "Zenyte#Crafting",
+    "title": "Zenyte Jewellery",
+    "category": "skilling",
+    "sortingGroups": ["crafting"],
+    "notableDrops": [
+      "Zenyte",
+      "Gold_bar",
+      "#transmute",
+      "Ring_of_suffering",
+      "Necklace_of_anguish",
+      "Tormented_bracelet",
+      "Amulet_of_torture"
     ]
   }
 ]

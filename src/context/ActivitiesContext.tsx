@@ -33,6 +33,7 @@ export function ActivitiesContextProvider({
         ...data.skilling.nodes,
         ...data.dungeons.nodes,
         ...data.monsters.nodes,
+        ...data.npcs.nodes,
         ...data.misc.nodes,
       ].sort((a, b) => a.id.localeCompare(b.id)) as Activity[],
     [data],
@@ -63,6 +64,7 @@ interface ActivitiesQueryData {
   skilling: { nodes: Activity[] };
   dungeons: { nodes: Dungeon[] };
   monsters: { nodes: Activity[] };
+  npcs: { nodes: Activity[] };
   misc: { nodes: Activity[] };
 }
 
@@ -137,6 +139,16 @@ const dataQuery = graphql`
       nodes {
         id: jsonId
         title: name
+        subtitle
+        category
+        sortingGroups
+        notableDrops
+      }
+    }
+    npcs: allNpcsJson {
+      nodes {
+        id: jsonId
+        title
         subtitle
         category
         sortingGroups

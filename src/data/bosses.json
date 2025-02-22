@@ -758,7 +758,7 @@
     "id": "Vorkath",
     "icon": "Vorkath_icon_(mobile)",
     "category": "boss",
-    "sortingGroups": ["pvm", "slayer", "melee", "ranged"],
+    "sortingGroups": ["pvm", "slayer", "melee", "ranged", "prayer", "crafting"],
     "recommendedCombatStyle": ["melee", "ranged"],
     "notableDrops": [
       "Vorki",
@@ -767,7 +767,13 @@
       "Skeletal_visage",
       "Dragonbone_necklace",
       "Jar_of_decay",
-      "Superior_dragon_bones"
+      "#newline",
+      "Blue_dragonhide",
+      "Green_dragonhide",
+      "Red_dragonhide",
+      "Black_dragonhide",
+      "Superior_dragon_bones",
+      "Dragon_bones"
     ]
   },
   {

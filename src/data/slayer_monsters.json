@@ -466,8 +466,9 @@
   },
   {
     "id": "Black_dragon",
+    "name": "Black Dragons",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer", "prayer", "crafting"],
     "requiredCombatLevel": 80,
     "slayerMasters": [
       "Krystilia",
@@ -531,8 +532,9 @@
   {
     "id": "Blue_dragon",
     "icon": "Blue_dragon_mask",
+    "name": "Blue Dragons",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer", "prayer", "crafting"],
     "requiredCombatLevel": 65,
     "slayerMasters": [
       "Vannaka",
@@ -1515,8 +1517,9 @@
   {
     "id": "Green_dragon",
     "icon": "Green_dragon_mask",
+    "name": "Green Dragons",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer", "prayer", "crafting"],
     "requiredCombatLevel": 52,
     "slayerMasters": [
       "Krystilia"
@@ -2520,8 +2523,9 @@
   },
   {
     "id": "Red_dragon",
+    "name": "Red Dragons",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer", "prayer", "crafting"],
     "requiredCombatLevel": 68,
     "slayerMasters": [
       "Konar_quo_Maten",

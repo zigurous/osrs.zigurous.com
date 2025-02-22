@@ -5,14 +5,23 @@
     "description": "The Kingdom of Asgarnia is one of the main kingdoms of Gielinor. Asgarnia's primary economic activities are crafting, mining, and fishing. It also has a notable navy based in Port Sarim.",
     "skilling": [
       "Air_Altar",
+      "Amethyst#Crafting",
       "Body_Altar",
+      "Crafting#Gems",
       "Dwarven_Mine",
       "Falador_Rooftop_Course",
+      "Glassblowing",
       "Heroes'_Guild_mine",
       "Law_Altar",
+      "Leather_armour",
+      "Loom",
       "Mind_Altar",
       "Motherlode_Mine",
+      "Obelisk_of_Fire",
+      "Obelisk_of_Water",
+      "Pottery_Oven",
       "Shooting_Stars",
+      "Spinning_wheel",
       "Trees#Asgarnia"
     ],
     "bosses": [
@@ -61,7 +70,8 @@
       "Grace",
       "Portal_(Player-owned_house)#Rimmington",
       "Portal_(Player-owned_house)#Taverly",
-      "Ruins_of_Camdozaal"
+      "Ruins_of_Camdozaal",
+      "Tanner_(Crafting_Guild)"
     ],
     "pets": [
       "Baby_mole",
@@ -82,13 +92,18 @@
     "skilling": [
       "Agility_Pyramid",
       "Al_Kharid_Rooftop_Course",
+      "Crafting#Gems",
       "Fire_Altar",
+      "Glassblowing",
       "Hardwood_trees#Uzer_Oasis",
       "Kharidian_cactus",
       "Lava_runes",
+      "Leather_armour",
       "Necropolis_Hunter_area",
       "Pollnivneach_Rooftop_Course",
+      "Sandstorm",
       "Scar_essence_mine",
+      "Spinning_wheel",
       "Teak_tree#Ruins_of_Ullek",
       "Trees#Al_Kharid",
       "Uzer_Hunter_area"
@@ -123,6 +138,7 @@
     ],
     "misc": [
       "Ancient_Magicks",
+      "Ellis",
       "Portal_(Player-owned_house)#Pollnivneach"
     ],
     "pets": [
@@ -140,13 +156,18 @@
     "skilling": [
       "Arctic_pine_trees",
       "Astral_Altar",
+      "Crafting#Gems",
+      "Glassblowing",
       "Jatizso_mine",
       "Lunar_Isle_mine",
       "Penguin_Agility_Course",
+      "Pottery_Oven",
       "Rellekka_Hunter_area",
       "Rellekka_Rooftop_Course",
       "Salt_Mine",
-      "Trees#Fremennik"
+      "Spinning_wheel",
+      "Trees#Fremennik",
+      "Yak-hide_armour"
     ],
     "bosses": [
       "Dagannoth_Kings",
@@ -205,19 +226,25 @@
       "Ardougne_Rooftop_Course",
       "Barbarian_Outpost_Agility_Course",
       "Carnivorous_chinchompa",
+      "Crafting#Gems",
       "Feldip_Hunter_area",
       "Forestry",
+      "Glassblowing",
       "Gnome_Stronghold_Agility_Course",
       "Hardwood_trees#Ape_Atoll",
+      "Leather_armour",
       "Maniacal_monkey_(Hunter)",
       "Ourania_Altar",
       "Ourania_Hunter_area",
       "Piscatoris_falconry_area",
       "Piscatoris_Hunter_area",
+      "Pottery_Oven",
       "Seers'_Village_Rooftop_Course",
+      "Spinning_wheel",
       "Teak_tree#Castle_Wars",
       "Trees#Kandarin",
-      "Wrath_Altar"
+      "Wrath_Altar",
+      "Zenyte#Crafting"
     ],
     "bosses": [
       "Kraken",
@@ -267,6 +294,7 @@
       "Estate_agent#Ardougne",
       "Estate_agent#Seers'_Village",
       "Friendly_Forester",
+      "Leatherworker",
       "Portal_(Player-owned_house)#Yanille",
       "Sinister_chest"
     ],
@@ -284,10 +312,13 @@
     "name": "Karamja",
     "description": "Karamja is a large island in Gielinor. It is located to the south of the major kingdoms of Asgarnia and Kandarin. The island contains mostly jungle and tropical geography. Different tribes of Karamja speak different Karamjan languages.",
     "skilling": [
+      "Crafting#Gems",
+      "Glassblowing",
       "Hardwood_Grove",
       "Hardwood_trees#Kharazi_Jungle",
       "Karamja_Hunter_area",
       "Nature_Altar",
+      "Onyx#Crafting",
       "Shilo_Village_mine"
     ],
     "bosses": [
@@ -332,15 +363,20 @@
       "Aerial_fishing",
       "Arceuus_Library",
       "Blood_Altar_(Kourend)",
+      "Crafting#Gems",
       "Forestry",
+      "Glassblowing",
       "Kourend_Woodland",
+      "Loom",
       "Mahogany_tree#Farming_Guild",
       "Mature_juniper_tree",
       "Redwood_trees",
       "Sandworms",
       "Shayzien_Agility_Course",
       "Soul_Altar",
-      "Trees#Kourend"
+      "Spinning_wheel",
+      "Trees#Kourend",
+      "Xerician_robes"
     ],
     "raids": [
       "Chambers_of_Xeric"
@@ -385,6 +421,7 @@
       "Lizardmen",
       "Moss_giant",
       "Mutated_Bloodveld",
+      "Red_dragon",
       "Twisted_Banshee",
       "Warped_Jelly",
       "Wyrm"
@@ -394,8 +431,10 @@
       "Brimstone_chest",
       "Combat_Ring_(Shayzien)",
       "Ents",
+      "Eodan",
       "Estate_agent#Hosidius",
       "Grubby_Chest",
+      "Mary_(Getting_Ahead)",
       "Portal_(Player-owned_house)#Hosidius",
       "Sawmill"
     ],
@@ -416,15 +455,21 @@
       "Bird_house_trapping",
       "Burnt_trees",
       "Cosmic_Altar",
+      "Crafting#Birdhouses",
+      "Crafting#Gems",
       "Dorgesh-Kaan_Agility_Course",
       "Draynor_Village_Rooftop_Course",
       "Drift_net_fishing",
       "Earth_Altar",
       "Forestry",
+      "Glassblowing",
       "H.A.M._Hideout",
       "Hardwood_trees#Isle_of_Souls",
       "Herbiboar",
       "Isle_of_Souls#Hunter",
+      "Loom",
+      "Pottery_Oven",
+      "Spinning_wheel",
       "Sulliusceps",
       "Trees#Isle_of_Souls",
       "Trees#Misthalin",
@@ -505,10 +550,16 @@
       "Blood_Altar",
       "Canifis_Hunter_area",
       "Canifis_Rooftop_Course",
+      "Crafting#Gems",
       "Daeyalt_essence_mine",
+      "Glassblowing",
       "Hardwood_trees#Mos_Le'Harmless",
       "Hollow_trees",
+      "Pottery_Oven",
       "Scrapey_tree",
+      "Snakeskin_armour",
+      "Snelms",
+      "Splitbark_armour",
       "Trees#Morytania",
       "Werewolf_Agility_Course"
     ],
@@ -550,6 +601,7 @@
       "Vyrewatch_Sentinel"
     ],
     "misc": [
+      "Sbott",
       "Slayer_Tower"
     ],
     "pets": [
@@ -565,11 +617,16 @@
     "description": "Tirannwn is a heavily forested region located west of Kandarin. It is said that the elves retreated here after the God Wars. Apart from elves, there are rabbits, dire wolves, and grizzly bears that inhabit Tirannwn. The many traps and dense forest make travelling through Tirannwn difficult and potentially dangerous.",
     "skilling": [
       "Carnivorous_chinchompa",
+      "Crafting#Gems",
       "Crystal_impling",
+      "Crystal_singing",
       "Death_Altar",
       "Forestry",
+      "Glassblowing",
       "Hardwood_trees#Prifddinas",
+      "Loom",
       "Prifddinas_Agility_Course",
+      "Spinning_wheel",
       "Trahaearn_mine",
       "Trees#Tirannwn"
     ],
@@ -614,8 +671,14 @@
     "skilling": [
       "Avium_Savannah",
       "Colossal_Wyrm_Agility_Course",
+      "Crafting#Gems",
       "Forestry",
+      "Glassblowing",
+      "Hueycoatl_hide_armour",
       "Hunters'_Rumours",
+      "Loom",
+      "Mixed_hide_armour",
+      "Spinning_wheel",
       "Sunfire_runes",
       "Teak_tree#Locus_Oasis",
       "Tecu_salamander_(Hunter)",
@@ -674,7 +737,10 @@
       "Black_chinchompa_(Hunter)",
       "Boneyard_Hunter_area",
       "Chaos_Altar",
+      "Crafting#Gems",
       "Dead_trees",
+      "Obelisk_of_Air",
+      "Obelisk_of_Earth",
       "Resource_Area",
       "Wilderness_Agility_Course"
     ],
