@@ -149,6 +149,14 @@
     ]
   },
   {
+    "id": "Big_bones",
+    "category": "skilling",
+    "sortingGroups": ["prayer"],
+    "notableDrops": [
+      "Big_bones"
+    ]
+  },
+  {
     "id": "Bird_house_trapping",
     "title": "Bird Houses",
     "subtitle": "Fossil Island",
@@ -289,6 +297,15 @@
     "notableDrops": [
       "Chaos_rune",
       "Chaos_tiara"
+    ]
+  },
+  {
+    "id": "Chaos_Temple_(hut)",
+    "title": "Chaos Temple",
+    "category": "skilling",
+    "sortingGroups": ["prayer"],
+    "notableDrops": [
+      "XP"
     ]
   },
   {
@@ -437,6 +454,14 @@
     ]
   },
   {
+    "id": "Dragon_bones",
+    "category": "skilling",
+    "sortingGroups": ["prayer"],
+    "notableDrops": [
+      "Dragon_bones"
+    ]
+  },
+  {
     "id": "Draynor_Village_Rooftop_Course",
     "category": "skilling",
     "sortingGroups": ["agility"],
@@ -475,6 +500,34 @@
     "notableDrops": [
       "Earth_rune",
       "Earth_tiara"
+    ]
+  },
+  {
+    "id": "Ectofuntus",
+    "category": "skilling",
+    "sortingGroups": ["prayer"],
+    "notableDrops": [
+      "Ectophial",
+      "#transmute",
+      "Bonemeal",
+      "Bucket_of_slime",
+      "#transmute",
+      "XP",
+      "Ecto-token"
+    ]
+  },
+  {
+    "id": "Ensouled_heads",
+    "category": "skilling",
+    "sortingGroups": ["prayer"],
+    "notableDrops": [
+      "Ensouled_dragon_head",
+      "Ensouled_abyssal_head",
+      "Ensouled_hellhound_head",
+      "Ensouled_demon_head",
+      "Ensouled_bloodveld_head",
+      "Ensouled_dagannoth_head",
+      "Ensouled_giant_head"
     ]
   },
   {
@@ -524,6 +577,15 @@
       "Pheasant_legs",
       "Pheasant_boots",
       "Pheasant_cape"
+    ]
+  },
+  {
+    "id": "Gilded_altar",
+    "subtitle": "PoH",
+    "category": "skilling",
+    "sortingGroups": ["prayer"],
+    "notableDrops": [
+      "XP"
     ]
   },
   {
@@ -785,6 +847,18 @@
     ]
   },
   {
+    "id": "Libation_bowl",
+    "category": "skilling",
+    "sortingGroups": ["prayer"],
+    "notableDrops": [
+      "Jug_of_blessed_wine",
+      "#plus",
+      "Blessed_bone_shards",
+      "#transmute",
+      "XP"
+    ]
+  },
+  {
     "id": "Loom",
     "category": "skilling",
     "sortingGroups": ["crafting"],
@@ -886,6 +960,18 @@
       "Prospector_boots",
       "Coal_bag",
       "Gem_bag"
+    ]
+  },
+  {
+    "id": "Mycelium_pool",
+    "subtitle": "Fossil Island",
+    "category": "skilling",
+    "sortingGroups": ["prayer"],
+    "notableDrops": [
+      "Small_enriched_bone",
+      "Medium_enriched_bone",
+      "Large_enriched_bone",
+      "Rare_enriched_bone"
     ]
   },
   {
@@ -1292,6 +1378,16 @@
       "Sunfire_splinters",
       "#equals",
       "Sunfire_rune"
+    ]
+  },
+  {
+    "id": "Sun-kissed_bones",
+    "category": "skilling",
+    "sortingGroups": ["prayer"],
+    "notableDrops": [
+      "Sun-kissed_bones",
+      "#transmute",
+      "Blessed_bone_shards"
     ]
   },
   {

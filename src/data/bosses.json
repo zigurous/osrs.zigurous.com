@@ -21,7 +21,7 @@
     "id": "Alchemical_Hydra",
     "icon": "Alchemical_Hydra_icon_(mobile)",
     "category": "boss",
-    "sortingGroups": ["pvm", "slayer", "melee", "ranged"],
+    "sortingGroups": ["pvm", "slayer", "melee", "ranged", "prayer"],
     "recommendedCombatStyle": ["melee", "ranged"],
     "notableDrops": [
       "Ikkle_hydra",
@@ -218,22 +218,23 @@
     "id": "Dagannoth_Kings",
     "icon": "Dagannoth_Kings_icon_(mobile)",
     "category": "boss",
-    "sortingGroups": ["pvm", "slayer", "magic", "ranged", "melee"],
+    "sortingGroups": ["pvm", "slayer", "magic", "ranged", "melee", "prayer"],
     "recommendedCombatStyle": ["hybrid"],
     "notableDrops": [
-      "Amulet_of_the_monarchs",
-      "Emperor_ring",
-      "Berserker_ring",
-      "Warrior_ring",
-      "Seers_ring",
-      "Archers_ring",
-      "#newline",
       "Pet_dagannoth_prime",
       "Pet_dagannoth_rex",
       "Pet_dagannoth_supreme",
       "Dragon_axe",
       "Mud_battlestaff",
-      "Seercull"
+      "Seercull",
+      "Dagannoth_bones",
+      "#newline",
+      "Amulet_of_the_monarchs",
+      "Emperor_ring",
+      "Berserker_ring",
+      "Warrior_ring",
+      "Seers_ring",
+      "Archers_ring"
     ]
   },
   {
@@ -556,7 +557,7 @@
     "id": "Scurrius",
     "icon": "Scurry",
     "category": "boss",
-    "sortingGroups": ["pvm", "melee", "ranged", "magic"],
+    "sortingGroups": ["pvm", "melee", "ranged", "magic", "prayer"],
     "recommendedCombatStyle": ["melee", "ranged", "magic"],
     "notableDrops": [
       "Scurry",

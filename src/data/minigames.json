@@ -360,7 +360,7 @@
   {
     "id": "Pest_Control",
     "category": "minigame",
-    "sortingGroups": ["pvm", "melee", "ranged", "magic"],
+    "sortingGroups": ["pvm", "melee", "ranged", "magic", "prayer"],
     "notableDrops": [
       "Void_melee_helm",
       "Void_ranger_helm",

@@ -81,7 +81,7 @@
   {
     "id": "Adamant_dragon",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "slayerMasters": [
       "Konar_quo_Maten",
       "Nieve",
@@ -150,7 +150,7 @@
   {
     "id": "Ankou",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "requiredCombatLevel": 40,
     "slayerMasters": [
       "Krystilia",
@@ -169,7 +169,7 @@
   {
     "id": "Ankou",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "requiredCombatLevel": 40,
     "slayerMasters": [
       "Vannaka",
@@ -232,7 +232,7 @@
     "id": "Armoured_Zombie",
     "icon": "Broken_zombie_helmet",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "requiredCombatLevel": 10,
     "slayerMasters": [
       "Turael",
@@ -253,7 +253,7 @@
     "name": "Armoured Zombie",
     "subtitle": "Zemouregal's Fort",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "requiredCombatLevel": 10,
     "slayerMasters": [
       "Turael",
@@ -273,7 +273,7 @@
     "id": "Aviansie",
     "icon": "Ensouled_aviansie_head",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "slayerMasters": [
       "Krystilia",
       "Chaeldar",
@@ -295,7 +295,7 @@
     "id": "Bandit",
     "icon": "Highwayman_mask",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "requiredCombatLevel": 40,
     "slayerMasters": [
       "Krystilia"
@@ -370,7 +370,7 @@
     "id": "Bat",
     "icon": "Bat_wing",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "requiredCombatLevel": 5,
     "slayerMasters": [
       "Turael",
@@ -402,7 +402,7 @@
     "id": "Bear",
     "icon": "Ensouled_bear_head",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "requiredCombatLevel": 13,
     "slayerMasters": [
       "Krystilia",
@@ -424,7 +424,7 @@
     "id": "Bird",
     "icon": "Rubber_chicken",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "slayerMasters": [
       "Turael",
       "Spria"
@@ -443,7 +443,7 @@
     "id": "Black_demon",
     "icon": "Black_demon_mask",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "requiredCombatLevel": 80,
     "slayerMasters": [
       "Krystilia",
@@ -466,9 +466,8 @@
   },
   {
     "id": "Black_dragon",
-    "name": "Black Dragons",
     "category": "monster",
-    "sortingGroups": ["pvm", "slayer", "prayer", "crafting"],
+    "sortingGroups": ["pvm", "slayer", "crafting"],
     "requiredCombatLevel": 80,
     "slayerMasters": [
       "Krystilia",
@@ -494,7 +493,7 @@
     "id": "Black_Knight",
     "icon": "Elite_black_full_helm",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "slayerMasters": [
       "Krystilia"
     ],
@@ -532,9 +531,8 @@
   {
     "id": "Blue_dragon",
     "icon": "Blue_dragon_mask",
-    "name": "Blue Dragons",
     "category": "monster",
-    "sortingGroups": ["pvm", "slayer", "prayer", "crafting"],
+    "sortingGroups": ["pvm", "slayer", "crafting"],
     "requiredCombatLevel": 65,
     "slayerMasters": [
       "Vannaka",
@@ -604,7 +602,7 @@
     "id": "Bronze_dragon",
     "icon": "Bronze_dragon_mask",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "requiredCombatLevel": 75,
     "slayerMasters": [
       "Konar_quo_Maten"
@@ -647,7 +645,7 @@
     "id": "Brutal_blue_dragon",
     "icon": "Blue_dragon_mask",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "requiredCombatLevel": 65,
     "slayerMasters": [
       "Konar_quo_Maten",
@@ -671,7 +669,7 @@
     "id": "Brutal_red_dragon",
     "icon": "Red_dragon_icon",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "requiredCombatLevel": 68,
     "slayerMasters": [
       "Konar_quo_Maten",
@@ -693,7 +691,7 @@
     "id": "Catablepon",
     "icon": "Moss_lizard_tail",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "requiredCombatLevel": 35,
     "slayerMasters": [
       "Mazchna"
@@ -829,7 +827,7 @@
     "id": "Chaos_druid",
     "icon": "Ensouled_chaos_druid_head",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "slayerMasters": [
       "Krystilia"
     ],
@@ -884,7 +882,7 @@
     "id": "Cow",
     "icon": "Cow_mask",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "requiredCombatLevel": 5,
     "slayerMasters": [
       "Turael",
@@ -924,7 +922,7 @@
     "id": "Crocodile",
     "icon": "Zebo",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "requiredCombatLevel": 50,
     "slayerMasters": [
       "Vannaka"
@@ -939,7 +937,7 @@
     "id": "Cyclops",
     "icon": "Cyclops_head",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "requiredCombatLevel": 25,
     "slayerMasters": [
       "Mazchna",
@@ -957,7 +955,7 @@
     "id": "Dagannoth",
     "icon": "Ensouled_dagannoth_head",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "requiredCombatLevel": 75,
     "slayerMasters": [
       "Vannaka",
@@ -978,7 +976,7 @@
     "name": "Dagannoth",
     "subtitle": "Waterbirth Island",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "requiredCombatLevel": 75,
     "slayerMasters": [
       "Vannaka",
@@ -1023,7 +1021,7 @@
     "id": "Dark_warrior",
     "icon": "Iron_med_helm",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "slayerMasters": [
       "Krystilia"
     ],
@@ -1035,7 +1033,7 @@
     "id": "Demonic_gorilla",
     "icon": "Zenyte_shard",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "requiredCombatLevel": 80,
     "slayerMasters": [
       "Krystilia",
@@ -1060,7 +1058,7 @@
     "id": "Desert_Wolf",
     "icon": "Wolf_bones",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "requiredCombatLevel": 20,
     "slayerMasters": [
       "Turael",
@@ -1099,7 +1097,7 @@
     "id": "Dire_Wolf",
     "icon": "Wolf_mask",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "requiredCombatLevel": 20,
     "slayerMasters": [
       "Turael",
@@ -1117,7 +1115,7 @@
   {
     "id": "Drake",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["slayer", "pvm", "prayer"],
     "requiredSlayerLevel": 84,
     "slayerMasters": [
       "Konar_quo_Maten",
@@ -1163,7 +1161,7 @@
     "id": "Dwarf",
     "icon": "Mountain_Dwarf_icon",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "requiredCombatLevel": 6,
     "slayerMasters": [
       "Turael",
@@ -1184,7 +1182,7 @@
     "id": "Earth_warrior",
     "icon": "Bronze_full_helm",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "requiredCombatLevel": 35,
     "slayerMasters": [
       "Krystilia"
@@ -1197,7 +1195,7 @@
     "id": "Elder_Chaos_druid",
     "icon": "Elder_chaos_hood",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "slayerMasters": [
       "Krystilia"
     ],
@@ -1215,7 +1213,7 @@
     "id": "Elves",
     "icon": "Ensouled_elf_head",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "requiredCombatLevel": 70,
     "slayerMasters": [
       "Vannaka",
@@ -1238,7 +1236,7 @@
     "id": "Ent",
     "icon": "Ent's_roots",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "slayerMasters": [
       "Krystilia"
     ],
@@ -1264,7 +1262,7 @@
     "id": "Fire_giant",
     "icon": "Fire_of_Unseasonal_Warmth_icon",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "requiredCombatLevel": 65,
     "slayerMasters": [
       "Krystilia",
@@ -1294,7 +1292,7 @@
     "id": "Flesh_Crawler",
     "icon": "Swamp_cave_bug_icon_(historical)",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "requiredCombatLevel": 15,
     "slayerMasters": [
       "Mazchna"
@@ -1377,7 +1375,7 @@
     "id": "Ghost",
     "icon": "Ghostly_hood",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "requiredCombatLevel": 13,
     "slayerMasters": [
       "Turael",
@@ -1403,7 +1401,7 @@
     "id": "Ghoul",
     "icon": "Zombie_mask",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "requiredCombatLevel": 25,
     "slayerMasters": [
       "Mazchna",
@@ -1417,7 +1415,7 @@
     "id": "Giant_rat",
     "icon": "Giant_rat_bone",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "slayerMasters": [
       "Turael",
       "Spria"
@@ -1442,7 +1440,7 @@
     "id": "Goblin",
     "icon": "Goblin_mask",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "slayerMasters": [
       "Turael",
       "Spria"
@@ -1465,7 +1463,7 @@
     "id": "Greater_demon",
     "icon": "Greater_demon_mask",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "requiredCombatLevel": 70,
     "slayerMasters": [
       "Krystilia",
@@ -1517,9 +1515,8 @@
   {
     "id": "Green_dragon",
     "icon": "Green_dragon_mask",
-    "name": "Green Dragons",
     "category": "monster",
-    "sortingGroups": ["pvm", "slayer", "prayer", "crafting"],
+    "sortingGroups": ["pvm", "slayer", "crafting"],
     "requiredCombatLevel": 52,
     "slayerMasters": [
       "Krystilia"
@@ -1599,7 +1596,7 @@
     "id": "Hellhound",
     "icon": "Ensouled_hellhound_head",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "requiredCombatLevel": 75,
     "slayerMasters": [
       "Krystilia",
@@ -1628,7 +1625,7 @@
     "id": "Hill_Giant",
     "icon": "Ensouled_giant_head",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "requiredCombatLevel": 25,
     "slayerMasters": [
       "Krystilia",
@@ -1655,7 +1652,7 @@
     "icon": "Ensouled_giant_head",
     "name": "Hill Giant",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "requiredCombatLevel": 25,
     "slayerMasters": [
       "Mazchna",
@@ -1675,7 +1672,7 @@
     "icon": "Ensouled_giant_head",
     "name": "Hill Giant",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "requiredCombatLevel": 25,
     "slayerMasters": [
       "Mazchna",
@@ -1697,7 +1694,7 @@
     "icon": "Ensouled_giant_head",
     "name": "Hill Giant",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "requiredCombatLevel": 25,
     "slayerMasters": [
       "Mazchna",
@@ -1716,7 +1713,7 @@
     "id": "Hobgoblin",
     "icon": "Hobgoblin_guard_icon",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "requiredCombatLevel": 20,
     "slayerMasters": [
       "Mazchna",
@@ -1735,7 +1732,7 @@
   {
     "id": "Hydra",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["slayer", "pvm", "prayer"],
     "requiredSlayerLevel": 95,
     "slayerMasters": [
       "Konar_quo_Maten"
@@ -1757,7 +1754,7 @@
     "id": "Icefiend",
     "icon": "Ice_quartz",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "requiredCombatLevel": 20,
     "slayerMasters": [
       "Turael",
@@ -1774,7 +1771,7 @@
     "id": "Ice_giant",
     "icon": "Rock_golem_(blurite)",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "requiredCombatLevel": 50,
     "slayerMasters": [
       "Krystilia",
@@ -1796,7 +1793,7 @@
     "id": "Ice_warrior",
     "icon": "Blurite_sword",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "requiredCombatLevel": 45,
     "slayerMasters": [
       "Krystilia",
@@ -1815,7 +1812,7 @@
     "id": "Imp",
     "icon": "Ensouled_imp_head",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "slayerMasters": [],
     "locations": [
       "Ardougne_Monastery",
@@ -1857,7 +1854,7 @@
     "id": "Iorwerth_Warrior",
     "icon": "Iorwerth_Warrior_(1)_chathead",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "requiredCombatLevel": 70,
     "slayerMasters": [
       "Vannaka",
@@ -1879,7 +1876,7 @@
     "id": "Iron_dragon",
     "icon": "Iron_dragon_mask",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "requiredCombatLevel": 80,
     "slayerMasters": [
       "Konar_quo_Maten",
@@ -1902,7 +1899,7 @@
     "id": "Jackal",
     "icon": "Jackal_bone",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "requiredCombatLevel": 15,
     "slayerMasters": [
       "Turael",
@@ -1936,7 +1933,7 @@
   {
     "id": "Jogre",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "slayerMasters": [],
     "locations": [
       "Pothole_Dungeon"
@@ -1947,7 +1944,7 @@
     "id": "Jungle_horror",
     "icon": "Ensouled_horror_head",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "requiredCombatLevel": 65,
     "slayerMasters": [
       "Vannaka",
@@ -1961,7 +1958,7 @@
     "id": "Jungle_spider",
     "icon": "Spider_carcass",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "slayerMasters": [
       "Turael",
       "Spria"
@@ -1977,7 +1974,7 @@
     "id": "Jungle_Wolf",
     "icon": "Wolf_bones",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "requiredCombatLevel": 20,
     "slayerMasters": [
       "Turael",
@@ -1992,7 +1989,7 @@
     "id": "Kalphite",
     "icon": "Kq_head",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "requiredCombatLevel": 15,
     "slayerMasters": [
       "Turael",
@@ -2076,7 +2073,7 @@
     "id": "Lava_dragon",
     "icon": "Lava_dragon_mask",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer", "prayer", "crafting"],
     "slayerMasters": [
       "Krystilia"
     ],
@@ -2116,7 +2113,7 @@
     "id": "Lesser_demon",
     "icon": "Lesser_demon_mask",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "requiredCombatLevel": 60,
     "slayerMasters": [
       "Krystilia",
@@ -2179,7 +2176,7 @@
   {
     "id": "Lizardmen",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "slayerMasters": [
       "Chaeldar",
       "Konar_quo_Maten",
@@ -2203,7 +2200,7 @@
     "id": "Magic_axe",
     "icon": "Iron_battleaxe",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "slayerMasters": [
       "Krystilia"
     ],
@@ -2215,7 +2212,7 @@
     "id": "Mammoth",
     "icon": "Rare_fossilised_tusk",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "slayerMasters": [
       "Krystilia"
     ],
@@ -2227,7 +2224,7 @@
     "id": "Maniacal_monkey",
     "icon": "Maniacal_monkey_(item)",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "slayerMasters": [
       "Turael",
       "Spria"
@@ -2239,7 +2236,7 @@
   {
     "id": "Mithril_dragon",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "slayerMasters": [
       "Konar_quo_Maten",
       "Nieve",
@@ -2259,7 +2256,7 @@
     "id": "Minotaur",
     "icon": "Reanimate_Minotaur",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "requiredCombatLevel": 7,
     "slayerMasters": [
       "Turael",
@@ -2307,7 +2304,7 @@
     "id": "Monkey",
     "icon": "Monkey_(Trouble_Brewing)",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "slayerMasters": [
       "Turael",
       "Spria"
@@ -2350,7 +2347,7 @@
     "id": "Moss_giant",
     "icon": "Bryophyta_icon_(mobile)",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "requiredCombatLevel": 40,
     "slayerMasters": [
       "Krystilia",
@@ -2425,7 +2422,7 @@
     "id": "Ogre",
     "icon": "Ensouled_ogre_head",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "requiredCombatLevel": 40,
     "slayerMasters": [
       "Vannaka"
@@ -2443,7 +2440,7 @@
     "id": "Ogress_Shaman",
     "icon": "Shaman_mask",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "requiredCombatLevel": 40,
     "slayerMasters": [
       "Vannaka"
@@ -2460,7 +2457,7 @@
     "id": "Ogress_Warrior",
     "icon": "Shaman_mask",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "requiredCombatLevel": 40,
     "slayerMasters": [
       "Vannaka"
@@ -2477,7 +2474,7 @@
     "id": "Otherworldly_being",
     "icon": "Wizard_hat",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "requiredCombatLevel": 40,
     "slayerMasters": [
       "Vannaka"
@@ -2490,7 +2487,7 @@
     "id": "Pirate",
     "icon": "Pirate_pete_(interface_item)",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "slayerMasters": [
       "Krystilia"
     ],
@@ -2523,9 +2520,8 @@
   },
   {
     "id": "Red_dragon",
-    "name": "Red Dragons",
     "category": "monster",
-    "sortingGroups": ["pvm", "slayer", "prayer", "crafting"],
+    "sortingGroups": ["pvm", "slayer", "crafting"],
     "requiredCombatLevel": 68,
     "slayerMasters": [
       "Konar_quo_Maten",
@@ -2547,7 +2543,7 @@
     "id": "Revenants",
     "icon": "Revenant_icon",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "slayerMasters": [
       "Krystilia"
     ],
@@ -2593,7 +2589,7 @@
     "id": "Rogue",
     "icon": "Thief_Rogue",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "slayerMasters": [
       "Krystilia"
     ],
@@ -2604,7 +2600,7 @@
   {
     "id": "Rune_dragon",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "slayerMasters": [
       "Konar_quo_Maten",
       "Nieve",
@@ -2626,7 +2622,7 @@
     "id": "Scabarite",
     "icon": "Locust_rider_icon",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "requiredCombatLevel": 85,
     "slayerMasters": [
       "Nieve"
@@ -2640,7 +2636,7 @@
     "id": "Scorpion",
     "icon": "Scorpia's_offspring",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "requiredCombatLevel": 7,
     "slayerMasters": [
       "Krystilia",
@@ -2679,7 +2675,7 @@
     "id": "Shade",
     "icon": "Fiyr_remains",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "requiredCombatLevel": 30,
     "slayerMasters": [
       "Mazchna",
@@ -2696,7 +2692,7 @@
     "id": "Shadow_warrior",
     "icon": "Black_robe",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "requiredCombatLevel": 60,
     "slayerMasters": [
       "Chaeldar",
@@ -2733,7 +2729,7 @@
     "id": "Skeleton",
     "icon": "Skull_(item)",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "requiredCombatLevel": 15,
     "slayerMasters": [
       "Krystilia",
@@ -2775,7 +2771,7 @@
     "icon": "Skull_(item)",
     "name": "Skeleton",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "requiredCombatLevel": 15,
     "slayerMasters": [
       "Krystilia",
@@ -2810,7 +2806,7 @@
     "id": "Sourhog",
     "icon": "Sourhog_foot",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "slayerMasters": [
       "Spria"
     ],
@@ -2823,7 +2819,7 @@
     "id": "Spider",
     "icon": "Huge_spider_icon",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "slayerMasters": [
       "Krystilia"
     ],
@@ -2933,7 +2929,7 @@
     "id": "Steel_dragon",
     "icon": "Steel_dragon_mask",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "requiredCombatLevel": 85,
     "slayerMasters": [
       "Konar_quo_Maten",
@@ -3029,7 +3025,7 @@
   {
     "id": "Suqah",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "requiredCombatLevel": 85,
     "slayerMasters": [
       "Nieve",
@@ -3047,7 +3043,7 @@
     "id": "Temple_Spider",
     "icon": "Sraracha",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "slayerMasters": [
       "Turael",
       "Spria"
@@ -3099,7 +3095,7 @@
     "id": "Tormented_Demon",
     "icon": "Burning_claw",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "requiredCombatLevel": 70,
     "slayerMasters": [
       "Krystilia",
@@ -3120,7 +3116,7 @@
     "id": "Troll",
     "icon": "Ensouled_troll_head",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "requiredCombatLevel": 60,
     "slayerMasters": [
       "Vannaka",
@@ -3180,7 +3176,7 @@
     "id": "TzHaar",
     "icon": "Tok-Xil_(Construction)_icon",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "slayerMasters": [
       "Chaeldar",
       "Nieve",
@@ -3208,7 +3204,7 @@
     "id": "Undead_Druid",
     "icon": "Mask_of_ranul",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "requiredCombatLevel": 10,
     "slayerMasters": [
       "Turael",
@@ -3328,7 +3324,7 @@
     "id": "Waterfiend",
     "icon": "Circlet_of_water",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "requiredCombatLevel": 75,
     "slayerMasters": [
       "Konar_quo_Maten",
@@ -3347,7 +3343,7 @@
     "id": "Werewolf",
     "icon": "Wolfbane",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "requiredCombatLevel": 60,
     "slayerMasters": [
       "Vannaka"
@@ -3360,7 +3356,7 @@
     "id": "Wild_dog",
     "icon": "Ensouled_dog_head",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "requiredCombatLevel": 15,
     "slayerMasters": [
       "Turael",
@@ -3375,7 +3371,7 @@
     "id": "Wolf",
     "icon": "Wolf_mask",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "requiredCombatLevel": 20,
     "slayerMasters": [
       "Turael",
@@ -3397,7 +3393,7 @@
   {
     "id": "Wyrm",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["slayer", "pvm", "prayer"],
     "requiredSlayerLevel": 62,
     "slayerMasters": [
       "Chaeldar",
@@ -3436,7 +3432,7 @@
     "id": "Zombie",
     "icon": "Zombie_head",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "requiredCombatLevel": 10,
     "slayerMasters": [
       "Krystilia",
@@ -3465,7 +3461,7 @@
     "id": "Zombie_pirate",
     "icon": "Zombie_pirate_key_1",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["pvm", "slayer"],
     "slayerMasters": [
       "Krystilia",
       "Turael",
