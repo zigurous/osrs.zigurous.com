@@ -119,11 +119,11 @@ export const iconOrder = [
   'Woodcutting_icon',
   'Farming_icon',
   // other
+  'Crystal_key',
+  'Collection_log',
   'Minigame_icon',
   'Distractions_and_Diversions',
   'Quest_point_icon',
   'Map_link_icon',
   'Dungeon_map_link_icon',
-  'Crystal_key',
-  'Collection_log',
 ];
