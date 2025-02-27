@@ -44,7 +44,9 @@ export const createSchemaCustomization = ({
       jsonId: String!
       title: String
       subtitle: String
+      caption: String
       category: String!
+      requiredLevel: Int
       sortingGroups: [String!]!
       notableDrops: [String!]!
     }
@@ -65,17 +67,21 @@ export const createSchemaCustomization = ({
       jsonId: String!
       title: String
       subtitle: String
+      caption: String
       category: String!
       sortingGroups: [String!]!
-      notableDrops: [String!]!
+      requiredLevel: Int
       recommendedCombatStyle: [String!]
+      notableDrops: [String!]!
     }
     type MiscJson implements Node @dontInfer {
       jsonId: String!
       title: String
       subtitle: String
+      caption: String
       category: String
       sortingGroups: [String!]!
+      requiredLevel: Int
       notableDrops: [String!]
     }
     type NpcsJson implements Node @dontInfer {
@@ -114,15 +120,17 @@ export const createSchemaCustomization = ({
       guilds: [String!]
       dungeons: [String!]!
       monsters: [String!]!
-      misc: [String!]
+      misc: [String!]!
       pets: [String!]!
     }
     type SkillingJson implements Node @dontInfer {
       jsonId: String!
       title: String
       subtitle: String
+      caption: String
       category: String
       sortingGroups: [String!]!
+      requiredLevel: Int
       notableDrops: [String!]!
     }
     type SlayerMastersJson implements Node @dontInfer {

@@ -77,9 +77,9 @@ export function FilterContextProvider({ children }: React.PropsWithChildren) {
           });
         },
         isActivityFiltered: (activity: Activity) => {
-          return selection.some(filter =>
-            activity.sortingGroups.includes(filter),
-          );
+          return selection.length > 0
+            ? selection.some(filter => activity.sortingGroups.includes(filter))
+            : true;
         },
       }}
     >

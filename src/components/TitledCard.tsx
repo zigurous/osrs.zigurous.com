@@ -71,7 +71,11 @@ export default function TitledCard({
           </Text>
         </div>
         <div className="titled-card__caption">
-          {caption && <Text type="caption">{caption}</Text>}
+          {caption && (
+            <Text className="mr-sm" type="caption">
+              {caption}
+            </Text>
+          )}
           {titleLinkIcon && <Icon icon={titleLinkIcon} size={titleIconSize} />}
         </div>
       </Element>

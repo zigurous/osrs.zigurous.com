@@ -99,10 +99,12 @@ const dataQuery = graphql`
         id: jsonId
         title
         subtitle
+        caption
         category
         sortingGroups
-        notableDrops
+        requiredLevel
         recommendedCombatStyle
+        notableDrops
       }
     }
     guilds: allGuildsJson {
@@ -110,8 +112,10 @@ const dataQuery = graphql`
         id: jsonId
         title
         subtitle
+        caption
         category
         sortingGroups
+        requiredLevel
         notableDrops
       }
     }
@@ -120,8 +124,10 @@ const dataQuery = graphql`
         id: jsonId
         title
         subtitle
+        caption
         category
         sortingGroups
+        requiredLevel
         notableDrops
       }
     }
@@ -142,6 +148,7 @@ const dataQuery = graphql`
         subtitle
         category
         sortingGroups
+        requiredLevel: requiredSlayerLevel
         notableDrops
       }
     }
@@ -160,8 +167,10 @@ const dataQuery = graphql`
         id: jsonId
         title
         subtitle
+        caption
         category
         sortingGroups
+        requiredLevel
         notableDrops
       }
     }

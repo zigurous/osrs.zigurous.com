@@ -223,7 +223,8 @@
   {
     "id": "Grubby_Chest",
     "category": "chest",
-    "sortingGroups": ["misc"],
+    "sortingGroups": ["misc", "thieving"],
+    "requiredLevel": 57,
     "notableDrops": [
       "Grubby_key",
       "#transmute",

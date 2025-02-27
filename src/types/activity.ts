@@ -8,8 +8,10 @@ export interface Activity extends DropSource {
   icon?: string;
   title?: string;
   subtitle?: string;
+  caption?: string;
   category?: string;
   sortingGroups: ActivityGroup[];
+  requiredLevel?: number;
 }
 
 export type CombatStyle = 'melee' | 'ranged' | 'magic' | 'hybrid';

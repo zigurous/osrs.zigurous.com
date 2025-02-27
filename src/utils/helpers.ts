@@ -31,6 +31,20 @@ export function sortByIcon(a: Activity, b: Activity): number {
   return aIndex - bIndex || sortByName(a, b);
 }
 
+export function sortByIconAndLevel(a: Activity, b: Activity): number {
+  const aIcon = getIconForActivity(a);
+  const bIcon = getIconForActivity(b);
+  let aIndex = aIcon ? iconOrder.indexOf(aIcon) : -1;
+  let bIndex = bIcon ? iconOrder.indexOf(bIcon) : -1;
+  let aLevel = a.requiredLevel ?? 0;
+  let bLevel = b.requiredLevel ?? 0;
+  if (aIndex === -1) aIndex = Number.MAX_SAFE_INTEGER;
+  if (bIndex === -1) bIndex = Number.MAX_SAFE_INTEGER;
+  if (a.icon && a.sortingGroups[0] === 'pvm') aIndex = Number.MIN_SAFE_INTEGER;
+  if (b.icon && b.sortingGroups[0] === 'pvm') bIndex = Number.MIN_SAFE_INTEGER;
+  return aIndex - bIndex || aLevel - bLevel || sortByName(a, b);
+}
+
 export function sortBySkill(a: Activity, b: Activity): number {
   const aSkill = getAssociatedSkill(a);
   const bSkill = getAssociatedSkill(b);

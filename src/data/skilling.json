@@ -49,6 +49,7 @@
   {
     "id": "Agility_Pyramid",
     "category": "skilling",
+    "requiredLevel": 30,
     "sortingGroups": ["agility"],
     "notableDrops": [
       "Coins"
@@ -56,7 +57,9 @@
   },
   {
     "id": "Air_Altar",
+    "title": "Air Runes",
     "category": "skilling",
+    "requiredLevel": 1,
     "sortingGroups": ["runecraft"],
     "notableDrops": [
       "Air_rune",
@@ -66,6 +69,7 @@
   {
     "id": "Al_Kharid_Rooftop_Course",
     "category": "skilling",
+    "requiredLevel": 20,
     "sortingGroups": ["agility"],
     "notableDrops": [
       "Mark_of_grace"
@@ -90,6 +94,7 @@
   {
     "id": "Ape_Atoll_Agility_Course",
     "category": "skilling",
+    "requiredLevel": 48,
     "sortingGroups": ["agility"],
     "notableDrops": [
       "Mark_of_grace",
@@ -114,6 +119,7 @@
   {
     "id": "Ardougne_Rooftop_Course",
     "category": "skilling",
+    "requiredLevel": 90,
     "sortingGroups": ["agility"],
     "notableDrops": [
       "Mark_of_grace"
@@ -121,7 +127,9 @@
   },
   {
     "id": "Astral_Altar",
+    "title": "Astral Runes",
     "category": "skilling",
+    "requiredLevel": 40,
     "sortingGroups": ["runecraft"],
     "notableDrops": [
       "Astral_rune"
@@ -143,6 +151,7 @@
   {
     "id": "Barbarian_Outpost_Agility_Course",
     "category": "skilling",
+    "requiredLevel": 35,
     "sortingGroups": ["agility"],
     "notableDrops": [
       "Mark_of_grace"
@@ -207,8 +216,9 @@
   },
   {
     "id": "Blood_Altar",
-    "title": "True Blood Altar",
+    "title": "Blood Runes",
     "category": "skilling",
+    "requiredLevel": 77,
     "sortingGroups": ["runecraft"],
     "notableDrops": [
       "Blood_rune",
@@ -217,8 +227,9 @@
   },
   {
     "id": "Blood_Altar_(Kourend)",
-    "title": "Blood Altar",
+    "title": "Blood Runes",
     "category": "skilling",
+    "requiredLevel": 77,
     "sortingGroups": ["runecraft"],
     "notableDrops": [
       "Blood_rune"
@@ -240,7 +251,9 @@
   },
   {
     "id": "Body_Altar",
+    "title": "Body Runes",
     "category": "skilling",
+    "requiredLevel": 20,
     "sortingGroups": ["runecraft"],
     "notableDrops": [
       "Body_rune",
@@ -275,6 +288,7 @@
   {
     "id": "Canifis_Rooftop_Course",
     "category": "skilling",
+    "requiredLevel": 40,
     "sortingGroups": ["agility"],
     "notableDrops": [
       "Mark_of_grace"
@@ -292,7 +306,9 @@
   },
   {
     "id": "Chaos_Altar",
+    "title": "Chaos Runes",
     "category": "skilling",
+    "requiredLevel": 35,
     "sortingGroups": ["runecraft"],
     "notableDrops": [
       "Chaos_rune",
@@ -329,7 +345,9 @@
   },
   {
     "id": "Cosmic_Altar",
+    "title": "Cosmic Runes",
     "category": "skilling",
+    "requiredLevel": 27,
     "sortingGroups": ["runecraft"],
     "notableDrops": [
       "Cosmic_rune",
@@ -438,7 +456,9 @@
   },
   {
     "id": "Death_Altar",
+    "title": "Death Runes",
     "category": "skilling",
+    "requiredLevel": 65,
     "sortingGroups": ["runecraft"],
     "notableDrops": [
       "Death_rune",
@@ -448,6 +468,7 @@
   {
     "id": "Dorgesh-Kaan_Agility_Course",
     "category": "skilling",
+    "requiredLevel": 70,
     "sortingGroups": ["agility"],
     "notableDrops": [
       "Mark_of_grace"
@@ -464,6 +485,7 @@
   {
     "id": "Draynor_Village_Rooftop_Course",
     "category": "skilling",
+    "requiredLevel": 1,
     "sortingGroups": ["agility"],
     "notableDrops": [
       "Mark_of_grace"
@@ -495,7 +517,9 @@
   },
   {
     "id": "Earth_Altar",
+    "title": "Earth Runes",
     "category": "skilling",
+    "requiredLevel": 9,
     "sortingGroups": ["runecraft"],
     "notableDrops": [
       "Earth_rune",
@@ -533,6 +557,7 @@
   {
     "id": "Falador_Rooftop_Course",
     "category": "skilling",
+    "requiredLevel": 50,
     "sortingGroups": ["agility"],
     "notableDrops": [
       "Mark_of_grace"
@@ -554,7 +579,9 @@
   },
   {
     "id": "Fire_Altar",
+    "title": "Fire Runes",
     "category": "skilling",
+    "requiredLevel": 14,
     "sortingGroups": ["runecraft"],
     "notableDrops": [
       "Fire_rune",
@@ -605,6 +632,7 @@
   {
     "id": "Gnome_Stronghold_Agility_Course",
     "category": "skilling",
+    "requiredLevel": 1,
     "sortingGroups": ["agility"],
     "notableDrops": [
       "Mark_of_grace"
@@ -815,8 +843,8 @@
   },
   {
     "id": "Lava_runes",
-    "title": "Lava Runecrafting",
     "category": "skilling",
+    "requiredLevel": 23,
     "sortingGroups": ["runecraft"],
     "notableDrops": [
       "Lava_rune"
@@ -824,7 +852,9 @@
   },
   {
     "id": "Law_Altar",
+    "title": "Law Runes",
     "category": "skilling",
+    "requiredLevel": 54,
     "sortingGroups": ["runecraft"],
     "notableDrops": [
       "Law_rune",
@@ -920,7 +950,9 @@
   },
   {
     "id": "Mind_Altar",
+    "title": "Mind Runes",
     "category": "skilling",
+    "requiredLevel": 2,
     "sortingGroups": ["runecraft"],
     "notableDrops": [
       "Mind_rune",
@@ -976,7 +1008,9 @@
   },
   {
     "id": "Nature_Altar",
+    "title": "Nature Runes",
     "category": "skilling",
+    "requiredLevel": 44,
     "sortingGroups": ["runecraft"],
     "notableDrops": [
       "Nature_rune",
@@ -1098,6 +1132,7 @@
   {
     "id": "Penguin_Agility_Course",
     "category": "skilling",
+    "requiredLevel": 30,
     "sortingGroups": ["agility"],
     "notableDrops": [
       "Clockwork_suit"
@@ -1132,6 +1167,7 @@
   {
     "id": "Pollnivneach_Rooftop_Course",
     "category": "skilling",
+    "requiredLevel": 70,
     "sortingGroups": ["agility"],
     "notableDrops": [
       "Mark_of_grace"
@@ -1153,6 +1189,7 @@
   {
     "id": "Prifddinas_Agility_Course",
     "category": "skilling",
+    "requiredLevel": 75,
     "sortingGroups": ["agility"],
     "notableDrops": [
       "Crystal_shard"
@@ -1196,6 +1233,7 @@
   {
     "id": "Rellekka_Rooftop_Course",
     "category": "skilling",
+    "requiredLevel": 80,
     "sortingGroups": ["agility"],
     "notableDrops": [
       "Mark_of_grace"
@@ -1248,14 +1286,28 @@
   {
     "id": "Seers'_Village_Rooftop_Course",
     "category": "skilling",
+    "requiredLevel": 60,
     "sortingGroups": ["agility"],
     "notableDrops": [
       "Mark_of_grace"
     ]
   },
   {
-    "id": "Shayzien_Agility_Course",
+    "id": "Shayzien_Agility_Course#Basic_course",
+    "title": "Shayzien Agility Course",
+    "subtitle": "Basic",
     "category": "skilling",
+    "requiredLevel": 1,
+    "sortingGroups": ["agility"],
+    "notableDrops": [
+      "Mark_of_grace"]
+  },
+  {
+    "id": "Shayzien_Agility_Course#Advanced_course",
+    "title": "Shayzien Agility Course",
+    "subtitle": "Advanced",
+    "category": "skilling",
+    "requiredLevel": 45,
     "sortingGroups": ["agility"],
     "notableDrops": [
       "Mark_of_grace",
@@ -1320,7 +1372,9 @@
   },
   {
     "id": "Soul_Altar",
+    "title": "Soul Runes",
     "category": "skilling",
+    "requiredLevel": 90,
     "sortingGroups": ["runecraft"],
     "notableDrops": [
       "Soul_rune"
@@ -1367,8 +1421,8 @@
   },
   {
     "id": "Sunfire_runes",
-    "title": "Sunfire Runecrafting",
     "category": "skilling",
+    "requiredLevel": 33,
     "sortingGroups": ["runecraft"],
     "notableDrops": [
       "Pure_essence",
@@ -1604,7 +1658,9 @@
   },
   {
     "id": "Water_Altar",
+    "title": "Water Runes",
     "category": "skilling",
+    "requiredLevel": 5,
     "sortingGroups": ["runecraft"],
     "notableDrops": [
       "Water_rune",
@@ -1614,6 +1670,7 @@
   {
     "id": "Werewolf_Agility_Course",
     "category": "skilling",
+    "requiredLevel": 60,
     "sortingGroups": ["agility"],
     "notableDrops": [
       "Mark_of_grace",
@@ -1623,6 +1680,7 @@
   {
     "id": "Wilderness_Agility_Course",
     "category": "skilling",
+    "requiredLevel": 52,
     "sortingGroups": ["agility"],
     "notableDrops": [
       "Wilderness_agility_ticket",
@@ -1635,7 +1693,9 @@
   },
   {
     "id": "Wrath_Altar",
+    "title": "Wrath Runes",
     "category": "skilling",
+    "requiredLevel": 95,
     "sortingGroups": ["runecraft"],
     "notableDrops": [
       "Wrath_rune",

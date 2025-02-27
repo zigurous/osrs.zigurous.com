@@ -22,6 +22,7 @@ export default function ActivityCard({
   const expandable = items && items.length > 0;
   return (
     <TitledCard
+      caption={activity.caption ?? activity.requiredLevel?.toString()}
       className={classNames(
         {
           'titled-card--expanded': expanded,

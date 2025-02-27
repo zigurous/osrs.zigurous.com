@@ -68,6 +68,7 @@
     "id": "Brimhaven_Agility_Arena",
     "category": "minigame",
     "sortingGroups": ["agility"],
+    "requiredLevel": 1,
     "notableDrops": [
       "Agility_arena_ticket",
       "Brimhaven_voucher",
@@ -179,6 +180,7 @@
     "id": "Guardians_of_the_Rift",
     "category": "minigame",
     "sortingGroups": ["runecraft"],
+    "requiredLevel": 27,
     "notableDrops": [
       "Abyssal_protector",
       "Abyssal_pearls",
@@ -201,8 +203,10 @@
   },
   {
     "id": "Hallowed_Sepulchre",
+    "caption": "52-92",
     "category": "minigame",
     "sortingGroups": ["agility"],
+    "requiredLevel": 52,
     "notableDrops": [
       "Hallowed_mark",
       "Hallowed_token",
@@ -374,8 +378,10 @@
   },
   {
     "id": "Pyramid_Plunder",
+    "caption": "21-91",
     "category": "minigame",
     "sortingGroups": ["thieving"],
+    "requiredLevel": 21,
     "notableDrops": [
       "Pharaoh's_sceptre",
       "Golden_statuette",
@@ -403,7 +409,8 @@
   {
     "id": "Rogues'_Den",
     "category": "minigame",
-    "sortingGroups": ["thieving"],
+    "sortingGroups": ["thieving", "agility"],
+    "requiredLevel": 50,
     "notableDrops": [
       "Rogue_mask",
       "Rogue_top",
@@ -436,8 +443,10 @@
   },
   {
     "id": "Sorceress's_Garden",
+    "caption": "1-65",
     "category": "minigame",
     "sortingGroups": ["thieving"],
+    "requiredLevel": 1,
     "notableDrops": [
       "Summer_sq'irkjuice",
       "Autumn_sq'irkjuice",

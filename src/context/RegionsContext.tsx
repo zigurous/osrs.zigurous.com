@@ -1,5 +1,5 @@
 import { graphql, useStaticQuery } from 'gatsby';
-import React, { createContext, useCallback, useContext, useEffect, useState } from 'react'; // prettier-ignore
+import React, { createContext, useCallback, useContext, useEffect, useMemo, useState } from 'react'; // prettier-ignore
 import type { Region, RegionId } from '../types';
 
 interface RegionsContextData {
@@ -30,21 +30,41 @@ export function RegionsContextProvider({
   const data = useStaticQuery<RegionsQueryData>(dataQuery);
   const [selectedRegion, setSelectedRegion] = useState<Region | null>(null);
 
+  const regions = useMemo(
+    () =>
+      data.regions.nodes.map(region => ({
+        ...region,
+        activities: [
+          ...new Set([
+            ...(region.raids || []),
+            ...region.bosses,
+            ...region.minigames,
+            ...(region.guilds || []),
+            ...region.skilling,
+            ...region.dungeons,
+            ...region.monsters,
+            ...(region.misc || []),
+          ]),
+        ],
+      })),
+    [data.regions.nodes],
+  );
+
   const getRegionById = useCallback(
     (id: string) => data.regions.nodes.find(node => node.id === id),
-    [data.regions.nodes],
+    [regions],
   );
 
   useEffect(() => {
     const hash = location.hash.replace('#', '');
-    const region = data.regions.nodes.find(node => node.id === hash);
+    const region = regions.find(node => node.id === hash);
     setSelectedRegion(region || null);
-  }, [data.regions.nodes, location.hash]);
+  }, [regions, location.hash]);
 
   return (
     <RegionsContext.Provider
       value={{
-        regions: data.regions.nodes,
+        regions,
         selectedRegion,
         setSelectedRegion,
         getRegionById,
