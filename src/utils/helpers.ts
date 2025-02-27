@@ -62,7 +62,6 @@ export function getAssociatedSkill(activity: Activity): Skill | undefined {
 export function getIconForActivity(activity: Activity): string | undefined {
   // prettier-ignore
   switch (activity.category) {
-    case 'chest': return 'Crystal_key';
     case 'dungeon': return 'Dungeon_map_link_icon';
     case 'location': return 'Map_link_icon';
   }
@@ -70,6 +69,12 @@ export function getIconForActivity(activity: Activity): string | undefined {
   const sortingGroup =
     activity.sortingGroups.length > 0 ? activity.sortingGroups[0] : 'misc';
   if (sortingGroup === 'pvm' && activity.icon) return activity.icon;
+
+  if (activity.category === 'chest') {
+    return sortingGroup === 'thieving'
+      ? getIconForSkill('thieving')
+      : 'Crystal_key';
+  }
 
   const icon = getIconForActivityGroup(sortingGroup);
   if (icon && sortingGroup !== 'misc') return icon;

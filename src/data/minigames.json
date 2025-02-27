@@ -467,18 +467,6 @@
     ]
   },
   {
-    "id": "Stealing_artefacts",
-    "category": "minigame",
-    "sortingGroups": ["thieving"],
-    "notableDrops": [
-      "Stolen_pendant",
-      "Stolen_garnet_ring",
-      "Stolen_family_heirloom",
-      "Stolen_circlet",
-      "Stolen_jewelry_box"
-    ]
-  },
-  {
     "id": "Tackle_organised_crime",
     "category": "minigame",
     "sortingGroups": ["misc", "pvm", "melee"],

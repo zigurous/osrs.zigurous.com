@@ -63,6 +63,16 @@
     ]
   },
   {
+    "id": "Al_Kharid_warrior#Pickpocketing",
+    "title": "Al Kharid Warrior",
+    "category": "skilling",
+    "requiredLevel": 25,
+    "sortingGroups": ["thieving"],
+    "notableDrops": [
+      "Coins"
+    ]
+  },
+  {
     "id": "Amethyst#Crafting",
     "title": "Amethyst",
     "category": "skilling",
@@ -133,6 +143,39 @@
       "Sunlight_antelope",
       "Moonlight_moth",
       "Moonlight_antelope"
+    ]
+  },
+  {
+    "id": "Bakery_stall",
+    "title": "Baker's Stall",
+    "category": "skilling",
+    "requiredLevel": 5,
+    "sortingGroups": ["thieving"],
+    "notableDrops": [
+      "Cake",
+      "Bread",
+      "Chocolate_slice"
+    ]
+  },
+  {
+    "id": "Bandit_(Bandit_Camp)#Pickpocketing",
+    "title": "Desert Bandit",
+    "category": "skilling",
+    "requiredLevel": 53,
+    "sortingGroups": ["thieving"],
+    "notableDrops": [
+      "Coins"
+    ]
+  },
+  {
+    "id": "Bandit_(Pollnivneach)#Pickpocketing",
+    "title": "Pollnivnian Bandit",
+    "subtitle": "Blackjacking",
+    "category": "skilling",
+    "requiredLevel": 55,
+    "sortingGroups": ["thieving"],
+    "notableDrops": [
+      "Coins"
     ]
   },
   {
@@ -292,6 +335,23 @@
     ]
   },
   {
+    "id": "Cave_goblin_(Dorgesh-Kaan)#Pickpocketing",
+    "title": "Cave Goblin",
+    "category": "skilling",
+    "requiredLevel": 36,
+    "sortingGroups": ["thieving"],
+    "notableDrops": [
+      "Bullseye_lantern",
+      "Cave_goblin_wire",
+      "Iron_ore",
+      "Oil_lantern",
+      "Swamp_tar",
+      "Tinderbox",
+      "Unlit_torch",
+      "Coins"
+    ]
+  },
+  {
     "id": "Chaos_Altar",
     "title": "Chaos Runes",
     "category": "skilling",
@@ -312,8 +372,116 @@
     ]
   },
   {
-    "id": "Colossal_Wyrm_Agility_Course",
+    "id": "Chest_(Dorgesh-Kaan_Rich)",
+    "title": "Dorgesh-Kaan Rich Chest",
     "category": "skilling",
+    "requiredLevel": 78,
+    "sortingGroups": ["thieving"],
+    "notableDrops": [
+      "Bullseye_lantern",
+      "Mining_helmet",
+      "Frog-leather_body",
+      "Frog-leather_chaps",
+      "Cave_goblin_wire",
+      "Light_orb",
+      "Empty_light_orb",
+      "Iron_bar"
+    ]
+  },
+  {
+    "id": "Chest_(Isle_of_Souls_Dungeon)",
+    "title": "Isle of Souls Chest",
+    "category": "skilling",
+    "requiredLevel": 28,
+    "sortingGroups": ["thieving"],
+    "notableDrops": [
+      "Coins",
+      "Feather",
+      "Grimy_guam_leaf",
+      "Nature_rune",
+      "Death_rune",
+      "Mind_rune",
+      "Grimy_lantadyme",
+      "Grimy_ranarr_weed",
+      "Uncut_sapphire",
+      "Uncut_emerald",
+      "Chocolate_bar",
+      "Bird_snare",
+      "Box_trap",
+      "Uncut_ruby",
+      "Mithril_pickaxe",
+      "Mithril_axe",
+      "Uncut_diamond",
+      "Adamant_scimitar",
+      "Clue_scroll_(medium)",
+      "Dark_key"
+    ]
+  },
+  {
+    "id": "Chest_(Rogues'_Castle)",
+    "title": "Rogues' Chest",
+    "category": "skilling",
+    "requiredLevel": 84,
+    "sortingGroups": ["thieving"],
+    "notableDrops": [
+      "Nature_rune",
+      "Red_spiders'_eggs",
+      "Law_rune",
+      "Coal",
+      "Coins",
+      "Vile_ashes",
+      "Uncut_diamond",
+      "Uncut_emerald",
+      "Blighted_ancient_ice_sack",
+      "Prayer_potion(2)",
+      "Iron_ore",
+      "Chaos_rune",
+      "Death_rune",
+      "Blighted_manta_ray",
+      "Blighted_anglerfish",
+      "Uncut_sapphire",
+      "Dragonstone",
+      "Clue_scroll_(hard)"
+    ]
+  },
+  {
+    "id": "Citizen_(Civitas_illa_Fortis)#Pickpocketing",
+    "title": "Citizen",
+    "category": "skilling",
+    "requiredLevel": 1,
+    "sortingGroups": ["thieving"],
+    "notableDrops": [
+      "Coins"
+    ]
+  },
+  {
+    "id": "Colossal_Wyrm_Agility_Course#Basic_course_obstacles",
+    "title": "Colossal Wyrm Course",
+    "subtitle": "Basic",
+    "category": "skilling",
+    "requiredLevel": 50,
+    "sortingGroups": ["agility"],
+    "notableDrops": [
+      "Graceful_hood_(Varlamore)",
+      "Graceful_top_(Varlamore)",
+      "Graceful_legs_(Varlamore)",
+      "Graceful_gloves_(Varlamore)",
+      "Graceful_boots_(Varlamore)",
+      "Graceful_cape_(Varlamore)",
+      "#newline",
+      "Termites",
+      "Colossal_wyrm_teleport_scroll",
+      "Graceful_crafting_kit",
+      "Amylase_pack",
+      "Calcified_acorn"
+    ]
+  },
+  {
+    "id": "Colossal_Wyrm_Agility_Course#Advanced_course_obstacles",
+    "title": "Colossal Wyrm Course",
+    "subtitle": "Advanced",
+    "category": "skilling",
+    "requiredLevel": 62,
     "sortingGroups": ["agility"],
     "notableDrops": [
       "Graceful_hood_(Varlamore)",
@@ -388,6 +556,33 @@
       "Uncut_diamond",
       "#equals",
       "Diamond"
+    ]
+  },
+  {
+    "id": "Crafting_stall",
+    "category": "skilling",
+    "sortingGroups": ["thieving"],
+    "requiredLevel": 5,
+    "notableDrops": [
+      "Amulet_mould",
+      "Bracelet_mould",
+      "Necklace_mould",
+      "Ring_mould",
+      "Chisel",
+      "Gold_bar"
+    ]
+  },
+  {
+    "id": "Crossbow_stall",
+    "category": "skilling",
+    "requiredLevel": 49,
+    "sortingGroups": ["thieving"],
+    "notableDrops": [
+      "Bronze_bolts",
+      "Bronze_limbs",
+      "Wooden_stock",
+      "Mithril_bolts",
+      "Mithril_limbs"
     ]
   },
   {
@@ -537,6 +732,24 @@
     ]
   },
   {
+    "id": "Elf_(Thieving)",
+    "title": "Elf",
+    "category": "skilling",
+    "requiredLevel": 85,
+    "sortingGroups": ["thieving"],
+    "notableDrops": [
+      "Coins",
+      "Death_rune",
+      "Jug_of_wine",
+      "Nature_rune",
+      "Fire_orb",
+      "Diamond",
+      "Gold_ore",
+      "Crystal_shard",
+      "Enhanced_crystal_teleport_seed"
+    ]
+  },
+  {
     "id": "Ensouled_heads",
     "category": "skilling",
     "sortingGroups": ["prayer"],
@@ -557,6 +770,17 @@
     "sortingGroups": ["agility"],
     "notableDrops": [
       "Mark_of_grace"
+    ]
+  },
+  {
+    "id": "Farmer#Pickpocketing",
+    "title": "Farmer",
+    "category": "skilling",
+    "requiredLevel": 10,
+    "sortingGroups": ["thieving"],
+    "notableDrops": [
+      "Coins",
+      "Potato_seed"
     ]
   },
   {
@@ -585,6 +809,17 @@
     ]
   },
   {
+    "id": "Fish_stall",
+    "category": "skilling",
+    "requiredLevel": 42,
+    "sortingGroups": ["thieving"],
+    "notableDrops": [
+      "Raw_salmon",
+      "Raw_tuna",
+      "Raw_lobster"
+    ]
+  },
+  {
     "id": "Forestry",
     "subtitle": "Events",
     "category": "skilling",
@@ -600,6 +835,56 @@
       "Pheasant_legs",
       "Pheasant_boots",
       "Pheasant_cape"
+    ]
+  },
+  {
+    "id": "Fremennik_citizen#Pickpocketing",
+    "title": "Fremennik Citizen",
+    "category": "skilling",
+    "requiredLevel": 45,
+    "sortingGroups": ["thieving"],
+    "notableDrops": [
+      "Coins"
+    ]
+  },
+  {
+    "id": "Fruit_stall",
+    "category": "skilling",
+    "requiredLevel": 25,
+    "sortingGroups": ["thieving"],
+    "notableDrops": [
+      "Cooking_apple",
+      "Banana",
+      "Strawberry",
+      "Jangerberries",
+      "Lemon",
+      "Redberries",
+      "Pineapple",
+      "Lime",
+      "Strange_fruit",
+      "Golovanova_fruit_top",
+      "Papaya_fruit"
+    ]
+  },
+  {
+    "id": "Fur_stall",
+    "category": "skilling",
+    "requiredLevel": 35,
+    "sortingGroups": ["thieving"],
+    "notableDrops": [
+      "Grey_wolf_fur"
+    ]
+  },
+  {
+    "id": "Gem_stall",
+    "category": "skilling",
+    "requiredLevel": 75,
+    "sortingGroups": ["thieving"],
+    "notableDrops": [
+      "Uncut_sapphire",
+      "Uncut_emerald",
+      "Uncut_ruby",
+      "Uncut_diamond"
     ]
   },
   {
@@ -635,6 +920,23 @@
     ]
   },
   {
+    "id": "Gnome#Pickpocketing",
+    "title": "Gnome",
+    "category": "skilling",
+    "requiredLevel": 75,
+    "sortingGroups": ["thieving"],
+    "notableDrops": [
+      "Arrow_shaft",
+      "Coins",
+      "Swamp_toad_(item)",
+      "Gold_ore",
+      "Earth_rune",
+      "King_worm",
+      "Fire_orb",
+      "Clue_scroll_(medium)"
+    ]
+  },
+  {
     "id": "Green_dragonhide_armour",
     "category": "skilling",
     "sortingGroups": ["crafting"],
@@ -649,17 +951,41 @@
     ]
   },
   {
-    "id": "H.A.M._Hideout",
+    "id": "Guard#Pickpocketing",
+    "title": "Guard",
     "category": "skilling",
+    "requiredLevel": 40,
+    "sortingGroups": ["thieving"],
+    "notableDrops": [
+      "Coins"
+    ]
+  },
+  {
+    "id": "Guard_(Varlamore)#Pickpocketing",
+    "title": "Guard",
+    "category": "skilling",
+    "requiredLevel": 40,
+    "sortingGroups": ["thieving"],
+    "notableDrops": [
+      "Coins"
+    ]
+  },
+  {
+    "id": "H.A.M._Member#Pickpocketing",
+    "title": "H.A.M. Member",
+    "category": "skilling",
+    "requiredLevel": 15,
     "sortingGroups": ["thieving"],
     "notableDrops": [
       "Ham_hood",
       "Ham_shirt",
       "Ham_robe",
-      "Ham_gloves",
       "Ham_boots",
+      "Ham_gloves",
       "Ham_cloak",
-      "Ham_logo"
+      "Ham_logo",
+      "Coin_pouch",
+      "Clue_scroll_(easy)"
     ]
   },
   {
@@ -751,6 +1077,24 @@
     ]
   },
   {
+    "id": "Hero#Pickpocketing",
+    "title": "Hero",
+    "category": "skilling",
+    "requiredLevel": 80,
+    "sortingGroups": ["thieving"],
+    "notableDrops": [
+      "Coin_pouch",
+      "Coins",
+      "Death_rune",
+      "Jug_of_wine",
+      "Blood_rune",
+      "Fire_orb",
+      "Diamond",
+      "Gold_ore",
+      "Clue_scroll_(elite)"
+    ]
+  },
+  {
     "id": "Heroes'_Guild_mine",
     "category": "skilling",
     "sortingGroups": ["mining"],
@@ -825,6 +1169,16 @@
     "sortingGroups": ["hunter"],
     "notableDrops": [
       "Horned_graahk"
+    ]
+  },
+  {
+    "id": "Knight_of_Ardougne#Pickpocketing",
+    "title": "Knight of Ardougne",
+    "category": "skilling",
+    "requiredLevel": 55,
+    "sortingGroups": ["thieving"],
+    "notableDrops": [
+      "Coins"
     ]
   },
   {
@@ -923,12 +1277,51 @@
     ]
   },
   {
+    "id": "Man#Pickpocketing",
+    "title": "Man / Woman",
+    "category": "skilling",
+    "requiredLevel": 1,
+    "sortingGroups": ["thieving"],
+    "notableDrops": [
+      "Coins"
+    ]
+  },
+  {
     "id": "Maniacal_monkey_(Hunter)",
     "title": "Maniacal Monkeys",
     "category": "skilling",
     "sortingGroups": ["hunter"],
     "notableDrops": [
       "Monkey_tail"
+    ]
+  },
+  {
+    "id": "Market_stall_(wine)",
+    "title": "Wine Stall",
+    "category": "skilling",
+    "requiredLevel": 22,
+    "sortingGroups": ["thieving"],
+    "notableDrops": [
+      "Jug",
+      "Jug_of_water",
+      "Grapes",
+      "Jug_of_wine",
+      "Bottle_of_wine"
+    ]
+  },
+  {
+    "id": "Master_Farmer#Pickpocketing",
+    "title": "Master Farmer",
+    "category": "skilling",
+    "requiredLevel": 38,
+    "sortingGroups": ["thieving"],
+    "notableDrops": [
+      "Snape_grass_seed",
+      "Barley_seed",
+      "Limpwurt_seed",
+      "Whiteberry_seed",
+      "Belladonna_seed",
+      "Ranarr_seed"
     ]
   },
   {
@@ -942,6 +1335,17 @@
       "Juniper_charcoal",
       "#transmute",
       "Dynamite"
+    ]
+  },
+  {
+    "id": "Menaphite_Thug#Blackjacking",
+    "title": "Menaphite Thug",
+    "subtitle": "Blackjacking",
+    "category": "skilling",
+    "requiredLevel": 65,
+    "sortingGroups": ["thieving"],
+    "notableDrops": [
+      "Coins"
     ]
   },
   {
@@ -1144,6 +1548,18 @@
     ]
   },
   {
+    "id": "Paladin#Pickpocketing",
+    "title": "Paladin",
+    "category": "skilling",
+    "requiredLevel": 70,
+    "sortingGroups": ["thieving"],
+    "notableDrops": [
+      "Coins",
+      "Chaos_rune",
+      "Clue_scroll_(hard)"
+    ]
+  },
+  {
     "id": "Penguin_Agility_Course",
     "category": "skilling",
     "requiredLevel": 30,
@@ -1254,6 +1670,20 @@
     ]
   },
   {
+    "id": "Rogue#Pickpocketing",
+    "title": "Rogue",
+    "category": "skilling",
+    "requiredLevel": 32,
+    "sortingGroups": ["thieving"],
+    "notableDrops": [
+      "Coins",
+      "Air_rune",
+      "Jug_of_wine",
+      "Lockpick",
+      "Iron_dagger(p)"
+    ]
+  },
+  {
     "id": "Salt_Mine",
     "category": "skilling",
     "sortingGroups": ["mining"],
@@ -1284,6 +1714,31 @@
       "Scrapey_tree_logs",
       "#transmute",
       "Scrapey_bark"
+    ]
+  },
+  {
+    "id": "Seed_stall",
+    "category": "skilling",
+    "requiredLevel": 27,
+    "sortingGroups": ["thieving"],
+    "notableDrops": [
+      "Potato_seed",
+      "Marigold_seed",
+      "Barley_seed",
+      "Hammerstone_seed",
+      "Onion_seed",
+      "Asgarnian_seed",
+      "Cabbage_seed",
+      "Yanillian_seed",
+      "Rosemary_seed",
+      "Nasturtium_seed",
+      "Tomato_seed",
+      "Jute_seed",
+      "Sweetcorn_seed",
+      "Krandorian_seed",
+      "Strawberry_seed",
+      "Wildblood_seed",
+      "Watermelon_seed"
     ]
   },
   {
@@ -1344,6 +1799,75 @@
     ]
   },
   {
+    "id": "Shop_Counter_(gems)",
+    "title": "Gem Stall",
+    "subtitle": "Mor Ul Rek",
+    "category": "skilling",
+    "requiredLevel": 75,
+    "sortingGroups": ["thieving"],
+    "notableDrops": [
+      "Sapphire",
+      "Emerald",
+      "Ruby",
+      "Diamond",
+      "Dragonstone",
+      "Onyx",
+      "#newline",
+      "Uncut_sapphire",
+      "Uncut_emerald",
+      "Uncut_ruby",
+      "Uncut_diamond",
+      "Uncut_dragonstone",
+      "Uncut_onyx"
+    ]
+  },
+  {
+    "id": "Shop_Counter_(ore)",
+    "title": "Ore Stall",
+    "subtitle": "Mor Ul Rek",
+    "category": "skilling",
+    "requiredLevel": 82,
+    "sortingGroups": ["thieving"],
+    "notableDrops": [
+      "Iron_ore",
+      "Coal",
+      "Silver_ore",
+      "Gold_ore",
+      "Mithril_ore",
+      "Adamantite_ore",
+      "Runite_ore"
+    ]
+  },
+  {
+    "id": "Silk_stall",
+    "category": "skilling",
+    "requiredLevel": 20,
+    "sortingGroups": ["thieving"],
+    "notableDrops": [
+      "Silk"
+    ]
+  },
+  {
+    "id": "Silver_stall",
+    "category": "skilling",
+    "requiredLevel": 50,
+    "sortingGroups": ["thieving"],
+    "notableDrops": [
+      "Silver_ore",
+      "Silver_bar",
+      "Tiara"
+    ]
+  },
+  {
+    "id": "Smoke_runes",
+    "category": "skilling",
+    "requiredLevel": 15,
+    "sortingGroups": ["runecraft"],
+    "notableDrops": [
+      "Smoke_rune"
+    ]
+  },
+  {
     "id": "Snakeskin_armour",
     "category": "skilling",
     "sortingGroups": ["crafting"],
@@ -1384,6 +1908,15 @@
     ]
   },
   {
+    "id": "Spice_stall",
+    "category": "skilling",
+    "requiredLevel": 65,
+    "sortingGroups": ["thieving"],
+    "notableDrops": [
+      "Spice"
+    ]
+  },
+  {
     "id": "Spinning_wheel",
     "category": "skilling",
     "sortingGroups": ["crafting"],
@@ -1412,12 +1945,50 @@
     ]
   },
   {
+    "id": "Stealing_artefacts",
+    "category": "skilling",
+    "requiredLevel": 49,
+    "sortingGroups": ["thieving"],
+    "notableDrops": [
+      "Stolen_pendant",
+      "Stolen_garnet_ring",
+      "Stolen_family_heirloom",
+      "Stolen_circlet",
+      "Stolen_jewelry_box"
+    ]
+  },
+  {
+    "id": "Stealing_valuables",
+    "category": "skilling",
+    "requiredLevel": 50,
+    "sortingGroups": ["thieving"],
+    "notableDrops": [
+      "Valuables",
+      "Blessed_bone_statuette"
+    ]
+  },
+  {
     "id": "Steam_runes",
     "category": "skilling",
     "requiredLevel": 19,
     "sortingGroups": ["runecraft"],
     "notableDrops": [
       "Steam_rune"
+    ]
+  },
+  {
+    "id": "Stone_chest",
+    "category": "skilling",
+    "requiredLevel": 64,
+    "sortingGroups": ["thieving"],
+    "notableDrops": [
+      "Coins",
+      "Lizardman_fang",
+      "Xerician_fabric",
+      "Uncut_sapphire",
+      "Uncut_ruby",
+      "Clue_scroll_(medium)",
+      "Xeric's_talisman_(inert)"
     ]
   },
   {
@@ -1454,6 +2025,15 @@
       "Sun-kissed_bones",
       "#transmute",
       "Blessed_bone_shards"
+    ]
+  },
+  {
+    "id": "Tea_stall",
+    "category": "skilling",
+    "requiredLevel": 5,
+    "sortingGroups": ["thieving"],
+    "notableDrops": [
+      "Cup_of_tea"
     ]
   },
   {
@@ -1639,6 +2219,20 @@
     ]
   },
   {
+    "id": "TzHaar-Hur#Pickpocketing",
+    "title": "TzHaar-Hur",
+    "category": "skilling",
+    "requiredLevel": 90,
+    "sortingGroups": ["thieving"],
+    "notableDrops": [
+      "Tokkul",
+      "Uncut_sapphire",
+      "Uncut_emerald",
+      "Uncut_ruby",
+      "Uncut_diamond"
+    ]
+  },
+  {
     "id": "Underwater_Agility_and_Thieving",
     "category": "skilling",
     "sortingGroups": ["thieving", "agility"],
@@ -1663,9 +2257,73 @@
   {
     "id": "Varrock_Rooftop_Course",
     "category": "skilling",
+    "requiredLevel": 30,
     "sortingGroups": ["agility"],
     "notableDrops": [
       "Mark_of_grace"
+    ]
+  },
+  {
+    "id": "Veg_stall",
+    "title": "Vegetable Stall",
+    "category": "skilling",
+    "requiredLevel": 2,
+    "sortingGroups": ["thieving"],
+    "notableDrops": [
+      "Potato",
+      "Cabbage",
+      "Onion",
+      "Tomato",
+      "Garlic"
+    ]
+  },
+  {
+    "id": "Villager#Pickpocketing",
+    "title": "Villager",
+    "subtitle": "Blackjacking",
+    "category": "skilling",
+    "requiredLevel": 30,
+    "sortingGroups": ["thieving"],
+    "notableDrops": [
+      "Coins"
+    ]
+  },
+  {
+    "id": "Vyre#Pickpocketing",
+    "title": "Vyre",
+    "category": "skilling",
+    "requiredLevel": 82,
+    "sortingGroups": ["thieving"],
+    "notableDrops": [
+      "Coins",
+      "Death_rune",
+      "Blood_pint",
+      "Uncut_ruby",
+      "Blood_rune",
+      "Diamond",
+      "Cooked_mystery_meat",
+      "Blood_shard"
+    ]
+  },
+  {
+    "id": "Warrior_(Thieving)#Pickpocketing",
+    "title": "Warrior",
+    "category": "skilling",
+    "requiredLevel": 25,
+    "sortingGroups": ["thieving"],
+    "notableDrops": [
+      "Coins"
+    ]
+  },
+  {
+    "id": "Watchman#Pickpocketing",
+    "title": "Watchman",
+    "category": "skilling",
+    "requiredLevel": 65,
+    "sortingGroups": ["thieving"],
+    "notableDrops": [
+      "Bread",
+      "Coins"
     ]
   },
   {
@@ -1677,6 +2335,18 @@
     "notableDrops": [
       "Water_rune",
       "Water_tiara"
+    ]
+  },
+  {
+    "id": "Wealthy_citizen",
+    "title": "Wealthy Citizen",
+    "category": "skilling",
+    "requiredLevel": 50,
+    "sortingGroups": ["thieving"],
+    "notableDrops": [
+      "Coins",
+      "House_keys",
+      "Clue_scroll_(easy)"
     ]
   },
   {

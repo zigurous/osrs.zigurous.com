@@ -207,7 +207,8 @@
   {
     "id": "Dark_Chest",
     "category": "chest",
-    "sortingGroups": ["misc", "thieving", "crafting"],
+    "sortingGroups": ["thieving"],
+    "requiredLevel": 28,
     "notableDrops": [
       "Shield_left_half",
       "Dragon_plateskirt",
@@ -321,7 +322,7 @@
   {
     "id": "Grubby_Chest",
     "category": "chest",
-    "sortingGroups": ["misc", "thieving"],
+    "sortingGroups": ["thieving"],
     "requiredLevel": 57,
     "notableDrops": [
       "Egg_potato",
