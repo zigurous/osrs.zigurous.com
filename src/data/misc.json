@@ -1,5 +1,18 @@
 [
   {
+    "id": "Abyss",
+    "category": "location",
+    "sortingGroups": ["runecraft", "misc"],
+    "notableDrops": [
+      "Elemental_talisman",
+      "Giant_pouch",
+      "Large_pouch",
+      "Medium_pouch",
+      "Small_pouch",
+      "Binding_necklace"
+    ]
+  },
+  {
     "id": "Abyssal_Area",
     "category": "location",
     "sortingGroups": [
@@ -466,6 +479,17 @@
       "Saw",
       "Bolt_of_cloth",
       "Steel_nails"
+    ]
+  },
+  {
+    "id": "Scar_essence_mine",
+    "category": "location",
+    "sortingGroups": ["runecraft", "mining", "misc"],
+    "notableDrops": [
+      "Warped_extract",
+      "Twisted_extract",
+      "Mangled_extract",
+      "Scarred_extract"
     ]
   },
   {

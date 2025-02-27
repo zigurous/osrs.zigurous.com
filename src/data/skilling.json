@@ -1,18 +1,5 @@
 [
   {
-    "id": "Abyss",
-    "category": "skilling",
-    "sortingGroups": ["runecraft"],
-    "notableDrops": [
-      "Elemental_talisman",
-      "Giant_pouch",
-      "Large_pouch",
-      "Medium_pouch",
-      "Small_pouch",
-      "Binding_necklace"
-    ]
-  },
-  {
     "id": "Achey_Tree",
     "title": "Achey Trees",
     "category": "skilling",
@@ -501,6 +488,15 @@
     ]
   },
   {
+    "id": "Dust_runes",
+    "category": "skilling",
+    "requiredLevel": 10,
+    "sortingGroups": ["runecraft"],
+    "notableDrops": [
+      "Dust_rune"
+    ]
+  },
+  {
     "id": "Dwarven_Mine",
     "category": "skilling",
     "sortingGroups": ["mining"],
@@ -960,6 +956,15 @@
     ]
   },
   {
+    "id": "Mist_runes",
+    "category": "skilling",
+    "requiredLevel": 6,
+    "sortingGroups": ["runecraft"],
+    "notableDrops": [
+      "Mist_rune"
+    ]
+  },
+  {
     "id": "Mixed_hide_armour",
     "category": "skilling",
     "sortingGroups": ["crafting"],
@@ -992,6 +997,15 @@
       "Prospector_boots",
       "Coal_bag",
       "Gem_bag"
+    ]
+  },
+  {
+    "id": "Mud_runes",
+    "category": "skilling",
+    "requiredLevel": 13,
+    "sortingGroups": ["runecraft"],
+    "notableDrops": [
+      "Mud_rune"
     ]
   },
   {
@@ -1261,17 +1275,6 @@
     ]
   },
   {
-    "id": "Scar_essence_mine",
-    "category": "skilling",
-    "sortingGroups": ["runecraft"],
-    "notableDrops": [
-      "Warped_extract",
-      "Twisted_extract",
-      "Mangled_extract",
-      "Scarred_extract"
-    ]
-  },
-  {
     "id": "Scrapey_tree",
     "title": "Scrapey Trees",
     "subtitle": "Trouble Brewing",
@@ -1406,6 +1409,15 @@
       "Splitbark_boots",
       "#newline",
       "Fine_cloth"
+    ]
+  },
+  {
+    "id": "Steam_runes",
+    "category": "skilling",
+    "requiredLevel": 19,
+    "sortingGroups": ["runecraft"],
+    "notableDrops": [
+      "Steam_rune"
     ]
   },
   {
