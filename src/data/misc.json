@@ -22,8 +22,10 @@
   },
   {
     "id": "Ancient_Magicks",
+    "caption": "50-94",
     "category": "spellbook",
     "sortingGroups": ["magic"],
+    "requiredLevel": 50,
     "notableDrops": [
       "Ancient_spellbook"
     ]
@@ -39,8 +41,10 @@
   },
   {
     "id": "Arceuus_spellbook",
+    "caption": "1-93",
     "category": "spellbook",
     "sortingGroups": ["magic"],
+    "requiredLevel": 1,
     "notableDrops": [
       "Arceuus_spellbook"
     ]
@@ -419,10 +423,39 @@
   },
   {
     "id": "Lunar_spellbook",
+    "caption": "65-96",
     "category": "spellbook",
     "sortingGroups": ["magic"],
+    "requiredLevel": 65,
     "notableDrops": [
       "Lunar_spellbook"
+    ]
+  },
+  {
+    "id": "Mage_Arena_I",
+    "subtitle": "Miniquest",
+    "category": "miniquest",
+    "sortingGroups": ["magic"],
+    "requiredLevel": 60,
+    "notableDrops": [
+      "Saradomin_cape",
+      "Saradomin_Strike",
+      "Zamorak_cape",
+      "Flames_of_Zamorak",
+      "Guthix_cape",
+      "Claws_of_Guthix"
+    ]
+  },
+  {
+    "id": "Mage_Arena_II",
+    "subtitle": "Miniquest",
+    "category": "miniquest",
+    "sortingGroups": ["magic"],
+    "requiredLevel": 75,
+    "notableDrops": [
+      "Imbued_saradomin_cape",
+      "Imbued_zamorak_cape",
+      "Imbued_guthix_cape"
     ]
   },
   {
@@ -607,20 +640,6 @@
       "Ancient_carcanet",
       "Ancient_ledger",
       "Ancient_treatise"
-    ]
-  },
-  {
-    "id": "Sandstorm",
-    "title": "Sandstone Grinder",
-    "category": "misc",
-    "sortingGroups": ["crafting"],
-    "notableDrops": [
-      "Sandstone_(1kg)",
-      "Sandstone_(2kg)",
-      "Sandstone_(5kg)",
-      "Sandstone_(10kg)",
-      "#transmute",
-      "Bucket_of_sand"
     ]
   },
   {

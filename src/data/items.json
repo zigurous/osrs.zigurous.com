@@ -1507,6 +1507,11 @@
     "name": "Supply Crate"
   },
   {
+    "id": "Swamp_lizard_(Hunter)",
+    "icon": "Swamp_lizard",
+    "name": "Swamp Lizard"
+  },
+  {
     "id": "Tanzanite_fang",
     "transmutations": [
       "#transmute",

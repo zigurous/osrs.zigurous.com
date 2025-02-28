@@ -17,6 +17,7 @@
     "id": "Cooks'_Guild",
     "category": "guild",
     "sortingGroups": ["cooking"],
+    "requiredLevel": 32,
     "notableDrops": [
       "Cooking_cape",
       "Jug_of_wine",
@@ -30,6 +31,7 @@
     "id": "Crafting_Guild",
     "category": "guild",
     "sortingGroups": ["crafting"],
+    "requiredLevel": 40,
     "notableDrops": [
       "Crafting_cape",
       "Bank_chest"
@@ -37,8 +39,10 @@
   },
   {
     "id": "Farming_Guild",
+    "caption": "45-85",
     "category": "guild",
     "sortingGroups": ["farming"],
+    "requiredLevel": 45,
     "notableDrops": [
       "Hespori_seed",
       "Attas_seed",
@@ -52,6 +56,7 @@
     "id": "Fishing_Guild",
     "category": "guild",
     "sortingGroups": ["fishing"],
+    "requiredLevel": 68,
     "notableDrops": [
       "Fishing_cape",
       "Shark",
@@ -72,6 +77,7 @@
     "id": "Hunter_Guild",
     "category": "guild",
     "sortingGroups": ["hunter"],
+    "requiredLevel": 46,
     "notableDrops": [
       "Mixed_hide_base",
       "Moonlight_moth",
@@ -98,6 +104,7 @@
     "id": "Mining_Guild",
     "category": "guild",
     "sortingGroups": ["mining"],
+    "requiredLevel": 60,
     "notableDrops": [
       "Rune_pickaxe",
       "Iron_ore",
@@ -130,6 +137,7 @@
     "id": "Ranging_Guild",
     "category": "guild",
     "sortingGroups": ["ranged"],
+    "requiredLevel": 40,
     "notableDrops": [
       "Ranging_cape",
       "Green_d'hide_body",
@@ -141,14 +149,16 @@
   },
   {
     "id": "Servants'_Guild",
+    "caption": "20-50",
     "category": "guild",
     "sortingGroups": ["construction"],
+    "requiredLevel": 20,
     "notableDrops": [
-      "Demon_butler",
-      "Butler",
-      "Cook_(servant)",
+      "Rick",
       "Maid",
-      "Rick"
+      "Cook_(servant)",
+      "Butler",
+      "Demon_butler"
     ]
   },
   {
@@ -167,6 +177,7 @@
     "id": "Wizards'_Guild",
     "category": "guild",
     "sortingGroups": ["magic"],
+    "requiredLevel": 66,
     "notableDrops": [
       "Magic_cape",
       "Mystic_hat",
@@ -180,6 +191,7 @@
     "id": "Woodcutting_Guild",
     "category": "guild",
     "sortingGroups": ["woodcutting"],
+    "requiredLevel": 60,
     "notableDrops": [
       "Logs",
       "Oak_logs",

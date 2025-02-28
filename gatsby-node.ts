@@ -29,8 +29,9 @@ export const createSchemaCustomization = ({
       subtitle: String
       category: String!
       sortingGroups: [String!]!
-      notableDrops: [String!]!
       recommendedCombatStyle: [String!]!
+      requiredLevel: Int
+      notableDrops: [String!]!
     }
     type DungeonsJson implements Node @dontInfer {
       jsonId: String!
@@ -46,8 +47,8 @@ export const createSchemaCustomization = ({
       subtitle: String
       caption: String
       category: String!
-      requiredLevel: Int
       sortingGroups: [String!]!
+      requiredLevel: Int
       notableDrops: [String!]!
     }
     type ItemsJson implements Node @dontInfer {
@@ -71,7 +72,6 @@ export const createSchemaCustomization = ({
       category: String!
       sortingGroups: [String!]!
       requiredLevel: Int
-      recommendedCombatStyle: [String!]
       notableDrops: [String!]!
     }
     type MiscJson implements Node @dontInfer {
@@ -106,8 +106,8 @@ export const createSchemaCustomization = ({
       subtitle: String
       category: String!
       sortingGroups: [String!]!
-      notableDrops: [String!]!
       recommendedCombatStyle: [String!]!
+      notableDrops: [String!]!
     }
     type RegionsJson implements Node @dontInfer {
       jsonId: String!

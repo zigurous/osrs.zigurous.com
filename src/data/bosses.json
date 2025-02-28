@@ -585,6 +585,7 @@
     "category": "boss",
     "sortingGroups": ["fishing", "cooking", "pvm"],
     "recommendedCombatStyle": ["fishing"],
+    "requiredLevel": 35,
     "notableDrops": [
       "Tiny_tempor",
       "Dragon_harpoon",
@@ -783,6 +784,7 @@
     "category": "boss",
     "sortingGroups": ["firemaking", "woodcutting", "fletching", "pvm"],
     "recommendedCombatStyle": ["firemaking"],
+    "requiredLevel": 50,
     "notableDrops": [
       "Phoenix",
       "Pyromancer_hood",
@@ -801,8 +803,9 @@
     "id": "Zalcano",
     "icon": "Zalcano_icon_(mobile)",
     "category": "boss",
-    "sortingGroups": ["mining", "pvm"],
+    "sortingGroups": ["mining", "smithing", "pvm"],
     "recommendedCombatStyle": ["mining"],
+    "requiredLevel": 70,
     "notableDrops": [
       "Smolcano",
       "Zalcano_shard",

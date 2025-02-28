@@ -20,6 +20,7 @@ export function toTitleCase(title: string): string {
     .replace(' De ', ' de ')
     .replace(' The ', ' the ')
     .replace(' And ', ' and ')
+    .replace('(C)', '(c)')
     .replace('(E)', '(e)')
     .replace('(P)', '(p)')
     .replace('(Or)', '(or)');

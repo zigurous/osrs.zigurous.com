@@ -79,7 +79,6 @@ const dataQuery = graphql`
         category
         sortingGroups
         notableDrops
-        recommendedCombatStyle
       }
     }
     bosses: allBossesJson {
@@ -90,8 +89,8 @@ const dataQuery = graphql`
         subtitle
         category
         sortingGroups
+        requiredLevel
         notableDrops
-        recommendedCombatStyle
       }
     }
     minigames: allMinigamesJson {
@@ -103,7 +102,6 @@ const dataQuery = graphql`
         category
         sortingGroups
         requiredLevel
-        recommendedCombatStyle
         notableDrops
       }
     }

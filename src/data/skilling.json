@@ -14,16 +14,11 @@
   },
   {
     "id": "Aerial_fishing",
+    "caption": "43-91",
     "category": "skilling",
-    "sortingGroups": ["fishing", "hunter"],
+    "sortingGroups": ["fishing"],
+    "requiredLevel": 43,
     "notableDrops": [
-      "Bluegill",
-      "Common_tench",
-      "Mottled_eel",
-      "Greater_siren",
-      "Golden_tench",
-      "#newline",
-      "#newline",
       "Molch_pearl",
       "#transmute",
       "Angler's_outfit",
@@ -31,6 +26,21 @@
       "Pearl_fly_fishing_rod",
       "Pearl_barbarian_rod",
       "Fish_sack"
+    ]
+  },
+  {
+    "id": "Aerial_fishing#Creatures",
+    "title": "Aerial Fishing",
+    "caption": "35-87",
+    "category": "skilling",
+    "sortingGroups": ["hunter"],
+    "requiredLevel": 35,
+    "notableDrops": [
+      "Bluegill",
+      "Common_tench",
+      "Mottled_eel",
+      "Greater_siren",
+      "Golden_tench"
     ]
   },
   {
@@ -51,6 +61,19 @@
     "notableDrops": [
       "Air_rune",
       "Air_tiara"
+    ]
+  },{
+    "id": "Air_battlestaff",
+    "title": "Air Battlestaves",
+    "category": "skilling",
+    "sortingGroups": ["crafting"],
+    "requiredLevel": 66,
+    "notableDrops": [
+      "Air_orb",
+      "#plus",
+      "Battlestaff",
+      "#equals",
+      "Air_battlestaff"
     ]
   },
   {
@@ -75,8 +98,10 @@
   {
     "id": "Amethyst#Crafting",
     "title": "Amethyst",
+    "caption": "83-89",
     "category": "skilling",
     "sortingGroups": ["crafting"],
+    "requiredLevel": 83,
     "notableDrops": [
       "Chisel",
       "#plus",
@@ -134,8 +159,10 @@
   },
   {
     "id": "Avium_Savannah",
+    "caption": "39-91",
     "category": "skilling",
     "sortingGroups": ["hunter"],
+    "requiredLevel": 39,
     "notableDrops": [
       "Embertailed_jerboa",
       "Pyre_fox",
@@ -199,8 +226,10 @@
     "id": "Bird_house_trapping",
     "title": "Bird Houses",
     "subtitle": "Fossil Island",
+    "caption": "5-89",
     "category": "skilling",
     "sortingGroups": ["hunter"],
+    "requiredLevel": 5,
     "notableDrops": [
       "Bird_nest_(seeds)",
       "Clue_nest",
@@ -213,6 +242,7 @@
     "title": "Black Chinchompas",
     "category": "skilling",
     "sortingGroups": ["hunter"],
+    "requiredLevel": 73,
     "notableDrops": [
       "Baby_chinchompa",
       "Black_chinchompa"
@@ -220,16 +250,25 @@
   },
   {
     "id": "Black_dragonhide_armour",
+    "caption": "79-84",
     "category": "skilling",
     "sortingGroups": ["crafting"],
+    "requiredLevel": 79,
     "notableDrops": [
-      "Black_dragonhide",
-      "#transmute",
-      "Black_dragon_leather",
-      "#transmute",
-      "Black_d'hide_body",
+      "Black_d'hide_vambraces",
       "Black_d'hide_chaps",
-      "Black_d'hide_vambraces"
+      "Black_d'hide_shield",
+      "Black_d'hide_body"
+    ]
+  },
+  {
+    "id": "Black_salamander_(Hunter)",
+    "title": "Black Salamanders",
+    "category": "skilling",
+    "sortingGroups": ["hunter"],
+    "requiredLevel": 67,
+    "notableDrops": [
+      "Black_salamander_(Hunter)"
     ]
   },
   {
@@ -267,16 +306,15 @@
   },
   {
     "id": "Blue_dragonhide_armour",
+    "caption": "66-71",
     "category": "skilling",
     "sortingGroups": ["crafting"],
+    "requiredLevel": 66,
     "notableDrops": [
-      "Blue_dragonhide",
-      "#transmute",
-      "Blue_dragon_leather",
-      "#transmute",
-      "Blue_d'hide_body",
+      "Blue_d'hide_vambraces",
       "Blue_d'hide_chaps",
-      "Blue_d'hide_vambraces"
+      "Blue_d'hide_shield",
+      "Blue_d'hide_body"
     ]
   },
   {
@@ -291,28 +329,12 @@
     ]
   },
   {
-    "id": "Boneyard_Hunter_area",
-    "category": "skilling",
-    "sortingGroups": ["hunter"],
-    "notableDrops": [
-      "Black_salamander_(Hunter)"
-    ]
-  },
-  {
     "id": "Burnt_trees",
     "subtitle": "Fossil Island",
     "category": "skilling",
     "sortingGroups": ["woodcutting"],
     "notableDrops": [
       "Charcoal"
-    ]
-  },
-  {
-    "id": "Canifis_Hunter_area",
-    "category": "skilling",
-    "sortingGroups": ["hunter"],
-    "notableDrops": [
-      "Swamp_lizard"
     ]
   },
   {
@@ -329,6 +351,7 @@
     "title": "Red Chinchompas",
     "category": "skilling",
     "sortingGroups": ["hunter"],
+    "requiredLevel": 63,
     "notableDrops": [
       "Baby_chinchompa",
       "Red_chinchompa"
@@ -445,6 +468,17 @@
     ]
   },
   {
+    "id": "Chinchompa_(Hunter)",
+    "title": "Chinchompas",
+    "category": "skilling",
+    "sortingGroups": ["hunter"],
+    "requiredLevel": 53,
+    "notableDrops": [
+      "Baby_chinchompa",
+      "Chinchompa"
+    ]
+  },
+  {
     "id": "Citizen_(Civitas_illa_Fortis)#Pickpocketing",
     "title": "Citizen",
     "category": "skilling",
@@ -513,8 +547,10 @@
     "id": "Crafting#Birdhouses",
     "title": "Bird Houses",
     "subtitle": "Fossil Island",
+    "caption": "5-90",
     "category": "skilling",
     "sortingGroups": ["crafting"],
+    "requiredLevel": 5,
     "notableDrops": [
       "Bird_house",
       "Oak_bird_house",
@@ -530,8 +566,10 @@
   {
     "id": "Crafting#Gems",
     "title": "Cutting Gems",
+    "caption": "20-43",
     "category": "skilling",
     "sortingGroups": ["crafting"],
+    "requiredLevel": 20,
     "notableDrops": [
       "Chisel",
       "#plus",
@@ -590,31 +628,38 @@
     "title": "Crystal Implings",
     "category": "skilling",
     "sortingGroups": ["hunter"],
+    "requiredLevel": 80,
     "notableDrops": [
       "Elven_signet",
       "Crystal_acorn",
-      "Crystal_shard"
+      "Crystal_shard",
+      "Clue_scroll_(elite)"
     ]
   },
   {
     "id": "Crystal_singing",
+    "caption": "70-82",
     "category": "skilling",
-    "sortingGroups": ["crafting"],
+    "sortingGroups": ["crafting", "smithing"],
+    "requiredLevel": 70,
     "notableDrops": [
-      "Bow_of_faerdhinen",
-      "Blade_of_saeldor",
+      "Celestial_signet",
       "Crystal_helm",
-      "Crystal_body",
       "Crystal_legs",
-      "Eternal_teleport_crystal",
-      "Enhanced_crystal_key",
+      "Crystal_body",
+      "Crystal_axe",
+      "Crystal_felling_axe",
+      "Crystal_harpoon",
+      "Crystal_pickaxe",
       "Crystal_bow",
       "Crystal_halberd",
       "Crystal_shield",
-      "Crystal_axe",
-      "Crystal_harpoon",
-      "Crystal_pickaxe",
-      "Celestial_signet"
+      "Enhanced_crystal_key",
+      "Eternal_teleport_crystal",
+      "Blade_of_saeldor",
+      "Bow_of_faerdhinen",
+      "Blade_of_saeldor_(c)",
+      "Bow_of_faerdhinen_(c)"
     ]
   },
   {
@@ -676,9 +721,29 @@
   {
     "id": "Drift_net_fishing",
     "category": "skilling",
-    "sortingGroups": ["fishing", "hunter"],
+    "sortingGroups": ["fishing"],
+    "requiredLevel": 47,
     "notableDrops": [
+      "Oyster",
       "Pufferfish",
+      "Raw_anchovies",
+      "Raw_sardine",
+      "Raw_tuna",
+      "Raw_lobster",
+      "Raw_swordfish",
+      "Raw_shark",
+      "Raw_sea_turtle",
+      "Raw_manta_ray",
+      "Clue_bottle_(medium)"
+    ]
+  },
+  {
+    "id": "Drift_net_fishing#Creatures",
+    "title": "Drift Net Fishing",
+    "category": "skilling",
+    "sortingGroups": ["hunter"],
+    "requiredLevel": 44,
+    "notableDrops": [
       "Clue_bottle_(medium)"
     ]
   },
@@ -715,6 +780,19 @@
     "notableDrops": [
       "Earth_rune",
       "Earth_tiara"
+    ]
+  },{
+    "id": "Earth_battlestaff",
+    "title": "Earth Battlestaves",
+    "category": "skilling",
+    "sortingGroups": ["crafting"],
+    "requiredLevel": 58,
+    "notableDrops": [
+      "Earth_orb",
+      "#plus",
+      "Battlestaff",
+      "#equals",
+      "Earth_battlestaff"
     ]
   },
   {
@@ -785,8 +863,10 @@
   },
   {
     "id": "Feldip_Hunter_area",
+    "caption": "1-63",
     "category": "skilling",
     "sortingGroups": ["hunter"],
+    "requiredLevel": 1,
     "notableDrops": [
       "Crimson_swift",
       "Feldip_weasel",
@@ -806,6 +886,20 @@
     "notableDrops": [
       "Fire_rune",
       "Fire_tiara"
+    ]
+  },
+  {
+    "id": "Fire_battlestaff",
+    "title": "Fire Battlestaves",
+    "category": "skilling",
+    "sortingGroups": ["crafting"],
+    "requiredLevel": 62,
+    "notableDrops": [
+      "Fire_orb",
+      "#plus",
+      "Battlestaff",
+      "#equals",
+      "Fire_battlestaff"
     ]
   },
   {
@@ -898,16 +992,21 @@
   },
   {
     "id": "Glassblowing",
+    "caption": "1-87",
     "category": "skilling",
     "sortingGroups": ["crafting"],
+    "requiredLevel": 1,
     "notableDrops": [
       "Beer_glass",
       "Empty_candle_lantern",
       "Empty_oil_lamp",
+      "Oil_lantern",
       "Vial",
+      "Empty_fishbowl",
       "Unpowered_orb",
       "Lantern_lens",
-      "Empty_light_orb"
+      "Empty_light_orb",
+      "Light_orb"
     ]
   },
   {
@@ -938,16 +1037,15 @@
   },
   {
     "id": "Green_dragonhide_armour",
+    "caption": "57-63",
     "category": "skilling",
     "sortingGroups": ["crafting"],
+    "requiredLevel": 57,
     "notableDrops": [
-      "Green_dragonhide",
-      "#transmute",
-      "Green_dragon_leather",
-      "#transmute",
-      "Green_d'hide_body",
+      "Green_d'hide_vambraces",
       "Green_d'hide_chaps",
-      "Green_d'hide_vambraces"
+      "Green_d'hide_shield",
+      "Green_d'hide_body"
     ]
   },
   {
@@ -1067,10 +1165,24 @@
     ]
   },
   {
-    "id": "Herbiboar",
+    "id": "Herbiboar#Hunting",
+    "title": "Herbiboar",
     "subtitle": "Fossil Island",
     "category": "skilling",
     "sortingGroups": ["hunter"],
+    "requiredLevel": 80,
+    "notableDrops": [
+      "Herbi",
+      "Grimy_herb"
+    ]
+  },
+  {
+    "id": "Herbiboar#Harvesting",
+    "title": "Herbiboar",
+    "subtitle": "Fossil Island",
+    "category": "skilling",
+    "sortingGroups": ["herblore"],
+    "requiredLevel": 31,
     "notableDrops": [
       "Herbi",
       "Grimy_herb"
@@ -1115,21 +1227,23 @@
   },
   {
     "id": "Hueycoatl_hide_armour",
+    "caption": "86-88",
     "category": "skilling",
     "sortingGroups": ["crafting"],
+    "requiredLevel": 86,
     "notableDrops": [
-      "Hueycoatl_hide",
-      "#transmute",
+      "Hueycoatl_hide_vambraces",
       "Hueycoatl_hide_coif",
-      "Hueycoatl_hide_body",
       "Hueycoatl_hide_chaps",
-      "Hueycoatl_hide_vambraces"
+      "Hueycoatl_hide_body"
     ]
   },
   {
     "id": "Hunters'_Rumours",
+    "caption": "46-91",
     "category": "skilling",
     "sortingGroups": ["hunter"],
+    "requiredLevel": 46,
     "notableDrops": [
       "Quetzin",
       "Guild_hunter_headwear",
@@ -1143,8 +1257,10 @@
   {
     "id": "Isle_of_Souls#Hunter",
     "title": "Isle of Souls",
+    "caption": "1-53",
     "category": "skilling",
     "sortingGroups": ["hunter"],
+    "requiredLevel": 1,
     "notableDrops": [
       "Crimson_swift",
       "Copper_longtail",
@@ -1165,8 +1281,10 @@
   },
   {
     "id": "Karamja_Hunter_area",
+    "title": "Horned Graahk",
     "category": "skilling",
     "sortingGroups": ["hunter"],
+    "requiredLevel": 41,
     "notableDrops": [
       "Horned_graahk"
     ]
@@ -1183,8 +1301,10 @@
   },
   {
     "id": "Kourend_Woodland",
+    "caption": "9-53",
     "category": "skilling",
     "sortingGroups": ["hunter"],
+    "requiredLevel": 9,
     "notableDrops": [
       "Copper_longtail",
       "Ruby_harvest",
@@ -1213,17 +1333,23 @@
   },
   {
     "id": "Leather_armour",
+    "caption": "1-44",
     "category": "skilling",
     "sortingGroups": ["crafting"],
+    "requiredLevel": 1,
     "notableDrops": [
-      "Leather",
-      "#transmute",
       "Leather_gloves",
       "Leather_boots",
       "Leather_cowl",
+      "Leather_vambraces",
       "Leather_body",
       "Leather_chaps",
-      "Leather_vambraces"
+      "Hardleather_body",
+      "Spiky_vambraces",
+      "Coif",
+      "Hard_leather_shield",
+      "Studded_body",
+      "Studded_chaps"
     ]
   },
   {
@@ -1240,12 +1366,15 @@
   },
   {
     "id": "Loom",
+    "caption": "10-36",
     "category": "skilling",
     "sortingGroups": ["crafting"],
+    "requiredLevel": 10,
     "notableDrops": [
-      "Basket",
+      "Strip_of_cloth",
       "Empty_sack",
-      "Drift_net"
+      "Drift_net",
+      "Basket"
     ]
   },
   {
@@ -1291,6 +1420,7 @@
     "title": "Maniacal Monkeys",
     "category": "skilling",
     "sortingGroups": ["hunter"],
+    "requiredLevel": 60,
     "notableDrops": [
       "Monkey_tail"
     ]
@@ -1370,20 +1500,24 @@
   },
   {
     "id": "Mixed_hide_armour",
+    "caption": "68-72",
     "category": "skilling",
     "sortingGroups": ["crafting"],
+    "requiredLevel": 68,
     "notableDrops": [
-      "Mixed_hide_top",
-      "Mixed_hide_legs",
+      "Mixed_hide_cape",
       "Mixed_hide_boots",
-      "Mixed_hide_cape"
+      "Mixed_hide_legs",
+      "Mixed_hide_top"
     ]
   },
   {
     "id": "Mons_Gratia#Hunter",
     "title": "Mons Gratia Hunter Area",
+    "caption": "11-35",
     "category": "skilling",
     "sortingGroups": ["hunter"],
+    "requiredLevel": 11,
     "notableDrops": [
       "Cerulean_twitch",
       "Sapphire_glacialis",
@@ -1436,78 +1570,68 @@
     ]
   },
   {
-    "id": "Necropolis_Hunter_area",
-    "category": "skilling",
-    "sortingGroups": ["hunter"],
-    "notableDrops": [
-      "Orange_salamander_(Hunter)"
-    ]
-  },
-  {
     "id": "Obelisk_of_Air",
     "title": "Air Obelisk",
     "category": "skilling",
-    "sortingGroups": ["crafting"],
+    "sortingGroups": ["magic"],
+    "requiredLevel": 66,
     "notableDrops": [
       "Unpowered_orb",
-      "#transmute",
-      "Air_orb",
       "#plus",
-      "Battlestaff",
-      "#equals",
-      "Air_battlestaff"
+      "Charge_Air_Orb",
+      "#transmute",
+      "Air_orb"
     ]
   },
   {
     "id": "Obelisk_of_Earth",
     "title": "Earth Obelisk",
     "category": "skilling",
-    "sortingGroups": ["crafting"],
+    "sortingGroups": ["magic"],
+    "requiredLevel": 60,
     "notableDrops": [
       "Unpowered_orb",
-      "#transmute",
-      "Earth_orb",
       "#plus",
-      "Battlestaff",
-      "#equals",
-      "Earth_battlestaff"
+      "Charge_Earth_Orb",
+      "#transmute",
+      "Earth_orb"
     ]
   },
   {
     "id": "Obelisk_of_Fire",
     "title": "Fire Obelisk",
     "category": "skilling",
-    "sortingGroups": ["crafting"],
+    "sortingGroups": ["magic"],
+    "requiredLevel": 63,
     "notableDrops": [
       "Unpowered_orb",
-      "#transmute",
-      "Fire_orb",
       "#plus",
-      "Battlestaff",
-      "#equals",
-      "Fire_battlestaff"
+      "Charge_Fire_Orb",
+      "#transmute",
+      "Fire_orb"
     ]
   },
   {
     "id": "Obelisk_of_Water",
     "title": "Water Obelisk",
     "category": "skilling",
-    "sortingGroups": ["crafting"],
+    "sortingGroups": ["magic"],
+    "requiredLevel": 56,
     "notableDrops": [
       "Unpowered_orb",
-      "#transmute",
-      "Water_orb",
       "#plus",
-      "Battlestaff",
-      "#equals",
-      "Water_battlestaff"
+      "Charge_Water_Orb",
+      "#transmute",
+      "Water_orb"
     ]
   },
   {
     "id": "Onyx#Crafting",
     "title": "Onyx Jewellery",
+    "caption": "67-90",
     "category": "skilling",
     "sortingGroups": ["crafting"],
+    "requiredLevel": 67,
     "notableDrops": [
       "Onyx",
       "Gold_bar",
@@ -1516,6 +1640,16 @@
       "Berserker_necklace",
       "Regen_bracelet",
       "Amulet_of_fury"
+    ]
+  },
+  {
+    "id": "Orange_salamander_(Hunter)",
+    "title": "Orange Salamanders",
+    "category": "skilling",
+    "sortingGroups": ["hunter"],
+    "requiredLevel": 47,
+    "notableDrops": [
+      "Orange_salamander_(Hunter)"
     ]
   },
   {
@@ -1537,14 +1671,6 @@
       "Death_rune",
       "Blood_rune",
       "Soul_rune"
-    ]
-  },
-  {
-    "id": "Ourania_Hunter_area",
-    "category": "skilling",
-    "sortingGroups": ["hunter"],
-    "notableDrops": [
-      "Red_salamander_(Hunter)"
     ]
   },
   {
@@ -1570,8 +1696,11 @@
   },
   {
     "id": "Piscatoris_falconry_area",
+    "title": "Falconry",
+    "caption": "43-69",
     "category": "skilling",
     "sortingGroups": ["hunter"],
+    "requiredLevel": 43,
     "notableDrops": [
       "Spotted_kebbit",
       "Dark_kebbit",
@@ -1580,8 +1709,10 @@
   },
   {
     "id": "Piscatoris_Hunter_area",
+    "caption": "3-53",
     "category": "skilling",
     "sortingGroups": ["hunter"],
+    "requiredLevel": 3,
     "notableDrops": [
       "Common_kebbit",
       "Copper_longtail",
@@ -1605,14 +1736,16 @@
   },
   {
     "id": "Pottery_Oven",
+    "caption": "1-25",
     "category": "skilling",
     "sortingGroups": ["crafting"],
+    "requiredLevel": 1,
     "notableDrops": [
-      "Bowl",
-      "Empty_cup",
-      "Empty_plant_pot",
-      "Pie_dish",
       "Pot",
+      "Empty_cup",
+      "Pie_dish",
+      "Bowl",
+      "Empty_plant_pot",
       "Pot_lid"
     ]
   },
@@ -1627,16 +1760,25 @@
   },
   {
     "id": "Red_dragonhide_armour",
+    "caption": "73-77",
     "category": "skilling",
     "sortingGroups": ["crafting"],
+    "requiredLevel": 73,
     "notableDrops": [
-      "Red_dragonhide",
-      "#transmute",
-      "Red_dragon_leather",
-      "#transmute",
-      "Red_d'hide_body",
+      "Red_d'hide_vambraces",
       "Red_d'hide_chaps",
-      "Red_d'hide_vambraces"
+      "Red_d'hide_shield",
+      "Red_d'hide_body"
+    ]
+  },
+  {
+    "id": "Red_salamander_(Hunter)",
+    "title": "Red Salamanders",
+    "category": "skilling",
+    "sortingGroups": ["hunter"],
+    "requiredLevel": 59,
+    "notableDrops": [
+      "Red_salamander_(Hunter)"
     ]
   },
   {
@@ -1649,8 +1791,10 @@
   },
   {
     "id": "Rellekka_Hunter_area",
+    "caption": "1-55",
     "category": "skilling",
     "sortingGroups": ["hunter"],
+    "requiredLevel": 1,
     "notableDrops": [
       "Polar_kebbit",
       "Cerulean_twitch",
@@ -1695,9 +1839,24 @@
     ]
   },
   {
+    "id": "Sandstone",
+    "category": "skilling",
+    "sortingGroups": ["mining", "crafting"],
+    "requiredLevel": 35,
+    "notableDrops": [
+      "Sandstone_(1kg)",
+      "Sandstone_(2kg)",
+      "Sandstone_(5kg)",
+      "Sandstone_(10kg)",
+      "#transmute",
+      "Bucket_of_sand"
+    ]
+  },
+  {
     "id": "Sandworms",
     "category": "skilling",
     "sortingGroups": ["hunter"],
+    "requiredLevel": 15,
     "notableDrops": [
       "Bucket_of_sandworms",
       "#transmute",
@@ -1869,22 +2028,25 @@
   },
   {
     "id": "Snakeskin_armour",
+    "caption": "35-56",
     "category": "skilling",
     "sortingGroups": ["crafting"],
+    "requiredLevel": 35,
     "notableDrops": [
-      "Snakeskin",
-      "#transmute",
-      "Snakeskin_bandana",
-      "Snakeskin_body",
+      "Broodoo_shield",
       "Snakeskin_boots",
+      "Snakeskin_vambraces",
+      "Snakeskin_bandana",
       "Snakeskin_chaps",
-      "Snakeskin_vambraces"
+      "Snakeskin_body",
+      "Snakeskin_shield"
     ]
   },
   {
     "id": "Snelms",
     "category": "skilling",
     "sortingGroups": ["crafting"],
+    "requiredLevel": 15,
     "notableDrops": [
       "Pointed_blood'n'tar_snelm",
       "Blood'n'tar_snelm",
@@ -1918,8 +2080,10 @@
   },
   {
     "id": "Spinning_wheel",
+    "caption": "1-30",
     "category": "skilling",
     "sortingGroups": ["crafting"],
+    "requiredLevel": 1,
     "notableDrops": [
       "Ball_of_wool",
       "Bow_string",
@@ -1930,18 +2094,16 @@
   },
   {
     "id": "Splitbark_armour",
+    "caption": "60-62",
     "category": "skilling",
     "sortingGroups": ["crafting"],
+    "requiredLevel": 60,
     "notableDrops": [
-      "Bark",
-      "#transmute",
-      "Splitbark_helm",
-      "Splitbark_body",
       "Splitbark_gauntlets",
-      "Splitbark_legs",
       "Splitbark_boots",
-      "#newline",
-      "Fine_cloth"
+      "Splitbark_helm",
+      "Splitbark_legs",
+      "Splitbark_body"
     ]
   },
   {
@@ -2028,6 +2190,16 @@
     ]
   },
   {
+    "id": "Swamp_lizard_(Hunter)",
+    "title": "Swamp Lizards",
+    "category": "skilling",
+    "sortingGroups": ["hunter"],
+    "requiredLevel": 29,
+    "notableDrops": [
+      "Swamp_lizard_(Hunter)"
+    ]
+  },
+  {
     "id": "Tea_stall",
     "category": "skilling",
     "requiredLevel": 5,
@@ -2071,6 +2243,7 @@
     "title": "Tecu Salamanders",
     "category": "skilling",
     "sortingGroups": ["hunter"],
+    "requiredLevel": 79,
     "notableDrops": [
       "Immature_tecu_salamander",
       "Tecu_salamander"
@@ -2239,15 +2412,19 @@
     "notableDrops": [
       "Glistening_tear",
       "Mermaid's_tear",
+      "#transmute",
       "Seaweed_spore",
-      "Merfolk_trident",
-      "Fossil_Island_fossil"
+      "Bowl_of_fish",
+      "Fossil_Island_fossil",
+      "Merfolk_trident"
     ]
   },
   {
     "id": "Uzer_Hunter_area",
+    "caption": "5-47",
     "category": "skilling",
     "sortingGroups": ["hunter"],
+    "requiredLevel": 5,
     "notableDrops": [
       "Golden_warbler",
       "Desert_devil",
@@ -2338,6 +2515,20 @@
     ]
   },
   {
+    "id": "Water_battlestaff",
+    "title": "Water Battlestaves",
+    "category": "skilling",
+    "sortingGroups": ["crafting"],
+    "requiredLevel": 54,
+    "notableDrops": [
+      "Water_orb",
+      "#plus",
+      "Battlestaff",
+      "#equals",
+      "Water_battlestaff"
+    ]
+  },
+  {
     "id": "Wealthy_citizen",
     "title": "Wealthy Citizen",
     "category": "skilling",
@@ -2386,32 +2577,34 @@
   },
   {
     "id": "Xerician_robes",
+    "caption": "14-22",
     "category": "skilling",
     "sortingGroups": ["crafting"],
+    "requiredLevel": 14,
     "notableDrops": [
-      "Xerician_fabric",
-      "#transmute",
       "Xerician_hat",
-      "Xerician_top",
-      "Xerician_robe"
+      "Xerician_robe",
+      "Xerician_top"
     ]
   },
   {
     "id": "Yak-hide_armour",
+    "caption": "43-46",
     "category": "skilling",
     "sortingGroups": ["crafting"],
+    "requiredLevel": 43,
     "notableDrops": [
-      "Yak-hide",
-      "#transmute",
-      "Yak-hide_armour_(top)",
-      "Yak-hide_armour_(legs)"
+      "Yak-hide_armour_(legs)",
+      "Yak-hide_armour_(top)"
     ]
   },
   {
     "id": "Zenyte#Crafting",
     "title": "Zenyte Jewellery",
+    "caption": "89-98",
     "category": "skilling",
     "sortingGroups": ["crafting"],
+    "requiredLevel": 89,
     "notableDrops": [
       "Zenyte",
       "Gold_bar",

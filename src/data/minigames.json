@@ -3,7 +3,6 @@
     "id": "Barbarian_Assault",
     "category": "minigame",
     "sortingGroups": ["pvm", "ranged"],
-    "recommendedCombatStyle": ["ranged"],
     "notableDrops": [
       "Pet_penance_queen",
       "Fighter_torso",
@@ -133,6 +132,7 @@
     "id": "Fishing_Trawler",
     "category": "minigame",
     "sortingGroups": ["fishing"],
+    "requiredLevel": 15,
     "notableDrops": [
       "Angler_hat",
       "Angler_top",
@@ -144,6 +144,7 @@
     "id": "Giants'_Foundry",
     "category": "minigame",
     "sortingGroups": ["smithing"],
+    "requiredLevel": 15,
     "notableDrops": [
       "Colossal_blade",
       "Smiths_tunic",
@@ -168,6 +169,7 @@
     "id": "Gnome_Restaurant",
     "category": "minigame",
     "sortingGroups": ["cooking"],
+    "requiredLevel": 29,
     "notableDrops": [
       "Grand_seed_pod",
       "Gnome_scarf",
@@ -225,8 +227,10 @@
   {
     "id": "Impetuous_Impulses",
     "title": "Puro-Puro",
+    "caption": "17-89",
     "category": "minigame",
     "sortingGroups": ["hunter"],
+    "requiredLevel": 17,
     "notableDrops": [
       "Lucky_impling_jar",
       "Dragon_impling_jar",
@@ -276,23 +280,11 @@
     ]
   },
   {
-    "id": "Mage_Arena",
-    "category": "minigame",
-    "sortingGroups": ["magic"],
-    "recommendedCombatStyle": ["magic"],
-    "notableDrops": [
-      "Imbued_saradomin_cape",
-      "Saradomin_Strike",
-      "Imbued_zamorak_cape",
-      "Flames_of_Zamorak",
-      "Imbued_guthix_cape",
-      "Claws_of_Guthix"
-    ]
-  },
-  {
     "id": "Mage_Training_Arena",
+    "caption": "7-87",
     "category": "minigame",
     "sortingGroups": ["magic"],
+    "requiredLevel": 7,
     "notableDrops": [
       "Infinity_hat",
       "Infinity_top",
@@ -309,8 +301,10 @@
   },
   {
     "id": "Mahogany_Homes",
+    "caption": "1-70",
     "category": "minigame",
     "sortingGroups": ["construction"],
+    "requiredLevel": 1,
     "notableDrops": [
       "Carpenter's_helmet",
       "Carpenter's_shirt",
@@ -318,15 +312,16 @@
       "Carpenter's_boots",
       "Amy's_saw",
       "Plank_sack",
-      "#newline",
       "Hosidius_blueprints",
       "Supply_crate_(Mahogany_Homes)"
     ]
   },
   {
     "id": "Mastering_Mixology",
+    "caption": "60-81",
     "category": "minigame",
     "sortingGroups": ["herblore"],
+    "requiredLevel": 60,
     "notableDrops": [
       "Prescription_goggles",
       "Alchemist_labcoat",
@@ -344,8 +339,10 @@
   },
   {
     "id": "Mess",
+    "caption": "20-65",
     "category": "minigame",
     "sortingGroups": ["cooking"],
+    "requiredLevel": 20,
     "notableDrops": [
       "XP"
     ]
@@ -363,8 +360,10 @@
   },
   {
     "id": "Pest_Control",
+    "caption": "40-100",
     "category": "minigame",
     "sortingGroups": ["pvm", "melee", "ranged", "magic", "prayer"],
+    "requiredLevel": 40,
     "notableDrops": [
       "Void_melee_helm",
       "Void_ranger_helm",
@@ -394,6 +393,7 @@
     "title": "Shooting Range",
     "category": "minigame",
     "sortingGroups": ["ranged"],
+    "requiredLevel": 40,
     "notableDrops": [
       "Archery_ticket"
     ]
@@ -476,8 +476,10 @@
   },
   {
     "id": "Tai_Bwo_Wannai_Cleanup",
+    "caption": "10-35",
     "category": "minigame",
     "sortingGroups": ["woodcutting"],
+    "requiredLevel": 10,
     "notableDrops": [
       "Trading_sticks",
       "Gout_tuber",
@@ -522,8 +524,10 @@
   },
   {
     "id": "Tithe_Farm",
+    "caption": "34-74",
     "category": "minigame",
     "sortingGroups": ["farming"],
+    "requiredLevel": 34,
     "notableDrops": [
       "Farmer's_strawhat",
       "Farmer's_jacket",
@@ -543,6 +547,7 @@
     "id": "Trouble_Brewing",
     "category": "minigame",
     "sortingGroups": ["cooking", "fletching", "woodcutting"],
+    "requiredLevel": 40,
     "notableDrops": [
       "Pieces_of_eight",
       "Tricorn_hat",
@@ -573,7 +578,6 @@
     "title": "Jad Challenges",
     "category": "minigame",
     "sortingGroups": ["pvm"],
-    "recommendedCombatStyle": ["ranged"],
     "notableDrops": [
       "Tokkul"
     ]
@@ -582,6 +586,7 @@
     "id": "Volcanic_Mine",
     "category": "minigame",
     "sortingGroups": ["mining"],
+    "requiredLevel": 50,
     "notableDrops": [
       "Dragon_pickaxe_(broken)",
       "Prospector_helmet",
