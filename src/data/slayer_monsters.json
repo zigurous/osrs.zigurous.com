@@ -2,7 +2,7 @@
   {
     "id": "Aberrant_spectre",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["slayer", "pvm", "herblore"],
     "requiredCombatLevel": 65,
     "requiredSlayerLevel": 60,
     "slayerMasters": [
@@ -145,6 +145,30 @@
       "Granite_longsword",
       "Granite_boots",
       "Wyvern_bones"
+    ]
+  },
+  {
+    "id": "Ancient_Zygomite",
+    "icon": "Mutated_zygomite_icon",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm", "herblore"],
+    "requiredCombatLevel": 60,
+    "requiredSlayerLevel": 57,
+    "slayerMasters": [
+      "Chaeldar",
+      "Konar_quo_Maten",
+      "Nieve",
+      "Duradel"
+    ],
+    "locations": [
+      "Fossil_Island"
+    ],
+    "notableDrops": [
+      "Pyrophosphite",
+      "Calcite",
+      "Supercompost",
+      "Mort_myre_fungus",
+      "Volcanic_ash"
     ]
   },
   {
@@ -307,7 +331,7 @@
   {
     "id": "Banshee",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["slayer", "pvm", "herblore"],
     "requiredCombatLevel": 20,
     "requiredSlayerLevel": 15,
     "slayerMasters": [
@@ -320,7 +344,8 @@
     ],
     "notableDrops": [
       "Pure_essence",
-      "Mystic_gloves_(dark)"
+      "Mystic_gloves_(dark)",
+      "Grimy_herb"
     ]
   },
   {
@@ -532,7 +557,7 @@
     "id": "Blue_dragon",
     "icon": "Blue_dragon_mask",
     "category": "monster",
-    "sortingGroups": ["pvm", "slayer", "crafting"],
+    "sortingGroups": ["pvm", "slayer", "crafting", "herblore"],
     "requiredCombatLevel": 65,
     "slayerMasters": [
       "Vannaka",
@@ -645,7 +670,7 @@
     "id": "Brutal_blue_dragon",
     "icon": "Blue_dragon_mask",
     "category": "monster",
-    "sortingGroups": ["pvm", "slayer"],
+    "sortingGroups": ["pvm", "slayer", "crafting", "herblore"],
     "requiredCombatLevel": 65,
     "slayerMasters": [
       "Konar_quo_Maten",
@@ -721,7 +746,7 @@
   {
     "id": "Cave_crawler",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["slayer", "pvm", "herblore"],
     "requiredCombatLevel": 10,
     "requiredSlayerLevel": 10,
     "slayerMasters": [
@@ -827,7 +852,7 @@
     "id": "Chaos_druid",
     "icon": "Ensouled_chaos_druid_head",
     "category": "monster",
-    "sortingGroups": ["pvm", "slayer"],
+    "sortingGroups": ["pvm", "slayer", "herblore"],
     "slayerMasters": [
       "Krystilia"
     ],
@@ -936,8 +961,9 @@
   {
     "id": "Cyclops",
     "icon": "Cyclops_head",
+    "subtitle": "Warrior's Guild",
     "category": "monster",
-    "sortingGroups": ["pvm", "slayer"],
+    "sortingGroups": ["melee", "pvm"],
     "requiredCombatLevel": 25,
     "slayerMasters": [
       "Mazchna",
@@ -947,8 +973,14 @@
       "Warriors'_Guild"
     ],
     "notableDrops": [
-      "Dragon_defender",
-      "Rune_defender"
+      "Bronze_defender",
+      "Iron_defender",
+      "Steel_defender",
+      "Black_defender",
+      "Mithril_defender",
+      "Adamant_defender",
+      "Rune_defender",
+      "Dragon_defender"
     ]
   },
   {
@@ -1074,7 +1106,7 @@
     "id": "Deviant_spectre",
     "icon": "Aberrant_spectre_icon",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["slayer", "pvm", "herblore"],
     "requiredCombatLevel": 65,
     "requiredSlayerLevel": 60,
     "slayerMasters": [
@@ -1644,7 +1676,8 @@
     "notableDrops": [
       "Giant_key",
       "Ensouled_giant_head",
-      "Big_bones"
+      "Big_bones",
+      "Limpwurt_root"
     ]
   },
   {
@@ -1713,7 +1746,7 @@
     "id": "Hobgoblin",
     "icon": "Hobgoblin_guard_icon",
     "category": "monster",
-    "sortingGroups": ["pvm", "slayer"],
+    "sortingGroups": ["pvm", "slayer", "herblore"],
     "requiredCombatLevel": 20,
     "slayerMasters": [
       "Mazchna",
@@ -2006,7 +2039,7 @@
       "Kalphite_Lair"
     ],
     "notableDrops": [
-      "Nothing"
+      "Grimy_herb"
     ]
   },
   {
@@ -2048,7 +2081,7 @@
   {
     "id": "Kurask",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["slayer", "pvm", "herblore"],
     "requiredCombatLevel": 65,
     "requiredSlayerLevel": 70,
     "slayerMasters": [
@@ -2063,6 +2096,13 @@
       "Iorwerth_Dungeon"
     ],
     "notableDrops": [
+      "Grimy_herb",
+      "Flax",
+      "White_berries",
+      "Big_bones",
+      "Papaya_fruit",
+      "Coconut",
+      "Coins",
       "Leaf-bladed_battleaxe",
       "Leaf-bladed_sword",
       "Mystic_robe_top_(light)",
@@ -2073,7 +2113,7 @@
     "id": "Lava_dragon",
     "icon": "Lava_dragon_mask",
     "category": "monster",
-    "sortingGroups": ["pvm", "slayer", "prayer", "crafting"],
+    "sortingGroups": ["pvm", "slayer", "prayer", "crafting", "herblore"],
     "slayerMasters": [
       "Krystilia"
     ],
@@ -2970,7 +3010,7 @@
     "id": "Sulphur_Nagua",
     "icon": "Lesser_nagua_icon",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["slayer", "pvm", "runecraft"],
     "requiredCombatLevel": 70,
     "requiredSlayerLevel": 48,
     "slayerMasters": [
@@ -3135,7 +3175,7 @@
   {
     "id": "Turoth",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["slayer", "pvm", "herblore"],
     "requiredCombatLevel": 60,
     "requiredSlayerLevel": 55,
     "slayerMasters": [
@@ -3149,14 +3189,16 @@
     ],
     "notableDrops": [
       "Leaf-bladed_sword",
-      "Mystic_robe_bottom_(light)"
+      "Mystic_robe_bottom_(light)",
+      "Grimy_herb",
+      "Limpwurt_root"
     ]
   },
   {
     "id": "Twisted_Banshee",
     "icon": "Banshee_icon",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["slayer", "pvm", "herblore"],
     "requiredCombatLevel": 20,
     "requiredSlayerLevel": 15,
     "slayerMasters": [
@@ -3169,7 +3211,8 @@
     ],
     "notableDrops": [
       "Pure_essence",
-      "Mystic_gloves_(dark)"
+      "Mystic_gloves_(dark)",
+      "Grimy_herb"
     ]
   },
   {
@@ -3492,12 +3535,7 @@
       "Duradel"
     ],
     "locations": [
-      "Zanaris",
-      "Fossil_Island"
-    ],
-    "notableDrops": [
-      "Pyrophosphite",
-      "Calcite"
+      "Zanaris"
     ]
   }
 ]

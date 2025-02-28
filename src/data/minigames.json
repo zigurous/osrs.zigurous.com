@@ -331,9 +331,9 @@
       "Reagent_pouch",
       "Chugging_barrel",
       "Potion_storage",
-      "Expert_potion_pack",
-      "Adept_potion_pack",
       "Apprentice_potion_pack",
+      "Adept_potion_pack",
+      "Expert_potion_pack",
       "Aldarium"
     ]
   },

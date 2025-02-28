@@ -463,6 +463,7 @@
     "category": "misc",
     "sortingGroups": [
       "misc",
+      "herblore",
       "woodcutting",
       "farming",
       "fishing",
@@ -477,7 +478,8 @@
       "Teak_logs",
       "Mahogany_logs",
       "Tuna",
-      "Swordfish"
+      "Swordfish",
+      "Bird_nest"
     ]
   },
   {

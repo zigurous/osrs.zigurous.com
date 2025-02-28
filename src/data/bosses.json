@@ -55,7 +55,7 @@
     "id": "Araxxor",
     "icon": "Nid",
     "category": "boss",
-    "sortingGroups": ["pvm", "slayer", "melee"],
+    "sortingGroups": ["pvm", "slayer", "melee", "herblore"],
     "recommendedCombatStyle": ["melee"],
     "notableDrops": [
       "Nid",
@@ -121,7 +121,7 @@
     "icon": "Callisto_cub",
     "title": "Callisto / Artio",
     "category": "boss",
-    "sortingGroups": ["pvm", "slayer", "ranged", "magic"],
+    "sortingGroups": ["pvm", "slayer", "ranged", "magic", "herblore"],
     "recommendedCombatStyle": ["ranged", "magic"],
     "notableDrops": [
       "Callisto_cub",
@@ -305,7 +305,7 @@
     "id": "Giant_Mole",
     "icon": "Giant_Mole_icon_(mobile)",
     "category": "boss",
-    "sortingGroups": ["pvm", "ranged", "magic", "melee"],
+    "sortingGroups": ["pvm", "ranged", "magic", "melee", "herblore"],
     "recommendedCombatStyle": ["ranged", "magic", "melee"],
     "notableDrops": [
       "Baby_mole",
@@ -390,7 +390,7 @@
     "id": "Kalphite_Queen",
     "icon": "Kalphite_Queen_icon_(mobile)",
     "category": "boss",
-    "sortingGroups": ["pvm", "slayer", "melee", "ranged"],
+    "sortingGroups": ["pvm", "slayer", "melee", "ranged", "herblore"],
     "recommendedCombatStyle": ["melee", "ranged"],
     "notableDrops": [
       "Kalphite_princess",
@@ -500,7 +500,7 @@
     "id": "Phantom_Muspah",
     "icon": "Muphin_(ranged)",
     "category": "boss",
-    "sortingGroups": ["pvm", "ranged", "magic"],
+    "sortingGroups": ["pvm", "ranged", "magic", "herblore"],
     "recommendedCombatStyle": ["ranged", "magic"],
     "notableDrops": [
       "Muphin",
@@ -729,7 +729,7 @@
     "icon": "Venenatis_spiderling",
     "title": "Venenatis / Spindel",
     "category": "boss",
-    "sortingGroups": ["pvm", "slayer", "melee", "ranged"],
+    "sortingGroups": ["pvm", "slayer", "melee", "ranged", "herblore"],
     "recommendedCombatStyle": ["melee", "ranged"],
     "notableDrops": [
       "Venenatis_spiderling",
@@ -745,7 +745,7 @@
     "icon": "Vet'ion_jr.",
     "title": "Vet'ion / Calvar'ion",
     "category": "boss",
-    "sortingGroups": ["pvm", "slayer", "melee"],
+    "sortingGroups": ["pvm", "slayer", "melee", "herblore"],
     "recommendedCombatStyle": ["melee"],
     "notableDrops": [
       "Vet'ion_jr.",
@@ -760,7 +760,7 @@
     "id": "Vorkath",
     "icon": "Vorkath_icon_(mobile)",
     "category": "boss",
-    "sortingGroups": ["pvm", "slayer", "melee", "ranged", "prayer", "crafting"],
+    "sortingGroups": ["pvm", "slayer", "melee", "ranged", "prayer", "crafting", "herblore"],
     "recommendedCombatStyle": ["melee", "ranged"],
     "notableDrops": [
       "Vorki",
@@ -818,7 +818,7 @@
     "id": "Zulrah",
     "icon": "Zulrah_icon_(mobile)",
     "category": "boss",
-    "sortingGroups": ["pvm", "magic", "ranged"],
+    "sortingGroups": ["pvm", "magic", "ranged", "herblore"],
     "recommendedCombatStyle": ["magic", "ranged"],
     "notableDrops": [
       "Pet_snakeling",

@@ -47,7 +47,8 @@
       "pvm",
       "melee",
       "ranged",
-      "magic"
+      "magic",
+      "herblore"
     ],
     "recommendedCombatStyle": ["hybrid"],
     "notableDrops": [
@@ -75,7 +76,8 @@
       "magic",
       "melee",
       "ranged",
-      "mining"
+      "mining",
+      "herblore"
     ],
     "recommendedCombatStyle": ["hybrid"],
     "notableDrops": [

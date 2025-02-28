@@ -44,6 +44,21 @@
     ]
   },
   {
+    "id": "Agility_potion",
+    "category": "skilling",
+    "sortingGroups": ["herblore"],
+    "requiredLevel": 34,
+    "notableDrops": [
+      "Vial_of_water",
+      "#plus",
+      "Toadflax",
+      "#plus",
+      "Toad's_legs",
+      "#transmute",
+      "Agility_potion(3)"
+    ]
+  },
+  {
     "id": "Agility_Pyramid",
     "category": "skilling",
     "requiredLevel": 30,
@@ -114,6 +129,107 @@
     ]
   },
   {
+    "id": "Ancient_brew",
+    "category": "skilling",
+    "sortingGroups": ["herblore"],
+    "requiredLevel": 85,
+    "notableDrops": [
+      "Vial_of_water",
+      "#plus",
+      "Dwarf_weed",
+      "#plus",
+      "Nihil_dust",
+      "#transmute",
+      "Ancient_brew(3)"
+    ]
+  },
+  {
+    "id": "Antidote+",
+    "category": "skilling",
+    "sortingGroups": ["herblore"],
+    "requiredLevel": 68,
+    "notableDrops": [
+      "Coconut_milk",
+      "#plus",
+      "Toadflax",
+      "#plus",
+      "Yew_roots",
+      "#transmute",
+      "Antidote+(3)"
+    ]
+  },
+  {
+    "id": "Antidote++",
+    "category": "skilling",
+    "sortingGroups": ["herblore"],
+    "requiredLevel": 79,
+    "notableDrops": [
+      "Coconut_milk",
+      "#plus",
+      "Irit_leaf",
+      "#plus",
+      "Magic_roots",
+      "#transmute",
+      "Antidote++(3)"
+    ]
+  },
+  {
+    "id": "Antifire_potion",
+    "category": "skilling",
+    "sortingGroups": ["herblore"],
+    "requiredLevel": 69,
+    "notableDrops": [
+      "Vial_of_water",
+      "#plus",
+      "Lantadyme",
+      "#plus",
+      "Dragon_scale_dust",
+      "#transmute",
+      "Antifire_potion(3)"
+    ]
+  },
+  {
+    "id": "Antipoison",
+    "category": "skilling",
+    "sortingGroups": ["herblore"],
+    "requiredLevel": 5,
+    "notableDrops": [
+      "Vial_of_water",
+      "#plus",
+      "Marrentill",
+      "#plus",
+      "Unicorn_horn_dust",
+      "#transmute",
+      "Antipoison(3)"
+    ]
+  },
+  {
+    "id": "Anti-venom",
+    "category": "skilling",
+    "sortingGroups": ["herblore"],
+    "requiredLevel": 87,
+    "notableDrops": [
+      "Antidote++(4)",
+      "#plus",
+      "Zulrah's_scales",
+      "#transmute",
+      "Anti-venom(4)"
+    ]
+  },
+  {
+    "id": "Anti-venom+",
+    "category": "skilling",
+    "sortingGroups": ["herblore"],
+    "requiredLevel": 94,
+    "notableDrops": [
+      "Anti-venom(4)",
+      "#plus",
+      "Torstol",
+      "#transmute",
+      "Anti-venom+(4)"
+    ]
+  },
+  {
     "id": "Ape_Atoll_Agility_Course",
     "category": "skilling",
     "requiredLevel": 48,
@@ -155,6 +271,21 @@
     "sortingGroups": ["runecraft"],
     "notableDrops": [
       "Astral_rune"
+    ]
+  },
+  {
+    "id": "Attack_potion",
+    "category": "skilling",
+    "sortingGroups": ["herblore"],
+    "requiredLevel": 3,
+    "notableDrops": [
+      "Vial_of_water",
+      "#plus",
+      "Guam_leaf",
+      "#plus",
+      "Eye_of_newt",
+      "#transmute",
+      "Attack_potion(3)"
     ]
   },
   {
@@ -212,6 +343,36 @@
     "sortingGroups": ["agility"],
     "notableDrops": [
       "Mark_of_grace"
+    ]
+  },
+  {
+    "id": "Bastion_potion",
+    "category": "skilling",
+    "sortingGroups": ["herblore"],
+    "requiredLevel": 80,
+    "notableDrops": [
+      "Vial_of_blood",
+      "#plus",
+      "Cadantine",
+      "#plus",
+      "Wine_of_zamorak",
+      "#transmute",
+      "Bastion_potion(3)"
+    ]
+  },
+  {
+    "id": "Battlemage_potion",
+    "category": "skilling",
+    "sortingGroups": ["herblore"],
+    "requiredLevel": 80,
+    "notableDrops": [
+      "Vial_of_blood",
+      "#plus",
+      "Cadantine",
+      "#plus",
+      "Potato_cactus",
+      "#transmute",
+      "Battlemage_potion(3)"
     ]
   },
   {
@@ -489,6 +650,20 @@
     ]
   },
   {
+    "id": "Coconut_milk",
+    "subtitle": "Potion Base",
+    "caption": "68-82",
+    "category": "skilling",
+    "sortingGroups": ["herblore"],
+    "requiredLevel": 68,
+    "notableDrops": [
+      "Antidote+(4)",
+      "Antidote++(4)",
+      "Weapon_poison+",
+      "Weapon_poison++"
+    ]
+  },
+  {
     "id": "Colossal_Wyrm_Agility_Course#Basic_course_obstacles",
     "title": "Colossal Wyrm Course",
     "subtitle": "Basic",
@@ -530,6 +705,36 @@
       "Graceful_crafting_kit",
       "Amylase_pack",
       "Calcified_acorn"
+    ]
+  },
+  {
+    "id": "Combat_potion",
+    "category": "skilling",
+    "sortingGroups": ["herblore"],
+    "requiredLevel": 36,
+    "notableDrops": [
+      "Vial_of_water",
+      "#plus",
+      "Harralander",
+      "#plus",
+      "Goat_horn_dust",
+      "#transmute",
+      "Combat_potion(3)"
+    ]
+  },
+  {
+    "id": "Compost_potion",
+    "category": "skilling",
+    "sortingGroups": ["herblore"],
+    "requiredLevel": 22,
+    "notableDrops": [
+      "Vial_of_water",
+      "#plus",
+      "Harralander",
+      "#plus",
+      "Volcanic_ash",
+      "#transmute",
+      "Compost_potion(3)"
     ]
   },
   {
@@ -693,6 +898,38 @@
     ]
   },
   {
+    "id": "Defence_potion",
+    "category": "skilling",
+    "sortingGroups": ["herblore"],
+    "requiredLevel": 30,
+    "notableDrops": [
+      "Vial_of_water",
+      "#plus",
+      "Ranarr_weed",
+      "#plus",
+      "White_berries",
+      "#transmute",
+      "Defence_potion(3)"
+    ]
+  },
+  {
+    "id": "Divine_potions",
+    "caption": "70-97",
+    "category": "skilling",
+    "sortingGroups": ["herblore"],
+    "requiredLevel": 70,
+    "notableDrops": [
+      "Divine_super_attack_potion(4)",
+      "Divine_super_defence_potion(4)",
+      "Divine_super_strength_potion(4)",
+      "Divine_ranging_potion(4)",
+      "Divine_magic_potion(4)",
+      "Divine_bastion_potion(4)",
+      "Divine_battlemage_potion(4)",
+      "Divine_super_combat_potion(4)"
+    ]
+  },
+  {
     "id": "Dorgesh-Kaan_Agility_Course",
     "category": "skilling",
     "requiredLevel": 70,
@@ -828,6 +1065,21 @@
     ]
   },
   {
+    "id": "Energy_potion",
+    "category": "skilling",
+    "sortingGroups": ["herblore"],
+    "requiredLevel": 26,
+    "notableDrops": [
+      "Vial_of_water",
+      "#plus",
+      "Harralander",
+      "#plus",
+      "Chocolate_dust",
+      "#transmute",
+      "Energy_potion(3)"
+    ]
+  },
+  {
     "id": "Ensouled_heads",
     "category": "skilling",
     "sortingGroups": ["prayer"],
@@ -839,6 +1091,45 @@
       "Ensouled_bloodveld_head",
       "Ensouled_dagannoth_head",
       "Ensouled_giant_head"
+    ]
+  },
+  {
+    "id": "Extended_antifire",
+    "category": "skilling",
+    "sortingGroups": ["herblore"],
+    "requiredLevel": 84,
+    "notableDrops": [
+      "Antifire_potion(4)",
+      "#plus",
+      "Lava_scale_shard",
+      "#transmute",
+      "Extended_antifire(4)"
+    ]
+  },
+  {
+    "id": "Extended_anti-venom+",
+    "category": "skilling",
+    "sortingGroups": ["herblore"],
+    "requiredLevel": 94,
+    "notableDrops": [
+      "Anti-venom+(4)",
+      "#plus",
+      "Araxyte_venom_sack",
+      "#transmute",
+      "Extended_anti-venom+(4)"
+    ]
+  },
+  {
+    "id": "Extended_super_antifire",
+    "category": "skilling",
+    "sortingGroups": ["herblore"],
+    "requiredLevel": 98,
+    "notableDrops": [
+      "Super_antifire_potion(4)",
+      "#plus",
+      "Lava_scale_shard",
+      "#transmute",
+      "Extended_super_antifire(4)"
     ]
   },
   {
@@ -914,6 +1205,21 @@
     ]
   },
   {
+    "id": "Fishing_potion",
+    "category": "skilling",
+    "sortingGroups": ["herblore"],
+    "requiredLevel": 50,
+    "notableDrops": [
+      "Vial_of_water",
+      "#plus",
+      "Avantoe",
+      "#plus",
+      "Snape_grass",
+      "#transmute",
+      "Fishing_potion(3)"
+    ]
+  },
+  {
     "id": "Forestry",
     "subtitle": "Events",
     "category": "skilling",
@@ -929,6 +1235,19 @@
       "Pheasant_legs",
       "Pheasant_boots",
       "Pheasant_cape"
+    ]
+  },
+  {
+    "id": "Forgotten_brew",
+    "category": "skilling",
+    "sortingGroups": ["herblore"],
+    "requiredLevel": 91,
+    "notableDrops": [
+      "Ancient_brew(4)",
+      "#plus",
+      "Ancient_essence",
+      "#transmute",
+      "Forgotten_brew(4)"
     ]
   },
   {
@@ -1036,6 +1355,21 @@
     ]
   },
   {
+    "id": "Goading_potion",
+    "category": "skilling",
+    "sortingGroups": ["herblore"],
+    "requiredLevel": 54,
+    "notableDrops": [
+      "Vial_of_water",
+      "#plus",
+      "Harralander",
+      "#plus",
+      "Aldarium",
+      "#transmute",
+      "Goading_potion(3)"
+    ]
+  },
+  {
     "id": "Green_dragonhide_armour",
     "caption": "57-63",
     "category": "skilling",
@@ -1066,6 +1400,38 @@
     "sortingGroups": ["thieving"],
     "notableDrops": [
       "Coins"
+    ]
+  },
+  {
+    "id": "Guthix_balance",
+    "category": "skilling",
+    "sortingGroups": ["herblore"],
+    "requiredLevel": 22,
+    "notableDrops": [
+      "Restore_potion(3)",
+      "#plus",
+      "Garlic",
+      "#plus",
+      "Silver_dust",
+      "#transmute",
+      "Guthix_balance(3)"
+    ]
+  },
+  {
+    "id": "Guthix_rest",
+    "category": "skilling",
+    "sortingGroups": ["herblore"],
+    "requiredLevel": 18,
+    "notableDrops": [
+      "Cup_of_hot_water",
+      "#plus",
+      "Harralander",
+      "#plus",
+      "Guam_leaf",
+      "Guam_leaf",
+      "Marrentill",
+      "#transmute",
+      "Guthix_rest(3)"
     ]
   },
   {
@@ -1239,6 +1605,21 @@
     ]
   },
   {
+    "id": "Hunter_potion",
+    "category": "skilling",
+    "sortingGroups": ["herblore"],
+    "requiredLevel": 53,
+    "notableDrops": [
+      "Vial_of_water",
+      "#plus",
+      "Avantoe",
+      "#plus",
+      "Kebbit_teeth_dust",
+      "#transmute",
+      "Hunter_potion(3)"
+    ]
+  },
+  {
     "id": "Hunters'_Rumours",
     "caption": "46-91",
     "category": "skilling",
@@ -1396,6 +1777,21 @@
     ]
   },
   {
+    "id": "Magic_potion",
+    "category": "skilling",
+    "sortingGroups": ["herblore"],
+    "requiredLevel": 76,
+    "notableDrops": [
+      "Vial_of_water",
+      "#plus",
+      "Lantadyme",
+      "#plus",
+      "Potato_cactus",
+      "#transmute",
+      "Magic_potion(3)"
+    ]
+  },
+  {
     "id": "Mahogany_tree#Farming_Guild",
     "title": "Mahogany Trees",
     "subtitle": "Farming Guild",
@@ -1465,6 +1861,21 @@
       "Juniper_charcoal",
       "#transmute",
       "Dynamite"
+    ]
+  },
+  {
+    "id": "Menaphite_remedy",
+    "category": "skilling",
+    "sortingGroups": ["herblore"],
+    "requiredLevel": 88,
+    "notableDrops": [
+      "Vial_of_water",
+      "#plus",
+      "Dwarf_weed",
+      "#plus",
+      "Lily_of_the_sands",
+      "#transmute",
+      "Menaphite_remedy(3)"
     ]
   },
   {
@@ -1750,12 +2161,57 @@
     ]
   },
   {
+    "id": "Prayer_potion",
+    "category": "skilling",
+    "sortingGroups": ["herblore"],
+    "requiredLevel": 38,
+    "notableDrops": [
+      "Vial_of_water",
+      "#plus",
+      "Ranarr_weed",
+      "#plus",
+      "Snape_grass",
+      "#transmute",
+      "Prayer_potion(3)"
+    ]
+  },
+  {
+    "id": "Prayer_regeneration_potion",
+    "category": "skilling",
+    "sortingGroups": ["herblore"],
+    "requiredLevel": 58,
+    "notableDrops": [
+      "Vial_of_water",
+      "#plus",
+      "Huasca",
+      "#plus",
+      "Aldarium",
+      "#transmute",
+      "Prayer_regeneration_potion(3)"
+    ]
+  },
+  {
     "id": "Prifddinas_Agility_Course",
     "category": "skilling",
     "requiredLevel": 75,
     "sortingGroups": ["agility"],
     "notableDrops": [
       "Crystal_shard"
+    ]
+  },
+  {
+    "id": "Ranging_potion",
+    "category": "skilling",
+    "sortingGroups": ["herblore"],
+    "requiredLevel": 72,
+    "notableDrops": [
+      "Vial_of_water",
+      "#plus",
+      "Dwarf_weed",
+      "#plus",
+      "Wine_of_zamorak",
+      "#transmute",
+      "Ranging_potion(3)"
     ]
   },
   {
@@ -1790,6 +2246,21 @@
     ]
   },
   {
+    "id": "Relicym's_balm",
+    "category": "skilling",
+    "sortingGroups": ["herblore"],
+    "requiredLevel": 8,
+    "notableDrops": [
+      "Vial_of_water",
+      "#plus",
+      "Rogue's_purse",
+      "#plus",
+      "Snake_weed",
+      "#transmute",
+      "Relicym's_balm(3)"
+    ]
+  },
+  {
     "id": "Rellekka_Hunter_area",
     "caption": "1-55",
     "category": "skilling",
@@ -1811,6 +2282,21 @@
     "sortingGroups": ["agility"],
     "notableDrops": [
       "Mark_of_grace"
+    ]
+  },
+  {
+    "id": "Restore_potion",
+    "category": "skilling",
+    "sortingGroups": ["herblore"],
+    "requiredLevel": 22,
+    "notableDrops": [
+      "Vial_of_water",
+      "#plus",
+      "Harralander",
+      "#plus",
+      "Red_spiders'_eggs",
+      "#transmute",
+      "Restore_potion(3)"
     ]
   },
   {
@@ -1864,6 +2350,36 @@
     ]
   },
   {
+    "id": "Sanfew_serum",
+    "category": "skilling",
+    "sortingGroups": ["herblore"],
+    "requiredLevel": 65,
+    "notableDrops": [
+      "Super_restore(4)",
+      "#plus",
+      "Unicorn_horn_dust",
+      "Snake_weed",
+      "Nail_beast_nails",
+      "#transmute",
+      "Sanfew_serum(4)"
+    ]
+  },
+  {
+    "id": "Saradomin_brew",
+    "category": "skilling",
+    "sortingGroups": ["herblore"],
+    "requiredLevel": 81,
+    "notableDrops": [
+      "Vial_of_water",
+      "#plus",
+      "Toadflax",
+      "#plus",
+      "Crushed_nest",
+      "#transmute",
+      "Saradomin_brew(3)"
+    ]
+  },
+  {
     "id": "Scrapey_tree",
     "title": "Scrapey Trees",
     "subtitle": "Trouble Brewing",
@@ -1907,6 +2423,21 @@
     "sortingGroups": ["agility"],
     "notableDrops": [
       "Mark_of_grace"
+    ]
+  },
+  {
+    "id": "Serum_207",
+    "category": "skilling",
+    "sortingGroups": ["herblore"],
+    "requiredLevel": 15,
+    "notableDrops": [
+      "Vial_of_water",
+      "#plus",
+      "Tarromin",
+      "#plus",
+      "Ashes",
+      "#transmute",
+      "Serum_207_(3)"
     ]
   },
   {
@@ -2107,6 +2638,19 @@
     ]
   },
   {
+    "id": "Stamina_potion",
+    "category": "skilling",
+    "sortingGroups": ["herblore"],
+    "requiredLevel": 77,
+    "notableDrops": [
+      "Super_energy(4)",
+      "#plus",
+      "Amylase_crystal",
+      "#transmute",
+      "Stamina_potion(4)"
+    ]
+  },
+  {
     "id": "Stealing_artefacts",
     "category": "skilling",
     "requiredLevel": 49,
@@ -2154,6 +2698,21 @@
     ]
   },
   {
+    "id": "Strength_potion",
+    "category": "skilling",
+    "sortingGroups": ["herblore"],
+    "requiredLevel": 12,
+    "notableDrops": [
+      "Vial_of_water",
+      "#plus",
+      "Tarromin",
+      "#plus",
+      "Limpwurt_root",
+      "#transmute",
+      "Strength_potion(3)"
+    ]
+  },
+  {
     "id": "Sulliusceps",
     "subtitle": "Fossil Island",
     "category": "skilling",
@@ -2187,6 +2746,124 @@
       "Sun-kissed_bones",
       "#transmute",
       "Blessed_bone_shards"
+    ]
+  },
+  {
+    "id": "Super_antifire_potion",
+    "category": "skilling",
+    "sortingGroups": ["herblore"],
+    "requiredLevel": 92,
+    "notableDrops": [
+      "Antifire_potion(4)",
+      "#plus",
+      "Crushed_superior_dragon_bones",
+      "#transmute",
+      "Super_antifire_potion(4)"
+    ]
+  },
+  {
+    "id": "Super_attack",
+    "category": "skilling",
+    "sortingGroups": ["herblore"],
+    "requiredLevel": 45,
+    "notableDrops": [
+      "Vial_of_water",
+      "#plus",
+      "Irit_leaf",
+      "#plus",
+      "Eye_of_newt",
+      "#transmute",
+      "Super_attack(3)"
+    ]
+  },
+  {
+    "id": "Super_combat_potion",
+    "category": "skilling",
+    "sortingGroups": ["herblore"],
+    "requiredLevel": 90,
+    "notableDrops": [
+      "Super_attack(4)",
+      "Super_strength(4)",
+      "Super_defence(4)",
+      "#plus",
+      "Torstol",
+      "#transmute",
+      "Super_combat_potion(4)"
+    ]
+  },
+  {
+    "id": "Super_defence",
+    "category": "skilling",
+    "sortingGroups": ["herblore"],
+    "requiredLevel": 66,
+    "notableDrops": [
+      "Vial_of_water",
+      "#plus",
+      "Cadantine",
+      "#plus",
+      "White_berries",
+      "#transmute",
+      "Super_defence(3)"
+    ]
+  },
+  {
+    "id": "Super_energy",
+    "category": "skilling",
+    "sortingGroups": ["herblore"],
+    "requiredLevel": 52,
+    "notableDrops": [
+      "Vial_of_water",
+      "#plus",
+      "Avantoe",
+      "#plus",
+      "Mort_myre_fungus",
+      "#transmute",
+      "Super_energy(3)"
+    ]
+  },
+  {
+    "id": "Super_restore",
+    "category": "skilling",
+    "sortingGroups": ["herblore"],
+    "requiredLevel": 63,
+    "notableDrops": [
+      "Vial_of_water",
+      "#plus",
+      "Snapdragon",
+      "#plus",
+      "Red_spiders'_eggs",
+      "#transmute",
+      "Super_restore(3)"
+    ]
+  },
+  {
+    "id": "Super_strength",
+    "category": "skilling",
+    "sortingGroups": ["herblore"],
+    "requiredLevel": 55,
+    "notableDrops": [
+      "Vial_of_water",
+      "#plus",
+      "Kwuarm",
+      "#plus",
+      "Limpwurt_root",
+      "#transmute",
+      "Super_strength(3)"
+    ]
+  },
+  {
+    "id": "Superantipoison",
+    "category": "skilling",
+    "sortingGroups": ["herblore"],
+    "requiredLevel": 48,
+    "notableDrops": [
+      "Vial_of_water",
+      "#plus",
+      "Irit_leaf",
+      "#plus",
+      "Unicorn_horn_dust",
+      "#transmute",
+      "Superantipoison(3)"
     ]
   },
   {
@@ -2541,6 +3218,51 @@
     ]
   },
   {
+    "id": "Weapon_poison",
+    "category": "skilling",
+    "sortingGroups": ["herblore"],
+    "requiredLevel": 60,
+    "notableDrops": [
+      "Vial_of_water",
+      "#plus",
+      "Kwuarm",
+      "#plus",
+      "Dragon_scale_dust",
+      "#transmute",
+      "Weapon_poison"
+    ]
+  },
+  {
+    "id": "Weapon_poison+",
+    "category": "skilling",
+    "sortingGroups": ["herblore"],
+    "requiredLevel": 73,
+    "notableDrops": [
+      "Coconut_milk",
+      "#plus",
+      "Cactus_spine",
+      "#plus",
+      "Red_spiders'_eggs",
+      "#transmute",
+      "Weapon_poison+"
+    ]
+  },
+  {
+    "id": "Weapon_poison++",
+    "category": "skilling",
+    "sortingGroups": ["herblore"],
+    "requiredLevel": 82,
+    "notableDrops": [
+      "Coconut_milk",
+      "#plus",
+      "Nightshade",
+      "#plus",
+      "Poison_ivy_berries",
+      "#transmute",
+      "Weapon_poison++"
+    ]
+  },
+  {
     "id": "Werewolf_Agility_Course",
     "category": "skilling",
     "requiredLevel": 60,
@@ -2596,6 +3318,21 @@
     "notableDrops": [
       "Yak-hide_armour_(legs)",
       "Yak-hide_armour_(top)"
+    ]
+  },
+  {
+    "id": "Zamorak_brew",
+    "category": "skilling",
+    "sortingGroups": ["herblore"],
+    "requiredLevel": 78,
+    "notableDrops": [
+      "Vial_of_water",
+      "#plus",
+      "Torstol",
+      "#plus",
+      "Jangerberries",
+      "#transmute",
+      "Zamorak_brew(3)"
     ]
   },
   {

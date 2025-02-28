@@ -1022,6 +1022,10 @@
     "icon": "Larran's_key_1"
   },
   {
+    "id": "Lava_scale_shard",
+    "icon": "Lava_scale_shard_5"
+  },
+  {
     "id": "Left_skull_half",
     "transmutations": [
       "#plus",
@@ -1141,6 +1145,10 @@
   {
     "id": "Navy_slacks",
     "icon": "Grey_navy_slacks"
+  },
+  {
+    "id": "Nightshade",
+    "icon": "Nightshade_1"
   },
   {
     "id": "Nihil_horn",

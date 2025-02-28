@@ -122,7 +122,7 @@
   {
     "id": "God_Wars_Dungeon",
     "category": "dungeon",
-    "sortingGroups": ["dungeon", "pvm", "slayer"]
+    "sortingGroups": ["dungeon", "pvm", "slayer", "herblore"]
   },
   {
     "id": "Ice_Troll_Caves",
