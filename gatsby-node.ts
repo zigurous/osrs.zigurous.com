@@ -90,6 +90,7 @@ export const createSchemaCustomization = ({
       subtitle: String
       category: String
       sortingGroups: [String!]!
+      requiredLevel: Int
       notableDrops: [String!]
     }
     type PetsJson implements Node @dontInfer {

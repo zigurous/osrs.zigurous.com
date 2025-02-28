@@ -1,5 +1,96 @@
 [
   {
+    "id": "Ajjat",
+    "subtitle": "Master",
+    "category": "npc",
+    "sortingGroups": ["melee", "attack"],
+    "requiredLevel": 99,
+    "notableDrops": [
+      "Attack_hood",
+      "Attack_cape",
+      "Attack_cape(t)"
+    ]
+  },
+  {
+    "id": "Alwyn",
+    "subtitle": "Estate Agent",
+    "category": "npc",
+    "sortingGroups": ["construction"],
+    "notableDrops": [
+      "Construct._hood",
+      "Construct._cape",
+      "Construct._cape(t)"
+    ]
+  },
+  {
+    "id": "Armour_salesman",
+    "title": "Aaron",
+    "subtitle": "Master",
+    "category": "npc",
+    "sortingGroups": ["ranged"],
+    "requiredLevel": 99,
+    "notableDrops": [
+      "Ranging_hood",
+      "Ranging_cape",
+      "Ranging_cape(t)"
+    ]
+  },
+  {
+    "id": "Aubury",
+    "subtitle": "Master",
+    "category": "npc",
+    "sortingGroups": ["runecraft"],
+    "requiredLevel": 99,
+    "notableDrops": [
+      "Runecraft_hood",
+      "Runecraft_cape",
+      "Runecraft_cape(t)"
+    ]
+  },
+  {
+    "id": "Bob_Barter_(herbs)",
+    "title": "Bob Barter",
+    "subtitle": "Decanting",
+    "category": "npc",
+    "sortingGroups": ["herblore"]
+  },
+  {
+    "id": "Brother_Jered",
+    "subtitle": "Master",
+    "category": "npc",
+    "sortingGroups": ["prayer"],
+    "requiredLevel": 99,
+    "notableDrops": [
+      "Prayer_hood",
+      "Prayer_cape",
+      "Prayer_cape(t)"
+    ]
+  },
+  {
+    "id": "Cap'n_Izzy_No-Beard",
+    "subtitle": "Master",
+    "category": "npc",
+    "sortingGroups": ["agility"],
+    "requiredLevel": 99,
+    "notableDrops": [
+      "Agility_hood",
+      "Agility_cape",
+      "Agility_cape(t)"
+    ]
+  },
+  {
+    "id": "Duradel",
+    "subtitle": "Slayer Master",
+    "category": "npc",
+    "sortingGroups": ["slayer"],
+    "requiredLevel": 99,
+    "notableDrops": [
+      "Slayer_hood",
+      "Slayer_cape",
+      "Slayer_cape(t)"
+    ]
+  },
+  {
     "id": "Ellis",
     "title": "Tanner",
     "subtitle": "Al Kharid",
@@ -36,42 +127,72 @@
     "title": "Estate Agent",
     "subtitle": "Ardougne",
     "category": "npc",
-    "sortingGroups": ["construction"]
+    "sortingGroups": ["construction"],
+    "notableDrops": [
+      "Construct._hood",
+      "Construct._cape",
+      "Construct._cape(t)"
+    ]
   },
   {
     "id": "Estate_agent#Falador",
     "title": "Estate Agent",
     "subtitle": "Falador",
     "category": "npc",
-    "sortingGroups": ["construction"]
+    "sortingGroups": ["construction"],
+    "notableDrops": [
+      "Construct._hood",
+      "Construct._cape",
+      "Construct._cape(t)"
+    ]
   },
   {
     "id": "Estate_agent#Hosidius",
     "title": "Estate Agent",
     "subtitle": "Hosidius",
     "category": "npc",
-    "sortingGroups": ["construction"]
+    "sortingGroups": ["construction"],
+    "notableDrops": [
+      "Construct._hood",
+      "Construct._cape",
+      "Construct._cape(t)"
+    ]
   },
   {
     "id": "Estate_agent#Seers'_Village",
     "title": "Estate Agent",
     "subtitle": "Seers' Village",
     "category": "npc",
-    "sortingGroups": ["construction"]
+    "sortingGroups": ["construction"],
+    "notableDrops": [
+      "Construct._hood",
+      "Construct._cape",
+      "Construct._cape(t)"
+    ]
   },
   {
     "id": "Estate_agent#Varlamore",
     "title": "Estate Agent",
     "subtitle": "Civitas illa Fortis",
     "category": "npc",
-    "sortingGroups": ["construction"]
+    "sortingGroups": ["construction"],
+    "notableDrops": [
+      "Construct._hood",
+      "Construct._cape",
+      "Construct._cape(t)"
+    ]
   },
   {
     "id": "Estate_agent#Varrock",
     "title": "Estate Agent",
     "subtitle": "Varrock",
     "category": "npc",
-    "sortingGroups": ["construction"]
+    "sortingGroups": ["construction"],
+    "notableDrops": [
+      "Construct._hood",
+      "Construct._cape",
+      "Construct._cape(t)"
+    ]
   },
   {
     "id": "Friendly_Forester",
@@ -94,6 +215,37 @@
     ]
   },
   {
+    "id": "Gadrin",
+    "subtitle": "Master",
+    "category": "npc",
+    "sortingGroups": ["mining"],
+    "requiredLevel": 99,
+    "notableDrops": [
+      "Mining_hood",
+      "Mining_cape",
+      "Mining_cape(t)"
+    ]
+  },
+  {
+    "id": "Ghommal",
+    "subtitle": "Combat Achievements",
+    "category": "npc",
+    "sortingGroups": ["pvm"],
+    "notableDrops": [
+      "Ghommal's_hilt_1",
+      "Ghommal's_hilt_2",
+      "Ghommal's_hilt_3",
+      "Ghommal's_hilt_4",
+      "Ghommal's_hilt_5",
+      "Ghommal's_hilt_6",
+      "#newline",
+      "Ghommal's_lucky_penny",
+      "Tztok_slayer_helmet",
+      "Vampyric_slayer_helmet",
+      "Tzkal_slayer_helmet"
+    ]
+  },
+  {
     "id": "Grace",
     "subtitle": "NPC",
     "category": "npc",
@@ -106,6 +258,66 @@
       "Graceful_boots",
       "Graceful_cape",
       "Amylase_pack"
+    ]
+  },
+  {
+    "id": "Head_chef",
+    "subtitle": "Master",
+    "category": "npc",
+    "sortingGroups": ["cooking"],
+    "requiredLevel": 99,
+    "notableDrops": [
+      "Cooking_hood",
+      "Cooking_cape",
+      "Cooking_cape(t)"
+    ]
+  },
+  {
+    "id": "Hickton",
+    "subtitle": "Master",
+    "category": "npc",
+    "sortingGroups": ["fletching"],
+    "requiredLevel": 99,
+    "notableDrops": [
+      "Fletching_hood",
+      "Fletching_cape",
+      "Fletching_cape(t)"
+    ]
+  },
+  {
+    "id": "Hunting_expert",
+    "subtitle": "Master",
+    "category": "npc",
+    "sortingGroups": ["hunter"],
+    "requiredLevel": 99,
+    "notableDrops": [
+      "Hunter_hood",
+      "Hunter_cape",
+      "Hunter_cape(t)"
+    ]
+  },
+  {
+    "id": "Ignatius_Vulcan",
+    "subtitle": "Master",
+    "category": "npc",
+    "sortingGroups": ["firemaking"],
+    "requiredLevel": 99,
+    "notableDrops": [
+      "Firemaking_hood",
+      "Firemaking_cape",
+      "Firemaking_cape(t)"
+    ]
+  },
+  {
+    "id": "Kaqemeex",
+    "subtitle": "Master",
+    "category": "npc",
+    "sortingGroups": ["herblore"],
+    "requiredLevel": 99,
+    "notableDrops": [
+      "Herblore_hood",
+      "Herblore_cape",
+      "Herblore_cape(t)"
     ]
   },
   {
@@ -125,6 +337,49 @@
     ]
   },
   {
+    "id": "Mac",
+    "category": "npc",
+    "sortingGroups": ["stats", "misc"],
+    "notableDrops": [
+      "Max_hood",
+      "Max_cape"
+    ]
+  },
+  {
+    "id": "Magic_combat_tutor",
+    "category": "npc",
+    "sortingGroups": ["magic"],
+    "notableDrops": [
+      "Air_rune",
+      "Mind_rune"
+    ]
+  },
+  {
+    "id": "Martin_the_Master_Gardener",
+    "title": "Martin",
+    "subtitle": "Master Farmer",
+    "category": "npc",
+    "sortingGroups": ["farming", "thieving"],
+    "requiredLevel": 99,
+    "notableDrops": [
+      "Farming_hood",
+      "Farming_cape",
+      "Farming_cape(t)"
+    ]
+  },
+  {
+    "id": "Martin_Thwait",
+    "subtitle": "Master",
+    "category": "npc",
+    "sortingGroups": ["thieving"],
+    "requiredLevel": 99,
+    "notableDrops": [
+      "Thieving_hood",
+      "Thieving_cape",
+      "Thieving_cape(t)"
+    ]
+  },
+  {
     "id": "Mary_(Getting_Ahead)",
     "title": "Tanner",
     "subtitle": "Kebos Lowlands",
@@ -141,6 +396,43 @@
     ]
   },
   {
+    "id": "Master_crafter",
+    "subtitle": "Crafting Guild",
+    "category": "npc",
+    "sortingGroups": ["crafting"],
+    "requiredLevel": 99,
+    "notableDrops": [
+      "Crafting_hood",
+      "Crafting_cape",
+      "Crafting_cape(t)"
+    ]
+  },
+  {
+    "id": "Master_fisher",
+    "subtitle": "Fishing Guild",
+    "category": "npc",
+    "sortingGroups": ["fishing"],
+    "requiredLevel": 99,
+    "notableDrops": [
+      "Fishing_hood",
+      "Fishing_cape",
+      "Fishing_cape(t)"
+    ]
+  },
+  {
+    "id": "Melee_combat_tutor",
+    "subtitle": "Master",
+    "category": "npc",
+    "sortingGroups": ["melee", "defence"],
+    "notableDrops": [
+      "Training_sword",
+      "Training_shield",
+      "Defence_hood",
+      "Defence_cape",
+      "Defence_cape(t)"
+    ]
+  },
+  {
     "id": "Metla",
     "subtitle": "NPC",
     "category": "npc",
@@ -151,6 +443,25 @@
       "Gold_leaf",
       "Magic_stone",
       "Condensed_gold"
+    ]
+  },
+  {
+    "id": "Olaf_the_Bard",
+    "category": "npc",
+    "sortingGroups": ["music", "misc"],
+    "notableDrops": [
+      "Music_hood",
+      "Music_cape",
+      "Music_cape(t)"
+    ]
+  },
+  {
+    "id": "Ranged_combat_tutor",
+    "category": "npc",
+    "sortingGroups": ["ranged"],
+    "notableDrops": [
+      "Training_bow",
+      "Training_arrows"
     ]
   },
   {
@@ -170,6 +481,18 @@
     ]
   },
   {
+    "id": "Sloane",
+    "subtitle": "Master",
+    "category": "npc",
+    "sortingGroups": ["melee", "strength"],
+    "requiredLevel": 99,
+    "notableDrops": [
+      "Strength_hood",
+      "Strength_cape",
+      "Strength_cape(t)"
+    ]
+  },
+  {
     "id": "Stonemason",
     "subtitle": "NPC",
     "category": "npc",
@@ -180,6 +503,18 @@
       "Magic_stone",
       "Gold_leaf",
       "Condensed_gold"
+    ]
+  },
+  {
+    "id": "Surgeon_General_Tafani",
+    "subtitle": "Master",
+    "category": "npc",
+    "sortingGroups": ["hitpoints"],
+    "requiredLevel": 99,
+    "notableDrops": [
+      "Hitpoints_hood",
+      "Hitpoints_cape",
+      "Hitpoints_cape(t)"
     ]
   },
   {
@@ -197,5 +532,74 @@
       "Red_dragon_leather",
       "Black_dragon_leather"
     ]
+  },
+  {
+    "id": "Thurgo",
+    "subtitle": "Master",
+    "category": "npc",
+    "sortingGroups": ["smithing"],
+    "requiredLevel": 99,
+    "notableDrops": [
+      "Smithing_hood",
+      "Smithing_cape",
+      "Smithing_cape(t)"
+    ]
+  },
+  {
+    "id": "Twiggy_O'Korn",
+    "category": "npc",
+    "sortingGroups": ["diaries", "misc"],
+    "notableDrops": [
+      "Achievement_diary_hood",
+      "Achievement_diary_cape",
+      "Achievement_diary_cape_(t)"
+    ]
+  },
+  {
+    "id": "Wesley",
+    "subtitle": "Crushing",
+    "category": "npc",
+    "sortingGroups": ["herblore"]
+  },
+  {
+    "id": "Wise_Old_Man",
+    "category": "npc",
+    "sortingGroups": ["quest", "misc"],
+    "notableDrops": [
+      "Quest_point_hood",
+      "Quest_point_cape",
+      "Quest_point_cape_(t)"
+    ]
+  },
+  {
+    "id": "Wizard_Sinina",
+    "subtitle": "Master",
+    "category": "npc",
+    "sortingGroups": ["magic"],
+    "requiredLevel": 99,
+    "notableDrops": [
+      "Magic_hood",
+      "Magic_cape",
+      "Magic_cape(t)"
+    ]
+  },
+  {
+    "id": "Woodsman_tutor",
+    "title": "Wilfred",
+    "subtitle": "Master",
+    "category": "npc",
+    "sortingGroups": ["woodcutting"],
+    "requiredLevel": 99,
+    "notableDrops": [
+      "Woodcutting_hood",
+      "Woodcutting_cape",
+      "Woodcut._cape(t)"
+    ]
+  },
+  {
+    "id": "Zahur",
+    "subtitle": "Herbalist",
+    "category": "npc",
+    "sortingGroups": ["herblore"]
   }
 ]

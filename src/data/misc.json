@@ -34,7 +34,7 @@
     "id": "Arceuus_Library",
     "title": "Arceuus Library",
     "category": "misc",
-    "sortingGroups": ["magic", "runecraft", "misc"],
+    "sortingGroups": ["magic", "runecraft"],
     "notableDrops": [
       "Book_of_arcane_knowledge"
     ]

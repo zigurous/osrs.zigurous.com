@@ -157,6 +157,7 @@ const dataQuery = graphql`
         subtitle
         category
         sortingGroups
+        requiredLevel
         notableDrops
       }
     }

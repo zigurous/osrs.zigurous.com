@@ -1611,6 +1611,10 @@
     "icon": "Trading_sticks_10000"
   },
   {
+    "id": "Training_arrows",
+    "icon": "Training_arrows_5"
+  },
+  {
     "id": "Tribal_top",
     "icon": "Tribal_top_(brown)"
   },

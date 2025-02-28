@@ -97,11 +97,14 @@ export const iconOrder = [
   'Monster_Examine',
   'Combat_icon',
   'Skull_(status)_icon',
+  'Hitpoints_icon',
   'Attack_icon',
+  'Strength_icon',
+  'Defence_icon',
   'Ranged_icon',
   'Magic_icon',
-  // skilling
   'Prayer_icon',
+  // skilling
   'Runecraft_icon',
   'Construction_icon',
   'Agility_icon',
@@ -119,11 +122,14 @@ export const iconOrder = [
   'Woodcutting_icon',
   'Farming_icon',
   // other
-  'Crystal_key',
-  'Collection_log',
   'Minigame_icon',
   'Distractions_and_Diversions',
+  'Achievement_Diaries_icon',
   'Quest_point_icon',
+  'Crystal_key',
+  'Music',
+  'Stats_icon',
+  'Collection_log',
   'Map_link_icon',
   'Dungeon_map_link_icon',
 ];

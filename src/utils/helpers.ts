@@ -104,6 +104,14 @@ export function getIconForActivityGroup(
     case 'ranged':
     case 'magic':
       return getIconForCombatStyle(activityGroup as CombatStyle);
+    // @ts-ignore
+    case 'attack':
+    // @ts-ignore
+    case 'strength':
+    // @ts-ignore
+    case 'defence':
+    // @ts-ignore
+    case 'hitpoints':
     case 'prayer':
     case 'runecraft':
     case 'construction':
@@ -122,6 +130,21 @@ export function getIconForActivityGroup(
     case 'woodcutting':
     case 'farming':
       return getIconForSkill(activityGroup as Skill);
+    // @ts-ignore
+    case 'diaries':
+      return 'Achievement_Diaries_icon';
+    // @ts-ignore
+    case 'quest':
+      return 'Quest_point_icon';
+    // @ts-ignore
+    case 'music':
+      return 'Music';
+    // @ts-ignore
+    case 'stats':
+      return 'Stats_icon';
+    // @ts-ignore
+    case 'location':
+      return 'Map_link_icon';
     case 'dungeon':
       return 'Dungeon_map_link_icon';
     case 'misc':

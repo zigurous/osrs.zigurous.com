@@ -19,7 +19,6 @@
     "sortingGroups": ["cooking"],
     "requiredLevel": 32,
     "notableDrops": [
-      "Cooking_cape",
       "Jug_of_wine",
       "Summer_pie",
       "Wild_pie",
@@ -33,7 +32,6 @@
     "sortingGroups": ["crafting"],
     "requiredLevel": 40,
     "notableDrops": [
-      "Crafting_cape",
       "Bank_chest"
     ]
   },
@@ -58,10 +56,10 @@
     "sortingGroups": ["fishing"],
     "requiredLevel": 68,
     "notableDrops": [
-      "Fishing_cape",
-      "Shark",
-      "Swordfish",
-      "Lobster"
+      "Raw_tuna",
+      "Raw_lobster",
+      "Raw_swordfish",
+      "Raw_shark"
     ]
   },
   {
@@ -164,14 +162,8 @@
   {
     "id": "Warriors'_Guild",
     "category": "guild",
-    "sortingGroups": ["melee", "pvm"],
-    "notableDrops": [
-      "Dragon_defender",
-      "Rune_defender",
-      "Ghommal's_hilt",
-      "Strength_cape",
-      "Attack_cape"
-    ]
+    "sortingGroups": ["location", "melee"],
+    "notableDrops": []
   },
   {
     "id": "Wizards'_Guild",
@@ -179,7 +171,6 @@
     "sortingGroups": ["magic"],
     "requiredLevel": 66,
     "notableDrops": [
-      "Magic_cape",
       "Mystic_hat",
       "Mystic_robe_top",
       "Mystic_robe_bottom",

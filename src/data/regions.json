@@ -67,6 +67,7 @@
       "Aviansie",
       "Black_dragon",
       "Blue_dragon",
+      "Cyclops",
       "Hellhound",
       "Hill_Giant",
       "Ice_giant",
@@ -75,13 +76,23 @@
       "Spiritual_mage"
     ],
     "misc": [
+      "Ajjat",
+      "Brother_Jered",
       "Crystal_chest",
       "Estate_agent#Falador",
+      "Gadrin",
+      "Ghommal",
       "Grace",
+      "Kaqemeex",
+      "Mac",
+      "Martin_Thwait",
+      "Master_crafter",
       "Portal_(Player-owned_house)#Rimmington",
       "Portal_(Player-owned_house)#Taverly",
       "Ruins_of_Camdozaal",
-      "Tanner_(Crafting_Guild)"
+      "Sloane",
+      "Tanner_(Crafting_Guild)",
+      "Thurgo"
     ],
     "pets": [
       "Baby_mole",
@@ -158,7 +169,10 @@
     "misc": [
       "Ancient_Magicks",
       "Ellis",
-      "Portal_(Player-owned_house)#Pollnivneach"
+      "Portal_(Player-owned_house)#Pollnivneach",
+      "Surgeon_General_Tafani",
+      "Wesley",
+      "Zahur"
     ],
     "pets": [
       "Abyssal_protector",
@@ -233,6 +247,7 @@
     "misc": [
       "Lunar_spellbook",
       "Managing_Miscellania",
+      "Olaf_the_Bard",
       "Portal_(Player-owned_house)#Rellekka",
       "Stonemason"
     ],
@@ -339,14 +354,20 @@
       "Waterfiend"
     ],
     "misc": [
+      "Armour_salesman",
       "Creature_Creation",
       "Chompy_bird_hunting",
       "Estate_agent#Ardougne",
       "Estate_agent#Seers'_Village",
       "Friendly_Forester",
+      "Hickton",
+      "Hunting_expert",
+      "Ignatius_Vulcan",
       "Leatherworker",
+      "Master_fisher",
       "Portal_(Player-owned_house)#Yanille",
-      "Sinister_chest"
+      "Sinister_chest",
+      "Wizard_Sinina"
     ],
     "pets": [
       "Broav",
@@ -403,6 +424,8 @@
       "TzHaar"
     ],
     "misc": [
+      "Cap'n_Izzy_No-Beard",
+      "Duradel",
       "Mor_Ul_Rek",
       "Portal_(Player-owned_house)#Brimhaven"
     ],
@@ -617,14 +640,24 @@
     ],
     "misc": [
       "Abyssal_Area",
+      "Aubury",
+      "Bob_Barter_(herbs)",
       "Canoe",
       "Champions'_Challenge",
       "Dark_Chest",
       "Estate_agent#Varrock",
       "Fossil_Island",
       "Friendly_Forester",
+      "Head_chef",
       "Isle_of_Souls",
+      "Magic_combat_tutor",
+      "Martin_the_Master_Gardener",
+      "Melee_combat_tutor",
+      "Ranged_combat_tutor",
       "Sawmill",
+      "Twiggy_O'Korn",
+      "Wise_Old_Man",
+      "Woodsman_tutor",
       "Zanaris"
     ],
     "pets": [
@@ -756,6 +789,7 @@
       "Waterfiend"
     ],
     "misc": [
+      "Alwyn",
       "Elven_Crystal_Chest",
       "Friendly_Forester",
       "Portal_(Player-owned_house)#Prifddinas",
