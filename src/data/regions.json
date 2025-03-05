@@ -184,6 +184,7 @@
     "monsters": [
       "Dust_devil",
       "Fire_giant",
+      "Goat",
       "Hill_Giant_(Giants'_Plateau)",
       "Kalphite",
       "Pyrefiend"
@@ -392,6 +393,7 @@
     "monsters": [
       "Aberrant_spectre",
       "Bloodveld",
+      "Blue_dragon",
       "Cave_kraken",
       "Demonic_gorilla",
       "Fire_giant",
@@ -1065,6 +1067,7 @@
     "monsters": [
       "Abyssal_demon",
       "Black_dragon",
+      "Chaos_druid",
       "Dust_devil",
       "Elder_Chaos_druid",
       "Fire_giant",

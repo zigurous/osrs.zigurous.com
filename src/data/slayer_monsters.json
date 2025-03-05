@@ -237,7 +237,7 @@
   {
     "id": "Araxyte",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["slayer", "pvm", "herblore"],
     "requiredSlayerLevel": 92,
     "slayerMasters": [
       "Nieve",
@@ -331,7 +331,7 @@
   {
     "id": "Banshee",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm", "herblore"],
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 20,
     "requiredSlayerLevel": 15,
     "slayerMasters": [
@@ -343,9 +343,8 @@
       "Slayer_Tower"
     ],
     "notableDrops": [
-      "Pure_essence",
       "Mystic_gloves_(dark)",
-      "Grimy_herb"
+      "Pure_essence"
     ]
   },
   {
@@ -731,7 +730,7 @@
   {
     "id": "Cave_bug",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["slayer", "pvm", "herblore"],
     "requiredSlayerLevel": 7,
     "slayerMasters": [
       "Turael",
@@ -741,6 +740,14 @@
     "locations": [
       "Lumbridge_Swamp_Caves",
       "Dorgesh-Kaan_South_Dungeon"
+    ],
+    "notableDrops": [
+      "Unicorn_horn_dust",
+      "Eye_of_newt",
+      "Red_spiders'_eggs",
+      "Limpwurt_root",
+      "Snape_grass",
+      "Grimy_herb"
     ]
   },
   {
@@ -761,13 +768,13 @@
       "Ruins_of_Tapoyauik"
     ],
     "notableDrops": [
-      "Vial_of_water",
       "White_berries",
       "Unicorn_horn_dust",
       "Eye_of_newt",
       "Red_spiders'_eggs",
       "Limpwurt_root",
-      "Snape_grass"
+      "Snape_grass",
+      "Grimy_herb"
     ]
   },
   {
@@ -1227,7 +1234,7 @@
     "id": "Elder_Chaos_druid",
     "icon": "Elder_chaos_hood",
     "category": "monster",
-    "sortingGroups": ["pvm", "slayer"],
+    "sortingGroups": ["pvm", "slayer", "herblore"],
     "slayerMasters": [
       "Krystilia"
     ],
@@ -1237,7 +1244,8 @@
     "notableDrops": [
       "Elder_chaos_hood",
       "Elder_chaos_top",
-      "Elder_chaos_robe"
+      "Elder_chaos_robe",
+      "Grimy_herb"
     ],
     "hideFromMenu": true
   },
@@ -1341,7 +1349,7 @@
     "name": "Fossil Island Wyverns",
     "icon": "Fossil_Island_wyverns_icon",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm"],
+    "sortingGroups": ["slayer", "pvm", "herblore"],
     "requiredCombatLevel": 60,
     "requiredSlayerLevel": 66,
     "slayerMasters": [
@@ -1357,7 +1365,14 @@
       "Wyvern_visage",
       "Granite_longsword",
       "Granite_boots",
-      "Wyvern_bones"
+      "Wyvern_bones",
+      "Pure_essence",
+      "Adamantite_bar",
+      "Teak_logs",
+      "Snape_grass",
+      "Calcite",
+      "Pyrophosphite",
+      "Volcanic_ash"
     ]
   },
   {
@@ -1466,6 +1481,20 @@
       "Mistrock",
       "Slepe",
       "The_Hollows"
+    ]
+  },
+  {
+    "id": "Goat",
+    "icon": "Desert_goat_horn",
+    "name": "Desert Goat",
+    "category": "monster",
+    "sortingGroups": ["pvm", "herblore"],
+    "slayerMasters": [],
+    "locations": [
+      "Kharidian_Desert"
+    ],
+    "notableDrops": [
+      "Desert_goat_horn"
     ]
   },
   {
@@ -2022,7 +2051,7 @@
     "id": "Kalphite",
     "icon": "Kq_head",
     "category": "monster",
-    "sortingGroups": ["pvm", "slayer"],
+    "sortingGroups": ["pvm", "slayer", "herblore"],
     "requiredCombatLevel": 15,
     "slayerMasters": [
       "Turael",
@@ -2096,17 +2125,17 @@
       "Iorwerth_Dungeon"
     ],
     "notableDrops": [
-      "Grimy_herb",
-      "Flax",
-      "White_berries",
-      "Big_bones",
-      "Papaya_fruit",
-      "Coconut",
-      "Coins",
       "Leaf-bladed_battleaxe",
       "Leaf-bladed_sword",
       "Mystic_robe_top_(light)",
-      "Kurask_head"
+      "Kurask_head",
+      "Grimy_herb",
+      "Flax",
+      "Coins",
+      "White_berries",
+      "Big_bones",
+      "Papaya_fruit",
+      "Coconut"
     ]
   },
   {
@@ -3210,8 +3239,8 @@
       "Catacombs_of_Kourend"
     ],
     "notableDrops": [
-      "Pure_essence",
       "Mystic_gloves_(dark)",
+      "Pure_essence",
       "Grimy_herb"
     ]
   },

@@ -249,7 +249,7 @@
     "id": "Grace",
     "subtitle": "NPC",
     "category": "npc",
-    "sortingGroups": ["agility"],
+    "sortingGroups": ["agility", "herblore"],
     "notableDrops": [
       "Graceful_hood",
       "Graceful_top",

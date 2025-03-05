@@ -136,7 +136,7 @@
     "id": "Cerberus",
     "icon": "Cerberus_icon",
     "category": "boss",
-    "sortingGroups": ["pvm", "slayer", "melee", "ranged"],
+    "sortingGroups": ["pvm", "slayer", "melee", "ranged", "herblore"],
     "recommendedCombatStyle": ["melee", "ranged"],
     "notableDrops": [
       "Hellpuppy",
@@ -176,7 +176,7 @@
     "id": "Commander_Zilyana",
     "icon": "Commander_Zilyana_icon_(mobile)",
     "category": "boss",
-    "sortingGroups": ["pvm", "ranged"],
+    "sortingGroups": ["pvm", "ranged", "herblore"],
     "recommendedCombatStyle": ["ranged"],
     "notableDrops": [
       "Pet_zilyana",
@@ -291,7 +291,7 @@
     "id": "General_Graardor",
     "icon": "General_Graardor_icon_(mobile)",
     "category": "boss",
-    "sortingGroups": ["pvm", "melee", "ranged", "magic"],
+    "sortingGroups": ["pvm", "melee", "ranged", "magic", "herblore"],
     "recommendedCombatStyle": ["melee", "ranged", "magic"],
     "notableDrops": [
       "Pet_general_graardor",
@@ -376,7 +376,7 @@
     "id": "K'ril_Tsutsaroth",
     "icon": "K'ril_Tsutsaroth_icon_(mobile)",
     "category": "boss",
-    "sortingGroups": ["pvm", "slayer", "ranged", "melee", "magic"],
+    "sortingGroups": ["pvm", "slayer", "ranged", "melee", "magic", "herblore"],
     "recommendedCombatStyle": ["ranged", "melee", "magic"],
     "notableDrops": [
       "Pet_k'ril_tsutsaroth",
@@ -434,7 +434,7 @@
     "id": "Kree'arra",
     "icon": "Kree'arra_icon_(mobile)",
     "category": "boss",
-    "sortingGroups": ["pvm", "slayer", "ranged", "magic"],
+    "sortingGroups": ["pvm", "slayer", "ranged", "magic", "herblore"],
     "recommendedCombatStyle": ["ranged", "magic"],
     "notableDrops": [
       "Pet_kree'arra",
@@ -474,7 +474,7 @@
     "id": "Nex",
     "icon": "Nex_icon_(mobile)",
     "category": "boss",
-    "sortingGroups": ["pvm", "ranged", "melee"],
+    "sortingGroups": ["pvm", "ranged", "melee", "herblore"],
     "recommendedCombatStyle": ["ranged", "melee"],
     "notableDrops": [
       "Nexling",

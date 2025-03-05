@@ -303,14 +303,16 @@
       "farming",
       "woodcutting",
       "mining",
-      "prayer"
+      "prayer",
+      "herblore"
     ],
     "notableDrops": [
       "Numulite",
       "Unidentified_small_fossil",
       "Unidentified_medium_fossil",
       "Unidentified_large_fossil",
-      "Unidentified_rare_fossil"
+      "Unidentified_rare_fossil",
+      "Volcanic_ash"
     ]
   },
   {

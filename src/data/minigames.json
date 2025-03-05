@@ -507,7 +507,7 @@
   {
     "id": "Temple_Trekking",
     "category": "minigame",
-    "sortingGroups": ["misc", "pvm"],
+    "sortingGroups": ["misc", "pvm", "herblore"],
     "notableDrops": [
       "Bow_string",
       "Pure_essence",
