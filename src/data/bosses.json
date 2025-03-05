@@ -244,7 +244,11 @@
     "sortingGroups": ["pvm", "magic"],
     "recommendedCombatStyle": ["magic"],
     "notableDrops": [
-      "Nothing"
+      "Unidentified_small_fossil",
+      "Unidentified_medium_fossil",
+      "Unidentified_large_fossil",
+      "Unidentified_rare_fossil",
+      "Numulite"
     ]
   },
   {
