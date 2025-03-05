@@ -334,7 +334,7 @@
     "id": "Hespori",
     "icon": "Hespori_icon_(mobile)",
     "category": "boss",
-    "sortingGroups": ["farming", "pvm", "melee"],
+    "sortingGroups": ["pvm", "farming", "melee"],
     "recommendedCombatStyle": ["melee"],
     "notableDrops": [
       "Nature's_reprisal",
@@ -583,7 +583,7 @@
     "id": "Tempoross",
     "icon": "Tempoross_icon_(mobile)",
     "category": "boss",
-    "sortingGroups": ["fishing", "cooking", "pvm"],
+    "sortingGroups": ["pvm", "fishing", "cooking"],
     "recommendedCombatStyle": ["fishing"],
     "requiredLevel": 35,
     "notableDrops": [
@@ -782,7 +782,7 @@
     "id": "Wintertodt",
     "icon": "Wintertodt_icon_(mobile)",
     "category": "boss",
-    "sortingGroups": ["firemaking", "woodcutting", "fletching", "pvm"],
+    "sortingGroups": ["pvm", "firemaking", "woodcutting", "fletching"],
     "recommendedCombatStyle": ["firemaking"],
     "requiredLevel": 50,
     "notableDrops": [
@@ -803,7 +803,7 @@
     "id": "Zalcano",
     "icon": "Zalcano_icon_(mobile)",
     "category": "boss",
-    "sortingGroups": ["mining", "smithing", "pvm"],
+    "sortingGroups": ["pvm", "mining", "smithing"],
     "recommendedCombatStyle": ["mining"],
     "requiredLevel": 70,
     "notableDrops": [
