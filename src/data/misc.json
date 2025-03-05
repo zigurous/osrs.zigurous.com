@@ -307,12 +307,11 @@
       "herblore"
     ],
     "notableDrops": [
-      "Numulite",
       "Unidentified_small_fossil",
       "Unidentified_medium_fossil",
       "Unidentified_large_fossil",
       "Unidentified_rare_fossil",
-      "Volcanic_ash"
+      "Numulite"
     ]
   },
   {
@@ -458,6 +457,14 @@
       "Imbued_saradomin_cape",
       "Imbued_zamorak_cape",
       "Imbued_guthix_cape"
+    ]
+  },
+  {
+    "id": "Magic_secateurs",
+    "category": "quest",
+    "sortingGroups": ["farming"],
+    "notableDrops": [
+      "Magic_secateurs"
     ]
   },
   {

@@ -111,6 +111,23 @@
     ]
   },
   {
+    "id": "Allotment_patch",
+    "caption": "1-61",
+    "category": "skilling",
+    "sortingGroups": ["farming", "herblore"],
+    "requiredLevel": 1,
+    "notableDrops": [
+      "Potato",
+      "Onion",
+      "Cabbage",
+      "Tomato",
+      "Sweetcorn",
+      "Strawberry",
+      "Watermelon",
+      "Snape_grass"
+    ]
+  },
+  {
     "id": "Amethyst#Crafting",
     "title": "Amethyst",
     "caption": "83-89",
@@ -141,6 +158,17 @@
       "Nihil_dust",
       "#transmute",
       "Ancient_brew(3)"
+    ]
+  },
+  {
+    "id": "Anima_patch",
+    "category": "skilling",
+    "sortingGroups": ["farming"],
+    "requiredLevel": 76,
+    "notableDrops": [
+      "Kronos_plant",
+      "Iasor_plant",
+      "Attas_plant"
     ]
   },
   {
@@ -376,6 +404,15 @@
     ]
   },
   {
+    "id": "Belladonna_patch",
+    "category": "skilling",
+    "sortingGroups": ["farming"],
+    "requiredLevel": 63,
+    "notableDrops": [
+      "Nightshade"
+    ]
+  },
+  {
     "id": "Big_bones",
     "category": "skilling",
     "sortingGroups": ["prayer"],
@@ -499,6 +536,45 @@
     ]
   },
   {
+    "id": "Bush_patch",
+    "caption": "10-70",
+    "category": "skilling",
+    "sortingGroups": ["farming", "herblore"],
+    "requiredLevel": 10,
+    "notableDrops": [
+      "Redberries",
+      "Cadava_berries",
+      "Dwellberries",
+      "Jangerberries",
+      "White_berries",
+      "Poison_ivy_berries"
+    ]
+  },
+  {
+    "id": "Cactus_patch",
+    "caption": "55/64",
+    "category": "skilling",
+    "sortingGroups": ["farming"],
+    "requiredLevel": 55,
+    "notableDrops": [
+      "Cactus_spine",
+      "Potato_cactus"
+    ]
+  },
+  {
+    "id": "Calquat_tree",
+    "category": "skilling",
+    "sortingGroups": ["farming"],
+    "requiredLevel": 72,
+    "notableDrops": [
+      "Calquat_tree_seed",
+      "#transmute",
+      "Calquat_sapling",
+      "#transmute",
+      "Calquat_fruit"
+    ]
+  },
+  {
     "id": "Canifis_Rooftop_Course",
     "category": "skilling",
     "requiredLevel": 40,
@@ -533,6 +609,19 @@
       "Tinderbox",
       "Unlit_torch",
       "Coins"
+    ]
+  },
+  {
+    "id": "Celastrus_tree",
+    "category": "skilling",
+    "sortingGroups": ["farming", "crafting"],
+    "requiredLevel": 85,
+    "notableDrops": [
+      "Celastrus_seed",
+      "#transmute",
+      "Celastrus_sapling",
+      "#transmute",
+      "Celastrus_bark"
     ]
   },
   {
@@ -865,6 +954,19 @@
       "Bow_of_faerdhinen",
       "Blade_of_saeldor_(c)",
       "Bow_of_faerdhinen_(c)"
+    ]
+  },
+  {
+    "id": "Crystal_tree",
+    "category": "skilling",
+    "sortingGroups": ["farming"],
+    "requiredLevel": 74,
+    "notableDrops": [
+      "Crystal_acorn",
+      "#transmute",
+      "Crystal_sapling",
+      "#transmute",
+      "Crystal_shard"
     ]
   },
   {
@@ -1220,6 +1322,21 @@
     ]
   },
   {
+    "id": "Flower_patch",
+    "caption": "2-58",
+    "category": "skilling",
+    "sortingGroups": ["farming", "herblore"],
+    "requiredLevel": 2,
+    "notableDrops": [
+      "Marigolds",
+      "Rosemary",
+      "Nasturtiums",
+      "Woad_leaf",
+      "Limpwurt_root",
+      "White_lily"
+    ]
+  },
+  {
     "id": "Forestry",
     "subtitle": "Events",
     "category": "skilling",
@@ -1277,6 +1394,23 @@
       "Strange_fruit",
       "Golovanova_fruit_top",
       "Papaya_fruit"
+    ]
+  },
+  {
+    "id": "Fruit_tree_patch",
+    "caption": "27-81",
+    "category": "skilling",
+    "sortingGroups": ["farming"],
+    "requiredLevel": 27,
+    "notableDrops": [
+      "Cooking_apple",
+      "Banana",
+      "Orange",
+      "Curry_leaf",
+      "Pineapple",
+      "Papaya_fruit",
+      "Coconut",
+      "Dragonfruit"
     ]
   },
   {
@@ -1464,6 +1598,17 @@
     ]
   },
   {
+    "id": "Hardwood_patch",
+    "caption": "35/55",
+    "category": "skilling",
+    "sortingGroups": ["farming", "woodcutting"],
+    "requiredLevel": 35,
+    "notableDrops": [
+      "Teak_logs",
+      "Mahogany_logs"
+    ]
+  },
+  {
     "id": "Hardwood_trees#Ape_Atoll",
     "title": "Hardwood Trees",
     "subtitle": "Ape Atoll",
@@ -1531,6 +1676,30 @@
     ]
   },
   {
+    "id": "Herb_patch",
+    "caption": "9-85",
+    "category": "skilling",
+    "sortingGroups": ["farming", "herblore"],
+    "requiredLevel": 9,
+    "notableDrops": [
+      "Grimy_guam_leaf",
+      "Grimy_marrentill",
+      "Grimy_tarromin",
+      "Grimy_harralander",
+      "Grimy_ranarr_weed",
+      "Grimy_toadflax",
+      "Grimy_irit_leaf",
+      "Grimy_avantoe",
+      "Grimy_kwuarm",
+      "Grimy_snapdragon",
+      "Grimy_huasca",
+      "Grimy_cadantine",
+      "Grimy_lantadyme",
+      "Grimy_dwarf_weed",
+      "Grimy_torstol"
+    ]
+  },
+  {
     "id": "Herbiboar#Hunting",
     "title": "Herbiboar",
     "subtitle": "Fossil Island",
@@ -1589,6 +1758,22 @@
     "sortingGroups": ["woodcutting"],
     "notableDrops": [
       "Bark"
+    ]
+  },
+  {
+    "id": "Hops_patch",
+    "caption": "3-28",
+    "category": "skilling",
+    "sortingGroups": ["farming"],
+    "requiredLevel": 3,
+    "notableDrops": [
+      "Barley",
+      "Hammerstone_hops",
+      "Asgarnian_hops",
+      "Jute_fibre",
+      "Yanillian_hops",
+      "Krandorian_hops",
+      "Wildblood_hops"
     ]
   },
   {
@@ -1840,7 +2025,7 @@
     "title": "Master Farmer",
     "category": "skilling",
     "requiredLevel": 38,
-    "sortingGroups": ["thieving"],
+    "sortingGroups": ["thieving", "farming"],
     "notableDrops": [
       "Snape_grass_seed",
       "Barley_seed",
@@ -1955,6 +2140,15 @@
     "sortingGroups": ["runecraft"],
     "notableDrops": [
       "Mud_rune"
+    ]
+  },
+  {
+    "id": "Mushroom_patch",
+    "category": "skilling",
+    "sortingGroups": ["farming"],
+    "requiredLevel": 53,
+    "notableDrops": [
+      "Mushroom"
     ]
   },
   {
@@ -2238,6 +2432,20 @@
     ]
   },
   {
+    "id": "Redwood_tree_(Farming)",
+    "title": "Redwood Tree",
+    "category": "skilling",
+    "sortingGroups": ["farming", "woodcutting"],
+    "requiredLevel": 90,
+    "notableDrops": [
+      "Redwood_tree_seed",
+      "#transmute",
+      "Redwood_sapling",
+      "#transmute",
+      "Redwood_tree_(Farming)"
+    ]
+  },
+  {
     "id": "Redwood_trees",
     "category": "skilling",
     "sortingGroups": ["woodcutting"],
@@ -2392,10 +2600,19 @@
     ]
   },
   {
+    "id": "Seaweed_patch",
+    "category": "skilling",
+    "sortingGroups": ["farming", "crafting"],
+    "requiredLevel": 23,
+    "notableDrops": [
+      "Giant_seaweed"
+    ]
+  },
+  {
     "id": "Seed_stall",
     "category": "skilling",
     "requiredLevel": 27,
-    "sortingGroups": ["thieving"],
+    "sortingGroups": ["thieving", "farming"],
     "notableDrops": [
       "Potato_seed",
       "Marigold_seed",
@@ -2621,6 +2838,20 @@
       "Crossbow_string",
       "Magic_string",
       "Rope"
+    ]
+  },
+  {
+    "id": "Spirit_Tree_(Farming)",
+    "title": "Spirit Tree",
+    "category": "skilling",
+    "sortingGroups": ["farming"],
+    "requiredLevel": 83,
+    "notableDrops": [
+      "Spirit_seed",
+      "#transmute",
+      "Spirit_sapling",
+      "#transmute",
+      "Spirit_tree"
     ]
   },
   {
@@ -2942,6 +3173,26 @@
     ]
   },
   {
+    "id": "Tree_patch",
+    "caption": "15-75",
+    "category": "skilling",
+    "sortingGroups": ["farming", "woodcutting", "herblore"],
+    "requiredLevel": 15,
+    "notableDrops": [
+      "Oak_logs",
+      "Willow_logs",
+      "Maple_logs",
+      "Yew_logs",
+      "Magic_logs",
+      "#newline",
+      "Oak_roots",
+      "Willow_roots",
+      "Maple_roots",
+      "Yew_roots",
+      "Magic_roots"
+    ]
+  },
+  {
     "id": "Trees#Al_Kharid",
     "title": "Trees",
     "subtitle": "Al Kharid",
@@ -3140,6 +3391,17 @@
     "sortingGroups": ["thieving"],
     "notableDrops": [
       "Coins"
+    ]
+  },
+  {
+    "id": "Vinery",
+    "title": "Hosidius Vinery",
+    "category": "skilling",
+    "sortingGroups": ["farming", "herblore"],
+    "requiredLevel": 36,
+    "notableDrops": [
+      "Grapes",
+      "Zamorak's_grapes"
     ]
   },
   {

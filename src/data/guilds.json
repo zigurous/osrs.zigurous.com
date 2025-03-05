@@ -42,12 +42,7 @@
     "sortingGroups": ["farming"],
     "requiredLevel": 45,
     "notableDrops": [
-      "Hespori_seed",
-      "Attas_seed",
-      "Iasor_seed",
-      "Kronos_seed",
-      "Celastrus_seed",
-      "Redwood_tree_seed"
+      "Seed_pack"
     ]
   },
   {
@@ -162,8 +157,7 @@
   {
     "id": "Warriors'_Guild",
     "category": "guild",
-    "sortingGroups": ["location", "melee"],
-    "notableDrops": []
+    "sortingGroups": ["location", "melee"]
   },
   {
     "id": "Wizards'_Guild",

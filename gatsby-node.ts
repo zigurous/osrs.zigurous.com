@@ -49,7 +49,7 @@ export const createSchemaCustomization = ({
       category: String!
       sortingGroups: [String!]!
       requiredLevel: Int
-      notableDrops: [String!]!
+      notableDrops: [String!]
     }
     type ItemsJson implements Node @dontInfer {
       jsonId: String!
@@ -72,7 +72,7 @@ export const createSchemaCustomization = ({
       category: String!
       sortingGroups: [String!]!
       requiredLevel: Int
-      notableDrops: [String!]!
+      notableDrops: [String!]
     }
     type MiscJson implements Node @dontInfer {
       jsonId: String!
@@ -132,7 +132,7 @@ export const createSchemaCustomization = ({
       category: String
       sortingGroups: [String!]!
       requiredLevel: Int
-      notableDrops: [String!]!
+      notableDrops: [String!]
     }
     type SlayerMastersJson implements Node @dontInfer {
       jsonId: String!
