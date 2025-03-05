@@ -157,13 +157,6 @@
     "icon": "Barronite_shards_25"
   },
   {
-    "id": "Basilisk_head",
-    "transmutations": [
-      "#transmute",
-      "Stuffed_basilisk_head"
-    ]
-  },
-  {
     "id": "Basilisk_jaw",
     "transmutations": [
       "#plus",
@@ -177,27 +170,6 @@
     "transmutations": [
       "#transmute",
       "Bellator_ring"
-    ]
-  },
-  {
-    "id": "Big_harpoonfish",
-    "transmutations": [
-      "#transmute",
-      "Stuffed_big_harpoonfish"
-    ]
-  },
-  {
-    "id": "Big_shark",
-    "transmutations": [
-      "#transmute",
-      "Stuffed_big_shark"
-    ]
-  },
-  {
-    "id": "Big_swordfish",
-    "transmutations": [
-      "#transmute",
-      "Stuffed_big_swordfish"
     ]
   },
   {
@@ -395,13 +367,6 @@
     "icon": "Clue_nest_(beginner)"
   },
   {
-    "id": "Cockatrice_head",
-    "transmutations": [
-      "#transmute",
-      "Stuffed_cockatrice_head"
-    ]
-  },
-  {
     "id": "Coin_pouch",
     "icon": "Coin_pouch_(man_&_woman)"
   },
@@ -423,11 +388,7 @@
   },
   {
     "id": "Crawling_hand_(item)",
-    "name": "Crawling Hand",
-    "transmutations": [
-      "#transmute",
-      "Stuffed_crawling_hand"
-    ]
+    "name": "Crawling Hand"
   },
   {
     "id": "Crimson_swift",
@@ -1008,13 +969,6 @@
       "Abyssal_whip",
       "#equals",
       "Abyssal_tentacle"
-    ]
-  },
-  {
-    "id": "Kurask_head",
-    "transmutations": [
-      "#transmute",
-      "Stuffed_kurask_head"
     ]
   },
   {
