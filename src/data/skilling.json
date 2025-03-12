@@ -54,7 +54,7 @@
       "Toadflax",
       "#plus",
       "Toad's_legs",
-      "#transmute",
+      "#equals",
       "Agility_potion(3)"
     ]
   },
@@ -156,7 +156,7 @@
       "Dwarf_weed",
       "#plus",
       "Nihil_dust",
-      "#transmute",
+      "#equals",
       "Ancient_brew(3)"
     ]
   },
@@ -182,7 +182,7 @@
       "Toadflax",
       "#plus",
       "Yew_roots",
-      "#transmute",
+      "#equals",
       "Antidote+(3)"
     ]
   },
@@ -197,7 +197,7 @@
       "Irit_leaf",
       "#plus",
       "Magic_roots",
-      "#transmute",
+      "#equals",
       "Antidote++(3)"
     ]
   },
@@ -212,7 +212,7 @@
       "Lantadyme",
       "#plus",
       "Dragon_scale_dust",
-      "#transmute",
+      "#equals",
       "Antifire_potion(3)"
     ]
   },
@@ -227,7 +227,7 @@
       "Marrentill",
       "#plus",
       "Unicorn_horn_dust",
-      "#transmute",
+      "#equals",
       "Antipoison(3)"
     ]
   },
@@ -240,7 +240,7 @@
       "Antidote++(4)",
       "#plus",
       "Zulrah's_scales",
-      "#transmute",
+      "#equals",
       "Anti-venom(4)"
     ]
   },
@@ -253,7 +253,7 @@
       "Anti-venom(4)",
       "#plus",
       "Torstol",
-      "#transmute",
+      "#equals",
       "Anti-venom+(4)"
     ]
   },
@@ -313,7 +313,7 @@
       "Guam_leaf",
       "#plus",
       "Eye_of_newt",
-      "#transmute",
+      "#equals",
       "Attack_potion(3)"
     ]
   },
@@ -385,7 +385,7 @@
       "Cadantine",
       "#plus",
       "Wine_of_zamorak",
-      "#transmute",
+      "#equals",
       "Bastion_potion(3)"
     ]
   },
@@ -400,7 +400,7 @@
       "Cadantine",
       "#plus",
       "Potato_cactus",
-      "#transmute",
+      "#equals",
       "Battlemage_potion(3)"
     ]
   },
@@ -616,7 +616,7 @@
   {
     "id": "Celastrus_tree",
     "category": "skilling",
-    "sortingGroups": ["farming", "crafting"],
+    "sortingGroups": ["farming", "fletching"],
     "requiredLevel": 85,
     "notableDrops": [
       "Celastrus_seed",
@@ -809,7 +809,7 @@
       "Harralander",
       "#plus",
       "Goat_horn_dust",
-      "#transmute",
+      "#equals",
       "Combat_potion(3)"
     ]
   },
@@ -824,7 +824,7 @@
       "Harralander",
       "#plus",
       "Volcanic_ash",
-      "#transmute",
+      "#equals",
       "Compost_potion(3)"
     ]
   },
@@ -1013,7 +1013,7 @@
       "Ranarr_weed",
       "#plus",
       "White_berries",
-      "#transmute",
+      "#equals",
       "Defence_potion(3)"
     ]
   },
@@ -1180,7 +1180,7 @@
       "Harralander",
       "#plus",
       "Chocolate_dust",
-      "#transmute",
+      "#equals",
       "Energy_potion(3)"
     ]
   },
@@ -1207,7 +1207,7 @@
       "Antifire_potion(4)",
       "#plus",
       "Lava_scale_shard",
-      "#transmute",
+      "#equals",
       "Extended_antifire(4)"
     ]
   },
@@ -1220,7 +1220,7 @@
       "Anti-venom+(4)",
       "#plus",
       "Araxyte_venom_sack",
-      "#transmute",
+      "#equals",
       "Extended_anti-venom+(4)"
     ]
   },
@@ -1233,7 +1233,7 @@
       "Super_antifire_potion(4)",
       "#plus",
       "Lava_scale_shard",
-      "#transmute",
+      "#equals",
       "Extended_super_antifire(4)"
     ]
   },
@@ -1320,7 +1320,7 @@
       "Avantoe",
       "#plus",
       "Snape_grass",
-      "#transmute",
+      "#equals",
       "Fishing_potion(3)"
     ]
   },
@@ -1365,7 +1365,7 @@
       "Ancient_brew(4)",
       "#plus",
       "Ancient_essence",
-      "#transmute",
+      "#equals",
       "Forgotten_brew(4)"
     ]
   },
@@ -1501,7 +1501,7 @@
       "Harralander",
       "#plus",
       "Aldarium",
-      "#transmute",
+      "#equals",
       "Goading_potion(3)"
     ]
   },
@@ -1549,7 +1549,7 @@
       "Garlic",
       "#plus",
       "Silver_dust",
-      "#transmute",
+      "#equals",
       "Guthix_balance(3)"
     ]
   },
@@ -1566,7 +1566,7 @@
       "Guam_leaf",
       "Guam_leaf",
       "Marrentill",
-      "#transmute",
+      "#equals",
       "Guthix_rest(3)"
     ]
   },
@@ -1750,7 +1750,7 @@
       "Avantoe",
       "#plus",
       "Kebbit_teeth_dust",
-      "#transmute",
+      "#equals",
       "Hunter_potion(3)"
     ]
   },
@@ -1922,7 +1922,7 @@
       "Lantadyme",
       "#plus",
       "Potato_cactus",
-      "#transmute",
+      "#equals",
       "Magic_potion(3)"
     ]
   },
@@ -2027,7 +2027,7 @@
       "Dwarf_weed",
       "#plus",
       "Lily_of_the_sands",
-      "#transmute",
+      "#equals",
       "Menaphite_remedy(3)"
     ]
   },
@@ -2342,7 +2342,7 @@
       "Ranarr_weed",
       "#plus",
       "Snape_grass",
-      "#transmute",
+      "#equals",
       "Prayer_potion(3)"
     ]
   },
@@ -2357,7 +2357,7 @@
       "Huasca",
       "#plus",
       "Aldarium",
-      "#transmute",
+      "#equals",
       "Prayer_regeneration_potion(3)"
     ]
   },
@@ -2381,7 +2381,7 @@
       "Dwarf_weed",
       "#plus",
       "Wine_of_zamorak",
-      "#transmute",
+      "#equals",
       "Ranging_potion(3)"
     ]
   },
@@ -2442,7 +2442,7 @@
       "Rogue's_purse",
       "#plus",
       "Snake_weed",
-      "#transmute",
+      "#equals",
       "Relicym's_balm(3)"
     ]
   },
@@ -2481,7 +2481,7 @@
       "Harralander",
       "#plus",
       "Red_spiders'_eggs",
-      "#transmute",
+      "#equals",
       "Restore_potion(3)"
     ]
   },
@@ -2546,7 +2546,7 @@
       "Unicorn_horn_dust",
       "Snake_weed",
       "Nail_beast_nails",
-      "#transmute",
+      "#equals",
       "Sanfew_serum(4)"
     ]
   },
@@ -2561,7 +2561,7 @@
       "Toadflax",
       "#plus",
       "Crushed_nest",
-      "#transmute",
+      "#equals",
       "Saradomin_brew(3)"
     ]
   },
@@ -2631,7 +2631,7 @@
       "Tarromin",
       "#plus",
       "Ashes",
-      "#transmute",
+      "#equals",
       "Serum_207_(3)"
     ]
   },
@@ -2855,7 +2855,7 @@
       "Super_energy(4)",
       "#plus",
       "Amylase_crystal",
-      "#transmute",
+      "#equals",
       "Stamina_potion(4)"
     ]
   },
@@ -2917,7 +2917,7 @@
       "Tarromin",
       "#plus",
       "Limpwurt_root",
-      "#transmute",
+      "#equals",
       "Strength_potion(3)"
     ]
   },
@@ -2966,7 +2966,7 @@
       "Antifire_potion(4)",
       "#plus",
       "Crushed_superior_dragon_bones",
-      "#transmute",
+      "#equals",
       "Super_antifire_potion(4)"
     ]
   },
@@ -2981,7 +2981,7 @@
       "Irit_leaf",
       "#plus",
       "Eye_of_newt",
-      "#transmute",
+      "#equals",
       "Super_attack(3)"
     ]
   },
@@ -2996,7 +2996,7 @@
       "Super_defence(4)",
       "#plus",
       "Torstol",
-      "#transmute",
+      "#equals",
       "Super_combat_potion(4)"
     ]
   },
@@ -3011,7 +3011,7 @@
       "Cadantine",
       "#plus",
       "White_berries",
-      "#transmute",
+      "#equals",
       "Super_defence(3)"
     ]
   },
@@ -3026,7 +3026,7 @@
       "Avantoe",
       "#plus",
       "Mort_myre_fungus",
-      "#transmute",
+      "#equals",
       "Super_energy(3)"
     ]
   },
@@ -3041,7 +3041,7 @@
       "Snapdragon",
       "#plus",
       "Red_spiders'_eggs",
-      "#transmute",
+      "#equals",
       "Super_restore(3)"
     ]
   },
@@ -3056,7 +3056,7 @@
       "Kwuarm",
       "#plus",
       "Limpwurt_root",
-      "#transmute",
+      "#equals",
       "Super_strength(3)"
     ]
   },
@@ -3071,7 +3071,7 @@
       "Irit_leaf",
       "#plus",
       "Unicorn_horn_dust",
-      "#transmute",
+      "#equals",
       "Superantipoison(3)"
     ]
   },
@@ -3320,7 +3320,7 @@
       "Kwuarm",
       "#plus",
       "Dragon_scale_dust",
-      "#transmute",
+      "#equals",
       "Weapon_poison"
     ]
   },
@@ -3335,7 +3335,7 @@
       "Cactus_spine",
       "#plus",
       "Red_spiders'_eggs",
-      "#transmute",
+      "#equals",
       "Weapon_poison+"
     ]
   },
@@ -3350,7 +3350,7 @@
       "Nightshade",
       "#plus",
       "Poison_ivy_berries",
-      "#transmute",
+      "#equals",
       "Weapon_poison++"
     ]
   },
@@ -3441,7 +3441,7 @@
       "Torstol",
       "#plus",
       "Jangerberries",
-      "#transmute",
+      "#equals",
       "Zamorak_brew(3)"
     ]
   },
