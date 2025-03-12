@@ -114,7 +114,8 @@
       "Ruins_of_Camdozaal",
       "Sloane",
       "Tanner_(Crafting_Guild)",
-      "Thurgo"
+      "Thurgo",
+      "Turael"
     ],
     "pets": [
       "Baby_mole",
@@ -434,6 +435,7 @@
       "Ignatius_Vulcan",
       "Leatherworker",
       "Master_fisher",
+      "Nieve",
       "Portal_(Player-owned_house)#Yanille",
       "Sinister_chest",
       "Wizard_Sinina"
@@ -639,6 +641,7 @@
       "Eodan",
       "Estate_agent#Hosidius",
       "Grubby_Chest",
+      "Konar",
       "Mary_(Getting_Ahead)",
       "Portal_(Player-owned_house)#Hosidius",
       "Sawmill"
@@ -773,6 +776,7 @@
       "Aubury",
       "Bob_Barter_(herbs)",
       "Canoe",
+      "Chaeldar",
       "Champions'_Challenge",
       "Dark_Chest",
       "Estate_agent#Varrock",
@@ -785,7 +789,9 @@
       "Melee_combat_tutor",
       "Ranged_combat_tutor",
       "Sawmill",
+      "Spria",
       "Twiggy_O'Korn",
+      "Vannaka",
       "Wise_Old_Man",
       "Woodsman_tutor",
       "Zanaris"
@@ -878,6 +884,7 @@
       "Vyrewatch_Sentinel"
     ],
     "misc": [
+      "Mazchna",
       "Sbott",
       "Slayer_Tower"
     ],
@@ -1140,6 +1147,7 @@
       "Canoe",
       "Ents",
       "Fountain_of_Rune",
+      "Krystilia",
       "Larran's_big_chest",
       "Mage_Arena_I",
       "Mage_Arena_II",

@@ -79,6 +79,12 @@
     ]
   },
   {
+    "id": "Chaeldar",
+    "subtitle": "Slayer Master",
+    "category": "npc",
+    "sortingGroups": ["slayer"]
+  },
+  {
     "id": "Duradel",
     "subtitle": "Slayer Master",
     "category": "npc",
@@ -321,6 +327,18 @@
     ]
   },
   {
+    "id": "Konar",
+    "subtitle": "Slayer Master",
+    "category": "npc",
+    "sortingGroups": ["slayer"]
+  },
+  {
+    "id": "Krystilia",
+    "subtitle": "Slayer Master",
+    "category": "npc",
+    "sortingGroups": ["slayer"]
+  },
+  {
     "id": "Leatherworker",
     "title": "Tanner",
     "subtitle": "Ranging Guild",
@@ -420,6 +438,12 @@
     ]
   },
   {
+    "id": "Mazchna",
+    "subtitle": "Slayer Master",
+    "category": "npc",
+    "sortingGroups": ["slayer"]
+  },
+  {
     "id": "Melee_combat_tutor",
     "subtitle": "Master",
     "category": "npc",
@@ -444,6 +468,12 @@
       "Magic_stone",
       "Condensed_gold"
     ]
+  },
+  {
+    "id": "Nieve",
+    "subtitle": "Slayer Master",
+    "category": "npc",
+    "sortingGroups": ["slayer"]
   },
   {
     "id": "Olaf_the_Bard",
@@ -491,6 +521,12 @@
       "Strength_cape",
       "Strength_cape(t)"
     ]
+  },
+  {
+    "id": "Spria",
+    "subtitle": "Slayer Master",
+    "category": "npc",
+    "sortingGroups": ["slayer"]
   },
   {
     "id": "Stonemason",
@@ -546,6 +582,12 @@
     ]
   },
   {
+    "id": "Turael",
+    "subtitle": "Slayer Master",
+    "category": "npc",
+    "sortingGroups": ["slayer"]
+  },
+  {
     "id": "Twiggy_O'Korn",
     "category": "npc",
     "sortingGroups": ["misc", "diaries"],
@@ -554,6 +596,12 @@
       "Achievement_diary_cape",
       "Achievement_diary_cape_(t)"
     ]
+  },
+  {
+    "id": "Vannaka",
+    "subtitle": "Slayer Master",
+    "category": "npc",
+    "sortingGroups": ["slayer"]
   },
   {
     "id": "Wesley",
