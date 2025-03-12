@@ -339,7 +339,7 @@
   {
     "id": "Mac",
     "category": "npc",
-    "sortingGroups": ["stats", "misc"],
+    "sortingGroups": ["misc", "stats"],
     "notableDrops": [
       "Max_hood",
       "Max_cape"
@@ -448,7 +448,7 @@
   {
     "id": "Olaf_the_Bard",
     "category": "npc",
-    "sortingGroups": ["music", "misc"],
+    "sortingGroups": ["misc", "music"],
     "notableDrops": [
       "Music_hood",
       "Music_cape",
@@ -548,7 +548,7 @@
   {
     "id": "Twiggy_O'Korn",
     "category": "npc",
-    "sortingGroups": ["diaries", "misc"],
+    "sortingGroups": ["misc", "diaries"],
     "notableDrops": [
       "Achievement_diary_hood",
       "Achievement_diary_cape",
@@ -564,7 +564,7 @@
   {
     "id": "Wise_Old_Man",
     "category": "npc",
-    "sortingGroups": ["quest", "misc"],
+    "sortingGroups": ["misc", "quest"],
     "notableDrops": [
       "Quest_point_hood",
       "Quest_point_cape",

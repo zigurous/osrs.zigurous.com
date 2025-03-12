@@ -2,7 +2,7 @@
   {
     "id": "Abyss",
     "category": "location",
-    "sortingGroups": ["runecraft", "misc"],
+    "sortingGroups": ["location", "runecraft", "misc"],
     "notableDrops": [
       "Elemental_talisman",
       "Giant_pouch",
@@ -15,10 +15,7 @@
   {
     "id": "Abyssal_Area",
     "category": "location",
-    "sortingGroups": [
-      "slayer",
-      "pvm"
-    ]
+    "sortingGroups": ["location", "slayer", "pvm", "misc"]
   },
   {
     "id": "Ancient_Magicks",
@@ -296,6 +293,7 @@
     "id": "Fossil_Island",
     "category": "location",
     "sortingGroups": [
+      "location",
       "pvm",
       "slayer",
       "hunter",
@@ -317,7 +315,7 @@
   {
     "id": "Fountain_of_Rune",
     "category": "location",
-    "sortingGroups": ["misc", "magic"],
+    "sortingGroups": ["location", "misc", "magic"],
     "notableDrops": [
       "Amulet_of_eternal_glory",
       "Lvl-5_Enchant",
@@ -362,6 +360,7 @@
     "id": "Isle_of_Souls",
     "category": "location",
     "sortingGroups": [
+      "location",
       "woodcutting",
       "hunter",
       "fishing",
@@ -521,6 +520,7 @@
     "id": "Mor_Ul_Rek",
     "category": "location",
     "sortingGroups": [
+      "location",
       "pvm",
       "slayer",
       "thieving",
@@ -615,12 +615,13 @@
     "id": "Resource_Area",
     "category": "location",
     "sortingGroups": [
-      "misc",
+      "location",
       "woodcutting",
       "fishing",
       "cooking",
       "mining",
-      "smithing"
+      "smithing",
+      "misc"
     ],
     "notableDrops": [
       "Iron_ore",
@@ -638,10 +639,11 @@
     "id": "Ruins_of_Camdozaal",
     "category": "location",
     "sortingGroups": [
-      "misc",
+      "location",
       "mining",
       "smithing",
-      "fishing"
+      "fishing",
+      "misc"
     ],
     "notableDrops": [
       "Imcando_hammer",
@@ -670,7 +672,7 @@
   {
     "id": "Scar_essence_mine",
     "category": "location",
-    "sortingGroups": ["runecraft", "mining", "misc"],
+    "sortingGroups": ["location", "runecraft", "mining", "misc"],
     "notableDrops": [
       "Warped_extract",
       "Twisted_extract",
@@ -708,6 +710,7 @@
     "id": "Zanaris",
     "category": "location",
     "sortingGroups": [
+      "location",
       "runecraft",
       "crafting",
       "cooking",

@@ -5,7 +5,7 @@ import ActivityFilter from './ActivityFilter';
 import RegionPanelSection from './RegionPanelSection';
 import { useActivitiesContext, useFilterContext } from '../context';
 import type { Region } from '../types';
-import { activityFilters, sortByIconAndLevel } from '../utils';
+import { activityFilters, sortByIcon, sortByLevel, sortByName } from '../utils';
 
 interface RegionPanelActivitiesProps {
   region: Region;
@@ -22,18 +22,39 @@ export default function RegionPanelActivities({
       region.activities
         .map(context.getActivityById)
         .filter(activity => !!activity)
-        .sort(sortByIconAndLevel),
-    [region, region.id, context.getActivityById],
+        .sort(sortByName)
+        .sort(sortByLevel)
+        .sort(sortByIcon),
+    [region, region.id, filter.selectedFilters, context.getActivityById],
+  );
+
+  // sort activities so the selected categories always show first
+  const sortedActivities = useMemo(
+    () =>
+      activities.sort((a, b) => {
+        const aGroup = a.sortingGroups.length > 0 ? a.sortingGroups[0] : 'misc';
+        const bGroup = b.sortingGroups.length > 0 ? b.sortingGroups[0] : 'misc';
+        const aIncluded =
+          filter.selectedFilters.includes(aGroup) || a.category === 'boss';
+        const bIncluded =
+          filter.selectedFilters.includes(bGroup) || b.category === 'boss';
+        if (aIncluded && !bIncluded) return -1;
+        if (bIncluded && !aIncluded) return 1;
+        return 0;
+      }),
+    [activities, filter.selectedFilters],
   );
 
   const filteredActivities =
     filter.selectedFilters.length > 0
-      ? activities.filter(filter.isActivityFiltered)
-      : activities;
+      ? sortedActivities.filter(filter.isActivityFiltered)
+      : sortedActivities;
 
   const disabledFilters = activityFilters.filter(
     filter =>
-      !activities.some(activity => activity.sortingGroups?.includes(filter)),
+      !sortedActivities.some(activity =>
+        activity.sortingGroups?.includes(filter),
+      ),
   );
 
   return (

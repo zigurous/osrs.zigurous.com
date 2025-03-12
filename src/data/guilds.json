@@ -2,7 +2,7 @@
   {
     "id": "Champions'_Guild",
     "category": "guild",
-    "sortingGroups": ["misc", "quest"],
+    "sortingGroups": ["location", "misc", "quest"],
     "notableDrops": [
       "Rune_chainbody",
       "Rune_plateskirt",
@@ -60,7 +60,7 @@
   {
     "id": "Heroes'_Guild",
     "category": "guild",
-    "sortingGroups": ["misc", "quest"],
+    "sortingGroups": ["location", "misc", "quest"],
     "notableDrops": [
       "Dragon_mace",
       "Dragon_battleaxe"
@@ -84,7 +84,7 @@
   {
     "id": "Legends'_Guild",
     "category": "guild",
-    "sortingGroups": ["misc", "quest"],
+    "sortingGroups": ["location", "misc", "quest"],
     "notableDrops": [
       "Cape_of_legends",
       "Shield_right_half",
@@ -115,7 +115,7 @@
   {
     "id": "Myths'_Guild",
     "category": "guild",
-    "sortingGroups": ["misc", "quest"],
+    "sortingGroups": ["location", "misc", "quest"],
     "notableDrops": [
       "Mythical_cape",
       "Shield_right_half",

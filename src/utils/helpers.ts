@@ -16,7 +16,7 @@ export function sortByActivity(a: Activity, b: Activity): number {
   let bIndex = activityFilters.indexOf(bGroup);
   if (aIndex === -1) aIndex = Number.MAX_SAFE_INTEGER;
   if (bIndex === -1) bIndex = Number.MAX_SAFE_INTEGER;
-  return aIndex - bIndex || sortByName(a, b);
+  return aIndex - bIndex;
 }
 
 export function sortByIcon(a: Activity, b: Activity): number {
@@ -28,21 +28,13 @@ export function sortByIcon(a: Activity, b: Activity): number {
   if (bIndex === -1) bIndex = Number.MAX_SAFE_INTEGER;
   if (a.icon && a.sortingGroups[0] === 'pvm') aIndex = Number.MIN_SAFE_INTEGER;
   if (b.icon && b.sortingGroups[0] === 'pvm') bIndex = Number.MIN_SAFE_INTEGER;
-  return aIndex - bIndex || sortByName(a, b);
+  return aIndex - bIndex;
 }
 
-export function sortByIconAndLevel(a: Activity, b: Activity): number {
-  const aIcon = getIconForActivity(a);
-  const bIcon = getIconForActivity(b);
-  let aIndex = aIcon ? iconOrder.indexOf(aIcon) : -1;
-  let bIndex = bIcon ? iconOrder.indexOf(bIcon) : -1;
+export function sortByLevel(a: Activity, b: Activity): number {
   let aLevel = a.requiredLevel ?? 0;
   let bLevel = b.requiredLevel ?? 0;
-  if (aIndex === -1) aIndex = Number.MAX_SAFE_INTEGER;
-  if (bIndex === -1) bIndex = Number.MAX_SAFE_INTEGER;
-  if (a.icon && a.sortingGroups[0] === 'pvm') aIndex = Number.MIN_SAFE_INTEGER;
-  if (b.icon && b.sortingGroups[0] === 'pvm') bIndex = Number.MIN_SAFE_INTEGER;
-  return aIndex - bIndex || aLevel - bLevel || sortByName(a, b);
+  return aLevel - bLevel;
 }
 
 export function sortBySkill(a: Activity, b: Activity): number {
@@ -52,7 +44,7 @@ export function sortBySkill(a: Activity, b: Activity): number {
   let bIndex = bSkill ? skills.indexOf(bSkill) : -1;
   if (aIndex === -1) aIndex = Number.MAX_SAFE_INTEGER;
   if (bIndex === -1) bIndex = Number.MAX_SAFE_INTEGER;
-  return aIndex - bIndex || sortByName(a, b);
+  return aIndex - bIndex;
 }
 
 export function getAssociatedSkill(activity: Activity): Skill | undefined {
@@ -60,12 +52,6 @@ export function getAssociatedSkill(activity: Activity): Skill | undefined {
 }
 
 export function getIconForActivity(activity: Activity): string | undefined {
-  // prettier-ignore
-  switch (activity.category) {
-    case 'dungeon': return 'Dungeon_map_link_icon';
-    case 'location': return 'Map_link_icon';
-  }
-
   const sortingGroup =
     activity.sortingGroups.length > 0 ? activity.sortingGroups[0] : 'misc';
   if (sortingGroup === 'pvm' && activity.icon) return activity.icon;
@@ -87,6 +73,18 @@ export function getIconForActivity(activity: Activity): string | undefined {
     case 'minigame': return 'Minigame_icon';
     case 'monster': return 'Monster_Examine';
     case 'raid': return 'Raids';
+  }
+
+  if (sortingGroup === 'misc') {
+    // @ts-ignore
+    if (activity.sortingGroups.includes('diaries'))
+      return 'Achievement_Diaries_icon';
+    // @ts-ignore
+    if (activity.sortingGroups.includes('quest')) return 'Quest_point_icon';
+    // @ts-ignore
+    if (activity.sortingGroups.includes('music')) return 'Music';
+    // @ts-ignore
+    if (activity.sortingGroups.includes('stats')) return 'Stats_icon';
   }
 
   return 'Collection_log';
@@ -130,18 +128,6 @@ export function getIconForActivityGroup(
     case 'woodcutting':
     case 'farming':
       return getIconForSkill(activityGroup as Skill);
-    // @ts-ignore
-    case 'diaries':
-      return 'Achievement_Diaries_icon';
-    // @ts-ignore
-    case 'quest':
-      return 'Quest_point_icon';
-    // @ts-ignore
-    case 'music':
-      return 'Music';
-    // @ts-ignore
-    case 'stats':
-      return 'Stats_icon';
     // @ts-ignore
     case 'location':
       return 'Map_link_icon';
