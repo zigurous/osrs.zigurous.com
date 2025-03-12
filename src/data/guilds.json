@@ -19,11 +19,20 @@
     "sortingGroups": ["cooking"],
     "requiredLevel": 32,
     "notableDrops": [
-      "Jug_of_wine",
-      "Summer_pie",
-      "Wild_pie",
-      "Admiral_pie",
-      "Garden_pie"
+      "Redberry_pie",
+      "Meat_pie",
+      "Apple_pie",
+      "Garden_pie",
+      "Fish_pie",
+      "Pie_dish",
+      "Cake_tin",
+      "Bowl",
+      "Pot",
+      "Pot_of_flour",
+      "Jug",
+      "Grapes",
+      "Chocolate_bar",
+      "Cooking_apple"
     ]
   },
   {
@@ -32,7 +41,19 @@
     "sortingGroups": ["crafting"],
     "requiredLevel": 40,
     "notableDrops": [
-      "Bank_chest"
+      "Chisel",
+      "Hammer",
+      "Shears",
+      "Jug",
+      "Gold_ore",
+      "Silver_ore",
+      "Clay",
+      "Amulet_mould",
+      "Necklace_mould",
+      "Bracelet_mould",
+      "Ring_mould",
+      "Holy_mould",
+      "Tiara_mould"
     ]
   },
   {
@@ -42,7 +63,20 @@
     "sortingGroups": ["farming"],
     "requiredLevel": 45,
     "notableDrops": [
-      "Seed_pack"
+      "Seed_pack",
+      "Rake",
+      "Seed_dibber",
+      "Secateurs",
+      "Spade",
+      "Gardening_trowel",
+      "Watering_can",
+      "Empty_plant_pot",
+      "Filled_plant_pot",
+      "Compost",
+      "Bucket",
+      "Empty_sack",
+      "Basket",
+      "Plant_cure"
     ]
   },
   {
@@ -51,10 +85,20 @@
     "sortingGroups": ["fishing"],
     "requiredLevel": 68,
     "notableDrops": [
+      "Raw_mackerel",
+      "Raw_cod",
       "Raw_tuna",
       "Raw_lobster",
+      "Raw_bass",
       "Raw_swordfish",
-      "Raw_shark"
+      "Raw_shark",
+      "Small_fishing_net",
+      "Big_fishing_net",
+      "Fishing_rod",
+      "Fly_fishing_rod",
+      "Harpoon",
+      "Lobster_pot",
+      "Feather"
     ]
   },
   {
@@ -157,7 +201,16 @@
   {
     "id": "Warriors'_Guild",
     "category": "guild",
-    "sortingGroups": ["location", "melee"]
+    "sortingGroups": ["location", "melee"],
+    "notableDrops": [
+      "Attack_potion(3)",
+      "Strength_potion(3)",
+      "Defence_potion(3)",
+      "Potato_with_cheese",
+      "Plain_pizza",
+      "Bass",
+      "Stew"
+    ]
   },
   {
     "id": "Wizards'_Guild",
