@@ -146,6 +146,39 @@
     ]
   },
   {
+    "id": "Amethyst#Fletching",
+    "title": "Amethyst",
+    "caption": "76-90",
+    "category": "skilling",
+    "sortingGroups": ["fletching"],
+    "requiredLevel": 76,
+    "notableDrops": [
+      "Amethyst_bolt_tips",
+      "#plus",
+      "Broad_bolts",
+      "#equals",
+      "Amethyst_broad_bolts",
+      "#newline",
+      "Amethyst_arrowtips",
+      "#plus",
+      "Headless_arrow",
+      "#equals",
+      "Amethyst_arrow",
+      "#newline",
+      "Amethyst_javelin_heads",
+      "#plus",
+      "Javelin_shaft",
+      "#equals",
+      "Amethyst_javelin",
+      "#newline",
+      "Amethyst_dart_tip",
+      "#plus",
+      "Feather",
+      "#equals",
+      "Amethyst_dart"
+    ]
+  },
+  {
     "id": "Ancient_brew",
     "category": "skilling",
     "sortingGroups": ["herblore"],
@@ -258,6 +291,26 @@
     ]
   },
   {
+    "id": "Antler_bolts",
+    "caption": "62/72",
+    "category": "skilling",
+    "sortingGroups": ["fletching"],
+    "requiredLevel": 62,
+    "notableDrops": [
+      "Chisel",
+      "#plus",
+      "Sunlight_antelope_antler",
+      "#equals",
+      "Sunlight_antler_bolts",
+      "#newline",
+      "Chisel",
+      "#plus",
+      "Moonlight_antelope_antler",
+      "#equals",
+      "Moonlight_antler_bolts"
+    ]
+  },
+  {
     "id": "Ape_Atoll_Agility_Course",
     "category": "skilling",
     "requiredLevel": 48,
@@ -337,11 +390,35 @@
     "title": "Baker's Stall",
     "category": "skilling",
     "requiredLevel": 5,
-    "sortingGroups": ["thieving"],
+    "sortingGroups": ["thieving", "cooking"],
     "notableDrops": [
       "Cake",
       "Bread",
       "Chocolate_slice"
+    ]
+  },
+  {
+    "id": "Ballistae",
+    "caption": "47/72",
+    "category": "skilling",
+    "sortingGroups": ["fletching"],
+    "requiredLevel": 47,
+    "notableDrops": [
+      "Ballista_limbs",
+      "Ballista_spring",
+      "Monkey_tail",
+      "#plus",
+      "Light_frame",
+      "#transmute",
+      "Light_ballista",
+      "#newline",
+      "Ballista_limbs",
+      "Ballista_spring",
+      "Monkey_tail",
+      "#plus",
+      "Heavy_frame",
+      "#transmute",
+      "Heavy_ballista"
     ]
   },
   {
@@ -402,6 +479,20 @@
       "Potato_cactus",
       "#equals",
       "Battlemage_potion(3)"
+    ]
+  },
+  {
+    "id": "Battlestaff",
+    "title": "Battlestaves",
+    "category": "skilling",
+    "sortingGroups": ["fletching"],
+    "requiredLevel": 40,
+    "notableDrops": [
+      "Knife",
+      "#plus",
+      "Celastrus_bark",
+      "#equals",
+      "Battlestaff"
     ]
   },
   {
@@ -476,11 +567,7 @@
     "sortingGroups": ["woodcutting"],
     "requiredLevel": 62,
     "notableDrops": [
-      "Blisterwood_logs",
-      "#transmute",
-      "Blisterwood_sickle",
-      "#transmute",
-      "Blisterwood_flail"
+      "Blisterwood_logs"
     ]
   },
   {
@@ -526,6 +613,109 @@
     "notableDrops": [
       "Body_rune",
       "Body_tiara"
+    ]
+  },
+  {
+    "id": "Bolts#Gem-tipped_and_enchanted_bolts",
+    "title": "Bolt Tips",
+    "caption": "56-73",
+    "category": "skilling",
+    "sortingGroups": ["fletching"],
+    "requiredLevel": 56,
+    "notableDrops": [
+      "Chisel",
+      "#plus",
+      "Sapphire",
+      "#equals",
+      "Sapphire_bolt_tips",
+      "#plus",
+      "Mithril_bolts",
+      "#equals",
+      "Sapphire_bolts",
+      "#newline",
+      "Chisel",
+      "#plus",
+      "Emerald",
+      "#equals",
+      "Emerald_bolt_tips",
+      "#plus",
+      "Mithril_bolts",
+      "#equals",
+      "Emerald_bolts",
+      "#newline",
+      "Chisel",
+      "#plus",
+      "Ruby",
+      "#equals",
+      "Ruby_bolt_tips",
+      "#plus",
+      "Adamant_bolts",
+      "#equals",
+      "Ruby_bolts",
+      "#newline",
+      "Chisel",
+      "#plus",
+      "Diamond",
+      "#equals",
+      "Diamond_bolt_tips",
+      "#plus",
+      "Adamant_bolts",
+      "#equals",
+      "Diamond_bolts",
+      "#newline",
+      "Chisel",
+      "#plus",
+      "Dragonstone",
+      "#equals",
+      "Dragonstone_bolt_tips",
+      "#plus",
+      "Runite_bolts",
+      "#equals",
+      "Dragonstone_bolts",
+      "#newline",
+      "Chisel",
+      "#plus",
+      "Onyx",
+      "#equals",
+      "Onyx_bolt_tips",
+      "#plus",
+      "Runite_bolts",
+      "#equals",
+      "Onyx_bolts"
+    ]
+  },
+  {
+    "id": "Broader_fletching",
+    "caption": "52/55",
+    "category": "skilling",
+    "sortingGroups": ["fletching"],
+    "requiredLevel": 52,
+    "notableDrops": [
+      "Headless_arrow",
+      "#plus",
+      "Broad_arrowheads",
+      "#equals",
+      "Broad_arrows",
+      "#newline",
+      "Unfinished_broad_bolts",
+      "#plus",
+      "Feather",
+      "#equals",
+      "Broad_bolts"
+    ]
+  },
+  {
+    "id": "Bruma_kindling",
+    "subtitle": "Wintertodt",
+    "category": "skilling",
+    "sortingGroups": ["fletching"],
+    "requiredLevel": 1,
+    "notableDrops": [
+      "Knife",
+      "#plus",
+      "Bruma_root",
+      "#equals",
+      "Bruma_kindling"
     ]
   },
   {
@@ -895,7 +1085,7 @@
   {
     "id": "Crafting_stall",
     "category": "skilling",
-    "sortingGroups": ["thieving"],
+    "sortingGroups": ["thieving", "crafting"],
     "requiredLevel": 5,
     "notableDrops": [
       "Amulet_mould",
@@ -1049,6 +1239,19 @@
     "sortingGroups": ["prayer"],
     "notableDrops": [
       "Dragon_bones"
+    ]
+  },
+  {
+    "id": "Dragon_darts",
+    "category": "skilling",
+    "sortingGroups": ["fletching"],
+    "requiredLevel": 95,
+    "notableDrops": [
+      "Feather",
+      "#plus",
+      "Dragon_dart_tip",
+      "#equals",
+      "Dragon_dart"
     ]
   },
   {
@@ -1302,7 +1505,7 @@
     "id": "Fish_stall",
     "category": "skilling",
     "requiredLevel": 42,
-    "sortingGroups": ["thieving"],
+    "sortingGroups": ["thieving", "cooking"],
     "notableDrops": [
       "Raw_salmon",
       "Raw_tuna",
@@ -1383,7 +1586,7 @@
     "id": "Fruit_stall",
     "category": "skilling",
     "requiredLevel": 25,
-    "sortingGroups": ["thieving"],
+    "sortingGroups": ["thieving", "cooking"],
     "notableDrops": [
       "Cooking_apple",
       "Banana",
@@ -1428,7 +1631,7 @@
     "id": "Gem_stall",
     "category": "skilling",
     "requiredLevel": 75,
-    "sortingGroups": ["thieving"],
+    "sortingGroups": ["thieving", "crafting"],
     "notableDrops": [
       "Uncut_sapphire",
       "Uncut_emerald",
@@ -1592,7 +1795,7 @@
     "id": "Hardwood_Grove",
     "caption": "35/50",
     "category": "skilling",
-    "sortingGroups": ["woodcutting"],
+    "sortingGroups": ["woodcutting", "construction"],
     "requiredLevel": 35,
     "notableDrops": [
       "Trading_sticks",
@@ -1617,7 +1820,7 @@
     "title": "Hardwood Trees",
     "caption": "35/50",
     "category": "skilling",
-    "sortingGroups": ["woodcutting"],
+    "sortingGroups": ["woodcutting", "construction"],
     "requiredLevel": 35,
     "notableDrops": [
       "Teak_logs",
@@ -1755,6 +1958,21 @@
     ]
   },
   {
+    "id": "Hunter's_spear",
+    "category": "skilling",
+    "sortingGroups": ["fletching"],
+    "requiredLevel": 60,
+    "notableDrops": [
+      "Knife",
+      "#plus",
+      "Teak_logs",
+      "Jerboa_tail",
+      "Hunter_spear_tips",
+      "#equals",
+      "Hunter's_spear"
+    ]
+  },
+  {
     "id": "Hunters'_Rumours",
     "caption": "46-91",
     "category": "skilling",
@@ -1768,6 +1986,20 @@
       "Guild_hunter_boots",
       "Huntsman's_kit",
       "Perfected_quetzal_whistle"
+    ]
+  },
+  {
+    "id": "Hunters'_sunlight_crossbow",
+    "category": "skilling",
+    "sortingGroups": ["fletching"],
+    "requiredLevel": 74,
+    "notableDrops": [
+      "Chisel",
+      "#plus",
+      "Sunlight_antelope_antler",
+      "Hunters'_crossbow",
+      "#equals",
+      "Hunters'_sunlight_crossbow"
     ]
   },
   {
@@ -1796,6 +2028,22 @@
     ]
   },
   {
+    "id": "Javelins",
+    "caption": "3-92",
+    "category": "skilling",
+    "sortingGroups": ["fletching"],
+    "requiredLevel": 3,
+    "notableDrops": [
+      "Bronze_javelin",
+      "Iron_javelin",
+      "Steel_javelin",
+      "Mithril_javelin",
+      "Adamant_javelin",
+      "Rune_javelin",
+      "Dragon_javelin"
+    ]
+  },
+  {
     "id": "Karamja_Hunter_area",
     "title": "Horned Graahk",
     "category": "skilling",
@@ -1803,6 +2051,26 @@
     "requiredLevel": 41,
     "notableDrops": [
       "Horned_graahk"
+    ]
+  },
+  {
+    "id": "Kebbit_bolts",
+    "caption": "32/42",
+    "category": "skilling",
+    "sortingGroups": ["fletching"],
+    "requiredLevel": 32,
+    "notableDrops": [
+      "Chisel",
+      "#plus",
+      "Kebbit_spike",
+      "#equals",
+      "Kebbit_bolts",
+      "#newline",
+      "Chisel",
+      "#plus",
+      "Long_kebbit_spike",
+      "#equals",
+      "Long_kebbit_bolts"
     ]
   },
   {
@@ -1881,6 +2149,22 @@
     ]
   },
   {
+    "id": "Logs",
+    "caption": "1-10",
+    "category": "skilling",
+    "sortingGroups": ["fletching"],
+    "requiredLevel": 1,
+    "notableDrops": [
+      "Logs",
+      "#transmute",
+      "Arrow_shaft",
+      "Javelin_shaft",
+      "Shortbow_(u)",
+      "Wooden_stock",
+      "Longbow_(u)"
+    ]
+  },
+  {
     "id": "Loom",
     "caption": "10-36",
     "category": "skilling",
@@ -1927,6 +2211,22 @@
     ]
   },
   {
+    "id": "Magic_logs",
+    "caption": "75-87",
+    "category": "skilling",
+    "sortingGroups": ["fletching"],
+    "requiredLevel": 75,
+    "notableDrops": [
+      "Magic_logs",
+      "#transmute",
+      "Arrow_shaft",
+      "Magic_shortbow_(u)",
+      "Magic_stock",
+      "Magic_longbow_(u)",
+      "Magic_shield"
+    ]
+  },
+  {
     "id": "Magic_tree",
     "category": "skilling",
     "sortingGroups": ["woodcutting"],
@@ -1938,7 +2238,7 @@
   {
     "id": "Mahogany_tree",
     "category": "skilling",
-    "sortingGroups": ["woodcutting"],
+    "sortingGroups": ["woodcutting", "construction"],
     "requiredLevel": 50,
     "notableDrops": [
       "Mahogany_logs"
@@ -1965,6 +2265,22 @@
     ]
   },
   {
+    "id": "Maple_logs",
+    "caption": "45-57",
+    "category": "skilling",
+    "sortingGroups": ["fletching"],
+    "requiredLevel": 45,
+    "notableDrops": [
+      "Maple_logs",
+      "#transmute",
+      "Arrow_shaft",
+      "Maple_shortbow_(u)",
+      "Maple_stock",
+      "Maple_longbow_(u)",
+      "Maple_shield"
+    ]
+  },
+  {
     "id": "Maple_tree",
     "category": "skilling",
     "sortingGroups": ["woodcutting"],
@@ -1978,7 +2294,7 @@
     "title": "Wine Stall",
     "category": "skilling",
     "requiredLevel": 22,
-    "sortingGroups": ["thieving"],
+    "sortingGroups": ["thieving", "cooking"],
     "notableDrops": [
       "Jug",
       "Jug_of_water",
@@ -2143,6 +2459,22 @@
     ]
   },
   {
+    "id": "Oak_logs",
+    "caption": "15-27",
+    "category": "skilling",
+    "sortingGroups": ["fletching"],
+    "requiredLevel": 15,
+    "notableDrops": [
+      "Oak_logs",
+      "#transmute",
+      "Arrow_shaft",
+      "Oak_shortbow_(u)",
+      "Oak_stock",
+      "Oak_longbow_(u)",
+      "Oak_shield"
+    ]
+  },
+  {
     "id": "Oak_tree",
     "category": "skilling",
     "sortingGroups": ["woodcutting"],
@@ -2205,6 +2537,33 @@
       "Charge_Water_Orb",
       "#transmute",
       "Water_orb"
+    ]
+  },
+  {
+    "id": "Ogre_arrows",
+    "category": "skilling",
+    "sortingGroups": ["fletching"],
+    "requiredLevel": 5,
+    "notableDrops": [
+      "Knife",
+      "#plus",
+      "Achey_tree_logs",
+      "#equals",
+      "Ogre_arrow_shaft",
+      "#plus",
+      "Feather",
+      "#equals",
+      "Flighted_ogre_arrow",
+      "#newline",
+      "Chisel",
+      "#plus",
+      "Wolf_bones",
+      "#equals",
+      "Wolfbone_arrowtips",
+      "#plus",
+      "Flighted_ogre_arrow",
+      "#equals",
+      "Ogre_arrow"
     ]
   },
   {
@@ -2409,6 +2768,28 @@
     ]
   },
   {
+    "id": "Redwood_logs",
+    "caption": "90-92",
+    "category": "skilling",
+    "sortingGroups": ["fletching"],
+    "requiredLevel": 90,
+    "notableDrops": [
+      "Redwood_logs",
+      "#transmute",
+      "Arrow_shaft",
+      "Redwood_shield"
+    ]
+  },
+  {
+    "id": "Redwood_tree",
+    "category": "skilling",
+    "sortingGroups": ["woodcutting"],
+    "requiredLevel": 90,
+    "notableDrops": [
+      "Redwood_logs"
+    ]
+  },
+  {
     "id": "Redwood_tree_(Farming)",
     "title": "Redwood Tree",
     "category": "skilling",
@@ -2420,15 +2801,6 @@
       "Redwood_sapling",
       "#transmute",
       "Redwood_tree_(Farming)"
-    ]
-  },
-  {
-    "id": "Redwood_tree",
-    "category": "skilling",
-    "sortingGroups": ["woodcutting"],
-    "requiredLevel": 90,
-    "notableDrops": [
-      "Redwood_logs"
     ]
   },
   {
@@ -2566,15 +2938,27 @@
     ]
   },
   {
+    "id": "Scrapey_bark",
+    "subtitle": "Trouble Brewing",
+    "category": "skilling",
+    "sortingGroups": ["fletching"],
+    "requiredLevel": 1,
+    "notableDrops": [
+      "Knife",
+      "#plus",
+      "Scrapey_tree_logs",
+      "#equals",
+      "Scrapey_bark"
+    ]
+  },
+  {
     "id": "Scrapey_tree",
     "subtitle": "Trouble Brewing",
     "category": "skilling",
     "sortingGroups": ["woodcutting"],
     "requiredLevel": 1,
     "notableDrops": [
-      "Scrapey_tree_logs",
-      "#transmute",
-      "Scrapey_bark"
+      "Scrapey_tree_logs"
     ]
   },
   {
@@ -2689,7 +3073,7 @@
     "subtitle": "Mor Ul Rek",
     "category": "skilling",
     "requiredLevel": 75,
-    "sortingGroups": ["thieving"],
+    "sortingGroups": ["thieving", "crafting"],
     "notableDrops": [
       "Sapphire",
       "Emerald",
@@ -2712,7 +3096,7 @@
     "subtitle": "Mor Ul Rek",
     "category": "skilling",
     "requiredLevel": 82,
-    "sortingGroups": ["thieving"],
+    "sortingGroups": ["thieving", "smithing"],
     "notableDrops": [
       "Iron_ore",
       "Coal",
@@ -2736,7 +3120,7 @@
     "id": "Silver_stall",
     "category": "skilling",
     "requiredLevel": 50,
-    "sortingGroups": ["thieving"],
+    "sortingGroups": ["thieving", "crafting"],
     "notableDrops": [
       "Silver_ore",
       "Silver_bar",
@@ -2754,12 +3138,11 @@
   },
   {
     "id": "Snakeskin_armour",
-    "caption": "35-56",
+    "caption": "45-56",
     "category": "skilling",
     "sortingGroups": ["crafting"],
-    "requiredLevel": 35,
+    "requiredLevel": 45,
     "notableDrops": [
-      "Broodoo_shield",
       "Snakeskin_boots",
       "Snakeskin_vambraces",
       "Snakeskin_bandana",
@@ -2799,7 +3182,7 @@
     "id": "Spice_stall",
     "category": "skilling",
     "requiredLevel": 65,
-    "sortingGroups": ["thieving"],
+    "sortingGroups": ["thieving", "cooking"],
     "notableDrops": [
       "Spice"
     ]
@@ -3097,7 +3480,7 @@
   {
     "id": "Teak_tree",
     "category": "skilling",
-    "sortingGroups": ["woodcutting"],
+    "sortingGroups": ["woodcutting", "construction"],
     "requiredLevel": 35,
     "notableDrops": [
       "Teak_logs"
@@ -3112,6 +3495,19 @@
     "notableDrops": [
       "Immature_tecu_salamander",
       "Tecu_salamander"
+    ]
+  },
+  {
+    "id": "Toxic_blowpipe",
+    "category": "skilling",
+    "sortingGroups": ["fletching"],
+    "requiredLevel": 78,
+    "notableDrops": [
+      "Chisel",
+      "#plus",
+      "Tanzanite_fang",
+      "#equals",
+      "Toxic_blowpipe"
     ]
   },
   {
@@ -3203,7 +3599,7 @@
     "title": "Vegetable Stall",
     "category": "skilling",
     "requiredLevel": 2,
-    "sortingGroups": ["thieving"],
+    "sortingGroups": ["thieving", "cooking"],
     "notableDrops": [
       "Potato",
       "Cabbage",
@@ -3379,6 +3775,22 @@
     ]
   },
   {
+    "id": "Willow_logs",
+    "caption": "30-42",
+    "category": "skilling",
+    "sortingGroups": ["fletching"],
+    "requiredLevel": 30,
+    "notableDrops": [
+      "Willow_logs",
+      "#transmute",
+      "Arrow_shaft",
+      "Willow_shortbow_(u)",
+      "Willow_stock",
+      "Willow_longbow_(u)",
+      "Willow_shield"
+    ]
+  },
+  {
     "id": "Willow_tree",
     "category": "skilling",
     "sortingGroups": ["woodcutting"],
@@ -3419,6 +3831,22 @@
     "notableDrops": [
       "Yak-hide_armour_(legs)",
       "Yak-hide_armour_(top)"
+    ]
+  },
+  {
+    "id": "Yew_logs",
+    "caption": "60-72",
+    "category": "skilling",
+    "sortingGroups": ["fletching"],
+    "requiredLevel": 60,
+    "notableDrops": [
+      "Yew_logs",
+      "#transmute",
+      "Arrow_shaft",
+      "Yew_shortbow_(u)",
+      "Yew_stock",
+      "Yew_longbow_(u)",
+      "Yew_shield"
     ]
   },
   {

@@ -24,5 +24,6 @@ export function toTitleCase(title: string): string {
     .replace('(E)', '(e)')
     .replace('(P)', '(p)')
     .replace('(T)', '(t)')
+    .replace('(U)', '(u)')
     .replace('(Or)', '(or)');
 }

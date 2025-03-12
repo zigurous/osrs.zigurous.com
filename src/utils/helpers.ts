@@ -87,6 +87,11 @@ export function getIconForActivity(activity: Activity): string | undefined {
     if (activity.sortingGroups.includes('stats')) return 'Stats_icon';
   }
 
+  // prettier-ignore
+  switch (activity.id) {
+    case "Flax_field": return 'Flax';
+  }
+
   return 'Collection_log';
 }
 

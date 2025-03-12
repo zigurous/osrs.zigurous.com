@@ -295,6 +295,16 @@
     ]
   },
   {
+    "id": "Flax_field",
+    "category": "misc",
+    "sortingGroups": ["misc", "crafting", "fletching"],
+    "notableDrops": [
+      "Flax",
+      "#transmute",
+      "Bow_string"
+    ]
+  },
+  {
     "id": "Fossil_Island",
     "category": "location",
     "sortingGroups": [

@@ -122,6 +122,7 @@ export const iconOrder = [
   'Woodcutting_icon',
   'Farming_icon',
   // other
+  'Flax',
   'Crystal_key',
   'Minigame_icon',
   'Distractions_and_Diversions',
