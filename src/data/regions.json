@@ -103,7 +103,7 @@
       "Ajjat",
       "Brother_Jered",
       "Crystal_chest",
-      "Estate_agent#Falador",
+      "Estate_agent",
       "Gadrin",
       "Ghommal",
       "Grace",
@@ -111,8 +111,7 @@
       "Mac",
       "Martin_Thwait",
       "Master_crafter",
-      "Portal_(Player-owned_house)#Rimmington",
-      "Portal_(Player-owned_house)#Taverly",
+      "Portal_(Player-owned_house)",
       "Ruins_of_Camdozaal",
       "Sloane",
       "Tanner_(Crafting_Guild)",
@@ -202,7 +201,7 @@
     "misc": [
       "Ancient_Magicks",
       "Ellis",
-      "Portal_(Player-owned_house)#Pollnivneach",
+      "Portal_(Player-owned_house)",
       "Surgeon_General_Tafani",
       "Wesley",
       "Zahur"
@@ -299,7 +298,7 @@
       "Lunar_spellbook",
       "Managing_Miscellania",
       "Olaf_the_Bard",
-      "Portal_(Player-owned_house)#Rellekka",
+      "Portal_(Player-owned_house)",
       "Stonemason"
     ],
     "pets": [
@@ -432,8 +431,7 @@
       "Armour_salesman",
       "Creature_Creation",
       "Chompy_bird_hunting",
-      "Estate_agent#Ardougne",
-      "Estate_agent#Seers'_Village",
+      "Estate_agent",
       "Friendly_Forester",
       "Hickton",
       "Hunting_expert",
@@ -441,7 +439,7 @@
       "Leatherworker",
       "Master_fisher",
       "Nieve",
-      "Portal_(Player-owned_house)#Yanille",
+      "Portal_(Player-owned_house)",
       "Sinister_chest",
       "Wizard_Sinina"
     ],
@@ -514,7 +512,7 @@
       "Cap'n_Izzy_No-Beard",
       "Duradel",
       "Mor_Ul_Rek",
-      "Portal_(Player-owned_house)#Brimhaven"
+      "Portal_(Player-owned_house)"
     ],
     "pets": [
       "Jal-nib-rek",
@@ -647,11 +645,11 @@
       "Combat_Ring_(Shayzien)",
       "Ents",
       "Eodan",
-      "Estate_agent#Hosidius",
+      "Estate_agent",
       "Grubby_Chest",
       "Konar",
       "Mary_(Getting_Ahead)",
-      "Portal_(Player-owned_house)#Hosidius",
+      "Portal_(Player-owned_house)",
       "Sawmill"
     ],
     "pets": [
@@ -789,7 +787,7 @@
       "Chaeldar",
       "Champions'_Challenge",
       "Dark_Chest",
-      "Estate_agent#Varrock",
+      "Estate_agent",
       "Fossil_Island",
       "Friendly_Forester",
       "Head_chef",
@@ -972,7 +970,7 @@
       "Alwyn",
       "Elven_Crystal_Chest",
       "Friendly_Forester",
-      "Portal_(Player-owned_house)#Prifddinas",
+      "Portal_(Player-owned_house)",
       "Sawmill"
     ],
     "pets": [
@@ -1073,10 +1071,10 @@
       "Sulphur_Nagua"
     ],
     "misc": [
-      "Estate_agent#Varlamore",
+      "Estate_agent",
       "Metla",
       "Moon_chest",
-      "Portal_(Player-owned_house)#Aldarin"
+      "Portal_(Player-owned_house)"
     ],
     "pets": [
       "Butch",

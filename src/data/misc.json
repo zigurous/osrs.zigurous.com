@@ -481,7 +481,8 @@
       "woodcutting",
       "farming",
       "fishing",
-      "mining"
+      "mining",
+      "construction"
     ],
     "notableDrops": [
       "Grimy_herb",
@@ -555,65 +556,8 @@
     ]
   },
   {
-    "id": "Portal_(Player-owned_house)#Aldarin",
+    "id": "Portal_(Player-owned_house)",
     "title": "House Portal",
-    "subtitle": "Aldarin",
-    "category": "portal",
-    "sortingGroups": ["construction"]
-  },
-  {
-    "id": "Portal_(Player-owned_house)#Brimhaven",
-    "title": "House Portal",
-    "subtitle": "Brimhaven",
-    "category": "portal",
-    "sortingGroups": ["construction"]
-  },
-  {
-    "id": "Portal_(Player-owned_house)#Hosidius",
-    "title": "House Portal",
-    "subtitle": "Hosidius",
-    "category": "portal",
-    "sortingGroups": ["construction"]
-  },
-  {
-    "id": "Portal_(Player-owned_house)#Pollnivneach",
-    "title": "House Portal",
-    "subtitle": "Pollnivneach",
-    "category": "portal",
-    "sortingGroups": ["construction"]
-  },
-  {
-    "id": "Portal_(Player-owned_house)#Prifddinas",
-    "title": "House Portal",
-    "subtitle": "Prifddinas",
-    "category": "portal",
-    "sortingGroups": ["construction"]
-  },
-  {
-    "id": "Portal_(Player-owned_house)#Rellekka",
-    "title": "House Portal",
-    "subtitle": "Rellekka",
-    "category": "portal",
-    "sortingGroups": ["construction"]
-  },
-  {
-    "id": "Portal_(Player-owned_house)#Rimmington",
-    "title": "House Portal",
-    "subtitle": "Rimmington",
-    "category": "portal",
-    "sortingGroups": ["construction"]
-  },
-  {
-    "id": "Portal_(Player-owned_house)#Taverly",
-    "title": "House Portal",
-    "subtitle": "Taverly",
-    "category": "portal",
-    "sortingGroups": ["construction"]
-  },
-  {
-    "id": "Portal_(Player-owned_house)#Yanille",
-    "title": "House Portal",
-    "subtitle": "Yanille",
     "category": "portal",
     "sortingGroups": ["construction"]
   },

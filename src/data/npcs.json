@@ -129,69 +129,7 @@
     ]
   },
   {
-    "id": "Estate_agent#Ardougne",
-    "title": "Estate Agent",
-    "subtitle": "Ardougne",
-    "category": "npc",
-    "sortingGroups": ["construction"],
-    "notableDrops": [
-      "Construct._hood",
-      "Construct._cape",
-      "Construct._cape(t)"
-    ]
-  },
-  {
-    "id": "Estate_agent#Falador",
-    "title": "Estate Agent",
-    "subtitle": "Falador",
-    "category": "npc",
-    "sortingGroups": ["construction"],
-    "notableDrops": [
-      "Construct._hood",
-      "Construct._cape",
-      "Construct._cape(t)"
-    ]
-  },
-  {
-    "id": "Estate_agent#Hosidius",
-    "title": "Estate Agent",
-    "subtitle": "Hosidius",
-    "category": "npc",
-    "sortingGroups": ["construction"],
-    "notableDrops": [
-      "Construct._hood",
-      "Construct._cape",
-      "Construct._cape(t)"
-    ]
-  },
-  {
-    "id": "Estate_agent#Seers'_Village",
-    "title": "Estate Agent",
-    "subtitle": "Seers' Village",
-    "category": "npc",
-    "sortingGroups": ["construction"],
-    "notableDrops": [
-      "Construct._hood",
-      "Construct._cape",
-      "Construct._cape(t)"
-    ]
-  },
-  {
-    "id": "Estate_agent#Varlamore",
-    "title": "Estate Agent",
-    "subtitle": "Civitas illa Fortis",
-    "category": "npc",
-    "sortingGroups": ["construction"],
-    "notableDrops": [
-      "Construct._hood",
-      "Construct._cape",
-      "Construct._cape(t)"
-    ]
-  },
-  {
-    "id": "Estate_agent#Varrock",
-    "title": "Estate Agent",
-    "subtitle": "Varrock",
+    "id": "Estate_agent",
     "category": "npc",
     "sortingGroups": ["construction"],
     "notableDrops": [
