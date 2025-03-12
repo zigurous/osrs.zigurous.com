@@ -90,8 +90,11 @@
   },
   {
     "id": "Canoe",
+    "subtitle": "Travel",
+    "caption": "12-57",
     "category": "skilling",
-    "sortingGroups": ["woodcutting"]
+    "sortingGroups": ["woodcutting"],
+    "requiredLevel": 12
   },
   {
     "id": "Champions'_Challenge",
@@ -278,8 +281,10 @@
   },
   {
     "id": "Ents",
+    "caption": "1-75",
     "category": "monster",
     "sortingGroups": ["woodcutting"],
+    "requiredLevel": 1,
     "notableDrops": [
       "Logs",
       "Oak_logs",
@@ -375,6 +380,7 @@
     "id": "Kharidian_cactus",
     "category": "skilling",
     "sortingGroups": ["woodcutting"],
+    "requiredLevel": 1,
     "notableDrops": [
       "Knife",
       "#transmute",
