@@ -144,16 +144,18 @@
     "requiredLevel": 60,
     "notableDrops": [
       "Rune_pickaxe",
+      "Mining_cape",
+      "Mining_gloves",
+      "Superior_mining_gloves",
+      "Expert_mining_gloves",
+      "Bag_full_of_gems",
+      "Soft_clay_pack",
       "Iron_ore",
       "Coal",
       "Mithril_ore",
       "Adamantite_ore",
       "Runite_ore",
-      "Amethyst",
-      "Mining_cape",
-      "Expert_mining_gloves",
-      "Bag_full_of_gems",
-      "Soft_clay_pack"
+      "Amethyst"
     ]
   },
   {

@@ -1,7 +1,7 @@
 [
   {
     "id": "Ajjat",
-    "subtitle": "Master",
+    "subtitle": "Skill Master",
     "category": "npc",
     "sortingGroups": ["melee", "attack"],
     "requiredLevel": 99,
@@ -25,7 +25,7 @@
   {
     "id": "Armour_salesman",
     "title": "Aaron",
-    "subtitle": "Master",
+    "subtitle": "Skill Master",
     "category": "npc",
     "sortingGroups": ["ranged"],
     "requiredLevel": 99,
@@ -37,7 +37,7 @@
   },
   {
     "id": "Aubury",
-    "subtitle": "Master",
+    "subtitle": "Skill Master",
     "category": "npc",
     "sortingGroups": ["runecraft"],
     "requiredLevel": 99,
@@ -56,7 +56,7 @@
   },
   {
     "id": "Brother_Jered",
-    "subtitle": "Master",
+    "subtitle": "Skill Master",
     "category": "npc",
     "sortingGroups": ["prayer"],
     "requiredLevel": 99,
@@ -68,7 +68,7 @@
   },
   {
     "id": "Cap'n_Izzy_No-Beard",
-    "subtitle": "Master",
+    "subtitle": "Skill Master",
     "category": "npc",
     "sortingGroups": ["agility"],
     "requiredLevel": 99,
@@ -160,7 +160,7 @@
   },
   {
     "id": "Gadrin",
-    "subtitle": "Master",
+    "subtitle": "Skill Master",
     "category": "npc",
     "sortingGroups": ["mining"],
     "requiredLevel": 99,
@@ -206,7 +206,7 @@
   },
   {
     "id": "Head_chef",
-    "subtitle": "Master",
+    "subtitle": "Skill Master",
     "category": "npc",
     "sortingGroups": ["cooking"],
     "requiredLevel": 99,
@@ -218,7 +218,7 @@
   },
   {
     "id": "Hickton",
-    "subtitle": "Master",
+    "subtitle": "Skill Master",
     "category": "npc",
     "sortingGroups": ["fletching"],
     "requiredLevel": 99,
@@ -230,7 +230,7 @@
   },
   {
     "id": "Hunting_expert",
-    "subtitle": "Master",
+    "subtitle": "Skill Master",
     "category": "npc",
     "sortingGroups": ["hunter"],
     "requiredLevel": 99,
@@ -242,7 +242,7 @@
   },
   {
     "id": "Ignatius_Vulcan",
-    "subtitle": "Master",
+    "subtitle": "Skill Master",
     "category": "npc",
     "sortingGroups": ["firemaking"],
     "requiredLevel": 99,
@@ -254,7 +254,7 @@
   },
   {
     "id": "Kaqemeex",
-    "subtitle": "Master",
+    "subtitle": "Skill Master",
     "category": "npc",
     "sortingGroups": ["herblore"],
     "requiredLevel": 99,
@@ -325,7 +325,7 @@
   },
   {
     "id": "Martin_Thwait",
-    "subtitle": "Master",
+    "subtitle": "Skill Master",
     "category": "npc",
     "sortingGroups": ["thieving"],
     "requiredLevel": 99,
@@ -383,7 +383,7 @@
   },
   {
     "id": "Melee_combat_tutor",
-    "subtitle": "Master",
+    "subtitle": "Skill Master",
     "category": "npc",
     "sortingGroups": ["melee", "defence"],
     "notableDrops": [
@@ -450,7 +450,7 @@
   },
   {
     "id": "Sloane",
-    "subtitle": "Master",
+    "subtitle": "Skill Master",
     "category": "npc",
     "sortingGroups": ["melee", "strength"],
     "requiredLevel": 99,
@@ -481,7 +481,7 @@
   },
   {
     "id": "Surgeon_General_Tafani",
-    "subtitle": "Master",
+    "subtitle": "Skill Master",
     "category": "npc",
     "sortingGroups": ["hitpoints"],
     "requiredLevel": 99,
@@ -509,7 +509,7 @@
   },
   {
     "id": "Thurgo",
-    "subtitle": "Master",
+    "subtitle": "Skill Master",
     "category": "npc",
     "sortingGroups": ["smithing"],
     "requiredLevel": 99,
@@ -559,7 +559,7 @@
   },
   {
     "id": "Wizard_Sinina",
-    "subtitle": "Master",
+    "subtitle": "Skill Master",
     "category": "npc",
     "sortingGroups": ["magic"],
     "requiredLevel": 99,
@@ -572,7 +572,7 @@
   {
     "id": "Woodsman_tutor",
     "title": "Wilfred",
-    "subtitle": "Master",
+    "subtitle": "Skill Master",
     "category": "npc",
     "sortingGroups": ["woodcutting"],
     "requiredLevel": 99,

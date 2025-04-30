@@ -630,17 +630,6 @@
     ]
   },
   {
-    "id": "Scar_essence_mine",
-    "category": "location",
-    "sortingGroups": ["location", "runecraft", "mining", "misc"],
-    "notableDrops": [
-      "Warped_extract",
-      "Twisted_extract",
-      "Mangled_extract",
-      "Scarred_extract"
-    ]
-  },
-  {
     "id": "Sinister_chest",
     "category": "chest",
     "sortingGroups": ["misc"],

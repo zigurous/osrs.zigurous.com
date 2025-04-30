@@ -1,5 +1,19 @@
 [
   {
+    "id": "Abandoned_Mine",
+    "category": "skilling",
+    "sortingGroups": ["dungeon", "mining"],
+    "notableDrops": [
+      "Clay",
+      "Tin_ore",
+      "Copper_ore",
+      "Iron_ore",
+      "Coal",
+      "Mithril_ore",
+      "Adamantite_ore"
+    ]
+  },
+  {
     "id": "Achey_Tree",
     "category": "skilling",
     "sortingGroups": ["woodcutting"],
@@ -10,6 +24,16 @@
       "Ogre_arrow",
       "Brutal_arrows",
       "Comp_ogre_bow"
+    ]
+  },
+  {
+    "id": "Adamantite_rocks",
+    "title": "Adamantite Ore",
+    "category": "skilling",
+    "sortingGroups": ["mining"],
+    "requiredLevel": 70,
+    "notableDrops": [
+      "Adamantite_ore"
     ]
   },
   {
@@ -128,6 +152,16 @@
     ]
   },
   {
+    "id": "Amethyst_rocks",
+    "title": "Amethyst",
+    "category": "skilling",
+    "sortingGroups": ["mining"],
+    "requiredLevel": 92,
+    "notableDrops": [
+      "Amethyst"
+    ]
+  },
+  {
     "id": "Amethyst#Crafting",
     "title": "Amethyst",
     "caption": "83-89",
@@ -191,6 +225,15 @@
       "Nihil_dust",
       "#equals",
       "Ancient_brew(3)"
+    ]
+  },
+  {
+    "id": "Ancient_essence_crystals",
+    "category": "skilling",
+    "sortingGroups": ["mining"],
+    "requiredLevel": 75,
+    "notableDrops": [
+      "Ancient_essence"
     ]
   },
   {
@@ -346,6 +389,16 @@
     ]
   },
   {
+    "id": "Ash_pile",
+    "category": "skilling",
+    "sortingGroups": ["mining", "crafting", "farming"],
+    "requiredLevel": 22,
+    "notableDrops": [
+      "Soda_ash",
+      "Volcanic_ash"
+    ]
+  },
+  {
     "id": "Astral_Altar",
     "title": "Astral Runes",
     "category": "skilling",
@@ -449,6 +502,17 @@
     "sortingGroups": ["agility"],
     "notableDrops": [
       "Mark_of_grace"
+    ]
+  },
+  {
+    "id": "Barronite_rocks",
+    "title": "Barronite",
+    "category": "skilling",
+    "sortingGroups": ["mining"],
+    "requiredLevel": 14,
+    "notableDrops": [
+      "Barronite_shards",
+      "Barronite_deposit"
     ]
   },
   {
@@ -562,6 +626,21 @@
     ]
   },
   {
+    "id": "Blast_mine",
+    "category": "skilling",
+    "sortingGroups": ["mining", "firemaking"],
+    "requiredLevel": 43,
+    "notableDrops": [
+      "Blasted_ore",
+      "#transmute",
+      "Coal",
+      "Gold_ore",
+      "Mithril_ore",
+      "Adamantite_ore",
+      "Runite_ore"
+    ]
+  },
+  {
     "id": "Blisterwood_tree",
     "category": "skilling",
     "sortingGroups": ["woodcutting"],
@@ -602,6 +681,16 @@
       "Blue_d'hide_chaps",
       "Blue_d'hide_shield",
       "Blue_d'hide_body"
+    ]
+  },
+  {
+    "id": "Blurite_rocks",
+    "title": "Blurite Ore",
+    "category": "skilling",
+    "sortingGroups": ["mining"],
+    "requiredLevel": 10,
+    "notableDrops": [
+      "Blurite_ore"
     ]
   },
   {
@@ -751,6 +840,16 @@
     "notableDrops": [
       "Cactus_spine",
       "Potato_cactus"
+    ]
+  },
+  {
+    "id": "Calcified_rocks",
+    "category": "skilling",
+    "sortingGroups": ["mining"],
+    "requiredLevel": 41,
+    "notableDrops": [
+      "Blessed_bone_shards",
+      "Calcified_deposit"
     ]
   },
   {
@@ -931,6 +1030,35 @@
     ]
   },
   {
+    "id": "Clay_rocks",
+    "title": "Clay",
+    "category": "skilling",
+    "sortingGroups": ["mining", "crafting"],
+    "requiredLevel": 1,
+    "notableDrops": [
+      "Clay"
+    ]
+  },
+  {
+    "id": "Coal_rocks",
+    "title": "Coal",
+    "category": "skilling",
+    "sortingGroups": ["mining"],
+    "requiredLevel": 30,
+    "notableDrops": [
+      "Coal"
+    ]
+  },
+  {
+    "id": "Coal_Trucks",
+    "category": "skilling",
+    "sortingGroups": ["mining"],
+    "requiredLevel": 30,
+    "notableDrops": [
+      "Coal"
+    ]
+  },
+  {
     "id": "Coconut_milk",
     "subtitle": "Potion Base",
     "caption": "68-82",
@@ -1016,6 +1144,16 @@
       "Volcanic_ash",
       "#equals",
       "Compost_potion(3)"
+    ]
+  },
+  {
+    "id": "Copper_rocks",
+    "title": "Copper Ore",
+    "category": "skilling",
+    "sortingGroups": ["mining"],
+    "requiredLevel": 1,
+    "notableDrops": [
+      "Copper_ore"
     ]
   },
   {
@@ -1164,7 +1302,8 @@
   {
     "id": "Daeyalt_essence_mine",
     "category": "skilling",
-    "sortingGroups": ["mining"],
+    "sortingGroups": ["mining", "runecraft"],
+    "requiredLevel": 60,
     "notableDrops": [
       "Daeyalt_shard",
       "#transmute",
@@ -1205,6 +1344,19 @@
       "White_berries",
       "#equals",
       "Defence_potion(3)"
+    ]
+  },
+  {
+    "id": "Dense_essence_mine",
+    "category": "skilling",
+    "sortingGroups": ["mining", "runecraft"],
+    "requiredLevel": 38,
+    "notableDrops": [
+      "Dense_essence_block",
+      "#transmute",
+      "Dark_essence_block",
+      "#transmute",
+      "Dark_essence_fragments"
     ]
   },
   {
@@ -1299,21 +1451,6 @@
     "sortingGroups": ["runecraft"],
     "notableDrops": [
       "Dust_rune"
-    ]
-  },
-  {
-    "id": "Dwarven_Mine",
-    "category": "skilling",
-    "sortingGroups": ["mining"],
-    "notableDrops": [
-      "Copper_ore",
-      "Tin_ore",
-      "Iron_ore",
-      "Coal",
-      "Gold_ore",
-      "Mithril_ore",
-      "Adamantite_ore",
-      "Clay"
     ]
   },
   {
@@ -1628,6 +1765,21 @@
     ]
   },
   {
+    "id": "Gem_rocks",
+    "category": "skilling",
+    "sortingGroups": ["mining"],
+    "requiredLevel": 40,
+    "notableDrops": [
+      "Uncut_opal",
+      "Uncut_jade",
+      "Uncut_red_topaz",
+      "Uncut_sapphire",
+      "Uncut_emerald",
+      "Uncut_ruby",
+      "Uncut_diamond"
+    ]
+  },
+  {
     "id": "Gem_stall",
     "category": "skilling",
     "requiredLevel": 75,
@@ -1641,7 +1793,7 @@
   },
   {
     "id": "Gilded_altar",
-    "subtitle": "PoH",
+    "subtitle": "Player-Owned House",
     "category": "skilling",
     "sortingGroups": ["prayer"],
     "notableDrops": [
@@ -1706,6 +1858,27 @@
       "Aldarium",
       "#equals",
       "Goading_potion(3)"
+    ]
+  },
+  {
+    "id": "Gold_rocks",
+    "title": "Gold Ore",
+    "category": "skilling",
+    "sortingGroups": ["mining", "crafting"],
+    "requiredLevel": 40,
+    "notableDrops": [
+      "Gold_ore"
+    ]
+  },
+  {
+    "id": "Granite",
+    "category": "skilling",
+    "sortingGroups": ["mining"],
+    "requiredLevel": 45,
+    "notableDrops": [
+      "Granite_(500g)",
+      "Granite_(2kg)",
+      "Granite_(5kg)"
     ]
   },
   {
@@ -1894,17 +2067,6 @@
     ]
   },
   {
-    "id": "Heroes'_Guild_mine",
-    "category": "skilling",
-    "sortingGroups": ["mining"],
-    "notableDrops": [
-      "Coal",
-      "Mithril_ore",
-      "Adamantite_ore",
-      "Runite_ore"
-    ]
-  },
-  {
     "id": "Hollow_tree",
     "category": "skilling",
     "sortingGroups": ["woodcutting"],
@@ -2003,6 +2165,16 @@
     ]
   },
   {
+    "id": "Iron_rocks",
+    "title": "Iron Ore",
+    "category": "skilling",
+    "sortingGroups": ["mining"],
+    "requiredLevel": 15,
+    "notableDrops": [
+      "Iron_ore"
+    ]
+  },
+  {
     "id": "Isle_of_Souls#Hunter",
     "title": "Isle of Souls",
     "caption": "1-53",
@@ -2013,18 +2185,6 @@
       "Crimson_swift",
       "Copper_longtail",
       "Chinchompa_(Hunter)"
-    ]
-  },
-  {
-    "id": "Jatizso_mine",
-    "category": "skilling",
-    "sortingGroups": ["mining"],
-    "notableDrops": [
-      "Tin_ore",
-      "Iron_ore",
-      "Adamantite_ore",
-      "Coal",
-      "Mithril_ore"
     ]
   },
   {
@@ -2149,6 +2309,16 @@
     ]
   },
   {
+    "id": "Limestone_rock",
+    "title": "Limestone",
+    "category": "skilling",
+    "sortingGroups": ["mining"],
+    "requiredLevel": 10,
+    "notableDrops": [
+      "Limestone"
+    ]
+  },
+  {
     "id": "Logs",
     "caption": "1-10",
     "category": "skilling",
@@ -2178,9 +2348,19 @@
     ]
   },
   {
-    "id": "Lunar_Isle_mine",
+    "id": "Lovakite_rocks",
+    "title": "Lovakite Ore",
     "category": "skilling",
     "sortingGroups": ["mining"],
+    "requiredLevel": 65,
+    "notableDrops": [
+      "Lovakite_ore"
+    ]
+  },
+  {
+    "id": "Lunar_Isle_mine",
+    "category": "skilling",
+    "sortingGroups": ["location", "mining"],
     "notableDrops": [
       "Uncut_opal",
       "Uncut_jade",
@@ -2190,6 +2370,7 @@
       "Uncut_ruby",
       "Uncut_diamond",
       "Rune_essence",
+      "Pure_essence",
       "Silver_ore",
       "Gold_ore",
       "Lunar_ore"
@@ -2379,6 +2560,16 @@
     ]
   },
   {
+    "id": "Mithril_rocks",
+    "title": "Mithril Ore",
+    "category": "skilling",
+    "sortingGroups": ["mining"],
+    "requiredLevel": 55,
+    "notableDrops": [
+      "Mithril_ore"
+    ]
+  },
+  {
     "id": "Mixed_hide_armour",
     "caption": "68-72",
     "category": "skilling",
@@ -2408,13 +2599,29 @@
     "id": "Motherlode_Mine",
     "category": "skilling",
     "sortingGroups": ["mining"],
+    "requiredLevel": 30,
     "notableDrops": [
+      "Pay-dirt",
+      "#transmute",
+      "Coal",
+      "Gold_ore",
+      "Mithril_ore",
+      "Adamantite_ore",
+      "Runite_ore",
+      "#newline",
+      "Golden_nugget",
+      "#transmute",
       "Prospector_helmet",
       "Prospector_jacket",
       "Prospector_legs",
       "Prospector_boots",
+      "#newline",
+      "Golden_nugget",
+      "#transmute",
       "Coal_bag",
-      "Gem_bag"
+      "Gem_bag",
+      "Bag_full_of_gems",
+      "Soft_clay_pack"
     ]
   },
   {
@@ -2872,14 +3079,55 @@
     ]
   },
   {
+    "id": "Rune_essence_mine",
+    "category": "skilling",
+    "sortingGroups": ["mining", "runecraft"],
+    "requiredLevel": 1,
+    "notableDrops": [
+      "Rune_essence",
+      "Pure_essence"
+    ]
+  },
+  {
+    "id": "Rune_Essence_(rock)",
+    "title": "Rune Essence",
+    "category": "skilling",
+    "sortingGroups": ["mining", "runecraft"],
+    "requiredLevel": 1,
+    "notableDrops": [
+      "Rune_essence",
+      "Pure_essence"
+    ]
+  },
+  {
+    "id": "Runite_rocks",
+    "title": "Runite Ore",
+    "category": "skilling",
+    "sortingGroups": ["mining"],
+    "requiredLevel": 85,
+    "notableDrops": [
+      "Runite_ore"
+    ]
+  },
+  {
     "id": "Salt_Mine",
     "category": "skilling",
     "sortingGroups": ["mining"],
+    "requiredLevel": 72,
     "notableDrops": [
       "Efh_salt",
       "Urt_salt",
       "Te_salt",
       "Basalt"
+    ]
+  },
+  {
+    "id": "Saltpetre",
+    "category": "skilling",
+    "sortingGroups": ["mining"],
+    "requiredLevel": 1,
+    "notableDrops": [
+      "Saltpetre"
     ]
   },
   {
@@ -2935,6 +3183,20 @@
       "Crushed_nest",
       "#equals",
       "Saradomin_brew(3)"
+    ]
+  },
+  {
+    "id": "Scar_essence_mine",
+    "category": "skilling",
+    "sortingGroups": ["mining", "runecraft"],
+    "requiredLevel": 64,
+    "notableDrops": [
+      "Tainted_essence_chunk",
+      "#transmute",
+      "Warped_extract",
+      "Twisted_extract",
+      "Mangled_extract",
+      "Scarred_extract"
     ]
   },
   {
@@ -3043,23 +3305,11 @@
     ]
   },
   {
-    "id": "Shilo_Village_mine",
-    "category": "skilling",
-    "sortingGroups": ["mining"],
-    "notableDrops": [
-      "Uncut_opal",
-      "Uncut_jade",
-      "Uncut_red_topaz",
-      "Uncut_sapphire",
-      "Uncut_emerald",
-      "Uncut_ruby",
-      "Uncut_diamond"
-    ]
-  },
-  {
     "id": "Shooting_Stars",
+    "caption": "10-90",
     "category": "skilling",
     "sortingGroups": ["mining"],
+    "requiredLevel": 10,
     "notableDrops": [
       "Stardust",
       "#transmute",
@@ -3117,6 +3367,16 @@
     ]
   },
   {
+    "id": "Silver_rocks",
+    "title": "Silver Ore",
+    "category": "skilling",
+    "sortingGroups": ["mining", "crafting"],
+    "requiredLevel": 20,
+    "notableDrops": [
+      "Silver_ore"
+    ]
+  },
+  {
     "id": "Silver_stall",
     "category": "skilling",
     "requiredLevel": 50,
@@ -3166,6 +3426,16 @@
       "Broken_bark_snelm",
       "Pointed_ochre_snelm",
       "Ochre_snelm"
+    ]
+  },
+  {
+    "id": "Soft_clay_rocks",
+    "title": "Soft Clay",
+    "category": "skilling",
+    "sortingGroups": ["mining", "crafting"],
+    "requiredLevel": 70,
+    "notableDrops": [
+      "Soft_clay"
     ]
   },
   {
@@ -3227,6 +3497,16 @@
       "Splitbark_helm",
       "Splitbark_legs",
       "Splitbark_body"
+    ]
+  },
+  {
+    "id": "Stalagmites_(Lunar_Isle)",
+    "title": "Lunar Ore",
+    "category": "skilling",
+    "sortingGroups": ["mining"],
+    "requiredLevel": 60,
+    "notableDrops": [
+      "Lunar_ore"
     ]
   },
   {
@@ -3313,6 +3593,15 @@
       "Mushroom",
       "Mort_myre_fungus",
       "Sulliuscep_cap"
+    ]
+  },
+  {
+    "id": "Sulphur_mine",
+    "category": "skilling",
+    "sortingGroups": ["mining"],
+    "requiredLevel": 42,
+    "notableDrops": [
+      "Volcanic_sulphur"
     ]
   },
   {
@@ -3498,6 +3787,16 @@
     ]
   },
   {
+    "id": "Tin_rocks",
+    "title": "Tin Ore",
+    "category": "skilling",
+    "sortingGroups": ["mining"],
+    "requiredLevel": 1,
+    "notableDrops": [
+      "Tin_ore"
+    ]
+  },
+  {
     "id": "Toxic_blowpipe",
     "category": "skilling",
     "sortingGroups": ["fletching"],
@@ -3513,7 +3812,7 @@
   {
     "id": "Trahaearn_mine",
     "category": "skilling",
-    "sortingGroups": ["mining"],
+    "sortingGroups": ["location", "mining"],
     "notableDrops": [
       "Iron_ore",
       "Silver_ore",
@@ -3522,7 +3821,8 @@
       "Mithril_ore",
       "Adamantite_ore",
       "Runite_ore",
-      "Soft_clay"
+      "Soft_clay",
+      "Crystal_shard"
     ]
   },
   {

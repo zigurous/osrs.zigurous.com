@@ -13,6 +13,13 @@
     "icon": "Abyssal_pearls_5"
   },
   {
+    "id": "Adamantite_ore",
+    "transmutations": [
+      "#transmute",
+      "Adamantite_bar"
+    ]
+  },
+  {
     "id": "Alchemical_hydra_heads",
     "transmutations": [
       "#plus",
@@ -32,6 +39,16 @@
   {
     "id": "Alchemist's_amulet",
     "icon": "Alchemist's_amulet_(charged)"
+  },
+  {
+    "id": "Amethyst",
+    "transmutations": [
+      "#transmute",
+      "Amethyst_bolt_tips",
+      "Amethyst_arrowtips",
+      "Amethyst_javelin_heads",
+      "Amethyst_dart_tip"
+    ]
   },
   {
     "id": "Amulet_of_the_monarchs",
@@ -262,6 +279,13 @@
     ]
   },
   {
+    "id": "Blurite_ore",
+    "transmutations": [
+      "#transmute",
+      "Blurite_bar"
+    ]
+  },
+  {
     "id": "Bolt_rack",
     "icon": "Bolt_rack_5"
   },
@@ -389,6 +413,15 @@
   {
     "id": "Copper_longtail",
     "icon": "Copper_longtail_icon"
+  },
+  {
+    "id": "Copper_ore",
+    "transmutations": [
+      "#plus",
+      "Tin_ore",
+      "#transmute",
+      "Bronze_bar"
+    ]
   },
   {
     "id": "Crawling_hand_(item)",
@@ -570,6 +603,13 @@
     ]
   },
   {
+    "id": "Dragon_pickaxe_(broken)",
+    "transmutations": [
+      "#transmute",
+      "Dragon_pickaxe"
+    ]
+  },
+  {
     "id": "Drake's_claw",
     "transmutations": [
       "#plus",
@@ -743,6 +783,13 @@
   {
     "id": "Gold_decorative_armour",
     "icon": "Cw_armour_3_icon"
+  },
+  {
+    "id": "Gold_ore",
+    "transmutations": [
+      "#transmute",
+      "Gold_bar"
+    ]
   },
   {
     "id": "Golden_armadyl_special_attack",
@@ -923,6 +970,13 @@
     "icon": "Scroll_of_imbuing"
   },
   {
+    "id": "Iron_ore",
+    "transmutations": [
+      "#transmute",
+      "Iron_bar"
+    ]
+  },
+  {
     "id": "Javelin_shaft",
     "icon": "Javelin_shaft_5"
   },
@@ -1019,6 +1073,15 @@
     ]
   },
   {
+    "id": "Limestone",
+    "transmutations": [
+      "#plus",
+      "Chisel",
+      "#equals",
+      "Limestone_brick"
+    ]
+  },
+  {
     "id": "Long_kebbit_bolts",
     "icon": "Long_kebbit_bolts"
   },
@@ -1029,6 +1092,20 @@
       "Tooth_half_of_key_(moon_key)",
       "#equals",
       "Moon_key"
+    ]
+  },
+  {
+    "id": "Lovakite_ore",
+    "transmutations": [
+      "#transmute",
+      "Lovakite_bar"
+    ]
+  },
+  {
+    "id": "Lunar_ore",
+    "transmutations": [
+      "#transmute",
+      "Lunar_bar"
     ]
   },
   {
@@ -1087,6 +1164,13 @@
   {
     "id": "Mermaid's_tear",
     "icon": "Mermaid's_tear_5"
+  },
+  {
+    "id": "Mithril_ore",
+    "transmutations": [
+      "#transmute",
+      "Mithril_bar"
+    ]
   },
   {
     "id": "Molch_pearl",
@@ -1295,6 +1379,13 @@
     ]
   },
   {
+    "id": "Runite_ore",
+    "transmutations": [
+      "#transmute",
+      "Runite_bar"
+    ]
+  },
+  {
     "id": "Sabre-toothed_kebbit",
     "icon": "Sabre-toothed_kebbit_icon"
   },
@@ -1366,6 +1457,13 @@
       "Ancient_sceptre",
       "#equals",
       "Shadow_ancient_sceptre"
+    ]
+  },
+  {
+    "id": "Silver_ore",
+    "transmutations": [
+      "#transmute",
+      "Silver_bar"
     ]
   },
   {
@@ -1462,6 +1560,16 @@
     "icon": "Spotted_kebbit_icon"
   },
   {
+    "id": "Star_fragment",
+    "transmutations": [
+      "#transmute",
+      "Golden_prospector_helmet",
+      "Golden_prospector_jacket",
+      "Golden_prospector_legs",
+      "Golden_prospector_boots"
+    ]
+  },
+  {
     "id": "Stardust",
     "icon": "Stardust_175"
   },
@@ -1556,6 +1664,15 @@
   {
     "id": "Thunder_khopesh",
     "tags": ["unique"]
+  },
+  {
+    "id": "Tin_ore",
+    "transmutations": [
+      "#plus",
+      "Copper_ore",
+      "#transmute",
+      "Bronze_bar"
+    ]
   },
   {
     "id": "Tonalztics_of_ralos#Uncharged",
@@ -1695,6 +1812,17 @@
       "Nightmare_staff",
       "#equals",
       "Volatile_nightmare_staff"
+    ]
+  },
+  {
+    "id": "Volcanic_sulphur",
+    "transmutations": [
+      "#plus",
+      "Saltpetre",
+      "Juniper_charcoal",
+      "Pot",
+      "#equals",
+      "Dynamite_pot"
     ]
   },
   {
