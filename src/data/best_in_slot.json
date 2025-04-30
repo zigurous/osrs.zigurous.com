@@ -205,9 +205,7 @@
           {
             "id": "Scythe_of_vitur",
             "regions": [
-              "morytania",
-              "kourend",
-              "desert"
+              "morytania"
             ],
             "tags": [
               "2h"
@@ -847,9 +845,7 @@
           {
             "id": "Twisted_bow",
             "regions": [
-              "kourend",
-              "desert",
-              "morytania"
+              "kourend"
             ],
             "tags": [
               "2h"
@@ -1295,9 +1291,7 @@
           {
             "id": "Tumeken's_shadow",
             "regions": [
-              "desert",
-              "kourend",
-              "morytania"
+              "desert"
             ],
             "tags": [
               "2h"
