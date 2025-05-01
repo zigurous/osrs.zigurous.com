@@ -15,6 +15,7 @@ interface TitledCardProps {
   titleIconSize?: string | number;
   titleLinkId?: string;
   titleLinkIcon?: string;
+  titleLinkUrl?: string;
   type?: 'list' | 'table';
 }
 
@@ -30,6 +31,7 @@ export default function TitledCard({
   titleIconSize,
   titleLinkId,
   titleLinkIcon,
+  titleLinkUrl,
   type,
 }: TitledCardProps) {
   const Element = titleLinkId ? 'a' : onClickHeader ? 'button' : 'div';
@@ -45,9 +47,10 @@ export default function TitledCard({
       <Element
         className="titled-card__header"
         href={
-          titleLinkId
+          titleLinkUrl ||
+          (titleLinkId
             ? `https://oldschool.runescape.wiki/w/${titleLinkId}`
-            : undefined
+            : undefined)
         }
         target={titleLinkId ? '_blank' : undefined}
         onClick={onClickHeader}

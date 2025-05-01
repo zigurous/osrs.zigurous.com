@@ -29,15 +29,20 @@ export default function RegionPanelActivities({
   );
 
   // sort activities so the selected categories always show first
+  // bosses and raids always show first
   const sortedActivities = useMemo(
     () =>
       activities.sort((a, b) => {
         const aGroup = a.sortingGroups.length > 0 ? a.sortingGroups[0] : 'misc';
         const bGroup = b.sortingGroups.length > 0 ? b.sortingGroups[0] : 'misc';
         const aIncluded =
-          filter.selectedFilters.includes(aGroup) || a.category === 'boss';
+          filter.selectedFilters.includes(aGroup) ||
+          a.category === 'boss' ||
+          a.category === 'raid';
         const bIncluded =
-          filter.selectedFilters.includes(bGroup) || b.category === 'boss';
+          filter.selectedFilters.includes(bGroup) ||
+          b.category === 'boss' ||
+          b.category === 'raid';
         if (aIncluded && !bIncluded) return -1;
         if (bIncluded && !aIncluded) return 1;
         return 0;

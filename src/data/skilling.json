@@ -27,6 +27,22 @@
     ]
   },
   {
+    "id": "Adamantite_bars",
+    "caption": "70-88",
+    "category": "skilling",
+    "sortingGroups": ["smithing"],
+    "requiredLevel": 70,
+    "notableDrops": [
+      "Adamantite_bar",
+      "#transmute",
+      "Adamant_dagger",
+      "Adamant_bolts(unf)",
+      "Adamant_scimitar",
+      "Adamant_warhammer",
+      "Adamant_platebody"
+    ]
+  },
+  {
     "id": "Adamantite_rocks",
     "title": "Adamantite Ore",
     "category": "skilling",
@@ -354,6 +370,226 @@
     ]
   },
   {
+    "id": "Anvil#Cam_Torum",
+    "url": "https://explv.github.io/?centreX=1446&centreY=9582&centreZ=1&zoom=9",
+    "title": "Anvil",
+    "subtitle": "Cam Torum",
+    "caption": "27 tiles",
+    "category": "skilling",
+    "sortingGroups": ["smithing"],
+    "requiredLevel": 1
+  },
+  {
+    "id": "Anvil#Darkmeyer",
+    "url": "https://explv.github.io/?centreX=3664&centreY=3363&centreZ=0&zoom=9",
+    "title": "Anvil",
+    "subtitle": "Darkmeyer",
+    "caption": "134 tiles",
+    "category": "skilling",
+    "sortingGroups": ["smithing"],
+    "requiredLevel": 1
+  },
+  {
+    "id": "Anvil#Fortis_Colosseum",
+    "url": "https://explv.github.io/?centreX=1801&centreY=9489&centreZ=0&zoom=9",
+    "title": "Anvil",
+    "subtitle": "Fortis Colosseum",
+    "caption": "11 tiles",
+    "category": "skilling",
+    "sortingGroups": ["smithing"],
+    "requiredLevel": 1
+  },
+  {
+    "id": "Anvil#Giants'_Plateau",
+    "url": "https://explv.github.io/?centreX=3360&centreY=3155&centreZ=0&zoom=9",
+    "title": "Anvil",
+    "subtitle": "Giants' Plateau",
+    "caption": "57 tiles",
+    "category": "skilling",
+    "sortingGroups": ["smithing"],
+    "requiredLevel": 1
+  },
+  {
+    "id": "Anvil#Jatizso",
+    "url": "https://explv.github.io/?centreX=2397&centreY=3805&centreZ=0&zoom=9",
+    "title": "Anvil",
+    "subtitle": "Jatizso",
+    "caption": "25 tiles",
+    "category": "skilling",
+    "sortingGroups": ["smithing"],
+    "requiredLevel": 1
+  },
+  {
+    "id": "Anvil#Keldagrim",
+    "url": "https://explv.github.io/?centreX=2828&centreY=10201&centreZ=0&zoom=9",
+    "title": "Anvil",
+    "subtitle": "Keldagrim",
+    "caption": "28 tiles",
+    "category": "skilling",
+    "sortingGroups": ["smithing"],
+    "requiredLevel": 1
+  },
+  {
+    "id": "Anvil#Kourend_Castle",
+    "url": "https://explv.github.io/?centreX=1596&centreY=3664&centreZ=0&zoom=9",
+    "title": "Anvil",
+    "subtitle": "Kourend Castle",
+    "caption": "33 tiles",
+    "category": "skilling",
+    "sortingGroups": ["smithing"],
+    "requiredLevel": 1
+  },
+  {
+    "id": "Anvil#Lovakengj",
+    "url": "https://explv.github.io/?centreX=1529&centreY=3832&centreZ=0&zoom=9",
+    "title": "Anvil",
+    "subtitle": "Lovakengj",
+    "caption": "52 tiles",
+    "category": "skilling",
+    "sortingGroups": ["smithing"],
+    "requiredLevel": 1
+  },
+  {
+    "id": "Anvil#Mage_Arena",
+    "url": "https://explv.github.io/?centreX=3062&centreY=3952&centreZ=0&zoom=9",
+    "title": "Anvil",
+    "subtitle": "Mage Arena",
+    "caption": "41 tiles",
+    "category": "skilling",
+    "sortingGroups": ["smithing"],
+    "requiredLevel": 1
+  },
+  {
+    "id": "Anvil#Mistrock",
+    "url": "https://explv.github.io/?centreX=1401&centreY=2863&centreZ=0&zoom=9",
+    "title": "Anvil",
+    "subtitle": "Mistrock",
+    "caption": "28 tiles",
+    "category": "skilling",
+    "sortingGroups": ["smithing"],
+    "requiredLevel": 1
+  },
+  {
+    "id": "Anvil#Nardah",
+    "url": "https://explv.github.io/?centreX=3409&centreY=2921&centreZ=0&zoom=9",
+    "title": "Anvil",
+    "subtitle": "Nardah",
+    "caption": "45 tiles",
+    "category": "skilling",
+    "sortingGroups": ["smithing"],
+    "requiredLevel": 1
+  },
+  {
+    "id": "Anvil#Port_Khazard",
+    "url": "https://explv.github.io/?centreX=2652&centreY=3164&centreZ=0&zoom=9",
+    "title": "Anvil",
+    "subtitle": "Port Khazard",
+    "caption": "12 tiles",
+    "category": "skilling",
+    "sortingGroups": ["smithing"],
+    "requiredLevel": 1
+  },
+  {
+    "id": "Anvil#Prifddinas",
+    "url": "https://explv.github.io/?centreX=3287&centreY=6055&centreZ=0&zoom=9",
+    "title": "Anvil",
+    "subtitle": "Prifddinas",
+    "caption": "8 tiles",
+    "category": "skilling",
+    "sortingGroups": ["smithing"],
+    "requiredLevel": 1
+  },
+  {
+    "id": "Anvil#Rellekka",
+    "url": "https://explv.github.io/?centreX=2620&centreY=3665&centreZ=0&zoom=9",
+    "title": "Anvil",
+    "subtitle": "Rellekka",
+    "caption": "99 tiles",
+    "category": "skilling",
+    "sortingGroups": ["smithing"],
+    "requiredLevel": 1
+  },
+  {
+    "id": "Anvil#Resource_Area",
+    "url": "https://explv.github.io/?centreX=3190&centreY=3938&centreZ=0&zoom=9",
+    "title": "Anvil",
+    "subtitle": "Resource Area",
+    "caption": "107 tiles",
+    "category": "skilling",
+    "sortingGroups": ["smithing"],
+    "requiredLevel": 1
+  },
+  {
+    "id": "Anvil#Ruins_of_Camdozaal",
+    "url": "https://explv.github.io/?centreX=2956&centreY=5807&centreZ=0&zoom=9",
+    "title": "Anvil",
+    "subtitle": "Ruins of Camdozaal",
+    "caption": "22 tiles",
+    "category": "skilling",
+    "sortingGroups": ["smithing"],
+    "requiredLevel": 1
+  },
+  {
+    "id": "Anvil#Seers'_Village",
+    "url": "https://explv.github.io/?centreX=2713&centreY=3492&centreZ=0&zoom=9",
+    "title": "Anvil",
+    "subtitle": "Seers' Village",
+    "caption": "31 tiles",
+    "category": "skilling",
+    "sortingGroups": ["smithing"],
+    "requiredLevel": 1
+  },
+  {
+    "id": "Anvil#Slepe",
+    "url": "https://explv.github.io/?centreX=3754&centreY=3318&centreZ=0&zoom=9",
+    "title": "Anvil",
+    "subtitle": "Slepe",
+    "caption": "200 tiles",
+    "category": "skilling",
+    "sortingGroups": ["smithing"],
+    "requiredLevel": 1
+  },
+  {
+    "id": "Anvil#Tai_Bwo_Wannai",
+    "url": "https://explv.github.io/?centreX=2790&centreY=3101&centreZ=0&zoom=9",
+    "title": "Anvil",
+    "subtitle": "Tai Bwo Wannai",
+    "caption": "304 tiles",
+    "category": "skilling",
+    "sortingGroups": ["smithing"],
+    "requiredLevel": 1
+  },
+  {
+    "id": "Anvil#Varrock",
+    "url": "https://explv.github.io/?centreX=3188&centreY=3426&centreZ=0&zoom=9",
+    "title": "Anvil",
+    "subtitle": "Varrock",
+    "caption": "10 tiles",
+    "category": "skilling",
+    "sortingGroups": ["smithing"],
+    "requiredLevel": 1
+  },
+  {
+    "id": "Anvil#Void_Knights'_Outpost",
+    "url": "https://explv.github.io/?centreX=2652&centreY=2658&centreZ=0&zoom=9",
+    "title": "Anvil",
+    "subtitle": "Void Knights' Outpost",
+    "caption": "15 tiles",
+    "category": "skilling",
+    "sortingGroups": ["smithing"],
+    "requiredLevel": 1
+  },
+  {
+    "id": "Anvil#Yanille",
+    "url": "https://explv.github.io/?centreX=2613&centreY=3081&centreZ=0&zoom=9",
+    "title": "Anvil",
+    "subtitle": "Yanille",
+    "caption": "16 tiles",
+    "category": "skilling",
+    "sortingGroups": ["smithing"],
+    "requiredLevel": 1
+  },
+  {
     "id": "Ape_Atoll_Agility_Course",
     "category": "skilling",
     "requiredLevel": 48,
@@ -493,6 +729,28 @@
     "sortingGroups": ["thieving"],
     "notableDrops": [
       "Coins"
+    ]
+  },
+  {
+    "id": "Barbarian_anvil",
+    "caption": "5-90",
+    "category": "skilling",
+    "sortingGroups": ["smithing"],
+    "requiredLevel": 5,
+    "notableDrops": [
+      "Bronze_hasta",
+      "Iron_hasta",
+      "Steel_hasta",
+      "Mithril_hasta",
+      "Adamant_hasta",
+      "Rune_hasta",
+      "#newline",
+      "Bronze_spear",
+      "Iron_spear",
+      "Steel_spear",
+      "Mithril_spear",
+      "Adamant_spear",
+      "Rune_spear"
     ]
   },
   {
@@ -684,6 +942,20 @@
     ]
   },
   {
+    "id": "Blurite_bars",
+    "title": "Blurite",
+    "caption": "8-13",
+    "category": "skilling",
+    "sortingGroups": ["smithing"],
+    "requiredLevel": 13,
+    "notableDrops": [
+      "Blurite_bar",
+      "#transmute",
+      "Blurite_bolts_(unf)",
+      "Blurite_limbs"
+    ]
+  },
+  {
     "id": "Blurite_rocks",
     "title": "Blurite Ore",
     "category": "skilling",
@@ -791,6 +1063,22 @@
       "Feather",
       "#equals",
       "Broad_bolts"
+    ]
+  },
+  {
+    "id": "Bronze_bars",
+    "caption": "1-18",
+    "category": "skilling",
+    "sortingGroups": ["smithing"],
+    "requiredLevel": 1,
+    "notableDrops": [
+      "Bronze_bar",
+      "#transmute",
+      "Bronze_dagger",
+      "Bronze_bolts_(unf)",
+      "Bronze_scimitar",
+      "Bronze_warhammer",
+      "Bronze_platebody"
     ]
   },
   {
@@ -1261,10 +1549,38 @@
     ]
   },
   {
-    "id": "Crystal_singing",
+    "id": "Crystal_singing#Crafting",
+    "title": "Crystal Singing",
     "caption": "70-82",
     "category": "skilling",
-    "sortingGroups": ["crafting", "smithing"],
+    "sortingGroups": ["crafting"],
+    "requiredLevel": 70,
+    "notableDrops": [
+      "Celestial_signet",
+      "Crystal_helm",
+      "Crystal_legs",
+      "Crystal_body",
+      "Crystal_axe",
+      "Crystal_felling_axe",
+      "Crystal_harpoon",
+      "Crystal_pickaxe",
+      "Crystal_bow",
+      "Crystal_halberd",
+      "Crystal_shield",
+      "Enhanced_crystal_key",
+      "Eternal_teleport_crystal",
+      "Blade_of_saeldor",
+      "Bow_of_faerdhinen",
+      "Blade_of_saeldor_(c)",
+      "Bow_of_faerdhinen_(c)"
+    ]
+  },
+  {
+    "id": "Crystal_singing#Smithing",
+    "title": "Crystal Singing",
+    "caption": "70-82",
+    "category": "skilling",
+    "sortingGroups": ["smithing"],
     "requiredLevel": 70,
     "notableDrops": [
       "Celestial_signet",
@@ -1407,6 +1723,18 @@
     ]
   },
   {
+    "id": "Dragon_forge",
+    "caption": "70-90",
+    "category": "skilling",
+    "sortingGroups": ["smithing"],
+    "requiredLevel": 70,
+    "notableDrops": [
+      "Dragon_key",
+      "Dragon_kiteshield",
+      "Dragon_platebody"
+    ]
+  },
+  {
     "id": "Draynor_Village_Rooftop_Course",
     "category": "skilling",
     "requiredLevel": 1,
@@ -1489,6 +1817,19 @@
       "#transmute",
       "XP",
       "Ecto-token"
+    ]
+  },
+  {
+    "id": "Elemental_metal",
+    "title": "Elemental Workbench",
+    "category": "skilling",
+    "sortingGroups": ["smithing"],
+    "requiredLevel": 20,
+    "notableDrops": [
+      "Elemental_metal",
+      "#transmute",
+      "Elemental_helmet",
+      "Elemental_shield"
     ]
   },
   {
@@ -1763,6 +2104,206 @@
     "notableDrops": [
       "Grey_wolf_fur"
     ]
+  },
+  {
+    "id": "Furnace#Al_Kharid",
+    "url":"https://explv.github.io/?centreX=3273&centreY=3187&centreZ=0&zoom=9",
+    "title": "Furnace",
+    "subtitle": "Al Kharid",
+    "caption": "30 tiles",
+    "category": "skilling",
+    "sortingGroups": ["smithing", "crafting"],
+    "requiredLevel": 1
+  },
+  {
+    "id": "Furnace#Ardougne",
+    "url":"https://explv.github.io/?centreX=2602&centreY=3312&centreZ=0&zoom=9",
+    "title": "Furnace",
+    "subtitle": "Ardougne",
+    "caption": "56 tiles",
+    "category": "skilling",
+    "sortingGroups": ["smithing", "crafting"],
+    "requiredLevel": 1
+  },
+  {
+    "id": "Furnace#Burgh_de_Rott",
+    "url":"https://explv.github.io/?centreX=3527&centreY=3209&centreZ=0&zoom=9",
+    "title": "Furnace",
+    "subtitle": "Burgh de Rott",
+    "caption": "31 tiles",
+    "category": "skilling",
+    "sortingGroups": ["smithing", "crafting"],
+    "requiredLevel": 1
+  },
+  {
+    "id": "Furnace#Cam_Torum",
+    "url":"https://explv.github.io/?centreX=1453&centreY=9584&centreZ=1&zoom=9",
+    "title": "Furnace",
+    "subtitle": "Cam Torum",
+    "caption": "28 tiles",
+    "category": "skilling",
+    "sortingGroups": ["smithing", "crafting"],
+    "requiredLevel": 1
+  },
+  {
+    "id": "Furnace#Civitas_illa_Fortis",
+    "url":"https://explv.github.io/?centreX=1770&centreY=3112&centreZ=0&zoom=9",
+    "title": "Furnace",
+    "subtitle": "Civitas illa Fortis",
+    "caption": "22 tiles",
+    "category": "skilling",
+    "sortingGroups": ["smithing", "crafting"],
+    "requiredLevel": 1
+  },
+  {
+    "id": "Furnace#Edgeville",
+    "url":"https://explv.github.io/?centreX=3110&centreY=3499&centreZ=0&zoom=9",
+    "title": "Furnace",
+    "subtitle": "Edgeville",
+    "caption": "14 tiles",
+    "category": "skilling",
+    "sortingGroups": ["smithing", "crafting"],
+    "requiredLevel": 1
+  },
+  {
+    "id": "Furnace#Falador",
+    "url":"https://explv.github.io/?centreX=2976&centreY=3369&centreZ=0&zoom=9",
+    "title": "Furnace",
+    "subtitle": "Falador",
+    "caption": "40 tiles",
+    "category": "skilling",
+    "sortingGroups": ["smithing", "crafting"],
+    "requiredLevel": 1
+  },
+  {
+    "id": "Furnace#Lovakengj",
+    "url":"https://explv.github.io/?centreX=1507&centreY=3773&centreZ=0&zoom=9",
+    "title": "Furnace",
+    "subtitle": "Lovakengj",
+    "caption": "34 tiles",
+    "category": "skilling",
+    "sortingGroups": ["smithing", "crafting"],
+    "requiredLevel": 1
+  },
+  {
+    "id": "Furnace#Lumbridge",
+    "url":"https://explv.github.io/?centreX=3227&centreY=3257&centreZ=0&zoom=9",
+    "title": "Furnace",
+    "subtitle": "Lumbridge",
+    "caption": "85 tiles",
+    "category": "skilling",
+    "sortingGroups": ["smithing", "crafting"],
+    "requiredLevel": 1
+  },
+  {
+    "id": "Furnace#Mor_Ul_Rek",
+    "url":"https://explv.github.io/?centreX=2528&centreY=5160&centreZ=0&zoom=9",
+    "title": "Furnace",
+    "subtitle": "Mor Ul Rek",
+    "caption": "20 tiles",
+    "category": "skilling",
+    "sortingGroups": ["smithing", "crafting"],
+    "requiredLevel": 1
+  },
+  {
+    "id": "Furnace#Mount_Karuulm",
+    "url":"https://explv.github.io/?centreX=1325&centreY=3807&centreZ=0&zoom=9",
+    "title": "Furnace",
+    "subtitle": "Mount Karuulm",
+    "caption": "15 tiles",
+    "category": "skilling",
+    "sortingGroups": ["smithing", "crafting"],
+    "requiredLevel": 1
+  },
+  {
+    "id": "Furnace#Neitiznot",
+    "url":"https://explv.github.io/?centreX=2344&centreY=3811&centreZ=0&zoom=9",
+    "title": "Furnace",
+    "subtitle": "Neitiznot",
+    "caption": "15 tiles",
+    "category": "skilling",
+    "sortingGroups": ["smithing", "crafting"],
+    "requiredLevel": 1
+  },
+  {
+    "id": "Furnace#Piscatoris",
+    "url":"https://explv.github.io/?centreX=2342&centreY=3678&centreZ=0&zoom=9",
+    "title": "Furnace",
+    "subtitle": "Piscatoris",
+    "caption": "20 tiles",
+    "category": "skilling",
+    "sortingGroups": ["smithing", "crafting"],
+    "requiredLevel": 1
+  },
+  {
+    "id": "Furnace#Port_Phasmatys",
+    "url":"https://explv.github.io/?centreX=3688&centreY=3480&centreZ=0&zoom=9",
+    "title": "Furnace",
+    "subtitle": "Port Phasmatys",
+    "caption": "16 tiles",
+    "category": "skilling",
+    "sortingGroups": ["smithing", "crafting"],
+    "requiredLevel": 1
+  },
+  {
+    "id": "Furnace#Prifddinas",
+    "url":"https://explv.github.io/?centreX=3287&centreY=6052&centreZ=0&zoom=9",
+    "title": "Furnace",
+    "subtitle": "Prifddinas",
+    "caption": "11 tiles",
+    "category": "skilling",
+    "sortingGroups": ["smithing", "crafting"],
+    "requiredLevel": 1
+  },
+  {
+    "id": "Furnace#Rellekka",
+    "url":"https://explv.github.io/?centreX=2617&centreY=3667&centreZ=0&zoom=9",
+    "title": "Furnace",
+    "subtitle": "Rellekka",
+    "caption": "96 tiles",
+    "category": "skilling",
+    "sortingGroups": ["smithing", "crafting"],
+    "requiredLevel": 1
+  },
+  {
+    "id": "Furnace#Resource_Area",
+    "url":"https://explv.github.io/?centreX=3192&centreY=3935&centreZ=0&zoom=9",
+    "title": "Furnace",
+    "subtitle": "Resource Area",
+    "caption": "109 tiles",
+    "category": "skilling",
+    "sortingGroups": ["smithing", "crafting"],
+    "requiredLevel": 1
+  },
+  {
+    "id": "Furnace#Shilo_Village",
+    "url":"https://explv.github.io/?centreX=2857&centreY=2967&centreZ=0&zoom=9",
+    "title": "Furnace",
+    "subtitle": "Shilo Village",
+    "caption": "10 tiles",
+    "category": "skilling",
+    "sortingGroups": ["smithing", "crafting"],
+    "requiredLevel": 1
+  },
+  {
+    "id": "Furnace#Wilderness",
+    "url":"https://explv.github.io/?centreX=3144&centreY=3737&centreZ=0&zoom=9",
+    "title": "Furnace",
+    "subtitle": "Ruins (Level 28)",
+    "caption": "116 tiles",
+    "category": "skilling",
+    "sortingGroups": ["smithing", "crafting"],
+    "requiredLevel": 1
+  },
+  {
+    "id": "Furnace#Zanaris",
+    "url":"https://explv.github.io/?centreX=2400&centreY=4473&centreZ=0&zoom=9",
+    "title": "Furnace",
+    "subtitle": "Zanaris",
+    "caption": "52 tiles",
+    "category": "skilling",
+    "sortingGroups": ["smithing", "crafting"],
+    "requiredLevel": 1
   },
   {
     "id": "Gem_rocks",
@@ -2165,6 +2706,22 @@
     ]
   },
   {
+    "id": "Iron_bars",
+    "caption": "15-33",
+    "category": "skilling",
+    "sortingGroups": ["smithing"],
+    "requiredLevel": 15,
+    "notableDrops": [
+      "Iron_bar",
+      "#transmute",
+      "Iron_dagger",
+      "Iron_bolts_(unf)",
+      "Iron_scimitar",
+      "Iron_warhammer",
+      "Iron_platebody"
+    ]
+  },
+  {
     "id": "Iron_rocks",
     "title": "Iron Ore",
     "category": "skilling",
@@ -2345,6 +2902,55 @@
       "Empty_sack",
       "Drift_net",
       "Basket"
+    ]
+  },
+  {
+    "id": "Lovakite_bars",
+    "title": "Shayzien Armour",
+    "caption": "45-93",
+    "category": "skilling",
+    "sortingGroups": ["smithing"],
+    "requiredLevel": 45,
+    "notableDrops": [
+      "Lovakite_bar",
+      "#transmute",
+      "Shayzien_gloves_(1)",
+      "Shayzien_boots_(1)",
+      "Shayzien_helm_(1)",
+      "Shayzien_greaves_(1)",
+      "Shayzien_platebody_(1)",
+      "#newline",
+      "Lovakite_bar",
+      "#transmute",
+      "Shayzien_gloves_(2)",
+      "Shayzien_boots_(2)",
+      "Shayzien_helm_(2)",
+      "Shayzien_greaves_(2)",
+      "Shayzien_platebody_(2)",
+      "#newline",
+      "Lovakite_bar",
+      "#transmute",
+      "Shayzien_gloves_(3)",
+      "Shayzien_boots_(3)",
+      "Shayzien_helm_(3)",
+      "Shayzien_greaves_(3)",
+      "Shayzien_platebody_(3)",
+      "#newline",
+      "Lovakite_bar",
+      "#transmute",
+      "Shayzien_gloves_(4)",
+      "Shayzien_boots_(4)",
+      "Shayzien_helm_(4)",
+      "Shayzien_greaves_(4)",
+      "Shayzien_platebody_(4)",
+      "#newline",
+      "Lovakite_bar",
+      "#transmute",
+      "Shayzien_gloves_(5)",
+      "Shayzien_boots_(5)",
+      "Shayzien_helm_(5)",
+      "Shayzien_greaves_(5)",
+      "Shayzien_body_(5)"
     ]
   },
   {
@@ -2557,6 +3163,22 @@
     "sortingGroups": ["runecraft"],
     "notableDrops": [
       "Mist_rune"
+    ]
+  },
+  {
+    "id": "Mithril_bars",
+    "caption": "50-68",
+    "category": "skilling",
+    "sortingGroups": ["smithing"],
+    "requiredLevel": 50,
+    "notableDrops": [
+      "Mithril_bar",
+      "#transmute",
+      "Mithril_dagger",
+      "Mithril_bolts_(unf)",
+      "Mithril_scimitar",
+      "Mithril_warhammer",
+      "Mithril_platebody"
     ]
   },
   {
@@ -3100,6 +3722,22 @@
     ]
   },
   {
+    "id": "Runite_bars",
+    "caption": "85-99",
+    "category": "skilling",
+    "sortingGroups": ["smithing"],
+    "requiredLevel": 85,
+    "notableDrops": [
+      "Runite_bar",
+      "#transmute",
+      "Rune_dagger",
+      "Runite_bolts_(unf)",
+      "Rune_scimitar",
+      "Rune_warhammer",
+      "Rune_platebody"
+    ]
+  },
+  {
     "id": "Runite_rocks",
     "title": "Runite Ore",
     "category": "skilling",
@@ -3107,6 +3745,23 @@
     "requiredLevel": 85,
     "notableDrops": [
       "Runite_ore"
+    ]
+  },
+  {
+    "id": "Rusted_anvil",
+    "subtitle": "Bronze Only",
+    "caption": "1-18",
+    "category": "skilling",
+    "sortingGroups": ["smithing"],
+    "requiredLevel": 1,
+    "notableDrops": [
+      "Bronze_bar",
+      "#transmute",
+      "Bronze_dagger",
+      "Bronze_bolts_(unf)",
+      "Bronze_scimitar",
+      "Bronze_warhammer",
+      "Bronze_platebody"
     ]
   },
   {
@@ -3388,6 +4043,79 @@
     ]
   },
   {
+    "id": "Smithing#Smelting",
+    "title": "Smelting",
+    "caption": "1-85",
+    "sortingGroups": ["smithing"],
+    "requiredLevel": 1,
+    "notableDrops": [
+      "Bronze_bar",
+      "Iron_bar",
+      "Silver_bar",
+      "Steel_bar",
+      "Gold_bar",
+      "Mithril_bar",
+      "Adamantite_bar",
+      "Runite_bar"
+    ]
+  },
+  {
+    "id": "Smithing#Smithing",
+    "title": "Bar Smithing",
+    "caption": "1-99",
+    "sortingGroups": ["smithing"],
+    "requiredLevel": 1,
+    "notableDrops": [
+      "Bronze_bar",
+      "#transmute",
+      "Bronze_dagger",
+      "Bronze_bolts_(unf)",
+      "Bronze_scimitar",
+      "Bronze_warhammer",
+      "Bronze_platebody",
+      "#newline",
+      "Iron_bar",
+      "#transmute",
+      "Iron_dagger",
+      "Iron_bolts_(unf)",
+      "Iron_scimitar",
+      "Iron_warhammer",
+      "Iron_platebody",
+      "#newline",
+      "Steel_bar",
+      "#transmute",
+      "Steel_dagger",
+      "Steel_bolts_(unf)",
+      "Steel_scimitar",
+      "Steel_warhammer",
+      "Steel_platebody",
+      "#newline",
+      "Mithril_bar",
+      "#transmute",
+      "Mithril_dagger",
+      "Mithril_bolts_(unf)",
+      "Mithril_scimitar",
+      "Mithril_warhammer",
+      "Mithril_platebody",
+      "#newline",
+      "Adamantite_bar",
+      "#transmute",
+      "Adamant_dagger",
+      "Adamant_bolts(unf)",
+      "Adamant_scimitar",
+      "Adamant_warhammer",
+      "Adamant_platebody",
+      "#newline",
+      "Runite_bar",
+      "#transmute",
+      "Rune_dagger",
+      "Runite_bolts_(unf)",
+      "Rune_scimitar",
+      "Rune_warhammer",
+      "Rune_platebody"
+    ]
+  },
+  {
     "id": "Smoke_runes",
     "category": "skilling",
     "requiredLevel": 15,
@@ -3552,6 +4280,22 @@
     "sortingGroups": ["runecraft"],
     "notableDrops": [
       "Steam_rune"
+    ]
+  },
+  {
+    "id": "Steel_bars",
+    "caption": "30-49",
+    "category": "skilling",
+    "sortingGroups": ["smithing"],
+    "requiredLevel": 30,
+    "notableDrops": [
+      "Steel_bar",
+      "#transmute",
+      "Steel_dagger",
+      "Steel_bolts_(unf)",
+      "Steel_scimitar",
+      "Steel_warhammer",
+      "Steel_platebody"
     ]
   },
   {

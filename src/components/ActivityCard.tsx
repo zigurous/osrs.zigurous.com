@@ -36,6 +36,7 @@ export default function ActivityCard({
       title={activity.title || formatNameFromId(activity.id)}
       titleIconId={getIconForActivity(activity)}
       titleIconSize={expandable ? undefined : 14}
+      titleLinkUrl={activity.url}
       titleLinkId={expandable ? undefined : activity.id}
       titleLinkIcon={
         expandable ? (expanded ? 'expand_less' : 'expand_more') : 'open_in_new'

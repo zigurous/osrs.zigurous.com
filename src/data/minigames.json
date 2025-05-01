@@ -19,14 +19,19 @@
   },
   {
     "id": "Blast_Furnace",
+    "caption": "1-85",
     "category": "minigame",
     "sortingGroups": ["smithing"],
+    "requiredLevel": 1,
     "notableDrops": [
-      "Runite_bar",
-      "Adamantite_bar",
-      "Mithril_bar",
+      "Bronze_bar",
+      "Iron_bar",
+      "Steel_bar",
+      "Silver_bar",
       "Gold_bar",
-      "Silver_bar"
+      "Mithril_bar",
+      "Adamantite_bar",
+      "Runite_bar"
     ]
   },
   {

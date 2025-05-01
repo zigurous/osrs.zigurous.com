@@ -126,6 +126,7 @@ export const createSchemaCustomization = ({
     }
     type SkillingJson implements Node @dontInfer {
       jsonId: String!
+      url: String
       title: String
       subtitle: String
       caption: String

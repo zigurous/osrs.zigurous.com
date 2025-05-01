@@ -589,7 +589,6 @@
     "category": "boss",
     "sortingGroups": ["pvm", "fishing", "cooking"],
     "recommendedCombatStyle": ["fishing"],
-    "requiredLevel": 35,
     "notableDrops": [
       "Tiny_tempor",
       "Dragon_harpoon",
@@ -788,7 +787,6 @@
     "category": "boss",
     "sortingGroups": ["pvm", "firemaking", "woodcutting", "fletching"],
     "recommendedCombatStyle": ["firemaking"],
-    "requiredLevel": 50,
     "notableDrops": [
       "Phoenix",
       "Pyromancer_hood",
@@ -809,7 +807,6 @@
     "category": "boss",
     "sortingGroups": ["pvm", "mining", "smithing"],
     "recommendedCombatStyle": ["mining"],
-    "requiredLevel": 70,
     "notableDrops": [
       "Smolcano",
       "Zalcano_shard",

@@ -133,4 +133,6 @@ export const iconOrder = [
   'Collection_log',
   'Map_link_icon',
   'Dungeon_map_link_icon',
+  'Anvil_icon',
+  'Furnace_icon',
 ];

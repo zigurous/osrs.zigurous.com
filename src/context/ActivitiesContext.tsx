@@ -120,6 +120,7 @@ const dataQuery = graphql`
     skilling: allSkillingJson {
       nodes {
         id: jsonId
+        url
         title
         subtitle
         caption

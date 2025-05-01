@@ -45,6 +45,15 @@ export function sortByIcon(a: Activity, b: Activity): number {
 export function sortByLevel(a: Activity, b: Activity): number {
   let aLevel = a.requiredLevel ?? 0;
   let bLevel = b.requiredLevel ?? 0;
+  if (aLevel === bLevel && aLevel !== 0) {
+    if (a.caption && !b.caption) {
+      return 1;
+    } else if (b.caption && !a.caption) {
+      return -1;
+    } else if (a.caption && b.caption) {
+      return a.caption.localeCompare(b.caption);
+    }
+  }
   return aLevel - bLevel;
 }
 
@@ -66,6 +75,14 @@ export function getIconForActivity(activity: Activity): string | undefined {
   const sortingGroup =
     activity.sortingGroups.length > 0 ? activity.sortingGroups[0] : 'misc';
   if (sortingGroup === 'pvm' && activity.icon) return activity.icon;
+
+  if (sortingGroup === 'smithing') {
+    if (activity.id.includes('Furnace#')) {
+      return 'Furnace_icon';
+    } else if (activity.id.includes('Anvil#')) {
+      return 'Anvil_icon';
+    }
+  }
 
   if (activity.category === 'chest') {
     return sortingGroup === 'thieving'

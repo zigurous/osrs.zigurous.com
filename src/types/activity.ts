@@ -5,6 +5,7 @@ export type ActivityGroup = (typeof activityFilters)[number];
 
 export interface Activity extends DropSource {
   id: string;
+  url?: string;
   icon?: string;
   title?: string;
   subtitle?: string;
