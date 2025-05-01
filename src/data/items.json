@@ -15,6 +15,8 @@
   {
     "id": "Adamantite_ore",
     "transmutations": [
+      "#plus",
+      "Coal",
       "#transmute",
       "Adamantite_bar"
     ]
@@ -391,6 +393,15 @@
     ]
   },
   {
+    "id": "Clay",
+    "transmutations": [
+      "#plus",
+      "Bucket_of_water",
+      "#equals",
+      "Soft_clay"
+    ]
+  },
+  {
     "id": "Clue_nest",
     "icon": "Clue_nest_(beginner)"
   },
@@ -761,6 +772,13 @@
     ]
   },
   {
+    "id": "Flax",
+    "transmutations": [
+      "#transmute",
+      "Bow_string"
+    ]
+  },
+  {
     "id": "Fossil_Island_fossil",
     "icon": "Unidentified_large_fossil"
   },
@@ -1097,6 +1115,8 @@
   {
     "id": "Lovakite_ore",
     "transmutations": [
+      "#plus",
+      "Coal",
       "#transmute",
       "Lovakite_bar"
     ]
@@ -1168,6 +1188,8 @@
   {
     "id": "Mithril_ore",
     "transmutations": [
+      "#plus",
+      "Coal",
       "#transmute",
       "Mithril_bar"
     ]
@@ -1381,6 +1403,8 @@
   {
     "id": "Runite_ore",
     "transmutations": [
+      "#plus",
+      "Coal",
       "#transmute",
       "Runite_bar"
     ]
@@ -1812,17 +1836,6 @@
       "Nightmare_staff",
       "#equals",
       "Volatile_nightmare_staff"
-    ]
-  },
-  {
-    "id": "Volcanic_sulphur",
-    "transmutations": [
-      "#plus",
-      "Saltpetre",
-      "Juniper_charcoal",
-      "Pot",
-      "#equals",
-      "Dynamite_pot"
     ]
   },
   {

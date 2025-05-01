@@ -299,9 +299,7 @@
     "category": "misc",
     "sortingGroups": ["misc", "crafting", "fletching"],
     "notableDrops": [
-      "Flax",
-      "#transmute",
-      "Bow_string"
+      "Flax"
     ]
   },
   {
