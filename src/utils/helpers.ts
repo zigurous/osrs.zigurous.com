@@ -2,6 +2,17 @@ import { activityFilters, combatSkills, iconOrder, nonCombatSkills, skills } fro
 import { capitalizeFirstLetter } from './formatting';
 import type { Activity, ActivityGroup, CombatSkill, CombatStyle, NonCombatSkill, Skill } from '../types'; // prettier-ignore
 
+const autoDetectedItemSuffixes = [
+  '_arrow',
+  '_bolts',
+  '_bolts_(e)',
+  '_bolts_(unf)',
+  '_bolts(unf)',
+  '_bolt_tips',
+  '_javelin_heads',
+  '_seed',
+];
+
 export function sortByName(
   a: { id: string; title?: string; name?: string },
   b: { id: string; title?: string; name?: string },
@@ -163,14 +174,7 @@ export function getIconForSkill(skill: Skill): string | undefined {
 }
 
 export function autoDetectItemIcon(id: string): string | undefined {
-  return [
-    '_arrow',
-    '_bolts',
-    '_bolts_(e)',
-    '_bolt_tips',
-    '_javelin_heads',
-    '_seed',
-  ].some(str => id.endsWith(str))
+  return autoDetectedItemSuffixes.some(str => id.endsWith(str))
     ? `${id}_5`
     : undefined;
 }
