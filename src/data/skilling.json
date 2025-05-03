@@ -1523,6 +1523,15 @@
     ]
   },
   {
+    "id": "Crimson_swift",
+    "category": "skilling",
+    "sortingGroups": ["hunter"],
+    "requiredLevel": 1,
+    "notableDrops": [
+      "Crimson_swift"
+    ]
+  },
+  {
     "id": "Crossbow_stall",
     "category": "skilling",
     "requiredLevel": 49,
