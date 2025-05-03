@@ -5,6 +5,11 @@
   justify-content: center;
 }
 
+.equipment-inventory__slot {
+  width: 48px;
+  height: 48px;
+}
+
 .equipment-inventory__slot#weapon,
 .equipment-inventory__slot#hands {
   transform: translateX(calc(-50% + var(--spacing-xs)));

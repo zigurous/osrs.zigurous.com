@@ -28,7 +28,7 @@ export default function ItemFrame({
 
   if (!item) return <ItemFrameEmpty border={border} className={className} />;
   const CustomFrame = customFrames.find(frame => item.id.startsWith(frame.id));
-  if (CustomFrame) return <CustomFrame.Component />;
+  if (CustomFrame) return <CustomFrame.Component border={border} item={item} />;
 
   const label = item.name || formatNameFromId(item.id);
   const ParentComponent = item.transmutations ? 'div' : React.Fragment;
@@ -45,8 +45,8 @@ export default function ItemFrame({
             'item-frame--border': border,
             'item-frame--borderless': borderless,
             'item-frame--pet': !disableHighlight && item.tags?.includes('pet'),
-            'item-frame--unique':
-              !disableHighlight && item.tags?.includes('unique'),
+            'item-frame--leagues':
+              !disableHighlight && item.tags?.includes('leagues'),
             'item-frame--megarare':
               !disableHighlight && item.tags?.includes('megarare'),
           },
@@ -83,6 +83,7 @@ export default function ItemFrame({
 
 const customFrames = [
   { id: '#empty', Component: ItemFrameEmpty },
+  { id: '#equipmentslot', Component: ItemFrameEquipmentSlot },
   { id: '#placeholder', Component: ItemFramePlaceholder },
   { id: '#spacer', Component: ItemFrameSpacer },
   { id: '#newline', Component: ItemFrameNewline },
@@ -91,7 +92,7 @@ const customFrames = [
   { id: '#equals', Component: ItemFrameEquals },
 ];
 
-function ItemFrameEmpty({ border, className }: Omit<ItemFrameProps, 'item'>) {
+function ItemFrameEmpty({ border, className }: ItemFrameProps) {
   return (
     <span
       className={classNames(
@@ -103,6 +104,23 @@ function ItemFrameEmpty({ border, className }: Omit<ItemFrameProps, 'item'>) {
         className,
       )}
     />
+  );
+}
+
+function ItemFrameEquipmentSlot({ border, className, item }: ItemFrameProps) {
+  return (
+    <span
+      className={classNames(
+        'item-frame',
+        'item-frame--equipment-slot',
+        {
+          'item-frame--border': border,
+        },
+        className,
+      )}
+    >
+      <img aria-hidden src={item?.icon} />
+    </span>
   );
 }
 
