@@ -18,6 +18,7 @@ export default function RegionPanelBestInSlot({
   const melee = useEquipment(data, 'melee', region.id, leagues);
   const ranged = useEquipment(data, 'ranged', region.id, leagues);
   const magic = useEquipment(data, 'magic', region.id, leagues);
+  const prayer = useEquipment(data, 'prayer', region.id, leagues);
   return (
     <RegionPanelSection className="best-in-slot" title="Best In Slot">
       <TitledCard title="Melee" titleIconId="Attack_style_icon">
@@ -29,13 +30,16 @@ export default function RegionPanelBestInSlot({
       <TitledCard title="Magic" titleIconId="Magic_icon_(detail)">
         <EquipmentInventory slots={magic} />
       </TitledCard>
+      <TitledCard title="Prayer" titleIconId="Prayer_icon_(detail)">
+        <EquipmentInventory slots={prayer} />
+      </TitledCard>
     </RegionPanelSection>
   );
 }
 
 function useEquipment(
   data: BestInSlotQueryData,
-  combatStyle: CombatStyle,
+  combatStyle: 'melee' | 'ranged' | 'magic' | 'prayer',
   regionId: string,
   leagues: boolean,
 ) {

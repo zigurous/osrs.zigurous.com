@@ -1509,5 +1509,320 @@
         ]
       }
     ]
+  },
+  {
+    "combatStyle": "prayer",
+    "equipment": [
+      {
+        "id": "head",
+        "items": [
+          {
+            "id": "Sunfire_fanatic_helm",
+            "regions": ["varlamore"]
+          },
+          {
+            "id": "Proselyte_sallet",
+            "regions": ["asgarnia"]
+          },
+          {
+            "id": "Neitiznot_faceguard",
+            "regions": ["fremennik"]
+          },
+          {
+            "id": "Verac's_helm",
+            "regions": ["morytania"]
+          },
+          {
+            "id": "Zamorak_halo",
+            "regions": ["wilderness"]
+          },
+          {
+            "id": "Crystal_helm",
+            "regions": ["tirannwn"]
+          },
+          {
+            "id": "Virtus_mask",
+            "regions": ["asgarnia", "desert", "fremennik", "varlamore"]
+          }
+        ]
+      },
+      {
+        "id": "cape",
+        "items": [
+          {
+            "id": "Soul_cape",
+            "icon": "Soul_cape_(red)",
+            "regions": ["misthalin"]
+          },
+          {
+            "id": "Ardougne_cloak_4",
+            "regions": ["kandarin"]
+          },
+          {
+            "id": "Prayer_cape(t)",
+            "regions": ["asgarnia"]
+          },
+          {
+            "id": "Hitpoints_cape(t)",
+            "regions": ["desert"]
+          },
+          {
+            "id": "Agility_cape(t)",
+            "regions": ["karamja"]
+          },
+          {
+            "id": "Construct._cape(t)",
+            "regions": ["asgarnia", "kandarin", "kourend", "misthalin", "tirannwn", "varlamore"]
+          },
+          {
+            "id": "Music_cape(t)",
+            "regions": ["fremennik"]
+          }
+        ]
+      },
+      {
+        "id": "neck",
+        "items": [
+          {
+            "id": "Dragonbone_necklace",
+            "regions": ["fremennik"]
+          },
+          {
+            "id": "Holy_symbol",
+            "regions": ["asgarnia", "fremennik", "morytania"]
+          },
+          {
+            "id": "Unholy_symbol",
+            "regions": ["fremennik", "kandarin"]
+          },
+          {
+            "id": "Amulet_of_fury",
+            "regions": ["karamja", "kourend", "tirannwn", "varlamore"]
+          },
+          {
+            "id": "Amulet_of_avarice",
+            "regions": ["wilderness"]
+          },
+          {
+            "id": "Amulet_of_glory",
+            "regions": ["all"]
+          }
+        ]
+      },
+      {
+        "id": "ammo",
+        "items": [
+          {
+            "id": "Rada's_blessing_4",
+            "regions": ["kourend"]
+          }
+        ]
+      },
+      {
+        "id": "weapon",
+        "items": [
+          {
+            "id": "Void_knight_mace",
+            "regions": ["asgarnia"],
+            "tags": ["1h"]
+          },
+          {
+            "id": "Verac's_flail",
+            "regions": ["morytania"],
+            "tags": ["2h"]
+          },
+          {
+            "id": "Blisterwood_flail",
+            "regions": ["morytania"],
+            "tags": ["1h"]
+          },
+          {
+            "id": "Ancient_mace",
+            "regions": ["misthalin"],
+            "tags": ["1h"]
+          },
+          {
+            "id": "Keris_partisan",
+            "regions": ["desert"],
+            "tags": ["1h"]
+          },
+          {
+            "id": "Dragon_mace",
+            "regions": ["asgarnia", "kandarin", "kourend", "misthalin", "morytania"],
+            "tags": ["1h"]
+          },
+          {
+            "id": "Rune_mace",
+            "regions": ["all"],
+            "tags": ["1h"]
+          }
+        ]
+      },
+      {
+        "id": "shield",
+        "items": [
+          {
+            "id": "Falador_shield_4",
+            "regions": ["asgarnia"]
+          },
+          {
+            "id": "Holy_book",
+            "regions": ["fremennik"]
+          },
+          {
+            "id": "Broodoo_shield",
+            "icon": "Broodoo_shield_(combat)",
+            "regions": ["karamja"]
+          },
+          {
+            "id": "Spectral_spirit_shield",
+            "regions": ["wilderness"]
+          },
+          {
+            "id": "Book_of_the_dead",
+            "regions": ["kourend"]
+          },
+          {
+            "id": "Elidinis'_ward",
+            "regions": ["desert"]
+          }
+        ]
+      },
+      {
+        "id": "body",
+        "items": [
+          {
+            "id": "Sunfire_fanatic_cuirass",
+            "regions": ["varlamore"]
+          },
+          {
+            "id": "Proselyte_hauberk",
+            "regions": ["asgarnia"]
+          },
+          {
+            "id": "Zealot's_robe_top",
+            "regions": ["morytania"]
+          },
+          {
+            "id": "Monk's_robe_top",
+            "regions": ["asgarnia", "morytania"]
+          },
+          {
+            "id": "Shade_robe_top",
+            "regions": ["misthalin", "kourend"]
+          },
+          {
+            "id": "Crystal_body",
+            "regions": ["tirannwn"]
+          },
+          {
+            "id": "Zamorak_monk_top",
+            "regions": ["kandarin", "wilderness"]
+          },
+          {
+            "id": "Virtus_robe_top",
+            "regions": ["asgarnia", "desert", "fremennik", "varlamore"]
+          }
+        ]
+      },
+      {
+        "id": "legs",
+        "items": [
+          {
+            "id": "Sunfire_fanatic_chausses",
+            "regions": ["varlamore"]
+          },
+          {
+            "id": "Proselyte_cuisse",
+            "regions": ["asgarnia"]
+          },
+          {
+            "id": "Zealot's_robe_bottom",
+            "regions": ["morytania"]
+          },
+          {
+            "id": "Monk's_robe",
+            "regions": ["asgarnia", "morytania"]
+          },
+          {
+            "id": "Shade_robe",
+            "regions": ["misthalin", "kourend"]
+          },
+          {
+            "id": "Crystal_legs",
+            "regions": ["tirannwn"]
+          },
+          {
+            "id": "Zamorak_monk_bottom",
+            "regions": ["kandarin", "wilderness"]
+          },
+          {
+            "id": "Virtus_robe_bottom",
+            "regions": ["asgarnia", "desert", "fremennik", "varlamore"]
+          }
+        ]
+      },
+      {
+        "id": "hands",
+        "items": [
+          {
+            "id": "Tormented_bracelet",
+            "regions": ["kandarin"]
+          },
+          {
+            "id": "White_gloves",
+            "regions": ["asgarnia"]
+          },
+          {
+            "id": "Hueycoatl_hide_vambraces",
+            "regions": ["varlamore"]
+          }
+        ]
+      },
+      {
+        "id": "feet",
+        "items": [
+          {
+            "id": "Echo_boots",
+            "regions": ["varlamore"],
+            "tags": ["leagues"]
+          },
+          {
+            "id": "Guardian_boots",
+            "regions": ["morytania"],
+            "tags": ["leagues"]
+          },
+          {
+            "id": "Zealot's_boots",
+            "regions": ["morytania"]
+          },
+          {
+            "id": "White_boots",
+            "regions": ["asgarnia"]
+          }
+        ]
+      },
+      {
+        "id": "ring",
+        "items": [
+          {
+            "id": "Ring_of_the_gods",
+            "regions": ["wilderness"]
+          },
+          {
+            "id": "Ring_of_suffering_(i)",
+            "regions": ["kandarin"]
+          },
+          {
+            "id": "Ring_of_shadows",
+            "regions": ["desert"]
+          },
+          {
+            "id": "Explorer's_ring_4",
+            "regions": ["misthalin"]
+          }
+        ]
+      }
+    ]
   }
 ]
