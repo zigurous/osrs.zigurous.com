@@ -50,7 +50,13 @@ function Slot({ id, item }: EquipmentSlot) {
   return (
     <div className="equipment-inventory__slot" id={id}>
       <ItemFrame
-        item={item || { id: '#equipmentslot', icon: equipmentSlotIcons[id] }}
+        item={
+          item || {
+            id: '#equipmentslot',
+            icon: equipmentSlotIcons[id],
+            name: id,
+          }
+        }
         disableHighlight
       />
     </div>

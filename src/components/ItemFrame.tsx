@@ -3,7 +3,7 @@ import React, { useRef, useState } from 'react';
 import Tooltip from './Tooltip';
 import WikiLink from './WikiLink';
 import type { ItemData } from '../types';
-import { autoDetectItemIcon, formatNameFromId } from '../utils';
+import { autoDetectItemIcon, formatNameFromId, toTitleCase } from '../utils';
 import '../styles/item-frame.css';
 
 interface ItemFrameProps {
@@ -110,6 +110,7 @@ function ItemFrameEmpty({ border, className }: ItemFrameProps) {
 function ItemFrameEquipmentSlot({ border, className, item }: ItemFrameProps) {
   return (
     <span
+      aria-label={item?.name ? toTitleCase(`${item?.name} slot`) : undefined}
       className={classNames(
         'item-frame',
         'item-frame--equipment-slot',

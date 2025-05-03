@@ -54,7 +54,7 @@
   },
   {
     "id": "Amulet_of_the_monarchs",
-    "tags": ["unique"]
+    "tags": ["leagues"]
   },
   {
     "id": "Amylase_crystal",
@@ -458,7 +458,7 @@
   },
   {
     "id": "Crystal_blessing",
-    "tags": ["unique"]
+    "tags": ["leagues"]
   },
   {
     "id": "Crystal_shard",
@@ -572,7 +572,7 @@
   },
   {
     "id": "Devil's_element",
-    "tags": ["unique"]
+    "tags": ["leagues"]
   },
   {
     "id": "Dizana's_quiver#Uncharged",
@@ -640,7 +640,7 @@
   },
   {
     "id": "Drygore_blowpipe",
-    "tags": ["unique"]
+    "tags": ["leagues"]
   },
   {
     "id": "Echo_crystal",
@@ -679,7 +679,7 @@
   },
   {
     "id": "Emperor_ring",
-    "tags": ["unique"]
+    "tags": ["leagues"]
   },
   {
     "id": "Enhanced_crystal_teleport_seed",
@@ -792,7 +792,7 @@
   },
   {
     "id": "Gloves_of_the_damned",
-    "tags": ["unique"]
+    "tags": ["leagues"]
   },
   {
     "id": "Goading_potion",
@@ -1208,7 +1208,7 @@
   },
   {
     "id": "Nature's_reprisal",
-    "tags": ["unique"]
+    "tags": ["leagues"]
   },
   {
     "id": "Naval_shirt",
@@ -1352,7 +1352,7 @@
   },
   {
     "id": "Raids_megarare_voucher",
-    "tags": ["unique"]
+    "tags": ["leagues"]
   },
   {
     "id": "Razor-backed_kebbit",
@@ -1611,11 +1611,11 @@
   },
   {
     "id": "Sunlight_spear",
-    "tags": ["unique"]
+    "tags": ["leagues"]
   },
   {
     "id": "Sunlit_bracers",
-    "tags": ["unique"]
+    "tags": ["leagues"]
   },
   {
     "id": "Supply_crate_(Mahogany_Homes)",
@@ -1670,11 +1670,11 @@
   },
   {
     "id": "The_dogsword",
-    "tags": ["unique"]
+    "tags": ["leagues"]
   },
   {
     "id": "Thousand-dragon_ward",
-    "tags": ["unique"]
+    "tags": ["leagues"]
   },
   {
     "id": "Thread_of_elidinis",
@@ -1687,7 +1687,7 @@
   },
   {
     "id": "Thunder_khopesh",
-    "tags": ["unique"]
+    "tags": ["leagues"]
   },
   {
     "id": "Tin_ore",

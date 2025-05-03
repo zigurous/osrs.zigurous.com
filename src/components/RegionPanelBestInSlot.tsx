@@ -7,15 +7,17 @@ import type { CombatStyle, EquipmentItem, EquipmentSlot, Region } from '../types
 
 interface RegionPanelBestInSlotProps {
   region: Region;
+  leagues?: boolean;
 }
 
 export default function RegionPanelBestInSlot({
   region,
+  leagues = false,
 }: RegionPanelBestInSlotProps) {
   const data = useStaticQuery<BestInSlotQueryData>(dataQuery);
-  const melee = useEquipment(data, 'melee', region.id);
-  const ranged = useEquipment(data, 'ranged', region.id);
-  const magic = useEquipment(data, 'magic', region.id);
+  const melee = useEquipment(data, 'melee', region.id, leagues);
+  const ranged = useEquipment(data, 'ranged', region.id, leagues);
+  const magic = useEquipment(data, 'magic', region.id, leagues);
   return (
     <RegionPanelSection className="best-in-slot" title="Best In Slot">
       <TitledCard title="Melee" titleIconId="Attack_style_icon">
@@ -35,23 +37,22 @@ function useEquipment(
   data: BestInSlotQueryData,
   combatStyle: CombatStyle,
   regionId: string,
+  leagues: boolean,
 ) {
   const node = data.bestInSlot.nodes.find(
     node => node.combatStyle === combatStyle,
   );
-  return useMemo<EquipmentSlot[]>(
-    () =>
-      node?.equipment.map(slot => {
-        return {
-          id: slot.id,
-          item: slot.items.find(
-            item =>
-              item.regions.includes(regionId) || item.regions.includes('all'),
-          ),
-        };
-      }) ?? [],
-    [node, combatStyle, regionId],
-  );
+  return useMemo<EquipmentSlot[]>(() => {
+    if (!node) return [];
+    return node.equipment.map(slot => ({
+      id: slot.id,
+      item: slot.items.find(
+        item =>
+          (item.regions.includes(regionId) || item.regions.includes('all')) &&
+          (leagues || !item.tags || !item.tags.includes('leagues')),
+      ),
+    }));
+  }, [node, combatStyle, regionId, leagues]);
 }
 
 interface BestInSlotQueryData {
