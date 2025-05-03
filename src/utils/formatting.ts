@@ -3,13 +3,11 @@ export function capitalizeFirstLetter(str: string) {
 }
 
 export function formatNameFromId(id: string) {
+  // prettier-ignore
   switch (id) {
-    case 'pvm':
-      return 'PvM';
-    case 'pvp':
-      return 'PvP';
-    default:
-      return toTitleCase(id.replace(/_/g, ' '));
+    case 'pvm': return 'PvM';
+    case 'pvp': return 'PvP';
+    default: return toTitleCase(id.replace(/_/g, ' '));
   }
 }
 
@@ -27,7 +25,7 @@ export function toTitleCase(title: string): string {
     title
       .replace(/(?<!')\b(?!')\w/g, l => l.toUpperCase())
       .replace(
-        /.\b(a|an|and|as|at|but|by|de|en|for|if|in|nor|of|on|or|per|the|to|v.?|vs.?|via)\b/gi,
+        /.\b(a|an|and|as|at|but|by|d'|de|en|for|if|in|nor|of|on|or|per|the|to|v.?|vs.?|via)\b/gi,
         l => l.toLowerCase(),
       ),
   );
