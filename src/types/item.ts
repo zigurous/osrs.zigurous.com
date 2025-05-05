@@ -1,4 +1,11 @@
-export type ItemTag = 'leagues' | 'megarare' | 'pet' | '2h';
+export type ItemTag =
+  | 'megarare'
+  | 'leagues'
+  | 'clues'
+  | 'pet'
+  | '1h'
+  | '2h'
+  | '*';
 
 export interface ItemData {
   id: string;

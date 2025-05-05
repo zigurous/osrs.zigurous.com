@@ -62,6 +62,11 @@ export default function ItemFrame({
           aria-hidden
           src={`https://oldschool.runescape.wiki/images/${item.icon || item.id}.png`}
         />
+        {item.tags && item.tags.includes('*') && (
+          <span aria-hidden className="item-frame__asterisk">
+            *
+          </span>
+        )}
         {hovering && ref.current && (
           <Tooltip element={ref.current} text={label} />
         )}

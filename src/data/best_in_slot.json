@@ -10,6 +10,11 @@
             "regions": ["asgarnia"]
           },
           {
+            "id": "Sunfire_fanatic_helm",
+            "regions": ["varlamore"],
+            "tags": ["leagues"]
+          },
+          {
             "id": "Neitiznot_faceguard",
             "regions": ["fremennik"]
           },
@@ -88,6 +93,11 @@
             "regions": ["asgarnia", "kandarin", "kourend", "misthalin", "tirannwn", "varlamore"]
           },
           {
+            "id": "Cape_of_skulls",
+            "regions": ["all"],
+            "tags": ["clues"]
+          },
+          {
             "id": "Moonclan_cape",
             "regions": ["fremennik"]
           },
@@ -111,7 +121,13 @@
           },
           {
             "id": "Amulet_of_rancour",
-            "regions": ["morytania"]
+            "regions": ["morytania"],
+            "tags": ["leagues"]
+          },
+          {
+            "id": "Amulet_of_rancour",
+            "regions": ["morytania"],
+            "tags": ["*"]
           },
           {
             "id": "Amulet_of_torture",
@@ -119,7 +135,8 @@
           },
           {
             "id": "Amulet_of_blood_fury",
-            "regions": ["morytania"]
+            "regions": ["morytania"],
+            "tags": ["*"]
           },
           {
             "id": "Berserker_necklace",
@@ -154,6 +171,11 @@
           {
             "id": "Rada's_blessing_4",
             "regions": ["kourend"]
+          },
+          {
+            "id": "War_blessing",
+            "regions": ["all"],
+            "tags": ["clues"]
           }
         ]
       },
@@ -162,13 +184,13 @@
         "items": [
           {
             "id": "Scythe_of_vitur",
-            "regions": ["morytania"],
-            "tags": ["2h"]
+            "regions": ["desert", "kourend", "morytania"],
+            "tags": ["2h", "leagues"]
           },
           {
-            "id": "Soulreaper_axe",
-            "regions": ["asgarnia", "desert", "fremennik", "varlamore"],
-            "tags": ["2h", "leagues"]
+            "id": "Scythe_of_vitur",
+            "regions": ["morytania"],
+            "tags": ["2h"]
           },
           {
             "id": "Thunder_khopesh",
@@ -178,6 +200,16 @@
           {
             "id": "Sunlight_spear",
             "regions": ["varlamore"],
+            "tags": ["2h", "leagues"]
+          },
+          {
+            "id": "The_dogsword",
+            "regions": ["asgarnia"],
+            "tags": ["2h", "leagues"]
+          },
+          {
+            "id": "Soulreaper_axe",
+            "regions": ["asgarnia", "desert", "fremennik", "varlamore"],
             "tags": ["2h", "leagues"]
           },
           {
@@ -208,7 +240,7 @@
           {
             "id": "Abyssal_tentacle",
             "regions": ["kandarin"],
-            "tags": ["1h"]
+            "tags": ["1h", "*"]
           },
           {
             "id": "Abyssal_bludgeon",
@@ -247,7 +279,13 @@
           },
           {
             "id": "Avernic_defender",
-            "regions": ["morytania"]
+            "regions": ["morytania"],
+            "tags": ["leagues"]
+          },
+          {
+            "id": "Avernic_defender",
+            "regions": ["morytania"],
+            "tags": ["*"]
           },
           {
             "id": "Dragon_defender",
@@ -286,6 +324,11 @@
           {
             "id": "Torva_platebody",
             "regions": ["asgarnia"]
+          },
+          {
+            "id": "Sunfire_fanatic_cuirass",
+            "regions": ["varlamore"],
+            "tags": ["leagues"]
           },
           {
             "id": "Inquisitor's_hauberk",
@@ -334,6 +377,11 @@
             "regions": ["asgarnia"]
           },
           {
+            "id": "Sunfire_fanatic_chausses",
+            "regions": ["varlamore"],
+            "tags": ["leagues"]
+          },
+          {
             "id": "Inquisitor's_plateskirt",
             "regions": ["morytania"]
           },
@@ -368,7 +416,13 @@
         "items": [
           {
             "id": "Ferocious_gloves",
-            "regions": ["kourend"]
+            "regions": ["kourend"],
+            "tags": ["leagues"]
+          },
+          {
+            "id": "Ferocious_gloves",
+            "regions": ["kourend"],
+            "tags": ["*"]
           },
           {
             "id": "Gloves_of_the_damned",
@@ -410,13 +464,29 @@
             "regions": ["morytania"]
           },
           {
+            "id": "Spiked_manacles",
+            "regions": ["all"],
+            "tags": ["clues"]
+          },
+          {
             "id": "Echo_boots",
             "regions": ["varlamore"],
             "tags": ["leagues"]
           },
           {
+            "id": "Echo_boots",
+            "regions": ["varlamore"],
+            "tags": ["*"]
+          },
+          {
             "id": "Guardian_boots",
-            "regions": ["morytania"]
+            "regions": ["morytania"],
+            "tags": ["leagues"]
+          },
+          {
+            "id": "Guardian_boots",
+            "regions": ["morytania"],
+            "tags": ["*"]
           },
           {
             "id": "Granite_boots",
@@ -458,11 +528,23 @@
           },
           {
             "id": "Ultor_ring",
-            "regions": ["varlamore"]
+            "regions": ["varlamore"],
+            "tags": ["leagues"]
+          },
+          {
+            "id": "Ultor_ring",
+            "regions": ["varlamore"],
+            "tags": ["*"]
           },
           {
             "id": "Bellator_ring",
-            "regions": ["asgarnia"]
+            "regions": ["asgarnia"],
+            "tags": ["leagues"]
+          },
+          {
+            "id": "Bellator_ring",
+            "regions": ["asgarnia"],
+            "tags": ["*"]
           },
           {
             "id": "Berserker_ring",
@@ -503,11 +585,6 @@
         "id": "head",
         "items": [
           {
-            "id": "Void_ranger_helm",
-            "regions": ["asgarnia"],
-            "tags": ["leagues"]
-          },
-          {
             "id": "Masori_mask",
             "regions": ["desert"]
           },
@@ -522,6 +599,11 @@
           {
             "id": "Eclipse_moon_helm",
             "regions": ["varlamore"]
+          },
+          {
+            "id": "Robin_hood_hat",
+            "regions": ["all"],
+            "tags": ["clues"]
           },
           {
             "id": "Karil's_coif",
@@ -558,7 +640,8 @@
           },
           {
             "id": "Ava's_assembler",
-            "regions": ["fremennik"]
+            "regions": ["fremennik"],
+            "tags": ["*"]
           },
           {
             "id": "Ava's_accumulator",
@@ -583,6 +666,11 @@
           {
             "id": "Construct._cape(t)",
             "regions": ["asgarnia", "kandarin", "kourend", "misthalin", "tirannwn", "varlamore"]
+          },
+          {
+            "id": "Cape_of_skulls",
+            "regions": ["all"],
+            "tags": ["clues"]
           },
           {
             "id": "Black_cape",
@@ -630,12 +718,34 @@
           {
             "id": "Rada's_blessing_4",
             "regions": ["kourend"]
+          },
+          {
+            "id": "Honourable_blessing",
+            "regions": ["all"],
+            "tags": ["clues"]
           }
         ]
       },
       {
         "id": "weapon",
         "items": [
+          {
+            "id": "Drygore_blowpipe",
+            "regions": ["desert"],
+            "tags": ["2h", "leagues"],
+            "ammo": {
+              "id": "Dragon_dart"
+            }
+          },
+          {
+            "id": "Twisted_bow",
+            "regions": ["desert", "kourend", "morytania"],
+            "tags": ["2h", "leagues"],
+            "ammo": {
+              "id": "Dragon_arrow",
+              "icon": "Dragon_arrow_5"
+            }
+          },
           {
             "id": "Twisted_bow",
             "regions": ["kourend"],
@@ -649,14 +759,6 @@
             "id": "Bow_of_faerdhinen",
             "regions": ["tirannwn"],
             "tags": ["2h"]
-          },
-          {
-            "id": "Drygore_blowpipe",
-            "regions": ["desert"],
-            "tags": ["2h", "leagues"],
-            "ammo": {
-              "id": "Dragon_dart"
-            }
           },
           {
             "id": "Toxic_blowpipe",
@@ -779,6 +881,11 @@
             "regions": ["fremennik"]
           },
           {
+            "id": "Guthix_d'hide_shield",
+            "regions": ["all"],
+            "tags": ["clues"]
+          },
+          {
             "id": "Black_d'hide_shield",
             "regions": ["kourend"]
           },
@@ -800,11 +907,6 @@
         "id": "body",
         "items": [
           {
-            "id": "Void_knight_top",
-            "regions": ["asgarnia"],
-            "tags": ["leagues"]
-          },
-          {
             "id": "Masori_body",
             "regions": ["desert"]
           },
@@ -823,6 +925,11 @@
           {
             "id": "Eclipse_moon_chestplate",
             "regions": ["varlamore"]
+          },
+          {
+            "id": "Guthix_d'hide_body",
+            "regions": ["all"],
+            "tags": ["clues"]
           },
           {
             "id": "Black_d'hide_body",
@@ -846,11 +953,6 @@
         "id": "legs",
         "items": [
           {
-            "id": "Void_knight_robe",
-            "regions": ["asgarnia"],
-            "tags": ["leagues"]
-          },
-          {
             "id": "Masori_chaps",
             "regions": ["desert"]
           },
@@ -869,6 +971,11 @@
           {
             "id": "Eclipse_moon_tassets",
             "regions": ["varlamore"]
+          },
+          {
+            "id": "Guthix_chaps",
+            "regions": ["all"],
+            "tags": ["clues"]
           },
           {
             "id": "Black_d'hide_chaps",
@@ -896,11 +1003,6 @@
         "id": "hands",
         "items": [
           {
-            "id": "Void_knight_gloves",
-            "regions": ["asgarnia"],
-            "tags": ["leagues"]
-          },
-          {
             "id": "Zaryte_vambraces",
             "regions": ["asgarnia"]
           },
@@ -917,6 +1019,11 @@
           {
             "id": "Hueycoatl_hide_vambraces",
             "regions": ["varlamore"]
+          },
+          {
+            "id": "Guthix_bracers",
+            "regions": ["all"],
+            "tags": ["clues"]
           },
           {
             "id": "Black_d'hide_vambraces",
@@ -941,7 +1048,18 @@
         "items": [
           {
             "id": "Pegasian_boots",
-            "regions": ["asgarnia"]
+            "regions": ["asgarnia"],
+            "tags": ["clues"]
+          },
+          {
+            "id": "Pegasian_boots",
+            "regions": ["asgarnia"],
+            "tags": ["*"]
+          },
+          {
+            "id": "Ranger_boots",
+            "regions": ["all"],
+            "tags": ["clues"]
           },
           {
             "id": "Aranea_boots",
@@ -983,7 +1101,13 @@
           },
           {
             "id": "Venator_ring",
-            "regions": ["desert"]
+            "regions": ["desert"],
+            "tags": ["leagues"]
+          },
+          {
+            "id": "Venator_ring",
+            "regions": ["desert"],
+            "tags": ["*"]
           },
           {
             "id": "Archers_ring",
@@ -1060,6 +1184,11 @@
             "regions": ["kandarin"]
           },
           {
+            "id": "Enchanted_hat",
+            "regions": ["all"],
+            "tags": ["clues"]
+          },
+          {
             "id": "Splitbark_helm",
             "regions": ["desert", "fremennik", "kandarin", "kourend", "misthalin", "morytania", "tirannwn", "varlamore"]
           },
@@ -1091,6 +1220,11 @@
           {
             "id": "Hitpoints_cape(t)",
             "regions": ["desert"]
+          },
+          {
+            "id": "Saradomin_cloak",
+            "regions": ["all"],
+            "tags": ["clues"]
           },
           {
             "id": "Soul_cape",
@@ -1151,12 +1285,22 @@
           {
             "id": "Rada's_blessing_4",
             "regions": ["kourend"]
+          },
+          {
+            "id": "Ancient_blessing",
+            "regions": ["all"],
+            "tags": ["clues"]
           }
         ]
       },
       {
         "id": "weapon",
         "items": [
+          {
+            "id": "Tumeken's_shadow",
+            "regions": ["desert", "kourend", "morytania"],
+            "tags": ["2h", "leagues"]
+          },
           {
             "id": "Tumeken's_shadow",
             "regions": ["desert"],
@@ -1170,7 +1314,12 @@
           {
             "id": "Trident_of_the_swamp",
             "regions": ["tirannwn"],
-            "tags": ["1h"]
+            "tags": ["1h", "leagues"]
+          },
+          {
+            "id": "Trident_of_the_swamp",
+            "regions": ["tirannwn"],
+            "tags": ["1h", "*"]
           },
           {
             "id": "Trident_of_the_seas",
@@ -1195,7 +1344,12 @@
           {
             "id": "Kodai_wand",
             "regions": ["kourend"],
-            "tags": ["1h"]
+            "tags": ["1h", "leagues"]
+          },
+          {
+            "id": "Kodai_wand",
+            "regions": ["kourend"],
+            "tags": ["1h", "*"]
           },
           {
             "id": "Nightmare_staff",
@@ -1225,7 +1379,12 @@
           {
             "id": "Ancient_sceptre",
             "regions": ["fremennik"],
-            "tags": ["1h"]
+            "tags": ["1h", "leagues"]
+          },
+          {
+            "id": "Ancient_sceptre",
+            "regions": ["fremennik"],
+            "tags": ["1h", "*"]
           },
           {
             "id": "Ahrim's_staff",
@@ -1344,6 +1503,11 @@
             "regions": ["kandarin", "wilderness"]
           },
           {
+            "id": "Enchanted_top",
+            "regions": ["all"],
+            "tags": ["clues"]
+          },
+          {
             "id": "Blue_wizard_robe",
             "regions": ["asgarnia", "kandarin", "misthalin"]
           }
@@ -1379,6 +1543,11 @@
           {
             "id": "Mystic_robe_bottom",
             "regions": ["desert", "fremennik", "kandarin", "kourend", "misthalin", "tirannwn", "varlamore", "wilderness"]
+          },
+          {
+            "id": "Enchanted_robe",
+            "regions": ["all"],
+            "tags": ["clues"]
           }
         ]
       },
@@ -1430,7 +1599,13 @@
         "items": [
           {
             "id": "Eternal_boots",
-            "regions": ["asgarnia"]
+            "regions": ["asgarnia"],
+            "tags": ["leagues"]
+          },
+          {
+            "id": "Eternal_boots",
+            "regions": ["asgarnia"],
+            "tags": ["*"]
           },
           {
             "id": "Aranea_boots",
@@ -1443,6 +1618,11 @@
           {
             "id": "Bloodbark_boots",
             "regions": ["morytania"]
+          },
+          {
+            "id": "Wizard_boots",
+            "regions": ["all"],
+            "tags": ["clues"]
           },
           {
             "id": "Boots_of_brimstone",
@@ -1521,6 +1701,11 @@
             "regions": ["varlamore"]
           },
           {
+            "id": "Saradomin_mitre",
+            "regions": ["all"],
+            "tags": ["clues"]
+          },
+          {
             "id": "Proselyte_sallet",
             "regions": ["asgarnia"]
           },
@@ -1575,8 +1760,9 @@
             "regions": ["asgarnia", "kandarin", "kourend", "misthalin", "tirannwn", "varlamore"]
           },
           {
-            "id": "Music_cape(t)",
-            "regions": ["fremennik"]
+            "id": "Saradomin_cloak",
+            "regions": ["all"],
+            "tags": ["clues"]
           }
         ]
       },
@@ -1584,8 +1770,28 @@
         "id": "neck",
         "items": [
           {
+            "id": "Bonecrusher_necklace",
+            "regions": ["kourend"],
+            "tags": ["leagues"]
+          },
+          {
+            "id": "Bonecrusher_necklace",
+            "regions": ["kourend"],
+            "tags": ["*"]
+          },
+          {
             "id": "Dragonbone_necklace",
             "regions": ["fremennik"]
+          },
+          {
+            "id": "Amulet_of_the_monarchs",
+            "regions": ["fremennik"],
+            "tags": ["leagues"]
+          },
+          {
+            "id": "Saradomin_stole",
+            "regions": ["all"],
+            "tags": ["clues"]
           },
           {
             "id": "Holy_symbol",
@@ -1613,8 +1819,18 @@
         "id": "ammo",
         "items": [
           {
+            "id": "Crystal_blessing",
+            "regions": ["tirannwn"],
+            "tags": ["leagues"]
+          },
+          {
             "id": "Rada's_blessing_4",
             "regions": ["kourend"]
+          },
+          {
+            "id": "Holy_blessing",
+            "regions": ["all"],
+            "tags": ["clues"]
           }
         ]
       },
@@ -1625,6 +1841,11 @@
             "id": "Void_knight_mace",
             "regions": ["asgarnia"],
             "tags": ["1h"]
+          },
+          {
+            "id": "Saradomin_crozier",
+            "regions": ["all"],
+            "tags": ["1h", "clues"]
           },
           {
             "id": "Verac's_flail",
@@ -1662,6 +1883,11 @@
         "id": "shield",
         "items": [
           {
+            "id": "Thousand-dragon_ward",
+            "regions": ["wilderness"],
+            "tags": ["leagues"]
+          },
+          {
             "id": "Falador_shield_4",
             "regions": ["asgarnia"]
           },
@@ -1679,12 +1905,22 @@
             "regions": ["wilderness"]
           },
           {
+            "id": "Devil's_element",
+            "regions": ["kandarin"],
+            "tags": ["leagues"]
+          },
+          {
             "id": "Book_of_the_dead",
             "regions": ["kourend"]
           },
           {
             "id": "Elidinis'_ward",
             "regions": ["desert"]
+          },
+          {
+            "id": "Saradomin_d'hide_shield",
+            "regions": ["all"],
+            "tags": ["clues"]
           }
         ]
       },
@@ -1702,6 +1938,11 @@
           {
             "id": "Zealot's_robe_top",
             "regions": ["morytania"]
+          },
+          {
+            "id": "Saradomin_robe_top",
+            "regions": ["all"],
+            "tags": ["clues"]
           },
           {
             "id": "Monk's_robe_top",
@@ -1741,6 +1982,11 @@
             "regions": ["morytania"]
           },
           {
+            "id": "Saradomin_robe_legs",
+            "regions": ["all"],
+            "tags": ["clues"]
+          },
+          {
             "id": "Monk's_robe",
             "regions": ["asgarnia", "morytania"]
           },
@@ -1766,6 +2012,11 @@
         "id": "hands",
         "items": [
           {
+            "id": "Holy_wraps",
+            "regions": ["all"],
+            "tags": ["clues"]
+          },
+          {
             "id": "Tormented_bracelet",
             "regions": ["kandarin"]
           },
@@ -1783,14 +2034,24 @@
         "id": "feet",
         "items": [
           {
+            "id": "Devout_boots",
+            "regions": ["kourend"],
+            "tags": ["clues"]
+          },
+          {
             "id": "Echo_boots",
             "regions": ["varlamore"],
             "tags": ["leagues"]
           },
           {
-            "id": "Guardian_boots",
-            "regions": ["morytania"],
-            "tags": ["leagues"]
+            "id": "Echo_boots",
+            "regions": ["varlamore"],
+            "tags": ["*"]
+          },
+          {
+            "id": "Holy_sandals",
+            "regions": ["all"],
+            "tags": ["clues"]
           },
           {
             "id": "Zealot's_boots",
@@ -1805,6 +2066,11 @@
       {
         "id": "ring",
         "items": [
+          {
+            "id": "Emperor_ring",
+            "regions": ["fremennik"],
+            "tags": ["leagues"]
+          },
           {
             "id": "Ring_of_the_gods",
             "regions": ["wilderness"]
