@@ -605,6 +605,17 @@
     ]
   },
   {
+    "id": "Arctic_pine_logs",
+    "category": "skilling",
+    "sortingGroups": ["firemaking"],
+    "requiredLevel": 42,
+    "notableDrops": [
+      "Tinderbox",
+      "#plus",
+      "Arctic_pine_logs"
+    ]
+  },
+  {
     "id": "Arctic_pine_tree",
     "category": "skilling",
     "sortingGroups": ["woodcutting"],
@@ -711,6 +722,14 @@
     ]
   },
   {
+    "id": "Balloon_transport_system",
+    "title": "Balloon Transport",
+    "caption": "20-60",
+    "category": "skilling",
+    "sortingGroups": ["firemaking"],
+    "requiredLevel": 20
+  },
+  {
     "id": "Bandit_(Bandit_Camp)#Pickpocketing",
     "title": "Desert Bandit",
     "category": "skilling",
@@ -760,6 +779,23 @@
     "sortingGroups": ["agility"],
     "notableDrops": [
       "Mark_of_grace"
+    ]
+  },
+  {
+    "id": "Barbarian_Training#Pyre_ships",
+    "title": "Pyre Ships",
+    "caption": "11-95",
+    "category": "skilling",
+    "sortingGroups": ["firemaking"],
+    "requiredLevel": 11,
+    "notableDrops": [
+      "Dragon_axe",
+      "Magic_logs",
+      "Tinderbox",
+      "#plus",
+      "Chewed_bones",
+      "#transmute",
+      "Dragon_full_helm"
     ]
   },
   {
@@ -896,6 +932,17 @@
       "Mithril_ore",
       "Adamantite_ore",
       "Runite_ore"
+    ]
+  },
+  {
+    "id": "Blisterwood_logs",
+    "category": "skilling",
+    "sortingGroups": ["firemaking"],
+    "requiredLevel": 62,
+    "notableDrops": [
+      "Tinderbox",
+      "#plus",
+      "Blisterwood_logs"
     ]
   },
   {
@@ -1989,6 +2036,78 @@
     ]
   },
   {
+    "id": "Fire_of_Dehumidification",
+    "category": "skilling",
+    "sortingGroups": ["firemaking"],
+    "requiredLevel": 66,
+    "notableDrops": [
+      "Mahogany_plank",
+      "Steel_bar",
+      "Efh_salt",
+      "Te_salt",
+      "Urt_salt"
+    ]
+  },
+  {
+    "id": "Fire_of_Eternal_Light",
+    "category": "skilling",
+    "sortingGroups": ["firemaking"],
+    "requiredLevel": 66,
+    "notableDrops": [
+      "Mahogany_plank",
+      "Steel_bar",
+      "Efh_salt",
+      "Te_salt",
+      "Urt_salt"
+    ]
+  },
+  {
+    "id": "Fire_of_Nourishment",
+    "category": "skilling",
+    "sortingGroups": ["firemaking"],
+    "requiredLevel": 66,
+    "notableDrops": [
+      "Mahogany_plank",
+      "Steel_bar",
+      "Efh_salt",
+      "Te_salt",
+      "Urt_salt"
+    ]
+  },
+  {
+    "id": "Fire_of_Unseasonal_Warmth",
+    "category": "skilling",
+    "sortingGroups": ["firemaking"],
+    "requiredLevel": 66,
+    "notableDrops": [
+      "Mahogany_plank",
+      "Steel_bar",
+      "Efh_salt",
+      "Te_salt",
+      "Urt_salt"
+    ]
+  },
+  {
+    "id": "Firemaking#Pyre_logs",
+    "title": "Pyre Logs",
+    "caption": "5-95",
+    "category": "skilling",
+    "sortingGroups": ["firemaking"],
+    "requiredLevel": 5,
+    "notableDrops": [
+      "Pyre_logs",
+      "Oak_pyre_logs",
+      "Willow_pyre_logs",
+      "Teak_pyre_logs",
+      "Arctic_pyre_logs",
+      "Maple_pyre_logs",
+      "Mahogany_pyre_logs",
+      "Yew_pyre_logs",
+      "Magic_pyre_logs",
+      "Redwood_pyre_logs"
+    ]
+  },
+  {
     "id": "Fish_stall",
     "category": "skilling",
     "requiredLevel": 42,
@@ -2950,6 +3069,18 @@
     ]
   },
   {
+    "id": "Logs#Firemaking",
+    "title": "Logs",
+    "category": "skilling",
+    "sortingGroups": ["firemaking"],
+    "requiredLevel": 1,
+    "notableDrops": [
+      "Tinderbox",
+      "#plus",
+      "Logs"
+    ]
+  },
+  {
     "id": "Loom",
     "caption": "10-36",
     "category": "skilling",
@@ -3072,12 +3203,35 @@
     ]
   },
   {
+    "id": "Magic_logs#Firemaking",
+    "title": "Magic Logs",
+    "category": "skilling",
+    "sortingGroups": ["firemaking"],
+    "requiredLevel": 75,
+    "notableDrops": [
+      "Tinderbox",
+      "#plus",
+      "Magic_logs"
+    ]
+  },
+  {
     "id": "Magic_tree",
     "category": "skilling",
     "sortingGroups": ["woodcutting"],
     "requiredLevel": 75,
     "notableDrops": [
       "Magic_logs"
+    ]
+  },
+  {
+    "id": "Mahogany_logs",
+    "category": "skilling",
+    "sortingGroups": ["firemaking"],
+    "requiredLevel": 50,
+    "notableDrops": [
+      "Tinderbox",
+      "#plus",
+      "Mahogany_logs"
     ]
   },
   {
@@ -3123,6 +3277,18 @@
       "Maple_stock",
       "Maple_longbow_(u)",
       "Maple_shield"
+    ]
+  },
+  {
+    "id": "Maple_logs#Firemaking",
+    "title": "Maple Logs",
+    "category": "skilling",
+    "sortingGroups": ["firemaking"],
+    "requiredLevel": 45,
+    "notableDrops": [
+      "Tinderbox",
+      "#plus",
+      "Maple_logs"
     ]
   },
   {
@@ -3359,6 +3525,18 @@
       "Oak_stock",
       "Oak_longbow_(u)",
       "Oak_shield"
+    ]
+  },
+  {
+    "id": "Oak_logs#Firemaking",
+    "title": "Oak Logs",
+    "category": "skilling",
+    "sortingGroups": ["firemaking"],
+    "requiredLevel": 15,
+    "notableDrops": [
+      "Tinderbox",
+      "#plus",
+      "Oak_logs"
     ]
   },
   {
@@ -3665,6 +3843,18 @@
       "#transmute",
       "Arrow_shaft",
       "Redwood_shield"
+    ]
+  },
+  {
+    "id": "Redwood_logs#Firemaking",
+    "title": "Redwood Logs",
+    "category": "skilling",
+    "sortingGroups": ["firemaking"],
+    "requiredLevel": 90,
+    "notableDrops": [
+      "Tinderbox",
+      "#plus",
+      "Redwood_logs"
     ]
   },
   {
@@ -4137,6 +4327,7 @@
     "id": "Smithing#Smelting",
     "title": "Smelting",
     "caption": "1-85",
+    "category": "skilling",
     "sortingGroups": ["smithing"],
     "requiredLevel": 1,
     "notableDrops": [
@@ -4154,6 +4345,7 @@
     "id": "Smithing#Smithing",
     "title": "Bar Smithing",
     "caption": "1-99",
+    "category": "skilling",
     "sortingGroups": ["smithing"],
     "requiredLevel": 1,
     "notableDrops": [
@@ -4602,6 +4794,17 @@
     ]
   },
   {
+    "id": "Teak_logs",
+    "category": "skilling",
+    "sortingGroups": ["firemaking"],
+    "requiredLevel": 35,
+    "notableDrops": [
+      "Tinderbox",
+      "#plus",
+      "Teak_logs"
+    ]
+  },
+  {
     "id": "Teak_tree",
     "category": "skilling",
     "sortingGroups": ["woodcutting", "construction"],
@@ -4926,6 +5129,18 @@
     ]
   },
   {
+    "id": "Willow_logs#Firemaking",
+    "title": "Willow Logs",
+    "category": "skilling",
+    "sortingGroups": ["firemaking"],
+    "requiredLevel": 30,
+    "notableDrops": [
+      "Tinderbox",
+      "#plus",
+      "Willow_logs"
+    ]
+  },
+  {
     "id": "Willow_tree",
     "category": "skilling",
     "sortingGroups": ["woodcutting"],
@@ -4982,6 +5197,18 @@
       "Yew_stock",
       "Yew_longbow_(u)",
       "Yew_shield"
+    ]
+  },
+  {
+    "id": "Yew_logs#Firemaking",
+    "title": "Yew Logs",
+    "category": "skilling",
+    "sortingGroups": ["firemaking"],
+    "requiredLevel": 60,
+    "notableDrops": [
+      "Tinderbox",
+      "#plus",
+      "Yew_logs"
     ]
   },
   {
