@@ -44,7 +44,7 @@
   {
     "id": "Chasm_of_Fire",
     "category": "dungeon",
-    "sortingGroups": ["dungeon", "pvm", "slayer"]
+    "sortingGroups": ["dungeon", "pvm"]
   },
   {
     "id": "Corsair_Cove_Dungeon",
@@ -88,7 +88,6 @@
     "sortingGroups": [
       "dungeon",
       "pvm",
-      "slayer",
       "prayer",
       "crafting",
       "thieving",
@@ -117,7 +116,7 @@
   {
     "id": "Giants'_Den",
     "category": "dungeon",
-    "sortingGroups": ["dungeon", "pvm", "slayer"]
+    "sortingGroups": ["dungeon", "pvm"]
   },
   {
     "id": "God_Wars_Dungeon",
@@ -152,7 +151,7 @@
   {
     "id": "Kalphite_Lair",
     "category": "dungeon",
-    "sortingGroups": ["dungeon", "pvm", "slayer"]
+    "sortingGroups": ["dungeon", "pvm"]
   },
   {
     "id": "Karuulm_Slayer_Dungeon",
@@ -183,7 +182,7 @@
   {
     "id": "Lithkren_Vault",
     "category": "dungeon",
-    "sortingGroups": ["dungeon", "pvm", "slayer"]
+    "sortingGroups": ["dungeon", "pvm"]
   },
   {
     "id": "Lizardman_Caves",
@@ -248,7 +247,7 @@
   {
     "id": "Revenant_Caves",
     "category": "dungeon",
-    "sortingGroups": ["dungeon", "pvm", "pvp", "slayer"]
+    "sortingGroups": ["dungeon", "pvm", "pvp"]
   },
   {
     "id": "Ruins_of_Tapoyauik",
@@ -304,7 +303,7 @@
   {
     "id": "Tarn's_Lair",
     "category": "dungeon",
-    "sortingGroups": ["dungeon", "pvm", "slayer"],
+    "sortingGroups": ["dungeon", "pvm"],
     "notableDrops": [
       "Salve_shard",
       "Tarn's_diary"

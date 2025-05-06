@@ -58,13 +58,10 @@ export const nonCombatSkills = [
   'farming',
 ] as const;
 
-// Activities are categorized into different groups for better ordering and
-// filtering in the UI.
-export const activityFilters = [
+export const activityCategories = [
   // combat
   'pvm',
   'pvp',
-  'slayer',
   'melee',
   'ranged',
   'magic',
@@ -77,6 +74,7 @@ export const activityFilters = [
   'thieving',
   'crafting',
   'fletching',
+  'slayer',
   'hunter',
   'mining',
   'smithing',
@@ -86,8 +84,37 @@ export const activityFilters = [
   'woodcutting',
   'farming',
   // other
+  'chest',
+  'diaries',
   'dungeon',
+  'location',
   'misc',
+  'music',
+  'npc',
+  'quest',
+  'skilling',
+  'spellbook',
+] as const;
+
+export const activityFilters = [
+  'prayer',
+  'magic',
+  'runecraft',
+  'construction',
+  'agility',
+  'herblore',
+  'thieving',
+  'crafting',
+  'fletching',
+  'slayer',
+  'hunter',
+  'mining',
+  'smithing',
+  'fishing',
+  'cooking',
+  'firemaking',
+  'woodcutting',
+  'farming',
 ] as const;
 
 export const iconOrder = [
@@ -97,7 +124,6 @@ export const iconOrder = [
   'Monster_Examine',
   'Combat_icon',
   'Skull_(status)_icon',
-  'Slayer_icon',
   'Hitpoints_icon',
   'Attack_icon',
   'Strength_icon',
@@ -113,6 +139,7 @@ export const iconOrder = [
   'Thieving_icon',
   'Crafting_icon',
   'Fletching_icon',
+  'Slayer_icon',
   'Hunter_icon',
   'Mining_icon',
   'Smithing_icon',
@@ -125,9 +152,9 @@ export const iconOrder = [
   'Flax',
   'Crystal_key',
   'Minigame_icon',
-  'Distractions_and_Diversions',
-  'Achievement_Diaries_icon',
   'Quest_point_icon',
+  'Achievement_Diaries_icon',
+  'Distractions_and_Diversions',
   'Music',
   'Stats_icon',
   'Collection_log',

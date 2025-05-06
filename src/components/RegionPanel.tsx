@@ -2,10 +2,10 @@ import { Text } from '@zigurous/forge-react';
 import classNames from 'classnames';
 import React, { useState } from 'react';
 import AreaBadge from './AreaBadge';
-import RegionPanelActivities from './RegionPanelActivities';
 import RegionPanelBestInSlot from './RegionPanelBestInSlot';
 import RegionPanelBosses from './RegionPanelBosses';
 import RegionPanelPets from './RegionPanelPets';
+import RegionPanelSkilling from './RegionPanelSkilling';
 import RegionPanelSlayer from './RegionPanelSlayer';
 import RegionPanelTabs from './RegionPanelTabs';
 import { useRegionsContext } from '../context';
@@ -14,7 +14,7 @@ import '../styles/region-panel.css';
 
 export type RegionPanelTab =
   | 'Overview'
-  | 'Activities'
+  | 'Skilling'
   | 'Bosses'
   | 'Pets'
   | 'Best In Slot'
@@ -47,7 +47,7 @@ export default function RegionPanel() {
           <RegionPanelTabs
             tabs={[
               { name: 'Overview', disabled: false },
-              { name: 'Activities', disabled: false },
+              { name: 'Skilling', disabled: false },
               { name: 'Bosses', disabled: false },
               { name: 'Pets', disabled: false },
             ]}
@@ -74,8 +74,8 @@ export default function RegionPanel() {
 
 function renderTab(selectedTab: RegionPanelTab, selectedRegion: Region) {
   switch (selectedTab) {
-    case 'Activities':
-      return <RegionPanelActivities region={selectedRegion} />;
+    case 'Skilling':
+      return <RegionPanelSkilling region={selectedRegion} />;
     case 'Bosses':
       return <RegionPanelBosses region={selectedRegion} />;
     case 'Pets':

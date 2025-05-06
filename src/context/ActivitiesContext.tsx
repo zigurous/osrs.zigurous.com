@@ -88,6 +88,7 @@ const dataQuery = graphql`
         title
         subtitle
         category
+        subcategory
         sortingGroups
         requiredLevel
         notableDrops

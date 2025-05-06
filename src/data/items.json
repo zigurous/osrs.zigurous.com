@@ -1468,6 +1468,10 @@
     "icon": "Seaweed_spore_5"
   },
   {
+    "id": "Seeds",
+    "icon": "Snapdragon_seed_5"
+  },
+  {
     "id": "Serpentine_visage",
     "transmutations": [
       "#transmute",

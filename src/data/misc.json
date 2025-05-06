@@ -15,7 +15,7 @@
   {
     "id": "Abyssal_Area",
     "category": "location",
-    "sortingGroups": ["location", "slayer", "pvm", "misc"]
+    "sortingGroups": ["location", "pvm", "misc"]
   },
   {
     "id": "Ancient_Magicks",
@@ -92,13 +92,13 @@
     "id": "Canoe",
     "subtitle": "Travel",
     "caption": "12-57",
-    "category": "skilling",
+    "category": "misc",
     "sortingGroups": ["woodcutting"],
     "requiredLevel": 12
   },
   {
     "id": "Champions'_Challenge",
-    "category": "distraction_and_diversion",
+    "category": "pvm",
     "sortingGroups": ["misc", "pvm"],
     "notableDrops": [
       "Champion's_cape",
@@ -116,6 +116,7 @@
   },
   {
     "id": "Chompy_bird_hunting",
+    "category": "misc",
     "sortingGroups": ["ranged"],
     "notableDrops": [
       "Chompy_chick",
@@ -130,6 +131,7 @@
   {
     "id": "Combat_Ring_(Shayzien)",
     "title": "Shayzien Combat Ring",
+    "category": "pvm",
     "sortingGroups": ["melee", "pvm"],
     "notableDrops": [
       "Shayzien_helm_(1)",
@@ -165,6 +167,7 @@
   },
   {
     "id": "Creature_Creation",
+    "category": "pvm",
     "sortingGroups": ["misc", "pvm"],
     "notableDrops": [
       "Tea_flask",
@@ -308,7 +311,6 @@
     "sortingGroups": [
       "location",
       "pvm",
-      "slayer",
       "hunter",
       "fishing",
       "farming",
@@ -380,7 +382,6 @@
       "mining",
       "crafting",
       "thieving",
-      "slayer",
       "pvm"
     ]
   },
@@ -643,7 +644,7 @@
   {
     "id": "Slayer_Tower",
     "category": "location",
-    "sortingGroups": ["slayer", "pvm"]
+    "sortingGroups": ["location", "slayer", "pvm"]
   },
   {
     "id": "Standard_spellbook",
@@ -660,8 +661,7 @@
       "location",
       "runecraft",
       "crafting",
-      "cooking",
-      "slayer"
+      "cooking"
     ]
   },
   {

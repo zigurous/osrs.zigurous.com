@@ -96,7 +96,8 @@
       "Dragon_limbs",
       "Dragon_plateskirt",
       "Dragon_platelegs",
-      "Ensouled_dragon_head"
+      "Ensouled_dragon_head",
+      "Wrath_rune"
     ]
   },
   {
@@ -297,7 +298,8 @@
     "id": "Aviansie",
     "icon": "Ensouled_aviansie_head",
     "category": "monster",
-    "sortingGroups": ["pvm", "slayer"],
+    "sortingGroups": ["slayer", "pvm"],
+    "requiredSlayerLevel": 1,
     "slayerMasters": [
       "Krystilia",
       "Chaeldar",
@@ -994,8 +996,9 @@
     "id": "Dagannoth",
     "icon": "Ensouled_dagannoth_head",
     "category": "monster",
-    "sortingGroups": ["pvm", "slayer"],
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 75,
+    "requiredSlayerLevel": 1,
     "slayerMasters": [
       "Vannaka",
       "Chaeldar",
@@ -1007,6 +1010,10 @@
       "Lighthouse#Dungeon",
       "Catacombs_of_Kourend",
       "Jormungand's_Prison"
+    ],
+    "notableDrops": [
+      "Seeds",
+      "Clue_scroll_(medium)"
     ]
   },
   {
@@ -1015,8 +1022,9 @@
     "name": "Dagannoth",
     "subtitle": "Waterbirth Island",
     "category": "monster",
-    "sortingGroups": ["pvm", "slayer"],
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 75,
+    "requiredSlayerLevel": 1,
     "slayerMasters": [
       "Vannaka",
       "Chaeldar",
@@ -1193,7 +1201,8 @@
     ],
     "notableDrops": [
       "Dust_battlestaff",
-      "Dragon_chainbody"
+      "Dragon_chainbody",
+      "Dust_rune"
     ]
   },
   {
@@ -1253,8 +1262,9 @@
     "id": "Elves",
     "icon": "Ensouled_elf_head",
     "category": "monster",
-    "sortingGroups": ["pvm", "slayer"],
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 70,
+    "requiredSlayerLevel": 1,
     "slayerMasters": [
       "Vannaka",
       "Chaeldar",
@@ -1657,8 +1667,9 @@
     "id": "Hellhound",
     "icon": "Ensouled_hellhound_head",
     "category": "monster",
-    "sortingGroups": ["pvm", "slayer"],
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 75,
+    "requiredSlayerLevel": 1,
     "slayerMasters": [
       "Krystilia",
       "Vannaka",
@@ -2051,8 +2062,9 @@
     "id": "Kalphite",
     "icon": "Kq_head",
     "category": "monster",
-    "sortingGroups": ["pvm", "slayer", "herblore"],
+    "sortingGroups": ["slayer", "pvm", "herblore"],
     "requiredCombatLevel": 15,
+    "requiredSlayerLevel": 1,
     "slayerMasters": [
       "Turael",
       "Spria",
@@ -2245,7 +2257,8 @@
   {
     "id": "Lizardmen",
     "category": "monster",
-    "sortingGroups": ["pvm", "slayer"],
+    "sortingGroups": ["slayer", "pvm"],
+    "requiredSlayerLevel": 1,
     "slayerMasters": [
       "Chaeldar",
       "Konar_quo_Maten",
@@ -2584,6 +2597,7 @@
       "Wilderness_God_Wars_Dungeon"
     ],
     "notableDrops": [
+      "Fire_rune",
       "Clue_scroll_(medium)"
     ]
   },
@@ -2684,7 +2698,8 @@
       "Dragon_limbs",
       "Dragon_plateskirt",
       "Dragon_platelegs",
-      "Ensouled_dragon_head"
+      "Ensouled_dragon_head",
+      "Wrath_rune"
     ]
   },
   {
@@ -2868,7 +2883,8 @@
     ],
     "notableDrops": [
       "Occult_necklace",
-      "Dragon_chainbody"
+      "Dragon_chainbody",
+      "Smoke_rune"
     ]
   },
   {
@@ -3094,8 +3110,9 @@
   {
     "id": "Suqah",
     "category": "monster",
-    "sortingGroups": ["pvm", "slayer"],
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 85,
+    "requiredSlayerLevel": 1,
     "slayerMasters": [
       "Nieve",
       "Duradel"
@@ -3185,8 +3202,9 @@
     "id": "Troll",
     "icon": "Ensouled_troll_head",
     "category": "monster",
-    "sortingGroups": ["pvm", "slayer"],
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 60,
+    "requiredSlayerLevel": 1,
     "slayerMasters": [
       "Vannaka",
       "Chaeldar",
@@ -3199,6 +3217,11 @@
       "Troll_Stronghold_(location)",
       "Keldagrim",
       "Mount_Quidamortem"
+    ],
+    "notableDrops": [
+      "Granite_shield",
+      "Grimy_herb",
+      "Seeds"
     ]
   },
   {
@@ -3248,7 +3271,8 @@
     "id": "TzHaar",
     "icon": "Tok-Xil_(Construction)_icon",
     "category": "monster",
-    "sortingGroups": ["pvm", "slayer"],
+    "sortingGroups": ["slayer", "pvm"],
+    "requiredSlayerLevel": 1,
     "slayerMasters": [
       "Chaeldar",
       "Nieve",
@@ -3408,7 +3432,8 @@
       "Iorwerth_Dungeon"
     ],
     "notableDrops": [
-      "Mist_battlestaff"
+      "Mist_battlestaff",
+      "Water_rune"
     ]
   },
   {

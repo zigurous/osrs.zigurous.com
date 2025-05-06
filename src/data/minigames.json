@@ -165,7 +165,7 @@
   {
     "id": "Gnome_Ball",
     "category": "minigame",
-    "sortingGroups": ["ranged", "agility"],
+    "sortingGroups": ["agility", "ranged"],
     "notableDrops": [
       "Gnomeball"
     ]
@@ -367,7 +367,7 @@
     "id": "Pest_Control",
     "caption": "40-100",
     "category": "minigame",
-    "sortingGroups": ["pvm", "melee", "ranged", "magic", "prayer"],
+    "sortingGroups": ["pvm"],
     "requiredLevel": 40,
     "notableDrops": [
       "Void_melee_helm",
@@ -503,7 +503,7 @@
     "id": "Tears_of_Guthix_(minigame)",
     "title": "Tears of Guthix",
     "category": "minigame",
-    "sortingGroups": ["misc", "quest"],
+    "sortingGroups": ["misc", "quest", "skilling"],
     "notableDrops": [
       "XP"
     ]

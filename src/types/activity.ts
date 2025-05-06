@@ -1,7 +1,7 @@
 import type { DropSource } from './drop-source';
-import { activityFilters } from '../utils';
+import { activityCategories } from '../utils';
 
-export type ActivityGroup = (typeof activityFilters)[number];
+export type ActivityGroup = (typeof activityCategories)[number];
 
 export interface Activity extends DropSource {
   id: string;
@@ -10,7 +10,8 @@ export interface Activity extends DropSource {
   title?: string;
   subtitle?: string;
   caption?: string;
-  category?: string;
+  category: string;
+  subcategory?: string;
   sortingGroups: ActivityGroup[];
   requiredLevel?: number;
 }

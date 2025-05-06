@@ -4,16 +4,18 @@ import ActivityCard from './ActivityCard';
 import ActivityFilter from './ActivityFilter';
 import RegionPanelSection from './RegionPanelSection';
 import { useActivitiesContext, useFilterContext } from '../context';
-import type { Region } from '../types';
+import type { Activity, Region } from '../types';
 import { activityFilters, sortByIcon, sortByLevel, sortByName } from '../utils';
 
-interface RegionPanelActivitiesProps {
+type Filter = (typeof activityFilters)[number];
+
+interface RegionPanelSkillingProps {
   region: Region;
 }
 
-export default function RegionPanelActivities({
+export default function RegionPanelSkilling({
   region,
-}: RegionPanelActivitiesProps) {
+}: RegionPanelSkillingProps) {
   const context = useActivitiesContext();
   const filter = useFilterContext();
 
@@ -22,10 +24,11 @@ export default function RegionPanelActivities({
       region.activities
         .map(context.getActivityById)
         .filter(activity => !!activity)
+        .filter(filterActivity)
         .sort(sortByName)
         .sort(sortByLevel)
         .sort(sortByIcon),
-    [region, region.id, filter.selectedFilters, context.getActivityById],
+    [region, region.id, context.getActivityById],
   );
 
   // sort activities so the selected categories always show first
@@ -35,14 +38,8 @@ export default function RegionPanelActivities({
       activities.sort((a, b) => {
         const aGroup = a.sortingGroups.length > 0 ? a.sortingGroups[0] : 'misc';
         const bGroup = b.sortingGroups.length > 0 ? b.sortingGroups[0] : 'misc';
-        const aIncluded =
-          filter.selectedFilters.includes(aGroup) ||
-          a.category === 'boss' ||
-          a.category === 'raid';
-        const bIncluded =
-          filter.selectedFilters.includes(bGroup) ||
-          b.category === 'boss' ||
-          b.category === 'raid';
+        const aIncluded = filter.selectedFilters.includes(aGroup as Filter);
+        const bIncluded = filter.selectedFilters.includes(bGroup as Filter);
         if (aIncluded && !bIncluded) return -1;
         if (bIncluded && !aIncluded) return 1;
         return 0;
@@ -63,7 +60,7 @@ export default function RegionPanelActivities({
   );
 
   return (
-    <RegionPanelSection title="Activities">
+    <RegionPanelSection title="Skilling">
       <ActivityFilter className="mb-xxl" disabledFilters={disabledFilters} />
       {filteredActivities.length > 0 ? (
         <ul className="drops-list drops-list--accordion mb-lg">
@@ -79,5 +76,27 @@ export default function RegionPanelActivities({
         </Text>
       )}
     </RegionPanelSection>
+  );
+}
+
+const excludedCategories = ['raid', 'chest', 'spellbook', null, undefined];
+
+function filterActivity(activity: Activity) {
+  if (excludedCategories.includes(activity.category)) {
+    return false;
+  }
+
+  if (!activity.sortingGroups) return false;
+
+  if (activity.category === 'boss') {
+    return activity.subcategory === 'skilling';
+  }
+
+  if (activity.category === 'monster') {
+    return Boolean(activity.requiredLevel);
+  }
+
+  return activity.sortingGroups.some(
+    group => group === 'skilling' || activityFilters.includes(group as Filter),
   );
 }

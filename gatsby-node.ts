@@ -28,6 +28,7 @@ export const createSchemaCustomization = ({
       title: String
       subtitle: String
       category: String!
+      subcategory: String
       sortingGroups: [String!]!
       recommendedCombatStyle: [String!]!
       requiredLevel: Int

@@ -2,13 +2,14 @@ import classNames from 'classnames';
 import React, { useRef, useState } from 'react';
 import Tooltip from './Tooltip';
 import { useFilterContext } from '../context';
-import type { ActivityGroup } from '../types';
 import { activityFilters, formatNameFromId, getIconForActivityGroup } from '../utils'; // prettier-ignore
 import '../styles/activity-filter.css';
 
+type Filter = (typeof activityFilters)[number];
+
 interface ActivityFilterProps {
   className?: string;
-  disabledFilters?: ActivityGroup[];
+  disabledFilters?: Filter[];
 }
 
 export default function ActivityFilter({
@@ -29,7 +30,7 @@ export default function ActivityFilter({
 }
 
 interface FilterButtonProps {
-  filter: ActivityGroup;
+  filter: Filter;
   disabled?: boolean;
 }
 

@@ -1,4 +1,4 @@
-import { activityFilters, combatSkills, iconOrder, nonCombatSkills, skills } from './constants'; // prettier-ignore
+import { activityCategories, combatSkills, iconOrder, nonCombatSkills, skills } from './constants'; // prettier-ignore
 import { capitalizeFirstLetter } from './formatting';
 import type { Activity, ActivityGroup, CombatSkill, CombatStyle, NonCombatSkill, Skill } from '../types'; // prettier-ignore
 
@@ -20,16 +20,6 @@ export function sortByName(
   return (a.title || a.name || a.id).localeCompare(b.title || b.name || b.id);
 }
 
-export function sortByActivity(a: Activity, b: Activity): number {
-  const aGroup = a.sortingGroups.length > 0 ? a.sortingGroups[0] : 'misc';
-  const bGroup = b.sortingGroups.length > 0 ? b.sortingGroups[0] : 'misc';
-  let aIndex = activityFilters.indexOf(aGroup);
-  let bIndex = activityFilters.indexOf(bGroup);
-  if (aIndex === -1) aIndex = Number.MAX_SAFE_INTEGER;
-  if (bIndex === -1) bIndex = Number.MAX_SAFE_INTEGER;
-  return aIndex - bIndex;
-}
-
 export function sortByIcon(a: Activity, b: Activity): number {
   const aIcon = getIconForActivity(a);
   const bIcon = getIconForActivity(b);
@@ -37,8 +27,6 @@ export function sortByIcon(a: Activity, b: Activity): number {
   let bIndex = bIcon ? iconOrder.indexOf(bIcon) : -1;
   if (aIndex === -1) aIndex = Number.MAX_SAFE_INTEGER;
   if (bIndex === -1) bIndex = Number.MAX_SAFE_INTEGER;
-  if (a.icon && a.sortingGroups[0] === 'pvm') aIndex = Number.MIN_SAFE_INTEGER;
-  if (b.icon && b.sortingGroups[0] === 'pvm') bIndex = Number.MIN_SAFE_INTEGER;
   return aIndex - bIndex;
 }
 
@@ -74,7 +62,6 @@ export function getAssociatedSkill(activity: Activity): Skill | undefined {
 export function getIconForActivity(activity: Activity): string | undefined {
   const sortingGroup =
     activity.sortingGroups.length > 0 ? activity.sortingGroups[0] : 'misc';
-  if (sortingGroup === 'pvm' && activity.icon) return activity.icon;
 
   if (sortingGroup === 'smithing') {
     if (activity.id.includes('Furnace#')) {
@@ -104,44 +91,35 @@ export function getIconForActivity(activity: Activity): string | undefined {
   }
 
   if (sortingGroup === 'misc') {
-    // @ts-ignore
+    if (activity.sortingGroups.includes('quest')) return 'Quest_point_icon';
     if (activity.sortingGroups.includes('diaries'))
       return 'Achievement_Diaries_icon';
-    // @ts-ignore
-    if (activity.sortingGroups.includes('quest')) return 'Quest_point_icon';
-    // @ts-ignore
     if (activity.sortingGroups.includes('music')) return 'Music';
-    // @ts-ignore
-    if (activity.sortingGroups.includes('stats')) return 'Stats_icon';
   }
 
   // prettier-ignore
   switch (activity.id) {
     case "Flax_field": return 'Flax';
+    case "Mac": return 'Stats_icon';
   }
 
   return 'Collection_log';
 }
 
 export function getIconForActivityGroup(
-  activityGroup: ActivityGroup,
+  activityGroup: ActivityGroup | string,
 ): string | undefined {
+  // prettier-ignore
   switch (activityGroup) {
-    case 'pvm':
-      return 'Combat_icon';
-    case 'pvp':
-      return 'Skull_(status)_icon';
+    case 'pvm': return 'Combat_icon';
+    case 'pvp': return 'Skull_(status)_icon';
     case 'melee':
     case 'ranged':
     case 'magic':
       return getIconForCombatStyle(activityGroup as CombatStyle);
-    // @ts-ignore
     case 'attack':
-    // @ts-ignore
     case 'strength':
-    // @ts-ignore
     case 'defence':
-    // @ts-ignore
     case 'hitpoints':
     case 'prayer':
     case 'runecraft':
@@ -161,13 +139,15 @@ export function getIconForActivityGroup(
     case 'woodcutting':
     case 'farming':
       return getIconForSkill(activityGroup as Skill);
-    // @ts-ignore
-    case 'location':
-      return 'Map_link_icon';
-    case 'dungeon':
-      return 'Dungeon_map_link_icon';
-    case 'misc':
-      return 'Collection_log';
+    case 'chest': return 'Crystal_key';
+    case 'diaries': return 'Achievement_Diaries_icon';
+    case 'dungeon': return 'Dungeon_map_link_icon';
+    case 'location': return 'Map_link_icon';
+    case 'misc': return 'Collection_log';
+    case 'music': return 'Music';
+    case 'npc': return 'NPC_Contact';
+    case 'quest': return 'Quest_point_icon';
+    case 'spellbook': return 'Spellbook';
     default:
       return undefined;
   }
