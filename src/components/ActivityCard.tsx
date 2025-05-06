@@ -42,7 +42,7 @@ export default function ActivityCard({
         expandable ? (expanded ? 'expand_less' : 'expand_more') : 'open_in_new'
       }
     >
-      {items && items.length > 0 && <ItemsStack items={items} />}
+      {expanded && items && items.length > 0 && <ItemsStack items={items} />}
     </TitledCard>
   );
 }
