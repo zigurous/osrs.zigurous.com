@@ -35,7 +35,7 @@ export default function RegionPanelSkilling({
   // bosses and raids always show first
   const sortedActivities = useMemo(
     () =>
-      activities.sort((a, b) => {
+      activities.toSorted((a, b) => {
         const aGroup = a.sortingGroups.length > 0 ? a.sortingGroups[0] : 'misc';
         const bGroup = b.sortingGroups.length > 0 ? b.sortingGroups[0] : 'misc';
         const aIncluded = filter.selectedFilters.includes(aGroup as Filter);
