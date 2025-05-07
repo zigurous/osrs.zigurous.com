@@ -1,18 +1,11 @@
-import type { DropSource } from './drop-source';
-import { activityCategories } from '../utils';
+import type { DropSource, Sortable, Titled } from './common';
 
-export type ActivityGroup = (typeof activityCategories)[number];
-
-export interface Activity extends DropSource {
+export interface Activity extends DropSource, Sortable, Titled {
   id: string;
   url?: string;
   icon?: string;
-  title?: string;
-  subtitle?: string;
-  caption?: string;
   category: string;
   subcategory?: string;
-  sortingGroups: ActivityGroup[];
   requiredLevel?: number;
 }
 

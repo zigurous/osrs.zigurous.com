@@ -306,6 +306,7 @@
   },
   {
     "id": "Mac",
+    "icon": "Stats_icon",
     "category": "npc",
     "sortingGroups": ["misc", "skilling"],
     "notableDrops": [

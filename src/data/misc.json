@@ -299,6 +299,7 @@
   },
   {
     "id": "Flax_field",
+    "icon": "Flax",
     "category": "misc",
     "sortingGroups": ["misc", "crafting", "fletching"],
     "notableDrops": [
@@ -332,9 +333,7 @@
     "category": "location",
     "sortingGroups": ["location", "misc", "magic"],
     "notableDrops": [
-      "Amulet_of_eternal_glory",
-      "Lvl-5_Enchant",
-      "High_Level_Alchemy"
+      "Amulet_of_eternal_glory"
     ]
   },
   {

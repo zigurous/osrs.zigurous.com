@@ -1,6 +1,6 @@
 import { graphql, useStaticQuery } from 'gatsby';
 import React, { createContext, useCallback, useContext, useMemo } from 'react';
-import type { Activity, Boss, Dungeon, Guild, Minigame, Raid } from '../types'; // prettier-ignore
+import type { Activity, Boss, Dungeon, Guild, Minigame, Monster, Raid, Spell } from '../types'; // prettier-ignore
 
 interface ActivitiesContextData {
   activities: Activity[];
@@ -31,6 +31,7 @@ export function ActivitiesContextProvider({
         ...data.minigames.nodes,
         ...data.guilds.nodes,
         ...data.skilling.nodes,
+        ...data.spells.nodes,
         ...data.dungeons.nodes,
         ...data.monsters.nodes,
         ...data.npcs.nodes,
@@ -62,8 +63,9 @@ interface ActivitiesQueryData {
   minigames: { nodes: Minigame[] };
   guilds: { nodes: Guild[] };
   skilling: { nodes: Activity[] };
+  spells: { nodes: Spell[] };
   dungeons: { nodes: Dungeon[] };
-  monsters: { nodes: Activity[] };
+  monsters: { nodes: Monster[] };
   npcs: { nodes: Activity[] };
   misc: { nodes: Activity[] };
 }
@@ -121,6 +123,7 @@ const dataQuery = graphql`
     skilling: allSkillingJson {
       nodes {
         id: jsonId
+        icon
         url
         title
         subtitle
@@ -128,6 +131,19 @@ const dataQuery = graphql`
         category
         sortingGroups
         requiredLevel
+        notableDrops
+      }
+    }
+    spells: allSpellsJson {
+      nodes {
+        id: jsonId
+        title
+        subtitle
+        caption
+        category
+        spellbook
+        requiredLevel
+        sortingGroups
         notableDrops
       }
     }
@@ -144,7 +160,7 @@ const dataQuery = graphql`
     monsters: allSlayerMonstersJson(filter: { category: { eq: "monster" } }) {
       nodes {
         id: jsonId
-        title: name
+        title
         subtitle
         category
         sortingGroups
@@ -155,6 +171,7 @@ const dataQuery = graphql`
     npcs: allNpcsJson {
       nodes {
         id: jsonId
+        icon
         title
         subtitle
         category
@@ -166,6 +183,7 @@ const dataQuery = graphql`
     misc: allMiscJson {
       nodes {
         id: jsonId
+        icon
         title
         subtitle
         caption

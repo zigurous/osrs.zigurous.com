@@ -1,9 +1,9 @@
-export interface Monster {
+import type { DropSource, Sortable, Titled } from './common';
+
+export interface Monster extends DropSource, Sortable, Titled {
   id: string;
   icon?: string;
-  name?: string;
-  subtitle?: string;
+  category: 'monster' | 'boss';
   requiredCombatLevel?: number;
   locations: string[];
-  notableDrops?: string[];
 }

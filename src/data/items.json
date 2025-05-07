@@ -87,6 +87,10 @@
     "icon": "Angler_hat"
   },
   {
+    "id": "Anvil",
+    "icon": "Anvil_icon"
+  },
+  {
     "id": "Araxyte_fang",
     "transmutations": [
       "#plus",
@@ -788,6 +792,10 @@
   {
     "id": "Fossil_Island_fossil",
     "icon": "Unidentified_large_fossil"
+  },
+  {
+    "id": "Furnace",
+    "icon": "Superheat_Item"
   },
   {
     "id": "Ghommal's_hilt",

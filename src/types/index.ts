@@ -1,5 +1,5 @@
 export * from './activity';
-export * from './drop-source';
+export * from './common';
 export * from './equipment';
 export * from './item';
 export * from './location';
@@ -7,3 +7,4 @@ export * from './monster';
 export * from './region';
 export * from './skill';
 export * from './slayer';
+export * from './spell';

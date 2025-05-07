@@ -166,6 +166,7 @@
     "id": "Gnome_Ball",
     "category": "minigame",
     "sortingGroups": ["agility", "ranged"],
+    "requiredLevel": 1,
     "notableDrops": [
       "Gnomeball"
     ]
@@ -286,7 +287,7 @@
   },
   {
     "id": "Mage_Training_Arena",
-    "caption": "7-87",
+    "caption": "7-93",
     "category": "minigame",
     "sortingGroups": ["magic"],
     "requiredLevel": 7,

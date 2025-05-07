@@ -275,7 +275,7 @@
   {
     "id": "Armoured_zombie_(Zemouregal's_Fort)",
     "icon": "Broken_zombie_helmet",
-    "name": "Armoured Zombie",
+    "title": "Armoured Zombie",
     "subtitle": "Zemouregal's Fort",
     "category": "monster",
     "sortingGroups": ["pvm", "slayer"],
@@ -800,7 +800,7 @@
   {
     "id": "Cave_kraken",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm", "magic"],
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 80,
     "requiredSlayerLevel": 87,
     "slayerMasters": [
@@ -1019,7 +1019,7 @@
   {
     "id": "Dagannoth_(Waterbirth_Island)",
     "icon": "Ensouled_dagannoth_head",
-    "name": "Dagannoth",
+    "title": "Dagannoth",
     "subtitle": "Waterbirth Island",
     "category": "monster",
     "sortingGroups": ["slayer", "pvm"],
@@ -1356,7 +1356,7 @@
   },
   {
     "id": "Fossil_Island_Wyvern",
-    "name": "Fossil Island Wyverns",
+    "title": "Fossil Island Wyverns",
     "icon": "Fossil_Island_wyverns_icon",
     "category": "monster",
     "sortingGroups": ["slayer", "pvm", "herblore"],
@@ -1496,7 +1496,7 @@
   {
     "id": "Goat",
     "icon": "Desert_goat_horn",
-    "name": "Desert Goat",
+    "title": "Desert Goat",
     "category": "monster",
     "sortingGroups": ["pvm", "herblore"],
     "slayerMasters": [],
@@ -1723,7 +1723,7 @@
   {
     "id": "Hill_Giant_(Giants'_Plateau)",
     "icon": "Ensouled_giant_head",
-    "name": "Hill Giant",
+    "title": "Hill Giant",
     "category": "monster",
     "sortingGroups": ["pvm", "slayer"],
     "requiredCombatLevel": 25,
@@ -1743,7 +1743,7 @@
   {
     "id": "Hill_Giant_(Kourend)",
     "icon": "Ensouled_giant_head",
-    "name": "Hill Giant",
+    "title": "Hill Giant",
     "category": "monster",
     "sortingGroups": ["pvm", "slayer"],
     "requiredCombatLevel": 25,
@@ -1765,7 +1765,7 @@
   {
     "id": "Hill_Giant_(Varlamore)",
     "icon": "Ensouled_giant_head",
-    "name": "Hill Giant",
+    "title": "Hill Giant",
     "category": "monster",
     "sortingGroups": ["pvm", "slayer"],
     "requiredCombatLevel": 25,
@@ -2100,7 +2100,7 @@
     "id": "Kraken",
     "subtitle": "Boss",
     "category": "boss",
-    "sortingGroups": ["slayer", "pvm", "magic"],
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 80,
     "requiredSlayerLevel": 87,
     "slayerMasters": [
@@ -2853,7 +2853,7 @@
   {
     "id": "Skeleton_fremennik",
     "icon": "Skull_(item)",
-    "name": "Skeleton",
+    "title": "Skeleton",
     "category": "monster",
     "sortingGroups": ["pvm", "slayer"],
     "requiredCombatLevel": 15,
@@ -2870,7 +2870,7 @@
   {
     "id": "Smoke_devil",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm", "magic"],
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 85,
     "requiredSlayerLevel": 93,
     "slayerMasters": [
@@ -2948,7 +2948,7 @@
   },
   {
     "id": "Spiritual_mage#Zaros",
-    "name": "Spiritual Creature",
+    "title": "Spiritual Creature",
     "subtitle": "Zaros",
     "category": "monster",
     "sortingGroups": ["slayer", "pvm"],
@@ -3158,7 +3158,7 @@
     "id": "Thermonuclear_smoke_devil",
     "subtitle": "Boss",
     "category": "boss",
-    "sortingGroups": ["slayer", "pvm", "magic"],
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 85,
     "requiredSlayerLevel": 93,
     "slayerMasters": [
@@ -3401,7 +3401,7 @@
     "id": "Warped_creatures",
     "icon": "Warped_Terrorbird_icon",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm", "magic"],
+    "sortingGroups": ["slayer", "pvm"],
     "requiredSlayerLevel": 56,
     "slayerMasters": [
       "Chaeldar",

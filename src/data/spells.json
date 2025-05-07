@@ -1,0 +1,582 @@
+[
+  {
+    "id": "Bake_Pie",
+    "category": "spell",
+    "spellbook": "Lunar",
+    "requiredLevel": 65,
+    "sortingGroups": ["magic", "cooking"],
+    "notableDrops": [
+      "Bake_Pie",
+      "#transmute",
+      "Redberry_pie",
+      "Meat_pie",
+      "Mud_pie",
+      "Apple_pie",
+      "Garden_pie",
+      "#newline",
+      "Bake_Pie",
+      "#transmute",
+      "Fish_pie",
+      "Botanical_pie",
+      "Mushroom_pie",
+      "Admiral_pie",
+      "Dragonfruit_pie",
+      "#newline",
+      "Bake_Pie",
+      "#transmute",
+      "Wild_pie",
+      "Summer_pie"
+    ]
+  },
+  {
+    "id": "Barrage_spells",
+    "title": "Barraging",
+    "caption": "86-94",
+    "category": "spell",
+    "spellbook": "Ancient",
+    "requiredLevel": 86,
+    "sortingGroups": ["magic"],
+    "notableDrops": [
+      "Smoke_Barrage",
+      "Shadow_Barrage",
+      "Blood_Barrage",
+      "Ice_Barrage"
+    ]
+  },
+  {
+    "id": "Burst_spells",
+    "title": "Bursting",
+    "caption": "62-70",
+    "category": "spell",
+    "spellbook": "Ancient",
+    "requiredLevel": 62,
+    "sortingGroups": ["magic"],
+    "notableDrops": [
+      "Smoke_Burst",
+      "Shadow_Burst",
+      "Blood_Burst",
+      "Ice_Burst"
+    ]
+  },
+  {
+    "id": "Charge_Air_Orb",
+    "category": "spell",
+    "spellbook": "Standard",
+    "requiredLevel": 66,
+    "sortingGroups": ["magic", "crafting"],
+    "notableDrops": [
+      "Unpowered_orb",
+      "#plus",
+      "Charge_Air_Orb",
+      "#transmute",
+      "Air_orb"
+    ]
+  },
+  {
+    "id": "Charge_Earth_Orb",
+    "category": "spell",
+    "spellbook": "Standard",
+    "requiredLevel": 60,
+    "sortingGroups": ["magic", "crafting"],
+    "notableDrops": [
+      "Unpowered_orb",
+      "#plus",
+      "Charge_Earth_Orb",
+      "#transmute",
+      "Earth_orb"
+    ]
+  },
+  {
+    "id": "Charge_Fire_Orb",
+    "category": "spell",
+    "spellbook": "Standard",
+    "requiredLevel": 63,
+    "sortingGroups": ["magic", "crafting"],
+    "notableDrops": [
+      "Unpowered_orb",
+      "#plus",
+      "Charge_Fire_Orb",
+      "#transmute",
+      "Fire_orb"
+    ]
+  },
+  {
+    "id": "Charge_Water_Orb",
+    "category": "spell",
+    "spellbook": "Standard",
+    "requiredLevel": 56,
+    "sortingGroups": ["magic", "crafting"],
+    "notableDrops": [
+      "Unpowered_orb",
+      "#plus",
+      "Charge_Water_Orb",
+      "#transmute",
+      "Water_orb"
+    ]
+  },
+  {
+    "id": "Cure_Plant",
+    "category": "spell",
+    "spellbook": "Lunar",
+    "requiredLevel": 66,
+    "sortingGroups": ["magic", "farming"],
+    "notableDrops": [
+      "Cure_Plant"
+    ]
+  },
+  {
+    "id": "Degrime",
+    "category": "spell",
+    "spellbook": "Arceuus",
+    "requiredLevel": 70,
+    "sortingGroups": ["magic", "herblore"],
+    "notableDrops": [
+      "Degrime",
+      "#transmute",
+      "Guam_leaf",
+      "Marrentill",
+      "Tarromin",
+      "Harralander",
+      "Ranarr_weed",
+      "#newline",
+      "Degrime",
+      "#transmute",
+      "Toadflax",
+      "Irit_leaf",
+      "Avantoe",
+      "Kwuarm",
+      "Snapdragon",
+      "#newline",
+      "Degrime",
+      "#transmute",
+      "Cadantine",
+      "Lantadyme",
+      "Dwarf_weed",
+      "Torstol"
+    ]
+  },
+  {
+    "id": "Demonic_Offering",
+    "category": "spell",
+    "spellbook": "Arceuus",
+    "requiredLevel": 84,
+    "sortingGroups": ["magic", "prayer"],
+    "notableDrops": [
+      "Demonic_Offering",
+      "#plus",
+      "Fiendish_ashes",
+      "Vile_ashes",
+      "Malicious_ashes",
+      "Abyssal_ashes",
+      "Infernal_ashes"
+    ]
+  },
+  {
+    "id": "Enchant_Crossbow_Bolt",
+    "caption": "4-87",
+    "category": "spell",
+    "spellbook": "Standard",
+    "requiredLevel": 4,
+    "sortingGroups": ["magic", "ranged"],
+    "notableDrops": [
+      "Enchant_Crossbow_Bolt",
+      "#transmute",
+      "Opal_bolts_(e)",
+      "Jade_bolts_(e)",
+      "#spacer",
+      "Enchant_Crossbow_Bolt",
+      "#transmute",
+      "Opal_dragon_bolts_(e)",
+      "Jade_dragon_bolts_(e)",
+      "#newline",
+      "Enchant_Crossbow_Bolt",
+      "#transmute",
+      "Pearl_bolts_(e)",
+      "Topaz_bolts_(e)",
+      "#spacer",
+      "Enchant_Crossbow_Bolt",
+      "#transmute",
+      "Pearl_dragon_bolts_(e)",
+      "Topaz_dragon_bolts_(e)",
+      "#newline",
+      "Enchant_Crossbow_Bolt",
+      "#transmute",
+      "Sapphire_bolts_(e)",
+      "Emerald_bolts_(e)",
+      "#spacer",
+      "Enchant_Crossbow_Bolt",
+      "#transmute",
+      "Sapphire_dragon_bolts_(e)",
+      "Emerald_dragon_bolts_(e)",
+      "#newline",
+      "Enchant_Crossbow_Bolt",
+      "#transmute",
+      "Ruby_bolts_(e)",
+      "Diamond_bolts_(e)",
+      "#spacer",
+      "Enchant_Crossbow_Bolt",
+      "#transmute",
+      "Ruby_dragon_bolts_(e)",
+      "Diamond_dragon_bolts_(e)",
+      "#newline",
+      "Enchant_Crossbow_Bolt",
+      "#transmute",
+      "Dragonstone_bolts_(e)",
+      "Onyx_bolts_(e)",
+      "#spacer",
+      "Enchant_Crossbow_Bolt",
+      "#transmute",
+      "Dragonstone_dragon_bolts_(e)",
+      "Onyx_dragon_bolts_(e)"
+    ]
+  },
+  {
+    "id": "Enchantment_spells#Enchanted_gold_and_silver_jewellery",
+    "title": "Enchant Jewellery",
+    "caption": "7-93",
+    "category": "spell",
+    "spellbook": "Standard",
+    "requiredLevel": 7,
+    "sortingGroups": ["magic", "crafting"],
+    "notableDrops": [
+      "Lvl-1_Enchant",
+      "#transmute",
+      "Ring_of_recoil",
+      "Games_necklace",
+      "Bracelet_of_clay",
+      "Amulet_of_magic",
+      "#newline",
+      "Lvl-2_Enchant",
+      "#transmute",
+      "Ring_of_dueling",
+      "Binding_necklace",
+      "Castle_wars_bracelet",
+      "Amulet_of_defence",
+      "#newline",
+      "Lvl-3_Enchant",
+      "#transmute",
+      "Ring_of_forging",
+      "Digsite_pendant",
+      "Inoculation_bracelet",
+      "Amulet_of_strength",
+      "#newline",
+      "Lvl-4_Enchant",
+      "#transmute",
+      "Ring_of_life",
+      "Phoenix_necklace",
+      "Abyssal_bracelet",
+      "Amulet_of_power",
+      "#newline",
+      "Lvl-5_Enchant",
+      "#transmute",
+      "Ring_of_wealth",
+      "Skills_necklace",
+      "Combat_bracelet",
+      "Amulet_of_glory",
+      "#newline",
+      "Lvl-6_Enchant",
+      "#transmute",
+      "Ring_of_stone",
+      "Berserker_necklace",
+      "Regen_bracelet",
+      "Amulet_of_fury",
+      "#newline",
+      "Lvl-7_Enchant",
+      "#transmute",
+      "Ring_of_suffering",
+      "Necklace_of_anguish",
+      "Tormented_bracelet",
+      "Amulet_of_torture"
+    ]
+  },
+  {
+    "id": "Fertile_Soil",
+    "category": "spell",
+    "spellbook": "Lunar",
+    "requiredLevel": 83,
+    "sortingGroups": ["magic", "farming"],
+    "notableDrops": [
+      "Fertile_Soil",
+      "#transmute",
+      "Supercompost",
+      "Ultracompost"
+    ]
+  },
+  {
+    "id": "Geomancy",
+    "category": "spell",
+    "spellbook": "Lunar",
+    "requiredLevel": 65,
+    "sortingGroups": ["magic", "farming"],
+    "notableDrops": [
+      "Geomancy"
+    ]
+  },
+  {
+    "id": "High_Level_Alchemy",
+    "category": "spell",
+    "spellbook": "Standard",
+    "requiredLevel": 55,
+    "sortingGroups": ["magic"],
+    "notableDrops": [
+      "High_Level_Alchemy",
+      "#transmute",
+      "Coins"
+    ]
+  },
+  {
+    "id": "Humidify",
+    "category": "spell",
+    "spellbook": "Lunar",
+    "requiredLevel": 68,
+    "sortingGroups": ["magic", "farming", "cooking", "crafting", "herblore"],
+    "notableDrops": [
+      "Humidify",
+      "#transmute",
+      "Bowl_of_water",
+      "Bucket_of_water",
+      "Cup_of_water",
+      "Jug_of_water",
+      "Vial_of_water",
+      "#newline",
+      "Humidify",
+      "#transmute",
+      "Filled_plant_pot",
+      "Soft_clay",
+      "Waterskin(4)"
+    ]
+  },
+  {
+    "id": "Hunter_Kit_(spell)",
+    "title": "Hunter Kit",
+    "subtitle": "Spell",
+    "category": "spell",
+    "spellbook": "Lunar",
+    "requiredLevel": 71,
+    "sortingGroups": ["magic", "hunter"],
+    "notableDrops": [
+      "Hunter_Kit_(spell)",
+      "#transmute",
+      "Noose_wand",
+      "Butterfly_net",
+      "Bird_snare",
+      "Rabbit_snare",
+      "Teasing_stick",
+      "#newline",
+      "Hunter_Kit_(spell)",
+      "#transmute",
+      "Unlit_torch",
+      "Box_trap",
+      "Impling_jar"
+    ]
+  },
+  {
+    "id": "Low_Level_Alchemy",
+    "category": "spell",
+    "spellbook": "Standard",
+    "requiredLevel": 21,
+    "sortingGroups": ["magic"],
+    "notableDrops": [
+      "Low_Level_Alchemy",
+      "#transmute",
+      "Coins"
+    ]
+  },
+  {
+    "id": "Magic_Imbue",
+    "category": "spell",
+    "spellbook": "Lunar",
+    "requiredLevel": 82,
+    "sortingGroups": ["magic", "runecraft"],
+    "notableDrops": [
+      "Magic_Imbue",
+      "#transmute",
+      "Mist_rune",
+      "Dust_rune",
+      "Mud_rune",
+      "#newline",
+      "Magic_Imbue",
+      "#transmute",
+      "Lava_rune",
+      "Steam_rune",
+      "Smoke_rune"
+    ]
+  },
+  {
+    "id": "Plank_Make",
+    "category": "spell",
+    "spellbook": "Lunar",
+    "requiredLevel": 86,
+    "sortingGroups": ["magic", "construction"],
+    "notableDrops": [
+      "Plank_Make",
+      "#transmute",
+      "Plank",
+      "Oak_plank",
+      "Teak_plank",
+      "Mahogany_plank"
+    ]
+  },
+  {
+    "id": "Reanimation_spells",
+    "title": "Reanimation",
+    "caption": "16-90",
+    "category": "spell",
+    "spellbook": "Arceuus",
+    "requiredLevel": 16,
+    "sortingGroups": ["magic", "prayer"],
+    "notableDrops": [
+      "Basic_Reanimation",
+      "#plus",
+      "Ensouled_imp_head",
+      "Ensouled_minotaur_head",
+      "Ensouled_scorpion_head",
+      "Ensouled_bear_head",
+      "Ensouled_unicorn_head",
+      "#newline",
+      "Adept_Reanimation",
+      "#plus",
+      "Ensouled_chaos_druid_head",
+      "Ensouled_ogre_head",
+      "Ensouled_giant_head",
+      "Ensouled_troll_head",
+      "Ensouled_horror_head",
+      "#newline",
+      "Expert_Reanimation",
+      "#plus",
+      "Ensouled_dagannoth_head",
+      "Ensouled_bloodveld_head",
+      "Ensouled_demon_head",
+      "Ensouled_hellhound_head",
+      "#newline",
+      "Master_Reanimation",
+      "#plus",
+      "Ensouled_abyssal_head",
+      "Ensouled_dragon_head"
+    ]
+  },
+  {
+    "id": "Resurrect_Crops",
+    "category": "spell",
+    "spellbook": "Arceuus",
+    "requiredLevel": 78,
+    "sortingGroups": ["magic", "farming"],
+    "notableDrops": [
+      "Resurrect_Crops"
+    ]
+  },
+  {
+    "id": "Sinister_Offering",
+    "category": "spell",
+    "spellbook": "Arceuus",
+    "requiredLevel": 92,
+    "sortingGroups": ["magic", "prayer"],
+    "notableDrops": [
+      "Sinister_Offering",
+      "#plus",
+      "Big_bones",
+      "Dragon_bones",
+      "Wyrm_bones",
+      "Drake_bones",
+      "Hydra_bones"
+    ]
+  },
+  {
+    "id": "Spin_Flax",
+    "category": "spell",
+    "spellbook": "Lunar",
+    "requiredLevel": 76,
+    "sortingGroups": ["magic", "crafting", "fletching"],
+    "notableDrops": [
+      "Flax",
+      "#plus",
+      "Spin_Flax",
+      "#transmute",
+      "Bow_string"
+    ]
+  },
+  {
+    "id": "String_Jewellery",
+    "category": "spell",
+    "spellbook": "Lunar",
+    "requiredLevel": 80,
+    "sortingGroups": ["magic", "crafting"],
+    "notableDrops": [
+      "String_Jewellery",
+      "#transmute",
+      "Sapphire_amulet",
+      "Emerald_amulet",
+      "Ruby_amulet",
+      "Diamond_amulet",
+      "Dragonstone_amulet",
+      "#newline",
+      "String_Jewellery",
+      "#transmute",
+      "Opal_amulet",
+      "Jade_amulet",
+      "Topaz_amulet",
+      "Holy_symbol",
+      "Unholy_symbol"
+    ]
+  },
+  {
+    "id": "Superglass_Make",
+    "category": "spell",
+    "spellbook": "Lunar",
+    "requiredLevel": 77,
+    "sortingGroups": ["magic", "crafting"],
+    "notableDrops": [
+      "Superglass_Make",
+      "#plus",
+      "Bucket_of_sand",
+      "Soda_ash",
+      "Seaweed",
+      "#transmute",
+      "Molten_glass"
+    ]
+  },
+  {
+    "id": "Superheat_Item",
+    "category": "spell",
+    "spellbook": "Standard",
+    "requiredLevel": 43,
+    "sortingGroups": ["magic", "smithing"],
+    "notableDrops": [
+      "Superheat_Item",
+      "#transmute",
+      "Bronze_bar",
+      "Iron_bar",
+      "Silver_bar",
+      "Steel_bar",
+      "Gold_bar",
+      "#newline",
+      "Superheat_Item",
+      "#transmute",
+      "Lovakite_bar",
+      "Mithril_bar",
+      "Adamantite_bar",
+      "Runite_bar"
+    ]
+  },
+  {
+    "id": "Tan_Leather",
+    "category": "spell",
+    "spellbook": "Lunar",
+    "requiredLevel": 78,
+    "sortingGroups": ["magic", "crafting"],
+    "notableDrops": [
+      "Tan_Leather",
+      "#transmute",
+      "Green_dragon_leather",
+      "Blue_dragon_leather",
+      "Red_dragon_leather",
+      "Black_dragon_leather",
+      "#newline",
+      "Tan_Leather",
+      "#transmute",
+      "Leather",
+      "Hard_leather",
+      "Snakeskin"
+    ]
+  }
+]

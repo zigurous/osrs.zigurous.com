@@ -1,6 +1,6 @@
-import { activityCategories, combatSkills, iconOrder, nonCombatSkills, skills } from './constants'; // prettier-ignore
+import { combatSkills, iconOrder, nonCombatSkills, skills } from './constants'; // prettier-ignore
 import { capitalizeFirstLetter } from './formatting';
-import type { Activity, ActivityGroup, CombatSkill, CombatStyle, NonCombatSkill, Skill } from '../types'; // prettier-ignore
+import type { Activity, CombatSkill, CombatStyle, NonCombatSkill, Skill, SortingGroup, Spell, Spellbook } from '../types'; // prettier-ignore
 
 const autoDetectedItemSuffixes = [
   '_arrow',
@@ -60,16 +60,20 @@ export function getAssociatedSkill(activity: Activity): Skill | undefined {
 }
 
 export function getIconForActivity(activity: Activity): string | undefined {
-  const sortingGroup =
-    activity.sortingGroups.length > 0 ? activity.sortingGroups[0] : 'misc';
+  if (activity.icon) {
+    return activity.icon;
+  }
 
-  if (sortingGroup === 'smithing') {
-    if (activity.id.includes('Furnace#')) {
-      return 'Furnace_icon';
-    } else if (activity.id.includes('Anvil#')) {
-      return 'Anvil_icon';
+  if (activity.category === 'spell') {
+    // @ts-ignore
+    const spell = activity as Spell;
+    if (spell.spellbook !== 'Standard') {
+      return getIconForSpellbook(spell.spellbook);
     }
   }
+
+  const sortingGroup =
+    activity.sortingGroups.length > 0 ? activity.sortingGroups[0] : 'misc';
 
   if (activity.category === 'chest') {
     return sortingGroup === 'thieving'
@@ -77,46 +81,34 @@ export function getIconForActivity(activity: Activity): string | undefined {
       : 'Crystal_key';
   }
 
-  const icon = getIconForActivityGroup(sortingGroup);
-  if (icon && sortingGroup !== 'misc') return icon;
-
-  // prettier-ignore
-  switch (activity.category) {
-    case 'boss': return 'Master_Reanimation';
-    case 'distraction_and_diversion': return 'Distractions_and_Diversions';
-    case 'guild': return 'Map_link_icon';
-    case 'minigame': return 'Minigame_icon';
-    case 'monster': return 'Monster_Examine';
-    case 'raid': return 'Raids';
+  if (sortingGroup !== 'misc') {
+    const icon =
+      getIconForSortingGroup(sortingGroup) ||
+      getIconForSortingGroup(activity.category);
+    if (icon) return icon;
   }
 
-  if (sortingGroup === 'misc') {
+  if (activity.sortingGroups) {
     if (activity.sortingGroups.includes('quest')) return 'Quest_point_icon';
     if (activity.sortingGroups.includes('diaries'))
       return 'Achievement_Diaries_icon';
     if (activity.sortingGroups.includes('music')) return 'Music';
   }
 
-  // prettier-ignore
-  switch (activity.id) {
-    case "Flax_field": return 'Flax';
-    case "Mac": return 'Stats_icon';
-  }
-
   return 'Collection_log';
 }
 
-export function getIconForActivityGroup(
-  activityGroup: ActivityGroup | string,
+export function getIconForSortingGroup(
+  sortingGroup: SortingGroup | string,
 ): string | undefined {
   // prettier-ignore
-  switch (activityGroup) {
+  switch (sortingGroup) {
     case 'pvm': return 'Combat_icon';
     case 'pvp': return 'Skull_(status)_icon';
     case 'melee':
     case 'ranged':
     case 'magic':
-      return getIconForCombatStyle(activityGroup as CombatStyle);
+      return getIconForCombatStyle(sortingGroup as CombatStyle);
     case 'attack':
     case 'strength':
     case 'defence':
@@ -138,15 +130,22 @@ export function getIconForActivityGroup(
     case 'firemaking':
     case 'woodcutting':
     case 'farming':
-      return getIconForSkill(activityGroup as Skill);
+      return getIconForSkill(sortingGroup as Skill);
+    case 'boss': return 'Master_Reanimation';
     case 'chest': return 'Crystal_key';
     case 'diaries': return 'Achievement_Diaries_icon';
+    case 'distraction_and_diversion': return 'Distractions_and_Diversions';
     case 'dungeon': return 'Dungeon_map_link_icon';
+    case 'guild': return 'Map_link_icon';
     case 'location': return 'Map_link_icon';
+    case 'minigame': return 'Minigame_icon';
     case 'misc': return 'Collection_log';
+    case 'monster': return 'Monster_Examine';
     case 'music': return 'Music';
     case 'npc': return 'NPC_Contact';
     case 'quest': return 'Quest_point_icon';
+    case 'raid': return 'Raids';
+    case 'skilling': return 'Stats_icon';
     case 'spellbook': return 'Spellbook';
     default:
       return undefined;
@@ -163,6 +162,17 @@ export function getIconForCombatStyle(style: CombatStyle): string | undefined {
     // Fallback to skill icons since some bosses and activities are
     // skilling-based combat activities, e.g., Wintertodt, Tempoross, etc.
     default: return getIconForSkill(style as Skill);
+  }
+}
+
+export function getIconForSpellbook(spellbook: Spellbook): string | undefined {
+  // prettier-ignore
+  switch (spellbook) {
+    case 'Ancient': return 'Ancient_spellbook';
+    case 'Arceuus': return 'Arceuus_spellbook';
+    case 'Lunar': return 'Lunar_spellbook';
+    case 'Standard': return 'Standard_spellbook';
+    default: return undefined;
   }
 }
 

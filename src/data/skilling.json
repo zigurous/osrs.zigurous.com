@@ -371,6 +371,7 @@
   },
   {
     "id": "Anvil#Cam_Torum",
+    "icon": "Anvil_icon",
     "url": "https://explv.github.io/?centreX=1446&centreY=9582&centreZ=1&zoom=9",
     "title": "Anvil",
     "subtitle": "Cam Torum",
@@ -381,6 +382,7 @@
   },
   {
     "id": "Anvil#Darkmeyer",
+    "icon": "Anvil_icon",
     "url": "https://explv.github.io/?centreX=3664&centreY=3363&centreZ=0&zoom=9",
     "title": "Anvil",
     "subtitle": "Darkmeyer",
@@ -391,6 +393,7 @@
   },
   {
     "id": "Anvil#Fortis_Colosseum",
+    "icon": "Anvil_icon",
     "url": "https://explv.github.io/?centreX=1801&centreY=9489&centreZ=0&zoom=9",
     "title": "Anvil",
     "subtitle": "Fortis Colosseum",
@@ -401,6 +404,7 @@
   },
   {
     "id": "Anvil#Giants'_Plateau",
+    "icon": "Anvil_icon",
     "url": "https://explv.github.io/?centreX=3360&centreY=3155&centreZ=0&zoom=9",
     "title": "Anvil",
     "subtitle": "Giants' Plateau",
@@ -411,6 +415,7 @@
   },
   {
     "id": "Anvil#Jatizso",
+    "icon": "Anvil_icon",
     "url": "https://explv.github.io/?centreX=2397&centreY=3805&centreZ=0&zoom=9",
     "title": "Anvil",
     "subtitle": "Jatizso",
@@ -421,6 +426,7 @@
   },
   {
     "id": "Anvil#Keldagrim",
+    "icon": "Anvil_icon",
     "url": "https://explv.github.io/?centreX=2828&centreY=10201&centreZ=0&zoom=9",
     "title": "Anvil",
     "subtitle": "Keldagrim",
@@ -431,6 +437,7 @@
   },
   {
     "id": "Anvil#Kourend_Castle",
+    "icon": "Anvil_icon",
     "url": "https://explv.github.io/?centreX=1596&centreY=3664&centreZ=0&zoom=9",
     "title": "Anvil",
     "subtitle": "Kourend Castle",
@@ -441,6 +448,7 @@
   },
   {
     "id": "Anvil#Lovakengj",
+    "icon": "Anvil_icon",
     "url": "https://explv.github.io/?centreX=1529&centreY=3832&centreZ=0&zoom=9",
     "title": "Anvil",
     "subtitle": "Lovakengj",
@@ -451,6 +459,7 @@
   },
   {
     "id": "Anvil#Mage_Arena",
+    "icon": "Anvil_icon",
     "url": "https://explv.github.io/?centreX=3062&centreY=3952&centreZ=0&zoom=9",
     "title": "Anvil",
     "subtitle": "Mage Arena",
@@ -461,6 +470,7 @@
   },
   {
     "id": "Anvil#Mistrock",
+    "icon": "Anvil_icon",
     "url": "https://explv.github.io/?centreX=1401&centreY=2863&centreZ=0&zoom=9",
     "title": "Anvil",
     "subtitle": "Mistrock",
@@ -471,6 +481,7 @@
   },
   {
     "id": "Anvil#Nardah",
+    "icon": "Anvil_icon",
     "url": "https://explv.github.io/?centreX=3409&centreY=2921&centreZ=0&zoom=9",
     "title": "Anvil",
     "subtitle": "Nardah",
@@ -481,6 +492,7 @@
   },
   {
     "id": "Anvil#Port_Khazard",
+    "icon": "Anvil_icon",
     "url": "https://explv.github.io/?centreX=2652&centreY=3164&centreZ=0&zoom=9",
     "title": "Anvil",
     "subtitle": "Port Khazard",
@@ -491,6 +503,7 @@
   },
   {
     "id": "Anvil#Prifddinas",
+    "icon": "Anvil_icon",
     "url": "https://explv.github.io/?centreX=3287&centreY=6055&centreZ=0&zoom=9",
     "title": "Anvil",
     "subtitle": "Prifddinas",
@@ -501,6 +514,7 @@
   },
   {
     "id": "Anvil#Rellekka",
+    "icon": "Anvil_icon",
     "url": "https://explv.github.io/?centreX=2620&centreY=3665&centreZ=0&zoom=9",
     "title": "Anvil",
     "subtitle": "Rellekka",
@@ -511,6 +525,7 @@
   },
   {
     "id": "Anvil#Resource_Area",
+    "icon": "Anvil_icon",
     "url": "https://explv.github.io/?centreX=3190&centreY=3938&centreZ=0&zoom=9",
     "title": "Anvil",
     "subtitle": "Resource Area",
@@ -521,6 +536,7 @@
   },
   {
     "id": "Anvil#Ruins_of_Camdozaal",
+    "icon": "Anvil_icon",
     "url": "https://explv.github.io/?centreX=2956&centreY=5807&centreZ=0&zoom=9",
     "title": "Anvil",
     "subtitle": "Ruins of Camdozaal",
@@ -531,6 +547,7 @@
   },
   {
     "id": "Anvil#Seers'_Village",
+    "icon": "Anvil_icon",
     "url": "https://explv.github.io/?centreX=2713&centreY=3492&centreZ=0&zoom=9",
     "title": "Anvil",
     "subtitle": "Seers' Village",
@@ -541,6 +558,7 @@
   },
   {
     "id": "Anvil#Slepe",
+    "icon": "Anvil_icon",
     "url": "https://explv.github.io/?centreX=3754&centreY=3318&centreZ=0&zoom=9",
     "title": "Anvil",
     "subtitle": "Slepe",
@@ -551,6 +569,7 @@
   },
   {
     "id": "Anvil#Tai_Bwo_Wannai",
+    "icon": "Anvil_icon",
     "url": "https://explv.github.io/?centreX=2790&centreY=3101&centreZ=0&zoom=9",
     "title": "Anvil",
     "subtitle": "Tai Bwo Wannai",
@@ -561,6 +580,7 @@
   },
   {
     "id": "Anvil#Varrock",
+    "icon": "Anvil_icon",
     "url": "https://explv.github.io/?centreX=3188&centreY=3426&centreZ=0&zoom=9",
     "title": "Anvil",
     "subtitle": "Varrock",
@@ -571,6 +591,7 @@
   },
   {
     "id": "Anvil#Void_Knights'_Outpost",
+    "icon": "Anvil_icon",
     "url": "https://explv.github.io/?centreX=2652&centreY=2658&centreZ=0&zoom=9",
     "title": "Anvil",
     "subtitle": "Void Knights' Outpost",
@@ -581,6 +602,7 @@
   },
   {
     "id": "Anvil#Yanille",
+    "icon": "Anvil_icon",
     "url": "https://explv.github.io/?centreX=2613&centreY=3081&centreZ=0&zoom=9",
     "title": "Anvil",
     "subtitle": "Yanille",
@@ -1153,6 +1175,34 @@
     ]
   },
   {
+    "id": "Burnt_jogre_bones#Furnace",
+    "title": "Burnt Jogre Bones",
+    "category": "skilling",
+    "sortingGroups": ["cooking"],
+    "requiredLevel": 1,
+    "notableDrops": [
+      "Jogre_bones",
+      "#plus",
+      "Furnace",
+      "#transmute",
+      "Burnt_jogre_bones"
+    ]
+  },
+  {
+    "id": "Burnt_jogre_bones#Tinderbox",
+    "title": "Burnt Jogre Bones",
+    "category": "skilling",
+    "sortingGroups": ["firemaking"],
+    "requiredLevel": 30,
+    "notableDrops": [
+      "Tinderbox",
+      "#plus",
+      "Jogre_bones",
+      "#transmute",
+      "Burnt_jogre_bones"
+    ]
+  },
+  {
     "id": "Burnt_tree",
     "category": "skilling",
     "sortingGroups": ["woodcutting"],
@@ -1693,6 +1743,14 @@
     ]
   },
   {
+    "id": "Dagannoth_bones",
+    "category": "skilling",
+    "sortingGroups": ["prayer"],
+    "notableDrops": [
+      "Dagannoth_bones"
+    ]
+  },
+  {
     "id": "Dead_tree",
     "category": "skilling",
     "sortingGroups": ["woodcutting"],
@@ -1798,6 +1856,14 @@
       "Dragon_key",
       "Dragon_kiteshield",
       "Dragon_platebody"
+    ]
+  },
+  {
+    "id": "Drake_bones",
+    "category": "skilling",
+    "sortingGroups": ["prayer"],
+    "notableDrops": [
+      "Drake_bones"
     ]
   },
   {
@@ -2005,6 +2071,14 @@
     ]
   },
   {
+    "id": "Fayrg_bones",
+    "category": "skilling",
+    "sortingGroups": ["prayer"],
+    "notableDrops": [
+      "Fayrg_bones"
+    ]
+  },
+  {
     "id": "Feldip_Hunter_area",
     "caption": "1-63",
     "category": "skilling",
@@ -2095,26 +2169,6 @@
       "Efh_salt",
       "Te_salt",
       "Urt_salt"
-    ]
-  },
-  {
-    "id": "Firemaking#Pyre_logs",
-    "title": "Pyre Logs",
-    "caption": "5-95",
-    "category": "skilling",
-    "sortingGroups": ["firemaking"],
-    "requiredLevel": 5,
-    "notableDrops": [
-      "Pyre_logs",
-      "Oak_pyre_logs",
-      "Willow_pyre_logs",
-      "Teak_pyre_logs",
-      "Arctic_pyre_logs",
-      "Maple_pyre_logs",
-      "Mahogany_pyre_logs",
-      "Yew_pyre_logs",
-      "Magic_pyre_logs",
-      "Redwood_pyre_logs"
     ]
   },
   {
@@ -2245,6 +2299,7 @@
   },
   {
     "id": "Furnace#Al_Kharid",
+    "icon": "Furnace_icon",
     "url":"https://explv.github.io/?centreX=3273&centreY=3187&centreZ=0&zoom=9",
     "title": "Furnace",
     "subtitle": "Al Kharid",
@@ -2255,6 +2310,7 @@
   },
   {
     "id": "Furnace#Ardougne",
+    "icon": "Furnace_icon",
     "url":"https://explv.github.io/?centreX=2602&centreY=3312&centreZ=0&zoom=9",
     "title": "Furnace",
     "subtitle": "Ardougne",
@@ -2265,6 +2321,7 @@
   },
   {
     "id": "Furnace#Burgh_de_Rott",
+    "icon": "Furnace_icon",
     "url":"https://explv.github.io/?centreX=3527&centreY=3209&centreZ=0&zoom=9",
     "title": "Furnace",
     "subtitle": "Burgh de Rott",
@@ -2275,6 +2332,7 @@
   },
   {
     "id": "Furnace#Cam_Torum",
+    "icon": "Furnace_icon",
     "url":"https://explv.github.io/?centreX=1453&centreY=9584&centreZ=1&zoom=9",
     "title": "Furnace",
     "subtitle": "Cam Torum",
@@ -2285,6 +2343,7 @@
   },
   {
     "id": "Furnace#Civitas_illa_Fortis",
+    "icon": "Furnace_icon",
     "url":"https://explv.github.io/?centreX=1770&centreY=3112&centreZ=0&zoom=9",
     "title": "Furnace",
     "subtitle": "Civitas illa Fortis",
@@ -2295,6 +2354,7 @@
   },
   {
     "id": "Furnace#Edgeville",
+    "icon": "Furnace_icon",
     "url":"https://explv.github.io/?centreX=3110&centreY=3499&centreZ=0&zoom=9",
     "title": "Furnace",
     "subtitle": "Edgeville",
@@ -2305,6 +2365,7 @@
   },
   {
     "id": "Furnace#Falador",
+    "icon": "Furnace_icon",
     "url":"https://explv.github.io/?centreX=2976&centreY=3369&centreZ=0&zoom=9",
     "title": "Furnace",
     "subtitle": "Falador",
@@ -2315,6 +2376,7 @@
   },
   {
     "id": "Furnace#Lovakengj",
+    "icon": "Furnace_icon",
     "url":"https://explv.github.io/?centreX=1507&centreY=3773&centreZ=0&zoom=9",
     "title": "Furnace",
     "subtitle": "Lovakengj",
@@ -2325,6 +2387,7 @@
   },
   {
     "id": "Furnace#Lumbridge",
+    "icon": "Furnace_icon",
     "url":"https://explv.github.io/?centreX=3227&centreY=3257&centreZ=0&zoom=9",
     "title": "Furnace",
     "subtitle": "Lumbridge",
@@ -2335,6 +2398,7 @@
   },
   {
     "id": "Furnace#Mor_Ul_Rek",
+    "icon": "Furnace_icon",
     "url":"https://explv.github.io/?centreX=2528&centreY=5160&centreZ=0&zoom=9",
     "title": "Furnace",
     "subtitle": "Mor Ul Rek",
@@ -2345,6 +2409,7 @@
   },
   {
     "id": "Furnace#Mount_Karuulm",
+    "icon": "Furnace_icon",
     "url":"https://explv.github.io/?centreX=1325&centreY=3807&centreZ=0&zoom=9",
     "title": "Furnace",
     "subtitle": "Mount Karuulm",
@@ -2355,6 +2420,7 @@
   },
   {
     "id": "Furnace#Neitiznot",
+    "icon": "Furnace_icon",
     "url":"https://explv.github.io/?centreX=2344&centreY=3811&centreZ=0&zoom=9",
     "title": "Furnace",
     "subtitle": "Neitiznot",
@@ -2365,6 +2431,7 @@
   },
   {
     "id": "Furnace#Piscatoris",
+    "icon": "Furnace_icon",
     "url":"https://explv.github.io/?centreX=2342&centreY=3678&centreZ=0&zoom=9",
     "title": "Furnace",
     "subtitle": "Piscatoris",
@@ -2375,6 +2442,7 @@
   },
   {
     "id": "Furnace#Port_Phasmatys",
+    "icon": "Furnace_icon",
     "url":"https://explv.github.io/?centreX=3688&centreY=3480&centreZ=0&zoom=9",
     "title": "Furnace",
     "subtitle": "Port Phasmatys",
@@ -2385,6 +2453,7 @@
   },
   {
     "id": "Furnace#Prifddinas",
+    "icon": "Furnace_icon",
     "url":"https://explv.github.io/?centreX=3287&centreY=6052&centreZ=0&zoom=9",
     "title": "Furnace",
     "subtitle": "Prifddinas",
@@ -2395,6 +2464,7 @@
   },
   {
     "id": "Furnace#Rellekka",
+    "icon": "Furnace_icon",
     "url":"https://explv.github.io/?centreX=2617&centreY=3667&centreZ=0&zoom=9",
     "title": "Furnace",
     "subtitle": "Rellekka",
@@ -2405,6 +2475,7 @@
   },
   {
     "id": "Furnace#Resource_Area",
+    "icon": "Furnace_icon",
     "url":"https://explv.github.io/?centreX=3192&centreY=3935&centreZ=0&zoom=9",
     "title": "Furnace",
     "subtitle": "Resource Area",
@@ -2415,6 +2486,7 @@
   },
   {
     "id": "Furnace#Shilo_Village",
+    "icon": "Furnace_icon",
     "url":"https://explv.github.io/?centreX=2857&centreY=2967&centreZ=0&zoom=9",
     "title": "Furnace",
     "subtitle": "Shilo Village",
@@ -2425,6 +2497,7 @@
   },
   {
     "id": "Furnace#Wilderness",
+    "icon": "Furnace_icon",
     "url":"https://explv.github.io/?centreX=3144&centreY=3737&centreZ=0&zoom=9",
     "title": "Furnace",
     "subtitle": "Ruins (Level 28)",
@@ -2435,6 +2508,7 @@
   },
   {
     "id": "Furnace#Zanaris",
+    "icon": "Furnace_icon",
     "url":"https://explv.github.io/?centreX=2400&centreY=4473&centreZ=0&zoom=9",
     "title": "Furnace",
     "subtitle": "Zanaris",
@@ -2472,9 +2546,9 @@
   },
   {
     "id": "Gilded_altar",
-    "subtitle": "Player-Owned House",
+    "subtitle": "POH",
     "category": "skilling",
-    "sortingGroups": ["prayer"],
+    "sortingGroups": ["prayer", "construction"],
     "notableDrops": [
       "XP"
     ]
@@ -2881,6 +2955,14 @@
     ]
   },
   {
+    "id": "Hydra_bones",
+    "category": "skilling",
+    "sortingGroups": ["prayer"],
+    "notableDrops": [
+      "Hydra_bones"
+    ]
+  },
+  {
     "id": "Iron_bars",
     "caption": "15-33",
     "category": "skilling",
@@ -2936,6 +3018,14 @@
     ]
   },
   {
+    "id": "Jogre_bones",
+    "category": "skilling",
+    "sortingGroups": ["prayer"],
+    "notableDrops": [
+      "Jogre_bones"
+    ]
+  },
+  {
     "id": "Karamja_Hunter_area",
     "title": "Horned Graahk",
     "category": "skilling",
@@ -2985,6 +3075,14 @@
       "Copper_longtail",
       "Ruby_harvest",
       "Chinchompa_(Hunter)"
+    ]
+  },
+  {
+    "id": "Lava_dragon_bones",
+    "category": "skilling",
+    "sortingGroups": ["prayer"],
+    "notableDrops": [
+      "Lava_dragon_bones"
     ]
   },
   {
@@ -3540,62 +3638,6 @@
     ]
   },
   {
-    "id": "Obelisk_of_Air",
-    "title": "Air Obelisk",
-    "category": "skilling",
-    "sortingGroups": ["magic"],
-    "requiredLevel": 66,
-    "notableDrops": [
-      "Unpowered_orb",
-      "#plus",
-      "Charge_Air_Orb",
-      "#transmute",
-      "Air_orb"
-    ]
-  },
-  {
-    "id": "Obelisk_of_Earth",
-    "title": "Earth Obelisk",
-    "category": "skilling",
-    "sortingGroups": ["magic"],
-    "requiredLevel": 60,
-    "notableDrops": [
-      "Unpowered_orb",
-      "#plus",
-      "Charge_Earth_Orb",
-      "#transmute",
-      "Earth_orb"
-    ]
-  },
-  {
-    "id": "Obelisk_of_Fire",
-    "title": "Fire Obelisk",
-    "category": "skilling",
-    "sortingGroups": ["magic"],
-    "requiredLevel": 63,
-    "notableDrops": [
-      "Unpowered_orb",
-      "#plus",
-      "Charge_Fire_Orb",
-      "#transmute",
-      "Fire_orb"
-    ]
-  },
-  {
-    "id": "Obelisk_of_Water",
-    "title": "Water Obelisk",
-    "category": "skilling",
-    "sortingGroups": ["magic"],
-    "requiredLevel": 56,
-    "notableDrops": [
-      "Unpowered_orb",
-      "#plus",
-      "Charge_Water_Orb",
-      "#transmute",
-      "Water_orb"
-    ]
-  },
-  {
     "id": "Ogre_arrows",
     "category": "skilling",
     "sortingGroups": ["fletching"],
@@ -3651,8 +3693,10 @@
   },
   {
     "id": "Ourania_Altar",
+    "caption": "1-99",
     "category": "skilling",
     "sortingGroups": ["runecraft"],
+    "requiredLevel": 1,
     "notableDrops": [
       "Air_rune",
       "Water_rune",
@@ -3668,6 +3712,14 @@
       "Death_rune",
       "Blood_rune",
       "Soul_rune"
+    ]
+  },
+  {
+    "id": "Ourg_bones",
+    "category": "skilling",
+    "sortingGroups": ["prayer"],
+    "notableDrops": [
+      "Ourg_bones"
     ]
   },
   {
@@ -3798,6 +3850,14 @@
       "Wine_of_zamorak",
       "#equals",
       "Ranging_potion(3)"
+    ]
+  },
+  {
+    "id": "Raurg_bones",
+    "category": "skilling",
+    "sortingGroups": ["prayer"],
+    "notableDrops": [
+      "Raurg_bones"
     ]
   },
   {
@@ -4173,6 +4233,45 @@
       "Ashes",
       "#equals",
       "Serum_207_(3)"
+    ]
+  },
+  {
+    "id": "Shades_of_Mort'ton_(minigame)#Cremating_the_shades",
+    "title": "Cremating Remains",
+    "caption": "5-95",
+    "category": "skilling",
+    "sortingGroups": ["firemaking", "prayer"],
+    "requiredLevel": 5,
+    "notableDrops": [
+      "Tinderbox",
+      "#plus",
+      "Pyre_logs",
+      "Loar_remains",
+      "#spacer",
+      "Tinderbox",
+      "#plus",
+      "Oak_pyre_logs",
+      "Phrin_remains",
+      "#newline",
+      "Tinderbox",
+      "#plus",
+      "Willow_pyre_logs",
+      "Riyl_remains",
+      "#spacer",
+      "Tinderbox",
+      "#plus",
+      "Yew_pyre_logs",
+      "Asyn_remains",
+      "#newline",
+      "Tinderbox",
+      "#plus",
+      "Magic_pyre_logs",
+      "Fiyr_remains",
+      "#spacer",
+      "Tinderbox",
+      "#plus",
+      "Redwood_pyre_logs",
+      "Urium_remains"
     ]
   },
   {
@@ -4731,6 +4830,15 @@
     ]
   },
   {
+    "id": "Superior_dragon_bones",
+    "category": "skilling",
+    "sortingGroups": ["prayer"],
+    "requiredLevel": 70,
+    "notableDrops": [
+      "Superior_dragon_bones"
+    ]
+  },
+  {
     "id": "Swamp_lizard_(Hunter)",
     "title": "Swamp Lizards",
     "category": "skilling",
@@ -5117,6 +5225,30 @@
     ]
   },
   {
+    "id": "Wyrm_bones",
+    "category": "skilling",
+    "sortingGroups": ["prayer"],
+    "notableDrops": [
+      "Wyrm_bones"
+    ]
+  },
+  {
+    "id": "Wyrmling_bones",
+    "category": "skilling",
+    "sortingGroups": ["prayer"],
+    "notableDrops": [
+      "Wyrmling_bones"
+    ]
+  },
+  {
+    "id": "Wyvern_bones",
+    "category": "skilling",
+    "sortingGroups": ["prayer"],
+    "notableDrops": [
+      "Wyvern_bones"
+    ]
+  },
+  {
     "id": "Xerician_robes",
     "caption": "14-22",
     "category": "skilling",
@@ -5206,6 +5338,14 @@
       "Necklace_of_anguish",
       "Tormented_bracelet",
       "Amulet_of_torture"
+    ]
+  },
+  {
+    "id": "Zogre_bones",
+    "category": "skilling",
+    "sortingGroups": ["prayer"],
+    "notableDrops": [
+      "Zogre_bones"
     ]
   }
 ]

@@ -2,7 +2,7 @@ import classNames from 'classnames';
 import React, { useRef, useState } from 'react';
 import Tooltip from './Tooltip';
 import { useFilterContext } from '../context';
-import { activityFilters, formatNameFromId, getIconForActivityGroup } from '../utils'; // prettier-ignore
+import { activityFilters, formatNameFromId, getIconForSortingGroup } from '../utils'; // prettier-ignore
 import '../styles/activity-filter.css';
 
 type Filter = (typeof activityFilters)[number];
@@ -70,7 +70,7 @@ function FilterButton({ filter, disabled = false }: FilterButtonProps) {
       <img
         alt=""
         aria-hidden
-        src={`https://oldschool.runescape.wiki/images/${getIconForActivityGroup(filter)}.png`}
+        src={`https://oldschool.runescape.wiki/images/${getIconForSortingGroup(filter)}.png`}
       />
       {hovering && ref.current && (
         <Tooltip element={ref.current} text={label} />

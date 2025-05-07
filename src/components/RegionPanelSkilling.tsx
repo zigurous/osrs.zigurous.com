@@ -86,7 +86,9 @@ function filterActivity(activity: Activity) {
     return false;
   }
 
-  if (!activity.sortingGroups) return false;
+  if (!activity.sortingGroups) {
+    return false;
+  }
 
   if (activity.category === 'boss') {
     return activity.subcategory === 'skilling';

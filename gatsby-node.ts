@@ -38,7 +38,7 @@ export const createSchemaCustomization = ({
       jsonId: String!
       title: String
       subtitle: String
-      category: String
+      category: String!
       sortingGroups: [String!]!
       notableDrops: [String!]
     }
@@ -77,19 +77,21 @@ export const createSchemaCustomization = ({
     }
     type MiscJson implements Node @dontInfer {
       jsonId: String!
+      icon: String
       title: String
       subtitle: String
       caption: String
-      category: String
+      category: String!
       sortingGroups: [String!]!
       requiredLevel: Int
       notableDrops: [String!]
     }
     type NpcsJson implements Node @dontInfer {
       jsonId: String!
+      icon: String
       title: String
       subtitle: String
-      category: String
+      category: String!
       sortingGroups: [String!]!
       requiredLevel: Int
       notableDrops: [String!]
@@ -127,11 +129,12 @@ export const createSchemaCustomization = ({
     }
     type SkillingJson implements Node @dontInfer {
       jsonId: String!
+      icon: String
       url: String
       title: String
       subtitle: String
       caption: String
-      category: String
+      category: String!
       sortingGroups: [String!]!
       requiredLevel: Int
       notableDrops: [String!]
@@ -145,7 +148,7 @@ export const createSchemaCustomization = ({
     type SlayerMonstersJson implements Node @dontInfer {
       jsonId: String!
       icon: String
-      name: String
+      title: String
       subtitle: String
       category: String!
       sortingGroups: [String!]!
@@ -155,6 +158,17 @@ export const createSchemaCustomization = ({
       locations: [String!]!
       notableDrops: [String!]
       hideFromMenu: Boolean
+    }
+    type SpellsJson implements Node @dontInfer {
+      jsonId: String!
+      title: String
+      subtitle: String
+      caption: String
+      category: String!
+      spellbook: String!
+      requiredLevel: Int!
+      sortingGroups: [String!]!
+      notableDrops: [String!]
     }
   `;
   const coerceItemSource = (value: any) => {

@@ -24,7 +24,7 @@ export default function SlayerMonsterListItem({
         </div>
         <div className="flex align-center justify-between w-full ml-md">
           <Text as="span" size="md">
-            {monster.name || formatNameFromId(monster.id)}
+            {monster.title || formatNameFromId(monster.id)}
           </Text>
           <span className="inline-flex align-center">
             {monster.requiredCombatLevel && monster.requiredCombatLevel > 1 && (

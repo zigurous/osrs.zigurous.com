@@ -70,7 +70,7 @@ export default function RegionPanelSlayer({ region }: RegionPanelSlayerProps) {
               <li id={monster.id} key={monster.id}>
                 <TitledCard
                   subtitle={monster.subtitle}
-                  title={monster.name || formatNameFromId(monster.id)}
+                  title={monster.title || formatNameFromId(monster.id)}
                   titleIconSize={14}
                   titleLinkId={monster.id}
                   titleLinkIcon="open_in_new"
@@ -118,7 +118,7 @@ const dataQuery = graphql`
       nodes {
         id: jsonId
         icon
-        name
+        title
         subtitle
         requiredCombatLevel
         requiredSlayerLevel

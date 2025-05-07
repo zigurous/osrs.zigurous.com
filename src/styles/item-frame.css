@@ -86,7 +86,9 @@
 }
 
 .item-frame--spacer {
-  width: 20px;
+  width: 10px;
+  padding-left: var(--spacing-xxs);
+  padding-right: var(--spacing-xxs);
 }
 
 .item-frame--newline {

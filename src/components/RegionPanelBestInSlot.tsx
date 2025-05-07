@@ -1,10 +1,10 @@
+import { Text } from '@zigurous/forge-react';
 import { graphql, useStaticQuery } from 'gatsby';
 import React, { useMemo, useState } from 'react';
 import EquipmentInventory from './EquipmentInventory';
 import RegionPanelSection from './RegionPanelSection';
 import TitledCard from './TitledCard';
 import type { CombatStyle, EquipmentItem, EquipmentSlot, Region } from '../types'; // prettier-ignore
-import { Text } from '@zigurous/forge-react';
 
 interface RegionPanelBestInSlotProps {
   region: Region;
