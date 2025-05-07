@@ -623,7 +623,7 @@
     "notableDrops": [
       "Arctic_pine_logs",
       "#transmute",
-      "Neitiznot_shield"
+      "Split_log"
     ]
   },
   {
@@ -2710,18 +2710,6 @@
     "caption": "35/55",
     "category": "skilling",
     "sortingGroups": ["farming", "woodcutting"],
-    "requiredLevel": 35,
-    "notableDrops": [
-      "Teak_logs",
-      "Mahogany_logs"
-    ]
-  },
-  {
-    "id": "Hardwood_tree",
-    "title": "Hardwood Trees",
-    "caption": "35/50",
-    "category": "skilling",
-    "sortingGroups": ["woodcutting", "construction"],
     "requiredLevel": 35,
     "notableDrops": [
       "Teak_logs",

@@ -112,6 +112,13 @@
     ]
   },
   {
+    "id": "Arctic_pine_logs",
+    "transmutations": [
+      "#transmute",
+      "Neitiznot_shield"
+    ]
+  },
+  {
     "id": "Armadyl_hilt",
     "transmutations": [
       "#plus",
