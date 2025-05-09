@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 import AreaBadge from './AreaBadge';
 import RegionPanelBestInSlot from './RegionPanelBestInSlot';
 import RegionPanelBosses from './RegionPanelBosses';
+import RegionPanelOverview from './RegionPanelOverview';
 import RegionPanelPets from './RegionPanelPets';
 import RegionPanelSkilling from './RegionPanelSkilling';
 import RegionPanelSlayer from './RegionPanelSlayer';
@@ -74,6 +75,8 @@ export default function RegionPanel() {
 
 function renderTab(selectedTab: RegionPanelTab, selectedRegion: Region) {
   switch (selectedTab) {
+    case 'Overview':
+      return <RegionPanelOverview region={selectedRegion} />;
     case 'Skilling':
       return <RegionPanelSkilling region={selectedRegion} />;
     case 'Bosses':

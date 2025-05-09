@@ -44,6 +44,7 @@ export const createSchemaCustomization = ({
     }
     type GuildsJson implements Node @dontInfer {
       jsonId: String!
+      icon: String
       title: String
       subtitle: String
       caption: String
@@ -124,7 +125,8 @@ export const createSchemaCustomization = ({
       guilds: [String!]
       dungeons: [String!]!
       monsters: [String!]!
-      misc: [String!]!
+      npcs: [String!]!
+      misc: [String!]
       pets: [String!]!
     }
     type SkillingJson implements Node @dontInfer {

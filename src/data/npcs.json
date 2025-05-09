@@ -306,6 +306,7 @@
   },
   {
     "id": "Mac",
+    "subtitle": "Skill Master",
     "icon": "Stats_icon",
     "category": "npc",
     "sortingGroups": ["misc", "skilling"],

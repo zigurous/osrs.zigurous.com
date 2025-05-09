@@ -75,27 +75,12 @@ export function getIconForActivity(activity: Activity): string | undefined {
   const sortingGroup =
     activity.sortingGroups.length > 0 ? activity.sortingGroups[0] : 'misc';
 
-  if (activity.category === 'chest') {
-    return sortingGroup === 'thieving'
-      ? getIconForSkill('thieving')
-      : 'Crystal_key';
-  }
-
   if (sortingGroup !== 'misc') {
-    const icon =
-      getIconForSortingGroup(sortingGroup) ||
-      getIconForSortingGroup(activity.category);
+    const icon = getIconForSortingGroup(sortingGroup);
     if (icon) return icon;
   }
 
-  if (activity.sortingGroups) {
-    if (activity.sortingGroups.includes('quest')) return 'Quest_point_icon';
-    if (activity.sortingGroups.includes('diaries'))
-      return 'Achievement_Diaries_icon';
-    if (activity.sortingGroups.includes('music')) return 'Music';
-  }
-
-  return 'Collection_log';
+  return getIconForSortingGroup(activity.category) || 'Collection_log';
 }
 
 export function getIconForSortingGroup(

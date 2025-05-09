@@ -13,16 +13,9 @@
     ]
   },
   {
-    "id": "Abyssal_Area",
-    "category": "location",
-    "sortingGroups": ["location", "pvm", "misc"]
-  },
-  {
     "id": "Ancient_Magicks",
-    "caption": "50-94",
     "category": "spellbook",
     "sortingGroups": ["magic"],
-    "requiredLevel": 50,
     "notableDrops": [
       "Ancient_spellbook"
     ]
@@ -38,10 +31,8 @@
   },
   {
     "id": "Arceuus_spellbook",
-    "caption": "1-93",
     "category": "spellbook",
     "sortingGroups": ["magic"],
-    "requiredLevel": 1,
     "notableDrops": [
       "Arceuus_spellbook"
     ]
@@ -90,7 +81,7 @@
   },
   {
     "id": "Canoe",
-    "subtitle": "Travel",
+    "title": "Canoe Travel",
     "caption": "12-57",
     "category": "misc",
     "sortingGroups": ["woodcutting"],
@@ -98,6 +89,7 @@
   },
   {
     "id": "Champions'_Challenge",
+    "icon": "Champion's_cape",
     "category": "pvm",
     "sortingGroups": ["misc", "pvm"],
     "notableDrops": [
@@ -214,7 +206,7 @@
   {
     "id": "Dark_Chest",
     "category": "chest",
-    "sortingGroups": ["thieving"],
+    "sortingGroups": ["misc", "thieving"],
     "requiredLevel": 28,
     "notableDrops": [
       "Shield_left_half",
@@ -339,7 +331,7 @@
   {
     "id": "Grubby_Chest",
     "category": "chest",
-    "sortingGroups": ["thieving"],
+    "sortingGroups": ["misc", "thieving"],
     "requiredLevel": 57,
     "notableDrops": [
       "Egg_potato",
@@ -397,6 +389,7 @@
   },
   {
     "id": "Larran's_big_chest",
+    "title": "Larran's Chest",
     "category": "chest",
     "sortingGroups": ["misc", "slayer"],
     "notableDrops": [
@@ -437,10 +430,8 @@
   },
   {
     "id": "Lunar_spellbook",
-    "caption": "65-96",
     "category": "spellbook",
     "sortingGroups": ["magic"],
-    "requiredLevel": 65,
     "notableDrops": [
       "Lunar_spellbook"
     ]
@@ -532,19 +523,6 @@
     ]
   },
   {
-    "id": "Mor_Ul_Rek",
-    "category": "location",
-    "sortingGroups": [
-      "location",
-      "pvm",
-      "slayer",
-      "thieving",
-      "crafting",
-      "mining",
-      "fishing"
-    ]
-  },
-  {
     "id": "Muddy_chest",
     "category": "chest",
     "sortingGroups": ["misc"],
@@ -562,12 +540,6 @@
       "Blighted_anglerfish",
       "Blighted_super_restore(4)"
     ]
-  },
-  {
-    "id": "Portal_(Player-owned_house)",
-    "title": "House Portal",
-    "category": "portal",
-    "sortingGroups": ["construction"]
   },
   {
     "id": "Resource_Area",
@@ -591,40 +563,6 @@
       "Dark_crab",
       "Yew_logs",
       "Magic_logs"
-    ]
-  },
-  {
-    "id": "Ruins_of_Camdozaal",
-    "category": "location",
-    "sortingGroups": [
-      "location",
-      "mining",
-      "smithing",
-      "fishing",
-      "misc"
-    ],
-    "notableDrops": [
-      "Imcando_hammer",
-      "Barronite_mace",
-      "Ancient_globe",
-      "Ancient_astroscope",
-      "Ancient_carcanet",
-      "Ancient_ledger",
-      "Ancient_treatise"
-    ]
-  },
-  {
-    "id": "Sawmill",
-    "category": "misc",
-    "sortingGroups": ["construction"],
-    "notableDrops": [
-      "Plank",
-      "Oak_plank",
-      "Teak_plank",
-      "Mahogany_plank",
-      "Saw",
-      "Bolt_of_cloth",
-      "Steel_nails"
     ]
   },
   {

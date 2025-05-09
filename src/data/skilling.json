@@ -1,19 +1,5 @@
 [
   {
-    "id": "Abandoned_Mine",
-    "category": "skilling",
-    "sortingGroups": ["dungeon", "mining"],
-    "notableDrops": [
-      "Clay",
-      "Tin_ore",
-      "Copper_ore",
-      "Iron_ore",
-      "Coal",
-      "Mithril_ore",
-      "Adamantite_ore"
-    ]
-  },
-  {
     "id": "Achey_Tree",
     "category": "skilling",
     "sortingGroups": ["woodcutting"],
@@ -1349,7 +1335,7 @@
   },
   {
     "id": "Chest_(Isle_of_Souls_Dungeon)",
-    "title": "Isle of Souls Chest",
+    "title": "Isle of Souls Dungeon Chest",
     "category": "skilling",
     "requiredLevel": 28,
     "sortingGroups": ["thieving"],
@@ -3784,6 +3770,12 @@
     ]
   },
   {
+    "id": "Portal_(Player-owned_house)",
+    "title": "House Portal",
+    "category": "skilling",
+    "sortingGroups": ["construction"]
+  },
+  {
     "id": "Pottery_Oven",
     "caption": "1-25",
     "category": "skilling",
@@ -4137,6 +4129,20 @@
       "Crushed_nest",
       "#equals",
       "Saradomin_brew(3)"
+    ]
+  },
+  {
+    "id": "Sawmill",
+    "category": "skilling",
+    "sortingGroups": ["construction"],
+    "notableDrops": [
+      "Plank",
+      "Oak_plank",
+      "Teak_plank",
+      "Mahogany_plank",
+      "Saw",
+      "Bolt_of_cloth",
+      "Steel_nails"
     ]
   },
   {

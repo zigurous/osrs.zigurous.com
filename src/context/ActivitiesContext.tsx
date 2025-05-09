@@ -111,6 +111,7 @@ const dataQuery = graphql`
     guilds: allGuildsJson {
       nodes {
         id: jsonId
+        icon
         title
         subtitle
         caption

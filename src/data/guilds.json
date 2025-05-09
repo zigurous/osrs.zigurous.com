@@ -103,6 +103,7 @@
   },
   {
     "id": "Heroes'_Guild",
+    "icon": "Dragon_battleaxe",
     "category": "guild",
     "sortingGroups": ["location", "misc", "quest"],
     "notableDrops": [
@@ -127,6 +128,7 @@
   },
   {
     "id": "Legends'_Guild",
+    "icon": "Cape_of_legends",
     "category": "guild",
     "sortingGroups": ["location", "misc", "quest"],
     "notableDrops": [
@@ -160,6 +162,7 @@
   },
   {
     "id": "Myths'_Guild",
+    "icon": "Mythical_cape",
     "category": "guild",
     "sortingGroups": ["location", "misc", "quest"],
     "notableDrops": [
@@ -202,6 +205,7 @@
   },
   {
     "id": "Warriors'_Guild",
+    "icon": "Attack_icon",
     "category": "guild",
     "sortingGroups": ["location", "melee"],
     "notableDrops": [

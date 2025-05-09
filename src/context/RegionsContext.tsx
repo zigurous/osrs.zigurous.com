@@ -43,6 +43,7 @@ export function RegionsContextProvider({
             ...region.skilling,
             ...region.dungeons,
             ...region.monsters,
+            ...region.npcs,
             ...(region.misc || []),
           ]),
         ],
@@ -95,6 +96,7 @@ const dataQuery = graphql`
         guilds
         dungeons
         monsters
+        npcs
         misc
         pets
       }

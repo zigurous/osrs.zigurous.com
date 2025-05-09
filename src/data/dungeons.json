@@ -1,5 +1,19 @@
 [
   {
+    "id": "Abandoned_Mine",
+    "category": "dungeon",
+    "sortingGroups": ["dungeon", "mining"],
+    "notableDrops": [
+      "Clay",
+      "Tin_ore",
+      "Copper_ore",
+      "Iron_ore",
+      "Coal",
+      "Mithril_ore",
+      "Adamantite_ore"
+    ]
+  },
+  {
     "id": "Ancient_Cavern",
     "category": "dungeon",
     "sortingGroups": ["dungeon", "pvm"]
@@ -85,14 +99,7 @@
   {
     "id": "Forthos_Dungeon",
     "category": "dungeon",
-    "sortingGroups": [
-      "dungeon",
-      "pvm",
-      "prayer",
-      "crafting",
-      "thieving",
-      "herblore"
-    ],
+    "sortingGroups": ["dungeon", "pvm", "prayer", "crafting", "thieving", "herblore"],
     "notableDrops": [
       "Mask_of_ranul",
       "Tattered_sun_page",
@@ -210,6 +217,11 @@
     "sortingGroups": ["dungeon", "pvm"]
   },
   {
+    "id": "Mor_Ul_Rek",
+    "category": "dungeon",
+    "sortingGroups": ["dungeon", "pvm", "slayer", "thieving", "crafting", "mining", "fishing"]
+  },
+  {
     "id": "Morytania_Spider_Cave",
     "category": "dungeon",
     "sortingGroups": ["dungeon", "pvm", "slayer"]
@@ -248,6 +260,20 @@
     "id": "Revenant_Caves",
     "category": "dungeon",
     "sortingGroups": ["dungeon", "pvm", "pvp"]
+  },
+  {
+    "id": "Ruins_of_Camdozaal",
+    "category": "dungeon",
+    "sortingGroups": ["dungeon", "mining", "smithing", "fishing"],
+    "notableDrops": [
+      "Imcando_hammer",
+      "Barronite_mace",
+      "Ancient_globe",
+      "Ancient_astroscope",
+      "Ancient_carcanet",
+      "Ancient_ledger",
+      "Ancient_treatise"
+    ]
   },
   {
     "id": "Ruins_of_Tapoyauik",

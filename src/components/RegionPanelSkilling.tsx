@@ -32,7 +32,6 @@ export default function RegionPanelSkilling({
   );
 
   // sort activities so the selected categories always show first
-  // bosses and raids always show first
   const sortedActivities = useMemo(
     () =>
       activities.toSorted((a, b) => {
@@ -86,16 +85,11 @@ function filterActivity(activity: Activity) {
     return false;
   }
 
-  if (!activity.sortingGroups) {
-    return false;
-  }
-
-  if (activity.category === 'boss') {
-    return activity.subcategory === 'skilling';
-  }
-
-  if (activity.category === 'monster') {
-    return Boolean(activity.requiredLevel);
+  switch (activity.category) {
+    case 'boss':
+      return activity.subcategory === 'skilling';
+    case 'monster':
+      return Boolean(activity.requiredLevel);
   }
 
   return activity.sortingGroups.some(
