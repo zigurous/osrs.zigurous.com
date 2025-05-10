@@ -1,7 +1,6 @@
 import { Text } from '@zigurous/forge-react';
 import classNames from 'classnames';
 import React, { useState } from 'react';
-import AreaBadge from './AreaBadge';
 import RegionPanelBestInSlot from './RegionPanelBestInSlot';
 import RegionPanelBosses from './RegionPanelBosses';
 import RegionPanelOverview from './RegionPanelOverview';
@@ -34,8 +33,8 @@ export default function RegionPanel() {
     >
       {selectedRegion && (
         <>
-          <div className="region-panel__header">
-            <AreaBadge region={selectedRegion} hideText />
+          <div className="region-panel__header" id={selectedRegion.id}>
+            <div className="region-panel__backdrop" />
             <Text
               as="h1"
               className="region-panel__title"

@@ -23,27 +23,40 @@
 }
 
 .region-panel__header {
+  position: relative;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  padding: var(--spacing-md) var(--spacing-xl);
+  flex-shrink: 0;
   height: 96px;
   background-color: var(--color-surface-2);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
 }
 
-.region-panel__header > .area-badge {
-  transition: none;
-  will-change: unset;
-  opacity: unset;
-}
+.region-panel__header#asgarnia { background-image: url("https://oldschool.runescape.wiki/images/Falador_Diary.png"); }
+.region-panel__header#desert { background-image: url("https://oldschool.runescape.wiki/images/Kharidian_Desert.png"); }
+.region-panel__header#fremennik { background-image: url("https://oldschool.runescape.wiki/images/Rellekka_marketplace.png"); background-position: top; }
+.region-panel__header#kandarin { background-image: url("https://oldschool.runescape.wiki/images/Yanille.png"); }
+.region-panel__header#karamja { background-image: url("https://oldschool.runescape.wiki/images/Karamja.png"); }
+.region-panel__header#kourend { background-image: url("https://oldschool.runescape.wiki/images/Catacombs_of_Kourend.png"); }
+.region-panel__header#misthalin { background-image: url("https://oldschool.runescape.wiki/images/Varrock_Diary.png"); background-position: top; }
+.region-panel__header#morytania { background-image: url("https://oldschool.runescape.wiki/images/Morytania.png"); }
+.region-panel__header#tirannwn { background-image: url("https://oldschool.runescape.wiki/images/Prifddinas.png"); background-position: bottom; }
+.region-panel__header#varlamore { background-image: url("https://oldschool.runescape.wiki/images/Civitas_illa_Fortis.png"); }
+.region-panel__header#wilderness { background-image: url("https://oldschool.runescape.wiki/images/Wilderness.png"); background-position: bottom; }
 
 .region-panel__title {
-  font-family: "RuneScape", sans-serif;
-  font-size: 56px;
-  text-shadow: 3px 3px var(--color-shadow);
-  text-align: center;
-  margin-top: var(--spacing-xs);
-  margin-right: var(--spacing-xl);
+  position: relative;
+  margin-left: var(--spacing-xxl);
+  font-family: "PT Serif", serif;
+  text-shadow: 2px 4px 32px var(--color-shadow);
+  text-align: left;
+  /* text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px; */
 }
 
 .region-panel__tabs {

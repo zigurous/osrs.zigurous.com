@@ -49,7 +49,12 @@ export default function RegionPanelOverview({
   }, [region.id, context.getActivityById]);
   return (
     <RegionPanelSection title="Overview">
-      <Text className="text-pretty ml-sm mb-xxl" color="muted" type="body-sm">
+      <Text
+        className="text-pretty ml-sm mb-xxl"
+        color="muted"
+        type="body-sm"
+        style={{ marginTop: '-8px' }}
+      >
         {region.description}
       </Text>
       {activities.raids.length > 0 && (

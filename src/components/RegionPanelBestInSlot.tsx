@@ -22,7 +22,7 @@ export default function RegionPanelBestInSlot({
   return (
     <RegionPanelSection className="best-in-slot" title="Best In Slot">
       <div className="flex flex-col justify-end ml-sm mb-xxl">
-        <div>
+        <div className="ml-xxs">
           <Toggle
             id="leagues-toggle"
             label="Leagues"
