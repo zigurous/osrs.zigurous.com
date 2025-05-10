@@ -141,7 +141,6 @@ export const iconOrder = [
   'Thieving_icon',
   'Crafting_icon',
   'Fletching_icon',
-  'Flax',
   'Slayer_icon',
   'Hunter_icon',
   'Mining_icon',
@@ -152,6 +151,7 @@ export const iconOrder = [
   'Woodcutting_icon',
   'Farming_icon',
   // other
+  'Flax',
   'Crystal_key',
   'Minigame_icon',
   'Quest_point_icon',

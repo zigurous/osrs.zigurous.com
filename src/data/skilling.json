@@ -644,6 +644,22 @@
     ]
   },
   {
+    "id": "Arrows",
+    "caption": "1-90",
+    "category": "skilling",
+    "requiredLevel": 1,
+    "sortingGroups": ["fletching"],
+    "notableDrops": [
+      "Bronze_arrow",
+      "Iron_arrow",
+      "Steel_arrow",
+      "Mithril_arrow",
+      "Adamant_arrow",
+      "Rune_arrow",
+      "Dragon_arrow"
+    ]
+  },
+  {
     "id": "Ash_pile",
     "category": "skilling",
     "sortingGroups": ["mining", "crafting", "farming"],
@@ -906,11 +922,14 @@
   },
   {
     "id": "Black_dragonhide_armour",
+    "title": "Black Dragonhide",
     "caption": "79-84",
     "category": "skilling",
     "sortingGroups": ["crafting"],
     "requiredLevel": 79,
     "notableDrops": [
+      "Black_dragon_leather",
+      "#transmute",
       "Black_d'hide_vambraces",
       "Black_d'hide_chaps",
       "Black_d'hide_shield",
@@ -985,11 +1004,14 @@
   },
   {
     "id": "Blue_dragonhide_armour",
+    "title": "Blue Dragonhide",
     "caption": "66-71",
     "category": "skilling",
     "sortingGroups": ["crafting"],
     "requiredLevel": 66,
     "notableDrops": [
+      "Blue_dragon_leather",
+      "#transmute",
       "Blue_d'hide_vambraces",
       "Blue_d'hide_chaps",
       "Blue_d'hide_shield",
@@ -1029,6 +1051,22 @@
     "notableDrops": [
       "Body_rune",
       "Body_tiara"
+    ]
+  },
+  {
+    "id": "Bolts",
+    "caption": "9-84",
+    "category": "skilling",
+    "requiredLevel": 9,
+    "sortingGroups": ["fletching"],
+    "notableDrops": [
+      "Bronze_bolts",
+      "Iron_bolts",
+      "Steel_bolts",
+      "Mithril_bolts",
+      "Adamant_bolts",
+      "Runite_bolts",
+      "Dragon_bolts"
     ]
   },
   {
@@ -1737,6 +1775,22 @@
     ]
   },
   {
+    "id": "Darts",
+    "caption": "10-95",
+    "category": "skilling",
+    "requiredLevel": 10,
+    "sortingGroups": ["fletching"],
+    "notableDrops": [
+      "Bronze_dart",
+      "Iron_dart",
+      "Steel_dart",
+      "Mithril_dart",
+      "Adamant_dart",
+      "Rune_dart",
+      "Dragon_dart"
+    ]
+  },
+  {
     "id": "Dead_tree",
     "category": "skilling",
     "sortingGroups": ["woodcutting"],
@@ -2291,7 +2345,7 @@
     "subtitle": "Al Kharid",
     "caption": "30 tiles",
     "category": "skilling",
-    "sortingGroups": ["smithing", "crafting"],
+    "sortingGroups": ["smithing"],
     "requiredLevel": 1
   },
   {
@@ -2302,7 +2356,7 @@
     "subtitle": "Ardougne",
     "caption": "56 tiles",
     "category": "skilling",
-    "sortingGroups": ["smithing", "crafting"],
+    "sortingGroups": ["smithing"],
     "requiredLevel": 1
   },
   {
@@ -2313,7 +2367,7 @@
     "subtitle": "Burgh de Rott",
     "caption": "31 tiles",
     "category": "skilling",
-    "sortingGroups": ["smithing", "crafting"],
+    "sortingGroups": ["smithing"],
     "requiredLevel": 1
   },
   {
@@ -2324,7 +2378,7 @@
     "subtitle": "Cam Torum",
     "caption": "28 tiles",
     "category": "skilling",
-    "sortingGroups": ["smithing", "crafting"],
+    "sortingGroups": ["smithing"],
     "requiredLevel": 1
   },
   {
@@ -2335,7 +2389,7 @@
     "subtitle": "Civitas illa Fortis",
     "caption": "22 tiles",
     "category": "skilling",
-    "sortingGroups": ["smithing", "crafting"],
+    "sortingGroups": ["smithing"],
     "requiredLevel": 1
   },
   {
@@ -2346,7 +2400,7 @@
     "subtitle": "Edgeville",
     "caption": "14 tiles",
     "category": "skilling",
-    "sortingGroups": ["smithing", "crafting"],
+    "sortingGroups": ["smithing"],
     "requiredLevel": 1
   },
   {
@@ -2357,7 +2411,7 @@
     "subtitle": "Falador",
     "caption": "40 tiles",
     "category": "skilling",
-    "sortingGroups": ["smithing", "crafting"],
+    "sortingGroups": ["smithing"],
     "requiredLevel": 1
   },
   {
@@ -2368,7 +2422,7 @@
     "subtitle": "Lovakengj",
     "caption": "34 tiles",
     "category": "skilling",
-    "sortingGroups": ["smithing", "crafting"],
+    "sortingGroups": ["smithing"],
     "requiredLevel": 1
   },
   {
@@ -2379,7 +2433,7 @@
     "subtitle": "Lumbridge",
     "caption": "85 tiles",
     "category": "skilling",
-    "sortingGroups": ["smithing", "crafting"],
+    "sortingGroups": ["smithing"],
     "requiredLevel": 1
   },
   {
@@ -2390,7 +2444,7 @@
     "subtitle": "Mor Ul Rek",
     "caption": "20 tiles",
     "category": "skilling",
-    "sortingGroups": ["smithing", "crafting"],
+    "sortingGroups": ["smithing"],
     "requiredLevel": 1
   },
   {
@@ -2401,7 +2455,7 @@
     "subtitle": "Mount Karuulm",
     "caption": "15 tiles",
     "category": "skilling",
-    "sortingGroups": ["smithing", "crafting"],
+    "sortingGroups": ["smithing"],
     "requiredLevel": 1
   },
   {
@@ -2412,7 +2466,7 @@
     "subtitle": "Neitiznot",
     "caption": "15 tiles",
     "category": "skilling",
-    "sortingGroups": ["smithing", "crafting"],
+    "sortingGroups": ["smithing"],
     "requiredLevel": 1
   },
   {
@@ -2423,7 +2477,7 @@
     "subtitle": "Piscatoris",
     "caption": "20 tiles",
     "category": "skilling",
-    "sortingGroups": ["smithing", "crafting"],
+    "sortingGroups": ["smithing"],
     "requiredLevel": 1
   },
   {
@@ -2434,7 +2488,7 @@
     "subtitle": "Port Phasmatys",
     "caption": "16 tiles",
     "category": "skilling",
-    "sortingGroups": ["smithing", "crafting"],
+    "sortingGroups": ["smithing"],
     "requiredLevel": 1
   },
   {
@@ -2445,7 +2499,7 @@
     "subtitle": "Prifddinas",
     "caption": "11 tiles",
     "category": "skilling",
-    "sortingGroups": ["smithing", "crafting"],
+    "sortingGroups": ["smithing"],
     "requiredLevel": 1
   },
   {
@@ -2456,7 +2510,7 @@
     "subtitle": "Rellekka",
     "caption": "96 tiles",
     "category": "skilling",
-    "sortingGroups": ["smithing", "crafting"],
+    "sortingGroups": ["smithing"],
     "requiredLevel": 1
   },
   {
@@ -2467,7 +2521,7 @@
     "subtitle": "Resource Area",
     "caption": "109 tiles",
     "category": "skilling",
-    "sortingGroups": ["smithing", "crafting"],
+    "sortingGroups": ["smithing"],
     "requiredLevel": 1
   },
   {
@@ -2478,7 +2532,7 @@
     "subtitle": "Shilo Village",
     "caption": "10 tiles",
     "category": "skilling",
-    "sortingGroups": ["smithing", "crafting"],
+    "sortingGroups": ["smithing"],
     "requiredLevel": 1
   },
   {
@@ -2489,7 +2543,7 @@
     "subtitle": "Ruins (Level 28)",
     "caption": "116 tiles",
     "category": "skilling",
-    "sortingGroups": ["smithing", "crafting"],
+    "sortingGroups": ["smithing"],
     "requiredLevel": 1
   },
   {
@@ -2500,7 +2554,7 @@
     "subtitle": "Zanaris",
     "caption": "52 tiles",
     "category": "skilling",
-    "sortingGroups": ["smithing", "crafting"],
+    "sortingGroups": ["smithing"],
     "requiredLevel": 1
   },
   {
@@ -2671,11 +2725,14 @@
   },
   {
     "id": "Green_dragonhide_armour",
+    "title": "Green Dragonhide",
     "caption": "57-63",
     "category": "skilling",
     "sortingGroups": ["crafting"],
     "requiredLevel": 57,
     "notableDrops": [
+      "Green_dragon_leather",
+      "#transmute",
       "Green_d'hide_vambraces",
       "Green_d'hide_chaps",
       "Green_d'hide_shield",
@@ -2869,11 +2926,14 @@
   },
   {
     "id": "Hueycoatl_hide_armour",
+    "title": "Hueycoatl Hide",
     "caption": "86-88",
     "category": "skilling",
     "sortingGroups": ["crafting"],
     "requiredLevel": 86,
     "notableDrops": [
+      "Hueycoatl_hide",
+      "#transmute",
       "Hueycoatl_hide_vambraces",
       "Hueycoatl_hide_coif",
       "Hueycoatl_hide_chaps",
@@ -3093,6 +3153,7 @@
   },
   {
     "id": "Leather_armour",
+    "title": "Leather",
     "caption": "1-44",
     "category": "skilling",
     "sortingGroups": ["crafting"],
@@ -3499,11 +3560,14 @@
   },
   {
     "id": "Mixed_hide_armour",
+    "title": "Mixed Hide",
     "caption": "68-72",
     "category": "skilling",
     "sortingGroups": ["crafting"],
     "requiredLevel": 68,
     "notableDrops": [
+      "Mixed_hide_base",
+      "#transmute",
       "Mixed_hide_cape",
       "Mixed_hide_boots",
       "Mixed_hide_legs",
@@ -3854,11 +3918,14 @@
   },
   {
     "id": "Red_dragonhide_armour",
+    "title": "Red Dragonhide",
     "caption": "73-77",
     "category": "skilling",
     "sortingGroups": ["crafting"],
     "requiredLevel": 73,
     "notableDrops": [
+      "Red_dragon_leather",
+      "#transmute",
       "Red_d'hide_vambraces",
       "Red_d'hide_chaps",
       "Red_d'hide_shield",
@@ -4470,6 +4537,7 @@
   },
   {
     "id": "Snakeskin_armour",
+    "title": "Snakeskin",
     "caption": "45-56",
     "category": "skilling",
     "sortingGroups": ["crafting"],
@@ -4559,6 +4627,7 @@
   },
   {
     "id": "Splitbark_armour",
+    "title": "Splitbark",
     "caption": "60-62",
     "category": "skilling",
     "sortingGroups": ["crafting"],
@@ -4852,6 +4921,22 @@
     "requiredLevel": 29,
     "notableDrops": [
       "Swamp_lizard_(Hunter)"
+    ]
+  },
+  {
+    "id": "Swamp_tar",
+    "caption": "19-55",
+    "category": "skilling",
+    "sortingGroups": ["herblore"],
+    "requiredLevel": 19,
+    "notableDrops": [
+      "Swamp_tar",
+      "#transmute",
+      "Guam_tar",
+      "Marrentill_tar",
+      "Tarromin_tar",
+      "Harralander_tar",
+      "Irit_tar"
     ]
   },
   {
@@ -5261,6 +5346,8 @@
     "sortingGroups": ["crafting"],
     "requiredLevel": 14,
     "notableDrops": [
+      "Xerician_fabric",
+      "#transmute",
       "Xerician_hat",
       "Xerician_robe",
       "Xerician_top"
@@ -5268,11 +5355,14 @@
   },
   {
     "id": "Yak-hide_armour",
+    "title": "Yak-Hide",
     "caption": "43-46",
     "category": "skilling",
     "sortingGroups": ["crafting"],
     "requiredLevel": 43,
     "notableDrops": [
+      "Yak-hide",
+      "#transmute",
       "Yak-hide_armour_(legs)",
       "Yak-hide_armour_(top)"
     ]

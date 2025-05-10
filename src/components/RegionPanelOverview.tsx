@@ -119,7 +119,7 @@ function ActivityListItem({ activity }: { activity: Activity }) {
             alt=""
             aria-hidden
             className="object-contain w-full h-full"
-            src={`https://oldschool.runescape.wiki/images/${getIconForActivity(activity)}.png`}
+            src={`https://oldschool.runescape.wiki/images/${activity.icon || getIconForActivity(activity)}.png`}
           />
         </div>
         <div className="flex align-center justify-between w-full ml-md">

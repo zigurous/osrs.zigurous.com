@@ -60,7 +60,11 @@ export function getAssociatedSkill(activity: Activity): Skill | undefined {
 }
 
 export function getIconForActivity(activity: Activity): string | undefined {
-  if (activity.icon) {
+  if (
+    activity.icon &&
+    activity.category !== 'boss' &&
+    activity.category !== 'raid'
+  ) {
     return activity.icon;
   }
 
