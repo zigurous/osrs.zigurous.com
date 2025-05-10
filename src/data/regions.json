@@ -166,7 +166,10 @@
       "Turael"
     ],
     "misc": [
-      "Crystal_chest"
+      "Crystal_chest",
+      "Ghommal",
+      "Mac",
+      "Portal_(Player-owned_house)"
     ],
     "pets": [
       "Baby_mole",
@@ -290,6 +293,9 @@
       "Surgeon_General_Tafani",
       "Wesley",
       "Zahur"
+    ],
+    "misc": [
+      "Portal_(Player-owned_house)"
     ],
     "pets": [
       "Abyssal_protector",
@@ -445,7 +451,9 @@
       "Stonemason"
     ],
     "misc": [
-      "Managing_Miscellania"
+      "Managing_Miscellania",
+      "Olaf_the_Bard",
+      "Portal_(Player-owned_house)"
     ],
     "pets": [
       "Baron",
@@ -652,6 +660,7 @@
     "misc": [
       "Creature_Creation",
       "Chompy_bird_hunting",
+      "Portal_(Player-owned_house)",
       "Sinister_chest"
     ],
     "pets": [
@@ -762,6 +771,9 @@
     "npcs": [
       "Cap'n_Izzy_No-Beard",
       "Duradel"
+    ],
+    "misc": [
+      "Portal_(Player-owned_house)"
     ],
     "pets": [
       "Jal-nib-rek",
@@ -969,7 +981,8 @@
     "misc": [
       "Brimstone_chest",
       "Combat_Ring_(Shayzien)",
-      "Grubby_Chest"
+      "Grubby_Chest",
+      "Portal_(Player-owned_house)"
     ],
     "pets": [
       "Ikkle_hydra",
@@ -1175,7 +1188,9 @@
     ],
     "misc": [
       "Champions'_Challenge",
-      "Dark_Chest"
+      "Dark_Chest",
+      "Twiggy_O'Korn",
+      "Wise_Old_Man"
     ],
     "pets": [
       "Abyssal_orphan",
@@ -1426,7 +1441,8 @@
       "Friendly_Forester"
     ],
     "misc": [
-      "Elven_Crystal_Chest"
+      "Elven_Crystal_Chest",
+      "Portal_(Player-owned_house)"
     ],
     "pets": [
       "Pet_snakeling",
@@ -1579,7 +1595,8 @@
       "Metla"
     ],
     "misc": [
-      "Moon_chest"
+      "Moon_chest",
+      "Portal_(Player-owned_house)"
     ],
     "pets": [
       "Butch",

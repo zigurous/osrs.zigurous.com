@@ -172,6 +172,7 @@
   },
   {
     "id": "Ghommal",
+    "icon": "Ghommal's_lucky_penny",
     "subtitle": "Combat Achievements",
     "category": "npc",
     "sortingGroups": ["pvm"],
@@ -306,10 +307,10 @@
   },
   {
     "id": "Mac",
-    "subtitle": "Skill Master",
     "icon": "Stats_icon",
+    "subtitle": "Skill Master",
     "category": "npc",
-    "sortingGroups": ["misc", "skilling"],
+    "sortingGroups": ["misc"],
     "notableDrops": [
       "Max_hood",
       "Max_cape"
@@ -425,6 +426,7 @@
   },
   {
     "id": "Olaf_the_Bard",
+    "icon": "Music",
     "category": "npc",
     "sortingGroups": ["misc", "music"],
     "notableDrops": [
@@ -537,6 +539,7 @@
   },
   {
     "id": "Twiggy_O'Korn",
+    "icon": "Achievement_Diaries_icon",
     "category": "npc",
     "sortingGroups": ["misc", "diaries"],
     "notableDrops": [
@@ -559,6 +562,7 @@
   },
   {
     "id": "Wise_Old_Man",
+    "icon": "Quest_point_icon",
     "category": "npc",
     "sortingGroups": ["misc", "quest"],
     "notableDrops": [
