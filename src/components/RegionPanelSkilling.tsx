@@ -87,7 +87,10 @@ function filterActivity(activity: Activity) {
 
   switch (activity.category) {
     case 'boss':
-      return activity.subcategory === 'skilling';
+      return (
+        activity.subcategory === 'skilling' ||
+        activity.sortingGroups[0] === 'slayer'
+      );
     case 'monster':
       return Boolean(activity.requiredLevel);
   }

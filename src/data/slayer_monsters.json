@@ -469,8 +469,9 @@
     "id": "Black_demon",
     "icon": "Black_demon_mask",
     "category": "monster",
-    "sortingGroups": ["pvm", "slayer"],
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 80,
+    "requiredSlayerLevel": 1,
     "slayerMasters": [
       "Krystilia",
       "Chaeldar",
@@ -493,8 +494,9 @@
   {
     "id": "Black_dragon",
     "category": "monster",
-    "sortingGroups": ["pvm", "slayer", "crafting"],
+    "sortingGroups": ["slayer", "pvm", "crafting"],
     "requiredCombatLevel": 80,
+    "requiredSlayerLevel": 1,
     "slayerMasters": [
       "Krystilia",
       "Konar_quo_Maten",
@@ -558,8 +560,9 @@
     "id": "Blue_dragon",
     "icon": "Blue_dragon_mask",
     "category": "monster",
-    "sortingGroups": ["pvm", "slayer", "crafting", "herblore"],
+    "sortingGroups": ["slayer", "pvm", "crafting", "herblore"],
     "requiredCombatLevel": 65,
+    "requiredSlayerLevel": 1,
     "slayerMasters": [
       "Vannaka",
       "Chaeldar",
@@ -1534,8 +1537,9 @@
     "id": "Greater_demon",
     "icon": "Greater_demon_mask",
     "category": "monster",
-    "sortingGroups": ["pvm", "slayer"],
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 70,
+    "requiredSlayerLevel": 1,
     "slayerMasters": [
       "Krystilia",
       "Chaeldar",
@@ -1949,8 +1953,9 @@
     "id": "Iron_dragon",
     "icon": "Iron_dragon_mask",
     "category": "monster",
-    "sortingGroups": ["pvm", "slayer"],
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 80,
+    "requiredSlayerLevel": 1,
     "slayerMasters": [
       "Konar_quo_Maten",
       "Nieve",
@@ -2194,8 +2199,9 @@
     "id": "Lesser_demon",
     "icon": "Lesser_demon_mask",
     "category": "monster",
-    "sortingGroups": ["pvm", "slayer"],
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 60,
+    "requiredSlayerLevel": 1,
     "slayerMasters": [
       "Krystilia",
       "Vannaka",
@@ -2604,8 +2610,9 @@
   {
     "id": "Red_dragon",
     "category": "monster",
-    "sortingGroups": ["pvm", "slayer", "crafting"],
+    "sortingGroups": ["slayer", "pvm", "crafting"],
     "requiredCombatLevel": 68,
+    "requiredSlayerLevel": 1,
     "slayerMasters": [
       "Konar_quo_Maten",
       "Nieve",
@@ -3014,8 +3021,9 @@
     "id": "Steel_dragon",
     "icon": "Steel_dragon_mask",
     "category": "monster",
-    "sortingGroups": ["pvm", "slayer"],
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 85,
+    "requiredSlayerLevel": 1,
     "slayerMasters": [
       "Konar_quo_Maten",
       "Nieve",
@@ -3420,8 +3428,9 @@
     "id": "Waterfiend",
     "icon": "Circlet_of_water",
     "category": "monster",
-    "sortingGroups": ["pvm", "slayer"],
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 75,
+    "requiredSlayerLevel": 1,
     "slayerMasters": [
       "Konar_quo_Maten",
       "Duradel"
