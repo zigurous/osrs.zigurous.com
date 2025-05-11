@@ -1201,6 +1201,10 @@
     "icon": "Mermaid's_tear_5"
   },
   {
+    "id": "Minnow",
+    "icon": "Minnow_5"
+  },
+  {
     "id": "Mithril_ore",
     "transmutations": [
       "#plus",

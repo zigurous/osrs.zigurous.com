@@ -491,8 +491,8 @@
       "Maple_logs",
       "Teak_logs",
       "Mahogany_logs",
-      "Tuna",
-      "Swordfish",
+      "Raw_tuna",
+      "Raw_swordfish",
       "Bird_nest"
     ]
   },
@@ -560,7 +560,7 @@
       "Mithril_ore",
       "Adamantite_ore",
       "Runite_ore",
-      "Dark_crab",
+      "Raw_dark_crab",
       "Yew_logs",
       "Magic_logs"
     ]

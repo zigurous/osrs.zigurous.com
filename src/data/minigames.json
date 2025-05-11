@@ -139,6 +139,13 @@
     "sortingGroups": ["fishing"],
     "requiredLevel": 15,
     "notableDrops": [
+      "Raw_anchovies",
+      "Raw_tuna",
+      "Raw_lobster",
+      "Raw_swordfish",
+      "Raw_shark",
+      "Raw_sea_turtle",
+      "Raw_manta_ray",
       "Angler_hat",
       "Angler_top",
       "Angler_waders",

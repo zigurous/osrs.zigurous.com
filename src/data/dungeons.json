@@ -264,7 +264,7 @@
   {
     "id": "Ruins_of_Camdozaal",
     "category": "dungeon",
-    "sortingGroups": ["dungeon", "mining", "smithing", "fishing"],
+    "sortingGroups": ["dungeon", "mining", "smithing"],
     "notableDrops": [
       "Imcando_hammer",
       "Barronite_mace",

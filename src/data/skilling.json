@@ -46,7 +46,12 @@
     "requiredLevel": 43,
     "notableDrops": [
       "Molch_pearl",
-      "#transmute",
+      "Bluegill",
+      "Golden_tench",
+      "Common_tench",
+      "Mottled_eel",
+      "Greater_siren",
+      "#newline",
       "Angler's_outfit",
       "Pearl_fishing_rod",
       "Pearl_fly_fishing_rod",
@@ -803,6 +808,21 @@
     "sortingGroups": ["agility"],
     "notableDrops": [
       "Mark_of_grace"
+    ]
+  },
+  {
+    "id": "Barbarian_Training#Fishing",
+    "title": "Barbarian Fishing",
+    "caption": "48-70",
+    "category": "skilling",
+    "sortingGroups": ["fishing"],
+    "requiredLevel": 48,
+    "notableDrops": [
+      "Barbarian_rod",
+      "#transmute",
+      "Leaping_trout",
+      "Leaping_salmon",
+      "Leaping_sturgeon"
     ]
   },
   {
@@ -3009,6 +3029,20 @@
     ]
   },
   {
+    "id": "Infernal_eel",
+    "category": "skilling",
+    "sortingGroups": ["fishing"],
+    "requiredLevel": 80,
+    "notableDrops": [
+      "Oily_fishing_rod",
+      "#plus",
+      "Fishing_bait",
+      "#transmute",
+      "Infernal_eel",
+      "Tokkul"
+    ]
+  },
+  {
     "id": "Iron_bars",
     "caption": "15-33",
     "category": "skilling",
@@ -3524,6 +3558,19 @@
     ]
   },
   {
+    "id": "Minnows",
+    "category": "skilling",
+    "sortingGroups": ["fishing"],
+    "requiredLevel": 82,
+    "notableDrops": [
+      "Small_fishing_net",
+      "#transmute",
+      "Minnow",
+      "#transmute",
+      "Raw_shark"
+    ]
+  },
+  {
     "id": "Mist_runes",
     "category": "skilling",
     "requiredLevel": 6,
@@ -3917,6 +3964,292 @@
     ]
   },
   {
+    "id": "Raw_anchovies",
+    "title": "Anchovies",
+    "category": "skilling",
+    "sortingGroups": ["fishing"],
+    "requiredLevel": 15,
+    "notableDrops": [
+      "Small_fishing_net",
+      "#transmute",
+      "Raw_anchovies"
+    ]
+  },
+  {
+    "id": "Raw_anglerfish",
+    "title": "Anglerfish",
+    "category": "skilling",
+    "sortingGroups": ["fishing"],
+    "requiredLevel": 82,
+    "notableDrops": [
+      "Fishing_rod",
+      "#plus",
+      "Sandworms",
+      "#transmute",
+      "Raw_anglerfish"
+    ]
+  },
+  {
+    "id": "Raw_bass",
+    "title": "Bass",
+    "category": "skilling",
+    "sortingGroups": ["fishing"],
+    "requiredLevel": 46,
+    "notableDrops": [
+      "Big_fishing_net",
+      "#transmute",
+      "Raw_bass"
+    ]
+  },
+  {
+    "id": "Raw_cave_eel",
+    "title": "Cave Eel",
+    "category": "skilling",
+    "sortingGroups": ["fishing"],
+    "requiredLevel": 38,
+    "notableDrops": [
+      "Fishing_rod",
+      "#plus",
+      "Fishing_bait",
+      "#transmute",
+      "Raw_cave_eel"
+    ]
+  },
+  {
+    "id": "Raw_cod",
+    "title": "Cod",
+    "category": "skilling",
+    "sortingGroups": ["fishing"],
+    "requiredLevel": 23,
+    "notableDrops": [
+      "Big_fishing_net",
+      "#transmute",
+      "Raw_cod"
+    ]
+  },
+  {
+    "id": "Raw_dark_crab",
+    "title": "Dark Crab",
+    "category": "skilling",
+    "sortingGroups": ["fishing"],
+    "requiredLevel": 85,
+    "notableDrops": [
+      "Lobster_pot",
+      "#plus",
+      "Dark_fishing_bait",
+      "#transmute",
+      "Raw_dark_crab"
+    ]
+  },
+  {
+    "id": "Raw_herring",
+    "title": "Herring",
+    "category": "skilling",
+    "sortingGroups": ["fishing"],
+    "requiredLevel": 10,
+    "notableDrops": [
+      "Fishing_rod",
+      "#plus",
+      "Fishing_bait",
+      "#transmute",
+      "Raw_herring"
+    ]
+  },
+  {
+    "id": "Raw_karambwan",
+    "title": "Karambwan",
+    "category": "skilling",
+    "sortingGroups": ["fishing"],
+    "requiredLevel": 65,
+    "notableDrops": [
+      "Karambwan_vessel",
+      "#plus",
+      "Raw_karambwanji",
+      "#transmute",
+      "Raw_karambwan"
+    ]
+  },
+  {
+    "id": "Raw_karambwanji",
+    "title": "Karambwanji",
+    "category": "skilling",
+    "sortingGroups": ["fishing"],
+    "requiredLevel": 5,
+    "notableDrops": [
+      "Small_fishing_net",
+      "#transmute",
+      "Raw_karambwanji"
+    ]
+  },
+  {
+    "id": "Raw_lava_eel",
+    "title": "Lava Eel",
+    "category": "skilling",
+    "sortingGroups": ["fishing"],
+    "requiredLevel": 53,
+    "notableDrops": [
+      "Oily_fishing_rod",
+      "#plus",
+      "Fishing_bait",
+      "#transmute",
+      "Raw_lava_eel"
+    ]
+  },
+  {
+    "id": "Raw_lobster",
+    "title": "Lobster",
+    "category": "skilling",
+    "sortingGroups": ["fishing"],
+    "requiredLevel": 40,
+    "notableDrops": [
+      "Lobster_pot",
+      "#transmute",
+      "Raw_lobster"
+    ]
+  },
+  {
+    "id": "Raw_mackerel",
+    "title": "Mackerel",
+    "category": "skilling",
+    "sortingGroups": ["fishing"],
+    "requiredLevel": 16,
+    "notableDrops": [
+      "Big_fishing_net",
+      "#transmute",
+      "Raw_mackerel"
+    ]
+  },
+  {
+    "id": "Raw_monkfish",
+    "title": "Monkfish",
+    "category": "skilling",
+    "sortingGroups": ["fishing"],
+    "requiredLevel": 62,
+    "notableDrops": [
+      "Small_fishing_net",
+      "#transmute",
+      "Raw_monkfish"
+    ]
+  },
+  {
+    "id": "Raw_pike",
+    "title": "Pike",
+    "category": "skilling",
+    "sortingGroups": ["fishing"],
+    "requiredLevel": 25,
+    "notableDrops": [
+      "Fishing_rod",
+      "#plus",
+      "Fishing_bait",
+      "#transmute",
+      "Raw_pike"
+    ]
+  },
+  {
+    "id": "Raw_salmon",
+    "title": "Salmon",
+    "category": "skilling",
+    "sortingGroups": ["fishing"],
+    "requiredLevel": 30,
+    "notableDrops": [
+      "Fly_fishing_rod",
+      "#plus",
+      "Feather",
+      "#transmute",
+      "Raw_salmon"
+    ]
+  },
+  {
+    "id": "Raw_sardine",
+    "title": "Sardine",
+    "category": "skilling",
+    "sortingGroups": ["fishing"],
+    "requiredLevel": 5,
+    "notableDrops": [
+      "Fishing_rod",
+      "#plus",
+      "Fishing_bait",
+      "#transmute",
+      "Raw_sardine"
+    ]
+  },
+  {
+    "id": "Raw_shark",
+    "title": "Sharks",
+    "category": "skilling",
+    "sortingGroups": ["fishing"],
+    "requiredLevel": 76,
+    "notableDrops": [
+      "Harpoon",
+      "#transmute",
+      "Raw_shark"
+    ]
+  },
+  {
+    "id": "Raw_shrimp",
+    "title": "Shrimp",
+    "category": "skilling",
+    "sortingGroups": ["fishing"],
+    "requiredLevel": 1,
+    "notableDrops": [
+      "Small_fishing_net",
+      "#transmute",
+      "Raw_shrimps"
+    ]
+  },
+  {
+    "id": "Raw_slimy_eel",
+    "title": "Slimy Eel",
+    "category": "skilling",
+    "sortingGroups": ["fishing"],
+    "requiredLevel": 28,
+    "notableDrops": [
+      "Fishing_rod",
+      "#plus",
+      "Fishing_bait",
+      "#transmute",
+      "Raw_slimy_eel"
+    ]
+  },
+  {
+    "id": "Raw_swordfish",
+    "title": "Swordfish",
+    "category": "skilling",
+    "sortingGroups": ["fishing"],
+    "requiredLevel": 50,
+    "notableDrops": [
+      "Harpoon",
+      "#transmute",
+      "Raw_swordfish"
+    ]
+  },
+  {
+    "id": "Raw_trout",
+    "title": "Trout",
+    "category": "skilling",
+    "sortingGroups": ["fishing"],
+    "requiredLevel": 20,
+    "notableDrops": [
+      "Fly_fishing_rod",
+      "#plus",
+      "Feather",
+      "#transmute",
+      "Raw_trout"
+    ]
+  },
+  {
+    "id": "Raw_tuna",
+    "title": "Tuna",
+    "category": "skilling",
+    "sortingGroups": ["fishing"],
+    "requiredLevel": 35,
+    "notableDrops": [
+      "Harpoon",
+      "#transmute",
+      "Raw_tuna"
+    ]
+  },
+  {
     "id": "Red_dragonhide_armour",
     "title": "Red Dragonhide",
     "caption": "73-77",
@@ -4059,6 +4392,23 @@
     ]
   },
   {
+    "id": "Ruins_of_Camdozaal#Fishing",
+    "title": "Ruins of Camdozaal",
+    "caption": "7-46",
+    "category": "skilling",
+    "sortingGroups": ["fishing"],
+    "requiredLevel": 7,
+    "notableDrops": [
+      "Raw_guppy",
+      "Raw_cavefish",
+      "Raw_slimy_eel",
+      "Frog_spawn",
+      "Raw_tetra",
+      "Raw_cave_eel",
+      "Raw_catfish"
+    ]
+  },
+  {
     "id": "Rune_essence_mine",
     "category": "skilling",
     "sortingGroups": ["mining", "runecraft"],
@@ -4120,6 +4470,20 @@
       "Bronze_scimitar",
       "Bronze_warhammer",
       "Bronze_platebody"
+    ]
+  },
+  {
+    "id": "Sacred_eel",
+    "category": "skilling",
+    "sortingGroups": ["fishing"],
+    "requiredLevel": 87,
+    "notableDrops": [
+      "Fishing_rod",
+      "#plus",
+      "Fishing_bait",
+      "#transmute",
+      "Sacred_eel",
+      "Zulrah's_scales"
     ]
   },
   {
