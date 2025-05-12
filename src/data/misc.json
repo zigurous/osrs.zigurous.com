@@ -594,12 +594,7 @@
   {
     "id": "Zanaris",
     "category": "location",
-    "sortingGroups": [
-      "location",
-      "runecraft",
-      "crafting",
-      "cooking"
-    ]
+    "sortingGroups": ["location", "runecraft"]
   },
   {
     "id": "Zombie_Pirate's_Locker",

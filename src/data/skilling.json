@@ -244,6 +244,17 @@
     ]
   },
   {
+    "id": "Anglerfish",
+    "category": "skilling",
+    "sortingGroups": ["cooking"],
+    "requiredLevel": 84,
+    "notableDrops": [
+      "Raw_anglerfish",
+      "#transmute",
+      "Anglerfish"
+    ]
+  },
+  {
     "id": "Anima_patch",
     "category": "skilling",
     "sortingGroups": ["farming"],
@@ -854,6 +865,17 @@
     ]
   },
   {
+    "id": "Bass",
+    "category": "skilling",
+    "sortingGroups": ["cooking"],
+    "requiredLevel": 43,
+    "notableDrops": [
+      "Raw_bass",
+      "#transmute",
+      "Bass"
+    ]
+  },
+  {
     "id": "Bastion_potion",
     "category": "skilling",
     "sortingGroups": ["herblore"],
@@ -1155,6 +1177,40 @@
       "Runite_bolts",
       "#equals",
       "Onyx_bolts"
+    ]
+  },
+  {
+    "id": "Bread",
+    "category": "skilling",
+    "sortingGroups": ["cooking"],
+    "requiredLevel": 1,
+    "notableDrops": [
+      "Pot_of_flour",
+      "#plus",
+      "Bucket_of_water",
+      "#transmute",
+      "Bread_dough",
+      "#transmute",
+      "Bread"
+    ]
+  },
+  {
+    "id": "Brewing",
+    "caption": "14-59",
+    "category": "skilling",
+    "sortingGroups": ["cooking"],
+    "requiredLevel": 14,
+    "notableDrops": [
+      "Cider",
+      "Dwarven_stout",
+      "Asgarnian_ale",
+      "Greenman's_ale",
+      "Wizard's_mind_bomb",
+      "Dragon_bitter",
+      "Moonlight_mead",
+      "Axeman's_folly",
+      "Chef's_delight",
+      "Slayer's_respite"
     ]
   },
   {
@@ -1469,6 +1525,28 @@
     ]
   },
   {
+    "id": "Clay_oven#Nardah",
+    "icon": "Cooking_range_icon",
+    "url":"https://explv.github.io/?centreX=3433&centreY=2885&centreZ=0&zoom=9",
+    "title": "Clay Oven",
+    "subtitle": "Nardah",
+    "caption": "9 tiles",
+    "category": "skilling",
+    "sortingGroups": ["cooking"],
+    "requiredLevel": 1
+  },
+  {
+    "id": "Clay_oven#Neitiznot",
+    "icon": "Cooking_range_icon",
+    "url":"https://explv.github.io/?centreX=2342&centreY=3811&centreZ=0&zoom=9",
+    "title": "Clay Oven",
+    "subtitle": "Neitiznot",
+    "caption": "14 tiles",
+    "category": "skilling",
+    "sortingGroups": ["cooking"],
+    "requiredLevel": 1
+  },
+  {
     "id": "Clay_rocks",
     "title": "Clay",
     "category": "skilling",
@@ -1584,6 +1662,176 @@
       "#equals",
       "Compost_potion(3)"
     ]
+  },
+  {
+    "id": "Cooked_chicken",
+    "title": "Chicken",
+    "category": "skilling",
+    "sortingGroups": ["cooking"],
+    "requiredLevel": 1,
+    "notableDrops": [
+      "Raw_chicken",
+      "#transmute",
+      "Cooked_chicken"
+    ]
+  },
+  {
+    "id": "Cooked_karambwan",
+    "title": "Karambwan",
+    "category": "skilling",
+    "sortingGroups": ["cooking"],
+    "requiredLevel": 30,
+    "notableDrops": [
+      "Raw_karambwan",
+      "#transmute",
+      "Cooked_karambwan"
+    ]
+  },
+  {
+    "id": "Cooked_meat",
+    "title": "Meat",
+    "category": "skilling",
+    "sortingGroups": ["cooking"],
+    "requiredLevel": 1,
+    "notableDrops": [
+      "Raw_beef",
+      "#transmute",
+      "Cooked_meat"
+    ]
+  },
+  {
+    "id": "Cooked_moonlight_antelope",
+    "title": "Moonlight Antelope",
+    "category": "skilling",
+    "sortingGroups": ["cooking"],
+    "requiredLevel": 92,
+    "notableDrops": [
+      "Raw_moonlight_antelope",
+      "#transmute",
+      "Cooked_moonlight_antelope"
+    ]
+  },
+  {
+    "id": "Cooked_sunlight_antelope",
+    "title": "Sunlight Antelope",
+    "category": "skilling",
+    "sortingGroups": ["cooking"],
+    "requiredLevel": 68,
+    "notableDrops": [
+      "Raw_sunlight_antelope",
+      "#transmute",
+      "Cooked_sunlight_antelope"
+    ]
+  },
+  {
+    "id": "Cooker#Lunar_Isle",
+    "icon": "Cooking_range_icon",
+    "url":"https://explv.github.io/?centreX=2092&centreY=3921&centreZ=0&zoom=9",
+    "title": "Cooker",
+    "subtitle": "Lunar Isle",
+    "caption": "15 tiles",
+    "category": "skilling",
+    "sortingGroups": ["cooking"],
+    "requiredLevel": 1
+  },
+  {
+    "id": "Cooking_range_(Lumbridge_Castle)",
+    "icon": "Cooking_range_icon",
+    "url":"https://explv.github.io/?centreX=3212&centreY=3216&centreZ=0&zoom=9",
+    "title": "Range",
+    "subtitle": "Lumbridge Castle",
+    "caption": "18 tiles",
+    "category": "skilling",
+    "sortingGroups": ["cooking"],
+    "requiredLevel": 1
+  },
+  {
+    "id": "Cooking_range#Al_Kharid",
+    "icon": "Cooking_range_icon",
+    "url":"https://explv.github.io/?centreX=3271&centreY=3180&centreZ=0&zoom=9",
+    "title": "Range",
+    "subtitle": "Al Kharid",
+    "caption": "22 tiles",
+    "category": "skilling",
+    "sortingGroups": ["cooking"],
+    "requiredLevel": 1
+  },
+  {
+    "id": "Cooking_range#Bandit_Camp_(Wilderness)",
+    "icon": "Cooking_range_icon",
+    "url":"https://explv.github.io/?centreX=3036&centreY=3708&centreZ=0&zoom=9",
+    "title": "Range",
+    "subtitle": "Bandit Camp",
+    "caption": "118 tiles",
+    "category": "skilling",
+    "sortingGroups": ["cooking"],
+    "requiredLevel": 1
+  },
+  {
+    "id": "Cooking_range#Catherby",
+    "icon": "Cooking_range_icon",
+    "url":"https://explv.github.io/?centreX=2817&centreY=3444&centreZ=0&zoom=9",
+    "title": "Range",
+    "subtitle": "Catherby",
+    "caption": "17 tiles",
+    "category": "skilling",
+    "sortingGroups": ["cooking"],
+    "requiredLevel": 1
+  },
+  {
+    "id": "Cooking_range#Cooks'_Guild",
+    "icon": "Cooking_range_icon",
+    "url":"https://explv.github.io/?centreX=3145&centreY=3453&centreZ=0&zoom=9",
+    "title": "Range",
+    "subtitle": "Cooks' Guild",
+    "caption": "2 tiles",
+    "category": "skilling",
+    "sortingGroups": ["cooking"],
+    "requiredLevel": 1
+  },
+  {
+    "id": "Cooking_range#Falador",
+    "icon": "Cooking_range_icon",
+    "url":"https://explv.github.io/?centreX=3038&centreY=3367&centreZ=0&zoom=9",
+    "title": "Range",
+    "subtitle": "Falador",
+    "caption": "29 tiles",
+    "category": "skilling",
+    "sortingGroups": ["cooking"],
+    "requiredLevel": 1
+  },
+  {
+    "id": "Cooking_range#Myths'_Guild",
+    "icon": "Cooking_range_icon",
+    "url":"https://explv.github.io/?centreX=2466&centreY=2848&centreZ=1&zoom=9",
+    "title": "Range",
+    "subtitle": "Myths' Guild",
+    "caption": "0 tiles",
+    "category": "skilling",
+    "sortingGroups": ["cooking"],
+    "requiredLevel": 1
+  },
+  {
+    "id": "Cooking_range#Port_Phasmatys",
+    "icon": "Cooking_range_icon",
+    "url":"https://explv.github.io/?centreX=3674&centreY=3467&centreZ=0&zoom=9",
+    "title": "Range",
+    "subtitle": "Port Phasmatys",
+    "caption": "26 tiles",
+    "category": "skilling",
+    "sortingGroups": ["cooking"],
+    "requiredLevel": 1
+  },
+  {
+    "id": "Cooking_range#Prifddinas",
+    "icon": "Cooking_range_icon",
+    "url":"https://explv.github.io/?centreX=3271&centreY=6113&centreZ=0&zoom=9",
+    "title": "Range",
+    "subtitle": "Prifddinas",
+    "caption": "14 tiles",
+    "category": "skilling",
+    "sortingGroups": ["cooking"],
+    "requiredLevel": 1
   },
   {
     "id": "Copper_rocks",
@@ -1775,6 +2023,24 @@
     ]
   },
   {
+    "id": "Culinaromancer's_Chest",
+    "category": "skilling",
+    "sortingGroups": ["cooking"],
+    "notableDrops": [
+      "Chocolate_bar",
+      "Cheese",
+      "Tomato",
+      "Cooking_apple",
+      "Grapes",
+      "Pot_of_flour",
+      "Pizza_base",
+      "Egg",
+      "Bucket_of_milk",
+      "Pot_of_cream",
+      "Pat_of_butter"
+    ]
+  },
+  {
     "id": "Daeyalt_essence_mine",
     "category": "skilling",
     "sortingGroups": ["mining", "runecraft"],
@@ -1791,6 +2057,47 @@
     "sortingGroups": ["prayer"],
     "notableDrops": [
       "Dagannoth_bones"
+    ]
+  },
+  {
+    "id": "Dairy_Buffalo",
+    "category": "skilling",
+    "sortingGroups": ["cooking"],
+    "notableDrops": [
+      "Bucket_of_milk"
+    ]
+  },
+  {
+    "id": "Dairy_churn",
+    "caption": "21-48",
+    "category": "skilling",
+    "sortingGroups": ["cooking"],
+    "requiredLevel": 21,
+    "notableDrops": [
+      "Bucket_of_milk",
+      "#transmute",
+      "Pot_of_cream",
+      "Pat_of_butter",
+      "Cheese"
+    ]
+  },
+  {
+    "id": "Dairy_cow",
+    "category": "skilling",
+    "sortingGroups": ["cooking"],
+    "notableDrops": [
+      "Bucket_of_milk"
+    ]
+  },
+  {
+    "id": "Dark_crab",
+    "category": "skilling",
+    "sortingGroups": ["cooking"],
+    "requiredLevel": 90,
+    "notableDrops": [
+      "Raw_dark_crab",
+      "#transmute",
+      "Dark_crab"
     ]
   },
   {
@@ -2233,6 +2540,81 @@
     ]
   },
   {
+    "id": "Fire_pit_(Museum_Camp)#Built",
+    "icon": "Cooking_range_icon",
+    "url":"https://explv.github.io/?centreX=3734&centreY=3812&centreZ=0&zoom=9",
+    "title": "Cooking Pot",
+    "subtitle": "Museum Camp",
+    "caption": "12 tiles",
+    "category": "skilling",
+    "sortingGroups": ["cooking"],
+    "requiredLevel": 1
+  },
+  {
+    "id": "Fire#Port_Khazard",
+    "icon": "Cooking_range_icon",
+    "url":"https://explv.github.io/?centreX=2661&centreY=3155&centreZ=0&zoom=9",
+    "title": "Campfire",
+    "subtitle": "Port Khazard",
+    "caption": "8 tiles",
+    "category": "skilling",
+    "sortingGroups": ["cooking"],
+    "requiredLevel": 1
+  },
+  {
+    "id": "Fire#Rogues'_Den",
+    "icon": "Cooking_range_icon",
+    "url":"https://explv.github.io/?centreX=3041&centreY=4973&centreZ=1&zoom=9",
+    "title": "Campfire",
+    "subtitle": "Rogues' Den",
+    "caption": "0 tiles",
+    "category": "skilling",
+    "sortingGroups": ["cooking"],
+    "requiredLevel": 1
+  },
+  {
+    "id": "Fire#Ruins_of_Unkah",
+    "icon": "Cooking_range_icon",
+    "url":"https://explv.github.io/?centreX=3159&centreY=2842&centreZ=0&zoom=9",
+    "title": "Campfire",
+    "subtitle": "Ruins of Unkah",
+    "caption": "6 tiles",
+    "category": "skilling",
+    "sortingGroups": ["cooking"],
+    "requiredLevel": 1
+  },
+  {
+    "id": "Fire#Wintertodt_Camp",
+    "icon": "Cooking_range_icon",
+    "url":"https://explv.github.io/?centreX=1631&centreY=3940&centreZ=0&zoom=9",
+    "title": "Bonfire",
+    "subtitle": "Wintertodt Camp",
+    "caption": "8 tiles",
+    "category": "skilling",
+    "sortingGroups": ["cooking"],
+    "requiredLevel": 1
+  },
+  {
+    "id": "Fish",
+    "subtitle": "Low Level",
+    "caption": "1-30",
+    "category": "skilling",
+    "sortingGroups": ["cooking"],
+    "requiredLevel": 1,
+    "notableDrops": [
+      "Shrimps",
+      "Anchovies",
+      "Sardine",
+      "Herring",
+      "Mackerel",
+      "Trout",
+      "Cod",
+      "Pike",
+      "Salmon",
+      "Tuna"
+    ]
+  },
+  {
     "id": "Fish_stall",
     "category": "skilling",
     "requiredLevel": 42,
@@ -2634,6 +3016,35 @@
     ]
   },
   {
+    "id": "Gnome_cooking",
+    "caption": "6-42",
+    "category": "skilling",
+    "sortingGroups": ["cooking"],
+    "requiredLevel": 6,
+    "notableDrops": [
+      "Fruit_blast",
+      "Pineapple_punch",
+      "Wizard_blizzard",
+      "Short_green_guy",
+      "Drunk_dragon",
+      "Choc_saturday",
+      "Blurberry_special",
+      "Toad_crunchies",
+      "Spicy_crunchies",
+      "Worm_crunchies",
+      "Chocchip_crunchies",
+      "Fruit_batta",
+      "Toad_batta",
+      "Worm_batta",
+      "Vegetable_batta",
+      "Cheese+tom_batta",
+      "Worm_hole",
+      "Veg_ball",
+      "Tangled_toad's_legs",
+      "Chocolate_bomb"
+    ]
+  },
+  {
     "id": "Gnome_Stronghold_Agility_Course",
     "category": "skilling",
     "requiredLevel": 1,
@@ -2944,6 +3355,17 @@
     ]
   },
   {
+    "id": "Hosidius_Kitchen",
+    "icon": "Cooking_range_icon",
+    "url":"https://explv.github.io/?centreX=1677&centreY=3622&centreZ=0&zoom=9",
+    "title": "Clay Oven",
+    "subtitle": "Hosidius Kitchen",
+    "caption": "6 tiles",
+    "category": "skilling",
+    "sortingGroups": ["cooking"],
+    "requiredLevel": 1
+  },
+  {
     "id": "Hueycoatl_hide_armour",
     "title": "Hueycoatl Hide",
     "caption": "86-88",
@@ -3105,6 +3527,19 @@
     ]
   },
   {
+    "id": "Jug_of_wine",
+    "category": "skilling",
+    "sortingGroups": ["cooking"],
+    "requiredLevel": 35,
+    "notableDrops": [
+      "Grapes",
+      "#plus",
+      "Jug_of_water",
+      "#equals",
+      "Jug_of_wine"
+    ]
+  },
+  {
     "id": "Jungle_tree",
     "category": "skilling",
     "sortingGroups": ["woodcutting"],
@@ -3235,6 +3670,17 @@
     "requiredLevel": 10,
     "notableDrops": [
       "Limestone"
+    ]
+  },
+  {
+    "id": "Lobster",
+    "category": "skilling",
+    "sortingGroups": ["cooking"],
+    "requiredLevel": 40,
+    "notableDrops": [
+      "Raw_lobster",
+      "#transmute",
+      "Lobster"
     ]
   },
   {
@@ -3449,6 +3895,17 @@
     ]
   },
   {
+    "id": "Manta_ray",
+    "category": "skilling",
+    "sortingGroups": ["cooking"],
+    "requiredLevel": 91,
+    "notableDrops": [
+      "Raw_manta_ray",
+      "#transmute",
+      "Manta_ray"
+    ]
+  },
+  {
     "id": "Maple_logs",
     "caption": "45-57",
     "category": "skilling",
@@ -3627,6 +4084,17 @@
       "Mixed_hide_boots",
       "Mixed_hide_legs",
       "Mixed_hide_top"
+    ]
+  },
+  {
+    "id": "Monkfish",
+    "category": "skilling",
+    "sortingGroups": ["cooking"],
+    "requiredLevel": 62,
+    "notableDrops": [
+      "Raw_monkfish",
+      "#transmute",
+      "Monkfish"
     ]
   },
   {
@@ -3827,6 +4295,28 @@
     ]
   },
   {
+    "id": "Oven_(Civitas_illa_Fortis)",
+    "icon": "Cooking_range_icon",
+    "url":"https://explv.github.io/?centreX=1634&centreY=3114&centreZ=0&zoom=9",
+    "title": "Oven",
+    "subtitle": "Civitas illa Fortis",
+    "caption": "25 tiles",
+    "category": "skilling",
+    "sortingGroups": ["cooking"],
+    "requiredLevel": 1
+  },
+  {
+    "id": "Oven_(Civitas_illa_Fortis)#Hunter_Guild",
+    "icon": "Cooking_range_icon",
+    "url":"https://explv.github.io/?centreX=1558&centreY=3033&centreZ=0&zoom=9",
+    "title": "Oven",
+    "subtitle": "Hunter Guild",
+    "caption": "17 tiles",
+    "category": "skilling",
+    "sortingGroups": ["cooking"],
+    "requiredLevel": 1
+  },
+  {
     "id": "Paladin#Pickpocketing",
     "title": "Paladin",
     "category": "skilling",
@@ -3845,6 +4335,27 @@
     "sortingGroups": ["agility"],
     "notableDrops": [
       "Clockwork_suit"
+    ]
+  },
+  {
+    "id": "Pie",
+    "caption": "10-95",
+    "category": "skilling",
+    "sortingGroups": ["cooking"],
+    "requiredLevel": 10,
+    "notableDrops": [
+      "Redberry_pie",
+      "Meat_pie",
+      "Mud_pie",
+      "Apple_pie",
+      "Garden_pie",
+      "Fish_pie",
+      "Botanical_pie",
+      "Mushroom_pie",
+      "Admiral_pie",
+      "Dragonfruit_pie",
+      "Wild_pie",
+      "Summer_pie"
     ]
   },
   {
@@ -3876,6 +4387,34 @@
       "Prickly_kebbit",
       "Razor-backed_kebbit",
       "Chinchompa_(Hunter)"
+    ]
+  },
+  {
+    "id": "Pitta_bread",
+    "category": "skilling",
+    "sortingGroups": ["cooking"],
+    "requiredLevel": 58,
+    "notableDrops": [
+      "Pot_of_flour",
+      "#plus",
+      "Bucket_of_water",
+      "#transmute",
+      "Pitta_dough",
+      "#transmute",
+      "Pitta_bread"
+    ]
+  },
+  {
+    "id": "Pizza",
+    "caption": "35-65",
+    "category": "skilling",
+    "sortingGroups": ["cooking"],
+    "requiredLevel": 35,
+    "notableDrops": [
+      "Plain_pizza",
+      "Meat_pizza",
+      "Anchovy_pizza",
+      "Pineapple_pizza"
     ]
   },
   {
@@ -4622,6 +5161,17 @@
     ]
   },
   {
+    "id": "Sea_turtle",
+    "category": "skilling",
+    "sortingGroups": ["cooking"],
+    "requiredLevel": 82,
+    "notableDrops": [
+      "Raw_sea_turtle",
+      "#transmute",
+      "Sea_turtle"
+    ]
+  },
+  {
     "id": "Seaweed_patch",
     "category": "skilling",
     "sortingGroups": ["farming", "crafting"],
@@ -4716,6 +5266,17 @@
       "#plus",
       "Redwood_pyre_logs",
       "Urium_remains"
+    ]
+  },
+  {
+    "id": "Shark",
+    "category": "skilling",
+    "sortingGroups": ["cooking"],
+    "requiredLevel": 80,
+    "notableDrops": [
+      "Raw_shark",
+      "#transmute",
+      "Shark"
     ]
   },
   {
@@ -4969,6 +5530,21 @@
     ]
   },
   {
+    "id": "Spicy_stew",
+    "category": "skilling",
+    "sortingGroups": ["cooking"],
+    "notableDrops": [
+      "Stew",
+      "#plus",
+      "Red_spice",
+      "Orange_spice",
+      "Yellow_spice",
+      "Brown_spice",
+      "#transmute",
+      "Spicy_stew"
+    ]
+  },
+  {
     "id": "Spinning_wheel",
     "caption": "1-30",
     "category": "skilling",
@@ -5131,6 +5707,16 @@
     "notableDrops": [
       "Volcanic_sulphur"
     ]
+  },
+  {
+    "id": "Sulphur_vent",
+    "icon": "Cooking_range_icon",
+    "url":"https://explv.github.io/?centreX=2543&centreY=5142&centreZ=0&zoom=9",
+    "subtitle": "Mor Ul Rek",
+    "caption": "0 tiles",
+    "category": "skilling",
+    "sortingGroups": ["cooking"],
+    "requiredLevel": 1
   },
   {
     "id": "Sunfire_runes",
@@ -5311,6 +5897,17 @@
     ]
   },
   {
+    "id": "Swordfish",
+    "category": "skilling",
+    "sortingGroups": ["cooking"],
+    "requiredLevel": 45,
+    "notableDrops": [
+      "Raw_swordfish",
+      "#transmute",
+      "Swordfish"
+    ]
+  },
+  {
     "id": "Tea_stall",
     "category": "skilling",
     "requiredLevel": 5,
@@ -5419,6 +6016,17 @@
     ]
   },
   {
+    "id": "Tuna",
+    "category": "skilling",
+    "sortingGroups": ["cooking"],
+    "requiredLevel": 30,
+    "notableDrops": [
+      "Raw_tuna",
+      "#transmute",
+      "Tuna"
+    ]
+  },
+  {
     "id": "TzHaar-Hur#Pickpocketing",
     "title": "TzHaar-Hur",
     "category": "skilling",
@@ -5430,6 +6038,24 @@
       "Uncut_emerald",
       "Uncut_ruby",
       "Uncut_diamond"
+    ]
+  },
+  {
+    "id": "Ugthanki_kebab",
+    "title": "Kebab",
+    "category": "skilling",
+    "sortingGroups": ["cooking"],
+    "requiredLevel": 1,
+    "notableDrops": [
+      "Bowl",
+      "#plus",
+      "Onion",
+      "Tomato",
+      "Ugthanki_meat",
+      "#plus",
+      "Pitta_bread",
+      "#transmute",
+      "Ugthanki_kebab"
     ]
   },
   {
@@ -5682,6 +6308,29 @@
     "requiredLevel": 30,
     "notableDrops": [
       "Willow_logs"
+    ]
+  },
+  {
+    "id": "Windmill",
+    "category": "skilling",
+    "sortingGroups": ["cooking"],
+    "notableDrops": [
+      "Grain",
+      "#transmute",
+      "Pot_of_flour"
+    ]
+  },
+  {
+    "id": "Wine_of_zamorak",
+    "category": "skilling",
+    "sortingGroups": ["cooking"],
+    "requiredLevel": 65,
+    "notableDrops": [
+      "Zamorak's_grapes",
+      "#plus",
+      "Jug_of_water",
+      "#equals",
+      "Wine_of_zamorak"
     ]
   },
   {

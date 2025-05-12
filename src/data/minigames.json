@@ -357,7 +357,9 @@
     "sortingGroups": ["cooking"],
     "requiredLevel": 20,
     "notableDrops": [
-      "XP"
+      "Servery_meat_pie",
+      "Servery_stew",
+      "Servery_pineapple_pizza"
     ]
   },
   {

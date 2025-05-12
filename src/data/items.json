@@ -358,6 +358,10 @@
     ]
   },
   {
+    "id": "Brown_spice",
+    "icon": "Brown_spice_(4)"
+  },
+  {
     "id": "Brutal_arrows",
     "icon": "Rune_brutal_5"
   },
@@ -431,6 +435,10 @@
   {
     "id": "Cook_(servant)",
     "icon": "Cook_(servant)_chathead"
+  },
+  {
+    "id": "Cooking_range",
+    "icon": "Cooking_range_icon"
   },
   {
     "id": "Copper_longtail",
@@ -795,7 +803,7 @@
   },
   {
     "id": "Furnace",
-    "icon": "Superheat_Item"
+    "icon": "Furnace_icon"
   },
   {
     "id": "Ghommal's_hilt",
@@ -1328,6 +1336,10 @@
     "name": "Orange Salamander"
   },
   {
+    "id": "Orange_spice",
+    "icon": "Orange_spice_(4)"
+  },
+  {
     "id": "Pegasian_crystal",
     "transmutations": [
       "#plus",
@@ -1385,6 +1397,10 @@
     "id": "Red_salamander_(Hunter)",
     "icon": "Red_salamander",
     "name": "Red Salamander"
+  },
+  {
+    "id": "Red_spice",
+    "icon": "Red_spice_(4)"
   },
   {
     "id": "Redwood_tree_(Farming)",
@@ -1906,6 +1922,10 @@
   {
     "id": "XP",
     "icon": "XP_drops_icon"
+  },
+  {
+    "id": "Yellow_spice",
+    "icon": "Yellow_spice_(4)"
   },
   {
     "id": "Zalcano_shard",

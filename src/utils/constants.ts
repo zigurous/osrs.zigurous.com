@@ -164,4 +164,5 @@ export const iconOrder = [
   'Dungeon_map_link_icon',
   'Anvil_icon',
   'Furnace_icon',
+  'Cooking_range_icon',
 ];
