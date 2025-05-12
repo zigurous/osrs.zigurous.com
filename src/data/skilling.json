@@ -3779,10 +3779,10 @@
       "Gold_bar",
       "Onyx",
       "#transmute",
-      "Ring_of_stone",
-      "Berserker_necklace",
-      "Regen_bracelet",
-      "Amulet_of_fury"
+      "Onyx_ring",
+      "Onyx_necklace",
+      "Onyx_bracelet",
+      "Onyx_amulet"
     ]
   },
   {
@@ -5810,10 +5810,10 @@
       "Gold_bar",
       "Zenyte",
       "#transmute",
-      "Ring_of_suffering",
-      "Necklace_of_anguish",
-      "Tormented_bracelet",
-      "Amulet_of_torture"
+      "Zenyte_ring",
+      "Zenyte_necklace",
+      "Zenyte_bracelet",
+      "Zenyte_amulet"
     ]
   },
   {
