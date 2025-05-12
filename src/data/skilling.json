@@ -917,7 +917,6 @@
   {
     "id": "Bird_house_trapping",
     "title": "Bird Houses",
-    "subtitle": "Fossil Island",
     "caption": "5-89",
     "category": "skilling",
     "sortingGroups": ["hunter"],
@@ -1248,6 +1247,7 @@
   },
   {
     "id": "Burnt_tree",
+    "subtitle": "Fossil Island",
     "category": "skilling",
     "sortingGroups": ["woodcutting"],
     "requiredLevel": 1,
@@ -1609,7 +1609,6 @@
   {
     "id": "Crafting#Birdhouses",
     "title": "Bird Houses",
-    "subtitle": "Fossil Island",
     "caption": "5-90",
     "category": "skilling",
     "sortingGroups": ["crafting"],
@@ -1811,7 +1810,9 @@
     ]
   },
   {
-    "id": "Dead_tree",
+    "id": "Dead_tree_(burnt)",
+    "title": "Dead Tree",
+    "subtitle": "Burnt",
     "category": "skilling",
     "sortingGroups": ["woodcutting"],
     "requiredLevel": 1,
@@ -2880,7 +2881,6 @@
   {
     "id": "Herbiboar#Hunting",
     "title": "Herbiboar",
-    "subtitle": "Fossil Island",
     "category": "skilling",
     "sortingGroups": ["hunter"],
     "requiredLevel": 80,
@@ -2892,7 +2892,6 @@
   {
     "id": "Herbiboar#Harvesting",
     "title": "Herbiboar",
-    "subtitle": "Fossil Island",
     "category": "skilling",
     "sortingGroups": ["herblore"],
     "requiredLevel": 31,
@@ -3103,6 +3102,15 @@
     "sortingGroups": ["prayer"],
     "notableDrops": [
       "Jogre_bones"
+    ]
+  },
+  {
+    "id": "Jungle_tree",
+    "category": "skilling",
+    "sortingGroups": ["woodcutting"],
+    "requiredLevel": 1,
+    "notableDrops": [
+      "Logs"
     ]
   },
   {
@@ -3676,7 +3684,6 @@
   },
   {
     "id": "Mycelium_pool",
-    "subtitle": "Fossil Island",
     "category": "skilling",
     "sortingGroups": ["prayer"],
     "notableDrops": [
@@ -5380,6 +5387,15 @@
       "Runite_ore",
       "Soft_clay",
       "Crystal_shard"
+    ]
+  },
+  {
+    "id": "Tree",
+    "category": "skilling",
+    "sortingGroups": ["woodcutting"],
+    "requiredLevel": 1,
+    "notableDrops": [
+      "Logs"
     ]
   },
   {
