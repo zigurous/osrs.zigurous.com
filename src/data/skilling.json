@@ -937,6 +937,20 @@
     ]
   },
   {
+    "id": "Big_fishing_net",
+    "title": "Mackerel | Cod",
+    "caption": "16-23",
+    "category": "skilling",
+    "sortingGroups": ["fishing"],
+    "requiredLevel": 16,
+    "notableDrops": [
+      "Big_fishing_net",
+      "#transmute",
+      "Raw_mackerel",
+      "Raw_cod"
+    ]
+  },
+  {
     "id": "Bird_house_trapping",
     "title": "Bird Houses",
     "caption": "5-89",
@@ -2641,6 +2655,23 @@
     ]
   },
   {
+    "id": "Fishing_rod",
+    "title": "Sardine | Herring | Pike",
+    "caption": "5-25",
+    "category": "skilling",
+    "sortingGroups": ["fishing"],
+    "requiredLevel": 5,
+    "notableDrops": [
+      "Fishing_rod",
+      "#plus",
+      "Fishing_bait",
+      "#transmute",
+      "Raw_sardine",
+      "Raw_herring",
+      "Raw_pike"
+    ]
+  },
+  {
     "id": "Flower_patch",
     "caption": "2-58",
     "category": "skilling",
@@ -2653,6 +2684,22 @@
       "Woad_leaf",
       "Limpwurt_root",
       "White_lily"
+    ]
+  },
+  {
+    "id": "Fly_fishing_rod",
+    "title": "Trout | Salmon",
+    "caption": "20-30",
+    "category": "skilling",
+    "sortingGroups": ["fishing"],
+    "requiredLevel": 20,
+    "notableDrops": [
+      "Fly_fishing_rod",
+      "#plus",
+      "Feather",
+      "#transmute",
+      "Raw_trout",
+      "Raw_salmon"
     ]
   },
   {
@@ -5416,6 +5463,20 @@
       "Silver_ore",
       "Silver_bar",
       "Tiara"
+    ]
+  },
+  {
+    "id": "Small_fishing_net",
+    "title": "Shrimp | Anchovies",
+    "caption": "1-15",
+    "category": "skilling",
+    "sortingGroups": ["fishing"],
+    "requiredLevel": 1,
+    "notableDrops": [
+      "Small_fishing_net",
+      "#transmute",
+      "Raw_shrimps",
+      "Raw_anchovies"
     ]
   },
   {
