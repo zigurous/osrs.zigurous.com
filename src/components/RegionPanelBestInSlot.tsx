@@ -4,7 +4,9 @@ import React, { useMemo, useState } from 'react';
 import EquipmentInventory from './EquipmentInventory';
 import RegionPanelSection from './RegionPanelSection';
 import TitledCard from './TitledCard';
-import type { CombatStyle, EquipmentItem, EquipmentSlot, Region } from '../types'; // prettier-ignore
+import type { EquipmentItem, EquipmentSlot, Region } from '../types'; // prettier-ignore
+
+type BestInSlotCategory = 'melee' | 'ranged' | 'magic' | 'prayer';
 
 interface RegionPanelBestInSlotProps {
   region: Region;
@@ -89,13 +91,11 @@ function Toggle({
 
 function useEquipment(
   data: BestInSlotQueryData,
-  combatStyle: 'melee' | 'ranged' | 'magic' | 'prayer',
+  category: BestInSlotCategory,
   regionId: string,
   toggles: { leagues: boolean; clues: boolean },
 ) {
-  const node = data.bestInSlot.nodes.find(
-    node => node.combatStyle === combatStyle,
-  );
+  const node = data.bestInSlot.nodes.find(node => node.category === category);
   return useMemo<EquipmentSlot[]>(() => {
     if (!node) return [];
     return node.equipment.map(slot => ({
@@ -107,7 +107,7 @@ function useEquipment(
           (toggles.clues || !item.tags || !item.tags.includes('clues')),
       ),
     }));
-  }, [node, combatStyle, regionId, toggles.leagues, toggles.clues]);
+  }, [node, category, regionId, toggles.leagues, toggles.clues]);
 }
 
 interface BestInSlotQueryData {
@@ -117,7 +117,7 @@ interface BestInSlotQueryData {
 }
 
 interface BestInSlotNode {
-  combatStyle: CombatStyle;
+  category: BestInSlotCategory;
   equipment: BestInSlotEquipmentSlot[];
 }
 
@@ -132,7 +132,7 @@ const dataQuery = graphql`
   query BestInSlotQuery {
     bestInSlot: allBestInSlotJson {
       nodes {
-        combatStyle
+        category
         equipment {
           id
           items {

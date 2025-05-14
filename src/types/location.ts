@@ -4,3 +4,5 @@ export interface GameLocation {
   region: string;
   tags?: string[];
 }
+
+export type GameLocationAndCategory = GameLocation & { category: string };

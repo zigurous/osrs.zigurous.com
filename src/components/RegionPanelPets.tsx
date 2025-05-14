@@ -14,8 +14,8 @@ interface RegionPanelPetsProps {
 export default function RegionPanelPets({ region }: RegionPanelPetsProps) {
   const data = useStaticQuery<PetsQueryData>(dataQuery);
   const pets = region.pets
-    .map(id => data.pets.nodes.find(pet => pet.id === id)!)
-    .filter(Boolean);
+    .map(id => data.pets.nodes.find(pet => pet.id === id))
+    .filter(pet => !!pet);
   return (
     <RegionPanelSection title="Pets">
       <ul className="items-list">

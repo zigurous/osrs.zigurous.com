@@ -6,8 +6,8 @@ import SlayerDungeonListItem from './SlayerDungeonListItem';
 import SlayerMasterListItem from './SlayerMasterListItem';
 import SlayerMonsterListItem from './SlayerMonsterListItem';
 import TitledCard from './TitledCard';
-import { useItemsContext } from '../context';
-import type { GameLocation, Region, SlayerDungeon, SlayerMaster, SlayerMonster} from '../types'; // prettier-ignore
+import { useItemsContext, useLocationsContext } from '../context';
+import type { Region, SlayerDungeon, SlayerMaster, SlayerMonster} from '../types'; // prettier-ignore
 import { formatNameFromId, sortByName } from '../utils';
 
 interface RegionPanelSlayerProps {
@@ -17,16 +17,18 @@ interface RegionPanelSlayerProps {
 export default function RegionPanelSlayer({ region }: RegionPanelSlayerProps) {
   const data = useStaticQuery<SlayerQueryData>(dataQuery);
   const itemsContext = useItemsContext();
-  const [masters, monsters, dungeons] = useMemo(
-    () => [
-      data.masters.nodes.filter(master => master.region === region.id),
-      data.monsters.nodes
-        .filter(m => isMonsterInRegion(m, region.id, data.locations.nodes))
-        .sort(sortByName),
-      data.dungeons.nodes.filter(loc => loc.region === region.id),
-    ],
-    [region.id, data],
+  const locationsContext = useLocationsContext();
+  const masters = data.masters.nodes.filter(
+    master => master.region === region.id,
   );
+  const monsters = data.monsters.nodes
+    .filter(monster =>
+      monster.locations.some(
+        id => locationsContext.getLocationById(id).region === region.id,
+      ),
+    )
+    .sort(sortByName);
+  const dungeons = data.dungeons.nodes.filter(loc => loc.region === region.id);
   return (
     <>
       <RegionPanelSection title="Slayer">
@@ -86,22 +88,10 @@ export default function RegionPanelSlayer({ region }: RegionPanelSlayerProps) {
   );
 }
 
-function isMonsterInRegion(
-  monster: SlayerMonster,
-  regionId: string,
-  allLocations: GameLocation[],
-) {
-  return monster.locations.some(monsterLocationId => {
-    const location = allLocations.find(loc => loc.id === monsterLocationId);
-    return location && location.region === regionId;
-  });
-}
-
 interface SlayerQueryData {
   masters: { nodes: SlayerMaster[] };
   monsters: { nodes: SlayerMonster[] };
   dungeons: { nodes: SlayerDungeon[] };
-  locations: { nodes: GameLocation[] };
 }
 
 const dataQuery = graphql`
@@ -128,13 +118,6 @@ const dataQuery = graphql`
       }
     }
     dungeons: allLocationsJson(filter: { tags: { in: "slayer" } }) {
-      nodes {
-        id: jsonId
-        name
-        region
-      }
-    }
-    locations: allLocationsJson {
       nodes {
         id: jsonId
         name

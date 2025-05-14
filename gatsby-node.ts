@@ -7,7 +7,7 @@ export const createSchemaCustomization = ({
   const { createTypes } = actions;
   const typeDefs = `
     type BestInSlotJson implements Node @dontInfer {
-      combatStyle: String!
+      category: String!
       equipment: [BestInSlotEquipmentSlot!]!
     }
     type BestInSlotEquipmentSlot {
@@ -118,15 +118,16 @@ export const createSchemaCustomization = ({
       jsonId: String!
       name: String!
       description: String!
+      locations: [String!]!
       skilling: [String!]!
-      raids: [String!]
+      raids: [String!]!
       bosses: [String!]!
       minigames: [String!]!
-      guilds: [String!]
+      guilds: [String!]!
       dungeons: [String!]!
       monsters: [String!]!
       npcs: [String!]!
-      misc: [String!]
+      misc: [String!]!
       pets: [String!]!
     }
     type SkillingJson implements Node @dontInfer {

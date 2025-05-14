@@ -15,15 +15,16 @@ export interface Region {
   id: RegionId;
   name: string;
   description: string;
+  locations: string[];
   skilling: string[];
-  raids?: string[];
+  raids: string[];
   bosses: string[];
   minigames: string[];
-  guilds?: string[];
+  guilds: string[];
   dungeons: string[];
   monsters: string[];
   npcs: string[];
-  misc?: string[];
+  misc: string[];
   pets: string[];
   activities: string[];
 }

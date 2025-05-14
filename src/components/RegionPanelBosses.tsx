@@ -14,20 +14,12 @@ interface RegionPanelBossesProps {
 export default function RegionPanelBosses({ region }: RegionPanelBossesProps) {
   const data = useStaticQuery<BossingQueryData>(dataQuery);
   const itemsContext = useItemsContext();
-  const bosses = useMemo(
-    () =>
-      (region.bosses || [])
-        .map(bossId => data.bosses.nodes.find(boss => boss.id === bossId))
-        .filter(Boolean) as Boss[],
-    [region.id, region.bosses, data.bosses.nodes],
-  );
-  const raids = useMemo(
-    () =>
-      (region.raids || [])
-        .map(raidId => data.raids.nodes.find(raid => raid.id === raidId))
-        .filter(Boolean) as Raid[],
-    [region.id, region.raids, data.raids.nodes],
-  );
+  const bosses = region.bosses
+    .map(bossId => data.bosses.nodes.find(boss => boss.id === bossId))
+    .filter(boss => !!boss);
+  const raids = region.raids
+    .map(raidId => data.raids.nodes.find(raid => raid.id === raidId))
+    .filter(raid => !!raid);
   return (
     <>
       {raids.length > 0 && (

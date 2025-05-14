@@ -3,6 +3,16 @@
     "id": "asgarnia",
     "name": "Asgarnia",
     "description": "The Kingdom of Asgarnia is one of the main kingdoms of Gielinor. Asgarnia's primary economic activities are crafting, mining, and fishing. It also has a notable navy based in Port Sarim.",
+    "locations": [
+      "Burthorpe",
+      "Entrana",
+      "Falador",
+      "Port_Sarim",
+      "Rimmington",
+      "Taverly",
+      "Troll_Stronghold_(location)",
+      "Void_Knights'_Outpost"
+    ],
     "skilling": [
       "Adamantite_rocks",
       "Air_Altar",
@@ -116,6 +126,7 @@
       "Yew_logs#Firemaking",
       "Yew_tree"
     ],
+    "raids": [],
     "bosses": [
       "Cerberus",
       "Commander_Zilyana",
@@ -144,7 +155,7 @@
       "Asgarnian_Ice_Dungeon",
       "God_Wars_Dungeon",
       "Ruins_of_Camdozaal",
-      "Taverly_Dungeon"
+      "Taverley_Dungeon"
     ],
     "monsters": [
       "Aviansie",
@@ -199,6 +210,14 @@
     "id": "desert",
     "name": "Desert",
     "description": "The Kharidian Desert is an expansive region located south of the nations of Misthalin and Morytania. The desert becomes a dangerous region south of the Shantay Pass, requiring travelers to drink from waterskins or other sources of water to avoid dehydration.",
+    "locations": [
+      "Al_Kharid",
+      "Giants'_Plateau",
+      "Nardah",
+      "Pollnivneach",
+      "Sophanem",
+      "Uzer_Oasis"
+    ],
     "skilling": [
       "Adamantite_rocks",
       "Agility_Pyramid",
@@ -307,6 +326,7 @@
       "Pyramid_Plunder",
       "Sorceress's_Garden"
     ],
+    "guilds": [],
     "dungeons": [
       "Kalphite_Cave",
       "Kalphite_Lair",
@@ -341,6 +361,17 @@
     "id": "fremennik",
     "name": "Fremennik",
     "description": "The Fremennik Province is a region of various settlements ruled by the Fremennik and barbarians, found north of Kandarin. Besides the mainland, it includes many island settlements, due to the seafaring nature of the Fremennik.",
+    "locations": [
+      "Etceteria",
+      "Jatizso",
+      "Keldagrim",
+      "Lunar_Isle",
+      "Miscellania",
+      "Neitiznot",
+      "Rellekka",
+      "Waterbirth_Island",
+      "Weiss"
+    ],
     "skilling": [
       "Adamantite_rocks",
       "Ancient_essence_crystals",
@@ -469,6 +500,7 @@
       "Weapon_poison",
       "Yak-hide_armour"
     ],
+    "raids": [],
     "bosses": [
       "Dagannoth_Kings",
       "Duke_Sucellus",
@@ -479,6 +511,7 @@
       "Blast_Furnace",
       "Impetuous_Impulses"
     ],
+    "guilds": [],
     "dungeons": [
       "Fremennik_Slayer_Dungeon",
       "Ghorrock_Dungeon",
@@ -524,6 +557,20 @@
     "id": "kandarin",
     "name": "Kandarin",
     "description": "Kandarin is one of the largest kingdoms in Gielinor ruled by King Lathas of East Ardougne. It encompasses most of the lands west of White Wolf Mountain. Kandarin is bordered by Asgarnia to the east, the Fremennik Province to the north, the forests of Tirannwn to the west, and the Feldip Hills to the south.",
+    "locations": [
+      "Ape_Atoll",
+      "Ardougne",
+      "Catherby",
+      "Feldip_Hills",
+      "Gu'Tanoth",
+      "Piscatoris",
+      "Port_Khazard",
+      "Seers'_Village",
+      "Tree_Gnome_Stronghold",
+      "Tree_Gnome_Village",
+      "Witchhaven",
+      "Yanille"
+    ],
     "skilling": [
       "Achey_Tree",
       "Adamantite_rocks",
@@ -688,6 +735,7 @@
       "Zenyte#Crafting",
       "Zogre_bones"
     ],
+    "raids": [],
     "bosses": [
       "Kraken",
       "Thermonuclear_smoke_devil"
@@ -763,6 +811,15 @@
     "id": "karamja",
     "name": "Karamja",
     "description": "Karamja is a large island in Gielinor. It is located to the south of the major kingdoms of Asgarnia and Kandarin. The island contains mostly jungle and tropical geography. Different tribes of Karamja speak different Karamjan languages.",
+    "locations": [
+      "Brimhaven",
+      "Crandor",
+      "Kharazi_Jungle",
+      "Mor_Ul_Rek",
+      "Musa_Point",
+      "Shilo_Village_(location)",
+      "Tai_Bwo_Wannai"
+    ],
     "skilling": [
       "Adamantite_rocks",
       "Antipoison",
@@ -844,6 +901,7 @@
       "Teak_tree",
       "TzHaar-Hur#Pickpocketing"
     ],
+    "raids": [],
     "bosses": [
       "TzHaar_Fight_Cave",
       "Inferno"
@@ -857,6 +915,7 @@
       "TzHaar_Fight_Pit",
       "TzHaar-Ket-Rak's_Challenges"
     ],
+    "guilds": [],
     "dungeons": [
       "Brimhaven_Dungeon",
       "Crandor_and_Karamja_Dungeon",
@@ -890,6 +949,18 @@
     "id": "kourend",
     "name": "Kourend",
     "description": "Great Kourend is a kingdom in the continent of Zeah, found far west of the mainland across the Western Sea. One of the largest kingdoms in Gielinor, it is larger than Misthalin and Asgarnia combined, and is similar in size to Kandarin.",
+    "locations": [
+      "Arceuus",
+      "Hosidius",
+      "Kebos_Lowlands",
+      "Kingstown",
+      "Kourend_Woodland",
+      "Lovakengj",
+      "Mount_Karuulm",
+      "Mount_Quidamortem",
+      "Port_Piscarilius",
+      "Shayzien"
+    ],
     "skilling": [
       "Adamantite_rocks",
       "Aerial_fishing",
@@ -1130,6 +1201,17 @@
     "id": "misthalin",
     "name": "Misthalin",
     "description": "Misthalin is a major kingdom within Gielinor, the most powerful human nation and by far the oldest. Its capital, Varrock, has existed in some form since soon after the end of the God Wars. It is divided in half by the River Lum, and its eastern border with Morytania is the River Salve.",
+    "locations": [
+      "Barbarian_Village",
+      "Dorgesh-Kaan",
+      "Draynor_Village",
+      "Edgeville",
+      "Fossil_Island",
+      "Isle_of_Souls",
+      "Lumbridge",
+      "Varrock",
+      "Zanaris"
+    ],
     "skilling": [
       "Abyss",
       "Adamantite_rocks",
@@ -1288,6 +1370,7 @@
       "Yew_tree",
       "Zanaris"
     ],
+    "raids": [],
     "bosses": [
       "Abyssal_Sire",
       "Bryophyta",
@@ -1368,6 +1451,17 @@
     "id": "morytania",
     "name": "Morytania",
     "description": "Morytania is an area in the easternmost part of Gielinor. Often described as a land of evil, the land is filled with many aggressive creatures such as vampyres, werewolves, ghasts, and the undead. It is currently ruled by Lord Drakan.",
+    "locations": [
+      "Burgh_de_Rott",
+      "Canifis",
+      "Darkmeyer",
+      "Harmony_Island",
+      "Meiyerditch",
+      "Mort'ton",
+      "Mos_Le'Harmless",
+      "Port_Phasmatys",
+      "Slepe"
+    ],
     "skilling": [
       "Adamantite_rocks",
       "Allotment_patch",
@@ -1469,6 +1563,7 @@
       "Temple_Trekking",
       "Trouble_Brewing"
     ],
+    "guilds": [],
     "dungeons": [
       "Abandoned_Mine",
       "Morytania_Spider_Cave",
@@ -1495,6 +1590,7 @@
       "Mazchna",
       "Sbott"
     ],
+    "misc": [],
     "pets": [
       "Lil'_zik",
       "Little_nightmare",
@@ -1506,6 +1602,15 @@
     "id": "tirannwn",
     "name": "Tirannwn",
     "description": "Tirannwn is a heavily forested region located west of Kandarin. It is said that the elves retreated here after the God Wars. Apart from elves, there are rabbits, dire wolves, and grizzly bears that inhabit Tirannwn. The many traps and dense forest make traveling through Tirannwn difficult and potentially dangerous.",
+    "locations": [
+      "Arandar",
+      "Gwenith",
+      "Isafdar",
+      "Lletya",
+      "Poison_Waste",
+      "Prifddinas",
+      "Underground_Pass_(dungeon)"
+    ],
     "skilling": [
       "Adamantite_rocks",
       "Allotment_patch",
@@ -1608,6 +1713,7 @@
       "Yew_logs#Firemaking",
       "Yew_tree"
     ],
+    "raids": [],
     "bosses": [
       "The_Gauntlet",
       "Zalcano",
@@ -1617,6 +1723,7 @@
       "Impetuous_Impulses",
       "The_Gauntlet"
     ],
+    "guilds": [],
     "dungeons": [
       "Iorwerth_Dungeon",
       "Poison_Waste_Dungeon"
@@ -1649,6 +1756,17 @@
     "id": "varlamore",
     "name": "Varlamore",
     "description": "The Kingdom of Varlamore, also known as the Shining Kingdom, is a kingdom found in the continent of Zeah, far west of the mainland across the Western Sea. Like Great Kourend, it stands as one of the largest kingdoms in Gielinor, and one of the most distinct, given its isolation from the rest of the mainland.",
+    "locations": [
+      "Aldarin",
+      "Avium_Savannah",
+      "Cam_Torum",
+      "Civitas_illa_Fortis",
+      "Mistrock",
+      "Quetzacalli_Gorge",
+      "Salvager_Overlook",
+      "Sunset_Coast",
+      "The_Stranglewood"
+    ],
     "skilling": [
       "Adamantite_rocks",
       "Allotment_patch",
@@ -1782,6 +1900,7 @@
       "Yew_logs#Firemaking",
       "Yew_tree"
     ],
+    "raids": [],
     "bosses": [
       "Amoxliatl",
       "Fortis_Colosseum",
@@ -1833,6 +1952,20 @@
     "id": "wilderness",
     "name": "Wilderness",
     "description": "The Wilderness, also known as the Wild or Wildy, is a large and dangerous wasteland that makes up most of north-eastern Gielinor.",
+    "locations": [
+      "Bandit_Camp_(Wilderness)",
+      "Chaos_Temple_(Wilderness)",
+      "Ferox_Enclave",
+      "Frozen_Waste_Plateau",
+      "Graveyard_of_Shadows",
+      "Lava_Dragon_Isle",
+      "Lava_Maze",
+      "Mage_Arena",
+      "Revenant_Caves",
+      "Rogues'_Castle",
+      "Ruins_(east)",
+      "The_Forgotten_Cemetery"
+    ],
     "skilling": [
       "Adamantite_rocks",
       "Air_battlestaff",
@@ -1911,6 +2044,7 @@
       "Yew_logs#Firemaking",
       "Yew_tree"
     ],
+    "raids": [],
     "bosses": [
       "Callisto",
       "Chaos_Elemental",
@@ -1926,6 +2060,7 @@
       "Bounty_Hunter",
       "Last_Man_Standing"
     ],
+    "guilds": [],
     "dungeons": [
       "Revenant_Caves",
       "Wilderness_God_Wars_Dungeon",

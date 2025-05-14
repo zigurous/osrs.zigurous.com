@@ -36,15 +36,15 @@ export function RegionsContextProvider({
         ...region,
         activities: [
           ...new Set([
-            ...(region.raids || []),
+            ...region.raids,
             ...region.bosses,
             ...region.minigames,
-            ...(region.guilds || []),
+            ...region.guilds,
             ...region.skilling,
             ...region.dungeons,
             ...region.monsters,
             ...region.npcs,
-            ...(region.misc || []),
+            ...region.misc,
           ]),
         ],
       })),
@@ -89,6 +89,7 @@ const dataQuery = graphql`
         id: jsonId
         name
         description
+        locations
         skilling
         raids
         bosses

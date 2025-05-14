@@ -1,6 +1,6 @@
 [
   {
-    "combatStyle": "melee",
+    "category": "melee",
     "equipment": [
       {
         "id": "head",
@@ -579,7 +579,7 @@
     ]
   },
   {
-    "combatStyle": "ranged",
+    "category": "ranged",
     "equipment": [
       {
         "id": "head",
@@ -1142,7 +1142,7 @@
     ]
   },
   {
-    "combatStyle": "magic",
+    "category": "magic",
     "equipment": [
       {
         "id": "head",
@@ -1691,7 +1691,7 @@
     ]
   },
   {
-    "combatStyle": "prayer",
+    "category": "prayer",
     "equipment": [
       {
         "id": "head",

@@ -1,4 +1,4 @@
-import { combatSkills, iconOrder, nonCombatSkills, skills } from './constants'; // prettier-ignore
+import { activityCategories, combatSkills, iconOrder, nonCombatSkills, skills } from './constants'; // prettier-ignore
 import { capitalizeFirstLetter } from './formatting';
 import type { Activity, CombatSkill, CombatStyle, NonCombatSkill, Skill, SortingGroup, Spell, Spellbook } from '../types'; // prettier-ignore
 
@@ -77,7 +77,7 @@ export function getIconForActivity(activity: Activity): string | undefined {
   }
 
   const sortingGroup =
-    activity.sortingGroups.length > 0 ? activity.sortingGroups[0] : 'misc';
+    activity.sortingGroups?.length > 0 ? activity.sortingGroups[0] : 'misc';
 
   if (sortingGroup !== 'misc') {
     const icon = getIconForSortingGroup(sortingGroup);

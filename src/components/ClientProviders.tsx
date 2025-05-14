@@ -4,6 +4,7 @@ import {
   ItemsContextProvider,
   RegionsContextProvider,
   FilterContextProvider,
+  LocationsContextProvider,
 } from '../context';
 
 interface ClientProvidersProps {
@@ -18,9 +19,11 @@ export default function ClientProviders({
   return (
     <RegionsContextProvider location={location}>
       <ItemsContextProvider>
-        <ActivitiesContextProvider>
-          <FilterContextProvider>{children}</FilterContextProvider>
-        </ActivitiesContextProvider>
+        <LocationsContextProvider>
+          <ActivitiesContextProvider>
+            <FilterContextProvider>{children}</FilterContextProvider>
+          </ActivitiesContextProvider>
+        </LocationsContextProvider>
       </ItemsContextProvider>
     </RegionsContextProvider>
   );
