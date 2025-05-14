@@ -840,6 +840,22 @@
     ]
   },
   {
+    "id": "Yama",
+    "icon": "Yami",
+    "category": "boss",
+    "sortingGroups": ["pvm"],
+    "recommendedCombatStyle": ["melee", "magic"],
+    "notableDrops": [
+      "Yami",
+      "Oathplate_helm",
+      "Oathplate_chest",
+      "Oathplate_legs",
+      "Oathplate_shards",
+      "Soulflame_horn",
+      "Rite_of_vile_transference"
+    ]
+  },
+  {
     "id": "Zalcano",
     "icon": "Zalcano_icon_(mobile)",
     "category": "boss",
