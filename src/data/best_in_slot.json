@@ -10,6 +10,10 @@
             "regions": ["asgarnia"]
           },
           {
+            "id": "Oathplate_helm",
+            "regions": ["kourend"]
+          },
+          {
             "id": "Sunfire_fanatic_helm",
             "regions": ["varlamore"],
             "tags": ["leagues"]
@@ -326,6 +330,10 @@
             "regions": ["asgarnia"]
           },
           {
+            "id": "Oathplate_chest",
+            "regions": ["kourend"]
+          },
+          {
             "id": "Sunfire_fanatic_cuirass",
             "regions": ["varlamore"],
             "tags": ["leagues"]
@@ -375,6 +383,10 @@
           {
             "id": "Torva_platelegs",
             "regions": ["asgarnia"]
+          },
+          {
+            "id": "Oathplate_legs",
+            "regions": ["kourend"]
           },
           {
             "id": "Sunfire_fanatic_chausses",
