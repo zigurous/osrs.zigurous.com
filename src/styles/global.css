@@ -49,7 +49,7 @@ body {
 .app {
   position: relative;
   width: 100vw;
-  min-height: 100vh;
+  height: 100vh;
   padding: 18px;
   background-color: var(--color-surface-3);
   overflow: hidden;
@@ -58,7 +58,7 @@ body {
 .app > main {
   display: flex;
   width: 100%;
-  height: calc(100vh + 36px);
+  height: 100%;
   overflow: hidden;
 }
 

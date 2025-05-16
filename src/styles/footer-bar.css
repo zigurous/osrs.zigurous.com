@@ -8,5 +8,4 @@
   height: var(--footer-height, 48px);
   padding: var(--spacing-md) var(--spacing-xl);
   background-color: var(--color-surface-2);
-  border-top: 2px solid var(--color-surface-4);
 }
