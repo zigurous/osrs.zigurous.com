@@ -29,27 +29,33 @@ export default function HeaderBar() {
       </div>
       {showInstructions && (
         <p className="instructions ml-xl title-sm text-muted">
-          Select a region to begin
+          Select a region to analyze
         </p>
       )}
       <Stack spacing="md">
-        <SocialButton color="default" link="github" size="sm" variant="outline">
+        <SocialButton
+          color="default"
+          link="github"
+          size="sm"
+          variant="outline"
+          url="https://github.com/zigurous/osrs-region-analyzer"
+        >
           GitHub
         </SocialButton>
         <SocialButton
           color="default"
-          icon="open_in_new"
-          iconProps={{ className: 'material' }}
+          icon="local_cafe"
+          iconProps={{ className: 'material', variant: 'outlined' }}
           link={{
-            id: 'wiki',
-            name: 'Wiki',
-            href: 'https://oldschool.runescape.wiki/',
+            id: 'support',
+            name: 'Support Me',
+            href: 'https://buymeacoffee.com/zigurous',
             external: true,
           }}
           size="sm"
           variant="outline"
         >
-          OSRS Wiki
+          Support Me
         </SocialButton>
       </Stack>
     </header>
