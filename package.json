@@ -2,8 +2,13 @@
   "name": "osrs-region-analyzer",
   "version": "1.0.0",
   "private": true,
-  "description": "osrs-region-analyzer",
   "author": "Zigurous",
+  "license": "SEE LICENSE IN LICENSE",
+  "homepage": "https://github.com/zigurous/osrs-region-analyzer",
+  "bugs": {
+    "url": "https://github.com/zigurous/osrs-region-analyzer/issues",
+    "email": "support@zigurous.com"
+  },
   "scripts": {
     "develop": "gatsby develop",
     "start": "gatsby develop",
