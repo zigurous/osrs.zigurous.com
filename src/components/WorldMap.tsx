@@ -10,22 +10,22 @@ const MAP_SIZE = { width: 463, height: 215 };
 
 export default function WorldMap() {
   const ref = useRef<HTMLDivElement>(null);
-  const [scale, setScale] = useState(1);
   const { regions, selectedRegion } = useRegionsContext();
-
-  const [observer] = useState(
-    () =>
-      new ResizeObserver((entries: ResizeObserverEntry[]) => {
-        setScale(entries[0].contentRect.width / MAP_SIZE.width);
-      }),
+  const [scale, setScale] = useState(1);
+  const [observer] = useState(() =>
+    typeof window !== 'undefined'
+      ? new ResizeObserver((entries: ResizeObserverEntry[]) => {
+          setScale(entries[0].contentRect.width / MAP_SIZE.width);
+        })
+      : null,
   );
 
   useEffect(() => {
-    if (ref.current) {
+    if (ref.current && observer) {
       observer.observe(ref.current);
     }
     return () => {
-      if (ref.current) {
+      if (ref.current && observer) {
         observer.unobserve(ref.current);
       }
     };

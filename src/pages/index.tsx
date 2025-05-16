@@ -2,12 +2,12 @@ import React from 'react';
 import { type HeadFC, type PageProps } from 'gatsby';
 import { FooterBar, HeaderBar, RegionPanel, RootLayout, WorldMap } from '../components'; // prettier-ignore
 
-export default function IndexPage(props: PageProps) {
+export default function IndexPage({ location }: PageProps) {
   return (
-    <RootLayout location={props.location}>
+    <RootLayout location={location}>
       <main>
         <div className="flex flex-col w-full h-full">
-          <HeaderBar />
+          <HeaderBar location={location} />
           <WorldMap />
           <FooterBar />
         </div>

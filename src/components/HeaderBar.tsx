@@ -5,7 +5,11 @@ import { useRegionsContext } from '../context';
 import icon from '../images/osrs-icon.png';
 import '../styles/header-bar.css';
 
-export default function HeaderBar() {
+interface HeaderBarProps {
+  location: Location;
+}
+
+export default function HeaderBar({ location }: HeaderBarProps) {
   const context = useRegionsContext();
   const [showInstructions, setShowInstructions] = useState(() =>
     Boolean(!location.search.includes('?region=')),

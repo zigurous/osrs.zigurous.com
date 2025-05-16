@@ -3,6 +3,7 @@ import type { GatsbyConfig } from 'gatsby';
 const config: GatsbyConfig = {
   siteMetadata: {
     title: 'OSRS Region Analyzer',
+    siteUrl: 'https://zigurous.github.io/osrs-region-analyzer',
   },
   plugins: [
     'gatsby-plugin-sitemap',
