@@ -1,9 +1,9 @@
 {
-  "name": "osrs-region-planner",
+  "name": "osrs-region-analyzer",
   "version": "1.0.0",
   "private": true,
-  "description": "osrs-region-planner",
-  "author": "Adam Graham",
+  "description": "osrs-region-analyzer",
+  "author": "Zigurous",
   "scripts": {
     "develop": "gatsby develop",
     "start": "gatsby develop",

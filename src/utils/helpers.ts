@@ -1,4 +1,4 @@
-import { activityCategories, combatSkills, iconOrder, nonCombatSkills, skills } from './constants'; // prettier-ignore
+import { combatSkills, iconOrder, nonCombatSkills, skills } from './constants'; // prettier-ignore
 import { capitalizeFirstLetter } from './formatting';
 import type { Activity, CombatSkill, CombatStyle, NonCombatSkill, Skill, SortingGroup, Spell, Spellbook } from '../types'; // prettier-ignore
 

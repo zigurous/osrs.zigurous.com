@@ -1,14 +1,20 @@
 import React from 'react';
 import { type HeadFC, type PageProps } from 'gatsby';
-import { RegionPanel, RootLayout, WorldMap } from '../components';
+import { FooterBar, HeaderBar, RegionPanel, RootLayout, WorldMap } from '../components'; // prettier-ignore
 
 export default function IndexPage(props: PageProps) {
   return (
     <RootLayout location={props.location}>
-      <WorldMap />
-      <RegionPanel />
+      <main>
+        <div className="flex flex-col w-full h-full">
+          <HeaderBar />
+          <WorldMap />
+          <FooterBar />
+        </div>
+        <RegionPanel />
+      </main>
     </RootLayout>
   );
 }
 
-export const Head: HeadFC = () => <title>OSRS Region Planner</title>;
+export const Head: HeadFC = () => <title>OSRS Region Analyzer</title>;

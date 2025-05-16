@@ -2,16 +2,15 @@ import type { GatsbyConfig } from 'gatsby';
 
 const config: GatsbyConfig = {
   siteMetadata: {
-    title: 'OSRS Region Planner',
-    siteUrl: 'https://adamgraham.github.io/osrs-region-planner',
+    title: 'OSRS Region Analyzer',
   },
   plugins: [
     'gatsby-plugin-sitemap',
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: 'OSRS Region Planner',
-        short_name: 'Region Planner',
+        name: 'OSRS Region Analyzer',
+        short_name: 'Region Analyzer',
         start_url: '/',
         display: 'standalone',
         theme_color: '#c2410c',

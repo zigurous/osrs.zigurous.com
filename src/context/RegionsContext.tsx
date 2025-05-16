@@ -57,10 +57,10 @@ export function RegionsContextProvider({
   );
 
   useEffect(() => {
-    const hash = location.hash.replace('#', '');
-    const region = regions.find(node => node.id === hash);
+    const id = location.search.replace('?region=', '');
+    const region = regions.find(region => region.id === id);
     setSelectedRegion(region || null);
-  }, [regions, location.hash]);
+  }, [regions, location.search]);
 
   return (
     <RegionsContext.Provider

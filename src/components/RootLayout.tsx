@@ -11,7 +11,7 @@ export default function RootLayout({ children, location }: RootLayoutProps) {
   return (
     <ClientProviders location={location}>
       <div className="app" id="root">
-        <main className="flex w-full h-full">{children}</main>
+        {children}
         <PageFrame />
       </div>
     </ClientProviders>

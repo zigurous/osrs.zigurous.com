@@ -1,7 +1,7 @@
 .custom-tooltip {
   position: absolute;
   transform: translate(-50%, calc(-100% - var(--spacing-xxs)));
-  background-color: var(--color-background);
+  background-color: black;
   border-radius: var(--radius-sm);
   padding: var(--spacing-xxs) var(--spacing-sm) calc(var(--spacing-xxs) + 1px);
   z-index: var(--z-index-tooltip);
@@ -15,7 +15,7 @@
   top: 100%;
   left: 50%;
   border: 8px solid transparent;
-  border-top-color: var(--color-background);
+  border-top-color: black;
   transform: translate(-50%, -1px);
 }
 

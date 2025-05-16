@@ -59,9 +59,12 @@ export default function WorldMap() {
             const regionId = target.parentElement?.id;
             if (regionId) {
               /* @ts-ignore */
-              navigate(regionId === selectedRegion?.id ? '' : `#${regionId}`, {
-                replace: true,
-              });
+              navigate(
+                regionId === selectedRegion?.id ? '' : `?region=${regionId}`,
+                {
+                  replace: true,
+                },
+              );
             }
           }}
         />
@@ -76,7 +79,7 @@ export default function WorldMap() {
                 deselected={!selected && !!selectedRegion}
                 onClick={() => {
                   /* @ts-ignore */
-                  navigate(selected ? '' : `#${region.id}`, {
+                  navigate(selected ? '' : `?region=${region.id}`, {
                     replace: true,
                   });
                 }}
