@@ -28,7 +28,7 @@ const config: GatsbyConfig = {
       },
     },
   ],
-  trailingSlash: 'never',
+  trailingSlash: 'always',
 };
 
 export default config;

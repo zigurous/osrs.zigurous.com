@@ -60,7 +60,7 @@ export default function WorldMap() {
             if (regionId) {
               /* @ts-ignore */
               navigate(
-                regionId === selectedRegion?.id ? '' : `?region=${regionId}`,
+                regionId === selectedRegion?.id ? '/' : `/?region=${regionId}`,
                 {
                   replace: true,
                 },
@@ -79,7 +79,7 @@ export default function WorldMap() {
                 deselected={!selected && !!selectedRegion}
                 onClick={() => {
                   /* @ts-ignore */
-                  navigate(selected ? '' : `?region=${region.id}`, {
+                  navigate(selected ? '/' : `/?region=${region.id}`, {
                     replace: true,
                   });
                 }}
