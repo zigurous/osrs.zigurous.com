@@ -16,19 +16,19 @@ interface RegionPanelSlayerProps {
 
 export default function RegionPanelSlayer({ region }: RegionPanelSlayerProps) {
   const data = useStaticQuery<SlayerQueryData>(dataQuery);
-  const itemsContext = useItemsContext();
-  const locationsContext = useLocationsContext();
+  const { getItemsByIds } = useItemsContext();
+  const { getLocationById } = useLocationsContext();
   const masters = data.masters.nodes.filter(
     master => master.region === region.id,
   );
   const monsters = data.monsters.nodes
     .filter(monster =>
-      monster.locations.some(
-        id => locationsContext.getLocationById(id).region === region.id,
-      ),
+      monster.locations.some(id => getLocationById(id).region === region.id),
     )
     .sort(sortByName);
-  const dungeons = data.dungeons.nodes.filter(loc => loc.region === region.id);
+  const dungeons = data.dungeons.nodes.filter(
+    location => location.region === region.id,
+  );
   return (
     <>
       <RegionPanelSection title="Slayer">
@@ -67,7 +67,7 @@ export default function RegionPanelSlayer({ region }: RegionPanelSlayerProps) {
         <ul className="drops-list">
           {monsters.map(monster => {
             if (!monster.notableDrops) return null;
-            const drops = itemsContext.getItemsByIds(monster.notableDrops);
+            const drops = getItemsByIds(monster.notableDrops);
             return (
               <li id={monster.id} key={monster.id}>
                 <TitledCard

@@ -3,16 +3,6 @@
     "id": "asgarnia",
     "name": "Asgarnia",
     "description": "The Kingdom of Asgarnia is one of the main kingdoms of Gielinor. Asgarnia's primary economic activities are crafting, mining, and fishing. It also has a notable navy based in Port Sarim.",
-    "locations": [
-      "Burthorpe",
-      "Entrana",
-      "Falador",
-      "Port_Sarim",
-      "Rimmington",
-      "Taverly",
-      "Troll_Stronghold_(location)",
-      "Void_Knights'_Outpost"
-    ],
     "skilling": [
       "Adamantite_rocks",
       "Air_Altar",
@@ -145,14 +135,30 @@
       "Pest_Control",
       "Rogues'_Den"
     ],
+    "misc": [
+      "Crystal_chest",
+      "Motherlode_Mine",
+      "Shooting_Stars"
+    ],
     "guilds": [
       "Crafting_Guild",
       "Heroes'_Guild",
       "Mining_Guild",
       "Warriors'_Guild"
     ],
+    "locations": [
+      "Burthorpe",
+      "Entrana",
+      "Falador",
+      "Port_Sarim",
+      "Rimmington",
+      "Taverly",
+      "Troll_Stronghold_(location)",
+      "Void_Knights'_Outpost"
+    ],
     "dungeons": [
       "Asgarnian_Ice_Dungeon",
+      "Dwarven_Mine",
       "God_Wars_Dungeon",
       "Ruins_of_Camdozaal",
       "Taverley_Dungeon"
@@ -188,12 +194,6 @@
       "Thurgo",
       "Turael"
     ],
-    "misc": [
-      "Crystal_chest",
-      "Ghommal",
-      "Mac",
-      "Portal_(Player-owned_house)"
-    ],
     "pets": [
       "Baby_mole",
       "Bran",
@@ -210,14 +210,6 @@
     "id": "desert",
     "name": "Desert",
     "description": "The Kharidian Desert is an expansive region located south of the nations of Misthalin and Morytania. The desert becomes a dangerous region south of the Shantay Pass, requiring travelers to drink from waterskins or other sources of water to avoid dehydration.",
-    "locations": [
-      "Al_Kharid",
-      "Giants'_Plateau",
-      "Nardah",
-      "Pollnivneach",
-      "Sophanem",
-      "Uzer_Oasis"
-    ],
     "skilling": [
       "Adamantite_rocks",
       "Agility_Pyramid",
@@ -228,7 +220,6 @@
       "Anvil#Nardah",
       "Arrows",
       "Bandit_(Bandit_Camp)#Pickpocketing",
-      "Bandit_(Pollnivneach)#Pickpocketing",
       "Barrage_spells",
       "Big_bones",
       "Bolts",
@@ -278,7 +269,6 @@
       "Man#Pickpocketing",
       "Manta_ray",
       "Menaphite_remedy",
-      "Menaphite_Thug#Blackjacking",
       "Mithril_rocks",
       "Orange_salamander_(Hunter)",
       "Pie",
@@ -290,7 +280,6 @@
       "Raw_swordfish",
       "Raw_tuna",
       "Sandstone",
-      "Scar_essence_mine",
       "Sea_turtle",
       "Silver_bar#Products",
       "Silver_rocks",
@@ -307,8 +296,7 @@
       "Tin_rocks",
       "Tree",
       "Ugthanki_kebab",
-      "Uzer_Hunter_area",
-      "Villager#Pickpocketing"
+      "Uzer_Hunter_area"
     ],
     "raids": [
       "Tombs_of_Amascut"
@@ -326,7 +314,20 @@
       "Pyramid_Plunder",
       "Sorceress's_Garden"
     ],
+    "misc": [
+      "Agility_Pyramid",
+      "Blackjacking",
+      "Scar_essence_mine"
+    ],
     "guilds": [],
+    "locations": [
+      "Al_Kharid",
+      "Giants'_Plateau",
+      "Nardah",
+      "Pollnivneach",
+      "Sophanem",
+      "Uzer_Oasis"
+    ],
     "dungeons": [
       "Kalphite_Cave",
       "Kalphite_Lair",
@@ -346,9 +347,6 @@
       "Wesley",
       "Zahur"
     ],
-    "misc": [
-      "Portal_(Player-owned_house)"
-    ],
     "pets": [
       "Abyssal_protector",
       "Kalphite_princess",
@@ -361,17 +359,6 @@
     "id": "fremennik",
     "name": "Fremennik",
     "description": "The Fremennik Province is a region of various settlements ruled by the Fremennik and barbarians, found north of Kandarin. Besides the mainland, it includes many island settlements, due to the seafaring nature of the Fremennik.",
-    "locations": [
-      "Etceteria",
-      "Jatizso",
-      "Keldagrim",
-      "Lunar_Isle",
-      "Miscellania",
-      "Neitiznot",
-      "Rellekka",
-      "Waterbirth_Island",
-      "Weiss"
-    ],
     "skilling": [
       "Adamantite_rocks",
       "Ancient_essence_crystals",
@@ -511,7 +498,22 @@
       "Blast_Furnace",
       "Impetuous_Impulses"
     ],
+    "misc": [
+      "Managing_Miscellania",
+      "Olaf_the_Bard"
+    ],
     "guilds": [],
+    "locations": [
+      "Etceteria",
+      "Jatizso",
+      "Keldagrim",
+      "Lunar_Isle",
+      "Miscellania",
+      "Neitiznot",
+      "Rellekka",
+      "Waterbirth_Island",
+      "Weiss"
+    ],
     "dungeons": [
       "Fremennik_Slayer_Dungeon",
       "Ghorrock_Dungeon",
@@ -538,11 +540,6 @@
       "Olaf_the_Bard",
       "Stonemason"
     ],
-    "misc": [
-      "Managing_Miscellania",
-      "Olaf_the_Bard",
-      "Portal_(Player-owned_house)"
-    ],
     "pets": [
       "Baron",
       "Muphin",
@@ -557,20 +554,6 @@
     "id": "kandarin",
     "name": "Kandarin",
     "description": "Kandarin is one of the largest kingdoms in Gielinor ruled by King Lathas of East Ardougne. It encompasses most of the lands west of White Wolf Mountain. Kandarin is bordered by Asgarnia to the east, the Fremennik Province to the north, the forests of Tirannwn to the west, and the Feldip Hills to the south.",
-    "locations": [
-      "Ape_Atoll",
-      "Ardougne",
-      "Catherby",
-      "Feldip_Hills",
-      "Gu'Tanoth",
-      "Piscatoris",
-      "Port_Khazard",
-      "Seers'_Village",
-      "Tree_Gnome_Stronghold",
-      "Tree_Gnome_Village",
-      "Witchhaven",
-      "Yanille"
-    ],
     "skilling": [
       "Achey_Tree",
       "Adamantite_rocks",
@@ -744,11 +727,21 @@
       "Barbarian_Assault",
       "Castle_Wars",
       "Fishing_Trawler",
+      "Forestry",
       "Gnome_Ball",
       "Gnome_Restaurant",
       "Impetuous_Impulses",
       "Nightmare_Zone",
       "Ranging_Guild#Minigame"
+    ],
+    "misc": [
+      "Barbarian_Training",
+      "Creature_Creation",
+      "Chompy_bird_hunting",
+      "Demonic_gorilla",
+      "Maniacal_monkey_(Hunter)",
+      "Ourania_Altar",
+      "Sinister_chest"
     ],
     "guilds": [
       "Fishing_Guild",
@@ -757,6 +750,20 @@
       "Ranging_Guild",
       "Servants'_Guild",
       "Wizards'_Guild"
+    ],
+    "locations": [
+      "Ape_Atoll",
+      "Ardougne",
+      "Catherby",
+      "Feldip_Hills",
+      "Gu'Tanoth",
+      "Piscatoris",
+      "Port_Khazard",
+      "Seers'_Village",
+      "Tree_Gnome_Stronghold",
+      "Tree_Gnome_Village",
+      "Witchhaven",
+      "Yanille"
     ],
     "dungeons": [
       "Ancient_Cavern",
@@ -792,12 +799,6 @@
       "Nieve",
       "Wizard_Sinina"
     ],
-    "misc": [
-      "Creature_Creation",
-      "Chompy_bird_hunting",
-      "Portal_(Player-owned_house)",
-      "Sinister_chest"
-    ],
     "pets": [
       "Broav",
       "Chompy_chick",
@@ -811,15 +812,6 @@
     "id": "karamja",
     "name": "Karamja",
     "description": "Karamja is a large island in Gielinor. It is located to the south of the major kingdoms of Asgarnia and Kandarin. The island contains mostly jungle and tropical geography. Different tribes of Karamja speak different Karamjan languages.",
-    "locations": [
-      "Brimhaven",
-      "Crandor",
-      "Kharazi_Jungle",
-      "Mor_Ul_Rek",
-      "Musa_Point",
-      "Shilo_Village_(location)",
-      "Tai_Bwo_Wannai"
-    ],
     "skilling": [
       "Adamantite_rocks",
       "Antipoison",
@@ -867,6 +859,7 @@
       "Mahogany_tree",
       "Man#Pickpocketing",
       "Mithril_rocks",
+      "Mor_Ul_Rek",
       "Nature_Altar",
       "Onyx#Crafting",
       "Pie",
@@ -903,8 +896,8 @@
     ],
     "raids": [],
     "bosses": [
-      "TzHaar_Fight_Cave",
-      "Inferno"
+      "TzTok-Jad",
+      "TzKal-Zuk"
     ],
     "minigames": [
       "Brimhaven_Agility_Arena",
@@ -915,11 +908,21 @@
       "TzHaar_Fight_Pit",
       "TzHaar-Ket-Rak's_Challenges"
     ],
+    "misc": [],
     "guilds": [],
+    "locations": [
+      "Brimhaven",
+      "Crandor",
+      "Kharazi_Jungle",
+      "Mor_Ul_Rek",
+      "Musa_Point",
+      "Shilo_Village_(location)",
+      "Ship_Yard",
+      "Tai_Bwo_Wannai"
+    ],
     "dungeons": [
       "Brimhaven_Dungeon",
-      "Crandor_and_Karamja_Dungeon",
-      "Mor_Ul_Rek"
+      "Crandor_and_Karamja_Dungeon"
     ],
     "monsters": [
       "Black_demon",
@@ -937,9 +940,6 @@
       "Cap'n_Izzy_No-Beard",
       "Duradel"
     ],
-    "misc": [
-      "Portal_(Player-owned_house)"
-    ],
     "pets": [
       "Jal-nib-rek",
       "Tzrek-jad"
@@ -949,18 +949,6 @@
     "id": "kourend",
     "name": "Kourend",
     "description": "Great Kourend is a kingdom in the continent of Zeah, found far west of the mainland across the Western Sea. One of the largest kingdoms in Gielinor, it is larger than Misthalin and Asgarnia combined, and is similar in size to Kandarin.",
-    "locations": [
-      "Arceuus",
-      "Hosidius",
-      "Kebos_Lowlands",
-      "Kingstown",
-      "Kourend_Woodland",
-      "Lovakengj",
-      "Mount_Karuulm",
-      "Mount_Quidamortem",
-      "Port_Piscarilius",
-      "Shayzien"
-    ],
     "skilling": [
       "Adamantite_rocks",
       "Aerial_fishing",
@@ -971,7 +959,6 @@
       "Antipoison",
       "Anvil#Kourend_Castle",
       "Anvil#Lovakengj",
-      "Arceuus_Library",
       "Arrows",
       "Attack_potion",
       "Bakery_stall",
@@ -1012,6 +999,7 @@
       "Enchantment_spells#Enchanted_gold_and_silver_jewellery",
       "Energy_potion",
       "Ensouled_heads",
+      "Ents",
       "Fire#Wintertodt_Camp",
       "Fish_stall",
       "Fish",
@@ -1096,6 +1084,7 @@
       "Soul_Altar",
       "Spinning_wheel",
       "Spirit_Tree_(Farming)",
+      "Stealing_artefacts",
       "Stone_chest",
       "Strength_potion",
       "Sulphur_mine",
@@ -1135,15 +1124,37 @@
       "Wintertodt"
     ],
     "minigames": [
+      "Forestry",
       "Impetuous_Impulses",
       "Mess",
-      "Stealing_artefacts",
       "Tackle_organised_crime",
       "Tithe_Farm"
+    ],
+    "misc": [
+      "Aerial_fishing",
+      "Arceuus_Library",
+      "Blast_mine",
+      "Brimstone_chest",
+      "Combat_Ring_(Shayzien)",
+      "Grubby_Chest",
+      "Stealing_artefacts",
+      "Vinery"
     ],
     "guilds": [
       "Farming_Guild",
       "Woodcutting_Guild"
+    ],
+    "locations": [
+      "Arceuus",
+      "Hosidius",
+      "Kebos_Lowlands",
+      "Kingstown",
+      "Kourend_Woodland",
+      "Lovakengj",
+      "Mount_Karuulm",
+      "Mount_Quidamortem",
+      "Port_Piscarilius",
+      "Shayzien"
     ],
     "dungeons": [
       "Catacombs_of_Kourend",
@@ -1159,7 +1170,7 @@
       "Deviant_spectre",
       "Drake",
       "Dust_devil",
-      "Ents",
+      "Ent",
       "Fire_giant",
       "Greater_demon",
       "Greater_Nechryael",
@@ -1184,12 +1195,6 @@
       "Konar",
       "Mary_(Getting_Ahead)"
     ],
-    "misc": [
-      "Brimstone_chest",
-      "Combat_Ring_(Shayzien)",
-      "Grubby_Chest",
-      "Portal_(Player-owned_house)"
-    ],
     "pets": [
       "Ikkle_hydra",
       "Olmlet",
@@ -1203,17 +1208,6 @@
     "id": "misthalin",
     "name": "Misthalin",
     "description": "Misthalin is a major kingdom within Gielinor, the most powerful human nation and by far the oldest. Its capital, Varrock, has existed in some form since soon after the end of the God Wars. It is divided in half by the River Lum, and its eastern border with Morytania is the River Salve.",
-    "locations": [
-      "Barbarian_Village",
-      "Dorgesh-Kaan",
-      "Draynor_Village",
-      "Edgeville",
-      "Fossil_Island",
-      "Isle_of_Souls",
-      "Lumbridge",
-      "Varrock",
-      "Zanaris"
-    ],
     "skilling": [
       "Abyss",
       "Adamantite_rocks",
@@ -1381,6 +1375,7 @@
       "Scurrius"
     ],
     "minigames": [
+      "Forestry",
       "Impetuous_Impulses",
       "Mahogany_Homes",
       "Rat_Pits",
@@ -1388,9 +1383,33 @@
       "Tears_of_Guthix_(minigame)",
       "Volcanic_Mine"
     ],
+    "misc": [
+      "Bird_house_trapping",
+      "Champions'_Challenge",
+      "Dark_Chest",
+      "Drift_net_fishing",
+      "Herbiboar#Hunting",
+      "Sulliusceps",
+      "Tormented_Demon",
+      "Underwater_Agility_and_Thieving",
+      "Varrock_Museum"
+    ],
     "guilds": [
       "Champions'_Guild",
       "Cooks'_Guild"
+    ],
+    "locations": [
+      "Abyssal_Space",
+      "Barbarian_Village",
+      "Digsite",
+      "Dorgesh-Kaan",
+      "Draynor_Village",
+      "Edgeville",
+      "Fossil_Island",
+      "Isle_of_Souls",
+      "Lumbridge",
+      "Varrock",
+      "Zanaris"
     ],
     "dungeons": [
       "Edgeville_Dungeon",
@@ -1434,12 +1453,6 @@
       "Wise_Old_Man",
       "Woodsman_tutor"
     ],
-    "misc": [
-      "Champions'_Challenge",
-      "Dark_Chest",
-      "Twiggy_O'Korn",
-      "Wise_Old_Man"
-    ],
     "pets": [
       "Abyssal_orphan",
       "Cat",
@@ -1453,17 +1466,6 @@
     "id": "morytania",
     "name": "Morytania",
     "description": "Morytania is an area in the easternmost part of Gielinor. Often described as a land of evil, the land is filled with many aggressive creatures such as vampyres, werewolves, ghasts, and the undead. It is currently ruled by Lord Drakan.",
-    "locations": [
-      "Burgh_de_Rott",
-      "Canifis",
-      "Darkmeyer",
-      "Harmony_Island",
-      "Meiyerditch",
-      "Mort'ton",
-      "Mos_Le'Harmless",
-      "Port_Phasmatys",
-      "Slepe"
-    ],
     "skilling": [
       "Adamantite_rocks",
       "Allotment_patch",
@@ -1544,6 +1546,7 @@
       "Tree",
       "Vyre#Pickpocketing",
       "Werewolf_Agility_Course",
+      "Werewolf_Skullball",
       "Windmill",
       "Yew_logs",
       "Yew_logs#Firemaking",
@@ -1565,7 +1568,24 @@
       "Temple_Trekking",
       "Trouble_Brewing"
     ],
+    "misc": [
+      "Ectofuntus",
+      "Slayer_Tower",
+      "Werewolf_Skullball"
+    ],
     "guilds": [],
+    "locations": [
+      "Burgh_de_Rott",
+      "Canifis",
+      "Darkmeyer",
+      "Harmony_Island",
+      "Meiyerditch",
+      "Mort'ton",
+      "Mos_Le'Harmless",
+      "Port_Phasmatys",
+      "Slepe",
+      "Ver_Sinhaza"
+    ],
     "dungeons": [
       "Abandoned_Mine",
       "Morytania_Spider_Cave",
@@ -1592,7 +1612,6 @@
       "Mazchna",
       "Sbott"
     ],
-    "misc": [],
     "pets": [
       "Lil'_zik",
       "Little_nightmare",
@@ -1604,15 +1623,6 @@
     "id": "tirannwn",
     "name": "Tirannwn",
     "description": "Tirannwn is a heavily forested region located west of Kandarin. It is said that the elves retreated here after the God Wars. Apart from elves, there are rabbits, dire wolves, and grizzly bears that inhabit Tirannwn. The many traps and dense forest make traveling through Tirannwn difficult and potentially dangerous.",
-    "locations": [
-      "Arandar",
-      "Gwenith",
-      "Isafdar",
-      "Lletya",
-      "Poison_Waste",
-      "Prifddinas",
-      "Underground_Pass_(dungeon)"
-    ],
     "skilling": [
       "Adamantite_rocks",
       "Allotment_patch",
@@ -1717,15 +1727,30 @@
     ],
     "raids": [],
     "bosses": [
-      "The_Gauntlet",
+      "Corrupted_Hunllef",
       "Zalcano",
       "Zulrah"
     ],
     "minigames": [
+      "Forestry",
       "Impetuous_Impulses",
       "The_Gauntlet"
     ],
+    "misc": [
+      "Crystal_singing#Crafting",
+      "Elven_Crystal_Chest",
+      "Warped_creatures"
+    ],
     "guilds": [],
+    "locations": [
+      "Arandar",
+      "Gwenith",
+      "Isafdar",
+      "Lletya",
+      "Poison_Waste",
+      "Prifddinas",
+      "Underground_Pass_(dungeon)"
+    ],
     "dungeons": [
       "Iorwerth_Dungeon",
       "Poison_Waste_Dungeon"
@@ -1744,10 +1769,6 @@
       "Alwyn",
       "Friendly_Forester"
     ],
-    "misc": [
-      "Elven_Crystal_Chest",
-      "Portal_(Player-owned_house)"
-    ],
     "pets": [
       "Pet_snakeling",
       "Smolcano",
@@ -1758,17 +1779,6 @@
     "id": "varlamore",
     "name": "Varlamore",
     "description": "The Kingdom of Varlamore, also known as the Shining Kingdom, is a kingdom found in the continent of Zeah, far west of the mainland across the Western Sea. Like Great Kourend, it stands as one of the largest kingdoms in Gielinor, and one of the most distinct, given its isolation from the rest of the mainland.",
-    "locations": [
-      "Aldarin",
-      "Avium_Savannah",
-      "Cam_Torum",
-      "Civitas_illa_Fortis",
-      "Mistrock",
-      "Quetzacalli_Gorge",
-      "Salvager_Overlook",
-      "Sunset_Coast",
-      "The_Stranglewood"
-    ],
     "skilling": [
       "Adamantite_rocks",
       "Allotment_patch",
@@ -1905,18 +1915,38 @@
     "raids": [],
     "bosses": [
       "Amoxliatl",
-      "Fortis_Colosseum",
       "Hueycoatl",
       "Moons_of_Peril",
+      "Sol_Heredit",
       "Vardorvis"
     ],
     "minigames": [
+      "Forestry",
       "Fortis_Colosseum",
       "Impetuous_Impulses",
       "Mastering_Mixology"
     ],
+    "misc": [
+      "Calcified_rocks",
+      "Colossal_Wyrm_Agility",
+      "Hunters'_Rumours",
+      "Libation_bowl",
+      "Moon_chest",
+      "Stealing_valuables"
+    ],
     "guilds": [
       "Hunter_Guild"
+    ],
+    "locations": [
+      "Aldarin",
+      "Avium_Savannah",
+      "Cam_Torum",
+      "Civitas_illa_Fortis",
+      "Mistrock",
+      "Quetzacalli_Gorge",
+      "Salvager_Overlook",
+      "Sunset_Coast",
+      "The_Stranglewood"
     ],
     "dungeons": [
       "Neypotzli",
@@ -1938,10 +1968,6 @@
       "Estate_agent",
       "Metla"
     ],
-    "misc": [
-      "Moon_chest",
-      "Portal_(Player-owned_house)"
-    ],
     "pets": [
       "Butch",
       "Huberte",
@@ -1954,20 +1980,6 @@
     "id": "wilderness",
     "name": "Wilderness",
     "description": "The Wilderness, also known as the Wild or Wildy, is a large and dangerous wasteland that makes up most of north-eastern Gielinor.",
-    "locations": [
-      "Bandit_Camp_(Wilderness)",
-      "Chaos_Temple_(Wilderness)",
-      "Ferox_Enclave",
-      "Frozen_Waste_Plateau",
-      "Graveyard_of_Shadows",
-      "Lava_Dragon_Isle",
-      "Lava_Maze",
-      "Mage_Arena",
-      "Revenant_Caves",
-      "Rogues'_Castle",
-      "Ruins_(east)",
-      "The_Forgotten_Cemetery"
-    ],
     "skilling": [
       "Adamantite_rocks",
       "Air_battlestaff",
@@ -1998,6 +2010,7 @@
       "Earth_battlestaff",
       "Enchant_Crossbow_Bolt",
       "Enchantment_spells#Enchanted_gold_and_silver_jewellery",
+      "Ents",
       "Extended_antifire",
       "Extended_super_antifire",
       "Fish",
@@ -2060,9 +2073,34 @@
     ],
     "minigames": [
       "Bounty_Hunter",
+      "Clan_Wars",
       "Last_Man_Standing"
     ],
+    "misc": [
+      "Chaos_Temple_(hut)",
+      "Chest_(Rogues'_Castle)",
+      "Fountain_of_Rune",
+      "Larran's_big_chest",
+      "Mage_Arena",
+      "Muddy_chest",
+      "Revenants",
+      "Wilderness_Agility_Course",
+      "Zombie_Pirate's_Locker"
+    ],
     "guilds": [],
+    "locations": [
+      "Bandit_Camp_(Wilderness)",
+      "Chaos_Temple_(Wilderness)",
+      "Dark_Warriors'_Fortress",
+      "Ferox_Enclave",
+      "Frozen_Waste_Plateau",
+      "Graveyard_of_Shadows",
+      "Lava_Dragon_Isle",
+      "Lava_Maze",
+      "Resource_Area",
+      "Rogues'_Castle",
+      "Ruins_(east)"
+    ],
     "dungeons": [
       "Revenant_Caves",
       "Wilderness_God_Wars_Dungeon",
@@ -2075,7 +2113,7 @@
       "Chaos_druid",
       "Dust_devil",
       "Elder_Chaos_druid",
-      "Ents",
+      "Ent",
       "Fire_giant",
       "Greater_demon",
       "Greater_Nechryael",
@@ -2093,12 +2131,6 @@
     ],
     "npcs": [
       "Krystilia"
-    ],
-    "misc": [
-      "Fountain_of_Rune",
-      "Larran's_big_chest",
-      "Muddy_chest",
-      "Zombie_Pirate's_Locker"
     ],
     "pets": [
       "Callisto_cub",

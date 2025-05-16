@@ -216,6 +216,23 @@
     ]
   },
   {
+    "id": "Corrupted_Hunllef",
+    "icon": "Crystalline_Hunllef_icon_(mobile)",
+    "title": "Hunllef",
+    "category": "boss",
+    "sortingGroups": ["pvm"],
+    "recommendedCombatStyle": ["hybrid"],
+    "notableDrops": [
+      "Youngllef",
+      "Crystal_blessing",
+      "Crystal_armour_seed",
+      "Crystal_weapon_seed",
+      "Enhanced_crystal_weapon_seed",
+      "Crystal_shard",
+      "Gauntlet_cape"
+    ]
+  },
+  {
     "id": "Crazy_archaeologist",
     "icon": "Fedora",
     "category": "boss",
@@ -283,27 +300,6 @@
       "Ice_quartz",
       "Frozen_tablet",
       "Awakener's_orb"
-    ]
-  },
-  {
-    "id": "Fortis_Colosseum",
-    "icon": "Smol_heredit",
-    "subtitle": "Sol Heredit",
-    "category": "boss",
-    "sortingGroups": ["pvm"],
-    "recommendedCombatStyle": ["melee", "hybrid"],
-    "notableDrops": [
-      "Smol_heredit",
-      "Sunlight_spear",
-      "Sunlit_bracers",
-      "Dizana's_quiver",
-      "Sunfire_fanatic_helm",
-      "Sunfire_fanatic_cuirass",
-      "Sunfire_fanatic_chausses",
-      "Tonalztics_of_ralos",
-      "Echo_crystal",
-      "Uncut_onyx",
-      "Sunfire_splinters"
     ]
   },
   {
@@ -382,18 +378,6 @@
       "Hueycoatl_hide",
       "Huasca_seed",
       "Tooth_half_of_key_(moon_key)"
-    ]
-  },
-  {
-    "id": "Inferno",
-    "icon": "Tzrek-zuk",
-    "subtitle": "TzKal-Zuk",
-    "category": "boss",
-    "sortingGroups": ["pvm", "slayer"],
-    "recommendedCombatStyle": ["ranged", "hybrid"],
-    "notableDrops": [
-      "Jal-nib-rek",
-      "Infernal_cape"
     ]
   },
   {
@@ -611,6 +595,26 @@
     ]
   },
   {
+    "id": "Sol_Heredit",
+    "icon": "Smol_heredit",
+    "category": "boss",
+    "sortingGroups": ["pvm"],
+    "recommendedCombatStyle": ["melee", "hybrid"],
+    "notableDrops": [
+      "Smol_heredit",
+      "Sunlight_spear",
+      "Sunlit_bracers",
+      "Dizana's_quiver",
+      "Sunfire_fanatic_helm",
+      "Sunfire_fanatic_cuirass",
+      "Sunfire_fanatic_chausses",
+      "Tonalztics_of_ralos",
+      "Echo_crystal",
+      "Uncut_onyx",
+      "Sunfire_splinters"
+    ]
+  },
+  {
     "id": "Tempoross",
     "icon": "Tempoross_icon_(mobile)",
     "category": "boss",
@@ -631,23 +635,6 @@
       "Spirit_angler_waders",
       "Spirit_angler_boots",
       "Spirit_flakes"
-    ]
-  },
-  {
-    "id": "The_Gauntlet",
-    "icon": "Crystalline_Hunllef_icon_(mobile)",
-    "subtitle": "Hunllef",
-    "category": "boss",
-    "sortingGroups": ["pvm"],
-    "recommendedCombatStyle": ["hybrid"],
-    "notableDrops": [
-      "Youngllef",
-      "Crystal_blessing",
-      "Crystal_armour_seed",
-      "Crystal_weapon_seed",
-      "Enhanced_crystal_weapon_seed",
-      "Crystal_shard",
-      "Gauntlet_cape"
     ]
   },
   {
@@ -729,16 +716,25 @@
     ]
   },
   {
-    "id": "TzHaar_Fight_Cave",
+    "id": "TzTok-Jad",
     "icon": "Tzrek-jad",
-    "title": "Fight Caves",
-    "subtitle": "TzTok-Jad",
     "category": "boss",
     "sortingGroups": ["pvm", "slayer"],
     "recommendedCombatStyle": ["ranged", "melee"],
     "notableDrops": [
       "Tzrek-jad",
       "Fire_cape"
+    ]
+  },
+  {
+    "id": "TzKal-Zuk",
+    "icon": "Tzrek-zuk",
+    "category": "boss",
+    "sortingGroups": ["pvm", "slayer"],
+    "recommendedCombatStyle": ["ranged", "hybrid"],
+    "notableDrops": [
+      "Jal-nib-rek",
+      "Infernal_cape"
     ]
   },
   {

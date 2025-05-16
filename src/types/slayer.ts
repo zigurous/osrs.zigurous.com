@@ -1,4 +1,3 @@
-import type { GameLocation } from './location';
 import type { Monster } from './monster';
 
 export interface SlayerMaster {
@@ -14,6 +13,9 @@ export interface SlayerMonster extends Monster {
   hideFromMenu?: boolean;
 }
 
-export type SlayerDungeon = Omit<GameLocation, 'tags'> & {
-  tags: ['slayer'];
-};
+export interface SlayerDungeon {
+  id: string;
+  name?: string;
+  region: string;
+  tags: string[];
+}

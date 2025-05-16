@@ -965,6 +965,16 @@
     ]
   },
   {
+    "id": "Blackjacking",
+    "caption": "30-65",
+    "category": "skilling",
+    "requiredLevel": 30,
+    "sortingGroups": ["thieving"],
+    "notableDrops": [
+      "Coins"
+    ]
+  },
+  {
     "id": "Black_chinchompa_(Hunter)",
     "title": "Black Chinchompas",
     "category": "skilling",
@@ -1601,6 +1611,27 @@
       "Antidote++(4)",
       "Weapon_poison+",
       "Weapon_poison++"
+    ]
+  },
+  {
+    "id": "Colossal_Wyrm_Agility",
+    "caption": "50-62",
+    "category": "skilling",
+    "requiredLevel": 50,
+    "sortingGroups": ["agility"],
+    "notableDrops": [
+      "Graceful_hood_(Varlamore)",
+      "Graceful_top_(Varlamore)",
+      "Graceful_legs_(Varlamore)",
+      "Graceful_gloves_(Varlamore)",
+      "Graceful_boots_(Varlamore)",
+      "Graceful_cape_(Varlamore)",
+      "#newline",
+      "Termites",
+      "Colossal_wyrm_teleport_scroll",
+      "Graceful_crafting_kit",
+      "Amylase_pack",
+      "Calcified_acorn"
     ]
   },
   {
@@ -2283,6 +2314,7 @@
     "sortingGroups": ["hunter"],
     "requiredLevel": 44,
     "notableDrops": [
+      "Fish_shoal",
       "Clue_bottle_(medium)"
     ]
   },
@@ -2348,7 +2380,7 @@
   },
   {
     "id": "Elf_(Thieving)",
-    "title": "Elf",
+    "title": "Elves",
     "category": "skilling",
     "requiredLevel": 85,
     "sortingGroups": ["thieving"],
@@ -2391,6 +2423,21 @@
       "Ensouled_bloodveld_head",
       "Ensouled_dagannoth_head",
       "Ensouled_giant_head"
+    ]
+  },
+  {
+    "id": "Ents",
+    "caption": "1-75",
+    "category": "skilling",
+    "sortingGroups": ["woodcutting"],
+    "requiredLevel": 1,
+    "notableDrops": [
+      "Logs",
+      "Oak_logs",
+      "Willow_logs",
+      "Maple_logs",
+      "Yew_logs",
+      "Magic_logs"
     ]
   },
   {
@@ -6123,6 +6170,7 @@
     "id": "Underwater_Agility_and_Thieving",
     "category": "skilling",
     "sortingGroups": ["thieving", "agility"],
+    "requiredLevel": 1,
     "notableDrops": [
       "Glistening_tear",
       "Mermaid's_tear",
@@ -6318,6 +6366,16 @@
     "notableDrops": [
       "Mark_of_grace",
       "Stick_(item)"
+    ]
+  },
+  {
+    "id": "Werewolf_Skullball",
+    "title": "Skullball",
+    "category": "skilling",
+    "requiredLevel": 25,
+    "sortingGroups": ["agility"],
+    "notableDrops": [
+      "Skullball"
     ]
   },
   {

@@ -38,6 +38,19 @@
     ]
   },
   {
+    "id": "Barbarian_Training",
+    "icon": "Stats_icon",
+    "category": "miniquest",
+    "sortingGroups": [
+      "misc",
+      "fishing",
+      "firemaking",
+      "farming",
+      "smithing",
+      "herblore"
+    ]
+  },
+  {
     "id": "Brimstone_chest",
     "category": "chest",
     "sortingGroups": ["misc", "slayer"],
@@ -77,6 +90,17 @@
       "Raw_shark",
       "Raw_sea_turtle",
       "Raw_manta_ray"
+    ]
+  },
+  {
+    "id": "Camdozaal_Vault",
+    "icon": "Ornate_lockbox",
+    "category": "misc",
+    "sortingGroups": ["misc"],
+    "notableDrops": [
+      "Simple_lockbox",
+      "Elaborate_lockbox",
+      "Ornate_lockbox"
     ]
   },
   {
@@ -240,6 +264,19 @@
     ]
   },
   {
+    "id": "Digsite",
+    "icon": "Trowel",
+    "category": "misc",
+    "sortingGroups": ["misc"],
+    "notableDrops": [
+      "Pottery",
+      "Old_symbol",
+      "Ancient_symbol",
+      "Ancient_coin",
+      "Old_coin"
+    ]
+  },
+  {
     "id": "Elven_Crystal_Chest",
     "category": "chest",
     "sortingGroups": ["misc"],
@@ -275,21 +312,6 @@
     ]
   },
   {
-    "id": "Ents",
-    "caption": "1-75",
-    "category": "monster",
-    "sortingGroups": ["woodcutting"],
-    "requiredLevel": 1,
-    "notableDrops": [
-      "Logs",
-      "Oak_logs",
-      "Willow_logs",
-      "Maple_logs",
-      "Yew_logs",
-      "Magic_logs"
-    ]
-  },
-  {
     "id": "Flax_field",
     "icon": "Flax",
     "category": "misc",
@@ -322,8 +344,9 @@
   },
   {
     "id": "Fountain_of_Rune",
+    "icon": "Magic_icon",
     "category": "location",
-    "sortingGroups": ["location", "misc", "magic"],
+    "sortingGroups": ["location", "misc"],
     "notableDrops": [
       "Amulet_of_eternal_glory"
     ]
@@ -523,6 +546,19 @@
     ]
   },
   {
+    "id": "Mor_Ul_Rek",
+    "category": "location",
+    "sortingGroups": [
+      "location",
+      "pvm",
+      "slayer",
+      "thieving",
+      "crafting",
+      "mining",
+      "fishing"
+    ]
+  },
+  {
     "id": "Muddy_chest",
     "category": "chest",
     "sortingGroups": ["misc"],
@@ -566,6 +602,19 @@
     ]
   },
   {
+    "id": "Sandstorm",
+    "category": "misc",
+    "sortingGroups": ["mining", "crafting"],
+    "notableDrops": [
+      "Sandstone_(1kg)",
+      "Sandstone_(2kg)",
+      "Sandstone_(5kg)",
+      "Sandstone_(10kg)",
+      "#transmute",
+      "Bucket_of_sand"
+    ]
+  },
+  {
     "id": "Sinister_chest",
     "category": "chest",
     "sortingGroups": ["misc"],
@@ -581,7 +630,7 @@
   {
     "id": "Slayer_Tower",
     "category": "location",
-    "sortingGroups": ["location", "slayer", "pvm"]
+    "sortingGroups": ["slayer", "location", "pvm"]
   },
   {
     "id": "Standard_spellbook",
@@ -590,6 +639,26 @@
     "notableDrops": [
       "Standard_spellbook"
     ]
+  },
+  {
+    "id": "Treasure_Trails",
+    "icon": "Clue_scroll_(master)",
+    "category": "misc",
+    "sortingGroups": ["misc"],
+    "notableDrops": [
+      "Clue_scroll_(beginner)",
+      "Clue_scroll_(easy)",
+      "Clue_scroll_(medium)",
+      "Clue_scroll_(hard)",
+      "Clue_scroll_(elite)",
+      "Clue_scroll_(master)"
+    ]
+  },
+  {
+    "id": "Varrock_Museum",
+    "icon": "Unidentified_large_fossil",
+    "category": "misc",
+    "sortingGroups": ["misc"]
   },
   {
     "id": "Zanaris",

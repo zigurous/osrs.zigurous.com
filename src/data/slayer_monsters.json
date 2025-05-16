@@ -256,8 +256,9 @@
   {
     "id": "Armoured_Zombie",
     "icon": "Broken_zombie_helmet",
+    "title": "Armoured Zombies",
     "category": "monster",
-    "sortingGroups": ["pvm", "slayer"],
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 10,
     "slayerMasters": [
       "Turael",
@@ -275,10 +276,10 @@
   {
     "id": "Armoured_zombie_(Zemouregal's_Fort)",
     "icon": "Broken_zombie_helmet",
-    "title": "Armoured Zombie",
+    "title": "Armoured Zombies",
     "subtitle": "Zemouregal's Fort",
     "category": "monster",
-    "sortingGroups": ["pvm", "slayer"],
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 10,
     "slayerMasters": [
       "Turael",
@@ -1082,9 +1083,11 @@
   {
     "id": "Demonic_gorilla",
     "icon": "Zenyte_shard",
+    "title": "Demonic Gorillas",
     "category": "monster",
-    "sortingGroups": ["pvm", "slayer"],
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 80,
+    "requiredSlayerLevel": 1,
     "slayerMasters": [
       "Krystilia",
       "Chaeldar",
@@ -3188,9 +3191,11 @@
   {
     "id": "Tormented_Demon",
     "icon": "Burning_claw",
+    "title": "Tormented Demons",
     "category": "monster",
-    "sortingGroups": ["pvm", "slayer"],
+    "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 70,
+    "requiredSlayerLevel": 1,
     "slayerMasters": [
       "Krystilia",
       "Chaeldar",
@@ -3408,6 +3413,7 @@
   {
     "id": "Warped_creatures",
     "icon": "Warped_Terrorbird_icon",
+    "title": "Warped Creatures",
     "category": "monster",
     "sortingGroups": ["slayer", "pvm"],
     "requiredSlayerLevel": 56,

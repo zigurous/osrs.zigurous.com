@@ -15,39 +15,49 @@ export default function RegionPanelOverview({
   region,
 }: RegionPanelOverviewProps) {
   const { getActivityById } = useActivitiesContext();
-  const { getLocationById } = useLocationsContext();
+  const { getLocationById, getDungeonById } = useLocationsContext();
+  // prettier-ignore
   const activities = useMemo(
     () => ({
       raids: region.raids
-        .map(id => getActivityById(id))
+        .map(getActivityById)
         .filter(activity => !!activity)
         .sort(sortByName),
       bosses: region.bosses
-        .map(id => getActivityById(id))
+        .map(getActivityById)
         .filter(activity => !!activity)
         .sort(sortByName),
       minigames: region.minigames
         .filter(id => !region.bosses.includes(id))
-        .map(id => getActivityById(id))
-        .filter(activity => !!activity)
-        .sort(sortByName)
-        .sort(sortByIcon),
-      guilds: region.guilds
-        .map(id => getActivityById(id))
+        .map(getActivityById)
         .filter(activity => !!activity)
         .sort(sortByName)
         .sort(sortByIcon),
       misc: region.misc
-        .map(id => getActivityById(id))
+        .map(id => {
+          const activity = getActivityById(id);
+          if (!activity) return null;
+          if (activity.category === 'monster') {
+            return { ...activity, icon: undefined };
+          }
+          return activity;
+        })
+        .filter(activity => !!activity)
+        .sort(sortByName)
+        .sort(sortByIcon),
+      guilds: region.guilds
+        .map(getActivityById)
         .filter(activity => !!activity)
         .sort(sortByName)
         .sort(sortByIcon),
       locations: region.locations
-        .map(id => getLocationById(id))
+        .map(getLocationById)
         .sort(sortByName),
-      // .sort((a, b) => b.category.localeCompare(a.category)),
+      dungeons: region.dungeons
+        .map(getDungeonById)
+        .sort(sortByName),
     }),
-    [region.id, getActivityById, getLocationById],
+    [region.id, getActivityById, getLocationById, getDungeonById],
   );
   return (
     <RegionPanelSection title="Overview">
@@ -86,19 +96,19 @@ export default function RegionPanelOverview({
           </ul>
         </TitledCard>
       )}
-      {activities.guilds.length > 0 && (
-        <TitledCard title="Guilds" type="list">
+      {activities.misc.length > 0 && (
+        <TitledCard title="Misc" type="list">
           <ul>
-            {activities.guilds.map(guild => (
+            {activities.misc.map(guild => (
               <OverviewListItem item={guild} key={guild.id} />
             ))}
           </ul>
         </TitledCard>
       )}
-      {activities.misc.length > 0 && (
-        <TitledCard title="Misc" type="list">
+      {activities.guilds.length > 0 && (
+        <TitledCard title="Guilds" type="list">
           <ul>
-            {activities.misc.map(guild => (
+            {activities.guilds.map(guild => (
               <OverviewListItem item={guild} key={guild.id} />
             ))}
           </ul>
@@ -109,6 +119,15 @@ export default function RegionPanelOverview({
           <ul>
             {activities.locations.map(location => (
               <OverviewListItem item={location} key={location.id} />
+            ))}
+          </ul>
+        </TitledCard>
+      )}
+      {activities.dungeons.length > 0 && (
+        <TitledCard title="Dungeons" type="list">
+          <ul>
+            {activities.dungeons.map(dungeon => (
+              <OverviewListItem item={dungeon} key={dungeon.id} />
             ))}
           </ul>
         </TitledCard>
@@ -125,7 +144,10 @@ function OverviewListItem({
   return (
     <li id={item.id} key={item.id}>
       <WikiLink className="flex align-center" wikiId={item.id}>
-        <div className="shrink-0 w-xl h-xl">
+        <div
+          className="inline-flex justify-center align-center shrink-0"
+          style={{ width: '21px', height: '21px' }}
+        >
           <img
             alt=""
             aria-hidden

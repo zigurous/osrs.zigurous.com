@@ -1,5 +1,5 @@
 import { Text } from '@zigurous/forge-react';
-import React, { useMemo } from 'react';
+import React, { useCallback, useMemo } from 'react';
 import ActivityCard from './ActivityCard';
 import ActivityFilter from './ActivityFilter';
 import RegionPanelSection from './RegionPanelSection';
@@ -19,16 +19,30 @@ export default function RegionPanelSkilling({
   const context = useActivitiesContext();
   const filter = useFilterContext();
 
+  const getActivityById = useCallback(
+    (id: string) => {
+      const activity = context.getActivityById(id);
+      switch (activity?.category) {
+        case 'boss':
+          return { ...activity, subtitle: 'Boss' };
+        case 'monster':
+          return { ...activity, icon: 'Slayer_icon' };
+      }
+      return activity;
+    },
+    [context.getActivityById],
+  );
+
   const activities = useMemo(
     () =>
       region.activities
-        .map(context.getActivityById)
+        .map(getActivityById)
         .filter(activity => !!activity)
         .filter(filterActivity)
         .sort(sortByName)
         .sort(sortByLevel)
         .sort(sortByIcon),
-    [region, region.id, context.getActivityById],
+    [region, region.id, getActivityById],
   );
 
   // sort activities so the selected categories always show first

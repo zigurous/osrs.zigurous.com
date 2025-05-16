@@ -330,7 +330,7 @@
     "title": "Martin",
     "subtitle": "Master Farmer",
     "category": "npc",
-    "sortingGroups": ["farming", "thieving"],
+    "sortingGroups": ["farming"],
     "requiredLevel": 99,
     "notableDrops": [
       "Farming_hood",

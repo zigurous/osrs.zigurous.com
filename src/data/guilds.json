@@ -1,6 +1,7 @@
 [
   {
     "id": "Champions'_Guild",
+    "icon": "Champion's_cape",
     "category": "guild",
     "sortingGroups": ["location", "misc", "quest"],
     "notableDrops": [

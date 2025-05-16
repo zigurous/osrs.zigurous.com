@@ -161,6 +161,7 @@ const dataQuery = graphql`
     monsters: allSlayerMonstersJson(filter: { category: { eq: "monster" } }) {
       nodes {
         id: jsonId
+        icon
         title
         subtitle
         category

@@ -125,6 +125,11 @@
     ]
   },
   {
+    "id": "Clan_Wars",
+    "category": "minigame",
+    "sortingGroups": ["pvp"]
+  },
+  {
     "id": "Emir's_Arena",
     "category": "minigame",
     "sortingGroups": ["pvp"],
@@ -150,6 +155,24 @@
       "Angler_top",
       "Angler_waders",
       "Angler_boots"
+    ]
+  },
+  {
+    "id": "Fortis_Colosseum",
+    "category": "minigame",
+    "sortingGroups": ["pvm"],
+    "notableDrops": [
+      "Smol_heredit",
+      "Sunlight_spear",
+      "Sunlit_bracers",
+      "Dizana's_quiver",
+      "Sunfire_fanatic_helm",
+      "Sunfire_fanatic_cuirass",
+      "Sunfire_fanatic_chausses",
+      "Tonalztics_of_ralos",
+      "Echo_crystal",
+      "Uncut_onyx",
+      "Sunfire_splinters"
     ]
   },
   {
@@ -239,7 +262,6 @@
   },
   {
     "id": "Impetuous_Impulses",
-    "title": "Puro-Puro",
     "caption": "17-89",
     "category": "minigame",
     "sortingGroups": ["hunter"],
@@ -256,6 +278,15 @@
       "Gourmet_impling_jar",
       "Young_impling_jar",
       "Baby_impling_jar"
+    ]
+  },
+  {
+    "id": "Inferno",
+    "category": "minigame",
+    "sortingGroups": ["pvm", "slayer"],
+    "notableDrops": [
+      "Jal-nib-rek",
+      "Infernal_cape"
     ]
   },
   {
@@ -290,6 +321,25 @@
       "Guthixian_icon",
       "Swift_blade",
       "Rune_pouch"
+    ]
+  },
+  {
+    "id": "Mage_Arena",
+    "category": "minigame",
+    "sortingGroups": ["magic", "pvm"],
+    "requiredLevel": 60,
+    "notableDrops": [
+      "Saradomin_cape",
+      "Saradomin_staff",
+      "Saradomin_Strike",
+      "#spacer",
+      "Guthix_cape",
+      "Guthix_staff",
+      "Claws_of_Guthix",
+      "#newline",
+      "Zamorak_cape",
+      "Zamorak_staff",
+      "Flames_of_Zamorak"
     ]
   },
   {
@@ -537,6 +587,20 @@
     ]
   },
   {
+    "id": "The_Gauntlet",
+    "category": "minigame",
+    "sortingGroups": ["pvm"],
+    "notableDrops": [
+      "Youngllef",
+      "Crystal_blessing",
+      "Crystal_armour_seed",
+      "Crystal_weapon_seed",
+      "Enhanced_crystal_weapon_seed",
+      "Crystal_shard",
+      "Gauntlet_cape"
+    ]
+  },
+  {
     "id": "Tithe_Farm",
     "caption": "34-74",
     "category": "minigame",
@@ -576,6 +640,16 @@
       "Lucky_shot_flag",
       "Treasure_flag",
       "Phasmatys_flag"
+    ]
+  },
+  {
+    "id": "TzHaar_Fight_Cave",
+    "title": "Fight Caves",
+    "category": "minigame",
+    "sortingGroups": ["pvm", "slayer"],
+    "notableDrops": [
+      "Tzrek-jad",
+      "Fire_cape"
     ]
   },
   {
