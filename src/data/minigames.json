@@ -283,7 +283,7 @@
   {
     "id": "Inferno",
     "category": "minigame",
-    "sortingGroups": ["pvm", "slayer"],
+    "sortingGroups": ["pvm"],
     "notableDrops": [
       "Jal-nib-rek",
       "Infernal_cape"
@@ -646,7 +646,7 @@
     "id": "TzHaar_Fight_Cave",
     "title": "Fight Caves",
     "category": "minigame",
-    "sortingGroups": ["pvm", "slayer"],
+    "sortingGroups": ["pvm"],
     "notableDrops": [
       "Tzrek-jad",
       "Fire_cape"
