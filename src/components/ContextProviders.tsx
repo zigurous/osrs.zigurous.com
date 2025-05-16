@@ -7,15 +7,15 @@ import {
   LocationsContextProvider,
 } from '../context';
 
-interface ClientProvidersProps {
+interface ContextProvidersProps {
   children?: React.ReactNode;
   location: Location;
 }
 
-export default function ClientProviders({
+export default function ContextProviders({
   children,
   location,
-}: ClientProvidersProps) {
+}: ContextProvidersProps) {
   return (
     <RegionsContextProvider location={location}>
       <ItemsContextProvider>
