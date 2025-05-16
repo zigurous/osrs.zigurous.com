@@ -1301,6 +1301,10 @@
     "icon": "Numulite_25"
   },
   {
+    "id": "Oathplate_shards",
+    "icon": "Oathplate_shards_20"
+  },
+  {
     "id": "Odium_shard_1",
     "transmutations": [
       "#plus",
