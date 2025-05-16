@@ -1,3 +1,4 @@
+import '../styles/global.css';
 import React from 'react';
 import ContextProviders from './ContextProviders';
 import PageFrame from './PageFrame';

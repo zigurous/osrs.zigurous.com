@@ -61,16 +61,13 @@ export const onRenderBody = ({
 export const onPreRenderHTML = ({ getHeadComponents }: PreRenderHTMLArgs) => {
   if (process.env.NODE_ENV === 'production') {
     const headComponents = getHeadComponents();
-    headComponents.forEach(element => {
-      const el = element as React.ReactElement;
-      if (el && el.type === 'style' && el.props['data-href']) {
-        el.type = 'link';
-        el.props.href = el.props['data-href'];
-        el.props.rel = 'stylesheet';
-        el.props.type = 'text/css';
-        delete el.props['data-href'];
-        delete el.props.dangerouslySetInnerHTML;
-      }
+    headComponents.sort((a, b) => {
+      const x = a as React.ReactElement;
+      const y = b as React.ReactElement;
+      if (x.type === y.type) return 0;
+      if (x.type === 'style') return 1;
+      if (y.type === 'style') return -1;
+      return 0;
     });
   }
 };
