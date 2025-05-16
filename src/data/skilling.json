@@ -75,6 +75,22 @@
     ]
   },
   {
+    "id": "Aether_rune",
+    "title": "Aether Runes",
+    "category": "skilling",
+    "requiredLevel": 90,
+    "sortingGroups": ["runecraft"],
+    "notableDrops": [
+      "Pure_essence",
+      "#plus",
+      "Soul_rune",
+      "#plus",
+      "Aether_catalyst",
+      "#equals",
+      "Aether_rune"
+    ]
+  },
+  {
     "id": "Agility_potion",
     "category": "skilling",
     "sortingGroups": ["herblore"],
