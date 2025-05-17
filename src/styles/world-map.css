@@ -71,3 +71,32 @@
 .world-map__badges > .area-badge#tirannwn { left: 39.5%; top: 54%; }
 .world-map__badges > .area-badge#varlamore { left: 19%; top: 71%; }
 .world-map__badges > .area-badge#wilderness { left: 74%; top: 17%; }
+
+.world-map .color-outline { stroke: #1b1612; }
+.world-map .color-bridges { stroke: #644936; }
+.world-map .color-entrance1 { stroke: #0782c9; }
+.world-map .color-entrance2 { stroke: #31d6f4; }
+.world-map .color-entrance3 { stroke: #c8f0d9; }
+
+.world-map .color-asgarnia { stroke: #3b82f6; }
+.world-map .color-asgarnia-shade { stroke: #1e40af; }
+.world-map .color-desert { stroke: #f59e0b; }
+.world-map .color-desert-shade { stroke: #92400e; }
+.world-map .color-fremennik { stroke: #e7e5e4; }
+.world-map .color-fremennik-shade { stroke: #78716c; }
+.world-map .color-kandarin { stroke: #ef4444; }
+.world-map .color-kandarin-shade { stroke: #7f1d1d; }
+.world-map .color-karamja { stroke: #84cc16; }
+.world-map .color-karamja-shade { stroke: #3f6212; }
+.world-map .color-kourend { stroke: #7c3aed; }
+.world-map .color-kourend-shade { stroke: #4c1d95; }
+.world-map .color-misthalin { stroke: #16a34a; }
+.world-map .color-misthalin-shade { stroke: #14532d; }
+.world-map .color-morytania { stroke: #0f766e; }
+.world-map .color-morytania-shade { stroke: #042f2e; }
+.world-map .color-tirannwn { stroke: #059669; }
+.world-map .color-tirannwn-shade { stroke: #064e3b; }
+.world-map .color-varlamore { stroke: #facc15; }
+.world-map .color-varlamore-shade { stroke: #a16207; }
+.world-map .color-wilderness { stroke: #737373; }
+.world-map .color-wilderness-shade { stroke: #404040; }
