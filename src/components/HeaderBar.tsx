@@ -42,9 +42,9 @@ export default function HeaderBar({ location }: HeaderBarProps) {
           link="github"
           size="sm"
           variant="outline"
-          url="https://github.com/zigurous/osrs-region-analyzer"
+          url="https://github.com/zigurous/osrs-region-analyzer/issues"
         >
-          GitHub
+          Report Bug
         </SocialButton>
         <SocialButton
           color="default"
