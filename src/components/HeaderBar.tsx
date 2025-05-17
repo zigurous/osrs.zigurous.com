@@ -2,7 +2,7 @@ import { SocialButton, Stack, Text } from '@zigurous/forge-react';
 import { Link } from 'gatsby';
 import React, { useEffect, useState } from 'react';
 import { useRegionsContext } from '../context';
-import icon from '../images/osrs-icon.png';
+import icon from '../images/world-map-icon.png';
 import '../styles/header-bar.css';
 
 interface HeaderBarProps {
@@ -25,9 +25,9 @@ export default function HeaderBar({ location }: HeaderBarProps) {
     <header className="header-bar shadow">
       <div className="flex align-center">
         <Link to="/">
-          <img src={icon} width={40} height={40} />
+          <img src={icon} width={32} height={32} />
         </Link>
-        <Text bold className="ml-sm mb-xxs" type="subtitle">
+        <Text bold className="ml-md" type="subtitle">
           Region Analyzer
         </Text>
       </div>
