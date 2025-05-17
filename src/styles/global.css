@@ -42,8 +42,7 @@
 
 body {
   font-family: "IBM Plex Sans", sans-serif;
-  overflow-x: hidden;
-  overflow-y: auto;
+  overflow: hidden;
 }
 
 .app {
@@ -52,14 +51,12 @@ body {
   height: 100vh;
   padding: 18px;
   background-color: var(--color-surface-3);
-  overflow: hidden;
 }
 
 .app > main {
   display: flex;
   width: 100%;
   height: 100%;
-  overflow: hidden;
 }
 
 .display,
@@ -76,9 +73,31 @@ a.text-primary:hover {
   text-decoration: underline;
 }
 
-.btn--default {
+.btn--default.btn--outline {
   --btn-color-primary: var(--color-surface-3);
   --btn-color-secondary: var(--color-white);
   border-color: var(--color-surface-4);
   color: var(--color-white);
+}
+
+.modal__dialog {
+  width: 1024px;
+  max-width: 80vw;
+}
+
+.modal__content {
+  background-color: var(--color-surface-2);
+}
+
+.modal__title {
+  font-size: var(--text-title-md);
+}
+
+.modal__body > h1,
+.modal__body > h2 {
+  margin-bottom: var(--spacing-sm);
+}
+
+.overlay__scrim {
+  position: fixed;
 }

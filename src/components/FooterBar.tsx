@@ -1,8 +1,12 @@
-import { Link, Text } from '@zigurous/forge-react';
-import React from 'react';
+import { Text } from '@zigurous/forge-react';
+import React, { useState } from 'react';
+import PrivacyPolicy from './PrivacyPolicy';
+import TermsAndConditions from './TermsAndConditions';
 import '../styles/footer-bar.css';
 
 export default function FooterBar() {
+  const [showPrivacyPolicy, setShowPrivacyPolicy] = useState(false);
+  const [showTermsAndConditions, setShowTermsAndConditions] = useState(false);
   return (
     <footer className="footer-bar">
       <div className="flex align-center">
@@ -14,18 +18,20 @@ export default function FooterBar() {
         </Text>
         <Text className="mx-xs" color="muted" type="caption">
           <a
-            className="underline"
-            href="https://zigurous.com/terms-of-service"
-            target="_blank"
+            className="cursor-pointer underline"
+            onClick={() => {
+              setShowTermsAndConditions(true);
+            }}
           >
             Terms of Use
           </a>
         </Text>
         <Text className="mx-xs" color="muted" type="caption">
           <a
-            className="underline"
-            href="https://zigurous.com/privacy-policy"
-            target="_blank"
+            className="cursor-pointer underline"
+            onClick={() => {
+              setShowPrivacyPolicy(true);
+            }}
           >
             Privacy Policy
           </a>
@@ -53,6 +59,14 @@ export default function FooterBar() {
           </a>
         </Text>
       </div>
+      <PrivacyPolicy
+        open={showPrivacyPolicy}
+        onRequestClose={() => setShowPrivacyPolicy(false)}
+      />
+      <TermsAndConditions
+        open={showTermsAndConditions}
+        onRequestClose={() => setShowTermsAndConditions(false)}
+      />
     </footer>
   );
 }
