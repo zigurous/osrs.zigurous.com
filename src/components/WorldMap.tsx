@@ -4,13 +4,16 @@ import React, { useEffect, useRef, useState } from 'react';
 import AreaBadge from './AreaBadge';
 import WorldMapSVG from './WorldMapSVG';
 import { useRegionsContext } from '../context';
+import { usePanAndZoom } from '../utils';
 import '../styles/world-map.css';
 
 const MAP_SIZE = { width: 463, height: 215 };
 
 export default function WorldMap() {
-  const ref = useRef<HTMLDivElement>(null);
   const { regions, selectedRegion } = useRegionsContext();
+  const ref = useRef<HTMLDivElement>(null);
+
+  const [{ panX, panY, zoom }, panning] = usePanAndZoom(ref);
   const [scale, setScale] = useState(1);
   const [observer] = useState(() =>
     typeof window !== 'undefined'
@@ -42,52 +45,64 @@ export default function WorldMap() {
       )}
       ref={ref}
     >
-      <div
-        className="world-map__container"
-        style={{
-          width: MAP_SIZE.width,
-          height: MAP_SIZE.height,
-          transform: `translate(-50%, -50%) scale(${scale * 0.8})`,
-        }}
-      >
-        <WorldMapSVG
-          className="world-map__image"
-          width={MAP_SIZE.width}
-          height={MAP_SIZE.height}
-          onClick={e => {
-            const target = e.target as HTMLElement;
-            const regionId = target.parentElement?.id;
-            if (regionId) {
-              /* @ts-ignore */
-              navigate(
-                regionId === selectedRegion?.id ? '/' : `/?region=${regionId}`,
-                {
-                  replace: true,
-                },
-              );
-            }
+      {ref.current && (
+        <div
+          className="w-full h-full"
+          style={{
+            transform: `translate(${panX}px, ${panY}px) scale(${zoom})`,
+            transformOrigin: '0 0',
           }}
-        />
-        <div className="world-map__badges">
-          {regions.map(region => {
-            const selected = Boolean(selectedRegion?.id === region.id);
-            return (
-              <AreaBadge
-                key={region.id}
-                region={region}
-                selected={selected}
-                deselected={!selected && !!selectedRegion}
-                onClick={() => {
-                  /* @ts-ignore */
-                  navigate(selected ? '/' : `/?region=${region.id}`, {
-                    replace: true,
-                  });
-                }}
-              />
-            );
-          })}
+        >
+          <div
+            className="world-map__container"
+            style={{
+              width: MAP_SIZE.width,
+              height: MAP_SIZE.height,
+              transform: `translate(-50%, -50%) scale(${scale * 0.8})`,
+            }}
+          >
+            <WorldMapSVG
+              className="world-map__image"
+              width={MAP_SIZE.width}
+              height={MAP_SIZE.height}
+              onClick={e => {
+                if (panning.current) return;
+                const target = e.target as HTMLElement;
+                const regionId = target.parentElement?.id;
+                if (regionId) {
+                  navigate(
+                    regionId === selectedRegion?.id
+                      ? '/'
+                      : `/?region=${regionId}`,
+                    {
+                      replace: true,
+                    },
+                  );
+                }
+              }}
+            />
+            <div className="world-map__badges">
+              {regions.map(region => {
+                const selected = Boolean(selectedRegion?.id === region.id);
+                return (
+                  <AreaBadge
+                    key={region.id}
+                    region={region}
+                    selected={selected}
+                    deselected={!selected && !!selectedRegion}
+                    onClick={() => {
+                      if (panning.current) return;
+                      navigate(selected ? '/' : `/?region=${region.id}`, {
+                        replace: true,
+                      });
+                    }}
+                  />
+                );
+              })}
+            </div>
+          </div>
         </div>
-      </div>
+      )}
     </div>
   );
 }
