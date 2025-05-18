@@ -132,7 +132,7 @@ export default function PrivacyPolicy({
         many special precautions to protect the privacy of children. We do not
         require any Personal Information from them at any time. We encourage
         children to consult with their parents before submitting any information
-        to any online resource . We believe parents should be involved in the
+        to any online resource. We believe parents should be involved in the
         online activities of their children and suggest that parents do their
         best to provide their children with a safe and friendly online
         environment.
