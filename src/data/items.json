@@ -13,15 +13,6 @@
     "icon": "Abyssal_pearls_5"
   },
   {
-    "id": "Adamantite_ore",
-    "transmutations": [
-      "#plus",
-      "Coal",
-      "#transmute",
-      "Adamantite_bar"
-    ]
-  },
-  {
     "id": "Alchemical_hydra_heads",
     "transmutations": [
       "#plus",
@@ -306,13 +297,6 @@
     ]
   },
   {
-    "id": "Blurite_ore",
-    "transmutations": [
-      "#transmute",
-      "Blurite_bar"
-    ]
-  },
-  {
     "id": "Bolt_rack",
     "icon": "Bolt_rack_5"
   },
@@ -457,15 +441,6 @@
   {
     "id": "Copper_longtail",
     "icon": "Copper_longtail_icon"
-  },
-  {
-    "id": "Copper_ore",
-    "transmutations": [
-      "#plus",
-      "Tin_ore",
-      "#transmute",
-      "Bronze_bar"
-    ]
   },
   {
     "id": "Crawling_hand_(item)",
@@ -860,13 +835,6 @@
     "icon": "Cw_armour_3_icon"
   },
   {
-    "id": "Gold_ore",
-    "transmutations": [
-      "#transmute",
-      "Gold_bar"
-    ]
-  },
-  {
     "id": "Golden_armadyl_special_attack",
     "icon": "Armadyl_hilt"
   },
@@ -1053,13 +1021,6 @@
     "icon": "Scroll_of_imbuing"
   },
   {
-    "id": "Iron_ore",
-    "transmutations": [
-      "#transmute",
-      "Iron_bar"
-    ]
-  },
-  {
     "id": "Javelin_shaft",
     "icon": "Javelin_shaft_5"
   },
@@ -1182,15 +1143,6 @@
     ]
   },
   {
-    "id": "Lovakite_ore",
-    "transmutations": [
-      "#plus",
-      "Coal",
-      "#transmute",
-      "Lovakite_bar"
-    ]
-  },
-  {
     "id": "Lunar_equipment",
     "icon": "Lunar_torso"
   },
@@ -1269,15 +1221,6 @@
   {
     "id": "Minnow",
     "icon": "Minnow_5"
-  },
-  {
-    "id": "Mithril_ore",
-    "transmutations": [
-      "#plus",
-      "Coal",
-      "#transmute",
-      "Mithril_bar"
-    ]
   },
   {
     "id": "Molch_pearl",
@@ -1510,15 +1453,6 @@
     ]
   },
   {
-    "id": "Runite_ore",
-    "transmutations": [
-      "#plus",
-      "Coal",
-      "#transmute",
-      "Runite_bar"
-    ]
-  },
-  {
     "id": "Sabre-toothed_kebbit",
     "icon": "Sabre-toothed_kebbit_icon"
   },
@@ -1594,13 +1528,6 @@
       "Ancient_sceptre",
       "#equals",
       "Shadow_ancient_sceptre"
-    ]
-  },
-  {
-    "id": "Silver_ore",
-    "transmutations": [
-      "#transmute",
-      "Silver_bar"
     ]
   },
   {
@@ -1817,15 +1744,6 @@
   {
     "id": "Thunder_khopesh",
     "tags": ["leagues"]
-  },
-  {
-    "id": "Tin_ore",
-    "transmutations": [
-      "#plus",
-      "Copper_ore",
-      "#transmute",
-      "Bronze_bar"
-    ]
   },
   {
     "id": "Tonalztics_of_ralos#Uncharged",

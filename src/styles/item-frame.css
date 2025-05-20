@@ -86,7 +86,7 @@
 }
 
 .item-frame--spacer {
-  width: 10px;
+  width: 8px;
   padding-left: var(--spacing-xxs);
   padding-right: var(--spacing-xxs);
 }
@@ -111,7 +111,7 @@
   align-items: center;
   background-color: transparent !important;
   box-shadow: none;
-  width: 16px;
+  width: 12px;
   height: auto;
   padding: 0;
   color: var(--color-surface-4);
@@ -119,13 +119,10 @@
   font-size: 1.25rem;
 }
 
+.item-frame--plus,
 .item-frame--transmute,
 .item-frame--equals {
   margin: 0 -2px;
-}
-
-.item-frame--plus {
-  margin: 0 -4px;
 }
 
 .item-frame > img {
