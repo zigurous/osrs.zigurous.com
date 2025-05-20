@@ -7,6 +7,8 @@ interface PanAndZoomState {
   zoom: number;
 }
 
+const delay = (1 / 16) * 1000;
+
 const defaultState: PanAndZoomState = {
   panX: 0,
   panY: 0,
@@ -34,7 +36,7 @@ export function usePanAndZoom(
         }
         timeout.current = setTimeout(() => {
           mousedown.current = true;
-        }, 50);
+        }, delay);
       }
     };
 
@@ -47,7 +49,7 @@ export function usePanAndZoom(
         if (panning.current) {
           timeout.current = setTimeout(() => {
             panning.current = false;
-          }, 50);
+          }, delay);
         }
       }
     };
