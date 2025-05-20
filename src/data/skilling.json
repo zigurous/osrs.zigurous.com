@@ -3576,6 +3576,40 @@
     ]
   },
   {
+    "id": "Infernal_plate",
+    "title": "Oathplate Armour",
+    "category": "skilling",
+    "sortingGroups": ["smithing"],
+    "requiredLevel": 83,
+    "notableDrops": [
+      "Crushed_infernal_shale",
+      "Oathplate_shards",
+      "#transmute",
+      "Infernal_blend",
+      "#transmute",
+      "Infernal_nugget",
+      "#transmute",
+      "Infernal_chunk",
+      "#transmute",
+      "#newline",
+      "Hammer",
+      "Infernal_plate",
+      "#transmute",
+      "Oathplate_armour"
+    ]
+  },
+  {
+    "id": "Infernal_shale",
+    "category": "skilling",
+    "sortingGroups": ["mining"],
+    "requiredLevel": 78,
+    "notableDrops": [
+      "Infernal_shale",
+      "#transmute",
+      "Crushed_infernal_shale"
+    ]
+  },
+  {
     "id": "Iron_bars",
     "caption": "15-33",
     "category": "skilling",

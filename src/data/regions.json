@@ -981,6 +981,7 @@
       "Adamantite_rocks",
       "Aerial_fishing",
       "Aerial_fishing#Creatures",
+      "Aether_rune",
       "Allotment_patch",
       "Anglerfish",
       "Anima_patch",
@@ -1049,6 +1050,8 @@
       "High_Level_Alchemy",
       "Hosidius_Kitchen",
       "Hydra_bones",
+      "Infernal_plate",
+      "Infernal_shale",
       "Iron_rocks",
       "Jug_of_wine",
       "Kourend_Woodland",
@@ -1976,7 +1979,6 @@
       "Mastering_Mixology"
     ],
     "misc": [
-      "Calcified_rocks",
       "Colossal_Wyrm_Agility",
       "Hunters'_Rumours",
       "Libation_bowl",

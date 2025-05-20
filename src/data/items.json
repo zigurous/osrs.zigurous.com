@@ -451,6 +451,10 @@
     "icon": "Crimson_swift_icon"
   },
   {
+    "id": "Crushed_infernal_shale",
+    "icon": "Crushed_infernal_shale_1"
+  },
+  {
     "id": "Crystal_acorn",
     "icon": "Crystal_acorn_5"
   },
@@ -1021,6 +1025,10 @@
     "icon": "Scroll_of_imbuing"
   },
   {
+    "id": "Infernal_plate",
+    "icon": "Infernal_plate_7"
+  },
+  {
     "id": "Javelin_shaft",
     "icon": "Javelin_shaft_5"
   },
@@ -1300,6 +1308,10 @@
   {
     "id": "Numulite",
     "icon": "Numulite_25"
+  },
+  {
+    "id": "Oathplate_armour",
+    "icon": "Oathplate_helm"
   },
   {
     "id": "Oathplate_shards",
