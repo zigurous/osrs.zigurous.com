@@ -53,6 +53,10 @@
     ]
   },
   {
+    "id": "Amoxliatl",
+    "icon": "Moxi"
+  },
+  {
     "id": "Amulet_of_the_monarchs",
     "tags": ["leagues"]
   },
@@ -83,6 +87,10 @@
     ]
   },
   {
+    "id": "Ancient_Magicks",
+    "icon": "Ancient_spellbook"
+  },
+  {
     "id": "Angler's_outfit",
     "icon": "Angler_hat"
   },
@@ -102,7 +110,9 @@
   {
     "id": "Araxyte_head",
     "transmutations": [
-      "#transmute",
+      "#plus",
+      "Slayer_helmet",
+      "#equals",
       "Araxyte_slayer_helmet"
     ]
   },
@@ -238,6 +248,10 @@
   {
     "id": "Black_warlock",
     "icon": "Black_warlock_icon"
+  },
+  {
+    "id": "Blast_Furnace",
+    "icon": "Minigame_map_icon"
   },
   {
     "id": "Blessed_bone_statuette",
@@ -533,6 +547,10 @@
     "icon": "Dark_kebbit_icon"
   },
   {
+    "id": "Dark_Squall_robes",
+    "icon": "Dark_squall_hood"
+  },
+  {
     "id": "Dark_totem_base",
     "transmutations": [
       "#plus",
@@ -688,6 +706,10 @@
     ]
   },
   {
+    "id": "Elite_black_armour",
+    "icon": "Elite_black_full_helm"
+  },
+  {
     "id": "Elysian_sigil",
     "transmutations": [
       "#plus",
@@ -771,6 +793,10 @@
     ]
   },
   {
+    "id": "Fairy_rings",
+    "icon": "Fairy_ring_(Construction)_icon"
+  },
+  {
     "id": "Fangs_of_venenatis",
     "transmutations": [
       "#plus",
@@ -814,6 +840,10 @@
     "icon": "Ghommal's_hilt_6"
   },
   {
+    "id": "Ghostly_robes",
+    "icon": "Ghostly_robe_(top)"
+  },
+  {
     "id": "Glistening_tear",
     "icon": "Glistening_tear_5"
   },
@@ -822,8 +852,8 @@
     "tags": ["leagues"]
   },
   {
-    "id": "Goading_potion",
-    "icon": "Goading_potion(4)"
+    "id": "God_Wars_Dungeon",
+    "icon": "Dungeon_map_link_icon"
   },
   {
     "id": "Gold_decorative_armour",
@@ -866,6 +896,10 @@
     ]
   },
   {
+    "id": "Greegree",
+    "icon": "Karamjan_monkey_greegree"
+  },
+  {
     "id": "Grimy_herb",
     "icon": "Grimy_guam_leaf",
     "name": "Grimy Herbs"
@@ -873,6 +907,10 @@
   {
     "id": "Hallowed_mark",
     "icon": "Hallowed_mark_25"
+  },
+  {
+    "id": "H.A.M._robes",
+    "icon": "Ham_shirt"
   },
   {
     "id": "Harmonised_orb",
@@ -1052,6 +1090,10 @@
     "icon": "Kebbit_bolts"
   },
   {
+    "id": "Khazard_armour_set",
+    "icon": "Khazard_armour"
+  },
+  {
     "id": "Kodai_insignia",
     "transmutations": [
       "#plus",
@@ -1149,6 +1191,10 @@
     ]
   },
   {
+    "id": "Lunar_equipment",
+    "icon": "Lunar_torso"
+  },
+  {
     "id": "Lunar_ore",
     "transmutations": [
       "#transmute",
@@ -1205,6 +1251,14 @@
     ]
   },
   {
+    "id": "Managing_Miscellania",
+    "icon": "Stats_icon"
+  },
+  {
+    "id": "Maniacal_monkey",
+    "icon": "Monkey_(Monkey_Madness_II)"
+  },
+  {
     "id": "Maniacal_monkey_(item)",
     "name": "Maniacal Monkey"
   },
@@ -1228,6 +1282,10 @@
   {
     "id": "Molch_pearl",
     "icon": "Molch_pearl_5"
+  },
+  {
+    "id": "Moonclan_robes",
+    "icon": "Moonclan_cape"
   },
   {
     "id": "Moonlight_antelope",
@@ -1390,6 +1448,10 @@
     "icon": "Pyre_fox_icon"
   },
   {
+    "id": "Quetzal_Transport_System",
+    "icon": "Quetzin"
+  },
+  {
     "id": "Raids_megarare_voucher",
     "tags": ["leagues"]
   },
@@ -1431,6 +1493,10 @@
       "#equals",
       "Strange_skull"
     ]
+  },
+  {
+    "id": "Rock-shell_armour",
+    "icon": "Rock-shell_plate"
   },
   {
     "id": "Ruby_harvest",
@@ -1549,6 +1615,10 @@
     ]
   },
   {
+    "id": "Skeletal_armour",
+    "icon": "Skeletal_top"
+  },
+  {
     "id": "Skeletal_visage",
     "transmutations": [
       "#plus",
@@ -1593,6 +1663,10 @@
     "icon": "Snowy_knight_icon"
   },
   {
+    "id": "Sorceress's_Garden",
+    "icon": "Summer_sq'irk"
+  },
+  {
     "id": "Soul_cape",
     "icon": "Soul_cape_(red)"
   },
@@ -1604,6 +1678,10 @@
       "#equals",
       "Spectral_spirit_shield"
     ]
+  },
+  {
+    "id": "Spined_armour",
+    "icon": "Spined_body"
   },
   {
     "id": "Spined_larupia",
@@ -1720,6 +1798,10 @@
     "tags": ["leagues"]
   },
   {
+    "id": "The_Gauntlet",
+    "icon": "Youngllef"
+  },
+  {
     "id": "Thousand-dragon_ward",
     "tags": ["leagues"]
   },
@@ -1796,6 +1878,10 @@
   {
     "id": "Tropical_wagtail",
     "icon": "Tropical_wagtail_icon"
+  },
+  {
+    "id": "Trouble_Brewing",
+    "icon": "Minigame_icon"
   },
   {
     "id": "Tumeken's_shadow",
@@ -1898,6 +1984,10 @@
     "icon": "Cw_armour_2_icon"
   },
   {
+    "id": "White_equipment",
+    "icon": "White_2h_sword"
+  },
+  {
     "id": "White_rabbit",
     "icon": "White_rabbit_icon"
   },
@@ -1932,8 +2022,16 @@
     "icon": "XP_drops_icon"
   },
   {
+    "id": "Yama",
+    "icon": "Yami"
+  },
+  {
     "id": "Yellow_spice",
     "icon": "Yellow_spice_(4)"
+  },
+  {
+    "id": "Zalcano",
+    "icon": "Smolcano"
   },
   {
     "id": "Zalcano_shard",

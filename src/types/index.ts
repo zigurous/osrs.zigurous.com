@@ -4,6 +4,7 @@ export * from './equipment';
 export * from './item';
 export * from './location';
 export * from './monster';
+export * from './quest';
 export * from './region';
 export * from './skill';
 export * from './slayer';

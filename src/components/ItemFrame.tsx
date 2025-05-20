@@ -10,7 +10,7 @@ interface ItemFrameProps {
   border?: boolean;
   borderless?: boolean;
   className?: string;
-  disableHighlight?: boolean;
+  highlights?: boolean;
   item?: ItemData;
   size?: 'sm' | 'md' | 'lg';
 }
@@ -19,7 +19,7 @@ export default function ItemFrame({
   border,
   borderless,
   className,
-  disableHighlight,
+  highlights,
   item,
   size,
 }: ItemFrameProps) {
@@ -44,11 +44,10 @@ export default function ItemFrame({
             [`item-frame--${size}`]: size,
             'item-frame--border': border,
             'item-frame--borderless': borderless,
-            'item-frame--pet': !disableHighlight && item.tags?.includes('pet'),
-            'item-frame--leagues':
-              !disableHighlight && item.tags?.includes('leagues'),
+            'item-frame--pet': highlights && item.tags?.includes('pet'),
+            'item-frame--leagues': highlights && item.tags?.includes('leagues'),
             'item-frame--megarare':
-              !disableHighlight && item.tags?.includes('megarare'),
+              highlights && item.tags?.includes('megarare'),
           },
           className,
         )}

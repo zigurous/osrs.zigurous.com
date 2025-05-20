@@ -460,33 +460,6 @@
     ]
   },
   {
-    "id": "Mage_Arena_I",
-    "subtitle": "Miniquest",
-    "category": "miniquest",
-    "sortingGroups": ["magic"],
-    "requiredLevel": 60,
-    "notableDrops": [
-      "Saradomin_cape",
-      "Saradomin_Strike",
-      "Zamorak_cape",
-      "Flames_of_Zamorak",
-      "Guthix_cape",
-      "Claws_of_Guthix"
-    ]
-  },
-  {
-    "id": "Mage_Arena_II",
-    "subtitle": "Miniquest",
-    "category": "miniquest",
-    "sortingGroups": ["magic"],
-    "requiredLevel": 75,
-    "notableDrops": [
-      "Imbued_saradomin_cape",
-      "Imbued_zamorak_cape",
-      "Imbued_guthix_cape"
-    ]
-  },
-  {
     "id": "Magic_secateurs",
     "category": "quest",
     "sortingGroups": ["farming"],

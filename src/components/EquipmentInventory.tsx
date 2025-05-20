@@ -57,7 +57,6 @@ function Slot({ id, item }: EquipmentSlot) {
             name: id,
           }
         }
-        disableHighlight
       />
     </div>
   );

@@ -28,7 +28,7 @@ export default function TitledCard({
   subtitle,
   title,
   titleIconId,
-  titleIconSize,
+  titleIconSize = 14,
   titleLinkId,
   titleLinkIcon,
   titleLinkUrl,

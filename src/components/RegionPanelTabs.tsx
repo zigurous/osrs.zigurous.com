@@ -1,4 +1,3 @@
-import { Stack } from '@zigurous/forge-react';
 import classNames from 'classnames';
 import React from 'react';
 import { type RegionPanelTab } from './RegionPanel';
@@ -16,25 +15,23 @@ export default function RegionPanelTabs({
 }: RegionPanelTabsProps) {
   return (
     <div className="region-panel__tabs">
-      <Stack align="center" justify="between">
-        {tabs.map(tab => (
-          <button
-            key={tab.name}
-            aria-selected={selectedTab === tab.name}
-            className={classNames('region-panel__tab', {
-              active: selectedTab === tab.name,
-            })}
-            disabled={tab.disabled}
-            onClick={() => {
-              if (onSelectTab) {
-                onSelectTab(tab.name);
-              }
-            }}
-          >
-            {tab.name}
-          </button>
-        ))}
-      </Stack>
+      {tabs.map(tab => (
+        <button
+          key={tab.name}
+          aria-selected={selectedTab === tab.name}
+          className={classNames('region-panel__tab', {
+            active: selectedTab === tab.name,
+          })}
+          disabled={tab.disabled}
+          onClick={() => {
+            if (onSelectTab) {
+              onSelectTab(tab.name);
+            }
+          }}
+        >
+          {tab.name}
+        </button>
+      ))}
     </div>
   );
 }

@@ -22,7 +22,7 @@ export default function RegionPanelPets({ region }: RegionPanelPetsProps) {
         {pets.map(pet => (
           <li className="shadow-xs" key={pet.id} id={pet.id}>
             <div className="flex align-center">
-              <ItemFrame disableHighlight item={pet} />
+              <ItemFrame item={pet} />
               <div className="ml-md">
                 <Text as="div" size="lg" type="title">
                   {pet.name ?? formatNameFromId(pet.id)}

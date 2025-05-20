@@ -104,6 +104,14 @@ export const createSchemaCustomization = ({
       source: ItemSource!
       tags: [String!]!
     }
+    type QuestsJson implements Node @dontInfer {
+      jsonId: String!
+      link: String
+      title: String
+      caption: String
+      quests: [String!]!
+      unlocks: [String!]
+    }
     type RaidsJson implements Node @dontInfer {
       jsonId: String!
       icon: String!
@@ -118,6 +126,7 @@ export const createSchemaCustomization = ({
       jsonId: String!
       name: String!
       description: String!
+      storylines: [String!]!
       locations: [String!]!
       skilling: [String!]!
       raids: [String!]!

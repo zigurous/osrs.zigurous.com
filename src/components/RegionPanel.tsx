@@ -5,6 +5,7 @@ import RegionPanelBestInSlot from './RegionPanelBestInSlot';
 import RegionPanelBosses from './RegionPanelBosses';
 import RegionPanelOverview from './RegionPanelOverview';
 import RegionPanelPets from './RegionPanelPets';
+import RegionPanelQuests from './RegionPanelQuests';
 import RegionPanelSkilling from './RegionPanelSkilling';
 import RegionPanelSlayer from './RegionPanelSlayer';
 import RegionPanelTabs from './RegionPanelTabs';
@@ -48,8 +49,8 @@ export default function RegionPanel() {
             tabs={[
               { name: 'Overview', disabled: false },
               { name: 'Skilling', disabled: false },
-              { name: 'Bosses', disabled: false },
-              { name: 'Pets', disabled: false },
+              { name: 'Bosses', disabled: selectedRegion.bosses.length <= 0 },
+              { name: 'Pets', disabled: selectedRegion.pets.length <= 0 },
             ]}
             selectedTab={selectedTab}
             onSelectTab={tab => setSelectedTab(tab)}
@@ -58,7 +59,10 @@ export default function RegionPanel() {
             tabs={[
               { name: 'Best In Slot', disabled: false },
               { name: 'Slayer', disabled: false },
-              { name: 'Quests', disabled: true },
+              {
+                name: 'Quests',
+                disabled: selectedRegion.storylines.length <= 0,
+              },
             ]}
             selectedTab={selectedTab}
             onSelectTab={tab => setSelectedTab(tab)}
@@ -86,6 +90,8 @@ function renderTab(selectedTab: RegionPanelTab, selectedRegion: Region) {
       return <RegionPanelBestInSlot region={selectedRegion} />;
     case 'Slayer':
       return <RegionPanelSlayer region={selectedRegion} />;
+    case 'Quests':
+      return <RegionPanelQuests region={selectedRegion} />;
     default:
       return null;
   }

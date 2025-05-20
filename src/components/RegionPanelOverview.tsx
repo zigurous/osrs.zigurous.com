@@ -56,6 +56,14 @@ export default function RegionPanelOverview({
       dungeons: region.dungeons
         .map(getDungeonById)
         .sort(sortByName),
+      storylines: region.storylines
+        .map(series => ({
+          id: series,
+          icon: 'Quest_point_icon',
+          link: series.includes('Mahjarrat') ? 'Quests/Series#Mahjarrat' : `Quests/Series#${series}`,
+          title: series.includes('Mahjarrat') ? 'Mahjarrat' : undefined
+        }))
+        .sort(sortByName)
     }),
     [region.id, getActivityById, getLocationById, getDungeonById],
   );
@@ -132,6 +140,15 @@ export default function RegionPanelOverview({
           </ul>
         </TitledCard>
       )}
+      {activities.storylines.length > 0 && (
+        <TitledCard title="Storylines" type="list">
+          <ul>
+            {activities.storylines.map(series => (
+              <OverviewListItem item={series} key={series.id} />
+            ))}
+          </ul>
+        </TitledCard>
+      )}
     </RegionPanelSection>
   );
 }
@@ -139,11 +156,17 @@ export default function RegionPanelOverview({
 function OverviewListItem({
   item,
 }: {
-  item: { id: string; icon?: string; title?: string; name?: string };
+  item: {
+    id: string;
+    icon?: string;
+    title?: string;
+    name?: string;
+    link?: string;
+  };
 }) {
   return (
     <li id={item.id} key={item.id}>
-      <WikiLink className="flex align-center" wikiId={item.id}>
+      <WikiLink className="flex align-center" wikiId={item.link || item.id}>
         <div
           className="inline-flex justify-center align-center shrink-0"
           style={{ width: '21px', height: '21px' }}

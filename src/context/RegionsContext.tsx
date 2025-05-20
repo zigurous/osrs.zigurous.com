@@ -89,12 +89,13 @@ const dataQuery = graphql`
         id: jsonId
         name
         description
-        locations
+        storylines
         skilling
         raids
         bosses
         minigames
         guilds
+        locations
         dungeons
         monsters
         npcs

@@ -60,6 +60,9 @@
 }
 
 .region-panel__tabs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   border-top: 2px solid var(--color-background);
   border-bottom: 2px solid var(--color-background);
 }
@@ -73,10 +76,11 @@
   font-weight: 600;
   font-size: .875rem;
   width: 100%;
-  padding: var(--spacing-md) var(--spacing-xl);
+  height: 44px;
   color: var(--color-silver);
   background-color: var(--color-surface-3);
   text-transform: capitalize;
+  white-space: nowrap;
 }
 
 .region-panel__tab + .region-panel__tab {
@@ -95,6 +99,7 @@
 }
 
 .region-panel__body {
+  min-height: calc(100% - 192px);
   padding: var(--spacing-xl) var(--spacing-xl) 8rem;
   overflow-x: hidden;
   overflow-y: scroll;

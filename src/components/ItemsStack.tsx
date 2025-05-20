@@ -6,6 +6,7 @@ import type { ItemData } from '../types';
 
 interface ItemsStackProps {
   className?: string;
+  highlights?: boolean;
   items: ItemData[];
   size?: 'sm' | 'md' | 'lg';
 }
@@ -19,6 +20,7 @@ const spacing: Record<string, SpacingToken> = {
 
 export default function ItemsStack({
   className,
+  highlights = false,
   items,
   size,
 }: ItemsStackProps) {
@@ -30,7 +32,12 @@ export default function ItemsStack({
       wrap
     >
       {items.map((item, index) => (
-        <ItemFrame key={`${item.id}-${index}`} item={item} size={size} />
+        <ItemFrame
+          key={`${item.id}-${index}`}
+          highlights={highlights}
+          item={item}
+          size={size}
+        />
       ))}
     </Stack>
   );

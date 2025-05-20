@@ -73,7 +73,6 @@ export default function RegionPanelSlayer({ region }: RegionPanelSlayerProps) {
                 <TitledCard
                   subtitle={monster.subtitle}
                   title={monster.title || formatNameFromId(monster.id)}
-                  titleIconSize={14}
                   titleLinkId={monster.id}
                   titleLinkIcon="open_in_new"
                 >

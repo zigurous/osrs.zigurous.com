@@ -7,7 +7,7 @@ export function formatNameFromId(id: string) {
   switch (id) {
     case 'pvm': return 'PvM';
     case 'pvp': return 'PvP';
-    default: return toTitleCase(id.replace(/_/g, ' '));
+    default: return toTitleCase(id.replace(/_/g, ' ')).replace('H.a.M', 'H.A.M');
   }
 }
 
