@@ -34,13 +34,13 @@ export default function ActivityCard({
       shadow={false}
       subtitle={activity.subtitle}
       title={activity.title || formatNameFromId(activity.id)}
-      titleIconId={getIconForActivity(activity)}
-      titleIconSize={expandable ? 16 : 14}
-      titleLinkUrl={activity.url}
-      titleLinkId={expandable ? undefined : activity.id}
-      titleLinkIcon={
+      titleIconLeft={getIconForActivity(activity)}
+      titleIconRight={
         expandable ? (expanded ? 'expand_less' : 'expand_more') : 'open_in_new'
       }
+      titleIconSize={expandable ? 16 : 12}
+      titleLinkUrl={activity.url}
+      titleLinkId={expandable ? undefined : activity.id}
     >
       {expanded && items && items.length > 0 && <ItemsStack items={items} />}
     </TitledCard>

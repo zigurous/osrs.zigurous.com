@@ -12,7 +12,7 @@ export const createSchemaCustomization = ({
     }
     type BestInSlotEquipmentSlot {
       id: String!
-      items: [BestInSlotItem!]!
+      items: [String!]!
     }
     type BestInSlotItem {
       id: String!
@@ -41,6 +41,18 @@ export const createSchemaCustomization = ({
       category: String!
       sortingGroups: [String!]!
       notableDrops: [String!]
+    }
+    type EquipmentJson implements Node @dontInfer {
+      jsonId: String!
+      icon: String
+      name: String
+      tags: [String!]
+      regions: [String!]!
+      ammo: EquipmentAmmo
+    }
+    type EquipmentAmmo {
+      id: String!
+      icon: String
     }
     type GuildsJson implements Node @dontInfer {
       jsonId: String!

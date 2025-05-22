@@ -12,7 +12,7 @@ interface ItemFrameProps {
   className?: string;
   highlights?: boolean;
   item?: ItemData;
-  size?: 'sm' | 'md' | 'lg';
+  size?: 'xs' | 'sm' | 'md' | 'lg';
 }
 
 export default function ItemFrame({

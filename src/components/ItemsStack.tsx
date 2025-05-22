@@ -8,11 +8,12 @@ interface ItemsStackProps {
   className?: string;
   highlights?: boolean;
   items: ItemData[];
-  size?: 'sm' | 'md' | 'lg';
+  size?: 'xs' | 'sm' | 'md' | 'lg';
 }
 
 const spacing: Record<string, SpacingToken> = {
   undefined: 'sm',
+  xs: 'xxs',
   sm: 'xs',
   md: 'sm',
   lg: 'md',

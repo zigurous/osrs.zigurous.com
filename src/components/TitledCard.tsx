@@ -7,14 +7,15 @@ interface TitledCardProps {
   caption?: string;
   children?: React.ReactNode;
   className?: string;
+  customTitle?: React.ReactNode;
   onClickHeader?: () => void;
   shadow?: boolean;
   subtitle?: string;
   title: string;
-  titleIconId?: string;
+  titleIconLeft?: string;
+  titleIconRight?: string;
   titleIconSize?: string | number;
   titleLinkId?: string;
-  titleLinkIcon?: string;
   titleLinkUrl?: string;
   type?: 'list' | 'table';
 }
@@ -23,14 +24,15 @@ export default function TitledCard({
   caption,
   children,
   className,
+  customTitle,
   onClickHeader,
   shadow = true,
   subtitle,
   title,
-  titleIconId,
-  titleIconSize = 14,
+  titleIconLeft,
+  titleIconRight,
+  titleIconSize = 12,
   titleLinkId,
-  titleLinkIcon,
   titleLinkUrl,
   type,
 }: TitledCardProps) {
@@ -55,32 +57,38 @@ export default function TitledCard({
         target={titleLinkId ? '_blank' : undefined}
         onClick={onClickHeader}
       >
-        <div className="titled-card__title">
-          {titleIconId && (
-            <img
-              alt=""
-              aria-hidden
-              className="titled-card__icon"
-              src={`https://oldschool.runescape.wiki/images/${titleIconId}.png`}
-            />
-          )}
-          <Text size="lg" type="title">
-            {title}
-            {subtitle && (
-              <Text as="span" className="ml-sm" color="disabled" size="md">
-                {subtitle}
+        {customTitle || (
+          <div className="titled-card__title">
+            {titleIconLeft && (
+              <img
+                alt=""
+                aria-hidden
+                className="titled-card__icon"
+                src={`https://oldschool.runescape.wiki/images/${titleIconLeft}.png`}
+              />
+            )}
+            <Text size="lg" type="title">
+              {title}
+              {subtitle && (
+                <Text as="span" className="ml-sm" color="disabled" size="md">
+                  {subtitle}
+                </Text>
+              )}
+            </Text>
+          </div>
+        )}
+        {(caption || titleIconRight) && (
+          <div className="titled-card__caption">
+            {caption && (
+              <Text className="mr-sm" type="caption">
+                {caption}
               </Text>
             )}
-          </Text>
-        </div>
-        <div className="titled-card__caption">
-          {caption && (
-            <Text className="mr-sm" type="caption">
-              {caption}
-            </Text>
-          )}
-          {titleLinkIcon && <Icon icon={titleLinkIcon} size={titleIconSize} />}
-        </div>
+            {titleIconRight && (
+              <Icon icon={titleIconRight} size={titleIconSize} />
+            )}
+          </div>
+        )}
       </Element>
       <div className="titled-card__body">{children}</div>
     </div>

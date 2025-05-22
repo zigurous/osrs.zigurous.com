@@ -40,8 +40,8 @@ export default function RegionPanelQuests({ region }: RegionPanelQuestsProps) {
       {storylines.map(series => (
         <TitledCard
           title={series.title || formatNameFromId(series.id)}
+          titleIconRight="open_in_new"
           titleLinkId={series.link || `Quests/Series#${series.id}`}
-          titleLinkIcon="open_in_new"
           caption={series.caption}
           type="list"
           key={series.id}
