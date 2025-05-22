@@ -509,11 +509,11 @@
     "unlocks": [
       "Civitas_illa_Fortis_Teleport",
       "Quetzal_Transport_System",
-      "Quetzal_feed",
       "Emissary_hood",
       "Emissary_robe_top",
       "Emissary_robe_bottom",
       "Emissary_sandals",
+      "#newline",
       "Amoxliatl",
       "Pendant_of_ates"
     ]
