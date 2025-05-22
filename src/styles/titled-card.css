@@ -27,6 +27,7 @@
 }
 
 .titled-card__caption > i {
+  opacity: var(--opacity-muted);
   user-select: none;
 }
 
