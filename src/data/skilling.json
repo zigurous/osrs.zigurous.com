@@ -261,6 +261,19 @@
     ]
   },
   {
+    "id": "Ancient_Forge",
+    "category": "skilling",
+    "sortingGroups": ["smithing"],
+    "requiredLevel": 90,
+    "notableDrops": [
+      "Bandosian_components",
+      "#transmute",
+      "Torva_full_helm",
+      "Torva_platebody",
+      "Torva_platelegs"
+    ]
+  },
+  {
     "id": "Anglerfish",
     "category": "skilling",
     "sortingGroups": ["cooking"],
