@@ -1,7 +1,7 @@
 import '../styles/global.css';
 import React from 'react';
-import ContextProviders from './ContextProviders';
 import PageFrame from './PageFrame';
+import ContextProviders from '../context';
 
 interface RootLayoutProps {
   children?: React.ReactNode;

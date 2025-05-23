@@ -1,31 +1,90 @@
 import { Stack, Text } from '@zigurous/forge-react';
-import React, { useMemo, useState } from 'react';
+import React, { useMemo } from 'react';
 import EquipmentInventory from './EquipmentInventory';
 import IconToggle from './IconToggle';
 import TitledCard from './TitledCard';
-import type { BestInSlotCategory, BestInSlotQueryData, BestInSlotToggles, EquipmentSlots, RegionId } from '../types'; // prettier-ignore
+import { useSettingsContext } from '../context';
+import type { BestInSlotCategory, BestInSlotQueryData, EquipmentSlots, RegionId } from '../types'; // prettier-ignore
 
 interface BestInSlotEquipmentCardProps {
   category: BestInSlotCategory;
   data: BestInSlotQueryData;
   regionId: RegionId;
-  toggles: BestInSlotToggles;
 }
 
 export default function BestInSlotEquipmentCard({
   category,
   data,
   regionId,
-  toggles,
 }: BestInSlotEquipmentCardProps) {
-  const [selectedSubcategory, setSelectedSubcategory] = useState<string>();
-  const equipment = useEquipment(
-    data,
-    regionId,
-    toggles,
-    category.id,
-    selectedSubcategory,
-  );
+  const { settings, setSettings } = useSettingsContext();
+  const { bisLeagues, bisClues } = settings;
+  const { [category.subcategoryKey]: subcategoryId } = settings;
+
+  const equipment: EquipmentSlots = useMemo(() => {
+    // Start with an empty set of slots
+    const slots = getEmptySlots();
+    // Assigns items to each slot based on the category (melee, ranged, magic)
+    const assignItems = (category: string) => {
+      const bis = data.priority.nodes.find(node => node.category === category);
+      bis?.equipment.forEach(slot => {
+        // Skip this slot if it has already been assigned an item
+        if (slots[slot.id]) return;
+
+        // Filter items based on region, toggles, and melee style
+        const ids = slot.items.filter(id => {
+          const baseId = id.includes('#') ? id.split('#')[0] : id;
+          const item =
+            data.equipment.nodes.find(item => item.id === id) ||
+            data.equipment.nodes.find(item => item.id === baseId);
+          if (!item) return false;
+          // Discard items not available in the region
+          if (!item.regions.includes(regionId) && !item.regions.includes('all'))
+            return false;
+          // Discard items based on current toggles
+          if (!bisLeagues) {
+            if (item.tags?.includes('leagues') || id.includes('#Leagues'))
+              return false;
+          }
+          if (!bisClues) {
+            if (item.tags?.includes('clues') || id.includes('#Clues'))
+              return false;
+          }
+          // Discard melee items that don't match the correct style
+          if (subcategoryId) {
+            if (id.includes('#Stab') && subcategoryId !== 'melee-stab')
+              return false;
+            if (id.includes('#Slash') && subcategoryId !== 'melee-slash')
+              return false;
+            if (id.includes('#Crush') && subcategoryId !== 'melee-crush')
+              return false;
+          }
+          return true;
+        });
+
+        // Assign the highest priority item (index 0) to the slot
+        if (ids.length > 0) {
+          const fullId = ids[0];
+          const baseId = fullId.includes('#') ? fullId.split('#')[0] : fullId;
+          const item =
+            data.equipment.nodes.find(item => item.id === fullId) ||
+            data.equipment.nodes.find(item => item.id === baseId);
+          if (item) {
+            slots[slot.id] = { ...item, id: baseId };
+          }
+        }
+      });
+    };
+    // First, assign slots based on the subcategory (e.g., stab, slash, crush)
+    if (subcategoryId) {
+      assignItems(subcategoryId);
+    }
+    // Last, assign slots based on the primary category (e.g., melee, ranged, magic)
+    // Slots will be skipped if they have already been assigned by the subcategory
+    assignItems(category.id);
+    return slots;
+  }, [data, regionId, category.id, subcategoryId, bisLeagues, bisClues]);
+
   return (
     <TitledCard
       title={category.title}
@@ -56,9 +115,14 @@ export default function BestInSlotEquipmentCard({
                   icon={subcategory.icon}
                   key={subcategory.id}
                   label={subcategory.label}
-                  on={selectedSubcategory === subcategory.id}
+                  on={subcategoryId === subcategory.id}
                   onChange={on =>
-                    setSelectedSubcategory(on ? subcategory.id : undefined)
+                    setSettings(settings => ({
+                      ...settings,
+                      [category.subcategoryKey]: on
+                        ? subcategory.id
+                        : undefined,
+                    }))
                   }
                 />
               ))}
@@ -70,73 +134,6 @@ export default function BestInSlotEquipmentCard({
       <EquipmentInventory slots={equipment} />
     </TitledCard>
   );
-}
-
-function useEquipment(
-  data: BestInSlotQueryData,
-  regionId: RegionId,
-  toggles: BestInSlotToggles,
-  category: string,
-  subcategory?: string,
-): EquipmentSlots {
-  return useMemo<EquipmentSlots>(() => {
-    // Start with an empty set of slots
-    const slots = getEmptySlots();
-    // Assigns items to each slot based on the category (melee, ranged, magic)
-    const assignItems = (category: string) => {
-      const bis = data.priority.nodes.find(node => node.category === category);
-      bis?.equipment.forEach(slot => {
-        // Skip this slot if it has already been assigned an item
-        if (slots[slot.id]) return;
-
-        // Filter items based on region, toggles, and melee style
-        const ids = slot.items.filter(id => {
-          const baseId = id.includes('#') ? id.split('#')[0] : id;
-          const item =
-            data.equipment.nodes.find(item => item.id === id) ||
-            data.equipment.nodes.find(item => item.id === baseId);
-          if (!item) return false;
-          // Discard items not available in the region
-          if (!item.regions.includes(regionId) && !item.regions.includes('all'))
-            return false;
-          // Discard items based on current toggles
-          if (!toggles.leagues) {
-            if (item.tags?.includes('leagues') || id.includes('#Leagues'))
-              return false;
-          }
-          if (!toggles.clues) {
-            if (item.tags?.includes('clues') || id.includes('#Clues'))
-              return false;
-          }
-          // Discard melee items that don't match the correct style
-          if (subcategory) {
-            if (id.includes('#Stab') && subcategory !== 'stab') return false;
-            if (id.includes('#Slash') && subcategory !== 'slash') return false;
-            if (id.includes('#Crush') && subcategory !== 'crush') return false;
-          }
-          return true;
-        });
-
-        // Assign the highest priority item (index 0) to the slot
-        if (ids.length > 0) {
-          const fullId = ids[0];
-          const baseId = fullId.includes('#') ? fullId.split('#')[0] : fullId;
-          const item =
-            data.equipment.nodes.find(item => item.id === fullId) ||
-            data.equipment.nodes.find(item => item.id === baseId);
-          if (item) {
-            slots[slot.id] = { ...item, id: baseId };
-          }
-        }
-      });
-    };
-    // First, assign slots based on the subcategory (e.g., stab, slash, crush)
-    if (subcategory) assignItems(subcategory);
-    // Last, assign slots based on the primary category (e.g., melee, ranged, magic)
-    // Slots will be skipped if they have already been assigned by the subcategory
-    assignItems(category);
-    return slots;
-  }, [data, regionId, toggles, category, subcategory]);
 }
 
 function getEmptySlots(): EquipmentSlots {

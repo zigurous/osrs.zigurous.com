@@ -2,7 +2,6 @@ export { default as ActivityCard } from './ActivityCard';
 export { default as ActivityFilter } from './ActivityFilter';
 export { default as AreaBadge } from './AreaBadge';
 export { default as CheckboxToggle } from './CheckboxToggle';
-export { default as ContextProviders } from './ContextProviders';
 export { default as EquipmentInventory } from './EquipmentInventory';
 export { default as FooterBar } from './FooterBar';
 export { default as HeaderBar } from './HeaderBar';

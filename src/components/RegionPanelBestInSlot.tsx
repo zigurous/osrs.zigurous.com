@@ -1,10 +1,11 @@
 import { Stack, Text } from '@zigurous/forge-react';
 import { graphql, useStaticQuery } from 'gatsby';
-import React, { useState } from 'react';
+import React from 'react';
 import BestInSlotEquipmentCard from './BestInSlotEquipmentCard';
 import CheckboxToggle from './CheckboxToggle';
 import RegionPanelSection from './RegionPanelSection';
-import type { BestInSlotCategory, BestInSlotQueryData, BestInSlotToggles, Region } from '../types'; // prettier-ignore
+import { useSettingsContext } from '../context';
+import type { BestInSlotCategory, BestInSlotQueryData, Region } from '../types';
 
 interface RegionPanelBestInSlotProps {
   region: Region;
@@ -14,27 +15,24 @@ export default function RegionPanelBestInSlot({
   region,
 }: RegionPanelBestInSlotProps) {
   const data = useStaticQuery<BestInSlotQueryData>(dataQuery);
-  const [toggles, setToggles] = useState<BestInSlotToggles>({
-    leagues: false,
-    clues: false,
-  });
+  const { settings, setSettings } = useSettingsContext();
   return (
     <RegionPanelSection className="best-in-slot" title="Best In Slot">
       <Stack inline className="ml-md" spacing="lg">
         <CheckboxToggle
           id="leagues-toggle"
           label="Leagues"
-          checked={toggles.leagues}
+          checked={settings.bisLeagues}
           onChange={checked =>
-            setToggles(state => ({ ...state, leagues: checked }))
+            setSettings(settings => ({ ...settings, bisLeagues: checked }))
           }
         />
         <CheckboxToggle
           id="clues-toggle"
           label="Clues"
-          checked={toggles.clues}
+          checked={settings.bisClues}
           onChange={checked =>
-            setToggles(state => ({ ...state, clues: checked }))
+            setSettings(settings => ({ ...settings, bisClues: checked }))
           }
         />
       </Stack>
@@ -47,7 +45,6 @@ export default function RegionPanelBestInSlot({
           data={data}
           key={category.id}
           regionId={region.id}
-          toggles={toggles}
         />
       ))}
     </RegionPanelSection>
@@ -59,6 +56,7 @@ const categories: BestInSlotCategory[] = [
     id: 'melee',
     title: 'Melee',
     icon: 'Attack_style_icon',
+    subcategoryKey: 'bisMeleeSubcategory',
     subcategories: [
       { id: 'melee-stab', label: 'Stab', icon: 'White_dagger' },
       { id: 'melee-slash', label: 'Slash', icon: 'White_scimitar' },
@@ -70,6 +68,7 @@ const categories: BestInSlotCategory[] = [
     id: 'ranged',
     title: 'Ranged',
     icon: 'Ranged_icon_(detail)',
+    subcategoryKey: 'bisRangedSubcategory',
     subcategories: [
       { id: 'ranged-spec', label: 'Special', icon: 'Special_attack_orb' },
     ],
@@ -78,6 +77,7 @@ const categories: BestInSlotCategory[] = [
     id: 'magic',
     title: 'Magic',
     icon: 'Magic_icon_(detail)',
+    subcategoryKey: 'bisMagicSubcategory',
     subcategories: [
       { id: 'magic-spec', label: 'Special', icon: 'Special_attack_orb' },
     ],
@@ -86,6 +86,7 @@ const categories: BestInSlotCategory[] = [
     id: 'prayer',
     title: 'Prayer',
     icon: 'Prayer_icon_(detail)',
+    subcategoryKey: 'bisPrayerSubcategory',
   },
 ];
 

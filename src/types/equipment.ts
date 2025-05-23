@@ -25,15 +25,18 @@ export interface EquipmentItem extends Omit<ItemData, 'transmutations'> {
 
 export type EquipmentSlots = Record<EquipmentSlotId, EquipmentItem | undefined>;
 
-export interface BestInSlotToggles {
-  leagues: boolean;
-  clues: boolean;
+export interface BestInSlotSubcategories {
+  bisMeleeSubcategory: string | undefined;
+  bisRangedSubcategory: string | undefined;
+  bisMagicSubcategory: string | undefined;
+  bisPrayerSubcategory: string | undefined;
 }
 
 export interface BestInSlotCategory {
   id: 'melee' | 'ranged' | 'magic' | 'prayer';
   title: string;
   icon: string;
+  subcategoryKey: keyof BestInSlotSubcategories;
   subcategories?: { id: string; label: string; icon: string }[];
 }
 
