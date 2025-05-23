@@ -186,6 +186,11 @@
     "regions": ["asgarnia"]
   },
   {
+    "id": "Bandos_godsword",
+    "tags": ["2h"],
+    "regions": ["asgarnia"]
+  },
+  {
     "id": "Bandos_tassets",
     "regions": ["asgarnia"]
   },
@@ -353,6 +358,11 @@
     "regions": ["karamja"]
   },
   {
+    "id": "Burning_claws",
+    "tags": ["2h"],
+    "regions": ["misthalin"]
+  },
+  {
     "id": "Cape_of_skulls",
     "tags": ["clues"],
     "regions": ["all"]
@@ -387,6 +397,11 @@
     "regions": ["tirannwn"]
   },
   {
+    "id": "Crystal_halberd",
+    "tags": ["2h"],
+    "regions": ["tirannwn"]
+  },
+  {
     "id": "Crystal_helm",
     "regions": ["tirannwn"]
   },
@@ -405,6 +420,15 @@
   {
     "id": "Dagon'hai_robe_top",
     "regions": ["wilderness"]
+  },
+  {
+    "id": "Dark_bow",
+    "tags": ["2h"],
+    "regions": ["tirannwn"],
+    "ammo": {
+      "id": "Dragon_arrow",
+      "icon": "Dragon_arrow_5"
+    }
   },
   {
     "id": "Defence_cape(t)",
@@ -427,6 +451,21 @@
   {
     "id": "Dragon_chainbody",
     "regions": ["desert", "kandarin", "kourend", "wilderness"]
+  },
+  {
+    "id": "Dragon_claws",
+    "tags": ["2h"],
+    "regions": ["kourend"]
+  },
+  {
+    "id": "Dragon_crossbow",
+    "tags": ["1h"],
+    "regions": ["misthalin"]
+  },
+  {
+    "id": "Dragon_dagger",
+    "tags": ["1h"],
+    "regions": ["all"]
   },
   {
     "id": "Dragon_dart",
@@ -466,6 +505,11 @@
     "regions": ["varlamore"]
   },
   {
+    "id": "Dragon_knife",
+    "tags": ["1h"],
+    "regions": ["kourend"]
+  },
+  {
     "id": "Dragon_mace",
     "tags": ["1h"],
     "regions": ["asgarnia"]
@@ -485,6 +529,11 @@
   },
   {
     "id": "Dragon_sword",
+    "tags": ["1h"],
+    "regions": ["kourend"]
+  },
+  {
+    "id": "Dragon_warhammer",
     "tags": ["1h"],
     "regions": ["kourend"]
   },
@@ -571,6 +620,12 @@
     "regions": ["fremennik"]
   },
   {
+    "id": "Nothing",
+    "icon": "Bank_filler",
+    "tags": ["1h"],
+    "regions": ["all"]
+  },
+  {
     "id": "Enchanted_hat",
     "tags": ["clues"],
     "regions": ["all"]
@@ -646,6 +701,11 @@
   },
   {
     "id": "Granite_gloves",
+    "regions": ["morytania"]
+  },
+  {
+    "id": "Granite_maul",
+    "tags": ["2h"],
     "regions": ["morytania"]
   },
   {
@@ -857,6 +917,15 @@
     "id": "Magic_shortbow",
     "tags": ["2h"],
     "regions": ["asgarnia", "desert", "fremennik", "kandarin", "kourend", "misthalin", "morytania", "tirannwn", "varlamore", "wilderness"],
+    "ammo": {
+      "id": "Rune_arrow",
+      "icon": "Rune_arrow_5"
+    }
+  },
+  {
+    "id": "Magic_shortbow#Clues",
+    "tags": ["2h", "clues"],
+    "regions": ["all"],
     "ammo": {
       "id": "Rune_arrow",
       "icon": "Rune_arrow_5"
@@ -1239,6 +1308,15 @@
     "regions": ["desert", "kourend", "morytania"]
   },
   {
+    "id": "Seercull",
+    "tags": ["2h"],
+    "regions": ["fremennik"],
+    "ammo": {
+      "id": "Rune_arrow",
+      "icon": "Rune_arrow_5"
+    }
+  },
+  {
     "id": "Seers_ring",
     "regions": ["fremennik"]
   },
@@ -1274,6 +1352,11 @@
     "id": "Soul_cape",
     "icon": "Soul_cape_(red)",
     "regions": ["misthalin"]
+  },
+  {
+    "id": "Soulflame_horn",
+    "tags": ["1h"],
+    "regions": ["kourend"]
   },
   {
     "id": "Soulreaper_axe",
@@ -1397,6 +1480,11 @@
     "regions": ["desert"]
   },
   {
+    "id": "Tonalztics_of_ralos",
+    "tags": ["1h"],
+    "regions": ["varlamore"]
+  },
+  {
     "id": "Tormented_bracelet",
     "regions": ["kandarin"]
   },
@@ -1419,6 +1507,11 @@
     "ammo": {
       "id": "Dragon_dart"
     }
+  },
+  {
+    "id": "Toxic_staff_of_the_dead",
+    "tags": ["1h", "*"],
+    "regions": ["tirannwn"]
   },
   {
     "id": "Treasonous_ring",
@@ -1566,6 +1659,11 @@
     "id": "Voidwaker",
     "tags": ["1h"],
     "regions": ["wilderness"]
+  },
+  {
+    "id": "Volatile_nightmare_staff",
+    "tags": ["1h"],
+    "regions": ["morytania"]
   },
   {
     "id": "War_blessing",

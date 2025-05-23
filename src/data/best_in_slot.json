@@ -205,7 +205,7 @@
     ]
   },
   {
-    "category": "stab",
+    "category": "melee-stab",
     "equipment": [
       {
         "id": "weapon",
@@ -243,7 +243,7 @@
     ]
   },
   {
-    "category": "slash",
+    "category": "melee-slash",
     "equipment": [
       {
         "id": "weapon",
@@ -277,7 +277,7 @@
     ]
   },
   {
-    "category": "crush",
+    "category": "melee-crush",
     "equipment": [
       {
         "id": "weapon",
@@ -306,6 +306,30 @@
           "Barronite_mace",
           "Tzhaar-ket-em",
           "Rune_mace"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "melee-spec",
+    "equipment": [
+      {
+        "id": "weapon",
+        "items": [
+          "Thunder_khopesh",
+          "Sunlight_spear",
+          "The_dogsword",
+          "Dragon_claws",
+          "Burning_claws",
+          "Voidwaker",
+          "Elder_maul",
+          "Dragon_warhammer",
+          "Bandos_godsword",
+          "Crystal_halberd",
+          "Granite_maul",
+          "Osmumten's_fang",
+          "Dragon_dagger",
+          "Nothing"
         ]
       }
     ]
@@ -487,6 +511,28 @@
     ]
   },
   {
+    "category": "ranged-spec",
+    "equipment": [
+      {
+        "id": "weapon",
+        "items": [
+          "Zaryte_crossbow",
+          "Webweaver_bow",
+          "Toxic_blowpipe",
+          "Dark_bow",
+          "Dragon_knife",
+          "Heavy_ballista",
+          "Tonalztics_of_ralos",
+          "Scorching_bow",
+          "Seercull",
+          "Magic_shortbow#Clues",
+          "Magic_shortbow",
+          "Nothing"
+        ]
+      }
+    ]
+  },
+  {
     "category": "magic",
     "equipment": [
       {
@@ -657,6 +703,41 @@
         "items": [
           "Rada's_blessing_4",
           "Ancient_blessing"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "magic-spec",
+    "equipment": [
+      {
+        "id": "weapon",
+        "items": [
+          "Volatile_nightmare_staff",
+          "Soulflame_horn",
+          "Accursed_sceptre",
+          "Purging_staff",
+          "Toxic_staff_of_the_dead",
+          "Blue_moon_spear",
+          "Nothing"
+        ]
+      },
+      {
+        "id": "head",
+        "items": [
+          "Blue_moon_helm"
+        ]
+      },
+      {
+        "id": "body",
+        "items": [
+          "Blue_moon_chestplate"
+        ]
+      },
+      {
+        "id": "legs",
+        "items": [
+          "Blue_moon_tassets"
         ]
       }
     ]
