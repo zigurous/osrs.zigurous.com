@@ -74,11 +74,18 @@ a.text-primary:hover {
   text-decoration: underline;
 }
 
+.btn--default.btn--solid {
+  --btn-color-primary: var(--color-surface-4);
+  --btn-color-secondary: rgb(from var(--color-foreground) r g b / var(--opacity-subtle));
+  background-color: var(--color-surface-3);
+  color: var(--btn-color-secondary);
+}
+
 .btn--default.btn--outline {
   --btn-color-primary: var(--color-surface-3);
-  --btn-color-secondary: var(--color-white);
+  --btn-color-secondary: rgb(from var(--color-foreground) r g b / var(--opacity-subtle));
   border-color: var(--color-surface-4);
-  color: var(--color-white);
+  color: var(--btn-color-secondary);
 }
 
 .modal__dialog {
@@ -101,4 +108,13 @@ a.text-primary:hover {
 
 .overlay__scrim {
   position: fixed;
+}
+
+@media (max-width: 498px) {
+  .app {
+    padding: 0;
+  }
+  .app > .page-frame {
+    display: none;
+  }
 }

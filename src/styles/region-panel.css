@@ -25,10 +25,11 @@
 .region-panel__header {
   position: relative;
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
   flex-shrink: 0;
   height: 96px;
+  padding: var(--spacing-lg);
   background-color: var(--color-surface-2);
   background-position: center;
   background-repeat: no-repeat;
@@ -50,13 +51,17 @@
 
 .region-panel__title {
   position: relative;
-  margin-left: var(--spacing-xxl);
+  margin-left: var(--spacing-lg);
   font-family: "PT Serif", serif;
   text-shadow: 2px 4px 32px var(--color-shadow);
   text-align: left;
   /* text-decoration: underline;
   text-decoration-thickness: 2px;
   text-underline-offset: 4px; */
+}
+
+.region-panel__close-btn {
+  display: none;
 }
 
 .region-panel__tabs {
@@ -126,4 +131,26 @@
 
 .region-panel__section + hr {
   margin: var(--spacing-xxl) calc(var(--spacing-xl) * -1) var(--spacing-xl);
+}
+
+@media (max-width: 498px) {
+  .region-panel {
+    min-width: 100vw;
+    border-left: none;
+  }
+
+  .region-panel.closed {
+    margin-left: -100vw;
+  }
+}
+
+@media (max-width: 1366px) {
+  .region-panel {
+    position: fixed;
+    z-index: var(--z-index-fixed);
+  }
+
+  .region-panel__close-btn {
+    display: block;
+  }
 }

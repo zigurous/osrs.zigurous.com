@@ -1,19 +1,21 @@
-import { graphql, useStaticQuery } from 'gatsby';
+import { graphql, navigate, useStaticQuery } from 'gatsby';
 import React, { createContext, useCallback, useContext, useEffect, useMemo, useState } from 'react'; // prettier-ignore
 import type { Region, RegionId } from '../types';
 
 interface RegionsContextData {
   regions: Region[];
   selectedRegion: Region | null;
-  setSelectedRegion: (region: Region) => void;
   getRegionById: (id: RegionId) => Region | undefined;
+  setSelectedRegion: (region: Region) => void;
+  deselectRegion: () => void;
 }
 
 const defaultData: RegionsContextData = {
   regions: [],
   selectedRegion: null,
-  setSelectedRegion: () => undefined,
   getRegionById: () => undefined,
+  setSelectedRegion: () => undefined,
+  deselectRegion: () => undefined,
 };
 
 const RegionsContext = createContext<RegionsContextData>(defaultData);
@@ -56,6 +58,11 @@ export function RegionsContextProvider({
     [regions],
   );
 
+  const deselectRegion = useCallback(
+    () => navigate('/', { replace: true }),
+    [],
+  );
+
   useEffect(() => {
     const id = location.search.replace('?region=', '');
     const region = regions.find(region => region.id === id);
@@ -67,8 +74,9 @@ export function RegionsContextProvider({
       value={{
         regions,
         selectedRegion,
-        setSelectedRegion,
         getRegionById,
+        setSelectedRegion,
+        deselectRegion,
       }}
     >
       {children}

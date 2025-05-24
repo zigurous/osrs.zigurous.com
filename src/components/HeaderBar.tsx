@@ -23,20 +23,24 @@ export default function HeaderBar({ location }: HeaderBarProps) {
 
   return (
     <header className="header-bar shadow">
-      <div className="flex align-center">
+      <div className="header-bar__title flex align-center">
         <Link to="/">
           <img src={icon} width={32} height={32} />
         </Link>
-        <Text bold className="ml-md" type="subtitle">
+        <Text bold className="ml-md" marginBottom="xxxs" type="subtitle">
           Region Analyzer
         </Text>
       </div>
       {showInstructions && (
-        <p className="instructions ml-xl title-sm text-muted">
+        <Text
+          className="header-bar__instructions ml-xl"
+          color="muted"
+          type="title-sm"
+        >
           Select a region to analyze
-        </p>
+        </Text>
       )}
-      <Stack spacing="md">
+      <Stack className="header-bar__buttons" spacing="md">
         <SocialButton
           color="default"
           link="github"

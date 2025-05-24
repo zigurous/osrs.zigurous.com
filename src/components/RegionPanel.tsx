@@ -1,4 +1,4 @@
-import { Text } from '@zigurous/forge-react';
+import { Button, Text } from '@zigurous/forge-react';
 import classNames from 'classnames';
 import React, { useState } from 'react';
 import RegionPanelBestInSlot from './RegionPanelBestInSlot';
@@ -24,7 +24,7 @@ export type RegionPanelTab =
 
 export default function RegionPanel() {
   const [selectedTab, setSelectedTab] = useState<RegionPanelTab>('Overview');
-  const { selectedRegion } = useRegionsContext();
+  const { selectedRegion, deselectRegion } = useRegionsContext();
   return (
     <div
       className={classNames('region-panel shadow', {
@@ -35,7 +35,6 @@ export default function RegionPanel() {
       {selectedRegion && (
         <>
           <div className="region-panel__header" id={selectedRegion.id}>
-            <div className="region-panel__backdrop" />
             <Text
               as="h1"
               className="region-panel__title"
@@ -44,6 +43,14 @@ export default function RegionPanel() {
             >
               {selectedRegion.name}
             </Text>
+            <Button
+              className="region-panel__close-btn"
+              icon="close"
+              iconAlignment="only"
+              size="xl"
+              variant="unstyled"
+              onClick={deselectRegion}
+            />
           </div>
           <RegionPanelTabs
             tabs={[
