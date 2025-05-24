@@ -1,5 +1,4 @@
 export { default as ActivityCard } from './ActivityCard';
-export { default as ActivityFilter } from './ActivityFilter';
 export { default as AreaBadge } from './AreaBadge';
 export { default as CheckboxToggle } from './CheckboxToggle';
 export { default as EquipmentInventory } from './EquipmentInventory';
@@ -11,6 +10,7 @@ export { default as ItemsStack } from './ItemsStack';
 export { default as PageFrame } from './PageFrame';
 export { default as RegionPanel } from './RegionPanel';
 export { default as RootLayout } from './RootLayout';
+export { default as SkillingFilters } from './SkillingFilters';
 export { default as TitledCard } from './TitledCard';
 export { default as Tooltip } from './Tooltip';
 export { default as WikiLink } from './WikiLink';

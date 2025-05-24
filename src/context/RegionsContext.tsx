@@ -12,7 +12,7 @@ interface RegionsContextData {
 const defaultData: RegionsContextData = {
   regions: [],
   selectedRegion: null,
-  setSelectedRegion: () => {},
+  setSelectedRegion: () => undefined,
   getRegionById: () => undefined,
 };
 

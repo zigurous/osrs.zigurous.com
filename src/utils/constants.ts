@@ -58,6 +58,27 @@ export const nonCombatSkills = [
   'farming',
 ] as const;
 
+export const skillingFilters = [
+  'prayer',
+  'magic',
+  'runecraft',
+  'construction',
+  'agility',
+  'herblore',
+  'thieving',
+  'crafting',
+  'fletching',
+  'slayer',
+  'hunter',
+  'mining',
+  'smithing',
+  'fishing',
+  'cooking',
+  'firemaking',
+  'woodcutting',
+  'farming',
+] as const;
+
 export const activityCategories = [
   'agility',
   'chest',
@@ -92,27 +113,6 @@ export const activityCategories = [
   'spellbook',
   'thieving',
   'woodcutting',
-] as const;
-
-export const activityFilters = [
-  'prayer',
-  'magic',
-  'runecraft',
-  'construction',
-  'agility',
-  'herblore',
-  'thieving',
-  'crafting',
-  'fletching',
-  'slayer',
-  'hunter',
-  'mining',
-  'smithing',
-  'fishing',
-  'cooking',
-  'firemaking',
-  'woodcutting',
-  'farming',
 ] as const;
 
 export const iconOrder = [

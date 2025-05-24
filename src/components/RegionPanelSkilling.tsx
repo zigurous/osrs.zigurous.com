@@ -1,13 +1,11 @@
 import { Text } from '@zigurous/forge-react';
 import React, { useCallback, useMemo } from 'react';
 import ActivityCard from './ActivityCard';
-import ActivityFilter from './ActivityFilter';
+import ActivityFilter from './SkillingFilters';
 import RegionPanelSection from './RegionPanelSection';
-import { useActivitiesContext, useFilterContext } from '../context';
-import type { Activity, Region } from '../types';
-import { activityFilters, sortByIcon, sortByLevel, sortByName } from '../utils';
-
-type Filter = (typeof activityFilters)[number];
+import { useActivitiesContext, useSkillingFilterContext } from '../context';
+import type { Activity, Region, SkillingFilter } from '../types';
+import { skillingFilters, sortByIcon, sortByLevel, sortByName } from '../utils';
 
 interface RegionPanelSkillingProps {
   region: Region;
@@ -17,7 +15,7 @@ export default function RegionPanelSkilling({
   region,
 }: RegionPanelSkillingProps) {
   const context = useActivitiesContext();
-  const filter = useFilterContext();
+  const filter = useSkillingFilterContext();
 
   const getActivityById = useCallback(
     (id: string) => {
@@ -51,10 +49,10 @@ export default function RegionPanelSkilling({
       activities.toSorted((a, b) => {
         const aGroup = a.sortingGroups.length > 0 ? a.sortingGroups[0] : 'misc';
         const bGroup = b.sortingGroups.length > 0 ? b.sortingGroups[0] : 'misc';
-        const aIncluded = filter.selectedFilters.includes(aGroup as Filter);
-        const bIncluded = filter.selectedFilters.includes(bGroup as Filter);
-        if (aIncluded && !bIncluded) return -1;
-        if (bIncluded && !aIncluded) return 1;
+        const aInc = filter.selectedFilters.includes(aGroup as SkillingFilter);
+        const bInc = filter.selectedFilters.includes(bGroup as SkillingFilter);
+        if (aInc && !bInc) return -1;
+        if (bInc && !aInc) return 1;
         return 0;
       }),
     [activities, filter.selectedFilters],
@@ -65,7 +63,7 @@ export default function RegionPanelSkilling({
       ? sortedActivities.filter(filter.isActivityFiltered)
       : sortedActivities;
 
-  const disabledFilters = activityFilters.filter(
+  const disabledFilters = skillingFilters.filter(
     filter =>
       !sortedActivities.some(activity =>
         activity.sortingGroups?.includes(filter),
@@ -110,6 +108,7 @@ function filterActivity(activity: Activity) {
   }
 
   return activity.sortingGroups.some(
-    group => group === 'skilling' || activityFilters.includes(group as Filter),
+    group =>
+      group === 'skilling' || skillingFilters.includes(group as SkillingFilter),
   );
 }
