@@ -23,7 +23,7 @@ export function toTitleCase(title: string): string {
   }
   return lowercaseParenthesis(
     title
-      .replace(/(?<!')\b(?!')\w/g, l => l.toUpperCase())
+      .replace(/(^\w|\s\w)/g, l => l.toUpperCase())
       .replace(
         /.\b(a|an|and|as|at|but|by|d'|de|en|for|if|illa|in|nor|of|on|or|per|the|to|v.?|vs.?|via)\b/gi,
         l => l.toLowerCase(),
