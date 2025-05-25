@@ -8,6 +8,7 @@ const config: GatsbyConfig = {
   },
   plugins: [
     'gatsby-plugin-sitemap',
+    'gatsby-plugin-no-sourcemaps',
     {
       resolve: 'gatsby-plugin-manifest',
       options: {

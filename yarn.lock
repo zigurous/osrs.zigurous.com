@@ -5511,6 +5511,13 @@ gatsby-plugin-manifest@^5.14.0:
     semver "^7.5.3"
     sharp "^0.32.6"
 
+gatsby-plugin-no-sourcemaps@^5.14.0:
+  version "5.14.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-no-sourcemaps/-/gatsby-plugin-no-sourcemaps-5.14.0.tgz#9aecc0c6530a358412fcb97bf3495ad4dec063d1"
+  integrity sha512-p/Cxn/OOUdrPsOBxQ1TuuwhiHwCVARhLIvHAruc2Zt9xwaK+Zibuq/F6FMoNbaOUwDlVlSiAdkD7OJBQZjL6dA==
+  dependencies:
+    "@babel/runtime" "^7.20.13"
+
 gatsby-plugin-page-creator@^5.14.0:
   version "5.14.0"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-page-creator/-/gatsby-plugin-page-creator-5.14.0.tgz#d825a6ca7f5ee5a15490c635d509bfdfbcd552f1"
