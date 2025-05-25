@@ -142,7 +142,7 @@ function ItemFrameNewline() {
 }
 
 function ItemFrameTransmute() {
-  return <span className="item-frame item-frame--transmute">{'🞂'}</span>;
+  return <span className="item-frame item-frame--transmute"> </span>;
 }
 
 function ItemFramePlus() {
