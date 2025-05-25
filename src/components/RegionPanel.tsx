@@ -44,7 +44,7 @@ export default function RegionPanel() {
               {selectedRegion.name}
             </Text>
             <Button
-              className="region-panel__close-btn"
+              className="region-panel__close-button"
               icon="close"
               iconAlignment="only"
               size="xl"

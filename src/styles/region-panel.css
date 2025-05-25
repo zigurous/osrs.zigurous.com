@@ -53,15 +53,20 @@
   position: relative;
   margin-left: var(--spacing-lg);
   font-family: "PT Serif", serif;
-  text-shadow: 2px 4px 32px var(--color-shadow);
+  text-shadow: 0 0 32px var(--color-shadow);
   text-align: left;
   /* text-decoration: underline;
   text-decoration-thickness: 2px;
   text-underline-offset: 4px; */
 }
 
-.region-panel__close-btn {
+.region-panel__close-button {
   display: none;
+}
+
+.region-panel__close-button > i {
+  font-size: 32px;
+  text-shadow: 0 0 16px var(--color-shadow);
 }
 
 .region-panel__tabs {
@@ -150,7 +155,7 @@
     z-index: var(--z-index-fixed);
   }
 
-  .region-panel__close-btn {
+  .region-panel__close-button {
     display: block;
   }
 }
