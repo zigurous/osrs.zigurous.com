@@ -170,7 +170,7 @@ export function getIconForSkill(skill: Skill): string | undefined {
 }
 
 export function autoDetectItemIcon(id: string): string | undefined {
-  if (id.endsWith('_potion')) {
+  if (id.endsWith('_potion') || id.endsWith('_brew')) {
     return `${id}(4)`;
   }
   return autoDetectedItemSuffixes.some(str => id.endsWith(str))

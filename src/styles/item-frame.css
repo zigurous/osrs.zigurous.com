@@ -110,7 +110,7 @@
 }
 
 .item-frame--newline ~ .item-frame,
-.item-frame--newline ~ a > .item-frame {
+.item-frame--newline ~ div.relative {
   margin-top: calc(-1 * var(--spacing-sm));
 }
 

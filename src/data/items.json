@@ -60,6 +60,10 @@
     "icon": "Ancient_essence_500"
   },
   {
+    "id": "Ancient_essence_crystals",
+    "icon": "Ancient_essence_500"
+  },
+  {
     "id": "Ancient_icon",
     "transmutations": [
       "#plus",
@@ -135,6 +139,10 @@
   {
     "id": "Arrow_shaft",
     "icon": "Arrow_shaft_5"
+  },
+  {
+    "id": "Astral_Altar",
+    "icon": "Astral_rune"
   },
   {
     "id": "Attas_plant",
@@ -247,6 +255,10 @@
   {
     "id": "Blessed_bone_statuette",
     "icon": "Blessed_bone_statuette_(eagle)"
+  },
+  {
+    "id": "Blood_Altar",
+    "icon": "Blood_talisman"
   },
   {
     "id": "Blood_quartz",
@@ -443,6 +455,10 @@
     "icon": "Copper_longtail_icon"
   },
   {
+    "id": "Cosmic_Altar",
+    "icon": "Cosmic_talisman"
+  },
+  {
     "id": "Crawling_hand_(item)",
     "name": "Crawling Hand"
   },
@@ -579,6 +595,10 @@
     "name": "Deadman's legs"
   },
   {
+    "id": "Death_Altar",
+    "icon": "Death_talisman"
+  },
+  {
     "id": "Demon_butler",
     "icon": "Demon_butler_chathead"
   },
@@ -661,6 +681,10 @@
   {
     "id": "Drygore_blowpipe",
     "tags": ["leagues"]
+  },
+  {
+    "id": "Duke_Sucellus",
+    "icon": "Baron"
   },
   {
     "id": "Echo_crystal",
@@ -1102,6 +1126,10 @@
     "icon": "Lava_scale_shard_5"
   },
   {
+    "id": "Law_Altar",
+    "icon": "Law_talisman"
+  },
+  {
     "id": "Left_skull_half",
     "transmutations": [
       "#plus",
@@ -1370,6 +1398,10 @@
     ]
   },
   {
+    "id": "Phantom_Muspah",
+    "icon": "Muphin_(ranged)"
+  },
+  {
     "id": "Pharaoh's_sceptre",
     "icon": "Pharaoh's_sceptre_(1)"
   },
@@ -1484,10 +1516,6 @@
   {
     "id": "Sapphire_glacialis",
     "icon": "Sapphire_glacialis_icon"
-  },
-  {
-    "id": "Saradomin_brew",
-    "icon": "Saradomin_brew(4)"
   },
   {
     "id": "Saradomin_hilt",
@@ -1741,6 +1769,18 @@
     "icon": "Youngllef"
   },
   {
+    "id": "The_Leviathan",
+    "icon": "Lil'viathan"
+  },
+  {
+    "id": "The_Whisperer",
+    "icon": "Wisp"
+  },
+  {
+    "id": "Theatre_of_Blood",
+    "icon": "Lil'_zik"
+  },
+  {
     "id": "Thousand-dragon_ward",
     "tags": ["leagues"]
   },
@@ -1756,6 +1796,10 @@
   {
     "id": "Thunder_khopesh",
     "tags": ["leagues"]
+  },
+  {
+    "id": "Tombs_of_Amascut",
+    "icon": "Tumeken's_guardian"
   },
   {
     "id": "Tonalztics_of_ralos#Uncharged",
@@ -1833,6 +1877,10 @@
     "icon": "Valuables_5"
   },
   {
+    "id": "Vardorvis",
+    "icon": "Butch"
+  },
+  {
     "id": "Venator_shard",
     "transmutations": [
       "#transmute",
@@ -1902,6 +1950,10 @@
     ]
   },
   {
+    "id": "Vorkath",
+    "icon": "Vorki"
+  },
+  {
     "id": "Vorkath's_head",
     "transmutations": [
       "#transmute",
@@ -1928,6 +1980,10 @@
   {
     "id": "Woad_leaf",
     "icon": "Woad_leaf_5"
+  },
+  {
+    "id": "Wrath_Altar",
+    "icon": "Wrath_talisman"
   },
   {
     "id": "Wyvern_visage",

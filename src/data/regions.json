@@ -5,7 +5,8 @@
     "description": "The Kingdom of Asgarnia is one of the main kingdoms of Gielinor. Asgarnia's primary economic activities are crafting, mining, and fishing. It also has a notable navy based in Port Sarim.",
     "storylines": [
       "Temple_Knight",
-      "Troll"
+      "Troll",
+      "Mahjarrat#Asgarnia"
     ],
     "skilling": [
       "Adamantite_rocks",
@@ -371,6 +372,7 @@
     "storylines": [
       "Fremennik",
       "Moon_Clan",
+      "Mahjarrat#Fremennik",
       "Miscellania",
       "Red_Axe",
       "Penguin"
@@ -1830,7 +1832,8 @@
     "name": "Varlamore",
     "description": "The Kingdom of Varlamore, also known as the Shining Kingdom, is a kingdom found in the continent of Zeah, far west of the mainland across the Western Sea. Like Great Kourend, it stands as one of the largest kingdoms in Gielinor, and one of the most distinct, given its isolation from the rest of the mainland.",
     "storylines": [
-      "Twilight_Emissaries"
+      "Twilight_Emissaries",
+      "Mahjarrat#Varlamore"
     ],
     "skilling": [
       "Adamantite_rocks",

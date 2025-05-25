@@ -54,13 +54,14 @@
       "Dragonfire_shield",
       "Green_d'hide_body",
       "Rune_platebody",
-      "Wrath_talisman",
+      "Wrath_Altar",
       "Super_antifire_potion",
       "Locator_orb",
       "Dragon_platebody",
       "Dragon_kiteshield",
       "Mythical_cape",
       "Ava's_assembler",
+      "Vorkath",
       "Ferocious_gloves"
     ]
   },
@@ -94,16 +95,14 @@
       "Klank's_gauntlets",
       "Iban's_staff",
       "Dragon_halberd",
+      "Crystal_halberd",
       "Crystal_bow",
       "Crystal_shield",
-      "Crystal_halberd",
       "Teleport_crystal",
-      "Death_talisman",
+      "Death_Altar",
       "Dark_bow",
-      "Zalcano_shard",
-      "Crystal_tool_seed",
-      "Crystal_armour_seed",
-      "Enhanced_crystal_weapon_seed"
+      "Zalcano",
+      "The_Gauntlet"
     ]
   },
   {
@@ -118,7 +117,7 @@
       "Dramen_staff",
       "Dragon_dagger",
       "Dragon_longsword",
-      "Cosmic_talisman",
+      "Cosmic_Altar",
       "Magic_secateurs",
       "Fairy_rings"
     ]
@@ -189,7 +188,12 @@
       "Keris",
       "Keris_partisan",
       "Circlet_of_water",
-      "Thread_of_elidinis"
+      "#newline",
+      "Tombs_of_Amascut",
+      "Thread_of_elidinis",
+      "Eye_of_the_corruptor",
+      "Jewel_of_the_sun",
+      "Breach_of_the_scarab"
     ]
   },
   {
@@ -238,22 +242,37 @@
     ]
   },
   {
-    "id": "Mahjarrat#Desert",
+    "id": "Mahjarrat#Asgarnia",
     "link": "Quests/Series#Mahjarrat",
     "title": "Mahjarrat",
     "quests": [
-      "The_Dig_Site",
-      "Hazeel_Cult",
-      "Fight_Arena",
-      "Enakhra's_Lament",
-      "Temple_of_Ikov",
       "Defender_of_Varrock",
       "Desert_Treasure_I",
       "The_Curse_of_Arrav",
       "Devious_Minds",
-      "Secrets_of_the_North",
       "Desert_Treasure_II",
       "While_Guthix_Sleeps"
+    ],
+    "unlocks": [
+      "The_Whisperer",
+      "Sirenic_tablet",
+      "Shadow_quartz",
+      "Siren's_staff",
+      "Bellator_ring",
+      "#newline",
+      "Broken_zombie_helmet",
+      "Elite_black_armour",
+      "Dark_Squall_robes"
+    ]
+  },
+  {
+    "id": "Mahjarrat#Desert",
+    "link": "Quests/Series#Mahjarrat",
+    "title": "Mahjarrat",
+    "quests": [
+      "Enakhra's_Lament",
+      "Desert_Treasure_I",
+      "Desert_Treasure_II"
     ],
     "unlocks": [
       "Camulet",
@@ -261,12 +280,34 @@
       "Ancient_signet",
       "Ancient_Magicks",
       "Ring_of_shadows",
-      "Awakener's_orb",
-      "#placeholder",
-      "Ultor_ring",
-      "Bellator_ring",
-      "Magus_ring",
+      "#newline",
+      "The_Leviathan",
+      "Scarred_tablet",
+      "Smoke_quartz",
+      "Leviathan's_lure",
       "Venator_ring"
+    ]
+  },
+  {
+    "id": "Mahjarrat#Fremennik",
+    "link": "Quests/Series#Mahjarrat",
+    "title": "Mahjarrat",
+    "quests": [
+      "Secrets_of_the_North",
+      "Desert_Treasure_II"
+    ],
+    "unlocks": [
+      "Phantom_Muspah",
+      "Ancient_icon",
+      "Ancient_essence",
+      "Saturated_heart",
+      "Forgotten_brew",
+      "#newline",
+      "Duke_Sucellus",
+      "Frozen_tablet",
+      "Ice_quartz",
+      "Eye_of_the_duke",
+      "Magus_ring"
     ]
   },
   {
@@ -274,29 +315,23 @@
     "link": "Quests/Series#Mahjarrat",
     "title": "Mahjarrat",
     "quests": [
-      "The_Dig_Site",
       "Hazeel_Cult",
       "Fight_Arena",
-      "Enakhra's_Lament",
       "Temple_of_Ikov",
-      "Defender_of_Varrock",
       "Desert_Treasure_I",
-      "The_Curse_of_Arrav",
-      "Devious_Minds",
+      "Curse_of_the_Empty_Lord",
+      "The_General's_Shadow",
       "Secrets_of_the_North",
-      "Desert_Treasure_II",
       "While_Guthix_Sleeps"
     ],
     "unlocks": [
       "Carnillean_armour",
       "Khazard_armour_set",
       "Boots_of_lightness",
+      "Armadyl_pendant",
       "Ring_of_visibility",
       "Ghostly_robes",
-      "Shadow_sword",
-      "#placeholder",
-      "Ancient_essence",
-      "Ancient_icon"
+      "Shadow_sword"
     ]
   },
   {
@@ -305,26 +340,30 @@
     "title": "Mahjarrat",
     "quests": [
       "The_Dig_Site",
-      "Hazeel_Cult",
-      "Fight_Arena",
-      "Enakhra's_Lament",
-      "Temple_of_Ikov",
       "Defender_of_Varrock",
-      "Desert_Treasure_I",
       "The_Curse_of_Arrav",
-      "Devious_Minds",
-      "Secrets_of_the_North",
-      "Desert_Treasure_II",
       "While_Guthix_Sleeps"
     ],
     "unlocks": [
       "Digsite_pendant",
       "Broken_zombie_axe",
-      "Broken_zombie_helmet",
-      "Elite_black_armour",
-      "Dark_Squall_robes",
       "Tormented_synapse",
       "Burning_claw"
+    ]
+  },
+  {
+    "id": "Mahjarrat#Varlamore",
+    "link": "Quests/Series#Mahjarrat",
+    "title": "Mahjarrat",
+    "quests": [
+      "Desert_Treasure_II"
+    ],
+    "unlocks": [
+      "Vardorvis",
+      "Strangled_tablet",
+      "Blood_quartz",
+      "Executioner's_axe_head",
+      "Ultor_ring"
     ]
   },
   {
@@ -346,7 +385,7 @@
     ],
     "unlocks": [
       "Seal_of_passage",
-      "Astral_rune",
+      "Astral_Altar",
       "Lunar_spellbook",
       "Lunar_staff",
       "Lunar_equipment",
@@ -372,9 +411,9 @@
       "Vyre_noble_legs",
       "Vyre_noble_shoes",
       "Daeyalt_essence",
-      "Blood_talisman",
-      "Vial_of_blood",
-      "Blood_shard"
+      "Blood_Altar",
+      "Blood_shard",
+      "Theatre_of_Blood"
     ]
   },
   {
@@ -487,7 +526,7 @@
     "unlocks": [
       "Steel_claws",
       "Climbing_boots",
-      "Law_talisman",
+      "Law_Altar",
       "God_Wars_Dungeon",
       "Trollheim_Teleport",
       "Scroll_of_redirection",
