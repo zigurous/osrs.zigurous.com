@@ -18,7 +18,11 @@ export default function ActivityCard({
   const [expanded, setExpanded] = useState(false);
   const context = useItemsContext();
   const items =
-    activity.notableDrops && context.getItemsByIds(activity.notableDrops);
+    activity.notableDrops &&
+    context.getItemsByIds(activity.notableDrops).filter(item => {
+      if (item.tags && item.tags.includes('leagues')) return false;
+      return true;
+    });
   const expandable = items && items.length > 0;
   return (
     <TitledCard
@@ -42,7 +46,9 @@ export default function ActivityCard({
       titleLinkUrl={activity.url}
       titleLinkId={expandable ? undefined : activity.id}
     >
-      {expanded && items && items.length > 0 && <ItemsStack items={items} />}
+      {expanded && items && items.length > 0 && (
+        <ItemsStack highlights items={items} />
+      )}
     </TitledCard>
   );
 }
