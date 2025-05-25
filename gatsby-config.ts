@@ -15,7 +15,7 @@ const config: GatsbyConfig = {
         short_name: 'Region Analyzer',
         start_url: '/',
         display: 'standalone',
-        theme_color: '#c2410c',
+        theme_color: '#312a25',
         background_color: '#28221d',
         icon: './src/images/favicon.ico',
       },
