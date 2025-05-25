@@ -6,6 +6,7 @@ import WorldMapSVG from './WorldMapSVG';
 import { useRegionsContext } from '../context';
 import { usePanAndZoom } from '../utils';
 import '../styles/world-map.css';
+import { Button } from '@zigurous/forge-react';
 
 const MAP_SIZE = { width: 463, height: 215 };
 
@@ -13,7 +14,7 @@ export default function WorldMap() {
   const { regions, selectedRegion } = useRegionsContext();
   const ref = useRef<HTMLDivElement>(null);
 
-  const [{ panX, panY, zoom }, panning] = usePanAndZoom(ref);
+  const [{ panX, panY, zoom }, panning, reset] = usePanAndZoom(ref);
   const [scale, setScale] = useState(1);
   const [observer] = useState(() =>
     typeof window !== 'undefined'
@@ -103,6 +104,14 @@ export default function WorldMap() {
           </div>
         </div>
       )}
+      <Button
+        className="world-map__reset-button"
+        icon="zoom_out_map"
+        iconAlignment="only"
+        size="lg"
+        variant="unstyled"
+        onClick={reset}
+      />
     </div>
   );
 }

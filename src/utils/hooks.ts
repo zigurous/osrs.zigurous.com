@@ -1,5 +1,5 @@
 import { clamp } from '@zigurous/forge-react';
-import { useEffect, useRef, useState } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 
 interface PanAndZoomState {
   panX: number;
@@ -19,12 +19,23 @@ export function usePanAndZoom(
   container: React.RefObject<HTMLElement>,
   minZoom = 0.5,
   maxZoom = 2,
-): [PanAndZoomState, React.RefObject<boolean>] {
+): [PanAndZoomState, React.RefObject<boolean>, () => void] {
   const [state, setState] = useState(defaultState);
   const mousedown = useRef(false);
   const panning = useRef(false);
   const timeout = useRef<NodeJS.Timeout>();
   const touchPosition = useRef({ x: 0, y: 0 });
+
+  const reset = useCallback(() => {
+    if (timeout.current) {
+      clearTimeout(timeout.current);
+    }
+    timeout.current = undefined;
+    mousedown.current = false;
+    panning.current = false;
+    touchPosition.current = { x: 0, y: 0 };
+    setState(defaultState);
+  }, []);
 
   // Handle mouse events
   useEffect(() => {
@@ -165,7 +176,7 @@ export function usePanAndZoom(
     };
   }, [container, minZoom, maxZoom]);
 
-  return [state, panning];
+  return [state, panning, reset];
 }
 
 function getWheelDirection(e: WheelEvent) {

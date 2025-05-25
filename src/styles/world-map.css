@@ -52,6 +52,13 @@
 .world-map.selected.varlamore .world-map__image > g#varlamore { opacity: 1; }
 .world-map.selected.wilderness .world-map__image > g#wilderness { opacity: 1; }
 
+.world-map__reset-button {
+  position: absolute;
+  right: var(--spacing-md);
+  bottom: var(--spacing-md);
+  opacity: var(--opacity-muted);
+}
+
 .world-map__badges > .area-badge {
   position: absolute;
   transform: translate(-50%, -50%) scale(0.5);
