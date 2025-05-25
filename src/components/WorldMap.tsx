@@ -14,7 +14,7 @@ export default function WorldMap() {
   const { regions, selectedRegion } = useRegionsContext();
   const ref = useRef<HTMLDivElement>(null);
 
-  const [{ panX, panY, zoom }, panning, reset] = usePanAndZoom(ref);
+  const [{ panX, panY, zoom }, panning, resetMap] = usePanAndZoom(ref);
   const [scale, setScale] = useState(1);
   const [observer] = useState(() =>
     typeof window !== 'undefined'
@@ -110,7 +110,7 @@ export default function WorldMap() {
         iconAlignment="only"
         size="lg"
         variant="unstyled"
-        onClick={reset}
+        onClick={resetMap}
       />
     </div>
   );
