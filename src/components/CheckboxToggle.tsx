@@ -17,13 +17,18 @@ export default function CheckboxToggle({
   onChange,
 }: CheckboxToggleProps) {
   return (
-    <div className={classNames('checkbox-toggle', className)}>
+    <div
+      className={classNames(
+        'checkbox-toggle inline-flex align-center',
+        className,
+      )}
+    >
       <input
         type="checkbox"
         id={id}
         checked={checked}
         onChange={e => onChange(e.target.checked)}
-        style={{ transform: 'scale(1.25)' }}
+        style={{ width: '15px', height: '15px' }}
       />
       <label className="ml-xs" htmlFor={id} style={{ userSelect: 'none' }}>
         {label}
