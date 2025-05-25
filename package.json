@@ -10,8 +10,8 @@
     "email": "support@zigurous.com"
   },
   "scripts": {
-    "develop": "gatsby develop",
     "start": "gatsby develop",
+    "start-mobile": "gatsby develop --host 0.0.0.0",
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
