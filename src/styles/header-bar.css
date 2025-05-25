@@ -20,6 +20,10 @@
 }
 
 @media (max-width: 568px) {
+  .header-bar {
+    padding: var(--spacing-md);
+  }
+
   .header-bar__buttons {
     display: none;
   }

@@ -92,7 +92,7 @@ a.text-primary:hover {
 
 .modal__dialog {
   width: 1024px;
-  max-width: 80vw;
+  max-width: 90vw;
 }
 
 .modal__content {
@@ -118,5 +118,11 @@ a.text-primary:hover {
   }
   .app > .page-frame {
     display: none;
+  }
+}
+
+@media (max-width: 1024px) {
+  .modal__dialog {
+    max-width: 90vw;
   }
 }

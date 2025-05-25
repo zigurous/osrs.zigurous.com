@@ -9,9 +9,9 @@ export default function FooterBar() {
   const [showTermsAndConditions, setShowTermsAndConditions] = useState(false);
   return (
     <footer className="footer-bar">
-      <div className="flex align-center">
+      <div className="footer-bar__left">
         <Text className="mx-xs" color="muted" type="caption">
-          Copyright © {new Date().getUTCFullYear()}{' '}
+          © {new Date().getUTCFullYear()}{' '}
           <a className="underline" href="https://zigurous.com" target="_blank">
             Zigurous
           </a>
@@ -37,7 +37,7 @@ export default function FooterBar() {
           </a>
         </Text>
       </div>
-      <div className="flex align-center">
+      <div className="footer-bar__right">
         <Text className="mx-xs" color="muted" type="caption">
           Thank you to{' '}
           <a

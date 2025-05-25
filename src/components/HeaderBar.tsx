@@ -23,7 +23,7 @@ export default function HeaderBar({ location }: HeaderBarProps) {
 
   return (
     <header className="header-bar shadow">
-      <div className="header-bar__title flex align-center">
+      <div className="header-bar__title">
         <Link to="/">
           <img src={icon} width={32} height={32} />
         </Link>
