@@ -76,7 +76,6 @@ export default function ItemFrame({
             <ItemFrame
               item={{ id, icon: autoDetectItemIcon(id) }}
               key={`${id}-${index}`}
-              size="sm"
             />
           ))}
         </div>
