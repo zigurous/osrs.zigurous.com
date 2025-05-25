@@ -89,6 +89,7 @@ export default function BestInSlotEquipmentCard({
     <TitledCard
       title={category.title}
       titleIconLeft={category.icon}
+      className="overflow-hidden"
       customTitle={
         category.subcategories && (
           <>
