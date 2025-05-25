@@ -46,9 +46,7 @@ export default function ActivityCard({
       titleLinkUrl={activity.url}
       titleLinkId={expandable ? undefined : activity.id}
     >
-      {expanded && items && items.length > 0 && (
-        <ItemsStack highlights items={items} />
-      )}
+      {expanded && items && items.length > 0 && <ItemsStack items={items} />}
     </TitledCard>
   );
 }
