@@ -21,7 +21,12 @@
 
 @media (max-width: 568px) {
   .header-bar {
+    justify-content: center;
     padding: var(--spacing-md);
+  }
+
+  .header-bar__title {
+    margin-left: -32px;
   }
 
   .header-bar__buttons {
