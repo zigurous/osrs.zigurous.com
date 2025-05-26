@@ -29,10 +29,10 @@ export default function SlayerMonsterListItem({
           <span className="inline-flex align-center">
             {monster.requiredCombatLevel && monster.requiredCombatLevel > 1 && (
               <Text
-                as="span"
                 aria-label={`Combat level requirement: ${monster.requiredCombatLevel}`}
                 className="inline-flex align-center ml-md"
                 color="muted"
+                style={{ minWidth: '38px' }}
                 type="caption"
               >
                 <img
@@ -46,10 +46,10 @@ export default function SlayerMonsterListItem({
               </Text>
             )}
             <Text
-              as="span"
               aria-label={`Slayer level requirement: ${monster.requiredSlayerLevel ?? 1}`}
               className="inline-flex align-center ml-md"
               color="muted"
+              style={{ minWidth: '38px' }}
               type="caption"
             >
               <img
