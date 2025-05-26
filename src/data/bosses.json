@@ -15,6 +15,7 @@
       "Bludgeon_spine",
       "Abyssal_dagger",
       "Abyssal_whip",
+      "#newline",
       "Abyssal_head",
       "Jar_of_miasma"
     ]
@@ -35,6 +36,7 @@
       "Hydra's_eye",
       "Hydra's_fang",
       "Hydra's_heart",
+      "#newline",
       "Dragon_knife",
       "Dragon_thrownaxe",
       "Alchemical_hydra_heads",
@@ -69,8 +71,8 @@
       "Noxious_point",
       "Noxious_blade",
       "Noxious_pommel",
-      "Coagulated_venom",
       "Araxyte_venom_sack",
+      "Coagulated_venom",
       "Araxyte_head",
       "Jar_of_venom"
     ]
@@ -132,9 +134,9 @@
     "recommendedCombatStyle": ["ranged", "magic"],
     "notableDrops": [
       "Callisto_cub",
-      "Tyrannical_ring",
       "Claws_of_callisto",
       "Voidwaker_hilt",
+      "Tyrannical_ring",
       "Dragon_pickaxe",
       "Dragon_2h_sword"
     ]
@@ -226,8 +228,8 @@
       "Youngllef",
       "Crystal_blessing",
       "Crystal_armour_seed",
-      "Crystal_weapon_seed",
       "Enhanced_crystal_weapon_seed",
+      "Crystal_weapon_seed",
       "Crystal_shard",
       "Gauntlet_cape"
     ]
@@ -255,17 +257,15 @@
       "Pet_dagannoth_prime",
       "Pet_dagannoth_rex",
       "Pet_dagannoth_supreme",
-      "Dragon_axe",
-      "Mud_battlestaff",
-      "Seercull",
-      "Dagannoth_bones",
-      "#newline",
       "Amulet_of_the_monarchs",
       "Emperor_ring",
       "Berserker_ring",
       "Warrior_ring",
       "Seers_ring",
-      "Archers_ring"
+      "Archers_ring",
+      "Dragon_axe",
+      "Mud_battlestaff",
+      "Seercull"
     ]
   },
   {
@@ -520,9 +520,9 @@
       "Muphin",
       "Venator_shard",
       "Ancient_icon",
-      "Charged_ice",
+      "Ancient_essence",
       "Frozen_cache",
-      "Ancient_essence"
+      "Charged_ice"
     ]
   },
   {
@@ -587,10 +587,10 @@
     "recommendedCombatStyle": ["melee", "ranged"],
     "notableDrops": [
       "Skotos",
-      "Dark_claw",
       "Dark_totem",
       "Ancient_shard",
       "Uncut_onyx",
+      "Dark_claw",
       "Jar_of_darkness"
     ]
   },
@@ -625,15 +625,15 @@
     "notableDrops": [
       "Tiny_tempor",
       "Dragon_harpoon",
-      "Fish_barrel",
-      "Tackle_box",
-      "Tome_of_water",
-      "Soaked_page",
-      "Big_harpoonfish",
       "Spirit_angler_headband",
       "Spirit_angler_top",
       "Spirit_angler_waders",
       "Spirit_angler_boots",
+      "Fish_barrel",
+      "Tackle_box",
+      "Big_harpoonfish",
+      "Tome_of_water",
+      "Soaked_page",
       "Spirit_flakes"
     ]
   },
@@ -669,12 +669,13 @@
       "Inquisitor's_great_helm",
       "Inquisitor's_hauberk",
       "Inquisitor's_plateskirt",
-      "Slepey_tablet",
-      "Parasitic_egg",
       "Nightmare_staff",
+      "Slepey_tablet",
+      "#newline",
       "Volatile_orb",
       "Harmonised_orb",
       "Eldritch_orb",
+      "Parasitic_egg",
       "Jar_of_dreams"
     ]
   },
@@ -767,9 +768,9 @@
     "recommendedCombatStyle": ["melee", "ranged"],
     "notableDrops": [
       "Venenatis_spiderling",
-      "Treasonous_ring",
       "Fangs_of_venenatis",
       "Voidwaker_gem",
+      "Treasonous_ring",
       "Dragon_pickaxe",
       "Dragon_2h_sword"
     ]
@@ -784,9 +785,9 @@
     "recommendedCombatStyle": ["melee"],
     "notableDrops": [
       "Vet'ion_jr.",
-      "Ring_of_the_gods",
       "Skull_of_vet'ion",
       "Voidwaker_blade",
+      "Ring_of_the_gods",
       "Dragon_pickaxe",
       "Dragon_2h_sword"
     ]
@@ -803,14 +804,8 @@
       "Draconic_visage",
       "Skeletal_visage",
       "Dragonbone_necklace",
-      "Jar_of_decay",
-      "#newline",
-      "Blue_dragonhide",
-      "Green_dragonhide",
-      "Red_dragonhide",
-      "Black_dragonhide",
       "Superior_dragon_bones",
-      "Dragon_bones"
+      "Jar_of_decay"
     ]
   },
   {
@@ -849,6 +844,7 @@
       "Oathplate_shards",
       "Soulflame_horn",
       "Rite_of_vile_transference",
+      "#newline",
       "Diabolic_worms",
       "Aether_catalyst",
       "Barrel_of_demonic_tallow"
@@ -883,6 +879,7 @@
       "Serpentine_visage",
       "Uncut_onyx",
       "Zulrah's_scales",
+      "#newline",
       "Jar_of_swamp",
       "Tanzanite_mutagen",
       "Magma_mutagen"

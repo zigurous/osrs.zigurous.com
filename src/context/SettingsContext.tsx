@@ -2,13 +2,17 @@ import React, { createContext, useContext, useState } from 'react'; // prettier-
 import type { BestInSlotSubcategories } from '../types';
 
 type Settings = {
-  bisLeagues: boolean;
-  bisClues: boolean;
+  includePets: boolean;
+  includeClues: boolean;
+  includeLeagues: boolean;
+  includeCosmetics: boolean;
 } & BestInSlotSubcategories;
 
 const defaultSettings: Settings = {
-  bisLeagues: false,
-  bisClues: false,
+  includePets: false,
+  includeClues: false,
+  includeLeagues: false,
+  includeCosmetics: false,
   bisMeleeSubcategory: undefined,
   bisRangedSubcategory: undefined,
   bisMagicSubcategory: undefined,

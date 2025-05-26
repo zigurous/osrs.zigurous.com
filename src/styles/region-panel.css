@@ -138,6 +138,12 @@
   margin: var(--spacing-xxl) calc(var(--spacing-xl) * -1) var(--spacing-xl);
 }
 
+.region-panel__section > hr {
+  margin-block-start: var(--spacing-xl);
+  margin-block-end: var(--spacing-xl);
+  background-color: var(--color-surface-3);
+}
+
 @media (max-width: 498px) {
   .region-panel {
     min-width: 100vw;

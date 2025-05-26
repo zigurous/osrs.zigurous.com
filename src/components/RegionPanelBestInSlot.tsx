@@ -18,25 +18,25 @@ export default function RegionPanelBestInSlot({
   const { settings, setSettings } = useSettingsContext();
   return (
     <RegionPanelSection className="best-in-slot" title="Best In Slot">
-      <Stack inline className="ml-md" spacing="lg">
+      <Stack inline className="ml-sm" spacing="lg">
+        <CheckboxToggle
+          id="clues-toggle"
+          label="Clue Rewards"
+          checked={settings.includeClues}
+          onChange={checked =>
+            setSettings(state => ({ ...state, includeClues: checked }))
+          }
+        />
         <CheckboxToggle
           id="leagues-toggle"
           label="Leagues"
-          checked={settings.bisLeagues}
+          checked={settings.includeLeagues}
           onChange={checked =>
-            setSettings(settings => ({ ...settings, bisLeagues: checked }))
-          }
-        />
-        <CheckboxToggle
-          id="clues-toggle"
-          label="Clues"
-          checked={settings.bisClues}
-          onChange={checked =>
-            setSettings(settings => ({ ...settings, bisClues: checked }))
+            setSettings(state => ({ ...state, includeLeagues: checked }))
           }
         />
       </Stack>
-      <Text className="ml-sm mt-sm mb-xxl" color="disabled" type="caption">
+      <Text className="ml-xs mt-sm mb-xxl" color="disabled" type="caption">
         * Requires components from another region or source
       </Text>
       {categories.map(category => (

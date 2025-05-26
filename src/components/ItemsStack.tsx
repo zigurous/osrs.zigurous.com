@@ -12,7 +12,7 @@ interface ItemsStackProps {
 
 export default function ItemsStack({
   className,
-  highlights = false,
+  highlights,
   items,
 }: ItemsStackProps) {
   return (

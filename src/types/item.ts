@@ -1,8 +1,9 @@
 export type ItemTag =
   | 'megarare'
-  | 'leagues'
-  | 'clues'
   | 'pet'
+  | 'clues'
+  | 'leagues'
+  | 'cosmetic'
   | '1h'
   | '2h'
   | '*';

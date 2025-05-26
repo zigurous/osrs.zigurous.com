@@ -1,10 +1,12 @@
+import { Stack, Text } from '@zigurous/forge-react';
 import { graphql, useStaticQuery } from 'gatsby';
-import React, { useMemo } from 'react';
+import React, { useCallback } from 'react';
+import CheckboxToggle from './CheckboxToggle';
 import ItemsStack from './ItemsStack';
 import RegionPanelSection from './RegionPanelSection';
 import TitledCard from './TitledCard';
-import { useItemsContext } from '../context';
-import type { Boss, Raid, Region } from '../types';
+import { useItemsContext, useSettingsContext } from '../context';
+import type { Boss, ItemData, Raid, Region } from '../types';
 import { formatNameFromId } from '../utils';
 
 interface RegionPanelBossesProps {
@@ -13,59 +15,106 @@ interface RegionPanelBossesProps {
 
 export default function RegionPanelBosses({ region }: RegionPanelBossesProps) {
   const data = useStaticQuery<BossingQueryData>(dataQuery);
+  const { settings, setSettings } = useSettingsContext();
   const itemsContext = useItemsContext();
-  const bosses = region.bosses
-    .map(bossId => data.bosses.nodes.find(boss => boss.id === bossId))
-    .filter(boss => !!boss);
+
   const raids = region.raids
-    .map(raidId => data.raids.nodes.find(raid => raid.id === raidId))
+    .map(id => data.raids.nodes.find(raid => raid.id === id))
     .filter(raid => !!raid);
+  const bosses = region.bosses
+    .map(id => data.bosses.nodes.find(boss => boss.id === id))
+    .filter(boss => !!boss);
+
+  const dropFilter = useCallback(
+    (item: ItemData) => {
+      const pet = Boolean(item.tags?.includes('pet'));
+      const leagues = Boolean(item.tags?.includes('leagues'));
+      const cosmetic = Boolean(item.tags?.includes('cosmetic'));
+      if (!settings.includeLeagues && leagues) return false;
+      if (!settings.includePets && pet) return false;
+      if (!settings.includeCosmetics && cosmetic) return false;
+      return true;
+    },
+    [settings.includePets, settings.includeLeagues, settings.includeCosmetics],
+  );
+
   return (
-    <>
+    <RegionPanelSection title="Bosses">
+      <Text className="ml-sm mb-xxs" color="disabled" type="body-sm">
+        Include the following drops:
+      </Text>
+      <Stack inline className="mb-xxl ml-sm" spacing="lg">
+        <CheckboxToggle
+          id="pets-toggle"
+          label="Pets"
+          checked={settings.includePets}
+          onChange={checked =>
+            setSettings(state => ({ ...state, includePets: checked }))
+          }
+        />
+        <CheckboxToggle
+          id="leagues-toggle"
+          label="Leagues"
+          checked={settings.includeLeagues}
+          onChange={checked =>
+            setSettings(state => ({ ...state, includeLeagues: checked }))
+          }
+        />
+        <CheckboxToggle
+          id="cosmetics-toggle"
+          label="Cosmetics"
+          checked={settings.includeCosmetics}
+          onChange={checked =>
+            setSettings(state => ({ ...state, includeCosmetics: checked }))
+          }
+        />
+      </Stack>
       {raids.length > 0 && (
-        <RegionPanelSection title="Raids">
-          <ul className="drops-list">
-            {raids.map(raid => {
-              const drops = itemsContext.getItemsByIds(raid.notableDrops);
-              return (
-                <li id={raid.id} key={raid.id}>
-                  <TitledCard
-                    subtitle={raid.subtitle}
-                    title={raid.title || formatNameFromId(raid.id)}
-                    titleIconRight="open_in_new"
-                    titleLinkId={raid.id}
-                  >
-                    <ItemsStack highlights items={drops} />
-                  </TitledCard>
-                </li>
-              );
-            })}
-          </ul>
-        </RegionPanelSection>
+        <ul className="drops-list">
+          {raids.map(raid => {
+            const drops = itemsContext
+              .getItemsByIds(raid.notableDrops)
+              .filter(dropFilter);
+            return (
+              <li id={raid.id} key={raid.id}>
+                <TitledCard
+                  subtitle={raid.subtitle}
+                  title={raid.title || formatNameFromId(raid.id)}
+                  titleIconLeft={raid.icon}
+                  titleIconRight="open_in_new"
+                  titleLinkId={raid.id}
+                >
+                  <ItemsStack highlights items={drops} />
+                </TitledCard>
+              </li>
+            );
+          })}
+        </ul>
       )}
       {raids.length > 0 && bosses.length > 0 && <hr className="thick" />}
       {bosses.length > 0 && (
-        <RegionPanelSection title="Bosses">
-          <ul className="drops-list">
-            {bosses.map(boss => {
-              const drops = itemsContext.getItemsByIds(boss.notableDrops);
-              return (
-                <li id={boss.id} key={boss.id}>
-                  <TitledCard
-                    subtitle={boss.subtitle}
-                    title={boss.title || formatNameFromId(boss.id)}
-                    titleIconRight="open_in_new"
-                    titleLinkId={boss.id}
-                  >
-                    <ItemsStack highlights items={drops} />
-                  </TitledCard>
-                </li>
-              );
-            })}
-          </ul>
-        </RegionPanelSection>
+        <ul className="drops-list">
+          {bosses.map(boss => {
+            const drops = itemsContext
+              .getItemsByIds(boss.notableDrops)
+              .filter(dropFilter);
+            return (
+              <li id={boss.id} key={boss.id}>
+                <TitledCard
+                  subtitle={boss.subtitle}
+                  title={boss.title || formatNameFromId(boss.id)}
+                  titleIconLeft={boss.icon}
+                  titleIconRight="open_in_new"
+                  titleLinkId={boss.id}
+                >
+                  <ItemsStack highlights items={drops} />
+                </TitledCard>
+              </li>
+            );
+          })}
+        </ul>
       )}
-    </>
+    </RegionPanelSection>
   );
 }
 
@@ -79,6 +128,7 @@ const dataQuery = graphql`
     bosses: allBossesJson {
       nodes {
         id: jsonId
+        icon
         title
         subtitle
         notableDrops
@@ -87,6 +137,7 @@ const dataQuery = graphql`
     raids: allRaidsJson {
       nodes {
         id: jsonId
+        icon
         title
         subtitle
         notableDrops

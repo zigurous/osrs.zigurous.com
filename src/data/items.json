@@ -1,6 +1,7 @@
 [
   {
     "id": "Abyssal_head",
+    "tags": ["cosmetic"],
     "transmutations": [
       "#plus",
       "Slayer_helmet",
@@ -14,6 +15,7 @@
   },
   {
     "id": "Alchemical_hydra_heads",
+    "tags": ["cosmetic"],
     "transmutations": [
       "#plus",
       "Slayer_helmet",
@@ -86,6 +88,10 @@
     "icon": "Ancient_spellbook"
   },
   {
+    "id": "Ancient_remnant",
+    "tags": ["cosmetic"]
+  },
+  {
     "id": "Angler's_outfit",
     "icon": "Angler_hat"
   },
@@ -104,6 +110,7 @@
   },
   {
     "id": "Araxyte_head",
+    "tags": ["cosmetic"],
     "transmutations": [
       "#plus",
       "Slayer_helmet",
@@ -404,6 +411,10 @@
     "icon": "Cerulean_twitch_icon"
   },
   {
+    "id": "Charged_ice",
+    "tags": ["cosmetic"]
+  },
+  {
     "id": "Chinchompa_(Hunter)",
     "icon": "Chinchompa",
     "name": "Chinchompa"
@@ -429,6 +440,10 @@
   {
     "id": "Clue_nest",
     "icon": "Clue_nest_(beginner)"
+  },
+  {
+    "id": "Coagulated_venom",
+    "tags": ["cosmetic"]
   },
   {
     "id": "Coin_pouch",
@@ -521,6 +536,10 @@
     ]
   },
   {
+    "id": "Cursed_phalanx",
+    "tags": ["cosmetic"]
+  },
+  {
     "id": "Dagannoth_hide",
     "transmutations": [
       "#transmute",
@@ -531,6 +550,7 @@
   },
   {
     "id": "Dark_claw",
+    "tags": ["cosmetic"],
     "transmutations": [
       "#transmute",
       "Purple_slayer_helmet",
@@ -809,6 +829,10 @@
     ]
   },
   {
+    "id": "Fedora",
+    "tags": ["cosmetic"]
+  },
+  {
     "id": "Feldip_weasel",
     "icon": "Feldip_weasel_icon"
   },
@@ -837,6 +861,10 @@
   {
     "id": "Furnace",
     "icon": "Furnace_icon"
+  },
+  {
+    "id": "Gauntlet_cape",
+    "tags": ["cosmetic"]
   },
   {
     "id": "Ghommal's_hilt",
@@ -936,6 +964,10 @@
       "#equals",
       "Blessed_spirit_shield"
     ]
+  },
+  {
+    "id": "Holy_ornament_kit",
+    "tags": ["cosmetic"]
   },
   {
     "id": "Horned_graahk",
@@ -1045,12 +1077,88 @@
     ]
   },
   {
+    "id": "Icthlarin's_shroud_(tier_1)",
+    "tags": ["cosmetic"]
+  },
+  {
+    "id": "Icthlarin's_shroud_(tier_2)",
+    "tags": ["cosmetic"]
+  },
+  {
+    "id": "Icthlarin's_shroud_(tier_3)",
+    "tags": ["cosmetic"]
+  },
+  {
+    "id": "Icthlarin's_shroud_(tier_4)",
+    "tags": ["cosmetic"]
+  },
+  {
+    "id": "Icthlarin's_shroud_(tier_5)",
+    "tags": ["cosmetic"]
+  },
+  {
     "id": "Imbuing",
     "icon": "Scroll_of_imbuing"
   },
   {
     "id": "Infernal_plate",
     "icon": "Infernal_plate_7"
+  },
+  {
+    "id": "Jar_of_chemicals",
+    "tags": ["cosmetic"]
+  },
+  {
+    "id": "Jar_of_darkness",
+    "tags": ["cosmetic"]
+  },
+  {
+    "id": "Jar_of_decay",
+    "tags": ["cosmetic"]
+  },
+  {
+    "id": "Jar_of_dirt",
+    "tags": ["cosmetic"]
+  },
+  {
+    "id": "Jar_of_dreams",
+    "tags": ["cosmetic"]
+  },
+  {
+    "id": "Jar_of_eyes",
+    "tags": ["cosmetic"]
+  },
+  {
+    "id": "Jar_of_miasma",
+    "tags": ["cosmetic"]
+  },
+  {
+    "id": "Jar_of_sand",
+    "tags": ["cosmetic"]
+  },
+  {
+    "id": "Jar_of_smoke",
+    "tags": ["cosmetic"]
+  },
+  {
+    "id": "Jar_of_souls",
+    "tags": ["cosmetic"]
+  },
+  {
+    "id": "Jar_of_spirits",
+    "tags": ["cosmetic"]
+  },
+  {
+    "id": "Jar_of_stone",
+    "tags": ["cosmetic"]
+  },
+  {
+    "id": "Jar_of_swamp",
+    "tags": ["cosmetic"]
+  },
+  {
+    "id": "Jar_of_venom",
+    "tags": ["cosmetic"]
   },
   {
     "id": "Javelin_shaft",
@@ -1071,6 +1179,7 @@
   },
   {
     "id": "Kbd_heads",
+    "tags": ["cosmetic"],
     "transmutations": [
       "#plus",
       "Slayer_helmet",
@@ -1097,6 +1206,7 @@
   },
   {
     "id": "Kq_head",
+    "tags": ["cosmetic"],
     "transmutations": [
       "#plus",
       "Slayer_helmet",
@@ -1198,6 +1308,10 @@
     ]
   },
   {
+    "id": "Magma_mutagen",
+    "tags": ["cosmetic"]
+  },
+  {
     "id": "Magus_vestige",
     "transmutations": [
       "#transmute",
@@ -1251,8 +1365,20 @@
     "name": "Maniacal Monkey"
   },
   {
+    "id": "Masori_crafting_kit",
+    "tags": ["cosmetic"]
+  },
+  {
+    "id": "Menaphite_ornament_kit",
+    "tags": ["cosmetic"]
+  },
+  {
     "id": "Mermaid's_tear",
     "icon": "Mermaid's_tear_5"
+  },
+  {
+    "id": "Metamorphic_dust",
+    "tags": ["cosmetic"]
   },
   {
     "id": "Minnow",
@@ -1389,6 +1515,10 @@
     "icon": "Orange_spice_(4)"
   },
   {
+    "id": "Parasitic_egg",
+    "tags": ["cosmetic"]
+  },
+  {
     "id": "Pegasian_crystal",
     "transmutations": [
       "#plus",
@@ -1465,6 +1595,22 @@
     "icon": "Redwood_logs"
   },
   {
+    "id": "Remnant_of_akkha",
+    "tags": ["cosmetic"]
+  },
+  {
+    "id": "Remnant_of_ba-ba",
+    "tags": ["cosmetic"]
+  },
+  {
+    "id": "Remnant_of_kephri",
+    "tags": ["cosmetic"]
+  },
+  {
+    "id": "Remnant_of_zebak",
+    "tags": ["cosmetic"]
+  },
+  {
     "id": "Revenant_ether",
     "icon": "Revenant_ether_5"
   },
@@ -1512,6 +1658,14 @@
       "#equals",
       "Salve_amulet"
     ]
+  },
+  {
+    "id": "Sanguine_dust",
+    "tags": ["cosmetic"]
+  },
+  {
+    "id": "Sanguine_ornament_kit",
+    "tags": ["cosmetic"]
   },
   {
     "id": "Sapphire_glacialis",
@@ -1569,6 +1723,26 @@
       "#equals",
       "Shadow_ancient_sceptre"
     ]
+  },
+  {
+    "id": "Sinhaza_shroud_tier_1",
+    "tags": ["cosmetic"]
+  },
+  {
+    "id": "Sinhaza_shroud_tier_2",
+    "tags": ["cosmetic"]
+  },
+  {
+    "id": "Sinhaza_shroud_tier_3",
+    "tags": ["cosmetic"]
+  },
+  {
+    "id": "Sinhaza_shroud_tier_4",
+    "tags": ["cosmetic"]
+  },
+  {
+    "id": "Sinhaza_shroud_tier_5",
+    "tags": ["cosmetic"]
   },
   {
     "id": "Siren's_staff",
@@ -1726,6 +1900,10 @@
     ]
   },
   {
+    "id": "Tanzanite_mutagen",
+    "tags": ["cosmetic"]
+  },
+  {
     "id": "Tarn's_diary",
     "transmutations": [
       "#plus",
@@ -1862,6 +2040,10 @@
     "tags": ["megarare"]
   },
   {
+    "id": "Twisted_ancestral_colour_kit",
+    "tags": ["cosmetic"]
+  },
+  {
     "id": "Twisted_bow",
     "tags": ["megarare"]
   },
@@ -1993,6 +2175,26 @@
       "#equals",
       "Ancient_wyvern_shield"
     ]
+  },
+  {
+    "id": "Xeric's_guard",
+    "tags": ["cosmetic"]
+  },
+  {
+    "id": "Xeric's_warrior",
+    "tags": ["cosmetic"]
+  },
+  {
+    "id": "Xeric's_sentinel",
+    "tags": ["cosmetic"]
+  },
+  {
+    "id": "Xeric's_general",
+    "tags": ["cosmetic"]
+  },
+  {
+    "id": "Xeric's_champion",
+    "tags": ["cosmetic"]
   },
   {
     "id": "Xerician_fabric",

@@ -25,18 +25,23 @@
       "Kodai_insignia",
       "Dragon_claws",
       "Dinh's_bulwark",
+      "Dragon_hunter_crossbow",
+      "Twisted_buckler",
       "Ancestral_hat",
       "Ancestral_robe_top",
       "Ancestral_robe_bottom",
-      "Dragon_hunter_crossbow",
-      "Twisted_buckler",
-      "Onyx",
-      "Dark_relic",
       "Dexterous_prayer_scroll",
       "Arcane_prayer_scroll",
       "Torn_prayer_scroll",
+      "Dark_relic",
+      "Onyx",
       "Twisted_ancestral_colour_kit",
-      "Metamorphic_dust"
+      "Metamorphic_dust",
+      "Xeric's_guard",
+      "Xeric's_warrior",
+      "Xeric's_sentinel",
+      "Xeric's_general",
+      "Xeric's_champion"
     ]
   },
   {
@@ -58,13 +63,18 @@
       "Ghrazi_rapier",
       "Sanguinesti_staff",
       "Avernic_defender_hilt",
-      "Vial_of_blood",
       "Justiciar_faceguard",
       "Justiciar_chestguard",
       "Justiciar_legguards",
+      "Vial_of_blood",
       "Sanguine_dust",
       "Sanguine_ornament_kit",
-      "Holy_ornament_kit"
+      "Holy_ornament_kit",
+      "Sinhaza_shroud_tier_1",
+      "Sinhaza_shroud_tier_2",
+      "Sinhaza_shroud_tier_3",
+      "Sinhaza_shroud_tier_4",
+      "Sinhaza_shroud_tier_5"
     ]
   },
   {
@@ -87,17 +97,27 @@
       "Osmumten's_fang",
       "Elidinis'_ward",
       "Lightbearer",
-      "Thread_of_elidinis",
       "Masori_mask",
       "Masori_body",
       "Masori_chaps",
+      "Thread_of_elidinis",
       "Breach_of_the_scarab",
       "Eye_of_the_corruptor",
       "Jewel_of_the_sun",
       "Cache_of_runes",
       "Menaphite_ornament_kit",
       "Cursed_phalanx",
-      "Masori_crafting_kit"
+      "Masori_crafting_kit",
+      "Remnant_of_akkha",
+      "Remnant_of_ba-ba",
+      "Remnant_of_kephri",
+      "Remnant_of_zebak",
+      "Ancient_remnant",
+      "Icthlarin's_shroud_(tier_1)",
+      "Icthlarin's_shroud_(tier_2)",
+      "Icthlarin's_shroud_(tier_3)",
+      "Icthlarin's_shroud_(tier_4)",
+      "Icthlarin's_shroud_(tier_5)"
     ]
   }
 ]

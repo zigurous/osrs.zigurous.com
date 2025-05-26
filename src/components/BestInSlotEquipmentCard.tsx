@@ -18,7 +18,7 @@ export default function BestInSlotEquipmentCard({
   regionId,
 }: BestInSlotEquipmentCardProps) {
   const { settings, setSettings } = useSettingsContext();
-  const { bisLeagues, bisClues } = settings;
+  const { includeLeagues, includeClues } = settings;
   const { [category.subcategoryKey]: subcategoryId } = settings;
 
   const equipment: EquipmentSlots = useMemo(() => {
@@ -42,11 +42,11 @@ export default function BestInSlotEquipmentCard({
           if (!item.regions.includes(regionId) && !item.regions.includes('all'))
             return false;
           // Discard items based on current toggles
-          if (!bisLeagues) {
+          if (!includeLeagues) {
             if (item.tags?.includes('leagues') || id.includes('#Leagues'))
               return false;
           }
-          if (!bisClues) {
+          if (!includeClues) {
             if (item.tags?.includes('clues') || id.includes('#Clues'))
               return false;
           }
@@ -83,7 +83,14 @@ export default function BestInSlotEquipmentCard({
     // Slots will be skipped if they have already been assigned by the subcategory
     assignItems(category.id);
     return slots;
-  }, [data, regionId, category.id, subcategoryId, bisLeagues, bisClues]);
+  }, [
+    data,
+    regionId,
+    category.id,
+    subcategoryId,
+    includeLeagues,
+    includeClues,
+  ]);
 
   return (
     <TitledCard
