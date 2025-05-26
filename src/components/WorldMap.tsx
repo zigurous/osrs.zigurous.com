@@ -58,7 +58,7 @@ export default function WorldMap() {
             style={{
               width: MAP_SIZE.width,
               height: MAP_SIZE.height,
-              transform: `translate(-50%, -50%) scale(${scale * 0.85})`,
+              transform: `translate(-50%, -50%) scale(${scale * 0.8})`,
             }}
           >
             <WorldMapSVG
