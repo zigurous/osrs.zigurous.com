@@ -2,8 +2,8 @@ import classNames from 'classnames';
 import React, { useRef, useState } from 'react';
 import Tooltip from './Tooltip';
 import { useSkillingFilterContext } from '../context';
-import { SkillingFilter } from '../types';
 import { formatNameFromId, getIconForSortingGroup, skillingFilters } from '../utils'; // prettier-ignore
+import type { SkillingFilter } from '../types';
 import '../styles/activity-filter.css';
 
 interface SkillingFiltersProps {

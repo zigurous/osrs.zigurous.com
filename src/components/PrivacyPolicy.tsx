@@ -15,6 +15,7 @@ export default function PrivacyPolicy({
       closeOnScrimClick
       onRequestClose={onRequestClose}
       open={open}
+      size="lg"
       title="Privacy Policy"
     >
       <p className="mb-md">

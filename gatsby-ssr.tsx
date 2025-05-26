@@ -39,7 +39,7 @@ const HeadComponents: React.ReactNode[] = [
   />,
   <link
     key="forge-css"
-    href="https://cdn.zigurous.com/forge-css@1.0.0/dist/index.min.css"
+    href="https://cdn.zigurous.com/forge-css@1.1.0/dist/index.min.css"
     rel="stylesheet"
   />,
 ];

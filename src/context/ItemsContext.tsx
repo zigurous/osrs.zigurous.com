@@ -1,7 +1,7 @@
 import { graphql, useStaticQuery } from 'gatsby';
 import React, { createContext, useCallback, useContext } from 'react';
-import type { ItemData, PetData } from '../types';
 import { autoDetectItemIcon } from '../utils';
+import type { ItemData, PetData } from '../types';
 
 interface ItemsContextData {
   items: ItemData[];

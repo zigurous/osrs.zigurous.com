@@ -4,8 +4,8 @@ import React from 'react';
 import ItemFrame from './ItemFrame';
 import RegionPanelSection from './RegionPanelSection';
 import WikiLink from './WikiLink';
-import type { PetData, Region } from '../types';
 import { formatNameFromId } from '../utils';
+import type { PetData, Region } from '../types';
 
 interface RegionPanelPetsProps {
   region: Region;

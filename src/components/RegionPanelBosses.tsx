@@ -6,8 +6,8 @@ import ItemsStack from './ItemsStack';
 import RegionPanelSection from './RegionPanelSection';
 import TitledCard from './TitledCard';
 import { useItemsContext, useSettingsContext } from '../context';
-import type { Boss, ItemData, Raid, Region } from '../types';
 import { formatNameFromId } from '../utils';
+import type { Boss, ItemData, Raid, Region } from '../types';
 
 interface RegionPanelBossesProps {
   region: Region;

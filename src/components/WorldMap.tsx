@@ -1,12 +1,11 @@
+import { Button, usePanAndZoom } from '@zigurous/forge-react';
 import classNames from 'classnames';
 import { navigate } from 'gatsby';
 import React, { useEffect, useRef, useState } from 'react';
 import AreaBadge from './AreaBadge';
 import WorldMapSVG from './WorldMapSVG';
 import { useRegionsContext } from '../context';
-import { usePanAndZoom } from '../utils';
 import '../styles/world-map.css';
-import { Button } from '@zigurous/forge-react';
 
 const MAP_SIZE = { width: 463, height: 215 };
 

@@ -4,8 +4,8 @@ import ActivityCard from './ActivityCard';
 import ActivityFilter from './SkillingFilters';
 import RegionPanelSection from './RegionPanelSection';
 import { useActivitiesContext, useSkillingFilterContext } from '../context';
-import type { Activity, Region, SkillingFilter } from '../types';
 import { skillingFilters, sortByIcon, sortByLevel, sortByName } from '../utils';
+import type { Activity, Region, SkillingFilter } from '../types';
 
 interface RegionPanelSkillingProps {
   region: Region;

@@ -2,8 +2,8 @@ import classNames from 'classnames';
 import React, { useRef, useState } from 'react';
 import Tooltip from './Tooltip';
 import WikiLink from './WikiLink';
-import type { ItemData } from '../types';
 import { autoDetectItemIcon, formatNameFromId, toTitleCase } from '../utils';
+import type { ItemData } from '../types';
 import '../styles/item-frame.css';
 
 interface ItemFrameProps {

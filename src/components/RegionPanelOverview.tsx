@@ -4,8 +4,8 @@ import RegionPanelSection from './RegionPanelSection';
 import TitledCard from './TitledCard';
 import WikiLink from './WikiLink';
 import { useActivitiesContext, useLocationsContext } from '../context';
-import type { Activity, Region } from '../types';
 import { formatNameFromId, getIconForActivity, sortByIcon, sortByName } from '../utils'; // prettier-ignore
+import type { Activity, Region } from '../types';
 
 interface RegionPanelOverviewProps {
   region: Region;

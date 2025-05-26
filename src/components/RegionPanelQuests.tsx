@@ -72,7 +72,7 @@ export default function RegionPanelQuests({ region }: RegionPanelQuestsProps) {
           </ul>
           {series.unlocks && series.unlocks.length > 0 && (
             <div className="px-md">
-              <div className="flex justify-center align-center mt-xxxs mb-sm">
+              <div className="flex justify-center align-center">
                 <hr className="full mr-md" />
                 <Text type="eyebrow" color="disabled">
                   Unlocks

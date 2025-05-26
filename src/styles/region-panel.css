@@ -55,9 +55,6 @@
   font-family: "PT Serif", serif;
   text-shadow: 0 0 32px var(--color-shadow);
   text-align: left;
-  /* text-decoration: underline;
-  text-decoration-thickness: 2px;
-  text-underline-offset: 4px; */
 }
 
 .region-panel__close-button {
@@ -139,8 +136,6 @@
 }
 
 .region-panel__section > hr {
-  margin-block-start: var(--spacing-xl);
-  margin-block-end: var(--spacing-xl);
   background-color: var(--color-surface-3);
 }
 

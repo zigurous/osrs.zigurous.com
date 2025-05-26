@@ -7,7 +7,7 @@ export default function IndexPage({ location }: PageProps) {
     <RootLayout location={location}>
       <main>
         <div className="flex flex-col w-full h-full">
-          <HeaderBar location={location} />
+          <HeaderBar />
           <WorldMap />
           <FooterBar />
         </div>

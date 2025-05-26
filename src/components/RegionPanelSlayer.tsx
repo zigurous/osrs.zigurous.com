@@ -1,5 +1,5 @@
 import { graphql, useStaticQuery } from 'gatsby';
-import React, { useMemo } from 'react';
+import React from 'react';
 import ItemsStack from './ItemsStack';
 import RegionPanelSection from './RegionPanelSection';
 import SlayerDungeonListItem from './SlayerDungeonListItem';
@@ -7,8 +7,8 @@ import SlayerMasterListItem from './SlayerMasterListItem';
 import SlayerMonsterListItem from './SlayerMonsterListItem';
 import TitledCard from './TitledCard';
 import { useItemsContext, useLocationsContext } from '../context';
-import type { Region, SlayerDungeon, SlayerMaster, SlayerMonster} from '../types'; // prettier-ignore
 import { formatNameFromId, sortByName } from '../utils';
+import type { Region, SlayerDungeon, SlayerMaster, SlayerMonster} from '../types'; // prettier-ignore
 
 interface RegionPanelSlayerProps {
   region: Region;

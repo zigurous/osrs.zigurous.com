@@ -1,6 +1,6 @@
 import React, { createContext, useContext, useState } from 'react';
-import type { Activity, SkillingFilter } from '../types';
 import { skillingFilters } from '../utils';
+import type { Activity, SkillingFilter } from '../types';
 
 interface SkillingFilterContextData {
   selectedFilters: SkillingFilter[];
