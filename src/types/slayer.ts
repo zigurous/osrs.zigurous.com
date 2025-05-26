@@ -7,9 +7,10 @@ export interface SlayerMaster {
   requiredCombatLevel?: number;
 }
 
-export interface SlayerMonster extends Monster {
+export interface SlayerMonster extends Omit<Monster, 'notableDrops'> {
   slayerMasters: string[];
   requiredSlayerLevel?: number;
+  notableDrops?: string[];
   hideFromMenu?: boolean;
 }
 

@@ -6,8 +6,8 @@ import RegionPanelSection from './RegionPanelSection';
 import TitledCard from './TitledCard';
 import WikiLink from './WikiLink';
 import { useItemsContext } from '../context';
-import type { QuestSeries, Region } from '../types';
 import { formatNameFromId } from '../utils';
+import type { QuestSeries, Region } from '../types';
 
 interface RegionPanelQuestsProps {
   region: Region;
@@ -28,9 +28,9 @@ export default function RegionPanelQuests({ region }: RegionPanelQuestsProps) {
           type="body-sm"
           style={{ marginTop: '-8px' }}
         >
-          This is not a comprehensive list of all quests in the region, rather
-          the main storylines directly associated with the region. Many quests
-          still require travel to other regions.
+          This is not a comprehensive list of all quests in the region(s),
+          rather the main storylines directly associated with the region(s).
+          Individual quests may still require travel to other regions.
         </Text>
       ) : (
         <Text className="ml-md" color="disabled">
@@ -39,12 +39,21 @@ export default function RegionPanelQuests({ region }: RegionPanelQuestsProps) {
       )}
       {storylines.map(series => (
         <TitledCard
+          key={series.id}
+          caption={series.caption}
           title={series.title || formatNameFromId(series.id)}
           titleIconRight="open_in_new"
           titleLinkId={series.link || `Quests/Series#${series.id}`}
-          caption={series.caption}
           type="list"
-          key={series.id}
+          subtitle={
+            series.id.includes('#') &&
+            storylines.some(
+              storyline =>
+                storyline.id !== series.id && storyline.title === series.title,
+            )
+              ? series.id.split('#')[1]
+              : undefined
+          }
         >
           <ul>
             {series.quests.map(quest => (

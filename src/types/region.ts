@@ -27,5 +27,4 @@ export interface Region {
   npcs: string[];
   misc: string[];
   pets: string[];
-  activities: string[];
 }

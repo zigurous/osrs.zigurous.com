@@ -1,8 +1,8 @@
 import { Text } from '@zigurous/forge-react';
 import React from 'react';
 import WikiLink from './WikiLink';
-import type { SlayerDungeon } from '../types';
 import { formatNameFromId } from '../utils';
+import type { SlayerDungeon } from '../types';
 
 interface SlayerDungeonListItemProps {
   dungeon: SlayerDungeon;

@@ -10,6 +10,7 @@ import RegionPanelSkilling from './RegionPanelSkilling';
 import RegionPanelSlayer from './RegionPanelSlayer';
 import RegionPanelTabs from './RegionPanelTabs';
 import { useRegionsContext } from '../context';
+import { combineRegions } from '../utils';
 import type { Region } from '../types';
 import '../styles/region-panel.css';
 
@@ -24,24 +25,27 @@ export type RegionPanelTab =
 
 export default function RegionPanel() {
   const [selectedTab, setSelectedTab] = useState<RegionPanelTab>('Overview');
-  const { selectedRegion, deselectRegion } = useRegionsContext();
+  const context = useRegionsContext();
+  const open = context.selectedRegions.length > 0;
   return (
     <div
       className={classNames('region-panel shadow', {
-        open: !!selectedRegion,
-        closed: !selectedRegion,
+        open,
+        closed: !open,
       })}
     >
-      {selectedRegion && (
+      {open && (
         <>
-          <div className="region-panel__header" id={selectedRegion.id}>
-            <Text
-              as="h1"
-              className="region-panel__title"
-              id={selectedRegion.id}
-              type="display"
-            >
-              {selectedRegion.name}
+          <div
+            className="region-panel__header"
+            id={context.selectedRegions[context.selectedRegions.length - 1]}
+          >
+            <Text as="h1" className="region-panel__title" type="display">
+              {context.selectedRegions.length == 1
+                ? context.getRegionById(context.selectedRegions[0])?.name
+                : context.selectedRegions.length >= 11
+                  ? 'Gielinor'
+                  : `${context.selectedRegions.length} Regions`}
             </Text>
             <Button
               className="region-panel__close-button"
@@ -49,15 +53,15 @@ export default function RegionPanel() {
               iconAlignment="only"
               size="xl"
               variant="unstyled"
-              onClick={deselectRegion}
+              onClick={context.clearRegions}
             />
           </div>
           <RegionPanelTabs
             tabs={[
               { name: 'Overview', disabled: false },
               { name: 'Skilling', disabled: false },
-              { name: 'Bosses', disabled: selectedRegion.bosses.length <= 0 },
-              { name: 'Pets', disabled: selectedRegion.pets.length <= 0 },
+              { name: 'Bosses', disabled: false },
+              { name: 'Quests', disabled: false },
             ]}
             selectedTab={selectedTab}
             onSelectTab={tab => setSelectedTab(tab)}
@@ -66,16 +70,20 @@ export default function RegionPanel() {
             tabs={[
               { name: 'Best In Slot', disabled: false },
               { name: 'Slayer', disabled: false },
-              {
-                name: 'Quests',
-                disabled: selectedRegion.storylines.length <= 0,
-              },
+              { name: 'Pets', disabled: false },
             ]}
             selectedTab={selectedTab}
             onSelectTab={tab => setSelectedTab(tab)}
           />
           <article className="region-panel__body">
-            {renderTab(selectedTab, selectedRegion)}
+            {renderTab(
+              selectedTab,
+              combineRegions(
+                context.selectedRegions
+                  .map(id => context.getRegionById(id))
+                  .filter(region => !!region),
+              ),
+            )}
           </article>
         </>
       )}
@@ -91,14 +99,14 @@ function renderTab(selectedTab: RegionPanelTab, selectedRegion: Region) {
       return <RegionPanelSkilling region={selectedRegion} />;
     case 'Bosses':
       return <RegionPanelBosses region={selectedRegion} />;
-    case 'Pets':
-      return <RegionPanelPets region={selectedRegion} />;
+    case 'Quests':
+      return <RegionPanelQuests region={selectedRegion} />;
     case 'Best In Slot':
       return <RegionPanelBestInSlot region={selectedRegion} />;
     case 'Slayer':
       return <RegionPanelSlayer region={selectedRegion} />;
-    case 'Quests':
-      return <RegionPanelQuests region={selectedRegion} />;
+    case 'Pets':
+      return <RegionPanelPets region={selectedRegion} />;
     default:
       return null;
   }

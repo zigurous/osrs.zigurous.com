@@ -33,7 +33,19 @@ export default function RegionPanelSkilling({
 
   const activities = useMemo(
     () =>
-      region.activities
+      [
+        ...new Set([
+          ...region.raids,
+          ...region.bosses,
+          ...region.minigames,
+          ...region.guilds,
+          ...region.skilling,
+          ...region.dungeons,
+          ...region.monsters,
+          ...region.npcs,
+          ...region.misc,
+        ]),
+      ]
         .map(getActivityById)
         .filter(activity => !!activity)
         .filter(filterActivity)

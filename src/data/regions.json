@@ -517,8 +517,7 @@
       "Impetuous_Impulses"
     ],
     "misc": [
-      "Managing_Miscellania",
-      "Olaf_the_Bard"
+      "Managing_Miscellania"
     ],
     "guilds": [],
     "locations": [
@@ -2160,6 +2159,7 @@
       "Ruins_(east)"
     ],
     "dungeons": [
+      "Edgeville_Dungeon",
       "Revenant_Caves",
       "Wilderness_God_Wars_Dungeon",
       "Wilderness_Slayer_Cave"

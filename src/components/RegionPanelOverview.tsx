@@ -16,6 +16,7 @@ export default function RegionPanelOverview({
 }: RegionPanelOverviewProps) {
   const { getActivityById } = useActivitiesContext();
   const { getLocationById, getDungeonById } = useLocationsContext();
+
   // prettier-ignore
   const activities = useMemo(
     () => ({
@@ -56,27 +57,29 @@ export default function RegionPanelOverview({
       dungeons: region.dungeons
         .map(getDungeonById)
         .sort(sortByName),
-      storylines: region.storylines
+      storylines: [...new Set(region.storylines.map(id => id.split('#')[0]))]
         .map(series => ({
           id: series,
           icon: 'Quest_point_icon',
-          link: series.includes('Mahjarrat') ? 'Quests/Series#Mahjarrat' : `Quests/Series#${series}`,
-          title: series.includes('Mahjarrat') ? 'Mahjarrat' : undefined
+          link: `Quests/Series#${series}`,
         }))
         .sort(sortByName)
     }),
     [region.id, getActivityById, getLocationById, getDungeonById],
   );
+
   return (
     <RegionPanelSection title="Overview">
-      <Text
-        className="text-pretty ml-sm mb-xxl"
-        color="muted"
-        type="body-sm"
-        style={{ marginTop: '-8px' }}
-      >
-        {region.description}
-      </Text>
+      {region.description && (
+        <Text
+          className="text-pretty ml-sm mb-xxl"
+          color="muted"
+          type="body-sm"
+          style={{ marginTop: '-8px' }}
+        >
+          {region.description}
+        </Text>
+      )}
       {activities.raids.length > 0 && (
         <TitledCard title="Raids" type="list">
           <ul>

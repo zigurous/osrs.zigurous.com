@@ -68,7 +68,7 @@
   { "id": "Ectofuntus", "region": "morytania" },
   { "id": "Edgeville", "region": "misthalin" },
   { "id": "Edgeville_Dungeon", "region": "misthalin", "tags": ["slayer"] },
-  { "id": "Edgeville_Dungeon#Wilderness_area_(members_only)", "name": "Edgeville Dungeon", "region": "wilderness", "tags": ["slayer"] },
+  { "id": "Edgeville_Dungeon#Wilderness_area_(members_only)", "name": "Edgeville Dungeon Wilderness Area", "region": "wilderness", "tags": ["slayer"] },
   { "id": "Enchanted_Valley", "region": "misthalin" },
   { "id": "Entrana_Dungeon", "region": "asgarnia" },
   { "id": "Escape_Caves", "region": "wilderness" },

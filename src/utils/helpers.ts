@@ -1,6 +1,6 @@
 import { capitalizeFirstLetter } from '@zigurous/forge-react';
 import { combatSkills, iconOrder, nonCombatSkills, skills } from './constants'; // prettier-ignore
-import type { Activity, CombatSkill, CombatStyle, NonCombatSkill, Skill, SortingGroup, Spell, Spellbook } from '../types'; // prettier-ignore
+import type { Activity, CombatSkill, CombatStyle, NonCombatSkill, Region, RegionId, Skill, SortingGroup, Spell, Spellbook } from '../types'; // prettier-ignore
 
 const autoDetectedItemSuffixes = [
   '_arrow',
@@ -12,6 +12,10 @@ const autoDetectedItemSuffixes = [
   '_javelin_heads',
   '_seed',
 ];
+
+export function sortById(a: string, b: string): number {
+  return a.localeCompare(b);
+}
 
 export function sortByName(
   a: { id: string; title?: string; name?: string },
@@ -188,4 +192,36 @@ export function isCombatSkill(key: string | undefined): boolean {
 
 export function isNonCombatSkill(key: string | undefined): boolean {
   return !!key && nonCombatSkills.includes(key as NonCombatSkill);
+}
+
+export function combineRegions(regions: Region[]): Region {
+  if (regions.length < 2) return regions[0];
+  return {
+    id: regions.map(region => region.id).join(',') as RegionId,
+    name: 'Regions',
+    description: '',
+    storylines: combineUniqueIds(regions, 'storylines'),
+    skilling: combineUniqueIds(regions, 'skilling'),
+    raids: combineUniqueIds(regions, 'raids'),
+    bosses: combineUniqueIds(regions, 'bosses'),
+    minigames: combineUniqueIds(regions, 'minigames'),
+    guilds: combineUniqueIds(regions, 'guilds'),
+    locations: combineUniqueIds(regions, 'locations'),
+    dungeons: combineUniqueIds(regions, 'dungeons'),
+    monsters: combineUniqueIds(regions, 'monsters'),
+    npcs: combineUniqueIds(regions, 'npcs'),
+    misc: combineUniqueIds(regions, 'misc'),
+    pets: combineUniqueIds(regions, 'pets'),
+  };
+}
+
+function combineUniqueIds(regions: Region[], prop: keyof Region): string[] {
+  return [
+    ...new Set(
+      regions
+        .map(region => region[prop])
+        .flat()
+        .sort(sortById),
+    ),
+  ];
 }

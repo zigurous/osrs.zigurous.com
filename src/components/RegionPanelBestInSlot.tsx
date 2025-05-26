@@ -17,7 +17,7 @@ export default function RegionPanelBestInSlot({
   const data = useStaticQuery<BestInSlotQueryData>(dataQuery);
   const { settings, setSettings } = useSettingsContext();
   return (
-    <RegionPanelSection className="best-in-slot" title="Best In Slot">
+    <RegionPanelSection title="Best In Slot" titleMargin="lg">
       <Stack inline className="ml-sm" spacing="lg">
         <CheckboxToggle
           id="clues-toggle"
@@ -44,7 +44,7 @@ export default function RegionPanelBestInSlot({
           category={category}
           data={data}
           key={category.id}
-          regionId={region.id}
+          region={region.id}
         />
       ))}
     </RegionPanelSection>

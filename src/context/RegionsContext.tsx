@@ -1,21 +1,27 @@
 import { graphql, navigate, useStaticQuery } from 'gatsby';
-import React, { createContext, useCallback, useContext, useEffect, useMemo, useState } from 'react'; // prettier-ignore
+import React, { createContext, useCallback, useContext, useEffect, useState } from 'react'; // prettier-ignore
 import type { Region, RegionId } from '../types';
 
 interface RegionsContextData {
   regions: Region[];
-  selectedRegion: Region | null;
+  selectedRegions: RegionId[];
+  multiRegionMode: boolean;
   getRegionById: (id: RegionId) => Region | undefined;
-  setSelectedRegion: (region: Region) => void;
-  deselectRegion: () => void;
+  selectRegion: (id: RegionId) => void;
+  deselectRegion: (id: RegionId) => void;
+  clearRegions: () => void;
+  setMultiRegionMode: React.Dispatch<React.SetStateAction<boolean>>;
 }
 
 const defaultData: RegionsContextData = {
   regions: [],
-  selectedRegion: null,
+  selectedRegions: [],
+  multiRegionMode: false,
   getRegionById: () => undefined,
-  setSelectedRegion: () => undefined,
+  selectRegion: () => undefined,
   deselectRegion: () => undefined,
+  clearRegions: () => undefined,
+  setMultiRegionMode: () => undefined,
 };
 
 const RegionsContext = createContext<RegionsContextData>(defaultData);
@@ -30,53 +36,82 @@ export function RegionsContextProvider({
   location,
 }: React.PropsWithChildren & { location: Location }) {
   const data = useStaticQuery<RegionsQueryData>(dataQuery);
-  const [selectedRegion, setSelectedRegion] = useState<Region | null>(null);
 
-  const regions = useMemo(
-    () =>
-      data.regions.nodes.map(region => ({
-        ...region,
-        activities: [
-          ...new Set([
-            ...region.raids,
-            ...region.bosses,
-            ...region.minigames,
-            ...region.guilds,
-            ...region.skilling,
-            ...region.dungeons,
-            ...region.monsters,
-            ...region.npcs,
-            ...region.misc,
-          ]),
-        ],
-      })),
-    [data.regions.nodes],
+  const [selectedRegions, setSelectedRegions] = useState<RegionId[]>(() => {
+    if (typeof window === 'undefined') return [];
+    const query = location.search.replace('?region=', '');
+    const regions = query.split(',');
+    return regions.filter(regionId =>
+      data.regions.nodes.some(node => node.id === regionId),
+    ) as RegionId[];
+  });
+
+  const [multiRegionMode, setMultiRegionMode] = useState(
+    selectedRegions.length > 1 || defaultData.multiRegionMode,
   );
 
   const getRegionById = useCallback(
     (id: string) => data.regions.nodes.find(node => node.id === id),
-    [regions],
+    [data.regions.nodes],
   );
 
-  const deselectRegion = useCallback(
-    () => navigate('/', { replace: true }),
-    [],
+  const selectRegion = useCallback(
+    (region: RegionId) => {
+      if (multiRegionMode) {
+        setSelectedRegions(regions => {
+          if (regions.includes(region)) {
+            return regions; // already selected
+          } else {
+            return [...regions, region];
+          }
+        });
+      } else {
+        setSelectedRegions([region]);
+      }
+    },
+    [multiRegionMode],
   );
 
+  const deselectRegion = useCallback((region: RegionId) => {
+    setSelectedRegions(regions =>
+      regions.filter(selectedRegion => selectedRegion !== region),
+    );
+  }, []);
+
+  const clearRegions = useCallback(() => {
+    setSelectedRegions([]);
+  }, []);
+
+  // Reset regions when multi-region is toggled off
   useEffect(() => {
-    const id = location.search.replace('?region=', '');
-    const region = regions.find(region => region.id === id);
-    setSelectedRegion(region || null);
-  }, [regions, location.search]);
+    if (!multiRegionMode) {
+      setSelectedRegions(regions =>
+        regions.length > 0 ? [regions[regions.length - 1]] : regions,
+      );
+    }
+  }, [multiRegionMode]);
+
+  // Set URL query based on selected regions
+  useEffect(() => {
+    const options = { replace: true };
+    if (selectedRegions.length > 0) {
+      return navigate(`?region=${selectedRegions.join(',')}`, options);
+    } else {
+      return navigate('/', options);
+    }
+  }, [selectedRegions]);
 
   return (
     <RegionsContext.Provider
       value={{
-        regions,
-        selectedRegion,
+        regions: data.regions.nodes,
+        selectedRegions,
+        multiRegionMode,
         getRegionById,
-        setSelectedRegion,
+        selectRegion,
         deselectRegion,
+        clearRegions,
+        setMultiRegionMode,
       }}
     >
       {children}

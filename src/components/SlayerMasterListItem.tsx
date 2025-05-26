@@ -1,8 +1,8 @@
 import { Text } from '@zigurous/forge-react';
 import React from 'react';
 import WikiLink from './WikiLink';
-import type { SlayerMaster } from '../types';
 import { formatNameFromId } from '../utils';
+import type { SlayerMaster } from '../types';
 
 interface SlayerMasterListItemProps {
   master: SlayerMaster;

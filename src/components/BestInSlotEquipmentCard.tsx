@@ -4,18 +4,18 @@ import EquipmentInventory from './EquipmentInventory';
 import IconToggle from './IconToggle';
 import TitledCard from './TitledCard';
 import { useSettingsContext } from '../context';
-import type { BestInSlotCategory, BestInSlotQueryData, EquipmentSlots, RegionId } from '../types'; // prettier-ignore
+import type { BestInSlotCategory, BestInSlotQueryData, EquipmentSlots } from '../types'; // prettier-ignore
 
 interface BestInSlotEquipmentCardProps {
   category: BestInSlotCategory;
   data: BestInSlotQueryData;
-  regionId: RegionId;
+  region: string;
 }
 
 export default function BestInSlotEquipmentCard({
   category,
   data,
-  regionId,
+  region,
 }: BestInSlotEquipmentCardProps) {
   const { settings, setSettings } = useSettingsContext();
   const { includeLeagues, includeClues } = settings;
@@ -39,8 +39,10 @@ export default function BestInSlotEquipmentCard({
             data.equipment.nodes.find(item => item.id === baseId);
           if (!item) return false;
           // Discard items not available in the region
-          if (!item.regions.includes(regionId) && !item.regions.includes('all'))
-            return false;
+          const available =
+            item.regions.some(id => region.includes(id)) ||
+            item.regions.includes('all');
+          if (!available) return false;
           // Discard items based on current toggles
           if (!includeLeagues) {
             if (item.tags?.includes('leagues') || id.includes('#Leagues'))
@@ -51,14 +53,12 @@ export default function BestInSlotEquipmentCard({
               return false;
           }
           // Discard melee items that don't match the correct style
-          if (subcategoryId) {
-            if (id.includes('#Stab') && subcategoryId !== 'melee-stab')
-              return false;
-            if (id.includes('#Slash') && subcategoryId !== 'melee-slash')
-              return false;
-            if (id.includes('#Crush') && subcategoryId !== 'melee-crush')
-              return false;
-          }
+          if (id.includes('#Stab') && subcategoryId !== 'melee-stab')
+            return false;
+          if (id.includes('#Slash') && subcategoryId !== 'melee-slash')
+            return false;
+          if (id.includes('#Crush') && subcategoryId !== 'melee-crush')
+            return false;
           return true;
         });
 
@@ -83,14 +83,7 @@ export default function BestInSlotEquipmentCard({
     // Slots will be skipped if they have already been assigned by the subcategory
     assignItems(category.id);
     return slots;
-  }, [
-    data,
-    regionId,
-    category.id,
-    subcategoryId,
-    includeLeagues,
-    includeClues,
-  ]);
+  }, [data, region, category.id, subcategoryId, includeLeagues, includeClues]);
 
   return (
     <TitledCard

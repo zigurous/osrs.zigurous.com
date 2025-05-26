@@ -1,16 +1,16 @@
 import { Button, usePanAndZoom } from '@zigurous/forge-react';
 import classNames from 'classnames';
-import { navigate } from 'gatsby';
 import React, { useEffect, useRef, useState } from 'react';
 import AreaBadge from './AreaBadge';
 import WorldMapSVG from './WorldMapSVG';
 import { useRegionsContext } from '../context';
+import type { RegionId } from '../types';
 import '../styles/world-map.css';
 
 const MAP_SIZE = { width: 463, height: 215 };
 
 export default function WorldMap() {
-  const { regions, selectedRegion } = useRegionsContext();
+  const context = useRegionsContext();
   const ref = useRef<HTMLDivElement>(null);
 
   const [{ panX, panY, zoom }, panning, resetMap] = usePanAndZoom(ref);
@@ -39,9 +39,9 @@ export default function WorldMap() {
       className={classNames(
         'world-map',
         {
-          selected: !!selectedRegion,
+          selected: context.selectedRegions.length > 0,
         },
-        selectedRegion?.id,
+        context.selectedRegions,
       )}
       ref={ref}
     >
@@ -58,7 +58,7 @@ export default function WorldMap() {
             style={{
               width: MAP_SIZE.width,
               height: MAP_SIZE.height,
-              transform: `translate(-50%, -50%) scale(${scale * 0.8})`,
+              transform: `translate(-50%, -50%) scale(${scale * 0.85})`,
             }}
           >
             <WorldMapSVG
@@ -68,33 +68,35 @@ export default function WorldMap() {
               onClick={e => {
                 if (panning.current) return;
                 const target = e.target as HTMLElement;
-                const regionId = target.parentElement?.id;
+                const regionId = target.parentElement?.id as
+                  | RegionId
+                  | undefined;
                 if (regionId) {
-                  navigate(
-                    regionId === selectedRegion?.id
-                      ? '/'
-                      : `/?region=${regionId}`,
-                    {
-                      replace: true,
-                    },
-                  );
+                  if (context.selectedRegions.includes(regionId)) {
+                    context.deselectRegion(regionId);
+                  } else {
+                    context.selectRegion(regionId);
+                  }
                 }
               }}
             />
             <div className="world-map__badges">
-              {regions.map(region => {
-                const selected = Boolean(selectedRegion?.id === region.id);
+              {context.regions.map(region => {
+                const selected = context.selectedRegions.includes(region.id);
                 return (
                   <AreaBadge
                     key={region.id}
                     region={region}
                     selected={selected}
-                    deselected={!selected && !!selectedRegion}
+                    deselected={!selected && context.selectedRegions.length > 0}
                     onClick={() => {
-                      if (panning.current) return;
-                      navigate(selected ? '/' : `/?region=${region.id}`, {
-                        replace: true,
-                      });
+                      if (!panning.current) {
+                        if (selected) {
+                          context.deselectRegion(region.id);
+                        } else {
+                          context.selectRegion(region.id);
+                        }
+                      }
                     }}
                   />
                 );

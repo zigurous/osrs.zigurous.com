@@ -718,26 +718,7 @@
           "Accursed_sceptre",
           "Purging_staff",
           "Toxic_staff_of_the_dead",
-          "Blue_moon_spear",
           "Nothing"
-        ]
-      },
-      {
-        "id": "head",
-        "items": [
-          "Blue_moon_helm"
-        ]
-      },
-      {
-        "id": "body",
-        "items": [
-          "Blue_moon_chestplate"
-        ]
-      },
-      {
-        "id": "legs",
-        "items": [
-          "Blue_moon_tassets"
         ]
       }
     ]

@@ -1712,9 +1712,13 @@
       "Vannaka"
     ],
     "locations": [
+      "Giant_Pit",
+      "Catacombs_of_Kourend",
       "Edgeville_Dungeon",
-      "Kandarin",
+      "Giants'_Den",
+      "Giants'_Plateau",
       "Deep_Wilderness_Dungeon",
+      "Avium_Savannah",
       "Taverley_Dungeon",
       "Lava_Maze",
       "Gnome_maze",
@@ -1725,68 +1729,6 @@
       "Ensouled_giant_head",
       "Big_bones",
       "Limpwurt_root"
-    ]
-  },
-  {
-    "id": "Hill_Giant_(Giants'_Plateau)",
-    "icon": "Ensouled_giant_head",
-    "title": "Hill Giant",
-    "category": "monster",
-    "sortingGroups": ["pvm", "slayer"],
-    "requiredCombatLevel": 25,
-    "slayerMasters": [
-      "Mazchna",
-      "Vannaka"
-    ],
-    "locations": [
-      "Giants'_Plateau"
-    ],
-    "notableDrops": [
-      "Giant_key",
-      "Ensouled_giant_head",
-      "Big_bones"
-    ]
-  },
-  {
-    "id": "Hill_Giant_(Kourend)",
-    "icon": "Ensouled_giant_head",
-    "title": "Hill Giant",
-    "category": "monster",
-    "sortingGroups": ["pvm", "slayer"],
-    "requiredCombatLevel": 25,
-    "slayerMasters": [
-      "Mazchna",
-      "Vannaka"
-    ],
-    "locations": [
-      "Catacombs_of_Kourend",
-      "Giant_Pit",
-      "Giants'_Den"
-    ],
-    "notableDrops": [
-      "Giant_key",
-      "Ensouled_giant_head",
-      "Big_bones"
-    ]
-  },
-  {
-    "id": "Hill_Giant_(Varlamore)",
-    "icon": "Ensouled_giant_head",
-    "title": "Hill Giant",
-    "category": "monster",
-    "sortingGroups": ["pvm", "slayer"],
-    "requiredCombatLevel": 25,
-    "slayerMasters": [
-      "Mazchna",
-      "Vannaka"
-    ],
-    "locations": [
-      "Avium_Savannah"
-    ],
-    "notableDrops": [
-      "Giant_key",
-      "Ensouled_giant_head",
-      "Big_bones"
     ]
   },
   {
@@ -2857,23 +2799,7 @@
       "Draynor_Sewers",
       "Isle_of_Souls_Dungeon",
       "Ogre_Enclave",
-      "Waterfall_Dungeon"
-    ]
-  },
-  {
-    "id": "Skeleton_fremennik",
-    "icon": "Skull_(item)",
-    "title": "Skeleton",
-    "category": "monster",
-    "sortingGroups": ["pvm", "slayer"],
-    "requiredCombatLevel": 15,
-    "slayerMasters": [
-      "Krystilia",
-      "Turael",
-      "Spria",
-      "Mazchna"
-    ],
-    "locations": [
+      "Waterfall_Dungeon",
       "Brine_Rat_Cavern"
     ]
   },

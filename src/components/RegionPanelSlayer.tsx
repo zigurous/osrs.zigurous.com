@@ -18,17 +18,44 @@ export default function RegionPanelSlayer({ region }: RegionPanelSlayerProps) {
   const data = useStaticQuery<SlayerQueryData>(dataQuery);
   const { getItemsByIds } = useItemsContext();
   const { getLocationById } = useLocationsContext();
-  const masters = data.masters.nodes.filter(
-    master => master.region === region.id,
+
+  const masters = data.masters.nodes.filter(master =>
+    region.id.includes(master.region),
+  );
+  const dungeons = data.dungeons.nodes.filter(location =>
+    region.id.includes(location.region),
   );
   const monsters = data.monsters.nodes
     .filter(monster =>
-      monster.locations.some(id => getLocationById(id).region === region.id),
+      monster.locations.some(id =>
+        region.id.includes(getLocationById(id).region),
+      ),
     )
+    .reduce((monsters: SlayerMonster[], monster: SlayerMonster) => {
+      const existingIndex = monsters.findIndex(m => m.id === monster.id);
+      if (existingIndex !== -1) {
+        const existingMonster = monsters[existingIndex];
+        const combined: SlayerMonster = {
+          ...existingMonster,
+          locations: [
+            ...new Set(existingMonster.locations.concat(monster.locations)),
+          ],
+          notableDrops: [
+            ...new Set(
+              (existingMonster.notableDrops || []).concat(
+                monster.notableDrops || [],
+              ),
+            ),
+          ],
+        };
+        monsters[existingIndex] = combined;
+      } else {
+        monsters.push(monster);
+      }
+      return monsters;
+    }, [])
     .sort(sortByName);
-  const dungeons = data.dungeons.nodes.filter(
-    location => location.region === region.id,
-  );
+
   return (
     <>
       <RegionPanelSection title="Slayer">

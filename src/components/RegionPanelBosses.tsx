@@ -39,9 +39,9 @@ export default function RegionPanelBosses({ region }: RegionPanelBossesProps) {
   );
 
   return (
-    <RegionPanelSection title="Bosses">
-      <Text className="ml-sm mb-xxs" color="disabled" type="body-sm">
-        Include the following drops:
+    <RegionPanelSection title="Bosses" titleMargin="lg">
+      <Text className="ml-sm mb-xxxs" color="disabled" type="body-sm">
+        Show the following drops:
       </Text>
       <Stack inline className="mb-xxl ml-sm" spacing="lg">
         <CheckboxToggle
@@ -80,11 +80,11 @@ export default function RegionPanelBosses({ region }: RegionPanelBossesProps) {
                 <TitledCard
                   subtitle={raid.subtitle}
                   title={raid.title || formatNameFromId(raid.id)}
-                  titleIconLeft={raid.icon}
+                  // titleIconLeft={raid.icon}
                   titleIconRight="open_in_new"
                   titleLinkId={raid.id}
                 >
-                  <ItemsStack highlights items={drops} />
+                  <ItemsStack items={drops} />
                 </TitledCard>
               </li>
             );
@@ -103,11 +103,11 @@ export default function RegionPanelBosses({ region }: RegionPanelBossesProps) {
                 <TitledCard
                   subtitle={boss.subtitle}
                   title={boss.title || formatNameFromId(boss.id)}
-                  titleIconLeft={boss.icon}
+                  // titleIconLeft={boss.icon}
                   titleIconRight="open_in_new"
                   titleLinkId={boss.id}
                 >
-                  <ItemsStack highlights items={drops} />
+                  <ItemsStack items={drops} />
                 </TitledCard>
               </li>
             );
