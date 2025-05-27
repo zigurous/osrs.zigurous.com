@@ -19,7 +19,6 @@ export default function BestInSlotEquipmentCard({
   region,
 }: BestInSlotEquipmentCardProps) {
   const { settings, setSettings } = useSettingsContext();
-  const { includeLeagues, includeClues } = settings;
   const { [category.subcategoryKey]: subcategoryId } = settings;
 
   const equipment: EquipmentSlots = useMemo(() => {
@@ -45,13 +44,18 @@ export default function BestInSlotEquipmentCard({
           if (!available) return false;
 
           // Discard items based on toggles
-          if (!includeLeagues) {
+          if (!settings.includeLeagues) {
             if (id.includes('#Leagues') || item.tags?.includes('leagues'))
               return false;
           }
-          if (!includeClues) {
+          if (!settings.includeClues) {
             if (id.includes('#Clues') || item.tags?.includes('clues'))
               return false;
+          }
+          if (settings.strictBestInSlot) {
+            if (id.includes('#*') || item.tags?.includes('*')) {
+              return false;
+            }
           }
 
           // Discard melee items that don't match the correct style
@@ -93,7 +97,7 @@ export default function BestInSlotEquipmentCard({
     // Slots will be skipped if they have already been assigned by the subcategory
     assignItems(category.id);
     return slots;
-  }, [data, region, category.id, subcategoryId, includeLeagues, includeClues]);
+  }, [data, region, category.id, subcategoryId, settings]);
 
   return (
     <TitledCard

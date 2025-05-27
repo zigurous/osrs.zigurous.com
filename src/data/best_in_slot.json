@@ -30,6 +30,7 @@
           "Zamorakian_hasta",
           "Zamorakian_hasta#*",
           "Zombie_axe",
+          "Dragon_scimitar",
           "Toktz-xil-ak",
           "Leaf-bladed_battleaxe"
         ]
@@ -43,7 +44,6 @@
           "Avernic_defender#*",
           "Dragon_defender",
           "Dragonfire_shield",
-          "Dragonfire_shield#*",
           "Elysian_spirit_shield",
           "Toktz-ket-xil",
           "Book_of_war",
@@ -258,7 +258,8 @@
           "Dual_macuahuitl",
           "Toktz-xil-ak",
           "Leaf-bladed_sword",
-          "Dragon_scimitar"
+          "Dragon_dagger",
+          "Nothing"
         ]
       }
     ]
@@ -293,7 +294,8 @@
           "Dragon_sword",
           "Leaf-bladed_battleaxe",
           "Sulphur_blades",
-          "Toktz-xil-ak"
+          "Toktz-xil-ak",
+          "Nothing"
         ]
       }
     ]
@@ -329,7 +331,8 @@
           "Tzhaar-ket-em",
           "Keris_partisan",
           "Barronite_mace",
-          "Rune_mace"
+          "Rune_mace",
+          "Nothing"
         ]
       }
     ]
@@ -602,7 +605,9 @@
           "Twinflame_staff",
           "Dragon_hunter_wand",
           "Blue_moon_spear",
-          "Toktz-mej-tal"
+          "Toktz-mej-tal",
+          "Lunar_staff",
+          "Dust_battlestaff"
         ]
       },
       {

@@ -6,6 +6,7 @@ type Settings = {
   includeClues: boolean;
   includeLeagues: boolean;
   includeCosmetics: boolean;
+  strictBestInSlot: boolean;
 } & BestInSlotSubcategories;
 
 const defaultSettings: Settings = {
@@ -13,6 +14,7 @@ const defaultSettings: Settings = {
   includeClues: false,
   includeLeagues: false,
   includeCosmetics: false,
+  strictBestInSlot: false,
   bisMeleeSubcategory: undefined,
   bisRangedSubcategory: undefined,
   bisMagicSubcategory: undefined,

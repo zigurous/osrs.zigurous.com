@@ -21,7 +21,7 @@ export default function RegionPanelBestInSlot({
       <Stack inline className="ml-sm" spacing="lg">
         <CheckboxToggle
           id="clues-toggle"
-          label="Clue Rewards"
+          label="Clue Items"
           checked={settings.includeClues}
           onChange={checked =>
             setSettings(state => ({ ...state, includeClues: checked }))
@@ -35,8 +35,21 @@ export default function RegionPanelBestInSlot({
             setSettings(state => ({ ...state, includeLeagues: checked }))
           }
         />
+        <CheckboxToggle
+          id="strict-toggle"
+          label="Strict Mode"
+          checked={settings.strictBestInSlot}
+          onChange={checked =>
+            setSettings(state => ({ ...state, strictBestInSlot: checked }))
+          }
+        />
       </Stack>
-      <Text className="ml-xs mt-sm mb-xxl" color="disabled" type="caption">
+      <Text
+        className="ml-xs mt-sm mb-xxl"
+        color={settings.strictBestInSlot ? 'soft' : 'disabled'}
+        decoration={settings.strictBestInSlot ? 'line-through' : undefined}
+        type="caption"
+      >
         * Requires components from another region or source
       </Text>
       {categories.map(category => (

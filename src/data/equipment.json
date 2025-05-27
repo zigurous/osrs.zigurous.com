@@ -656,12 +656,7 @@
   },
   {
     "id": "Dragonfire_shield",
-    "regions": ["misthalin"]
-  },
-  {
-    "id": "Dragonfire_shield#*",
-    "tags": ["*"],
-    "regions": ["asgarnia", "fremennik", "kandarin", "karamja", "kourend", "misthalin", "tirannwn", "varlamore", "wilderness"]
+    "regions": ["misthalin", "misthalin/asgarnia", "misthalin/fremennik", "misthalin/kandarin", "misthalin/karamja", "misthalin/kourend", "misthalin/tirannwn", "misthalin/varlamore", "misthalin/wilderness"]
   },
   {
     "id": "Dragonfire_ward",
@@ -684,6 +679,11 @@
     "id": "Dual_macuahuitl",
     "tags": ["2h"],
     "regions": ["varlamore"]
+  },
+  {
+    "id": "Dust_battlestaff",
+    "tags": ["1h"],
+    "regions": ["all"]
   },
   {
     "id": "Dwarven_helmet",
@@ -1079,6 +1079,11 @@
   },
   {
     "id": "Lunar_gloves",
+    "regions": ["fremennik"]
+  },
+  {
+    "id": "Lunar_staff",
+    "tags": ["1h"],
     "regions": ["fremennik"]
   },
   {
