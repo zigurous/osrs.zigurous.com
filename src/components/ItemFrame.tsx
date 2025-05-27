@@ -10,7 +10,7 @@ interface ItemFrameProps {
   border?: boolean;
   borderless?: boolean;
   className?: string;
-  highlights?: boolean;
+  highlights?: 'all' | ('pet' | 'leagues' | 'megarare')[] | 'none';
   item?: ItemData;
   size?: 'xs' | 'sm' | 'md' | 'lg';
 }
@@ -44,10 +44,18 @@ export default function ItemFrame({
             [`item-frame--${size}`]: size,
             'item-frame--border': border,
             'item-frame--borderless': borderless,
-            'item-frame--pet': highlights && item.tags?.includes('pet'),
-            'item-frame--leagues': highlights && item.tags?.includes('leagues'),
+            'item-frame--pet':
+              item.tags?.includes('pet') &&
+              (highlights === 'all' ||
+                (Array.isArray(highlights) && highlights.includes('pet'))),
+            'item-frame--leagues':
+              item.tags?.includes('leagues') &&
+              (highlights === 'all' ||
+                (Array.isArray(highlights) && highlights.includes('leagues'))),
             'item-frame--megarare':
-              highlights && item.tags?.includes('megarare'),
+              item.tags?.includes('megarare') &&
+              (highlights === 'all' ||
+                (Array.isArray(highlights) && highlights.includes('megarare'))),
           },
           className,
         )}

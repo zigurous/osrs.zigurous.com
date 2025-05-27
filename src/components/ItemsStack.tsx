@@ -6,7 +6,7 @@ import '../styles/items-stack.css';
 
 interface ItemsStackProps {
   className?: string;
-  highlights?: boolean;
+  highlights?: 'all' | ('pet' | 'leagues' | 'megarare')[] | 'none';
   items: ItemData[];
 }
 
