@@ -22,7 +22,7 @@ export default function HeaderBar() {
             </Text>
           </Stack>
           <Toggle
-            className="ml-xxxl"
+            className="ml-xxl"
             id="multi-region-toggle"
             label="Multi-Region"
             onToggle={context.setMultiRegionMode}
