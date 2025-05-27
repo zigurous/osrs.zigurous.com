@@ -84,7 +84,7 @@ export default function RegionPanelBosses({ region }: RegionPanelBossesProps) {
                   titleIconRight="open_in_new"
                   titleLinkId={raid.id}
                 >
-                  <ItemsStack items={drops} />
+                  <ItemsStack highlights="all" items={drops} />
                 </TitledCard>
               </li>
             );
@@ -107,7 +107,7 @@ export default function RegionPanelBosses({ region }: RegionPanelBossesProps) {
                   titleIconRight="open_in_new"
                   titleLinkId={boss.id}
                 >
-                  <ItemsStack items={drops} />
+                  <ItemsStack highlights="all" items={drops} />
                 </TitledCard>
               </li>
             );
