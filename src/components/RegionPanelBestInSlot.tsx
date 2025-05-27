@@ -99,6 +99,7 @@ const dataQuery = graphql`
         name
         tags
         regions
+        requiredWeapon
         ammo {
           id
           icon

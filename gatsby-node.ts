@@ -47,8 +47,9 @@ export const createSchemaCustomization = ({
       icon: String
       name: String
       tags: [String!]
-      regions: [String!]!
       ammo: EquipmentAmmo
+      regions: [String!]!
+      requiredWeapon: String
     }
     type EquipmentAmmo {
       id: String!

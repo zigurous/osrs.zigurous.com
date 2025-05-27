@@ -21,6 +21,7 @@ export interface EquipmentSlot {
 export interface EquipmentItem extends Omit<ItemData, 'transmutations'> {
   ammo?: Omit<EquipmentItem, 'ammo'>;
   regions: string[];
+  requiredWeapon?: string;
 }
 
 export type EquipmentSlots = Record<EquipmentSlotId, EquipmentItem | undefined>;

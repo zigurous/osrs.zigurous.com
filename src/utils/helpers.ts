@@ -194,6 +194,15 @@ export function isNonCombatSkill(key: string | undefined): boolean {
   return !!key && nonCombatSkills.includes(key as NonCombatSkill);
 }
 
+export function isInRegion(id: string, regions: string[]): boolean {
+  if (regions.includes('all')) return true;
+  return regions.some(region =>
+    region.includes('/')
+      ? region.split('/').every(split => id.includes(split))
+      : id.includes(region),
+  );
+}
+
 export function combineRegions(regions: Region[]): Region {
   if (regions.length < 2) return regions[0];
   return {

@@ -4,6 +4,7 @@ import EquipmentInventory from './EquipmentInventory';
 import IconToggle from './IconToggle';
 import TitledCard from './TitledCard';
 import { useSettingsContext } from '../context';
+import { isInRegion } from '../utils';
 import type { BestInSlotCategory, BestInSlotQueryData, EquipmentSlots } from '../types'; // prettier-ignore
 
 interface BestInSlotEquipmentCardProps {
@@ -31,27 +32,28 @@ export default function BestInSlotEquipmentCard({
         // Skip this slot if it has already been assigned an item
         if (slots[slot.id]) return;
 
-        // Filter items based on region, toggles, and melee style
         const ids = slot.items.filter(id => {
+          // Find the matching item based on id
           const baseId = id.includes('#') ? id.split('#')[0] : id;
           const item =
             data.equipment.nodes.find(item => item.id === id) ||
             data.equipment.nodes.find(item => item.id === baseId);
           if (!item) return false;
+
           // Discard items not available in the region
-          const available =
-            item.regions.some(id => region.includes(id)) ||
-            item.regions.includes('all');
+          const available = isInRegion(region, item.regions);
           if (!available) return false;
-          // Discard items based on current toggles
+
+          // Discard items based on toggles
           if (!includeLeagues) {
-            if (item.tags?.includes('leagues') || id.includes('#Leagues'))
+            if (id.includes('#Leagues') || item.tags?.includes('leagues'))
               return false;
           }
           if (!includeClues) {
-            if (item.tags?.includes('clues') || id.includes('#Clues'))
+            if (id.includes('#Clues') || item.tags?.includes('clues'))
               return false;
           }
+
           // Discard melee items that don't match the correct style
           if (id.includes('#Stab') && subcategoryId !== 'melee-stab')
             return false;
@@ -59,6 +61,14 @@ export default function BestInSlotEquipmentCard({
             return false;
           if (id.includes('#Crush') && subcategoryId !== 'melee-crush')
             return false;
+
+          // Discard items that require a specific weapon to be equipped
+          if (item.requiredWeapon) {
+            if (slots.weapon?.id !== item.requiredWeapon) {
+              return false;
+            }
+          }
+
           return true;
         });
 
@@ -139,16 +149,16 @@ export default function BestInSlotEquipmentCard({
 
 function getEmptySlots(): EquipmentSlots {
   return {
-    ammo: undefined,
-    body: undefined,
-    cape: undefined,
-    feet: undefined,
-    hands: undefined,
+    weapon: undefined,
+    shield: undefined,
     head: undefined,
+    body: undefined,
     legs: undefined,
+    hands: undefined,
+    feet: undefined,
+    cape: undefined,
     neck: undefined,
     ring: undefined,
-    shield: undefined,
-    weapon: undefined,
+    ammo: undefined,
   };
 }

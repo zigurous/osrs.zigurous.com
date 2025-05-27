@@ -11,7 +11,17 @@
   },
   {
     "id": "Abyssal_tentacle",
+    "tags": ["1h"],
+    "regions": ["kandarin/kourend", "kandarin/misthalin", "kandarin/morytania", "kandarin/wilderness"]
+  },
+  {
+    "id": "Abyssal_tentacle#*",
     "tags": ["1h", "*"],
+    "regions": ["kandarin"]
+  },
+  {
+    "id": "Abyssal_tentacle#Leagues",
+    "tags": ["1h", "leagues"],
     "regions": ["kandarin"]
   },
   {
@@ -23,6 +33,10 @@
     "id": "Accursed_sceptre",
     "tags": ["1h"],
     "regions": ["wilderness"]
+  },
+  {
+    "id": "Accumulator_max_cape",
+    "regions": ["misthalin/asgarnia"]
   },
   {
     "id": "Agility_cape(t)",
@@ -51,6 +65,10 @@
   },
   {
     "id": "Amulet_of_blood_fury",
+    "regions": ["morytania/karamja", "morytania/kourend", "morytania/tirannwn", "morytania/varlamore"]
+  },
+  {
+    "id": "Amulet_of_blood_fury#*",
     "tags": ["*"],
     "regions": ["morytania"]
   },
@@ -64,6 +82,10 @@
   },
   {
     "id": "Amulet_of_rancour",
+    "regions": ["morytania/kandarin"]
+  },
+  {
+    "id": "Amulet_of_rancour#*",
     "tags": ["*"],
     "regions": ["morytania"]
   },
@@ -113,6 +135,11 @@
   },
   {
     "id": "Ancient_sceptre",
+    "tags": ["1h"],
+    "regions": ["fremennik/desert"]
+  },
+  {
+    "id": "Ancient_sceptre#*",
     "tags": ["1h", "*"],
     "regions": ["fremennik"]
   },
@@ -125,6 +152,15 @@
     "id": "Ancient_staff",
     "tags": ["1h"],
     "regions": ["desert", "kandarin", "wilderness"]
+  },
+  {
+    "id": "Ancient_wyvern_shield",
+    "regions": ["misthalin/kandarin"]
+  },
+  {
+    "id": "Ancient_wyvern_shield#*",
+    "tags": ["*"],
+    "regions": ["misthalin"]
   },
   {
     "id": "Aranea_boots",
@@ -151,6 +187,14 @@
     "regions": ["kandarin"]
   },
   {
+    "id": "Ardougne_max_cape",
+    "regions": ["kandarin/asgarnia"]
+  },
+  {
+    "id": "Ardougne_max_cape#Stab",
+    "regions": ["kandarin/asgarnia"]
+  },
+  {
     "id": "Armadyl_chainskirt",
     "regions": ["asgarnia"]
   },
@@ -163,16 +207,33 @@
     "regions": ["asgarnia"]
   },
   {
+    "id": "Assembler_max_cape",
+    "regions": ["fremennik/misthalin/asgarnia"]
+  },
+  {
+    "id": "Assembler_max_cape#*",
+    "tags": ["*"],
+    "regions": ["fremennik/asgarnia"]
+  },
+  {
     "id": "Ava's_accumulator",
     "regions": ["misthalin"]
   },
   {
     "id": "Ava's_assembler",
+    "regions": ["fremennik/misthalin"]
+  },
+  {
+    "id": "Ava's_assembler#*",
     "tags": ["*"],
     "regions": ["fremennik"]
   },
   {
     "id": "Avernic_defender",
+    "regions": ["morytania/asgarnia"]
+  },
+  {
+    "id": "Avernic_defender#*",
     "tags": ["*"],
     "regions": ["morytania"]
   },
@@ -205,6 +266,10 @@
   },
   {
     "id": "Bellator_ring",
+    "regions": ["asgarnia/fremennik"]
+  },
+  {
+    "id": "Bellator_ring#*",
     "tags": ["*"],
     "regions": ["asgarnia"]
   },
@@ -214,13 +279,18 @@
     "regions": ["asgarnia"]
   },
   {
-    "id": "Bellator_ring#Slash",
-    "tags": ["*"],
-    "regions": ["asgarnia"]
-  },
-  {
     "id": "Berserker_necklace",
     "regions": ["karamja"]
+  },
+  {
+    "id": "Berserker_necklace#Toktz-xil-ak",
+    "regions": ["karamja"],
+    "requiredWeapon": "Toktz-xil-ak"
+  },
+  {
+    "id": "Berserker_necklace#Tzhaar-ket-em",
+    "regions": ["karamja"],
+    "requiredWeapon": "Tzhaar-ket-em"
   },
   {
     "id": "Berserker_ring",
@@ -265,12 +335,27 @@
     "regions": ["varlamore"]
   },
   {
+    "id": "Blood_moon_chestplate#Dual_macuahuitl",
+    "regions": ["varlamore"],
+    "requiredWeapon": "Dual_macuahuitl"
+  },
+  {
     "id": "Blood_moon_helm",
     "regions": ["varlamore"]
   },
   {
+    "id": "Blood_moon_helm#Dual_macuahuitl",
+    "regions": ["varlamore"],
+    "requiredWeapon": "Dual_macuahuitl"
+  },
+  {
     "id": "Blood_moon_tassets",
     "regions": ["varlamore"]
+  },
+  {
+    "id": "Blood_moon_tassets#Dual_macuahuitl",
+    "regions": ["varlamore"],
+    "requiredWeapon": "Dual_macuahuitl"
   },
   {
     "id": "Bloodbark_boots",
@@ -311,6 +396,10 @@
   },
   {
     "id": "Bonecrusher_necklace",
+    "regions": ["kourend/fremennik/morytania"]
+  },
+  {
+    "id": "Bonecrusher_necklace#*",
     "tags": ["*"],
     "regions": ["kourend"]
   },
@@ -397,6 +486,11 @@
     "regions": ["tirannwn"]
   },
   {
+    "id": "Crystal_body#Bow_of_faerdhinen",
+    "regions": ["tirannwn"],
+    "requiredWeapon": "Bow_of_faerdhinen"
+  },
+  {
     "id": "Crystal_halberd",
     "tags": ["2h"],
     "regions": ["tirannwn"]
@@ -406,8 +500,18 @@
     "regions": ["tirannwn"]
   },
   {
+    "id": "Crystal_helm#Bow_of_faerdhinen",
+    "regions": ["tirannwn"],
+    "requiredWeapon": "Bow_of_faerdhinen"
+  },
+  {
     "id": "Crystal_legs",
     "regions": ["tirannwn"]
+  },
+  {
+    "id": "Crystal_legs#Bow_of_faerdhinen",
+    "regions": ["tirannwn"],
+    "requiredWeapon": "Bow_of_faerdhinen"
   },
   {
     "id": "Dagon'hai_hat",
@@ -443,6 +547,10 @@
     "id": "Devout_boots",
     "tags": ["clues"],
     "regions": ["kourend"]
+  },
+  {
+    "id": "Dizana's_max_cape",
+    "regions": ["varlamore/asgarnia"]
   },
   {
     "id": "Dragon_boots",
@@ -491,6 +599,11 @@
   },
   {
     "id": "Dragon_hunter_lance",
+    "tags": ["1h"],
+    "regions": ["kourend/asgarnia/kandarin"]
+  },
+  {
+    "id": "Dragon_hunter_lance#*",
     "tags": ["1h", "*"],
     "regions": ["kourend"]
   },
@@ -546,7 +659,17 @@
     "regions": ["misthalin"]
   },
   {
+    "id": "Dragonfire_shield#*",
+    "tags": ["*"],
+    "regions": ["asgarnia", "fremennik", "kandarin", "karamja", "kourend", "misthalin", "tirannwn", "varlamore", "wilderness"]
+  },
+  {
     "id": "Dragonfire_ward",
+    "regions": ["fremennik/misthalin"]
+  },
+  {
+    "id": "Dragonfire_ward#*",
+    "tags": ["*"],
     "regions": ["fremennik"]
   },
   {
@@ -572,6 +695,10 @@
   },
   {
     "id": "Echo_boots",
+    "regions": ["varlamore/morytania/asgarnia"]
+  },
+  {
+    "id": "Echo_boots#*",
     "tags": ["*"],
     "regions": ["varlamore"]
   },
@@ -594,12 +721,27 @@
     "regions": ["varlamore"]
   },
   {
+    "id": "Eclipse_moon_chestplate#Eclipse_atlatl",
+    "regions": ["varlamore"],
+    "requiredWeapon": "Eclipse_atlatl"
+  },
+  {
     "id": "Eclipse_moon_helm",
     "regions": ["varlamore"]
   },
   {
+    "id": "Eclipse_moon_helm#Eclipse_atlatl",
+    "regions": ["varlamore"],
+    "requiredWeapon": "Eclipse_atlatl"
+  },
+  {
     "id": "Eclipse_moon_tassets",
     "regions": ["varlamore"]
+  },
+  {
+    "id": "Eclipse_moon_tassets#Eclipse_atlatl",
+    "regions": ["varlamore"],
+    "requiredWeapon": "Eclipse_atlatl"
   },
   {
     "id": "Elder_maul",
@@ -609,6 +751,10 @@
   {
     "id": "Elidinis'_ward",
     "regions": ["desert"]
+  },
+  {
+    "id": "Elidinis'_ward_(f)",
+    "regions": ["desert/wilderness"]
   },
   {
     "id": "Elysian_spirit_shield",
@@ -642,6 +788,10 @@
   },
   {
     "id": "Eternal_boots",
+    "regions": ["asgarnia/desert"]
+  },
+  {
+    "id": "Eternal_boots#*",
     "tags": ["*"],
     "regions": ["asgarnia"]
   },
@@ -660,6 +810,10 @@
   },
   {
     "id": "Ferocious_gloves",
+    "regions": ["kourend/misthalin"]
+  },
+  {
+    "id": "Ferocious_gloves#*",
     "tags": ["*"],
     "regions": ["kourend"]
   },
@@ -714,6 +868,10 @@
   },
   {
     "id": "Guardian_boots",
+    "regions": ["morytania/asgarnia"]
+  },
+  {
+    "id": "Guardian_boots#*",
     "tags": ["*"],
     "regions": ["morytania"]
   },
@@ -741,6 +899,11 @@
     "id": "Guthix_d'hide_shield",
     "tags": ["clues"],
     "regions": ["all"]
+  },
+  {
+    "id": "Harmonised_nightmare_staff",
+    "tags": ["1h"],
+    "regions": ["morytania"]
   },
   {
     "id": "Healer_hat",
@@ -795,8 +958,16 @@
     "regions": ["wilderness"]
   },
   {
+    "id": "Imbued_saradomin_max_cape",
+    "regions": ["wilderness/asgarnia"]
+  },
+  {
     "id": "Infernal_cape",
     "regions": ["karamja"]
+  },
+  {
+    "id": "Infernal_max_cape",
+    "regions": ["karamja/asgarnia"]
   },
   {
     "id": "Infinity_boots",
@@ -879,6 +1050,11 @@
   },
   {
     "id": "Kodai_wand",
+    "tags": ["1h"],
+    "regions": ["kourend/desert"]
+  },
+  {
+    "id": "Kodai_wand#*",
     "tags": ["1h", "*"],
     "regions": ["kourend"]
   },
@@ -936,6 +1112,16 @@
     "regions": ["fremennik"]
   },
   {
+    "id": "Magus_ring#*",
+    "tags": ["*"],
+    "regions": ["fremennik"]
+  },
+  {
+    "id": "Magus_ring#Leagues",
+    "tags": ["leagues"],
+    "regions": ["fremennik"]
+  },
+  {
     "id": "Malediction_ward",
     "regions": ["wilderness"]
   },
@@ -944,17 +1130,33 @@
     "regions": ["desert"]
   },
   {
+    "id": "Masori_body_(f)",
+    "regions": ["desert/asgarnia"]
+  },
+  {
     "id": "Masori_chaps",
     "regions": ["desert"]
+  },
+  {
+    "id": "Masori_chaps_(f)",
+    "regions": ["desert/asgarnia"]
   },
   {
     "id": "Masori_mask",
     "regions": ["desert"]
   },
   {
+    "id": "Masori_mask_(f)",
+    "regions": ["desert/asgarnia"]
+  },
+  {
     "id": "Master_wand",
     "tags": ["1h"],
     "regions": ["desert"]
+  },
+  {
+    "id": "Max_cape",
+    "regions": ["asgarnia"]
   },
   {
     "id": "Mind_shield",
@@ -1037,6 +1239,10 @@
     "regions": ["kandarin"]
   },
   {
+    "id": "Mythical_max_cape",
+    "regions": ["kandarin/asgarnia"]
+  },
+  {
     "id": "Mythical_cape#Crush",
     "regions": ["kandarin"]
   },
@@ -1092,12 +1298,42 @@
     "regions": ["karamja"]
   },
   {
+    "id": "Obsidian_helmet#Toktz-xil-ak",
+    "regions": ["karamja"],
+    "requiredWeapon": "Toktz-xil-ak"
+  },
+  {
+    "id": "Obsidian_helmet#Tzhaar-ket-em",
+    "regions": ["karamja"],
+    "requiredWeapon": "Tzhaar-ket-em"
+  },
+  {
     "id": "Obsidian_platebody",
     "regions": ["karamja"]
   },
   {
+    "id": "Obsidian_platebody#Toktz-xil-ak",
+    "regions": ["karamja"],
+    "requiredWeapon": "Toktz-xil-ak"
+  },
+  {
+    "id": "Obsidian_platebody#Tzhaar-ket-em",
+    "regions": ["karamja"],
+    "requiredWeapon": "Tzhaar-ket-em"
+  },
+  {
     "id": "Obsidian_platelegs",
     "regions": ["karamja"]
+  },
+  {
+    "id": "Obsidian_platelegs#Toktz-xil-ak",
+    "regions": ["karamja"],
+    "requiredWeapon": "Toktz-xil-ak"
+  },
+  {
+    "id": "Obsidian_platelegs#Tzhaar-ket-em",
+    "regions": ["karamja"],
+    "requiredWeapon": "Tzhaar-ket-em"
   },
   {
     "id": "Occult_necklace",
@@ -1416,12 +1652,30 @@
     "regions": ["varlamore"]
   },
   {
+    "id": "Sunfire_fanatic_chausses#Leagues",
+    "tags": ["leagues"],
+    "regions": ["varlamore"],
+    "requiredWeapon": "Sunlight_spear"
+  },
+  {
     "id": "Sunfire_fanatic_cuirass",
     "regions": ["varlamore"]
   },
   {
+    "id": "Sunfire_fanatic_cuirass#Leagues",
+    "tags": ["leagues"],
+    "regions": ["varlamore"],
+    "requiredWeapon": "Sunlight_spear"
+  },
+  {
     "id": "Sunfire_fanatic_helm",
     "regions": ["varlamore"]
+  },
+  {
+    "id": "Sunfire_fanatic_helm#Leagues",
+    "tags": ["leagues"],
+    "regions": ["varlamore"],
+    "requiredWeapon": "Sunlight_spear"
   },
   {
     "id": "Sunlight_spear",
@@ -1510,6 +1764,11 @@
   },
   {
     "id": "Toxic_staff_of_the_dead",
+    "tags": ["1h"],
+    "regions": ["tirannwn/asgarnia"]
+  },
+  {
+    "id": "Toxic_staff_of_the_dead#*",
     "tags": ["1h", "*"],
     "regions": ["tirannwn"]
   },
@@ -1528,6 +1787,11 @@
   },
   {
     "id": "Trident_of_the_swamp",
+    "tags": ["1h"],
+    "regions": ["tirannwn/kandarin"]
+  },
+  {
+    "id": "Trident_of_the_swamp#*",
     "tags": ["1h", "*"],
     "regions": ["tirannwn"]
   },
@@ -1593,6 +1857,10 @@
   },
   {
     "id": "Ultor_ring",
+    "regions": ["varlamore/fremennik"]
+  },
+  {
+    "id": "Ultor_ring#*",
     "tags": ["*"],
     "regions": ["varlamore"]
   },
@@ -1621,6 +1889,10 @@
   },
   {
     "id": "Venator_ring",
+    "regions": ["desert/fremennik"]
+  },
+  {
+    "id": "Venator_ring#*",
     "tags": ["*"],
     "regions": ["desert"]
   },
@@ -1711,6 +1983,11 @@
   },
   {
     "id": "Zamorakian_hasta",
+    "tags": ["1h"],
+    "regions": ["asgarnia/kandarin"]
+  },
+  {
+    "id": "Zamorakian_hasta#*",
     "tags": ["1h", "*"],
     "regions": ["asgarnia"]
   },
