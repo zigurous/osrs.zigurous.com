@@ -20,9 +20,8 @@ export default function RegionPanelSection({
       {title && (
         <Text
           as="h2"
-          className={classNames('ml-sm', {
-            [`mb-${titleMargin}`]: titleMargin,
-          })}
+          className="ml-sm"
+          marginBottom={titleMargin}
           type="title-lg"
         >
           {title}

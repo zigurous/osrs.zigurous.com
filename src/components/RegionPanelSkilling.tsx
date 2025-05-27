@@ -94,7 +94,7 @@ export default function RegionPanelSkilling({
           ))}
         </ul>
       ) : (
-        <Text className="text-center" color="disabled">
+        <Text align="center" color="disabled">
           No activities found for the selected skill(s).
         </Text>
       )}
