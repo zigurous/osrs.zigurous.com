@@ -14,18 +14,20 @@
   },
   {
     "id": "Adamantite_bars",
+    "title": "Adamantite",
     "caption": "70-88",
     "category": "skilling",
     "sortingGroups": ["smithing"],
     "requiredLevel": 70,
     "notableDrops": [
+      "Adamantite_ore",
+      "#transmute",
       "Adamantite_bar",
       "#transmute",
-      "Adamant_dagger",
       "Adamant_bolts(unf)",
-      "Adamant_scimitar",
-      "Adamant_warhammer",
-      "Adamant_platebody"
+      "Adamant_full_helm",
+      "Adamant_platebody",
+      "Adamant_platelegs"
     ]
   },
   {
@@ -1290,18 +1292,20 @@
   },
   {
     "id": "Bronze_bars",
+    "title": "Bronze",
     "caption": "1-18",
     "category": "skilling",
     "sortingGroups": ["smithing"],
     "requiredLevel": 1,
     "notableDrops": [
+      "Tin_ore",
+      "Copper_ore",
+      "#transmute",
       "Bronze_bar",
       "#transmute",
-      "Bronze_dagger",
-      "Bronze_bolts_(unf)",
-      "Bronze_scimitar",
-      "Bronze_warhammer",
-      "Bronze_platebody"
+      "Bronze_full_helm",
+      "Bronze_platebody",
+      "Bronze_platelegs"
     ]
   },
   {
@@ -3213,6 +3217,18 @@
     ]
   },
   {
+    "id": "Gold_bars",
+    "title": "Gold",
+    "category": "skilling",
+    "sortingGroups": ["smithing"],
+    "requiredLevel": 40,
+    "notableDrops": [
+      "Gold_ore",
+      "#transmute",
+      "Gold_bar"
+    ]
+  },
+  {
     "id": "Gold_bar#Products",
     "title": "Gold Jewellery",
     "caption": "20-80",
@@ -3616,18 +3632,20 @@
   },
   {
     "id": "Iron_bars",
+    "title": "Iron",
     "caption": "15-33",
     "category": "skilling",
     "sortingGroups": ["smithing"],
     "requiredLevel": 15,
     "notableDrops": [
+      "Iron_ore",
+      "#transmute",
       "Iron_bar",
       "#transmute",
-      "Iron_dagger",
       "Iron_bolts_(unf)",
-      "Iron_scimitar",
-      "Iron_warhammer",
-      "Iron_platebody"
+      "Iron_full_helm",
+      "Iron_platebody",
+      "Iron_platelegs"
     ]
   },
   {
@@ -4211,18 +4229,20 @@
   },
   {
     "id": "Mithril_bars",
+    "title": "Mithril",
     "caption": "50-68",
     "category": "skilling",
     "sortingGroups": ["smithing"],
     "requiredLevel": 50,
     "notableDrops": [
+      "Mithril_ore",
+      "#transmute",
       "Mithril_bar",
       "#transmute",
-      "Mithril_dagger",
       "Mithril_bolts_(unf)",
-      "Mithril_scimitar",
-      "Mithril_warhammer",
-      "Mithril_platebody"
+      "Mithril_full_helm",
+      "Mithril_platebody",
+      "Mithril_platelegs"
     ]
   },
   {
@@ -5130,18 +5150,20 @@
   },
   {
     "id": "Runite_bars",
+    "title": "Runite",
     "caption": "85-99",
     "category": "skilling",
     "sortingGroups": ["smithing"],
     "requiredLevel": 85,
     "notableDrops": [
+      "Runite_ore",
+      "#transmute",
       "Runite_bar",
       "#transmute",
-      "Rune_dagger",
       "Runite_bolts_(unf)",
-      "Rune_scimitar",
-      "Rune_warhammer",
-      "Rune_platebody"
+      "Rune_full_helm",
+      "Rune_platebody",
+      "Rune_platelegs"
     ]
   },
   {
@@ -5152,23 +5174,6 @@
     "requiredLevel": 85,
     "notableDrops": [
       "Runite_ore"
-    ]
-  },
-  {
-    "id": "Rusted_anvil",
-    "subtitle": "Bronze Only",
-    "caption": "1-18",
-    "category": "skilling",
-    "sortingGroups": ["smithing"],
-    "requiredLevel": 1,
-    "notableDrops": [
-      "Bronze_bar",
-      "#transmute",
-      "Bronze_dagger",
-      "Bronze_bolts_(unf)",
-      "Bronze_scimitar",
-      "Bronze_warhammer",
-      "Bronze_platebody"
     ]
   },
   {
@@ -5515,6 +5520,18 @@
     "sortingGroups": ["thieving"],
     "notableDrops": [
       "Silk"
+    ]
+  },
+  {
+    "id": "Silver_bars",
+    "title": "Silver",
+    "category": "skilling",
+    "sortingGroups": ["smithing"],
+    "requiredLevel": 20,
+    "notableDrops": [
+      "Silver_ore",
+      "#transmute",
+      "Silver_bar"
     ]
   },
   {
@@ -5877,18 +5894,20 @@
   },
   {
     "id": "Steel_bars",
+    "title": "Steel",
     "caption": "30-49",
     "category": "skilling",
     "sortingGroups": ["smithing"],
     "requiredLevel": 30,
     "notableDrops": [
+      "Iron_ore",
+      "#transmute",
       "Steel_bar",
       "#transmute",
-      "Steel_dagger",
-      "Steel_bolts_(unf)",
-      "Steel_scimitar",
-      "Steel_warhammer",
-      "Steel_platebody"
+      "Cannonball",
+      "Steel_full_helm",
+      "Steel_platebody",
+      "Steel_platelegs"
     ]
   },
   {
@@ -5934,6 +5953,7 @@
   },
   {
     "id": "Sulphur_mine",
+    "title": "Sulphur",
     "category": "skilling",
     "sortingGroups": ["mining"],
     "requiredLevel": 42,
