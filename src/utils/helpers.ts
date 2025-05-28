@@ -43,7 +43,7 @@ export function sortByLevel(a: Activity, b: Activity): number {
     } else if (b.caption && !a.caption) {
       return -1;
     } else if (a.caption && b.caption) {
-      return a.caption.localeCompare(b.caption);
+      return a.caption.localeCompare(b.caption, undefined, { numeric: true });
     }
   }
   return aLevel - bLevel;
