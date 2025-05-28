@@ -469,6 +469,7 @@
   },
   {
     "id": "Managing_Miscellania",
+    "icon": "Stats_icon",
     "category": "misc",
     "sortingGroups": [
       "misc",

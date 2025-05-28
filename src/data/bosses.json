@@ -63,7 +63,7 @@
     "category": "boss",
     "subcategory": "slayer",
     "requiredLevel": 92,
-    "sortingGroups": ["slayer", "pvm", "herblore"],
+    "sortingGroups": ["slayer", "pvm"],
     "recommendedCombatStyle": ["melee"],
     "notableDrops": [
       "Nid",
@@ -130,7 +130,7 @@
     "title": "Callisto / Artio",
     "category": "boss",
     "subcategory": "wilderness",
-    "sortingGroups": ["pvm", "slayer", "herblore"],
+    "sortingGroups": ["pvm", "slayer"],
     "recommendedCombatStyle": ["ranged", "magic"],
     "notableDrops": [
       "Callisto_cub",
@@ -147,7 +147,7 @@
     "category": "boss",
     "subcategory": "slayer",
     "requiredLevel": 91,
-    "sortingGroups": ["slayer", "pvm", "herblore"],
+    "sortingGroups": ["slayer", "pvm"],
     "recommendedCombatStyle": ["melee", "ranged"],
     "notableDrops": [
       "Hellpuppy",
@@ -190,7 +190,7 @@
     "icon": "Commander_Zilyana_icon_(mobile)",
     "category": "boss",
     "subcategory": "gwd",
-    "sortingGroups": ["pvm", "herblore"],
+    "sortingGroups": ["pvm"],
     "recommendedCombatStyle": ["ranged"],
     "notableDrops": [
       "Pet_zilyana",
@@ -307,7 +307,7 @@
     "icon": "General_Graardor_icon_(mobile)",
     "category": "boss",
     "subcategory": "gwd",
-    "sortingGroups": ["pvm", "herblore"],
+    "sortingGroups": ["pvm"],
     "recommendedCombatStyle": ["melee", "ranged", "magic"],
     "notableDrops": [
       "Pet_general_graardor",
@@ -385,7 +385,7 @@
     "icon": "K'ril_Tsutsaroth_icon_(mobile)",
     "category": "boss",
     "subcategory": "gwd",
-    "sortingGroups": ["pvm", "slayer", "herblore"],
+    "sortingGroups": ["pvm", "slayer"],
     "recommendedCombatStyle": ["ranged", "melee", "magic"],
     "notableDrops": [
       "Pet_k'ril_tsutsaroth",
@@ -399,7 +399,7 @@
     "id": "Kalphite_Queen",
     "icon": "Kalphite_Queen_icon_(mobile)",
     "category": "boss",
-    "sortingGroups": ["pvm", "slayer", "herblore"],
+    "sortingGroups": ["pvm", "slayer"],
     "recommendedCombatStyle": ["melee", "ranged"],
     "notableDrops": [
       "Kalphite_princess",
@@ -447,7 +447,7 @@
     "icon": "Kree'arra_icon_(mobile)",
     "category": "boss",
     "subcategory": "gwd",
-    "sortingGroups": ["pvm", "slayer", "herblore"],
+    "sortingGroups": ["pvm", "slayer"],
     "recommendedCombatStyle": ["ranged", "magic"],
     "notableDrops": [
       "Pet_kree'arra",
@@ -488,7 +488,7 @@
     "icon": "Nex_icon_(mobile)",
     "category": "boss",
     "subcategory": "gwd",
-    "sortingGroups": ["pvm", "herblore"],
+    "sortingGroups": ["pvm"],
     "recommendedCombatStyle": ["ranged", "melee"],
     "notableDrops": [
       "Nexling",
@@ -514,7 +514,7 @@
     "id": "Phantom_Muspah",
     "icon": "Muphin_(ranged)",
     "category": "boss",
-    "sortingGroups": ["pvm", "herblore"],
+    "sortingGroups": ["pvm"],
     "recommendedCombatStyle": ["ranged", "magic"],
     "notableDrops": [
       "Muphin",
@@ -764,7 +764,7 @@
     "title": "Venenatis / Spindel",
     "category": "boss",
     "subcategory": "wilderness",
-    "sortingGroups": ["pvm", "slayer", "herblore"],
+    "sortingGroups": ["pvm", "slayer"],
     "recommendedCombatStyle": ["melee", "ranged"],
     "notableDrops": [
       "Venenatis_spiderling",
@@ -781,7 +781,7 @@
     "title": "Vet'ion / Calvar'ion",
     "category": "boss",
     "subcategory": "wilderness",
-    "sortingGroups": ["pvm", "slayer", "herblore"],
+    "sortingGroups": ["pvm", "slayer"],
     "recommendedCombatStyle": ["melee"],
     "notableDrops": [
       "Vet'ion_jr.",
@@ -796,7 +796,7 @@
     "id": "Vorkath",
     "icon": "Vorkath_icon_(mobile)",
     "category": "boss",
-    "sortingGroups": ["pvm", "slayer", "prayer", "crafting", "herblore"],
+    "sortingGroups": ["pvm", "slayer", "prayer", "crafting"],
     "recommendedCombatStyle": ["melee", "ranged"],
     "notableDrops": [
       "Vorki",

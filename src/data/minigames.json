@@ -333,17 +333,19 @@
     "sortingGroups": ["magic", "pvm"],
     "requiredLevel": 60,
     "notableDrops": [
-      "Saradomin_cape",
       "Saradomin_staff",
-      "Saradomin_Strike",
-      "#spacer",
-      "Guthix_cape",
-      "Guthix_staff",
-      "Claws_of_Guthix",
-      "#newline",
-      "Zamorak_cape",
       "Zamorak_staff",
-      "Flames_of_Zamorak"
+      "Guthix_staff",
+      "Saradomin_cape",
+      "Zamorak_cape",
+      "Guthix_cape",
+      "#newline",
+      "Saradomin_Strike",
+      "Flames_of_Zamorak",
+      "Claws_of_Guthix",
+      "Imbued_saradomin_cape",
+      "Imbued_zamorak_cape",
+      "Imbued_guthix_cape"
     ]
   },
   {
@@ -575,7 +577,7 @@
   {
     "id": "Temple_Trekking",
     "category": "minigame",
-    "sortingGroups": ["misc", "pvm", "fletching", "herblore"],
+    "sortingGroups": ["misc", "pvm", "fletching"],
     "notableDrops": [
       "Bow_string",
       "Pure_essence",

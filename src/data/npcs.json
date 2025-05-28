@@ -12,17 +12,6 @@
     ]
   },
   {
-    "id": "Alwyn",
-    "subtitle": "Estate Agent",
-    "category": "npc",
-    "sortingGroups": ["construction"],
-    "notableDrops": [
-      "Construct._hood",
-      "Construct._cape",
-      "Construct._cape(t)"
-    ]
-  },
-  {
     "id": "Armour_salesman",
     "title": "Aaron",
     "subtitle": "Skill Master",
@@ -94,38 +83,6 @@
       "Slayer_hood",
       "Slayer_cape",
       "Slayer_cape(t)"
-    ]
-  },
-  {
-    "id": "Ellis",
-    "title": "Tanner",
-    "subtitle": "Al Kharid",
-    "category": "npc",
-    "sortingGroups": ["crafting"],
-    "notableDrops": [
-      "Leather",
-      "Hard_leather",
-      "Snakeskin",
-      "Green_dragon_leather",
-      "Blue_dragon_leather",
-      "Red_dragon_leather",
-      "Black_dragon_leather"
-    ]
-  },
-  {
-    "id": "Eodan",
-    "title": "Tanner",
-    "subtitle": "Forthos Dungeon",
-    "category": "npc",
-    "sortingGroups": ["crafting"],
-    "notableDrops": [
-      "Leather",
-      "Hard_leather",
-      "Snakeskin",
-      "Green_dragon_leather",
-      "Blue_dragon_leather",
-      "Red_dragon_leather",
-      "Black_dragon_leather"
     ]
   },
   {
@@ -290,22 +247,6 @@
     "sortingGroups": ["slayer"]
   },
   {
-    "id": "Leatherworker",
-    "title": "Tanner",
-    "subtitle": "Ranging Guild",
-    "category": "npc",
-    "sortingGroups": ["crafting"],
-    "notableDrops": [
-      "Leather",
-      "Hard_leather",
-      "Snakeskin",
-      "Green_dragon_leather",
-      "Blue_dragon_leather",
-      "Red_dragon_leather",
-      "Black_dragon_leather"
-    ]
-  },
-  {
     "id": "Mac",
     "icon": "Stats_icon",
     "subtitle": "Skill Master",
@@ -348,22 +289,6 @@
       "Thieving_hood",
       "Thieving_cape",
       "Thieving_cape(t)"
-    ]
-  },
-  {
-    "id": "Mary_(Getting_Ahead)",
-    "title": "Tanner",
-    "subtitle": "Kebos Lowlands",
-    "category": "npc",
-    "sortingGroups": ["crafting"],
-    "notableDrops": [
-      "Leather",
-      "Hard_leather",
-      "Snakeskin",
-      "Green_dragon_leather",
-      "Blue_dragon_leather",
-      "Red_dragon_leather",
-      "Black_dragon_leather"
     ]
   },
   {
@@ -445,22 +370,6 @@
     ]
   },
   {
-    "id": "Sbott",
-    "title": "Tanner",
-    "subtitle": "Canifis",
-    "category": "npc",
-    "sortingGroups": ["crafting"],
-    "notableDrops": [
-      "Leather",
-      "Hard_leather",
-      "Snakeskin",
-      "Green_dragon_leather",
-      "Blue_dragon_leather",
-      "Red_dragon_leather",
-      "Black_dragon_leather"
-    ]
-  },
-  {
     "id": "Sloane",
     "subtitle": "Skill Master",
     "category": "npc",
@@ -501,22 +410,6 @@
       "Hitpoints_hood",
       "Hitpoints_cape",
       "Hitpoints_cape(t)"
-    ]
-  },
-  {
-    "id": "Tanner_(Crafting_Guild)",
-    "title": "Tanner",
-    "subtitle": "Crafting Guild",
-    "category": "npc",
-    "sortingGroups": ["crafting"],
-    "notableDrops": [
-      "Leather",
-      "Hard_leather",
-      "Snakeskin",
-      "Green_dragon_leather",
-      "Blue_dragon_leather",
-      "Red_dragon_leather",
-      "Black_dragon_leather"
     ]
   },
   {

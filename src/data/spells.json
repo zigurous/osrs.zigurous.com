@@ -329,7 +329,7 @@
     "category": "spell",
     "spellbook": "Lunar",
     "requiredLevel": 68,
-    "sortingGroups": ["magic", "farming", "herblore", "crafting"],
+    "sortingGroups": ["magic", "farming", "crafting"],
     "notableDrops": [
       "Humidify",
       "#transmute",

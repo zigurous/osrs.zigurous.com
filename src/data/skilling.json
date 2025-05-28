@@ -2118,6 +2118,7 @@
   },
   {
     "id": "Daeyalt_essence_mine",
+    "title": "Daeyalt Essence",
     "category": "skilling",
     "sortingGroups": ["mining", "runecraft"],
     "requiredLevel": 60,
@@ -2232,6 +2233,7 @@
   },
   {
     "id": "Dense_essence_mine",
+    "title": "Dense Essence",
     "category": "skilling",
     "sortingGroups": ["mining", "runecraft"],
     "requiredLevel": 38,
@@ -3298,16 +3300,6 @@
   },
   {
     "id": "Guard#Pickpocketing",
-    "title": "Guard",
-    "category": "skilling",
-    "requiredLevel": 40,
-    "sortingGroups": ["thieving"],
-    "notableDrops": [
-      "Coins"
-    ]
-  },
-  {
-    "id": "Guard_(Varlamore)#Pickpocketing",
     "title": "Guard",
     "category": "skilling",
     "requiredLevel": 40,
@@ -4438,10 +4430,8 @@
   },
   {
     "id": "Ourania_Altar",
-    "caption": "1-99",
     "category": "skilling",
     "sortingGroups": ["runecraft"],
-    "requiredLevel": 1,
     "notableDrops": [
       "Air_rune",
       "Water_rune",
@@ -5125,16 +5115,6 @@
       "Raw_tetra",
       "Raw_cave_eel",
       "Raw_catfish"
-    ]
-  },
-  {
-    "id": "Rune_essence_mine",
-    "category": "skilling",
-    "sortingGroups": ["mining", "runecraft"],
-    "requiredLevel": 1,
-    "notableDrops": [
-      "Rune_essence",
-      "Pure_essence"
     ]
   },
   {
@@ -6161,6 +6141,20 @@
     ]
   },
   {
+    "id": "Tanner",
+    "category": "skilling",
+    "sortingGroups": ["crafting"],
+    "notableDrops": [
+      "Leather",
+      "Hard_leather",
+      "Snakeskin",
+      "Green_dragon_leather",
+      "Blue_dragon_leather",
+      "Red_dragon_leather",
+      "Black_dragon_leather"
+    ]
+  },
+  {
     "id": "Tea_stall",
     "category": "skilling",
     "requiredLevel": 5,
@@ -6376,7 +6370,7 @@
     "id": "Vinery",
     "title": "Hosidius Vinery",
     "category": "skilling",
-    "sortingGroups": ["farming", "herblore"],
+    "sortingGroups": ["farming", "cooking"],
     "requiredLevel": 36,
     "notableDrops": [
       "Grapes",
