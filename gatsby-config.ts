@@ -1,7 +1,6 @@
 import type { GatsbyConfig } from 'gatsby';
 
 const config: GatsbyConfig = {
-  pathPrefix: '/region-analyzer',
   siteMetadata: {
     title: 'OSRS Region Analyzer',
     siteUrl: 'https://osrs.zigurous.com/region-analyzer',

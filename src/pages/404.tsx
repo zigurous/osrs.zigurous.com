@@ -3,7 +3,7 @@ import { useEffect } from 'react';
 
 export default function NotFoundPage() {
   useEffect(() => {
-    navigate('/');
+    navigate('/', { replace: true });
   }, []);
   return null;
 }

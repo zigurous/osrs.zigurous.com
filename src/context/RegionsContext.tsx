@@ -97,7 +97,7 @@ export function RegionsContextProvider({
     if (selectedRegions.length > 0) {
       return navigate(`?region=${selectedRegions.join(',')}`, options);
     } else {
-      return navigate('/', options);
+      return navigate('/region-analyzer', options);
     }
   }, [selectedRegions]);
 
