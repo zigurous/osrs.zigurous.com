@@ -26,10 +26,10 @@ export default function PrivacyPolicy({
         information ("Personal Information") you may provide on the{' '}
         <a
           className="link"
-          href="https://zigurous.github.io/osrs-region-analyzer"
+          href="https://osrs.zigurous.com/region-analyzer"
           target="_blank"
         >
-          zigurous.github.io/osrs-region-analyzer
+          osrs.zigurous.com/region-analyzer
         </a>{' '}
         website ("Website" or "Service") is collected, protected and used. It
         also describes the choices available to you regarding our use of your

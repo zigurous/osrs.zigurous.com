@@ -26,10 +26,10 @@ export default function TermsAndConditions({
         conditions of your use of the{' '}
         <a
           className="link"
-          href="https://zigurous.github.io/osrs-region-analyzer"
+          href="https://osrs.zigurous.com/region-analyzer"
           target="_blank"
         >
-          zigurous.github.io/osrs-region-analyzer
+          osrs.zigurous.com/region-analyzer
         </a>{' '}
         website ("Website" or "Service"). This Agreement is legally binding
         between you ("User", "you" or "your") and this Website operator
