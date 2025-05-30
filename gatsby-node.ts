@@ -151,6 +151,17 @@ export const createSchemaCustomization = ({
       npcs: [String!]!
       misc: [String!]!
       pets: [String!]!
+      resources: Resources!
+    }
+    type Resources {
+      bars: [String!]!
+      bones: [String!]!
+      food: [String!]!
+      logs: [String!]!
+      misc: [String!]!
+      ores: [String!]!
+      runes: [String!]!
+      secondaries: [String!]!
     }
     type SkillingJson implements Node @dontInfer {
       jsonId: String!

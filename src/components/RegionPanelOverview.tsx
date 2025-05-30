@@ -2,6 +2,7 @@ import { Text } from '@zigurous/forge-react';
 import React, { useMemo } from 'react';
 import RegionPanelSection from './RegionPanelSection';
 import TitledCard from './TitledCard';
+import WikiIcon from './WikiIcon';
 import WikiLink from './WikiLink';
 import { useActivitiesContext, useLocationsContext } from '../context';
 import { formatNameFromId, getIconForActivity, sortByIcon, sortByName } from '../utils'; // prettier-ignore
@@ -38,10 +39,9 @@ export default function RegionPanelOverview({
         .map(id => {
           const activity = getActivityById(id);
           if (!activity) return null;
-          if (activity.category === 'monster') {
-            return { ...activity, icon: undefined };
-          }
-          return activity;
+          return activity.category === 'monster'
+            ? { ...activity, icon: undefined }
+            : activity;
         })
         .filter(activity => !!activity)
         .sort(sortByName)
@@ -170,17 +170,7 @@ function OverviewListItem({
   return (
     <li id={item.id} key={item.id}>
       <WikiLink className="flex align-center" wikiId={item.link || item.id}>
-        <div
-          className="inline-flex justify-center align-center shrink-0"
-          style={{ width: '21px', height: '21px' }}
-        >
-          <img
-            alt=""
-            aria-hidden
-            className="object-contain w-full h-full"
-            src={`https://oldschool.runescape.wiki/images/${item.icon || getIconForActivity(item as Activity)}.png`}
-          />
-        </div>
+        <WikiIcon icon={item.icon || getIconForActivity(item as Activity)} />
         <div className="flex align-center justify-between w-full ml-md">
           <Text as="span" size="md">
             {item.title || item.name || formatNameFromId(item.id)}

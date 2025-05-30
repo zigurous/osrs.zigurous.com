@@ -68,6 +68,14 @@ body {
   z-index: 1;
 }
 
+.app-header__left.col {
+  flex-basis: 66%;
+}
+
+.app-header__right.col {
+  flex-basis: 33%;
+}
+
 .app-footer {
   background-color: var(--color-surface-2);
 }

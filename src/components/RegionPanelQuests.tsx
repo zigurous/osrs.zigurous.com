@@ -4,6 +4,7 @@ import React from 'react';
 import ItemsStack from './ItemsStack';
 import RegionPanelSection from './RegionPanelSection';
 import TitledCard from './TitledCard';
+import WikiIcon from './WikiIcon';
 import WikiLink from './WikiLink';
 import { useItemsContext } from '../context';
 import { formatNameFromId } from '../utils';
@@ -39,12 +40,8 @@ export default function RegionPanelQuests({ region }: RegionPanelQuestsProps) {
       )}
       {storylines.map(series => (
         <TitledCard
-          key={series.id}
           caption={series.caption}
-          title={series.title || formatNameFromId(series.id)}
-          titleIconRight="open_in_new"
-          titleLinkId={series.link || `Quests/Series#${series.id}`}
-          type="list"
+          key={series.id}
           subtitle={
             series.id.includes('#') &&
             storylines.some(
@@ -54,22 +51,15 @@ export default function RegionPanelQuests({ region }: RegionPanelQuestsProps) {
               ? series.id.split('#')[1]
               : undefined
           }
+          title={series.title || formatNameFromId(series.id)}
+          titleLinkId={series.link || `Quests/Series#${series.id}`}
+          type="list"
         >
           <ul>
             {series.quests.map(quest => (
               <li id={quest} key={quest}>
                 <WikiLink className="flex align-center" wikiId={quest}>
-                  <div
-                    className="inline-flex justify-center align-center shrink-0"
-                    style={{ width: '21px', height: '21px' }}
-                  >
-                    <img
-                      alt=""
-                      aria-hidden
-                      className="object-contain w-full h-full"
-                      src="https://oldschool.runescape.wiki/images/Quest_point_icon.png"
-                    />
-                  </div>
+                  <WikiIcon icon="Quest_point_icon" />
                   <div className="flex align-center justify-between w-full ml-md">
                     <Text as="span" size="md">
                       {formatNameFromId(quest)}

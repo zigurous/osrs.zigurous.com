@@ -144,6 +144,16 @@ const dataQuery = graphql`
         npcs
         misc
         pets
+        resources {
+          bars
+          bones
+          food
+          logs
+          misc
+          ores
+          runes
+          secondaries
+        }
       }
     }
   }

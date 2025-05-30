@@ -96,6 +96,10 @@
     "icon": "Angler_hat"
   },
   {
+    "id": "Antipoison",
+    "icon": "Antipoison(4)"
+  },
+  {
     "id": "Anvil",
     "icon": "Anvil_icon"
   },
@@ -125,13 +129,6 @@
       "Blessed_spirit_shield",
       "#equals",
       "Arcane_spirit_shield"
-    ]
-  },
-  {
-    "id": "Arctic_pine_logs",
-    "transmutations": [
-      "#transmute",
-      "Neitiznot_shield"
     ]
   },
   {
@@ -911,6 +908,10 @@
     "icon": "Golden_warbler_icon"
   },
   {
+    "id": "Granite",
+    "icon": "Granite_(5kg)"
+  },
+  {
     "id": "Granite_dust",
     "transmutations": [
       "#plus",
@@ -927,6 +928,10 @@
     "id": "Grimy_herb",
     "icon": "Grimy_guam_leaf",
     "name": "Grimy Herbs"
+  },
+  {
+    "id": "Guthix_rest",
+    "icon": "Guthix_rest(4)"
   },
   {
     "id": "Hallowed_mark",
@@ -1293,13 +1298,6 @@
     "icon": "Lunar_torso"
   },
   {
-    "id": "Lunar_ore",
-    "transmutations": [
-      "#transmute",
-      "Lunar_bar"
-    ]
-  },
-  {
     "id": "Magic_fang",
     "transmutations": [
       "#transmute",
@@ -1660,6 +1658,10 @@
     ]
   },
   {
+    "id": "Sandstone",
+    "icon": "Sandstone_(10kg)"
+  },
+  {
     "id": "Sanguine_dust",
     "tags": ["cosmetic"]
   },
@@ -1804,6 +1806,10 @@
     "icon": "Snowy_knight_icon"
   },
   {
+    "id": "Snowy_knight_mix",
+    "icon": "Snowy_knight_mix_(2)"
+  },
+  {
     "id": "Sorceress's_Garden",
     "icon": "Summer_sq'irk"
   },
@@ -1864,6 +1870,10 @@
     "icon": "Stardust_175"
   },
   {
+    "id": "Strawberries",
+    "icon": "Strawberries(5)"
+  },
+  {
     "id": "Sunfire_splinters",
     "icon": "Sunfire_splinters_4"
   },
@@ -1882,6 +1892,22 @@
   {
     "id": "Sunlit_bracers",
     "tags": ["leagues"]
+  },
+  {
+    "id": "Superantipoison",
+    "icon": "Superantipoison(4)"
+  },
+  {
+    "id": "Super_attack",
+    "icon": "Super_attack(4)"
+  },
+  {
+    "id": "Super_defence",
+    "icon": "Super_defence(4)"
+  },
+  {
+    "id": "Super_strength",
+    "icon": "Super_strength(4)"
   },
   {
     "id": "Supply_crate_(Mahogany_Homes)",

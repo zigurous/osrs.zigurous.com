@@ -13,5 +13,6 @@ export { default as RootLayout } from './RootLayout';
 export { default as SkillingFilters } from './SkillingFilters';
 export { default as TitledCard } from './TitledCard';
 export { default as Tooltip } from './Tooltip';
+export { default as WikiIcon } from './WikiIcon';
 export { default as WikiLink } from './WikiLink';
 export { default as WorldMap } from './WorldMap';

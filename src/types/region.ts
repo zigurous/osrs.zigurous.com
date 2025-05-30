@@ -27,4 +27,16 @@ export interface Region {
   npcs: string[];
   misc: string[];
   pets: string[];
+  resources: Resources;
+}
+
+export interface Resources {
+  bars: string[];
+  bones: string[];
+  food: string[];
+  logs: string[];
+  misc: string[];
+  ores: string[];
+  runes: string[];
+  secondaries: string[];
 }

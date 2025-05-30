@@ -80,8 +80,6 @@ export default function RegionPanelBosses({ region }: RegionPanelBossesProps) {
                 <TitledCard
                   subtitle={raid.subtitle}
                   title={raid.title || formatNameFromId(raid.id)}
-                  // titleIconLeft={raid.icon}
-                  titleIconRight="open_in_new"
                   titleLinkId={raid.id}
                 >
                   <ItemsStack highlights="all" items={drops} />
@@ -103,8 +101,6 @@ export default function RegionPanelBosses({ region }: RegionPanelBossesProps) {
                 <TitledCard
                   subtitle={boss.subtitle}
                   title={boss.title || formatNameFromId(boss.id)}
-                  // titleIconLeft={boss.icon}
-                  titleIconRight="open_in_new"
                   titleLinkId={boss.id}
                 >
                   <ItemsStack highlights="all" items={drops} />

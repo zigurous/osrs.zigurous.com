@@ -1,3 +1,4 @@
+import { Icon } from '@zigurous/forge-react';
 import classNames from 'classnames';
 import React, { useState } from 'react';
 import ItemsStack from './ItemsStack';
@@ -27,6 +28,18 @@ export default function ActivityCard({
   return (
     <TitledCard
       caption={activity.caption ?? activity.requiredLevel?.toString()}
+      captionIcon={
+        <Icon
+          icon={
+            expandable
+              ? expanded
+                ? 'expand_less'
+                : 'expand_more'
+              : 'open_in_new'
+          }
+          size={expandable ? 16 : 12}
+        />
+      }
       className={classNames(
         {
           'titled-card--expanded': expanded,
@@ -38,11 +51,7 @@ export default function ActivityCard({
       shadow={false}
       subtitle={activity.subtitle}
       title={activity.title || formatNameFromId(activity.id)}
-      titleIconLeft={getIconForActivity(activity)}
-      titleIconRight={
-        expandable ? (expanded ? 'expand_less' : 'expand_more') : 'open_in_new'
-      }
-      titleIconSize={expandable ? 16 : 12}
+      titleIcon={getIconForActivity(activity)}
       titleLinkUrl={activity.url}
       titleLinkId={expandable ? undefined : activity.id}
     >

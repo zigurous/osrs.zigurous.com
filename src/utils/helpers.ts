@@ -1,6 +1,6 @@
 import { capitalizeFirstLetter } from '@zigurous/forge-react';
 import { combatSkills, iconOrder, nonCombatSkills, skills } from './constants'; // prettier-ignore
-import type { Activity, CombatSkill, CombatStyle, NonCombatSkill, Region, RegionId, Skill, SortingGroup, Spell, Spellbook } from '../types'; // prettier-ignore
+import type { Activity, CombatSkill, CombatStyle, NonCombatSkill, Region, RegionId, Resources, Skill, SortingGroup, Spell, Spellbook } from '../types'; // prettier-ignore
 
 const autoDetectedItemSuffixes = [
   '_arrow',
@@ -63,7 +63,7 @@ export function getAssociatedSkill(activity: Activity): Skill | undefined {
   return activity.sortingGroups.find(g => skills.includes(g as Skill)) as Skill;
 }
 
-export function getIconForActivity(activity: Activity): string | undefined {
+export function getIconForActivity(activity: Activity): string {
   if (
     activity.icon &&
     activity.category !== 'boss' &&
@@ -76,7 +76,8 @@ export function getIconForActivity(activity: Activity): string | undefined {
     // @ts-ignore
     const spell = activity as Spell;
     if (spell.spellbook !== 'Standard') {
-      return getIconForSpellbook(spell.spellbook);
+      const icon = getIconForSpellbook(spell.spellbook);
+      if (icon) return icon;
     }
   }
 
@@ -221,14 +222,41 @@ export function combineRegions(regions: Region[]): Region {
     npcs: combineUniqueIds(regions, 'npcs'),
     misc: combineUniqueIds(regions, 'misc'),
     pets: combineUniqueIds(regions, 'pets'),
+    resources: {
+      bars: combineUniqueResourceIds(regions, 'bars'),
+      bones: combineUniqueResourceIds(regions, 'bones'),
+      food: combineUniqueResourceIds(regions, 'food'),
+      logs: combineUniqueResourceIds(regions, 'logs'),
+      misc: combineUniqueResourceIds(regions, 'misc'),
+      ores: combineUniqueResourceIds(regions, 'ores'),
+      runes: combineUniqueResourceIds(regions, 'runes'),
+      secondaries: combineUniqueResourceIds(regions, 'secondaries'),
+    },
   };
 }
 
-function combineUniqueIds(regions: Region[], prop: keyof Region): string[] {
+function combineUniqueIds(
+  regions: Omit<Region, 'resources'>[],
+  prop: keyof Omit<Region, 'resources'>,
+): string[] {
   return [
     ...new Set(
       regions
         .map(region => region[prop])
+        .flat()
+        .sort(sortById),
+    ),
+  ];
+}
+
+function combineUniqueResourceIds(
+  regions: Region[],
+  prop: keyof Resources,
+): string[] {
+  return [
+    ...new Set(
+      regions
+        .map(region => region.resources[prop])
         .flat()
         .sort(sortById),
     ),

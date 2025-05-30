@@ -100,7 +100,6 @@ export default function RegionPanelSlayer({ region }: RegionPanelSlayerProps) {
                 <TitledCard
                   subtitle={monster.subtitle}
                   title={monster.title || formatNameFromId(monster.id)}
-                  titleIconRight="open_in_new"
                   titleLinkId={monster.id}
                 >
                   <ItemsStack items={drops} />

@@ -101,50 +101,35 @@ export default function BestInSlotEquipmentCard({
 
   return (
     <TitledCard
-      title={category.title}
-      titleIconLeft={category.icon}
-      className="overflow-hidden"
-      customTitle={
+      captionIcon={
         category.subcategories && (
-          <>
-            <div className="titled-card__title">
-              <img
-                alt=""
-                aria-hidden
-                className="titled-card__icon"
-                src={`https://oldschool.runescape.wiki/images/${category.icon}.png`}
+          <Stack
+            inline
+            className="h-0"
+            align="center"
+            justify="end"
+            spacing="xxs"
+          >
+            {category.subcategories.map(subcategory => (
+              <IconToggle
+                icon={subcategory.icon}
+                key={subcategory.id}
+                label={subcategory.label}
+                on={subcategoryId === subcategory.id}
+                onChange={on =>
+                  setSettings(settings => ({
+                    ...settings,
+                    [category.subcategoryKey]: on ? subcategory.id : undefined,
+                  }))
+                }
               />
-              <Text size="lg" type="title">
-                {category.title}
-              </Text>
-            </div>
-            <Stack
-              inline
-              className="h-0"
-              align="center"
-              justify="end"
-              spacing="xxs"
-            >
-              {category.subcategories.map(subcategory => (
-                <IconToggle
-                  icon={subcategory.icon}
-                  key={subcategory.id}
-                  label={subcategory.label}
-                  on={subcategoryId === subcategory.id}
-                  onChange={on =>
-                    setSettings(settings => ({
-                      ...settings,
-                      [category.subcategoryKey]: on
-                        ? subcategory.id
-                        : undefined,
-                    }))
-                  }
-                />
-              ))}
-            </Stack>
-          </>
+            ))}
+          </Stack>
         )
       }
+      className="overflow-hidden"
+      title={category.title}
+      titleIcon={category.icon}
     >
       <EquipmentInventory slots={equipment} />
     </TitledCard>

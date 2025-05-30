@@ -6,6 +6,7 @@ import RegionPanelBosses from './RegionPanelBosses';
 import RegionPanelOverview from './RegionPanelOverview';
 import RegionPanelPets from './RegionPanelPets';
 import RegionPanelQuests from './RegionPanelQuests';
+import RegionPanelResources from './RegionPanelResources';
 import RegionPanelSkilling from './RegionPanelSkilling';
 import RegionPanelSlayer from './RegionPanelSlayer';
 import RegionPanelTabs from './RegionPanelTabs';
@@ -15,13 +16,14 @@ import type { Region } from '../types';
 import '../styles/region-panel.css';
 
 export type RegionPanelTab =
-  | 'Overview'
-  | 'Skilling'
-  | 'Bosses'
-  | 'Pets'
   | 'Best In Slot'
-  | 'Slayer'
-  | 'Quests';
+  | 'Bosses'
+  | 'Overview'
+  | 'Pets'
+  | 'Quests'
+  | 'Resources'
+  | 'Skilling'
+  | 'Slayer';
 
 export default function RegionPanel() {
   const [selectedTab, setSelectedTab] = useState<RegionPanelTab>('Overview');
@@ -61,7 +63,7 @@ export default function RegionPanel() {
               { name: 'Overview', disabled: false },
               { name: 'Skilling', disabled: false },
               { name: 'Bosses', disabled: false },
-              { name: 'Quests', disabled: false },
+              { name: 'Slayer', disabled: false },
             ]}
             selectedTab={selectedTab}
             onSelectTab={tab => setSelectedTab(tab)}
@@ -69,7 +71,8 @@ export default function RegionPanel() {
           <RegionPanelTabs
             tabs={[
               { name: 'Best In Slot', disabled: false },
-              { name: 'Slayer', disabled: false },
+              { name: 'Resources', disabled: false },
+              { name: 'Quests', disabled: false },
               { name: 'Pets', disabled: false },
             ]}
             selectedTab={selectedTab}
@@ -93,20 +96,22 @@ export default function RegionPanel() {
 
 function renderTab(selectedTab: RegionPanelTab, selectedRegion: Region) {
   switch (selectedTab) {
-    case 'Overview':
-      return <RegionPanelOverview region={selectedRegion} />;
-    case 'Skilling':
-      return <RegionPanelSkilling region={selectedRegion} />;
-    case 'Bosses':
-      return <RegionPanelBosses region={selectedRegion} />;
-    case 'Quests':
-      return <RegionPanelQuests region={selectedRegion} />;
     case 'Best In Slot':
       return <RegionPanelBestInSlot region={selectedRegion} />;
-    case 'Slayer':
-      return <RegionPanelSlayer region={selectedRegion} />;
+    case 'Bosses':
+      return <RegionPanelBosses region={selectedRegion} />;
+    case 'Overview':
+      return <RegionPanelOverview region={selectedRegion} />;
     case 'Pets':
       return <RegionPanelPets region={selectedRegion} />;
+    case 'Quests':
+      return <RegionPanelQuests region={selectedRegion} />;
+    case 'Resources':
+      return <RegionPanelResources region={selectedRegion} />;
+    case 'Skilling':
+      return <RegionPanelSkilling region={selectedRegion} />;
+    case 'Slayer':
+      return <RegionPanelSlayer region={selectedRegion} />;
     default:
       return null;
   }

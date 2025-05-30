@@ -758,6 +758,16 @@
     ]
   },
   {
+    "id": "Babydragon_bones",
+    "caption": "30xp",
+    "category": "skilling",
+    "sortingGroups": ["prayer"],
+    "requiredLevel": 1,
+    "notableDrops": [
+      "Babydragon_bones"
+    ]
+  },
+  {
     "id": "Bakery_stall",
     "title": "Baker's Stall",
     "category": "skilling",
@@ -962,8 +972,10 @@
   },
   {
     "id": "Big_bones",
+    "caption": "15xp",
     "category": "skilling",
     "sortingGroups": ["prayer"],
+    "requiredLevel": 1,
     "notableDrops": [
       "Big_bones"
     ]
@@ -1234,6 +1246,15 @@
       "Runite_bolts",
       "#equals",
       "Onyx_bolts"
+    ]
+  },
+  {
+    "id": "Bones",
+    "caption": "4.5xp",
+    "category": "skilling",
+    "sortingGroups": ["prayer"],
+    "notableDrops": [
+      "Bones"
     ]
   },
   {
@@ -1756,6 +1777,18 @@
     ]
   },
   {
+    "id": "Cooked_dashing_kebbit",
+    "title": "Dashing Kebbit",
+    "category": "skilling",
+    "sortingGroups": ["cooking"],
+    "requiredLevel": 82,
+    "notableDrops": [
+      "Raw_dashing_kebbit",
+      "#transmute",
+      "Cooked_dashing_kebbit"
+    ]
+  },
+  {
     "id": "Cooked_karambwan",
     "title": "Karambwan",
     "category": "skilling",
@@ -2134,8 +2167,10 @@
   },
   {
     "id": "Dagannoth_bones",
+    "caption": "125xp",
     "category": "skilling",
     "sortingGroups": ["prayer"],
+    "requiredLevel": 1,
     "notableDrops": [
       "Dagannoth_bones"
     ]
@@ -2277,8 +2312,10 @@
   },
   {
     "id": "Dragon_bones",
+    "caption": "72xp",
     "category": "skilling",
     "sortingGroups": ["prayer"],
+    "requiredLevel": 1,
     "notableDrops": [
       "Dragon_bones"
     ]
@@ -2310,8 +2347,10 @@
   },
   {
     "id": "Drake_bones",
+    "caption": "80xp",
     "category": "skilling",
     "sortingGroups": ["prayer"],
+    "requiredLevel": 1,
     "notableDrops": [
       "Drake_bones"
     ]
@@ -2538,8 +2577,10 @@
   },
   {
     "id": "Fayrg_bones",
+    "caption": "84xp",
     "category": "skilling",
     "sortingGroups": ["prayer"],
+    "requiredLevel": 1,
     "notableDrops": [
       "Fayrg_bones"
     ]
@@ -3576,8 +3617,10 @@
   },
   {
     "id": "Hydra_bones",
+    "caption": "110xp",
     "category": "skilling",
     "sortingGroups": ["prayer"],
+    "requiredLevel": 1,
     "notableDrops": [
       "Hydra_bones"
     ]
@@ -3689,8 +3732,10 @@
   },
   {
     "id": "Jogre_bones",
+    "caption": "15xp",
     "category": "skilling",
     "sortingGroups": ["prayer"],
+    "requiredLevel": 1,
     "notableDrops": [
       "Jogre_bones"
     ]
@@ -3771,8 +3816,10 @@
   },
   {
     "id": "Lava_dragon_bones",
+    "caption": "85xp",
     "category": "skilling",
     "sortingGroups": ["prayer"],
+    "requiredLevel": 1,
     "notableDrops": [
       "Lava_dragon_bones"
     ]
@@ -4272,6 +4319,16 @@
     ]
   },
   {
+    "id": "Monkey_bones",
+    "caption": "5xp",
+    "category": "skilling",
+    "sortingGroups": ["prayer"],
+    "requiredLevel": 1,
+    "notableDrops": [
+      "Monkey_bones"
+    ]
+  },
+  {
     "id": "Monkfish",
     "category": "skilling",
     "sortingGroups": ["cooking"],
@@ -4471,8 +4528,10 @@
   },
   {
     "id": "Ourg_bones",
+    "caption": "140xp",
     "category": "skilling",
     "sortingGroups": ["prayer"],
+    "requiredLevel": 1,
     "notableDrops": [
       "Ourg_bones"
     ]
@@ -4686,8 +4745,10 @@
   },
   {
     "id": "Raurg_bones",
+    "caption": "96xp",
     "category": "skilling",
     "sortingGroups": ["prayer"],
+    "requiredLevel": 1,
     "notableDrops": [
       "Raurg_bones"
     ]
@@ -5427,6 +5488,16 @@
     ]
   },
   {
+    "id": "Shaikahan_bones",
+    "caption": "25xp",
+    "category": "skilling",
+    "sortingGroups": ["prayer"],
+    "requiredLevel": 1,
+    "notableDrops": [
+      "Shaikahan_bones"
+    ]
+  },
+  {
     "id": "Shark",
     "category": "skilling",
     "sortingGroups": ["cooking"],
@@ -5988,8 +6059,10 @@
   },
   {
     "id": "Sun-kissed_bones",
+    "caption": "225xp",
     "category": "skilling",
     "sortingGroups": ["prayer"],
+    "requiredLevel": 1,
     "notableDrops": [
       "Sun-kissed_bones",
       "#transmute",
@@ -6116,6 +6189,7 @@
   },
   {
     "id": "Superior_dragon_bones",
+    "caption": "150xp",
     "category": "skilling",
     "sortingGroups": ["prayer"],
     "requiredLevel": 70,
@@ -6624,24 +6698,30 @@
   },
   {
     "id": "Wyrm_bones",
+    "caption": "50xp",
     "category": "skilling",
     "sortingGroups": ["prayer"],
+    "requiredLevel": 1,
     "notableDrops": [
       "Wyrm_bones"
     ]
   },
   {
     "id": "Wyrmling_bones",
+    "caption": "21xp",
     "category": "skilling",
     "sortingGroups": ["prayer"],
+    "requiredLevel": 1,
     "notableDrops": [
       "Wyrmling_bones"
     ]
   },
   {
     "id": "Wyvern_bones",
+    "caption": "72xp",
     "category": "skilling",
     "sortingGroups": ["prayer"],
+    "requiredLevel": 1,
     "notableDrops": [
       "Wyvern_bones"
     ]
@@ -6745,8 +6825,10 @@
   },
   {
     "id": "Zogre_bones",
+    "caption": "22.5xp",
     "category": "skilling",
     "sortingGroups": ["prayer"],
+    "requiredLevel": 1,
     "notableDrops": [
       "Zogre_bones"
     ]
