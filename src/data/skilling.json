@@ -5921,6 +5921,7 @@
     "id": "Spicy_stew",
     "category": "skilling",
     "sortingGroups": ["cooking"],
+    "requiredLevel": 25,
     "notableDrops": [
       "Stew",
       "#plus",
