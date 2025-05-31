@@ -87,8 +87,10 @@ export default function RegionPanelSkilling({
         <HelpTooltip
           text={
             <>
-              <p className="mb-xxxs">Click a skill below to filter the list</p>
-              <p>
+              <p className="text-left mb-xxxs">
+                Click a skill below to filter the list
+              </p>
+              <p className="text-left">
                 <b className="font-500">• Shift+Click</b> to select a range of
                 skills
                 <br />
