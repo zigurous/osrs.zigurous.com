@@ -14,6 +14,11 @@ export interface ItemData {
   name?: string;
   tags?: ItemTag[];
   transmutations?: string[];
+  tooltip?: string;
+}
+
+export interface FoodData extends ItemData {
+  healing: string | number;
 }
 
 export interface PetData extends Omit<ItemData, 'transmutations'> {

@@ -67,6 +67,7 @@ const dataQuery = graphql`
         name
         tags
         transmutations
+        tooltip
       }
     }
     pets: allPetsJson {

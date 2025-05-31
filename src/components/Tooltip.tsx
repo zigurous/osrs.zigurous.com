@@ -13,14 +13,21 @@ export default function Tooltip({ text, element }: TooltipProps) {
     <ReactPortal>
       <div
         aria-hidden
-        className="custom-tooltip caption line-tight"
+        className="custom-tooltip caption"
         role="tooltip"
         style={{
           top: rect.top,
           left: rect.left + rect.width / 2,
         }}
       >
-        {text}
+        {typeof text === 'string' && text.includes('\n')
+          ? text.split('\n').map(line => (
+              <>
+                {line}
+                <br />
+              </>
+            ))
+          : text}
       </div>
     </ReactPortal>
   );

@@ -4,6 +4,8 @@
   background-color: black;
   border-radius: var(--radius-sm);
   padding: var(--spacing-xxs) var(--spacing-sm) calc(var(--spacing-xxs) + 1px);
+  line-height: 1.25;
+  text-align: center;
   z-index: var(--z-index-tooltip);
   pointer-events: none;
   animation: fadeIn 100ms ease-in-out;

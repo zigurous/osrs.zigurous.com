@@ -1,15 +1,26 @@
+import classNames from 'classnames';
 import React from 'react';
 
-interface WikiIconProps {
+type WikiIconProps = {
   icon: string;
   size?: string | number;
-}
+} & React.ComponentPropsWithoutRef<'span'>;
 
-export default function WikiIcon({ icon, size = 21 }: WikiIconProps) {
+export default function WikiIcon({
+  className,
+  icon,
+  size = 21,
+  style,
+  ...rest
+}: WikiIconProps) {
   return (
     <span
-      className="inline-flex justify-center align-center shrink-0"
-      style={{ width: size, height: size }}
+      className={classNames(
+        'inline-flex justify-center align-center shrink-0',
+        className,
+      )}
+      style={{ ...style, width: size, height: size }}
+      {...rest}
     >
       <img
         alt=""

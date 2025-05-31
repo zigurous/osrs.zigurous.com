@@ -72,6 +72,7 @@ export const createSchemaCustomization = ({
       name: String
       tags: [String!]
       transmutations: [String!]
+      tooltip: String
     }
     type LocationsJson implements Node @dontInfer {
       jsonId: String!

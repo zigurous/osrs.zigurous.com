@@ -5,7 +5,7 @@ import RegionPanelSection from './RegionPanelSection';
 import TitledCard from './TitledCard';
 import WikiIcon from './WikiIcon';
 import { useItemsContext } from '../context';
-import type { ItemData, Region } from '../types';
+import type { FoodData, ItemData, Region } from '../types';
 
 interface RegionPanelResourcesProps {
   region: Region;
@@ -88,6 +88,7 @@ export default function RegionPanelResources({
           <ItemsStack
             items={itemsContext
               .getItemsByIds(region.resources.food)
+              .map(item => ({ ...item, healing: healing[item.id] }) as FoodData)
               .sort(sortItems)}
           />
         </TitledCard>
@@ -151,6 +152,7 @@ const itemOrder = [
   'Potato_with_cheese',
   'Monkfish',
   'Cooked_karambwan',
+  'Blighted_karambwan',
   'Curry',
   'Ugthanki_kebab',
   'Guthix_rest',
@@ -162,15 +164,13 @@ const itemOrder = [
   'Wild_pie',
   'Summer_pie',
   'Tuna_potato',
-  'Manta_ray',
   'Dark_crab',
+  'Manta_ray',
+  'Blighted_manta_ray',
   'Anglerfish',
+  'Blighted_anglerfish',
   'Cooked_dashing_kebbit',
   'Cooked_moonlight_antelope',
-  'Blighted_karambwan',
-  'Blighted_manta_ray',
-  'Blighted_anglerfish',
-  'Strawberries',
   'Saradomin_brew',
   // Runes
   'Air_rune',
@@ -347,3 +347,44 @@ const itemOrder = [
   'Mushroom',
   'Sulliuscep_cap',
 ];
+
+const healing: Record<string, number | string> = {
+  ['Anglerfish']: '3-22',
+  ['Bass']: 13,
+  ['Blighted_anglerfish']: '3-22',
+  ['Blighted_karambwan']: 18,
+  ['Blighted_manta_ray']: 22,
+  ['Bread']: 5,
+  ['Cake']: '4x3',
+  ['Cooked_chicken']: 3,
+  ['Cooked_dashing_kebbit']: '13+10',
+  ['Cooked_karambwan']: 18,
+  ['Cooked_meat']: 3,
+  ['Cooked_moonlight_antelope']: '14+12',
+  ['Cooked_sunlight_antelope']: '12+9',
+  ['Curry']: 19,
+  ['Dark_crab']: 22,
+  ['Guthix_rest']: '5x4',
+  ['Jug_of_wine']: 11,
+  ['Lobster']: 12,
+  ['Manta_ray']: 22,
+  ['Monkfish']: 16,
+  ['Mushroom_potato']: 20,
+  ['Pineapple_pizza']: '11x2',
+  ['Plain_pizza']: '7x2',
+  ['Potato_with_cheese']: 16,
+  ['Salmon']: 9,
+  ['Saradomin_brew']: '16x4',
+  ['Sea_turtle']: 21,
+  ['Shark']: 20,
+  ['Shrimps']: 3,
+  ['Snowy_knight_mix']: '8x2',
+  ['Stew']: 11,
+  ['Summer_pie']: '11x2',
+  ['Swordfish']: 14,
+  ['Trout']: 7,
+  ['Tuna_potato']: 22,
+  ['Tuna']: 10,
+  ['Ugthanki_kebab']: 19,
+  ['Wild_pie']: '11x2',
+};
