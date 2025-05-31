@@ -15,7 +15,7 @@ export default function TermsAndConditions({
       closeOnScrimClick
       onRequestClose={onRequestClose}
       open={open}
-      size="lg"
+      size="xl"
       title="Terms and Conditions"
     >
       <p className="mb-md">
