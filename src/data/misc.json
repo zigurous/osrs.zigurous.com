@@ -331,9 +331,7 @@
       "fishing",
       "farming",
       "woodcutting",
-      "mining",
-      "prayer",
-      "herblore"
+      "mining"
     ],
     "notableDrops": [
       "Unidentified_small_fossil",
@@ -559,7 +557,6 @@
       "location",
       "woodcutting",
       "fishing",
-      "cooking",
       "mining",
       "smithing",
       "misc"

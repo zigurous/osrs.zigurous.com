@@ -94,7 +94,18 @@
   {
     "id": "Dwarven_Mine",
     "category": "dungeon",
-    "sortingGroups": ["dungeon", "mining"]
+    "sortingGroups": ["dungeon", "mining"],
+    "notableDrops": [
+      "Clay",
+      "Tin_ore",
+      "Copper_ore",
+      "Iron_ore",
+      "Coal",
+      "Gold_ore",
+      "Mithril_ore",
+      "Adamantite_ore",
+      "Rune_pickaxe"
+    ]
   },
   {
     "id": "Edgeville_Dungeon",
@@ -104,7 +115,7 @@
   {
     "id": "Forthos_Dungeon",
     "category": "dungeon",
-    "sortingGroups": ["dungeon", "pvm", "prayer", "crafting", "thieving", "herblore"],
+    "sortingGroups": ["dungeon", "pvm", "prayer", "crafting", "thieving"],
     "notableDrops": [
       "Mask_of_ranul",
       "Tattered_sun_page",
@@ -133,7 +144,7 @@
   {
     "id": "God_Wars_Dungeon",
     "category": "dungeon",
-    "sortingGroups": ["dungeon", "pvm", "slayer", "herblore"]
+    "sortingGroups": ["dungeon", "pvm", "slayer"]
   },
   {
     "id": "Ice_Troll_Caves",
@@ -210,6 +221,25 @@
     "id": "Lumbridge_Swamp_Caves",
     "category": "dungeon",
     "sortingGroups": ["dungeon", "pvm", "slayer"]
+  },
+  {
+    "id": "Lunar_Isle_mine",
+    "category": "dungeon",
+    "sortingGroups": ["dungeon", "mining"],
+    "notableDrops": [
+      "Uncut_opal",
+      "Uncut_jade",
+      "Uncut_red_topaz",
+      "Uncut_sapphire",
+      "Uncut_emerald",
+      "Uncut_ruby",
+      "Uncut_diamond",
+      "Rune_essence",
+      "Pure_essence",
+      "Silver_ore",
+      "Gold_ore",
+      "Lunar_ore"
+    ]
   },
   {
     "id": "Meiyerditch_Laboratories",
@@ -341,6 +371,22 @@
     "sortingGroups": ["dungeon", "pvm", "slayer"]
   },
   {
+    "id": "Trahaearn_mine",
+    "category": "dungeon",
+    "sortingGroups": ["dungeon", "mining"],
+    "notableDrops": [
+      "Iron_ore",
+      "Silver_ore",
+      "Coal",
+      "Gold_ore",
+      "Mithril_ore",
+      "Adamantite_ore",
+      "Runite_ore",
+      "Soft_clay",
+      "Crystal_shard"
+    ]
+  },
+  {
     "id": "Underground_Pass_(dungeon)",
     "title": "Underground Pass",
     "category": "dungeon",
@@ -401,7 +447,7 @@
   {
     "id": "Yanille_Dungeon",
     "category": "dungeon",
-    "sortingGroups": ["dungeon", "pvm", "agility", "herblore"]
+    "sortingGroups": ["dungeon", "pvm", "agility"]
   },
   {
     "id": "Zemouregal's_Base",

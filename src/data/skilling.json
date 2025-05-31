@@ -238,6 +238,21 @@
     ]
   },
   {
+    "id": "Ammonite_Crab",
+    "category": "skilling",
+    "sortingGroups": ["pvm", "attack", "strength", "defence", "ranged", "magic", "hitpoints"],
+    "requiredLevel": 1,
+    "notableDrops": [
+      "Pyrophosphite",
+      "Calcite",
+      "Numulite",
+      "Unidentified_small_fossil",
+      "Unidentified_medium_fossil",
+      "Unidentified_large_fossil",
+      "Unidentified_rare_fossil"
+    ]
+  },
+  {
     "id": "Ancient_brew",
     "category": "skilling",
     "sortingGroups": ["herblore"],
@@ -1015,6 +1030,8 @@
     "requiredLevel": 30,
     "sortingGroups": ["thieving"],
     "notableDrops": [
+      "Willow_blackjack",
+      "#transmute",
       "Coins"
     ]
   },
@@ -1671,54 +1688,10 @@
     ]
   },
   {
-    "id": "Colossal_Wyrm_Agility",
-    "caption": "50-62",
+    "id": "Colossal_Wyrm_Agility_Course",
+    "caption": "50/62",
     "category": "skilling",
     "requiredLevel": 50,
-    "sortingGroups": ["agility"],
-    "notableDrops": [
-      "Graceful_hood_(Varlamore)",
-      "Graceful_top_(Varlamore)",
-      "Graceful_legs_(Varlamore)",
-      "Graceful_gloves_(Varlamore)",
-      "Graceful_boots_(Varlamore)",
-      "Graceful_cape_(Varlamore)",
-      "#newline",
-      "Termites",
-      "Colossal_wyrm_teleport_scroll",
-      "Graceful_crafting_kit",
-      "Amylase_pack",
-      "Calcified_acorn"
-    ]
-  },
-  {
-    "id": "Colossal_Wyrm_Agility_Course#Basic_course_obstacles",
-    "title": "Colossal Wyrm Course",
-    "subtitle": "Basic",
-    "category": "skilling",
-    "requiredLevel": 50,
-    "sortingGroups": ["agility"],
-    "notableDrops": [
-      "Graceful_hood_(Varlamore)",
-      "Graceful_top_(Varlamore)",
-      "Graceful_legs_(Varlamore)",
-      "Graceful_gloves_(Varlamore)",
-      "Graceful_boots_(Varlamore)",
-      "Graceful_cape_(Varlamore)",
-      "#newline",
-      "Termites",
-      "Colossal_wyrm_teleport_scroll",
-      "Graceful_crafting_kit",
-      "Amylase_pack",
-      "Calcified_acorn"
-    ]
-  },
-  {
-    "id": "Colossal_Wyrm_Agility_Course#Advanced_course_obstacles",
-    "title": "Colossal Wyrm Course",
-    "subtitle": "Advanced",
-    "category": "skilling",
-    "requiredLevel": 62,
     "sortingGroups": ["agility"],
     "notableDrops": [
       "Graceful_hood_(Varlamore)",
@@ -2869,6 +2842,16 @@
     ]
   },
   {
+    "id": "Frost_Crab",
+    "category": "skilling",
+    "sortingGroups": ["pvm", "attack", "strength", "defence", "ranged", "magic", "hitpoints"],
+    "requiredLevel": 1,
+    "notableDrops": [
+      "Frozen_tear",
+      "Tooth_half_of_key_(moon_key)"
+    ]
+  },
+  {
     "id": "Fruit_stall",
     "category": "skilling",
     "requiredLevel": 25,
@@ -3166,7 +3149,9 @@
     "category": "skilling",
     "sortingGroups": ["prayer"],
     "notableDrops": [
-      "XP"
+      "Marble_block",
+      "Bolt_of_cloth",
+      "Gold_leaf"
     ]
   },
   {
@@ -3418,10 +3403,8 @@
   },
   {
     "id": "Hardwood_Grove",
-    "caption": "35/50",
     "category": "skilling",
-    "sortingGroups": ["woodcutting", "construction"],
-    "requiredLevel": 35,
+    "sortingGroups": ["woodcutting"],
     "notableDrops": [
       "Trading_sticks",
       "#transmute",
@@ -4012,25 +3995,6 @@
     "requiredLevel": 65,
     "notableDrops": [
       "Lovakite_ore"
-    ]
-  },
-  {
-    "id": "Lunar_Isle_mine",
-    "category": "skilling",
-    "sortingGroups": ["location", "mining"],
-    "notableDrops": [
-      "Uncut_opal",
-      "Uncut_jade",
-      "Uncut_red_topaz",
-      "Uncut_sapphire",
-      "Uncut_emerald",
-      "Uncut_ruby",
-      "Uncut_diamond",
-      "Rune_essence",
-      "Pure_essence",
-      "Silver_ore",
-      "Gold_ore",
-      "Lunar_ore"
     ]
   },
   {
@@ -5235,6 +5199,15 @@
     ]
   },
   {
+    "id": "Rock_Crab",
+    "category": "skilling",
+    "sortingGroups": ["pvm", "attack", "strength", "defence", "ranged", "magic", "hitpoints"],
+    "requiredLevel": 1,
+    "notableDrops": [
+      "Seaweed"
+    ]
+  },
+  {
     "id": "Rogue#Pickpocketing",
     "title": "Rogue",
     "category": "skilling",
@@ -5305,6 +5278,15 @@
     ]
   },
   {
+    "id": "Sacred_Bone_Burner",
+    "category": "skilling",
+    "sortingGroups": ["prayer"],
+    "notableDrops": [
+      "Babydragon_bones",
+      "Dragon_bones"
+    ]
+  },
+  {
     "id": "Sacred_eel",
     "category": "skilling",
     "sortingGroups": ["fishing"],
@@ -5337,6 +5319,16 @@
     "requiredLevel": 1,
     "notableDrops": [
       "Saltpetre"
+    ]
+  },
+  {
+    "id": "Sand_Crab",
+    "category": "skilling",
+    "sortingGroups": ["pvm", "attack", "strength", "defence", "ranged", "magic", "hitpoints"],
+    "requiredLevel": 1,
+    "notableDrops": [
+      "Seaweed",
+      "Bucket_of_sand"
     ]
   },
   {
@@ -5576,22 +5568,11 @@
     ]
   },
   {
-    "id": "Shayzien_Agility_Course#Basic_course",
-    "title": "Shayzien Agility Course",
-    "subtitle": "Basic",
+    "id": "Shayzien_Agility_Course",
+    "caption": "1/45",
     "category": "skilling",
+    "sortingGroups": ["agility"],
     "requiredLevel": 1,
-    "sortingGroups": ["agility"],
-    "notableDrops": [
-      "Mark_of_grace"]
-  },
-  {
-    "id": "Shayzien_Agility_Course#Advanced_course",
-    "title": "Shayzien Agility Course",
-    "subtitle": "Advanced",
-    "category": "skilling",
-    "requiredLevel": 45,
-    "sortingGroups": ["agility"],
     "notableDrops": [
       "Mark_of_grace",
       "Crossbow",
@@ -6380,22 +6361,6 @@
     ]
   },
   {
-    "id": "Trahaearn_mine",
-    "category": "skilling",
-    "sortingGroups": ["location", "mining"],
-    "notableDrops": [
-      "Iron_ore",
-      "Silver_ore",
-      "Coal",
-      "Gold_ore",
-      "Mithril_ore",
-      "Adamantite_ore",
-      "Runite_ore",
-      "Soft_clay",
-      "Crystal_shard"
-    ]
-  },
-  {
     "id": "Tree",
     "category": "skilling",
     "sortingGroups": ["woodcutting"],
@@ -6671,7 +6636,6 @@
   },
   {
     "id": "Werewolf_Skullball",
-    "title": "Skullball",
     "category": "skilling",
     "requiredLevel": 25,
     "sortingGroups": ["agility"],

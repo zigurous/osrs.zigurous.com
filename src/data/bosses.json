@@ -130,7 +130,7 @@
     "title": "Callisto / Artio",
     "category": "boss",
     "subcategory": "wilderness",
-    "sortingGroups": ["pvm", "slayer"],
+    "sortingGroups": ["pvm"],
     "recommendedCombatStyle": ["ranged", "magic"],
     "notableDrops": [
       "Callisto_cub",
@@ -385,7 +385,7 @@
     "icon": "K'ril_Tsutsaroth_icon_(mobile)",
     "category": "boss",
     "subcategory": "gwd",
-    "sortingGroups": ["pvm", "slayer"],
+    "sortingGroups": ["pvm"],
     "recommendedCombatStyle": ["ranged", "melee", "magic"],
     "notableDrops": [
       "Pet_k'ril_tsutsaroth",
@@ -399,7 +399,7 @@
     "id": "Kalphite_Queen",
     "icon": "Kalphite_Queen_icon_(mobile)",
     "category": "boss",
-    "sortingGroups": ["pvm", "slayer"],
+    "sortingGroups": ["pvm", "slayer", "herblore"],
     "recommendedCombatStyle": ["melee", "ranged"],
     "notableDrops": [
       "Kalphite_princess",
@@ -416,7 +416,7 @@
     "icon": "King_Black_Dragon_icon_(mobile)",
     "category": "boss",
     "subcategory": "wilderness",
-    "sortingGroups": ["pvm", "slayer"],
+    "sortingGroups": ["pvm"],
     "recommendedCombatStyle": ["melee", "ranged"],
     "notableDrops": [
       "Prince_black_dragon",
@@ -447,7 +447,7 @@
     "icon": "Kree'arra_icon_(mobile)",
     "category": "boss",
     "subcategory": "gwd",
-    "sortingGroups": ["pvm", "slayer"],
+    "sortingGroups": ["pvm"],
     "recommendedCombatStyle": ["ranged", "magic"],
     "notableDrops": [
       "Pet_kree'arra",
@@ -545,7 +545,7 @@
     "id": "Sarachnis",
     "icon": "Sarachnis_icon_(mobile)",
     "category": "boss",
-    "sortingGroups": ["pvm", "slayer"],
+    "sortingGroups": ["pvm"],
     "recommendedCombatStyle": ["melee"],
     "notableDrops": [
       "Sraracha",
@@ -559,7 +559,7 @@
     "icon": "Scorpia's_offspring",
     "category": "boss",
     "subcategory": "wilderness",
-    "sortingGroups": ["pvm", "slayer"],
+    "sortingGroups": ["pvm"],
     "recommendedCombatStyle": ["magic"],
     "notableDrops": [
       "Scorpia's_offspring",
@@ -583,7 +583,7 @@
     "id": "Skotizo",
     "icon": "Skotizo_icon_(mobile)",
     "category": "boss",
-    "sortingGroups": ["pvm", "slayer"],
+    "sortingGroups": ["pvm"],
     "recommendedCombatStyle": ["melee", "ranged"],
     "notableDrops": [
       "Skotos",
@@ -720,7 +720,7 @@
     "id": "TzTok-Jad",
     "icon": "Tzrek-jad",
     "category": "boss",
-    "sortingGroups": ["pvm", "slayer"],
+    "sortingGroups": ["pvm"],
     "recommendedCombatStyle": ["ranged", "melee"],
     "notableDrops": [
       "Tzrek-jad",
@@ -731,7 +731,7 @@
     "id": "TzKal-Zuk",
     "icon": "Tzrek-zuk",
     "category": "boss",
-    "sortingGroups": ["pvm", "slayer"],
+    "sortingGroups": ["pvm"],
     "recommendedCombatStyle": ["ranged", "hybrid"],
     "notableDrops": [
       "Jal-nib-rek",
@@ -764,7 +764,7 @@
     "title": "Venenatis / Spindel",
     "category": "boss",
     "subcategory": "wilderness",
-    "sortingGroups": ["pvm", "slayer"],
+    "sortingGroups": ["pvm"],
     "recommendedCombatStyle": ["melee", "ranged"],
     "notableDrops": [
       "Venenatis_spiderling",
@@ -781,7 +781,7 @@
     "title": "Vet'ion / Calvar'ion",
     "category": "boss",
     "subcategory": "wilderness",
-    "sortingGroups": ["pvm", "slayer"],
+    "sortingGroups": ["pvm"],
     "recommendedCombatStyle": ["melee"],
     "notableDrops": [
       "Vet'ion_jr.",
