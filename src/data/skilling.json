@@ -4669,10 +4669,76 @@
     ]
   },
   {
-    "id": "Portal_(Player-owned_house)",
+    "id": "Portal_(Player-owned_house)#Rimmington",
     "title": "House Portal",
+    "subtitle": "Rimmington",
     "category": "skilling",
-    "sortingGroups": ["construction"]
+    "sortingGroups": ["construction"],
+    "requiredLevel": 1
+  },
+  {
+    "id": "Portal_(Player-owned_house)#Taverly",
+    "title": "House Portal",
+    "subtitle": "Taverly",
+    "category": "skilling",
+    "sortingGroups": ["construction"],
+    "requiredLevel": 10
+  },
+  {
+    "id": "Portal_(Player-owned_house)#Pollnivneach",
+    "title": "House Portal",
+    "subtitle": "Pollnivneach",
+    "category": "skilling",
+    "sortingGroups": ["construction"],
+    "requiredLevel": 20
+  },
+  {
+    "id": "Portal_(Player-owned_house)#Hosidius",
+    "title": "House Portal",
+    "subtitle": "Hosidius",
+    "category": "skilling",
+    "sortingGroups": ["construction"],
+    "requiredLevel": 25
+  },
+  {
+    "id": "Portal_(Player-owned_house)#Rellekka",
+    "title": "House Portal",
+    "subtitle": "Rellekka",
+    "category": "skilling",
+    "sortingGroups": ["construction"],
+    "requiredLevel": 30
+  },
+  {
+    "id": "Portal_(Player-owned_house)#Aldarin",
+    "title": "House Portal",
+    "subtitle": "Aldarin",
+    "category": "skilling",
+    "sortingGroups": ["construction"],
+    "requiredLevel": 35
+  },
+  {
+    "id": "Portal_(Player-owned_house)#Brimhaven",
+    "title": "House Portal",
+    "subtitle": "Brimhaven",
+    "category": "skilling",
+    "sortingGroups": ["construction"],
+    "requiredLevel": 40
+  },
+  {
+    "id": "Portal_(Player-owned_house)#Yanille",
+    "title": "House Portal",
+    "subtitle": "Yanille",
+    "category": "skilling",
+    "sortingGroups": ["construction"],
+    "requiredLevel": 50
+  },
+  {
+    "id": "Portal_(Player-owned_house)#Prifddinas",
+    "title": "House Portal",
+    "subtitle": "Prifddinas",
+    "category": "skilling",
+    "sortingGroups": ["construction"],
+    "requiredLevel": 70
   },
   {
     "id": "Pottery_Oven",

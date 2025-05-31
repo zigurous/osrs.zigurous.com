@@ -1,14 +1,14 @@
 import React, { createContext, useContext, useState } from 'react';
 import { skillingFilters } from '../utils';
-import type { Activity, SkillingFilter } from '../types';
+import type { Activity, SkillFilter } from '../types';
 
 interface SkillingFilterContextData {
-  selectedFilters: SkillingFilter[];
-  setFilter: (filter: SkillingFilter) => void;
+  selectedFilters: SkillFilter[];
+  setFilter: (filter: SkillFilter) => void;
   clearFilter: () => void;
-  addFilter: (filter: SkillingFilter) => void;
-  removeFilter: (filter: SkillingFilter) => void;
-  selectRange: (filter: SkillingFilter) => void;
+  addFilter: (filter: SkillFilter) => void;
+  removeFilter: (filter: SkillFilter) => void;
+  selectRange: (filter: SkillFilter) => void;
   isActivityFiltered: (activity: Activity) => boolean;
 }
 
@@ -33,26 +33,26 @@ export function useSkillingFilterContext(): SkillingFilterContextData {
 export function SkillingFilterContextProvider({
   children,
 }: React.PropsWithChildren) {
-  const [selection, setSelection] = useState<SkillingFilter[]>([]);
-  const [pivot, setPivot] = useState<SkillingFilter | null>(null);
+  const [selection, setSelection] = useState<SkillFilter[]>([]);
+  const [pivot, setPivot] = useState<SkillFilter | null>(null);
   return (
     <SkillingFilterContext.Provider
       value={{
         selectedFilters: selection,
-        setFilter: (filter: SkillingFilter) => {
+        setFilter: (filter: SkillFilter) => {
           setPivot(filter);
           setSelection([filter]);
         },
         clearFilter: () => {
           setSelection([]);
         },
-        addFilter: (filter: SkillingFilter) => {
+        addFilter: (filter: SkillFilter) => {
           setPivot(filter);
           setSelection(previous =>
             previous.includes(filter) ? previous : [...previous, filter],
           );
         },
-        removeFilter: (filter: SkillingFilter) => {
+        removeFilter: (filter: SkillFilter) => {
           setPivot(filter);
           setSelection(previous =>
             previous.includes(filter)
@@ -60,7 +60,7 @@ export function SkillingFilterContextProvider({
               : previous,
           );
         },
-        selectRange(filter: SkillingFilter) {
+        selectRange(filter: SkillFilter) {
           if (!pivot) {
             setPivot(filter);
             setSelection([filter]);

@@ -7,6 +7,8 @@ type Settings = {
   bisStrict: boolean;
   dropsPets: boolean;
   dropsCosmetics: boolean;
+  minSkillLevel: number | '';
+  maxSkillLevel: number | '';
 } & BestInSlotSubcategories;
 
 const defaultSettings: Settings = {
@@ -19,6 +21,8 @@ const defaultSettings: Settings = {
   bisPrayerSubcategory: undefined,
   dropsPets: false,
   dropsCosmetics: false,
+  minSkillLevel: '',
+  maxSkillLevel: '',
 };
 
 declare function Setter<K extends keyof Settings>(

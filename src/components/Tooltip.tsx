@@ -3,7 +3,7 @@ import React from 'react';
 import '../styles/tooltip.css';
 
 interface TooltipProps {
-  text: string;
+  text: React.ReactNode;
   element: HTMLElement;
 }
 
@@ -13,7 +13,7 @@ export default function Tooltip({ text, element }: TooltipProps) {
     <ReactPortal>
       <div
         aria-hidden
-        className="custom-tooltip caption"
+        className="custom-tooltip caption line-tight"
         role="tooltip"
         style={{
           top: rect.top,

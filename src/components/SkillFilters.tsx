@@ -3,22 +3,22 @@ import React, { useRef, useState } from 'react';
 import Tooltip from './Tooltip';
 import { useSkillingFilterContext } from '../context';
 import { formatNameFromId, getIconForSortingGroup, skillingFilters } from '../utils'; // prettier-ignore
-import type { SkillingFilter } from '../types';
-import '../styles/activity-filter.css';
+import type { SkillFilter } from '../types';
+import '../styles/skill-filters.css';
 
-interface SkillingFiltersProps {
+interface SkillFiltersProps {
   className?: string;
-  disabledFilters?: SkillingFilter[];
+  disabledFilters?: SkillFilter[];
 }
 
-export default function SkillingFilters({
+export default function SkillFilters({
   className,
   disabledFilters = [],
-}: SkillingFiltersProps) {
+}: SkillFiltersProps) {
   return (
-    <div className={classNames('activity-filter', className)}>
+    <div className={classNames('skill-filters', className)}>
       {skillingFilters.map(filter => (
-        <SkillingFilterButton
+        <SkillFilterButton
           disabled={disabledFilters.includes(filter)}
           filter={filter}
           key={filter}
@@ -28,15 +28,15 @@ export default function SkillingFilters({
   );
 }
 
-interface SkillingFilterButtonProps {
-  filter: SkillingFilter;
+interface SkillFilterButtonProps {
+  filter: SkillFilter;
   disabled?: boolean;
 }
 
-function SkillingFilterButton({
+function SkillFilterButton({
   filter,
   disabled = false,
-}: SkillingFilterButtonProps) {
+}: SkillFilterButtonProps) {
   const ref = useRef<HTMLButtonElement>(null);
   const [hovering, setHovering] = useState(false);
   const context = useSkillingFilterContext();

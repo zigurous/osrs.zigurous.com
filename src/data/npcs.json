@@ -269,7 +269,7 @@
   {
     "id": "Martin_the_Master_Gardener",
     "title": "Martin",
-    "subtitle": "Master Farmer",
+    "subtitle": "Skill Master",
     "category": "npc",
     "sortingGroups": ["farming"],
     "requiredLevel": 99,
@@ -293,7 +293,7 @@
   },
   {
     "id": "Master_crafter",
-    "subtitle": "Crafting Guild",
+    "subtitle": "Skill Master",
     "category": "npc",
     "sortingGroups": ["crafting"],
     "requiredLevel": 99,
@@ -305,7 +305,7 @@
   },
   {
     "id": "Master_fisher",
-    "subtitle": "Fishing Guild",
+    "subtitle": "Skill Master",
     "category": "npc",
     "sortingGroups": ["fishing"],
     "requiredLevel": 99,
@@ -402,6 +402,7 @@
   },
   {
     "id": "Surgeon_General_Tafani",
+    "title": "Surgeon General",
     "subtitle": "Skill Master",
     "category": "npc",
     "sortingGroups": ["hitpoints"],

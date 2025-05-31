@@ -111,6 +111,13 @@ export default function RegionPanelResources({
               .sort(sortItems)}
           />
         </TitledCard>
+        <TitledCard title="Misc">
+          <ItemsStack
+            items={itemsContext
+              .getItemsByIds(region.resources.misc)
+              .sort(sortItems)}
+          />
+        </TitledCard>
       </ul>
     </RegionPanelSection>
   );

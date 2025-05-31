@@ -177,7 +177,7 @@
     "category": "spell",
     "spellbook": "Standard",
     "requiredLevel": 4,
-    "sortingGroups": ["magic", "ranged"],
+    "sortingGroups": ["magic"],
     "notableDrops": [
       "Enchant_Crossbow_Bolt",
       "#transmute",

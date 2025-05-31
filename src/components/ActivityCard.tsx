@@ -29,16 +29,18 @@ export default function ActivityCard({
     <TitledCard
       caption={activity.caption ?? activity.requiredLevel?.toString()}
       captionIcon={
-        <Icon
-          icon={
-            expandable
-              ? expanded
-                ? 'expand_less'
-                : 'expand_more'
-              : 'open_in_new'
-          }
-          size={expandable ? 16 : 12}
-        />
+        <span className="inline-flex justify-center align-center w-lg h-lg color-inherit">
+          <Icon
+            icon={
+              expandable
+                ? expanded
+                  ? 'expand_less'
+                  : 'expand_more'
+                : 'open_in_new'
+            }
+            size={expandable ? 16 : 12}
+          />
+        </span>
       }
       className={classNames(
         {

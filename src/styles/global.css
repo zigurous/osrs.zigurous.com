@@ -108,6 +108,12 @@ a.text-primary:hover {
   color: var(--btn-color-secondary);
 }
 
+input::placeholder,
+select::placeholder,
+textarea::placeholder {
+  color: rgb(from var(--color-foreground) r g b / var(--opacity-disabled));
+}
+
 .toggle > input:checked + .toggle__slider {
   background-color: var(--color-secondary);
 }

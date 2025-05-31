@@ -78,7 +78,7 @@ export default function TitledCard({
           <div className="titled-card__caption">
             {caption && (
               <Text
-                className={classNames({ 'mr-sm': Boolean(captionIcon) })}
+                className={Boolean(captionIcon) ? 'mr-sm' : undefined}
                 type="caption"
               >
                 {caption}

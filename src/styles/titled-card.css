@@ -26,7 +26,8 @@
   color: rgb(from var(--color-foreground) r g b / var(--opacity-muted));
 }
 
-.titled-card__caption > i {
+.titled-card__caption > i,
+.titled-card__caption > span > i {
   opacity: var(--opacity-muted);
   user-select: none;
 }

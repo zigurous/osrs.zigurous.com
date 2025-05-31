@@ -3,4 +3,4 @@ import { combatSkills, nonCombatSkills, skills, skillingFilters } from '../utils
 export type Skill = (typeof skills)[number];
 export type CombatSkill = (typeof combatSkills)[number];
 export type NonCombatSkill = (typeof nonCombatSkills)[number];
-export type SkillingFilter = (typeof skillingFilters)[number];
+export type SkillFilter = (typeof skillingFilters)[number];

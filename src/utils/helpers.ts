@@ -124,6 +124,7 @@ export function getIconForSortingGroup(
     case 'firemaking':
     case 'woodcutting':
     case 'farming':
+    case 'sailing':
       return getIconForSkill(sortingGroup as Skill);
     case 'boss': return 'Master_Reanimation';
     case 'chest': return 'Crystal_key';

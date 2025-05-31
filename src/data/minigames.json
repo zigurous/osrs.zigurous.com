@@ -2,7 +2,7 @@
   {
     "id": "Barbarian_Assault",
     "category": "minigame",
-    "sortingGroups": ["pvm", "ranged"],
+    "sortingGroups": ["pvm"],
     "notableDrops": [
       "Pet_penance_queen",
       "Fighter_torso",
@@ -421,7 +421,7 @@
   {
     "id": "Nightmare_Zone",
     "category": "minigame",
-    "sortingGroups": ["pvm", "melee", "ranged"],
+    "sortingGroups": ["pvm", "attack", "strength", "defence", "ranged", "magic", "hitpoints"],
     "notableDrops": [
       "Imbuing",
       "Scroll_of_redirection",
@@ -433,7 +433,7 @@
     "id": "Pest_Control",
     "caption": "40-100",
     "category": "minigame",
-    "sortingGroups": ["pvm"],
+    "sortingGroups": ["pvm", "attack", "strength", "defence", "ranged", "magic", "hitpoints", "prayer"],
     "requiredLevel": 40,
     "notableDrops": [
       "Void_melee_helm",

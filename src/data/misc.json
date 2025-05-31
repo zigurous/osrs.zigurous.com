@@ -146,9 +146,10 @@
   },
   {
     "id": "Combat_Ring_(Shayzien)",
+    "icon": "Attack_icon",
     "title": "Shayzien Combat Ring",
     "category": "pvm",
-    "sortingGroups": ["melee", "pvm"],
+    "sortingGroups": ["pvm", "melee", "attack", "strength", "defence"],
     "notableDrops": [
       "Shayzien_helm_(1)",
       "Shayzien_helm_(2)",

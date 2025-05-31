@@ -1,11 +1,12 @@
-import { Text } from '@zigurous/forge-react';
+import { Stack, Text } from '@zigurous/forge-react';
 import React, { useCallback, useMemo } from 'react';
 import ActivityCard from './ActivityCard';
-import ActivityFilter from './SkillingFilters';
-import RegionPanelSection from './RegionPanelSection';
-import { useActivitiesContext, useSkillingFilterContext } from '../context';
+import HelpTooltip from './HelpTooltip';
+import ActivityFilter from './SkillFilters';
+import SkillLevelInput from './SkillLevelInput';
+import { useActivitiesContext, useSettingsContext, useSkillingFilterContext } from '../context'; // prettier-ignore
 import { skillingFilters, sortByIcon, sortByLevel, sortByName } from '../utils';
-import type { Activity, Region, SkillingFilter } from '../types';
+import type { Activity, Region, SkillFilter } from '../types';
 
 interface RegionPanelSkillingProps {
   region: Region;
@@ -16,6 +17,7 @@ export default function RegionPanelSkilling({
 }: RegionPanelSkillingProps) {
   const context = useActivitiesContext();
   const filter = useSkillingFilterContext();
+  const settings = useSettingsContext();
 
   const getActivityById = useCallback(
     (id: string) => {
@@ -58,16 +60,29 @@ export default function RegionPanelSkilling({
   // sort activities so the selected categories always show first
   const sortedActivities = useMemo(
     () =>
-      activities.toSorted((a, b) => {
-        const aGroup = a.sortingGroups.length > 0 ? a.sortingGroups[0] : 'misc';
-        const bGroup = b.sortingGroups.length > 0 ? b.sortingGroups[0] : 'misc';
-        const aInc = filter.selectedFilters.includes(aGroup as SkillingFilter);
-        const bInc = filter.selectedFilters.includes(bGroup as SkillingFilter);
-        if (aInc && !bInc) return -1;
-        if (bInc && !aInc) return 1;
-        return 0;
-      }),
-    [activities, filter.selectedFilters],
+      activities
+        .filter(activity => {
+          const { minSkillLevel: min, maxSkillLevel: max } = settings;
+          if (activity.requiredLevel) {
+            if (min && activity.requiredLevel < min) return false;
+            if (max && activity.requiredLevel > max) return false;
+          } else if (min === 99) {
+            return false;
+          }
+          return true;
+        })
+        .sort((a, b) => {
+          const aGroup =
+            a.sortingGroups.length > 0 ? a.sortingGroups[0] : 'misc';
+          const bGroup =
+            b.sortingGroups.length > 0 ? b.sortingGroups[0] : 'misc';
+          const aInc = filter.selectedFilters.includes(aGroup as SkillFilter);
+          const bInc = filter.selectedFilters.includes(bGroup as SkillFilter);
+          if (aInc && !bInc) return -1;
+          if (bInc && !aInc) return 1;
+          return 0;
+        }),
+    [activities, filter.selectedFilters, settings],
   );
 
   const filteredActivities =
@@ -75,16 +90,38 @@ export default function RegionPanelSkilling({
       ? sortedActivities.filter(filter.isActivityFiltered)
       : sortedActivities;
 
-  const disabledFilters = skillingFilters.filter(
-    filter =>
-      !sortedActivities.some(activity =>
-        activity.sortingGroups?.includes(filter),
-      ),
-  );
-
   return (
-    <RegionPanelSection title="Skilling">
-      <ActivityFilter className="mb-xxl" disabledFilters={disabledFilters} />
+    <section className="panel__section">
+      <Stack className="mb-xl">
+        <Text as="h2" className="ml-sm" type="title-lg">
+          Skilling
+        </Text>
+        <HelpTooltip
+          text={
+            <>
+              <p className="mb-xxxs">Click a skill below to filter the list</p>
+              <p>
+                <b>• Shift+Click</b> to select a range of skills
+                <br />
+                <b>• Ctrl/Cmd+Click</b> to select individual skills
+              </p>
+            </>
+          }
+        />
+      </Stack>
+      <ActivityFilter disabledFilters={['sailing']} />
+      <Stack align="center" className="my-xl" spacing="sm">
+        <SkillLevelInput
+          placeholder="Min Lvl"
+          level={settings.minSkillLevel}
+          setLevel={lvl => settings.set('minSkillLevel', lvl)}
+        />
+        <SkillLevelInput
+          placeholder="Max Lvl"
+          level={settings.maxSkillLevel}
+          setLevel={lvl => settings.set('maxSkillLevel', lvl)}
+        />
+      </Stack>
       {filteredActivities.length > 0 ? (
         <ul className="drops-list drops-list--accordion mb-lg">
           {filteredActivities.map(activity => (
@@ -98,7 +135,7 @@ export default function RegionPanelSkilling({
           No activities found for the selected skill(s).
         </Text>
       )}
-    </RegionPanelSection>
+    </section>
   );
 }
 
@@ -121,6 +158,6 @@ function filterActivity(activity: Activity) {
 
   return activity.sortingGroups.some(
     group =>
-      group === 'skilling' || skillingFilters.includes(group as SkillingFilter),
+      group === 'skilling' || skillingFilters.includes(group as SkillFilter),
   );
 }

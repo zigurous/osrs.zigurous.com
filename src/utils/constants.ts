@@ -23,6 +23,7 @@ export const skills = [
   'firemaking',
   'woodcutting',
   'farming',
+  'sailing',
 ] as const;
 
 // Combat skills contribute to combat level. Slayer is not included here as it
@@ -56,13 +57,19 @@ export const nonCombatSkills = [
   'firemaking',
   'woodcutting',
   'farming',
+  'sailing',
 ] as const;
 
 export const skillingFilters = [
+  'attack',
+  'strength',
+  'defence',
+  'ranged',
   'prayer',
   'magic',
   'runecraft',
   'construction',
+  'hitpoints',
   'agility',
   'herblore',
   'thieving',
@@ -77,14 +84,17 @@ export const skillingFilters = [
   'firemaking',
   'woodcutting',
   'farming',
+  'sailing',
 ] as const;
 
 export const activityCategories = [
   'agility',
+  'attack',
   'chest',
   'construction',
   'cooking',
   'crafting',
+  'defence',
   'diaries',
   'dungeon',
   'farming',
@@ -92,6 +102,7 @@ export const activityCategories = [
   'fishing',
   'fletching',
   'herblore',
+  'hitpoints',
   'hunter',
   'location',
   'magic',
@@ -106,11 +117,13 @@ export const activityCategories = [
   'quest',
   'ranged',
   'runecraft',
+  'sailing',
   'skilling',
   'slayer',
   'smithing',
   'spell',
   'spellbook',
+  'strength',
   'thieving',
   'woodcutting',
 ] as const;
