@@ -1253,6 +1253,7 @@
     "caption": "4.5xp",
     "category": "skilling",
     "sortingGroups": ["prayer"],
+    "requiredLevel": 1,
     "notableDrops": [
       "Bones"
     ]
