@@ -566,9 +566,10 @@
     "storylines": [
       "Fremennik",
       "Moon_Clan",
+      "Dragonkin#Fremennik",
       "Mahjarrat#Fremennik",
-      "Miscellania",
       "Red_Axe",
+      "Miscellania",
       "Penguin"
     ],
     "skilling": [
@@ -876,6 +877,7 @@
       "Gnome",
       "Camelot",
       "Elemental_Workshop",
+      "Dragonkin#Kandarin",
       "Mahjarrat#Kandarin"
     ],
     "skilling": [
@@ -1852,7 +1854,7 @@
     "storylines": [
       "Demon_Slayer",
       "Dorgeshuun",
-      "Dragonkin",
+      "Dragonkin#Misthalin",
       "Fairytale",
       "Mahjarrat#Misthalin",
       "Order_of_Wizards",

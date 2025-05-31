@@ -43,10 +43,38 @@
     ]
   },
   {
-    "id": "Dragonkin",
+    "id": "Dragonkin#Fremennik",
+    "link": "Quests/Series#Dragonkin",
+    "title": "Dragonkin",
+    "quests": [
+      "Dragon_Slayer_II"
+    ],
+    "unlocks": [
+      "Vorkath",
+      "Ava's_assembler",
+      "Superior_dragon_bones",
+      "Super_antifire_potion"
+    ]
+  },
+  {
+    "id": "Dragonkin#Kandarin",
+    "link": "Quests/Series#Dragonkin",
+    "title": "Dragonkin",
+    "quests": [
+      "Dragon_Slayer_II"
+    ],
+    "unlocks": [
+      "Wrath_Altar",
+      "Locator_orb",
+      "Mythical_cape"
+    ]
+  },
+  {
+    "id": "Dragonkin#Misthalin",
+    "link": "Quests/Series#Dragonkin",
+    "title": "Dragonkin",
     "quests": [
       "Dragon_Slayer_I",
-      "A_Tail_of_Two_Cats",
       "Dragon_Slayer_II"
     ],
     "unlocks": [
@@ -54,14 +82,8 @@
       "Dragonfire_shield",
       "Green_d'hide_body",
       "Rune_platebody",
-      "Wrath_Altar",
-      "Super_antifire_potion",
-      "Locator_orb",
       "Dragon_platebody",
       "Dragon_kiteshield",
-      "Mythical_cape",
-      "Ava's_assembler",
-      "Vorkath",
       "Ferocious_gloves"
     ]
   },
