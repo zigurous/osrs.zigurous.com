@@ -154,6 +154,8 @@ function filterActivity(activity: Activity) {
       );
     case 'monster':
       return Boolean(activity.requiredLevel);
+    case 'npc':
+      return activity.subtitle !== 'Skill Master';
   }
 
   return activity.sortingGroups.some(

@@ -78,7 +78,7 @@
     "subtitle": "Slayer Master",
     "category": "npc",
     "sortingGroups": ["slayer"],
-    "requiredLevel": 99,
+    "requiredLevel": 50,
     "notableDrops": [
       "Slayer_hood",
       "Slayer_cape",
