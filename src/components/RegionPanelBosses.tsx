@@ -15,7 +15,7 @@ interface RegionPanelBossesProps {
 
 export default function RegionPanelBosses({ region }: RegionPanelBossesProps) {
   const data = useStaticQuery<BossingQueryData>(dataQuery);
-  const { settings, setSettings } = useSettingsContext();
+  const settings = useSettingsContext();
   const itemsContext = useItemsContext();
 
   const raids = region.raids
@@ -30,12 +30,12 @@ export default function RegionPanelBosses({ region }: RegionPanelBossesProps) {
       const pet = Boolean(item.tags?.includes('pet'));
       const leagues = Boolean(item.tags?.includes('leagues'));
       const cosmetic = Boolean(item.tags?.includes('cosmetic'));
-      if (!settings.includeLeagues && leagues) return false;
-      if (!settings.includePets && pet) return false;
-      if (!settings.includeCosmetics && cosmetic) return false;
+      if (!settings.leagues && leagues) return false;
+      if (!settings.dropsPets && pet) return false;
+      if (!settings.dropsCosmetics && cosmetic) return false;
       return true;
     },
-    [settings.includePets, settings.includeLeagues, settings.includeCosmetics],
+    [settings],
   );
 
   return (
@@ -47,26 +47,20 @@ export default function RegionPanelBosses({ region }: RegionPanelBossesProps) {
         <CheckboxToggle
           id="pets-toggle"
           label="Pets"
-          checked={settings.includePets}
-          onChange={checked =>
-            setSettings(state => ({ ...state, includePets: checked }))
-          }
+          checked={settings.dropsPets}
+          onChange={checked => settings.set('dropsPets', checked)}
         />
         <CheckboxToggle
           id="leagues-toggle"
           label="Leagues"
-          checked={settings.includeLeagues}
-          onChange={checked =>
-            setSettings(state => ({ ...state, includeLeagues: checked }))
-          }
+          checked={settings.leagues}
+          onChange={checked => settings.set('leagues', checked)}
         />
         <CheckboxToggle
           id="cosmetics-toggle"
           label="Cosmetics"
-          checked={settings.includeCosmetics}
-          onChange={checked =>
-            setSettings(state => ({ ...state, includeCosmetics: checked }))
-          }
+          checked={settings.dropsCosmetics}
+          onChange={checked => settings.set('dropsCosmetics', checked)}
         />
       </Stack>
       {raids.length > 0 && (

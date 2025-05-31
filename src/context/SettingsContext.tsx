@@ -1,34 +1,38 @@
-import React, { createContext, useContext, useState } from 'react'; // prettier-ignore
+import React, { createContext, useCallback, useContext, useState } from 'react'; // prettier-ignore
 import type { BestInSlotSubcategories } from '../types';
 
 type Settings = {
-  includePets: boolean;
-  includeClues: boolean;
-  includeLeagues: boolean;
-  includeCosmetics: boolean;
-  strictBestInSlot: boolean;
+  leagues: boolean;
+  bisClues: boolean;
+  bisStrict: boolean;
+  dropsPets: boolean;
+  dropsCosmetics: boolean;
 } & BestInSlotSubcategories;
 
 const defaultSettings: Settings = {
-  includePets: false,
-  includeClues: false,
-  includeLeagues: false,
-  includeCosmetics: false,
-  strictBestInSlot: false,
+  leagues: false,
+  bisClues: false,
+  bisStrict: false,
   bisMeleeSubcategory: undefined,
   bisRangedSubcategory: undefined,
   bisMagicSubcategory: undefined,
   bisPrayerSubcategory: undefined,
+  dropsPets: false,
+  dropsCosmetics: false,
 };
 
-interface SettingsContextData {
-  settings: Settings;
-  setSettings: React.Dispatch<React.SetStateAction<Settings>>;
-}
+declare function Setter<K extends keyof Settings>(
+  key: K,
+  value: Settings[K],
+): void;
+
+type SettingsContextData = Settings & {
+  set: typeof Setter;
+};
 
 const SettingsContext = createContext<SettingsContextData>({
-  settings: defaultSettings,
-  setSettings: () => undefined,
+  ...defaultSettings,
+  set: () => undefined,
 });
 
 export default SettingsContext;
@@ -39,11 +43,14 @@ export function useSettingsContext(): SettingsContextData {
 
 export function SettingsContextProvider({ children }: React.PropsWithChildren) {
   const [settings, setSettings] = useState<Settings>(defaultSettings);
+  const set = useCallback<typeof Setter>((key, value) => {
+    setSettings(state => ({ ...state, [key]: value }));
+  }, []);
   return (
     <SettingsContext.Provider
       value={{
-        settings,
-        setSettings,
+        ...settings,
+        set,
       }}
     >
       {children}

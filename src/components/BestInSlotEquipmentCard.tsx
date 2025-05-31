@@ -1,4 +1,4 @@
-import { Stack, Text } from '@zigurous/forge-react';
+import { Stack } from '@zigurous/forge-react';
 import React, { useMemo } from 'react';
 import EquipmentInventory from './EquipmentInventory';
 import IconToggle from './IconToggle';
@@ -18,7 +18,7 @@ export default function BestInSlotEquipmentCard({
   data,
   region,
 }: BestInSlotEquipmentCardProps) {
-  const { settings, setSettings } = useSettingsContext();
+  const settings = useSettingsContext();
   const { [category.subcategoryKey]: subcategoryId } = settings;
 
   const equipment: EquipmentSlots = useMemo(() => {
@@ -44,15 +44,15 @@ export default function BestInSlotEquipmentCard({
           if (!available) return false;
 
           // Discard items based on toggles
-          if (!settings.includeLeagues) {
+          if (!settings.leagues) {
             if (id.includes('#Leagues') || item.tags?.includes('leagues'))
               return false;
           }
-          if (!settings.includeClues) {
+          if (!settings.bisClues) {
             if (id.includes('#Clues') || item.tags?.includes('clues'))
               return false;
           }
-          if (settings.strictBestInSlot) {
+          if (settings.bisStrict) {
             if (id.includes('#*') || item.tags?.includes('*')) {
               return false;
             }
@@ -117,10 +117,10 @@ export default function BestInSlotEquipmentCard({
                 label={subcategory.label}
                 on={subcategoryId === subcategory.id}
                 onChange={on =>
-                  setSettings(settings => ({
-                    ...settings,
-                    [category.subcategoryKey]: on ? subcategory.id : undefined,
-                  }))
+                  settings.set(
+                    category.subcategoryKey,
+                    on ? subcategory.id : undefined,
+                  )
                 }
               />
             ))}

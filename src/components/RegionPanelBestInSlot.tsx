@@ -15,39 +15,33 @@ export default function RegionPanelBestInSlot({
   region,
 }: RegionPanelBestInSlotProps) {
   const data = useStaticQuery<BestInSlotQueryData>(dataQuery);
-  const { settings, setSettings } = useSettingsContext();
+  const settings = useSettingsContext();
   return (
     <RegionPanelSection title="Best In Slot" titleMargin="lg">
       <Stack inline className="ml-sm" spacing="lg">
         <CheckboxToggle
           id="clues-toggle"
           label="Clue Items"
-          checked={settings.includeClues}
-          onChange={checked =>
-            setSettings(state => ({ ...state, includeClues: checked }))
-          }
+          checked={settings.bisClues}
+          onChange={checked => settings.set('bisClues', checked)}
         />
         <CheckboxToggle
           id="leagues-toggle"
           label="Leagues"
-          checked={settings.includeLeagues}
-          onChange={checked =>
-            setSettings(state => ({ ...state, includeLeagues: checked }))
-          }
+          checked={settings.leagues}
+          onChange={checked => settings.set('leagues', checked)}
         />
         <CheckboxToggle
           id="strict-toggle"
           label="Strict Mode"
-          checked={settings.strictBestInSlot}
-          onChange={checked =>
-            setSettings(state => ({ ...state, strictBestInSlot: checked }))
-          }
+          checked={settings.bisStrict}
+          onChange={checked => settings.set('bisStrict', checked)}
         />
       </Stack>
       <Text
         className="ml-xs mt-sm mb-xxl"
-        color={settings.strictBestInSlot ? 'soft' : 'disabled'}
-        decoration={settings.strictBestInSlot ? 'line-through' : undefined}
+        color={settings.bisStrict ? 'soft' : 'disabled'}
+        decoration={settings.bisStrict ? 'line-through' : undefined}
         type="caption"
       >
         * Requires components from another region or source
