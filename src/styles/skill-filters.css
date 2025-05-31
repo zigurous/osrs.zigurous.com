@@ -1,6 +1,6 @@
 .skill-filters {
   display: grid;
-  grid-template-columns: repeat(8, auto);
+  grid-template-columns: repeat(8, 1fr);
   gap: var(--spacing-sm);
 }
 
