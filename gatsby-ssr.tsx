@@ -24,7 +24,7 @@ const HeadComponents: React.ReactNode[] = [
   />,
   <link
     key="IBM-Plex-Sans"
-    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap"
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500&display=swap"
     rel="stylesheet"
   />,
   <link

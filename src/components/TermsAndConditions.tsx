@@ -21,7 +21,7 @@ export default function TermsAndConditions({
       <p className="mb-md">
         <i>Last updated on May 16, 2025</i>
       </p>
-      <p>
+      <p className="text-subtle">
         These terms and conditions ("Agreement") set forth the general terms and
         conditions of your use of the{' '}
         <a
@@ -47,7 +47,7 @@ export default function TermsAndConditions({
       </p>
       <br />
       <h2>Accuracy of information</h2>
-      <p>
+      <p className="text-subtle">
         Occasionally there may be information on the Website that contains
         typographical errors, inaccuracies or omissions. We reserve the right to
         correct any errors, inaccuracies or omissions, and to change or update
@@ -60,7 +60,7 @@ export default function TermsAndConditions({
       </p>
       <br />
       <h2>Links to other resources</h2>
-      <p>
+      <p className="text-subtle">
         Although the Website may link to other resources (such as websites,
         mobile applications, etc.), we are not, directly or indirectly, implying
         any approval, association, sponsorship, endorsement, or affiliation with
@@ -75,7 +75,7 @@ export default function TermsAndConditions({
       </p>
       <br />
       <h2>Intellectual property rights</h2>
-      <p>
+      <p className="text-subtle">
         "Intellectual Property Rights" means all present and future rights
         conferred by statute, common law or equity in or in relation to any
         copyright and related rights, trademarks, designs, patents, inventions,
@@ -99,7 +99,7 @@ export default function TermsAndConditions({
       </p>
       <br />
       <h2>Limitation of liability</h2>
-      <p>
+      <p className="text-subtle">
         To the fullest extent permitted by applicable law, in no event will the
         Operator, its affiliates, directors, officers, employees, agents,
         suppliers or licensors be liable to any person for any indirect,
@@ -122,7 +122,7 @@ export default function TermsAndConditions({
       </p>
       <br />
       <h2>Severability</h2>
-      <p>
+      <p className="text-subtle">
         All rights and restrictions contained in this Agreement may be exercised
         and shall be applicable and binding only to the extent that they do not
         violate any applicable laws and are intended to be limited to the extent
@@ -137,7 +137,7 @@ export default function TermsAndConditions({
       </p>
       <br />
       <h2>Changes and amendments</h2>
-      <p>
+      <p className="text-subtle">
         We reserve the right to modify this Agreement or its terms relating to
         the Website at any time, effective upon posting of an updated version of
         this Agreement on the Website. When we do, we will revise the updated
@@ -146,7 +146,7 @@ export default function TermsAndConditions({
       </p>
       <br />
       <h2>Acceptance of these terms</h2>
-      <p>
+      <p className="text-subtle">
         You acknowledge that you have read this Agreement and agree to all its
         terms and conditions. By accessing and using the Website you agree to be
         bound by this Agreement. If you do not agree to abide by the terms of
@@ -154,7 +154,7 @@ export default function TermsAndConditions({
       </p>
       <br />
       <h2>Contacting us</h2>
-      <p>
+      <p className="text-subtle">
         If you would like to contact us to understand more about this Agreement
         or wish to contact us concerning any matter relating to it, you may
         email{' '}

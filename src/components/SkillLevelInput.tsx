@@ -26,11 +26,11 @@ export default function SkillLevelInput({
         },
       )}
       placeholder={placeholder}
-      type="number"
       min={1}
       max={99}
       size="xs"
       style={{ width: '104px' }}
+      type="number"
       value={level}
     />
   );

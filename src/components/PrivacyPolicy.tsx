@@ -21,7 +21,7 @@ export default function PrivacyPolicy({
       <p className="mb-md">
         <i>Last updated on May 16, 2025</i>
       </p>
-      <p>
+      <p className="text-subtle">
         This privacy policy ("Policy") describes how the personally identifiable
         information ("Personal Information") you may provide on the{' '}
         <a
@@ -39,7 +39,7 @@ export default function PrivacyPolicy({
       </p>
       <br />
       <h2>Automatic collection of information</h2>
-      <p className="mb-md">
+      <p className="text-subtle">
         When you open the Website, our servers automatically record information
         that your browser sends. This data may include information such as your
         device's IP address, browser type and version, operating system type and
@@ -54,11 +54,11 @@ export default function PrivacyPolicy({
       </p>
       <br />
       <h2>Your rights</h2>
-      <p>
+      <p className="text-subtle">
         You may exercise certain rights regarding your information processed by
         us. In particular, you have the right to do the following:
       </p>
-      <ul className="mt-md list-bullet list-indent">
+      <ul className="mt-md list-bullet list-indent text-subtle">
         <li>
           You have the right to withdraw consent where you have previously given
           your consent to the processing of your information.
@@ -97,7 +97,7 @@ export default function PrivacyPolicy({
       </ul>
       <br />
       <h2>California privacy rights</h2>
-      <p>
+      <p className="text-subtle">
         In addition to the rights as explained in this Policy, California
         residents who provide Personal Information (as defined in the statute)
         to obtain products or services for personal, family, or household use
@@ -112,7 +112,7 @@ export default function PrivacyPolicy({
       </p>
       <br />
       <h2>How to exercise these rights</h2>
-      <p>
+      <p className="text-subtle">
         Any requests to exercise your rights can be directed to the Operator
         through the contact details provided in this document. Please note that
         we may ask you to verify your identity before responding to such
@@ -127,7 +127,7 @@ export default function PrivacyPolicy({
       </p>
       <br />
       <h2>Privacy of children</h2>
-      <p>
+      <p className="text-subtle">
         We recognize the need to provide further privacy protections with
         respect to Personal Information we may collect from children and take
         many special precautions to protect the privacy of children. We do not
@@ -140,7 +140,7 @@ export default function PrivacyPolicy({
       </p>
       <br />
       <h2>Do Not Track signals</h2>
-      <p>
+      <p className="text-subtle">
         Some browsers incorporate a Do Not Track feature that signals to
         websites you visit that you do not want to have your online activity
         tracked. Tracking is not the same as using or collecting information in
@@ -154,7 +154,7 @@ export default function PrivacyPolicy({
       </p>
       <br />
       <h2>Links to other resources</h2>
-      <p>
+      <p className="text-subtle">
         The Website contain links to other resources that are not owned or
         controlled by us. Please be aware that we are not responsible for the
         privacy practices of such other resources or third parties. We encourage
@@ -164,7 +164,7 @@ export default function PrivacyPolicy({
       </p>
       <br />
       <h2>Changes and amendments</h2>
-      <p>
+      <p className="text-subtle">
         We reserve the right to modify this Policy or its terms relating to the
         Website at any time, effective upon posting of an updated version of
         this Policy on the Website. When we do, we will revise the updated date
@@ -176,7 +176,7 @@ export default function PrivacyPolicy({
       </p>
       <br />
       <h2>Acceptance of this policy</h2>
-      <p>
+      <p className="text-subtle">
         You acknowledge that you have read this Policy and agree to all its
         terms and conditions. By accessing and using the Website you agree to be
         bound by this Policy. If you do not agree to abide by the terms of this
@@ -184,7 +184,7 @@ export default function PrivacyPolicy({
       </p>
       <br />
       <h2>Contacting us</h2>
-      <p>
+      <p className="text-subtle">
         If you would like to contact us to understand more about this Policy or
         wish to contact us concerning any matter relating to individual rights
         and your Personal Information, you may email{' '}
