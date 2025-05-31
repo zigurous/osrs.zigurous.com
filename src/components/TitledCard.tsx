@@ -32,7 +32,7 @@ export default function TitledCard({
   titleLinkUrl,
   type,
 }: TitledCardProps) {
-  const Element = titleLinkId ? 'a' : onClickHeader ? 'button' : 'div';
+  const Element = onClickHeader ? 'button' : titleLinkId ? 'a' : 'div';
   if (!captionIcon && (titleLinkUrl || titleLinkId)) {
     captionIcon = 'open_in_new';
   }
@@ -54,7 +54,15 @@ export default function TitledCard({
             : undefined)
         }
         target={titleLinkId ? '_blank' : undefined}
-        onClick={onClickHeader}
+        onClick={e => {
+          if ((e.ctrlKey || e.altKey) && titleLinkId) {
+            if (typeof window !== 'undefined') {
+              window.open(`https://oldschool.runescape.wiki/w/${titleLinkId}`);
+            }
+          } else if (onClickHeader) {
+            onClickHeader();
+          }
+        }}
       >
         <div className="titled-card__title">
           {titleIcon && (

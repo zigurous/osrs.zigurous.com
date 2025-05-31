@@ -55,7 +55,7 @@ export default function ActivityCard({
       title={activity.title || formatNameFromId(activity.id)}
       titleIcon={getIconForActivity(activity)}
       titleLinkUrl={activity.url}
-      titleLinkId={expandable ? undefined : activity.id}
+      titleLinkId={activity.id}
     >
       {expanded && items && items.length > 0 && <ItemsStack items={items} />}
     </TitledCard>
