@@ -15,6 +15,37 @@ export default function RegionPanelResources({
   region,
 }: RegionPanelResourcesProps) {
   const itemsContext = useItemsContext();
+
+  const runes = itemsContext
+    .getItemsByIds(region.resources.runes)
+    .sort(sortItems);
+
+  const oresAndBars = [
+    ...itemsContext.getItemsByIds(region.resources.ores),
+    ...itemsContext.getItemsByIds(region.resources.bars),
+  ].sort(sortItems);
+
+  const logs = itemsContext
+    .getItemsByIds(region.resources.logs)
+    .sort(sortItems);
+
+  const food = itemsContext
+    .getItemsByIds(region.resources.food)
+    .map(item => ({ ...item, healing: healing[item.id] }) as FoodData)
+    .sort(sortItems);
+
+  const secondaries = itemsContext
+    .getItemsByIds(region.resources.secondaries)
+    .sort(sortItems);
+
+  const remains = itemsContext
+    .getItemsByIds(region.resources.remains)
+    .sort(sortItems);
+
+  const misc = itemsContext
+    .getItemsByIds(region.resources.misc)
+    .sort(sortItems);
+
   return (
     <RegionPanelSection title="Resources">
       <Text
@@ -29,96 +60,88 @@ export default function RegionPanelResources({
         from monsters.
       </Text>
       <ul className="drops-list">
-        <TitledCard
-          title="Runes"
-          captionIcon={
-            <Stack align="center" spacing="sm">
-              <WikiIcon icon="Magic_icon" size={18} />
-              <WikiIcon icon="Runecraft_icon" size={18} />
-            </Stack>
-          }
-        >
-          <ItemsStack
-            items={itemsContext
-              .getItemsByIds(region.resources.runes)
-              .sort(sortItems)}
-          />
-        </TitledCard>
-        <TitledCard
-          title="Ores / Bars"
-          captionIcon={
-            <Stack align="center" spacing="sm">
-              <WikiIcon icon="Mining_icon" size={18} />
-              <WikiIcon icon="Smithing_icon" size={18} />
-            </Stack>
-          }
-        >
-          <ItemsStack
-            items={[
-              ...itemsContext.getItemsByIds(region.resources.ores),
-              ...itemsContext.getItemsByIds(region.resources.bars),
-            ].sort(sortItems)}
-          />
-        </TitledCard>
-        <TitledCard
-          title="Logs"
-          captionIcon={
-            <Stack align="center" spacing="sm">
-              <WikiIcon icon="Woodcutting_icon" size={18} />
-              <WikiIcon icon="Fletching_icon" size={18} />
-              <WikiIcon icon="Firemaking_icon" size={18} />
-            </Stack>
-          }
-        >
-          <ItemsStack
-            items={itemsContext
-              .getItemsByIds(region.resources.logs)
-              .sort(sortItems)}
-          />
-        </TitledCard>
-        <TitledCard
-          title="Food"
-          captionIcon={
-            <Stack align="center" spacing="sm">
-              <WikiIcon icon="Fishing_icon" size={18} />
-              <WikiIcon icon="Cooking_icon" size={18} />
-            </Stack>
-          }
-        >
-          <ItemsStack
-            items={itemsContext
-              .getItemsByIds(region.resources.food)
-              .map(item => ({ ...item, healing: healing[item.id] }) as FoodData)
-              .sort(sortItems)}
-          />
-        </TitledCard>
-        <TitledCard
-          title="Secondaries"
-          captionIcon={<WikiIcon icon="Herblore_icon" size={18} />}
-        >
-          <ItemsStack
-            items={itemsContext
-              .getItemsByIds(region.resources.secondaries)
-              .sort(sortItems)}
-          />
-        </TitledCard>
-        <TitledCard
-          title="Remains"
-          captionIcon={<WikiIcon icon="Prayer_icon" size={18} />}
-        >
-          <ItemsStack
-            items={itemsContext
-              .getItemsByIds(region.resources.remains)
-              .sort(sortItems)}
-          />
-        </TitledCard>
-        <TitledCard title="Misc">
-          <ItemsStack
-            items={itemsContext
-              .getItemsByIds(region.resources.misc)
-              .sort(sortItems)}
-          />
-        </TitledCard>
+        {runes.length > 0 && (
+          <TitledCard
+            title="Runes"
+            captionIcon={
+              <Stack align="center" spacing="sm">
+                <WikiIcon icon="Magic_icon" size={18} />
+                <WikiIcon icon="Runecraft_icon" size={18} />
+              </Stack>
+            }
+          >
+            <ItemsStack items={runes} />
+          </TitledCard>
+        )}
+        {oresAndBars.length > 0 && (
+          <TitledCard
+            title="Ores / Bars"
+            captionIcon={
+              <Stack align="center" spacing="sm">
+                <WikiIcon icon="Mining_icon" size={18} />
+                <WikiIcon icon="Smithing_icon" size={18} />
+              </Stack>
+            }
+          >
+            <ItemsStack items={oresAndBars} />
+          </TitledCard>
+        )}
+        {logs.length > 0 && (
+          <TitledCard
+            title="Logs"
+            captionIcon={
+              <Stack align="center" spacing="sm">
+                <WikiIcon icon="Woodcutting_icon" size={18} />
+                <WikiIcon icon="Firemaking_icon" size={18} />
+                <WikiIcon icon="Fletching_icon" size={18} />
+              </Stack>
+            }
+          >
+            <ItemsStack items={logs} />
+          </TitledCard>
+        )}
+        {food.length > 0 && (
+          <TitledCard
+            title="Food"
+            captionIcon={
+              <Stack align="center" spacing="sm">
+                <WikiIcon icon="Fishing_icon" size={18} />
+                <WikiIcon icon="Cooking_icon" size={18} />
+              </Stack>
+            }
+          >
+            <ItemsStack items={food} />
+          </TitledCard>
+        )}
+        {secondaries.length > 0 && (
+          <TitledCard
+            title="Secondaries"
+            captionIcon={<WikiIcon icon="Herblore_icon" size={18} />}
+          >
+            <ItemsStack items={secondaries} />
+          </TitledCard>
+        )}
+        {remains.length > 0 && (
+          <TitledCard
+            title="Remains"
+            captionIcon={<WikiIcon icon="Prayer_icon" size={18} />}
+          >
+            <ItemsStack items={remains} />
+          </TitledCard>
+        )}
+        {misc.length > 0 && (
+          <TitledCard
+            title="Misc"
+            captionIcon={
+              <Stack align="center" spacing="sm">
+                <WikiIcon icon="Crafting_icon" size={18} />
+                <WikiIcon icon="Construction_icon" size={18} />
+              </Stack>
+            }
+          >
+            <ItemsStack items={misc} />
+          </TitledCard>
+        )}
       </ul>
     </RegionPanelSection>
   );
@@ -289,6 +312,7 @@ const itemOrder = [
   'Aldarium',
   'Ancient_essence',
   "Zulrah's_scales",
+  'Swamp_tar',
   // Bones
   'Bones',
   'Monkey_bones',
@@ -331,21 +355,29 @@ const itemOrder = [
   'Uncut_emerald',
   'Uncut_ruby',
   'Uncut_diamond',
+  'Plank',
+  'Mushroom',
+  'Swamp_paste',
+  'Flax',
+  'Seaweed',
+  'Bucket_of_sand',
+  'Soda_ash',
+  'Clay',
+  'Soft_clay',
   'Te_salt',
   'Efh_salt',
   'Urt_salt',
   'Basalt',
   'Saltpetre',
   'Volcanic_sulphur',
-  'Charcoal',
-  'Limestone',
-  'Sandstone',
   'Granite',
-  'Soda_ash',
-  'Clay',
-  'Soft_clay',
-  'Mushroom',
-  'Sulliuscep_cap',
+  'Sandstone',
+  'Limestone',
+  'Limestone_brick',
+  'Marble_block',
+  'Magic_stone',
+  'Gold_leaf',
+  'Condensed_gold',
 ];
 
 const healing: Record<string, number | string> = {

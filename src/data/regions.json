@@ -247,8 +247,7 @@
         "Saradomin_brew",
         "Shrimps",
         "Stew",
-        "Summer_pie",
-        "Trout"
+        "Summer_pie"
       ],
       "logs": [
         "Logs",
@@ -257,7 +256,13 @@
         "Yew_logs"
       ],
       "misc": [
-        "Clay"
+        "Bucket_of_sand",
+        "Clay",
+        "Flax",
+        "Plank",
+        "Seaweed",
+        "Soda_ash",
+        "Swamp_paste"
       ],
       "ores": [
         "Adamantite_ore",
@@ -515,7 +520,9 @@
       "misc": [
         "Clay",
         "Granite",
-        "Sandstone"
+        "Plank",
+        "Sandstone",
+        "Seaweed"
       ],
       "ores": [
         "Adamantite_ore",
@@ -549,7 +556,6 @@
         "Smoke_rune",
         "Soul_rune",
         "Steam_rune",
-        "Tainted_essence_chunk",
         "Water_rune"
       ],
       "secondaries": [
@@ -816,9 +822,16 @@
       ],
       "misc": [
         "Basalt",
-        "Charcoal",
         "Clay",
+        "Condensed_gold",
         "Efh_salt",
+        "Flax",
+        "Gold_leaf",
+        "Limestone_brick",
+        "Magic_stone",
+        "Marble_block",
+        "Plank",
+        "Seaweed",
         "Te_salt",
         "Urt_salt"
       ],
@@ -873,6 +886,7 @@
         "Limpwurt_root",
         "Poison_ivy_berries",
         "Snape_grass",
+        "Swamp_tar",
         "Unicorn_horn",
         "White_berries"
       ]
@@ -1181,7 +1195,6 @@
         "Stew",
         "Summer_pie",
         "Swordfish",
-        "Trout",
         "Tuna",
         "Tuna_potato"
       ],
@@ -1197,7 +1210,14 @@
         "Yew_logs"
       ],
       "misc": [
-        "Clay"
+        "Bucket_of_sand",
+        "Clay",
+        "Flax",
+        "Limestone_brick",
+        "Plank",
+        "Seaweed",
+        "Soda_ash",
+        "Swamp_paste"
       ],
       "ores": [
         "Adamantite_ore",
@@ -1253,6 +1273,7 @@
         "Poison_ivy_berries",
         "Red_spiders'_eggs",
         "Snape_grass",
+        "Swamp_tar",
         "Toad's_legs",
         "Unicorn_horn",
         "White_berries",
@@ -1426,7 +1447,6 @@
         "Salmon",
         "Shrimps",
         "Swordfish",
-        "Trout",
         "Tuna"
       ],
       "logs": [
@@ -1435,7 +1455,11 @@
         "Teak_logs"
       ],
       "misc": [
-        "Charcoal"
+        "Bucket_of_sand",
+        "Plank",
+        "Seaweed",
+        "Soda_ash",
+        "Swamp_paste"
       ],
       "ores": [
         "Adamantite_ore",
@@ -1785,7 +1809,6 @@
         "Stew",
         "Summer_pie",
         "Swordfish",
-        "Trout",
         "Tuna",
         "Tuna_potato",
         "Wild_pie"
@@ -1802,9 +1825,14 @@
         "Yew_logs"
       ],
       "misc": [
-        "Charcoal",
+        "Bucket_of_sand",
         "Clay",
+        "Flax",
+        "Plank",
         "Saltpetre",
+        "Seaweed",
+        "Soda_ash",
+        "Swamp_paste",
         "Volcanic_sulphur"
       ],
       "ores": [
@@ -1839,7 +1867,6 @@
         "Blood_rune",
         "Body_rune",
         "Chaos_rune",
-        "Dark_essence_block",
         "Death_rune",
         "Dense_essence_block",
         "Earth_rune",
@@ -2174,7 +2201,6 @@
         "Shrimps",
         "Stew",
         "Swordfish",
-        "Trout",
         "Tuna",
         "Tuna_potato"
       ],
@@ -2188,12 +2214,12 @@
         "Yew_logs"
       ],
       "misc": [
-        "Charcoal",
         "Clay",
         "Limestone",
         "Mushroom",
-        "Soda_ash",
-        "Sulliuscep_cap"
+        "Plank",
+        "Seaweed",
+        "Soda_ash"
       ],
       "ores": [
         "Adamantite_ore",
@@ -2251,6 +2277,7 @@
         "Poison_ivy_berries",
         "Red_spiders'_eggs",
         "Snape_grass",
+        "Swamp_tar",
         "Unicorn_horn",
         "Volcanic_ash",
         "White_berries",
@@ -2446,7 +2473,6 @@
         "Sea_turtle",
         "Shark",
         "Stew",
-        "Trout",
         "Wild_pie"
       ],
       "logs": [
@@ -2458,8 +2484,15 @@
         "Yew_logs"
       ],
       "misc": [
+        "Bucket_of_sand",
         "Clay",
-        "Limestone"
+        "Limestone_brick",
+        "Limestone",
+        "Mushroom",
+        "Plank",
+        "Seaweed",
+        "Soda_ash",
+        "Swamp_paste"
       ],
       "ores": [
         "Adamantite_ore",
@@ -2508,6 +2541,7 @@
         "Red_spiders'_eggs",
         "Silver_dust",
         "Snape_grass",
+        "Swamp_tar",
         "Vial_of_blood",
         "Wine_of_zamorak"
       ]
@@ -2700,7 +2734,6 @@
         "Shark",
         "Stew",
         "Swordfish",
-        "Trout",
         "Tuna"
       ],
       "logs": [
@@ -2712,8 +2745,13 @@
         "Yew_logs"
       ],
       "misc": [
+        "Bucket_of_sand",
+        "Flax",
         "Limestone",
-        "Soft_clay"
+        "Seaweed",
+        "Soda_ash",
+        "Soft_clay",
+        "Swamp_paste"
       ],
       "ores": [
         "Adamantite_ore",
@@ -2755,6 +2793,7 @@
         "Garlic",
         "Red_spiders'_eggs",
         "Snape_grass",
+        "Swamp_tar",
         "White_berries",
         "Zulrah's_scales"
       ]
@@ -3003,7 +3042,6 @@
         "Stew",
         "Summer_pie",
         "Swordfish",
-        "Trout",
         "Tuna",
         "Tuna_potato"
       ],
@@ -3017,8 +3055,18 @@
         "Yew_logs"
       ],
       "misc": [
-        "Charcoal",
-        "Clay"
+        "Bucket_of_sand",
+        "Clay",
+        "Condensed_gold",
+        "Flax",
+        "Gold_leaf",
+        "Limestone_brick",
+        "Magic_stone",
+        "Marble_block",
+        "Plank",
+        "Seaweed",
+        "Soda_ash",
+        "Swamp_paste"
       ],
       "ores": [
         "Adamantite_ore",
@@ -3064,6 +3112,7 @@
         "Garlic",
         "Limpwurt_root",
         "Snape_grass",
+        "Swamp_tar",
         "Unicorn_horn"
       ]
     }
@@ -3270,7 +3319,7 @@
         "Yew_logs"
       ],
       "misc": [
-        "Charcoal"
+        "Plank"
       ],
       "ores": [
         "Adamantite_ore",
