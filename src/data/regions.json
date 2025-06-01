@@ -233,13 +233,6 @@
         "Silver_bar",
         "Steel_bar"
       ],
-      "bones": [
-        "Babydragon_bones",
-        "Big_bones",
-        "Bones",
-        "Dragon_bones",
-        "Wyvern_bones"
-      ],
       "food": [
         "Bass",
         "Bread",
@@ -278,6 +271,17 @@
         "Runite_ore",
         "Silver_ore",
         "Tin_ore"
+      ],
+      "remains": [
+        "Babydragon_bones",
+        "Big_bones",
+        "Bones",
+        "Dragon_bones",
+        "Fiendish_ashes",
+        "Infernal_ashes",
+        "Malicious_ashes",
+        "Vile_ashes",
+        "Wyvern_bones"
       ],
       "runes": [
         "Air_rune",
@@ -486,10 +490,6 @@
         "Silver_bar",
         "Steel_bar"
       ],
-      "bones": [
-        "Big_bones",
-        "Bones"
-      ],
       "food": [
         "Bass",
         "Bread",
@@ -526,6 +526,11 @@
         "Mithril_ore",
         "Silver_ore",
         "Tin_ore"
+      ],
+      "remains": [
+        "Big_bones",
+        "Bones",
+        "Fiendish_ashes"
       ],
       "runes": [
         "Air_rune",
@@ -782,13 +787,6 @@
         "Silver_bar",
         "Steel_bar"
       ],
-      "bones": [
-        "Big_bones",
-        "Bones",
-        "Dagannoth_bones",
-        "Dragon_bones",
-        "Superior_dragon_bones"
-      ],
       "food": [
         "Bass",
         "Bread",
@@ -835,6 +833,14 @@
         "Runite_ore",
         "Silver_ore",
         "Tin_ore"
+      ],
+      "remains": [
+        "Big_bones",
+        "Bones",
+        "Dagannoth_bones",
+        "Dragon_bones",
+        "Fiendish_ashes",
+        "Superior_dragon_bones"
       ],
       "runes": [
         "Air_rune",
@@ -1155,17 +1161,6 @@
         "Runite_bar",
         "Steel_bar"
       ],
-      "bones": [
-        "Babydragon_bones",
-        "Big_bones",
-        "Bones",
-        "Dragon_bones",
-        "Fayrg_bones",
-        "Monkey_bones",
-        "Ourg_bones",
-        "Raurg_bones",
-        "Zogre_bones"
-      ],
       "food": [
         "Bass",
         "Bread",
@@ -1212,6 +1207,20 @@
         "Mithril_ore",
         "Runite_ore",
         "Tin_ore"
+      ],
+      "remains": [
+        "Babydragon_bones",
+        "Big_bones",
+        "Bones",
+        "Dragon_bones",
+        "Fayrg_bones",
+        "Fiendish_ashes",
+        "Malicious_ashes",
+        "Monkey_bones",
+        "Ourg_bones",
+        "Raurg_bones",
+        "Vile_ashes",
+        "Zogre_bones"
       ],
       "runes": [
         "Air_rune",
@@ -1408,14 +1417,6 @@
         "Silver_bar",
         "Steel_bar"
       ],
-      "bones": [
-        "Babydragon_bones",
-        "Big_bones",
-        "Bones",
-        "Dragon_bones",
-        "Jogre_bones",
-        "Shaikahan_bones"
-      ],
       "food": [
         "Bread",
         "Cooked_chicken",
@@ -1444,6 +1445,17 @@
         "Mithril_ore",
         "Runite_ore",
         "Silver_ore"
+      ],
+      "remains": [
+        "Babydragon_bones",
+        "Big_bones",
+        "Bones",
+        "Dragon_bones",
+        "Fiendish_ashes",
+        "Jogre_bones",
+        "Malicious_ashes",
+        "Shaikahan_bones",
+        "Vile_ashes"
       ],
       "runes": [
         "Air_rune",
@@ -1753,15 +1765,6 @@
         "Silver_bar",
         "Steel_bar"
       ],
-      "bones": [
-        "Babydragon_bones",
-        "Big_bones",
-        "Bones",
-        "Dragon_bones",
-        "Drake_bones",
-        "Hydra_bones",
-        "Wyrm_bones"
-      ],
       "food": [
         "Anglerfish",
         "Bass",
@@ -1815,6 +1818,20 @@
         "Mithril_ore",
         "Silver_ore",
         "Tin_ore"
+      ],
+      "remains": [
+        "Abyssal_ashes",
+        "Babydragon_bones",
+        "Big_bones",
+        "Bones",
+        "Dragon_bones",
+        "Drake_bones",
+        "Fiendish_ashes",
+        "Hydra_bones",
+        "Infernal_ashes",
+        "Malicious_ashes",
+        "Vile_ashes",
+        "Wyrm_bones"
       ],
       "runes": [
         "Aether_rune",
@@ -2140,13 +2157,6 @@
         "Silver_bar",
         "Steel_bar"
       ],
-      "bones": [
-        "Babydragon_bones",
-        "Big_bones",
-        "Bones",
-        "Dragon_bones",
-        "Wyvern_bones"
-      ],
       "food": [
         "Bass",
         "Bread",
@@ -2195,6 +2205,17 @@
         "Runite_ore",
         "Silver_ore",
         "Tin_ore"
+      ],
+      "remains": [
+        "Abyssal_ashes",
+        "Babydragon_bones",
+        "Big_bones",
+        "Bones",
+        "Dragon_bones",
+        "Fiendish_ashes",
+        "Infernal_ashes",
+        "Vile_ashes",
+        "Wyvern_bones"
       ],
       "runes": [
         "Air_rune",
@@ -2412,15 +2433,6 @@
         "Mithril_bar",
         "Steel_bar"
       ],
-      "bones": [
-        "Asyn_remains",
-        "Bones",
-        "Fiyr_remains",
-        "Loar_remains",
-        "Phrin_remains",
-        "Riyl_remains",
-        "Urium_remains"
-      ],
       "food": [
         "Bass",
         "Bread",
@@ -2457,6 +2469,19 @@
         "Iron_ore",
         "Mithril_ore",
         "Tin_ore"
+      ],
+      "remains": [
+        "Abyssal_ashes",
+        "Asyn_remains",
+        "Bones",
+        "Fiendish_ashes",
+        "Fiyr_remains",
+        "Loar_remains",
+        "Malicious_ashes",
+        "Phrin_remains",
+        "Riyl_remains",
+        "Urium_remains",
+        "Vile_ashes"
       ],
       "runes": [
         "Air_rune",
@@ -2662,11 +2687,6 @@
         "Silver_bar",
         "Steel_bar"
       ],
-      "bones": [
-        "Big_bones",
-        "Bones",
-        "Dragon_bones"
-      ],
       "food": [
         "Bass",
         "Bread",
@@ -2703,6 +2723,15 @@
         "Mithril_ore",
         "Runite_ore",
         "Silver_ore"
+      ],
+      "remains": [
+        "Big_bones",
+        "Bones",
+        "Dragon_bones",
+        "Fiendish_ashes",
+        "Infernal_ashes",
+        "Malicious_ashes",
+        "Vile_ashes"
       ],
       "runes": [
         "Air_rune",
@@ -2954,15 +2983,6 @@
         "Silver_bar",
         "Steel_bar"
       ],
-      "bones": [
-        "Babydragon_bones",
-        "Big_bones",
-        "Blessed_bone_shards",
-        "Bones",
-        "Dragon_bones",
-        "Sun-kissed_bones",
-        "Wyrmling_bones"
-      ],
       "food": [
         "Bass",
         "Bread",
@@ -3010,6 +3030,15 @@
         "Runite_ore",
         "Silver_ore",
         "Tin_ore"
+      ],
+      "remains": [
+        "Babydragon_bones",
+        "Big_bones",
+        "Blessed_bone_shards",
+        "Bones",
+        "Dragon_bones",
+        "Sun-kissed_bones",
+        "Wyrmling_bones"
       ],
       "runes": [
         "Air_rune",
@@ -3222,12 +3251,6 @@
         "Runite_bar",
         "Steel_bar"
       ],
-      "bones": [
-        "Big_bones",
-        "Bones",
-        "Dragon_bones",
-        "Lava_dragon_bones"
-      ],
       "food": [
         "Blighted_anglerfish",
         "Blighted_karambwan",
@@ -3256,6 +3279,16 @@
         "Iron_ore",
         "Mithril_ore",
         "Runite_ore"
+      ],
+      "remains": [
+        "Abyssal_ashes",
+        "Big_bones",
+        "Bones",
+        "Dragon_bones",
+        "Fiendish_ashes",
+        "Lava_dragon_bones",
+        "Malicious_ashes",
+        "Vile_ashes"
       ],
       "runes": [
         "Air_rune",

@@ -103,12 +103,12 @@ export default function RegionPanelResources({
           />
         </TitledCard>
         <TitledCard
-          title="Bones / Ashes"
+          title="Remains"
           captionIcon={<WikiIcon icon="Prayer_icon" size={18} />}
         >
           <ItemsStack
             items={itemsContext
-              .getItemsByIds(region.resources.bones)
+              .getItemsByIds(region.resources.remains)
               .sort(sortItems)}
           />
         </TitledCard>

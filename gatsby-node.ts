@@ -156,11 +156,11 @@ export const createSchemaCustomization = ({
     }
     type Resources {
       bars: [String!]!
-      bones: [String!]!
       food: [String!]!
       logs: [String!]!
       misc: [String!]!
       ores: [String!]!
+      remains: [String!]!
       runes: [String!]!
       secondaries: [String!]!
     }

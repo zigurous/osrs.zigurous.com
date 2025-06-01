@@ -32,11 +32,11 @@ export interface Region {
 
 export interface Resources {
   bars: string[];
-  bones: string[];
   food: string[];
   logs: string[];
   misc: string[];
   ores: string[];
+  remains: string[];
   runes: string[];
   secondaries: string[];
 }

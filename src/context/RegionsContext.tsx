@@ -146,11 +146,11 @@ const dataQuery = graphql`
         pets
         resources {
           bars
-          bones
           food
           logs
           misc
           ores
+          remains
           runes
           secondaries
         }
