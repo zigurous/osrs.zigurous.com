@@ -569,7 +569,7 @@
     "id": "Tears_of_Guthix_(minigame)",
     "title": "Tears of Guthix",
     "category": "minigame",
-    "sortingGroups": ["misc", "quest", "skilling"],
+    "sortingGroups": ["misc", "quest"],
     "notableDrops": [
       "XP"
     ]
@@ -577,7 +577,7 @@
   {
     "id": "Temple_Trekking",
     "category": "minigame",
-    "sortingGroups": ["misc", "pvm", "fletching"],
+    "sortingGroups": ["misc", "pvm"],
     "notableDrops": [
       "Bow_string",
       "Pure_essence",
