@@ -241,7 +241,6 @@
     "id": "Ammonite_Crab",
     "category": "skilling",
     "sortingGroups": ["pvm", "attack", "strength", "defence", "ranged", "magic", "hitpoints"],
-    "requiredLevel": 1,
     "notableDrops": [
       "Pyrophosphite",
       "Calcite",
@@ -2845,7 +2844,6 @@
     "id": "Frost_Crab",
     "category": "skilling",
     "sortingGroups": ["pvm", "attack", "strength", "defence", "ranged", "magic", "hitpoints"],
-    "requiredLevel": 1,
     "notableDrops": [
       "Frozen_tear",
       "Tooth_half_of_key_(moon_key)"
@@ -5202,7 +5200,6 @@
     "id": "Rock_Crab",
     "category": "skilling",
     "sortingGroups": ["pvm", "attack", "strength", "defence", "ranged", "magic", "hitpoints"],
-    "requiredLevel": 1,
     "notableDrops": [
       "Seaweed"
     ]
@@ -5325,7 +5322,6 @@
     "id": "Sand_Crab",
     "category": "skilling",
     "sortingGroups": ["pvm", "attack", "strength", "defence", "ranged", "magic", "hitpoints"],
-    "requiredLevel": 1,
     "notableDrops": [
       "Seaweed",
       "Bucket_of_sand"
