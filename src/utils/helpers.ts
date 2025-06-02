@@ -1,6 +1,6 @@
 import { capitalizeFirstLetter } from '@zigurous/forge-react';
 import { combatSkills, iconOrder, nonCombatSkills, skills } from './constants'; // prettier-ignore
-import type { Activity, CombatSkill, CombatStyle, NonCombatSkill, Region, RegionId, Resources, Skill, SortingGroup, Spell, Spellbook } from '../types'; // prettier-ignore
+import type { Activity, CombatSkill, CombatStyle, NonCombatSkill, Region, RegionId, Skill, SortingGroup, Spell, Spellbook } from '../types'; // prettier-ignore
 
 const autoDetectedItemSuffixes = [
   '_arrow',
@@ -223,41 +223,15 @@ export function combineRegions(regions: Region[]): Region {
     npcs: combineUniqueIds(regions, 'npcs'),
     misc: combineUniqueIds(regions, 'misc'),
     pets: combineUniqueIds(regions, 'pets'),
-    resources: {
-      bars: combineUniqueResourceIds(regions, 'bars'),
-      bones: combineUniqueResourceIds(regions, 'bones'),
-      food: combineUniqueResourceIds(regions, 'food'),
-      logs: combineUniqueResourceIds(regions, 'logs'),
-      misc: combineUniqueResourceIds(regions, 'misc'),
-      ores: combineUniqueResourceIds(regions, 'ores'),
-      runes: combineUniqueResourceIds(regions, 'runes'),
-      secondaries: combineUniqueResourceIds(regions, 'secondaries'),
-    },
+    resources: combineUniqueIds(regions, 'resources'),
   };
 }
 
-function combineUniqueIds(
-  regions: Omit<Region, 'resources'>[],
-  prop: keyof Omit<Region, 'resources'>,
-): string[] {
+function combineUniqueIds(regions: Region[], prop: keyof Region): string[] {
   return [
     ...new Set(
       regions
         .map(region => region[prop])
-        .flat()
-        .sort(sortById),
-    ),
-  ];
-}
-
-function combineUniqueResourceIds(
-  regions: Region[],
-  prop: keyof Resources,
-): string[] {
-  return [
-    ...new Set(
-      regions
-        .map(region => region.resources[prop])
         .flat()
         .sort(sortById),
     ),
