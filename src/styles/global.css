@@ -126,6 +126,10 @@ textarea::placeholder {
   background-color: var(--color-secondary);
 }
 
+.tooltip[data-theme="high-contrast"] {
+  --color-background: black;
+}
+
 .modal__content {
   background-color: var(--color-surface-2);
 }

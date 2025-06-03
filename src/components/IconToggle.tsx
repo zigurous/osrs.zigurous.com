@@ -1,6 +1,6 @@
+import { Tooltip } from '@zigurous/forge-react';
 import classNames from 'classnames';
 import React, { useRef, useState } from 'react';
-import Tooltip from './Tooltip';
 
 interface IconToggleProps {
   icon: string;
@@ -33,7 +33,7 @@ export default function IconToggle({
         src={`https://oldschool.runescape.wiki/images/${icon}.png`}
       />
       {hovering && ref.current && (
-        <Tooltip element={ref.current} text={label} />
+        <Tooltip element={ref.current}>{label}</Tooltip>
       )}
     </button>
   );

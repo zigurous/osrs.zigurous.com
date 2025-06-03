@@ -1,5 +1,4 @@
 import { AppHeader, SocialButton, Stack, Text, Toggle } from '@zigurous/forge-react'; // prettier-ignore
-import { Link } from 'gatsby';
 import React from 'react';
 import { useRegionsContext } from '../context';
 import icon from '../images/world-map-icon.png';

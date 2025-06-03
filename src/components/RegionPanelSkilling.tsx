@@ -1,7 +1,7 @@
 import { Stack, Text } from '@zigurous/forge-react';
 import React, { useMemo } from 'react';
 import ActivityCard from './ActivityCard';
-import HelpTooltip from './HelpTooltip';
+import InfoTooltip from './InfoTooltip';
 import ActivityFilter from './SkillFilters';
 import SkillLevelInput from './SkillLevelInput';
 import { useActivitiesContext, useSettingsContext, useSkillingFilterContext } from '../context'; // prettier-ignore
@@ -84,22 +84,18 @@ export default function RegionPanelSkilling({
         <Text as="h2" className="ml-sm" type="title-lg">
           Skilling
         </Text>
-        <HelpTooltip
-          text={
-            <>
-              <p className="text-left mb-xxxs">
-                Click a skill below to filter the list
-              </p>
-              <p className="text-left">
-                <b className="font-500">• Shift+Click</b> to select a range of
-                skills
-                <br />
-                <b className="font-500">• Ctrl/Cmd+Click</b> to select
-                individual skills
-              </p>
-            </>
-          }
-        />
+        <InfoTooltip>
+          <p className="text-left mb-xxxs">
+            Click a skill below to filter the list
+          </p>
+          <p className="text-left">
+            <b className="font-500">• Shift+Click</b> to select a range of
+            skills
+            <br />
+            <b className="font-500">• Ctrl/Cmd+Click</b> to select individual
+            skills
+          </p>
+        </InfoTooltip>
       </Stack>
       <ActivityFilter disabledFilters={['sailing']} />
       <Stack align="center" className="my-xl" spacing="sm">

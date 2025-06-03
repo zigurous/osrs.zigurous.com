@@ -1,6 +1,6 @@
+import { Tooltip } from '@zigurous/forge-react';
 import classNames from 'classnames';
 import React, { useRef, useState } from 'react';
-import Tooltip from './Tooltip';
 import WikiIcon from './WikiIcon';
 import WikiLink from './WikiLink';
 import { autoDetectItemIcon, formatNameFromId, toTitleCase } from '../utils';
@@ -76,33 +76,30 @@ export default function ItemFrame({
           </span>
         )}
         {hovering && ref.current && (
-          <Tooltip
-            element={ref.current}
-            text={
-              item.tooltip || (
-                <>
-                  {label}
-                  {Boolean((item as FoodData).healing) && (
-                    <>
-                      <br />
-                      <span
-                        aria-label={`Heals ${(item as FoodData).healing}`}
-                        className="inline-flex justify-center align-center"
-                      >
-                        {(item as FoodData).healing}
-                        <WikiIcon
-                          aria-hidden
-                          className="ml-xxxs"
-                          icon="Hitpoints_icon"
-                          size={12}
-                        />
-                      </span>
-                    </>
-                  )}
-                </>
-              )
-            }
-          />
+          <Tooltip element={ref.current}>
+            {item.tooltip || (
+              <>
+                {label}
+                {Boolean((item as FoodData).healing) && (
+                  <>
+                    <br />
+                    <span
+                      aria-label={`Heals ${(item as FoodData).healing}`}
+                      className="inline-flex justify-center align-center"
+                    >
+                      {(item as FoodData).healing}
+                      <WikiIcon
+                        aria-hidden
+                        className="ml-xxxs"
+                        icon="Hitpoints_icon"
+                        size={12}
+                      />
+                    </span>
+                  </>
+                )}
+              </>
+            )}
+          </Tooltip>
         )}
       </WikiLink>
       {item.transmutations && (
