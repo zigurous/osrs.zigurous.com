@@ -1,4 +1,4 @@
-import { Button, usePanAndZoom } from '@zigurous/forge-react';
+import { Button, PanAndZoomProvider, PanAndZoomTransform } from '@zigurous/forge-react'; // prettier-ignore
 import classNames from 'classnames';
 import React, { useEffect, useRef, useState } from 'react';
 import AreaBadge from './AreaBadge';
@@ -12,8 +12,6 @@ const MAP_SIZE = { width: 463, height: 215 };
 export default function WorldMap() {
   const context = useRegionsContext();
   const ref = useRef<HTMLDivElement>(null);
-
-  const [{ panX, panY, zoom }, panning, resetMap] = usePanAndZoom(ref);
   const [scale, setScale] = useState(1);
   const [observer] = useState(() =>
     typeof window !== 'undefined'
@@ -35,7 +33,7 @@ export default function WorldMap() {
   }, [ref]);
 
   return (
-    <div
+    <PanAndZoomProvider
       className={classNames(
         'world-map',
         {
@@ -45,74 +43,72 @@ export default function WorldMap() {
       )}
       ref={ref}
     >
-      {ref.current && (
-        <div
-          className="w-full h-full"
-          style={{
-            transform: `translate(${panX}px, ${panY}px) scale(${zoom})`,
-            transformOrigin: '0 0',
-          }}
-        >
-          <div
-            className="world-map__container"
-            style={{
-              width: MAP_SIZE.width,
-              height: MAP_SIZE.height,
-              transform: `translate(-50%, -50%) scale(${scale * 0.8})`,
-            }}
-          >
-            <WorldMapSVG
-              className="world-map__image"
-              width={MAP_SIZE.width}
-              height={MAP_SIZE.height}
-              onClick={e => {
-                if (panning.current) return;
-                const target = e.target as HTMLElement;
-                const regionId = target.parentElement?.id as
-                  | RegionId
-                  | undefined;
-                if (regionId) {
-                  if (context.selectedRegions.includes(regionId)) {
-                    context.deselectRegion(regionId);
-                  } else {
-                    context.selectRegion(regionId);
-                  }
-                }
+      {(_, panning, resetMap) => (
+        <>
+          <PanAndZoomTransform>
+            <div
+              className="world-map__container"
+              style={{
+                width: MAP_SIZE.width,
+                height: MAP_SIZE.height,
+                transform: `translate(-50%, -50%) scale(${scale * 0.8})`,
               }}
-            />
-            <div className="world-map__badges">
-              {context.regions.map(region => {
-                const selected = context.selectedRegions.includes(region.id);
-                return (
-                  <AreaBadge
-                    key={region.id}
-                    region={region}
-                    selected={selected}
-                    deselected={!selected && context.selectedRegions.length > 0}
-                    onClick={() => {
-                      if (!panning.current) {
-                        if (selected) {
-                          context.deselectRegion(region.id);
-                        } else {
-                          context.selectRegion(region.id);
-                        }
+            >
+              <WorldMapSVG
+                className="world-map__image"
+                width={MAP_SIZE.width}
+                height={MAP_SIZE.height}
+                onClick={e => {
+                  if (panning.current) return;
+                  const target = e.target as HTMLElement;
+                  const regionId = target.parentElement?.id as
+                    | RegionId
+                    | undefined;
+                  if (regionId) {
+                    if (context.selectedRegions.includes(regionId)) {
+                      context.deselectRegion(regionId);
+                    } else {
+                      context.selectRegion(regionId);
+                    }
+                  }
+                }}
+              />
+              <div className="world-map__badges">
+                {context.regions.map(region => {
+                  const selected = context.selectedRegions.includes(region.id);
+                  return (
+                    <AreaBadge
+                      key={region.id}
+                      region={region}
+                      selected={selected}
+                      deselected={
+                        !selected && context.selectedRegions.length > 0
                       }
-                    }}
-                  />
-                );
-              })}
+                      onClick={() => {
+                        if (!panning.current) {
+                          if (selected) {
+                            context.deselectRegion(region.id);
+                          } else {
+                            context.selectRegion(region.id);
+                          }
+                        }
+                      }}
+                    />
+                  );
+                })}
+              </div>
             </div>
-          </div>
-        </div>
+          </PanAndZoomTransform>
+          <Button
+            className="world-map__reset-button"
+            icon="zoom_out_map"
+            iconAlignment="only"
+            onClick={resetMap}
+            size="lg"
+            variant="unstyled"
+          />
+        </>
       )}
-      <Button
-        className="world-map__reset-button"
-        icon="zoom_out_map"
-        iconAlignment="only"
-        size="lg"
-        variant="unstyled"
-        onClick={resetMap}
-      />
-    </div>
+    </PanAndZoomProvider>
   );
 }
