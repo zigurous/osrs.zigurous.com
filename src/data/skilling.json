@@ -1601,6 +1601,17 @@
     ]
   },
   {
+    "id": "Chinchompa",
+    "title": "Chinning",
+    "category": "skilling",
+    "sortingGroups": ["ranged"],
+    "notableDrops": [
+      "Chinchompa",
+      "Red_chinchompa",
+      "Black_chinchompa"
+    ]
+  },
+  {
     "id": "Chinchompa_(Hunter)",
     "title": "Chinchompas",
     "category": "skilling",
@@ -2374,6 +2385,18 @@
     "sortingGroups": ["runecraft"],
     "notableDrops": [
       "Dust_rune"
+    ]
+  },
+  {
+    "id": "Dwarf_multicannon",
+    "category": "skilling",
+    "sortingGroups": ["ranged"],
+    "notableDrops": [
+      "Cannon_barrels",
+      "Cannon_base",
+      "Cannon_furnace",
+      "Cannon_stand",
+      "Cannonball"
     ]
   },
   {
