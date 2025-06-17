@@ -35,8 +35,12 @@ export function sortByIcon(a: Activity, b: Activity): number {
 }
 
 export function sortByLevel(a: Activity, b: Activity): number {
-  let aLevel = a.requiredLevel ?? 0;
-  let bLevel = b.requiredLevel ?? 0;
+  let aLevel = Array.isArray(a.requiredLevel)
+    ? a.requiredLevel[0]
+    : a.requiredLevel;
+  let bLevel = Array.isArray(b.requiredLevel)
+    ? b.requiredLevel[0]
+    : b.requiredLevel;
   if (aLevel === bLevel && aLevel !== 0) {
     if (a.caption && !b.caption) {
       return 1;
@@ -46,7 +50,7 @@ export function sortByLevel(a: Activity, b: Activity): number {
       return a.caption.localeCompare(b.caption, undefined, { numeric: true });
     }
   }
-  return aLevel - bLevel;
+  return (aLevel || 0) - (bLevel || 0);
 }
 
 export function sortBySkill(a: Activity, b: Activity): number {

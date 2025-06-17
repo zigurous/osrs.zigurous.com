@@ -31,7 +31,7 @@ export const createSchemaCustomization = ({
       subcategory: String
       sortingGroups: [String!]!
       recommendedCombatStyle: [String!]!
-      requiredLevel: Int
+      requiredLevel: RequiredLevel
       notableDrops: [String!]!
     }
     type DungeonsJson implements Node @dontInfer {
@@ -63,7 +63,7 @@ export const createSchemaCustomization = ({
       caption: String
       category: String!
       sortingGroups: [String!]!
-      requiredLevel: Int
+      requiredLevel: RequiredLevel
       notableDrops: [String!]
     }
     type ItemsJson implements Node @dontInfer {
@@ -87,7 +87,7 @@ export const createSchemaCustomization = ({
       caption: String
       category: String!
       sortingGroups: [String!]!
-      requiredLevel: Int
+      requiredLevel: RequiredLevel
       notableDrops: [String!]
     }
     type MiscJson implements Node @dontInfer {
@@ -98,7 +98,7 @@ export const createSchemaCustomization = ({
       caption: String
       category: String!
       sortingGroups: [String!]!
-      requiredLevel: Int
+      requiredLevel: RequiredLevel
       notableDrops: [String!]
     }
     type NpcsJson implements Node @dontInfer {
@@ -108,7 +108,7 @@ export const createSchemaCustomization = ({
       subtitle: String
       category: String!
       sortingGroups: [String!]!
-      requiredLevel: Int
+      requiredLevel: RequiredLevel
       notableDrops: [String!]
     }
     type PetsJson implements Node @dontInfer {
@@ -163,7 +163,7 @@ export const createSchemaCustomization = ({
       caption: String
       category: String!
       sortingGroups: [String!]!
-      requiredLevel: Int
+      requiredLevel: RequiredLevel
       notableDrops: [String!]
     }
     type SlayerMastersJson implements Node @dontInfer {
@@ -193,11 +193,12 @@ export const createSchemaCustomization = ({
       caption: String
       category: String!
       spellbook: String!
-      requiredLevel: Int!
+      requiredLevel: RequiredLevel!
       sortingGroups: [String!]!
       notableDrops: [String!]
     }
   `;
+
   const coerceItemSource = (value: any) => {
     if (Array.isArray(value) || typeof value === 'string') {
       return value;
@@ -207,10 +208,28 @@ export const createSchemaCustomization = ({
       );
     }
   };
+
+  const coerceRequiredLevel = (value: any) => {
+    if (Array.isArray(value) || typeof value === 'number') {
+      return value;
+    } else {
+      throw new Error(
+        'RequiredLevel cannot represent value: ' + JSON.stringify(value),
+      );
+    }
+  };
+
   const ItemSource = schema.buildScalarType({
     name: 'ItemSource',
     serialize: coerceItemSource,
     parseValue: coerceItemSource,
   });
-  createTypes([typeDefs, ItemSource]);
+
+  const RequiredLevel = schema.buildScalarType({
+    name: 'RequiredLevel',
+    serialize: coerceRequiredLevel,
+    parseValue: coerceRequiredLevel,
+  });
+
+  createTypes([typeDefs, ItemSource, RequiredLevel]);
 };

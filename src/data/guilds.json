@@ -62,7 +62,7 @@
     "caption": "45-85",
     "category": "guild",
     "sortingGroups": ["farming"],
-    "requiredLevel": 45,
+    "requiredLevel": [45, 65, 85],
     "notableDrops": [
       "Seed_pack",
       "Rake",
@@ -195,7 +195,7 @@
     "caption": "20-50",
     "category": "guild",
     "sortingGroups": ["construction"],
-    "requiredLevel": 20,
+    "requiredLevel": [20, 25, 30, 40, 50],
     "notableDrops": [
       "Rick",
       "Maid",

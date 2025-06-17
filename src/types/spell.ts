@@ -6,5 +6,5 @@ export interface Spell extends Sortable, Titled {
   id: string;
   category: 'spell';
   spellbook: Spellbook;
-  requiredLevel: number;
+  requiredLevel: number | number[];
 }

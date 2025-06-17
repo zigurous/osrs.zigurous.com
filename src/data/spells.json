@@ -34,7 +34,7 @@
     "caption": "86-94",
     "category": "spell",
     "spellbook": "Ancient",
-    "requiredLevel": 86,
+    "requiredLevel": [86, 88, 92, 94],
     "sortingGroups": ["magic"],
     "notableDrops": [
       "Smoke_Barrage",
@@ -49,7 +49,7 @@
     "caption": "62-70",
     "category": "spell",
     "spellbook": "Ancient",
-    "requiredLevel": 62,
+    "requiredLevel": [62, 64, 68, 70],
     "sortingGroups": ["magic"],
     "notableDrops": [
       "Smoke_Burst",
@@ -176,7 +176,7 @@
     "caption": "4-87",
     "category": "spell",
     "spellbook": "Standard",
-    "requiredLevel": 4,
+    "requiredLevel": [4, 7, 14, 24, 27, 29, 49, 57, 68, 87],
     "sortingGroups": ["magic"],
     "notableDrops": [
       "Enchant_Crossbow_Bolt",
@@ -236,7 +236,7 @@
     "caption": "7-93",
     "category": "spell",
     "spellbook": "Standard",
-    "requiredLevel": 7,
+    "requiredLevel": [7, 27, 49, 57, 68, 87, 93],
     "sortingGroups": ["magic", "crafting"],
     "notableDrops": [
       "Lvl-1_Enchant",
@@ -423,7 +423,7 @@
     "caption": "16-90",
     "category": "spell",
     "spellbook": "Arceuus",
-    "requiredLevel": 16,
+    "requiredLevel": [16, 41, 72, 90],
     "sortingGroups": ["magic", "prayer"],
     "notableDrops": [
       "Basic_Reanimation",

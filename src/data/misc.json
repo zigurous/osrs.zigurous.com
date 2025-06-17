@@ -109,7 +109,7 @@
     "caption": "12-57",
     "category": "misc",
     "sortingGroups": ["woodcutting"],
-    "requiredLevel": 12
+    "requiredLevel": [12, 27, 42, 57]
   },
   {
     "id": "Champions'_Challenge",

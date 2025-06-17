@@ -22,7 +22,7 @@
     "caption": "1-85",
     "category": "minigame",
     "sortingGroups": ["smithing"],
-    "requiredLevel": 1,
+    "requiredLevel": [1, 15, 20, 30, 40, 50, 70, 85],
     "notableDrops": [
       "Goldsmith_gauntlets",
       "Gold_ore",
@@ -248,7 +248,7 @@
     "caption": "52-92",
     "category": "minigame",
     "sortingGroups": ["agility"],
-    "requiredLevel": 52,
+    "requiredLevel": [52, 62, 72, 82, 92],
     "notableDrops": [
       "Hallowed_mark",
       "Hallowed_token",
@@ -269,7 +269,7 @@
     "caption": "17-89",
     "category": "minigame",
     "sortingGroups": ["hunter"],
-    "requiredLevel": 17,
+    "requiredLevel": [17, 22, 28, 36, 42, 50, 58, 65, 74, 83, 89],
     "notableDrops": [
       "Lucky_impling_jar",
       "Dragon_impling_jar",
@@ -353,7 +353,7 @@
     "caption": "7-93",
     "category": "minigame",
     "sortingGroups": ["magic"],
-    "requiredLevel": 7,
+    "requiredLevel": [7, 15, 21, 27, 33, 49, 55, 57, 60, 68, 87, 93],
     "notableDrops": [
       "Infinity_hat",
       "Infinity_top",
@@ -373,7 +373,7 @@
     "caption": "1-70",
     "category": "minigame",
     "sortingGroups": ["construction"],
-    "requiredLevel": 1,
+    "requiredLevel": [1, 20, 50, 70],
     "notableDrops": [
       "Carpenter's_helmet",
       "Carpenter's_shirt",
@@ -390,7 +390,7 @@
     "caption": "60-81",
     "category": "minigame",
     "sortingGroups": ["herblore"],
-    "requiredLevel": 60,
+    "requiredLevel": [60, 63, 66, 69, 72, 75, 78, 81],
     "notableDrops": [
       "Prescription_goggles",
       "Alchemist_labcoat",
@@ -411,7 +411,7 @@
     "caption": "20-65",
     "category": "minigame",
     "sortingGroups": ["cooking"],
-    "requiredLevel": 20,
+    "requiredLevel": [20, 25, 65],
     "notableDrops": [
       "Servery_meat_pie",
       "Servery_stew",
@@ -434,7 +434,7 @@
     "caption": "40-100",
     "category": "minigame",
     "sortingGroups": ["pvm", "attack", "strength", "defence", "ranged", "magic", "hitpoints", "prayer"],
-    "requiredLevel": 40,
+    "requiredLevel": [40, 70, 100],
     "notableDrops": [
       "Void_melee_helm",
       "Void_ranger_helm",
@@ -450,7 +450,7 @@
     "caption": "21-91",
     "category": "minigame",
     "sortingGroups": ["thieving"],
-    "requiredLevel": 21,
+    "requiredLevel": [21, 31, 41, 51, 61, 71, 81, 91],
     "notableDrops": [
       "Pharaoh's_sceptre",
       "Golden_statuette",
@@ -516,7 +516,7 @@
     "caption": "1-65",
     "category": "minigame",
     "sortingGroups": ["thieving"],
-    "requiredLevel": 1,
+    "requiredLevel": [1, 25, 45, 65],
     "notableDrops": [
       "Summer_sq'irkjuice",
       "Autumn_sq'irkjuice",
@@ -549,7 +549,7 @@
     "caption": "10-35",
     "category": "minigame",
     "sortingGroups": ["woodcutting"],
-    "requiredLevel": 10,
+    "requiredLevel": [10, 20, 35],
     "notableDrops": [
       "Trading_sticks",
       "Gout_tuber",
@@ -611,7 +611,7 @@
     "caption": "34-74",
     "category": "minigame",
     "sortingGroups": ["farming"],
-    "requiredLevel": 34,
+    "requiredLevel": [34, 54, 74],
     "notableDrops": [
       "Farmer's_strawhat",
       "Farmer's_jacket",

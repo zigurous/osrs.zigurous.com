@@ -6,7 +6,7 @@ export interface Activity extends DropSource, Sortable, Titled {
   icon?: string;
   category: string;
   subcategory?: string;
-  requiredLevel?: number;
+  requiredLevel?: number | number[];
 }
 
 export type CombatStyle = 'melee' | 'ranged' | 'magic' | 'hybrid';

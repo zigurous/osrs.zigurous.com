@@ -34,38 +34,17 @@ export default function RegionPanelSkilling({
       ]),
     ];
     return ids
-      .map((id: string) => {
-        const activity = context.getActivityById(id);
-        switch (activity?.category) {
-          case 'boss':
-            return {
-              ...activity,
-              subtitle: 'Boss',
-              requiredLevel: activity.requiredLevel || 1,
-              sortingGroups: activity.sortingGroups.includes('slayer')
-                ? ['slayer', ...activity.sortingGroups]
-                : activity.sortingGroups,
-            } as Activity;
-          case 'monster':
-            return { ...activity, icon: 'Slayer_icon' };
-        }
-        return activity;
-      })
+      .map(remapActivityById(context.getActivityById))
       .filter(activity => !!activity)
-      .filter(activityFilter)
+      .filter(filterByActivity)
       .sort(sortByName)
       .sort(sortByLevel)
       .sort(sortByIcon);
   }, [region, region.id, context.getActivityById]);
 
-  const filteredActivities = activities.filter(activity => {
-    const min = settings.minSkillLevel;
-    const max = settings.maxSkillLevel;
-    const lvl = activity.requiredLevel || 1;
-    if (min && lvl < min) return false;
-    if (max && lvl > max) return false;
-    return filter.isActivityIncluded(activity);
-  });
+  const filteredActivities = activities
+    .filter(filter.isActivityIncluded)
+    .filter(filterByLvl(settings.minSkillLevel, settings.maxSkillLevel));
 
   const primaryActivities =
     filter.selectedFilters.length > 0
@@ -153,7 +132,33 @@ export default function RegionPanelSkilling({
 
 const excludedCategories = ['raid', 'chest', 'spellbook', null, undefined];
 
-function activityFilter(activity: Activity) {
+function remapActivityById(
+  getActivityById: (id: string) => Activity | undefined,
+): (id: string) => Activity | undefined {
+  return (id: string) => {
+    const activity = getActivityById(id);
+    if (!activity) return undefined;
+
+    if (activity.category === 'monster') {
+      return { ...activity, icon: 'Slayer_icon' };
+    }
+
+    if (activity.category === 'boss') {
+      return {
+        ...activity,
+        subtitle: 'Boss',
+        requiredLevel: activity.requiredLevel || 1,
+        sortingGroups: activity.sortingGroups.includes('slayer')
+          ? ['slayer', ...activity.sortingGroups]
+          : activity.sortingGroups,
+      };
+    }
+
+    return activity;
+  };
+}
+
+function filterByActivity(activity: Activity) {
   if (excludedCategories.includes(activity.category)) {
     return false;
   }
@@ -179,4 +184,23 @@ function activityFilter(activity: Activity) {
     group =>
       group === 'skilling' || skillingFilters.includes(group as SkillFilter),
   );
+}
+
+function filterByLvl(
+  min: number | '',
+  max: number | '',
+): (activity: Activity) => boolean {
+  return (activity: Activity) => {
+    if (Array.isArray(activity.requiredLevel)) {
+      return activity.requiredLevel.some(lvl => {
+        if (min && lvl < min) return false;
+        if (max && lvl > max) return false;
+        return true;
+      });
+    }
+    const lvl = activity.requiredLevel || 1;
+    if (min && lvl < min) return false;
+    if (max && lvl > max) return false;
+    return true;
+  };
 }
