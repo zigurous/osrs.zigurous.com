@@ -58,25 +58,33 @@ export default function RegionPanelSkilling({
       .sort(sortByIcon);
   }, [region, region.id, context.getActivityById]);
 
-  const filteredActivities = activities
-    .filter(activity => {
-      const min = settings.minSkillLevel;
-      const max = settings.maxSkillLevel;
-      const lvl = activity.requiredLevel || 1;
-      if (min && lvl < min) return false;
-      if (max && lvl > max) return false;
-      return filter.isActivityFiltered(activity);
-    })
-    .sort((a, b) => {
-      // sort activities so the selected categories always show first
-      const aGroup = a.sortingGroups.length > 0 ? a.sortingGroups[0] : 'misc';
-      const bGroup = b.sortingGroups.length > 0 ? b.sortingGroups[0] : 'misc';
-      const aInc = filter.selectedFilters.includes(aGroup as SkillFilter);
-      const bInc = filter.selectedFilters.includes(bGroup as SkillFilter);
-      if (aInc && !bInc) return -1;
-      if (bInc && !aInc) return 1;
-      return 0;
-    });
+  const filteredActivities = activities.filter(activity => {
+    const min = settings.minSkillLevel;
+    const max = settings.maxSkillLevel;
+    const lvl = activity.requiredLevel || 1;
+    if (min && lvl < min) return false;
+    if (max && lvl > max) return false;
+    return filter.isActivityIncluded(activity);
+  });
+
+  const primaryActivities =
+    filter.selectedFilters.length > 0
+      ? filteredActivities.filter(activity =>
+          filter.selectedFilters.includes(
+            activity.sortingGroups[0] as SkillFilter,
+          ),
+        )
+      : filteredActivities;
+
+  const adjacentActivities =
+    filter.selectedFilters.length > 0
+      ? filteredActivities.filter(
+          activity =>
+            !filter.selectedFilters.includes(
+              activity.sortingGroups[0] as SkillFilter,
+            ),
+        )
+      : [];
 
   return (
     <section className="panel__section">
@@ -112,11 +120,27 @@ export default function RegionPanelSkilling({
       </Stack>
       {filteredActivities.length > 0 ? (
         <ul className="drops-list drops-list--accordion mb-lg">
-          {filteredActivities.map(activity => (
+          {primaryActivities.map(activity => (
             <li id={activity.id} key={activity.id}>
               <ActivityCard activity={activity} />
             </li>
           ))}
+          {adjacentActivities.length > 0 && (
+            <>
+              <div className="flex justify-center align-center">
+                <hr className="full mr-md" />
+                <Text type="eyebrow" color="disabled">
+                  Adjacent
+                </Text>
+                <hr className="full ml-md" />
+              </div>
+              {adjacentActivities.map(activity => (
+                <li id={activity.id} key={activity.id}>
+                  <ActivityCard activity={activity} />
+                </li>
+              ))}
+            </>
+          )}
         </ul>
       ) : (
         <Text align="center" color="disabled">

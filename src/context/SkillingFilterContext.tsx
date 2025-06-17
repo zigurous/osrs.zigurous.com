@@ -9,7 +9,7 @@ interface SkillingFilterContextData {
   addFilter: (filter: SkillFilter) => void;
   removeFilter: (filter: SkillFilter) => void;
   selectRange: (filter: SkillFilter) => void;
-  isActivityFiltered: (activity: Activity) => boolean;
+  isActivityIncluded: (activity: Activity) => boolean;
 }
 
 const defaultData: SkillingFilterContextData = {
@@ -19,7 +19,7 @@ const defaultData: SkillingFilterContextData = {
   addFilter: () => undefined,
   removeFilter: () => undefined,
   selectRange: () => undefined,
-  isActivityFiltered: () => true,
+  isActivityIncluded: () => true,
 };
 
 const SkillingFilterContext =
@@ -77,7 +77,7 @@ export function SkillingFilterContextProvider({
             return previous.slice(0, previous.indexOf(pivot)).concat(range);
           });
         },
-        isActivityFiltered: (activity: Activity) => {
+        isActivityIncluded: (activity: Activity) => {
           return selection.length > 0
             ? selection.some(filter => activity.sortingGroups.includes(filter))
             : true;
