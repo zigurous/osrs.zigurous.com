@@ -37,7 +37,8 @@ export default function WorldMap() {
       className={classNames(
         'world-map',
         {
-          selected: context.selectedRegions.length > 0,
+          selected:
+            context.selectedRegions.length > 0 || context.multiRegionMode,
         },
         context.selectedRegions,
       )}
@@ -82,7 +83,9 @@ export default function WorldMap() {
                       region={region}
                       selected={selected}
                       deselected={
-                        !selected && context.selectedRegions.length > 0
+                        !selected &&
+                        (context.selectedRegions.length > 0 ||
+                          context.multiRegionMode)
                       }
                       onClick={() => {
                         if (!panning.current) {
