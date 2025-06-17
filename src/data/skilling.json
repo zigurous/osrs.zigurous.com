@@ -2732,7 +2732,7 @@
   {
     "id": "Fish",
     "subtitle": "Low Level",
-    "caption": "1-30",
+    "caption": "1-25",
     "category": "skilling",
     "sortingGroups": ["cooking"],
     "requiredLevel": 1,
@@ -2745,8 +2745,7 @@
       "Trout",
       "Cod",
       "Pike",
-      "Salmon",
-      "Tuna"
+      "Salmon"
     ]
   },
   {
