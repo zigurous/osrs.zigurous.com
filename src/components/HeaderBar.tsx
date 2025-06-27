@@ -16,7 +16,7 @@ export default function HeaderBar() {
         <>
           <Stack align="center">
             <img src={icon} width={32} height={32} />
-            <Text bold className="ml-sm" marginBottom="xxxs" type="subtitle">
+            <Text bold className="ml-sm" marginBottom="xxxs" type="title-sm">
               Region Analyzer
             </Text>
           </Stack>

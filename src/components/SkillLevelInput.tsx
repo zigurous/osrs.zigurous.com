@@ -2,18 +2,21 @@ import { clamp, Input, keyboardEventHandler } from '@zigurous/forge-react';
 import React from 'react';
 
 interface SkillLevelInputProps {
+  id: string;
   level: number | '';
   placeholder?: string;
   setLevel: (lvl: number | '') => void;
 }
 
 export default function SkillLevelInput({
+  id,
   level,
   placeholder = 'Lvl',
   setLevel,
 }: SkillLevelInputProps) {
   return (
     <Input
+      id={id}
       onChange={e =>
         setLevel(
           e.target.value ? clamp(Number.parseInt(e.target.value), 1, 99) : '',

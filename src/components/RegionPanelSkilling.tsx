@@ -87,11 +87,13 @@ export default function RegionPanelSkilling({
       <ActivityFilter disabledFilters={['sailing']} />
       <Stack align="center" className="my-xl" spacing="sm">
         <SkillLevelInput
+          id="min-lvl"
           placeholder="Min Lvl"
           level={settings.minSkillLevel}
           setLevel={lvl => settings.set('minSkillLevel', lvl)}
         />
         <SkillLevelInput
+          id="max-lvl"
           placeholder="Max Lvl"
           level={settings.maxSkillLevel}
           setLevel={lvl => settings.set('maxSkillLevel', lvl)}
