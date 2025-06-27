@@ -275,11 +275,7 @@
     "sortingGroups": ["pvm"],
     "recommendedCombatStyle": ["magic"],
     "notableDrops": [
-      "Unidentified_small_fossil",
-      "Unidentified_medium_fossil",
-      "Unidentified_large_fossil",
-      "Unidentified_rare_fossil",
-      "Numulite"
+      "Steel_ring"
     ]
   },
   {
