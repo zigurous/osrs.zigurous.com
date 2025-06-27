@@ -1170,6 +1170,15 @@
     "icon": "Javelin_shaft_5"
   },
   {
+    "id": "Jewel_of_amascut",
+    "transmutations": [
+      "#plus",
+      "Keris_partisan",
+      "#equals",
+      "Keris_partisan_of_amascut"
+    ]
+  },
+  {
     "id": "Jewel_of_the_sun",
     "transmutations": [
       "#plus",
