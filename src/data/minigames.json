@@ -677,6 +677,21 @@
     ]
   },
   {
+    "id": "Vale_Totems_(minigame)",
+    "title": "Vale Totems",
+    "caption": "20-90",
+    "category": "minigame",
+    "sortingGroups": ["fletching"],
+    "requiredLevel": [20, 35, 50, 65, 80, 90],
+    "notableDrops": [
+      "Bow_string_spool",
+      "Fletching_knife",
+      "Greenman_mask",
+      "Ent_branch",
+      "Bale_of_flax"
+    ]
+  },
+  {
     "id": "Volcanic_Mine",
     "category": "minigame",
     "sortingGroups": ["mining"],

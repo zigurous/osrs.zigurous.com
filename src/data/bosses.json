@@ -279,6 +279,22 @@
     ]
   },
   {
+    "id": "Doom_of_Mokhaiotl",
+    "icon": "Mokhaiotl_waystone_5",
+    "category": "boss",
+    "sortingGroups": ["pvm"],
+    "recommendedCombatStyle": ["hybrid"],
+    "notableDrops": [
+      "Dom",
+      "Avernic_treads",
+      "Eye_of_ayak",
+      "Mokhaiotl_cloth",
+      "Mokhaiotl_waystone",
+      "Demon_tear",
+      "Tooth_half_of_key_(moon_key)"
+    ]
+  },
+  {
     "id": "Duke_Sucellus",
     "icon": "Baron",
     "category": "boss",
@@ -296,6 +312,24 @@
       "Ice_quartz",
       "Frozen_tablet",
       "Awakener's_orb"
+    ]
+  },
+  {
+    "id": "Gemstone_Crab",
+    "icon": "Bag_full_of_gems_(stardust)",
+    "category": "boss",
+    "sortingGroups": ["pvm"],
+    "recommendedCombatStyle": ["hybrid"],
+    "notableDrops": [
+      "Uncut_sapphire",
+      "Uncut_emerald",
+      "Uncut_ruby",
+      "Uncut_diamond",
+      "Uncut_dragonstone",
+      "#newline",
+      "Uncut_opal",
+      "Uncut_jade",
+      "Uncut_red_topaz"
     ]
   },
   {
@@ -840,9 +874,7 @@
       "Oathplate_shards",
       "Soulflame_horn",
       "Rite_of_vile_transference",
-      "#newline",
       "Diabolic_worms",
-      "Aether_catalyst",
       "Barrel_of_demonic_tallow"
     ]
   },

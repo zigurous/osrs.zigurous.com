@@ -329,6 +329,7 @@
     "skilling": [
       "Adamantite_bars",
       "Adamantite_rocks",
+      "Aether_rune",
       "Agility_Pyramid",
       "Al_Kharid_Rooftop_Course",
       "Al_Kharid_warrior#Pickpocketing",
@@ -449,6 +450,7 @@
     "locations": [
       "Al_Kharid",
       "Giants'_Plateau",
+      "Menaphos",
       "Nardah",
       "Pollnivneach",
       "Sophanem",
@@ -483,6 +485,7 @@
     "resources": [
       "Adamantite_bar",
       "Adamantite_ore",
+      "Aether_rune",
       "Air_rune",
       "Ashes",
       "Bass",
@@ -1649,6 +1652,7 @@
       "Super_strength",
       "Superantipoison",
       "Superheat_Item",
+      "Surge_potion",
       "Swordfish",
       "Tanner",
       "Tea_stall",
@@ -2771,6 +2775,7 @@
     "skilling": [
       "Adamantite_bars",
       "Adamantite_rocks",
+      "Aether_rune",
       "Allotment_patch",
       "Antifire_potion",
       "Antipoison",
@@ -2780,10 +2785,12 @@
       "Anvil#Mistrock",
       "Arrows",
       "Attack_potion",
+      "Auburnvale#Hunter",
       "Avium_Savannah",
       "Babydragon_bones",
       "Bakery_stall",
       "Bass",
+      "Belladonna_patch",
       "Big_bones",
       "Big_fishing_net",
       "Blue_dragonhide_armour",
@@ -2794,6 +2801,8 @@
       "Brewing",
       "Bronze_bars",
       "Calcified_rocks",
+      "Calquat_tree",
+      "Carnivorous_chinchompa",
       "Citizen_(Civitas_illa_Fortis)#Pickpocketing",
       "Clay_rocks",
       "Coal_rocks",
@@ -2819,10 +2828,12 @@
       "Fly_fishing_rod",
       "Forestry",
       "Frost_Crab",
+      "Fruit_tree_patch",
       "Fur_stall",
       "Furnace#Cam_Torum",
       "Furnace#Civitas_illa_Fortis",
       "Gem_stall",
+      "Gemstone_Crab#Training",
       "Gilded_altar",
       "Glassblowing",
       "Goading_potion",
@@ -2849,6 +2860,8 @@
       "Magic_logs",
       "Magic_logs#Firemaking",
       "Magic_tree",
+      "Mahogany_logs",
+      "Mahogany_tree",
       "Maple_logs",
       "Maple_logs#Firemaking",
       "Maple_tree",
@@ -2875,6 +2888,7 @@
       "Runite_rocks",
       "Sand_Crab",
       "Saradomin_brew",
+      "Sawmill",
       "Shark",
       "Silk_stall",
       "Silver_bar#Products",
@@ -2899,6 +2913,8 @@
       "Teak_tree",
       "Tecu_salamander_(Hunter)",
       "Tin_rocks",
+      "Tlati_Rainforest#Hunter",
+      "Tourist#Pickpocketing",
       "Tree",
       "Tuna",
       "Wealthy_citizen",
@@ -2915,6 +2931,8 @@
     "raids": [],
     "bosses": [
       "Amoxliatl",
+      "Doom_of_Mokhaiotl",
+      "Gemstone_Crab",
       "Hueycoatl",
       "Moons_of_Peril",
       "Sol_Heredit",
@@ -2924,7 +2942,8 @@
       "Forestry",
       "Fortis_Colosseum",
       "Impetuous_Impulses",
-      "Mastering_Mixology"
+      "Mastering_Mixology",
+      "Vale_Totems_(minigame)"
     ],
     "misc": [
       "Colossal_Wyrm_Agility_Course",
@@ -2938,6 +2957,7 @@
     ],
     "locations": [
       "Aldarin",
+      "Auburnvale",
       "Avium_Savannah",
       "Cam_Torum",
       "Civitas_illa_Fortis",
@@ -2945,16 +2965,22 @@
       "Quetzacalli_Gorge",
       "Salvager_Overlook",
       "Sunset_Coast",
-      "The_Stranglewood"
+      "Tempestus",
+      "The_Stranglewood",
+      "Tlati_Rainforest"
     ],
     "dungeons": [
       "Neypotzli",
-      "Ruins_of_Tapoyauik"
+      "Ruins_of_Tapoyauik",
+      "Stalker_Den",
+      "Tonali_Cavern"
     ],
     "monsters": [
       "Blue_dragon",
       "Cave_crawler",
       "Chilled_jelly",
+      "Custodian_stalker",
+      "Earthen_Nagua",
       "Frost_Nagua",
       "Hill_Giant_(Varlamore)",
       "Ice_giant",
@@ -2969,7 +2995,9 @@
     ],
     "pets": [
       "Butch",
+      "Dom",
       "Huberte",
+      "Humphrey_Dumphrey",
       "Moxi",
       "Quetzin",
       "Smol_heredit"
@@ -2977,6 +3005,7 @@
     "resources": [
       "Adamantite_bar",
       "Adamantite_ore",
+      "Aether_rune",
       "Air_rune",
       "Aldarium",
       "Amylase_crystal",
@@ -3028,6 +3057,7 @@
       "Logs",
       "Magic_logs",
       "Magic_stone",
+      "Mahogany_logs",
       "Maple_logs",
       "Marble_block",
       "Mind_rune",

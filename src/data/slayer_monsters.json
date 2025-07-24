@@ -972,6 +972,27 @@
     ]
   },
   {
+    "id": "Custodian_stalker",
+    "icon": "Antler_guard",
+    "caption": "54-76",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
+    "requiredSlayerLevel": 54,
+    "slayerMasters": [
+      "Nieve",
+      "Vannaka"
+    ],
+    "locations": [
+      "Stalker_Den"
+    ],
+    "notableDrops": [
+      "Antler_guard",
+      "Broken_antler",
+      "Alchemist's_signet",
+      "Cannonball"
+    ]
+  },
+  {
     "id": "Cyclops",
     "icon": "Cyclops_head",
     "subtitle": "Warrior's Guild",
@@ -1246,6 +1267,24 @@
     ]
   },
   {
+    "id": "Earthen_Nagua",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
+    "requiredCombatLevel": 70,
+    "requiredSlayerLevel": 48,
+    "slayerMasters": [
+      "Chaeldar",
+      "Konar_quo_Maten"
+    ],
+    "locations": [
+      "Tonali_Cavern"
+    ],
+    "notableDrops": [
+      "Earthbound_tecpatl"
+    ],
+    "hideFromMenu": true
+  },
+  {
     "id": "Elder_Chaos_druid",
     "icon": "Elder_chaos_hood",
     "category": "monster",
@@ -1393,7 +1432,6 @@
   },
   {
     "id": "Frost_Nagua",
-    "icon": "Moxi",
     "category": "monster",
     "sortingGroups": ["slayer", "pvm"],
     "requiredCombatLevel": 70,
@@ -1410,7 +1448,8 @@
       "Pendant_of_ates",
       "Tooth_half_of_key_(moon_key)",
       "Frozen_tear"
-    ]
+    ],
+    "hideFromMenu": true
   },
   {
     "id": "Gargoyle",
@@ -2184,8 +2223,7 @@
     "locations": [
       "Ruins_of_Tapoyauik",
       "Neypotzli"
-    ],
-    "hideFromMenu": true
+    ]
   },
   {
     "id": "Lizard",
@@ -2990,7 +3028,6 @@
   },
   {
     "id": "Sulphur_Nagua",
-    "icon": "Lesser_nagua_icon",
     "category": "monster",
     "sortingGroups": ["slayer", "pvm", "runecraft"],
     "requiredCombatLevel": 70,
@@ -3005,7 +3042,8 @@
     "notableDrops": [
       "Sulphur_blades",
       "Sulphurous_essence"
-    ]
+    ],
+    "hideFromMenu": true
   },
   {
     "id": "Superior_slayer_monster",

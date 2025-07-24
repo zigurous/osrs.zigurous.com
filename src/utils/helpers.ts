@@ -4,13 +4,17 @@ import type { Activity, CombatSkill, CombatStyle, NonCombatSkill, Region, Region
 
 const autoDetectedItemSuffixes = [
   '_arrow',
+  '_arrowheads',
+  '_arrows',
   '_bolts',
   '_bolts_(e)',
   '_bolts_(unf)',
   '_bolts(unf)',
   '_bolt_tips',
+  '_dart_tips',
   '_javelin_heads',
   '_seed',
+  '_shaft',
 ];
 
 export function sortById(a: string, b: string): number {

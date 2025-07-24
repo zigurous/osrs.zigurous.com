@@ -164,6 +164,7 @@ const dataQuery = graphql`
         icon
         title
         subtitle
+        caption
         category
         sortingGroups
         requiredLevel: requiredSlayerLevel
@@ -176,6 +177,7 @@ const dataQuery = graphql`
         icon
         title
         subtitle
+        caption
         category
         sortingGroups
         requiredLevel

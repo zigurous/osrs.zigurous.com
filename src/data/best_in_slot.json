@@ -135,6 +135,9 @@
       {
         "id": "feet",
         "items": [
+          "Avernic_treads_(max)",
+          "Avernic_treads_(max)#*",
+          "Avernic_treads",
           "Primordial_boots",
           "Aranea_boots",
           "Dragon_boots",
@@ -483,6 +486,9 @@
       {
         "id": "feet",
         "items": [
+          "Avernic_treads_(max)",
+          "Avernic_treads_(max)#*",
+          "Avernic_treads",
           "Pegasian_boots#Clues",
           "Pegasian_boots",
           "Ranger_boots",
@@ -580,6 +586,7 @@
         "id": "weapon",
         "items": [
           "Tumeken's_shadow#Leagues",
+          "Eye_of_ayak#Leagues",
           "Sanguinesti_staff#Leagues",
           "Trident_of_the_swamp#Leagues",
           "Trident_of_the_seas#Leagues",
@@ -590,6 +597,7 @@
           "Dragon_hunter_wand#Leagues",
           "Toktz-mej-tal#Leagues",
           "Tumeken's_shadow",
+          "Eye_of_ayak",
           "Sanguinesti_staff",
           "Trident_of_the_swamp",
           "Trident_of_the_swamp#*",
@@ -679,6 +687,8 @@
       {
         "id": "hands",
         "items": [
+          "Confliction_gauntlets",
+          "Confliction_gauntlets#*",
           "Tormented_bracelet",
           "Gloves_of_the_damned",
           "Sunlit_bracers",
@@ -693,6 +703,9 @@
       {
         "id": "feet",
         "items": [
+          "Avernic_treads_(max)",
+          "Avernic_treads_(max)#*",
+          "Avernic_treads",
           "Eternal_boots#Leagues",
           "Eternal_boots",
           "Eternal_boots#*",

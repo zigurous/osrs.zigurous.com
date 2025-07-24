@@ -141,12 +141,12 @@
     ]
   },
   {
-    "id": "Arrow_shaft",
-    "icon": "Arrow_shaft_5"
-  },
-  {
     "id": "Astral_Altar",
     "icon": "Astral_rune"
+  },
+  {
+    "id": "Atlatl_dart",
+    "icon": "Atlatl_dart_5"
   },
   {
     "id": "Attas_plant",
@@ -163,6 +163,17 @@
       "Dragon_defender",
       "#equals",
       "Avernic_defender"
+    ]
+  },
+  {
+    "id": "Avernic_treads",
+    "transmutations": [
+      "#plus",
+      "Primordial_boots",
+      "Pegasian_boots",
+      "Eternal_boots",
+      "#equals",
+      "Avernic_treads_(max)"
     ]
   },
   {
@@ -189,6 +200,15 @@
   {
     "id": "Barb-tailed_kebbit",
     "icon": "Barb-tailed_kebbit_icon"
+  },
+  {
+    "id": "Barrel_of_demonic_tallow",
+    "transmutations": [
+      "#transmute",
+      "Demonic_tallow",
+      "#transmute",
+      "Surge_potion"
+    ]
   },
   {
     "id": "Barronite_mace",
@@ -343,12 +363,15 @@
     "icon": "Brimstone_key_1"
   },
   {
-    "id": "Broad_arrows",
-    "icon": "Broad_arrows_5"
-  },
-  {
-    "id": "Broad_arrowheads",
-    "icon": "Broad_arrowheads_5"
+    "id": "Broken_antler",
+    "transmutations": [
+      "#transmute",
+      "Atlatl_dart_tips",
+      "#plus",
+      "Headless_atlatl_dart",
+      "#equals",
+      "Atlatl_dart"
+    ]
   },
   {
     "id": "Broken_dragon_hasta",
@@ -633,6 +656,10 @@
     "name": "Dizana's Quiver (uncharged)"
   },
   {
+    "id": "Doom_of_Mokhaiotl",
+    "icon": "Mokhaiotl_waystone_5"
+  },
+  {
     "id": "Dossier_(Yama)",
     "name": "Dossier (Yama)"
   },
@@ -644,10 +671,6 @@
       "#equals",
       "Dragonfire_shield"
     ]
-  },
-  {
-    "id": "Dragon_bolts_(unf)",
-    "icon": "Dragon_bolts_(unf)_5"
   },
   {
     "id": "Dragon_limbs",
@@ -951,6 +974,10 @@
     ]
   },
   {
+    "id": "Headless_atlatl_dart",
+    "icon": "Headless_atlatl_dart_5"
+  },
+  {
     "id": "Heavy_frame",
     "transmutations": [
       "#transmute",
@@ -1164,10 +1191,6 @@
   {
     "id": "Jar_of_venom",
     "tags": ["cosmetic"]
-  },
-  {
-    "id": "Javelin_shaft",
-    "icon": "Javelin_shaft_5"
   },
   {
     "id": "Jewel_of_amascut",
@@ -1392,6 +1415,19 @@
     "icon": "Minnow_5"
   },
   {
+    "id": "Mokhaiotl_cloth",
+    "transmutations": [
+      "#plus",
+      "Tormented_bracelet",
+      "#equals",
+      "Confliction_gauntlets"
+    ]
+  },
+  {
+    "id": "Mokhaiotl_waystone",
+    "icon": "Mokhaiotl_waystone_5"
+  },
+  {
     "id": "Molch_pearl",
     "icon": "Molch_pearl_5"
   },
@@ -1507,10 +1543,6 @@
       "#equals",
       "Odium_ward"
     ]
-  },
-  {
-    "id": "Ogre_arrow_shaft",
-    "icon": "Ogre_arrow_shaft_5"
   },
   {
     "id": "Orange_salamander_(Hunter)",
@@ -2049,10 +2081,6 @@
   {
     "id": "Trading_sticks",
     "icon": "Trading_sticks_10000"
-  },
-  {
-    "id": "Training_arrows",
-    "icon": "Training_arrows_5"
   },
   {
     "id": "Tribal_top",

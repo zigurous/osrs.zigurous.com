@@ -1,9 +1,10 @@
 import { Tooltip } from '@zigurous/forge-react';
 import classNames from 'classnames';
 import React, { useRef, useState } from 'react';
+import { useItemsContext } from '../context';
 import WikiIcon from './WikiIcon';
 import WikiLink from './WikiLink';
-import { autoDetectItemIcon, formatNameFromId, toTitleCase } from '../utils';
+import { formatNameFromId, toTitleCase } from '../utils';
 import type { FoodData, ItemData } from '../types';
 import '../styles/item-frame.css';
 
@@ -26,6 +27,7 @@ export default function ItemFrame({
 }: ItemFrameProps) {
   const ref = useRef<HTMLAnchorElement>(null);
   const [hovering, setHovering] = useState(false);
+  const { getItemById } = useItemsContext();
 
   if (!item) return <ItemFrameEmpty border={border} className={className} />;
   const CustomFrame = customFrames.find(frame => item.id.startsWith(frame.id));
@@ -106,7 +108,7 @@ export default function ItemFrame({
         <div className="item-frame__sub-items shadow-sm">
           {item.transmutations.map((id, index) => (
             <ItemFrame
-              item={{ id, icon: autoDetectItemIcon(id) }}
+              item={{ ...getItemById(id), transmutations: undefined }}
               key={`${id}-${index}`}
             />
           ))}

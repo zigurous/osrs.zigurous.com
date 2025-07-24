@@ -243,6 +243,19 @@
     "regions": ["morytania"]
   },
   {
+    "id": "Avernic_treads",
+    "regions": ["varlamore"]
+  },
+  {
+    "id": "Avernic_treads_(max)",
+    "regions": ["varlamore/asgarnia/desert"]
+  },
+  {
+    "id": "Avernic_treads_(max)#*",
+    "tags": ["*"],
+    "regions": ["varlamore"]
+  },
+  {
     "id": "Bandos_chestplate",
     "regions": ["asgarnia"]
   },
@@ -467,6 +480,15 @@
   {
     "id": "Combat_bracelet",
     "regions": ["all"]
+  },
+  {
+    "id": "Confliction_gauntlets",
+    "regions": ["varlamore/kandarin"]
+  },
+  {
+    "id": "Confliction_gauntlets#*",
+    "tags": ["*"],
+    "regions": ["varlamore"]
   },
   {
     "id": "Construct._cape(t)",
@@ -803,6 +825,11 @@
   {
     "id": "Explorer's_ring_4",
     "regions": ["misthalin"]
+  },
+  {
+    "id": "Eye_of_ayak",
+    "tags": ["1h"],
+    "regions": ["varlamore"]
   },
   {
     "id": "Falador_shield_4",

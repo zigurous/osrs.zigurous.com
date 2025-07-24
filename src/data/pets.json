@@ -67,6 +67,11 @@
     "tags": ["pet"]
   },
   {
+    "id": "Dom",
+    "source": "Doom_of_Mokhaiotl",
+    "tags": ["pet"]
+  },
+  {
     "id": "Fishbowl_(pet)",
     "icon": "Fishbowl_(blue)",
     "name": "Pet Fish",
@@ -102,6 +107,12 @@
   {
     "id": "Huberte",
     "source": "Hueycoatl",
+    "tags": ["pet"]
+  },
+  {
+    "id": "Humphrey_Dumphrey",
+    "icon": "Egg_(Humphrey_Dumphrey)",
+    "source": "Scrambled!",
     "tags": ["pet"]
   },
   {

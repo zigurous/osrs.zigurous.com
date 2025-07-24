@@ -107,6 +107,7 @@ export const createSchemaCustomization = ({
       title: String
       subtitle: String
       category: String!
+      caption: String
       sortingGroups: [String!]!
       requiredLevel: RequiredLevel
       notableDrops: [String!]
@@ -177,6 +178,7 @@ export const createSchemaCustomization = ({
       icon: String
       title: String
       subtitle: String
+      caption: String
       category: String!
       sortingGroups: [String!]!
       requiredCombatLevel: Int

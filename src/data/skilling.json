@@ -757,6 +757,18 @@
     ]
   },
   {
+    "id": "Auburnvale#Hunter",
+    "title": "Auburnvale",
+    "caption": "3-9",
+    "category": "skilling",
+    "sortingGroups": ["hunter"],
+    "requiredLevel": [3, 9],
+    "notableDrops": [
+      "Common_kebbit",
+      "Copper_longtail"
+    ]
+  },
+  {
     "id": "Avium_Savannah",
     "caption": "39-91",
     "category": "skilling",
@@ -1042,7 +1054,6 @@
     "sortingGroups": ["hunter"],
     "requiredLevel": 73,
     "notableDrops": [
-      "Baby_chinchompa",
       "Black_chinchompa"
     ]
   },
@@ -1474,7 +1485,6 @@
     "sortingGroups": ["hunter"],
     "requiredLevel": 63,
     "notableDrops": [
-      "Baby_chinchompa",
       "Red_chinchompa"
     ]
   },
@@ -1619,7 +1629,6 @@
     "sortingGroups": ["hunter"],
     "requiredLevel": 53,
     "notableDrops": [
-      "Baby_chinchompa",
       "Chinchompa"
     ]
   },
@@ -3171,6 +3180,23 @@
     ]
   },
   {
+    "id": "Gemstone_Crab#Training",
+    "title": "Gemstone Crab",
+    "category": "skilling",
+    "sortingGroups": ["pvm", "attack", "strength", "defence", "ranged", "magic", "hitpoints"],
+    "notableDrops": [
+      "Uncut_sapphire",
+      "Uncut_emerald",
+      "Uncut_ruby",
+      "Uncut_diamond",
+      "Uncut_dragonstone",
+      "#newline",
+      "Uncut_opal",
+      "Uncut_jade",
+      "Uncut_red_topaz"
+    ]
+  },
+  {
     "id": "Gilded_altar",
     "subtitle": "POH",
     "category": "skilling",
@@ -3553,10 +3579,10 @@
   {
     "id": "Hueycoatl_hide_armour",
     "title": "Hueycoatl Hide",
-    "caption": "86-88",
+    "caption": "76-78",
     "category": "skilling",
     "sortingGroups": ["crafting"],
-    "requiredLevel": [86, 87, 88],
+    "requiredLevel": [76, 77, 78],
     "notableDrops": [
       "Hueycoatl_hide",
       "#transmute",
@@ -5023,7 +5049,7 @@
   },
   {
     "id": "Raw_shark",
-    "title": "Sharks",
+    "title": "Shark",
     "category": "skilling",
     "sortingGroups": ["fishing"],
     "requiredLevel": 76,
@@ -6166,6 +6192,21 @@
     ]
   },
   {
+    "id": "Surge_potion",
+    "category": "skilling",
+    "sortingGroups": ["herblore"],
+    "requiredLevel": 81,
+    "notableDrops": [
+      "Vial_of_water",
+      "#plus",
+      "Torstol",
+      "#plus",
+      "Demonic_tallow",
+      "#equals",
+      "Surge_potion(3)"
+    ]
+  },
+  {
     "id": "Swamp_lizard_(Hunter)",
     "title": "Swamp Lizards",
     "category": "skilling",
@@ -6264,6 +6305,30 @@
     "requiredLevel": 1,
     "notableDrops": [
       "Tin_ore"
+    ]
+  },
+  {
+    "id": "Tlati_Rainforest#Hunter",
+    "title": "Tlati Rainforest",
+    "caption": "1-63",
+    "category": "skilling",
+    "sortingGroups": ["hunter"],
+    "requiredLevel": [1, 19, 45, 63],
+    "notableDrops": [
+      "Crimson_swift",
+      "Tropical_wagtail",
+      "Black_warlock",
+      "Carnivorous_chinchompa"
+    ]
+  },
+  {
+    "id": "Tourist#Pickpocketing",
+    "title": "Tourist",
+    "category": "skilling",
+    "sortingGroups": ["thieving"],
+    "requiredLevel": 1,
+    "notableDrops": [
+      "Coins"
     ]
   },
   {

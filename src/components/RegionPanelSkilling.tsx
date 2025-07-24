@@ -108,13 +108,15 @@ export default function RegionPanelSkilling({
           ))}
           {adjacentActivities.length > 0 && (
             <>
-              <div className="flex justify-center align-center">
-                <hr className="full mr-md" />
-                <Text type="eyebrow" color="disabled">
-                  Adjacent
-                </Text>
-                <hr className="full ml-md" />
-              </div>
+              {primaryActivities.length > 0 && (
+                <div className="flex justify-center align-center">
+                  <hr className="full mr-md" />
+                  <Text type="eyebrow" color="disabled">
+                    Adjacent
+                  </Text>
+                  <hr className="full ml-md" />
+                </div>
+              )}
               {adjacentActivities.map(activity => (
                 <li id={activity.id} key={activity.id}>
                   <ActivityCard activity={activity} />
@@ -153,6 +155,13 @@ function remapActivityById(
         sortingGroups: activity.sortingGroups.includes('slayer')
           ? ['slayer', ...activity.sortingGroups]
           : activity.sortingGroups,
+      };
+    }
+
+    if (activity.category === 'minigame') {
+      return {
+        ...activity,
+        subtitle: 'Minigame',
       };
     }
 
