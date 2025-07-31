@@ -38,6 +38,7 @@ export function LocationsContextProvider({
   children,
 }: React.PropsWithChildren) {
   const data = useStaticQuery<LocationsQueryData>(dataQuery);
+
   const getLocationById = useCallback(
     (id: string) => {
       const node = data.locations.nodes.find(location => location.id === id);
@@ -51,6 +52,7 @@ export function LocationsContextProvider({
     },
     [data.locations.nodes],
   );
+
   const getDungeonById = useCallback(
     (id: string) => {
       const node = data.dungeons.nodes.find(dungeon => dungeon.id === id);
@@ -66,6 +68,7 @@ export function LocationsContextProvider({
     },
     [data.dungeons.nodes, data.locations.nodes],
   );
+
   return (
     <LocationsContext.Provider
       value={{

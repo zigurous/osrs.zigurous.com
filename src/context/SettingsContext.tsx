@@ -47,9 +47,11 @@ export function useSettingsContext(): SettingsContextData {
 
 export function SettingsContextProvider({ children }: React.PropsWithChildren) {
   const [settings, setSettings] = useState<Settings>(defaultSettings);
+
   const set = useCallback<typeof Setter>((key, value) => {
     setSettings(state => ({ ...state, [key]: value }));
   }, []);
+
   return (
     <SettingsContext.Provider
       value={{

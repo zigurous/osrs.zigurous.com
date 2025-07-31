@@ -12,6 +12,7 @@ const MAP_SIZE = { width: 463, height: 215 };
 export default function WorldMap() {
   const context = useRegionsContext();
   const ref = useRef<HTMLDivElement>(null);
+
   const [scale, setScale] = useState(1);
   const [observer] = useState(() =>
     typeof window !== 'undefined'
