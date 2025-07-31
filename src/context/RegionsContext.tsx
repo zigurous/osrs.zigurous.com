@@ -1,3 +1,4 @@
+import { useIsMounted } from '@zigurous/forge-react';
 import { graphql, navigate, useStaticQuery } from 'gatsby';
 import React, { createContext, useCallback, useContext, useEffect, useState } from 'react'; // prettier-ignore
 import type { Region, RegionId } from '../types';
@@ -36,18 +37,11 @@ export function RegionsContextProvider({
   location,
 }: React.PropsWithChildren & { location: Location }) {
   const data = useStaticQuery<RegionsQueryData>(dataQuery);
+  const mounted = useIsMounted();
 
-  const [selectedRegions, setSelectedRegions] = useState<RegionId[]>(() => {
-    if (typeof window === 'undefined') return [];
-    const query = location.search.replace('?region=', '');
-    const regions = query.split(',');
-    return regions.filter(regionId =>
-      data.regions.nodes.some(node => node.id === regionId),
-    ) as RegionId[];
-  });
-
+  const [selectedRegions, setSelectedRegions] = useState<RegionId[]>([]);
   const [multiRegionMode, setMultiRegionMode] = useState(
-    selectedRegions.length > 1 || defaultData.multiRegionMode,
+    defaultData.multiRegionMode,
   );
 
   const getRegionById = useCallback(
@@ -81,6 +75,20 @@ export function RegionsContextProvider({
   const clearRegions = useCallback(() => {
     setSelectedRegions([]);
   }, []);
+
+  // Parse selected regions from URL on initial load
+  useEffect(() => {
+    if (mounted) {
+      const query = location.search.replace('?region=', '');
+      const regions = query
+        .split(',')
+        .filter(regionId =>
+          data.regions.nodes.some(node => node.id === regionId),
+        ) as RegionId[];
+      setSelectedRegions(regions);
+      setMultiRegionMode(regions.length > 1 || defaultData.multiRegionMode);
+    }
+  }, [mounted]);
 
   // Reset regions when multi-region is toggled off
   useEffect(() => {
