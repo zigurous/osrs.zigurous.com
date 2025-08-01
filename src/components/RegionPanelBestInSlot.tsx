@@ -5,7 +5,7 @@ import BestInSlotEquipmentCard from './BestInSlotEquipmentCard';
 import CheckboxToggle from './CheckboxToggle';
 import RegionPanelSection from './RegionPanelSection';
 import { useSettingsContext } from '../context';
-import type { BestInSlotCategory, BestInSlotQueryData, Region } from '../types';
+import type { BestInSlotQueryData, EquipmentCategory, Region } from '../types';
 
 interface RegionPanelBestInSlotProps {
   region: Region;
@@ -58,12 +58,12 @@ export default function RegionPanelBestInSlot({
   );
 }
 
-const categories: BestInSlotCategory[] = [
+const categories: EquipmentCategory[] = [
   {
     id: 'melee',
     title: 'Melee',
     icon: 'Attack_style_icon',
-    subcategoryKey: 'bisMeleeSubcategory',
+    subcategoryKey: 'meleeSubcategory',
     subcategories: [
       { id: 'melee-stab', label: 'Stab', icon: 'White_dagger' },
       { id: 'melee-slash', label: 'Slash', icon: 'White_scimitar' },
@@ -75,7 +75,7 @@ const categories: BestInSlotCategory[] = [
     id: 'ranged',
     title: 'Ranged',
     icon: 'Ranged_icon_(detail)',
-    subcategoryKey: 'bisRangedSubcategory',
+    subcategoryKey: 'rangedSubcategory',
     subcategories: [
       { id: 'ranged-spec', label: 'Special', icon: 'Special_attack_orb' },
     ],
@@ -84,7 +84,7 @@ const categories: BestInSlotCategory[] = [
     id: 'magic',
     title: 'Magic',
     icon: 'Magic_icon_(detail)',
-    subcategoryKey: 'bisMagicSubcategory',
+    subcategoryKey: 'magicSubcategory',
     subcategories: [
       { id: 'magic-spec', label: 'Special', icon: 'Special_attack_orb' },
     ],
@@ -93,26 +93,12 @@ const categories: BestInSlotCategory[] = [
     id: 'prayer',
     title: 'Prayer',
     icon: 'Prayer_icon_(detail)',
-    subcategoryKey: 'bisPrayerSubcategory',
+    subcategoryKey: 'prayerSubcategory',
   },
 ];
 
 const dataQuery = graphql`
   query BestInSlotQuery {
-    equipment: allEquipmentJson {
-      nodes {
-        id: jsonId
-        icon
-        name
-        tags
-        regions
-        requiredWeapon
-        ammo {
-          id
-          icon
-        }
-      }
-    }
     priority: allBestInSlotJson {
       nodes {
         category

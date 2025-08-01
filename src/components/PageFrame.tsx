@@ -1,6 +1,6 @@
+import '../styles/page-frame.css';
 import React from 'react';
 import corner from '../images/frame-corner.png';
-import '../styles/page-frame.css';
 
 export default function PageFrame() {
   return (

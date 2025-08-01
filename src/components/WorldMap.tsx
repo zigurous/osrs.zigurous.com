@@ -1,3 +1,4 @@
+import '../styles/world-map.css';
 import { Button, PanAndZoomProvider, PanAndZoomTransform } from '@zigurous/forge-react'; // prettier-ignore
 import classNames from 'classnames';
 import React, { useEffect, useRef, useState } from 'react';
@@ -5,7 +6,6 @@ import AreaBadge from './AreaBadge';
 import WorldMapSVG from './WorldMapSVG';
 import { useRegionsContext } from '../context';
 import type { RegionId } from '../types';
-import '../styles/world-map.css';
 
 const MAP_SIZE = { width: 463, height: 215 };
 

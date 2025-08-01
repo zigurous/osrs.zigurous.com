@@ -1,8 +1,8 @@
+import '../styles/items-stack.css';
 import classNames from 'classnames';
 import React from 'react';
 import ItemFrame from './ItemFrame';
 import type { ItemData } from '../types';
-import '../styles/items-stack.css';
 
 interface ItemsStackProps {
   className?: string;

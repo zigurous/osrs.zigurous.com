@@ -1,10 +1,10 @@
+import '../styles/skill-filters.css';
 import { Tooltip } from '@zigurous/forge-react';
 import classNames from 'classnames';
 import React, { useRef, useState } from 'react';
 import { useSkillingFilterContext } from '../context';
 import { formatNameFromId, getIconForSortingGroup, skillingFilters } from '../utils'; // prettier-ignore
 import type { SkillFilter } from '../types';
-import '../styles/skill-filters.css';
 
 interface SkillFiltersProps {
   className?: string;

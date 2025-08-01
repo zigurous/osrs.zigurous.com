@@ -19,7 +19,7 @@ export const createSchemaCustomization = ({
       icon: String
       name: String
       tags: [String!]
-      regions: [String!]!
+      regions: [String!]
       ammo: BestInSlotItem
     }
     type BossesJson implements Node @dontInfer {
@@ -46,14 +46,23 @@ export const createSchemaCustomization = ({
       jsonId: String!
       icon: String
       name: String
+      slot: String
       tags: [String!]
       ammo: EquipmentAmmo
-      regions: [String!]!
+      regions: [String!]
       requiredWeapon: String
     }
     type EquipmentAmmo {
       id: String!
       icon: String
+    }
+    type GearProgressionJson implements Node @dontInfer {
+      category: String!
+      equipment: [[String!]!]!
+    }
+    type GearProgressionEquipmentSlot {
+      id: String!
+      items: [String]!
     }
     type GuildsJson implements Node @dontInfer {
       jsonId: String!

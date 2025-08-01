@@ -1,3 +1,4 @@
+import '../styles/item-frame.css';
 import { Tooltip } from '@zigurous/forge-react';
 import classNames from 'classnames';
 import React, { useRef, useState } from 'react';
@@ -6,13 +7,12 @@ import WikiIcon from './WikiIcon';
 import WikiLink from './WikiLink';
 import { formatNameFromId, toTitleCase } from '../utils';
 import type { FoodData, ItemData } from '../types';
-import '../styles/item-frame.css';
 
 interface ItemFrameProps {
   border?: boolean;
   borderless?: boolean;
   className?: string;
-  highlights?: 'all' | ('pet' | 'leagues' | 'megarare')[] | 'none';
+  highlights?: 'all' | ('upgrade' | 'pet' | 'leagues' | 'megarare')[] | 'none';
   item?: ItemData;
   size?: 'xs' | 'sm' | 'md' | 'lg';
 }
@@ -47,6 +47,10 @@ export default function ItemFrame({
             [`item-frame--${size}`]: size,
             'item-frame--border': border,
             'item-frame--borderless': borderless,
+            'item-frame--upgrade':
+              item.tags?.includes('upgrade') &&
+              (highlights === 'all' ||
+                (Array.isArray(highlights) && highlights.includes('upgrade'))),
             'item-frame--pet':
               item.tags?.includes('pet') &&
               (highlights === 'all' ||

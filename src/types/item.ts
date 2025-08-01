@@ -4,6 +4,7 @@ export type ItemTag =
   | 'clues'
   | 'leagues'
   | 'cosmetic'
+  | 'upgrade'
   | '1h'
   | '2h'
   | '*';

@@ -32,7 +32,7 @@ export function ItemsContextProvider({ children }: React.PropsWithChildren) {
         id,
         icon: autoDetectItemIcon(id),
       },
-    [data.items.nodes],
+    [data],
   );
 
   const getItemsByIds = useCallback(

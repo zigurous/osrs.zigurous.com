@@ -46,7 +46,7 @@ export function RegionsContextProvider({
 
   const getRegionById = useCallback(
     (id: string) => data.regions.nodes.find(node => node.id === id),
-    [data.regions.nodes],
+    [data],
   );
 
   const selectRegion = useCallback(

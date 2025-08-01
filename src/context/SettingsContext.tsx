@@ -1,5 +1,5 @@
 import React, { createContext, useCallback, useContext, useState } from 'react'; // prettier-ignore
-import type { BestInSlotSubcategories } from '../types';
+import type { EquipmentSubcategories } from '../types';
 
 type Settings = {
   leagues: boolean;
@@ -9,20 +9,20 @@ type Settings = {
   dropsCosmetics: boolean;
   minSkillLevel: number | '';
   maxSkillLevel: number | '';
-} & BestInSlotSubcategories;
+} & EquipmentSubcategories;
 
 const defaultSettings: Settings = {
   leagues: false,
   bisClues: false,
   bisStrict: false,
-  bisMeleeSubcategory: undefined,
-  bisRangedSubcategory: undefined,
-  bisMagicSubcategory: undefined,
-  bisPrayerSubcategory: undefined,
   dropsPets: false,
   dropsCosmetics: false,
   minSkillLevel: '',
   maxSkillLevel: '',
+  meleeSubcategory: undefined,
+  rangedSubcategory: undefined,
+  magicSubcategory: undefined,
+  prayerSubcategory: undefined,
 };
 
 declare function Setter<K extends keyof Settings>(

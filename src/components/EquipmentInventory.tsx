@@ -1,3 +1,4 @@
+import '../styles/equipment-inventory.css';
 import React from 'react';
 import ItemFrame from './ItemFrame';
 import iconAmmo from '../images/equipment-slot-ammo.png';
@@ -12,13 +13,28 @@ import iconRing from '../images/equipment-slot-ring.png';
 import iconShield from '../images/equipment-slot-shield.png';
 import iconWeapon from '../images/equipment-slot-weapon.png';
 import type { EquipmentSlot, EquipmentSlots, EquipmentSlotId } from '../types';
-import '../styles/equipment-inventory.css';
 
 interface EquipmentInventoryProps {
-  slots: EquipmentSlots;
+  slots?: EquipmentSlots;
 }
 
-export default function EquipmentInventory({ slots }: EquipmentInventoryProps) {
+const emptySlots: EquipmentSlots = {
+  weapon: undefined,
+  shield: undefined,
+  head: undefined,
+  body: undefined,
+  legs: undefined,
+  hands: undefined,
+  feet: undefined,
+  cape: undefined,
+  neck: undefined,
+  ring: undefined,
+  ammo: undefined,
+};
+
+export default function EquipmentInventory({
+  slots = emptySlots,
+}: EquipmentInventoryProps) {
   const weapon = slots['weapon'];
   const shield = weapon?.tags?.includes('2h') ? undefined : slots['shield'];
   const ammo = weapon?.ammo ?? slots['ammo'];
@@ -47,6 +63,7 @@ function ItemSlot({ id, item }: EquipmentSlot) {
   return (
     <div className="equipment-inventory__slot" id={id}>
       <ItemFrame
+        highlights={['upgrade']}
         item={
           item || {
             id: '#equipmentslot',

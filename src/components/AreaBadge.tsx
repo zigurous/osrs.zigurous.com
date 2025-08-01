@@ -1,3 +1,4 @@
+import '../styles/area-badge.css';
 import classNames from 'classnames';
 import React from 'react';
 import badgeAsgarnia from '../images/badge-asgarnia.png';
@@ -12,7 +13,6 @@ import badgeTirannwn from '../images/badge-tirannwn.png';
 import badgeVarlamore from '../images/badge-varlamore.png';
 import badgeWilderness from '../images/badge-wilderness.png';
 import type { Region, RegionId } from '../types';
-import '../styles/area-badge.css';
 
 type AreaBadgeProps = {
   region: Region;

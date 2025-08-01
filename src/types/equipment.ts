@@ -13,45 +13,56 @@ export type EquipmentSlotId =
   | 'shield'
   | 'weapon';
 
+export interface EquipmentItem extends Omit<ItemData, 'transmutations'> {
+  slot: EquipmentSlotId;
+  ammo?: Omit<EquipmentItem, 'ammo'>;
+  regions?: string[];
+  requiredWeapon?: string;
+}
+
 export interface EquipmentSlot {
   id: EquipmentSlotId;
   item?: EquipmentItem;
 }
 
-export interface EquipmentItem extends Omit<ItemData, 'transmutations'> {
-  ammo?: Omit<EquipmentItem, 'ammo'>;
-  regions: string[];
-  requiredWeapon?: string;
-}
-
 export type EquipmentSlots = Record<EquipmentSlotId, EquipmentItem | undefined>;
 
-export interface BestInSlotSubcategories {
-  bisMeleeSubcategory: string | undefined;
-  bisRangedSubcategory: string | undefined;
-  bisMagicSubcategory: string | undefined;
-  bisPrayerSubcategory: string | undefined;
-}
-
-export interface BestInSlotCategory {
+export interface EquipmentCategory {
   id: 'melee' | 'ranged' | 'magic' | 'prayer';
   title: string;
   icon: string;
-  subcategoryKey: keyof BestInSlotSubcategories;
+  subcategoryKey: keyof EquipmentSubcategories;
   subcategories?: { id: string; label: string; icon: string }[];
 }
 
+export interface EquipmentSubcategories {
+  meleeSubcategory: string | undefined;
+  rangedSubcategory: string | undefined;
+  magicSubcategory: string | undefined;
+  prayerSubcategory: string | undefined;
+}
+
+export interface GearProgressionQueryData {
+  progression: {
+    nodes: GearProgressionCategory[];
+  };
+}
+
+export interface GearProgressionCategory {
+  category: 'melee' | 'ranged' | 'magic';
+  equipment: string[][];
+}
+
 export interface BestInSlotQueryData {
-  equipment: {
-    nodes: EquipmentItem[];
-  };
   priority: {
-    nodes: {
-      category: string;
-      equipment: {
-        id: EquipmentSlotId;
-        items: string[];
-      }[];
-    }[];
+    nodes: BestInSlotCategory[];
   };
+}
+
+export interface BestInSlotCategory {
+  category: string;
+  equipment: {
+    id: EquipmentSlotId;
+    items: string[];
+  }[];
 }

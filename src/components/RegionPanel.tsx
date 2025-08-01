@@ -1,3 +1,4 @@
+import '../styles/region-panel.css';
 import { Button, Text } from '@zigurous/forge-react';
 import classNames from 'classnames';
 import React, { useState } from 'react';
@@ -13,7 +14,6 @@ import RegionPanelTabs from './RegionPanelTabs';
 import { useRegionsContext } from '../context';
 import { combineRegions } from '../utils';
 import type { Region } from '../types';
-import '../styles/region-panel.css';
 
 export type RegionPanelTab =
   | 'Best In Slot'

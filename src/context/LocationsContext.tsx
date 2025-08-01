@@ -50,7 +50,7 @@ export function LocationsContextProvider({
           }
         : defaultData.getLocationById(id);
     },
-    [data.locations.nodes],
+    [data],
   );
 
   const getDungeonById = useCallback(
@@ -66,7 +66,7 @@ export function LocationsContextProvider({
           }
         : defaultData.getDungeonById(id);
     },
-    [data.dungeons.nodes, data.locations.nodes],
+    [data],
   );
 
   return (

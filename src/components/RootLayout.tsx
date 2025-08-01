@@ -1,19 +1,15 @@
 import React from 'react';
 import PageFrame from './PageFrame';
-import ContextProviders from '../context';
 
 interface RootLayoutProps {
-  children?: React.ReactNode;
-  location: Location;
+  children: React.ReactNode;
 }
 
-export default function RootLayout({ children, location }: RootLayoutProps) {
+export default function RootLayout({ children }: RootLayoutProps) {
   return (
-    <ContextProviders location={location}>
-      <div className="app" id="root">
-        {children}
-        <PageFrame />
-      </div>
-    </ContextProviders>
+    <div className="app" id="root">
+      {children}
+      <PageFrame />
+    </div>
   );
 }

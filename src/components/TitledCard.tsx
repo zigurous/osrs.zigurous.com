@@ -1,7 +1,7 @@
+import '../styles/titled-card.css';
 import { Icon, Text } from '@zigurous/forge-react';
 import classNames from 'classnames';
 import React from 'react';
-import '../styles/titled-card.css';
 
 interface TitledCardProps {
   caption?: string;
@@ -10,6 +10,7 @@ interface TitledCardProps {
   className?: string;
   onClickHeader?: () => void;
   shadow?: boolean;
+  style?: React.CSSProperties;
   subtitle?: string;
   title: string;
   titleIcon?: string;
@@ -25,6 +26,7 @@ export default function TitledCard({
   className,
   onClickHeader,
   shadow = true,
+  style,
   subtitle,
   title,
   titleIcon,
@@ -44,6 +46,7 @@ export default function TitledCard({
         className,
       )}
       key={title}
+      style={style}
     >
       <Element
         className="titled-card__header"

@@ -1,14 +1,11 @@
-import { Stack } from '@zigurous/forge-react';
 import React, { useMemo } from 'react';
-import EquipmentInventory from './EquipmentInventory';
-import IconToggle from './IconToggle';
-import TitledCard from './TitledCard';
-import { useSettingsContext } from '../context';
+import EquipmentCard from './EquipmentCard';
+import { useEquipmentContext, useSettingsContext } from '../context';
 import { isInRegion } from '../utils';
-import type { BestInSlotCategory, BestInSlotQueryData, EquipmentSlots } from '../types'; // prettier-ignore
+import type { BestInSlotQueryData, EquipmentCategory, EquipmentSlots } from '../types'; // prettier-ignore
 
 interface BestInSlotEquipmentCardProps {
-  category: BestInSlotCategory;
+  category: EquipmentCategory;
   data: BestInSlotQueryData;
   region: string;
 }
@@ -19,6 +16,7 @@ export default function BestInSlotEquipmentCard({
   region,
 }: BestInSlotEquipmentCardProps) {
   const settings = useSettingsContext();
+  const { getItemById } = useEquipmentContext();
   const { [category.subcategoryKey]: subcategoryId } = settings;
 
   const equipment: EquipmentSlots = useMemo(() => {
@@ -34,13 +32,11 @@ export default function BestInSlotEquipmentCard({
         const ids = slot.items.filter(id => {
           // Find the matching item based on id
           const baseId = id.includes('#') ? id.split('#')[0] : id;
-          const item =
-            data.equipment.nodes.find(item => item.id === id) ||
-            data.equipment.nodes.find(item => item.id === baseId);
+          const item = getItemById(id) || getItemById(baseId);
           if (!item) return false;
 
           // Discard items not available in the region
-          const available = isInRegion(region, item.regions);
+          const available = !item.regions || isInRegion(region, item.regions);
           if (!available) return false;
 
           // Discard items based on toggles
@@ -80,9 +76,7 @@ export default function BestInSlotEquipmentCard({
         if (ids.length > 0) {
           const fullId = ids[0];
           const baseId = fullId.includes('#') ? fullId.split('#')[0] : fullId;
-          const item =
-            data.equipment.nodes.find(item => item.id === fullId) ||
-            data.equipment.nodes.find(item => item.id === baseId);
+          const item = getItemById(fullId) || getItemById(baseId);
           if (item) {
             slots[slot.id] = { ...item, id: baseId };
           }
@@ -97,43 +91,9 @@ export default function BestInSlotEquipmentCard({
     // Slots will be skipped if they have already been assigned by the subcategory
     assignItems(category.id);
     return slots;
-  }, [data, region, category.id, subcategoryId, settings]);
+  }, [data, region, category.id, subcategoryId, settings, getItemById]);
 
-  return (
-    <TitledCard
-      captionIcon={
-        category.subcategories && (
-          <Stack
-            inline
-            className="h-0"
-            align="center"
-            justify="end"
-            spacing="xxs"
-          >
-            {category.subcategories.map(subcategory => (
-              <IconToggle
-                icon={subcategory.icon}
-                key={subcategory.id}
-                label={subcategory.label}
-                on={subcategoryId === subcategory.id}
-                onChange={on =>
-                  settings.set(
-                    category.subcategoryKey,
-                    on ? subcategory.id : undefined,
-                  )
-                }
-              />
-            ))}
-          </Stack>
-        )
-      }
-      className="overflow-hidden"
-      title={category.title}
-      titleIcon={category.icon}
-    >
-      <EquipmentInventory slots={equipment} />
-    </TitledCard>
-  );
+  return <EquipmentCard category={category} equipment={equipment} />;
 }
 
 function getEmptySlots(): EquipmentSlots {

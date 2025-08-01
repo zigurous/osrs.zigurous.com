@@ -1,10 +1,13 @@
-import { AppHeader, SocialButton, Stack, Text, Toggle } from '@zigurous/forge-react'; // prettier-ignore
+import { AppHeader, SocialButton, Stack, Text } from '@zigurous/forge-react'; // prettier-ignore
 import React from 'react';
-import { useRegionsContext } from '../context';
 import icon from '../images/world-map-icon.png';
 
-export default function HeaderBar() {
-  const context = useRegionsContext();
+interface HeaderBarProps {
+  children?: React.ReactNode;
+  title: string;
+}
+
+export default function HeaderBar({ children, title }: HeaderBarProps) {
   return (
     <AppHeader
       fluid
@@ -17,17 +20,10 @@ export default function HeaderBar() {
           <Stack align="center">
             <img src={icon} width={32} height={32} />
             <Text bold className="ml-sm" marginBottom="xxxs" type="title-sm">
-              Region Analyzer
+              {title}
             </Text>
           </Stack>
-          <Toggle
-            className="ml-xxl"
-            id="multi-region-toggle"
-            label="Multi-Region"
-            onToggle={context.setMultiRegionMode}
-            toggled={context.multiRegionMode}
-            size="md"
-          />
+          {children}
         </>
       }
       right={

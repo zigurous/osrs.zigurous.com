@@ -8,6 +8,7 @@
   padding: var(--spacing-sm);
   background-color: var(--color-surface-2);
   border-radius: var(--radius-sm);
+  overflow: hidden;
 }
 
 @media (hover: hover) {
@@ -46,6 +47,17 @@
 
 .item-frame--border {
   box-shadow: inset 0 0 0 1.5px var(--color-surface-1);
+}
+
+.item-frame--upgrade::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-bottom: 3px solid var(--color-secondary);
+  pointer-events: none;
 }
 
 .item-frame--pet {
