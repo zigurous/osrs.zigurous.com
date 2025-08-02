@@ -24,12 +24,8 @@ export default function TermsAndConditions({
       <p className="text-subtle">
         These terms and conditions ("Agreement") set forth the general terms and
         conditions of your use of the{' '}
-        <a
-          className="link"
-          href="https://osrs.zigurous.com/region-analyzer"
-          target="_blank"
-        >
-          osrs.zigurous.com/region-analyzer
+        <a className="link" href="https://osrs.zigurous.com" target="_blank">
+          osrs.zigurous.com
         </a>{' '}
         website ("Website" or "Service"). This Agreement is legally binding
         between you ("User", "you" or "your") and this Website operator

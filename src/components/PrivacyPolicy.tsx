@@ -24,12 +24,8 @@ export default function PrivacyPolicy({
       <p className="text-subtle">
         This privacy policy ("Policy") describes how the personally identifiable
         information ("Personal Information") you may provide on the{' '}
-        <a
-          className="link"
-          href="https://osrs.zigurous.com/region-analyzer"
-          target="_blank"
-        >
-          osrs.zigurous.com/region-analyzer
+        <a className="link" href="https://osrs.zigurous.com" target="_blank">
+          osrs.zigurous.com
         </a>{' '}
         website ("Website" or "Service") is collected, protected and used. It
         also describes the choices available to you regarding our use of your
