@@ -1,6 +1,6 @@
 import { capitalizeFirstLetter } from '@zigurous/forge-react';
 import { combatSkills, iconOrder, nonCombatSkills, skills } from './constants'; // prettier-ignore
-import type { Activity, CombatSkill, CombatStyle, NonCombatSkill, Region, RegionId, Skill, SortingGroup, Spell, Spellbook } from '../types'; // prettier-ignore
+import type { Activity, CombatSkill, CombatStyle, EquipmentSlots, NonCombatSkill, Region, RegionId, Skill, SkillLevels, SortingGroup, Spell, Spellbook } from '../types'; // prettier-ignore
 
 const autoDetectedItemSuffixes = [
   '_arrow',
@@ -244,4 +244,49 @@ function combineUniqueIds(regions: Region[], prop: keyof Region): string[] {
         .sort(sortById),
     ),
   ];
+}
+
+export function getEmptyEquipmentSlots(): EquipmentSlots {
+  return {
+    weapon: undefined,
+    shield: undefined,
+    head: undefined,
+    body: undefined,
+    legs: undefined,
+    hands: undefined,
+    feet: undefined,
+    cape: undefined,
+    neck: undefined,
+    ring: undefined,
+    ammo: undefined,
+  };
+}
+
+export function getDefaultSkillLevels(): SkillLevels {
+  return {
+    attack: 1,
+    strength: 1,
+    defence: 1,
+    ranged: 1,
+    prayer: 1,
+    magic: 1,
+    runecraft: 1,
+    construction: 1,
+    hitpoints: 10,
+    agility: 1,
+    herblore: 1,
+    thieving: 1,
+    crafting: 1,
+    fletching: 1,
+    slayer: 1,
+    hunter: 1,
+    mining: 1,
+    smithing: 1,
+    fishing: 1,
+    cooking: 1,
+    firemaking: 1,
+    woodcutting: 1,
+    farming: 1,
+    sailing: 1,
+  };
 }

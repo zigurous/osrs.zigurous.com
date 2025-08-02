@@ -128,6 +128,20 @@ export const activityCategories = [
   'woodcutting',
 ] as const;
 
+export const equipmentSlots = [
+  'ammo',
+  'body',
+  'cape',
+  'feet',
+  'hands',
+  'head',
+  'legs',
+  'neck',
+  'ring',
+  'shield',
+  'weapon',
+] as const;
+
 export const iconOrder = [
   // combat
   'Raids',
