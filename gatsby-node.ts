@@ -130,6 +130,13 @@ export const createSchemaCustomization = ({
     }
     type QuestsJson implements Node @dontInfer {
       jsonId: String!
+      title: String
+      questRequirements: [String!]
+      skillRequirements: [SkillLevel!]
+      newSkillLevels: [SkillLevel!]
+    }
+    type QuestSeriesJson implements Node @dontInfer {
+      jsonId: String!
       link: String
       title: String
       caption: String
@@ -175,6 +182,10 @@ export const createSchemaCustomization = ({
       sortingGroups: [String!]!
       requiredLevel: RequiredLevel
       notableDrops: [String!]
+    }
+    type SkillLevel {
+      skill: String!
+      level: Int!
     }
     type SlayerMastersJson implements Node @dontInfer {
       jsonId: String!

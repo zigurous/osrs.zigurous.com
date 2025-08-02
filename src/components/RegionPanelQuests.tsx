@@ -1,24 +1,23 @@
 import { Text } from '@zigurous/forge-react';
-import { graphql, useStaticQuery } from 'gatsby';
 import React from 'react';
 import ItemsStack from './ItemsStack';
 import RegionPanelSection from './RegionPanelSection';
 import TitledCard from './TitledCard';
 import WikiIcon from './WikiIcon';
 import WikiLink from './WikiLink';
-import { useItemsContext } from '../context';
+import { useItemsContext, useQuestsContext } from '../context';
 import { formatNameFromId } from '../utils';
-import type { QuestSeries, Region } from '../types';
+import type { Region } from '../types';
 
 interface RegionPanelQuestsProps {
   region: Region;
 }
 
 export default function RegionPanelQuests({ region }: RegionPanelQuestsProps) {
-  const data = useStaticQuery<QuestsQueryData>(dataQuery);
+  const { getQuestSeriesById } = useQuestsContext();
   const itemsContext = useItemsContext();
   const storylines = region.storylines
-    .map(id => data.quests.nodes.find(series => series.id === id))
+    .map(getQuestSeriesById)
     .filter(series => !!series);
   return (
     <RegionPanelSection title="Quests">
@@ -86,24 +85,3 @@ export default function RegionPanelQuests({ region }: RegionPanelQuestsProps) {
     </RegionPanelSection>
   );
 }
-
-interface QuestsQueryData {
-  quests: {
-    nodes: QuestSeries[];
-  };
-}
-
-const dataQuery = graphql`
-  query QuestsQuery {
-    quests: allQuestsJson {
-      nodes {
-        id: jsonId
-        link
-        title
-        caption
-        quests
-        unlocks
-      }
-    }
-  }
-`;

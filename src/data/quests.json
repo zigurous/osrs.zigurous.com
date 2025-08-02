@@ -1,590 +1,2238 @@
 [
   {
-    "id": "Camelot",
-    "link": "Camelot_quest_series",
-    "quests": [
-      "Merlin's_Crystal",
-      "Holy_Grail",
-      "King's_Ransom"
-    ],
-    "unlocks": [
-      "Excalibur",
-      "Chivalry",
-      "Piety"
+    "id": "Cook's_Assistant",
+    "newSkillLevels": [
+      { "skill": "cooking", "level": 4 }
     ]
   },
   {
-    "id": "Demon_Slayer",
-    "quests": [
-      "Demon_Slayer",
+    "id": "Sheep_Shearer",
+    "newSkillLevels": [
+      { "skill": "crafting", "level": 3 }
+    ]
+  },
+  {
+    "id": "Misthalin_Mystery",
+    "newSkillLevels": [
+      { "skill": "crafting", "level": 7 }
+    ]
+  },
+  {
+    "id": "The_Restless_Ghost",
+    "newSkillLevels": [
+      { "skill": "prayer", "level": 9 }
+    ]
+  },
+  {
+    "id": "X_Marks_the_Spot",
+    "newSkillLevels": [
+      { "skill": "agility", "level": 4 }
+    ]
+  },
+  {
+    "id": "Witch's_Potion",
+    "newSkillLevels": [
+      { "skill": "magic", "level": 4 }
+    ]
+  },
+  {
+    "id": "Client_of_Kourend",
+    "questRequirements": ["X_Marks_the_Spot"],
+    "newSkillLevels": [
+      { "skill": "agility", "level": 10 }
+    ]
+  },
+  {
+    "id": "Children_of_the_Sun"
+  },
+  {
+    "id": "Romeo_&_Juliet"
+  },
+  {
+    "id": "Gertrude's_Cat",
+    "newSkillLevels": [
+      { "skill": "cooking", "level": 12 }
+    ]
+  },
+  {
+    "id": "Daddy's_Home",
+    "newSkillLevels": [
+      { "skill": "construction", "level": 8 }
+    ]
+  },
+  {
+    "id": "Natural_history_quiz",
+    "newSkillLevels": [
+      { "skill": "slayer", "level": 9 },
+      { "skill": "hunter", "level": 9 }
+    ]
+  },
+  {
+    "id": "Rune_Mysteries"
+  },
+  {
+    "id": "Tree_Gnome_Village",
+    "newSkillLevels": [
+      { "skill": "attack", "level": 28 }
+    ]
+  },
+  {
+    "id": "Hazeel_Cult",
+    "newSkillLevels": [
+      { "skill": "thieving", "level": 11 }
+    ]
+  },
+  {
+    "id": "Clock_Tower"
+  },
+  {
+    "id": "Monk's_Friend",
+    "newSkillLevels": [
+      { "skill": "woodcutting", "level": 13 }
+    ]
+  },
+  {
+    "id": "Plague_City",
+    "newSkillLevels": [
+      { "skill": "mining", "level": 15 }
+    ]
+  },
+  {
+    "id": "Biohazard",
+    "questRequirements": ["Plague_City"],
+    "newSkillLevels": [
+      { "skill": "thieving", "level": 16 }
+    ]
+  },
+  {
+    "id": "Fight_Arena",
+    "newSkillLevels": [
+      { "skill": "attack", "level": 35 },
+      { "skill": "thieving", "level": 20 }
+    ]
+  },
+  {
+    "id": "Sheep_Herder"
+  },
+  {
+    "id": "Dwarf_Cannon",
+    "newSkillLevels": [
+      { "skill": "crafting", "level": 11 }
+    ]
+  },
+  {
+    "id": "Waterfall_Quest",
+    "newSkillLevels": [
+      { "skill": "attack", "level": 40 },
+      { "skill": "strength", "level": 30 }
+    ]
+  },
+  {
+    "id": "Murder_Mystery",
+    "newSkillLevels": [
+      { "skill": "crafting", "level": 16 }
+    ]
+  },
+  {
+    "id": "Merlin's_Crystal"
+  },
+  {
+    "id": "Holy_Grail",
+    "questRequirements": ["Merlin's_Crystal"],
+    "skillRequirements": [
+      { "skill": "attack", "level": 20 }
+    ],
+    "newSkillLevels": [
+      { "skill": "defence", "level": 31 },
+      { "skill": "prayer", "level": 29 }
+    ]
+  },
+  {
+    "id": "Druidic_Ritual",
+    "newSkillLevels": [
+      { "skill": "herblore", "level": 3 }
+    ]
+  },
+  {
+    "id": "Witch's_House",
+    "newSkillLevels": [
+      { "skill": "hitpoints", "level": 24 }
+    ]
+  },
+  {
+    "id": "Below_Ice_Mountain"
+  },
+  {
+    "id": "Black_Knights'_Fortress"
+  },
+  {
+    "id": "Recruitment_Drive",
+    "questRequirements": [
+      "Black_Knights'_Fortress",
+      "Druidic_Ritual"
+    ],
+    "newSkillLevels": [
+      { "skill": "prayer", "level": 29 },
+      { "skill": "agility", "level": 14 },
+      { "skill": "herblore", "level": 10 }
+    ]
+  },
+  {
+    "id": "Observatory_Quest",
+    "newSkillLevels": [
+      { "skill": "crafting", "level": 20 }
+    ]
+  },
+  {
+    "id": "Priest_in_Peril",
+    "newSkillLevels": [
+      { "skill": "prayer", "level": 30 }
+    ]
+  },
+  {
+    "id": "Rag_and_Bone_Man_I",
+    "newSkillLevels": [
+      { "skill": "prayer", "level": 31 },
+      { "skill": "cooking", "level": 14 }
+    ]
+  },
+  {
+    "id": "Nature_Spirit",
+    "questRequirements": [
+      "Priest_in_Peril",
+      "The_Restless_Ghost"
+    ],
+    "skillRequirements": [
+      { "skill": "crafting", "level": 18, "ironman": true }
+    ],
+    "newSkillLevels": [
+      { "skill": "defence", "level": 32 },
+      { "skill": "hitpoints", "level": 26 },
+      { "skill": "crafting", "level": 25 }
+    ]
+  },
+  {
+    "id": "Alfred_Grimhand's_Barcrawl"
+  },
+  {
+    "id": "Scorpion_Catcher",
+    "questRequirements": ["Alfred_Grimhand's_Barcrawl"],
+    "skillRequirements": [
+      { "skill": "prayer", "level": 31 }
+    ],
+    "newSkillLevels": [
+      { "skill": "strength", "level": 34 }
+    ]
+  },
+  {
+    "id": "Jungle_Potion",
+    "questRequirements": ["Druidic_Ritual"],
+    "skillRequirements": [
+      { "skill": "herblore", "level": 3 }
+    ],
+    "newSkillLevels": [
+      { "skill": "herblore", "level": 13 }
+    ]
+  },
+  {
+    "id": "Vampyre_Slayer",
+    "newSkillLevels": [
+      { "skill": "attack", "level": 41 }
+    ]
+  },
+  {
+    "id": "A_Porcine_of_Interest",
+    "newSkillLevels": [
+      { "skill": "slayer", "level": 13 }
+    ]
+  },
+  {
+    "id": "Death_Plateau",
+    "newSkillLevels": [
+      { "skill": "attack", "level": 41 }
+    ]
+  },
+  {
+    "id": "The_Queen_of_Thieves",
+    "questRequirements": ["Client_of_Kourend"],
+    "skillRequirements": [
+      { "skill": "thieving", "level": 20 }
+    ],
+    "newSkillLevels": [
+      { "skill": "thieving", "level": 23 }
+    ]
+  },
+  {
+    "id": "The_Depths_of_Despair",
+    "questRequirements": ["Client_of_Kourend"],
+    "skillRequirements": [
+      { "skill": "agility", "level": 18 }
+    ],
+    "newSkillLevels": [
+      { "skill": "agility", "level": 21 }
+    ]
+  },
+  {
+    "id": "Mountain_Daughter",
+    "skillRequirements": [
+      { "skill": "agility", "level": 20 }
+    ],
+    "newSkillLevels": [
+      { "skill": "attack", "level": 42 },
+      { "skill": "prayer", "level": 32 }
+    ]
+  },
+  {
+    "id": "The_Grand_Tree",
+    "skillRequirements": [
+      { "skill": "agility", "level": 25 }
+    ],
+    "newSkillLevels": [
+      { "skill": "attack", "level": 45 },
+      { "skill": "agility", "level": 31 },
+      { "skill": "magic", "level": 15 }
+    ]
+  },
+  {
+    "id": "Tribal_Totem",
+    "skillRequirements": [
+      { "skill": "thieving", "level": 21 }
+    ],
+    "newSkillLevels": [
+      { "skill": "thieving", "level": 25 }
+    ]
+  },
+  {
+    "id": "The_Dig_Site",
+    "skillRequirements": [
+      { "skill": "thieving", "level": 25 },
+      { "skill": "agility", "level": 10 },
+      { "skill": "herblore", "level": 10 }
+    ],
+    "newSkillLevels": [
+      { "skill": "mining", "level": 32 },
+      { "skill": "herblore", "level": 19 }
+    ]
+  },
+  {
+    "id": "The_Golem",
+    "skillRequirements": [
+      { "skill": "thieving", "level": 25 },
+      { "skill": "crafting", "level": 20 }
+    ],
+    "newSkillLevels": [
+      { "skill": "crafting", "level": 26 },
+      { "skill": "thieving", "level": 26 }
+    ]
+  },
+  {
+    "id": "The_Knight's_Sword",
+    "skillRequirements": [
+      { "skill": "mining", "level": 15, "ironman": true },
+      { "skill": "smithing", "level": 15, "ironman": true },
+      { "skill": "cooking", "level": 10, "ironman": true }
+    ],
+    "newSkillLevels": [
+      { "skill": "smithing", "level": 29 }
+    ]
+  },
+  {
+    "id": "Elemental_Workshop_I",
+    "skillRequirements": [
+      { "skill": "smithing", "level": 20 },
+      { "skill": "crafting", "level": 20 },
+      { "skill": "mining", "level": 30, "ironman": true }
+    ],
+    "newSkillLevels": [
+      { "skill": "smithing", "level": 32 },
+      { "skill": "crafting", "level": 30 }
+    ]
+  },
+  {
+    "id": "Demon_Slayer"
+  },
+  {
+    "id": "Shadow_of_the_Storm",
+    "questRequirements": [
+      "The_Golem",
+      "Demon_Slayer"
+    ],
+    "skillRequirements": [
+      { "skill": "crafting", "level": 30 }
+    ],
+    "newSkillLevels": [
+      { "skill": "magic", "level": 29 }
+    ]
+  },
+  {
+    "id": "Elemental_Workshop_II",
+    "questRequirements": ["Elemental_Workshop_I"],
+    "skillRequirements": [
+      { "skill": "smithing", "level": 30 },
+      { "skill": "magic", "level": 20 }
+    ],
+    "newSkillLevels": [
+      { "skill": "smithing", "level": 36 },
+      { "skill": "crafting", "level": 34 }
+    ]
+  },
+  {
+    "id": "The_Ribbiting_Tale_of_a_Lily_Pad_Labour_Dispute",
+    "questRequirements": ["Children_of_the_Sun"],
+    "skillRequirements": [
+      { "skill": "woodcutting", "level": 15 }
+    ],
+    "newSkillLevels": [
+      { "skill": "woodcutting", "level": 19 }
+    ]
+  },
+  {
+    "id": "Lost_City",
+    "skillRequirements": [
+      { "skill": "woodcutting", "level": 36 },
+      { "skill": "crafting", "level": 31 }
+    ]
+  },
+  {
+    "id": "Fairytale_I_-_Growing_Pains",
+    "questRequirements": [
+      "Lost_City",
+      "Nature_Spirit"
+    ],
+    "newSkillLevels": [
+      { "skill": "attack", "level": 45 },
+      { "skill": "magic", "level": 30 },
+      { "skill": "farming", "level": 17 }
+    ]
+  },
+  {
+    "id": "Recipe_for_Disaster/Another_Cook's_Quest",
+    "questRequirements": ["Cook's_Assistant"],
+    "skillRequirements": [
+      { "skill": "cooking", "level": 10 }
+    ]
+  },
+  {
+    "id": "Goblin_Diplomacy",
+    "newSkillLevels": [
+      { "skill": "crafting", "level": 34 }
+    ]
+  },
+  {
+    "id": "Recipe_for_Disaster/Freeing_the_Goblin_generals",
+    "questRequirements": [
+      "Recipe_for_Disaster/Another_Cook's_Quest",
+      "Goblin_Diplomacy"
+    ],
+    "newSkillLevels": [
+      { "skill": "crafting", "level": 35 },
+      { "skill": "farming", "level": 20 },
+      { "skill": "cooking", "level": 17 }
+    ]
+  },
+  {
+    "id": "Sleeping_Giants",
+    "skillRequirements": [
+      { "skill": "smithing", "level": 15 }
+    ],
+    "newSkillLevels": [
+      { "skill": "smithing", "level": 38 }
+    ]
+  },
+  {
+    "id": "Shield_of_Arrav"
+  },
+  {
+    "id": "Creature_of_Fenkenstrain",
+    "questRequirements": [
+      "Priest_in_Peril",
+      "The_Restless_Ghost"
+    ],
+    "skillRequirements": [
+      { "skill": "thieving", "level": 25 },
+      { "skill": "crafting", "level": 20 },
+      { "skill": "smithing", "level": 4, "ironman": true }
+    ],
+    "newSkillLevels": [
+      { "skill": "thieving", "level": 27 }
+    ]
+  },
+  {
+    "id": "A_Soul's_Bane",
+    "newSkillLevels": [
+      { "skill": "defence", "level": 32 },
+      { "skill": "hitpoints", "level": 27 }
+    ]
+  },
+  {
+    "id": "The_Lost_Tribe",
+    "questRequirements": [
+      "Goblin_Diplomacy",
+      "Rune_Mysteries"
+    ],
+    "skillRequirements": [
+      { "skill": "mining", "level": 17 },
+      { "skill": "agility", "level": 13 },
+      { "skill": "thieving", "level": 13 }
+    ],
+    "newSkillLevels": [
+      { "skill": "mining", "level": 34 }
+    ]
+  },
+  {
+    "id": "Death_to_the_Dorgeshuun",
+    "questRequirements": ["The_Lost_Tribe"],
+    "skillRequirements": [
+      { "skill": "agility", "level": 23 },
+      { "skill": "thieving", "level": 23 }
+    ],
+    "newSkillLevels": [
+      { "skill": "thieving", "level": 29 },
+      { "skill": "ranged", "level": 13 }
+    ]
+  },
+  {
+    "id": "Imp_Catcher",
+    "newSkillLevels": [
+      { "skill": "magic", "level": 30 }
+    ]
+  },
+  {
+    "id": "The_Giant_Dwarf",
+    "skillRequirements": [
+      { "skill": "magic", "level": 33 },
+      { "skill": "firemaking", "level": 16 },
+      { "skill": "thieving", "level": 14 },
+      { "skill": "crafting", "level": 12 }
+    ],
+    "newSkillLevels": [
+      { "skill": "smithing", "level": 39 },
+      { "skill": "crafting", "level": 36 },
+      { "skill": "mining", "level": 35 },
+      { "skill": "magic", "level": 33 },
+      { "skill": "thieving", "level": 30 },
+      { "skill": "firemaking", "level": 19 }
+    ]
+  },
+  {
+    "id": "Another_Slice_of_H.A.M.",
+    "questRequirements": [
+      "Death_to_the_Dorgeshuun",
+      "The_Giant_Dwarf",
+      "The_Dig_Site"
+    ],
+    "skillRequirements": [
+      { "skill": "prayer", "level": 25 },
+      { "skill": "attack", "level": 15 }
+    ],
+    "newSkillLevels": [
+      { "skill": "mining", "level": 36 },
+      { "skill": "prayer", "level": 33 }
+    ]
+  },
+  {
+    "id": "Making_History",
+    "questRequirements": [
+      "Priest_in_Peril",
+      "The_Restless_Ghost"
+    ],
+    "skillRequirements": [
+      { "skill": "crafting", "level": 24, "ironman": true }
+    ],
+    "newSkillLevels": [
+      { "skill": "crafting", "level": 36 },
+      { "skill": "prayer", "level": 34 }
+    ]
+  },
+  {
+    "id": "In_Search_of_the_Myreque",
+    "questRequirements": ["Nature_Spirit"],
+    "skillRequirements": [
+      { "skill": "agility", "level": 25 }
+    ],
+    "newSkillLevels": [
+      { "skill": "attack", "level": 45 },
+      { "skill": "crafting", "level": 36 },
+      { "skill": "strength", "level": 34 },
+      { "skill": "defence", "level": 33 },
+      { "skill": "hitpoints", "level": 27 }
+    ]
+  },
+  {
+    "id": "Shades_of_Mort'ton",
+    "questRequirements": ["Priest_in_Peril"],
+    "skillRequirements": [
+      { "skill": "crafting", "level": 20 },
+      { "skill": "herblore", "level": 15 },
+      { "skill": "firemaking", "level": 5 }
+    ],
+    "newSkillLevels": [
+      { "skill": "crafting", "level": 37 },
+      { "skill": "herblore", "level": 22 }
+    ]
+  },
+  {
+    "id": "In_Aid_of_the_Myreque",
+    "questRequirements": ["In_Search_of_the_Myreque"],
+    "skillRequirements": [
+      { "skill": "agility", "level": 25 },
+      { "skill": "crafting", "level": 25 },
+      { "skill": "mining", "level": 15 },
+      { "skill": "magic", "level": 7 }
+    ],
+    "newSkillLevels": [
+      { "skill": "attack", "level": 46 },
+      { "skill": "crafting", "level": 38 },
+      { "skill": "strength", "level": 35 },
+      { "skill": "defence", "level": 34 }
+    ]
+  },
+  {
+    "id": "Bone_Voyage",
+    "questRequirements": ["The_Dig_Site"]
+  },
+  {
+    "id": "Enter_the_Abyss",
+    "questRequirements": ["Rune_Mysteries"],
+    "newSkillLevels": [
+      { "skill": "runecraft", "level": 9 }
+    ]
+  },
+  {
+    "id": "Wanted!",
+    "questRequirements": [
+      "Recruitment_Drive",
+      "The_Lost_Tribe",
+      "Priest_in_Peril",
+      "Enter_the_Abyss"
+    ],
+    "newSkillLevels": [
+      { "skill": "slayer", "level": 23 }
+    ]
+  },
+  {
+    "id": "The_Feud",
+    "skillRequirements": [
+      { "skill": "thieving", "level": 30 }
+    ],
+    "newSkillLevels": [
+      { "skill": "thieving", "level": 37 }
+    ]
+  },
+  {
+    "id": "Troll_Stronghold",
+    "questRequirements": ["Death_Plateau"],
+    "skillRequirements": [
+      { "skill": "agility", "level": 15 }
+    ]
+  },
+  {
+    "id": "Troll_Romance",
+    "questRequirements": ["Troll_Stronghold"],
+    "skillRequirements": [
+      { "skill": "agility", "level": 28 },
+      { "skill": "smithing", "level": 15, "ironman": true },
+      { "skill": "woodcutting", "level": 45, "ironman": true }
+    ],
+    "newSkillLevels": [
+      { "skill": "strength", "level": 36 },
+      { "skill": "agility", "level": 35 }
+    ]
+  },
+  {
+    "id": "Dragon_Slayer_I",
+    "skillRequirements": [
+      { "skill": "crafting", "level": 8, "ironman": true }
+    ],
+    "newSkillLevels": [
+      { "skill": "strength", "level": 42 },
+      { "skill": "defence", "level": 40 }
+    ]
+  },
+  {
+    "id": "Horror_from_the_Deep",
+    "questRequirements": ["Alfred_Grimhand's_Barcrawl"],
+    "skillRequirements": [
+      { "skill": "agility", "level": 35 }
+    ],
+    "newSkillLevels": [
+      { "skill": "strength", "level": 42 },
+      { "skill": "magic", "level": 35 },
+      { "skill": "ranged", "level": 23 }
+    ]
+  },
+  {
+    "id": "Ernest_the_Chicken"
+  },
+  {
+    "id": "Animal_Magnetism",
+    "questRequirements": [
+      "The_Restless_Ghost",
+      "Ernest_the_Chicken",
+      "Priest_in_Peril"
+    ],
+    "skillRequirements": [
+      { "skill": "woodcutting", "level": 35 },
+      { "skill": "ranged", "level": 30 },
+      { "skill": "crafting", "level": 19 },
+      { "skill": "slayer", "level": 18 },
+      { "skill": "prayer", "level": 31, "ironman": true }
+    ],
+    "newSkillLevels": [
+      { "skill": "woodcutting", "level": 45 },
+      { "skill": "crafting", "level": 38 },
+      { "skill": "slayer", "level": 25 },
+      { "skill": "fletching", "level": 9 }
+    ]
+  },
+  {
+    "id": "Shilo_Village",
+    "questRequirements": ["Jungle_Potion"],
+    "skillRequirements": [
+      { "skill": "agility", "level": 32 },
+      { "skill": "crafting", "level": 20 },
+      { "skill": "smithing", "level": 4, "ironman": true }
+    ],
+    "newSkillLevels": [
+      { "skill": "crafting", "level": 39 }
+    ]
+  },
+  {
+    "id": "Doric's_Quest",
+    "skillRequirements": [
+      { "skill": "mining", "level": 15, "ironman": true }
+    ],
+    "newSkillLevels": [
+      { "skill": "mining", "level": 37 }
+    ]
+  },
+  {
+    "id": "Spirits_of_the_Elid",
+    "skillRequirements": [
+      { "skill": "ranged", "level": 37 },
+      { "skill": "mining", "level": 37 },
+      { "skill": "thieving", "level": 37 },
+      { "skill": "magic", "level": 33 }
+    ],
+    "newSkillLevels": [
+      { "skill": "prayer", "level": 37 },
+      { "skill": "thieving", "level": 37 },
+      { "skill": "magic", "level": 36 }
+    ]
+  },
+  {
+    "id": "Icthlarin's_Little_Helper",
+    "questRequirements": ["Gertrude's_Cat"],
+    "newSkillLevels": [
+      { "skill": "woodcutting", "level": 46 },
+      { "skill": "thieving", "level": 39 },
+      { "skill": "agility", "level": 37 }
+    ]
+  },
+  {
+    "id": "Ethically_Acquired_Antiquities",
+    "questRequirements": [
+      "Children_of_the_Sun",
+      "Shield_of_Arrav"
+    ],
+    "skillRequirements": [
+      { "skill": "thieving", "level": 25 }
+    ],
+    "newSkillLevels": [
+      { "skill": "thieving", "level": 40 }
+    ]
+  },
+  {
+    "id": "Twilight's_Promise",
+    "questRequirements": ["Children_of_the_Sun"],
+    "newSkillLevels": [
+      { "skill": "thieving", "level": 41 }
+    ]
+  },
+  {
+    "id": "Death_on_the_Isle",
+    "questRequirements": ["Children_of_the_Sun"],
+    "skillRequirements": [
+      { "skill": "thieving", "level": 34 },
+      { "skill": "agility", "level": 32 }
+    ],
+    "newSkillLevels": [
+      { "skill": "thieving", "level": 43 },
+      { "skill": "crafting", "level": 40 },
+      { "skill": "agility", "level": 39 }
+    ]
+  },
+  {
+    "id": "Ratcatchers",
+    "questRequirements": ["Icthlarin's_Little_Helper"],
+    "newSkillLevels": [
+      { "skill": "thieving", "level": 44 }
+    ]
+  },
+  {
+    "id": "The_Garden_of_Death",
+    "skillRequirements": [
+      { "skill": "farming", "level": 20 }
+    ],
+    "newSkillLevels": [
+      { "skill": "farming", "level": 30 }
+    ]
+  },
+  {
+    "id": "Enlightened_Journey",
+    "skillRequirements": [
+      { "skill": "crafting", "level": 36 },
+      { "skill": "firemaking", "level": 20 },
+      { "skill": "farming", "level": 30, "ironman": true }
+    ],
+    "newSkillLevels": [
+      { "skill": "woodcutting", "level": 46 },
+      { "skill": "crafting", "level": 41 },
+      { "skill": "farming", "level": 32 },
+      { "skill": "firemaking", "level": 25 }
+    ]
+  },
+  {
+    "id": "Sea_Slug",
+    "skillRequirements": [
+      { "skill": "firemaking", "level": 30 }
+    ],
+    "newSkillLevels": [
+      { "skill": "fishing", "level": 24 }
+    ]
+  },
+  {
+    "id": "Fishing_Contest",
+    "skillRequirements": [
+      { "skill": "fishing", "level": 10 }
+    ],
+    "newSkillLevels": [
+      { "skill": "fishing", "level": 26 }
+    ]
+  },
+  {
+    "id": "Recipe_for_Disaster/Freeing_the_Mountain_Dwarf",
+    "questRequirements": [
+      "Recipe_for_Disaster/Another_Cook's_Quest",
+      "Fishing_Contest"
+    ],
+    "newSkillLevels": [
+      { "skill": "slayer", "level": 26 },
+      { "skill": "cooking", "level": 19 }
+    ]
+  },
+  {
+    "id": "Ghosts_Ahoy",
+    "questRequirements": [
+      "Priest_in_Peril",
+      "The_Restless_Ghost"
+    ],
+    "skillRequirements": [
+      { "skill": "agility", "level": 25 },
+      { "skill": "cooking", "level": 20 }
+    ],
+    "newSkillLevels": [
+      { "skill": "prayer", "level": 38 }
+    ]
+  },
+  {
+    "id": "Forgettable_Tale...",
+    "questRequirements": [
+      "The_Giant_Dwarf",
+      "Fishing_Contest"
+    ],
+    "skillRequirements": [
+      { "skill": "cooking", "level": 22 },
+      { "skill": "farming", "level": 17 }
+    ],
+    "newSkillLevels": [
+      { "skill": "farming", "level": 35 },
+      { "skill": "cooking", "level": 27 }
+    ]
+  },
+  {
+    "id": "Garden_of_Tranquillity",
+    "questRequirements": ["Creature_of_Fenkenstrain"],
+    "skillRequirements": [
+      { "skill": "farming", "level": 25 }
+    ],
+    "newSkillLevels": [
+      { "skill": "farming", "level": 37 }
+    ]
+  },
+  {
+    "id": "Recipe_for_Disaster/Freeing_Evil_Dave",
+    "questRequirements": [
+      "Gertrude's_Cat",
+      "Recipe_for_Disaster/Another_Cook's_Quest",
       "Shadow_of_the_Storm"
     ],
-    "unlocks": [
-      "Silverlight",
-      "Darklight"
-    ]
-  },
-  {
-    "id": "Dorgeshuun",
-    "quests": [
-      "The_Lost_Tribe",
-      "Death_to_the_Dorgeshuun",
-      "Another_Slice_of_H.A.M.",
-      "Land_of_the_Goblins"
+    "skillRequirements": [
+      { "skill": "cooking", "level": 25 }
     ],
-    "unlocks": [
-      "H.A.M._robes",
-      "Mining_helmet",
-      "Bone_club",
-      "Bone_spear",
-      "Bone_dagger",
-      "Dorgeshuun_crossbow",
-      "Ancient_mace"
+    "newSkillLevels": [
+      { "skill": "cooking", "level": 32 }
     ]
   },
   {
-    "id": "Dragonkin#Fremennik",
-    "link": "Quests/Series#Dragonkin",
-    "title": "Dragonkin",
-    "quests": [
-      "Dragon_Slayer_II"
+    "id": "Big_Chompy_Bird_Hunting",
+    "skillRequirements": [
+      { "skill": "cooking", "level": 30 },
+      { "skill": "ranged", "level": 30 },
+      { "skill": "fletching", "level": 5 }
     ],
-    "unlocks": [
-      "Vorkath",
-      "Ava's_assembler",
-      "Superior_dragon_bones",
-      "Super_antifire_potion"
+    "newSkillLevels": [
+      { "skill": "ranged", "level": 37 },
+      { "skill": "cooking", "level": 33 },
+      { "skill": "fletching", "level": 10 }
     ]
   },
   {
-    "id": "Dragonkin#Kandarin",
-    "link": "Quests/Series#Dragonkin",
-    "title": "Dragonkin",
-    "quests": [
-      "Dragon_Slayer_II"
+    "id": "Zogre_Flesh_Eaters",
+    "questRequirements": [
+      "Big_Chompy_Bird_Hunting",
+      "Jungle_Potion"
     ],
-    "unlocks": [
-      "Wrath_Altar",
-      "Locator_orb",
-      "Mythical_cape"
-    ]
-  },
-  {
-    "id": "Dragonkin#Misthalin",
-    "link": "Quests/Series#Dragonkin",
-    "title": "Dragonkin",
-    "quests": [
-      "Dragon_Slayer_I",
-      "Dragon_Slayer_II"
+    "skillRequirements": [
+      { "skill": "ranged", "level": 30 },
+      { "skill": "herblore", "level": 8 },
+      { "skill": "smithing", "level": 4 }
     ],
-    "unlocks": [
-      "Anti-dragon_shield",
-      "Dragonfire_shield",
-      "Green_d'hide_body",
-      "Rune_platebody",
-      "Dragon_platebody",
-      "Dragon_kiteshield",
-      "Ferocious_gloves"
+    "newSkillLevels": [
+      { "skill": "ranged", "level": 37 },
+      { "skill": "herblore", "level": 25 },
+      { "skill": "fletching", "level": 17 }
     ]
   },
   {
-    "id": "Elemental_Workshop",
-    "link": "Elemental_Workshop_quest_series",
-    "quests": [
-      "Elemental_Workshop_I",
-      "Elemental_Workshop_II"
+    "id": "Darkness_of_Hallowvale",
+    "questRequirements": ["In_Aid_of_the_Myreque"],
+    "skillRequirements": [
+      { "skill": "strength", "level": 40 },
+      { "skill": "magic", "level": 33 },
+      { "skill": "crafting", "level": 32 },
+      { "skill": "agility", "level": 26 },
+      { "skill": "thieving", "level": 22 },
+      { "skill": "mining", "level": 20 },
+      { "skill": "construction", "level": 5 }
     ],
-    "unlocks": [
-      "Elemental_helmet",
-      "Elemental_shield",
-      "Mind_helmet",
-      "Mind_shield"
+    "newSkillLevels": [
+      { "skill": "thieving", "level": 45 },
+      { "skill": "agility", "level": 41 },
+      { "skill": "herblore", "level": 33 },
+      { "skill": "construction", "level": 16 }
     ]
   },
   {
-    "id": "Elf",
-    "quests": [
-      "Plague_City",
+    "id": "Tower_of_Life",
+    "skillRequirements": [
+      { "skill": "construction", "level": 10 }
+    ],
+    "newSkillLevels": [
+      { "skill": "thieving", "level": 45 },
+      { "skill": "crafting", "level": 41 },
+      { "skill": "construction", "level": 18 }
+    ]
+  },
+  {
+    "id": "Recipe_for_Disaster/Freeing_Pirate_Pete",
+    "questRequirements": ["Recipe_for_Disaster/Another_Cook's_Quest"],
+    "skillRequirements": [
+      { "skill": "cooking", "level": 31 },
+      { "skill": "crafting", "level": 42, "ironman": true },
+      { "skill": "smithing", "level": 4, "ironman": true }
+    ],
+    "newSkillLevels": [
+      { "skill": "crafting", "level": 41 },
+      { "skill": "smithing", "level": 39 },
+      { "skill": "cooking", "level": 33 },
+      { "skill": "fishing", "level": 27 }
+    ]
+  },
+  {
+    "id": "Tai_Bwo_Wannai_Trio",
+    "questRequirements": ["Jungle_Potion"],
+    "skillRequirements": [
+      { "skill": "cooking", "level": 30 },
+      { "skill": "agility", "level": 15 },
+      { "skill": "fishing", "level": 65, "ironman": true },
+      { "skill": "herblore", "level": 34, "ironman": true }
+    ],
+    "newSkillLevels": [
+      { "skill": "attack", "level": 46 },
+      { "skill": "strength", "level": 43 },
+      { "skill": "cooking", "level": 36 },
+      { "skill": "fishing", "level": 31 }
+    ]
+  },
+  {
+    "id": "The_Tourist_Trap",
+    "skillRequirements": [
+      { "skill": "smithing", "level": 20 },
+      { "skill": "fletching", "level": 10 }
+    ],
+    "newSkillLevels": [
+      { "skill": "smithing", "level": 41 }
+    ]
+  },
+  {
+    "id": "Eadgar's_Ruse",
+    "questRequirements": [
+      "Druidic_Ritual",
+      "Troll_Stronghold"
+    ],
+    "skillRequirements": [
+      { "skill": "herblore", "level": 31 }
+    ],
+    "newSkillLevels": [
+      { "skill": "herblore", "level": 37 }
+    ]
+  },
+  {
+    "id": "My_Arm's_Big_Adventure",
+    "questRequirements": [
+      "Eadgar's_Ruse",
+      "The_Feud",
+      "Jungle_Potion"
+    ],
+    "skillRequirements": [
+      { "skill": "farming", "level": 29 },
+      { "skill": "woodcutting", "level": 10 }
+    ],
+    "newSkillLevels": [
+      { "skill": "herblore", "level": 40 },
+      { "skill": "farming", "level": 38 }
+    ]
+  },
+  {
+    "id": "The_Fremennik_Trials",
+    "skillRequirements": [
+      { "skill": "woodcutting", "level": 40 },
+      { "skill": "crafting", "level": 40 },
+      { "skill": "fletching", "level": 25 }
+    ],
+    "newSkillLevels": [
+      { "skill": "attack", "level": 46 },
+      { "skill": "woodcutting", "level": 46 },
+      { "skill": "thieving", "level": 45 },
+      { "skill": "strength", "level": 43 },
+      { "skill": "crafting", "level": 42 },
+      { "skill": "defence", "level": 41 },
+      { "skill": "agility", "level": 41 },
+      { "skill": "fishing", "level": 33 },
+      { "skill": "hitpoints", "level": 30 },
+      { "skill": "fletching", "level": 27 }
+    ]
+  },
+  {
+    "id": "The_Fremennik_Isles",
+    "questRequirements": ["The_Fremennik_Trials"],
+    "skillRequirements": [
+      { "skill": "construction", "level": 20 },
+      { "skill": "woodcutting", "level": 56, "ironman": true },
+      { "skill": "crafting", "level": 46, "ironman": true }
+    ],
+    "newSkillLevels": [
+      { "skill": "woodcutting", "level": 56 },
+      { "skill": "crafting", "level": 46 },
+      { "skill": "construction", "level": 26 }
+    ]
+  },
+  {
+    "id": "Getting_Ahead",
+    "skillRequirements": [
+      { "skill": "crafting", "level": 30 },
+      { "skill": "construction", "level": 26 }
+    ],
+    "newSkillLevels": [
+      { "skill": "crafting", "level": 47 },
+      { "skill": "construction", "level": 29 }
+    ]
+  },
+  {
+    "id": "Recipe_for_Disaster/Freeing_the_Lumbridge_Guide",
+    "questRequirements": [
+      "Big_Chompy_Bird_Hunting",
       "Biohazard",
-      "Underground_Pass",
-      "Regicide",
-      "Roving_Elves",
-      "Mourning's_End_Part_I",
-      "Mourning's_End_Part_II",
-      "Song_of_the_Elves"
+      "Demon_Slayer",
+      "Murder_Mystery",
+      "Nature_Spirit",
+      "Recipe_for_Disaster/Another_Cook's_Quest",
+      "Witch's_House"
     ],
-    "unlocks": [
-      "Klank's_gauntlets",
-      "Iban's_staff",
-      "Dragon_halberd",
-      "Crystal_halberd",
-      "Crystal_bow",
-      "Crystal_shield",
-      "Teleport_crystal",
-      "Death_Altar",
-      "Dark_bow",
-      "Zalcano",
-      "The_Gauntlet"
+    "skillRequirements": [
+      { "skill": "cooking", "level": 40 }
+    ],
+    "newSkillLevels": [
+      { "skill": "magic", "level": 37 }
     ]
   },
   {
-    "id": "Fairytale",
-    "link": "Fairy_Tale_quest_series",
-    "quests": [
-      "Lost_City",
-      "Fairytale_I_-_Growing_Pains",
-      "Fairytale_II_-_Cure_a_Queen"
+    "id": "Recipe_for_Disaster/Freeing_Skrach_Uglogwee",
+    "questRequirements": [
+      "Big_Chompy_Bird_Hunting",
+      "Recipe_for_Disaster/Another_Cook's_Quest"
     ],
-    "unlocks": [
-      "Dramen_staff",
-      "Dragon_dagger",
-      "Dragon_longsword",
-      "Cosmic_Altar",
-      "Magic_secateurs",
-      "Fairy_rings"
+    "skillRequirements": [
+      { "skill": "cooking", "level": 41 },
+      { "skill": "firemaking", "level": 20 },
+      { "skill": "smithing", "level": 17, "ironman": true }
+    ],
+    "newSkillLevels": [
+      { "skill": "woodcutting", "level": 56 },
+      { "skill": "crafting", "level": 47 },
+      { "skill": "ranged", "level": 38 }
     ]
   },
   {
-    "id": "Fremennik",
-    "link": "Fremennik_series",
-    "quests": [
-      "The_Fremennik_Trials",
-      "The_Fremennik_Isles",
-      "The_Fremennik_Exiles"
+    "id": "Haunted_Mine",
+    "questRequirements": ["Priest_in_Peril"],
+    "skillRequirements": [
+      { "skill": "crafting", "level": 35 }
     ],
-    "unlocks": [
-      "Enchanted_lyre(i)",
-      "Fremennik_blade",
-      "Fremennik_helm",
-      "Warrior_helm",
-      "Berserker_helm",
-      "Archer_helm",
-      "Farseer_helm",
-      "Rock-shell_armour",
-      "Spined_armour",
-      "Skeletal_armour",
-      "Helm_of_neitiznot",
-      "Neitiznot_faceguard",
-      "Neitiznot_shield",
-      "V's_shield"
+    "newSkillLevels": [
+      { "skill": "strength", "level": 47 }
     ]
   },
   {
-    "id": "Gnome",
-    "link": "Gnome_quest_series",
-    "quests": [
-      "Tree_Gnome_Village",
-      "The_Grand_Tree",
-      "The_Eyes_of_Glouphrie",
-      "The_Path_of_Glouphrie",
-      "Monkey_Madness_I",
-      "Monkey_Madness_II"
+    "id": "Watchtower",
+    "skillRequirements": [
+      { "skill": "mining", "level": 40 },
+      { "skill": "agility", "level": 25 },
+      { "skill": "thieving", "level": 15 },
+      { "skill": "magic", "level": 14 },
+      { "skill": "herblore", "level": 14 }
     ],
-    "unlocks": [
-      "Gnome_glider",
-      "Crystal_saw",
-      "Warped_sceptre",
-      "Greegree",
-      "M'speak_amulet",
-      "Dragon_scimitar",
-      "Royal_seed_pod",
-      "Dragon_javelin_heads",
-      "Light_ballista",
-      "Heavy_ballista",
-      "Zenyte_shard"
+    "newSkillLevels": [
+      { "skill": "magic", "level": 41 }
     ]
   },
   {
-    "id": "Kharidian",
-    "quests": [
+    "id": "Prince_Ali_Rescue"
+  },
+  {
+    "id": "Contact!",
+    "questRequirements": [
       "Prince_Ali_Rescue",
-      "Icthlarin's_Little_Helper",
-      "Contact!",
-      "Beneath_Cursed_Sands",
-      "Into_the_Tombs"
+      "Icthlarin's_Little_Helper"
     ],
-    "unlocks": [
-      "Sorceress's_Garden",
-      "Catspeak_amulet",
-      "Pharaoh's_sceptre",
-      "Keris",
-      "Keris_partisan",
-      "Circlet_of_water",
-      "#newline",
-      "Tombs_of_Amascut",
-      "Thread_of_elidinis",
-      "Eye_of_the_corruptor",
-      "Jewel_of_the_sun",
-      "Breach_of_the_scarab"
+    "newSkillLevels": [
+      { "skill": "thieving", "level": 46 },
+      { "skill": "magic", "level": 42 }
     ]
   },
   {
-    "id": "Kourend",
-    "link": "Great_Kourend_quest_series",
-    "quests": [
-      "X_Marks_the_Spot",
-      "Client_of_Kourend",
-      "The_Queen_of_Thieves",
+    "id": "The_Eyes_of_Glouphrie",
+    "questRequirements": ["The_Grand_Tree"],
+    "skillRequirements": [
+      { "skill": "magic", "level": 46 },
+      { "skill": "construction", "level": 5 },
+      { "skill": "runecraft", "level": 13, "ironman": true }
+    ],
+    "newSkillLevels": [
+      { "skill": "woodcutting", "level": 56 },
+      { "skill": "magic", "level": 47 },
+      { "skill": "construction", "level": 29 },
+      { "skill": "runecraft", "level": 23 }
+    ]
+  },
+  {
+    "id": "Temple_of_the_Eye",
+    "questRequirements": ["Enter_the_Abyss"],
+    "skillRequirements": [
+      { "skill": "runecraft", "level": 10 }
+    ],
+    "newSkillLevels": [
+      { "skill": "runecraft", "level": 31 }
+    ]
+  },
+  {
+    "id": "Olaf's_Quest",
+    "questRequirements": ["The_Fremennik_Trials"],
+    "skillRequirements": [
+      { "skill": "woodcutting", "level": 50 },
+      { "skill": "firemaking", "level": 40 }
+    ],
+    "newSkillLevels": [
+      { "skill": "defence", "level": 43 }
+    ]
+  },
+  {
+    "id": "Tears_of_Guthix",
+    "skillRequirements": [
+      { "skill": "firemaking", "level": 49 },
+      { "skill": "crafting", "level": 20 },
+      { "skill": "mining", "level": 20 }
+    ],
+    "newSkillLevels": [
+      { "skill": "crafting", "level": 47 }
+    ]
+  },
+  {
+    "id": "Temple_of_Ikov",
+    "skillRequirements": [
+      { "skill": "thieving", "level": 42 },
+      { "skill": "ranged", "level": 40 }
+    ],
+    "newSkillLevels": [
+      { "skill": "ranged", "level": 42 },
+      { "skill": "fletching", "level": 33 }
+    ]
+  },
+  {
+    "id": "One_Small_Favour",
+    "questRequirements": [
+      "Rune_Mysteries",
+      "Shilo_Village"
+    ],
+    "skillRequirements": [
+      { "skill": "agility", "level": 36 },
+      { "skill": "smithing", "level": 30 },
+      { "skill": "crafting", "level": 25 },
+      { "skill": "herblore", "level": 18 }
+    ],
+    "newSkillLevels": [
+      { "skill": "smithing", "level": 45 }
+    ]
+  },
+  {
+    "id": "A_Tail_of_Two_Cats",
+    "questRequirements": ["Icthlarin's_Little_Helper"],
+    "newSkillLevels": [
+      { "skill": "smithing", "level": 46 }
+    ]
+  },
+  {
+    "id": "The_Slug_Menace",
+    "questRequirements": [
+      "Wanted!",
+      "Sea_Slug"
+    ],
+    "skillRequirements": [
+      { "skill": "crafting", "level": 30 },
+      { "skill": "runecraft", "level": 30 },
+      { "skill": "slayer", "level": 30 },
+      { "skill": "thieving", "level": 30 }
+    ],
+    "newSkillLevels": [
+      { "skill": "crafting", "level": 47 },
+      { "skill": "thieving", "level": 47 },
+      { "skill": "runecraft", "level": 33 }
+    ]
+  },
+  {
+    "id": "Between_a_Rock...",
+    "questRequirements": [
+      "Dwarf_Cannon",
+      "Fishing_Contest"
+    ],
+    "skillRequirements": [
+      { "skill": "smithing", "level": 50 },
+      { "skill": "mining", "level": 40 },
+      { "skill": "defence", "level": 30 }
+    ],
+    "newSkillLevels": [
+      { "skill": "smithing", "level": 50 },
+      { "skill": "defence", "level": 44 },
+      { "skill": "mining", "level": 41 }
+    ]
+  },
+  {
+    "id": "Monkey_Madness_I",
+    "questRequirements": [
+      "The_Grand_Tree",
+      "Tree_Gnome_Village"
+    ],
+    "newSkillLevels": [
+      { "skill": "attack", "level": 50 },
+      { "skill": "defence", "level": 49 },
+      { "skill": "strength", "level": 49 },
+      { "skill": "hitpoints", "level": 38 }
+    ]
+  },
+  {
+    "id": "Cold_War",
+    "skillRequirements": [
+      { "skill": "construction", "level": 34 },
+      { "skill": "agility", "level": 30 },
+      { "skill": "crafting", "level": 30 },
+      { "skill": "thieving", "level": 15 },
+      { "skill": "hunter", "level": 10 },
+      { "skill": "woodcutting", "level": 50, "ironman": true }
+    ],
+    "newSkillLevels": [
+      { "skill": "crafting", "level": 48 },
+      { "skill": "agility", "level": 42 },
+      { "skill": "construction", "level": 34 }
+    ]
+  },
+  {
+    "id": "The_Ascent_of_Arceuus",
+    "questRequirements": ["Client_of_Kourend"],
+    "skillRequirements": [
+      { "skill": "hunter", "level": 12 }
+    ],
+    "newSkillLevels": [
+      { "skill": "runecraft", "level": 33 },
+      { "skill": "hunter", "level": 16 }
+    ]
+  },
+  {
+    "id": "Eagles'_Peak",
+    "skillRequirements": [
+      { "skill": "hunter", "level": 27 }
+    ],
+    "newSkillLevels": [
+      { "skill": "hunter", "level": 29 }
+    ]
+  },
+  {
+    "id": "Underground_Pass",
+    "questRequirements": ["Biohazard"],
+    "skillRequirements": [
+      { "skill": "ranged", "level": 25 }
+    ],
+    "newSkillLevels": [
+      { "skill": "attack", "level": 51 },
+      { "skill": "agility", "level": 43 }
+    ]
+  },
+  {
+    "id": "Skippy_and_the_Mogres",
+    "skillRequirements": [
+      { "skill": "cooking", "level": 20 }
+    ]
+  },
+  {
+    "id": "Rag_and_Bone_Man_II",
+    "questRequirements": [
+      "Rag_and_Bone_Man_I",
+      "Skippy_and_the_Mogres",
+      "Horror_from_the_Deep",
+      "Creature_of_Fenkenstrain",
+      "Waterfall_Quest"
+    ],
+    "skillRequirements": [
+      { "skill": "slayer", "level": 40 },
+      { "skill": "defence", "level": 20 }
+    ],
+    "newSkillLevels": [
+      { "skill": "prayer", "level": 39 }
+    ]
+  },
+  {
+    "id": "Lair_of_Tarn_Razorlor",
+    "questRequirements": ["Haunted_Mine"],
+    "skillRequirements": [
+      { "skill": "slayer", "level": 40 }
+    ],
+    "newSkillLevels": [
+      { "skill": "slayer", "level": 43 }
+    ]
+  },
+  {
+    "id": "Rum_Deal",
+    "questRequirements": [
+      "Zogre_Flesh_Eaters",
+      "Priest_in_Peril"
+    ],
+    "skillRequirements": [
+      { "skill": "fishing", "level": 50 },
+      { "skill": "prayer", "level": 47 },
+      { "skill": "crafting", "level": 42 },
+      { "skill": "slayer", "level": 42 },
+      { "skill": "farming", "level": 40 }
+    ],
+    "newSkillLevels": [
+      { "skill": "fishing", "level": 50 },
+      { "skill": "prayer", "level": 47 },
+      { "skill": "farming", "level": 41 }
+    ]
+  },
+  {
+    "id": "Pirate's_Treasure"
+  },
+  {
+    "id": "Cabin_Fever",
+    "questRequirements": [
+      "Pirate's_Treasure",
+      "Rum_Deal"
+    ],
+    "skillRequirements": [
+      { "skill": "smithing", "level": 50 },
+      { "skill": "crafting", "level": 45 },
+      { "skill": "agility", "level": 42 },
+      { "skill": "ranged", "level": 40 }
+    ],
+    "newSkillLevels": [
+      { "skill": "smithing", "level": 51 },
+      { "skill": "crafting", "level": 49 },
+      { "skill": "agility", "level": 44 }
+    ]
+  },
+  {
+    "id": "The_Great_Brain_Robbery",
+    "questRequirements": [
+      "Creature_of_Fenkenstrain",
+      "Cabin_Fever",
+      "Recipe_for_Disaster/Freeing_Pirate_Pete"
+    ],
+    "skillRequirements": [
+      { "skill": "prayer", "level": 50 },
+      { "skill": "construction", "level": 30 },
+      { "skill": "crafting", "level": 16 }
+    ],
+    "newSkillLevels": [
+      { "skill": "prayer", "level": 50 },
+      { "skill": "crafting", "level": 49 },
+      { "skill": "runecraft", "level": 36 },
+      { "skill": "construction", "level": 35 }
+    ]
+  },
+  {
+    "id": "Scrambled!",
+    "questRequirements": ["Children_of_the_Sun"],
+    "skillRequirements": [
+      { "skill": "construction", "level": 38 },
+      { "skill": "cooking", "level": 36 },
+      { "skill": "smithing", "level": 35 }
+    ],
+    "newSkillLevels": [
+      { "skill": "smithing", "level": 51 },
+      { "skill": "cooking", "level": 42 },
+      { "skill": "construction", "level": 39 }
+    ]
+  },
+  {
+    "id": "The_Hand_in_the_Sand",
+    "skillRequirements": [
+      { "skill": "crafting", "level": 49 },
+      { "skill": "thieving", "level": 17 }
+    ],
+    "newSkillLevels": [
+      { "skill": "thieving", "level": 47 }
+    ]
+  },
+  {
+    "id": "Enakhra's_Lament",
+    "skillRequirements": [
+      { "skill": "crafting", "level": 50 },
+      { "skill": "firemaking", "level": 45 },
+      { "skill": "prayer", "level": 43 },
+      { "skill": "magic", "level": 39 },
+      { "skill": "mining", "level": 45, "ironman": true }
+    ],
+    "newSkillLevels": [
+      { "skill": "firemaking", "level": 50 },
+      { "skill": "crafting", "level": 50 },
+      { "skill": "magic", "level": 48 },
+      { "skill": "mining", "level": 46 }
+    ]
+  },
+  {
+    "id": "Meat_and_Greet",
+    "questRequirements": ["Children_of_the_Sun"],
+    "newSkillLevels": [
+      { "skill": "cooking", "level": 43 }
+    ]
+  },
+  {
+    "id": "Heroes'_Quest",
+    "questRequirements": [
+      "Shield_of_Arrav",
+      "Lost_City",
+      "Merlin's_Crystal",
+      "Dragon_Slayer_I"
+    ],
+    "skillRequirements": [
+      { "skill": "cooking", "level": 53 },
+      { "skill": "fishing", "level": 53 },
+      { "skill": "mining", "level": 50 },
+      { "skill": "herblore", "level": 25 }
+    ],
+    "newSkillLevels": [
+      { "skill": "woodcutting", "level": 56 },
+      { "skill": "cooking", "level": 53 },
+      { "skill": "fishing", "level": 53 },
+      { "skill": "attack", "level": 51 },
+      { "skill": "smithing", "level": 51 },
+      { "skill": "firemaking", "level": 50 },
+      { "skill": "mining", "level": 50 },
+      { "skill": "strength", "level": 49 },
+      { "skill": "defence", "level": 49 },
+      { "skill": "ranged", "level": 42 },
+      { "skill": "herblore", "level": 41 },
+      { "skill": "hitpoints", "level": 39 }
+    ]
+  },
+  {
+    "id": "Throne_of_Miscellania",
+    "questRequirements": [
+      "Heroes'_Quest",
+      "The_Fremennik_Trials"
+    ],
+    "skillRequirements": [
+      { "skill": "woodcutting", "level": 45 },
+      { "skill": "herblore", "level": 35 },
+      { "skill": "farming", "level": 10 }
+    ]
+  },
+  {
+    "id": "Royal_Trouble",
+    "questRequirements": ["Throne_of_Miscellania"],
+    "skillRequirements": [
+      { "skill": "agility", "level": 40 },
+      { "skill": "slayer", "level": 40 }
+    ],
+    "newSkillLevels": [
+      { "skill": "agility", "level": 45 },
+      { "skill": "slayer", "level": 43 },
+      { "skill": "hitpoints", "level": 41 }
+    ]
+  },
+  {
+    "id": "Desert_Treasure_I",
+    "questRequirements": [
+      "The_Dig_Site",
+      "Temple_of_Ikov",
+      "The_Tourist_Trap",
+      "Troll_Stronghold",
+      "Priest_in_Peril",
+      "Waterfall_Quest"
+    ],
+    "skillRequirements": [
+      { "skill": "thieving", "level": 53 },
+      { "skill": "magic", "level": 50 },
+      { "skill": "firemaking", "level": 50 },
+      { "skill": "slayer", "level": 10 }
+    ],
+    "newSkillLevels": [
+      { "skill": "magic", "level": 51 }
+    ]
+  },
+  {
+    "id": "Curse_of_the_Empty_Lord",
+    "questRequirements": [
+      "Desert_Treasure_I",
+      "The_Restless_Ghost"
+    ],
+    "skillRequirements": [
+      { "skill": "thieving", "level": 53 },
+      { "skill": "prayer", "level": 31 }
+    ]
+  },
+  {
+    "id": "The_General's_Shadow",
+    "questRequirements": [
+      "Curse_of_the_Empty_Lord",
+      "Fight_Arena"
+    ],
+    "newSkillLevels": [
+      { "skill": "slayer", "level": 44 }
+    ]
+  },
+  {
+    "id": "A_Taste_of_Hope",
+    "questRequirements": ["Darkness_of_Hallowvale"],
+    "skillRequirements": [
+      { "skill": "crafting", "level": 48 },
+      { "skill": "agility", "level": 45 },
+      { "skill": "attack", "level": 40 },
+      { "skill": "herblore", "level": 40 },
+      { "skill": "slayer", "level": 38 }
+    ]
+  },
+  {
+    "id": "Family_Crest",
+    "skillRequirements": [
+      { "skill": "magic", "level": 59 },
+      { "skill": "mining", "level": 40 },
+      { "skill": "smithing", "level": 40 },
+      { "skill": "crafting", "level": 40 }
+    ]
+  },
+  {
+    "id": "Recipe_for_Disaster/Freeing_Sir_Amik_Varze",
+    "questRequirements": [
+      "Family_Crest",
+      "Heroes'_Quest",
+      "Recipe_for_Disaster/Another_Cook's_Quest",
+      "Shilo_Village",
+      "Underground_Pass",
+      "Waterfall_Quest"
+    ],
+    "newSkillLevels": [
+      { "skill": "cooking", "level": 53 },
+      { "skill": "hitpoints", "level": 41 }
+    ]
+  },
+  {
+    "id": "Legends'_Quest",
+    "questRequirements": [
+      "Family_Crest",
+      "Heroes'_Quest",
+      "Shilo_Village",
+      "Underground_Pass",
+      "Waterfall_Quest"
+    ],
+    "skillRequirements": [
+      { "skill": "magic", "level": 56 },
+      { "skill": "mining", "level": 52 },
+      { "skill": "agility", "level": 50 },
+      { "skill": "crafting", "level": 50 },
+      { "skill": "smithing", "level": 50 },
+      { "skill": "strength", "level": 50 },
+      { "skill": "thieving", "level": 50 },
+      { "skill": "woodcutting", "level": 50 },
+      { "skill": "herblore", "level": 45 },
+      { "skill": "prayer", "level": 42 }
+    ]
+  },
+  {
+    "id": "Land_of_the_Goblins",
+    "questRequirements": [
+      "Another_Slice_of_H.A.M.",
+      "Fishing_Contest"
+    ],
+    "skillRequirements": [
+      { "skill": "herblore", "level": 48 },
+      { "skill": "thieving", "level": 45 },
+      { "skill": "fishing", "level": 40 },
+      { "skill": "agility", "level": 38 }
+    ],
+    "newSkillLevels": [
+      { "skill": "fishing", "level": 53 },
+      { "skill": "thieving", "level": 53 },
+      { "skill": "agility", "level": 50 },
+      { "skill": "herblore", "level": 48 }
+    ]
+  },
+  {
+    "id": "Fairytale_II_-_Cure_a_Queen",
+    "questRequirements": ["Fairytale_I_-_Growing_Pains"],
+    "skillRequirements": [
+      { "skill": "herblore", "level": 57 },
+      { "skill": "farming", "level": 49 },
+      { "skill": "thieving", "level": 40 }
+    ],
+    "newSkillLevels": [
+      { "skill": "herblore", "level": 53 },
+      { "skill": "thieving", "level": 53 }
+    ]
+  },
+  {
+    "id": "Tale_of_the_Righteous",
+    "questRequirements": ["Client_of_Kourend"],
+    "skillRequirements": [
+      { "skill": "strength", "level": 16 },
+      { "skill": "mining", "level": 10 }
+    ]
+  },
+  {
+    "id": "The_Forsaken_Tower",
+    "questRequirements": ["Client_of_Kourend"]
+  },
+  {
+    "id": "A_Kingdom_Divided",
+    "questRequirements": [
       "The_Depths_of_Despair",
+      "The_Queen_of_Thieves",
       "The_Ascent_of_Arceuus",
       "The_Forsaken_Tower",
-      "Tale_of_the_Righteous",
-      "A_Kingdom_Divided"
+      "Tale_of_the_Righteous"
     ],
-    "unlocks": [
-      "Kourend_Castle_Teleport",
-      "Kharedst's_memoirs",
-      "Book_of_the_dead",
-      "Arceuus_spellbook",
-      "Yama"
+    "skillRequirements": [
+      { "skill": "agility", "level": 54 },
+      { "skill": "thieving", "level": 52 },
+      { "skill": "woodcutting", "level": 52 },
+      { "skill": "herblore", "level": 50 },
+      { "skill": "mining", "level": 42 },
+      { "skill": "crafting", "level": 38 },
+      { "skill": "magic", "level": 35 }
+    ],
+    "newSkillLevels": [
+      { "skill": "slayer", "level": 47 }
     ]
   },
   {
-    "id": "Mage_Arena",
-    "link": "Mage_Arena",
-    "caption": "Miniquest",
-    "quests": [
-      "Mage_Arena_I",
-      "Mage_Arena_II"
+    "id": "The_Heart_of_Darkness",
+    "questRequirements": ["Twilight's_Promise"],
+    "skillRequirements": [
+      { "skill": "mining", "level": 55 },
+      { "skill": "thieving", "level": 48 },
+      { "skill": "slayer", "level": 48 },
+      { "skill": "agility", "level": 46 }
     ],
-    "unlocks": [
-      "Saradomin_staff",
-      "Zamorak_staff",
-      "Guthix_staff",
-      "Saradomin_cape",
-      "Zamorak_cape",
-      "Guthix_cape",
-      "#newline",
-      "Saradomin_Strike",
-      "Flames_of_Zamorak",
-      "Claws_of_Guthix",
-      "Imbued_saradomin_cape",
-      "Imbued_zamorak_cape",
-      "Imbued_guthix_cape"
+    "newSkillLevels": [
+      { "skill": "mining", "level": 55 },
+      { "skill": "agility", "level": 54 },
+      { "skill": "thieving", "level": 54 },
+      { "skill": "slayer", "level": 48 }
     ]
   },
   {
-    "id": "Mahjarrat#Asgarnia",
-    "link": "Quests/Series#Mahjarrat",
-    "title": "Mahjarrat",
-    "quests": [
-      "Defender_of_Varrock",
-      "Desert_Treasure_I",
-      "The_Curse_of_Arrav",
-      "Devious_Minds",
-      "Desert_Treasure_II",
-      "While_Guthix_Sleeps"
+    "id": "Perilous_Moons",
+    "questRequirements": ["Twilight's_Promise"],
+    "skillRequirements": [
+      { "skill": "slayer", "level": 48 },
+      { "skill": "hunter", "level": 20 },
+      { "skill": "fishing", "level": 20 },
+      { "skill": "runecraft", "level": 20 },
+      { "skill": "construction", "level": 10 }
     ],
-    "unlocks": [
-      "The_Whisperer",
-      "Sirenic_tablet",
-      "Shadow_quartz",
-      "Siren's_staff",
-      "Bellator_ring",
-      "#newline",
-      "Broken_zombie_helmet",
-      "Elite_black_armour",
-      "Dark_Squall_robes"
+    "newSkillLevels": [
+      { "skill": "fishing", "level": 54 },
+      { "skill": "slayer", "level": 52 },
+      { "skill": "runecraft", "level": 37 },
+      { "skill": "hunter", "level": 32 }
     ]
   },
   {
-    "id": "Mahjarrat#Desert",
-    "link": "Quests/Series#Mahjarrat",
-    "title": "Mahjarrat",
-    "quests": [
-      "Enakhra's_Lament",
-      "Desert_Treasure_I",
-      "Desert_Treasure_II"
+    "id": "Recipe_for_Disaster/Freeing_King_Awowogei",
+    "questRequirements": [
+      "Monkey_Madness_I",
+      "Recipe_for_Disaster/Another_Cook's_Quest"
     ],
-    "unlocks": [
-      "Camulet",
-      "Ancient_staff",
-      "Ancient_signet",
-      "Ancient_Magicks",
-      "Ring_of_shadows",
-      "#newline",
-      "The_Leviathan",
-      "Scarred_tablet",
-      "Smoke_quartz",
-      "Leviathan's_lure",
-      "Venator_ring"
+    "skillRequirements": [
+      { "skill": "cooking", "level": 70 },
+      { "skill": "agility", "level": 48 }
+    ],
+    "newSkillLevels": [
+      { "skill": "cooking", "level": 65 },
+      { "skill": "agility", "level": 55 }
     ]
   },
   {
-    "id": "Mahjarrat#Fremennik",
-    "link": "Quests/Series#Mahjarrat",
-    "title": "Mahjarrat",
-    "quests": [
-      "Secrets_of_the_North",
-      "Desert_Treasure_II"
+    "id": "Regicide",
+    "questRequirements": ["Underground_Pass"],
+    "skillRequirements": [
+      { "skill": "agility", "level": 56 },
+      { "skill": "crafting", "level": 10 }
     ],
-    "unlocks": [
-      "Phantom_Muspah",
-      "Ancient_icon",
-      "Ancient_essence",
-      "Saturated_heart",
-      "Forgotten_brew",
-      "#newline",
-      "Duke_Sucellus",
-      "Frozen_tablet",
-      "Ice_quartz",
-      "Eye_of_the_duke",
-      "Magus_ring"
+    "newSkillLevels": [
+      { "skill": "agility", "level": 56 }
     ]
   },
   {
-    "id": "Mahjarrat#Kandarin",
-    "link": "Quests/Series#Mahjarrat",
-    "title": "Mahjarrat",
-    "quests": [
-      "Hazeel_Cult",
-      "Fight_Arena",
-      "Temple_of_Ikov",
-      "Desert_Treasure_I",
-      "Curse_of_the_Empty_Lord",
-      "The_General's_Shadow",
-      "Secrets_of_the_North",
-      "While_Guthix_Sleeps"
+    "id": "Roving_Elves",
+    "questRequirements": [
+      "Regicide",
+      "Waterfall_Quest"
     ],
-    "unlocks": [
-      "Carnillean_armour",
-      "Khazard_armour_set",
-      "Boots_of_lightness",
-      "Armadyl_pendant",
-      "Ring_of_visibility",
-      "Ghostly_robes",
-      "Shadow_sword"
+    "skillRequirements": [
+      { "skill": "agility", "level": 56 }
+    ],
+    "newSkillLevels": [
+      { "skill": "strength", "level": 50 }
     ]
   },
   {
-    "id": "Mahjarrat#Misthalin",
-    "link": "Quests/Series#Mahjarrat",
-    "title": "Mahjarrat",
-    "quests": [
-      "The_Dig_Site",
-      "Defender_of_Varrock",
-      "The_Curse_of_Arrav",
-      "While_Guthix_Sleeps"
+    "id": "Mourning's_End_Part_I",
+    "questRequirements": [
+      "Roving_Elves",
+      "Big_Chompy_Bird_Hunting",
+      "Sheep_Herder"
     ],
-    "unlocks": [
-      "Digsite_pendant",
-      "Broken_zombie_axe",
-      "Tormented_synapse",
-      "Burning_claw"
+    "skillRequirements": [
+      { "skill": "ranged", "level": 60 },
+      { "skill": "thieving", "level": 50 },
+      { "skill": "firemaking", "level": 50, "ironman": true }
+    ],
+    "newSkillLevels": [
+      { "skill": "thieving", "level": 55 },
+      { "skill": "hitpoints", "level": 46 }
     ]
   },
   {
-    "id": "Mahjarrat#Varlamore",
-    "link": "Quests/Series#Mahjarrat",
-    "title": "Mahjarrat",
-    "quests": [
-      "Desert_Treasure_II"
-    ],
-    "unlocks": [
-      "Vardorvis",
-      "Strangled_tablet",
-      "Blood_quartz",
-      "Executioner's_axe_head",
-      "Ultor_ring"
+    "id": "Mourning's_End_Part_II",
+    "questRequirements": ["Mourning's_End_Part_I"],
+    "newSkillLevels": [
+      { "skill": "agility", "level": 57 }
     ]
   },
   {
-    "id": "Miscellania",
-    "quests": [
-      "Throne_of_Miscellania",
-      "Royal_Trouble"
-    ],
-    "unlocks": [
-      "Managing_Miscellania"
-    ]
-  },
-  {
-    "id": "Moon_Clan",
-    "link": "Moon_Clan",
-    "quests": [
-      "Lunar_Diplomacy",
-      "Dream_Mentor"
-    ],
-    "unlocks": [
-      "Seal_of_passage",
-      "Astral_Altar",
-      "Lunar_spellbook",
-      "Lunar_staff",
-      "Lunar_equipment",
-      "Moonclan_robes"
-    ]
-  },
-  {
-    "id": "Myreque",
-    "quests": [
-      "In_Search_of_the_Myreque",
-      "In_Aid_of_the_Myreque",
-      "Darkness_of_Hallowvale",
-      "A_Taste_of_Hope",
-      "Sins_of_the_Father",
-      "The_Blood_Moon_Rises"
-    ],
-    "unlocks": [
-      "Gadderhammer",
-      "Rod_of_ivandis",
-      "Blisterwood_flail",
-      "Drakan's_medallion",
-      "Vyre_noble_top",
-      "Vyre_noble_legs",
-      "Vyre_noble_shoes",
-      "Daeyalt_essence",
-      "Blood_Altar",
-      "Blood_shard",
-      "Theatre_of_Blood"
-    ]
-  },
-  {
-    "id": "Order_of_Wizards",
-    "quests": [
+    "id": "Lunar_Diplomacy",
+    "questRequirements": [
+      "The_Fremennik_Trials",
+      "Lost_City",
       "Rune_Mysteries",
-      "Enter_the_Abyss",
-      "Temple_of_the_Eye"
+      "Shilo_Village"
     ],
-    "unlocks": [
-      "Pure_essence",
-      "Small_pouch",
-      "Medium_pouch",
-      "Large_pouch",
-      "Giant_pouch",
-      "Colossal_pouch",
-      "Abyssal_lantern",
-      "Catalytic_talisman",
-      "Elemental_talisman",
-      "Ring_of_the_elements",
-      "Hat_of_the_eye",
-      "Robe_top_of_the_eye",
-      "Robe_bottoms_of_the_eye",
-      "Boots_of_the_eye"
+    "skillRequirements": [
+      { "skill": "magic", "level": 65 },
+      { "skill": "crafting", "level": 61 },
+      { "skill": "mining", "level": 60 },
+      { "skill": "woodcutting", "level": 55 },
+      { "skill": "firemaking", "level": 49 },
+      { "skill": "defence", "level": 40 },
+      { "skill": "herblore", "level": 5 }
+    ],
+    "newSkillLevels": [
+      { "skill": "magic", "level": 65 },
+      { "skill": "runecraft", "level": 39 }
     ]
   },
   {
-    "id": "Penguin",
-    "quests": [
-      "Cold_War"
+    "id": "What_Lies_Below",
+    "questRequirements": ["Rune_Mysteries"],
+    "skillRequirements": [
+      { "skill": "runecraft", "level": 35 }
     ],
-    "unlocks": [
-      "Clockwork_suit"
+    "newSkillLevels": [
+      { "skill": "defence", "level": 49 },
+      { "skill": "runecraft", "level": 41 }
     ]
   },
   {
-    "id": "Pirate",
-    "quests": [
-      "Rum_Deal",
-      "Cabin_Fever",
-      "The_Great_Brain_Robbery"
+    "id": "King's_Ransom",
+    "questRequirements": [
+      "Black_Knights'_Fortress",
+      "Holy_Grail",
+      "Murder_Mystery",
+      "One_Small_Favour"
     ],
-    "unlocks": [
-      "Holy_wrench",
-      "Book_o'_piracy",
-      "Black_mask",
-      "Barrelchest_anchor",
-      "Prayer_book",
-      "Trouble_Brewing"
+    "skillRequirements": [
+      { "skill": "defence", "level": 65 },
+      { "skill": "magic", "level": 45 },
+      { "skill": "mining", "level": 45, "ironman": true }
+    ],
+    "newSkillLevels": [
+      { "skill": "defence", "level": 65 },
+      { "skill": "magic", "level": 65 }
     ]
   },
   {
-    "id": "Rag_and_Bone_Man",
-    "quests": [
-      "Rag_and_Bone_Man_I",
-      "Rag_and_Bone_Man_II"
-    ],
-    "unlocks": [
-      "Ram_skull_helm",
-      "Bonesack"
+    "id": "Knight_Waves",
+    "questRequirements": ["King's_Ransom"],
+    "newSkillLevels": [
+      { "skill": "defence", "level": 66 },
+      { "skill": "attack", "level": 52 },
+      { "skill": "strength", "level": 52 },
+      { "skill": "hitpoints", "level": 48 }
     ]
   },
   {
-    "id": "Red_Axe",
-    "quests": [
-      "The_Giant_Dwarf",
-      "Forgettable_Tale..."
+    "id": "Swan_Song",
+    "questRequirements": [
+      "One_Small_Favour",
+      "Garden_of_Tranquillity"
     ],
-    "unlocks": [
-      "Dwarven_stout(m)",
-      "Blast_Furnace"
+    "skillRequirements": [
+      { "skill": "magic", "level": 66 },
+      { "skill": "cooking", "level": 62 },
+      { "skill": "fishing", "level": 62 },
+      { "skill": "smithing", "level": 45 },
+      { "skill": "firemaking", "level": 42 },
+      { "skill": "crafting", "level": 40 }
+    ],
+    "newSkillLevels": [
+      { "skill": "magic", "level": 66 },
+      { "skill": "fishing", "level": 57 },
+      { "skill": "prayer", "level": 51 }
     ]
   },
   {
-    "id": "Tai_Bwo_Wannai",
-    "quests": [
-      "Jungle_Potion",
-      "Tai_Bwo_Wannai_Trio"
-    ],
-    "unlocks": [
-      "Raw_karambwan",
-      "Raw_karambwanji",
-      "Karambwan_vessel"
+    "id": "Recipe_for_Disaster",
+    "questRequirements": [
+      "Desert_Treasure_I",
+      "Horror_from_the_Deep",
+      "Recipe_for_Disaster/Freeing_Evil_Dave",
+      "Recipe_for_Disaster/Freeing_the_Goblin_generals",
+      "Recipe_for_Disaster/Freeing_the_Lumbridge_Guide",
+      "Recipe_for_Disaster/Freeing_the_Mountain_Dwarf",
+      "Recipe_for_Disaster/Freeing_Pirate_Pete",
+      "Recipe_for_Disaster/Freeing_Sir_Amik_Varze",
+      "Recipe_for_Disaster/Freeing_Skrach_Uglogwee",
+      "Recipe_for_Disaster/Freeing_King_Awowogei"
     ]
   },
   {
-    "id": "Temple_Knight",
-    "quests": [
-      "Recruitment_Drive",
-      "Wanted!",
-      "Sea_Slug",
-      "The_Slug_Menace"
+    "id": "Grim_Tales",
+    "questRequirements": ["Witch's_House"],
+    "skillRequirements": [
+      { "skill": "woodcutting", "level": 71 },
+      { "skill": "agility", "level": 59 },
+      { "skill": "thieving", "level": 58 },
+      { "skill": "herblore", "level": 52 },
+      { "skill": "farming", "level": 45 }
     ],
-    "unlocks": [
-      "White_equipment",
-      "Proselyte_sallet",
-      "Proselyte_hauberk",
-      "Proselyte_cuisse"
+    "newSkillLevels": [
+      { "skill": "woodcutting", "level": 71 },
+      { "skill": "herblore", "level": 53 },
+      { "skill": "agility", "level": 59 },
+      { "skill": "thieving", "level": 58 },
+      { "skill": "hitpoints", "level": 49 },
+      { "skill": "farming", "level": 46 }
     ]
   },
   {
-    "id": "Troll",
-    "quests": [
-      "Death_Plateau",
-      "Troll_Stronghold",
-      "Eadgar's_Ruse",
-      "My_Arm's_Big_Adventure",
-      "Making_Friends_with_My_Arm"
+    "id": "Dream_Mentor",
+    "questRequirements": [
+      "Lunar_Diplomacy",
+      "Eadgar's_Ruse"
     ],
-    "unlocks": [
-      "Steel_claws",
-      "Climbing_boots",
-      "Law_Altar",
-      "God_Wars_Dungeon",
-      "Trollheim_Teleport",
-      "Scroll_of_redirection",
-      "Goutweed",
-      "Efh_salt",
-      "Urt_salt",
-      "Te_salt",
-      "Basalt"
+    "newSkillLevels": [
+      { "skill": "magic", "level": 66 },
+      { "skill": "hitpoints", "level": 50 }
     ]
   },
   {
-    "id": "Twilight_Emissaries",
-    "quests": [
+    "id": "At_First_Light",
+    "questRequirements": [
       "Children_of_the_Sun",
-      "Twilight's_Promise",
-      "The_Heart_of_Darkness",
-      "The_Final_Dawn"
+      "Eagles'_Peak"
     ],
-    "unlocks": [
-      "Civitas_illa_Fortis_Teleport",
-      "Quetzal_Transport_System",
-      "Emissary_hood",
-      "Emissary_robe_top",
-      "Emissary_robe_bottom",
-      "Emissary_sandals",
-      "Pendant_of_ates",
-      "Amoxliatl",
-      "Doom_of_Mokhaiotl"
+    "skillRequirements": [
+      { "skill": "hunter", "level": 46 },
+      { "skill": "herblore", "level": 30 },
+      { "skill": "construction", "level": 27 }
+    ],
+    "newSkillLevels": [
+      { "skill": "herblore", "level": 53 },
+      { "skill": "hunter", "level": 46 },
+      { "skill": "construction", "level": 39 }
     ]
   },
   {
-    "id": "Twisted_Tales",
-    "link": "Twisted_Tales",
-    "quests": [
-      "Getting_Ahead",
-      "The_Garden_of_Death"
+    "id": "Defender_of_Varrock",
+    "questRequirements": [
+      "Shield_of_Arrav",
+      "Temple_of_Ikov",
+      "Below_Ice_Mountain",
+      "Family_Crest",
+      "Garden_of_Tranquillity",
+      "What_Lies_Below",
+      "Romeo_&_Juliet",
+      "Demon_Slayer"
+    ],
+    "skillRequirements": [
+      { "skill": "smithing", "level": 55 },
+      { "skill": "hunter", "level": 52 }
+    ],
+    "newSkillLevels": [
+      { "skill": "smithing", "level": 55 },
+      { "skill": "hunter", "level": 53 }
+    ]
+  },
+  {
+    "id": "Devious_Minds",
+    "questRequirements": [
+      "Wanted!",
+      "Troll_Stronghold",
+      "Doric's_Quest",
+      "Enter_the_Abyss"
+    ],
+    "skillRequirements": [
+      { "skill": "smithing", "level": 65 },
+      { "skill": "runecraft", "level": 50 },
+      { "skill": "fletching", "level": 50 }
+    ],
+    "newSkillLevels": [
+      { "skill": "smithing", "level": 65 },
+      { "skill": "runecraft", "level": 50 },
+      { "skill": "fletching", "level": 50 }
+    ]
+  },
+  {
+    "id": "The_Final_Dawn",
+    "questRequirements": [
+      "The_Heart_of_Darkness",
+      "Perilous_Moons"
+    ],
+    "skillRequirements": [
+      { "skill": "thieving", "level": 66 },
+      { "skill": "runecraft", "level": 52 },
+      { "skill": "fletching", "level": 52 }
+    ],
+    "newSkillLevels": [
+      { "skill": "thieving", "level": 67 },
+      { "skill": "runecraft", "level": 53 },
+      { "skill": "fletching", "level": 53 }
+    ]
+  },
+  {
+    "id": "Shadows_of_Custodia",
+    "questRequirements": ["Children_of_the_Sun"],
+    "skillRequirements": [
+      { "skill": "slayer", "level": 54 },
+      { "skill": "fishing", "level": 45 },
+      { "skill": "construction", "level": 41 },
+      { "skill": "hunter", "level": 36 }
+    ],
+    "newSkillLevels": [
+      { "skill": "fishing", "level": 57 },
+      { "skill": "slayer", "level": 54 },
+      { "skill": "hunter", "level": 53 },
+      { "skill": "construction", "level": 41 }
+    ]
+  },
+  {
+    "id": "The_Path_of_Glouphrie",
+    "questRequirements": [
+      "The_Eyes_of_Glouphrie",
+      "Waterfall_Quest",
+      "Tree_Gnome_Village"
+    ],
+    "skillRequirements": [
+      { "skill": "strength", "level": 60 },
+      { "skill": "slayer", "level": 56 },
+      { "skill": "thieving", "level": 56 },
+      { "skill": "ranged", "level": 47 },
+      { "skill": "agility", "level": 45 },
+      { "skill": "firemaking", "level": 35, "ironman": true }
+    ],
+    "newSkillLevels": [
+      { "skill": "thieving", "level": 67 },
+      { "skill": "magic", "level": 66 },
+      { "skill": "slayer", "level": 57 },
+      { "skill": "strength", "level": 54 }
+    ]
+  },
+  {
+    "id": "The_Fremennik_Exiles",
+    "questRequirements": [
+      "The_Fremennik_Isles",
+      "Lunar_Diplomacy",
+      "Mountain_Daughter",
+      "Heroes'_Quest"
+    ],
+    "skillRequirements": [
+      { "skill": "crafting", "level": 65 },
+      { "skill": "slayer", "level": 60 },
+      { "skill": "smithing", "level": 60 },
+      { "skill": "fishing", "level": 60 },
+      { "skill": "runecraft", "level": 55 }
+    ],
+    "newSkillLevels": [
+      { "skill": "crafting", "level": 66 },
+      { "skill": "slayer", "level": 61 },
+      { "skill": "runecraft", "level": 56 }
+    ]
+  },
+  {
+    "id": "Sins_of_the_Father",
+    "questRequirements": [
+      "Vampyre_Slayer",
+      "A_Taste_of_Hope"
+    ],
+    "skillRequirements": [
+      { "skill": "woodcutting", "level": 62 },
+      { "skill": "fletching", "level": 60 },
+      { "skill": "crafting", "level": 56 },
+      { "skill": "agility", "level": 52 },
+      { "skill": "attack", "level": 50 },
+      { "skill": "slayer", "level": 50 },
+      { "skill": "magic", "level": 49 }
+    ]
+  },
+  {
+    "id": "Beneath_Cursed_Sands",
+    "questRequirements": ["Contact!"],
+    "skillRequirements": [
+      { "skill": "agility", "level": 62 },
+      { "skill": "crafting", "level": 55 },
+      { "skill": "firemaking", "level": 55 }
+    ],
+    "newSkillLevels": [
+      { "skill": "agility", "level": 62 }
+    ]
+  },
+  {
+    "id": "The_Curse_of_Arrav",
+    "questRequirements": [
+      "Defender_of_Varrock",
+      "Troll_Romance"
+    ],
+    "skillRequirements": [
+      { "skill": "mining", "level": 64 },
+      { "skill": "ranged", "level": 62 },
+      { "skill": "thieving", "level": 62 },
+      { "skill": "agility", "level": 61 },
+      { "skill": "strength", "level": 58 },
+      { "skill": "slayer", "level": 37 }
+    ],
+    "newSkillLevels": [
+      { "skill": "thieving", "level": 67 },
+      { "skill": "mining", "level": 64 },
+      { "skill": "agility", "level": 63 }
+    ]
+  },
+  {
+    "id": "Making_Friends_with_My_Arm",
+    "questRequirements": [
+      "My_Arm's_Big_Adventure",
+      "Swan_Song",
+      "Cold_War",
+      "Romeo_&_Juliet"
+    ],
+    "skillRequirements": [
+      { "skill": "mining", "level": 72 },
+      { "skill": "agility", "level": 68 },
+      { "skill": "firemaking", "level": 66 },
+      { "skill": "construction", "level": 35 }
+    ],
+    "newSkillLevels": [
+      { "skill": "mining", "level": 70 },
+      { "skill": "agility", "level": 68 },
+      { "skill": "firemaking", "level": 66 },
+      { "skill": "construction", "level": 42 }
+    ]
+  },
+  {
+    "id": "Monkey_Madness_II",
+    "questRequirements": [
+      "Enlightened_Journey",
+      "The_Eyes_of_Glouphrie",
+      "Recipe_for_Disaster/Freeing_King_Awowogei",
+      "Troll_Stronghold",
+      "Watchtower"
+    ],
+    "skillRequirements": [
+      { "skill": "crafting", "level": 70 },
+      { "skill": "slayer", "level": 69 },
+      { "skill": "hunter", "level": 60 },
+      { "skill": "firemaking", "level": 60 },
+      { "skill": "agility", "level": 55 },
+      { "skill": "thieving", "level": 55 }
+    ],
+    "newSkillLevels": [
+      { "skill": "slayer", "level": 69 },
+      { "skill": "agility", "level": 68 },
+      { "skill": "thieving", "level": 68 },
+      { "skill": "hunter", "level": 60 }
+    ]
+  },
+  {
+    "id": "A_Night_at_the_Theatre",
+    "questRequirements": ["A_Taste_of_Hope"],
+    "newSkillLevels": [
+      { "skill": "magic", "level": 67 }
+    ]
+  },
+  {
+    "id": "Dragon_Slayer_II",
+    "questRequirements": [
+      "Legends'_Quest",
+      "Dream_Mentor",
+      "A_Tail_of_Two_Cats",
+      "Animal_Magnetism",
+      "Ghosts_Ahoy",
+      "Bone_Voyage",
+      "Client_of_Kourend"
+    ],
+    "skillRequirements": [
+      { "skill": "magic", "level": 75 },
+      { "skill": "smithing", "level": 70 },
+      { "skill": "mining", "level": 68 },
+      { "skill": "crafting", "level": 62 },
+      { "skill": "agility", "level": 60 },
+      { "skill": "thieving", "level": 60 },
+      { "skill": "construction", "level": 50 },
+      { "skill": "hitpoints", "level": 50 }
+    ],
+    "newSkillLevels": [
+      { "skill": "smithing", "level": 70 },
+      { "skill": "mining", "level": 70 },
+      { "skill": "agility", "level": 68 },
+      { "skill": "thieving", "level": 68 }
+    ]
+  },
+  {
+    "id": "Secrets_of_the_North",
+    "questRequirements": [
+      "Making_Friends_with_My_Arm",
+      "The_General's_Shadow",
+      "Devious_Minds",
+      "Hazeel_Cult"
+    ],
+    "skillRequirements": [
+      { "skill": "agility", "level": 69 },
+      { "skill": "thieving", "level": 64 },
+      { "skill": "hunter", "level": 56 }
+    ],
+    "newSkillLevels": [
+      { "skill": "agility", "level": 69 },
+      { "skill": "thieving", "level": 69 },
+      { "skill": "hunter", "level": 61 }
+    ]
+  },
+  {
+    "id": "While_Guthix_Sleeps",
+    "questRequirements": [
+      "Defender_of_Varrock",
+      "The_Path_of_Glouphrie",
+      "Fight_Arena",
+      "Dream_Mentor",
+      "The_Hand_in_the_Sand",
+      "Wanted!",
+      "Temple_of_the_Eye",
+      "Tears_of_Guthix",
+      "Nature_Spirit",
+      "A_Tail_of_Two_Cats"
+    ],
+    "skillRequirements": [
+      { "skill": "thieving", "level": 72 },
+      { "skill": "magic", "level": 67 },
+      { "skill": "agility", "level": 66 },
+      { "skill": "farming", "level": 65 },
+      { "skill": "herblore", "level": 65 },
+      { "skill": "attack", "level": 65 },
+      { "skill": "strength", "level": 65 },
+      { "skill": "hunter", "level": 62 }
+    ],
+    "newSkillLevels": [
+      { "skill": "thieving", "level": 72 },
+      { "skill": "herblore", "level": 66 },
+      { "skill": "farming", "level": 66 },
+      { "skill": "hunter", "level": 63 }
+    ]
+  },
+  {
+    "id": "Song_of_the_Elves",
+    "questRequirements": [
+      "Mourning's_End_Part_II",
+      "Making_History",
+      "Druidic_Ritual"
+    ],
+    "skillRequirements": [
+      { "skill": "agility", "level": 70 },
+      { "skill": "construction", "level": 70 },
+      { "skill": "farming", "level": 70 },
+      { "skill": "herblore", "level": 70 },
+      { "skill": "hunter", "level": 70 },
+      { "skill": "mining", "level": 70 },
+      { "skill": "smithing", "level": 70 },
+      { "skill": "woodcutting", "level": 70 }
+    ],
+    "newSkillLevels": [
+      { "skill": "woodcutting", "level": 71 },
+      { "skill": "smithing", "level": 70 },
+      { "skill": "mining", "level": 70 },
+      { "skill": "herblore", "level": 70 },
+      { "skill": "agility", "level": 70 },
+      { "skill": "farming", "level": 70 },
+      { "skill": "hunter", "level": 70 },
+      { "skill": "construction", "level": 70 }
+    ]
+  },
+  {
+    "id": "Desert_Treasure_II_-_The_Fallen_Empire",
+    "questRequirements": [
+      "Desert_Treasure_I",
+      "Secrets_of_the_North",
+      "Enakhra's_Lament",
+      "Temple_of_the_Eye",
+      "The_Garden_of_Death",
+      "Below_Ice_Mountain",
+      "His_Faithful_Servants"
+    ],
+    "skillRequirements": [
+      { "skill": "firemaking", "level": 75 },
+      { "skill": "magic", "level": 75 },
+      { "skill": "thieving", "level": 70 },
+      { "skill": "herblore", "level": 62 },
+      { "skill": "runecraft", "level": 60 },
+      { "skill": "construction", "level": 60 }
     ]
   }
 ]

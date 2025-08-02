@@ -1,0 +1,590 @@
+[
+  {
+    "id": "Camelot",
+    "link": "Camelot_quest_series",
+    "quests": [
+      "Merlin's_Crystal",
+      "Holy_Grail",
+      "King's_Ransom"
+    ],
+    "unlocks": [
+      "Excalibur",
+      "Chivalry",
+      "Piety"
+    ]
+  },
+  {
+    "id": "Demon_Slayer",
+    "quests": [
+      "Demon_Slayer",
+      "Shadow_of_the_Storm"
+    ],
+    "unlocks": [
+      "Silverlight",
+      "Darklight"
+    ]
+  },
+  {
+    "id": "Dorgeshuun",
+    "quests": [
+      "The_Lost_Tribe",
+      "Death_to_the_Dorgeshuun",
+      "Another_Slice_of_H.A.M.",
+      "Land_of_the_Goblins"
+    ],
+    "unlocks": [
+      "H.A.M._robes",
+      "Mining_helmet",
+      "Bone_club",
+      "Bone_spear",
+      "Bone_dagger",
+      "Dorgeshuun_crossbow",
+      "Ancient_mace"
+    ]
+  },
+  {
+    "id": "Dragonkin#Fremennik",
+    "link": "Quests/Series#Dragonkin",
+    "title": "Dragonkin",
+    "quests": [
+      "Dragon_Slayer_II"
+    ],
+    "unlocks": [
+      "Vorkath",
+      "Ava's_assembler",
+      "Superior_dragon_bones",
+      "Super_antifire_potion"
+    ]
+  },
+  {
+    "id": "Dragonkin#Kandarin",
+    "link": "Quests/Series#Dragonkin",
+    "title": "Dragonkin",
+    "quests": [
+      "Dragon_Slayer_II"
+    ],
+    "unlocks": [
+      "Wrath_Altar",
+      "Locator_orb",
+      "Mythical_cape"
+    ]
+  },
+  {
+    "id": "Dragonkin#Misthalin",
+    "link": "Quests/Series#Dragonkin",
+    "title": "Dragonkin",
+    "quests": [
+      "Dragon_Slayer_I",
+      "Dragon_Slayer_II"
+    ],
+    "unlocks": [
+      "Anti-dragon_shield",
+      "Dragonfire_shield",
+      "Green_d'hide_body",
+      "Rune_platebody",
+      "Dragon_platebody",
+      "Dragon_kiteshield",
+      "Ferocious_gloves"
+    ]
+  },
+  {
+    "id": "Elemental_Workshop",
+    "link": "Elemental_Workshop_quest_series",
+    "quests": [
+      "Elemental_Workshop_I",
+      "Elemental_Workshop_II"
+    ],
+    "unlocks": [
+      "Elemental_helmet",
+      "Elemental_shield",
+      "Mind_helmet",
+      "Mind_shield"
+    ]
+  },
+  {
+    "id": "Elf",
+    "quests": [
+      "Plague_City",
+      "Biohazard",
+      "Underground_Pass",
+      "Regicide",
+      "Roving_Elves",
+      "Mourning's_End_Part_I",
+      "Mourning's_End_Part_II",
+      "Song_of_the_Elves"
+    ],
+    "unlocks": [
+      "Klank's_gauntlets",
+      "Iban's_staff",
+      "Dragon_halberd",
+      "Crystal_halberd",
+      "Crystal_bow",
+      "Crystal_shield",
+      "Teleport_crystal",
+      "Death_Altar",
+      "Dark_bow",
+      "Zalcano",
+      "The_Gauntlet"
+    ]
+  },
+  {
+    "id": "Fairytale",
+    "link": "Fairy_Tale_quest_series",
+    "quests": [
+      "Lost_City",
+      "Fairytale_I_-_Growing_Pains",
+      "Fairytale_II_-_Cure_a_Queen"
+    ],
+    "unlocks": [
+      "Dramen_staff",
+      "Dragon_dagger",
+      "Dragon_longsword",
+      "Cosmic_Altar",
+      "Magic_secateurs",
+      "Fairy_rings"
+    ]
+  },
+  {
+    "id": "Fremennik",
+    "link": "Fremennik_series",
+    "quests": [
+      "The_Fremennik_Trials",
+      "The_Fremennik_Isles",
+      "The_Fremennik_Exiles"
+    ],
+    "unlocks": [
+      "Enchanted_lyre(i)",
+      "Fremennik_blade",
+      "Fremennik_helm",
+      "Warrior_helm",
+      "Berserker_helm",
+      "Archer_helm",
+      "Farseer_helm",
+      "Rock-shell_armour",
+      "Spined_armour",
+      "Skeletal_armour",
+      "Helm_of_neitiznot",
+      "Neitiznot_faceguard",
+      "Neitiznot_shield",
+      "V's_shield"
+    ]
+  },
+  {
+    "id": "Gnome",
+    "link": "Gnome_quest_series",
+    "quests": [
+      "Tree_Gnome_Village",
+      "The_Grand_Tree",
+      "The_Eyes_of_Glouphrie",
+      "The_Path_of_Glouphrie",
+      "Monkey_Madness_I",
+      "Monkey_Madness_II"
+    ],
+    "unlocks": [
+      "Gnome_glider",
+      "Crystal_saw",
+      "Warped_sceptre",
+      "Greegree",
+      "M'speak_amulet",
+      "Dragon_scimitar",
+      "Royal_seed_pod",
+      "Dragon_javelin_heads",
+      "Light_ballista",
+      "Heavy_ballista",
+      "Zenyte_shard"
+    ]
+  },
+  {
+    "id": "Kharidian",
+    "quests": [
+      "Prince_Ali_Rescue",
+      "Icthlarin's_Little_Helper",
+      "Contact!",
+      "Beneath_Cursed_Sands",
+      "Into_the_Tombs"
+    ],
+    "unlocks": [
+      "Sorceress's_Garden",
+      "Catspeak_amulet",
+      "Pharaoh's_sceptre",
+      "Keris",
+      "Keris_partisan",
+      "Circlet_of_water",
+      "#newline",
+      "Tombs_of_Amascut",
+      "Thread_of_elidinis",
+      "Eye_of_the_corruptor",
+      "Jewel_of_the_sun",
+      "Breach_of_the_scarab"
+    ]
+  },
+  {
+    "id": "Kourend",
+    "link": "Great_Kourend_quest_series",
+    "quests": [
+      "X_Marks_the_Spot",
+      "Client_of_Kourend",
+      "The_Queen_of_Thieves",
+      "The_Depths_of_Despair",
+      "The_Ascent_of_Arceuus",
+      "The_Forsaken_Tower",
+      "Tale_of_the_Righteous",
+      "A_Kingdom_Divided"
+    ],
+    "unlocks": [
+      "Kourend_Castle_Teleport",
+      "Kharedst's_memoirs",
+      "Book_of_the_dead",
+      "Arceuus_spellbook",
+      "Yama"
+    ]
+  },
+  {
+    "id": "Mage_Arena",
+    "link": "Mage_Arena",
+    "caption": "Miniquest",
+    "quests": [
+      "Mage_Arena_I",
+      "Mage_Arena_II"
+    ],
+    "unlocks": [
+      "Saradomin_staff",
+      "Zamorak_staff",
+      "Guthix_staff",
+      "Saradomin_cape",
+      "Zamorak_cape",
+      "Guthix_cape",
+      "#newline",
+      "Saradomin_Strike",
+      "Flames_of_Zamorak",
+      "Claws_of_Guthix",
+      "Imbued_saradomin_cape",
+      "Imbued_zamorak_cape",
+      "Imbued_guthix_cape"
+    ]
+  },
+  {
+    "id": "Mahjarrat#Asgarnia",
+    "link": "Quests/Series#Mahjarrat",
+    "title": "Mahjarrat",
+    "quests": [
+      "Defender_of_Varrock",
+      "Desert_Treasure_I",
+      "The_Curse_of_Arrav",
+      "Devious_Minds",
+      "Desert_Treasure_II",
+      "While_Guthix_Sleeps"
+    ],
+    "unlocks": [
+      "The_Whisperer",
+      "Sirenic_tablet",
+      "Shadow_quartz",
+      "Siren's_staff",
+      "Bellator_ring",
+      "#newline",
+      "Broken_zombie_helmet",
+      "Elite_black_armour",
+      "Dark_Squall_robes"
+    ]
+  },
+  {
+    "id": "Mahjarrat#Desert",
+    "link": "Quests/Series#Mahjarrat",
+    "title": "Mahjarrat",
+    "quests": [
+      "Enakhra's_Lament",
+      "Desert_Treasure_I",
+      "Desert_Treasure_II"
+    ],
+    "unlocks": [
+      "Camulet",
+      "Ancient_staff",
+      "Ancient_signet",
+      "Ancient_Magicks",
+      "Ring_of_shadows",
+      "#newline",
+      "The_Leviathan",
+      "Scarred_tablet",
+      "Smoke_quartz",
+      "Leviathan's_lure",
+      "Venator_ring"
+    ]
+  },
+  {
+    "id": "Mahjarrat#Fremennik",
+    "link": "Quests/Series#Mahjarrat",
+    "title": "Mahjarrat",
+    "quests": [
+      "Secrets_of_the_North",
+      "Desert_Treasure_II"
+    ],
+    "unlocks": [
+      "Phantom_Muspah",
+      "Ancient_icon",
+      "Ancient_essence",
+      "Saturated_heart",
+      "Forgotten_brew",
+      "#newline",
+      "Duke_Sucellus",
+      "Frozen_tablet",
+      "Ice_quartz",
+      "Eye_of_the_duke",
+      "Magus_ring"
+    ]
+  },
+  {
+    "id": "Mahjarrat#Kandarin",
+    "link": "Quests/Series#Mahjarrat",
+    "title": "Mahjarrat",
+    "quests": [
+      "Hazeel_Cult",
+      "Fight_Arena",
+      "Temple_of_Ikov",
+      "Desert_Treasure_I",
+      "Curse_of_the_Empty_Lord",
+      "The_General's_Shadow",
+      "Secrets_of_the_North",
+      "While_Guthix_Sleeps"
+    ],
+    "unlocks": [
+      "Carnillean_armour",
+      "Khazard_armour_set",
+      "Boots_of_lightness",
+      "Armadyl_pendant",
+      "Ring_of_visibility",
+      "Ghostly_robes",
+      "Shadow_sword"
+    ]
+  },
+  {
+    "id": "Mahjarrat#Misthalin",
+    "link": "Quests/Series#Mahjarrat",
+    "title": "Mahjarrat",
+    "quests": [
+      "The_Dig_Site",
+      "Defender_of_Varrock",
+      "The_Curse_of_Arrav",
+      "While_Guthix_Sleeps"
+    ],
+    "unlocks": [
+      "Digsite_pendant",
+      "Broken_zombie_axe",
+      "Tormented_synapse",
+      "Burning_claw"
+    ]
+  },
+  {
+    "id": "Mahjarrat#Varlamore",
+    "link": "Quests/Series#Mahjarrat",
+    "title": "Mahjarrat",
+    "quests": [
+      "Desert_Treasure_II"
+    ],
+    "unlocks": [
+      "Vardorvis",
+      "Strangled_tablet",
+      "Blood_quartz",
+      "Executioner's_axe_head",
+      "Ultor_ring"
+    ]
+  },
+  {
+    "id": "Miscellania",
+    "quests": [
+      "Throne_of_Miscellania",
+      "Royal_Trouble"
+    ],
+    "unlocks": [
+      "Managing_Miscellania"
+    ]
+  },
+  {
+    "id": "Moon_Clan",
+    "link": "Moon_Clan",
+    "quests": [
+      "Lunar_Diplomacy",
+      "Dream_Mentor"
+    ],
+    "unlocks": [
+      "Seal_of_passage",
+      "Astral_Altar",
+      "Lunar_spellbook",
+      "Lunar_staff",
+      "Lunar_equipment",
+      "Moonclan_robes"
+    ]
+  },
+  {
+    "id": "Myreque",
+    "quests": [
+      "In_Search_of_the_Myreque",
+      "In_Aid_of_the_Myreque",
+      "Darkness_of_Hallowvale",
+      "A_Taste_of_Hope",
+      "Sins_of_the_Father",
+      "The_Blood_Moon_Rises"
+    ],
+    "unlocks": [
+      "Gadderhammer",
+      "Rod_of_ivandis",
+      "Blisterwood_flail",
+      "Drakan's_medallion",
+      "Vyre_noble_top",
+      "Vyre_noble_legs",
+      "Vyre_noble_shoes",
+      "Daeyalt_essence",
+      "Blood_Altar",
+      "Blood_shard",
+      "Theatre_of_Blood"
+    ]
+  },
+  {
+    "id": "Order_of_Wizards",
+    "quests": [
+      "Rune_Mysteries",
+      "Enter_the_Abyss",
+      "Temple_of_the_Eye"
+    ],
+    "unlocks": [
+      "Pure_essence",
+      "Small_pouch",
+      "Medium_pouch",
+      "Large_pouch",
+      "Giant_pouch",
+      "Colossal_pouch",
+      "Abyssal_lantern",
+      "Catalytic_talisman",
+      "Elemental_talisman",
+      "Ring_of_the_elements",
+      "Hat_of_the_eye",
+      "Robe_top_of_the_eye",
+      "Robe_bottoms_of_the_eye",
+      "Boots_of_the_eye"
+    ]
+  },
+  {
+    "id": "Penguin",
+    "quests": [
+      "Cold_War"
+    ],
+    "unlocks": [
+      "Clockwork_suit"
+    ]
+  },
+  {
+    "id": "Pirate",
+    "quests": [
+      "Rum_Deal",
+      "Cabin_Fever",
+      "The_Great_Brain_Robbery"
+    ],
+    "unlocks": [
+      "Holy_wrench",
+      "Book_o'_piracy",
+      "Black_mask",
+      "Barrelchest_anchor",
+      "Prayer_book",
+      "Trouble_Brewing"
+    ]
+  },
+  {
+    "id": "Rag_and_Bone_Man",
+    "quests": [
+      "Rag_and_Bone_Man_I",
+      "Rag_and_Bone_Man_II"
+    ],
+    "unlocks": [
+      "Ram_skull_helm",
+      "Bonesack"
+    ]
+  },
+  {
+    "id": "Red_Axe",
+    "quests": [
+      "The_Giant_Dwarf",
+      "Forgettable_Tale..."
+    ],
+    "unlocks": [
+      "Dwarven_stout(m)",
+      "Blast_Furnace"
+    ]
+  },
+  {
+    "id": "Tai_Bwo_Wannai",
+    "quests": [
+      "Jungle_Potion",
+      "Tai_Bwo_Wannai_Trio"
+    ],
+    "unlocks": [
+      "Raw_karambwan",
+      "Raw_karambwanji",
+      "Karambwan_vessel"
+    ]
+  },
+  {
+    "id": "Temple_Knight",
+    "quests": [
+      "Recruitment_Drive",
+      "Wanted!",
+      "Sea_Slug",
+      "The_Slug_Menace"
+    ],
+    "unlocks": [
+      "White_equipment",
+      "Proselyte_sallet",
+      "Proselyte_hauberk",
+      "Proselyte_cuisse"
+    ]
+  },
+  {
+    "id": "Troll",
+    "quests": [
+      "Death_Plateau",
+      "Troll_Stronghold",
+      "Eadgar's_Ruse",
+      "My_Arm's_Big_Adventure",
+      "Making_Friends_with_My_Arm"
+    ],
+    "unlocks": [
+      "Steel_claws",
+      "Climbing_boots",
+      "Law_Altar",
+      "God_Wars_Dungeon",
+      "Trollheim_Teleport",
+      "Scroll_of_redirection",
+      "Goutweed",
+      "Efh_salt",
+      "Urt_salt",
+      "Te_salt",
+      "Basalt"
+    ]
+  },
+  {
+    "id": "Twilight_Emissaries",
+    "quests": [
+      "Children_of_the_Sun",
+      "Twilight's_Promise",
+      "The_Heart_of_Darkness",
+      "The_Final_Dawn"
+    ],
+    "unlocks": [
+      "Civitas_illa_Fortis_Teleport",
+      "Quetzal_Transport_System",
+      "Emissary_hood",
+      "Emissary_robe_top",
+      "Emissary_robe_bottom",
+      "Emissary_sandals",
+      "Pendant_of_ates",
+      "Amoxliatl",
+      "Doom_of_Mokhaiotl"
+    ]
+  },
+  {
+    "id": "Twisted_Tales",
+    "link": "Twisted_Tales",
+    "quests": [
+      "Getting_Ahead",
+      "The_Garden_of_Death"
+    ]
+  }
+]

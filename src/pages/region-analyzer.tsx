@@ -2,7 +2,7 @@ import { Toggle } from '@zigurous/forge-react';
 import { type HeadFC, type PageProps } from 'gatsby';
 import React from 'react';
 import { FooterBar, HeaderBar, RegionPanel, RootLayout, WorldMap } from '../components'; // prettier-ignore
-import { ActivitiesContextProvider, EquipmentContextProvider, ItemsContextProvider, LocationsContextProvider, RegionsContextProvider, SettingsContextProvider, SkillingFilterContextProvider, useRegionsContext } from '../context'; // prettier-ignore
+import { ActivitiesContextProvider, EquipmentContextProvider, ItemsContextProvider, LocationsContextProvider, QuestsContextProvider, RegionsContextProvider, SettingsContextProvider, SkillingFilterContextProvider, useRegionsContext } from '../context'; // prettier-ignore
 
 export default function RegionAnalyzer({ location }: PageProps) {
   return (
@@ -35,11 +35,13 @@ function ContextProviders({ children, location }: ContextProvidersProps) {
         <ItemsContextProvider>
           <EquipmentContextProvider>
             <LocationsContextProvider>
-              <ActivitiesContextProvider>
-                <SkillingFilterContextProvider>
-                  {children}
-                </SkillingFilterContextProvider>
-              </ActivitiesContextProvider>
+              <QuestsContextProvider>
+                <ActivitiesContextProvider>
+                  <SkillingFilterContextProvider>
+                    {children}
+                  </SkillingFilterContextProvider>
+                </ActivitiesContextProvider>
+              </QuestsContextProvider>
             </LocationsContextProvider>
           </EquipmentContextProvider>
         </ItemsContextProvider>
