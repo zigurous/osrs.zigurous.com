@@ -133,7 +133,15 @@ export const createSchemaCustomization = ({
       title: String
       questRequirements: [String!]
       skillRequirements: [SkillLevel!]
-      newSkillLevels: [SkillLevel!]
+      rewards: [QuestReward!]
+    }
+    type QuestReward {
+      skill: String!
+      experience: Int!
+    }
+    type QuestOrderJson implements Node @dontInfer {
+      mode: String!
+      quests: [String!]!
     }
     type QuestSeriesJson implements Node @dontInfer {
       jsonId: String!

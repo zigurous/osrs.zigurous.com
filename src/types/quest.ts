@@ -1,4 +1,4 @@
-import type { SkillLevel, SkillRequirement } from './skill';
+import type { Skill, SkillRequirement } from './skill';
 
 export type QuestId = string;
 export interface Quest {
@@ -6,7 +6,7 @@ export interface Quest {
   title?: string;
   questRequirements?: QuestRequirement[];
   skillRequirements?: SkillRequirement[];
-  newSkillLevels?: SkillLevel[];
+  rewards?: QuestReward[];
 }
 
 export type QuestSeriesId = string;
@@ -20,3 +20,14 @@ export interface QuestSeries {
 }
 
 export type QuestRequirement = string;
+
+export interface QuestReward {
+  skill: Skill;
+  experience: number;
+  lamp?: boolean;
+}
+
+export interface QuestOrder {
+  mode: string;
+  quests: QuestId[];
+}

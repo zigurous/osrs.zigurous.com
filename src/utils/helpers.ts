@@ -28,14 +28,19 @@ export function sortByName(
   return (a.title || a.name || a.id).localeCompare(b.title || b.name || b.id);
 }
 
+export function sortByIndex(a: number, b: number): number {
+  if (a === -1) a = Number.MAX_SAFE_INTEGER;
+  if (b === -1) b = Number.MAX_SAFE_INTEGER;
+  return a - b;
+}
+
 export function sortByIcon(a: Activity, b: Activity): number {
   const aIcon = getIconForActivity(a);
   const bIcon = getIconForActivity(b);
-  let aIndex = aIcon ? iconOrder.indexOf(aIcon) : -1;
-  let bIndex = bIcon ? iconOrder.indexOf(bIcon) : -1;
-  if (aIndex === -1) aIndex = Number.MAX_SAFE_INTEGER;
-  if (bIndex === -1) bIndex = Number.MAX_SAFE_INTEGER;
-  return aIndex - bIndex;
+  return sortByIndex(
+    aIcon ? iconOrder.indexOf(aIcon) : -1,
+    bIcon ? iconOrder.indexOf(bIcon) : -1,
+  );
 }
 
 export function sortByLevel(a: Activity, b: Activity): number {
@@ -60,11 +65,10 @@ export function sortByLevel(a: Activity, b: Activity): number {
 export function sortBySkill(a: Activity, b: Activity): number {
   const aSkill = getAssociatedSkill(a);
   const bSkill = getAssociatedSkill(b);
-  let aIndex = aSkill ? skills.indexOf(aSkill) : -1;
-  let bIndex = bSkill ? skills.indexOf(bSkill) : -1;
-  if (aIndex === -1) aIndex = Number.MAX_SAFE_INTEGER;
-  if (bIndex === -1) bIndex = Number.MAX_SAFE_INTEGER;
-  return aIndex - bIndex;
+  return sortByIndex(
+    aSkill ? skills.indexOf(aSkill) : -1,
+    bSkill ? skills.indexOf(bSkill) : -1,
+  );
 }
 
 export function getAssociatedSkill(activity: Activity): Skill | undefined {
@@ -288,5 +292,34 @@ export function getDefaultSkillLevels(): SkillLevels {
     woodcutting: 1,
     farming: 1,
     sailing: 1,
+  };
+}
+
+export function getMaxedSkillLevels(): SkillLevels {
+  return {
+    attack: 99,
+    strength: 99,
+    defence: 99,
+    ranged: 99,
+    prayer: 99,
+    magic: 99,
+    runecraft: 99,
+    construction: 99,
+    hitpoints: 99,
+    agility: 99,
+    herblore: 99,
+    thieving: 99,
+    crafting: 99,
+    fletching: 99,
+    slayer: 99,
+    hunter: 99,
+    mining: 99,
+    smithing: 99,
+    fishing: 99,
+    cooking: 99,
+    firemaking: 99,
+    woodcutting: 99,
+    farming: 99,
+    sailing: 99,
   };
 }

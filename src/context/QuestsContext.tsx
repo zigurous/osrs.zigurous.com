@@ -1,23 +1,26 @@
 import { graphql, useStaticQuery } from 'gatsby';
 import React, { createContext, useCallback, useContext } from 'react';
-import type { Quest, QuestId, QuestSeries, QuestSeriesId, SkillLevels } from '../types'; // prettier-ignore
+import { convertExperienceToLevels, convertLevelsToExperience, getDefaultSkillLevels, getExperienceForLevel } from '../utils'; // prettier-ignore
+import type { Quest, QuestId, QuestOrder, QuestSeries, QuestSeriesId, SkillLevels } from '../types'; // prettier-ignore
 
 interface QuestsContextData {
+  order: QuestOrder;
   quests: Quest[];
   series: QuestSeries[];
   getQuestById: (id: QuestId) => Quest | undefined;
   getQuestSeriesById: (id: QuestSeriesId) => QuestSeries | undefined;
   setSkillRequirements: (questId: QuestId, levels: SkillLevels) => void;
-  updateSkillTotals: (milestone: QuestId, levels: SkillLevels) => void;
+  calculateSkillTotals: (milestone: QuestId) => SkillLevels;
 }
 
 const defaultData: QuestsContextData = {
+  order: { mode: 'none', quests: [] },
   quests: [],
   series: [],
   getQuestById: () => undefined,
   getQuestSeriesById: () => undefined,
   setSkillRequirements: () => {},
-  updateSkillTotals: () => {},
+  calculateSkillTotals: () => getDefaultSkillLevels(),
 };
 
 const QuestsContext = createContext<QuestsContextData>(defaultData);
@@ -47,42 +50,45 @@ export function QuestsContextProvider({ children }: React.PropsWithChildren) {
         setSkillRequirements(req, levels);
       });
       quest?.skillRequirements?.forEach(req => {
-        levels[req.skill] = Math.max(levels[req.skill] || 0, req.level);
+        levels[req.skill] = Math.max(levels[req.skill], req.level);
       });
     },
     [getQuestById],
   );
 
-  const updateSkillTotals = useCallback(
-    (milestone: QuestId, levels: SkillLevels) => {
-      const endIndex = data.quests.nodes.findIndex(
-        quest => quest.id === milestone,
-      );
+  const calculateSkillTotals = useCallback(
+    (milestone: QuestId): SkillLevels => {
+      const experience = convertLevelsToExperience(getDefaultSkillLevels());
+      const endIndex = data.order.quests.findIndex(id => milestone === id);
       for (let i = 0; i <= endIndex; i++) {
-        const quest = data.quests.nodes[i];
-        setSkillRequirements(quest.id, levels);
-        if (quest.newSkillLevels) {
-          quest.newSkillLevels.forEach(change => {
-            levels[change.skill] = Math.max(
-              levels[change.skill] || 0,
-              change.level,
+        const quest = getQuestById(data.order.quests[i]);
+        if (quest) {
+          quest.skillRequirements?.forEach(req => {
+            experience[req.skill] = Math.max(
+              experience[req.skill],
+              getExperienceForLevel(req.level),
             );
+          });
+          quest.rewards?.forEach(reward => {
+            experience[reward.skill] += reward.experience;
           });
         }
       }
+      return convertExperienceToLevels(experience);
     },
-    [data, setSkillRequirements],
+    [data.order.quests, getQuestById],
   );
 
   return (
     <QuestsContext.Provider
       value={{
+        order: data.order,
         quests: data.quests.nodes,
         series: data.series.nodes,
         getQuestById,
         getQuestSeriesById,
         setSkillRequirements,
-        updateSkillTotals,
+        calculateSkillTotals,
       }}
     >
       {children}
@@ -91,12 +97,17 @@ export function QuestsContextProvider({ children }: React.PropsWithChildren) {
 }
 
 interface QuestsQueryData {
+  order: QuestOrder;
   quests: { nodes: Quest[] };
   series: { nodes: QuestSeries[] };
 }
 
 const dataQuery = graphql`
   query QuestsQuery {
+    order: questOrderJson(mode: { eq: "ironman" }) {
+      mode
+      quests
+    }
     quests: allQuestsJson {
       nodes {
         id: jsonId
@@ -106,9 +117,9 @@ const dataQuery = graphql`
           skill
           level
         }
-        newSkillLevels {
+        rewards {
           skill
-          level
+          experience
         }
       }
     }
