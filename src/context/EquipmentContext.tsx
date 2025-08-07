@@ -60,6 +60,10 @@ const dataQuery = graphql`
           id
           icon
         }
+        skillRequirements {
+          skill
+          level
+        }
       }
     }
   }

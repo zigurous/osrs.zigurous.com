@@ -1,6 +1,7 @@
 .titled-card {
   position: relative;
   border-radius: var(--radius-md);
+  overflow: hidden;
 }
 
 .titled-card__header {
@@ -77,10 +78,6 @@
   padding-top: 0;
   padding-bottom: 0;
   overflow: hidden;
-}
-
-.titled-card + .titled-card {
-  margin-top: var(--spacing-xl);
 }
 
 @media (hover: hover) {

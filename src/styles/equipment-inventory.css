@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: repeat(3, 48px);
   grid-gap: var(--spacing-xs);
+  flex-shrink: 0;
   justify-content: center;
 }
 

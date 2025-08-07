@@ -139,6 +139,10 @@
   background-color: var(--color-surface-3);
 }
 
+.region-panel .titled-card + .titled-card {
+  margin-top: var(--spacing-xl);
+}
+
 @media (max-width: 498px) {
   .region-panel {
     min-width: 100vw;

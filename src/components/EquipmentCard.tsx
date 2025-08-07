@@ -12,7 +12,7 @@ interface EquipmentCardProps {
   children?: React.ReactNode;
   className?: string;
   equipment?: EquipmentSlots;
-  style?: React.CSSProperties;
+  title?: string;
 }
 
 export default function EquipmentCard({
@@ -20,12 +20,15 @@ export default function EquipmentCard({
   children,
   className,
   equipment,
-  style,
+  title,
 }: EquipmentCardProps) {
   const settings = useSettingsContext();
   const { [category.subcategoryKey]: subcategoryId } = settings;
   return (
     <TitledCard
+      className={classNames('equipment-card', className)}
+      title={title || category.title}
+      titleIcon={category.icon}
       captionIcon={
         category.subcategories && (
           <Stack
@@ -52,10 +55,6 @@ export default function EquipmentCard({
           </Stack>
         )
       }
-      className={classNames('overflow-hidden', className)}
-      style={style}
-      title={category.title}
-      titleIcon={category.icon}
     >
       <EquipmentInventory slots={equipment} />
       {children}

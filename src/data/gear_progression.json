@@ -1,14 +1,180 @@
 [
   {
     "category": "melee",
-    "equipment": []
+    "tiers": [
+      {
+        "title": "Tutorial Island",
+        "summary": [
+          "Welcome to Gielinor!",
+          "Claim your ironman armour from <Link=\"Ironman_tutor\">Adam</Link> after leaving Tutorial Island.",
+          "Talk to the <Link=\"Melee_combat_tutor\">Melee combat tutor</Link> next to the Lumbridge General Store to receive a free training sword and shield."
+        ],
+        "items": ["Training_sword", "Training_shield", "Ironman_helm", "Ironman_platebody", "Ironman_platelegs"]
+      },
+      {
+        "title": "Ardougne Cloak",
+        "summary": [
+          "Make your way through the <Link=\"Stronghold_of_Security\">Stronghold of Security</Link> to claim your Fancy Boots.",
+          "Pick up the leather gloves in Edgeville.",
+          "Follow the <Link=\"Optimal_quest_guide/Ironman\">optimal ironman quest guide</Link> until you complete the quest Biohazard. At this point you can finish the easy <Link=\"Ardougne_Diary\">Ardougne diary</Link> tasks to receive the Ardougne Cloak 1 which provides infinite teleports next to a prayer altar.",
+          "Complete the quest <Link=\"Imp_Catcher\">Imp Catcher</Link> to receive an Amulet of Accuracy.",
+          "Finish the easy <Link=\"Lumbridge_&_Draynor_Diary\">Lumbridge & Draynor diary</Link> for an Explorer's Ring 1."
+        ],
+        "items": ["Ardougne_cloak_1", "Amulet_of_accuracy", "Explorer's_ring_1", "Fancy_boots", "Leather_gloves"],
+        "questMilestone": "Biohazard"
+      },
+      {
+        "title": "Fairy Rings",
+        "summary": [
+          "Continue questing until you finish <Link=\"Fairytale_I_-_Growing_Pains\">Fairytale I - Growing Pains</Link>, then start next the next quest <Link=\"Fairytale_II_-_Cure_a_Queen\">Fairytale II - Cure a Queen</Link> to unlock the fairy ring transportation system.",
+          "As your defence level rises, you can buy mithril and adamant armour from shops around Gielinor."
+        ],
+        "items": ["Dramen_staff", "Adamant_full_helm", "Adamant_platebody", "Adamant_platelegs", "Adamant_kiteshield"],
+        "questMilestone": "Fairytale_I_-_Growing_Pains"
+      },
+      {
+        "title": "Dragon Slayer",
+        "summary": [],
+        "items": ["Rune_scimitar", "Rune_full_helm", "Rune_chainbody", "Rune_platelegs", "Anti-dragon_shield", "Amulet_of_power", "Bronze_gloves", "Climbing_boots"],
+        "questMilestone": "Dragon_Slayer_I"
+      },
+      {
+        "title": "Fremennik Isles",
+        "summary": [],
+        "items": ["Helm_of_neitiznot", "Rune_platebody", "Amulet_of_strength#Ironman", "Rune_sq_shield", "Black_gloves"],
+        "questMilestone": "The_Fremennik_Isles"
+      },
+      {
+        "title": "Monkey Madness",
+        "summary": [],
+        "items": ["Dragon_scimitar", "Dragon_defender", "Mithril_gloves"],
+        "questMilestone": "Monkey_Madness_I"
+      },
+      {
+        "title": "Barbarian Assault",
+        "summary": [],
+        "items": ["Fighter_torso"],
+        "questMilestone": "Monkey_Madness_I",
+        "optional": true
+      },
+      {
+        "title": "Legend's Quest",
+        "summary": [],
+        "items": ["Cape_of_legends", "Rune_gloves"],
+        "questMilestone": "Legends'_Quest"
+      },
+      {
+        "title": "Recipe for Disaster",
+        "summary": [],
+        "items": ["Barrows_gloves"],
+        "questMilestone": "Recipe_for_Disaster"
+      },
+      {
+        "title": "Fight Caves",
+        "summary": [],
+        "items": ["Fire_cape", "Steel_ring"]
+      },
+      {
+        "title": "Barrows",
+        "summary": [],
+        "items": ["Verac's_helm", "Dharok's_platebody", "Dharok's_platelegs"]
+      },
+      {
+        "title": "Dagannoth Kings",
+        "summary": [],
+        "items": ["Berserker_ring_(i)"]
+      },
+      {
+        "title": "Zombie Axe",
+        "summary": [],
+        "items": ["Zombie_axe", "Rada's_blessing_2"],
+        "questMilestone": "Defender_of_Varrock"
+      },
+      {
+        "title": "Moons of Peril",
+        "summary": [],
+        "items": ["Blood_moon_helm", "Blood_moon_chestplate", "Blood_moon_tassets"],
+        "questMilestone": "Perilous_Moons"
+      },
+      {
+        "title": "Slayer Upgrades",
+        "summary": [],
+        "items": ["Abyssal_tentacle", "Neitiznot_faceguard", "Dragon_boots", "Amulet_of_fury"],
+        "questMilestone": "The_Fremennik_Exiles"
+      },
+      {
+        "title": "Tombs of Amascut",
+        "summary": [],
+        "items": ["Osmumten's_fang"],
+        "questMilestone": "Into_the_Tombs"
+      },
+      {
+        "title": "Monkey Madness II",
+        "summary": [],
+        "items": ["Amulet_of_torture"],
+        "questMilestone": "Monkey_Madness_II"
+      },
+      {
+        "title": "Cerberus",
+        "summary": [],
+        "items": ["Primordial_boots"]
+      },
+      {
+        "title": "Araxxor",
+        "summary": [],
+        "items": ["Noxious_halberd", "Amulet_of_rancour"]
+      },
+      {
+        "title": "Hydra",
+        "summary": [],
+        "items": ["Ferocious_gloves"]
+      },
+      {
+        "title": "Desert Treasure II",
+        "summary": [],
+        "items": ["Soulreaper_axe", "Ultor_ring"],
+        "questMilestone": "Desert_Treasure_II_-_The_Fallen_Empire"
+      },
+      {
+        "title": "Inferno",
+        "summary": [],
+        "items": ["Infernal_cape"]
+      },
+      {
+        "title": "Yama",
+        "summary": [],
+        "items": ["Oathplate_helm", "Oathplate_chest", "Oathplate_legs"],
+        "questMilestone": "A_Kingdom_Divided"
+      },
+      {
+        "title": "Doom of Mokhaiotl",
+        "summary": [],
+        "items": ["Avernic_treads_(max)"],
+        "questMilestone": "The_Final_Dawn"
+      },
+      {
+        "title": "Theater of Blood",
+        "summary": [],
+        "items": ["Scythe_of_vitur", "Avernic_defender"]
+      },
+      {
+        "title": "Maxed",
+        "summary": [],
+        "items": ["Infernal_max_cape"]
+      },
+      {
+        "title": "Cosmetics",
+        "summary": [],
+        "items": ["Sanguine_scythe_of_vitur", "Radiant_oathplate_helm", "Radiant_oathplate_chest", "Radiant_oathplate_legs", "Amulet_of_rancour_(s)"]
+      }
+    ]
   },
   {
     "category": "ranged",
-    "equipment": []
+    "tiers": []
   },
   {
     "category": "magic",
-    "equipment": []
+    "tiers": []
   }
 ]

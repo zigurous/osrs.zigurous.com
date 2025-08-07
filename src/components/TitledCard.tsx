@@ -45,7 +45,6 @@ export default function TitledCard({
         { [`titled-card--${type}`]: type, 'shadow-xs': shadow },
         className,
       )}
-      key={title}
       style={style}
     >
       <Element

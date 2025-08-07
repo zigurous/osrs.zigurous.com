@@ -1,0 +1,41 @@
+.gear-progression-card {
+  margin: var(--spacing-2xl);
+}
+
+.gear-progression-card > .titled-card__body {
+  display: flex;
+  align-items: stretch;
+  padding: 0;
+}
+
+.gear-progression-card > .titled-card__body > *:not(.divider) {
+  padding: var(--spacing-xl) var(--spacing-xl);
+}
+
+.gear-progression-card > .titled-card__body > .divider {
+  width: 1px;
+  background-color: var(--color-border);
+}
+
+.gear-progression-card__equipment {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 0 0 424px;
+  width: 424px;
+}
+
+.gear-progression-card__summary {
+  flex: 1 0 440px;
+  max-width: 440px;
+}
+
+.gear-progression-card__summary > ul > li:not(:last-child) {
+  margin-bottom: var(--spacing-sm);
+}
+
+@media (hover: hover) {
+  .gear-progression-card__summary > ul > li > a:hover {
+    text-decoration: underline;
+  }
+}

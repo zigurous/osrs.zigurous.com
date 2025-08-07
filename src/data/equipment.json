@@ -1,554 +1,830 @@
 [
   {
     "id": "Abyssal_bludgeon",
+    "slot": "weapon",
     "tags": ["2h"],
     "regions": ["misthalin"]
   },
   {
     "id": "Abyssal_dagger",
+    "slot": "weapon",
     "tags": ["1h"],
     "regions": ["misthalin"]
   },
   {
     "id": "Abyssal_tentacle",
+    "slot": "weapon",
     "tags": ["1h"],
-    "regions": ["kandarin/kourend", "kandarin/misthalin", "kandarin/morytania", "kandarin/wilderness"]
+    "regions": ["kandarin/kourend", "kandarin/misthalin", "kandarin/morytania", "kandarin/wilderness"],
+    "skillRequirements": [
+      { "skill": "attack", "level": 75 },
+      { "skill": "slayer", "level": 87 }
+    ]
   },
   {
     "id": "Abyssal_tentacle#*",
+    "slot": "weapon",
     "tags": ["1h", "*"],
     "regions": ["kandarin"]
   },
   {
     "id": "Abyssal_tentacle#Leagues",
+    "slot": "weapon",
     "tags": ["1h", "leagues"],
     "regions": ["kandarin"]
   },
   {
     "id": "Abyssal_whip",
+    "slot": "weapon",
     "tags": ["1h"],
-    "regions": ["kourend", "misthalin", "morytania", "wilderness"]
+    "regions": ["kourend", "misthalin", "morytania", "wilderness"],
+    "skillRequirements": [
+      { "skill": "attack", "level": 70 },
+      { "skill": "slayer", "level": 85 }
+    ]
   },
   {
     "id": "Accursed_sceptre",
+    "slot": "weapon",
     "tags": ["1h"],
     "regions": ["wilderness"]
   },
   {
     "id": "Accumulator_max_cape",
+    "slot": "cape",
     "regions": ["misthalin/asgarnia"]
   },
   {
+    "id": "Adamant_full_helm",
+    "slot": "head",
+    "skillRequirements": [
+      { "skill": "defence", "level": 30 }
+    ]
+  },
+  {
+    "id": "Adamant_gloves",
+    "slot": "hands"
+  },
+  {
+    "id": "Adamant_kiteshield",
+    "slot": "shield",
+    "skillRequirements": [
+      { "skill": "defence", "level": 30 }
+    ]
+  },
+  {
+    "id": "Adamant_platebody",
+    "slot": "body",
+    "skillRequirements": [
+      { "skill": "defence", "level": 30 }
+    ]
+  },
+  {
+    "id": "Adamant_platelegs",
+    "slot": "legs",
+    "skillRequirements": [
+      { "skill": "defence", "level": 30 }
+    ]
+  },
+  {
+    "id": "Adamant_scimitar",
+    "slot": "weapon",
+    "tags": ["1h"],
+    "skillRequirements": [
+      { "skill": "attack", "level": 30 }
+    ]
+  },
+  {
     "id": "Agility_cape(t)",
+    "slot": "cape",
     "regions": ["karamja"]
   },
   {
     "id": "Ahrim's_hood",
+    "slot": "head",
     "regions": ["morytania"]
   },
   {
     "id": "Ahrim's_robeskirt",
+    "slot": "legs",
     "regions": ["morytania"]
   },
   {
     "id": "Ahrim's_robetop",
+    "slot": "body",
     "regions": ["morytania"]
   },
   {
     "id": "Ahrim's_staff",
+    "slot": "weapon",
     "tags": ["1h"],
     "regions": ["morytania"]
   },
   {
+    "id": "Amulet_of_accuracy",
+    "slot": "neck",
+    "regions": ["misthalin"]
+  },
+  {
     "id": "Amulet_of_avarice",
+    "slot": "neck",
     "regions": ["wilderness"]
   },
   {
     "id": "Amulet_of_blood_fury",
+    "slot": "neck",
     "regions": ["morytania/karamja", "morytania/kourend", "morytania/tirannwn", "morytania/varlamore"]
   },
   {
     "id": "Amulet_of_blood_fury#*",
+    "slot": "neck",
     "tags": ["*"],
     "regions": ["morytania"]
   },
   {
     "id": "Amulet_of_fury",
-    "regions": ["karamja", "kourend", "tirannwn", "varlamore"]
+    "slot": "neck",
+    "regions": ["karamja", "kourend", "tirannwn", "varlamore"],
+    "skillRequirements": [
+      { "skill": "magic", "level": 87 },
+      { "skill": "crafting", "level": 90 }
+    ]
   },
   {
     "id": "Amulet_of_glory",
+    "slot": "neck",
+    "regions": ["all"]
+  },
+  {
+    "id": "Amulet_of_power",
+    "slot": "neck",
     "regions": ["all"]
   },
   {
     "id": "Amulet_of_rancour",
-    "regions": ["morytania/kandarin"]
+    "slot": "neck",
+    "regions": ["morytania/kandarin"],
+    "skillRequirements": [
+      { "skill": "hitpoints", "level": 90 },
+      { "skill": "crafting", "level": 86 }
+    ]
+  },
+  {
+    "id": "Amulet_of_rancour_(s)",
+    "slot": "neck",
+    "regions": ["morytania/kandarin"],
+    "skillRequirements": [
+      { "skill": "hitpoints", "level": 90 },
+      { "skill": "crafting", "level": 86 }
+    ]
   },
   {
     "id": "Amulet_of_rancour#*",
+    "slot": "neck",
     "tags": ["*"],
     "regions": ["morytania"]
   },
   {
     "id": "Amulet_of_rancour#Leagues",
+    "slot": "neck",
     "tags": ["leagues"],
     "regions": ["morytania"]
   },
   {
     "id": "Amulet_of_strength",
+    "slot": "neck",
     "regions": ["all"]
   },
   {
+    "id": "Amulet_of_strength#Ironman",
+    "icon": "Amulet_of_strength",
+    "name": "Amulet of Strength",
+    "slot": "neck",
+    "regions": ["misthalin"],
+    "skillRequirements": [
+      { "skill": "magic", "level": 49 }
+    ]
+  },
+  {
     "id": "Amulet_of_the_damned",
+    "slot": "neck",
     "regions": ["morytania"]
   },
   {
     "id": "Amulet_of_the_monarchs",
+    "slot": "neck",
     "tags": ["leagues"],
     "regions": ["fremennik"]
   },
   {
     "id": "Amulet_of_torture",
-    "regions": ["kandarin"]
+    "slot": "neck",
+    "regions": ["kandarin"],
+    "skillRequirements": [
+      { "skill": "hitpoints", "level": 75 },
+      { "skill": "magic", "level": 93 },
+      { "skill": "crafting", "level": 98 }
+    ]
   },
   {
     "id": "Ancestral_hat",
+    "slot": "head",
     "regions": ["kourend"]
   },
   {
     "id": "Ancestral_robe_bottom",
+    "slot": "legs",
     "regions": ["kourend"]
   },
   {
     "id": "Ancestral_robe_top",
+    "slot": "body",
     "regions": ["kourend"]
   },
   {
     "id": "Ancient_blessing",
+    "slot": "ammo",
     "tags": ["clues"],
     "regions": ["all"]
   },
   {
     "id": "Ancient_mace",
+    "slot": "weapon",
     "tags": ["1h"],
     "regions": ["misthalin"]
   },
   {
     "id": "Ancient_sceptre",
+    "slot": "weapon",
     "tags": ["1h"],
     "regions": ["fremennik/desert"]
   },
   {
     "id": "Ancient_sceptre#*",
+    "slot": "weapon",
     "tags": ["1h", "*"],
     "regions": ["fremennik"]
   },
   {
     "id": "Ancient_sceptre#Leagues",
+    "slot": "weapon",
     "tags": ["1h", "leagues"],
     "regions": ["fremennik"]
   },
   {
     "id": "Ancient_staff",
+    "slot": "weapon",
     "tags": ["1h"],
     "regions": ["desert", "kandarin", "wilderness"]
   },
   {
     "id": "Ancient_wyvern_shield",
+    "slot": "shield",
     "regions": ["misthalin/kandarin"]
   },
   {
     "id": "Ancient_wyvern_shield#*",
+    "slot": "shield",
     "tags": ["*"],
     "regions": ["misthalin"]
   },
   {
+    "id": "Anti-dragon_shield",
+    "slot": "shield",
+    "regions": ["misthalin"]
+  },
+  {
     "id": "Aranea_boots",
+    "slot": "feet",
     "regions": ["morytania"]
   },
   {
     "id": "Arcane_spirit_shield",
+    "slot": "shield",
     "regions": ["wilderness"]
   },
   {
     "id": "Archer_helm",
+    "slot": "head",
     "regions": ["fremennik"]
   },
   {
     "id": "Archers_ring",
+    "slot": "ring",
     "regions": ["fremennik"]
   },
   {
+    "id": "Ardougne_cloak_1",
+    "slot": "cape",
+    "regions": ["kandarin"],
+    "skillRequirements": [
+      { "skill": "thieving", "level": 5 }
+    ]
+  },
+  {
     "id": "Ardougne_cloak_4",
+    "slot": "cape",
     "regions": ["kandarin"]
   },
   {
     "id": "Ardougne_cloak_4#Stab",
+    "slot": "cape",
     "regions": ["kandarin"]
   },
   {
     "id": "Ardougne_max_cape",
+    "slot": "cape",
     "regions": ["kandarin/asgarnia"]
   },
   {
     "id": "Ardougne_max_cape#Stab",
+    "slot": "cape",
     "regions": ["kandarin/asgarnia"]
   },
   {
     "id": "Armadyl_chainskirt",
+    "slot": "legs",
     "regions": ["asgarnia"]
   },
   {
     "id": "Armadyl_chestplate",
+    "slot": "body",
     "regions": ["asgarnia"]
   },
   {
     "id": "Armadyl_helmet",
+    "slot": "head",
     "regions": ["asgarnia"]
   },
   {
     "id": "Assembler_max_cape",
+    "slot": "cape",
     "regions": ["fremennik/misthalin/asgarnia"]
   },
   {
     "id": "Assembler_max_cape#*",
+    "slot": "cape",
     "tags": ["*"],
     "regions": ["fremennik/asgarnia"]
   },
   {
     "id": "Ava's_accumulator",
+    "slot": "cape",
     "regions": ["misthalin"]
   },
   {
     "id": "Ava's_assembler",
+    "slot": "cape",
     "regions": ["fremennik/misthalin"]
   },
   {
     "id": "Ava's_assembler#*",
+    "slot": "cape",
     "tags": ["*"],
     "regions": ["fremennik"]
   },
   {
     "id": "Avernic_defender",
+    "slot": "shield",
     "regions": ["morytania/asgarnia"]
   },
   {
     "id": "Avernic_defender#*",
+    "slot": "shield",
     "tags": ["*"],
     "regions": ["morytania"]
   },
   {
     "id": "Avernic_defender#Leagues",
+    "slot": "shield",
     "tags": ["leagues"],
     "regions": ["morytania"]
   },
   {
     "id": "Avernic_treads",
+    "slot": "feet",
     "regions": ["varlamore"]
   },
   {
     "id": "Avernic_treads_(max)",
+    "slot": "feet",
     "regions": ["varlamore/asgarnia/desert"]
   },
   {
     "id": "Avernic_treads_(max)#*",
+    "slot": "feet",
     "tags": ["*"],
     "regions": ["varlamore"]
   },
   {
     "id": "Bandos_chestplate",
+    "slot": "body",
     "regions": ["asgarnia"]
   },
   {
     "id": "Bandos_godsword",
+    "slot": "weapon",
     "tags": ["2h"],
     "regions": ["asgarnia"]
   },
   {
     "id": "Bandos_tassets",
+    "slot": "legs",
     "regions": ["asgarnia"]
   },
   {
     "id": "Barronite_mace",
+    "slot": "weapon",
     "tags": ["1h"],
     "regions": ["asgarnia"]
   },
   {
+    "id": "Barrows_gloves",
+    "slot": "hands"
+  },
+  {
     "id": "Beacon_ring",
+    "slot": "ring",
     "regions": ["misthalin"]
   },
   {
     "id": "Bellator_ring",
+    "slot": "ring",
     "regions": ["asgarnia/fremennik"]
   },
   {
     "id": "Bellator_ring#*",
+    "slot": "ring",
     "tags": ["*"],
     "regions": ["asgarnia"]
   },
   {
     "id": "Bellator_ring#Leagues",
+    "slot": "ring",
     "tags": ["leagues"],
     "regions": ["asgarnia"]
   },
   {
+    "id": "Berserker_helm",
+    "slot": "head",
+    "regions": ["fremennik"],
+    "skillRequirements": [
+      { "skill": "defence", "level": 45 }
+    ]
+  },
+  {
     "id": "Berserker_necklace",
+    "slot": "neck",
     "regions": ["karamja"]
   },
   {
     "id": "Berserker_necklace#Toktz-xil-ak",
+    "slot": "neck",
     "regions": ["karamja"],
     "requiredWeapon": "Toktz-xil-ak"
   },
   {
     "id": "Berserker_necklace#Tzhaar-ket-em",
+    "slot": "neck",
     "regions": ["karamja"],
     "requiredWeapon": "Tzhaar-ket-em"
   },
   {
     "id": "Berserker_ring",
+    "slot": "ring",
     "regions": ["fremennik"]
   },
   {
+    "id": "Berserker_ring_(i)",
+    "slot": "ring",
+    "regions": ["fremennik/desert", "fremennik/kandarin", "fremennik/misthalin"]
+  },
+  {
     "id": "Black_cape",
+    "slot": "cape",
     "regions": ["asgarnia", "kandarin", "kourend", "misthalin", "morytania"]
   },
   {
     "id": "Black_d'hide_body",
+    "slot": "body",
     "regions": ["asgarnia", "desert", "fremennik", "kandarin", "kourend", "misthalin"]
   },
   {
     "id": "Black_d'hide_chaps",
+    "slot": "legs",
     "regions": ["asgarnia", "desert", "fremennik", "kandarin", "kourend", "misthalin"]
   },
   {
     "id": "Black_d'hide_shield",
+    "slot": "shield",
     "regions": ["kourend"]
   },
   {
     "id": "Black_d'hide_vambraces",
+    "slot": "hands",
     "regions": ["asgarnia", "desert", "fremennik", "kandarin", "kourend", "misthalin", "wilderness"]
   },
   {
+    "id": "Black_gloves",
+    "slot": "hands"
+  },
+  {
     "id": "Blade_of_saeldor",
+    "slot": "weapon",
     "tags": ["1h"],
     "regions": ["tirannwn"]
   },
   {
     "id": "Blessed_dizana's_quiver",
+    "slot": "cape",
     "regions": ["varlamore"]
   },
   {
     "id": "Blisterwood_flail",
+    "slot": "weapon",
     "tags": ["1h"],
     "regions": ["morytania"]
   },
   {
     "id": "Blood_moon_chestplate",
-    "regions": ["varlamore"]
+    "slot": "body",
+    "regions": ["varlamore"],
+    "skillRequirements": [
+      { "skill": "strength", "level": 75 },
+      { "skill": "defence", "level": 50 }
+    ]
   },
   {
     "id": "Blood_moon_chestplate#Dual_macuahuitl",
+    "slot": "body",
     "regions": ["varlamore"],
     "requiredWeapon": "Dual_macuahuitl"
   },
   {
     "id": "Blood_moon_helm",
-    "regions": ["varlamore"]
+    "slot": "head",
+    "regions": ["varlamore"],
+    "skillRequirements": [
+      { "skill": "strength", "level": 75 },
+      { "skill": "defence", "level": 50 }
+    ]
   },
   {
     "id": "Blood_moon_helm#Dual_macuahuitl",
+    "slot": "head",
     "regions": ["varlamore"],
     "requiredWeapon": "Dual_macuahuitl"
   },
   {
     "id": "Blood_moon_tassets",
-    "regions": ["varlamore"]
+    "slot": "legs",
+    "regions": ["varlamore"],
+    "skillRequirements": [
+      { "skill": "strength", "level": 75 },
+      { "skill": "defence", "level": 50 }
+    ]
   },
   {
     "id": "Blood_moon_tassets#Dual_macuahuitl",
+    "slot": "legs",
     "regions": ["varlamore"],
     "requiredWeapon": "Dual_macuahuitl"
   },
   {
     "id": "Bloodbark_boots",
+    "slot": "feet",
     "regions": ["morytania"]
   },
   {
     "id": "Bloodbark_gauntlets",
+    "slot": "hands",
     "regions": ["morytania"]
   },
   {
     "id": "Blue_d'hide_shield",
+    "slot": "shield",
     "regions": ["asgarnia", "kandarin", "kourend", "misthalin"]
   },
   {
     "id": "Blue_moon_chestplate",
+    "slot": "body",
     "regions": ["varlamore"]
   },
   {
     "id": "Blue_moon_helm",
+    "slot": "head",
     "regions": ["varlamore"]
   },
   {
     "id": "Blue_moon_spear",
+    "slot": "weapon",
     "tags": ["2h"],
     "regions": ["varlamore"]
   },
   {
     "id": "Blue_moon_tassets",
+    "slot": "legs",
     "regions": ["varlamore"]
   },
   {
     "id": "Blue_wizard_hat",
+    "slot": "head",
     "regions": ["asgarnia", "desert", "kandarin", "karamja", "kourend", "misthalin", "varlamore"]
   },
   {
     "id": "Blue_wizard_robe",
+    "slot": "body",
     "regions": ["asgarnia", "kandarin", "misthalin"]
   },
   {
+    "id": "Blurite_sword",
+    "slot": "weapon",
+    "tags": ["1h"],
+    "regions": ["asgarnia"]
+  },
+  {
     "id": "Bonecrusher_necklace",
+    "slot": "neck",
     "regions": ["kourend/fremennik/morytania"]
   },
   {
     "id": "Bonecrusher_necklace#*",
+    "slot": "neck",
     "tags": ["*"],
     "regions": ["kourend"]
   },
   {
     "id": "Bonecrusher_necklace#Leagues",
+    "slot": "neck",
     "tags": ["leagues"],
     "regions": ["kourend"]
   },
   {
     "id": "Book_of_darkness",
+    "slot": "shield",
     "regions": ["fremennik"]
   },
   {
     "id": "Book_of_law",
+    "slot": "shield",
     "regions": ["fremennik"]
   },
   {
     "id": "Book_of_the_dead",
+    "slot": "shield",
     "regions": ["kourend"]
   },
   {
     "id": "Book_of_war",
+    "slot": "shield",
     "regions": ["fremennik"]
   },
   {
     "id": "Boots_of_brimstone",
+    "slot": "feet",
     "regions": ["kourend"]
   },
   {
     "id": "Boots_of_brimstone#Stab",
+    "slot": "feet",
     "regions": ["kourend"]
   },
   {
     "id": "Bow_of_faerdhinen",
+    "slot": "weapon",
     "tags": ["2h"],
     "regions": ["tirannwn"]
   },
   {
     "id": "Brimstone_ring",
+    "slot": "ring",
     "regions": ["kourend"]
+  },
+  {
+    "id": "Bronze_gloves",
+    "slot": "hands"
   },
   {
     "id": "Broodoo_shield",
     "icon": "Broodoo_shield_(combat)",
+    "slot": "shield",
     "regions": ["karamja"]
   },
   {
     "id": "Burning_claws",
+    "slot": "weapon",
     "tags": ["2h"],
     "regions": ["misthalin"]
   },
   {
+    "id": "Cape_of_legends",
+    "slot": "cape"
+  },
+  {
     "id": "Cape_of_skulls",
+    "slot": "cape",
     "tags": ["clues"],
     "regions": ["all"]
   },
   {
     "id": "Climbing_boots",
+    "slot": "feet",
     "regions": ["asgarnia"]
   },
   {
     "id": "Clue_hunter_trousers",
+    "slot": "legs",
     "regions": ["karamja"]
   },
   {
     "id": "Combat_bracelet",
+    "slot": "hands",
     "regions": ["all"]
   },
   {
     "id": "Confliction_gauntlets",
+    "slot": "hands",
     "regions": ["varlamore/kandarin"]
   },
   {
     "id": "Confliction_gauntlets#*",
+    "slot": "hands",
     "tags": ["*"],
     "regions": ["varlamore"]
   },
   {
     "id": "Construct._cape(t)",
+    "slot": "cape",
     "regions": ["asgarnia", "kandarin", "kourend", "misthalin", "tirannwn", "varlamore"]
   },
   {
     "id": "Crafting_cape(t)",
+    "slot": "cape",
     "regions": ["asgarnia"]
   },
   {
     "id": "Crystal_blessing",
+    "slot": "ammo",
     "tags": ["leagues"],
     "regions": ["tirannwn"]
   },
   {
     "id": "Crystal_body",
+    "slot": "body",
     "regions": ["tirannwn"]
   },
   {
     "id": "Crystal_body#Bow_of_faerdhinen",
+    "slot": "body",
     "regions": ["tirannwn"],
     "requiredWeapon": "Bow_of_faerdhinen"
   },
   {
     "id": "Crystal_halberd",
+    "slot": "weapon",
     "tags": ["2h"],
     "regions": ["tirannwn"]
   },
   {
     "id": "Crystal_helm",
+    "slot": "head",
     "regions": ["tirannwn"]
   },
   {
     "id": "Crystal_helm#Bow_of_faerdhinen",
+    "slot": "head",
     "regions": ["tirannwn"],
     "requiredWeapon": "Bow_of_faerdhinen"
   },
   {
     "id": "Crystal_legs",
+    "slot": "legs",
     "regions": ["tirannwn"]
   },
   {
     "id": "Crystal_legs#Bow_of_faerdhinen",
+    "slot": "legs",
     "regions": ["tirannwn"],
     "requiredWeapon": "Bow_of_faerdhinen"
   },
   {
     "id": "Dagon'hai_hat",
+    "slot": "head",
     "regions": ["wilderness"]
   },
   {
     "id": "Dagon'hai_robe_bottom",
+    "slot": "legs",
     "regions": ["wilderness"]
   },
   {
     "id": "Dagon'hai_robe_top",
+    "slot": "body",
     "regions": ["wilderness"]
   },
   {
     "id": "Dark_bow",
+    "slot": "weapon",
     "tags": ["2h"],
     "regions": ["tirannwn"],
     "ammo": {
@@ -558,60 +834,98 @@
   },
   {
     "id": "Defence_cape(t)",
+    "slot": "cape",
     "regions": ["misthalin"]
   },
   {
     "id": "Devil's_element",
+    "slot": "shield",
     "tags": ["leagues"],
     "regions": ["kandarin"]
   },
   {
     "id": "Devout_boots",
+    "slot": "feet",
     "tags": ["clues"],
     "regions": ["kourend"]
   },
   {
+    "id": "Dharok's_platebody",
+    "slot": "body",
+    "regions": ["morytania"],
+    "skillRequirements": [
+      { "skill": "defence", "level": 70 }
+    ]
+  },
+  {
+    "id": "Dharok's_platelegs",
+    "slot": "legs",
+    "regions": ["morytania"],
+    "skillRequirements": [
+      { "skill": "defence", "level": 70 }
+    ]
+  },
+  {
     "id": "Dizana's_max_cape",
+    "slot": "cape",
     "regions": ["varlamore/asgarnia"]
   },
   {
     "id": "Dragon_boots",
-    "regions": ["asgarnia", "wilderness"]
+    "slot": "feet",
+    "regions": ["asgarnia", "wilderness"],
+    "skillRequirements": [
+      { "skill": "defence", "level": 60 },
+      { "skill": "slayer", "level": 83 }
+    ]
   },
   {
     "id": "Dragon_chainbody",
+    "slot": "body",
     "regions": ["desert", "kandarin", "kourend", "wilderness"]
   },
   {
     "id": "Dragon_claws",
+    "slot": "weapon",
     "tags": ["2h"],
     "regions": ["kourend"]
   },
   {
     "id": "Dragon_crossbow",
+    "slot": "weapon",
     "tags": ["1h"],
     "regions": ["misthalin"]
   },
   {
     "id": "Dragon_dagger",
+    "slot": "weapon",
     "tags": ["1h"],
     "regions": ["all"]
   },
   {
     "id": "Dragon_dart",
+    "slot": "weapon",
     "tags": ["1h"],
     "regions": ["desert", "fremennik", "kourend", "morytania", "varlamore", "wilderness"]
   },
   {
     "id": "Dragon_defender",
-    "regions": ["asgarnia"]
+    "slot": "shield",
+    "regions": ["asgarnia"],
+    "skillRequirements": [
+      { "skill": "attack", "level": 65 },
+      { "skill": "strength", "level": 65 },
+      { "skill": "defence", "level": 60 }
+    ]
   },
   {
     "id": "Dragon_full_helm",
+    "slot": "head",
     "regions": ["kandarin"]
   },
   {
     "id": "Dragon_hunter_crossbow",
+    "slot": "weapon",
     "tags": ["1h"],
     "regions": ["kourend"],
     "ammo": {
@@ -621,76 +935,110 @@
   },
   {
     "id": "Dragon_hunter_lance",
+    "slot": "weapon",
     "tags": ["1h"],
     "regions": ["kourend/asgarnia/kandarin"]
   },
   {
     "id": "Dragon_hunter_lance#*",
+    "slot": "weapon",
     "tags": ["1h", "*"],
     "regions": ["kourend"]
   },
   {
     "id": "Dragon_hunter_lance#Leagues",
+    "slot": "weapon",
     "tags": ["1h", "leagues"],
     "regions": ["kourend"]
   },
   {
     "id": "Dragon_hunter_wand",
+    "slot": "weapon",
     "tags": ["1h"],
     "regions": ["varlamore"]
   },
   {
     "id": "Dragon_knife",
+    "slot": "weapon",
     "tags": ["1h"],
     "regions": ["kourend"]
   },
   {
     "id": "Dragon_mace",
+    "slot": "weapon",
     "tags": ["1h"],
     "regions": ["asgarnia"]
   },
   {
     "id": "Dragon_med_helm",
+    "slot": "head",
     "regions": ["all"]
   },
   {
     "id": "Dragon_platelegs",
+    "slot": "legs",
     "regions": ["asgarnia", "fremennik", "karamja", "kourend", "misthalin", "tirannwn", "wilderness"]
   },
   {
     "id": "Dragon_scimitar",
+    "slot": "weapon",
     "tags": ["1h"],
-    "regions": ["kandarin"]
+    "regions": ["kandarin"],
+    "skillRequirements": [
+      { "skill": "attack", "level": 60 },
+      { "skill": "strength", "level": 60 }
+    ]
+  },
+  {
+    "id": "Dragon_sq_shield",
+    "slot": "shield",
+    "regions": ["kandarin"],
+    "skillRequirements": [
+      { "skill": "defence", "level": 60 }
+    ]
   },
   {
     "id": "Dragon_sword",
+    "slot": "weapon",
     "tags": ["1h"],
     "regions": ["kourend"]
   },
   {
     "id": "Dragon_warhammer",
+    "slot": "weapon",
     "tags": ["1h"],
     "regions": ["kourend"]
   },
   {
     "id": "Dragonbone_necklace",
+    "slot": "neck",
     "regions": ["fremennik"]
   },
   {
     "id": "Dragonfire_shield",
+    "slot": "shield",
     "regions": ["misthalin", "misthalin/asgarnia", "misthalin/fremennik", "misthalin/kandarin", "misthalin/karamja", "misthalin/kourend", "misthalin/tirannwn", "misthalin/varlamore", "misthalin/wilderness"]
   },
   {
     "id": "Dragonfire_ward",
+    "slot": "shield",
     "regions": ["fremennik/misthalin"]
   },
   {
     "id": "Dragonfire_ward#*",
+    "slot": "shield",
     "tags": ["*"],
     "regions": ["fremennik"]
   },
   {
+    "id": "Dramen_staff",
+    "slot": "weapon",
+    "tags": ["1h"],
+    "regions": ["misthalin"]
+  },
+  {
     "id": "Drygore_blowpipe",
+    "slot": "weapon",
     "tags": ["2h", "leagues"],
     "regions": ["desert"],
     "ammo": {
@@ -699,38 +1047,46 @@
   },
   {
     "id": "Dual_macuahuitl",
+    "slot": "weapon",
     "tags": ["2h"],
     "regions": ["varlamore"]
   },
   {
     "id": "Dust_battlestaff",
+    "slot": "weapon",
     "tags": ["1h"],
     "regions": ["all"]
   },
   {
     "id": "Dwarven_helmet",
+    "slot": "head",
     "regions": ["asgarnia"]
   },
   {
     "id": "Dwarven_helmet#Crush",
+    "slot": "head",
     "regions": ["asgarnia"]
   },
   {
     "id": "Echo_boots",
+    "slot": "feet",
     "regions": ["varlamore/morytania/asgarnia"]
   },
   {
     "id": "Echo_boots#*",
+    "slot": "feet",
     "tags": ["*"],
     "regions": ["varlamore"]
   },
   {
     "id": "Echo_boots#Leagues",
+    "slot": "feet",
     "tags": ["leagues"],
     "regions": ["varlamore"]
   },
   {
     "id": "Eclipse_atlatl",
+    "slot": "weapon",
     "tags": ["2h"],
     "regions": ["varlamore"],
     "ammo": {
@@ -740,50 +1096,61 @@
   },
   {
     "id": "Eclipse_moon_chestplate",
+    "slot": "body",
     "regions": ["varlamore"]
   },
   {
     "id": "Eclipse_moon_chestplate#Eclipse_atlatl",
+    "slot": "body",
     "regions": ["varlamore"],
     "requiredWeapon": "Eclipse_atlatl"
   },
   {
     "id": "Eclipse_moon_helm",
+    "slot": "head",
     "regions": ["varlamore"]
   },
   {
     "id": "Eclipse_moon_helm#Eclipse_atlatl",
+    "slot": "head",
     "regions": ["varlamore"],
     "requiredWeapon": "Eclipse_atlatl"
   },
   {
     "id": "Eclipse_moon_tassets",
+    "slot": "legs",
     "regions": ["varlamore"]
   },
   {
     "id": "Eclipse_moon_tassets#Eclipse_atlatl",
+    "slot": "legs",
     "regions": ["varlamore"],
     "requiredWeapon": "Eclipse_atlatl"
   },
   {
     "id": "Elder_maul",
+    "slot": "weapon",
     "tags": ["2h"],
     "regions": ["kourend"]
   },
   {
     "id": "Elidinis'_ward",
+    "slot": "shield",
     "regions": ["desert"]
   },
   {
     "id": "Elidinis'_ward_(f)",
+    "slot": "shield",
     "regions": ["desert/wilderness"]
   },
   {
     "id": "Elysian_spirit_shield",
+    "slot": "shield",
     "regions": ["wilderness"]
   },
   {
     "id": "Emperor_ring",
+    "slot": "ring",
     "tags": ["leagues"],
     "regions": ["fremennik"]
   },
@@ -795,149 +1162,221 @@
   },
   {
     "id": "Enchanted_hat",
+    "slot": "head",
     "tags": ["clues"],
     "regions": ["all"]
   },
   {
     "id": "Enchanted_robe",
+    "slot": "legs",
     "tags": ["clues"],
     "regions": ["all"]
   },
   {
     "id": "Enchanted_top",
+    "slot": "body",
     "tags": ["clues"],
     "regions": ["all"]
   },
   {
     "id": "Eternal_boots",
+    "slot": "feet",
     "regions": ["asgarnia/desert"]
   },
   {
     "id": "Eternal_boots#*",
+    "slot": "feet",
     "tags": ["*"],
     "regions": ["asgarnia"]
   },
   {
     "id": "Eternal_boots#Leagues",
+    "slot": "feet",
     "tags": ["leagues"],
     "regions": ["asgarnia"]
   },
   {
+    "id": "Explorer's_ring_1",
+    "slot": "ring",
+    "regions": ["misthalin"],
+    "skillRequirements": [
+      { "skill": "runecraft", "level": 5 },
+      { "skill": "slayer", "level": 7 },
+      { "skill": "mining", "level": 15 },
+      { "skill": "fishing", "level": 15 },
+      { "skill": "firemaking", "level": 15 },
+      { "skill": "woodcutting", "level": 15 }
+    ]
+  },
+  {
     "id": "Explorer's_ring_4",
+    "slot": "ring",
     "regions": ["misthalin"]
   },
   {
     "id": "Eye_of_ayak",
+    "slot": "weapon",
     "tags": ["1h"],
     "regions": ["varlamore"]
   },
   {
     "id": "Falador_shield_4",
+    "slot": "shield",
     "regions": ["asgarnia"]
   },
   {
+    "id": "Fancy_boots",
+    "slot": "feet",
+    "regions": ["misthalin"]
+  },
+  {
     "id": "Ferocious_gloves",
-    "regions": ["kourend/misthalin"]
+    "slot": "hands",
+    "regions": ["kourend/misthalin"],
+    "skillRequirements": [
+      { "skill": "attack", "level": 80 },
+      { "skill": "defence", "level": 80 },
+      { "skill": "slayer", "level": 95 }
+    ]
   },
   {
     "id": "Ferocious_gloves#*",
+    "slot": "hands",
     "tags": ["*"],
     "regions": ["kourend"]
   },
   {
     "id": "Ferocious_gloves#Leagues",
+    "slot": "hands",
     "tags": ["leagues"],
     "regions": ["kourend"]
   },
   {
     "id": "Fighter_hat",
+    "slot": "head",
     "regions": ["kandarin"]
   },
   {
     "id": "Fighter_torso",
-    "regions": ["kandarin"]
+    "slot": "body",
+    "regions": ["kandarin"],
+    "skillRequirements": [
+      { "skill": "defence", "level": 40 }
+    ]
+  },
+  {
+    "id": "Fire_cape",
+    "slot": "cape",
+    "regions": ["karamja"]
   },
   {
     "id": "Fremennik_sea_boots_4",
+    "slot": "feet",
     "regions": ["fremennik"]
   },
   {
     "id": "Ghrazi_rapier",
+    "slot": "weapon",
     "tags": ["1h"],
     "regions": ["morytania"]
   },
   {
     "id": "Glacial_temotli",
+    "slot": "weapon",
     "tags": ["2h"],
     "regions": ["varlamore"]
   },
   {
     "id": "Gloves_of_the_damned",
+    "slot": "hands",
     "tags": ["leagues"],
     "regions": ["morytania"]
   },
   {
     "id": "Granite_boots",
+    "slot": "feet",
     "regions": ["misthalin"]
   },
   {
     "id": "Granite_gloves",
+    "slot": "hands",
     "regions": ["morytania"]
   },
   {
     "id": "Granite_maul",
+    "slot": "weapon",
     "tags": ["2h"],
     "regions": ["morytania"]
   },
   {
     "id": "Granite_ring",
+    "slot": "ring",
     "regions": ["morytania"]
   },
   {
+    "id": "Granite_shield",
+    "slot": "shield",
+    "regions": ["asgarnia", "fremennik", "kandarin"]
+  },
+  {
     "id": "Guardian_boots",
+    "slot": "feet",
     "regions": ["morytania/asgarnia"]
   },
   {
     "id": "Guardian_boots#*",
+    "slot": "feet",
     "tags": ["*"],
     "regions": ["morytania"]
   },
   {
     "id": "Guardian_boots#Leagues",
+    "slot": "feet",
     "tags": ["leagues"],
     "regions": ["morytania"]
   },
   {
     "id": "Guthix_bracers",
+    "slot": "hands",
     "tags": ["clues"],
     "regions": ["all"]
   },
   {
     "id": "Guthix_chaps",
+    "slot": "legs",
     "tags": ["clues"],
     "regions": ["all"]
   },
   {
     "id": "Guthix_d'hide_body",
+    "slot": "body",
     "tags": ["clues"],
     "regions": ["all"]
   },
   {
     "id": "Guthix_d'hide_shield",
+    "slot": "shield",
     "tags": ["clues"],
     "regions": ["all"]
   },
   {
+    "id": "Hardleather_gloves",
+    "slot": "hands"
+  },
+  {
     "id": "Harmonised_nightmare_staff",
+    "slot": "weapon",
     "tags": ["1h"],
     "regions": ["morytania"]
   },
   {
     "id": "Healer_hat",
+    "slot": "head",
     "regions": ["kandarin"]
   },
   {
     "id": "Heavy_ballista",
+    "slot": "weapon",
     "tags": ["2h"],
     "regions": ["kandarin"],
     "ammo": {
@@ -945,116 +1384,165 @@
     }
   },
   {
+    "id": "Helm_of_neitiznot",
+    "slot": "head",
+    "regions": ["fremennik"],
+    "skillRequirements": [
+      { "skill": "defence", "level": 55 }
+    ]
+  },
+  {
     "id": "Hitpoints_cape(t)",
+    "slot": "cape",
     "regions": ["desert"]
   },
   {
     "id": "Holy_blessing",
+    "slot": "ammo",
     "tags": ["clues"],
     "regions": ["all"]
   },
   {
     "id": "Holy_book",
+    "slot": "shield",
     "regions": ["fremennik"]
   },
   {
     "id": "Holy_sandals",
+    "slot": "feet",
     "tags": ["clues"],
     "regions": ["all"]
   },
   {
     "id": "Holy_symbol",
+    "slot": "neck",
     "regions": ["asgarnia", "fremennik", "morytania"]
   },
   {
     "id": "Holy_wraps",
+    "slot": "hands",
     "tags": ["clues"],
     "regions": ["all"]
   },
   {
     "id": "Honourable_blessing",
+    "slot": "ammo",
     "tags": ["clues"],
     "regions": ["all"]
   },
   {
     "id": "Hueycoatl_hide_vambraces",
+    "slot": "hands",
     "regions": ["varlamore"]
   },
   {
     "id": "Imbued_saradomin_cape",
+    "slot": "cape",
     "regions": ["wilderness"]
   },
   {
     "id": "Imbued_saradomin_max_cape",
+    "slot": "cape",
     "regions": ["wilderness/asgarnia"]
   },
   {
     "id": "Infernal_cape",
+    "slot": "cape",
     "regions": ["karamja"]
   },
   {
     "id": "Infernal_max_cape",
+    "slot": "cape",
     "regions": ["karamja/asgarnia"]
   },
   {
     "id": "Infinity_boots",
+    "slot": "feet",
     "regions": ["desert"]
   },
   {
     "id": "Infinity_bottoms",
+    "slot": "legs",
     "regions": ["desert"]
   },
   {
     "id": "Infinity_gloves",
+    "slot": "hands",
     "regions": ["desert"]
   },
   {
     "id": "Infinity_hat",
+    "slot": "head",
     "regions": ["desert"]
   },
   {
     "id": "Infinity_top",
+    "slot": "body",
     "regions": ["desert"]
   },
   {
     "id": "Inquisitor's_great_helm",
+    "slot": "head",
     "regions": ["morytania"]
   },
   {
     "id": "Inquisitor's_great_helm#Crush",
+    "slot": "head",
     "regions": ["morytania"]
   },
   {
     "id": "Inquisitor's_hauberk",
+    "slot": "body",
     "regions": ["morytania"]
   },
   {
     "id": "Inquisitor's_hauberk#Crush",
+    "slot": "body",
     "regions": ["morytania"]
   },
   {
     "id": "Inquisitor's_mace",
+    "slot": "weapon",
     "tags": ["1h"],
     "regions": ["morytania"]
   },
   {
     "id": "Inquisitor's_plateskirt",
+    "slot": "legs",
     "regions": ["morytania"]
   },
   {
     "id": "Inquisitor's_plateskirt#Crush",
+    "slot": "legs",
     "regions": ["morytania"]
   },
   {
-    "id": "Inquisitor's_plateskirt",
-    "regions": ["morytania"]
+    "id": "Iron_gloves",
+    "slot": "hands"
+  },
+  {
+    "id": "Ironman_helm",
+    "slot": "head",
+    "regions": ["misthalin"]
+  },
+  {
+    "id": "Ironman_platebody",
+    "slot": "body",
+    "regions": ["misthalin"]
+  },
+  {
+    "id": "Ironman_platelegs",
+    "slot": "legs",
+    "regions": ["misthalin"]
   },
   {
     "id": "Karil's_coif",
+    "slot": "head",
     "regions": ["morytania"]
   },
   {
     "id": "Karil's_crossbow",
+    "slot": "weapon",
     "tags": ["2h"],
     "regions": ["morytania"],
     "ammo": {
@@ -1064,65 +1552,84 @@
   },
   {
     "id": "Karil's_leatherskirt",
+    "slot": "legs",
     "regions": ["morytania"]
   },
   {
     "id": "Karil's_leathertop",
+    "slot": "body",
     "regions": ["morytania"]
   },
   {
     "id": "Keris_partisan",
+    "slot": "weapon",
     "tags": ["1h"],
     "regions": ["desert"]
   },
   {
     "id": "Kodai_wand",
+    "slot": "weapon",
     "tags": ["1h"],
     "regions": ["kourend/desert"]
   },
   {
     "id": "Kodai_wand#*",
+    "slot": "weapon",
     "tags": ["1h", "*"],
     "regions": ["kourend"]
   },
   {
     "id": "Kodai_wand#Leagues",
+    "slot": "weapon",
     "tags": ["1h", "leagues"],
     "regions": ["kourend"]
   },
   {
     "id": "Leaf-bladed_battleaxe",
+    "slot": "weapon",
     "tags": ["1h"],
     "regions": ["fremennik", "tirannwn"]
   },
   {
     "id": "Leaf-bladed_sword",
+    "slot": "weapon",
     "tags": ["1h"],
     "regions": ["fremennik", "tirannwn"]
   },
   {
     "id": "Leather_boots",
+    "slot": "feet",
+    "regions": ["all"]
+  },
+  {
+    "id": "Leather_gloves",
+    "slot": "hands",
     "regions": ["all"]
   },
   {
     "id": "Lunar_gloves",
+    "slot": "hands",
     "regions": ["fremennik"]
   },
   {
     "id": "Lunar_staff",
+    "slot": "weapon",
     "tags": ["1h"],
     "regions": ["fremennik"]
   },
   {
     "id": "Mage's_book",
+    "slot": "shield",
     "regions": ["desert"]
   },
   {
     "id": "Magic_cape(t)",
+    "slot": "cape",
     "regions": ["kandarin"]
   },
   {
     "id": "Magic_shortbow",
+    "slot": "weapon",
     "tags": ["2h"],
     "regions": ["asgarnia", "desert", "fremennik", "kandarin", "kourend", "misthalin", "morytania", "tirannwn", "varlamore", "wilderness"],
     "ammo": {
@@ -1132,6 +1639,7 @@
   },
   {
     "id": "Magic_shortbow#Clues",
+    "slot": "weapon",
     "tags": ["2h", "clues"],
     "regions": ["all"],
     "ammo": {
@@ -1141,423 +1649,670 @@
   },
   {
     "id": "Magus_ring",
+    "slot": "ring",
     "regions": ["fremennik"]
   },
   {
     "id": "Magus_ring#*",
+    "slot": "ring",
     "tags": ["*"],
     "regions": ["fremennik"]
   },
   {
     "id": "Magus_ring#Leagues",
+    "slot": "ring",
     "tags": ["leagues"],
     "regions": ["fremennik"]
   },
   {
     "id": "Malediction_ward",
+    "slot": "shield",
     "regions": ["wilderness"]
   },
   {
     "id": "Masori_body",
+    "slot": "body",
     "regions": ["desert"]
   },
   {
     "id": "Masori_body_(f)",
+    "slot": "body",
     "regions": ["desert/asgarnia"]
   },
   {
     "id": "Masori_chaps",
+    "slot": "legs",
     "regions": ["desert"]
   },
   {
     "id": "Masori_chaps_(f)",
+    "slot": "legs",
     "regions": ["desert/asgarnia"]
   },
   {
     "id": "Masori_mask",
+    "slot": "head",
     "regions": ["desert"]
   },
   {
     "id": "Masori_mask_(f)",
+    "slot": "head",
     "regions": ["desert/asgarnia"]
   },
   {
     "id": "Master_wand",
+    "slot": "weapon",
     "tags": ["1h"],
     "regions": ["desert"]
   },
   {
     "id": "Max_cape",
+    "slot": "cape",
     "regions": ["asgarnia"]
   },
   {
     "id": "Mind_shield",
+    "slot": "shield",
     "regions": ["kandarin"]
   },
   {
     "id": "Mirror_shield",
+    "slot": "shield",
     "regions": ["asgarnia", "kandarin", "karamja", "kourend", "misthalin", "morytania"]
   },
   {
+    "id": "Mithril_full_helm",
+    "slot": "head",
+    "skillRequirements": [
+      { "skill": "defence", "level": 20 }
+    ]
+  },
+  {
+    "id": "Mithril_gloves",
+    "slot": "hands"
+  },
+  {
+    "id": "Mithril_kiteshield",
+    "slot": "shield",
+    "skillRequirements": [
+      { "skill": "defence", "level": 20 }
+    ]
+  },
+  {
+    "id": "Mithril_platebody",
+    "slot": "body",
+    "skillRequirements": [
+      { "skill": "defence", "level": 20 }
+    ]
+  },
+  {
+    "id": "Mithril_platelegs",
+    "slot": "legs",
+    "skillRequirements": [
+      { "skill": "defence", "level": 20 }
+    ]
+  },
+  {
+    "id": "Mithril_scimitar",
+    "slot": "weapon",
+    "tags": ["1h"],
+    "skillRequirements": [
+      { "skill": "attack", "level": 20 }
+    ]
+  },
+  {
     "id": "Mixed_hide_boots",
+    "slot": "feet",
     "regions": ["varlamore"]
   },
   {
     "id": "Mixed_hide_cape",
+    "slot": "cape",
     "regions": ["varlamore"]
   },
   {
     "id": "Mixed_hide_legs",
+    "slot": "legs",
     "regions": ["varlamore"]
   },
   {
     "id": "Mixed_hide_legs#Stab",
+    "slot": "legs",
     "regions": ["varlamore"]
   },
   {
     "id": "Mixed_hide_top",
+    "slot": "body",
     "regions": ["varlamore"]
   },
   {
     "id": "Mixed_hide_top#Stab",
+    "slot": "body",
     "regions": ["varlamore"]
   },
   {
     "id": "Monk's_robe",
+    "slot": "legs",
     "regions": ["asgarnia", "morytania"]
   },
   {
     "id": "Monk's_robe_top",
+    "slot": "body",
     "regions": ["asgarnia", "morytania"]
   },
   {
     "id": "Moonclan_cape",
+    "slot": "cape",
     "regions": ["fremennik"]
   },
   {
     "id": "Mystic_boots",
+    "slot": "feet",
     "regions": ["desert", "fremennik", "kandarin", "kourend", "misthalin", "tirannwn", "varlamore"]
   },
   {
     "id": "Mystic_boots_(light)",
+    "slot": "feet",
     "regions": ["fremennik", "varlamore"]
   },
   {
     "id": "Mystic_gloves",
+    "slot": "hands",
     "regions": ["desert", "fremennik", "kandarin", "kourend", "misthalin", "tirannwn", "varlamore"]
   },
   {
     "id": "Mystic_hat",
+    "slot": "head",
     "regions": ["kandarin"]
   },
   {
     "id": "Mystic_hat_(light)",
+    "slot": "head",
     "regions": ["fremennik", "misthalin"]
   },
   {
     "id": "Mystic_robe_bottom",
+    "slot": "legs",
     "regions": ["desert", "fremennik", "kandarin", "kourend", "misthalin", "tirannwn", "varlamore", "wilderness"]
   },
   {
     "id": "Mystic_robe_top",
+    "slot": "body",
     "regions": ["kandarin", "wilderness"]
   },
   {
     "id": "Mystic_robe_top_(light)",
+    "slot": "body",
     "regions": ["fremennik", "kourend", "tirannwn"]
   },
   {
     "id": "Mythical_cape",
+    "slot": "cape",
     "regions": ["kandarin"]
   },
   {
     "id": "Mythical_max_cape",
+    "slot": "cape",
     "regions": ["kandarin/asgarnia"]
   },
   {
     "id": "Mythical_cape#Crush",
+    "slot": "cape",
     "regions": ["kandarin"]
   },
   {
     "id": "Nature's_reprisal",
+    "slot": "weapon",
     "tags": ["1h", "leagues"],
     "regions": ["kourend"]
   },
   {
     "id": "Necklace_of_anguish",
+    "slot": "neck",
     "regions": ["kandarin"]
   },
   {
     "id": "Neitiznot_faceguard",
-    "regions": ["fremennik"]
+    "slot": "head",
+    "regions": ["fremennik"],
+    "skillRequirements": [
+      { "skill": "defence", "level": 70 },
+      { "skill": "slayer", "level": 60 }
+    ]
+  },
+  {
+    "id": "Neitiznot_shield",
+    "slot": "shield",
+    "regions": ["fremennik"],
+    "skillRequirements": [
+      { "skill": "defence", "level": 25 },
+      { "skill": "woodcutting", "level": 56 }
+    ]
   },
   {
     "id": "Nightmare_staff",
+    "slot": "weapon",
     "tags": ["1h"],
     "regions": ["morytania"]
   },
   {
     "id": "Noxious_halberd",
+    "slot": "weapon",
     "tags": ["2h"],
-    "regions": ["morytania"]
+    "regions": ["morytania"],
+    "skillRequirements": [
+      { "skill": "attack", "level": 80 },
+      { "skill": "slayer", "level": 92 }
+    ]
   },
   {
     "id": "Oathplate_chest",
+    "slot": "body",
     "regions": ["kourend"]
   },
   {
     "id": "Oathplate_chest#Slash",
+    "slot": "body",
     "regions": ["kourend"]
   },
   {
     "id": "Oathplate_helm",
+    "slot": "head",
     "regions": ["kourend"]
   },
   {
     "id": "Oathplate_helm#Slash",
+    "slot": "head",
     "regions": ["kourend"]
   },
   {
     "id": "Oathplate_legs",
+    "slot": "legs",
     "regions": ["kourend"]
   },
   {
     "id": "Oathplate_legs#Slash",
+    "slot": "legs",
     "regions": ["kourend"]
   },
   {
     "id": "Obsidian_helmet",
+    "slot": "head",
     "regions": ["karamja"]
   },
   {
     "id": "Obsidian_helmet#Toktz-xil-ak",
+    "slot": "head",
     "regions": ["karamja"],
     "requiredWeapon": "Toktz-xil-ak"
   },
   {
     "id": "Obsidian_helmet#Tzhaar-ket-em",
+    "slot": "head",
     "regions": ["karamja"],
     "requiredWeapon": "Tzhaar-ket-em"
   },
   {
     "id": "Obsidian_platebody",
+    "slot": "body",
     "regions": ["karamja"]
   },
   {
     "id": "Obsidian_platebody#Toktz-xil-ak",
+    "slot": "body",
     "regions": ["karamja"],
     "requiredWeapon": "Toktz-xil-ak"
   },
   {
     "id": "Obsidian_platebody#Tzhaar-ket-em",
+    "slot": "body",
     "regions": ["karamja"],
     "requiredWeapon": "Tzhaar-ket-em"
   },
   {
     "id": "Obsidian_platelegs",
+    "slot": "legs",
     "regions": ["karamja"]
   },
   {
     "id": "Obsidian_platelegs#Toktz-xil-ak",
+    "slot": "legs",
     "regions": ["karamja"],
     "requiredWeapon": "Toktz-xil-ak"
   },
   {
     "id": "Obsidian_platelegs#Tzhaar-ket-em",
+    "slot": "legs",
     "regions": ["karamja"],
     "requiredWeapon": "Tzhaar-ket-em"
   },
   {
     "id": "Occult_necklace",
+    "slot": "neck",
     "regions": ["kandarin"]
   },
   {
     "id": "Odium_ward",
+    "slot": "shield",
     "regions": ["wilderness"]
   },
   {
     "id": "Osmumten's_fang",
+    "slot": "weapon",
     "tags": ["1h"],
-    "regions": ["desert"]
+    "regions": ["desert"],
+    "skillRequirements": [
+      { "skill": "attack", "level": 82 }
+    ]
   },
   {
     "id": "Pegasian_boots",
+    "slot": "feet",
     "tags": ["*"],
     "regions": ["asgarnia"]
   },
   {
     "id": "Pegasian_boots#Clues",
+    "slot": "feet",
     "tags": ["clues"],
     "regions": ["asgarnia"]
   },
   {
     "id": "Penance_skirt",
+    "slot": "legs",
     "regions": ["kandarin"]
   },
   {
     "id": "Prayer_cape(t)",
+    "slot": "cape",
     "regions": ["asgarnia"]
   },
   {
     "id": "Primordial_boots",
-    "regions": ["asgarnia"]
+    "slot": "feet",
+    "regions": ["asgarnia"],
+    "skillRequirements": [
+      { "skill": "strength", "level": 75 },
+      { "skill": "defence", "level": 75 },
+      { "skill": "slayer", "level": 91 }
+    ]
   },
   {
     "id": "Proselyte_cuisse",
+    "slot": "legs",
     "regions": ["asgarnia"]
   },
   {
     "id": "Proselyte_hauberk",
+    "slot": "body",
     "regions": ["asgarnia"]
   },
   {
     "id": "Proselyte_sallet",
+    "slot": "head",
     "regions": ["asgarnia"]
   },
   {
     "id": "Purging_staff",
+    "slot": "weapon",
     "tags": ["1h"],
     "regions": ["misthalin"]
   },
   {
+    "id": "Rada's_blessing_2",
+    "slot": "ammo",
+    "regions": ["kourend"],
+    "skillRequirements": [
+      { "skill": "construction", "level": 30 },
+      { "skill": "agility", "level": 49 },
+      { "skill": "herblore", "level": 12 },
+      { "skill": "thieving", "level": 25 },
+      { "skill": "crafting", "level": 30 },
+      { "skill": "hunter", "level": 53 },
+      { "skill": "mining", "level": 42 },
+      { "skill": "fishing", "level": 43 },
+      { "skill": "firemaking", "level": 50 },
+      { "skill": "woodcutting", "level": 50 },
+      { "skill": "farming", "level": 45 }
+    ]
+  },
+  {
     "id": "Rada's_blessing_4",
+    "slot": "ammo",
+    "regions": ["kourend"]
+  },
+  {
+    "id": "Radiant_oathplate_chest",
+    "slot": "body",
+    "regions": ["kourend"]
+  },
+  {
+    "id": "Radiant_oathplate_helm",
+    "slot": "head",
+    "regions": ["kourend"]
+  },
+  {
+    "id": "Radiant_oathplate_legs",
+    "slot": "legs",
     "regions": ["kourend"]
   },
   {
     "id": "Ranger_boots",
+    "slot": "feet",
     "tags": ["clues"],
     "regions": ["all"]
   },
   {
     "id": "Ranger_hat",
+    "slot": "head",
     "regions": ["kandarin"]
   },
   {
     "id": "Ranging_cape(t)",
+    "slot": "cape",
     "regions": ["kandarin"]
   },
   {
     "id": "Red_cape",
+    "slot": "cape",
     "regions": ["asgarnia", "kourend", "misthalin", "morytania", "varlamore", "wilderness"]
   },
   {
     "id": "Red_d'hide_body",
+    "slot": "body",
     "regions": ["desert", "fremennik", "kandarin", "kourend", "wilderness"]
   },
   {
     "id": "Red_d'hide_shield",
+    "slot": "shield",
     "regions": ["kandarin", "kourend", "misthalin"]
   },
   {
     "id": "Regen_bracelet",
+    "slot": "hands",
     "regions": ["karamja", "kourend", "tirannwn", "varlamore"]
   },
   {
     "id": "Ring_of_shadows",
+    "slot": "ring",
     "regions": ["desert"]
   },
   {
     "id": "Ring_of_suffering_(i)",
+    "slot": "ring",
     "regions": ["kandarin"]
   },
   {
     "id": "Ring_of_the_gods",
+    "slot": "ring",
     "regions": ["wilderness"]
   },
   {
     "id": "Robin_hood_hat",
+    "slot": "head",
     "tags": ["clues"],
     "regions": ["all"]
   },
   {
     "id": "Rock-shell_legs",
+    "slot": "legs",
     "regions": ["fremennik"]
   },
   {
     "id": "Rock-shell_plate",
+    "slot": "body",
     "regions": ["fremennik"]
   },
   {
     "id": "Rune_boots",
+    "slot": "feet",
     "regions": ["kourend", "morytania", "tirannwn", "wilderness"]
   },
   {
-    "id": "Rune_kiteshield",
+    "id": "Rune_chainbody",
+    "slot": "body",
     "regions": ["all"]
+  },
+  {
+    "id": "Rune_full_helm",
+    "slot": "head",
+    "regions": ["all"],
+    "skillRequirements": [
+      { "skill": "defence", "level": 40 }
+    ]
+  },
+  {
+    "id": "Rune_gloves",
+    "slot": "hands"
+  },
+  {
+    "id": "Rune_kiteshield",
+    "slot": "shield",
+    "regions": ["all"],
+    "skillRequirements": [
+      { "skill": "defence", "level": 40 }
+    ]
   },
   {
     "id": "Rune_mace",
+    "slot": "weapon",
     "tags": ["1h"],
-    "regions": ["all"]
+    "regions": ["all"],
+    "skillRequirements": [
+      { "skill": "attack", "level": 40 }
+    ]
   },
   {
     "id": "Rune_platebody",
-    "regions": ["all"]
+    "slot": "body",
+    "regions": ["all"],
+    "skillRequirements": [
+      { "skill": "defence", "level": 40 }
+    ]
   },
   {
     "id": "Rune_platelegs",
-    "regions": ["all"]
+    "slot": "legs",
+    "regions": ["all"],
+    "skillRequirements": [
+      { "skill": "defence", "level": 40 }
+    ]
+  },
+  {
+    "id": "Rune_scimitar",
+    "slot": "weapon",
+    "tags": ["1h"],
+    "regions": ["all"],
+    "skillRequirements": [
+      { "skill": "attack", "level": 40 }
+    ]
   },
   {
     "id": "Rune_sq_shield",
-    "regions": ["all"]
+    "slot": "shield",
+    "regions": ["all"],
+    "skillRequirements": [
+      { "skill": "defence", "level": 40 }
+    ]
   },
   {
     "id": "Runner_boots",
+    "slot": "feet",
     "regions": ["kandarin"]
   },
   {
+    "id": "Sanguine_scythe_of_vitur",
+    "slot": "weapon",
+    "tags": ["2h"],
+    "regions": ["morytania"],
+    "skillRequirements": [
+      { "skill": "attack", "level": 80 },
+      { "skill": "strength", "level": 90 }
+    ]
+  },
+  {
     "id": "Sanguinesti_staff",
+    "slot": "weapon",
     "tags": ["1h"],
     "regions": ["morytania"]
   },
   {
     "id": "Sarachnis_cudgel",
+    "slot": "weapon",
     "tags": ["1h"],
     "regions": ["kourend"]
   },
   {
     "id": "Saradomin_cloak",
+    "slot": "cape",
     "tags": ["clues"],
     "regions": ["all"]
   },
   {
     "id": "Saradomin_crozier",
+    "slot": "weapon",
     "tags": ["1h", "clues"],
     "regions": ["all"]
   },
   {
     "id": "Saradomin_d'hide_shield",
+    "slot": "shield",
     "tags": ["clues"],
     "regions": ["all"]
   },
   {
     "id": "Saradomin_mitre",
+    "slot": "head",
     "tags": ["clues"],
     "regions": ["all"]
   },
   {
     "id": "Saradomin_robe_legs",
+    "slot": "legs",
     "tags": ["clues"],
     "regions": ["all"]
   },
   {
     "id": "Saradomin_robe_top",
+    "slot": "body",
     "tags": ["clues"],
     "regions": ["all"]
   },
   {
     "id": "Saradomin_stole",
+    "slot": "neck",
     "tags": ["clues"],
     "regions": ["all"]
   },
   {
     "id": "Saradomin_sword",
+    "slot": "weapon",
     "tags": ["2h"],
     "regions": ["asgarnia"]
   },
   {
     "id": "Scorching_bow",
+    "slot": "weapon",
     "tags": ["2h"],
     "regions": ["misthalin"],
     "ammo": {
@@ -1567,16 +2322,23 @@
   },
   {
     "id": "Scythe_of_vitur",
+    "slot": "weapon",
     "tags": ["2h"],
-    "regions": ["morytania"]
+    "regions": ["morytania"],
+    "skillRequirements": [
+      { "skill": "attack", "level": 80 },
+      { "skill": "strength", "level": 90 }
+    ]
   },
   {
     "id": "Scythe_of_vitur#Leagues",
+    "slot": "weapon",
     "tags": ["2h", "leagues"],
     "regions": ["desert", "kourend", "morytania"]
   },
   {
     "id": "Seercull",
+    "slot": "weapon",
     "tags": ["2h"],
     "regions": ["fremennik"],
     "ammo": {
@@ -1586,208 +2348,273 @@
   },
   {
     "id": "Seers_ring",
+    "slot": "ring",
     "regions": ["fremennik"]
   },
   {
     "id": "Serpentine_helm",
+    "slot": "head",
     "regions": ["tirannwn"]
   },
   {
     "id": "Shade_robe",
+    "slot": "legs",
     "regions": ["misthalin", "kourend"]
   },
   {
     "id": "Shade_robe_top",
+    "slot": "body",
     "regions": ["misthalin", "kourend"]
   },
   {
     "id": "Shayzien_helm_(5)",
+    "slot": "head",
     "regions": ["kourend"]
   },
   {
+    "id": "Silverlight",
+    "slot": "weapon",
+    "tags": ["1h"],
+    "regions": ["misthalin"]
+  },
+  {
     "id": "Snakeskin_bandana",
+    "slot": "head",
     "regions": ["morytania", "tirannwn"]
   },
   {
     "id": "Snakeskin_boots",
+    "slot": "feet",
     "regions": ["desert", "fremennik", "kandarin", "kourend", "misthalin", "morytania", "tirannwn"]
   },
   {
     "id": "Snakeskin_vambraces",
+    "slot": "hands",
     "regions": ["morytania", "tirannwn"]
   },
   {
     "id": "Soul_cape",
     "icon": "Soul_cape_(red)",
+    "slot": "cape",
     "regions": ["misthalin"]
   },
   {
     "id": "Soulflame_horn",
+    "slot": "weapon",
     "tags": ["1h"],
     "regions": ["kourend"]
   },
   {
     "id": "Soulreaper_axe",
+    "slot": "weapon",
     "tags": ["2h"],
-    "regions": ["asgarnia/desert/fremennik/varlamore"]
+    "regions": ["asgarnia/desert/fremennik/varlamore"],
+    "skillRequirements": [
+      { "skill": "attack", "level": 80 },
+      { "skill": "strength", "level": 80 }
+    ]
   },
   {
     "id": "Soulreaper_axe#Leagues",
+    "slot": "weapon",
     "tags": ["2h", "leagues"],
     "regions": ["asgarnia", "desert", "fremennik", "varlamore"]
   },
   {
     "id": "Spectral_spirit_shield",
+    "slot": "shield",
     "regions": ["wilderness"]
   },
   {
     "id": "Spiked_manacles",
+    "slot": "feet",
     "tags": ["clues"],
     "regions": ["all"]
   },
   {
     "id": "Spined_body",
+    "slot": "body",
     "regions": ["fremennik"]
   },
   {
     "id": "Spined_chaps",
+    "slot": "legs",
     "regions": ["fremennik"]
   },
   {
     "id": "Splitbark_helm",
+    "slot": "head",
     "regions": ["desert", "fremennik", "kandarin", "kourend", "misthalin", "morytania", "tirannwn", "varlamore"]
   },
   {
     "id": "Staff_of_the_dead",
+    "slot": "weapon",
     "tags": ["1h"],
     "regions": ["asgarnia"]
   },
   {
+    "id": "Steel_gloves",
+    "slot": "hands"
+  },
+  {
+    "id": "Steel_ring",
+    "slot": "ring",
+    "regions": ["misthalin"]
+  },
+  {
     "id": "Strength_cape(t)",
+    "slot": "cape",
     "regions": ["asgarnia"]
   },
   {
     "id": "Studded_body",
+    "slot": "body",
     "regions": ["asgarnia", "kandarin", "karamja", "kourend", "misthalin", "morytania", "tirannwn"]
   },
   {
     "id": "Studded_chaps",
+    "slot": "legs",
     "regions": ["asgarnia", "fremennik", "kandarin", "kourend", "misthalin", "morytania", "varlamore"]
   },
   {
     "id": "Sulphur_blades",
+    "slot": "weapon",
     "tags": ["2h"],
     "regions": ["varlamore"]
   },
   {
     "id": "Sunfire_fanatic_chausses",
+    "slot": "legs",
     "regions": ["varlamore"]
   },
   {
     "id": "Sunfire_fanatic_chausses#Leagues",
+    "slot": "legs",
     "tags": ["leagues"],
     "regions": ["varlamore"],
     "requiredWeapon": "Sunlight_spear"
   },
   {
     "id": "Sunfire_fanatic_cuirass",
+    "slot": "body",
     "regions": ["varlamore"]
   },
   {
     "id": "Sunfire_fanatic_cuirass#Leagues",
+    "slot": "body",
     "tags": ["leagues"],
     "regions": ["varlamore"],
     "requiredWeapon": "Sunlight_spear"
   },
   {
     "id": "Sunfire_fanatic_helm",
+    "slot": "head",
     "regions": ["varlamore"]
   },
   {
     "id": "Sunfire_fanatic_helm#Leagues",
+    "slot": "head",
     "tags": ["leagues"],
     "regions": ["varlamore"],
     "requiredWeapon": "Sunlight_spear"
   },
   {
     "id": "Sunlight_spear",
+    "slot": "weapon",
     "tags": ["2h", "leagues"],
     "regions": ["varlamore"]
   },
   {
     "id": "Sunlit_bracers",
+    "slot": "hands",
     "tags": ["leagues"],
     "regions": ["varlamore"]
   },
   {
     "id": "The_dogsword",
+    "slot": "weapon",
     "tags": ["2h", "leagues"],
     "regions": ["asgarnia"]
   },
   {
     "id": "Thousand-dragon_ward",
+    "slot": "weapon",
     "tags": ["leagues"],
     "regions": ["wilderness"]
   },
   {
     "id": "Thunder_khopesh",
+    "slot": "weapon",
     "tags": ["1h", "leagues"],
     "regions": ["wilderness"]
   },
   {
     "id": "Toktz-ket-xil",
+    "slot": "shield",
     "regions": ["karamja"]
   },
   {
     "id": "Toktz-mej-tal",
+    "slot": "weapon",
     "tags": ["2h"],
     "regions": ["karamja"]
   },
   {
     "id": "Toktz-xil-ak",
+    "slot": "weapon",
     "tags": ["1h"],
     "regions": ["karamja"]
   },
   {
     "id": "Toktz-xil-ul",
+    "slot": "weapon",
     "tags": ["1h"],
     "regions": ["karamja"]
   },
   {
     "id": "Tome_of_earth",
+    "slot": "shield",
     "regions": ["varlamore"]
   },
   {
     "id": "Tome_of_fire",
+    "slot": "shield",
     "regions": ["kourend"]
   },
   {
     "id": "Tome_of_water",
+    "slot": "shield",
     "regions": ["desert"]
   },
   {
     "id": "Tonalztics_of_ralos",
+    "slot": "weapon",
     "tags": ["1h"],
     "regions": ["varlamore"]
   },
   {
     "id": "Tormented_bracelet",
+    "slot": "hands",
     "regions": ["kandarin"]
   },
   {
     "id": "Torva_full_helm",
+    "slot": "head",
     "regions": ["asgarnia"]
   },
   {
     "id": "Torva_platebody",
+    "slot": "body",
     "regions": ["asgarnia"]
   },
   {
     "id": "Torva_platelegs",
+    "slot": "legs",
     "regions": ["asgarnia"]
   },
   {
     "id": "Toxic_blowpipe",
+    "slot": "weapon",
     "tags": ["2h"],
     "regions": ["tirannwn"],
     "ammo": {
@@ -1796,59 +2623,82 @@
   },
   {
     "id": "Toxic_staff_of_the_dead",
+    "slot": "weapon",
     "tags": ["1h"],
     "regions": ["tirannwn/asgarnia"]
   },
   {
     "id": "Toxic_staff_of_the_dead#*",
+    "slot": "weapon",
     "tags": ["1h", "*"],
     "regions": ["tirannwn"]
   },
   {
+    "id": "Training_shield",
+    "slot": "shield",
+    "regions": ["misthalin"]
+  },
+  {
+    "id": "Training_sword",
+    "slot": "weapon",
+    "tags": ["1h"],
+    "regions": ["misthalin"]
+  },
+  {
     "id": "Treasonous_ring",
+    "slot": "ring",
     "regions": ["wilderness"]
   },
   {
     "id": "Treasonous_ring#Stab",
+    "slot": "ring",
     "regions": ["wilderness"]
   },
   {
     "id": "Trident_of_the_seas",
+    "slot": "weapon",
     "tags": ["1h"],
     "regions": ["kandarin"]
   },
   {
     "id": "Trident_of_the_swamp",
+    "slot": "weapon",
     "tags": ["1h"],
     "regions": ["tirannwn/kandarin"]
   },
   {
     "id": "Trident_of_the_swamp#*",
+    "slot": "weapon",
     "tags": ["1h", "*"],
     "regions": ["tirannwn"]
   },
   {
     "id": "Trident_of_the_swamp#Leagues",
+    "slot": "weapon",
     "tags": ["1h", "leagues"],
     "regions": ["tirannwn"]
   },
   {
     "id": "Tumeken's_shadow",
+    "slot": "weapon",
     "tags": ["2h"],
     "regions": ["desert"]
   },
   {
     "id": "Tumeken's_shadow#Leagues",
+    "slot": "weapon",
     "tags": ["2h", "leagues"],
     "regions": ["desert", "kourend", "morytania"]
   },
   {
     "id": "Twinflame_staff",
+    "slot": "weapon",
     "tags": ["1h"],
     "regions": ["asgarnia"]
   },
   {
     "id": "Twisted_bow",
+    "slot": "weapon",
     "tags": ["2h"],
     "regions": ["kourend"],
     "ammo": {
@@ -1858,6 +2708,7 @@
   },
   {
     "id": "Twisted_bow#Leagues",
+    "slot": "weapon",
     "tags": ["2h", "leagues"],
     "regions": ["desert", "kourend", "morytania"],
     "ammo": {
@@ -1867,51 +2718,66 @@
   },
   {
     "id": "Twisted_buckler",
+    "slot": "shield",
     "regions": ["kourend"]
   },
   {
     "id": "Tyrannical_ring",
+    "slot": "ring",
     "regions": ["wilderness"]
   },
   {
     "id": "Tyrannical_ring#Crush",
+    "slot": "ring",
     "regions": ["wilderness"]
   },
   {
     "id": "Tzhaar-ket-em",
+    "slot": "weapon",
     "tags": ["1h"],
     "regions": ["karamja"]
   },
   {
     "id": "Tzhaar-ket-om",
+    "slot": "weapon",
     "tags": ["2h"],
     "regions": ["karamja"]
   },
   {
     "id": "Ultor_ring",
-    "regions": ["varlamore/fremennik"]
+    "slot": "ring",
+    "regions": ["varlamore/fremennik"],
+    "skillRequirements": [
+      { "skill": "magic", "level": 90 },
+      { "skill": "crafting", "level": 80 }
+    ]
   },
   {
     "id": "Ultor_ring#*",
+    "slot": "ring",
     "tags": ["*"],
     "regions": ["varlamore"]
   },
   {
     "id": "Ultor_ring#Leagues",
+    "slot": "ring",
     "tags": ["leagues"],
     "regions": ["varlamore"]
   },
   {
     "id": "Unholy_symbol",
+    "slot": "neck",
     "regions": ["fremennik", "kandarin"]
   },
   {
     "id": "Ursine_chainmace",
+    "slot": "weapon",
     "tags": ["1h"],
     "regions": ["wilderness"]
   },
   {
     "id": "Venator_bow",
+    "slot": "weapon",
     "tags": ["2h"],
     "regions": ["fremennik"],
     "ammo": {
@@ -1921,115 +2787,162 @@
   },
   {
     "id": "Venator_ring",
+    "slot": "ring",
     "regions": ["desert/fremennik"]
   },
   {
     "id": "Venator_ring#*",
+    "slot": "ring",
     "tags": ["*"],
     "regions": ["desert"]
   },
   {
     "id": "Venator_ring#Leagues",
+    "slot": "ring",
     "tags": ["leagues"],
     "regions": ["desert"]
   },
   {
     "id": "Verac's_flail",
+    "slot": "weapon",
     "tags": ["2h"],
-    "regions": ["morytania"]
+    "regions": ["morytania"],
+    "skillRequirements": [
+      { "skill": "attack", "level": 70 }
+    ]
   },
   {
     "id": "Verac's_helm",
-    "regions": ["morytania"]
+    "slot": "head",
+    "regions": ["morytania"],
+    "skillRequirements": [
+      { "skill": "defence", "level": 70 }
+    ]
+  },
+  {
+    "id": "Verac's_brassard",
+    "slot": "body",
+    "regions": ["morytania"],
+    "skillRequirements": [
+      { "skill": "defence", "level": 70 }
+    ]
+  },
+  {
+    "id": "Verac's_plateskirt",
+    "slot": "legs",
+    "regions": ["morytania"],
+    "skillRequirements": [
+      { "skill": "defence", "level": 70 }
+    ]
   },
   {
     "id": "Virtus_mask",
+    "slot": "head",
     "regions": ["asgarnia", "desert", "fremennik", "varlamore"]
   },
   {
     "id": "Virtus_robe_bottom",
+    "slot": "legs",
     "regions": ["asgarnia", "desert", "fremennik", "varlamore"]
   },
   {
     "id": "Virtus_robe_top",
+    "slot": "body",
     "regions": ["asgarnia", "desert", "fremennik", "varlamore"]
   },
   {
     "id": "Void_knight_mace",
+    "slot": "weapon",
     "tags": ["1h"],
     "regions": ["asgarnia"]
   },
   {
     "id": "Voidwaker",
+    "slot": "weapon",
     "tags": ["1h"],
     "regions": ["wilderness"]
   },
   {
     "id": "Volatile_nightmare_staff",
+    "slot": "weapon",
     "tags": ["1h"],
     "regions": ["morytania"]
   },
   {
     "id": "War_blessing",
+    "slot": "ammo",
     "tags": ["clues"],
     "regions": ["all"]
   },
   {
     "id": "Warped_sceptre",
+    "slot": "weapon",
     "tags": ["1h"],
     "regions": ["tirannwn"]
   },
   {
     "id": "Warrior_helm",
+    "slot": "head",
     "regions": ["fremennik"]
   },
   {
     "id": "Webweaver_bow",
+    "slot": "weapon",
     "tags": ["2h"],
     "regions": ["wilderness"]
   },
   {
     "id": "White_boots",
+    "slot": "feet",
     "regions": ["asgarnia"]
   },
   {
     "id": "White_gloves",
+    "slot": "hands",
     "regions": ["asgarnia"]
   },
   {
     "id": "Wizard_boots",
+    "slot": "feet",
     "tags": ["clues"],
     "regions": ["all"]
   },
   {
     "id": "Zamorak_halo",
+    "slot": "head",
     "regions": ["wilderness"]
   },
   {
     "id": "Zamorak_monk_bottom",
+    "slot": "legs",
     "regions": ["kandarin", "wilderness"]
   },
   {
     "id": "Zamorak_monk_top",
+    "slot": "body",
     "regions": ["kandarin", "wilderness"]
   },
   {
     "id": "Zamorakian_hasta",
+    "slot": "weapon",
     "tags": ["1h"],
     "regions": ["asgarnia/kandarin"]
   },
   {
     "id": "Zamorakian_hasta#*",
+    "slot": "weapon",
     "tags": ["1h", "*"],
     "regions": ["asgarnia"]
   },
   {
     "id": "Zamorakian_spear",
+    "slot": "weapon",
     "tags": ["2h"],
     "regions": ["asgarnia"]
   },
   {
     "id": "Zaryte_crossbow",
+    "slot": "weapon",
     "tags": ["1h"],
     "regions": ["asgarnia"],
     "ammo": {
@@ -2039,27 +2952,37 @@
   },
   {
     "id": "Zaryte_vambraces",
+    "slot": "hands",
     "regions": ["asgarnia"]
   },
   {
     "id": "Zealot's_boots",
+    "slot": "feet",
     "regions": ["morytania"]
   },
   {
     "id": "Zealot's_robe_bottom",
+    "slot": "legs",
     "regions": ["morytania"]
   },
   {
     "id": "Zealot's_robe_top",
+    "slot": "body",
     "regions": ["morytania"]
   },
   {
     "id": "Zombie_axe",
+    "slot": "weapon",
     "tags": ["1h"],
-    "regions": ["asgarnia", "misthalin"]
+    "regions": ["asgarnia", "misthalin"],
+    "skillRequirements": [
+      { "skill": "attack", "level": 65 },
+      { "skill": "smithing", "level": 70 }
+    ]
   },
   {
     "id": "Zombie_helmet",
+    "slot": "head",
     "regions": ["asgarnia"]
   }
 ]

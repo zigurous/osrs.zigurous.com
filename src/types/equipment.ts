@@ -1,23 +1,15 @@
 import type { ItemData } from './item';
+import type { SkillRequirement } from './skill';
+import { equipmentSlots } from '../utils';
 
-export type EquipmentSlotId =
-  | 'ammo'
-  | 'body'
-  | 'cape'
-  | 'feet'
-  | 'hands'
-  | 'head'
-  | 'legs'
-  | 'neck'
-  | 'ring'
-  | 'shield'
-  | 'weapon';
+export type EquipmentSlotId = (typeof equipmentSlots)[number];
 
 export interface EquipmentItem extends Omit<ItemData, 'transmutations'> {
   slot: EquipmentSlotId;
-  ammo?: Omit<EquipmentItem, 'ammo'>;
   regions?: string[];
   requiredWeapon?: string;
+  ammo?: Omit<EquipmentItem, 'ammo'>;
+  skillRequirements?: SkillRequirement[];
 }
 
 export interface EquipmentSlot {
@@ -25,7 +17,7 @@ export interface EquipmentSlot {
   item?: EquipmentItem;
 }
 
-export type EquipmentSlots = Record<EquipmentSlotId, EquipmentItem | undefined>;
+export type EquipmentSlots = Partial<Record<EquipmentSlotId, EquipmentItem>>;
 
 export interface EquipmentCategory {
   id: 'melee' | 'ranged' | 'magic' | 'prayer';
@@ -40,17 +32,6 @@ export interface EquipmentSubcategories {
   rangedSubcategory: string | undefined;
   magicSubcategory: string | undefined;
   prayerSubcategory: string | undefined;
-}
-
-export interface GearProgressionQueryData {
-  progression: {
-    nodes: GearProgressionCategory[];
-  };
-}
-
-export interface GearProgressionCategory {
-  category: 'melee' | 'ranged' | 'magic';
-  equipment: string[][];
 }
 
 export interface BestInSlotQueryData {

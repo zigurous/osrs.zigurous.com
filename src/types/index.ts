@@ -1,6 +1,7 @@
 export * from './activity';
 export * from './common';
 export * from './equipment';
+export * from './gear-progression';
 export * from './item';
 export * from './location';
 export * from './monster';

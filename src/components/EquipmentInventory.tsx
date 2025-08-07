@@ -1,4 +1,5 @@
 import '../styles/equipment-inventory.css';
+import classNames from 'classnames';
 import React from 'react';
 import ItemFrame from './ItemFrame';
 import iconAmmo from '../images/equipment-slot-ammo.png';
@@ -15,31 +16,19 @@ import iconWeapon from '../images/equipment-slot-weapon.png';
 import type { EquipmentSlot, EquipmentSlots, EquipmentSlotId } from '../types';
 
 interface EquipmentInventoryProps {
+  className?: string;
   slots?: EquipmentSlots;
 }
 
-const emptySlots: EquipmentSlots = {
-  weapon: undefined,
-  shield: undefined,
-  head: undefined,
-  body: undefined,
-  legs: undefined,
-  hands: undefined,
-  feet: undefined,
-  cape: undefined,
-  neck: undefined,
-  ring: undefined,
-  ammo: undefined,
-};
-
 export default function EquipmentInventory({
-  slots = emptySlots,
+  className,
+  slots = {},
 }: EquipmentInventoryProps) {
   const weapon = slots['weapon'];
   const shield = weapon?.tags?.includes('2h') ? undefined : slots['shield'];
   const ammo = weapon?.ammo ?? slots['ammo'];
   return (
-    <div className="equipment-inventory">
+    <div className={classNames('equipment-inventory', className)}>
       <div aria-hidden />
       <ItemSlot id="head" item={slots['head']} />
       <div aria-hidden />

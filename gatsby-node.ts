@@ -48,9 +48,10 @@ export const createSchemaCustomization = ({
       name: String
       slot: String
       tags: [String!]
-      ammo: EquipmentAmmo
       regions: [String!]
       requiredWeapon: String
+      ammo: EquipmentAmmo
+      skillRequirements: [SkillLevel!]
     }
     type EquipmentAmmo {
       id: String!
@@ -58,11 +59,14 @@ export const createSchemaCustomization = ({
     }
     type GearProgressionJson implements Node @dontInfer {
       category: String!
-      equipment: [[String!]!]!
+      tiers: [GearProgressionTier!]!
     }
-    type GearProgressionEquipmentSlot {
-      id: String!
-      items: [String]!
+    type GearProgressionTier {
+      title: String!
+      summary: [String!]!
+      items: [String!]!
+      questMilestone: String
+      optional: Boolean
     }
     type GuildsJson implements Node @dontInfer {
       jsonId: String!
