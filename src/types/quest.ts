@@ -28,6 +28,7 @@ export interface QuestReward {
 }
 
 export interface QuestOrder {
-  mode: string;
+  id: string;
+  mode: 'main' | 'ironman' | 'hcim' | 'uim' | 'f2p';
   quests: QuestId[];
 }

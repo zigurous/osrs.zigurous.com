@@ -14,7 +14,7 @@ interface QuestsContextData {
 }
 
 const defaultData: QuestsContextData = {
-  order: { mode: 'none', quests: [] },
+  order: { id: 'none', mode: 'main', quests: [] },
   quests: [],
   series: [],
   getQuestById: () => undefined,
@@ -104,7 +104,8 @@ interface QuestsQueryData {
 
 const dataQuery = graphql`
   query QuestsQuery {
-    order: questOrderJson(mode: { eq: "ironman" }) {
+    order: questOrderJson(jsonId: { eq: "optimal-ironman" }) {
+      id: jsonId
       mode
       quests
     }

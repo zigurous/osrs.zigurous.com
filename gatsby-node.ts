@@ -144,6 +144,7 @@ export const createSchemaCustomization = ({
       experience: Int!
     }
     type QuestOrderJson implements Node @dontInfer {
+      jsonId: String!
       mode: String!
       quests: [String!]!
     }
