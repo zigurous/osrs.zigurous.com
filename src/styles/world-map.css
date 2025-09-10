@@ -4,6 +4,7 @@
   height: 100%;
   user-select: none;
   overflow: hidden;
+  background-color: var(--color-surface-3);
 }
 
 .world-map__container {

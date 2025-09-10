@@ -8,20 +8,18 @@ export default function RegionAnalyzer({ location }: PageProps) {
   return (
     <ContextProviders location={location}>
       <RootLayout>
-        <main>
-          <div className="flex flex-col w-full h-full">
-            <HeaderBar title="Region Analyzer">
-              <HeaderContent />
-            </HeaderBar>
-            <WorldMap />
-            <FooterBar />
-          </div>
-          <RegionPanel />
-        </main>
+        <div className="flex flex-col w-full h-full">
+          <HeaderBar title="Region Analyzer" left={<HeaderContent />} />
+          <WorldMap />
+          <FooterBar />
+        </div>
+        <RegionPanel />
       </RootLayout>
     </ContextProviders>
   );
 }
+
+export const Head: HeadFC = () => <title>OSRS Region Analyzer</title>;
 
 interface ContextProvidersProps {
   children: React.ReactNode;
@@ -63,5 +61,3 @@ function HeaderContent() {
     />
   );
 }
-
-export const Head: HeadFC = () => <title>OSRS Region Analyzer</title>;
