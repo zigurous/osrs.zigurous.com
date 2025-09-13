@@ -8,6 +8,7 @@ interface TitledCardProps {
   captionIcon?: string | React.ReactNode;
   children?: React.ReactNode;
   className?: string;
+  id?: string;
   onClickHeader?: () => void;
   shadow?: boolean;
   style?: React.CSSProperties;
@@ -24,6 +25,7 @@ export default function TitledCard({
   captionIcon,
   children,
   className,
+  id,
   onClickHeader,
   shadow = true,
   style,
@@ -45,6 +47,7 @@ export default function TitledCard({
         { [`titled-card--${type}`]: type, 'shadow-xs': shadow },
         className,
       )}
+      id={id}
       style={style}
     >
       <Element

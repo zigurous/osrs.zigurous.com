@@ -140,6 +140,7 @@ export function getIconForSortingGroup(
       return getIconForSkill(sortingGroup as Skill);
     case 'boss': return 'Master_Reanimation';
     case 'chest': return 'Crystal_key';
+    case 'diary': return 'Achievement_Diaries_icon';
     case 'diaries': return 'Achievement_Diaries_icon';
     case 'distraction_and_diversion': return 'Distractions_and_Diversions';
     case 'dungeon': return 'Dungeon_map_link_icon';
@@ -152,6 +153,7 @@ export function getIconForSortingGroup(
     case 'npc': return 'NPC_Contact';
     case 'quest': return 'Quest_point_icon';
     case 'raid': return 'Raids';
+    case 'shop': return 'Bank_icon';
     case 'skilling': return 'Stats_icon';
     case 'spellbook': return 'Spellbook';
     default:

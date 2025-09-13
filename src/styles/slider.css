@@ -9,15 +9,14 @@
   padding: 0;
   border: none;
   border-radius: var(--radius-sm);
-  background: var(--color-border);
+  background: rgba(from var(--color-border) r g b / var(--opacity-muted));
   outline: none;
   cursor: pointer;
-  opacity: var(--opacity-muted);
-  transition: opacity 200ms;
+  transition: background-color 200ms;
 }
 
 .slider:hover {
-  opacity: 1;
+  background: rgba(from var(--color-border) r g b / 1);
 }
 
 .slider::-webkit-slider-thumb {
@@ -25,7 +24,7 @@
   width: var(--spacing-xl);
   height: var(--spacing-xl);
   border-radius: 50%;
-  background: var(--color-primary);
+  background: var(--color-secondary);
   cursor: pointer;
 }
 
@@ -33,6 +32,6 @@
   width: var(--spacing-xl);
   height: var(--spacing-xl);
   border-radius: 50%;
-  background: var(--color-primary);
+  background: var(--color-secondary);
   cursor: pointer;
 }

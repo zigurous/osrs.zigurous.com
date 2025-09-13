@@ -1,35 +1,39 @@
-import type { EquipmentCategory, EquipmentSlots } from './equipment';
-import type { SkillLevels } from './skill';
+import type { EquipmentCategory } from './equipment';
+import type { SkillLevelHighlight } from './skill';
 
-export interface GearProgressionQueryData {
-  progression: {
-    nodes: GearProgressionCategory[];
-  };
-}
+export type GearProgressionCategoryId = 'melee' | 'ranged' | 'magic';
 
-export interface GearProgressionCategory {
-  category: 'melee' | 'ranged' | 'magic';
-  tiers: GearProgressionTier[];
+export type GearProgressionCategory = Omit<
+  EquipmentCategory,
+  'id' | 'subcategoryKey'
+> & {
+  id: GearProgressionCategoryId;
+  subcategoryKey: keyof GearProgressionSubcategories;
+};
+
+export interface GearProgressionSubcategories {
+  meleeSubcategory: string | undefined;
+  rangedSubcategory: string | undefined;
+  magicSubcategory: string | undefined;
 }
 
 export interface GearProgressionTier {
   title: string;
-  summary: string[];
   items: string[];
+  subcategoryItems?: { id: string; subcategory: string }[];
+  stats?: SkillLevelHighlight[];
+  upgrades: GearProgressionUpgrade[];
+  notes?: string[];
   questMilestone?: string;
   optional?: boolean;
 }
 
-export interface GearProgressionContext {
-  tierIndex: number;
-  highestTier: number;
-  setTier: React.Dispatch<React.SetStateAction<number>>;
-  category: EquipmentCategory;
-  current: GearProgressionContextTier;
-  previous: GearProgressionContextTier;
+export interface GearProgressionUpgrade {
+  id: string;
+  type: string;
+  icon?: string;
+  title?: string;
+  subtitle?: string;
+  items?: string[];
+  subitems?: Omit<GearProgressionUpgrade, 'items' | 'subitems'>[];
 }
-
-export type GearProgressionContextTier = GearProgressionTier & {
-  equipment: EquipmentSlots;
-  skillRequirements: Partial<SkillLevels>;
-};

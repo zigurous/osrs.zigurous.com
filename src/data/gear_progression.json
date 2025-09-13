@@ -4,168 +4,1504 @@
     "tiers": [
       {
         "title": "Tutorial Island",
-        "summary": [
-          "Welcome to Gielinor!",
-          "Claim your ironman armour from <Link=\"Ironman_tutor\">Adam</Link> after leaving Tutorial Island.",
-          "Talk to the <Link=\"Melee_combat_tutor\">Melee combat tutor</Link> next to the Lumbridge General Store to receive a free training sword and shield."
+        "items": [
+          "Training_sword",
+          "Training_shield",
+          "Ironman_helm",
+          "Ironman_platebody",
+          "Ironman_platelegs"
         ],
-        "items": ["Training_sword", "Training_shield", "Ironman_helm", "Ironman_platebody", "Ironman_platelegs"]
+        "subcategoryItems": [
+          { "id": "Unarmed", "subcategory": "crush" },
+          { "id": "Unarmed", "subcategory": "spec" }
+        ],
+        "upgrades": [
+          {
+            "id": "Adam",
+            "type": "npc",
+            "subtitle": "Ironman tutor",
+            "items": ["Ironman_helm", "Ironman_platebody", "Ironman_platelegs"]
+          },
+          {
+            "id": "Melee_combat_tutor",
+            "type": "npc",
+            "title": "Harlan",
+            "subtitle": "Melee combat tutor",
+            "items": ["Training_sword", "Training_shield"]
+          }
+        ]
       },
       {
         "title": "Ardougne Cloak",
-        "summary": [
-          "Make your way through the <Link=\"Stronghold_of_Security\">Stronghold of Security</Link> to claim your Fancy Boots.",
-          "Pick up the leather gloves in Edgeville.",
-          "Follow the <Link=\"Optimal_quest_guide/Ironman\">optimal ironman quest guide</Link> until you complete the quest Biohazard. At this point you can finish the easy <Link=\"Ardougne_Diary\">Ardougne diary</Link> tasks to receive the Ardougne Cloak 1 which provides infinite teleports next to a prayer altar.",
-          "Complete the quest <Link=\"Imp_Catcher\">Imp Catcher</Link> to receive an Amulet of Accuracy.",
-          "Finish the easy <Link=\"Lumbridge_&_Draynor_Diary\">Lumbridge & Draynor diary</Link> for an Explorer's Ring 1."
+        "questMilestone": "Biohazard",
+        "items": [
+          "Ardougne_cloak_1",
+          "Amulet_of_accuracy",
+          "Fancy_boots",
+          "Leather_gloves"
         ],
-        "items": ["Ardougne_cloak_1", "Amulet_of_accuracy", "Explorer's_ring_1", "Fancy_boots", "Leather_gloves"],
-        "questMilestone": "Biohazard"
+        "upgrades": [
+          {
+            "id": "Edgeville",
+            "type": "location",
+            "subtitle": "Spawn south of the bank",
+            "items": ["Leather_gloves"]
+          },
+          {
+            "id": "Stronghold_of_Security",
+            "type": "dungeon",
+            "items": ["Fancy_boots"]
+          },
+          {
+            "id": "Imp_Catcher",
+            "type": "quest",
+            "items": ["Amulet_of_accuracy"]
+          },
+          {
+            "id": "Biohazard",
+            "type": "quest",
+            "subtitle": "Following optimal quest guide"
+          },
+          {
+            "id": "Ardougne_Diary",
+            "type": "diary",
+            "subtitle": "Easy",
+            "items": ["Ardougne_cloak_1"]
+          }
+        ]
       },
       {
         "title": "Fairy Rings",
-        "summary": [
-          "Continue questing until you finish <Link=\"Fairytale_I_-_Growing_Pains\">Fairytale I - Growing Pains</Link>, then start next the next quest <Link=\"Fairytale_II_-_Cure_a_Queen\">Fairytale II - Cure a Queen</Link> to unlock the fairy ring transportation system.",
-          "As your defence level rises, you can buy mithril and adamant armour from shops around Gielinor."
+        "questMilestone": "Fairytale_I_-_Growing_Pains",
+        "items": [
+          "Adamant_scimitar",
+          "Adamant_full_helm",
+          "Adamant_platebody",
+          "Adamant_platelegs",
+          "Adamant_kiteshield",
+          "Climbing_boots",
+          "Explorer's_ring_1"
         ],
-        "items": ["Dramen_staff", "Adamant_full_helm", "Adamant_platebody", "Adamant_platelegs", "Adamant_kiteshield"],
-        "questMilestone": "Fairytale_I_-_Growing_Pains"
+        "subcategoryItems": [
+          { "id": "Adamant_longsword", "subcategory": "stab" },
+          { "id": "Adamant_scimitar", "subcategory": "slash" },
+          { "id": "Adamant_mace", "subcategory": "crush" },
+          { "id": "Unarmed", "subcategory": "spec" }
+        ],
+        "upgrades": [
+          {
+            "id": "Death_Plateau",
+            "type": "quest",
+            "items": ["Climbing_boots"]
+          },
+          {
+            "id": "Fairytale_I_-_Growing_Pains",
+            "type": "quest",
+            "items": ["Dramen_staff", "Fairy_rings"]
+          },
+          {
+            "id": "Lumbridge_&_Draynor_Diary",
+            "type": "diary",
+            "subtitle": "Easy",
+            "items": ["Explorer's_ring_1"]
+          },
+          {
+            "id": "Shops",
+            "type": "shop",
+            "items": [
+              "Adamant_scimitar",
+              "Adamant_full_helm",
+              "Adamant_platebody",
+              "Adamant_platelegs"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Prayer Overheads",
+        "items": [],
+        "stats": [
+          { "skill": "magic", "level": 40 },
+          { "skill": "prayer", "level": 43, "highlight": true }
+        ],
+        "upgrades": [
+          {
+            "id": "Blue_dragon",
+            "type": "pvm",
+            "icon": "Blue_dragon_mask",
+            "items": ["Dragon_bones"],
+            "subitems": [
+              {
+                "id": "Water_Strike",
+                "type": "magic",
+                "title": "50% water weakness"
+              }
+            ]
+          },
+          {
+            "id": "Chaos_Temple_(hut)",
+            "type": "prayer",
+            "title": "Chaos Altar",
+            "subtitle": "350% xp bonus"
+          }
+        ],
+        "notes": [
+          "Blue dragons are weak to water spells and can easily be safespotted in <Link=\"Taverley_Dungeon\">Taverley Dungeon</Link>.",
+          "Using the chaos altar in the wilderness will drastically speed up the process to unlock overheads, requiring less than 100 dragon bones."
+        ]
+      },
+      {
+        "title": "Rune Equipment",
+        "items": [
+          "Rune_scimitar",
+          "Rune_full_helm",
+          "Rune_chainbody",
+          "Rune_platelegs",
+          "Rune_sq_shield"
+        ],
+        "subcategoryItems": [
+          { "id": "Rune_longsword", "subcategory": "stab" },
+          { "id": "Rune_scimitar", "subcategory": "slash" },
+          { "id": "Rune_mace", "subcategory": "crush" },
+          { "id": "Unarmed", "subcategory": "spec" }
+        ],
+        "stats": [
+          { "skill": "attack", "level": 40, "highlight": true },
+          { "skill": "strength", "level": 40 },
+          { "skill": "defence", "level": 40, "highlight": true }
+        ],
+        "upgrades": [
+          {
+            "id": "Attack",
+            "type": "attack",
+            "title": "40 attack",
+            "subtitle": "To equip rune weapons"
+          },
+          {
+            "id": "Defence",
+            "type": "defence",
+            "title": "40 defence",
+            "subtitle": "To equip rune armour"
+          },
+          {
+            "id": "Zamorak_warrior",
+            "type": "pvm",
+            "items": ["Rune_scimitar"]
+          },
+          {
+            "id": "Champions'_Guild",
+            "type": "shop",
+            "items": ["Rune_platelegs", "Rune_chainbody"]
+          },
+          {
+            "id": "Scurrius",
+            "type": "boss",
+            "icon": "Scurry",
+            "items": ["Rune_full_helm", "Rune_sq_shield"],
+            "subitems": [
+              {
+                "id": "Prayer",
+                "type": "prayer",
+                "title": "43 prayer",
+                "subtitle": "Recommended"
+              }
+            ]
+          }
+        ]
       },
       {
         "title": "Dragon Slayer",
-        "summary": [],
-        "items": ["Rune_scimitar", "Rune_full_helm", "Rune_chainbody", "Rune_platelegs", "Anti-dragon_shield", "Amulet_of_power", "Bronze_gloves", "Climbing_boots"],
-        "questMilestone": "Dragon_Slayer_I"
+        "questMilestone": "Dragon_Slayer_I",
+        "items": ["Rune_platebody", "Amulet_of_strength", "Bronze_gloves"],
+        "subcategoryItems": [
+          { "id": "Bone_dagger", "subcategory": "spec" }
+        ],
+        "stats": [
+          { "skill": "thieving", "level": 20 },
+          { "skill": "magic", "level": 49, "highlight": true }
+        ],
+        "upgrades": [
+          {
+            "id": "Recipe_for_Disaster",
+            "type": "quest",
+            "subtitle": "1 subquest",
+            "items": ["Bronze_gloves"]
+          },
+          {
+            "id": "H.A.M._Storerooms",
+            "type": "minigame",
+            "items": ["Ruby_amulet"],
+            "subitems": [
+              {
+                "id": "Death_to_the_Dorgeshuun",
+                "type": "quest"
+              },
+              {
+                "id": "Thieving",
+                "type": "thieving",
+                "title": "20 thieving"
+              }
+            ]
+          },
+          {
+            "id": "Magic",
+            "type": "magic",
+            "title": "49 magic",
+            "subtitle": "Boostable",
+            "items": ["Amulet_of_strength"],
+            "subitems": [
+              {
+                "id": "Lvl-3_Enchant",
+                "type": "magic",
+                "icon": "Lvl-3_Enchant"
+              }
+            ]
+          },
+          {
+            "id": "Dragon_Slayer_I",
+            "type": "quest",
+            "items": ["Rune_platebody", "Anti-dragon_shield"]
+          }
+        ]
       },
       {
         "title": "Fremennik Isles",
-        "summary": [],
-        "items": ["Helm_of_neitiznot", "Rune_platebody", "Amulet_of_strength#Ironman", "Rune_sq_shield", "Black_gloves"],
-        "questMilestone": "The_Fremennik_Isles"
+        "questMilestone": "The_Fremennik_Isles",
+        "items": [
+          "Helm_of_neitiznot",
+          "Rune_platebody",
+          "Rune_sq_shield",
+          "Black_gloves"
+        ],
+        "stats": [
+          { "skill": "defence", "level": 55, "highlight": true }
+        ],
+        "upgrades": [
+          {
+            "id": "Recipe_for_Disaster",
+            "type": "quest",
+            "subtitle": "4 subquests",
+            "items": ["Black_gloves"]
+          },
+          {
+            "id": "The_Fremennik_Trials",
+            "type": "quest",
+            "items": ["Berserker_helm"]
+          },
+          {
+            "id": "The_Fremennik_Isles",
+            "type": "quest",
+            "items": ["Helm_of_neitiznot"]
+          },
+          {
+            "id": "Defence",
+            "type": "defence",
+            "title": "55 defence",
+            "subtitle": "To equip helm"
+          }
+        ]
       },
       {
         "title": "Monkey Madness",
-        "summary": [],
+        "questMilestone": "Monkey_Madness_I",
         "items": ["Dragon_scimitar", "Dragon_defender", "Mithril_gloves"],
-        "questMilestone": "Monkey_Madness_I"
+        "subcategoryItems": [
+          { "id": "Dragon_longsword", "subcategory": "stab" },
+          { "id": "Dragon_scimitar", "subcategory": "slash" },
+          { "id": "Rune_mace", "subcategory": "crush" },
+          { "id": "Dragon_dagger", "subcategory": "spec" }
+        ],
+        "stats": [
+          { "skill": "magic", "level": 50 },
+          { "skill": "defence", "level": 60, "highlight": true },
+          { "skill": "attack", "level": 65, "highlight": true },
+          { "skill": "strength", "level": 65, "highlight": true }
+        ],
+        "upgrades": [
+          {
+            "id": "Attack",
+            "type": "attack",
+            "title": "60 attack",
+            "subtitle": "To equip dragon weapons"
+          },
+          {
+            "id": "Recipe_for_Disaster",
+            "type": "quest",
+            "subtitle": "5 subquests",
+            "items": ["Mithril_gloves"]
+          },
+          {
+            "id": "Monkey_Madness_I",
+            "type": "quest",
+            "items": ["Dragon_scimitar"]
+          },
+          {
+            "id": "Warriors'_Guild",
+            "type": "minigame",
+            "items": ["Dragon_defender"],
+            "subitems": [
+              {
+                "id": "Attack",
+                "type": "attack",
+                "title": "65 attack"
+              },
+              {
+                "id": "Strength",
+                "type": "strength",
+                "title": "65 strength"
+              }
+            ]
+          }
+        ]
       },
       {
         "title": "Barbarian Assault",
-        "summary": [],
         "items": ["Fighter_torso"],
-        "questMilestone": "Monkey_Madness_I",
-        "optional": true
+        "upgrades": [
+          {
+            "id": "Barbarian_Assault",
+            "type": "minigame",
+            "subtitle": "Optional",
+            "items": ["Fighter_torso"]
+          }
+        ],
+        "notes": [
+          "The Fighter Torso is less important now with the addition of Moons armour. Many players dislike Barbarian Assault and if you are one of them feel free to skip this grind."
+        ]
       },
       {
-        "title": "Legend's Quest",
-        "summary": [],
+        "title": "Legends' Quest",
+        "questMilestone": "Legends'_Quest",
         "items": ["Cape_of_legends", "Rune_gloves"],
-        "questMilestone": "Legends'_Quest"
+        "subcategoryItems": [
+          { "id": "Dragon_mace", "subcategory": "crush" }
+        ],
+        "upgrades": [
+          {
+            "id": "Recipe_for_Disaster",
+            "items": ["Rune_gloves"],
+            "type": "quest",
+            "subtitle": "7 subquests"
+          },
+          {
+            "id": "Heroes'_Quest",
+            "items": ["Dragon_mace"],
+            "type": "quest"
+          },
+          {
+            "id": "Legends'_Quest",
+            "items": ["Cape_of_legends"],
+            "type": "quest"
+          }
+        ]
       },
       {
         "title": "Recipe for Disaster",
-        "summary": [],
+        "questMilestone": "Recipe_for_Disaster",
         "items": ["Barrows_gloves"],
-        "questMilestone": "Recipe_for_Disaster"
+        "stats": [
+          { "skill": "cooking", "level": 70, "highlight": true }
+        ],
+        "upgrades": [
+          {
+            "id": "Cooking",
+            "type": "cooking",
+            "title": "70 cooking"
+          },
+          {
+            "id": "Quest_points",
+            "type": "quest",
+            "title": "175 quest points"
+          },
+          {
+            "id": "Recipe_for_Disaster",
+            "type": "quest",
+            "subtitle": "Full completion",
+            "items": ["Barrows_gloves"]
+          }
+        ]
       },
       {
-        "title": "Fight Caves",
-        "summary": [],
-        "items": ["Fire_cape", "Steel_ring"]
+        "title": "A Kingdom Divided",
+        "questMilestone": "A_Kingdom_Divided",
+        "items": ["Rada's_blessing_2"],
+        "upgrades": [
+          {
+            "id": "A_Kingdom_Divided",
+            "type": "quest",
+            "items": ["Book_of_the_dead"]
+          },
+          {
+            "id": "Kourend_&_Kebos_Diary",
+            "type": "diary",
+            "subtitle": "Medium",
+            "items": ["Rada's_blessing_2"]
+          }
+        ]
       },
       {
-        "title": "Barrows",
-        "summary": [],
-        "items": ["Verac's_helm", "Dharok's_platebody", "Dharok's_platelegs"]
+        "title": "The Final Dawn",
+        "questMilestone": "The_Final_Dawn",
+        "items": ["Arkan_blade", "Mixed_hide_cape", "Mixed_hide_boots"],
+        "stats": [
+          { "skill": "hunter", "level": 72, "highlight": true }
+        ],
+        "subcategoryItems": [
+          { "id": "Arkan_blade", "subcategory": "stab" },
+          { "id": "Arkan_blade", "subcategory": "slash" },
+          { "id": "Glacial_temotli", "subcategory": "crush" },
+          { "id": "Arkan_blade", "subcategory": "spec" }
+        ],
+        "upgrades": [
+          {
+            "id": "Pellem",
+            "type": "shop",
+            "subtitle": "Fur Trader",
+            "icon": "Fur_trader_icon",
+            "items": ["Mixed_hide_top", "Mixed_hide_cape", "Mixed_hide_boots"],
+            "subitems": [
+              {
+                "id": "Hunter",
+                "type": "hunter",
+                "title": "72 hunter"
+              }
+            ]
+          },
+          {
+            "id": "Amoxliatl",
+            "type": "boss",
+            "icon": "Moxi",
+            "items": ["Glacial_temotli", "Pendant_of_ates"],
+            "subitems": [
+              {
+                "id": "The_Heart_of_Darkness",
+                "type": "quest"
+              }
+            ]
+          },
+          {
+            "id": "The_Final_Dawn",
+            "type": "quest",
+            "items": ["Arkan_blade"]
+          }
+        ]
+      },
+      {
+        "title": "Chivalry",
+        "questMilestone": "King's_Ransom",
+        "items": [],
+        "stats": [
+          { "skill": "prayer", "level": 60, "highlight": true },
+          { "skill": "defence", "level": 65, "highlight": true }
+        ],
+        "upgrades": [
+          {
+            "id": "King's_Ransom",
+            "type": "quest",
+            "subitems": [
+              {
+                "id": "Defence",
+                "type": "defence",
+                "title": "65 defence"
+              }
+            ]
+          },
+          {
+            "id": "Prayer",
+            "type": "prayer",
+            "title": "60 prayer",
+            "subtitle": "To use chivalry",
+            "items": ["Chivalry"]
+          }
+        ],
+        "notes": [
+          "If you previously leveled hunter via <Link=\"Hunters'_Rumours\">Hunters' Rumours</Link>, then you should have a lot of <Link=\"Blessed_bone_shards\">Blessed bone shards</Link> to help train prayer to 60."
+        ]
+      },
+      {
+        "title": "Black Mask",
+        "questMilestone": "Cabin_Fever",
+        "items": [],
+        "stats": [
+          { "skill": "slayer", "level": 58, "highlight": true }
+        ],
+        "upgrades": [
+          {
+            "id": "Cave_horror",
+            "type": "slayer",
+            "icon": "Cave_horror_icon",
+            "items": ["Black_mask"],
+            "subitems": [
+              {
+                "id": "Slayer",
+                "type": "slayer",
+                "title": "58 slayer"
+              }
+            ]
+          },
+          {
+            "id": "Emir's_Arena",
+            "type": "minigame",
+            "subtitle": "PvP",
+            "items": ["Scroll_of_imbuing"]
+          }
+        ],
+        "notes": [
+          "The Black Mask should be used anytime you are on a slayer task otherwise you use your normal helm."
+        ]
       },
       {
         "title": "Dagannoth Kings",
-        "summary": [],
-        "items": ["Berserker_ring_(i)"]
+        "items": ["Berserker_ring_(i)"],
+        "upgrades": [
+          {
+            "id": "Dagannoth_Kings",
+            "type": "boss",
+            "icon": "Dagannoth_Kings_icon_(mobile)",
+            "items": ["Berserker_ring", "Dragon_axe"],
+            "subitems": [
+              {
+                "id": "Magic",
+                "type": "magic",
+                "title": "Magic setup",
+                "subtitle": "Recommended"
+              },
+              {
+                "id": "Defence",
+                "type": "defence",
+                "title": "Tank armour",
+                "subtitle": "Recommended"
+              }
+            ]
+          },
+          {
+            "id": "Emir's_Arena",
+            "type": "minigame",
+            "subtitle": "PvP",
+            "items": ["Scroll_of_imbuing"]
+          }
+        ],
+        "notes": [
+          "The only Dagannoth King worth killing right now is <Link=\"Dagannoth_Rex\">Dagannoth Rex</Link>. The other kings are harder to kill for which the rings are very marginal upgrades.",
+          "A Dagannoth slayer task will make this easier if you have a <Link=\"Black_mask_(i)\">Black Mask (i)</Link> but is not needed."
+        ]
       },
       {
         "title": "Zombie Axe",
-        "summary": [],
-        "items": ["Zombie_axe", "Rada's_blessing_2"],
-        "questMilestone": "Defender_of_Varrock"
+        "questMilestone": "Defender_of_Varrock",
+        "items": ["Zombie_axe"],
+        "subcategoryItems": [
+          { "id": "Arkan_blade", "subcategory": "stab" },
+          { "id": "Zombie_axe", "subcategory": "slash" },
+          { "id": "Zombie_axe", "subcategory": "crush" },
+          { "id": "Arkan_blade", "subcategory": "spec" }
+        ],
+        "stats": [
+          { "skill": "smithing", "level": 70, "highlight": true }
+        ],
+        "upgrades": [
+          {
+            "id": "Defender_of_Varrock",
+            "type": "quest"
+          },
+          {
+            "id": "Armoured_zombie",
+            "type": "pvm",
+            "icon": "Broken_zombie_helmet",
+            "items": ["Broken_zombie_axe"],
+            "subitems": [
+              {
+                "id": "Red_chinchompa",
+                "type": "ranged",
+                "title": "Chinchompas",
+                "subtitle": "Recommended"
+              },
+              {
+                "id": "Ice_Burst",
+                "type": "magic",
+                "title": "Bursting",
+                "subtitle": "Recommended"
+              }
+            ]
+          },
+          {
+            "id": "Smithing",
+            "type": "smithing",
+            "title": "70 smithing",
+            "subtitle": "Boostable",
+            "items": ["Zombie_axe"]
+          }
+        ]
+      },
+      {
+        "title": "Fire Cape",
+        "items": ["Fire_cape"],
+        "stats": [
+          { "skill": "ranged", "level": 70, "highlight": true }
+        ],
+        "upgrades": [
+          {
+            "id": "Deranged_archaeologist",
+            "type": "boss",
+            "icon": "Unidentified_small_fossil",
+            "items": ["Steel_ring", "Black_d'hide_body"]
+          },
+          {
+            "id": "TzHaar_Fight_Cave",
+            "type": "boss",
+            "icon": "Tzrek-jad",
+            "title": "Fight Cave",
+            "subtitle": "TzTok-Jad",
+            "items": ["Fire_cape"],
+            "subitems": [
+              {
+                "id": "TzHaar_Fight_Cave/Strategies#Equipment",
+                "type": "ranged",
+                "title": "70 ranged setup",
+                "subtitle": "Recommended"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Barrows",
+        "items": ["Dharok's_platelegs"],
+        "stats": [
+          { "skill": "attack", "level": 70 },
+          { "skill": "strength", "level": 70 },
+          { "skill": "defence", "level": 70, "highlight": true },
+          { "skill": "magic", "level": 70 }
+        ],
+        "upgrades": [
+          {
+            "id": "Barrows",
+            "type": "boss",
+            "icon": "Barrows_Brothers_icon_(mobile)",
+            "items": ["Verac's_helm", "Karil's_leathertop", "Dharok's_platelegs"],
+            "subitems": [
+              {
+                "id": "Magic",
+                "type": "magic",
+                "title": "Magic setup",
+                "subtitle": "Recommended"
+              }
+            ]
+          },
+          {
+            "id": "Defence",
+            "type": "defence",
+            "title": "70 defence",
+            "subtitle": "To equip armour"
+          }
+        ],
+        "notes": [
+          "Upcoming grinds will benefit from having tank armour. At a minimum you want to get tank legs since that slot is harder to acquire strength bonus.",
+          "Other items to look out for are Karil's and Ahrim's for non-melee combat styles. A <Link=\"Karil's_leathertop\">Karil's Leathertop</Link> is particularly useful for its magic defence bonus and is sometimes used with melee setups."
+        ]
       },
       {
         "title": "Moons of Peril",
-        "summary": [],
-        "items": ["Blood_moon_helm", "Blood_moon_chestplate", "Blood_moon_tassets"],
-        "questMilestone": "Perilous_Moons"
+        "questMilestone": "Perilous_Moons",
+        "items": [
+          "Dual_macuahuitl",
+          "Blood_moon_helm",
+          "Blood_moon_chestplate",
+          "Blood_moon_tassets"
+        ],
+        "subcategoryItems": [
+          { "id": "Dual_macuahuitl", "subcategory": "stab" },
+          { "id": "Zombie_axe", "subcategory": "slash" },
+          { "id": "Dual_macuahuitl", "subcategory": "crush" },
+          { "id": "Arkan_blade", "subcategory": "spec" }
+        ],
+        "stats": [
+          { "skill": "strength", "level": 75, "highlight": true },
+          { "skill": "ranged", "level": 75, "highlight": true },
+          { "skill": "magic", "level": 75, "highlight": true }
+        ],
+        "upgrades": [
+          {
+            "id": "Perilous_Moons",
+            "type": "quest"
+          },
+          {
+            "id": "Eclipse_Moon",
+            "type": "boss",
+            "icon": "White_dagger",
+            "items": [
+              "Eclipse_atlatl",
+              "Eclipse_moon_helm",
+              "Eclipse_moon_chestplate",
+              "Eclipse_moon_tassets"
+            ],
+            "subitems": [
+              {
+                "id": "Ranged",
+                "type": "ranged",
+                "title": "75 ranged",
+                "subtitle": "To equip"
+              }
+            ]
+          },
+          {
+            "id": "Blue_Moon",
+            "type": "boss",
+            "icon": "White_warhammer",
+            "items": [
+              "Blue_moon_spear",
+              "Blue_moon_helm",
+              "Blue_moon_chestplate",
+              "Blue_moon_tassets"
+            ],
+            "subitems": [
+              {
+                "id": "Magic",
+                "type": "magic",
+                "title": "75 magic",
+                "subtitle": "To equip"
+              }
+            ]
+          },
+          {
+            "id": "Blood_Moon",
+            "type": "boss",
+            "icon": "White_scimitar",
+            "items": [
+              "Dual_macuahuitl",
+              "Blood_moon_helm",
+              "Blood_moon_chestplate",
+              "Blood_moon_tassets"
+            ],
+            "subitems": [
+              {
+                "id": "Strength",
+                "type": "strength",
+                "title": "75 strength",
+                "subtitle": "To equip"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Royal Titans",
+        "items": [],
+        "stats": [
+          { "skill": "prayer", "level": 63, "highlight": true },
+          { "skill": "magic", "level": 75, "highlight": true }
+        ],
+        "upgrades": [
+          {
+            "id": "Royal_Titans",
+            "type": "boss",
+            "icon": "Bran",
+            "items": ["Twinflame_staff", "Deadeye_prayer_scroll", "Mystic_vigour_prayer_scroll"]
+          },
+          {
+            "id": "Prayer",
+            "type": "prayer",
+            "title": "63 prayer",
+            "subtitle": "To use upgraded prayers",
+            "items": ["Deadeye", "Mystic_Vigour"]
+          },
+          {
+            "id": "Fire_Wave",
+            "type": "magic",
+            "title": "75 magic",
+            "subtitle": "To cast fire wave",
+            "items": ["Fire_Wave"]
+          }
+        ],
+        "notes": [
+          "Royal Titans does not provide any upgrades for your melee setup but the upgraded prayers will be best in slot for a long time and increase DPS for future bosses."
+        ]
+      },
+      {
+        "title": "Piety",
+        "questMilestone": "Knight_Waves",
+        "items": [],
+        "stats": [
+          { "skill": "prayer", "level": 70, "highlight": true }
+        ],
+        "upgrades": [
+          {
+            "id": "Knight_Waves",
+            "type": "minigame",
+            "subitems": [
+              {
+                "id": "King's_Ransom",
+                "type": "quest"
+              }
+            ]
+          },
+          {
+            "id": "Prayer",
+            "type": "prayer",
+            "title": "70 prayer",
+            "subtitle": "To use piety",
+            "items": ["Piety"]
+          }
+        ],
+        "notes": [
+          "After having completed the Moons of Peril grind, you should have a lot of <Link=\"Blessed_bone_shards\">Blessed bone shards</Link> and <Link=\"Sun-kissed_bones\">Sun-kissed bones</Link> to help train prayer to 70."
+        ]
+      },
+      {
+        "title": "Arclight",
+        "questMilestone": "A_Kingdom_Divided",
+        "items": ["Rada's_blessing_3"],
+        "stats": [
+          { "skill": "attack", "level": 75, "highlight": true },
+          { "skill": "magic", "level": 76, "highlight": true }
+        ],
+        "upgrades": [
+          {
+            "id": "Kourend_&_Kebos_Diary",
+            "type": "diary",
+            "subtitle": "Hard",
+            "items": ["Rada's_blessing_3"]
+          },
+          {
+            "id": "Catacombs_of_Kourend",
+            "type": "slayer",
+            "items": ["Ancient_shard"]
+          },
+          {
+            "id": "Attack",
+            "type": "attack",
+            "title": "75 attack",
+            "subtitle": "To equip arclight",
+            "items": ["Arclight"]
+          },
+          {
+            "id": "Resurrect_Greater_Ghost",
+            "type": "magic",
+            "title": "76 magic",
+            "subtitle": "To summon thralls",
+            "items": ["Resurrect_Greater_Ghost"],
+            "subitems": [
+              {
+                "id": "A_Kingdom_Divided",
+                "type": "quest"
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "The Arclight is an important <Link=\"Demon_(attribute)\">Demonbane</Link> weapon that will be used for several upcoming monsters and bosses."
+        ]
       },
       {
         "title": "Slayer Upgrades",
-        "summary": [],
-        "items": ["Abyssal_tentacle", "Neitiznot_faceguard", "Dragon_boots", "Amulet_of_fury"],
-        "questMilestone": "The_Fremennik_Exiles"
+        "questMilestone": "The_Fremennik_Exiles",
+        "items": ["Abyssal_tentacle", "Neitiznot_faceguard", "Dragon_boots"],
+        "subcategoryItems": [
+          { "id": "Dual_macuahuitl", "subcategory": "stab" },
+          { "id": "Abyssal_tentacle", "subcategory": "slash" },
+          { "id": "Dual_macuahuitl", "subcategory": "crush" },
+          { "id": "Arkan_blade", "subcategory": "spec" }
+        ],
+        "stats": [
+          { "skill": "slayer", "level": 87, "highlight": true }
+        ],
+        "upgrades": [
+          {
+            "id": "Slayer",
+            "type": "slayer",
+            "title": "87 slayer"
+          },
+          {
+            "id": "Basilisk_Knight",
+            "type": "slayer",
+            "icon": "Basilisk_Knight_icon",
+            "subtitle": "Optional",
+            "items": ["Basilisk_jaw"],
+            "subitems": [
+              {
+                "id": "The_Fremennik_Exiles",
+                "type": "quest"
+              }
+            ]
+          },
+          {
+            "id": "Spiritual_mage",
+            "type": "slayer",
+            "icon": "Spiritual_mage_icon",
+            "subtitle": "83 slayer",
+            "items": ["Dragon_boots"]
+          },
+          {
+            "id": "Abyssal_demon",
+            "type": "slayer",
+            "icon": "Abyssal_demon_icon",
+            "subtitle": "85 slayer",
+            "items": ["Abyssal_whip"]
+          },
+          {
+            "id": "Kraken",
+            "type": "boss",
+            "icon": "Kraken_icon_(mobile)",
+            "subtitle": "87 slayer",
+            "items": ["Kraken_tentacle"]
+          }
+        ]
       },
       {
-        "title": "Tombs of Amascut",
-        "summary": [],
-        "items": ["Osmumten's_fang"],
-        "questMilestone": "Into_the_Tombs"
+        "title": "Tormented Demons",
+        "questMilestone": "While_Guthix_Sleeps",
+        "items": ["Emberlight"],
+        "subcategoryItems": [
+          { "id": "Emberlight", "subcategory": "stab" },
+          { "id": "Emberlight", "subcategory": "slash" },
+          { "id": "Dual_macuahuitl", "subcategory": "crush" },
+          { "id": "Burning_claws", "subcategory": "spec" }
+        ],
+        "stats": [
+          { "skill": "fletching", "level": 74, "highlight": true },
+          { "skill": "smithing", "level": 74, "highlight": true },
+          { "skill": "crafting", "level": 74, "highlight": true },
+          { "skill": "ranged", "level": 77, "highlight": true },
+          { "skill": "attack", "level": 77, "highlight": true },
+          { "skill": "magic", "level": 77, "highlight": true }
+        ],
+        "upgrades": [
+          {
+            "id": "While_Guthix_Sleeps",
+            "type": "quest"
+          },
+          {
+            "id": "Tormented_Demon",
+            "type": "slayer",
+            "subtitle": "On Task",
+            "items": ["Tormented_synapse", "Burning_claw"]
+          },
+          {
+            "id": "Fletching",
+            "type": "fletching",
+            "title": "74 fletching",
+            "subtitle": "Boostable",
+            "items": ["Scorching_bow"]
+          },
+          {
+            "id": "Smithing",
+            "type": "smithing",
+            "title": "74 smithing",
+            "subtitle": "Boostable",
+            "items": ["Emberlight"]
+          },
+          {
+            "id": "Crafting",
+            "type": "crafting",
+            "title": "74 crafting",
+            "subtitle": "Boostable",
+            "items": ["Purging_staff"]
+          }
+        ]
       },
       {
-        "title": "Monkey Madness II",
-        "summary": [],
+        "title": "Demonic Gorillas",
+        "questMilestone": "Monkey_Madness_II",
         "items": ["Amulet_of_torture"],
-        "questMilestone": "Monkey_Madness_II"
+        "stats": [
+          { "skill": "magic", "level": 89, "highlight": true },
+          { "skill": "crafting", "level": 93, "highlight": true }
+        ],
+        "upgrades": [
+          {
+            "id": "Monkey_Madness_II",
+            "type": "quest"
+          },
+          {
+            "id": "Demonic_gorilla",
+            "type": "slayer",
+            "subtitle": "On Task",
+            "items": ["Zenyte_shard"]
+          },
+          {
+            "id": "Crafting",
+            "type": "crafting",
+            "title": "98 crafting",
+            "subtitle": "+5 Boost",
+            "items": ["Zenyte_amulet"]
+          },
+          {
+            "id": "Magic",
+            "type": "magic",
+            "title": "93 magic",
+            "subtitle": "+4 Boost",
+            "items": ["Amulet_of_torture"],
+            "subitems": [
+              {
+                "id": "Lvl-7_Enchant",
+                "type": "magic",
+                "icon": "Lvl-7_Enchant"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Abyssal Sire",
+        "items": [],
+        "subcategoryItems": [
+          { "id": "Abyssal_dagger", "subcategory": "stab" },
+          { "id": "Abyssal_bludgeon", "subcategory": "crush" }
+        ],
+        "stats": [
+          { "skill": "slayer", "level": 85, "highlight": true }
+        ],
+        "upgrades": [
+          {
+            "id": "Slayer",
+            "type": "slayer",
+            "title": "85 slayer"
+          },
+          {
+            "id": "Abyssal_Sire",
+            "type": "boss",
+            "icon": "Abyssal_Sire_icon_(mobile)",
+            "subtitle": "Optional",
+            "items": ["Abyssal_dagger", "Abyssal_bludgeon"]
+          }
+        ],
+        "notes": [
+          "These upgrades to your stab and crush setups are relatively small and will be replaced with better items later so feel free to skip this grind."
+        ]
       },
       {
         "title": "Cerberus",
-        "summary": [],
-        "items": ["Primordial_boots"]
+        "items": ["Primordial_boots"],
+        "stats": [
+          { "skill": "magic", "level": 60 },
+          { "skill": "runecraft", "level": 60, "highlight": true },
+          { "skill": "defence", "level": 75, "highlight": true },
+          { "skill": "slayer", "level": 91, "highlight": true }
+        ],
+        "upgrades": [
+          {
+            "id": "Slayer",
+            "type": "slayer",
+            "title": "91 slayer"
+          },
+          {
+            "id": "Cerberus",
+            "type": "boss",
+            "icon": "Cerberus_icon",
+            "items": ["Primordial_crystal", "Pegasian_crystal", "Eternal_crystal"]
+          },
+          {
+            "id": "Runecraft",
+            "type": "runecraft",
+            "title": "60 runecraft",
+            "subtitle": "Not boostable",
+            "items": ["Primordial_boots", "Pegasian_boots", "Eternal_boots"]
+          }
+        ]
       },
       {
         "title": "Araxxor",
-        "summary": [],
-        "items": ["Noxious_halberd", "Amulet_of_rancour"]
+        "items": ["Noxious_halberd", "Amulet_of_rancour"],
+        "subcategoryItems": [
+          { "id": "Abyssal_dagger", "subcategory": "stab" },
+          { "id": "Noxious_halberd", "subcategory": "slash" },
+          { "id": "Abyssal_bludgeon", "subcategory": "crush" },
+          { "id": "Burning_claws", "subcategory": "spec" }
+        ],
+        "stats": [
+          { "skill": "smithing", "level": 72 },
+          { "skill": "attack", "level": 80, "highlight": true },
+          { "skill": "crafting", "level": 86 },
+          { "skill": "hitpoints", "level": 90, "highlight": true },
+          { "skill": "slayer", "level": 92, "highlight": true }
+        ],
+        "upgrades": [
+          {
+            "id": "Slayer",
+            "type": "slayer",
+            "title": "92 slayer"
+          },
+          {
+            "id": "Araxxor",
+            "type": "boss",
+            "icon": "Nid",
+            "items": ["Noxious_pommel", "Noxious_point", "Noxious_blade", "Araxyte_fang"]
+          },
+          {
+            "id": "Attack",
+            "type": "attack",
+            "title": "80 attack",
+            "subtitle": "To equip weapon",
+            "items": ["Noxious_halberd"]
+          },
+          {
+            "id": "Hitpoints",
+            "type": "hitpoints",
+            "title": "90 hitpoints",
+            "subtitle": "To equip amulet",
+            "items": ["Amulet_of_rancour"]
+          }
+        ]
       },
       {
-        "title": "Hydra",
-        "summary": [],
-        "items": ["Ferocious_gloves"]
+        "title": "Zulrah",
+        "items": [],
+        "stats": [
+          { "skill": "crafting", "level": 59 },
+          { "skill": "fletching", "level": 78, "highlight": true }
+        ],
+        "upgrades": [
+          {
+            "id": "Zulrah",
+            "type": "boss",
+            "icon": "Zulrah_icon_(mobile)",
+            "items": ["Serpentine_visage", "Tanzanite_fang", "Magic_fang"]
+          },
+          {
+            "id": "Crafting",
+            "type": "crafting",
+            "title": "59 crafting",
+            "subtitle": "Boostable",
+            "items": ["Serpentine_helm", "Trident_of_the_swamp"]
+          },
+          {
+            "id": "Fletching",
+            "type": "fletching",
+            "title": "78 fletching",
+            "subtitle": "Boostable",
+            "items": ["Toxic_blowpipe"]
+          }
+        ]
       },
       {
-        "title": "Desert Treasure II",
-        "summary": [],
-        "items": ["Soulreaper_axe", "Ultor_ring"],
-        "questMilestone": "Desert_Treasure_II_-_The_Fallen_Empire"
+        "title": "Tombs of Amascut",
+        "questMilestone": "Beneath_Cursed_Sands",
+        "items": ["Osmumten's_fang", "Lightbearer"],
+        "subcategoryItems": [
+          { "id": "Osmumten's_fang", "subcategory": "stab" },
+          { "id": "Noxious_halberd", "subcategory": "slash" },
+          { "id": "Abyssal_bludgeon", "subcategory": "crush" },
+          { "id": "Burning_claws", "subcategory": "spec" }
+        ],
+        "stats": [
+          { "skill": "attack", "level": 82, "highlight": true }
+        ],
+        "upgrades": [
+          {
+            "id": "Beneath_Cursed_Sands",
+            "type": "quest",
+            "items": ["Keris_partisan"]
+          },
+          {
+            "id": "Tombs_of_Amascut",
+            "type": "raid",
+            "icon": "Tumeken's_guardian",
+            "items": ["Osmumten's_fang", "Lightbearer", "Thread_of_elidinis"]
+          },
+          {
+            "id": "Attack",
+            "type": "attack",
+            "title": "82 attack",
+            "subtitle": "To equip weapon"
+          }
+        ],
+        "notes": [
+          "We are not looking to farm all of the items from the raid right now, just a few upgrades. The <Link=\"Osmumten's_fang\">Osmumten's Fang</Link> is a very powerful weapon for general bossing.",
+          "The <Link=\"Lightbearer\">Lighbearer</Link> regens special attack energy twice as fast which increases overall DPS for many bosses.",
+          "The <Link=\"Divine_rune_pouch\">Divine Rune Pouch</Link> is important to maximize inventory space and is utilized at almost every boss."
+        ]
+      },
+      {
+        "title": "Alchemical Hydra",
+        "questMilestone": "Dragon_Slayer_II",
+        "items": ["Ferocious_gloves", "Rada's_blessing_4"],
+        "stats": [
+          { "skill": "defence", "level": 80, "highlight": true },
+          { "skill": "slayer", "level": 95, "highlight": true }
+        ],
+        "upgrades": [
+          {
+            "id": "Dragon_Slayer_II",
+            "type": "quest",
+            "items": ["Mythical_cape"]
+          },
+          {
+            "id": "Slayer",
+            "type": "slayer",
+            "title": "95 slayer"
+          },
+          {
+            "id": "Alchemical_Hydra",
+            "type": "boss",
+            "icon": "Hydra_icon",
+            "items": ["Hydra's_claw", "Hydra_leather"]
+          },
+          {
+            "id": "Defence",
+            "type": "defence",
+            "title": "80 defence",
+            "subtitle": "To equip gloves",
+            "items": ["Ferocious_gloves"]
+          },
+          {
+            "id": "Kourend_&_Kebos_Diary",
+            "type": "diary",
+            "subtitle": "Elite",
+            "items": ["Rada's_blessing_4"]
+          }
+        ]
+      },
+      {
+        "title": "Chambers of Xeric",
+        "items": [],
+        "stats": [
+          { "skill": "prayer", "level": 77, "highlight": true }
+        ],
+        "upgrades": [
+          {
+            "id": "Chambers_of_Xeric",
+            "type": "raid",
+            "icon": "Great_Olm_icon_(mobile)",
+            "items": ["Dexterous_prayer_scroll", "Arcane_prayer_scroll"]
+          },
+          {
+            "id": "Prayer",
+            "type": "prayer",
+            "title": "77 prayer",
+            "subtitle": "To use new prayers",
+            "items": ["Rigour", "Augury"]
+          }
+        ],
+        "notes": [
+          "We are only doing Chambers of Xeric for the prayer scrolls to start sending Inferno attempts. The rest of the items will be farmed later."
+        ]
       },
       {
         "title": "Inferno",
-        "summary": [],
-        "items": ["Infernal_cape"]
+        "items": ["Infernal_cape"],
+        "upgrades": [
+          {
+            "id": "Inferno",
+            "type": "boss",
+            "icon": "Tzrek-zuk",
+            "subtitle": "TzKal-Zuk",
+            "items": ["Infernal_cape"]
+          }
+        ]
       },
       {
         "title": "Yama",
-        "summary": [],
+        "questMilestone": "A_Kingdom_Divided",
         "items": ["Oathplate_helm", "Oathplate_chest", "Oathplate_legs"],
-        "questMilestone": "A_Kingdom_Divided"
+        "upgrades": [
+          {
+            "id": "Yama",
+            "type": "boss",
+            "icon": "Yami",
+            "items": ["Oathplate_helm", "Oathplate_chest", "Oathplate_legs"],
+            "subitems": [
+              {
+                "id": "A_Kingdom_Divided",
+                "type": "quest"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Desert Treasure II",
+        "questMilestone": "Desert_Treasure_II_-_The_Fallen_Empire",
+        "items": ["Soulreaper_axe", "Ultor_ring"],
+        "subcategoryItems": [
+          { "id": "Osmumten's_fang", "subcategory": "stab" },
+          { "id": "Soulreaper_axe", "subcategory": "slash" },
+          { "id": "Soulreaper_axe", "subcategory": "crush" },
+          { "id": "Burning_claws", "subcategory": "spec" }
+        ],
+        "stats": [
+          { "skill": "crafting", "level": 80 },
+          { "skill": "magic", "level": 90 }
+        ],
+        "upgrades": [
+          {
+            "id": "Desert_Treasure_II_-_The_Fallen_Empire",
+            "type": "quest",
+            "title": "Desert Treasure II",
+            "items": ["Ring_of_shadows"]
+          },
+          {
+            "id": "Duke_Sucellus",
+            "type": "boss",
+            "icon": "Baron",
+            "items": ["Eye_of_the_duke"]
+          },
+          {
+            "id": "The_Leviathan",
+            "type": "boss",
+            "icon": "Lil'viathan",
+            "items": ["Leviathan's_lure"]
+          },
+          {
+            "id": "The_Whisperer",
+            "type": "boss",
+            "icon": "Wisp",
+            "items": ["Siren's_staff"]
+          },
+          {
+            "id": "Vardorvis",
+            "type": "boss",
+            "icon": "Butch",
+            "items": ["Ultor_vestige", "Executioner's_axe_head"]
+          }
+        ]
       },
       {
         "title": "Doom of Mokhaiotl",
-        "summary": [],
+        "questMilestone": "The_Final_Dawn",
         "items": ["Avernic_treads_(max)"],
-        "questMilestone": "The_Final_Dawn"
+        "upgrades": [
+          {
+            "id": "Doom_of_Mokhaiotl",
+            "type": "boss",
+            "icon": "Mokhaiotl_waystone_5",
+            "items": ["Avernic_treads", "Eye_of_ayak", "Mokhaiotl_cloth"],
+            "subitems": [
+              {
+                "id": "The_Final_Dawn",
+                "type": "quest"
+              }
+            ]
+          }
+        ]
       },
       {
         "title": "Theater of Blood",
-        "summary": [],
-        "items": ["Scythe_of_vitur", "Avernic_defender"]
+        "questMilestone": "Sins_of_the_Father",
+        "items": ["Scythe_of_vitur", "Avernic_defender"],
+        "subcategoryItems": [
+          { "id": "Osmumten's_fang", "subcategory": "stab" },
+          { "id": "Avernic_defender", "subcategory": "stab" },
+          { "id": "Scythe_of_vitur", "subcategory": "slash" },
+          { "id": "Scythe_of_vitur", "subcategory": "crush" },
+          { "id": "Burning_claws", "subcategory": "spec" }
+        ],
+        "stats": [
+          { "skill": "strength", "level": 90, "highlight": true }
+        ],
+        "upgrades": [
+          {
+            "id": "Sins_of_the_Father",
+            "type": "quest",
+            "items": ["Blisterwood_flail", "Drakan's_medallion"]
+          },
+          {
+            "id": "Theatre_of_Blood",
+            "type": "raid",
+            "icon": "Verzik_Vitur_icon_(mobile)",
+            "items": ["Scythe_of_vitur", "Avernic_defender"],
+            "subitems": [
+              {
+                "id": "A_Night_at_the_Theatre",
+                "type": "quest"
+              }
+            ]
+          },
+          {
+            "id": "Strength",
+            "type": "strength",
+            "title": "90 strength",
+            "subtitle": "To equip scythe"
+          }
+        ]
       },
       {
         "title": "Maxed",
-        "summary": [],
-        "items": ["Infernal_max_cape"]
+        "items": ["Infernal_max_cape"],
+        "upgrades": [
+          {
+            "id": "Quest_point_cape",
+            "type": "quest",
+            "title": "Quest Cape",
+            "subtitle": "Wise Old Man",
+            "items": ["Quest_point_cape_(t)"]
+          },
+          {
+            "id": "Achievement_diary_cape",
+            "type": "diary",
+            "title": "Achievement Diary Cape",
+            "subtitle": "Twiggy O'Korn",
+            "items": ["Achievement_diary_cape_(t)"]
+          },
+          {
+            "id": "Music_cape",
+            "type": "music",
+            "title": "Music Cape",
+            "subtitle": "Olaf the Bard",
+            "items": ["Music_cape(t)"]
+          },
+          {
+            "id": "Max_cape",
+            "type": "skilling",
+            "title": "Max Cape",
+            "subtitle": "Mac",
+            "items": ["Max_cape"]
+          }
+        ]
       },
       {
         "title": "Cosmetics",
-        "summary": [],
-        "items": ["Sanguine_scythe_of_vitur", "Radiant_oathplate_helm", "Radiant_oathplate_chest", "Radiant_oathplate_legs", "Amulet_of_rancour_(s)"]
+        "items": [
+          "Sanguine_scythe_of_vitur",
+          "Radiant_oathplate_helm",
+          "Radiant_oathplate_chest",
+          "Radiant_oathplate_legs",
+          "Amulet_of_rancour_(s)"
+        ],
+        "subcategoryItems": [
+          { "id": "Osmumten's_fang_(or)", "subcategory": "stab" },
+          { "id": "Sanguine_scythe_of_vitur", "subcategory": "slash" },
+          { "id": "Sanguine_scythe_of_vitur", "subcategory": "crush" },
+          { "id": "Dragon_claws_(cr)", "subcategory": "spec" }
+        ],
+        "upgrades": [
+          {
+            "id": "Bounty_Hunter",
+            "type": "pvp",
+            "subtitle": "50 points",
+            "items": ["Bounty_hunter_ornament_kit"]
+          },
+          {
+            "id": "Man_(Morytania_Spider_Cave)",
+            "type": "boss",
+            "icon": "Nid",
+            "title": "Morytania Spider Cave",
+            "subtitle": "Mysterious Man",
+            "items": ["Amulet_of_rancour_(s)"]
+          },
+          {
+            "id": "Tombs_of_Amascut",
+            "type": "raid",
+            "icon": "Tumeken's_guardian",
+            "subtitle": "Level 500+",
+            "items": ["Cursed_phalanx"]
+          },
+          {
+            "id": "Theatre_of_Blood/Hard_Mode",
+            "type": "raid",
+            "icon": "Verzik_Vitur_icon_(mobile)",
+            "title": "Theatre of Blood",
+            "subtitle": "Hard Mode",
+            "items": ["Sanguine_ornament_kit"]
+          },
+          {
+            "id": "Purifying_sigil",
+            "type": "boss",
+            "icon": "Yami",
+            "title": "Yama",
+            "subtitle": "Contracts",
+            "items": ["Purifying_sigil"]
+          }
+        ]
       }
     ]
   },

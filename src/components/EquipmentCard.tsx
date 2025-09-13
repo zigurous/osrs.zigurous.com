@@ -50,6 +50,7 @@ export default function EquipmentCard({
                     on ? subcategory.id : undefined,
                   )
                 }
+                size="sm"
               />
             ))}
           </Stack>

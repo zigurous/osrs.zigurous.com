@@ -7,7 +7,7 @@ import { ActivitiesContextProvider, EquipmentContextProvider, ItemsContextProvid
 export default function RegionAnalyzer({ location }: PageProps) {
   return (
     <ContextProviders location={location}>
-      <RootLayout>
+      <RootLayout id="region-analyzer">
         <div className="flex flex-col w-full h-full">
           <HeaderBar title="Region Analyzer" left={<HeaderContent />} />
           <WorldMap />

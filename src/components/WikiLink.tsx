@@ -14,6 +14,7 @@ const WikiLink = React.forwardRef<HTMLAnchorElement, WikiLinkProps>(
         id={wikiId}
         className={classNames(className, { link: textual })}
         href={`https://oldschool.runescape.wiki/w/${wikiId}`}
+        onClick={e => e.stopPropagation()}
         ref={ref}
         target="_blank"
         {...rest}

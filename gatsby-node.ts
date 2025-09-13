@@ -63,10 +63,33 @@ export const createSchemaCustomization = ({
     }
     type GearProgressionTier {
       title: String!
-      summary: [String!]!
-      items: [String!]!
+      items: [String!]
+      subcategoryItems: [GearProgressionSubcategoryItem!]
+      stats: [SkillLevelHighlight!]
+      upgrades: [GearProgressionUpgrade!]!
+      notes: [String!]
       questMilestone: String
       optional: Boolean
+    }
+    type GearProgressionSubcategoryItem {
+      id: String!
+      subcategory: String!
+    }
+    type GearProgressionUpgrade {
+      id: String!
+      type: String!
+      icon: String
+      title: String
+      subtitle: String
+      items: [String!]
+      subitems: [GearProgressionUpgradeSubItem!]
+    }
+    type GearProgressionUpgradeSubItem {
+      id: String!
+      type: String!
+      icon: String
+      title: String
+      subtitle: String
     }
     type GuildsJson implements Node @dontInfer {
       jsonId: String!
@@ -199,6 +222,11 @@ export const createSchemaCustomization = ({
     type SkillLevel {
       skill: String!
       level: Int!
+    }
+    type SkillLevelHighlight {
+      skill: String!
+      level: Int!
+      highlight: Boolean
     }
     type SlayerMastersJson implements Node @dontInfer {
       jsonId: String!

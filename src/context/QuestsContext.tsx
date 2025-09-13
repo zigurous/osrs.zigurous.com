@@ -8,9 +8,13 @@ interface QuestsContextData {
   quests: Quest[];
   series: QuestSeries[];
   getQuestById: (id: QuestId) => Quest | undefined;
+  getQuestsByIds: (ids: QuestId[]) => Quest[];
   getQuestSeriesById: (id: QuestSeriesId) => QuestSeries | undefined;
   setSkillRequirements: (questId: QuestId, levels: SkillLevels) => void;
-  calculateSkillTotals: (milestone: QuestId) => SkillLevels;
+  calculateSkillTotals: (
+    milestone: QuestId,
+    includeRewardXP?: boolean,
+  ) => SkillLevels;
 }
 
 const defaultData: QuestsContextData = {
@@ -18,6 +22,7 @@ const defaultData: QuestsContextData = {
   quests: [],
   series: [],
   getQuestById: () => undefined,
+  getQuestsByIds: () => [],
   getQuestSeriesById: () => undefined,
   setSkillRequirements: () => {},
   calculateSkillTotals: () => getDefaultSkillLevels(),
@@ -36,6 +41,11 @@ export function QuestsContextProvider({ children }: React.PropsWithChildren) {
   const getQuestById = useCallback(
     (id: QuestId) => data.quests.nodes.find(item => item.id === id),
     [data],
+  );
+
+  const getQuestsByIds = useCallback(
+    (ids: QuestId[]) => ids?.map(getQuestById).filter(quest => !!quest) ?? [],
+    [getQuestById],
   );
 
   const getQuestSeriesById = useCallback(
@@ -57,7 +67,7 @@ export function QuestsContextProvider({ children }: React.PropsWithChildren) {
   );
 
   const calculateSkillTotals = useCallback(
-    (milestone: QuestId): SkillLevels => {
+    (milestone: QuestId, includeRewardXP?: boolean): SkillLevels => {
       const experience = convertLevelsToExperience(getDefaultSkillLevels());
       const endIndex = data.order.quests.findIndex(id => milestone === id);
       for (let i = 0; i <= endIndex; i++) {
@@ -69,9 +79,11 @@ export function QuestsContextProvider({ children }: React.PropsWithChildren) {
               getExperienceForLevel(req.level),
             );
           });
-          quest.rewards?.forEach(reward => {
-            experience[reward.skill] += reward.experience;
-          });
+          if (includeRewardXP) {
+            quest.rewards?.forEach(reward => {
+              experience[reward.skill] += reward.experience;
+            });
+          }
         }
       }
       return convertExperienceToLevels(experience);
@@ -86,6 +98,7 @@ export function QuestsContextProvider({ children }: React.PropsWithChildren) {
         quests: data.quests.nodes,
         series: data.series.nodes,
         getQuestById,
+        getQuestsByIds,
         getQuestSeriesById,
         setSkillRequirements,
         calculateSkillTotals,

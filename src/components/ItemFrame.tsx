@@ -14,7 +14,7 @@ interface ItemFrameProps {
   className?: string;
   highlights?: 'all' | ('upgrade' | 'pet' | 'leagues' | 'megarare')[] | 'none';
   item?: ItemData;
-  size?: 'xs' | 'sm' | 'md' | 'lg';
+  size?: 'xs' | 'sm' | 'md' | 'lg' | 'xl';
 }
 
 export default function ItemFrame({

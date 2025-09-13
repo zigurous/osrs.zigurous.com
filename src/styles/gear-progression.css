@@ -1,0 +1,122 @@
+.gear-progression {
+  width: 100%;
+  padding: var(--spacing-2xl) var(--spacing-xl);
+  flex: 100% 1 1;
+}
+
+.gear-progression__header {
+  width: 100%;
+  max-width: 480px;
+  margin-bottom: var(--spacing-xxxl);
+}
+
+.gear-progression__summary {
+  flex: 400px 1 1;
+  max-width: 400px;
+}
+
+.gear-progression-card {
+  flex-grow: 0;
+  flex-shrink: 0;
+  max-width: 560px;
+}
+
+.gear-progression-card > .titled-card__body {
+  max-height: 328px;
+}
+
+/* .gear-progression-card#stats {
+  margin-right: 36px;
+} */
+
+.gear-progression-card#quests {
+  width: 260px;
+}
+
+.gear-progression-card#quests > .titled-card__body {
+  overflow-y: auto;
+}
+
+.gear-progression-card#notes > .titled-card__header {
+  display: none;
+}
+
+.gear-progression-card#notes ul.list-indent {
+  padding-inline-start: calc(var(--spacing-xl) - 4px);
+}
+
+.gear-progression-card#notes ul.list-indent > li::marker {
+  line-height: 1;
+}
+
+.gear-progression-card#notes ul:not(.list-indent) {
+  padding: 0 var(--spacing-xxxs);
+}
+
+li.gear-progression__upgrade {
+  border-radius: var(--radius-md);
+  background-color: var(--color-surface-3);
+  overflow: hidden;
+  cursor: pointer;
+}
+
+li.gear-progression__upgrade:not(:last-child) {
+  margin-bottom: var(--spacing-md);
+}
+
+li.gear-progression__upgrade.parent-item {
+  border-bottom-right-radius: 0;
+}
+
+li.gear-progression__upgrade.sub-item {
+  position: relative;
+  border-radius: 0;
+  border-top: 2px solid var(--color-surface-1);
+  margin: -12px 0 var(--spacing-md) var(--spacing-xl) !important;
+  background-color: #332C26;
+}
+
+li.gear-progression__upgrade.sub-item.last {
+  border-bottom-left-radius: var(--radius-md);
+  border-bottom-right-radius: var(--radius-md);
+}
+
+li.gear-progression__upgrade:last-child.sub-item {
+  margin-bottom: 0 !important;
+}
+
+a.gear-progression__upgrade-link {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+a.gear-progression__upgrade-link:hover {
+  background-color: var(--color-surface-2);
+}
+
+a.gear-progression__upgrade-link:hover + div > .item-frame {
+  background-color: var(--color-surface-1);
+}
+
+a.gear-progression__upgrade-link + div {
+  position: absolute;
+  top: var(--spacing-sm);
+  right: var(--spacing-sm);
+}
+
+.gear-progression-card .icon-toggle.changed {
+  overflow: visible;
+}
+
+.gear-progression-card .icon-toggle.changed::after {
+  content: "";
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  width: calc(100% - 2px);
+  height: 100%;
+  border-bottom: 2px solid var(--color-secondary);
+  pointer-events: none;
+}

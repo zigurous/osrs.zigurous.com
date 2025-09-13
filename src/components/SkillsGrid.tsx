@@ -41,7 +41,11 @@ export default function SkillsGrid({
         <li
           aria-label={skill}
           className={classNames({
-            changed: Boolean(previous && levels[skill] !== previous[skill]),
+            changed: Boolean(
+              previous &&
+                Boolean(previous[skill]) &&
+                levels[skill] !== previous[skill],
+            ),
           })}
           key={skill}
         >

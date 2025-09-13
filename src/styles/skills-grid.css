@@ -8,6 +8,7 @@ ul.skills-grid > li {
   position: relative;
   display: flex;
   align-items: center;
+  width: var(--spacing-2xxl);
   height: var(--spacing-xxl);
   padding: var(--spacing-sm);
   background-color: var(--color-surface-2);

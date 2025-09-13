@@ -16,3 +16,7 @@ export type SkillRequirement = SkillLevel & {
   boostable?: boolean;
   ironman?: boolean;
 };
+
+export type SkillLevelHighlight = SkillLevel & {
+  highlight?: boolean;
+};
