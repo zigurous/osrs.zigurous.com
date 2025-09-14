@@ -13,7 +13,7 @@ export default function GearProgressionQuests() {
   const currentIndex = questOrder.quests.indexOf(
     context.current.questMilestone,
   );
-  const previousIndex = context.previous.questMilestone
+  const previousIndex = context.previous?.questMilestone
     ? questOrder.quests.indexOf(context.previous.questMilestone)
     : -1;
   const quests = getQuestsByIds(

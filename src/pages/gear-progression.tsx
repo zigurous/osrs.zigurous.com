@@ -3,10 +3,9 @@ import { type HeadFC, type PageProps } from 'gatsby';
 import React from 'react';
 import { FooterBar, HeaderBar, IconToggle, RootLayout } from '../components'; // prettier-ignore
 import GearProgressionEquipment from '../components/GearProgressionEquipment';
-import GearProgressionNotes from '../components/GearProgressionNotes';
 import GearProgressionSlider from '../components/GearProgressionSlider';
 import GearProgressionStats from '../components/GearProgressionStats';
-import GearProgressionUpgrades from '../components/GearProgressionUpgrades';
+import GearProgressionTimeline from '../components/GearProgressionTimeline';
 import { EquipmentContextProvider, GearProgressionContextProvider, ItemsContextProvider, QuestsContextProvider, useGearProgressionContext } from '../context'; // prettier-ignore
 import { categories } from '../context/GearProgressionContext';
 import '../styles/gear-progression.css';
@@ -26,14 +25,7 @@ export default function GearProgression({}: PageProps) {
           >
             <GearProgressionEquipment />
             <GearProgressionStats />
-            <Stack
-              className="gear-progression__summary"
-              layout="vertical"
-              spacing="lg"
-            >
-              <GearProgressionUpgrades />
-              <GearProgressionNotes />
-            </Stack>
+            <GearProgressionTimeline />
           </Stack>
         </Stack>
         <FooterBar />

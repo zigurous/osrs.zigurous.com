@@ -3,23 +3,27 @@ import classNames from 'classnames';
 import React from 'react';
 import TitledCard from './TitledCard';
 import WikiLink from './WikiLink';
-import { useGearProgressionContext } from '../context';
 
-export default function GearProgressionNotes() {
-  const context = useGearProgressionContext();
-  if (!context.current.notes) return null;
+interface GearProgressionNotesProps {
+  notes?: string[];
+}
+
+export default function GearProgressionNotes({
+  notes,
+}: GearProgressionNotesProps) {
+  if (!notes) return null;
   return (
     <TitledCard className="gear-progression-card" id="notes" title="Notes">
       <ul
         className={classNames('text-muted', {
-          'list-bullet': context.current.notes.length > 1,
-          'list-indent': context.current.notes.length > 1,
+          'list-bullet': notes.length > 1,
+          'list-indent': notes.length > 1,
         })}
       >
-        {context.current.notes.map((note, index) => (
+        {notes.map((note, index) => (
           <li
             className={classNames({
-              'mb-sm': index < context.current.notes!.length - 1,
+              'mb-sm': index < notes.length - 1,
             })}
             key={note}
           >

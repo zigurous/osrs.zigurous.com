@@ -9,7 +9,7 @@ export default function GearProgressionStats() {
   const diff =
     context.current.stats?.reduce((diff, stat) => {
       if (stat.highlight) {
-        diff[stat.skill] = context.previous.skillRequirements[stat.skill] || 1;
+        diff[stat.skill] = context.previous?.skillRequirements[stat.skill] || 1;
       }
       return diff;
     }, {} as Partial<SkillLevels>) || {};

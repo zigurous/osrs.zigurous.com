@@ -35,7 +35,7 @@ export default function GearProgressionSlider() {
             size: 'md',
           }}
           iconAlignment="only"
-          onClick={() => context.setTier(tier => tier - 1)}
+          onClick={() => context.setTimelineDirection(-1)}
           style={{ backgroundColor: 'transparent' }}
         />
         <Slider
@@ -54,7 +54,7 @@ export default function GearProgressionSlider() {
             size: 'md',
           }}
           iconAlignment="only"
-          onClick={() => context.setTier(tier => tier + 1)}
+          onClick={() => context.setTimelineDirection(1)}
           style={{ backgroundColor: 'transparent' }}
         />
       </Stack>

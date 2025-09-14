@@ -4,17 +4,22 @@ import React from 'react';
 import ItemFrame from './ItemFrame';
 import WikiIcon from './WikiIcon';
 import WikiLink from './WikiLink';
-import { useGearProgressionContext, useItemsContext } from '../context';
+import { useItemsContext } from '../context';
 import { formatNameFromId, getIconForSkill, getIconForSortingGroup } from '../utils'; // prettier-ignore
 import type { GearProgressionUpgrade, Skill } from '../types';
 
-export default function GearProgressionUpgrades() {
-  const context = useGearProgressionContext();
+interface GearProgressionUpgradesProps {
+  upgrades?: GearProgressionUpgrade[];
+}
+
+export default function GearProgressionUpgrades({
+  upgrades,
+}: GearProgressionUpgradesProps) {
   const itemsContext = useItemsContext();
-  if (context.current.upgrades.length === 0) return null;
+  if (!upgrades || upgrades.length === 0) return null;
   return (
     <ul className="gear-progression__upgrades w-full">
-      {context.current.upgrades.map((upgrade, index) => (
+      {upgrades.map(upgrade => (
         <React.Fragment key={upgrade.id}>
           <li
             className={classNames('gear-progression__upgrade', {

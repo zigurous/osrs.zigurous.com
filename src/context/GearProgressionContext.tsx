@@ -1,5 +1,6 @@
+import { clamp } from '@zigurous/forge-react';
 import { graphql, useStaticQuery } from 'gatsby';
-import React, { createContext, useContext, useEffect, useMemo, useState } from 'react'; // prettier-ignore
+import React, { createContext, useCallback, useContext, useEffect, useMemo, useState } from 'react'; // prettier-ignore
 import { useEquipmentContext, useQuestsContext } from '../context'; // prettier-ignore
 import { calculateExpectedHitpointsLevel, equipmentSlots, getDefaultSkillLevels, getEmptyEquipmentSlots, skills } from '../utils'; // prettier-ignore
 import type { GearProgressionTier, SkillLevels, EquipmentSlots, GearProgressionCategory, GearProgressionCategoryId } from '../types'; // prettier-ignore
@@ -7,14 +8,17 @@ import type { GearProgressionTier, SkillLevels, EquipmentSlots, GearProgressionC
 interface GearProgressionContextData {
   tierIndex: number;
   highestTier: number;
-  setTier: React.Dispatch<React.SetStateAction<number>>;
-  setCategory: React.Dispatch<React.SetStateAction<GearProgressionCategoryId>>;
-  setSubcategory: React.Dispatch<React.SetStateAction<string | undefined>>;
+  timelineDirection: number;
   categories: GearProgressionCategory[];
   selectedCategory: GearProgressionCategory;
   selectedSubcategory: string | undefined;
   current: GearProgressionContextTier;
-  previous: GearProgressionContextTier;
+  previous?: GearProgressionContextTier;
+  next?: GearProgressionContextTier;
+  setTier: React.Dispatch<React.SetStateAction<number>>;
+  setCategory: React.Dispatch<React.SetStateAction<GearProgressionCategoryId>>;
+  setSubcategory: React.Dispatch<React.SetStateAction<string | undefined>>;
+  setTimelineDirection: React.Dispatch<React.SetStateAction<number>>;
 }
 
 type GearProgressionContextTier = GearProgressionTier & {
@@ -68,14 +72,15 @@ const emptyTier: GearProgressionContextTier = {
 const defaultData: GearProgressionContextData = {
   tierIndex: 0,
   highestTier: 0,
-  setTier: () => undefined,
-  setCategory: () => undefined,
-  setSubcategory: () => undefined,
+  timelineDirection: 0,
   categories: categories,
   selectedCategory: categories[0],
   selectedSubcategory: undefined,
   current: emptyTier,
-  previous: emptyTier,
+  setTier: () => undefined,
+  setCategory: () => undefined,
+  setSubcategory: () => undefined,
+  setTimelineDirection: () => undefined,
 };
 
 const GearProgressionContext =
@@ -90,20 +95,32 @@ export function GearProgressionContextProvider({
   children,
 }: React.PropsWithChildren) {
   const data = useStaticQuery<GearProgressionQueryData>(dataQuery);
-  const [tierIndex, setTier] = useState(defaultData.tierIndex);
+  const [tierIndex, setTierIndex] = useState(defaultData.tierIndex);
+  const [timelineDirection, setTimelineDirection] = useState(0);
   const [categoryId, setCategory] = useState<GearProgressionCategoryId>(
     defaultData.selectedCategory.id,
   );
   const [subcategoryId, setSubcategory] = useState<string>();
 
   useEffect(() => {
-    setTier(0);
+    setTierIndex(0);
   }, [categoryId]);
 
   const selectedCategory = categories.find(c => c.id === categoryId)!;
   const tiers = data.progression.nodes.find(
     node => node.category === categoryId,
   )!.tiers;
+
+  const highestTier = tiers.length - 1;
+  const setTier = useCallback<React.Dispatch<React.SetStateAction<number>>>(
+    action =>
+      setTierIndex(tier =>
+        typeof action === 'number'
+          ? clamp(action, 0, highestTier)
+          : clamp(action(tier), 0, highestTier),
+      ),
+    [highestTier],
+  );
 
   const previous = useGearProgressionTier(
     data,
@@ -122,19 +139,31 @@ export function GearProgressionContextProvider({
     previous,
   );
 
+  const next = useGearProgressionTier(
+    data,
+    tiers,
+    tierIndex + 1,
+    categoryId,
+    subcategoryId,
+    current,
+  );
+
   return (
     <GearProgressionContext.Provider
       value={{
         tierIndex,
-        highestTier: tiers.length - 1,
-        setTier,
-        setCategory,
-        setSubcategory,
+        highestTier,
+        timelineDirection,
         categories,
         selectedCategory,
         selectedSubcategory: subcategoryId,
         current,
         previous,
+        next,
+        setTier,
+        setCategory,
+        setSubcategory,
+        setTimelineDirection,
       }}
     >
       {children}
@@ -154,7 +183,7 @@ function useGearProgressionTier(
   const { calculateSkillTotals } = useQuestsContext();
 
   return useMemo<GearProgressionContextTier>(() => {
-    if (tierIndex < 0 || tiers.length == 0) {
+    if (tierIndex < 0 || tiers.length == 0 || tierIndex >= tiers.length) {
       return emptyTier;
     }
 
