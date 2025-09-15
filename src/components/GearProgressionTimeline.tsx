@@ -1,6 +1,6 @@
 import { getWheelDirection, Stack, throttle } from '@zigurous/forge-react';
 import classNames from 'classnames';
-import React, { useCallback, useEffect, useRef, useState } from 'react';
+import React, { useCallback, useEffect, useRef } from 'react';
 import GearProgressionNotes from './GearProgressionNotes';
 import GearProgressionUpgrades from './GearProgressionUpgrades';
 import { useGearProgressionContext } from '../context';
@@ -9,13 +9,16 @@ type WheelEventHandler = (e: WheelEvent) => any;
 
 export default function GearProgressionTimeline() {
   const context = useGearProgressionContext();
+  const transition = useRef<NodeJS.Timeout>();
   const ref = useRef<HTMLDivElement>(null);
 
   const scroll = useCallback<WheelEventHandler>(
     throttle((e: WheelEvent) => {
       e.preventDefault();
-      context.setTimelineDirection(-getWheelDirection(e));
-    }, 50) as WheelEventHandler,
+      if (!transition.current) {
+        context.setTimelineDirection(-getWheelDirection(e));
+      }
+    }, 100) as WheelEventHandler,
     [context.setTimelineDirection],
   );
 
@@ -43,21 +46,21 @@ export default function GearProgressionTimeline() {
       window.addEventListener('wheel', handleWheel, { passive: false });
       return () => window.removeEventListener('wheel', handleWheel);
     }
-  }, []);
+  }, [ref]);
 
   useEffect(() => {
-    if (context.timelineDirection !== 0) {
-      const lower = context.tierIndex === 0 && context.timelineDirection < 0;
-      const higher =
-        context.tierIndex === context.highestTier &&
-        context.timelineDirection > 0;
+    const direction = context.timelineDirection;
+    if (direction !== 0) {
+      const lower = context.tierIndex === 0 && direction < 0;
+      const higher = context.tierIndex === context.highestTier && direction > 0;
       if (lower || higher) {
         context.setTimelineDirection(0);
       } else {
-        setTimeout(() => {
-          context.setTier(tier => tier + context.timelineDirection);
+        transition.current = setTimeout(() => {
+          transition.current = undefined;
+          context.setTier(tier => tier + direction);
           context.setTimelineDirection(0);
-        }, 400);
+        }, 300);
       }
     }
   }, [context.timelineDirection, context.tierIndex, context.highestTier]);

@@ -56,12 +56,12 @@
 
 .gear-progression__summary.current.transition-down {
   transform: translateY(0);
-  transition: transform 400ms;
+  transition: transform 300ms;
 }
 
 .gear-progression__summary.current.transition-up {
   transform: translateY(-200%);
-  transition: transform 400ms;
+  transition: transform 300ms;
 }
 
 .gear-progression__summary.previous {
@@ -73,7 +73,7 @@
 .gear-progression__summary.previous.transition-in {
   visibility: visible;
   transform: translateY(0);
-  transition: transform 400ms;
+  transition: transform 300ms;
 }
 
 .gear-progression__summary.next {
@@ -85,7 +85,7 @@
 .gear-progression__summary.next.transition-in {
   visibility: visible;
   transform: translateY(-200%);
-  transition: transform 400ms ease-out;
+  transition: transform 300ms ease-out;
 }
 
 li.gear-progression__upgrade {

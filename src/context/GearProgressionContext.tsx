@@ -107,10 +107,9 @@ export function GearProgressionContextProvider({
   }, [categoryId]);
 
   const selectedCategory = categories.find(c => c.id === categoryId)!;
-  const tiers = data.progression.nodes.find(
-    node => node.category === categoryId,
-  )!.tiers;
-
+  const tiers =
+    data.progression.nodes.find(node => node.category === categoryId)?.tiers ??
+    [];
   const highestTier = tiers.length - 1;
   const setTier = useCallback<React.Dispatch<React.SetStateAction<number>>>(
     action =>

@@ -5,6 +5,13 @@ import { useGearProgressionContext } from '../context';
 
 export default function GearProgressionSlider() {
   const context = useGearProgressionContext();
+  const tier =
+    (context.timelineDirection === 0
+      ? context.current
+      : context.timelineDirection > 0
+        ? context.next
+        : context.previous) ?? context.current;
+  const tierIndex = context.tierIndex + context.timelineDirection;
   return (
     <Stack
       align="center"
@@ -16,9 +23,9 @@ export default function GearProgressionSlider() {
         marginBottom="xs"
         type="subtitle"
       >
-        {context.current.title || 'Tutorial Island'}
+        {tier.title || 'Tutorial Island'}
         <Text as="sup" className="ml-xs" color="disabled" type="body-sm">
-          {`${context.tierIndex + 1}`}
+          {`${tierIndex + 1}`}
         </Text>
       </Text>
       <Stack
@@ -28,7 +35,7 @@ export default function GearProgressionSlider() {
         spacing="md"
       >
         <Button
-          disabled={context.tierIndex <= 0}
+          disabled={tierIndex <= 0}
           icon="chevron_left"
           iconProps={{
             color: 'var(--color-silver)',
@@ -43,11 +50,11 @@ export default function GearProgressionSlider() {
           id="tier-range"
           min={0}
           max={context.highestTier}
-          value={context.tierIndex}
+          value={tierIndex}
           onChange={context.setTier}
         />
         <Button
-          disabled={context.tierIndex >= context.highestTier}
+          disabled={tierIndex >= context.highestTier}
           icon="chevron_right"
           iconProps={{
             color: 'var(--color-silver)',
