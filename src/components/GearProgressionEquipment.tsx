@@ -14,7 +14,7 @@ export default function GearProgressionEquipment() {
     <TitledCard
       className="gear-progression-card"
       id="equipment"
-      title="Equipment"
+      title={context.selectedCategory.title}
       captionIcon={
         context.selectedCategory.subcategories && (
           <Stack

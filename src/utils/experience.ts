@@ -44,15 +44,13 @@ export function calculateExperienceForLevel(level: number): number {
   return Math.min(Math.floor(sum / 4), MAX_XP);
 }
 
-export function calculateExpectedHitpointsLevel(
-  attack: number,
-  strength: number,
-  defence: number,
-): number {
-  let xp = getExperienceForLevel(attack) / 3;
-  xp += getExperienceForLevel(strength) / 3;
-  xp += getExperienceForLevel(defence) / 3;
-  return getLevelForExperience(xp);
+export function calculateExpectedHitpointsLevel(skills: SkillLevels): number {
+  let xp = getExperienceForLevel(skills.attack) / 3;
+  xp += getExperienceForLevel(skills.strength) / 3;
+  xp += getExperienceForLevel(skills.defence) / 3;
+  xp += getExperienceForLevel(skills.magic) / 3;
+  xp += getExperienceForLevel(skills.ranged) / 3;
+  return Math.min(getLevelForExperience(xp), 99);
 }
 
 export function convertLevelsToExperience(

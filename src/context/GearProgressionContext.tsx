@@ -37,6 +37,7 @@ export const categories: GearProgressionCategory[] = [
       { id: 'slash', label: 'Slash', icon: 'White_scimitar' },
       { id: 'crush', label: 'Crush', icon: 'White_warhammer' },
       { id: 'spec', label: 'Special', icon: 'Special_attack_orb' },
+      { id: 'slayer', label: 'Slayer', icon: 'Slayer_icon' },
     ],
   },
   {
@@ -262,27 +263,11 @@ function useGearProgressionTier(
       });
     }
 
-    // Set attack and strength as a minimum to defence level
-    if (skillRequirements.defence >= 60) {
-      skillRequirements.attack = Math.max(
-        skillRequirements.attack,
-        skillRequirements.defence,
-      );
-      skillRequirements.strength = Math.max(
-        skillRequirements.strength,
-        skillRequirements.defence,
-      );
-    }
-
     // Set minimum expected hitpoints level
-    if (skillRequirements.hitpoints >= 30) {
+    if (skillRequirements.hitpoints >= 60) {
       skillRequirements.hitpoints = Math.max(
         skillRequirements.hitpoints,
-        calculateExpectedHitpointsLevel(
-          skillRequirements.attack,
-          skillRequirements.strength,
-          skillRequirements.defence,
-        ),
+        calculateExpectedHitpointsLevel(skillRequirements),
       );
     }
 

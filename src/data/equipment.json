@@ -409,7 +409,11 @@
   {
     "id": "Avernic_defender",
     "slot": "shield",
-    "regions": ["morytania/asgarnia"]
+    "regions": ["morytania/asgarnia"],
+    "skillRequirements": [
+      { "skill": "attack", "level": 70 },
+      { "skill": "defence", "level": 70 }
+    ]
   },
   {
     "id": "Avernic_defender#*",
@@ -1454,6 +1458,15 @@
     "id": "Fremennik_sea_boots_4",
     "slot": "feet",
     "regions": ["fremennik"]
+  },
+  {
+    "id": "Ghommal's_avernic_defender_6",
+    "slot": "shield",
+    "regions": ["morytania/asgarnia"],
+    "skillRequirements": [
+      { "skill": "attack", "level": 70 },
+      { "skill": "defence", "level": 70 }
+    ]
   },
   {
     "id": "Ghrazi_rapier",
@@ -2597,6 +2610,30 @@
     ]
   },
   {
+    "id": "Sanguine_torva_full_helm",
+    "slot": "head",
+    "regions": ["asgarnia"],
+    "skillRequirements": [
+      { "skill": "defence", "level": 80 }
+    ]
+  },
+  {
+    "id": "Sanguine_torva_platebody",
+    "slot": "body",
+    "regions": ["asgarnia"],
+    "skillRequirements": [
+      { "skill": "defence", "level": 80 }
+    ]
+  },
+  {
+    "id": "Sanguine_torva_platelegs",
+    "slot": "legs",
+    "regions": ["asgarnia"],
+    "skillRequirements": [
+      { "skill": "defence", "level": 80 }
+    ]
+  },
+  {
     "id": "Sanguinesti_staff",
     "slot": "weapon",
     "tags": ["1h"],
@@ -2967,17 +3004,26 @@
   {
     "id": "Torva_full_helm",
     "slot": "head",
-    "regions": ["asgarnia"]
+    "regions": ["asgarnia"],
+    "skillRequirements": [
+      { "skill": "defence", "level": 80 }
+    ]
   },
   {
     "id": "Torva_platebody",
     "slot": "body",
-    "regions": ["asgarnia"]
+    "regions": ["asgarnia"],
+    "skillRequirements": [
+      { "skill": "defence", "level": 80 }
+    ]
   },
   {
     "id": "Torva_platelegs",
     "slot": "legs",
-    "regions": ["asgarnia"]
+    "regions": ["asgarnia"],
+    "skillRequirements": [
+      { "skill": "defence", "level": 80 }
+    ]
   },
   {
     "id": "Toxic_blowpipe",
@@ -3115,6 +3161,11 @@
     "slot": "weapon",
     "tags": ["2h"],
     "regions": ["karamja"]
+  },
+  {
+    "id": "Tzkal_slayer_helmet",
+    "slot": "head",
+    "regions": ["morytania/asgarnia"]
   },
   {
     "id": "Ultor_ring",
