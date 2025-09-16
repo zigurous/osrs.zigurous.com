@@ -869,7 +869,6 @@
       },
       {
         "title": "Arclight",
-        "questMilestone": "A_Kingdom_Divided",
         "items": ["Rada's_blessing_3"],
         "subcategoryItems": [
           { "id": "Arclight", "subcategory": "slayer" }
@@ -917,7 +916,7 @@
       },
       {
         "title": "Slayer Upgrades",
-        "questMilestone": "The_Fremennik_Exiles",
+        "questMilestone": "Sins_of_the_Father",
         "items": ["Neitiznot_faceguard", "Dragon_boots"],
         "subcategoryItems": [
           { "id": "Dragon_warhammer", "subcategory": "spec" },
@@ -928,6 +927,11 @@
           { "skill": "slayer", "level": 83, "highlight": true }
         ],
         "upgrades": [
+          {
+            "id": "Sins_of_the_Father",
+            "type": "quest",
+            "items": ["Blisterwood_flail", "Drakan's_medallion"]
+          },
           {
             "id": "Basilisk_Knight",
             "type": "slayer",
@@ -1170,6 +1174,41 @@
         ]
       },
       {
+        "title": "General Graardor",
+        "items": ["Bandos_chestplate", "Bandos_tassets"],
+        "stats": [
+          { "skill": "defence", "level": 80, "highlight": true },
+          { "skill": "smithing", "level": 80, "highlight": true }
+        ],
+        "upgrades": [
+          {
+            "id": "General_Graardor",
+            "type": "boss",
+            "icon": "General_Graardor_icon_(mobile)",
+            "items": ["Bandos_hilt", "Bandos_chestplate", "Bandos_tassets", "Bandos_boots"],
+            "subitems": [
+              {
+                "id": "Defence",
+                "type": "defence",
+                "title": "80 defence",
+                "subtitle": "Recommended"
+              }
+            ]
+          },
+          {
+            "id": "Smithing",
+            "type": "smithing",
+            "title": "80 smithing",
+            "subtitle": "Boostable",
+            "items": ["Bandos_godsword"]
+          }
+        ],
+        "notes": [
+          "Bandos armour is the same strength bonus as Blood Moon but it has a lot more defence. It is not strictly needed and probably not worth farming without a Bowfa, but you will eventually need it to repair Torva.",
+          "The Bandos Godsword is a defence-draining spec weapon that is used at a lot of bosses. This is a very useful weapon to have before raiding."
+        ]
+      },
+      {
         "title": "K'ril Tsutsaroth",
         "items": ["Zamorakian_hasta"],
         "subcategoryItems": [
@@ -1264,8 +1303,47 @@
         ]
       },
       {
+        "title": "Doom of Mokhaiotl",
+        "items": ["Avernic_treads"],
+        "stats": [
+          { "skill": "agility", "level": 75 },
+          { "skill": "defence", "level": 80, "highlight": true },
+          { "skill": "ranged", "level": 90, "highlight": true }
+        ],
+        "upgrades": [
+          {
+            "id": "Doom_of_Mokhaiotl",
+            "type": "boss",
+            "icon": "Mokhaiotl_waystone_5",
+            "subtitle": "1-4",
+            "items": ["Avernic_treads", "Eye_of_ayak", "Mokhaiotl_cloth"],
+            "subitems": [
+              {
+                "id": "The_Final_Dawn",
+                "type": "quest"
+              },
+              {
+                "id": "Ranged",
+                "type": "ranged",
+                "title": "90 ranged",
+                "subtitle": "Recommended"
+              }
+            ]
+          },
+          {
+            "id": "Defence",
+            "type": "defence",
+            "title": "80 defence",
+            "subtitle": "To equip boots"
+          }
+        ],
+        "notes": [
+          "Doom is a difficult boss but if you are an experienced player it may be worth grinding now so you can upgrade the boots as you receive drops from Cerberus. It is not strictly required at this time, however."
+        ]
+      },
+      {
         "title": "Cerberus",
-        "items": ["Primordial_boots"],
+        "items": ["Avernic_treads_(max)"],
         "stats": [
           { "skill": "magic", "level": 60, "highlight": true },
           { "skill": "runecraft", "level": 60, "highlight": true },
@@ -1291,6 +1369,9 @@
             "subtitle": "Not boostable",
             "items": ["Primordial_boots", "Pegasian_boots", "Eternal_boots"]
           }
+        ],
+        "notes": [
+          "If you did not previously farm Doom, then the <Link=\"Primordial_boots\">Primordial Boots</Link> will be your best in slot."
         ]
       },
       {
@@ -1306,7 +1387,7 @@
           { "skill": "smithing", "level": 72, "highlight": true },
           { "skill": "crafting", "level": 86, "highlight": true },
           { "skill": "strength", "level": 90 },
-          { "skill": "hitpoints", "level": 90, "highlight": true },
+          { "skill": "hitpoints", "level": 90 },
           { "skill": "slayer", "level": 92, "highlight": true }
         ],
         "upgrades": [
@@ -1391,14 +1472,27 @@
         "title": "Chambers of Xeric",
         "items": [],
         "stats": [
-          { "skill": "prayer", "level": 77, "highlight": true }
+          { "skill": "farming", "level": 55 },
+          { "skill": "thieving", "level": 60 },
+          { "skill": "woodcutting", "level": 60 },
+          { "skill": "mining", "level": 60 },
+          { "skill": "prayer", "level": 77, "highlight": true },
+          { "skill": "herblore", "level": 78, "highlight": true }
         ],
         "upgrades": [
           {
             "id": "Chambers_of_Xeric",
             "type": "raid",
             "icon": "Great_Olm_icon_(mobile)",
-            "items": ["Dexterous_prayer_scroll", "Arcane_prayer_scroll"]
+            "items": ["Dexterous_prayer_scroll", "Arcane_prayer_scroll"],
+            "subitems": [
+              {
+                "id": "Herblore",
+                "type": "herblore",
+                "title": "78 herblore",
+                "subtitle": "Recommended"
+              }
+            ]
           },
           {
             "id": "Prayer",
@@ -1409,14 +1503,16 @@
           }
         ],
         "notes": [
-          "We are only doing Chambers of Xeric for the prayer scrolls to start sending Inferno attempts. The rest of the items will be farmed later."
+          "We are only doing Chambers of Xeric for the prayer scrolls to start sending Inferno attempts. The rest of the items will be farmed later, but if you happen to spoon an item then great!"
         ]
       },
       {
         "title": "Inferno",
         "items": ["Infernal_cape"],
         "stats": [
-          { "skill": "prayer", "level": 80 },
+          { "skill": "prayer", "level": 80, "highlight": true },
+          { "skill": "herblore", "level": 81 },
+          { "skill": "attack", "level": 90 },
           { "skill": "defence", "level": 90, "highlight": true },
           { "skill": "magic", "level": 94, "highlight": true },
           { "skill": "strength", "level": 95 },
@@ -1455,17 +1551,15 @@
         ]
       },
       {
-        "title": "Yama",
-        "questMilestone": "A_Kingdom_Divided",
+        "title": "Oathplate",
         "items": ["Oathplate_helm", "Oathplate_chest", "Oathplate_legs"],
         "subcategoryItems": [
           { "id": "Slayer_helmet_(i)", "subcategory": "slayer" }
         ],
         "stats": [
-          { "skill": "agility", "level": 73, "highlight": true },
           { "skill": "defence", "level": 78, "highlight": true },
-          { "skill": "attack", "level": 85 },
-          { "skill": "magic", "level": 99 }
+          { "skill": "agility", "level": 83 },
+          { "skill": "attack", "level": 85 }
         ],
         "upgrades": [
           {
@@ -1481,7 +1575,7 @@
               {
                 "id": "Agility",
                 "type": "agility",
-                "title": "73 agility",
+                "title": "83 agility",
                 "subtitle": "Recommended"
               }
             ]
@@ -1489,19 +1583,13 @@
         ]
       },
       {
-        "title": "Desert Treasure II",
+        "title": "Ultor Ring",
         "questMilestone": "Desert_Treasure_II_-_The_Fallen_Empire",
-        "items": ["Soulreaper_axe", "Ultor_ring"],
-        "subcategoryItems": [
-          { "id": "Osmumten's_fang", "subcategory": "stab" },
-          { "id": "Soulreaper_axe", "subcategory": "slash" },
-          { "id": "Soulreaper_axe", "subcategory": "crush" },
-          { "id": "Burning_claws", "subcategory": "spec" }
-        ],
+        "items": ["Ultor_ring"],
         "stats": [
           { "skill": "crafting", "level": 80 },
           { "skill": "magic", "level": 90 },
-          { "skill": "attack", "level": 90 },
+          { "skill": "attack", "level": 95 },
           { "skill": "strength", "level": 99 }
         ],
         "upgrades": [
@@ -1512,11 +1600,41 @@
             "items": ["Ring_of_shadows"]
           },
           {
-            "id": "Duke_Sucellus",
+            "id": "Vardorvis",
             "type": "boss",
-            "icon": "Baron",
-            "items": ["Eye_of_the_duke"]
+            "icon": "Butch",
+            "items": ["Ultor_vestige", "Chromium_ingot"]
           },
+          {
+            "id": "Crafting",
+            "type": "crafting",
+            "title": "80 crafting",
+            "subtitle": "Boostable"
+          },
+          {
+            "id": "Magic",
+            "type": "magic",
+            "title": "90 magic",
+            "subtitle": "Boostable"
+          }
+        ],
+        "notes": [
+          "Vardorvis should be your main priority of the Desert Treasure II bosses. The <Link=\"Ultor_ring\">Ultor Ring</Link> is the biggest DPS increase across all of the rings."
+        ]
+      },
+      {
+        "title": "Soulreaper Axe",
+        "items": ["Soulreaper_axe"],
+        "subcategoryItems": [
+          { "id": "Osmumten's_fang", "subcategory": "stab" },
+          { "id": "Soulreaper_axe", "subcategory": "slash" },
+          { "id": "Soulreaper_axe", "subcategory": "crush" },
+          { "id": "Burning_claws", "subcategory": "spec" }
+        ],
+        "stats": [
+          { "skill": "magic", "level": 75 }
+        ],
+        "upgrades": [
           {
             "id": "The_Leviathan",
             "type": "boss",
@@ -1530,66 +1648,86 @@
             "items": ["Siren's_staff"]
           },
           {
+            "id": "Duke_Sucellus",
+            "type": "boss",
+            "icon": "Baron",
+            "items": ["Eye_of_the_duke"]
+          },
+          {
             "id": "Vardorvis",
             "type": "boss",
             "icon": "Butch",
-            "items": ["Ultor_vestige", "Executioner's_axe_head"]
+            "items": ["Executioner's_axe_head"]
           }
+        ],
+        "notes": [
+          "The Soulreaper Axe is a very powerful weapon but it takes a long time to grind. It's a good alternative to the <Link=\"Scythe_of_vitur\">Scythe of Vitur</Link> if you don't plan on farming Theatre of Blood anytime soon."
         ]
       },
       {
-        "title": "Doom of Mokhaiotl",
-        "questMilestone": "The_Final_Dawn",
-        "items": ["Avernic_treads_(max)"],
+        "title": "CoX: Challenge Mode",
+        "items": [],
+        "subcategoryItems": [
+          { "id": "Dragon_claws", "subcategory": "spec" }
+        ],
         "stats": [
-          { "skill": "agility", "level": 75, "highlight": true },
+          { "skill": "farming", "level": 55 },
+          { "skill": "thieving", "level": 75 },
+          { "skill": "woodcutting", "level": 75 },
+          { "skill": "mining", "level": 75, "highlight": true },
+          { "skill": "herblore", "level": 90, "highlight": true },
           { "skill": "attack", "level": 99 },
-          { "skill": "defence", "level": 99 }
+          { "skill": "defence", "level": 99 },
+          { "skill": "magic", "level": 99 }
         ],
         "upgrades": [
           {
-            "id": "Doom_of_Mokhaiotl",
-            "type": "boss",
-            "icon": "Mokhaiotl_waystone_5",
-            "items": ["Avernic_treads", "Eye_of_ayak", "Mokhaiotl_cloth"],
+            "id": "Chambers_of_Xeric/Challenge_Mode",
+            "type": "raid",
+            "icon": "Great_Olm_icon_(mobile)",
+            "title": "Chambers of Xeric",
+            "subtitle": "Challenge Mode",
+            "items": ["Dragon_claws", "Elder_maul"],
             "subitems": [
               {
-                "id": "The_Final_Dawn",
-                "type": "quest"
+                "id": "Mining",
+                "type": "mining",
+                "title": "75 mining",
+                "subtitle": "Recommended"
               },
               {
-                "id": "Agility",
-                "type": "agility",
-                "title": "75 agility",
+                "id": "Herblore",
+                "type": "herblore",
+                "title": "90 herblore",
                 "subtitle": "Recommended"
               }
             ]
           }
+        ],
+        "notes": [
+          "At this point in your gear progression, you should be strong enough to do Challenge Mode for a better chance at uniques.",
+          "Both the Dragon Claws and Elder Maul are best in slot at many bosses across the game, but the Elder Maul is one of 3 very rare drops. The <Link=\"Dragon_warhammer\">Dragon Warhammer</Link> is still a very strong alternative in the meantime."
         ]
       },
       {
-        "title": "Theater of Blood",
-        "questMilestone": "Sins_of_the_Father",
+        "title": "Theatre of Blood",
         "items": ["Scythe_of_vitur", "Avernic_defender"],
         "subcategoryItems": [
           { "id": "Osmumten's_fang", "subcategory": "stab" },
+          { "id": "Avernic_defender", "subcategory": "stab" },
           { "id": "Scythe_of_vitur", "subcategory": "slash" },
           { "id": "Scythe_of_vitur", "subcategory": "crush" },
-          { "id": "Burning_claws", "subcategory": "spec" }
+          { "id": "Dragon_claws", "subcategory": "spec" }
         ],
         "stats": [
           { "skill": "strength", "level": 90, "highlight": true }
         ],
         "upgrades": [
           {
-            "id": "Sins_of_the_Father",
-            "type": "quest",
-            "items": ["Blisterwood_flail", "Drakan's_medallion"]
-          },
-          {
             "id": "Theatre_of_Blood",
             "type": "raid",
             "icon": "Verzik_Vitur_icon_(mobile)",
+            "subtitle": "Normal",
             "items": ["Scythe_of_vitur", "Avernic_defender"],
             "subitems": [
               {
@@ -1604,6 +1742,81 @@
             "title": "90 strength",
             "subtitle": "To equip scythe"
           }
+        ],
+        "notes": [
+          "A lot of our best in slot weapons are 2h so we don't prioritize Avernic Defender sooner, but if you'd like you can do a little bit of Theatre of Blood earlier in your progression since it is the most common drop."
+        ]
+      },
+      {
+        "title": "Nex",
+        "items": [],
+        "subcategoryItems": [
+          { "id": "Torva_full_helm", "subcategory": "stab" },
+          { "id": "Torva_platebody", "subcategory": "stab" },
+          { "id": "Torva_platelegs", "subcategory": "stab" },
+          { "id": "Torva_full_helm", "subcategory": "crush" },
+          { "id": "Torva_platebody", "subcategory": "crush" },
+          { "id": "Torva_platelegs", "subcategory": "crush" }
+        ],
+        "stats": [
+          { "skill": "smithing", "level": 90, "highlight": true }
+        ],
+        "upgrades": [
+          {
+            "id": "The_Frozen_Door",
+            "type": "quest",
+            "subtitle": "Miniquest",
+            "items": ["Frozen_key_(The_Frozen_Door)"]
+          },
+          {
+            "id": "Nex",
+            "type": "boss",
+            "icon": "Nex_icon_(mobile)",
+            "subtitle": "Small teams",
+            "items": ["Torva_full_helm_(damaged)", "Torva_platebody_(damaged)", "Torva_platelegs_(damaged)"]
+          },
+          {
+            "id": "Smithing",
+            "type": "smithing",
+            "title": "90 smithing",
+            "subtitle": "Boostable",
+            "items": ["Torva_full_helm", "Torva_platebody", "Torva_platelegs"]
+          }
+        ],
+        "notes": [
+          "Torva armour gives higher max hits but Oathplate is still better DPS for slash because of its accuracy bonus, thus Torva should be used for non-slash attack styles."
+        ]
+      },
+      {
+        "title": "Nightmare",
+        "items": [],
+        "subcategoryItems": [
+          { "id": "Inquisitor's_great_helm", "subcategory": "crush" },
+          { "id": "Inquisitor's_hauberk", "subcategory": "crush" },
+          { "id": "Inquisitor's_plateskirt", "subcategory": "crush" }
+        ],
+        "upgrades": [
+          {
+            "id": "A_Taste_of_Hope",
+            "type": "quest",
+            "subtitle": "Recommended",
+            "items": ["Drakan's_medallion"]
+          },
+          {
+            "id": "Phosani's_Nightmare",
+            "type": "boss",
+            "icon": "The_Nightmare_icon_(mobile)",
+            "items": [
+              "Inquisitor's_mace",
+              "Inquisitor's_great_helm",
+              "Inquisitor's_hauberk",
+              "Inquisitor's_plateskirt"
+            ]
+          }
+        ],
+        "notes": [
+          "The Inquisitor's mace is best in slot for crush on 1x1 monsters otherwise the Scythe is still better.",
+          "Inquisitor's armour is pretty niche and not worth farming as part of normal progression. It is only good for the crush attack style in a few situations."
         ]
       },
       {
@@ -1657,9 +1870,9 @@
           { "id": "Sanguine_torva_platelegs", "subcategory": "stab" },
           { "id": "Sanguine_scythe_of_vitur", "subcategory": "slash" },
           { "id": "Sanguine_scythe_of_vitur", "subcategory": "crush" },
-          { "id": "Sanguine_torva_full_helm", "subcategory": "crush" },
-          { "id": "Sanguine_torva_platebody", "subcategory": "crush" },
-          { "id": "Sanguine_torva_platelegs", "subcategory": "crush" },
+          { "id": "Inquisitor's_great_helm", "subcategory": "crush" },
+          { "id": "Inquisitor's_hauberk", "subcategory": "crush" },
+          { "id": "Inquisitor's_plateskirt", "subcategory": "crush" },
           { "id": "Dragon_claws_(cr)", "subcategory": "spec" },
           { "id": "Tzkal_slayer_helmet", "subcategory": "slayer" }
         ],

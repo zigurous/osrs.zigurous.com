@@ -879,6 +879,10 @@
     "icon": "Unidentified_large_fossil"
   },
   {
+    "id": "Frozen_key_(The_Frozen_Door)",
+    "name": "Frozen Key"
+  },
+  {
     "id": "Furnace",
     "icon": "Furnace_icon"
   },
