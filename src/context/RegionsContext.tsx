@@ -103,9 +103,9 @@ export function RegionsContextProvider({
   useEffect(() => {
     const options = { replace: true };
     if (selectedRegions.length > 0) {
-      return navigate(`?region=${selectedRegions.join(',')}`, options);
+      navigate(`?region=${selectedRegions.join(',')}`, options);
     } else {
-      return navigate('/region-analyzer', options);
+      navigate('/region-analyzer', options);
     }
   }, [selectedRegions]);
 

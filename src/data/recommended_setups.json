@@ -1,0 +1,435 @@
+[
+  {
+    "id": "Amoxliatl",
+    "title": "Amoxliatl",
+    "loadouts": [
+      {
+        "type": "melee",
+        "equipment": [
+          { "slot": "weapon", "item": "Dragon_mace" },
+          { "slot": "shield", "item": "Dragon_defender" },
+          { "slot": "ammo", "item": "Rada's_blessing_2" },
+          { "slot": "head", "item": "Helm_of_neitiznot" },
+          { "slot": "neck", "item": "Amulet_of_strength" },
+          { "slot": "cape", "item": "Mixed_hide_cape" },
+          { "slot": "body", "item": "Fighter_torso" },
+          { "slot": "legs", "item": "Rune_platelegs" },
+          { "slot": "hands", "item": "Barrows_gloves" },
+          { "slot": "feet", "item": "Mixed_hide_boots" },
+          { "slot": "ring", "item": "Explorer's_ring_1" }
+        ],
+        "inventory": [
+          { "slot": 1, "item": "Attack_potion" },
+          { "slot": 2, "item": "Strength_potion" },
+          { "slot": 3, "item": "Ardougne_cloak_2" },
+          { "slot": 4, "item": "Pendant_of_ates" },
+          { "slot": 5, "item": "Moonlight_moth_mix" },
+          { "slot": 6, "item": "Moonlight_moth_mix" },
+          { "slot": 7, "item": "Moonlight_moth_mix" },
+          { "slot": 8, "item": "Moonlight_moth_mix" },
+          { "slot": 9, "item": "Moonlight_moth_mix" },
+          { "slot": 10, "item": "Moonlight_moth_mix" },
+          { "slot": 11, "item": "Moonlight_moth_mix" },
+          { "slot": 12, "item": "Moonlight_moth_mix" },
+          { "slot": 13, "item": "Cooked_karambwan" },
+          { "slot": 14, "item": "Cooked_karambwan" },
+          { "slot": 15, "item": "Cooked_karambwan" },
+          { "slot": 16, "item": "Cooked_karambwan" },
+          { "slot": 17, "item": "Cooked_karambwan" },
+          { "slot": 18, "item": "Cooked_karambwan" },
+          { "slot": 19, "item": "Cooked_karambwan" },
+          { "slot": 20, "item": "Cooked_karambwan" },
+          { "slot": 28, "item": "Rune_pouch" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Barrows",
+    "title": "Barrows",
+    "loadouts": [
+      {
+        "type": "magic",
+        "equipment": [
+          { "slot": "weapon", "item": "Air_battlestaff" },
+          { "slot": "shield", "item": "Dragon_defender" },
+          { "slot": "ammo", "item": "Sunlight_antler_bolts" },
+          { "slot": "head", "item": "Helm_of_neitiznot" },
+          { "slot": "neck", "item": "Amulet_of_power" },
+          { "slot": "cape", "item": "Ardougne_cloak_2" },
+          { "slot": "body", "item": "Rune_platebody" },
+          { "slot": "legs", "item": "Rune_platelegs" },
+          { "slot": "hands", "item": "Barrows_gloves" },
+          { "slot": "feet", "item": "Climbing_boots" },
+          { "slot": "ring", "item": "Ring_of_dueling" }
+        ],
+        "inventory": [
+          { "slot": 1, "item": "Spade" },
+          { "slot": 2, "item": "Hunters'_sunlight_crossbow" },
+          { "slot": 3, "item": "Arkan_blade" },
+          { "slot": 4, "item": "Dramen_staff" },
+          { "slot": 5, "item": "Moonlight_moth_mix" },
+          { "slot": 6, "item": "Moonlight_moth_mix" },
+          { "slot": 7, "item": "Moonlight_moth_mix" },
+          { "slot": 8, "item": "Moonlight_moth_mix" },
+          { "slot": 9, "item": "Cooked_karambwan" },
+          { "slot": 10, "item": "Cooked_karambwan" },
+          { "slot": 11, "item": "Cooked_karambwan" },
+          { "slot": 12, "item": "Cooked_karambwan" },
+          { "slot": 13, "item": "Cooked_karambwan" },
+          { "slot": 14, "item": "Cooked_karambwan" },
+          { "slot": 15, "item": "Cooked_karambwan" },
+          { "slot": 16, "item": "Cooked_karambwan" },
+          { "slot": 28, "item": "Rune_pouch" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Dagannoth_Rex",
+    "title": "Dagannoth Rex",
+    "strategiesLinkId": "Dagannoth_Kings/Strategies",
+    "loadouts": [
+      {
+        "type": "magic",
+        "equipment": [
+          { "slot": "weapon", "item": "Iban's_staff_(u)" },
+          { "slot": "shield", "item": "Rune_kiteshield" },
+          { "slot": "ammo", "item": "Rada's_blessing_2" },
+          { "slot": "head", "item": "Black_mask_(i)" },
+          { "slot": "neck", "item": "Amulet_of_power" },
+          { "slot": "cape", "item": "Ardougne_cloak_2" },
+          { "slot": "body", "item": "Rune_platebody" },
+          { "slot": "legs", "item": "Rune_platelegs" },
+          { "slot": "hands", "item": "Barrows_gloves" },
+          { "slot": "feet", "item": "Mystic_boots" },
+          { "slot": "ring", "item": "Ring_of_life" }
+        ],
+        "inventory": [
+          { "slot": 1, "item": "Prayer_potion" },
+          { "slot": 2, "item": "Prayer_potion" },
+          { "slot": 3, "item": "Prayer_potion" },
+          { "slot": 4, "item": "Ancient_mace" },
+          { "slot": 5, "item": "Superantipoison" },
+          { "slot": 6, "item": "Superantipoison" },
+          { "slot": 7, "item": "Superantipoison" },
+          { "slot": 8, "item": "Super_defence" },
+          { "slot": 9, "item": "Pineapple_pizza" },
+          { "slot": 10, "item": "Pineapple_pizza" },
+          { "slot": 11, "item": "Pineapple_pizza" },
+          { "slot": 12, "item": "Pineapple_pizza" },
+          { "slot": 13, "item": "Pineapple_pizza" },
+          { "slot": 14, "item": "Pineapple_pizza" },
+          { "slot": 15, "item": "Pineapple_pizza" },
+          { "slot": 16, "item": "Pineapple_pizza" },
+          { "slot": 17, "item": "Pineapple_pizza" },
+          { "slot": 18, "item": "Pineapple_pizza" },
+          { "slot": 19, "item": "Pineapple_pizza" },
+          { "slot": 20, "item": "Pineapple_pizza" },
+          { "slot": 21, "item": "Pineapple_pizza" },
+          { "slot": 22, "item": "Pineapple_pizza" },
+          { "slot": 23, "item": "Pineapple_pizza" },
+          { "slot": 24, "item": "Pineapple_pizza" },
+          { "slot": 25, "item": "Herb_sack" },
+          { "slot": 26, "item": "Pet_rock" },
+          { "slot": 27, "item": "Rune_thrownaxe" },
+          { "slot": 28, "item": "Rune_pouch" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Deranged_archaeologist",
+    "title": "Deranged Archaeologist",
+    "loadouts": [
+      {
+        "type": "magic",
+        "equipment": [
+          { "slot": "weapon", "item": "Iban's_staff_(u)" },
+          { "slot": "shield", "item": "Damaged_book" },
+          { "slot": "ammo", "item": "Rada's_blessing_2" },
+          { "slot": "head", "item": "Helm_of_neitiznot" },
+          { "slot": "neck", "item": "Amulet_of_power" },
+          { "slot": "cape", "item": "Ardougne_cloak_2" },
+          { "slot": "body", "item": "Monk's_robe_top" },
+          { "slot": "legs", "item": "Monk's_robe" },
+          { "slot": "hands", "item": "Barrows_gloves" },
+          { "slot": "feet", "item": "Mystic_boots" },
+          { "slot": "ring", "item": "Ring_of_dueling" }
+        ],
+        "inventory": [
+          { "slot": 1, "item": "Antipoison" },
+          { "slot": 2, "item": "Prayer_potion" },
+          { "slot": 3, "item": "Prayer_potion" },
+          { "slot": 4, "item": "Prayer_potion" },
+          { "slot": 5, "item": "Cooked_karambwan" },
+          { "slot": 6, "item": "Cooked_karambwan" },
+          { "slot": 7, "item": "Cooked_karambwan" },
+          { "slot": 8, "item": "Cooked_karambwan" },
+          { "slot": 9, "item": "Cooked_karambwan" },
+          { "slot": 10, "item": "Cooked_karambwan" },
+          { "slot": 11, "item": "Cooked_karambwan" },
+          { "slot": 12, "item": "Cooked_karambwan" },
+          { "slot": 13, "item": "Cooked_karambwan" },
+          { "slot": 14, "item": "Cooked_karambwan" },
+          { "slot": 15, "item": "Cooked_karambwan" },
+          { "slot": 16, "item": "Cooked_karambwan" },
+          { "slot": 25, "item": "Digsite_pendant" },
+          { "slot": 26, "item": "Dragon_axe" },
+          { "slot": 27, "item": "Rake" },
+          { "slot": 28, "item": "Rune_pouch" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Moons_of_Peril",
+    "title": "Moons of Peril",
+    "loadouts": [
+      {
+        "type": "melee",
+        "equipment": [
+          { "slot": "weapon", "item": "Zombie_axe" },
+          { "slot": "shield", "item": "Dragon_defender" },
+          { "slot": "ammo", "item": "Rada's_blessing_2" },
+          { "slot": "head", "item": "Helm_of_neitiznot" },
+          { "slot": "neck", "item": "Amulet_of_strength" },
+          { "slot": "cape", "item": "Fire_cape" },
+          { "slot": "body", "item": "Fighter_torso" },
+          { "slot": "legs", "item": "Verac's_plateskirt" },
+          { "slot": "hands", "item": "Barrows_gloves" },
+          { "slot": "feet", "item": "Mixed_hide_boots" },
+          { "slot": "ring", "item": "Berserker_ring_(i)" }
+        ],
+        "inventory": [
+          { "slot": 1, "item": "Arkan_blade" },
+          { "slot": 2, "item": "Glacial_temotli" },
+          { "slot": 3, "item": "Dharok's_greataxe" },
+          { "slot": 5, "item": "Moonlight_potion" },
+          { "slot": 6, "item": "Moonlight_potion" },
+          { "slot": 7, "item": "Moonlight_potion" },
+          { "slot": 8, "item": "Moonlight_potion" },
+          { "slot": 9, "item": "Raw_moss_lizard" },
+          { "slot": 10, "item": "Raw_moss_lizard" },
+          { "slot": 11, "item": "Raw_moss_lizard" },
+          { "slot": 12, "item": "Raw_moss_lizard" },
+          { "slot": 13, "item": "Cooked_moss_lizard" },
+          { "slot": 14, "item": "Cooked_moss_lizard" },
+          { "slot": 15, "item": "Cooked_moss_lizard" },
+          { "slot": 16, "item": "Cooked_moss_lizard" },
+          { "slot": 17, "item": "Cooked_moss_lizard" },
+          { "slot": 18, "item": "Cooked_moss_lizard" },
+          { "slot": 19, "item": "Cooked_moss_lizard" },
+          { "slot": 20, "item": "Cooked_moss_lizard" },
+          { "slot": 21, "item": "Cooked_moss_lizard" },
+          { "slot": 22, "item": "Cooked_moss_lizard" },
+          { "slot": 23, "item": "Cooked_moss_lizard" },
+          { "slot": 24, "item": "Cooked_moss_lizard" },
+          { "slot": 25, "item": "Pestle_and_mortar" },
+          { "slot": 26, "item": "Big_fishing_net" },
+          { "slot": 27, "item": "Rope" },
+          { "slot": 28, "item": "Rune_pouch" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Royal_Titans",
+    "title": "Royal Titans",
+    "loadouts": [
+      {
+        "type": "hybrid",
+        "equipment": [
+          { "slot": "weapon", "item": "Dual_macuahuitl" },
+          { "slot": "ammo", "item": "Atlatl_dart" },
+          { "slot": "head", "item": "Blood_moon_helm" },
+          { "slot": "neck", "item": "Amulet_of_strength" },
+          { "slot": "cape", "item": "Ava's_accumulator" },
+          { "slot": "body", "item": "Blood_moon_chestplate" },
+          { "slot": "legs", "item": "Blood_moon_tassets" },
+          { "slot": "hands", "item": "Barrows_gloves" },
+          { "slot": "feet", "item": "Climbing_boots" },
+          { "slot": "ring", "item": "Berserker_ring_(i)" }
+        ],
+        "inventory": [
+          { "slot": 1, "item": "Eclipse_atlatl" },
+          { "slot": 2, "item": "Eclipse_moon_helm" },
+          { "slot": 3, "item": "Air_battlestaff" },
+          { "slot": 4, "item": "Blue_moon_helm" },
+          { "slot": 5, "item": "Eclipse_moon_chestplate" },
+          { "slot": 6, "item": "Eclipse_moon_tassets" },
+          { "slot": 7, "item": "Blue_moon_chestplate" },
+          { "slot": 8, "item": "Blue_moon_tassets" },
+          { "slot": 9, "item": "Super_attack" },
+          { "slot": 10, "item": "Super_strength" },
+          { "slot": 11, "item": "Prayer_potion" },
+          { "slot": 12, "item": "Prayer_potion" },
+          { "slot": 13, "item": "Prayer_potion" },
+          { "slot": 14, "item": "Prayer_potion" },
+          { "slot": 15, "item": "Prayer_potion" },
+          { "slot": 16, "item": "Prayer_potion" },
+          { "slot": 17, "item": "Cooked_karambwan" },
+          { "slot": 18, "item": "Cooked_karambwan" },
+          { "slot": 19, "item": "Cooked_karambwan" },
+          { "slot": 20, "item": "Cooked_karambwan" },
+          { "slot": 21, "item": "Cooked_karambwan" },
+          { "slot": 22, "item": "Cooked_karambwan" },
+          { "slot": 23, "item": "Cooked_karambwan" },
+          { "slot": 24, "item": "Cooked_karambwan" },
+          { "slot": 25, "item": "Arkan_blade" },
+          { "slot": 26, "item": "Giantsoul_amulet" },
+          { "slot": 27, "item": "Ardougne_cloak_2" },
+          { "slot": 28, "item": "Rune_pouch" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Tormented_Demon",
+    "title": "Tormented Demons",
+    "loadouts": [
+      {
+        "type": "melee/mage",
+        "equipment": [
+          { "slot": "weapon", "item": "Arclight" },
+          { "slot": "shield", "item": "Dragon_defender" },
+          { "slot": "ammo", "item": "Rada's_blessing_3" },
+          { "slot": "head", "item": "Slayer_helmet_(i)" },
+          { "slot": "neck", "item": "Amulet_of_strength" },
+          { "slot": "cape", "item": "Fire_cape" },
+          { "slot": "body", "item": "Blue_moon_chestplate" },
+          { "slot": "legs", "item": "Blue_moon_tassets" },
+          { "slot": "hands", "item": "Barrows_gloves" },
+          { "slot": "feet", "item": "Dragon_boots" },
+          { "slot": "ring", "item": "Berserker_ring_(i)" }
+        ],
+        "inventory": [
+          { "slot": 1, "item": "Blue_moon_spear" },
+          { "slot": 2, "item": "Dragon_dagger(p)" },
+          { "slot": 3, "item": "Dharok's_greataxe" },
+          { "slot": 5, "item": "Imbued_saradomin_cape" },
+          { "slot": 6, "item": "Super_attack" },
+          { "slot": 7, "item": "Super_strength" },
+          { "slot": 8, "item": "Prayer_potion" },
+          { "slot": 9, "item": "Prayer_potion" },
+          { "slot": 10, "item": "Prayer_potion" },
+          { "slot": 11, "item": "Prayer_potion" },
+          { "slot": 12, "item": "Prayer_potion" },
+          { "slot": 13, "item": "Cooked_karambwan" },
+          { "slot": 14, "item": "Cooked_karambwan" },
+          { "slot": 15, "item": "Cooked_karambwan" },
+          { "slot": 16, "item": "Cooked_karambwan" },
+          { "slot": 17, "item": "Cooked_karambwan" },
+          { "slot": 18, "item": "Cooked_karambwan" },
+          { "slot": 19, "item": "Cooked_karambwan" },
+          { "slot": 20, "item": "Cooked_karambwan" },
+          { "slot": 21, "item": "Cooked_karambwan" },
+          { "slot": 22, "item": "Cooked_karambwan" },
+          { "slot": 23, "item": "Cooked_karambwan" },
+          { "slot": 24, "item": "Soul_rune" },
+          { "slot": 25, "item": "Games_necklace" },
+          { "slot": 26, "item": "Sapphire_lantern_(lit)" },
+          { "slot": 27, "item": "Book_of_the_dead" },
+          { "slot": 28, "item": "Rune_pouch" }
+        ]
+      },
+      {
+        "type": "melee/range",
+        "equipment": [
+          { "slot": "weapon", "item": "Arclight" },
+          { "slot": "shield", "item": "Dragon_defender" },
+          { "slot": "ammo", "item": "Atlatl_dart" },
+          { "slot": "head", "item": "Slayer_helmet_(i)" },
+          { "slot": "neck", "item": "Amulet_of_strength" },
+          { "slot": "cape", "item": "Fire_cape" },
+          { "slot": "body", "item": "Eclipse_moon_chestplate" },
+          { "slot": "legs", "item": "Eclipse_moon_tassets" },
+          { "slot": "hands", "item": "Barrows_gloves" },
+          { "slot": "feet", "item": "Dragon_boots" },
+          { "slot": "ring", "item": "Berserker_ring_(i)" }
+        ],
+        "inventory": [
+          { "slot": 1, "item": "Eclipse_atlatl" },
+          { "slot": 2, "item": "Dragon_dagger(p)" },
+          { "slot": 3, "item": "Dharok's_greataxe" },
+          { "slot": 5, "item": "Ava's_accumulator" },
+          { "slot": 6, "item": "Super_attack" },
+          { "slot": 7, "item": "Super_strength" },
+          { "slot": 8, "item": "Prayer_potion" },
+          { "slot": 9, "item": "Prayer_potion" },
+          { "slot": 10, "item": "Prayer_potion" },
+          { "slot": 11, "item": "Prayer_potion" },
+          { "slot": 12, "item": "Prayer_potion" },
+          { "slot": 13, "item": "Cooked_karambwan" },
+          { "slot": 14, "item": "Cooked_karambwan" },
+          { "slot": 15, "item": "Cooked_karambwan" },
+          { "slot": 16, "item": "Cooked_karambwan" },
+          { "slot": 17, "item": "Cooked_karambwan" },
+          { "slot": 18, "item": "Cooked_karambwan" },
+          { "slot": 19, "item": "Cooked_karambwan" },
+          { "slot": 20, "item": "Cooked_karambwan" },
+          { "slot": 21, "item": "Cooked_karambwan" },
+          { "slot": 22, "item": "Cooked_karambwan" },
+          { "slot": 23, "item": "Cooked_karambwan" },
+          { "slot": 24, "item": "Soul_rune" },
+          { "slot": 25, "item": "Games_necklace" },
+          { "slot": 26, "item": "Sapphire_lantern_(lit)" },
+          { "slot": 27, "item": "Book_of_the_dead" },
+          { "slot": 28, "item": "Rune_pouch" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "TzHaar_Fight_Cave",
+    "title": "Fight Cave",
+    "loadouts": [
+      {
+        "type": "ranged",
+        "equipment": [
+          { "slot": "weapon", "item": "Hunters'_sunlight_crossbow" },
+          { "slot": "shield", "item": "Rune_sq_shield" },
+          { "slot": "ammo", "item": "Sunlight_antler_bolts" },
+          { "slot": "head", "item": "Helm_of_neitiznot" },
+          { "slot": "neck", "item": "Holy_symbol" },
+          { "slot": "cape", "item": "Ardougne_cloak_2" },
+          { "slot": "body", "item": "Karil's_leathertop" },
+          { "slot": "legs", "item": "Karil's_leatherskirt" },
+          { "slot": "hands", "item": "Barrows_gloves" },
+          { "slot": "feet", "item": "Mixed_hide_boots" },
+          { "slot": "ring", "item": "Steel_ring" }
+        ],
+        "inventory": [
+          { "slot": 1, "item": "Ranging_potion" },
+          { "slot": 2, "item": "Prayer_potion" },
+          { "slot": 3, "item": "Prayer_potion" },
+          { "slot": 4, "item": "Prayer_potion" },
+          { "slot": 5, "item": "Prayer_potion" },
+          { "slot": 6, "item": "Prayer_potion" },
+          { "slot": 7, "item": "Prayer_potion" },
+          { "slot": 8, "item": "Prayer_potion" },
+          { "slot": 9, "item": "Prayer_potion" },
+          { "slot": 10, "item": "Prayer_potion" },
+          { "slot": 11, "item": "Prayer_potion" },
+          { "slot": 12, "item": "Prayer_potion" },
+          { "slot": 13, "item": "Prayer_potion" },
+          { "slot": 14, "item": "Prayer_potion" },
+          { "slot": 15, "item": "Prayer_potion" },
+          { "slot": 16, "item": "Prayer_potion" },
+          { "slot": 17, "item": "Prayer_potion" },
+          { "slot": 18, "item": "Prayer_potion" },
+          { "slot": 19, "item": "Cooked_karambwan" },
+          { "slot": 20, "item": "Cooked_karambwan" },
+          { "slot": 21, "item": "Ancient_mace" },
+          { "slot": 22, "item": "Cooked_karambwan" },
+          { "slot": 23, "item": "Cooked_karambwan" },
+          { "slot": 24, "item": "Cooked_karambwan" },
+          { "slot": 25, "item": "Ancient_staff" },
+          { "slot": 26, "item": "Mystic_robe_top" },
+          { "slot": 27, "item": "Mystic_robe_bottom" },
+          { "slot": 28, "item": "Rune_pouch" }
+        ]
+      }
+    ]
+  }
+]

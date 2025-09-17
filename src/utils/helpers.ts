@@ -114,6 +114,10 @@ export function getIconForSortingGroup(
     case 'melee':
     case 'ranged':
     case 'magic':
+    case 'hybrid':
+    case 'stab':
+    case 'slash':
+    case 'crush':
       return getIconForCombatStyle(sortingGroup as CombatStyle);
     case 'attack':
     case 'strength':
@@ -168,6 +172,9 @@ export function getIconForCombatStyle(style: CombatStyle): string | undefined {
     case 'ranged': return 'Ranged_icon';
     case 'magic': return 'Magic_icon';
     case 'hybrid': return 'Hybrid';
+    case 'stab': return 'White_dagger';
+    case 'slash': return 'White_scimitar';
+    case 'crush': return 'White_warhammer';
     // Fallback to skill icons since some bosses and activities are
     // skilling-based combat activities, e.g., Wintertodt, Tempoross, etc.
     default: return getIconForSkill(style as Skill);

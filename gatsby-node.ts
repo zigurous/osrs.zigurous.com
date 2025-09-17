@@ -90,6 +90,7 @@ export const createSchemaCustomization = ({
       icon: String
       title: String
       subtitle: String
+      setupId: String
     }
     type GuildsJson implements Node @dontInfer {
       jsonId: String!
@@ -188,6 +189,25 @@ export const createSchemaCustomization = ({
       sortingGroups: [String!]!
       recommendedCombatStyle: [String!]!
       notableDrops: [String!]!
+    }
+    type RecommendedSetupsJson implements Node @dontInfer {
+      jsonId: String!
+      title: String!
+      strategiesLinkId: String
+      loadouts: [RecommendedSetupLoadout!]!
+    }
+    type RecommendedSetupLoadout {
+      type: String!
+      equipment: [RecommendedSetupEquipmentItem!]!
+      inventory: [RecommendedSetupInventoryItem!]!
+    }
+    type RecommendedSetupEquipmentItem {
+      slot: String!
+      item: String!
+    }
+    type RecommendedSetupInventoryItem {
+      slot: Int!
+      item: String!
     }
     type RegionsJson implements Node @dontInfer {
       jsonId: String!

@@ -13,6 +13,7 @@ export default function TermsAndConditions({
   return (
     <Modal
       closeOnScrimClick
+      id="terms-and-conditions"
       onRequestClose={onRequestClose}
       open={open}
       size="xl"

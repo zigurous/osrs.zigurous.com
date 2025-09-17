@@ -6,7 +6,7 @@ import GearProgressionEquipment from '../components/GearProgressionEquipment';
 import GearProgressionSlider from '../components/GearProgressionSlider';
 import GearProgressionStats from '../components/GearProgressionStats';
 import GearProgressionTimeline from '../components/GearProgressionTimeline';
-import { EquipmentContextProvider, GearProgressionContextProvider, ItemsContextProvider, QuestsContextProvider, useGearProgressionContext } from '../context'; // prettier-ignore
+import { EquipmentContextProvider, GearProgressionContextProvider, ItemsContextProvider, QuestsContextProvider, RecommendedSetupsContextProvider, useGearProgressionContext } from '../context'; // prettier-ignore
 import { categories } from '../context/GearProgressionContext';
 import '../styles/gear-progression.css';
 
@@ -46,7 +46,9 @@ function ContextProviders({ children }: ContextProvidersProps) {
       <EquipmentContextProvider>
         <QuestsContextProvider>
           <GearProgressionContextProvider>
-            {children}
+            <RecommendedSetupsContextProvider>
+              {children}
+            </RecommendedSetupsContextProvider>
           </GearProgressionContextProvider>
         </QuestsContextProvider>
       </EquipmentContextProvider>

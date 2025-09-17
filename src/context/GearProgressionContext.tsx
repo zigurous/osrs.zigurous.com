@@ -328,6 +328,7 @@ const dataQuery = graphql`
               icon
               title
               subtitle
+              setupId
             }
           }
           notes

@@ -1,0 +1,7 @@
+ol.item-inventory {
+  display: grid;
+  gap: var(--spacing-xxs) var(--spacing-xs);
+  grid-template-columns: repeat(4, var(--spacing-xxxl));
+  grid-template-rows: repeat(7, var(--spacing-xxxl));
+  flex-grow: 0;
+}

@@ -1,10 +1,10 @@
-import { Stack, Text } from '@zigurous/forge-react';
+import { Button, Stack, Text } from '@zigurous/forge-react';
 import classNames from 'classnames';
 import React from 'react';
 import ItemFrame from './ItemFrame';
 import WikiIcon from './WikiIcon';
 import WikiLink from './WikiLink';
-import { useItemsContext } from '../context';
+import { useItemsContext, useRecommendedSetupsContext } from '../context';
 import { formatNameFromId, getIconForSkill, getIconForSortingGroup } from '../utils'; // prettier-ignore
 import type { GearProgressionUpgrade, Skill } from '../types';
 
@@ -16,6 +16,7 @@ export default function GearProgressionUpgrades({
   upgrades,
 }: GearProgressionUpgradesProps) {
   const itemsContext = useItemsContext();
+  const { viewSetup } = useRecommendedSetupsContext();
   if (!upgrades || upgrades.length === 0) return null;
   return (
     <ul className="gear-progression__upgrades w-full">
@@ -70,34 +71,57 @@ export default function GearProgressionUpgrades({
               })}
               key={subitem.id}
             >
-              <div className="relative">
-                <WikiLink
-                  className="gear-progression__upgrade-link px-md py-sm"
-                  wikiId={subitem.id}
+              {subitem.setupId ? (
+                <Stack
+                  align="center"
+                  className="relative px-sm py-xs"
+                  onClick={() => viewSetup(subitem.setupId!)}
+                  style={{ minHeight: '38px' }}
                 >
-                  <WikiIcon
-                    icon={subitem.icon || getIconForType(subitem)}
-                    size={18}
-                    style={{
-                      marginLeft: '1px',
-                      marginRight: 'calc(var(--spacing-sm) + 1px)',
-                    }}
-                  />
-                  <Text type="body-sm">
-                    {subitem.title || formatNameFromId(subitem.id)}
-                    {subitem.subtitle && (
-                      <Text
-                        as="span"
-                        className="ml-sm"
-                        color="muted"
-                        type="caption"
-                      >
-                        {subitem.subtitle}
-                      </Text>
-                    )}
-                  </Text>
-                </WikiLink>
-              </div>
+                  {(subitem.icon || subitem.type !== 'setup') && (
+                    <WikiIcon
+                      icon={subitem.icon || getIconForType(subitem)}
+                      size={18}
+                      style={{
+                        marginLeft: '1px',
+                        marginRight: 'calc(var(--spacing-sm) + 1px)',
+                      }}
+                    />
+                  )}
+                  <Button
+                    className="gear-progression__view-setup-btn"
+                    size="xs"
+                  >
+                    View Recommended Setup
+                  </Button>
+                </Stack>
+              ) : (
+                <div className="relative">
+                  <WikiLink
+                    className="gear-progression__upgrade-link px-md py-xs"
+                    wikiId={subitem.id}
+                  >
+                    <WikiIcon
+                      className="mr-sm"
+                      icon={subitem.icon || getIconForType(subitem)}
+                      size={18}
+                    />
+                    <Text type="body-sm">
+                      {subitem.title || formatNameFromId(subitem.id)}
+                      {subitem.subtitle && (
+                        <Text
+                          as="span"
+                          className="ml-sm"
+                          color="muted"
+                          type="caption"
+                        >
+                          {subitem.subtitle}
+                        </Text>
+                      )}
+                    </Text>
+                  </WikiLink>
+                </div>
+              )}
             </li>
           ))}
         </React.Fragment>

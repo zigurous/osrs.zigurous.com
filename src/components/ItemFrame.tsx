@@ -29,7 +29,8 @@ export default function ItemFrame({
   const [hovering, setHovering] = useState(false);
   const { getItemById } = useItemsContext();
 
-  if (!item) return <ItemFrameEmpty border={border} className={className} />;
+  if (!item)
+    return <ItemFrameEmpty border={border} className={className} size={size} />;
   const CustomFrame = customFrames.find(frame => item.id.startsWith(frame.id));
   if (CustomFrame) return <CustomFrame.Component border={border} item={item} />;
 
@@ -133,7 +134,7 @@ const customFrames = [
   { id: '#equals', Component: ItemFrameEquals },
 ];
 
-function ItemFrameEmpty({ border, className }: ItemFrameProps) {
+function ItemFrameEmpty({ border, className, size }: ItemFrameProps) {
   return (
     <span
       className={classNames(
@@ -141,6 +142,9 @@ function ItemFrameEmpty({ border, className }: ItemFrameProps) {
         'item-frame--empty',
         {
           'item-frame--border': border,
+        },
+        {
+          [`item-frame--${size}`]: size,
         },
         className,
       )}

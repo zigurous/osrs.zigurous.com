@@ -136,17 +136,37 @@ textarea::placeholder {
   --color-background: black;
 }
 
-.modal__content {
+.modal__header {
   background-color: var(--color-surface-2);
 }
 
-.modal__title {
-  font-size: var(--text-title-md);
+.modal__content {
+  background-color: var(--color-surface-3);
 }
 
 .modal__body > h1,
 .modal__body > h2 {
   margin-bottom: var(--spacing-sm);
+}
+
+.modal__close-button:not(:disabled):hover,
+.modal__close-button:not(:disabled):active,
+.modal__close-button:not(:disabled).active {
+  background-color: var(--color-surface-1);
+}
+
+.modal#privacy-policy .modal__content,
+.modal#terms-and-conditions .modal__content {
+  background-color: var(--color-surface-2);
+}
+
+.modal#privacy-policy .modal__title,
+.modal#terms-and-conditions .modal__title {
+  font-size: var(--text-title-md);
+}
+
+.modal#recommended-setup .modal__header {
+  padding: var(--spacing-md) var(--spacing-lg);
 }
 
 @media (max-width: 816px) {

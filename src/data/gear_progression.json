@@ -456,6 +456,7 @@
         "questMilestone": "The_Final_Dawn",
         "items": ["Arkan_blade", "Mixed_hide_cape", "Mixed_hide_boots"],
         "stats": [
+          { "skill": "ranged", "level": 66 },
           { "skill": "hunter", "level": 72, "highlight": true }
         ],
         "subcategoryItems": [
@@ -488,6 +489,11 @@
               {
                 "id": "The_Heart_of_Darkness",
                 "type": "quest"
+              },
+              {
+                "id": "Setup",
+                "type": "melee",
+                "setupId": "Amoxliatl"
               }
             ]
           },
@@ -570,62 +576,19 @@
         ]
       },
       {
-        "title": "Barrows",
-        "items": ["Dharok's_platelegs"],
-        "stats": [
-          { "skill": "magic", "level": 70 },
-          { "skill": "attack", "level": 70 },
-          { "skill": "strength", "level": 70 },
-          { "skill": "defence", "level": 70, "highlight": true }
-        ],
-        "upgrades": [
-          {
-            "id": "Barrows",
-            "type": "boss",
-            "icon": "Barrows_Brothers_icon_(mobile)",
-            "items": ["Verac's_helm", "Karil's_leathertop", "Dharok's_platelegs"],
-            "subitems": [
-              {
-                "id": "Magic",
-                "type": "magic",
-                "title": "Magic setup",
-                "subtitle": "Recommended"
-              }
-            ]
-          },
-          {
-            "id": "Defence",
-            "type": "defence",
-            "title": "70 defence",
-            "subtitle": "To equip armour"
-          }
-        ],
-        "notes": [
-          "Upcoming grinds will benefit from having tank armour. At a minimum you want to get tank legs since that slot is harder to acquire strength bonus.",
-          "Other items to look out for are Karil's and Ahrim's for non-melee combat styles. A <Link=\"Karil's_leathertop\">Karil's Leathertop</Link> is particularly useful for its magic defence bonus and is sometimes used with melee setups."
-        ]
-      },
-      {
-        "title": "Dagannoth Kings",
+        "title": "Dagannoth Rex",
         "items": ["Berserker_ring_(i)"],
         "upgrades": [
           {
-            "id": "Dagannoth_Kings",
+            "id": "Dagannoth_Rex",
             "type": "boss",
             "icon": "Dagannoth_Kings_icon_(mobile)",
             "items": ["Berserker_ring", "Dragon_axe"],
             "subitems": [
               {
-                "id": "Magic",
+                "id": "Setup",
                 "type": "magic",
-                "title": "Magic setup",
-                "subtitle": "Recommended"
-              },
-              {
-                "id": "Defence",
-                "type": "defence",
-                "title": "Tank armour",
-                "subtitle": "Recommended"
+                "setupId": "Dagannoth_Rex"
               }
             ]
           },
@@ -638,7 +601,43 @@
         ],
         "notes": [
           "The only Dagannoth King worth killing right now is <Link=\"Dagannoth_Rex\">Dagannoth Rex</Link>. The other kings are harder to kill for which the rings are very marginal upgrades.",
-          "A Dagannoth slayer task will make this easier if you have a <Link=\"Black_mask_(i)\">Black Mask (i)</Link> but is not needed."
+          "A Dagannoth slayer task will make this easier if you have a <Link=\"Black_mask_(i)\">Black Mask (i)</Link> but it is not required.",
+          "You can wait to do this grind after Barrows for an easier time, but Rune armour is tanky enough."
+        ]
+      },
+      {
+        "title": "Barrows",
+        "items": ["Verac's_plateskirt"],
+        "stats": [
+          { "skill": "magic", "level": 70 },
+          { "skill": "attack", "level": 70 },
+          { "skill": "strength", "level": 70 },
+          { "skill": "defence", "level": 70, "highlight": true }
+        ],
+        "upgrades": [
+          {
+            "id": "Barrows",
+            "type": "boss",
+            "icon": "Barrows_Brothers_icon_(mobile)",
+            "items": ["Verac's_helm", "Karil's_leathertop", "Verac's_plateskirt"],
+            "subitems": [
+              {
+                "id": "Setup",
+                "type": "magic",
+                "setupId": "Barrows"
+              }
+            ]
+          },
+          {
+            "id": "Defence",
+            "type": "defence",
+            "title": "70 defence",
+            "subtitle": "To equip armour"
+          }
+        ],
+        "notes": [
+          "A lot of grinds in the game benefit from having tank armour. At a minimum you want to get tank legs since the slot is harder to acquire strength bonus.",
+          "Karil's and Ahrim's armour is pretty good for ranged and magic and are generally more sought after."
         ]
       },
       {
@@ -652,7 +651,14 @@
             "id": "Deranged_archaeologist",
             "type": "boss",
             "icon": "Unidentified_small_fossil",
-            "items": ["Steel_ring", "Black_d'hide_body"]
+            "items": ["Steel_ring"],
+            "subitems": [
+              {
+                "id": "Setup",
+                "type": "magic",
+                "setupId": "Deranged_archaeologist"
+              }
+            ]
           },
           {
             "id": "TzHaar_Fight_Cave",
@@ -666,7 +672,7 @@
                 "id": "TzHaar_Fight_Cave/Strategies#Equipment",
                 "type": "ranged",
                 "title": "70 ranged setup",
-                "subtitle": "Recommended"
+                "setupId": "TzHaar_Fight_Cave"
               }
             ]
           }
@@ -746,47 +752,9 @@
             "type": "quest"
           },
           {
-            "id": "Eclipse_Moon",
+            "id": "Moons_of_Peril",
             "type": "boss",
-            "icon": "White_dagger",
-            "items": [
-              "Eclipse_atlatl",
-              "Eclipse_moon_helm",
-              "Eclipse_moon_chestplate",
-              "Eclipse_moon_tassets"
-            ],
-            "subitems": [
-              {
-                "id": "Ranged",
-                "type": "ranged",
-                "title": "75 ranged",
-                "subtitle": "To equip"
-              }
-            ]
-          },
-          {
-            "id": "Blue_Moon",
-            "type": "boss",
-            "icon": "White_warhammer",
-            "items": [
-              "Blue_moon_spear",
-              "Blue_moon_helm",
-              "Blue_moon_chestplate",
-              "Blue_moon_tassets"
-            ],
-            "subitems": [
-              {
-                "id": "Magic",
-                "type": "magic",
-                "title": "75 magic",
-                "subtitle": "To equip"
-              }
-            ]
-          },
-          {
-            "id": "Blood_Moon",
-            "type": "boss",
-            "icon": "White_scimitar",
+            "icon": "Varlamore_crest",
             "items": [
               "Dual_macuahuitl",
               "Blood_moon_helm",
@@ -795,12 +763,29 @@
             ],
             "subitems": [
               {
-                "id": "Strength",
-                "type": "strength",
-                "title": "75 strength",
-                "subtitle": "To equip"
+                "id": "Setup",
+                "type": "melee",
+                "setupId": "Moons_of_Peril"
               }
             ]
+          },
+          {
+            "id": "Strength",
+            "type": "strength",
+            "title": "75 strength",
+            "subtitle": "To equip blood moon"
+          },
+          {
+            "id": "Ranged",
+            "type": "ranged",
+            "title": "75 ranged",
+            "subtitle": "To equip eclipse moon"
+          },
+          {
+            "id": "Magic",
+            "type": "magic",
+            "title": "75 magic",
+            "subtitle": "To equip blue moon"
           }
         ]
       },
@@ -816,7 +801,14 @@
             "id": "Royal_Titans",
             "type": "boss",
             "icon": "Bran",
-            "items": ["Twinflame_staff", "Deadeye_prayer_scroll", "Mystic_vigour_prayer_scroll"]
+            "items": ["Twinflame_staff", "Deadeye_prayer_scroll", "Mystic_vigour_prayer_scroll"],
+            "subitems": [
+              {
+                "id": "Setup",
+                "type": "pvm",
+                "setupId": "Royal_Titans"
+              }
+            ]
           },
           {
             "id": "Prayer",
@@ -998,7 +990,14 @@
             "id": "Tormented_Demon",
             "type": "slayer",
             "subtitle": "On Task",
-            "items": ["Tormented_synapse", "Burning_claw"]
+            "items": ["Tormented_synapse", "Burning_claw"],
+            "subitems": [
+              {
+                "id": "Setup",
+                "type": "pvm",
+                "setupId": "Tormented_Demon"
+              }
+            ]
           },
           {
             "id": "Fletching",
@@ -1371,7 +1370,7 @@
           }
         ],
         "notes": [
-          "If you did not previously farm Doom, then the <Link=\"Primordial_boots\">Primordial Boots</Link> will be your best in slot."
+          "If you did not previously farm Doom, then the <Link=\"Primordial_boots\">Primordial Boots</Link> will be your best in slot for melee."
         ]
       },
       {

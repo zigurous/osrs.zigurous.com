@@ -13,6 +13,7 @@ export default function PrivacyPolicy({
   return (
     <Modal
       closeOnScrimClick
+      id="privacy-policy"
       onRequestClose={onRequestClose}
       open={open}
       size="xl"

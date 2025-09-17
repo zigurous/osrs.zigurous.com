@@ -35,5 +35,12 @@ export interface GearProgressionUpgrade {
   title?: string;
   subtitle?: string;
   items?: string[];
-  subitems?: Omit<GearProgressionUpgrade, 'items' | 'subitems'>[];
+  subitems?: GearProgressionUpgradeSubitem[];
 }
+
+export type GearProgressionUpgradeSubitem = Omit<
+  GearProgressionUpgrade,
+  'items' | 'subitems'
+> & {
+  setupId?: string;
+};

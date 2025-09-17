@@ -9,7 +9,15 @@ export interface Activity extends DropSource, Sortable, Titled {
   requiredLevel?: number | number[];
 }
 
-export type CombatStyle = 'melee' | 'ranged' | 'magic' | 'hybrid';
+export type CombatStyle =
+  | 'melee'
+  | 'ranged'
+  | 'magic'
+  | 'hybrid'
+  | 'stab'
+  | 'slash'
+  | 'crush';
+
 export interface CombatActivity extends Activity {
   recommendedCombatStyle: CombatStyle[];
 }

@@ -4,6 +4,7 @@
   grid-gap: var(--spacing-xs);
   flex-shrink: 0;
   justify-content: center;
+  min-width: 204px;
 }
 
 .equipment-inventory__slot {

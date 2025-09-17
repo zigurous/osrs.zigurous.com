@@ -1448,6 +1448,10 @@
     "icon": "Moonlight_moth_icon"
   },
   {
+    "id": "Moonlight_moth_mix",
+    "icon": "Moonlight_moth_mix_(2)"
+  },
+  {
     "id": "Nature's_reprisal",
     "tags": ["leagues"]
   },
@@ -1949,6 +1953,10 @@
   {
     "id": "Super_defence",
     "icon": "Super_defence(4)"
+  },
+  {
+    "id": "Super_energy",
+    "icon": "Super_energy(4)"
   },
   {
     "id": "Super_strength",
