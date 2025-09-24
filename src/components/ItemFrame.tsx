@@ -1,7 +1,7 @@
 import '../styles/item-frame.css';
 import { Tooltip } from '@zigurous/forge-react';
 import classNames from 'classnames';
-import React, { useRef, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { useItemsContext } from '../context';
 import WikiIcon from './WikiIcon';
 import WikiLink from './WikiLink';
@@ -27,7 +27,12 @@ export default function ItemFrame({
 }: ItemFrameProps) {
   const ref = useRef<HTMLAnchorElement>(null);
   const [hovering, setHovering] = useState(false);
-  const { getItemById } = useItemsContext();
+
+  useEffect(() => {
+    if (!ref.current) {
+      setHovering(false);
+    }
+  }, [ref.current]);
 
   if (!item)
     return <ItemFrameEmpty border={border} className={className} size={size} />;
@@ -109,17 +114,22 @@ export default function ItemFrame({
           </Tooltip>
         )}
       </WikiLink>
-      {item.transmutations && (
-        <div className="item-frame__sub-items shadow-sm">
-          {item.transmutations.map((id, index) => (
-            <ItemFrame
-              item={{ ...getItemById(id), transmutations: undefined }}
-              key={`${id}-${index}`}
-            />
-          ))}
-        </div>
-      )}
+      {item.transmutations && <ItemFrameSubitems ids={item.transmutations} />}
     </ParentComponent>
+  );
+}
+
+function ItemFrameSubitems({ ids }: { ids: string[] }) {
+  const { getItemById } = useItemsContext();
+  return (
+    <div className="item-frame__subitems shadow-sm">
+      {ids.map((id, index) => (
+        <ItemFrame
+          item={{ ...getItemById(id), transmutations: undefined }}
+          key={`${id}-${index}`}
+        />
+      ))}
+    </div>
   );
 }
 

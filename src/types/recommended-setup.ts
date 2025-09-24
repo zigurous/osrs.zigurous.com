@@ -1,4 +1,3 @@
-import type { CombatStyle } from './activity';
 import type { EquipmentSlotId } from './equipment';
 
 export interface RecommendedSetup {
@@ -9,9 +8,11 @@ export interface RecommendedSetup {
 }
 
 export interface RecommendedSetupLoadout {
-  type: CombatStyle;
+  title?: string;
   equipment: RecommendedSetupEquipmentItem[];
   inventory: RecommendedSetupInventoryItem[];
+  runePouch?: string[];
+  spell?: string;
 }
 
 export interface RecommendedSetupEquipmentItem {

@@ -11,19 +11,14 @@ interface GearProgressionNotesProps {
 export default function GearProgressionNotes({
   notes,
 }: GearProgressionNotesProps) {
-  if (!notes) return null;
+  if (!notes || notes.length === 0) return null;
   return (
     <TitledCard className="gear-progression-card" id="notes" title="Notes">
-      <ul
-        className={classNames('text-muted', {
-          'list-bullet': notes.length > 1,
-          'list-indent': notes.length > 1,
-        })}
-      >
+      <ul className="text-muted">
         {notes.map((note, index) => (
           <li
             className={classNames({
-              'mb-sm': index < notes.length - 1,
+              'mb-md': index < notes.length - 1,
             })}
             key={note}
           >

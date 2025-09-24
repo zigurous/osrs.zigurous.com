@@ -208,7 +208,7 @@
                 "id": "Prayer",
                 "type": "prayer",
                 "title": "43 prayer",
-                "subtitle": "Recommended"
+                "subtitle": "Strongly recommended"
               }
             ]
           }
@@ -280,9 +280,9 @@
           "Black_gloves"
         ],
         "stats": [
-          { "skill": "attack", "level": 50 },
-          { "skill": "strength", "level": 50 },
-          { "skill": "hitpoints", "level": 52 },
+          { "skill": "attack", "level": 54 },
+          { "skill": "strength", "level": 56 },
+          { "skill": "hitpoints", "level": 57 },
           { "skill": "defence", "level": 55, "highlight": true }
         ],
         "upgrades": [
@@ -376,7 +376,7 @@
           }
         ],
         "notes": [
-          "The Fighter Torso is less important now with the addition of Moons armour. Many players dislike Barbarian Assault and if you are one of them feel free to skip this grind."
+          "The Fighter Torso is less important now with the addition of Moons armour in the game. Many players dislike Barbarian Assault and if you are one of them then feel free to skip this grind."
         ]
       },
       {
@@ -406,34 +406,6 @@
         ]
       },
       {
-        "title": "Recipe for Disaster",
-        "questMilestone": "Recipe_for_Disaster",
-        "items": ["Barrows_gloves"],
-        "stats": [
-          { "skill": "attack", "level": 66 },
-          { "skill": "strength", "level": 66 },
-          { "skill": "cooking", "level": 70, "highlight": true }
-        ],
-        "upgrades": [
-          {
-            "id": "Cooking",
-            "type": "cooking",
-            "title": "70 cooking"
-          },
-          {
-            "id": "Quest_points",
-            "type": "quest",
-            "title": "175 quest points"
-          },
-          {
-            "id": "Recipe_for_Disaster",
-            "type": "quest",
-            "subtitle": "Full completion",
-            "items": ["Barrows_gloves"]
-          }
-        ]
-      },
-      {
         "title": "A Kingdom Divided",
         "questMilestone": "A_Kingdom_Divided",
         "items": ["Rada's_blessing_2"],
@@ -449,63 +421,86 @@
             "subtitle": "Medium",
             "items": ["Rada's_blessing_2"]
           }
+        ],
+        "notes": [
+          "Completing A Kingdom Divided unlocks the full potential of the <Link=\"Arceuus_spellbook\">Arceuus spellbook</Link> which is often the most used spellbook for bossing due to the various DPS increases you can get from it."
         ]
       },
       {
-        "title": "The Final Dawn",
-        "questMilestone": "The_Final_Dawn",
-        "items": ["Arkan_blade", "Mixed_hide_cape", "Mixed_hide_boots"],
+        "title": "Recipe for Disaster",
+        "questMilestone": "Recipe_for_Disaster",
+        "items": ["Barrows_gloves"],
         "stats": [
-          { "skill": "ranged", "level": 66 },
-          { "skill": "hunter", "level": 72, "highlight": true }
-        ],
-        "subcategoryItems": [
-          { "id": "Arkan_blade", "subcategory": "stab" },
-          { "id": "Arkan_blade", "subcategory": "slash" },
-          { "id": "Glacial_temotli", "subcategory": "crush" },
-          { "id": "Arkan_blade", "subcategory": "spec" }
+          { "skill": "attack", "level": 66 },
+          { "skill": "strength", "level": 66 },
+          { "skill": "cooking", "level": 70, "highlight": true }
         ],
         "upgrades": [
+          {
+            "id": "Quest_points",
+            "type": "quest",
+            "title": "175 quest points"
+          },
+          {
+            "id": "Cooking",
+            "type": "cooking",
+            "title": "70 cooking"
+          },
+          {
+            "id": "Recipe_for_Disaster",
+            "type": "quest",
+            "subtitle": "Full completion",
+            "items": ["Barrows_gloves"]
+          }
+        ],
+        "notes": [
+          "Completion of Recipe for Disaster is often considered the start of the mid game. Congrats on your progress thus far! Time to start gearing for bosses."
+        ]
+      },
+      {
+        "title": "Hunters' Rumours",
+        "questMilestone": "At_First_Light",
+        "items": ["Mixed_hide_cape", "Mixed_hide_boots"],
+        "stats": [
+          { "skill": "ranged", "level": 66, "highlight": true },
+          { "skill": "fletching", "level": 74, "highlight": true },
+          { "skill": "hunter", "level": 75, "highlight": true }
+        ],
+        "upgrades": [
+          {
+            "id": "Hunters'_Rumours",
+            "type": "hunter",
+            "title": "75 hunter",
+            "subtitle": "Hunters' Rumours",
+            "items": ["Moonlight_moth_mix"]
+          },
           {
             "id": "Pellem",
             "type": "shop",
             "subtitle": "Fur Trader",
             "icon": "Fur_trader_icon",
-            "items": ["Mixed_hide_top", "Mixed_hide_cape", "Mixed_hide_boots"],
-            "subitems": [
-              {
-                "id": "Hunter",
-                "type": "hunter",
-                "title": "72 hunter"
-              }
-            ]
+            "items": ["Mixed_hide_top", "Mixed_hide_cape", "Mixed_hide_boots"]
           },
           {
-            "id": "Amoxliatl",
-            "type": "boss",
-            "icon": "Moxi",
-            "items": ["Glacial_temotli", "Pendant_of_ates"],
+            "id": "Fletching",
+            "type": "fletching",
+            "title": "74 fletching",
+            "items": ["Hunters'_sunlight_crossbow"],
             "subitems": [
               {
-                "id": "The_Heart_of_Darkness",
-                "type": "quest"
-              },
-              {
-                "id": "Setup",
-                "type": "melee",
-                "setupId": "Amoxliatl"
+                "id": "Ranged",
+                "type": "ranged",
+                "title": "66 ranged"
               }
             ]
-          },
-          {
-            "id": "The_Final_Dawn",
-            "type": "quest",
-            "items": ["Arkan_blade"]
           }
+        ],
+        "notes": [
+          "Training hunter is very fast with <Link=\"Hunters'_Rumours\">Hunters' Rumours</Link> and provides so many useful items for Ironmen. It's worth doing as early in your progression as you can."
         ]
       },
       {
-        "title": "Chivalry",
+        "title": "King's Ransom",
         "questMilestone": "King's_Ransom",
         "items": [],
         "stats": [
@@ -525,6 +520,11 @@
             ]
           },
           {
+            "id": "Knight_Waves",
+            "type": "minigame",
+            "subtitle": "To unlock prayers"
+          },
+          {
             "id": "Prayer",
             "type": "prayer",
             "title": "60 prayer",
@@ -533,149 +533,7 @@
           }
         ],
         "notes": [
-          "If you previously leveled hunter via <Link=\"Hunters'_Rumours\">Hunters' Rumours</Link>, then you should have a lot of <Link=\"Blessed_bone_shards\">Blessed bone shards</Link> to help train prayer to 60."
-        ]
-      },
-      {
-        "title": "Black Mask",
-        "questMilestone": "Cabin_Fever",
-        "items": [],
-        "subcategoryItems": [
-          { "id": "Black_mask_(i)", "subcategory": "slayer" }
-        ],
-        "stats": [
-          { "skill": "slayer", "level": 58, "highlight": true }
-        ],
-        "upgrades": [
-          {
-            "id": "Cave_horror",
-            "type": "slayer",
-            "icon": "Cave_horror_icon",
-            "items": ["Black_mask"],
-            "subitems": [
-              {
-                "id": "Cabin_Fever",
-                "type": "quest"
-              },
-              {
-                "id": "Slayer",
-                "type": "slayer",
-                "title": "58 slayer"
-              }
-            ]
-          },
-          {
-            "id": "Emir's_Arena",
-            "type": "minigame",
-            "subtitle": "PvP",
-            "items": ["Scroll_of_imbuing"]
-          }
-        ],
-        "notes": [
-          "The Black Mask should be used anytime you are on a slayer task otherwise you use your normal helm."
-        ]
-      },
-      {
-        "title": "Dagannoth Rex",
-        "items": ["Berserker_ring_(i)"],
-        "upgrades": [
-          {
-            "id": "Dagannoth_Rex",
-            "type": "boss",
-            "icon": "Dagannoth_Kings_icon_(mobile)",
-            "items": ["Berserker_ring", "Dragon_axe"],
-            "subitems": [
-              {
-                "id": "Setup",
-                "type": "magic",
-                "setupId": "Dagannoth_Rex"
-              }
-            ]
-          },
-          {
-            "id": "Emir's_Arena",
-            "type": "minigame",
-            "subtitle": "PvP",
-            "items": ["Scroll_of_imbuing"]
-          }
-        ],
-        "notes": [
-          "The only Dagannoth King worth killing right now is <Link=\"Dagannoth_Rex\">Dagannoth Rex</Link>. The other kings are harder to kill for which the rings are very marginal upgrades.",
-          "A Dagannoth slayer task will make this easier if you have a <Link=\"Black_mask_(i)\">Black Mask (i)</Link> but it is not required.",
-          "You can wait to do this grind after Barrows for an easier time, but Rune armour is tanky enough."
-        ]
-      },
-      {
-        "title": "Barrows",
-        "items": ["Verac's_plateskirt"],
-        "stats": [
-          { "skill": "magic", "level": 70 },
-          { "skill": "attack", "level": 70 },
-          { "skill": "strength", "level": 70 },
-          { "skill": "defence", "level": 70, "highlight": true }
-        ],
-        "upgrades": [
-          {
-            "id": "Barrows",
-            "type": "boss",
-            "icon": "Barrows_Brothers_icon_(mobile)",
-            "items": ["Verac's_helm", "Karil's_leathertop", "Verac's_plateskirt"],
-            "subitems": [
-              {
-                "id": "Setup",
-                "type": "magic",
-                "setupId": "Barrows"
-              }
-            ]
-          },
-          {
-            "id": "Defence",
-            "type": "defence",
-            "title": "70 defence",
-            "subtitle": "To equip armour"
-          }
-        ],
-        "notes": [
-          "A lot of grinds in the game benefit from having tank armour. At a minimum you want to get tank legs since the slot is harder to acquire strength bonus.",
-          "Karil's and Ahrim's armour is pretty good for ranged and magic and are generally more sought after."
-        ]
-      },
-      {
-        "title": "Fire Cape",
-        "items": ["Fire_cape"],
-        "stats": [
-          { "skill": "ranged", "level": 70, "highlight": true }
-        ],
-        "upgrades": [
-          {
-            "id": "Deranged_archaeologist",
-            "type": "boss",
-            "icon": "Unidentified_small_fossil",
-            "items": ["Steel_ring"],
-            "subitems": [
-              {
-                "id": "Setup",
-                "type": "magic",
-                "setupId": "Deranged_archaeologist"
-              }
-            ]
-          },
-          {
-            "id": "TzHaar_Fight_Cave",
-            "type": "boss",
-            "icon": "Tzrek-jad",
-            "title": "Fight Cave",
-            "subtitle": "TzTok-Jad",
-            "items": ["Fire_cape"],
-            "subitems": [
-              {
-                "id": "TzHaar_Fight_Cave/Strategies#Equipment",
-                "type": "ranged",
-                "title": "70 ranged setup",
-                "setupId": "TzHaar_Fight_Cave"
-              }
-            ]
-          }
+          "You should have enough <Link=\"Blessed_bone_shards\">Blessed bone shards</Link> to train prayer to 60 if you previously trained hunter via <Link=\"Hunters'_Rumours\">Hunters' Rumours</Link>. Most Varlamore content provides a ton of shards that make prayer training really quick."
         ]
       },
       {
@@ -683,10 +541,10 @@
         "questMilestone": "Defender_of_Varrock",
         "items": ["Zombie_axe"],
         "subcategoryItems": [
-          { "id": "Arkan_blade", "subcategory": "stab" },
+          { "id": "Dragon_longsword", "subcategory": "stab" },
           { "id": "Zombie_axe", "subcategory": "slash" },
           { "id": "Zombie_axe", "subcategory": "crush" },
-          { "id": "Arkan_blade", "subcategory": "spec" }
+          { "id": "Dragon_dagger", "subcategory": "spec" }
         ],
         "stats": [
           { "skill": "smithing", "level": 70, "highlight": true }
@@ -723,6 +581,178 @@
             "subtitle": "Boostable",
             "items": ["Zombie_axe"]
           }
+        ]
+      },
+      {
+        "title": "Black Mask",
+        "questMilestone": "Cabin_Fever",
+        "items": [],
+        "subcategoryItems": [
+          { "id": "Black_mask_(i)", "subcategory": "slayer" }
+        ],
+        "stats": [
+          { "skill": "slayer", "level": 58, "highlight": true }
+        ],
+        "upgrades": [
+          {
+            "id": "Slayer",
+            "type": "slayer",
+            "title": "58 slayer"
+          },
+          {
+            "id": "Cave_horror",
+            "type": "slayer",
+            "icon": "Cave_horror_icon",
+            "items": ["Black_mask"],
+            "subitems": [
+              {
+                "id": "Cabin_Fever",
+                "type": "quest"
+              }
+            ]
+          },
+          {
+            "id": "Emir's_Arena",
+            "type": "minigame",
+            "subtitle": "To imbue mask",
+            "items": ["Black_mask_(i)"]
+          }
+        ],
+        "notes": [
+          "The black mask provides a huge damage and accuracy boost while on a slayer task. It will almost always be your best in slot while on task and eventually be upgraded to a <Link=\"Slayer_helmet\">Slayer Helmet</Link>."
+        ]
+      },
+      {
+        "title": "Dagannoth Rex",
+        "items": ["Berserker_ring_(i)"],
+        "upgrades": [
+          {
+            "id": "Dagannoth_Rex",
+            "type": "boss",
+            "icon": "Dagannoth_Kings_icon_(mobile)",
+            "items": ["Dragon_axe", "Berserker_ring"],
+            "subitems": [
+              {
+                "id": "Setup",
+                "type": "magic",
+                "setupId": "Dagannoth_Rex"
+              }
+            ]
+          },
+          {
+            "id": "Emir's_Arena",
+            "type": "minigame",
+            "subtitle": "To imbue ring",
+            "items": ["Berserker_ring_(i)"]
+          }
+        ],
+        "notes": [
+          "The only Dagannoth King worth killing right now is <Link=\"Dagannoth_Rex\">Dagannoth Rex</Link>. The other kings are harder to kill and their rings are very marginal upgrades.",
+          "A dagannoth slayer task will make this easier if you have a <Link=\"Black_mask_(i)\">Black Mask (i)</Link> but it is not required. You can also wait until after Barrows for better tank armour but Rune is plenty enough."
+        ]
+      },
+      {
+        "title": "Barrows",
+        "items": ["Verac's_plateskirt"],
+        "stats": [
+          { "skill": "magic", "level": 62 },
+          { "skill": "attack", "level": 70 },
+          { "skill": "strength", "level": 70 },
+          { "skill": "defence", "level": 70, "highlight": true }
+        ],
+        "upgrades": [
+          {
+            "id": "Barrows",
+            "type": "boss",
+            "icon": "Barrows_Brothers_icon_(mobile)",
+            "items": ["Verac's_helm", "Karil's_leathertop", "Verac's_plateskirt"],
+            "subitems": [
+              {
+                "id": "Setup",
+                "type": "magic",
+                "setupId": "Barrows"
+              }
+            ]
+          },
+          {
+            "id": "Defence",
+            "type": "defence",
+            "title": "70 defence",
+            "subtitle": "To equip armour"
+          }
+        ],
+        "notes": [
+          "A lot of grinds in the game benefit from having tank armour. At a minimum you want to get tank legs since that slot is harder to acquire strength bonus for. Verac's armour is particularly useful for the extra prayer bonus."
+        ]
+      },
+      {
+        "title": "Fire Cape",
+        "items": ["Fire_cape"],
+        "stats": [
+          { "skill": "magic", "level": 68 },
+          { "skill": "ranged", "level": 70, "highlight": true }
+        ],
+        "upgrades": [
+          {
+            "id": "Ranged",
+            "type": "ranged",
+            "title": "70+ ranged",
+            "subtitle": "To prepare for the the fight cave"
+          },
+          {
+            "id": "TzHaar_Fight_Cave",
+            "type": "boss",
+            "icon": "Tzrek-jad",
+            "title": "Fight Cave",
+            "subtitle": "TzTok-Jad",
+            "items": ["Fire_cape"],
+            "subitems": [
+              {
+                "id": "TzHaar_Fight_Cave/Strategies#Equipment",
+                "type": "pvm",
+                "title": "70 ranged setup",
+                "setupId": "TzHaar_Fight_Cave"
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "Jad is your first major challenge in your journey through OldSchool RuneScape. At this point in your progression you should be more than equipped to take him down. It may take a few tries but you got this, good luck!"
+        ]
+      },
+      {
+        "title": "Arkan Blade",
+        "questMilestone": "The_Final_Dawn",
+        "items": [],
+        "subcategoryItems": [
+          { "id": "Arkan_blade", "subcategory": "stab" },
+          { "id": "Zombie_axe", "subcategory": "slash" },
+          { "id": "Glacial_temotli", "subcategory": "crush" },
+          { "id": "Arkan_blade", "subcategory": "spec" }
+        ],
+        "upgrades": [
+          {
+            "id": "The_Final_Dawn",
+            "type": "quest",
+            "items": ["Arkan_blade"]
+          },
+          {
+            "id": "Amoxliatl",
+            "type": "boss",
+            "icon": "Moxi",
+            "subtitle": "Optional",
+            "items": ["Glacial_temotli", "Pendant_of_ates"],
+            "subitems": [
+              {
+                "id": "Setup",
+                "type": "melee",
+                "setupId": "Amoxliatl"
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "The crush weapon dropped by Amoxliatl is useful to get before you start grinding Moons of Peril, specifically for the <Link=\"Blue_Moon\">Blue Moon</Link>. However, this moon is considered the easiest of the three so its not strictly needed."
         ]
       },
       {
@@ -826,26 +856,34 @@
           }
         ],
         "notes": [
-          "Royal Titans does not provide any upgrades for your melee setup but the upgraded prayers will be best in slot for a long time and increase DPS for future bosses."
+          "Royal Titans does not provide any upgrades for your melee setup but the upgraded prayers are a huge DPS increase for your other combat styles and will make future bosses a lot easier to grind."
         ]
       },
       {
-        "title": "Piety",
-        "questMilestone": "Knight_Waves",
-        "items": [],
+        "title": "Slayer Grind",
+        "questMilestone": "The_Fremennik_Exiles",
+        "items": ["Dragon_boots"],
+        "subcategoryItems": [
+          { "id": "Slayer_helmet_(i)", "subcategory": "slayer" }
+        ],
         "stats": [
-          { "skill": "prayer", "level": 70, "highlight": true }
+          { "skill": "prayer", "level": 70, "highlight": true },
+          { "skill": "attack", "level": 75 },
+          { "skill": "strength", "level": 80 },
+          { "skill": "slayer", "level": 83, "highlight": true }
         ],
         "upgrades": [
           {
-            "id": "Knight_Waves",
-            "type": "minigame",
-            "subitems": [
-              {
-                "id": "King's_Ransom",
-                "type": "quest"
-              }
-            ]
+            "id": "Lair_of_Tarn_Razorlor",
+            "type": "quest",
+            "subtitle": "Miniquest",
+            "items": ["Salve_amulet_(e)"]
+          },
+          {
+            "id": "Slayer",
+            "type": "slayer",
+            "title": "400 slayer points",
+            "items": ["Slayer_helmet_(i)"]
           },
           {
             "id": "Prayer",
@@ -853,94 +891,6 @@
             "title": "70 prayer",
             "subtitle": "To use piety",
             "items": ["Piety"]
-          }
-        ],
-        "notes": [
-          "After having completed the Moons of Peril grind, you should have a lot of <Link=\"Blessed_bone_shards\">Blessed bone shards</Link> and <Link=\"Sun-kissed_bones\">Sun-kissed bones</Link> to help train prayer to 70."
-        ]
-      },
-      {
-        "title": "Arclight",
-        "items": ["Rada's_blessing_3"],
-        "subcategoryItems": [
-          { "id": "Arclight", "subcategory": "slayer" }
-        ],
-        "stats": [
-          { "skill": "attack", "level": 75, "highlight": true },
-          { "skill": "magic", "level": 76, "highlight": true }
-        ],
-        "upgrades": [
-          {
-            "id": "Kourend_&_Kebos_Diary",
-            "type": "diary",
-            "subtitle": "Hard",
-            "items": ["Rada's_blessing_3"]
-          },
-          {
-            "id": "Catacombs_of_Kourend",
-            "type": "slayer",
-            "items": ["Ancient_shard"]
-          },
-          {
-            "id": "Attack",
-            "type": "attack",
-            "title": "75 attack",
-            "subtitle": "To equip arclight",
-            "items": ["Arclight"]
-          },
-          {
-            "id": "Resurrect_Greater_Ghost",
-            "type": "magic",
-            "title": "76 magic",
-            "subtitle": "To summon thralls",
-            "items": ["Resurrect_Greater_Ghost"],
-            "subitems": [
-              {
-                "id": "A_Kingdom_Divided",
-                "type": "quest"
-              }
-            ]
-          }
-        ],
-        "notes": [
-          "The Arclight is an important <Link=\"Demon_(attribute)\">Demonbane</Link> weapon that will be used for several upcoming monsters."
-        ]
-      },
-      {
-        "title": "Slayer Upgrades",
-        "questMilestone": "Sins_of_the_Father",
-        "items": ["Neitiznot_faceguard", "Dragon_boots"],
-        "subcategoryItems": [
-          { "id": "Dragon_warhammer", "subcategory": "spec" },
-          { "id": "Slayer_helmet_(i)", "subcategory": "slayer" }
-        ],
-        "stats": [
-          { "skill": "strength", "level": 80 },
-          { "skill": "slayer", "level": 83, "highlight": true }
-        ],
-        "upgrades": [
-          {
-            "id": "Sins_of_the_Father",
-            "type": "quest",
-            "items": ["Blisterwood_flail", "Drakan's_medallion"]
-          },
-          {
-            "id": "Basilisk_Knight",
-            "type": "slayer",
-            "icon": "Basilisk_Knight_icon",
-            "subtitle": "Optional",
-            "items": ["Basilisk_jaw"],
-            "subitems": [
-              {
-                "id": "The_Fremennik_Exiles",
-                "type": "quest"
-              },
-              {
-                "id": "Slayer",
-                "type": "slayer",
-                "title": "60 slayer"
-              }
-            ]
           },
           {
             "id": "Spiritual_mage",
@@ -954,13 +904,60 @@
                 "title": "83 slayer"
               }
             ]
+          }
+        ],
+        "notes": [
+          "A lot of upgrades from this point on are through slayer. This is a slow skill to train so see the next several tiers of progression for ideas on what to do while leveling."
+        ]
+      },
+      {
+        "title": "Arclight",
+        "items": [],
+        "subcategoryItems": [
+          { "id": "Arclight", "subcategory": "slayer" }
+        ],
+        "stats": [
+          { "skill": "attack", "level": 75, "highlight": true },
+          { "skill": "strength", "level": 80 },
+          { "skill": "magic", "level": 82, "highlight": true }
+        ],
+        "upgrades": [
+          {
+            "id": "Catacombs_of_Kourend",
+            "type": "slayer",
+            "items": ["Ancient_shard", "Dark_totem"]
           },
           {
-            "id": "Lizardman_shaman",
-            "type": "slayer",
-            "icon": "Lizardmen_icon",
-            "items": ["Dragon_warhammer"]
+            "id": "Attack",
+            "type": "attack",
+            "title": "75 attack",
+            "subtitle": "To equip arclight",
+            "items": ["Arclight"]
+          },
+          {
+            "id": "Arceuus_spellbook",
+            "type": "magic",
+            "title": "82 magic",
+            "subtitle": "To cast arceuus spells",
+            "items": ["Death_Charge", "Dark_Demonbane"]
+          },
+          {
+            "id": "Skotizo",
+            "type": "boss",
+            "icon": "Skotizo_icon_(mobile)",
+            "subtitle": "Optional",
+            "items": ["Ancient_shard"],
+            "subitems": [
+              {
+                "id": "Setup",
+                "type": "melee",
+                "setupId": "Skotizo"
+              }
+            ]
           }
+        ],
+        "notes": [
+          "Slayer should be trained in the Catacombs of Kourend as much as possible to collect <Link=\"Ancient_shard\">ancient shards</Link>. Skotizo can also be killed for shards."
         ]
       },
       {
@@ -976,10 +973,11 @@
           { "skill": "smithing", "level": 74, "highlight": true },
           { "skill": "crafting", "level": 74, "highlight": true },
           { "skill": "defence", "level": 75 },
+          { "skill": "fishing", "level": 76 },
           { "skill": "ranged", "level": 77 },
           { "skill": "attack", "level": 77 },
           { "skill": "ranged", "level": 77 },
-          { "skill": "magic", "level": 82 }
+          { "skill": "cooking", "level": 80 }
         ],
         "upgrades": [
           {
@@ -1027,6 +1025,7 @@
         "questMilestone": "Monkey_Madness_II",
         "items": ["Amulet_of_torture"],
         "stats": [
+          { "skill": "slayer", "level": 76 },
           { "skill": "ranged", "level": 80 },
           { "skill": "attack", "level": 80 },
           { "skill": "strength", "level": 85 },
@@ -1042,36 +1041,36 @@
             "id": "Demonic_gorilla",
             "type": "slayer",
             "subtitle": "On Task",
-            "items": ["Zenyte_shard"]
+            "items": ["Zenyte_shard"],
+            "subitems": [
+              {
+                "id": "Setup",
+                "type": "pvm",
+                "setupId": "Demonic_gorilla"
+              }
+            ]
           },
           {
             "id": "Crafting",
             "type": "crafting",
             "title": "93 crafting",
-            "subtitle": "+5 Boost",
+            "subtitle": "+5 boost",
             "items": ["Zenyte_amulet"]
           },
           {
             "id": "Magic",
             "type": "magic",
             "title": "89 magic",
-            "subtitle": "+4 Boost",
-            "items": ["Amulet_of_torture"],
-            "subitems": [
-              {
-                "id": "Lvl-7_Enchant",
-                "type": "magic",
-                "icon": "Lvl-7_Enchant"
-              }
-            ]
+            "subtitle": "+4 boost",
+            "items": ["Amulet_of_torture"]
           }
         ],
         "notes": [
-          "It is usually best to craft a <Link=\"Necklace_of_anguish\">Necklace of Anguish</Link> first but you will eventually need an Amulet of Torture to upgrade to <Link=\"Amulet_of_rancour\">Amulet of Rancour</Link>."
+          "It is usually better to craft a <Link=\"Necklace_of_anguish\">Necklace of Anguish</Link> with your first zenyte but you will eventually need an Amulet of Torture to upgrade to <Link=\"Amulet_of_rancour\">Amulet of Rancour</Link>."
         ]
       },
       {
-        "title": "Abyssal Sire",
+        "title": "Abyssal Whip",
         "items": ["Abyssal_whip"],
         "subcategoryItems": [
           { "id": "Abyssal_dagger", "subcategory": "stab" },
@@ -1081,10 +1080,18 @@
           { "id": "Emberlight", "subcategory": "slayer" }
         ],
         "stats": [
+          { "skill": "construction", "level": 80, "highlight": true },
           { "skill": "slayer", "level": 85, "highlight": true },
-          { "skill": "magic", "level": 88, "highlight": true }
+          { "skill": "magic", "level": 88 }
         ],
         "upgrades": [
+          {
+            "id": "Construction",
+            "type": "construction",
+            "title": "80 construction",
+            "subtitle": "+5 boost",
+            "items": ["Fairy_ring_(Construction)"]
+          },
           {
             "id": "Slayer",
             "type": "slayer",
@@ -1101,11 +1108,18 @@
             "type": "boss",
             "icon": "Abyssal_Sire_icon_(mobile)",
             "subtitle": "Optional",
-            "items": ["Abyssal_dagger", "Abyssal_bludgeon"]
+            "items": ["Abyssal_dagger", "Abyssal_bludgeon"],
+            "subitems": [
+              {
+                "id": "Setup",
+                "type": "melee",
+                "setupId": "Abyssal_Sire"
+              }
+            ]
           }
         ],
         "notes": [
-          "The upgrades to your stab and crush setups are relatively small and will be replaced with better items later so feel free to skip Abyssal Sire."
+          "The upgrades to your stab and crush setups from Sire are not super important so feel free to skip this boss, especially if you don't have synapse weapons."
         ]
       },
       {
@@ -1119,8 +1133,8 @@
           { "id": "Emberlight", "subcategory": "slayer" }
         ],
         "stats": [
-          { "skill": "slayer", "level": 87, "highlight": true },
-          { "skill": "magic", "level": 90, "highlight": true }
+          { "skill": "herblore", "level": 76 },
+          { "skill": "slayer", "level": 87, "highlight": true }
         ],
         "upgrades": [
           {
@@ -1138,30 +1152,48 @@
             "id": "Kraken",
             "type": "boss",
             "icon": "Kraken_icon_(mobile)",
-            "items": ["Kraken_tentacle"]
+            "items": ["Kraken_tentacle"],
+            "subitems": [
+              {
+                "id": "Setup",
+                "type": "magic",
+                "setupId": "Kraken"
+              }
+            ]
           }
         ]
       },
       {
         "title": "Zulrah",
-        "items": [],
+        "items": ["Serpentine_helm"],
+        "subcategoryItems": [
+          { "id": "Slayer_helmet_(i)", "subcategory": "slayer" }
+        ],
         "stats": [
-          { "skill": "crafting", "level": 59, "highlight": true },
-          { "skill": "fletching", "level": 78, "highlight": true }
+          { "skill": "agility", "level": 76, "highlight": true },
+          { "skill": "fletching", "level": 78, "highlight": true },
+          { "skill": "construction", "level": 82, "highlight": true  },
+          { "skill": "herblore", "level": 83, "highlight": true  }
         ],
         "upgrades": [
           {
             "id": "Zulrah",
             "type": "boss",
             "icon": "Zulrah_icon_(mobile)",
-            "items": ["Serpentine_visage", "Tanzanite_fang", "Magic_fang"]
-          },
-          {
-            "id": "Crafting",
-            "type": "crafting",
-            "title": "59 crafting",
-            "subtitle": "Boostable",
-            "items": ["Serpentine_helm", "Trident_of_the_swamp"]
+            "items": ["Serpentine_visage", "Tanzanite_fang", "Magic_fang"],
+            "subitems": [
+              {
+                "id": "Stepping_stone_(Zul-Andra)",
+                "type": "agility",
+                "title": "76 agility",
+                "subtitle": "Zul-Andra stepping stone"
+              },
+              {
+                "id": "Setup",
+                "type": "magic",
+                "setupId": "Zulrah"
+              }
+            ]
           },
           {
             "id": "Fletching",
@@ -1169,7 +1201,64 @@
             "title": "78 fletching",
             "subtitle": "Boostable",
             "items": ["Toxic_blowpipe"]
+          },
+          {
+            "id": "Herblore",
+            "type": "herblore",
+            "title": "83 herblore",
+            "subtitle": "+4 boost",
+            "items": ["Anti-venom"]
+          },
+          {
+            "id": "Construction",
+            "type": "construction",
+            "title": "82 construction",
+            "subtitle": "+8 boost",
+            "items": ["Ornate_rejuvenation_pool"]
           }
+        ]
+      },
+      {
+        "title": "Lizardman Shaman",
+        "items": ["Rada's_blessing_3"],
+        "subcategoryItems": [
+          { "id": "Dragon_warhammer", "subcategory": "spec" }
+        ],
+        "upgrades": [
+          {
+            "id": "Combat_Ring_(Shayzien)",
+            "type": "melee",
+            "title": "Combat Ring",
+            "items": [
+              "Shayzien_helm_(5)",
+              "Shayzien_body_(5)",
+              "Shayzien_greaves_(5)",
+              "Shayzien_gloves_(5)",
+              "Shayzien_boots_(5)"
+            ]
+          },
+          {
+            "id": "Kourend_&_Kebos_Diary",
+            "type": "diary",
+            "subtitle": "Hard",
+            "items": ["Rada's_blessing_3"]
+          },
+          {
+            "id": "Lizardman_shaman",
+            "type": "slayer",
+            "icon": "Lizardmen_icon",
+            "items": ["Dragon_warhammer", "Xeric's_talisman"],
+            "subitems": [
+              {
+                "id": "Setup",
+                "type": "ranged",
+                "setupId": "Lizardman_shaman"
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "The <Link=\"Dragon_warhammer\">Dragon Warhammer</Link> is an important weapon for draining the defences of monsters and will be used at a lot of bosses. It's a long but worthwhile grind, although many players wait until they start doing higher level PvM before grinding this weapon."
         ]
       },
       {
@@ -1177,20 +1266,26 @@
         "items": ["Bandos_chestplate", "Bandos_tassets"],
         "stats": [
           { "skill": "defence", "level": 80, "highlight": true },
-          { "skill": "smithing", "level": 80, "highlight": true }
+          { "skill": "smithing", "level": 80, "highlight": true },
+          { "skill": "magic", "level": 92, "highlight": true }
         ],
         "upgrades": [
           {
             "id": "General_Graardor",
             "type": "boss",
             "icon": "General_Graardor_icon_(mobile)",
-            "items": ["Bandos_hilt", "Bandos_chestplate", "Bandos_tassets", "Bandos_boots"],
+            "items": ["Bandos_hilt", "Bandos_chestplate", "Bandos_tassets"],
             "subitems": [
               {
                 "id": "Defence",
                 "type": "defence",
-                "title": "80 defence",
-                "subtitle": "Recommended"
+                "title": "80+ defence",
+                "subtitle": "Strongly recommended"
+              },
+              {
+                "id": "Setup",
+                "type": "ranged",
+                "setupId": "General_Graardor"
               }
             ]
           },
@@ -1203,8 +1298,8 @@
           }
         ],
         "notes": [
-          "Bandos armour is the same strength bonus as Blood Moon but it has a lot more defence. It is not strictly needed and probably not worth farming without a Bowfa, but you will eventually need it to repair Torva.",
-          "The Bandos Godsword is a defence-draining spec weapon that is used at a lot of bosses. This is a very useful weapon to have before raiding."
+          "NOTE: Soloing Graardor is very difficult without high gear and skill requirements which means you might not be able to do this boss right now.",
+          "The uniques are useful but not strictly required so it is recommended to skip this boss until you have a <Link=\"Bow_of_faerdhinen\">Bow of Faerdhinen</Link> unless you are in a team."
         ]
       },
       {
@@ -1229,16 +1324,9 @@
             "items": ["Zamorakian_spear"],
             "subitems": [
               {
-                "id": "Scorching_bow",
+                "id": "Setup",
                 "type": "ranged",
-                "title": "Scorching bow",
-                "subtitle": "Recommended"
-              },
-              {
-                "id": "Death_Charge",
-                "type": "magic",
-                "title": "Death charge",
-                "subtitle": "Recommended"
+                "setupId": "K'ril_Tsutsaroth"
               }
             ]
           },
@@ -1286,7 +1374,14 @@
             "id": "Tombs_of_Amascut",
             "type": "raid",
             "icon": "Tumeken's_guardian",
-            "items": ["Osmumten's_fang", "Lightbearer", "Thread_of_elidinis"]
+            "items": ["Osmumten's_fang", "Lightbearer", "Thread_of_elidinis"],
+            "subitems": [
+              {
+                "id": "Setup",
+                "type": "pvm",
+                "setupId": "Tombs_of_Amascut"
+              }
+            ]
           },
           {
             "id": "Attack",
@@ -1296,57 +1391,47 @@
           }
         ],
         "notes": [
-          "We are not looking to farm all of the items from the raid right now, just a few upgrades. The <Link=\"Osmumten's_fang\">Osmumten's Fang</Link> is a very powerful weapon for general bossing.",
-          "The <Link=\"Lightbearer\">Lighbearer</Link> regens special attack energy twice as fast which increases overall DPS for many bosses.",
-          "The <Link=\"Divine_rune_pouch\">Divine Rune Pouch</Link> is important to maximize inventory space and is utilized at almost every boss."
+          "We are only farming a few common items right now: the <Link=\"Osmumten's_fang\">Osmumten's Fang</Link> is a powerful weapon for general bossing, the <Link=\"Lightbearer\">Lighbearer</Link> regens special attack energy twice as fast, and the <Link=\"Divine_rune_pouch\">Divine Rune Pouch</Link> helps maximize inventory space."
         ]
       },
       {
-        "title": "Doom of Mokhaiotl",
-        "items": ["Avernic_treads"],
-        "stats": [
-          { "skill": "agility", "level": 75 },
-          { "skill": "defence", "level": 80, "highlight": true },
-          { "skill": "ranged", "level": 90, "highlight": true }
+        "title": "Basilisk Knights",
+        "questMilestone": "The_Fremennik_Exiles",
+        "items": ["Neitiznot_faceguard"],
+        "subcategoryItems": [
+          { "id": "Slayer_helmet_(i)", "subcategory": "slayer" }
         ],
         "upgrades": [
           {
-            "id": "Doom_of_Mokhaiotl",
-            "type": "boss",
-            "icon": "Mokhaiotl_waystone_5",
-            "subtitle": "1-4",
-            "items": ["Avernic_treads", "Eye_of_ayak", "Mokhaiotl_cloth"],
+            "id": "Basilisk_Knight",
+            "type": "slayer",
+            "icon": "Basilisk_Knight_icon",
+            "subtitle": "Optional",
+            "items": ["Basilisk_jaw"],
             "subitems": [
               {
-                "id": "The_Final_Dawn",
+                "id": "The_Fremennik_Exiles",
                 "type": "quest"
               },
               {
-                "id": "Ranged",
-                "type": "ranged",
-                "title": "90 ranged",
-                "subtitle": "Recommended"
+                "id": "Setup",
+                "type": "slayer",
+                "setupId": "Basilisk_Knight"
               }
             ]
-          },
-          {
-            "id": "Defence",
-            "type": "defence",
-            "title": "80 defence",
-            "subtitle": "To equip boots"
           }
         ],
         "notes": [
-          "Doom is a difficult boss but if you are an experienced player it may be worth grinding now so you can upgrade the boots as you receive drops from Cerberus. It is not strictly required at this time, however."
+          "Basilisk knights are very slow to kill and don't provide good xp rates so many players opt to skip them. The <Link=\"Serpentine_helm\">Serpentine helm</Link> is very comparable and provides better utility so you can choose to stick with that."
         ]
       },
       {
         "title": "Cerberus",
-        "items": ["Avernic_treads_(max)"],
+        "items": ["Primordial_boots"],
         "stats": [
-          { "skill": "magic", "level": 60, "highlight": true },
+          { "skill": "magic", "level": 60 },
           { "skill": "runecraft", "level": 60, "highlight": true },
-          { "skill": "defence", "level": 75, "highlight": true },
+          { "skill": "herblore", "level": 90, "highlight": true },
           { "skill": "slayer", "level": 91, "highlight": true }
         ],
         "upgrades": [
@@ -1356,10 +1441,23 @@
             "title": "91 slayer"
           },
           {
+            "id": "Herblore",
+            "type": "herblore",
+            "title": "90 herblore",
+            "items": ["Super_combat_potion"]
+          },
+          {
             "id": "Cerberus",
             "type": "boss",
             "icon": "Cerberus_icon",
-            "items": ["Primordial_crystal", "Pegasian_crystal", "Eternal_crystal"]
+            "items": ["Primordial_crystal", "Pegasian_crystal", "Eternal_crystal"],
+            "subitems": [
+              {
+                "id": "Setup",
+                "type": "melee",
+                "setupId": "Cerberus"
+              }
+            ]
           },
           {
             "id": "Runecraft",
@@ -1368,9 +1466,6 @@
             "subtitle": "Not boostable",
             "items": ["Primordial_boots", "Pegasian_boots", "Eternal_boots"]
           }
-        ],
-        "notes": [
-          "If you did not previously farm Doom, then the <Link=\"Primordial_boots\">Primordial Boots</Link> will be your best in slot for melee."
         ]
       },
       {
@@ -1383,17 +1478,24 @@
           { "id": "Burning_claws", "subcategory": "spec" }
         ],
         "stats": [
-          { "skill": "smithing", "level": 72, "highlight": true },
-          { "skill": "crafting", "level": 86, "highlight": true },
+          { "skill": "smithing", "level": 72 },
+          { "skill": "crafting", "level": 86 },
           { "skill": "strength", "level": 90 },
-          { "skill": "hitpoints", "level": 90 },
-          { "skill": "slayer", "level": 92, "highlight": true }
+          { "skill": "hitpoints", "level": 90, "highlight": true },
+          { "skill": "slayer", "level": 92, "highlight": true },
+          { "skill": "herblore", "level": 94, "highlight": true }
         ],
         "upgrades": [
           {
             "id": "Slayer",
             "type": "slayer",
             "title": "92 slayer"
+          },
+          {
+            "id": "Herblore",
+            "type": "herblore",
+            "title": "94 herblore",
+            "items": ["Anti-venom+", "Extended_anti-venom+"]
           },
           {
             "id": "Araxyte",
@@ -1405,14 +1507,14 @@
             "id": "Araxxor",
             "type": "boss",
             "icon": "Nid",
-            "items": ["Noxious_pommel", "Noxious_point", "Noxious_blade", "Araxyte_fang"]
-          },
-          {
-            "id": "Attack",
-            "type": "attack",
-            "title": "80 attack",
-            "subtitle": "To equip weapon",
-            "items": ["Noxious_halberd"]
+            "items": ["Noxious_pommel", "Noxious_point", "Noxious_blade", "Araxyte_fang"],
+            "subitems": [
+              {
+                "id": "Setup",
+                "type": "melee",
+                "setupId": "Araxxor"
+              }
+            ]
           },
           {
             "id": "Hitpoints",
@@ -1450,7 +1552,14 @@
             "id": "Alchemical_Hydra",
             "type": "boss",
             "icon": "Hydra_icon",
-            "items": ["Hydra's_claw", "Hydra_leather"]
+            "items": ["Hydra's_claw", "Hydra_leather"],
+            "subitems": [
+              {
+                "id": "Setup",
+                "type": "ranged",
+                "setupId": "Alchemical_Hydra"
+              }
+            ]
           },
           {
             "id": "Defence",
@@ -1486,10 +1595,15 @@
             "items": ["Dexterous_prayer_scroll", "Arcane_prayer_scroll"],
             "subitems": [
               {
-                "id": "Herblore",
+                "id": "Chambers_of_Xeric#Strong_potions",
                 "type": "herblore",
                 "title": "78 herblore",
-                "subtitle": "Recommended"
+                "subtitle": "Strong potions"
+              },
+              {
+                "id": "Setup",
+                "type": "pvm",
+                "setupId": "Chambers_of_Xeric"
               }
             ]
           },
@@ -1502,14 +1616,14 @@
           }
         ],
         "notes": [
-          "We are only doing Chambers of Xeric for the prayer scrolls to start sending Inferno attempts. The rest of the items will be farmed later, but if you happen to spoon an item then great!"
+          "We are only doing Chambers of Xeric for the prayer scrolls to start sending Inferno attempts. The rest of the items will be farmed later, but if you happen to spoon an item, great!"
         ]
       },
       {
         "title": "Inferno",
         "items": ["Infernal_cape"],
         "stats": [
-          { "skill": "prayer", "level": 80, "highlight": true },
+          { "skill": "prayer", "level": 80 },
           { "skill": "herblore", "level": 81 },
           { "skill": "attack", "level": 90 },
           { "skill": "defence", "level": 90, "highlight": true },
@@ -1520,11 +1634,17 @@
         ],
         "upgrades": [
           {
-            "id": "Ice_Barrage",
+            "id": "Magic",
             "type": "magic",
             "title": "94 magic",
             "subtitle": "To cast ice barrage",
             "items": ["Ice_Barrage"]
+          },
+          {
+            "id": "Ranged",
+            "type": "ranged",
+            "title": "99 ranged",
+            "items": ["Ranging_cape"]
           },
           {
             "id": "Inferno",
@@ -1534,30 +1654,29 @@
             "items": ["Infernal_cape"],
             "subitems": [
               {
-                "id": "Ranged",
-                "type": "ranged",
-                "title": "99 ranged",
-                "subtitle": "Recommended"
-              },
-              {
                 "id": "Defence",
                 "type": "defence",
-                "title": "90 defence",
-                "subtitle": "Recommended"
+                "title": "90+ defence",
+                "subtitle": "Strongly recommended"
+              },
+              {
+                "id": "Setup",
+                "type": "pvm",
+                "setupId": "Inferno"
               }
             ]
           }
         ]
       },
       {
-        "title": "Oathplate",
+        "title": "Yama",
         "items": ["Oathplate_helm", "Oathplate_chest", "Oathplate_legs"],
         "subcategoryItems": [
           { "id": "Slayer_helmet_(i)", "subcategory": "slayer" }
         ],
         "stats": [
           { "skill": "defence", "level": 78, "highlight": true },
-          { "skill": "agility", "level": 83 },
+          { "skill": "agility", "level": 83, "highlight": true },
           { "skill": "attack", "level": 85 }
         ],
         "upgrades": [
@@ -1565,19 +1684,60 @@
             "id": "Yama",
             "type": "boss",
             "icon": "Yami",
-            "items": ["Oathplate_helm", "Oathplate_chest", "Oathplate_legs"],
+            "items": ["Oathplate_helm", "Oathplate_chest", "Oathplate_legs", "Rite_of_vile_transference"],
             "subitems": [
               {
                 "id": "A_Kingdom_Divided",
                 "type": "quest"
               },
               {
-                "id": "Agility",
+                "id": "Chain_(Chasm_of_Fire)",
                 "type": "agility",
                 "title": "83 agility",
-                "subtitle": "Recommended"
+                "subtitle": "Chain Shortcut"
+              },
+              {
+                "id": "Setup",
+                "type": "magic",
+                "setupId": "Yama"
               }
             ]
+          }
+        ]
+      },
+      {
+        "title": "Doom of Mokhaiotl",
+        "items": ["Avernic_treads_(max)"],
+        "stats": [
+          { "skill": "herblore", "level": 74 },
+          { "skill": "agility", "level": 75 },
+          { "skill": "defence", "level": 80, "highlight": true },
+          { "skill": "herblore", "level": 90, "highlight": true },
+          { "skill": "ranged", "level": 90, "highlight": true }
+        ],
+        "upgrades": [
+          {
+            "id": "Doom_of_Mokhaiotl",
+            "type": "boss",
+            "icon": "Mokhaiotl_waystone_5",
+            "items": ["Avernic_treads", "Eye_of_ayak", "Mokhaiotl_cloth"],
+            "subitems": [
+              {
+                "id": "The_Final_Dawn",
+                "type": "quest"
+              },
+              {
+                "id": "Setup",
+                "type": "ranged",
+                "setupId": "Doom_of_Mokhaiotl"
+              }
+            ]
+          },
+          {
+            "id": "Defence",
+            "type": "defence",
+            "title": "80 defence",
+            "subtitle": "To equip boots"
           }
         ]
       },
@@ -1602,7 +1762,14 @@
             "id": "Vardorvis",
             "type": "boss",
             "icon": "Butch",
-            "items": ["Ultor_vestige", "Chromium_ingot"]
+            "items": ["Ultor_vestige", "Chromium_ingot"],
+            "subitems": [
+              {
+                "id": "Setup",
+                "type": "melee",
+                "setupId": "Vardorvis"
+              }
+            ]
           },
           {
             "id": "Crafting",
@@ -1638,19 +1805,40 @@
             "id": "The_Leviathan",
             "type": "boss",
             "icon": "Lil'viathan",
-            "items": ["Leviathan's_lure"]
+            "items": ["Leviathan's_lure"],
+            "subitems": [
+              {
+                "id": "Setup",
+                "type": "ranged",
+                "setupId": "The_Leviathan"
+              }
+            ]
           },
           {
             "id": "The_Whisperer",
             "type": "boss",
             "icon": "Wisp",
-            "items": ["Siren's_staff"]
+            "items": ["Siren's_staff"],
+            "subitems": [
+              {
+                "id": "Setup",
+                "type": "magic",
+                "setupId": "The_Whisperer"
+              }
+            ]
           },
           {
             "id": "Duke_Sucellus",
             "type": "boss",
             "icon": "Baron",
-            "items": ["Eye_of_the_duke"]
+            "items": ["Eye_of_the_duke"],
+            "subitems": [
+              {
+                "id": "Setup",
+                "type": "melee",
+                "setupId": "Duke_Sucellus"
+              }
+            ]
           },
           {
             "id": "Vardorvis",
@@ -1689,23 +1877,28 @@
             "items": ["Dragon_claws", "Elder_maul"],
             "subitems": [
               {
-                "id": "Mining",
+                "id": "Guardian_(Chambers_of_Xeric)",
                 "type": "mining",
                 "title": "75 mining",
-                "subtitle": "Recommended"
+                "subtitle": "Guardians"
               },
               {
-                "id": "Herblore",
+                "id": "Overload_(+)",
                 "type": "herblore",
                 "title": "90 herblore",
-                "subtitle": "Recommended"
+                "subtitle": "Overload+"
+              },
+              {
+                "id": "Setup",
+                "type": "pvm",
+                "setupId": "Chambers_of_Xeric/Challenge_Mode"
               }
             ]
           }
         ],
         "notes": [
           "At this point in your gear progression, you should be strong enough to do Challenge Mode for a better chance at uniques.",
-          "Both the Dragon Claws and Elder Maul are best in slot at many bosses across the game, but the Elder Maul is one of 3 very rare drops. The <Link=\"Dragon_warhammer\">Dragon Warhammer</Link> is still a very strong alternative in the meantime."
+          "Both the Dragon Claws and Elder Maul are best in slot at many bosses across the game, but the Elder Maul is one of the rarest drops. The <Link=\"Dragon_warhammer\">Dragon Warhammer</Link> is still a very strong alternative in the meantime."
         ]
       },
       {
@@ -1732,6 +1925,11 @@
               {
                 "id": "A_Night_at_the_Theatre",
                 "type": "quest"
+              },
+              {
+                "id": "Setup",
+                "type": "pvm",
+                "setupId": "Theatre_of_Blood"
               }
             ]
           },
@@ -1772,7 +1970,14 @@
             "type": "boss",
             "icon": "Nex_icon_(mobile)",
             "subtitle": "Small teams",
-            "items": ["Torva_full_helm_(damaged)", "Torva_platebody_(damaged)", "Torva_platelegs_(damaged)"]
+            "items": ["Torva_full_helm_(damaged)", "Torva_platebody_(damaged)", "Torva_platelegs_(damaged)"],
+            "subitems": [
+              {
+                "id": "Setup",
+                "type": "pvm",
+                "setupId": "Nex"
+              }
+            ]
           },
           {
             "id": "Smithing",
@@ -1783,7 +1988,7 @@
           }
         ],
         "notes": [
-          "Torva armour gives higher max hits but Oathplate is still better DPS for slash because of its accuracy bonus, thus Torva should be used for non-slash attack styles."
+          "Torva armour gives higher max hits but Oathplate is still better DPS for slash because of its accuracy bonus, thus Torva is mostly used on non-slash attack styles."
         ]
       },
       {
@@ -1798,7 +2003,6 @@
           {
             "id": "A_Taste_of_Hope",
             "type": "quest",
-            "subtitle": "Recommended",
             "items": ["Drakan's_medallion"]
           },
           {
@@ -1810,12 +2014,19 @@
               "Inquisitor's_great_helm",
               "Inquisitor's_hauberk",
               "Inquisitor's_plateskirt"
+            ],
+            "subitems": [
+              {
+                "id": "Setup",
+                "type": "melee",
+                "setupId": "Phosani's_Nightmare"
+              }
             ]
           }
         ],
         "notes": [
-          "The Inquisitor's mace is best in slot for crush on 1x1 monsters otherwise the Scythe is still better.",
-          "Inquisitor's armour is pretty niche and not worth farming as part of normal progression. It is only good for the crush attack style in a few situations."
+          "The mace is best in slot for crush on 1x1 monsters but the Scythe is still better on larger monsters.",
+          "Inquisitor's armour is best in slot for crush but also fairly niche so it's not worth farming until you have most other gear."
         ]
       },
       {

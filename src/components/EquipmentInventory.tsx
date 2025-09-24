@@ -13,42 +13,46 @@ import iconNeck from '../images/equipment-slot-neck.png';
 import iconRing from '../images/equipment-slot-ring.png';
 import iconShield from '../images/equipment-slot-shield.png';
 import iconWeapon from '../images/equipment-slot-weapon.png';
-import type { EquipmentSlot, EquipmentSlots, EquipmentSlotId } from '../types';
+import { useEquipmentContext } from '../context';
+import type { EquipmentSlot, EquipmentSlotId, EquippedItemIds, EquippedItems } from '../types'; // prettier-ignore
 
 interface EquipmentInventoryProps {
   className?: string;
-  slots?: EquipmentSlots;
+  items?: EquippedItems | EquippedItemIds;
 }
 
 export default function EquipmentInventory({
   className,
-  slots = {},
+  items = {},
 }: EquipmentInventoryProps) {
-  const weapon = slots['weapon'];
-  const shield = weapon?.tags?.includes('2h') ? undefined : slots['shield'];
-  const ammo = weapon?.ammo ?? slots['ammo'];
+  const { getItemData } = useEquipmentContext();
+  const weapon = getItemData(items.weapon);
+  const ammo = getItemData(items.ammo) ?? weapon?.ammo;
+  const shield = weapon?.tags?.includes('2h')
+    ? undefined
+    : getItemData(items.shield);
   return (
     <div className={classNames('equipment-inventory', className)}>
       <div aria-hidden />
-      <ItemSlot id="head" item={slots['head']} />
+      <EquipmentInventorySlot id="head" item={getItemData(items.head)} />
       <div aria-hidden />
-      <ItemSlot id="cape" item={slots['cape']} />
-      <ItemSlot id="neck" item={slots['neck']} />
-      <ItemSlot id="ammo" item={ammo} />
-      <ItemSlot id="weapon" item={weapon} />
-      <ItemSlot id="body" item={slots['body']} />
-      <ItemSlot id="shield" item={shield} />
+      <EquipmentInventorySlot id="cape" item={getItemData(items.cape)} />
+      <EquipmentInventorySlot id="neck" item={getItemData(items.neck)} />
+      <EquipmentInventorySlot id="ammo" item={ammo} />
+      <EquipmentInventorySlot id="weapon" item={weapon} />
+      <EquipmentInventorySlot id="body" item={getItemData(items.body)} />
+      <EquipmentInventorySlot id="shield" item={shield} />
       <div aria-hidden />
-      <ItemSlot id="legs" item={slots['legs']} />
+      <EquipmentInventorySlot id="legs" item={getItemData(items.legs)} />
       <div aria-hidden />
-      <ItemSlot id="hands" item={slots['hands']} />
-      <ItemSlot id="feet" item={slots['feet']} />
-      <ItemSlot id="ring" item={slots['ring']} />
+      <EquipmentInventorySlot id="hands" item={getItemData(items.hands)} />
+      <EquipmentInventorySlot id="feet" item={getItemData(items.feet)} />
+      <EquipmentInventorySlot id="ring" item={getItemData(items.ring)} />
     </div>
   );
 }
 
-function ItemSlot({ id, item }: EquipmentSlot) {
+function EquipmentInventorySlot({ id, item }: EquipmentSlot) {
   return (
     <div className="equipment-inventory__slot" id={id}>
       <ItemFrame

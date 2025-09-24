@@ -1,6 +1,6 @@
 import { capitalizeFirstLetter } from '@zigurous/forge-react';
 import { combatSkills, iconOrder, nonCombatSkills, skills } from './constants'; // prettier-ignore
-import type { Activity, CombatSkill, CombatStyle, EquipmentSlots, NonCombatSkill, Region, RegionId, Skill, SkillLevels, SortingGroup, Spell, Spellbook } from '../types'; // prettier-ignore
+import type { Activity, CombatSkill, CombatStyle, EquippedItems, NonCombatSkill, Region, RegionId, Skill, SkillLevels, SortingGroup, Spell, Spellbook } from '../types'; // prettier-ignore
 
 const autoDetectedItemSuffixes = [
   '_arrow',
@@ -259,7 +259,7 @@ function combineUniqueIds(regions: Region[], prop: keyof Region): string[] {
   ];
 }
 
-export function getEmptyEquipmentSlots(): EquipmentSlots {
+export function getEmptyEquipmentSlots(): EquippedItems {
   return {
     weapon: undefined,
     shield: undefined,

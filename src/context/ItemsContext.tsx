@@ -7,12 +7,14 @@ interface ItemsContextData {
   items: ItemData[];
   getItemById: (id: string) => ItemData;
   getItemsByIds: (ids: string[]) => ItemData[];
+  getItemData: (item: string | ItemData | undefined) => ItemData | undefined;
 }
 
 const defaultData: ItemsContextData = {
   items: [],
   getItemById: () => ({ id: 'Nothing' }),
   getItemsByIds: () => [],
+  getItemData: () => undefined,
 };
 
 const ItemsContext = createContext<ItemsContextData>(defaultData);
@@ -25,7 +27,7 @@ export function useItemsContext(): ItemsContextData {
 export function ItemsContextProvider({ children }: React.PropsWithChildren) {
   const data = useStaticQuery<ItemsQueryData>(dataQuery);
 
-  const getItemById = useCallback(
+  const getItemById = useCallback<(id: string) => ItemData>(
     (id: string) =>
       data.items.nodes.find(item => item.id === id) ||
       data.pets.nodes.find(pet => pet.id === id) || {
@@ -40,12 +42,22 @@ export function ItemsContextProvider({ children }: React.PropsWithChildren) {
     [getItemById],
   );
 
+  const getItemData = useCallback(
+    (item: string | ItemData | undefined) => {
+      if (!item) return undefined;
+      if (typeof item === 'string') return getItemById(item);
+      return item;
+    },
+    [getItemById],
+  );
+
   return (
     <ItemsContext.Provider
       value={{
         items: data.items.nodes,
         getItemById,
         getItemsByIds,
+        getItemData,
       }}
     >
       {children}

@@ -17,7 +17,8 @@ export interface EquipmentSlot {
   item?: EquipmentItem;
 }
 
-export type EquipmentSlots = Partial<Record<EquipmentSlotId, EquipmentItem>>;
+export type EquippedItems = Partial<Record<EquipmentSlotId, EquipmentItem>>;
+export type EquippedItemIds = Partial<Record<EquipmentSlotId, string>>;
 
 export interface EquipmentCategory {
   id: 'melee' | 'ranged' | 'magic' | 'prayer';

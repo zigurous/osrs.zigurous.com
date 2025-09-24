@@ -2,7 +2,7 @@ import React, { useMemo } from 'react';
 import EquipmentCard from './EquipmentCard';
 import { useEquipmentContext, useSettingsContext } from '../context';
 import { getEmptyEquipmentSlots, isInRegion } from '../utils';
-import type { BestInSlotQueryData, EquipmentCategory, EquipmentSlots } from '../types'; // prettier-ignore
+import type { BestInSlotQueryData, EquipmentCategory, EquippedItems } from '../types'; // prettier-ignore
 
 interface BestInSlotEquipmentCardProps {
   category: EquipmentCategory;
@@ -19,7 +19,7 @@ export default function BestInSlotEquipmentCard({
   const { getItemById } = useEquipmentContext();
   const { [category.subcategoryKey]: subcategoryId } = settings;
 
-  const equipment: EquipmentSlots = useMemo(() => {
+  const equipment: EquippedItems = useMemo(() => {
     // Start with an empty set of slots
     const slots = getEmptyEquipmentSlots();
     // Assigns items to each slot based on the category (melee, ranged, magic)

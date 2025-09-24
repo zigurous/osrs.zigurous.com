@@ -9,9 +9,9 @@ import type { Skill, SkillLevels } from '../types';
 interface SkillsGridProps {
   className?: string;
   cols?: number;
+  highlighted?: Skill[];
   levels: Partial<SkillLevels>;
   major?: 'row' | 'column';
-  previous?: Partial<SkillLevels>;
   rows?: number;
   skills?: Skill[];
   style?: React.CSSProperties;
@@ -20,9 +20,9 @@ interface SkillsGridProps {
 export default function SkillsGrid({
   className,
   cols = 3,
+  highlighted,
   levels,
   major = 'column',
-  previous,
   rows = 8,
   skills,
   style,
@@ -41,11 +41,7 @@ export default function SkillsGrid({
         <li
           aria-label={skill}
           className={classNames({
-            changed: Boolean(
-              previous &&
-                Boolean(previous[skill]) &&
-                levels[skill] !== previous[skill],
-            ),
+            changed: highlighted?.includes(skill),
           })}
           key={skill}
         >

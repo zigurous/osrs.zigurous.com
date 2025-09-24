@@ -59,7 +59,7 @@ export default function GearProgressionEquipment() {
         style={{ minWidth: '240px' }}
       >
         <EquipmentInventory
-          slots={context.current.equipment[EQUIPMENT_OVERALL]}
+          items={context.current.equipment[EQUIPMENT_OVERALL]}
         />
       </Stack>
     </TitledCard>

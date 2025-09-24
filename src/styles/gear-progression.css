@@ -162,10 +162,6 @@ a.gear-progression__upgrade-link + div {
   max-height: 328px;
 }
 
-/* .gear-progression-card#stats {
-  margin-right: 36px;
-} */
-
 .gear-progression-card#quests {
   width: 260px;
 }

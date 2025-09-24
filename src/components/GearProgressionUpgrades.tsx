@@ -69,23 +69,20 @@ export default function GearProgressionUpgrades({
               className={classNames('gear-progression__upgrade sub-item', {
                 last: index === upgrade.subitems!.length - 1,
               })}
-              key={subitem.id}
+              key={`${upgrade.id}-${subitem.id}`}
             >
               {subitem.setupId ? (
                 <Stack
                   align="center"
-                  className="relative px-sm py-xs"
+                  className="relative px-md py-xs"
                   onClick={() => viewSetup(subitem.setupId!)}
                   style={{ minHeight: '38px' }}
                 >
                   {(subitem.icon || subitem.type !== 'setup') && (
                     <WikiIcon
+                      className="mr-md"
                       icon={subitem.icon || getIconForType(subitem)}
                       size={18}
-                      style={{
-                        marginLeft: '1px',
-                        marginRight: 'calc(var(--spacing-sm) + 1px)',
-                      }}
                     />
                   )}
                   <Button

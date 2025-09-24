@@ -197,9 +197,11 @@ export const createSchemaCustomization = ({
       loadouts: [RecommendedSetupLoadout!]!
     }
     type RecommendedSetupLoadout {
-      type: String!
+      title: String
       equipment: [RecommendedSetupEquipmentItem!]!
       inventory: [RecommendedSetupInventoryItem!]!
+      runePouch: [String!]
+      spell: String
     }
     type RecommendedSetupEquipmentItem {
       slot: String!

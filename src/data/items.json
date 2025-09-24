@@ -96,8 +96,20 @@
     "icon": "Angler_hat"
   },
   {
+    "id": "Antidote++",
+    "icon": "Antidote++(4)"
+  },
+  {
     "id": "Antipoison",
     "icon": "Antipoison(4)"
+  },
+  {
+    "id": "Anti-venom",
+    "icon": "Anti-venom(4)"
+  },
+  {
+    "id": "Anti-venom+",
+    "icon": "Anti-venom+(4)"
   },
   {
     "id": "Anvil",
@@ -816,6 +828,10 @@
     ]
   },
   {
+    "id": "Extended_anti-venom+",
+    "icon": "Extended_anti-venom+(4)"
+  },
+  {
     "id": "Eye_of_the_corruptor",
     "transmutations": [
       "#plus",
@@ -834,6 +850,10 @@
       "#equals",
       "Soulreaper_axe"
     ]
+  },
+  {
+    "id": "Fairy_ring_(Construction)",
+    "icon": "Fairy_ring_(Construction)_icon"
   },
   {
     "id": "Fairy_rings",
@@ -1562,6 +1582,10 @@
     "icon": "Orange_spice_(4)"
   },
   {
+    "id": "Ornate_rejuvenation_pool",
+    "icon": "Ornate_rejuvenation_pool_icon"
+  },
+  {
     "id": "Parasitic_egg",
     "tags": ["cosmetic"]
   },
@@ -1959,6 +1983,10 @@
     "icon": "Super_energy(4)"
   },
   {
+    "id": "Super_restore",
+    "icon": "Super_restore(4)"
+  },
+  {
     "id": "Super_strength",
     "icon": "Super_strength(4)"
   },
@@ -2016,6 +2044,10 @@
     "id": "Tecu_salamander_(Hunter)",
     "icon": "Tecu_salamander",
     "name": "Tecu Salamander"
+  },
+  {
+    "id": "Teleport_to_house_(tablet)",
+    "name": "Teleport to House"
   },
   {
     "id": "The_dogsword",

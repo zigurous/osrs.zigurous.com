@@ -152,6 +152,11 @@
     ]
   },
   {
+    "id": "Amethyst_arrow",
+    "icon": "Amethyst_arrow_5",
+    "slot": "ammo"
+  },
+  {
     "id": "Amulet_of_accuracy",
     "slot": "neck",
     "regions": ["misthalin"]
@@ -338,6 +343,11 @@
     "regions": ["fremennik"]
   },
   {
+    "id": "Archers_ring_(i)",
+    "slot": "ring",
+    "regions": ["fremennik"]
+  },
+  {
     "id": "Arclight",
     "slot": "weapon",
     "tags": ["1h"],
@@ -482,12 +492,18 @@
   {
     "id": "Ava's_accumulator",
     "slot": "cape",
-    "regions": ["misthalin"]
+    "regions": ["misthalin"],
+    "skillRequirements": [
+      { "skill": "ranged", "level": 50 }
+    ]
   },
   {
     "id": "Ava's_assembler",
     "slot": "cape",
-    "regions": ["fremennik/misthalin"]
+    "regions": ["fremennik/misthalin"],
+    "skillRequirements": [
+      { "skill": "ranged", "level": 70 }
+    ]
   },
   {
     "id": "Ava's_assembler#*",
@@ -536,6 +552,12 @@
     "id": "Bandos_chestplate",
     "slot": "body",
     "regions": ["asgarnia"]
+  },
+  {
+    "id": "Bandos_d'hide_shield",
+    "slot": "shield",
+    "tags": ["clues"],
+    "regions": ["all"]
   },
   {
     "id": "Bandos_godsword",
@@ -793,6 +815,12 @@
     "regions": ["asgarnia"]
   },
   {
+    "id": "Bolt_rack",
+    "icon": "Bolt_rack_5",
+    "slot": "ammo",
+    "regions": ["morytania"]
+  },
+  {
     "id": "Bone_dagger",
     "slot": "weapon",
     "tags": ["1h"],
@@ -855,6 +883,11 @@
     "id": "Brimstone_ring",
     "slot": "ring",
     "regions": ["kourend"]
+  },
+  {
+    "id": "Broad_bolts",
+    "icon": "Broad_bolts_5",
+    "slot": "ammo"
   },
   {
     "id": "Bronze_gloves",
@@ -996,8 +1029,13 @@
     "regions": ["wilderness"]
   },
   {
-    "id": "Damaged_book",
-    "icon": "Damaged_book_(Saradomin)",
+    "id": "Damaged_book_(Ancient)",
+    "name": "Damaged Book (Ancient)",
+    "slot": "shield"
+  },
+  {
+    "id": "Damaged_book_(Armadyl)",
+    "name": "Damaged Book (Armadyl)",
     "slot": "shield"
   },
   {
@@ -1009,6 +1047,12 @@
       "id": "Dragon_arrow",
       "icon": "Dragon_arrow_5"
     }
+  },
+  {
+    "id": "Darklight",
+    "slot": "weapon",
+    "tags": ["1h"],
+    "regions": ["desert"]
   },
   {
     "id": "Defence_cape(t)",
@@ -1042,6 +1086,11 @@
     "skillRequirements": [
       { "skill": "defence", "level": 70 }
     ]
+  },
+  {
+    "id": "Diamond_bolts_(e)",
+    "icon": "Diamond_bolts_(e)_5",
+    "slot": "ammo"
   },
   {
     "id": "Dizana's_max_cape",
@@ -1198,6 +1247,11 @@
     "skillRequirements": [
       { "skill": "magic", "level": 65 }
     ]
+  },
+  {
+    "id": "Dragon_javelin",
+    "slot": "ammo",
+    "regions": ["kandarin"]
   },
   {
     "id": "Dragon_knife",
@@ -1431,6 +1485,34 @@
     "id": "Elidinis'_ward_(f)",
     "slot": "shield",
     "regions": ["desert/wilderness"]
+  },
+  {
+    "id": "Elite_void_top",
+    "slot": "body",
+    "regions": ["asgarnia"],
+    "skillRequirements": [
+      { "skill": "attack", "level": 42 },
+      { "skill": "strength", "level": 42 },
+      { "skill": "defence", "level": 42 },
+      { "skill": "ranged", "level": 42 },
+      { "skill": "magic", "level": 42 },
+      { "skill": "hitpoints", "level": 42 },
+      { "skill": "prayer", "level": 22 }
+    ]
+  },
+  {
+    "id": "Elite_void_robe",
+    "slot": "legs",
+    "regions": ["asgarnia"],
+    "skillRequirements": [
+      { "skill": "attack", "level": 42 },
+      { "skill": "strength", "level": 42 },
+      { "skill": "defence", "level": 42 },
+      { "skill": "ranged", "level": 42 },
+      { "skill": "magic", "level": 42 },
+      { "skill": "hitpoints", "level": 42 },
+      { "skill": "prayer", "level": 22 }
+    ]
   },
   {
     "id": "Elysian_spirit_shield",
@@ -1741,9 +1823,31 @@
     "regions": ["all"]
   },
   {
+    "id": "Hueycoatl_hide_body",
+    "slot": "hands",
+    "regions": ["varlamore"],
+    "skillRequirements": [
+      { "skill": "ranged", "level": 70 },
+      { "skill": "defence", "level": 40 }
+    ]
+  },
+  {
+    "id": "Hueycoatl_hide_chaps",
+    "slot": "hands",
+    "regions": ["varlamore"],
+    "skillRequirements": [
+      { "skill": "ranged", "level": 70 },
+      { "skill": "defence", "level": 40 }
+    ]
+  },
+  {
     "id": "Hueycoatl_hide_vambraces",
     "slot": "hands",
-    "regions": ["varlamore"]
+    "regions": ["varlamore"],
+    "skillRequirements": [
+      { "skill": "ranged", "level": 70 },
+      { "skill": "defence", "level": 40 }
+    ]
   },
   {
     "id": "Hunters'_sunlight_crossbow",
@@ -2677,6 +2781,11 @@
     "regions": ["kandarin"]
   },
   {
+    "id": "Ring_of_suffering_(ri)",
+    "slot": "ring",
+    "regions": ["kandarin"]
+  },
+  {
     "id": "Ring_of_the_gods",
     "slot": "ring",
     "regions": ["wilderness"]
@@ -2698,6 +2807,11 @@
     "regions": ["fremennik"]
   },
   {
+    "id": "Ruby_bolts_(e)",
+    "icon": "Ruby_bolts_(e)_5",
+    "slot": "ammo"
+  },
+  {
     "id": "Rune_arrow",
     "icon": "Rune_arrow_5",
     "slot": "ammo"
@@ -2713,6 +2827,15 @@
     "regions": ["all"],
     "skillRequirements": [
       { "skill": "defence", "level": 40 }
+    ]
+  },
+  {
+    "id": "Rune_crossbow",
+    "slot": "weapon",
+    "tags": ["1h"],
+    "regions": ["all"],
+    "skillRequirements": [
+      { "skill": "ranged", "level": 61 }
     ]
   },
   {
@@ -2857,6 +2980,12 @@
     "regions": ["all"]
   },
   {
+    "id": "Saradomin_d'hide_boots",
+    "slot": "feet",
+    "tags": ["clues"],
+    "regions": ["all"]
+  },
+  {
     "id": "Saradomin_d'hide_shield",
     "slot": "shield",
     "tags": ["clues"],
@@ -2934,6 +3063,11 @@
     "regions": ["fremennik"]
   },
   {
+    "id": "Seers_ring_(i)",
+    "slot": "ring",
+    "regions": ["fremennik/desert", "fremennik/kandarin", "fremennik/misthalin"]
+  },
+  {
     "id": "Serpentine_helm",
     "slot": "head",
     "regions": ["tirannwn"],
@@ -2950,6 +3084,26 @@
     "id": "Shade_robe_top",
     "slot": "body",
     "regions": ["misthalin", "kourend"]
+  },
+  {
+    "id": "Shayzien_body_(5)",
+    "slot": "body",
+    "regions": ["kourend"]
+  },
+  {
+    "id": "Shayzien_boots_(5)",
+    "slot": "feet",
+    "regions": ["kourend"]
+  },
+  {
+    "id": "Shayzien_gloves_(5)",
+    "slot": "hands",
+    "regions": ["kourend"]
+  },
+  {
+    "id": "Shayzien_greaves_(5)",
+    "slot": "legs",
+    "regions": ["kourend"]
   },
   {
     "id": "Shayzien_helm_(5)",
@@ -2978,6 +3132,26 @@
     "skillRequirements": [
       { "skill": "defence", "level": 10 },
       { "skill": "crafting", "level": 55 }
+    ]
+  },
+  {
+    "id": "Slayer's_staff",
+    "slot": "weapon",
+    "tags": ["1h"],
+    "regions": ["asgarnia", "karamja", "kourend", "misthalin", "morytania"],
+    "skillRequirements": [
+      { "skill": "slayer", "level": 55 },
+      { "skill": "magic", "level": 50 }
+    ]
+  },
+  {
+    "id": "Slayer's_staff_(e)",
+    "slot": "weapon",
+    "tags": ["1h"],
+    "regions": ["asgarnia/wilderness", "karamja/wilderness", "kourend/wilderness", "misthalin/wilderness", "morytania/wilderness"],
+    "skillRequirements": [
+      { "skill": "slayer", "level": 55 },
+      { "skill": "magic", "level": 75 }
     ]
   },
   {
@@ -3402,6 +3576,12 @@
     "regions": ["all"]
   },
   {
+    "id": "Unholy_blessing",
+    "slot": "ammo",
+    "tags": ["clues"],
+    "regions": ["all"]
+  },
+  {
     "id": "Unholy_symbol",
     "slot": "neck",
     "regions": ["fremennik", "kandarin"]
@@ -3488,10 +3668,75 @@
     "regions": ["asgarnia", "desert", "fremennik", "varlamore"]
   },
   {
+    "id": "Void_knight_gloves",
+    "slot": "hands",
+    "regions": ["asgarnia"],
+    "skillRequirements": [
+      { "skill": "attack", "level": 42 },
+      { "skill": "strength", "level": 42 },
+      { "skill": "defence", "level": 42 },
+      { "skill": "ranged", "level": 42 },
+      { "skill": "magic", "level": 42 },
+      { "skill": "hitpoints", "level": 42 },
+      { "skill": "prayer", "level": 22 }
+    ]
+  },
+  {
+    "id": "Void_mage_helm",
+    "slot": "hands",
+    "regions": ["asgarnia"],
+    "skillRequirements": [
+      { "skill": "attack", "level": 42 },
+      { "skill": "strength", "level": 42 },
+      { "skill": "defence", "level": 42 },
+      { "skill": "ranged", "level": 42 },
+      { "skill": "magic", "level": 42 },
+      { "skill": "hitpoints", "level": 42 },
+      { "skill": "prayer", "level": 22 }
+    ]
+  },
+  {
+    "id": "Void_melee_helm",
+    "slot": "hands",
+    "regions": ["asgarnia"],
+    "skillRequirements": [
+      { "skill": "attack", "level": 42 },
+      { "skill": "strength", "level": 42 },
+      { "skill": "defence", "level": 42 },
+      { "skill": "ranged", "level": 42 },
+      { "skill": "magic", "level": 42 },
+      { "skill": "hitpoints", "level": 42 },
+      { "skill": "prayer", "level": 22 }
+    ]
+  },
+  {
+    "id": "Void_ranger_helm",
+    "slot": "hands",
+    "regions": ["asgarnia"],
+    "skillRequirements": [
+      { "skill": "attack", "level": 42 },
+      { "skill": "strength", "level": 42 },
+      { "skill": "defence", "level": 42 },
+      { "skill": "ranged", "level": 42 },
+      { "skill": "magic", "level": 42 },
+      { "skill": "hitpoints", "level": 42 },
+      { "skill": "prayer", "level": 22 }
+    ]
+  },
+  {
     "id": "Void_knight_mace",
     "slot": "weapon",
     "tags": ["1h"],
-    "regions": ["asgarnia"]
+    "regions": ["asgarnia"],
+    "skillRequirements": [
+      { "skill": "attack", "level": 42 },
+      { "skill": "strength", "level": 42 },
+      { "skill": "defence", "level": 42 },
+      { "skill": "ranged", "level": 42 },
+      { "skill": "magic", "level": 42 },
+      { "skill": "hitpoints", "level": 42 },
+      { "skill": "prayer", "level": 22 }
+    ]
   },
   {
     "id": "Voidwaker",
@@ -3504,6 +3749,15 @@
     "slot": "weapon",
     "tags": ["1h"],
     "regions": ["morytania"]
+  },
+  {
+    "id": "V's_shield",
+    "slot": "shield",
+    "regions": ["fremennik"],
+    "skillRequirements": [
+      { "skill": "defence", "level": 40 },
+      { "skill": "slayer", "level": 60 }
+    ]
   },
   {
     "id": "War_blessing",
@@ -3540,6 +3794,12 @@
   },
   {
     "id": "Wizard_boots",
+    "slot": "feet",
+    "tags": ["clues"],
+    "regions": ["all"]
+  },
+  {
+    "id": "Zamorak_d'hide_boots",
     "slot": "feet",
     "tags": ["clues"],
     "regions": ["all"]

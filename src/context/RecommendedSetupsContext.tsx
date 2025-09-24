@@ -100,7 +100,7 @@ const dataQuery = graphql`
         title
         strategiesLinkId
         loadouts {
-          type
+          title
           equipment {
             slot
             item
@@ -109,6 +109,8 @@ const dataQuery = graphql`
             slot
             item
           }
+          runePouch
+          spell
         }
       }
     }

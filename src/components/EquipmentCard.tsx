@@ -5,13 +5,13 @@ import EquipmentInventory from './EquipmentInventory';
 import IconToggle from './IconToggle';
 import TitledCard from './TitledCard';
 import { useSettingsContext } from '../context';
-import type { EquipmentCategory, EquipmentSlots } from '../types'; // prettier-ignore
+import type { EquipmentCategory, EquippedItemIds, EquippedItems } from '../types'; // prettier-ignore
 
 interface EquipmentCardProps {
   category: EquipmentCategory;
   children?: React.ReactNode;
   className?: string;
-  equipment?: EquipmentSlots;
+  equipment?: EquippedItems | EquippedItemIds;
   title?: string;
 }
 
@@ -57,7 +57,7 @@ export default function EquipmentCard({
         )
       }
     >
-      <EquipmentInventory slots={equipment} />
+      <EquipmentInventory items={equipment} />
       {children}
     </TitledCard>
   );

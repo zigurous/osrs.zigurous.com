@@ -5,4 +5,5 @@ export interface InventorySlot {
   item?: ItemData;
 }
 
-export type InventorySlots = Partial<Record<number, ItemData>>;
+export type Inventory = Partial<Record<number, ItemData>>;
+export type InventoryIds = Partial<Record<number, string>>;

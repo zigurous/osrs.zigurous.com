@@ -1,0 +1,42 @@
+.modal#recommended-setup .modal__content {
+  overflow: visible;
+}
+
+.modal#recommended-setup .modal__header {
+  padding: var(--spacing-md) var(--spacing-lg);
+  border-top-left-radius: var(--radius-lg);
+  border-top-right-radius: var(--radius-lg);
+}
+
+.modal#recommended-setup .modal__body {
+  padding: var(--spacing-xl) var(--spacing-lg);
+}
+
+.modal#recommended-setup .btn#next-loadout,
+.modal#recommended-setup .btn#previous-loadout {
+  color: rgb(from var(--color-foreground) r g b / var(--opacity-muted));
+  width: 42px;
+  height: 304px;
+  aspect-ratio: unset !important;
+  background-color: transparent !important;
+}
+
+.modal#recommended-setup .btn#next-loadout:disabled,
+.modal#recommended-setup .btn#previous-loadout:disabled {
+  color: var(--color-surface-4);
+}
+
+.modal#recommended-setup .item-inventory__slot .item-frame[id*=Rune_pouch i] + .item-frame__subitems > .item-frame > img {
+  transform: scale(1.4);
+}
+
+.modal#recommended-setup .item-inventory__slot .item-frame[id*=Rune_pouch i] {
+  overflow: visible;
+}
+
+.modal#recommended-setup .recommended-setup__spell {
+  position: absolute;
+  bottom: -4px;
+  right: -8px;
+  z-index: var(--z-index-max);
+}

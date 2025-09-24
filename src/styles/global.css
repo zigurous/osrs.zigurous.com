@@ -165,10 +165,6 @@ textarea::placeholder {
   font-size: var(--text-title-md);
 }
 
-.modal#recommended-setup .modal__header {
-  padding: var(--spacing-md) var(--spacing-lg);
-}
-
 @media (max-width: 816px) {
   .app-footer__right > .caption:first-child {
     display: none;

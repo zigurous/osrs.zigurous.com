@@ -5,11 +5,15 @@ import type { EquipmentItem } from '../types';
 interface EquipmentContextData {
   equipment: EquipmentItem[];
   getItemById: (id: string) => EquipmentItem | undefined;
+  getItemData: (
+    item: string | EquipmentItem | undefined,
+  ) => EquipmentItem | undefined;
 }
 
 const defaultData: EquipmentContextData = {
   equipment: [],
   getItemById: () => undefined,
+  getItemData: () => undefined,
 };
 
 const EquipmentContext = createContext<EquipmentContextData>(defaultData);
@@ -29,11 +33,21 @@ export function EquipmentContextProvider({
     [data],
   );
 
+  const getItemData = useCallback(
+    (item: string | EquipmentItem | undefined) => {
+      if (!item) return undefined;
+      if (typeof item === 'string') return getItemById(item);
+      return item;
+    },
+    [getItemById],
+  );
+
   return (
     <EquipmentContext.Provider
       value={{
         equipment: data.equipment.nodes,
         getItemById,
+        getItemData,
       }}
     >
       {children}

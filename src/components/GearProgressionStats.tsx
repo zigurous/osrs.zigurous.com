@@ -2,22 +2,21 @@ import React from 'react';
 import SkillsGrid from './SkillsGrid';
 import TitledCard from './TitledCard';
 import { useGearProgressionContext } from '../context';
-import type { SkillLevels } from '../types';
+import type { Skill } from '../types';
 
 export default function GearProgressionStats() {
   const context = useGearProgressionContext();
-  const diff =
-    context.current.stats?.reduce((diff, stat) => {
-      if (stat.highlight) {
-        diff[stat.skill] = context.previous?.skillRequirements[stat.skill] || 1;
-      }
-      return diff;
-    }, {} as Partial<SkillLevels>) || {};
+  const highlighted = context.current.stats?.reduce((skills, stat) => {
+    if (stat.highlight) {
+      skills.push(stat.skill);
+    }
+    return skills;
+  }, [] as Skill[]);
   return (
     <TitledCard className="gear-progression-card" id="stats" title="Skills">
       <SkillsGrid
+        highlighted={highlighted}
         levels={context.current.skillRequirements}
-        previous={diff}
         cols={1}
         rows={8}
       />

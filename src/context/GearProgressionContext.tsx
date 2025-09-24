@@ -3,7 +3,7 @@ import { graphql, useStaticQuery } from 'gatsby';
 import React, { createContext, useCallback, useContext, useEffect, useMemo, useState } from 'react'; // prettier-ignore
 import { useEquipmentContext, useQuestsContext } from '../context'; // prettier-ignore
 import { calculateExpectedHitpointsLevel, equipmentSlots, getDefaultSkillLevels, getEmptyEquipmentSlots, skills } from '../utils'; // prettier-ignore
-import type { GearProgressionTier, SkillLevels, EquipmentSlots, GearProgressionCategory, GearProgressionCategoryId } from '../types'; // prettier-ignore
+import type { GearProgressionTier, SkillLevels, GearProgressionCategory, GearProgressionCategoryId, EquippedItems } from '../types'; // prettier-ignore
 
 interface GearProgressionContextData {
   tierIndex: number;
@@ -22,7 +22,7 @@ interface GearProgressionContextData {
 }
 
 type GearProgressionContextTier = GearProgressionTier & {
-  equipment: Record<string, EquipmentSlots>;
+  equipment: Record<string, EquippedItems>;
   skillRequirements: Partial<SkillLevels>;
 };
 
@@ -111,7 +111,7 @@ export function GearProgressionContextProvider({
   const tiers =
     data.progression.nodes.find(node => node.category === categoryId)?.tiers ??
     [];
-  const highestTier = tiers.length - 1;
+  const highestTier = Math.max(tiers.length - 1, 0);
   const setTier = useCallback<React.Dispatch<React.SetStateAction<number>>>(
     action =>
       setTierIndex(tier =>
@@ -189,7 +189,7 @@ function useGearProgressionTier(
 
     let equipmentSets: Set<string> = new Set();
     equipmentSets.add(EQUIPMENT_OVERALL);
-    const equipment: Record<string, EquipmentSlots> = {
+    const equipment: Record<string, EquippedItems> = {
       [EQUIPMENT_OVERALL]: getEmptyEquipmentSlots(),
     };
     const skillRequirements = getDefaultSkillLevels();
@@ -277,16 +277,7 @@ function useGearProgressionTier(
       equipment,
       skillRequirements,
     };
-  }, [
-    data,
-    tiers,
-    tierIndex,
-    categoryId,
-    subcategoryId,
-    previous,
-    getItemById,
-    calculateSkillTotals,
-  ]);
+  }, [data, tierIndex, categoryId, subcategoryId]);
 }
 
 interface GearProgressionQueryData {
