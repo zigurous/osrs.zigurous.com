@@ -469,6 +469,12 @@
     "regions": ["asgarnia"]
   },
   {
+    "id": "Armadyl_crossbow",
+    "slot": "weapon",
+    "tags": ["1h"],
+    "regions": ["asgarnia"]
+  },
+  {
     "id": "Armadyl_helmet",
     "slot": "head",
     "regions": ["asgarnia"]
@@ -700,6 +706,12 @@
     "slot": "weapon",
     "tags": ["1h"],
     "regions": ["morytania"]
+  },
+  {
+    "id": "Blood_ancient_sceptre",
+    "slot": "weapon",
+    "tags": ["1h"],
+    "regions": ["fremennik/desert"]
   },
   {
     "id": "Blood_moon_chestplate",
@@ -1090,6 +1102,11 @@
   {
     "id": "Diamond_bolts_(e)",
     "icon": "Diamond_bolts_(e)_5",
+    "slot": "ammo"
+  },
+  {
+    "id": "Diamond_dragon_bolts_(e)",
+    "icon": "Diamond_dragon_bolts_(e)_5",
     "slot": "ammo"
   },
   {
@@ -2572,12 +2589,17 @@
   {
     "id": "Pegasian_boots",
     "slot": "feet",
-    "tags": ["*"],
     "regions": ["asgarnia"],
     "skillRequirements": [
       { "skill": "ranged", "level": 75 },
       { "skill": "defence", "level": 75 }
     ]
+  },
+  {
+    "id": "Pegasian_boots#*",
+    "slot": "feet",
+    "tags": ["*"],
+    "regions": ["asgarnia"]
   },
   {
     "id": "Pegasian_boots#Clues",
@@ -2809,6 +2831,11 @@
   {
     "id": "Ruby_bolts_(e)",
     "icon": "Ruby_bolts_(e)_5",
+    "slot": "ammo"
+  },
+  {
+    "id": "Ruby_dragon_bolts_(e)",
+    "icon": "Ruby_dragon_bolts_(e)_5",
     "slot": "ammo"
   },
   {

@@ -18,7 +18,7 @@ export default function GearProgressionNotes({
         {notes.map((note, index) => (
           <li
             className={classNames({
-              'mb-md': index < notes.length - 1,
+              'mb-sm': index < notes.length - 1,
             })}
             key={note}
           >

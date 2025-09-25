@@ -625,6 +625,10 @@
       {
         "title": "Dagannoth Rex",
         "items": ["Berserker_ring_(i)"],
+        "stats": [
+          { "skill": "magic", "level": 50 },
+          { "skill": "defence", "level": 60 }
+        ],
         "upgrades": [
           {
             "id": "Dagannoth_Rex",
@@ -648,7 +652,7 @@
         ],
         "notes": [
           "The only Dagannoth King worth killing right now is <Link=\"Dagannoth_Rex\">Dagannoth Rex</Link>. The other kings are harder to kill and their rings are very marginal upgrades.",
-          "A dagannoth slayer task will make this easier if you have a <Link=\"Black_mask_(i)\">Black Mask (i)</Link> but it is not required. You can also wait until after Barrows for better tank armour but Rune is plenty enough."
+          "A dagannoth slayer task will make this easier if you have a <Link=\"Black_mask_(i)\">Black Mask (i)</Link> but it is not required. You can also wait until after Barrows for better tank armour."
         ]
       },
       {
@@ -662,6 +666,13 @@
         ],
         "upgrades": [
           {
+            "id": "Magic",
+            "type": "magic",
+            "title": "62 magic",
+            "subtitle": "To cast wind wave",
+            "items": ["Wind_Wave"]
+          },
+          {
             "id": "Barrows",
             "type": "boss",
             "icon": "Barrows_Brothers_icon_(mobile)",
@@ -669,7 +680,7 @@
             "subitems": [
               {
                 "id": "Setup",
-                "type": "magic",
+                "type": "pvm",
                 "setupId": "Barrows"
               }
             ]
@@ -690,6 +701,7 @@
         "items": ["Fire_cape"],
         "stats": [
           { "skill": "magic", "level": 68 },
+          { "skill": "defence", "level": 70 },
           { "skill": "ranged", "level": 70, "highlight": true }
         ],
         "upgrades": [
@@ -823,10 +835,21 @@
         "title": "Royal Titans",
         "items": [],
         "stats": [
+          { "skill": "runecraft", "level": 50 },
           { "skill": "prayer", "level": 63, "highlight": true },
+          { "skill": "attack", "level": 70 },
+          { "skill": "strength", "level": 70 },
+          { "skill": "ranged", "level": 70 },
           { "skill": "magic", "level": 75, "highlight": true }
         ],
         "upgrades": [
+          {
+            "id": "Fire_Wave",
+            "type": "magic",
+            "title": "75 magic",
+            "subtitle": "To cast fire wave",
+            "items": ["Fire_Wave"]
+          },
           {
             "id": "Royal_Titans",
             "type": "boss",
@@ -846,13 +869,6 @@
             "title": "63 prayer",
             "subtitle": "To use upgraded prayers",
             "items": ["Deadeye", "Mystic_Vigour"]
-          },
-          {
-            "id": "Fire_Wave",
-            "type": "magic",
-            "title": "75 magic",
-            "subtitle": "To cast fire wave",
-            "items": ["Fire_Wave"]
           }
         ],
         "notes": [
@@ -868,6 +884,9 @@
         ],
         "stats": [
           { "skill": "prayer", "level": 70, "highlight": true },
+          { "skill": "ranged", "level": 70 },
+          { "skill": "magic", "level": 70 },
+          { "skill": "defence", "level": 70 },
           { "skill": "attack", "level": 75 },
           { "skill": "strength", "level": 80 },
           { "skill": "slayer", "level": 83, "highlight": true }
@@ -938,7 +957,7 @@
             "id": "Arceuus_spellbook",
             "type": "magic",
             "title": "82 magic",
-            "subtitle": "To cast arceuus spells",
+            "subtitle": "To cast dark demonbane",
             "items": ["Death_Charge", "Dark_Demonbane"]
           },
           {
@@ -972,12 +991,14 @@
           { "skill": "fletching", "level": 74, "highlight": true },
           { "skill": "smithing", "level": 74, "highlight": true },
           { "skill": "crafting", "level": 74, "highlight": true },
+          { "skill": "strength", "level": 75 },
           { "skill": "defence", "level": 75 },
           { "skill": "fishing", "level": 76 },
           { "skill": "ranged", "level": 77 },
           { "skill": "attack", "level": 77 },
           { "skill": "ranged", "level": 77 },
-          { "skill": "cooking", "level": 80 }
+          { "skill": "cooking", "level": 80 },
+          { "skill": "magic", "level": 82 }
         ],
         "upgrades": [
           {
@@ -1028,6 +1049,7 @@
           { "skill": "slayer", "level": 76 },
           { "skill": "ranged", "level": 80 },
           { "skill": "attack", "level": 80 },
+          { "skill": "defence", "level": 80 },
           { "skill": "strength", "level": 85 },
           { "skill": "magic", "level": 89, "highlight": true },
           { "skill": "crafting", "level": 93, "highlight": true }
@@ -1080,6 +1102,10 @@
           { "id": "Emberlight", "subcategory": "slayer" }
         ],
         "stats": [
+          { "skill": "attack", "level": 80 },
+          { "skill": "strength", "level": 80 },
+          { "skill": "defence", "level": 80 },
+          { "skill": "ranged", "level": 80 },
           { "skill": "construction", "level": 80, "highlight": true },
           { "skill": "slayer", "level": 85, "highlight": true },
           { "skill": "magic", "level": 88 }
@@ -1096,6 +1122,13 @@
             "id": "Slayer",
             "type": "slayer",
             "title": "85 slayer"
+          },
+          {
+            "id": "Magic",
+            "type": "magic",
+            "title": "88 magic",
+            "subtitle": "To cast shadow barrage",
+            "items": ["Shadow_Barrage"]
           },
           {
             "id": "Abyssal_demon",
@@ -1117,9 +1150,6 @@
               }
             ]
           }
-        ],
-        "notes": [
-          "The upgrades to your stab and crush setups from Sire are not super important so feel free to skip this boss, especially if you don't have synapse weapons."
         ]
       },
       {
@@ -1134,6 +1164,7 @@
         ],
         "stats": [
           { "skill": "herblore", "level": 76 },
+          { "skill": "magic", "level": 85 },
           { "skill": "slayer", "level": 87, "highlight": true }
         ],
         "upgrades": [
@@ -1170,6 +1201,7 @@
           { "id": "Slayer_helmet_(i)", "subcategory": "slayer" }
         ],
         "stats": [
+          { "skill": "magic", "level": 75 },
           { "skill": "agility", "level": 76, "highlight": true },
           { "skill": "fletching", "level": 78, "highlight": true },
           { "skill": "construction", "level": 82, "highlight": true  },
@@ -1177,17 +1209,17 @@
         ],
         "upgrades": [
           {
+            "id": "Stepping_stone_(Zul-Andra)",
+            "type": "agility",
+            "title": "76 agility",
+            "subtitle": "Zul-Andra stepping stone"
+          },
+          {
             "id": "Zulrah",
             "type": "boss",
             "icon": "Zulrah_icon_(mobile)",
             "items": ["Serpentine_visage", "Tanzanite_fang", "Magic_fang"],
             "subitems": [
-              {
-                "id": "Stepping_stone_(Zul-Andra)",
-                "type": "agility",
-                "title": "76 agility",
-                "subtitle": "Zul-Andra stepping stone"
-              },
               {
                 "id": "Setup",
                 "type": "magic",
@@ -1258,30 +1290,33 @@
           }
         ],
         "notes": [
-          "The <Link=\"Dragon_warhammer\">Dragon Warhammer</Link> is an important weapon for draining the defences of monsters and will be used at a lot of bosses. It's a long but worthwhile grind, although many players wait until they start doing higher level PvM before grinding this weapon."
+          "The <Link=\"Dragon_warhammer\">Dragon Warhammer</Link> is used at a lot of bosses to drain their defence. It's a long but worthwhile grind, although many players wait until they start doing higher level PvM before grinding this weapon."
         ]
       },
       {
         "title": "General Graardor",
         "items": ["Bandos_chestplate", "Bandos_tassets"],
         "stats": [
-          { "skill": "defence", "level": 80, "highlight": true },
+          { "skill": "attack", "level": 80 },
+          { "skill": "strength", "level": 80 },
+          { "skill": "defence", "level": 80 },
+          { "skill": "ranged", "level": 80 },
           { "skill": "smithing", "level": 80, "highlight": true },
-          { "skill": "magic", "level": 92, "highlight": true }
+          { "skill": "magic", "level": 92 }
         ],
         "upgrades": [
+          {
+            "id": "Defence",
+            "type": "defence",
+            "title": "80+ defence",
+            "subtitle": "Recommended"
+          },
           {
             "id": "General_Graardor",
             "type": "boss",
             "icon": "General_Graardor_icon_(mobile)",
             "items": ["Bandos_hilt", "Bandos_chestplate", "Bandos_tassets"],
             "subitems": [
-              {
-                "id": "Defence",
-                "type": "defence",
-                "title": "80+ defence",
-                "subtitle": "Strongly recommended"
-              },
               {
                 "id": "Setup",
                 "type": "ranged",
@@ -1313,6 +1348,10 @@
           { "id": "Emberlight", "subcategory": "slayer" }
         ],
         "stats": [
+          { "skill": "attack", "level": 80 },
+          { "skill": "strength", "level": 80 },
+          { "skill": "defence", "level": 80 },
+          { "skill": "magic", "level": 80 },
           { "skill": "ranged", "level": 85, "highlight": true }
         ],
         "upgrades": [
@@ -1353,7 +1392,7 @@
       {
         "title": "Tombs of Amascut",
         "questMilestone": "Beneath_Cursed_Sands",
-        "items": ["Osmumten's_fang", "Lightbearer"],
+        "items": ["Osmumten's_fang"],
         "subcategoryItems": [
           { "id": "Osmumten's_fang", "subcategory": "stab" },
           { "id": "Abyssal_tentacle", "subcategory": "slash" },
@@ -1362,6 +1401,12 @@
           { "id": "Emberlight", "subcategory": "slayer" }
         ],
         "stats": [
+          { "skill": "attack", "level": 70 },
+          { "skill": "strength", "level": 70 },
+          { "skill": "defence", "level": 70 },
+          { "skill": "ranged", "level": 70 },
+          { "skill": "magic", "level": 70 },
+          { "skill": "crafting", "level": 75 },
           { "skill": "attack", "level": 82, "highlight": true }
         ],
         "upgrades": [
@@ -1401,7 +1446,19 @@
         "subcategoryItems": [
           { "id": "Slayer_helmet_(i)", "subcategory": "slayer" }
         ],
+        "stats": [
+          { "skill": "slayer", "level": 60 },
+          { "skill": "ranged", "level": 75 },
+          { "skill": "attack", "level": 80 },
+          { "skill": "strength", "level": 80 },
+          { "skill": "defence", "level": 80 }
+        ],
         "upgrades": [
+          {
+            "id": "The_Fremennik_Exiles",
+            "type": "quest",
+            "items": ["V's_shield"]
+          },
           {
             "id": "Basilisk_Knight",
             "type": "slayer",
@@ -1409,10 +1466,6 @@
             "subtitle": "Optional",
             "items": ["Basilisk_jaw"],
             "subitems": [
-              {
-                "id": "The_Fremennik_Exiles",
-                "type": "quest"
-              },
               {
                 "id": "Setup",
                 "type": "slayer",
@@ -1429,22 +1482,26 @@
         "title": "Cerberus",
         "items": ["Primordial_boots"],
         "stats": [
-          { "skill": "magic", "level": 60 },
           { "skill": "runecraft", "level": 60, "highlight": true },
-          { "skill": "herblore", "level": 90, "highlight": true },
+          { "skill": "magic", "level": 80 },
+          { "skill": "defence", "level": 80 },
+          { "skill": "attack", "level": 85 },
+          { "skill": "herblore", "level": 86, "highlight": true },
+          { "skill": "strength", "level": 90 },
           { "skill": "slayer", "level": 91, "highlight": true }
         ],
         "upgrades": [
           {
+            "id": "Herblore",
+            "type": "herblore",
+            "title": "86 herblore",
+            "subtitle": "+4 boost",
+            "items": ["Super_combat_potion"]
+          },
+          {
             "id": "Slayer",
             "type": "slayer",
             "title": "91 slayer"
-          },
-          {
-            "id": "Herblore",
-            "type": "herblore",
-            "title": "90 herblore",
-            "items": ["Super_combat_potion"]
           },
           {
             "id": "Cerberus",
@@ -1479,23 +1536,26 @@
         ],
         "stats": [
           { "skill": "smithing", "level": 72 },
+          { "skill": "defence", "level": 80 },
+          { "skill": "attack", "level": 85 },
           { "skill": "crafting", "level": 86 },
           { "skill": "strength", "level": 90 },
           { "skill": "hitpoints", "level": 90, "highlight": true },
-          { "skill": "slayer", "level": 92, "highlight": true },
-          { "skill": "herblore", "level": 94, "highlight": true }
+          { "skill": "herblore", "level": 90, "highlight": true },
+          { "skill": "slayer", "level": 92, "highlight": true }
         ],
         "upgrades": [
+          {
+            "id": "Herblore",
+            "type": "herblore",
+            "title": "90 herblore",
+            "subtitle": "+4 boost",
+            "items": ["Anti-venom+", "Extended_anti-venom+"]
+          },
           {
             "id": "Slayer",
             "type": "slayer",
             "title": "92 slayer"
-          },
-          {
-            "id": "Herblore",
-            "type": "herblore",
-            "title": "94 herblore",
-            "items": ["Anti-venom+", "Extended_anti-venom+"]
           },
           {
             "id": "Araxyte",
@@ -1549,6 +1609,12 @@
             "title": "95 slayer"
           },
           {
+            "id": "Kourend_&_Kebos_Diary",
+            "type": "diary",
+            "subtitle": "Elite",
+            "items": ["Rada's_blessing_4"]
+          },
+          {
             "id": "Alchemical_Hydra",
             "type": "boss",
             "icon": "Hydra_icon",
@@ -1567,12 +1633,6 @@
             "title": "80 defence",
             "subtitle": "To equip gloves",
             "items": ["Ferocious_gloves"]
-          },
-          {
-            "id": "Kourend_&_Kebos_Diary",
-            "type": "diary",
-            "subtitle": "Elite",
-            "items": ["Rada's_blessing_4"]
           }
         ]
       },
@@ -1585,21 +1645,21 @@
           { "skill": "woodcutting", "level": 60 },
           { "skill": "mining", "level": 60 },
           { "skill": "prayer", "level": 77, "highlight": true },
-          { "skill": "herblore", "level": 78, "highlight": true }
+          { "skill": "herblore", "level": 78 }
         ],
         "upgrades": [
+          {
+            "id": "Chambers_of_Xeric#Strong_potions",
+            "type": "herblore",
+            "title": "78 herblore",
+            "items": ["Xeric's_aid_(+)", "Revitalisation_(+)", "Prayer_enhance_(+)"]
+          },
           {
             "id": "Chambers_of_Xeric",
             "type": "raid",
             "icon": "Great_Olm_icon_(mobile)",
             "items": ["Dexterous_prayer_scroll", "Arcane_prayer_scroll"],
             "subitems": [
-              {
-                "id": "Chambers_of_Xeric#Strong_potions",
-                "type": "herblore",
-                "title": "78 herblore",
-                "subtitle": "Strong potions"
-              },
               {
                 "id": "Setup",
                 "type": "pvm",
@@ -1623,16 +1683,20 @@
         "title": "Inferno",
         "items": ["Infernal_cape"],
         "stats": [
-          { "skill": "prayer", "level": 80 },
-          { "skill": "herblore", "level": 81 },
+          { "skill": "prayer", "level": 80, "highlight": true },
           { "skill": "attack", "level": 90 },
+          { "skill": "strength", "level": 90 },
           { "skill": "defence", "level": 90, "highlight": true },
           { "skill": "magic", "level": 94, "highlight": true },
-          { "skill": "strength", "level": 95 },
-          { "skill": "ranged", "level": 99, "highlight": true },
-          { "skill": "hitpoints", "level": 99, "highlight": true }
+          { "skill": "ranged", "level": 99, "highlight": true }
         ],
         "upgrades": [
+          {
+            "id": "Defence",
+            "type": "defence",
+            "title": "90+ defence",
+            "subtitle": "Strongly recommended"
+          },
           {
             "id": "Magic",
             "type": "magic",
@@ -1654,12 +1718,6 @@
             "items": ["Infernal_cape"],
             "subitems": [
               {
-                "id": "Defence",
-                "type": "defence",
-                "title": "90+ defence",
-                "subtitle": "Strongly recommended"
-              },
-              {
                 "id": "Setup",
                 "type": "pvm",
                 "setupId": "Inferno"
@@ -1675,26 +1733,30 @@
           { "id": "Slayer_helmet_(i)", "subcategory": "slayer" }
         ],
         "stats": [
-          { "skill": "defence", "level": 78, "highlight": true },
+          { "skill": "defence", "level": 75 },
+          { "skill": "attack", "level": 80 },
+          { "skill": "strength", "level": 80 },
+          { "skill": "magic", "level": 82 },
           { "skill": "agility", "level": 83, "highlight": true },
-          { "skill": "attack", "level": 85 }
+          { "skill": "attack", "level": 85 },
+          { "skill": "runecraft", "level": 90, "highlight": true }
         ],
         "upgrades": [
+          {
+            "id": "Chain_(Chasm_of_Fire)",
+            "type": "agility",
+            "title": "83 agility",
+            "subtitle": "Chain Shortcut"
+          },
           {
             "id": "Yama",
             "type": "boss",
             "icon": "Yami",
-            "items": ["Oathplate_helm", "Oathplate_chest", "Oathplate_legs", "Rite_of_vile_transference"],
+            "items": ["Oathplate_helm", "Oathplate_chest", "Oathplate_legs"],
             "subitems": [
               {
                 "id": "A_Kingdom_Divided",
                 "type": "quest"
-              },
-              {
-                "id": "Chain_(Chasm_of_Fire)",
-                "type": "agility",
-                "title": "83 agility",
-                "subtitle": "Chain Shortcut"
               },
               {
                 "id": "Setup",
@@ -1702,6 +1764,13 @@
                 "setupId": "Yama"
               }
             ]
+          },
+          {
+            "id": "Runecraft",
+            "type": "runecraft",
+            "title": "90 runecraft",
+            "subtitle": "Boostable",
+            "items": ["Aether_rune"]
           }
         ]
       },
@@ -1709,13 +1778,17 @@
         "title": "Doom of Mokhaiotl",
         "items": ["Avernic_treads_(max)"],
         "stats": [
-          { "skill": "herblore", "level": 74 },
           { "skill": "agility", "level": 75 },
-          { "skill": "defence", "level": 80, "highlight": true },
-          { "skill": "herblore", "level": 90, "highlight": true },
-          { "skill": "ranged", "level": 90, "highlight": true }
+          { "skill": "ranged", "level": 90 },
+          { "skill": "runecraft", "level": 90, "highlight": true }
         ],
         "upgrades": [
+          {
+            "id": "Ruins_of_Mokhaiotl",
+            "type": "agility",
+            "title": "75 agility",
+            "subtitle": "Pit Jump Shortcut"
+          },
           {
             "id": "Doom_of_Mokhaiotl",
             "type": "boss",
@@ -1734,10 +1807,11 @@
             ]
           },
           {
-            "id": "Defence",
-            "type": "defence",
-            "title": "80 defence",
-            "subtitle": "To equip boots"
+            "id": "Runecraft",
+            "type": "runecraft",
+            "title": "90 runecraft",
+            "subtitle": "Boostable",
+            "items": ["Aether_rune"]
           }
         ]
       },
@@ -1747,9 +1821,11 @@
         "items": ["Ultor_ring"],
         "stats": [
           { "skill": "crafting", "level": 80 },
+          { "skill": "smithing", "level": 85, "highlight": true },
           { "skill": "magic", "level": 90 },
-          { "skill": "attack", "level": 95 },
-          { "skill": "strength", "level": 99 }
+          { "skill": "attack", "level": 90 },
+          { "skill": "defence", "level": 90 },
+          { "skill": "strength", "level": 95 }
         ],
         "upgrades": [
           {
@@ -1762,7 +1838,7 @@
             "id": "Vardorvis",
             "type": "boss",
             "icon": "Butch",
-            "items": ["Ultor_vestige", "Chromium_ingot"],
+            "items": ["Executioner's_axe_head", "Ultor_vestige"],
             "subitems": [
               {
                 "id": "Setup",
@@ -1772,20 +1848,27 @@
             ]
           },
           {
+            "id": "Smithing",
+            "type": "smithing",
+            "title": "85 smithing",
+            "subtitle": "Boostable",
+            "items": ["Chromium_ingot"]
+          },
+          {
             "id": "Crafting",
             "type": "crafting",
             "title": "80 crafting",
-            "subtitle": "Boostable"
-          },
-          {
-            "id": "Magic",
-            "type": "magic",
-            "title": "90 magic",
-            "subtitle": "Boostable"
+            "subtitle": "Boostable",
+            "items": ["Ultor_ring"],
+            "subitems": [
+              {
+                "id": "Magic",
+                "type": "magic",
+                "title": "90 magic",
+                "items": ["Ultor_ring"]
+              }
+            ]
           }
-        ],
-        "notes": [
-          "Vardorvis should be your main priority of the Desert Treasure II bosses. The <Link=\"Ultor_ring\">Ultor Ring</Link> is the biggest DPS increase across all of the rings."
         ]
       },
       {
@@ -1801,6 +1884,19 @@
           { "skill": "magic", "level": 75 }
         ],
         "upgrades": [
+          {
+            "id": "Duke_Sucellus",
+            "type": "boss",
+            "icon": "Baron",
+            "items": ["Eye_of_the_duke"],
+            "subitems": [
+              {
+                "id": "Setup",
+                "type": "melee",
+                "setupId": "Duke_Sucellus"
+              }
+            ]
+          },
           {
             "id": "The_Leviathan",
             "type": "boss",
@@ -1826,29 +1922,7 @@
                 "setupId": "The_Whisperer"
               }
             ]
-          },
-          {
-            "id": "Duke_Sucellus",
-            "type": "boss",
-            "icon": "Baron",
-            "items": ["Eye_of_the_duke"],
-            "subitems": [
-              {
-                "id": "Setup",
-                "type": "melee",
-                "setupId": "Duke_Sucellus"
-              }
-            ]
-          },
-          {
-            "id": "Vardorvis",
-            "type": "boss",
-            "icon": "Butch",
-            "items": ["Executioner's_axe_head"]
           }
-        ],
-        "notes": [
-          "The Soulreaper Axe is a very powerful weapon but it takes a long time to grind. It's a good alternative to the <Link=\"Scythe_of_vitur\">Scythe of Vitur</Link> if you don't plan on farming Theatre of Blood anytime soon."
         ]
       },
       {
@@ -1863,11 +1937,27 @@
           { "skill": "woodcutting", "level": 75 },
           { "skill": "mining", "level": 75, "highlight": true },
           { "skill": "herblore", "level": 90, "highlight": true },
+          { "skill": "prayer", "level": 90 },
           { "skill": "attack", "level": 99 },
+          { "skill": "strength", "level": 99 },
           { "skill": "defence", "level": 99 },
-          { "skill": "magic", "level": 99 }
+          { "skill": "ranged", "level": 99 },
+          { "skill": "magic", "level": 99 },
+          { "skill": "hitpoints", "level": 99 }
         ],
         "upgrades": [
+          {
+            "id": "Guardian_(Chambers_of_Xeric)",
+            "type": "mining",
+            "title": "75 mining",
+            "subtitle": "For increased damage at Guardians"
+          },
+          {
+            "id": "Chambers_of_Xeric#Strong_potions",
+            "type": "herblore",
+            "title": "90 herblore",
+            "items": ["Overload_(+)"]
+          },
           {
             "id": "Chambers_of_Xeric/Challenge_Mode",
             "type": "raid",
@@ -1877,18 +1967,6 @@
             "items": ["Dragon_claws", "Elder_maul"],
             "subitems": [
               {
-                "id": "Guardian_(Chambers_of_Xeric)",
-                "type": "mining",
-                "title": "75 mining",
-                "subtitle": "Guardians"
-              },
-              {
-                "id": "Overload_(+)",
-                "type": "herblore",
-                "title": "90 herblore",
-                "subtitle": "Overload+"
-              },
-              {
                 "id": "Setup",
                 "type": "pvm",
                 "setupId": "Chambers_of_Xeric/Challenge_Mode"
@@ -1897,8 +1975,7 @@
           }
         ],
         "notes": [
-          "At this point in your gear progression, you should be strong enough to do Challenge Mode for a better chance at uniques.",
-          "Both the Dragon Claws and Elder Maul are best in slot at many bosses across the game, but the Elder Maul is one of the rarest drops. The <Link=\"Dragon_warhammer\">Dragon Warhammer</Link> is still a very strong alternative in the meantime."
+          "At this point in your gear progression, you should be strong enough to do Challenge Mode for a better chance at uniques. Both the Dragon Claws and Elder Maul are best in slot at many bosses across the game."
         ]
       },
       {
@@ -1912,7 +1989,7 @@
           { "id": "Dragon_claws", "subcategory": "spec" }
         ],
         "stats": [
-          { "skill": "strength", "level": 90, "highlight": true }
+          { "skill": "strength", "level": 90 }
         ],
         "upgrades": [
           {
@@ -1942,6 +2019,54 @@
         ],
         "notes": [
           "A lot of our best in slot weapons are 2h so we don't prioritize Avernic Defender sooner, but if you'd like you can do a little bit of Theatre of Blood earlier in your progression since it is the most common drop."
+        ]
+      },
+      {
+        "title": "Voidwaker",
+        "items": [],
+        "subcategoryItems": [
+          { "id": "Voidwaker", "subcategory": "spec" }
+        ],
+        "upgrades": [
+          {
+            "id": "Vet'ion",
+            "type": "boss",
+            "icon": "Vet'ion_jr.",
+            "items": ["Voidwaker_blade"],
+            "subitems": [
+              {
+                "id": "Setup",
+                "type": "melee",
+                "setupId": "Vet'ion"
+              }
+            ]
+          },
+          {
+            "id": "Callisto",
+            "type": "boss",
+            "icon": "Callisto_cub",
+            "items": ["Voidwaker_hilt"],
+            "subitems": [
+              {
+                "id": "Setup",
+                "type": "ranged",
+                "setupId": "Callisto"
+              }
+            ]
+          },
+          {
+            "id": "Venenatis",
+            "type": "boss",
+            "icon": "Venenatis_spiderling",
+            "items": ["Voidwaker_gem"],
+            "subitems": [
+              {
+                "id": "Setup",
+                "type": "melee",
+                "setupId": "Venenatis"
+              }
+            ]
+          }
         ]
       },
       {

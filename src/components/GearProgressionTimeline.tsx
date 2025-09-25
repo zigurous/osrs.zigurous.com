@@ -74,7 +74,7 @@ export default function GearProgressionTimeline() {
               className={classNames('gear-progression__summary previous', {
                 'transition-in': context.timelineDirection < 0,
               })}
-              key={context.previous.title}
+              key={context.previous.title || 'previous'}
               layout="vertical"
               style={{ order: context.tierIndex - 1 }}
             >
@@ -99,7 +99,7 @@ export default function GearProgressionTimeline() {
               className={classNames('gear-progression__summary next', {
                 'transition-in': context.timelineDirection > 0,
               })}
-              key={context.next.title}
+              key={context.next.title || 'next'}
               layout="vertical"
               style={{ order: context.tierIndex + 1 }}
             >

@@ -72,26 +72,24 @@ export default function GearProgressionUpgrades({
               key={`${upgrade.id}-${subitem.id}`}
             >
               {subitem.setupId ? (
-                <Stack
-                  align="center"
-                  className="relative px-md py-xs"
-                  onClick={() => viewSetup(subitem.setupId!)}
-                  style={{ minHeight: '38px' }}
+                <div
+                  className="relative px-md py-xs h-xxxl"
+                  onClick={e => {
+                    e.preventDefault();
+                    viewSetup(subitem.setupId!);
+                  }}
                 >
-                  {(subitem.icon || subitem.type !== 'setup') && (
-                    <WikiIcon
-                      className="mr-md"
-                      icon={subitem.icon || getIconForType(subitem)}
-                      size={18}
-                    />
-                  )}
-                  <Button
-                    className="gear-progression__view-setup-btn"
-                    size="xs"
-                  >
+                  <Button size="xs">
+                    {(subitem.icon || subitem.type !== 'setup') && (
+                      <WikiIcon
+                        className="mr-xs"
+                        icon={subitem.icon || getIconForType(subitem)}
+                        size={18}
+                      />
+                    )}
                     View Recommended Setup
                   </Button>
-                </Stack>
+                </div>
               ) : (
                 <div className="relative">
                   <WikiLink

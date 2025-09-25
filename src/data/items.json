@@ -1586,6 +1586,10 @@
     "icon": "Ornate_rejuvenation_pool_icon"
   },
   {
+    "id": "Overload_(+)",
+    "icon": "Overload_(+)(4)"
+  },
+  {
     "id": "Parasitic_egg",
     "tags": ["cosmetic"]
   },
@@ -1613,6 +1617,10 @@
   {
     "id": "Polar_kebbit",
     "icon": "Polar_kebbit_icon"
+  },
+  {
+    "id": "Prayer_enhance_(+)",
+    "icon": "Prayer_enhance_(+)(4)"
   },
   {
     "id": "Prescription_goggles",
@@ -1686,6 +1694,10 @@
     "icon": "Revenant_ether_5"
   },
   {
+    "id": "Revitalisation_(+)",
+    "icon": "Revitalisation_(+)(4)"
+  },
+  {
     "id": "Rick",
     "icon": "Rick_chathead"
   },
@@ -1733,6 +1745,10 @@
   {
     "id": "Sandstone",
     "icon": "Sandstone_(10kg)"
+  },
+  {
+    "id": "Sanfew_serum",
+    "icon": "Sanfew_serum(4)"
   },
   {
     "id": "Sanguine_dust",
@@ -2282,6 +2298,10 @@
       "#equals",
       "Ancient_wyvern_shield"
     ]
+  },
+  {
+    "id": "Xeric's_aid_(+)",
+    "icon": "Xeric's_aid_(+)(4)"
   },
   {
     "id": "Xeric's_guard",
