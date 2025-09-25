@@ -19,28 +19,26 @@ export interface GearProgressionSubcategories {
 
 export interface GearProgressionTier {
   title: string;
-  items: string[];
+  items?: string[];
   subcategoryItems?: { id: string; subcategory: string }[];
-  stats?: SkillLevelHighlight[];
-  upgrades: GearProgressionUpgrade[];
+  skills?: SkillLevelHighlight[];
+  timeline: GearProgressionTimelineCard[];
   notes?: string[];
   questMilestone?: string;
-  optional?: boolean;
 }
 
-export interface GearProgressionUpgrade {
+export interface GearProgressionTimelineCard {
   id: string;
-  type: string;
-  icon?: string;
+  icon: string;
   title?: string;
   subtitle?: string;
   items?: string[];
-  subitems?: GearProgressionUpgradeSubitem[];
+  subcards?: GearProgressionTimelineSubCard[];
 }
 
-export type GearProgressionUpgradeSubitem = Omit<
-  GearProgressionUpgrade,
-  'items' | 'subitems'
+export type GearProgressionTimelineSubCard = Omit<
+  GearProgressionTimelineCard,
+  'items' | 'subcards'
 > & {
   setupId?: string;
 };

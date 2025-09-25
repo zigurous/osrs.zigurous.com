@@ -65,7 +65,7 @@ export const EQUIPMENT_OVERALL = 'overall';
 const emptyTier: GearProgressionContextTier = {
   title: '',
   items: [],
-  upgrades: [],
+  timeline: [],
   equipment: { [EQUIPMENT_OVERALL]: {} },
   skillRequirements: {},
 };
@@ -211,13 +211,13 @@ function useGearProgressionTier(
 
     // Assign equipment and set minimum skill requirements
     for (let i = 0; i <= tierIndex; i++) {
-      tiers[i].stats?.forEach(stat => {
+      tiers[i].skills?.forEach(stat => {
         skillRequirements[stat.skill] = Math.max(
           skillRequirements[stat.skill],
           stat.level,
         );
       });
-      tiers[i].items.forEach(id => {
+      tiers[i].items?.forEach(id => {
         const item = getItemById(id);
         if (item) {
           equipment[EQUIPMENT_OVERALL][item.slot] = item;
@@ -301,21 +301,19 @@ const dataQuery = graphql`
             id
             subcategory
           }
-          stats {
+          skills {
             skill
             level
             highlight
           }
-          upgrades {
+          timeline {
             id
-            type
             icon
             title
             subtitle
             items
-            subitems {
+            subcards {
               id
-              type
               icon
               title
               subtitle
@@ -324,7 +322,6 @@ const dataQuery = graphql`
           }
           notes
           questMilestone
-          optional
         }
       }
     }

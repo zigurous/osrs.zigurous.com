@@ -2,8 +2,9 @@ import { getWheelDirection, Stack, throttle } from '@zigurous/forge-react';
 import classNames from 'classnames';
 import React, { useCallback, useEffect, useRef } from 'react';
 import GearProgressionNotes from './GearProgressionNotes';
-import GearProgressionUpgrades from './GearProgressionUpgrades';
+import GearProgressionTimelineCards from './GearProgressionTimelineCards';
 import { useGearProgressionContext } from '../context';
+import type { GearProgressionTier } from '../types';
 
 type WheelEventHandler = (e: WheelEvent) => any;
 
@@ -70,45 +71,63 @@ export default function GearProgressionTimeline() {
       <div className="gear-progression__timeline" ref={ref}>
         <Stack align="stretch" justify="start" layout="vertical">
           {context.previous && (
-            <Stack
-              className={classNames('gear-progression__summary previous', {
+            <GearProgressionTimelineTier
+              className={classNames({
                 'transition-in': context.timelineDirection < 0,
               })}
-              key={context.previous.title || 'previous'}
-              layout="vertical"
-              style={{ order: context.tierIndex - 1 }}
-            >
-              <GearProgressionUpgrades upgrades={context.previous.upgrades} />
-              <GearProgressionNotes notes={context.previous.notes} />
-            </Stack>
+              id="previous"
+              order={context.tierIndex - 1}
+              tier={context.previous}
+            />
           )}
-          <Stack
-            className={classNames('gear-progression__summary current', {
+          <GearProgressionTimelineTier
+            className={classNames({
               'transition-down': context.timelineDirection < 0,
               'transition-up': context.timelineDirection > 0,
             })}
-            key={context.current.title}
-            layout="vertical"
-            style={{ order: context.tierIndex }}
-          >
-            <GearProgressionUpgrades upgrades={context.current.upgrades} />
-            <GearProgressionNotes notes={context.current.notes} />
-          </Stack>
+            id="current"
+            order={context.tierIndex}
+            tier={context.current}
+          />
           {context.next && (
-            <Stack
-              className={classNames('gear-progression__summary next', {
+            <GearProgressionTimelineTier
+              className={classNames({
                 'transition-in': context.timelineDirection > 0,
               })}
-              key={context.next.title || 'next'}
-              layout="vertical"
-              style={{ order: context.tierIndex + 1 }}
-            >
-              <GearProgressionUpgrades upgrades={context.next.upgrades} />
-              <GearProgressionNotes notes={context.next.notes} />
-            </Stack>
+              id="next"
+              order={context.tierIndex + 1}
+              tier={context.next}
+            />
           )}
         </Stack>
       </div>
     </div>
+  );
+}
+
+interface GearProgressionTimelineTierProps {
+  className?: string;
+  id: string;
+  order: number;
+  tier: GearProgressionTier;
+}
+
+function GearProgressionTimelineTier({
+  className,
+  id,
+  order,
+  tier,
+}: GearProgressionTimelineTierProps) {
+  return (
+    <Stack
+      className={classNames('gear-progression__timeline-tier', className)}
+      id={id}
+      key={tier.title || id}
+      layout="vertical"
+      style={{ order }}
+    >
+      <GearProgressionTimelineCards cards={tier.timeline} />
+      <GearProgressionNotes notes={tier.notes} />
+    </Stack>
   );
 }

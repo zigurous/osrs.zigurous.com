@@ -65,29 +65,26 @@ export const createSchemaCustomization = ({
       title: String!
       items: [String!]
       subcategoryItems: [GearProgressionSubcategoryItem!]
-      stats: [SkillLevelHighlight!]
-      upgrades: [GearProgressionUpgrade!]!
+      skills: [SkillLevelHighlight!]
+      timeline: [GearProgressionTimelineCard!]!
       notes: [String!]
       questMilestone: String
-      optional: Boolean
     }
     type GearProgressionSubcategoryItem {
       id: String!
       subcategory: String!
     }
-    type GearProgressionUpgrade {
+    type GearProgressionTimelineCard {
       id: String!
-      type: String!
-      icon: String
+      icon: String!
       title: String
       subtitle: String
       items: [String!]
-      subitems: [GearProgressionUpgradeSubItem!]
+      subcards: [GearProgressionTimelineSubCard!]
     }
-    type GearProgressionUpgradeSubItem {
+    type GearProgressionTimelineSubCard {
       id: String!
-      type: String!
-      icon: String
+      icon: String!
       title: String
       subtitle: String
       setupId: String

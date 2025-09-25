@@ -4,16 +4,16 @@ import TitledCard from './TitledCard';
 import { useGearProgressionContext } from '../context';
 import type { Skill } from '../types';
 
-export default function GearProgressionStats() {
+export default function GearProgressionSkills() {
   const context = useGearProgressionContext();
-  const highlighted = context.current.stats?.reduce((skills, stat) => {
+  const highlighted = context.current.skills?.reduce((skills, stat) => {
     if (stat.highlight) {
       skills.push(stat.skill);
     }
     return skills;
   }, [] as Skill[]);
   return (
-    <TitledCard className="gear-progression-card" id="stats" title="Skills">
+    <TitledCard className="gear-progression-card" id="skills" title="Skills">
       <SkillsGrid
         highlighted={highlighted}
         levels={context.current.skillRequirements}

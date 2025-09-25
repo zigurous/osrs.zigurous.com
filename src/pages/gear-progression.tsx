@@ -4,7 +4,7 @@ import React from 'react';
 import { FooterBar, HeaderBar, IconToggle, RootLayout } from '../components'; // prettier-ignore
 import GearProgressionEquipment from '../components/GearProgressionEquipment';
 import GearProgressionSlider from '../components/GearProgressionSlider';
-import GearProgressionStats from '../components/GearProgressionStats';
+import GearProgressionSkills from '../components/GearProgressionSkills';
 import GearProgressionTimeline from '../components/GearProgressionTimeline';
 import { EquipmentContextProvider, GearProgressionContextProvider, ItemsContextProvider, QuestsContextProvider, RecommendedSetupsContextProvider, useGearProgressionContext } from '../context'; // prettier-ignore
 import { categories } from '../context/GearProgressionContext';
@@ -24,7 +24,7 @@ export default function GearProgression({}: PageProps) {
             wrap
           >
             <GearProgressionEquipment />
-            <GearProgressionStats />
+            <GearProgressionSkills />
             <GearProgressionTimeline />
           </Stack>
         </Stack>

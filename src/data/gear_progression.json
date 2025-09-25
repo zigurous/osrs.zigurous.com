@@ -15,16 +15,16 @@
           { "id": "Unarmed", "subcategory": "crush" },
           { "id": "Unarmed", "subcategory": "spec" }
         ],
-        "upgrades": [
+        "timeline": [
           {
             "id": "Adam",
-            "type": "npc",
+            "icon": "NPC_Contact",
             "subtitle": "Ironman tutor",
             "items": ["Ironman_helm", "Ironman_platebody", "Ironman_platelegs"]
           },
           {
             "id": "Melee_combat_tutor",
-            "type": "npc",
+            "icon": "NPC_Contact",
             "title": "Harlan",
             "subtitle": "Melee combat tutor",
             "items": ["Training_sword", "Training_shield"]
@@ -40,31 +40,31 @@
           "Fancy_boots",
           "Leather_gloves"
         ],
-        "upgrades": [
+        "timeline": [
           {
             "id": "Edgeville",
-            "type": "location",
+            "icon": "Map_link_icon",
             "subtitle": "Spawn south of the bank",
             "items": ["Leather_gloves"]
           },
           {
             "id": "Stronghold_of_Security",
-            "type": "dungeon",
+            "icon": "Dungeon_map_link_icon",
             "items": ["Fancy_boots"]
           },
           {
             "id": "Imp_Catcher",
-            "type": "quest",
+            "icon": "Quest_point_icon",
             "items": ["Amulet_of_accuracy"]
           },
           {
             "id": "Biohazard",
-            "type": "quest",
+            "icon": "Quest_point_icon",
             "subtitle": "Following optimal quest guide"
           },
           {
             "id": "Ardougne_Diary",
-            "type": "diary",
+            "icon": "Achievement_Diaries_icon",
             "subtitle": "Easy",
             "items": ["Ardougne_cloak_1"]
           }
@@ -88,29 +88,29 @@
           { "id": "Adamant_mace", "subcategory": "crush" },
           { "id": "Unarmed", "subcategory": "spec" }
         ],
-        "stats": [
+        "skills": [
           { "skill": "hitpoints", "level": 27 }
         ],
-        "upgrades": [
+        "timeline": [
           {
             "id": "Death_Plateau",
-            "type": "quest",
+            "icon": "Quest_point_icon",
             "items": ["Climbing_boots"]
           },
           {
             "id": "Fairytale_I_-_Growing_Pains",
-            "type": "quest",
+            "icon": "Quest_point_icon",
             "items": ["Dramen_staff", "Fairy_rings"]
           },
           {
             "id": "Lumbridge_&_Draynor_Diary",
-            "type": "diary",
+            "icon": "Achievement_Diaries_icon",
             "subtitle": "Easy",
             "items": ["Explorer's_ring_1"]
           },
           {
             "id": "Shops",
-            "type": "shop",
+            "icon": "Bank_icon",
             "items": [
               "Adamant_scimitar",
               "Adamant_full_helm",
@@ -122,29 +122,27 @@
       },
       {
         "title": "Prayer Overheads",
-        "items": [],
-        "stats": [
+        "skills": [
           { "skill": "hitpoints", "level": 36 },
           { "skill": "magic", "level": 40 },
           { "skill": "prayer", "level": 43, "highlight": true }
         ],
-        "upgrades": [
+        "timeline": [
           {
             "id": "Blue_dragon",
-            "type": "pvm",
             "icon": "Blue_dragon_mask",
             "items": ["Dragon_bones"],
-            "subitems": [
+            "subcards": [
               {
                 "id": "Water_Strike",
-                "type": "magic",
+                "icon": "Magic_icon",
                 "title": "50% water weakness"
               }
             ]
           },
           {
             "id": "Chaos_Temple_(hut)",
-            "type": "prayer",
+            "icon": "Prayer_icon",
             "title": "Chaos Altar",
             "subtitle": "350% xp bonus"
           }
@@ -169,44 +167,43 @@
           { "id": "Rune_mace", "subcategory": "crush" },
           { "id": "Unarmed", "subcategory": "spec" }
         ],
-        "stats": [
+        "skills": [
           { "skill": "hitpoints", "level": 40 },
           { "skill": "attack", "level": 40, "highlight": true },
           { "skill": "strength", "level": 40 },
           { "skill": "defence", "level": 40, "highlight": true }
         ],
-        "upgrades": [
+        "timeline": [
           {
             "id": "Attack",
-            "type": "attack",
+            "icon": "Attack_icon",
             "title": "40 attack",
             "subtitle": "To equip rune weapons"
           },
           {
             "id": "Defence",
-            "type": "defence",
+            "icon": "Defence_icon",
             "title": "40 defence",
             "subtitle": "To equip rune armour"
           },
           {
             "id": "Zamorak_warrior",
-            "type": "pvm",
+            "icon": "Combat_icon",
             "items": ["Rune_scimitar"]
           },
           {
             "id": "Champions'_Guild",
-            "type": "shop",
+            "icon": "Bank_icon",
             "items": ["Rune_platelegs", "Rune_chainbody"]
           },
           {
             "id": "Scurrius",
-            "type": "boss",
             "icon": "Scurry",
             "items": ["Rune_full_helm", "Rune_sq_shield"],
-            "subitems": [
+            "subcards": [
               {
                 "id": "Prayer",
-                "type": "prayer",
+                "icon": "Prayer_icon",
                 "title": "43 prayer",
                 "subtitle": "Strongly recommended"
               }
@@ -221,51 +218,50 @@
         "subcategoryItems": [
           { "id": "Bone_dagger", "subcategory": "spec" }
         ],
-        "stats": [
+        "skills": [
           { "skill": "thieving", "level": 20 },
           { "skill": "hitpoints", "level": 44 },
           { "skill": "magic", "level": 49, "highlight": true }
         ],
-        "upgrades": [
+        "timeline": [
           {
             "id": "Recipe_for_Disaster",
-            "type": "quest",
+            "icon": "Quest_point_icon",
             "subtitle": "1 subquest",
             "items": ["Bronze_gloves"]
           },
           {
             "id": "H.A.M._Storerooms",
-            "type": "minigame",
+            "icon": "Minigame_icon",
             "items": ["Ruby_amulet"],
-            "subitems": [
+            "subcards": [
               {
                 "id": "Death_to_the_Dorgeshuun",
-                "type": "quest"
+                "icon": "Quest_point_icon"
               },
               {
                 "id": "Thieving",
-                "type": "thieving",
+                "icon": "Thieving_icon",
                 "title": "20 thieving"
               }
             ]
           },
           {
             "id": "Magic",
-            "type": "magic",
+            "icon": "Magic_icon",
             "title": "49 magic",
             "subtitle": "Boostable",
             "items": ["Amulet_of_strength"],
-            "subitems": [
+            "subcards": [
               {
                 "id": "Lvl-3_Enchant",
-                "type": "magic",
                 "icon": "Lvl-3_Enchant"
               }
             ]
           },
           {
             "id": "Dragon_Slayer_I",
-            "type": "quest",
+            "icon": "Quest_point_icon",
             "items": ["Rune_platebody", "Anti-dragon_shield"]
           }
         ]
@@ -279,32 +275,32 @@
           "Rune_sq_shield",
           "Black_gloves"
         ],
-        "stats": [
+        "skills": [
           { "skill": "attack", "level": 54 },
           { "skill": "strength", "level": 56 },
           { "skill": "hitpoints", "level": 57 },
           { "skill": "defence", "level": 55, "highlight": true }
         ],
-        "upgrades": [
+        "timeline": [
           {
             "id": "Recipe_for_Disaster",
-            "type": "quest",
+            "icon": "Quest_point_icon",
             "subtitle": "4 subquests",
             "items": ["Black_gloves"]
           },
           {
             "id": "The_Fremennik_Trials",
-            "type": "quest",
+            "icon": "Quest_point_icon",
             "items": ["Berserker_helm"]
           },
           {
             "id": "The_Fremennik_Isles",
-            "type": "quest",
+            "icon": "Quest_point_icon",
             "items": ["Helm_of_neitiznot"]
           },
           {
             "id": "Defence",
-            "type": "defence",
+            "icon": "Defence_icon",
             "title": "55 defence",
             "subtitle": "To equip helm"
           }
@@ -320,44 +316,44 @@
           { "id": "Rune_mace", "subcategory": "crush" },
           { "id": "Dragon_dagger", "subcategory": "spec" }
         ],
-        "stats": [
+        "skills": [
           { "skill": "magic", "level": 50 },
           { "skill": "defence", "level": 60, "highlight": true },
           { "skill": "hitpoints", "level": 64 },
           { "skill": "attack", "level": 65, "highlight": true },
           { "skill": "strength", "level": 65, "highlight": true }
         ],
-        "upgrades": [
+        "timeline": [
           {
             "id": "Attack",
-            "type": "attack",
+            "icon": "Attack_icon",
             "title": "60 attack",
             "subtitle": "To equip dragon weapons"
           },
           {
             "id": "Recipe_for_Disaster",
-            "type": "quest",
+            "icon": "Quest_point_icon",
             "subtitle": "5 subquests",
             "items": ["Mithril_gloves"]
           },
           {
             "id": "Monkey_Madness_I",
-            "type": "quest",
+            "icon": "Quest_point_icon",
             "items": ["Dragon_scimitar"]
           },
           {
             "id": "Warriors'_Guild",
-            "type": "minigame",
+            "icon": "Minigame_icon",
             "items": ["Dragon_defender"],
-            "subitems": [
+            "subcards": [
               {
                 "id": "Attack",
-                "type": "attack",
+                "icon": "Attack_icon",
                 "title": "65 attack"
               },
               {
                 "id": "Strength",
-                "type": "strength",
+                "icon": "Strength_icon",
                 "title": "65 strength"
               }
             ]
@@ -367,10 +363,10 @@
       {
         "title": "Barbarian Assault",
         "items": ["Fighter_torso"],
-        "upgrades": [
+        "timeline": [
           {
             "id": "Barbarian_Assault",
-            "type": "minigame",
+            "icon": "Minigame_icon",
             "subtitle": "Optional",
             "items": ["Fighter_torso"]
           }
@@ -386,21 +382,21 @@
         "subcategoryItems": [
           { "id": "Dragon_mace", "subcategory": "crush" }
         ],
-        "upgrades": [
+        "timeline": [
           {
             "id": "Heroes'_Quest",
             "items": ["Dragon_mace", "Dragon_battleaxe"],
-            "type": "quest"
+            "icon": "Quest_point_icon"
           },
           {
             "id": "Legends'_Quest",
             "items": ["Cape_of_legends"],
-            "type": "quest"
+            "icon": "Quest_point_icon"
           },
           {
             "id": "Recipe_for_Disaster",
             "items": ["Rune_gloves"],
-            "type": "quest",
+            "icon": "Quest_point_icon",
             "subtitle": "7 subquests"
           }
         ]
@@ -409,15 +405,15 @@
         "title": "A Kingdom Divided",
         "questMilestone": "A_Kingdom_Divided",
         "items": ["Rada's_blessing_2"],
-        "upgrades": [
+        "timeline": [
           {
             "id": "A_Kingdom_Divided",
-            "type": "quest",
+            "icon": "Quest_point_icon",
             "items": ["Book_of_the_dead"]
           },
           {
             "id": "Kourend_&_Kebos_Diary",
-            "type": "diary",
+            "icon": "Achievement_Diaries_icon",
             "subtitle": "Medium",
             "items": ["Rada's_blessing_2"]
           }
@@ -430,25 +426,25 @@
         "title": "Recipe for Disaster",
         "questMilestone": "Recipe_for_Disaster",
         "items": ["Barrows_gloves"],
-        "stats": [
+        "skills": [
           { "skill": "attack", "level": 66 },
           { "skill": "strength", "level": 66 },
           { "skill": "cooking", "level": 70, "highlight": true }
         ],
-        "upgrades": [
+        "timeline": [
           {
             "id": "Quest_points",
-            "type": "quest",
+            "icon": "Quest_point_icon",
             "title": "175 quest points"
           },
           {
             "id": "Cooking",
-            "type": "cooking",
+            "icon": "Cooking_icon",
             "title": "70 cooking"
           },
           {
             "id": "Recipe_for_Disaster",
-            "type": "quest",
+            "icon": "Quest_point_icon",
             "subtitle": "Full completion",
             "items": ["Barrows_gloves"]
           }
@@ -461,35 +457,34 @@
         "title": "Hunters' Rumours",
         "questMilestone": "At_First_Light",
         "items": ["Mixed_hide_cape", "Mixed_hide_boots"],
-        "stats": [
+        "skills": [
           { "skill": "ranged", "level": 66, "highlight": true },
           { "skill": "fletching", "level": 74, "highlight": true },
           { "skill": "hunter", "level": 75, "highlight": true }
         ],
-        "upgrades": [
+        "timeline": [
           {
             "id": "Hunters'_Rumours",
-            "type": "hunter",
+            "icon": "Hunter_icon",
             "title": "75 hunter",
             "subtitle": "Hunters' Rumours",
             "items": ["Moonlight_moth_mix"]
           },
           {
             "id": "Pellem",
-            "type": "shop",
-            "subtitle": "Fur Trader",
             "icon": "Fur_trader_icon",
+            "subtitle": "Fur Trader",
             "items": ["Mixed_hide_top", "Mixed_hide_cape", "Mixed_hide_boots"]
           },
           {
             "id": "Fletching",
-            "type": "fletching",
+            "icon": "Fletching_icon",
             "title": "74 fletching",
             "items": ["Hunters'_sunlight_crossbow"],
-            "subitems": [
+            "subcards": [
               {
                 "id": "Ranged",
-                "type": "ranged",
+                "icon": "Ranged_icon",
                 "title": "66 ranged"
               }
             ]
@@ -502,31 +497,30 @@
       {
         "title": "King's Ransom",
         "questMilestone": "King's_Ransom",
-        "items": [],
-        "stats": [
+        "skills": [
           { "skill": "prayer", "level": 60, "highlight": true },
           { "skill": "defence", "level": 65, "highlight": true }
         ],
-        "upgrades": [
+        "timeline": [
           {
             "id": "King's_Ransom",
-            "type": "quest",
-            "subitems": [
+            "icon": "Quest_point_icon",
+            "subcards": [
               {
                 "id": "Defence",
-                "type": "defence",
+                "icon": "Defence_icon",
                 "title": "65 defence"
               }
             ]
           },
           {
             "id": "Knight_Waves",
-            "type": "minigame",
+            "icon": "Minigame_icon",
             "subtitle": "To unlock prayers"
           },
           {
             "id": "Prayer",
-            "type": "prayer",
+            "icon": "Prayer_icon",
             "title": "60 prayer",
             "subtitle": "To use chivalry",
             "items": ["Chivalry"]
@@ -546,29 +540,28 @@
           { "id": "Zombie_axe", "subcategory": "crush" },
           { "id": "Dragon_dagger", "subcategory": "spec" }
         ],
-        "stats": [
+        "skills": [
           { "skill": "smithing", "level": 70, "highlight": true }
         ],
-        "upgrades": [
+        "timeline": [
           {
             "id": "Defender_of_Varrock",
-            "type": "quest"
+            "icon": "Quest_point_icon"
           },
           {
             "id": "Armoured_zombie",
-            "type": "pvm",
             "icon": "Broken_zombie_helmet",
             "items": ["Broken_zombie_axe"],
-            "subitems": [
+            "subcards": [
               {
                 "id": "Red_chinchompa",
-                "type": "ranged",
+                "icon": "Ranged_icon",
                 "title": "Chinchompas",
                 "subtitle": "Recommended"
               },
               {
                 "id": "Ice_Burst",
-                "type": "magic",
+                "icon": "Magic_icon",
                 "title": "Bursting",
                 "subtitle": "Recommended"
               }
@@ -576,7 +569,7 @@
           },
           {
             "id": "Smithing",
-            "type": "smithing",
+            "icon": "Smithing_icon",
             "title": "70 smithing",
             "subtitle": "Boostable",
             "items": ["Zombie_axe"]
@@ -586,34 +579,32 @@
       {
         "title": "Black Mask",
         "questMilestone": "Cabin_Fever",
-        "items": [],
         "subcategoryItems": [
           { "id": "Black_mask_(i)", "subcategory": "slayer" }
         ],
-        "stats": [
+        "skills": [
           { "skill": "slayer", "level": 58, "highlight": true }
         ],
-        "upgrades": [
+        "timeline": [
           {
             "id": "Slayer",
-            "type": "slayer",
+            "icon": "Slayer_icon",
             "title": "58 slayer"
           },
           {
             "id": "Cave_horror",
-            "type": "slayer",
             "icon": "Cave_horror_icon",
             "items": ["Black_mask"],
-            "subitems": [
+            "subcards": [
               {
                 "id": "Cabin_Fever",
-                "type": "quest"
+                "icon": "Quest_point_icon"
               }
             ]
           },
           {
             "id": "Emir's_Arena",
-            "type": "minigame",
+            "icon": "Minigame_icon",
             "subtitle": "To imbue mask",
             "items": ["Black_mask_(i)"]
           }
@@ -625,27 +616,26 @@
       {
         "title": "Dagannoth Rex",
         "items": ["Berserker_ring_(i)"],
-        "stats": [
+        "skills": [
           { "skill": "magic", "level": 50 },
           { "skill": "defence", "level": 60 }
         ],
-        "upgrades": [
+        "timeline": [
           {
             "id": "Dagannoth_Rex",
-            "type": "boss",
             "icon": "Dagannoth_Kings_icon_(mobile)",
             "items": ["Dragon_axe", "Berserker_ring"],
-            "subitems": [
+            "subcards": [
               {
                 "id": "Setup",
-                "type": "magic",
+                "icon": "Magic_icon",
                 "setupId": "Dagannoth_Rex"
               }
             ]
           },
           {
             "id": "Emir's_Arena",
-            "type": "minigame",
+            "icon": "Minigame_icon",
             "subtitle": "To imbue ring",
             "items": ["Berserker_ring_(i)"]
           }
@@ -658,36 +648,35 @@
       {
         "title": "Barrows",
         "items": ["Verac's_plateskirt"],
-        "stats": [
+        "skills": [
           { "skill": "magic", "level": 62 },
           { "skill": "attack", "level": 70 },
           { "skill": "strength", "level": 70 },
           { "skill": "defence", "level": 70, "highlight": true }
         ],
-        "upgrades": [
+        "timeline": [
           {
             "id": "Magic",
-            "type": "magic",
+            "icon": "Magic_icon",
             "title": "62 magic",
             "subtitle": "To cast wind wave",
             "items": ["Wind_Wave"]
           },
           {
             "id": "Barrows",
-            "type": "boss",
             "icon": "Barrows_Brothers_icon_(mobile)",
             "items": ["Verac's_helm", "Karil's_leathertop", "Verac's_plateskirt"],
-            "subitems": [
+            "subcards": [
               {
                 "id": "Setup",
-                "type": "pvm",
+                "icon": "Combat_icon",
                 "setupId": "Barrows"
               }
             ]
           },
           {
             "id": "Defence",
-            "type": "defence",
+            "icon": "Defence_icon",
             "title": "70 defence",
             "subtitle": "To equip armour"
           }
@@ -699,29 +688,28 @@
       {
         "title": "Fire Cape",
         "items": ["Fire_cape"],
-        "stats": [
+        "skills": [
           { "skill": "magic", "level": 68 },
           { "skill": "defence", "level": 70 },
           { "skill": "ranged", "level": 70, "highlight": true }
         ],
-        "upgrades": [
+        "timeline": [
           {
             "id": "Ranged",
-            "type": "ranged",
+            "icon": "Ranged_icon",
             "title": "70+ ranged",
             "subtitle": "To prepare for the the fight cave"
           },
           {
             "id": "TzHaar_Fight_Cave",
-            "type": "boss",
             "icon": "Tzrek-jad",
             "title": "Fight Cave",
             "subtitle": "TzTok-Jad",
             "items": ["Fire_cape"],
-            "subitems": [
+            "subcards": [
               {
                 "id": "TzHaar_Fight_Cave/Strategies#Equipment",
-                "type": "pvm",
+                "icon": "Combat_icon",
                 "title": "70 ranged setup",
                 "setupId": "TzHaar_Fight_Cave"
               }
@@ -735,29 +723,27 @@
       {
         "title": "Arkan Blade",
         "questMilestone": "The_Final_Dawn",
-        "items": [],
         "subcategoryItems": [
           { "id": "Arkan_blade", "subcategory": "stab" },
           { "id": "Zombie_axe", "subcategory": "slash" },
           { "id": "Glacial_temotli", "subcategory": "crush" },
           { "id": "Arkan_blade", "subcategory": "spec" }
         ],
-        "upgrades": [
+        "timeline": [
           {
             "id": "The_Final_Dawn",
-            "type": "quest",
+            "icon": "Quest_point_icon",
             "items": ["Arkan_blade"]
           },
           {
             "id": "Amoxliatl",
-            "type": "boss",
             "icon": "Moxi",
             "subtitle": "Optional",
             "items": ["Glacial_temotli", "Pendant_of_ates"],
-            "subitems": [
+            "subcards": [
               {
                 "id": "Setup",
-                "type": "melee",
+                "icon": "Attack_icon",
                 "setupId": "Amoxliatl"
               }
             ]
@@ -783,19 +769,18 @@
           { "id": "Arkan_blade", "subcategory": "spec" },
           { "id": "Black_mask_(i)", "subcategory": "slayer" }
         ],
-        "stats": [
+        "skills": [
           { "skill": "strength", "level": 75, "highlight": true },
           { "skill": "ranged", "level": 75, "highlight": true },
           { "skill": "magic", "level": 75, "highlight": true }
         ],
-        "upgrades": [
+        "timeline": [
           {
             "id": "Perilous_Moons",
-            "type": "quest"
+            "icon": "Quest_point_icon"
           },
           {
             "id": "Moons_of_Peril",
-            "type": "boss",
             "icon": "Varlamore_crest",
             "items": [
               "Dual_macuahuitl",
@@ -803,29 +788,29 @@
               "Blood_moon_chestplate",
               "Blood_moon_tassets"
             ],
-            "subitems": [
+            "subcards": [
               {
                 "id": "Setup",
-                "type": "melee",
+                "icon": "Attack_icon",
                 "setupId": "Moons_of_Peril"
               }
             ]
           },
           {
             "id": "Strength",
-            "type": "strength",
+            "icon": "Strength_icon",
             "title": "75 strength",
             "subtitle": "To equip blood moon"
           },
           {
             "id": "Ranged",
-            "type": "ranged",
+            "icon": "Ranged_icon",
             "title": "75 ranged",
             "subtitle": "To equip eclipse moon"
           },
           {
             "id": "Magic",
-            "type": "magic",
+            "icon": "Magic_icon",
             "title": "75 magic",
             "subtitle": "To equip blue moon"
           }
@@ -833,8 +818,7 @@
       },
       {
         "title": "Royal Titans",
-        "items": [],
-        "stats": [
+        "skills": [
           { "skill": "runecraft", "level": 50 },
           { "skill": "prayer", "level": 63, "highlight": true },
           { "skill": "attack", "level": 70 },
@@ -842,30 +826,29 @@
           { "skill": "ranged", "level": 70 },
           { "skill": "magic", "level": 75, "highlight": true }
         ],
-        "upgrades": [
+        "timeline": [
           {
             "id": "Fire_Wave",
-            "type": "magic",
+            "icon": "Magic_icon",
             "title": "75 magic",
             "subtitle": "To cast fire wave",
             "items": ["Fire_Wave"]
           },
           {
             "id": "Royal_Titans",
-            "type": "boss",
             "icon": "Bran",
             "items": ["Twinflame_staff", "Deadeye_prayer_scroll", "Mystic_vigour_prayer_scroll"],
-            "subitems": [
+            "subcards": [
               {
                 "id": "Setup",
-                "type": "pvm",
+                "icon": "Combat_icon",
                 "setupId": "Royal_Titans"
               }
             ]
           },
           {
             "id": "Prayer",
-            "type": "prayer",
+            "icon": "Prayer_icon",
             "title": "63 prayer",
             "subtitle": "To use upgraded prayers",
             "items": ["Deadeye", "Mystic_Vigour"]
@@ -882,7 +865,7 @@
         "subcategoryItems": [
           { "id": "Slayer_helmet_(i)", "subcategory": "slayer" }
         ],
-        "stats": [
+        "skills": [
           { "skill": "prayer", "level": 70, "highlight": true },
           { "skill": "ranged", "level": 70 },
           { "skill": "magic", "level": 70 },
@@ -891,35 +874,34 @@
           { "skill": "strength", "level": 80 },
           { "skill": "slayer", "level": 83, "highlight": true }
         ],
-        "upgrades": [
+        "timeline": [
           {
             "id": "Lair_of_Tarn_Razorlor",
-            "type": "quest",
+            "icon": "Quest_point_icon",
             "subtitle": "Miniquest",
             "items": ["Salve_amulet_(e)"]
           },
           {
             "id": "Slayer",
-            "type": "slayer",
+            "icon": "Slayer_icon",
             "title": "400 slayer points",
             "items": ["Slayer_helmet_(i)"]
           },
           {
             "id": "Prayer",
-            "type": "prayer",
+            "icon": "Prayer_icon",
             "title": "70 prayer",
             "subtitle": "To use piety",
             "items": ["Piety"]
           },
           {
             "id": "Spiritual_mage",
-            "type": "slayer",
             "icon": "Spiritual_mage_icon",
             "items": ["Dragon_boots"],
-            "subitems": [
+            "subcards": [
               {
                 "id": "Slayer",
-                "type": "slayer",
+                "icon": "Slayer_icon",
                 "title": "83 slayer"
               }
             ]
@@ -931,45 +913,43 @@
       },
       {
         "title": "Arclight",
-        "items": [],
         "subcategoryItems": [
           { "id": "Arclight", "subcategory": "slayer" }
         ],
-        "stats": [
+        "skills": [
           { "skill": "attack", "level": 75, "highlight": true },
           { "skill": "strength", "level": 80 },
           { "skill": "magic", "level": 82, "highlight": true }
         ],
-        "upgrades": [
+        "timeline": [
           {
             "id": "Catacombs_of_Kourend",
-            "type": "slayer",
+            "icon": "Slayer_icon",
             "items": ["Ancient_shard", "Dark_totem"]
           },
           {
             "id": "Attack",
-            "type": "attack",
+            "icon": "Attack_icon",
             "title": "75 attack",
             "subtitle": "To equip arclight",
             "items": ["Arclight"]
           },
           {
             "id": "Arceuus_spellbook",
-            "type": "magic",
+            "icon": "Magic_icon",
             "title": "82 magic",
             "subtitle": "To cast dark demonbane",
             "items": ["Death_Charge", "Dark_Demonbane"]
           },
           {
             "id": "Skotizo",
-            "type": "boss",
             "icon": "Skotizo_icon_(mobile)",
             "subtitle": "Optional",
             "items": ["Ancient_shard"],
-            "subitems": [
+            "subcards": [
               {
                 "id": "Setup",
-                "type": "melee",
+                "icon": "Attack_icon",
                 "setupId": "Skotizo"
               }
             ]
@@ -982,12 +962,11 @@
       {
         "title": "Tormented Demons",
         "questMilestone": "While_Guthix_Sleeps",
-        "items": [],
         "subcategoryItems": [
           { "id": "Burning_claws", "subcategory": "spec" },
           { "id": "Emberlight", "subcategory": "slayer" }
         ],
-        "stats": [
+        "skills": [
           { "skill": "fletching", "level": 74, "highlight": true },
           { "skill": "smithing", "level": 74, "highlight": true },
           { "skill": "crafting", "level": 74, "highlight": true },
@@ -1000,41 +979,41 @@
           { "skill": "cooking", "level": 80 },
           { "skill": "magic", "level": 82 }
         ],
-        "upgrades": [
+        "timeline": [
           {
             "id": "While_Guthix_Sleeps",
-            "type": "quest"
+            "icon": "Quest_point_icon"
           },
           {
             "id": "Tormented_Demon",
-            "type": "slayer",
+            "icon": "Slayer_icon",
             "subtitle": "On Task",
             "items": ["Tormented_synapse", "Burning_claw"],
-            "subitems": [
+            "subcards": [
               {
                 "id": "Setup",
-                "type": "pvm",
+                "icon": "Combat_icon",
                 "setupId": "Tormented_Demon"
               }
             ]
           },
           {
             "id": "Fletching",
-            "type": "fletching",
+            "icon": "Fletching_icon",
             "title": "74 fletching",
             "subtitle": "Boostable",
             "items": ["Scorching_bow"]
           },
           {
             "id": "Smithing",
-            "type": "smithing",
+            "icon": "Smithing_icon",
             "title": "74 smithing",
             "subtitle": "Boostable",
             "items": ["Emberlight"]
           },
           {
             "id": "Crafting",
-            "type": "crafting",
+            "icon": "Crafting_icon",
             "title": "74 crafting",
             "subtitle": "Boostable",
             "items": ["Purging_staff"]
@@ -1045,7 +1024,7 @@
         "title": "Demonic Gorillas",
         "questMilestone": "Monkey_Madness_II",
         "items": ["Amulet_of_torture"],
-        "stats": [
+        "skills": [
           { "skill": "slayer", "level": 76 },
           { "skill": "ranged", "level": 80 },
           { "skill": "attack", "level": 80 },
@@ -1054,34 +1033,34 @@
           { "skill": "magic", "level": 89, "highlight": true },
           { "skill": "crafting", "level": 93, "highlight": true }
         ],
-        "upgrades": [
+        "timeline": [
           {
             "id": "Monkey_Madness_II",
-            "type": "quest"
+            "icon": "Quest_point_icon"
           },
           {
             "id": "Demonic_gorilla",
-            "type": "slayer",
+            "icon": "Slayer_icon",
             "subtitle": "On Task",
             "items": ["Zenyte_shard"],
-            "subitems": [
+            "subcards": [
               {
                 "id": "Setup",
-                "type": "pvm",
+                "icon": "Combat_icon",
                 "setupId": "Demonic_gorilla"
               }
             ]
           },
           {
             "id": "Crafting",
-            "type": "crafting",
+            "icon": "Crafting_icon",
             "title": "93 crafting",
             "subtitle": "+5 boost",
             "items": ["Zenyte_amulet"]
           },
           {
             "id": "Magic",
-            "type": "magic",
+            "icon": "Magic_icon",
             "title": "89 magic",
             "subtitle": "+4 boost",
             "items": ["Amulet_of_torture"]
@@ -1101,7 +1080,7 @@
           { "id": "Burning_claws", "subcategory": "spec" },
           { "id": "Emberlight", "subcategory": "slayer" }
         ],
-        "stats": [
+        "skills": [
           { "skill": "attack", "level": 80 },
           { "skill": "strength", "level": 80 },
           { "skill": "defence", "level": 80 },
@@ -1110,42 +1089,40 @@
           { "skill": "slayer", "level": 85, "highlight": true },
           { "skill": "magic", "level": 88 }
         ],
-        "upgrades": [
+        "timeline": [
           {
             "id": "Construction",
-            "type": "construction",
+            "icon": "Construction_icon",
             "title": "80 construction",
             "subtitle": "+5 boost",
             "items": ["Fairy_ring_(Construction)"]
           },
           {
             "id": "Slayer",
-            "type": "slayer",
+            "icon": "Slayer_icon",
             "title": "85 slayer"
           },
           {
             "id": "Magic",
-            "type": "magic",
+            "icon": "Magic_icon",
             "title": "88 magic",
             "subtitle": "To cast shadow barrage",
             "items": ["Shadow_Barrage"]
           },
           {
             "id": "Abyssal_demon",
-            "type": "slayer",
             "icon": "Abyssal_demon_icon",
             "items": ["Abyssal_whip"]
           },
           {
             "id": "Abyssal_Sire",
-            "type": "boss",
             "icon": "Abyssal_Sire_icon_(mobile)",
             "subtitle": "Optional",
             "items": ["Abyssal_dagger", "Abyssal_bludgeon"],
-            "subitems": [
+            "subcards": [
               {
                 "id": "Setup",
-                "type": "melee",
+                "icon": "Attack_icon",
                 "setupId": "Abyssal_Sire"
               }
             ]
@@ -1162,32 +1139,30 @@
           { "id": "Burning_claws", "subcategory": "spec" },
           { "id": "Emberlight", "subcategory": "slayer" }
         ],
-        "stats": [
+        "skills": [
           { "skill": "herblore", "level": 76 },
           { "skill": "magic", "level": 85 },
           { "skill": "slayer", "level": 87, "highlight": true }
         ],
-        "upgrades": [
+        "timeline": [
           {
             "id": "Slayer",
-            "type": "slayer",
+            "icon": "Slayer_icon",
             "title": "87 slayer"
           },
           {
             "id": "Cave_kraken",
-            "type": "slayer",
             "icon": "Cave_kraken_icon",
             "items": ["Trident_of_the_seas"]
           },
           {
             "id": "Kraken",
-            "type": "boss",
             "icon": "Kraken_icon_(mobile)",
             "items": ["Kraken_tentacle"],
-            "subitems": [
+            "subcards": [
               {
                 "id": "Setup",
-                "type": "magic",
+                "icon": "Magic_icon",
                 "setupId": "Kraken"
               }
             ]
@@ -1200,50 +1175,49 @@
         "subcategoryItems": [
           { "id": "Slayer_helmet_(i)", "subcategory": "slayer" }
         ],
-        "stats": [
+        "skills": [
           { "skill": "magic", "level": 75 },
           { "skill": "agility", "level": 76, "highlight": true },
           { "skill": "fletching", "level": 78, "highlight": true },
           { "skill": "construction", "level": 82, "highlight": true  },
           { "skill": "herblore", "level": 83, "highlight": true  }
         ],
-        "upgrades": [
+        "timeline": [
           {
             "id": "Stepping_stone_(Zul-Andra)",
-            "type": "agility",
+            "icon": "Agility_icon",
             "title": "76 agility",
             "subtitle": "Zul-Andra stepping stone"
           },
           {
             "id": "Zulrah",
-            "type": "boss",
             "icon": "Zulrah_icon_(mobile)",
             "items": ["Serpentine_visage", "Tanzanite_fang", "Magic_fang"],
-            "subitems": [
+            "subcards": [
               {
                 "id": "Setup",
-                "type": "magic",
+                "icon": "Magic_icon",
                 "setupId": "Zulrah"
               }
             ]
           },
           {
             "id": "Fletching",
-            "type": "fletching",
+            "icon": "Fletching_icon",
             "title": "78 fletching",
             "subtitle": "Boostable",
             "items": ["Toxic_blowpipe"]
           },
           {
             "id": "Herblore",
-            "type": "herblore",
+            "icon": "Herblore_icon",
             "title": "83 herblore",
             "subtitle": "+4 boost",
             "items": ["Anti-venom"]
           },
           {
             "id": "Construction",
-            "type": "construction",
+            "icon": "Construction_icon",
             "title": "82 construction",
             "subtitle": "+8 boost",
             "items": ["Ornate_rejuvenation_pool"]
@@ -1256,10 +1230,10 @@
         "subcategoryItems": [
           { "id": "Dragon_warhammer", "subcategory": "spec" }
         ],
-        "upgrades": [
+        "timeline": [
           {
             "id": "Combat_Ring_(Shayzien)",
-            "type": "melee",
+            "icon": "Attack_icon",
             "title": "Combat Ring",
             "items": [
               "Shayzien_helm_(5)",
@@ -1271,19 +1245,18 @@
           },
           {
             "id": "Kourend_&_Kebos_Diary",
-            "type": "diary",
+            "icon": "Achievement_Diaries_icon",
             "subtitle": "Hard",
             "items": ["Rada's_blessing_3"]
           },
           {
             "id": "Lizardman_shaman",
-            "type": "slayer",
             "icon": "Lizardmen_icon",
             "items": ["Dragon_warhammer", "Xeric's_talisman"],
-            "subitems": [
+            "subcards": [
               {
                 "id": "Setup",
-                "type": "ranged",
+                "icon": "Ranged_icon",
                 "setupId": "Lizardman_shaman"
               }
             ]
@@ -1296,7 +1269,7 @@
       {
         "title": "General Graardor",
         "items": ["Bandos_chestplate", "Bandos_tassets"],
-        "stats": [
+        "skills": [
           { "skill": "attack", "level": 80 },
           { "skill": "strength", "level": 80 },
           { "skill": "defence", "level": 80 },
@@ -1304,29 +1277,28 @@
           { "skill": "smithing", "level": 80, "highlight": true },
           { "skill": "magic", "level": 92 }
         ],
-        "upgrades": [
+        "timeline": [
           {
             "id": "Defence",
-            "type": "defence",
+            "icon": "Defence_icon",
             "title": "80+ defence",
             "subtitle": "Recommended"
           },
           {
             "id": "General_Graardor",
-            "type": "boss",
             "icon": "General_Graardor_icon_(mobile)",
             "items": ["Bandos_hilt", "Bandos_chestplate", "Bandos_tassets"],
-            "subitems": [
+            "subcards": [
               {
                 "id": "Setup",
-                "type": "ranged",
+                "icon": "Ranged_icon",
                 "setupId": "General_Graardor"
               }
             ]
           },
           {
             "id": "Smithing",
-            "type": "smithing",
+            "icon": "Smithing_icon",
             "title": "80 smithing",
             "subtitle": "Boostable",
             "items": ["Bandos_godsword"]
@@ -1347,36 +1319,34 @@
           { "id": "Burning_claws", "subcategory": "spec" },
           { "id": "Emberlight", "subcategory": "slayer" }
         ],
-        "stats": [
+        "skills": [
           { "skill": "attack", "level": 80 },
           { "skill": "strength", "level": 80 },
           { "skill": "defence", "level": 80 },
           { "skill": "magic", "level": 80 },
           { "skill": "ranged", "level": 85, "highlight": true }
         ],
-        "upgrades": [
+        "timeline": [
           {
             "id": "K'ril_Tsutsaroth",
-            "type": "boss",
             "icon": "K'ril_Tsutsaroth_icon_(mobile)",
             "subtitle": "On Task",
             "items": ["Zamorakian_spear"],
-            "subitems": [
+            "subcards": [
               {
                 "id": "Setup",
-                "type": "ranged",
+                "icon": "Ranged_icon",
                 "setupId": "K'ril_Tsutsaroth"
               }
             ]
           },
           {
             "id": "Barbarian_Training",
-            "type": "smithing",
+            "icon": "Smithing_icon",
             "items": ["Zamorakian_hasta"],
-            "subitems": [
+            "subcards": [
               {
                 "id": "Coins",
-                "type": "custom",
                 "icon": "Coins_10000",
                 "title": "300k",
                 "subtitle": "To convert to hasta"
@@ -1400,7 +1370,7 @@
           { "id": "Burning_claws", "subcategory": "spec" },
           { "id": "Emberlight", "subcategory": "slayer" }
         ],
-        "stats": [
+        "skills": [
           { "skill": "attack", "level": 70 },
           { "skill": "strength", "level": 70 },
           { "skill": "defence", "level": 70 },
@@ -1409,28 +1379,27 @@
           { "skill": "crafting", "level": 75 },
           { "skill": "attack", "level": 82, "highlight": true }
         ],
-        "upgrades": [
+        "timeline": [
           {
             "id": "Beneath_Cursed_Sands",
-            "type": "quest",
+            "icon": "Quest_point_icon",
             "items": ["Keris_partisan"]
           },
           {
             "id": "Tombs_of_Amascut",
-            "type": "raid",
             "icon": "Tumeken's_guardian",
             "items": ["Osmumten's_fang", "Lightbearer", "Thread_of_elidinis"],
-            "subitems": [
+            "subcards": [
               {
                 "id": "Setup",
-                "type": "pvm",
+                "icon": "Combat_icon",
                 "setupId": "Tombs_of_Amascut"
               }
             ]
           },
           {
             "id": "Attack",
-            "type": "attack",
+            "icon": "Attack_icon",
             "title": "82 attack",
             "subtitle": "To equip weapon"
           }
@@ -1446,29 +1415,28 @@
         "subcategoryItems": [
           { "id": "Slayer_helmet_(i)", "subcategory": "slayer" }
         ],
-        "stats": [
+        "skills": [
           { "skill": "slayer", "level": 60 },
           { "skill": "ranged", "level": 75 },
           { "skill": "attack", "level": 80 },
           { "skill": "strength", "level": 80 },
           { "skill": "defence", "level": 80 }
         ],
-        "upgrades": [
+        "timeline": [
           {
             "id": "The_Fremennik_Exiles",
-            "type": "quest",
+            "icon": "Quest_point_icon",
             "items": ["V's_shield"]
           },
           {
             "id": "Basilisk_Knight",
-            "type": "slayer",
             "icon": "Basilisk_Knight_icon",
             "subtitle": "Optional",
             "items": ["Basilisk_jaw"],
-            "subitems": [
+            "subcards": [
               {
                 "id": "Setup",
-                "type": "slayer",
+                "icon": "Slayer_icon",
                 "setupId": "Basilisk_Knight"
               }
             ]
@@ -1481,7 +1449,7 @@
       {
         "title": "Cerberus",
         "items": ["Primordial_boots"],
-        "stats": [
+        "skills": [
           { "skill": "runecraft", "level": 60, "highlight": true },
           { "skill": "magic", "level": 80 },
           { "skill": "defence", "level": 80 },
@@ -1490,35 +1458,34 @@
           { "skill": "strength", "level": 90 },
           { "skill": "slayer", "level": 91, "highlight": true }
         ],
-        "upgrades": [
+        "timeline": [
           {
             "id": "Herblore",
-            "type": "herblore",
+            "icon": "Herblore_icon",
             "title": "86 herblore",
             "subtitle": "+4 boost",
             "items": ["Super_combat_potion"]
           },
           {
             "id": "Slayer",
-            "type": "slayer",
+            "icon": "Slayer_icon",
             "title": "91 slayer"
           },
           {
             "id": "Cerberus",
-            "type": "boss",
             "icon": "Cerberus_icon",
             "items": ["Primordial_crystal", "Pegasian_crystal", "Eternal_crystal"],
-            "subitems": [
+            "subcards": [
               {
                 "id": "Setup",
-                "type": "melee",
+                "icon": "Attack_icon",
                 "setupId": "Cerberus"
               }
             ]
           },
           {
             "id": "Runecraft",
-            "type": "runecraft",
+            "icon": "Runecraft_icon",
             "title": "60 runecraft",
             "subtitle": "Not boostable",
             "items": ["Primordial_boots", "Pegasian_boots", "Eternal_boots"]
@@ -1534,7 +1501,7 @@
           { "id": "Abyssal_bludgeon", "subcategory": "crush" },
           { "id": "Burning_claws", "subcategory": "spec" }
         ],
-        "stats": [
+        "skills": [
           { "skill": "smithing", "level": 72 },
           { "skill": "defence", "level": 80 },
           { "skill": "attack", "level": 85 },
@@ -1544,41 +1511,39 @@
           { "skill": "herblore", "level": 90, "highlight": true },
           { "skill": "slayer", "level": 92, "highlight": true }
         ],
-        "upgrades": [
+        "timeline": [
           {
             "id": "Herblore",
-            "type": "herblore",
+            "icon": "Herblore_icon",
             "title": "90 herblore",
             "subtitle": "+4 boost",
             "items": ["Anti-venom+", "Extended_anti-venom+"]
           },
           {
             "id": "Slayer",
-            "type": "slayer",
+            "icon": "Slayer_icon",
             "title": "92 slayer"
           },
           {
             "id": "Araxyte",
-            "type": "slayer",
             "icon": "Araxyte_icon",
             "items": ["Aranea_boots"]
           },
           {
             "id": "Araxxor",
-            "type": "boss",
             "icon": "Nid",
             "items": ["Noxious_pommel", "Noxious_point", "Noxious_blade", "Araxyte_fang"],
-            "subitems": [
+            "subcards": [
               {
                 "id": "Setup",
-                "type": "melee",
+                "icon": "Attack_icon",
                 "setupId": "Araxxor"
               }
             ]
           },
           {
             "id": "Hitpoints",
-            "type": "hitpoints",
+            "icon": "Hitpoints_icon",
             "title": "90 hitpoints",
             "subtitle": "To equip amulet",
             "items": ["Amulet_of_rancour"]
@@ -1592,44 +1557,43 @@
         "subcategoryItems": [
           { "id": "Dragon_hunter_lance", "subcategory": "slayer" }
         ],
-        "stats": [
+        "skills": [
           { "skill": "defence", "level": 80, "highlight": true },
           { "skill": "ranged", "level": 90 },
           { "skill": "slayer", "level": 95, "highlight": true }
         ],
-        "upgrades": [
+        "timeline": [
           {
             "id": "Dragon_Slayer_II",
-            "type": "quest",
+            "icon": "Quest_point_icon",
             "items": ["Mythical_cape"]
           },
           {
             "id": "Slayer",
-            "type": "slayer",
+            "icon": "Slayer_icon",
             "title": "95 slayer"
           },
           {
             "id": "Kourend_&_Kebos_Diary",
-            "type": "diary",
+            "icon": "Achievement_Diaries_icon",
             "subtitle": "Elite",
             "items": ["Rada's_blessing_4"]
           },
           {
             "id": "Alchemical_Hydra",
-            "type": "boss",
             "icon": "Hydra_icon",
             "items": ["Hydra's_claw", "Hydra_leather"],
-            "subitems": [
+            "subcards": [
               {
                 "id": "Setup",
-                "type": "ranged",
+                "icon": "Ranged_icon",
                 "setupId": "Alchemical_Hydra"
               }
             ]
           },
           {
             "id": "Defence",
-            "type": "defence",
+            "icon": "Defence_icon",
             "title": "80 defence",
             "subtitle": "To equip gloves",
             "items": ["Ferocious_gloves"]
@@ -1638,8 +1602,7 @@
       },
       {
         "title": "Chambers of Xeric",
-        "items": [],
-        "stats": [
+        "skills": [
           { "skill": "farming", "level": 55 },
           { "skill": "thieving", "level": 60 },
           { "skill": "woodcutting", "level": 60 },
@@ -1647,29 +1610,28 @@
           { "skill": "prayer", "level": 77, "highlight": true },
           { "skill": "herblore", "level": 78 }
         ],
-        "upgrades": [
+        "timeline": [
           {
             "id": "Chambers_of_Xeric#Strong_potions",
-            "type": "herblore",
+            "icon": "Herblore_icon",
             "title": "78 herblore",
             "items": ["Xeric's_aid_(+)", "Revitalisation_(+)", "Prayer_enhance_(+)"]
           },
           {
             "id": "Chambers_of_Xeric",
-            "type": "raid",
             "icon": "Great_Olm_icon_(mobile)",
             "items": ["Dexterous_prayer_scroll", "Arcane_prayer_scroll"],
-            "subitems": [
+            "subcards": [
               {
                 "id": "Setup",
-                "type": "pvm",
+                "icon": "Combat_icon",
                 "setupId": "Chambers_of_Xeric"
               }
             ]
           },
           {
             "id": "Prayer",
-            "type": "prayer",
+            "icon": "Prayer_icon",
             "title": "77 prayer",
             "subtitle": "To use new prayers",
             "items": ["Rigour", "Augury"]
@@ -1682,7 +1644,7 @@
       {
         "title": "Inferno",
         "items": ["Infernal_cape"],
-        "stats": [
+        "skills": [
           { "skill": "prayer", "level": 80, "highlight": true },
           { "skill": "attack", "level": 90 },
           { "skill": "strength", "level": 90 },
@@ -1690,36 +1652,35 @@
           { "skill": "magic", "level": 94, "highlight": true },
           { "skill": "ranged", "level": 99, "highlight": true }
         ],
-        "upgrades": [
+        "timeline": [
           {
             "id": "Defence",
-            "type": "defence",
+            "icon": "Defence_icon",
             "title": "90+ defence",
             "subtitle": "Strongly recommended"
           },
           {
             "id": "Magic",
-            "type": "magic",
+            "icon": "Magic_icon",
             "title": "94 magic",
             "subtitle": "To cast ice barrage",
             "items": ["Ice_Barrage"]
           },
           {
             "id": "Ranged",
-            "type": "ranged",
+            "icon": "Ranged_icon",
             "title": "99 ranged",
             "items": ["Ranging_cape"]
           },
           {
             "id": "Inferno",
-            "type": "boss",
             "icon": "Tzrek-zuk",
             "subtitle": "TzKal-Zuk",
             "items": ["Infernal_cape"],
-            "subitems": [
+            "subcards": [
               {
                 "id": "Setup",
-                "type": "pvm",
+                "icon": "Combat_icon",
                 "setupId": "Inferno"
               }
             ]
@@ -1732,7 +1693,7 @@
         "subcategoryItems": [
           { "id": "Slayer_helmet_(i)", "subcategory": "slayer" }
         ],
-        "stats": [
+        "skills": [
           { "skill": "defence", "level": 75 },
           { "skill": "attack", "level": 80 },
           { "skill": "strength", "level": 80 },
@@ -1741,33 +1702,32 @@
           { "skill": "attack", "level": 85 },
           { "skill": "runecraft", "level": 90, "highlight": true }
         ],
-        "upgrades": [
+        "timeline": [
           {
             "id": "Chain_(Chasm_of_Fire)",
-            "type": "agility",
+            "icon": "Agility_icon",
             "title": "83 agility",
             "subtitle": "Chain Shortcut"
           },
           {
             "id": "Yama",
-            "type": "boss",
             "icon": "Yami",
             "items": ["Oathplate_helm", "Oathplate_chest", "Oathplate_legs"],
-            "subitems": [
+            "subcards": [
               {
                 "id": "A_Kingdom_Divided",
-                "type": "quest"
+                "icon": "Quest_point_icon"
               },
               {
                 "id": "Setup",
-                "type": "magic",
+                "icon": "Magic_icon",
                 "setupId": "Yama"
               }
             ]
           },
           {
             "id": "Runecraft",
-            "type": "runecraft",
+            "icon": "Runecraft_icon",
             "title": "90 runecraft",
             "subtitle": "Boostable",
             "items": ["Aether_rune"]
@@ -1777,38 +1737,37 @@
       {
         "title": "Doom of Mokhaiotl",
         "items": ["Avernic_treads_(max)"],
-        "stats": [
+        "skills": [
           { "skill": "agility", "level": 75 },
           { "skill": "ranged", "level": 90 },
           { "skill": "runecraft", "level": 90, "highlight": true }
         ],
-        "upgrades": [
+        "timeline": [
           {
             "id": "Ruins_of_Mokhaiotl",
-            "type": "agility",
+            "icon": "Agility_icon",
             "title": "75 agility",
             "subtitle": "Pit Jump Shortcut"
           },
           {
             "id": "Doom_of_Mokhaiotl",
-            "type": "boss",
             "icon": "Mokhaiotl_waystone_5",
             "items": ["Avernic_treads", "Eye_of_ayak", "Mokhaiotl_cloth"],
-            "subitems": [
+            "subcards": [
               {
                 "id": "The_Final_Dawn",
-                "type": "quest"
+                "icon": "Quest_point_icon"
               },
               {
                 "id": "Setup",
-                "type": "ranged",
+                "icon": "Ranged_icon",
                 "setupId": "Doom_of_Mokhaiotl"
               }
             ]
           },
           {
             "id": "Runecraft",
-            "type": "runecraft",
+            "icon": "Runecraft_icon",
             "title": "90 runecraft",
             "subtitle": "Boostable",
             "items": ["Aether_rune"]
@@ -1819,7 +1778,7 @@
         "title": "Ultor Ring",
         "questMilestone": "Desert_Treasure_II_-_The_Fallen_Empire",
         "items": ["Ultor_ring"],
-        "stats": [
+        "skills": [
           { "skill": "crafting", "level": 80 },
           { "skill": "smithing", "level": 85, "highlight": true },
           { "skill": "magic", "level": 90 },
@@ -1827,43 +1786,42 @@
           { "skill": "defence", "level": 90 },
           { "skill": "strength", "level": 95 }
         ],
-        "upgrades": [
+        "timeline": [
           {
             "id": "Desert_Treasure_II_-_The_Fallen_Empire",
-            "type": "quest",
+            "icon": "Quest_point_icon",
             "title": "Desert Treasure II",
             "items": ["Ring_of_shadows"]
           },
           {
             "id": "Vardorvis",
-            "type": "boss",
             "icon": "Butch",
             "items": ["Executioner's_axe_head", "Ultor_vestige"],
-            "subitems": [
+            "subcards": [
               {
                 "id": "Setup",
-                "type": "melee",
+                "icon": "Attack_icon",
                 "setupId": "Vardorvis"
               }
             ]
           },
           {
             "id": "Smithing",
-            "type": "smithing",
+            "icon": "Smithing_icon",
             "title": "85 smithing",
             "subtitle": "Boostable",
             "items": ["Chromium_ingot"]
           },
           {
             "id": "Crafting",
-            "type": "crafting",
+            "icon": "Crafting_icon",
             "title": "80 crafting",
             "subtitle": "Boostable",
             "items": ["Ultor_ring"],
-            "subitems": [
+            "subcards": [
               {
                 "id": "Magic",
-                "type": "magic",
+                "icon": "Magic_icon",
                 "title": "90 magic",
                 "items": ["Ultor_ring"]
               }
@@ -1880,45 +1838,42 @@
           { "id": "Soulreaper_axe", "subcategory": "crush" },
           { "id": "Burning_claws", "subcategory": "spec" }
         ],
-        "stats": [
+        "skills": [
           { "skill": "magic", "level": 75 }
         ],
-        "upgrades": [
+        "timeline": [
           {
             "id": "Duke_Sucellus",
-            "type": "boss",
             "icon": "Baron",
             "items": ["Eye_of_the_duke"],
-            "subitems": [
+            "subcards": [
               {
                 "id": "Setup",
-                "type": "melee",
+                "icon": "Attack_icon",
                 "setupId": "Duke_Sucellus"
               }
             ]
           },
           {
             "id": "The_Leviathan",
-            "type": "boss",
             "icon": "Lil'viathan",
             "items": ["Leviathan's_lure"],
-            "subitems": [
+            "subcards": [
               {
                 "id": "Setup",
-                "type": "ranged",
+                "icon": "Ranged_icon",
                 "setupId": "The_Leviathan"
               }
             ]
           },
           {
             "id": "The_Whisperer",
-            "type": "boss",
             "icon": "Wisp",
             "items": ["Siren's_staff"],
-            "subitems": [
+            "subcards": [
               {
                 "id": "Setup",
-                "type": "magic",
+                "icon": "Magic_icon",
                 "setupId": "The_Whisperer"
               }
             ]
@@ -1927,11 +1882,10 @@
       },
       {
         "title": "CoX: Challenge Mode",
-        "items": [],
         "subcategoryItems": [
           { "id": "Dragon_claws", "subcategory": "spec" }
         ],
-        "stats": [
+        "skills": [
           { "skill": "farming", "level": 55 },
           { "skill": "thieving", "level": 75 },
           { "skill": "woodcutting", "level": 75 },
@@ -1945,30 +1899,29 @@
           { "skill": "magic", "level": 99 },
           { "skill": "hitpoints", "level": 99 }
         ],
-        "upgrades": [
+        "timeline": [
           {
             "id": "Guardian_(Chambers_of_Xeric)",
-            "type": "mining",
+            "icon": "Mining_icon",
             "title": "75 mining",
             "subtitle": "For increased damage at Guardians"
           },
           {
             "id": "Chambers_of_Xeric#Strong_potions",
-            "type": "herblore",
+            "icon": "Herblore_icon",
             "title": "90 herblore",
             "items": ["Overload_(+)"]
           },
           {
             "id": "Chambers_of_Xeric/Challenge_Mode",
-            "type": "raid",
             "icon": "Great_Olm_icon_(mobile)",
             "title": "Chambers of Xeric",
             "subtitle": "Challenge Mode",
             "items": ["Dragon_claws", "Elder_maul"],
-            "subitems": [
+            "subcards": [
               {
                 "id": "Setup",
-                "type": "pvm",
+                "icon": "Combat_icon",
                 "setupId": "Chambers_of_Xeric/Challenge_Mode"
               }
             ]
@@ -1988,31 +1941,30 @@
           { "id": "Scythe_of_vitur", "subcategory": "crush" },
           { "id": "Dragon_claws", "subcategory": "spec" }
         ],
-        "stats": [
+        "skills": [
           { "skill": "strength", "level": 90 }
         ],
-        "upgrades": [
+        "timeline": [
           {
             "id": "Theatre_of_Blood",
-            "type": "raid",
             "icon": "Verzik_Vitur_icon_(mobile)",
             "subtitle": "Normal",
             "items": ["Scythe_of_vitur", "Avernic_defender"],
-            "subitems": [
+            "subcards": [
               {
                 "id": "A_Night_at_the_Theatre",
-                "type": "quest"
+                "icon": "Quest_point_icon"
               },
               {
                 "id": "Setup",
-                "type": "pvm",
+                "icon": "Combat_icon",
                 "setupId": "Theatre_of_Blood"
               }
             ]
           },
           {
             "id": "Strength",
-            "type": "strength",
+            "icon": "Strength_icon",
             "title": "90 strength",
             "subtitle": "To equip scythe"
           }
@@ -2023,46 +1975,42 @@
       },
       {
         "title": "Voidwaker",
-        "items": [],
         "subcategoryItems": [
           { "id": "Voidwaker", "subcategory": "spec" }
         ],
-        "upgrades": [
+        "timeline": [
           {
             "id": "Vet'ion",
-            "type": "boss",
             "icon": "Vet'ion_jr.",
             "items": ["Voidwaker_blade"],
-            "subitems": [
+            "subcards": [
               {
                 "id": "Setup",
-                "type": "melee",
+                "icon": "Attack_icon",
                 "setupId": "Vet'ion"
               }
             ]
           },
           {
             "id": "Callisto",
-            "type": "boss",
             "icon": "Callisto_cub",
             "items": ["Voidwaker_hilt"],
-            "subitems": [
+            "subcards": [
               {
                 "id": "Setup",
-                "type": "ranged",
+                "icon": "Ranged_icon",
                 "setupId": "Callisto"
               }
             ]
           },
           {
             "id": "Venenatis",
-            "type": "boss",
             "icon": "Venenatis_spiderling",
             "items": ["Voidwaker_gem"],
-            "subitems": [
+            "subcards": [
               {
                 "id": "Setup",
-                "type": "melee",
+                "icon": "Attack_icon",
                 "setupId": "Venenatis"
               }
             ]
@@ -2071,7 +2019,6 @@
       },
       {
         "title": "Nex",
-        "items": [],
         "subcategoryItems": [
           { "id": "Torva_full_helm", "subcategory": "stab" },
           { "id": "Torva_platebody", "subcategory": "stab" },
@@ -2080,33 +2027,32 @@
           { "id": "Torva_platebody", "subcategory": "crush" },
           { "id": "Torva_platelegs", "subcategory": "crush" }
         ],
-        "stats": [
+        "skills": [
           { "skill": "smithing", "level": 90, "highlight": true }
         ],
-        "upgrades": [
+        "timeline": [
           {
             "id": "The_Frozen_Door",
-            "type": "quest",
+            "icon": "Quest_point_icon",
             "subtitle": "Miniquest",
             "items": ["Frozen_key_(The_Frozen_Door)"]
           },
           {
             "id": "Nex",
-            "type": "boss",
             "icon": "Nex_icon_(mobile)",
             "subtitle": "Small teams",
             "items": ["Torva_full_helm_(damaged)", "Torva_platebody_(damaged)", "Torva_platelegs_(damaged)"],
-            "subitems": [
+            "subcards": [
               {
                 "id": "Setup",
-                "type": "pvm",
+                "icon": "Combat_icon",
                 "setupId": "Nex"
               }
             ]
           },
           {
             "id": "Smithing",
-            "type": "smithing",
+            "icon": "Smithing_icon",
             "title": "90 smithing",
             "subtitle": "Boostable",
             "items": ["Torva_full_helm", "Torva_platebody", "Torva_platelegs"]
@@ -2118,21 +2064,19 @@
       },
       {
         "title": "Nightmare",
-        "items": [],
         "subcategoryItems": [
           { "id": "Inquisitor's_great_helm", "subcategory": "crush" },
           { "id": "Inquisitor's_hauberk", "subcategory": "crush" },
           { "id": "Inquisitor's_plateskirt", "subcategory": "crush" }
         ],
-        "upgrades": [
+        "timeline": [
           {
             "id": "A_Taste_of_Hope",
-            "type": "quest",
+            "icon": "Quest_point_icon",
             "items": ["Drakan's_medallion"]
           },
           {
             "id": "Phosani's_Nightmare",
-            "type": "boss",
             "icon": "The_Nightmare_icon_(mobile)",
             "items": [
               "Inquisitor's_mace",
@@ -2140,10 +2084,10 @@
               "Inquisitor's_hauberk",
               "Inquisitor's_plateskirt"
             ],
-            "subitems": [
+            "subcards": [
               {
                 "id": "Setup",
-                "type": "melee",
+                "icon": "Attack_icon",
                 "setupId": "Phosani's_Nightmare"
               }
             ]
@@ -2157,31 +2101,31 @@
       {
         "title": "Maxed",
         "items": ["Infernal_max_cape"],
-        "upgrades": [
+        "timeline": [
           {
             "id": "Quest_point_cape",
-            "type": "quest",
+            "icon": "Quest_point_icon",
             "title": "Quest Cape",
             "subtitle": "Wise Old Man",
             "items": ["Quest_point_cape_(t)"]
           },
           {
             "id": "Achievement_diary_cape",
-            "type": "diary",
+            "icon": "Achievement_Diaries_icon",
             "title": "Achievement Diary Cape",
             "subtitle": "Twiggy O'Korn",
             "items": ["Achievement_diary_cape_(t)"]
           },
           {
             "id": "Music_cape",
-            "type": "music",
+            "icon": "Music",
             "title": "Music Cape",
             "subtitle": "Olaf the Bard",
             "items": ["Music_cape(t)"]
           },
           {
             "id": "Max_cape",
-            "type": "skilling",
+            "icon": "Stats_icon",
             "title": "Max Cape",
             "subtitle": "Mac",
             "items": ["Max_cape"]
@@ -2211,10 +2155,9 @@
           { "id": "Dragon_claws_(cr)", "subcategory": "spec" },
           { "id": "Tzkal_slayer_helmet", "subcategory": "slayer" }
         ],
-        "upgrades": [
+        "timeline": [
           {
             "id": "Man_(Morytania_Spider_Cave)",
-            "type": "boss",
             "icon": "Nid",
             "title": "Morytania Spider Cave",
             "subtitle": "Mysterious Man",
@@ -2222,14 +2165,12 @@
           },
           {
             "id": "Tombs_of_Amascut",
-            "type": "raid",
             "icon": "Tumeken's_guardian",
             "subtitle": "Level 500+",
             "items": ["Cursed_phalanx"]
           },
           {
             "id": "Theatre_of_Blood/Hard_Mode",
-            "type": "raid",
             "icon": "Verzik_Vitur_icon_(mobile)",
             "title": "Theatre of Blood",
             "subtitle": "Hard Mode",
@@ -2237,7 +2178,6 @@
           },
           {
             "id": "Purifying_sigil",
-            "type": "boss",
             "icon": "Yami",
             "title": "Yama",
             "subtitle": "Radiant Contracts",
@@ -2245,7 +2185,6 @@
           },
           {
             "id": "Sanguine_torva_armour",
-            "type": "boss",
             "icon": "Awakener's_orb",
             "title": "Blood Torva",
             "subtitle": "Awakened Bosses",
@@ -2253,7 +2192,6 @@
           },
           {
             "id": "Combat_Achievements",
-            "type": "boss",
             "icon": "Combat_Achievements_-_grandmaster_tier_icon",
             "title": "Combat Achievements",
             "subtitle": "Grandmaster",
