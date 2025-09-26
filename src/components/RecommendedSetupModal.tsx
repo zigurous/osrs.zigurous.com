@@ -73,7 +73,7 @@ export default function RecommendedSetupModal({
               iconAlignment="only"
               iconProps={{ color: '', size: 'md' }}
               onClick={onRequestClose}
-              size="lg"
+              size="md"
               variant="text"
             />
           </div>

@@ -149,12 +149,6 @@ textarea::placeholder {
   margin-bottom: var(--spacing-sm);
 }
 
-.modal__close-button:not(:disabled):hover,
-.modal__close-button:not(:disabled):active,
-.modal__close-button:not(:disabled).active {
-  background-color: var(--color-surface-1);
-}
-
 .modal#privacy-policy .modal__content,
 .modal#terms-and-conditions .modal__content {
   background-color: var(--color-surface-2);
@@ -163,6 +157,14 @@ textarea::placeholder {
 .modal#privacy-policy .modal__title,
 .modal#terms-and-conditions .modal__title {
   font-size: var(--text-title-md);
+}
+
+@media (hover: hover) {
+  .btn--default.btn--text:not(:disabled):hover,
+  .btn--default.btn--text:not(:disabled):active,
+  .btn--default.btn--text:not(:disabled).active {
+    background-color: var(--color-surface-3);
+  }
 }
 
 @media (max-width: 816px) {

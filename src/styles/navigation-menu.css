@@ -1,0 +1,26 @@
+.navigation-menu .drawer__dialog.overlay__dialog {
+  background-color: var(--color-surface-1);
+}
+
+.navigation-menu__header {
+  width: 100%;
+  height: 112px;
+  margin: var(--spacing-lg) 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://www.runescape.com/img/responsive/common/logos/oldschool@2x.png");
+}
+
+.navigation-menu ul > li > a {
+  display: inline-flex;
+  align-items: center;
+  width: 100%;
+  padding: var(--spacing-md) var(--spacing-xl);
+}
+
+@media (hover: hover) {
+  .navigation-menu ul > li > a:hover {
+    background-color: var(--color-surface-3);
+  }
+}

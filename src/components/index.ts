@@ -11,6 +11,7 @@ export { default as InfoTooltip } from './InfoTooltip';
 export { default as ItemFrame } from './ItemFrame';
 export { default as ItemInventory } from './ItemInventory';
 export { default as ItemsStack } from './ItemsStack';
+export { default as NavigationMenu } from './NavigationMenu';
 export { default as PageFrame } from './PageFrame';
 export { default as PrivacyPolicy } from './PrivacyPolicy';
 export { default as RecommendedSetupModal } from './RecommendedSetupModal';
