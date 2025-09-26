@@ -1,27 +1,22 @@
 import { useIsMounted } from '@zigurous/forge-react'; // prettier-ignore
 import { graphql, navigate, useStaticQuery } from 'gatsby';
 import React, { createContext, useCallback, useContext, useEffect, useState } from 'react'; // prettier-ignore
-import { RecommendedSetupModal } from '../components';
 import type { RecommendedSetup } from '../types'; // prettier-ignore
 
 interface RecommendedSetupsContextData {
   setups: RecommendedSetup[];
+  currentSetup: RecommendedSetup | undefined;
   getSetupById: (id: string) => RecommendedSetup | undefined;
   viewSetup: (id: string) => void;
-  closeSetup: (id: string) => void;
+  closeSetup: () => void;
 }
 
 const defaultData: RecommendedSetupsContextData = {
   setups: [],
+  currentSetup: undefined,
   getSetupById: () => undefined,
   viewSetup: () => undefined,
   closeSetup: () => undefined,
-};
-
-const emptySetup: RecommendedSetup = {
-  id: 'empty',
-  title: '',
-  loadouts: [],
 };
 
 const RecommendedSetupsContext =
@@ -72,16 +67,13 @@ export function RecommendedSetupsContextProvider({
     <RecommendedSetupsContext.Provider
       value={{
         setups: data.setups.nodes,
+        currentSetup,
         getSetupById,
         viewSetup,
         closeSetup,
       }}
     >
       {children}
-      <RecommendedSetupModal
-        onRequestClose={closeSetup}
-        setup={currentSetup || emptySetup}
-      />
     </RecommendedSetupsContext.Provider>
   );
 }

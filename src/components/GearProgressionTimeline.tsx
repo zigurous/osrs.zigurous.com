@@ -69,37 +69,35 @@ export default function GearProgressionTimeline() {
   return (
     <div className="gear-progression__timeline-wrapper">
       <div className="gear-progression__timeline" ref={ref}>
-        <Stack align="stretch" justify="start" layout="vertical">
-          {context.previous && (
-            <GearProgressionTimelineTier
-              className={classNames({
-                'transition-in': context.timelineDirection < 0,
-              })}
-              id="previous"
-              order={context.tierIndex - 1}
-              tier={context.previous}
-            />
-          )}
+        {context.previous && (
           <GearProgressionTimelineTier
             className={classNames({
-              'transition-down': context.timelineDirection < 0,
-              'transition-up': context.timelineDirection > 0,
+              'transition-in': context.timelineDirection < 0,
             })}
-            id="current"
-            order={context.tierIndex}
-            tier={context.current}
+            id="previous"
+            order={context.tierIndex - 1}
+            tier={context.previous}
           />
-          {context.next && (
-            <GearProgressionTimelineTier
-              className={classNames({
-                'transition-in': context.timelineDirection > 0,
-              })}
-              id="next"
-              order={context.tierIndex + 1}
-              tier={context.next}
-            />
-          )}
-        </Stack>
+        )}
+        <GearProgressionTimelineTier
+          className={classNames({
+            'transition-down': context.timelineDirection < 0,
+            'transition-up': context.timelineDirection > 0,
+          })}
+          id="current"
+          order={context.tierIndex}
+          tier={context.current}
+        />
+        {context.next && (
+          <GearProgressionTimelineTier
+            className={classNames({
+              'transition-in': context.timelineDirection > 0,
+            })}
+            id="next"
+            order={context.tierIndex + 1}
+            tier={context.next}
+          />
+        )}
       </div>
     </div>
   );

@@ -7,14 +7,22 @@ import WikiIcon from './WikiIcon';
 import WikiLink from './WikiLink';
 import type { EquippedItemIds, InventoryIds, RecommendedSetup } from '../types'; // prettier-ignore
 
+const emptySetup: RecommendedSetup = {
+  id: 'empty',
+  title: '',
+  loadouts: [],
+};
+
 interface RecommendedSetupModalProps {
   onRequestClose?: () => void;
-  setup: RecommendedSetup;
+  scale?: number;
+  setup?: RecommendedSetup;
 }
 
 export default function RecommendedSetupModal({
   onRequestClose,
-  setup,
+  scale,
+  setup = emptySetup,
 }: RecommendedSetupModalProps) {
   const [loadoutIndex, setLoadoutIndex] = useState(0);
   const currentLoadout =
@@ -47,7 +55,10 @@ export default function RecommendedSetupModal({
       onRequestClose={onRequestClose}
       open={setup.loadouts.length > 0}
     >
-      <div className="modal__content">
+      <div
+        className="modal__content"
+        style={{ transform: scale ? `scale(${scale})` : undefined }}
+      >
         <div className="modal__header">
           <Stack align="baseline">
             <h1 className="modal__title title-sm">

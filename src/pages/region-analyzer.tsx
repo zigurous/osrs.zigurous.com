@@ -4,12 +4,14 @@ import React from 'react';
 import { FooterBar, HeaderBar, RegionPanel, RootLayout, WorldMap } from '../components'; // prettier-ignore
 import { ActivitiesContextProvider, EquipmentContextProvider, ItemsContextProvider, LocationsContextProvider, QuestsContextProvider, RegionsContextProvider, SettingsContextProvider, SkillingFilterContextProvider, useRegionsContext } from '../context'; // prettier-ignore
 
+export const Head: HeadFC = () => <title>OSRS Region Analyzer</title>;
+
 export default function RegionAnalyzer({ location }: PageProps) {
   return (
     <ContextProviders location={location}>
       <RootLayout id="region-analyzer">
         <div className="flex flex-col w-full h-full">
-          <HeaderBar title="Region Analyzer" left={<HeaderContent />} />
+          <HeaderBar title="Region Analyzer" right={<MultiRegionToggle />} />
           <WorldMap />
           <FooterBar />
         </div>
@@ -18,8 +20,6 @@ export default function RegionAnalyzer({ location }: PageProps) {
     </ContextProviders>
   );
 }
-
-export const Head: HeadFC = () => <title>OSRS Region Analyzer</title>;
 
 interface ContextProvidersProps {
   children: React.ReactNode;
@@ -48,13 +48,14 @@ function ContextProviders({ children, location }: ContextProvidersProps) {
   );
 }
 
-function HeaderContent() {
+function MultiRegionToggle() {
   const context = useRegionsContext();
   return (
     <Toggle
-      className="ml-xxl"
+      className="mx-lg"
       id="multi-region-toggle"
       label="Multi-Region"
+      labelAlignment="leading"
       onToggle={context.setMultiRegionMode}
       toggled={context.multiRegionMode}
       size="md"

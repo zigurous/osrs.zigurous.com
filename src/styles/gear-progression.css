@@ -1,12 +1,18 @@
 .gear-progression {
   width: 100%;
-  padding: var(--spacing-2xl) var(--spacing-xl);
   flex: 100% 1 1;
+  padding: var(--spacing-2xl) var(--spacing-xl);
 }
 
-.gear-progression__body {
-  position: relative;
-  overflow: hidden;
+.gear-progression > div {
+  transform: scale(1);
+  transform-origin: top;
+  will-change: transform;
+}
+
+.gear-progression__body > div {
+  flex-grow: 0;
+  flex-shrink: 0;
 }
 
 .gear-progression__header {
@@ -16,15 +22,17 @@
 }
 
 .gear-progression__timeline-wrapper {
-  flex: 400px 1 1;
-  max-width: 400px;
+  flex-basis: 400px;
+  width: 400px;
   height: 370px;
-  overflow: hidden;
   margin-left: calc(var(--spacing-sm) * -1);
+  overflow: hidden;
 }
 
 .gear-progression__timeline {
   position: relative;
+  width: 100%;
+  height: 100%;
   padding-left: var(--spacing-xl);
 }
 
@@ -33,7 +41,7 @@
   position: absolute;
   left: var(--spacing-sm);
   width: var(--spacing-xxs);
-  height: 370px;
+  height: 100%;
   background: linear-gradient(180deg,
     rgba(from var(--color-surface-1) r g b / 0) 0%,
     var(--color-surface-1) 24px,
@@ -45,8 +53,8 @@
 
 .gear-progression__timeline-tier {
   position: relative;
-  flex: 370px 0 0;
-  height: 370px;
+  width: 100%;
+  height: 100%;
   will-change: transform;
 }
 
@@ -96,8 +104,8 @@ li.gear-progression__timeline-card {
 li.gear-progression__timeline-card:not(.child)::before {
   content: '';
   position: absolute;
-  left: -22px;
-  top: 16px;
+  left: calc(0px - var(--spacing-lg) - (var(--spacing-lg) / 2) + (var(--spacing-xxs) / 2));
+  top: var(--spacing-lg);
   width: var(--spacing-lg);
   height: var(--spacing-lg);
   border-radius: var(--radius-full);
@@ -152,18 +160,12 @@ a.gear-progression__timeline-link + div {
   right: var(--spacing-sm);
 }
 
-.gear-progression-card {
-  flex-grow: 0;
-  flex-shrink: 0;
-  max-width: 560px;
-}
-
-.gear-progression-card > .titled-card__body {
-  max-height: 328px;
-}
-
 .gear-progression-card#notes > .titled-card__header {
   display: none;
+}
+
+.gear-progression-card#notes > .titled-card__body {
+  border-radius: var(--radius-md);
 }
 
 .gear-progression-card#notes ul.list-indent {
@@ -191,4 +193,14 @@ a.gear-progression__timeline-link + div {
   height: 100%;
   border-bottom: 2px solid var(--color-secondary);
   pointer-events: none;
+}
+
+@media (max-width: 964px) {
+  main#gear-progression .app-header__right {
+    display: none;
+  }
+
+  main#gear-progression .app-header__center {
+    justify-content: flex-end;
+  }
 }
