@@ -94,13 +94,13 @@ const menu = [
       {
         icon: 'Prayer_Tutor_icon',
         text: 'Contribute',
-        href: 'https://github.com/zigurous/osrs-region-analyzer',
+        href: 'https://github.com/zigurous/osrs-web-tools',
         external: true,
       },
       {
         icon: 'Danger_Tutor_icon',
         text: 'Report a Bug',
-        href: 'https://github.com/zigurous/osrs-region-analyzer/issues',
+        href: 'https://github.com/zigurous/osrs-web-tools/issues',
         external: true,
       },
     ],

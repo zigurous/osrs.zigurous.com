@@ -1,12 +1,12 @@
 {
-  "name": "osrs-region-analyzer",
+  "name": "osrs-web-tools",
   "version": "1.0.0",
   "private": true,
   "author": "Zigurous",
   "license": "SEE LICENSE IN LICENSE",
-  "homepage": "https://osrs.zigurous.com/region-analyzer",
+  "homepage": "https://osrs.zigurous.com/",
   "bugs": {
-    "url": "https://github.com/zigurous/osrs-region-analyzer/issues",
+    "url": "https://github.com/zigurous/osrs-web-tools/issues",
     "email": "support@zigurous.com"
   },
   "scripts": {
