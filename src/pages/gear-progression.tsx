@@ -1,4 +1,5 @@
 import { Stack } from '@zigurous/forge-react';
+import classNames from 'classnames';
 import { type HeadFC, type PageProps } from 'gatsby';
 import React, { useEffect, useRef, useState } from 'react';
 import { FooterBar, HeaderBar, IconToggle, RecommendedSetupModal, RootLayout } from '../components'; // prettier-ignore
@@ -14,7 +15,7 @@ export const Head: HeadFC = () => <title>OSRS Gear Progression</title>;
 
 export default function GearProgression({}: PageProps) {
   const ref = useRef<HTMLDivElement>(null);
-  const [scale, setScale] = useState(1);
+  const [scale, setScale] = useState<number | undefined>();
   const [observer] = useState(() =>
     typeof window !== 'undefined'
       ? new ResizeObserver((entries: ResizeObserverEntry[]) => {
@@ -46,8 +47,10 @@ export default function GearProgression({}: PageProps) {
         <HeaderBar title="Gear Progression" center={<CategoryToggles />} />
         <div className="gear-progression" ref={ref}>
           <div
-            className="flex flex-col align-center"
-            style={{ transform: `scale(${scale})` }}
+            className={classNames('flex flex-col align-center', {
+              invisible: scale === undefined,
+            })}
+            style={{ transform: `scale(${scale || 1})` }}
           >
             <GearProgressionSlider />
             <Stack
@@ -63,7 +66,7 @@ export default function GearProgression({}: PageProps) {
         </div>
         <FooterBar />
       </RootLayout>
-      <RecommendedSetup scale={scale} />
+      <RecommendedSetup scale={scale || 1} />
     </ContextProviders>
   );
 }

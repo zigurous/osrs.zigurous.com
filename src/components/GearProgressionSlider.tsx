@@ -1,7 +1,7 @@
-import { Button, Stack, Text } from '@zigurous/forge-react';
-import React from 'react';
+import { Button, nativeKeyboardEventHandler as keyEventHandler, Stack, Text } from '@zigurous/forge-react'; // prettier-ignore
+import React, { useCallback, useEffect } from 'react';
 import Slider from './Slider';
-import { useGearProgressionContext } from '../context';
+import { useGearProgressionContext, useRecommendedSetupsContext } from '../context'; // prettier-ignore
 
 export default function GearProgressionSlider() {
   const context = useGearProgressionContext();
@@ -12,6 +12,24 @@ export default function GearProgressionSlider() {
         ? context.next
         : context.previous) ?? context.current;
   const tierIndex = context.tierIndex + context.timelineDirection;
+  const { currentSetup: recommendedSetup } = useRecommendedSetupsContext();
+
+  const previousTier = useCallback(() => context.setTimelineDirection(-1), []);
+  const nextTier = useCallback(() => context.setTimelineDirection(1), []);
+
+  useEffect(() => {
+    if (typeof window === 'undefined') return;
+    if (recommendedSetup) return;
+    const prev = keyEventHandler(['ArrowLeft', 'ArrowUp'], previousTier, true);
+    const next = keyEventHandler(['ArrowRight', 'ArrowDown'], nextTier, true);
+    window.addEventListener('keydown', prev);
+    window.addEventListener('keydown', next);
+    return () => {
+      window.removeEventListener('keydown', prev);
+      window.removeEventListener('keydown', next);
+    };
+  }, [recommendedSetup, previousTier, nextTier]);
+
   return (
     <Stack
       align="center"
@@ -42,7 +60,7 @@ export default function GearProgressionSlider() {
             size: 'md',
           }}
           iconAlignment="only"
-          onClick={() => context.setTimelineDirection(-1)}
+          onClick={previousTier}
           style={{ backgroundColor: 'transparent' }}
         />
         <Slider
@@ -61,7 +79,7 @@ export default function GearProgressionSlider() {
             size: 'md',
           }}
           iconAlignment="only"
-          onClick={() => context.setTimelineDirection(1)}
+          onClick={nextTier}
           style={{ backgroundColor: 'transparent' }}
         />
       </Stack>

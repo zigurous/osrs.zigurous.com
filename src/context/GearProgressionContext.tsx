@@ -18,7 +18,7 @@ interface GearProgressionContextData {
   setTier: React.Dispatch<React.SetStateAction<number>>;
   setCategory: React.Dispatch<React.SetStateAction<GearProgressionCategoryId>>;
   setSubcategory: React.Dispatch<React.SetStateAction<string | undefined>>;
-  setTimelineDirection: React.Dispatch<React.SetStateAction<number>>;
+  setTimelineDirection: (direction: number) => void;
 }
 
 type GearProgressionContextTier = GearProgressionTier & {
@@ -96,12 +96,10 @@ export function GearProgressionContextProvider({
   children,
 }: React.PropsWithChildren) {
   const data = useStaticQuery<GearProgressionQueryData>(dataQuery);
-  const [tierIndex, setTierIndex] = useState(defaultData.tierIndex);
-  const [timelineDirection, setTimelineDirection] = useState(0);
-  const [categoryId, setCategory] = useState<GearProgressionCategoryId>(
-    defaultData.selectedCategory.id,
-  );
+  const [categoryId, setCategory] = useState(defaultData.selectedCategory.id);
   const [subcategoryId, setSubcategory] = useState<string>();
+  const [tierIndex, setTierIndex] = useState(defaultData.tierIndex);
+  const [timelineDirection, setDirection] = useState(0);
 
   useEffect(() => {
     setTierIndex(0);
@@ -112,14 +110,25 @@ export function GearProgressionContextProvider({
     data.progression.nodes.find(node => node.category === categoryId)?.tiers ??
     [];
   const highestTier = Math.max(tiers.length - 1, 0);
+
   const setTier = useCallback<React.Dispatch<React.SetStateAction<number>>>(
     action =>
-      setTierIndex(tier =>
+      setTierIndex(state =>
         typeof action === 'number'
           ? clamp(action, 0, highestTier)
-          : clamp(action(tier), 0, highestTier),
+          : clamp(action(state), 0, highestTier),
       ),
     [highestTier],
+  );
+
+  const setTimelineDirection = useCallback(
+    (direction: number) =>
+      setDirection(state => {
+        if (direction === 0) return direction;
+        else if (state === 0) return direction;
+        else return state;
+      }),
+    [],
   );
 
   const previous = useGearProgressionTier(

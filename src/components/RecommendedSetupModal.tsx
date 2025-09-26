@@ -1,5 +1,5 @@
 import '../styles/recommended-setup.css';
-import { Button, clamp, Overlay, ReactPortal, Stack, Text, useKeyboardEvent } from '@zigurous/forge-react'; // prettier-ignore
+import { Button, clamp, nativeKeyboardEventHandler as keyEventHandler, Overlay, ReactPortal, Stack, Text } from '@zigurous/forge-react'; // prettier-ignore
 import React, { useCallback, useEffect, useState } from 'react';
 import EquipmentInventory from './EquipmentInventory';
 import ItemInventory from './ItemInventory';
@@ -30,10 +30,6 @@ export default function RecommendedSetupModal({
       ? setup.loadouts[clamp(loadoutIndex, 0, setup.loadouts.length - 1)]
       : null;
 
-  useEffect(() => {
-    setLoadoutIndex(0);
-  }, [setup.id]);
-
   const previousLoadout = useCallback(() => {
     setLoadoutIndex(index => Math.max(index - 1, 0));
   }, []);
@@ -42,8 +38,22 @@ export default function RecommendedSetupModal({
     setLoadoutIndex(index => Math.min(index + 1, setup.loadouts.length - 1));
   }, [setup.loadouts.length]);
 
-  useKeyboardEvent('ArrowLeft', previousLoadout, true);
-  useKeyboardEvent('ArrowRight', nextLoadout, true);
+  useEffect(() => {
+    setLoadoutIndex(0);
+  }, [setup.id]);
+
+  useEffect(() => {
+    if (typeof window === 'undefined') return;
+    if (setup.id === emptySetup.id) return;
+    const prev = keyEventHandler('ArrowLeft', previousLoadout, true);
+    const next = keyEventHandler('ArrowRight', nextLoadout, true);
+    window.addEventListener('keydown', prev);
+    window.addEventListener('keydown', next);
+    return () => {
+      window.removeEventListener('keydown', prev);
+      window.removeEventListener('keydown', next);
+    };
+  }, [setup.id, previousLoadout, nextLoadout]);
 
   return (
     <Overlay
