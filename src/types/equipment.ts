@@ -7,9 +7,10 @@ export type EquipmentSlotId = (typeof equipmentSlots)[number];
 export interface EquipmentItem extends Omit<ItemData, 'transmutations'> {
   slot: EquipmentSlotId;
   regions?: string[];
+  regions_single?: string[];
   requiredWeapon?: string;
   ammo?: Omit<EquipmentItem, 'ammo'>;
-  skillRequirements?: SkillRequirement[];
+  requirements?: SkillRequirement[];
 }
 
 export interface EquipmentSlot {

@@ -49,9 +49,10 @@ export const createSchemaCustomization = ({
       slot: String
       tags: [String!]
       regions: [String!]
+      regions_single: [String!]
       requiredWeapon: String
       ammo: EquipmentAmmo
-      skillRequirements: [SkillLevel!]
+      requirements: [SkillLevel!]
     }
     type EquipmentAmmo {
       id: String!

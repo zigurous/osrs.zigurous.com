@@ -55,9 +55,9 @@
         "items": [
           "Sunfire_fanatic_helm#Leagues",
           "Crystal_helm#Leagues",
-          "Blood_moon_helm#Dual_macuahuitl",
-          "Obsidian_helmet#Toktz-xil-ak",
-          "Obsidian_helmet#Tzhaar-ket-em",
+          "Blood_moon_helm#Weapon=Dual_macuahuitl",
+          "Obsidian_helmet#Weapon=Toktz-xil-ak",
+          "Obsidian_helmet#Weapon=Tzhaar-ket-em",
           "Oathplate_helm#Slash",
           "Inquisitor's_great_helm#Crush",
           "Torva_full_helm",
@@ -78,9 +78,9 @@
         "items": [
           "Sunfire_fanatic_cuirass#Leagues",
           "Crystal_body#Leagues",
-          "Blood_moon_chestplate#Dual_macuahuitl",
-          "Obsidian_platebody#Toktz-xil-ak",
-          "Obsidian_platebody#Tzhaar-ket-em",
+          "Blood_moon_chestplate#Weapon=Dual_macuahuitl",
+          "Obsidian_platebody#Weapon=Toktz-xil-ak",
+          "Obsidian_platebody#Weapon=Tzhaar-ket-em",
           "Oathplate_chest#Slash",
           "Inquisitor's_hauberk#Crush",
           "Torva_platebody",
@@ -101,9 +101,9 @@
         "items": [
           "Sunfire_fanatic_chausses#Leagues",
           "Crystal_legs#Leagues",
-          "Blood_moon_tassets#Dual_macuahuitl",
-          "Obsidian_platelegs#Toktz-xil-ak",
-          "Obsidian_platelegs#Tzhaar-ket-em",
+          "Blood_moon_tassets#Weapon=Dual_macuahuitl",
+          "Obsidian_platelegs#Weapon=Toktz-xil-ak",
+          "Obsidian_platelegs#Weapon=Tzhaar-ket-em",
           "Oathplate_legs#Slash",
           "Inquisitor's_plateskirt#Crush",
           "Torva_platelegs",
@@ -187,8 +187,8 @@
           "Amulet_of_rancour#Leagues",
           "Amulet_of_rancour",
           "Amulet_of_rancour#*",
-          "Berserker_necklace#Toktz-xil-ak",
-          "Berserker_necklace#Tzhaar-ket-em",
+          "Berserker_necklace#Weapon=Toktz-xil-ak",
+          "Berserker_necklace#Weapon=Tzhaar-ket-em",
           "Amulet_of_torture",
           "Amulet_of_blood_fury",
           "Amulet_of_blood_fury#*",
@@ -262,7 +262,7 @@
           "Toktz-xil-ak",
           "Leaf-bladed_sword",
           "Dragon_dagger",
-          "Nothing"
+          "Unarmed"
         ]
       }
     ]
@@ -298,7 +298,7 @@
           "Leaf-bladed_battleaxe",
           "Sulphur_blades",
           "Toktz-xil-ak",
-          "Nothing"
+          "Unarmed"
         ]
       }
     ]
@@ -335,7 +335,7 @@
           "Keris_partisan",
           "Barronite_mace",
           "Rune_mace",
-          "Nothing"
+          "Unarmed"
         ]
       }
     ]
@@ -416,8 +416,8 @@
       {
         "id": "head",
         "items": [
-          "Crystal_helm#Bow_of_faerdhinen",
-          "Eclipse_moon_helm#Eclipse_atlatl",
+          "Crystal_helm#Weapon=Bow_of_faerdhinen",
+          "Eclipse_moon_helm#Weapon=Eclipse_atlatl",
           "Masori_mask_(f)",
           "Masori_mask",
           "Armadyl_helmet",
@@ -435,8 +435,8 @@
       {
         "id": "body",
         "items": [
-          "Crystal_body#Bow_of_faerdhinen",
-          "Eclipse_moon_chestplate#Eclipse_atlatl",
+          "Crystal_body#Weapon=Bow_of_faerdhinen",
+          "Eclipse_moon_chestplate#Weapon=Eclipse_atlatl",
           "Masori_body_(f)",
           "Masori_body",
           "Armadyl_chestplate",
@@ -453,8 +453,8 @@
       {
         "id": "legs",
         "items": [
-          "Crystal_legs#Bow_of_faerdhinen",
-          "Eclipse_moon_tassets#Eclipse_atlatl",
+          "Crystal_legs#Weapon=Bow_of_faerdhinen",
+          "Eclipse_moon_tassets#Weapon=Eclipse_atlatl",
           "Masori_chaps_(f)",
           "Masori_chaps",
           "Armadyl_chainskirt",
@@ -572,7 +572,6 @@
           "Tonalztics_of_ralos",
           "Seercull",
           "Scorching_bow",
-          "Magic_shortbow#Clues",
           "Magic_shortbow",
           "Nothing"
         ]

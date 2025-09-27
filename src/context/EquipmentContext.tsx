@@ -1,6 +1,6 @@
 import { graphql, useStaticQuery } from 'gatsby';
 import React, { createContext, useCallback, useContext } from 'react';
-import type { EquipmentItem } from '../types';
+import type { EquipmentItem, ItemTag } from '../types';
 
 interface EquipmentContextData {
   equipment: EquipmentItem[];
@@ -16,6 +16,8 @@ const defaultData: EquipmentContextData = {
   getItemData: () => undefined,
 };
 
+const specialTags = ['*', 'Leagues', 'Clues'];
+
 const EquipmentContext = createContext<EquipmentContextData>(defaultData);
 export default EquipmentContext;
 
@@ -29,7 +31,27 @@ export function EquipmentContextProvider({
   const data = useStaticQuery<EquipmentQueryData>(dataQuery);
 
   const getItemById = useCallback(
-    (id: string) => data.equipment.nodes.find(item => item.id === id),
+    (id: string) => {
+      if (id.includes('#')) {
+        const split = id.split('#');
+        const baseId = split[0];
+        const item =
+          data.equipment.nodes.find(item => item.id === id) ||
+          data.equipment.nodes.find(item => item.id === baseId);
+        if (!item) return undefined;
+        const specialIdentifier = split[1];
+        const regions = item.regions_single || item.regions;
+        const tags = [...(item.tags || [])];
+        if (specialTags.includes(specialIdentifier)) {
+          tags.push(split[1].toLowerCase() as ItemTag);
+        }
+        const requiredWeapon = specialIdentifier.includes('Weapon=')
+          ? specialIdentifier.split('Weapon=')[1]
+          : undefined;
+        return { ...item, id, tags, regions, requiredWeapon } as EquipmentItem;
+      }
+      return data.equipment.nodes.find(item => item.id === id);
+    },
     [data],
   );
 
@@ -69,12 +91,13 @@ const dataQuery = graphql`
         slot
         tags
         regions
+        regions_single
         requiredWeapon
         ammo {
           id
           icon
         }
-        skillRequirements {
+        requirements {
           skill
           level
         }

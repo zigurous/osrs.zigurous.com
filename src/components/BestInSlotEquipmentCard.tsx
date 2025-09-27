@@ -31,8 +31,7 @@ export default function BestInSlotEquipmentCard({
 
         const ids = slot.items.filter(id => {
           // Find the matching item based on id
-          const baseId = id.includes('#') ? id.split('#')[0] : id;
-          const item = getItemById(id) || getItemById(baseId);
+          const item = getItemById(id);
           if (!item) return false;
 
           // Discard items not available in the region
@@ -74,11 +73,13 @@ export default function BestInSlotEquipmentCard({
 
         // Assign the highest priority item (index 0) to the slot
         if (ids.length > 0) {
-          const fullId = ids[0];
-          const baseId = fullId.includes('#') ? fullId.split('#')[0] : fullId;
-          const item = getItemById(fullId) || getItemById(baseId);
+          const item = getItemById(ids[0]);
           if (item) {
-            slots[slot.id] = { ...item, id: baseId };
+            if (item.id.includes('#')) {
+              slots[slot.id] = { ...item, id: item.id.split('#')[0] };
+            } else {
+              slots[slot.id] = item;
+            }
           }
         }
       });
