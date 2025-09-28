@@ -29,6 +29,9 @@
             "subtitle": "Melee combat tutor",
             "items": ["Training_sword", "Training_shield"]
           }
+        ],
+        "notes": [
+          "Welcome to Gielinor! This guide will help provide ideas on what to do next to progress your character and upgrade your gear. This is not a strict guide - feel free to do things in a different order based on preference."
         ]
       },
       {
@@ -149,7 +152,7 @@
         ],
         "notes": [
           "Blue dragons are weak to water spells and can easily be safespotted in <Link=\"Taverley_Dungeon\">Taverley Dungeon</Link>.",
-          "Using the chaos altar in the wilderness will drastically speed up the process to unlock overheads, requiring less than 100 dragon bones."
+          "Using the chaos altar in the wilderness will drastically speed up the process to unlock overheads, requiring less than 100 dragon bones on average."
         ]
       },
       {
@@ -908,7 +911,7 @@
           }
         ],
         "notes": [
-          "A lot of upgrades from this point on are through slayer. This is a slow skill to train so see the next several tiers of progression for ideas on what to do while leveling."
+          "You're not expected to get 83 slayer all at once. See the next several tiers of progression for ideas on what do while leveling. It's a slow skill to train."
         ]
       },
       {
@@ -1355,7 +1358,7 @@
           }
         ],
         "notes": [
-          "It is not recommended to kill this boss right now without a <Link=\"Scorching_bow\">Scorching Bow</Link> unless you are in a group.",
+          "The <Link=\"Scorching_bow\">Scorching Bow</Link> makes this boss significantly easier to kill. It's not recommended to kill the boss without it unless you are in a group.",
           "The Zamorakian Hasta is a great stab weapon for Tombs of Amascut and is eventually needed to create a <Link=\"Dragon_hunter_lance\">Dragon Hunter Lance</Link>."
         ]
       },
@@ -1405,7 +1408,7 @@
           }
         ],
         "notes": [
-          "We are only farming a few common items right now: the <Link=\"Osmumten's_fang\">Osmumten's Fang</Link> is a powerful weapon for general bossing, the <Link=\"Lightbearer\">Lighbearer</Link> regens special attack energy twice as fast, and the <Link=\"Divine_rune_pouch\">Divine Rune Pouch</Link> helps maximize inventory space."
+          "We are only farming a few common items right now: the <Link=\"Osmumten's_fang\">Osmumten's Fang</Link> is a powerful weapon for general bossing, the <Link=\"Lightbearer\">Lighbearer</Link> regens special attack energy twice as fast, and the <Link=\"Divine_rune_pouch\">Divine Rune Pouch</Link> stores an extra rune to maximize inventory space."
         ]
       },
       {
@@ -1689,6 +1692,7 @@
       },
       {
         "title": "Yama",
+        "questMilestone": "A_Kingdom_Divided",
         "items": ["Oathplate_helm", "Oathplate_chest", "Oathplate_legs"],
         "subcategoryItems": [
           { "id": "Slayer_helmet_(i)", "subcategory": "slayer" }
@@ -1736,6 +1740,7 @@
       },
       {
         "title": "Doom of Mokhaiotl",
+        "questMilestone": "The_Final_Dawn",
         "items": ["Avernic_treads_(max)"],
         "skills": [
           { "skill": "agility", "level": 75 },
@@ -1831,6 +1836,7 @@
       },
       {
         "title": "Soulreaper Axe",
+        "questMilestone": "Desert_Treasure_II_-_The_Fallen_Empire",
         "items": ["Soulreaper_axe"],
         "subcategoryItems": [
           { "id": "Osmumten's_fang", "subcategory": "stab" },
@@ -1933,6 +1939,7 @@
       },
       {
         "title": "Theatre of Blood",
+        "questMilestone": "A_Night_at_the_Theatre",
         "items": ["Scythe_of_vitur", "Avernic_defender"],
         "subcategoryItems": [
           { "id": "Osmumten's_fang", "subcategory": "stab" },
@@ -1942,7 +1949,11 @@
           { "id": "Dragon_claws", "subcategory": "spec" }
         ],
         "skills": [
-          { "skill": "strength", "level": 90 }
+          { "skill": "attack", "level": 90 },
+          { "skill": "strength", "level": 90 },
+          { "skill": "defence", "level": 90 },
+          { "skill": "ranged", "level": 90 },
+          { "skill": "magic", "level": 94 }
         ],
         "timeline": [
           {
@@ -1980,21 +1991,14 @@
         ],
         "timeline": [
           {
-            "id": "Vet'ion",
-            "icon": "Vet'ion_jr.",
-            "items": ["Voidwaker_blade"],
-            "subcards": [
-              {
-                "id": "Setup",
-                "icon": "Attack_icon",
-                "setupId": "Vet'ion"
-              }
-            ]
+            "id": "Revenant_Caves",
+            "icon": "Skull_(status)_icon",
+            "items": ["Craw's_bow", "Viggora's_chainmace", "Thammaron's_sceptre"]
           },
           {
             "id": "Callisto",
             "icon": "Callisto_cub",
-            "items": ["Voidwaker_hilt"],
+            "items": ["Voidwaker_hilt", "Claws_of_callisto"],
             "subcards": [
               {
                 "id": "Setup",
@@ -2004,9 +2008,21 @@
             ]
           },
           {
+            "id": "Vet'ion",
+            "icon": "Vet'ion_jr.",
+            "items": ["Voidwaker_blade", "Skull_of_vet'ion"],
+            "subcards": [
+              {
+                "id": "Setup",
+                "icon": "Attack_icon",
+                "setupId": "Vet'ion"
+              }
+            ]
+          },
+          {
             "id": "Venenatis",
             "icon": "Venenatis_spiderling",
-            "items": ["Voidwaker_gem"],
+            "items": ["Voidwaker_gem", "Fangs_of_venenatis"],
             "subcards": [
               {
                 "id": "Setup",
@@ -2019,6 +2035,7 @@
       },
       {
         "title": "Nex",
+        "questMilestone": "The_Frozen_Door",
         "subcategoryItems": [
           { "id": "Torva_full_helm", "subcategory": "stab" },
           { "id": "Torva_platebody", "subcategory": "stab" },
@@ -2028,14 +2045,16 @@
           { "id": "Torva_platelegs", "subcategory": "crush" }
         ],
         "skills": [
-          { "skill": "smithing", "level": 90, "highlight": true }
+          { "skill": "smithing", "level": 90, "highlight": true },
+          { "skill": "herblore", "level": 93, "highlight": true }
         ],
         "timeline": [
           {
-            "id": "The_Frozen_Door",
-            "icon": "Quest_point_icon",
-            "subtitle": "Miniquest",
-            "items": ["Frozen_key_(The_Frozen_Door)"]
+            "id": "Herblore",
+            "icon": "Herblore_icon",
+            "title": "93 herblore",
+            "subtitle": "+4 boost",
+            "items": ["Divine_super_combat_potion"]
           },
           {
             "id": "Nex",
@@ -2043,6 +2062,11 @@
             "subtitle": "Small teams",
             "items": ["Torva_full_helm_(damaged)", "Torva_platebody_(damaged)", "Torva_platelegs_(damaged)"],
             "subcards": [
+              {
+                "id": "The_Frozen_Door",
+                "icon": "Quest_point_icon",
+                "subtitle": "Miniquest"
+              },
               {
                 "id": "Setup",
                 "icon": "Combat_icon",
@@ -2064,6 +2088,7 @@
       },
       {
         "title": "Nightmare",
+        "questMilestone": "A_Taste_of_Hope",
         "subcategoryItems": [
           { "id": "Inquisitor's_great_helm", "subcategory": "crush" },
           { "id": "Inquisitor's_hauberk", "subcategory": "crush" },
@@ -2073,6 +2098,7 @@
           {
             "id": "A_Taste_of_Hope",
             "icon": "Quest_point_icon",
+            "subtitle": "Quickest teleport",
             "items": ["Drakan's_medallion"]
           },
           {
@@ -2094,8 +2120,7 @@
           }
         ],
         "notes": [
-          "The mace is best in slot for crush on 1x1 monsters but the Scythe is still better on larger monsters.",
-          "Inquisitor's armour is best in slot for crush but also fairly niche so it's not worth farming until you have most other gear."
+          "Inquisitor is best in slot for crush but also fairly niche so it's usually not worth farming until you have nearly max gear. The mace is best in slot for crush on 1x1 monsters but the Scythe is better on larger monsters."
         ]
       },
       {

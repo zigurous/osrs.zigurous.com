@@ -293,6 +293,10 @@
     "icon": "Blessed_bone_statuette_(eagle)"
   },
   {
+    "id": "Blighted_super_restore",
+    "icon": "Blighted_super_restore(4)"
+  },
+  {
     "id": "Blood_Altar",
     "icon": "Blood_talisman"
   },

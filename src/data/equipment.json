@@ -761,6 +761,15 @@
     ]
   },
   {
+    "id": "Bloodbark_body",
+    "slot": "body",
+    "regions": ["morytania"],
+    "requirements": [
+      { "skill": "magic", "level": 60 },
+      { "skill": "defence", "level": 60 }
+    ]
+  },
+  {
     "id": "Bloodbark_boots",
     "slot": "feet",
     "regions": ["morytania"],
@@ -772,6 +781,24 @@
   {
     "id": "Bloodbark_gauntlets",
     "slot": "hands",
+    "regions": ["morytania"],
+    "requirements": [
+      { "skill": "magic", "level": 60 },
+      { "skill": "defence", "level": 60 }
+    ]
+  },
+  {
+    "id": "Bloodbark_helm",
+    "slot": "head",
+    "regions": ["morytania"],
+    "requirements": [
+      { "skill": "magic", "level": 60 },
+      { "skill": "defence", "level": 60 }
+    ]
+  },
+  {
+    "id": "Bloodbark_legs",
+    "slot": "legs",
     "regions": ["morytania"],
     "requirements": [
       { "skill": "magic", "level": 60 },
@@ -3261,6 +3288,21 @@
     "requirements": [
       { "skill": "defence", "level": 40 }
     ]
+  },
+  {
+    "id": "Salve_amulet",
+    "slot": "neck",
+    "regions": ["morytania"]
+  },
+  {
+    "id": "Salve_amulet_(e)",
+    "slot": "neck",
+    "regions": ["morytania"]
+  },
+  {
+    "id": "Salve_amulet_(ei)",
+    "slot": "neck",
+    "regions": ["morytania"]
   },
   {
     "id": "Sanguine_scythe_of_vitur",
