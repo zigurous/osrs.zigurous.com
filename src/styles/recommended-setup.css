@@ -12,6 +12,12 @@
   padding: var(--spacing-xl) var(--spacing-lg);
 }
 
+.modal#recommended-setup .modal__header .btn--icon-only {
+  color: rgb(from var(--color-foreground) r g b / var(--opacity-muted));
+  margin-top: -1em;
+  margin-bottom: -1em;
+}
+
 .modal#recommended-setup .btn#next-loadout,
 .modal#recommended-setup .btn#previous-loadout {
   color: rgb(from var(--color-foreground) r g b / var(--opacity-muted));

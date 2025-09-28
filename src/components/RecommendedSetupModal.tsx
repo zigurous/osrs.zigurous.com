@@ -1,10 +1,12 @@
 import '../styles/recommended-setup.css';
 import { Button, clamp, nativeKeyboardEventHandler as keyEventHandler, Overlay, ReactPortal, Stack, Text } from '@zigurous/forge-react'; // prettier-ignore
-import React, { useCallback, useEffect, useState } from 'react';
+import React, { useCallback, useEffect, useRef, useState } from 'react';
 import EquipmentInventory from './EquipmentInventory';
 import ItemInventory from './ItemInventory';
+import TooltipWrapper from './TooltipWrapper';
 import WikiIcon from './WikiIcon';
 import WikiLink from './WikiLink';
+import { createExport } from '../utils';
 import type { EquippedItemIds, InventoryIds, RecommendedSetup } from '../types'; // prettier-ignore
 
 const emptySetup: RecommendedSetup = {
@@ -81,6 +83,22 @@ export default function RecommendedSetupModal({
             )}
           </Stack>
           <div>
+            {currentLoadout && (
+              <TooltipWrapper
+                className="inline-block mr-sm"
+                tooltip="Export Setup"
+              >
+                <Button
+                  aria-label="Export Setup"
+                  icon="ios_share"
+                  iconAlignment="only"
+                  iconProps={{ color: '', size: 'sm' }}
+                  onClick={() => createExport(setup, currentLoadout)}
+                  size="sm"
+                  variant="text"
+                />
+              </TooltipWrapper>
+            )}
             <WikiLink
               className="btn btn--default btn--rounded btn--solid btn--xs mr-md"
               wikiId={setup.strategiesLinkId || `${setup.id}/Strategies`}
@@ -89,7 +107,6 @@ export default function RecommendedSetupModal({
             </WikiLink>
             <Button
               aria-label="Close"
-              className="modal__close-button"
               icon="close"
               iconAlignment="only"
               iconProps={{ color: '', size: 'md' }}

@@ -24,6 +24,7 @@ export { default as SkillsGrid } from './SkillsGrid';
 export { default as Slider } from './Slider';
 export { default as TermsAndConditions } from './TermsAndConditions';
 export { default as TitledCard } from './TitledCard';
+export { default as TooltipWrapper } from './TooltipWrapper';
 export { default as WikiIcon } from './WikiIcon';
 export { default as WikiLink } from './WikiLink';
 export { default as WorldMap } from './WorldMap';

@@ -1,8 +1,9 @@
 import '../styles/item-frame.css';
 import { Tooltip } from '@zigurous/forge-react';
 import classNames from 'classnames';
-import React, { useEffect, useRef, useState } from 'react';
+import React from 'react';
 import { useItemsContext } from '../context';
+import { useTooltip } from './TooltipWrapper';
 import WikiIcon from './WikiIcon';
 import WikiLink from './WikiLink';
 import { formatNameFromId, toTitleCase } from '../utils';
@@ -25,14 +26,8 @@ export default function ItemFrame({
   item,
   size,
 }: ItemFrameProps) {
-  const ref = useRef<HTMLAnchorElement>(null);
-  const [hovering, setHovering] = useState(false);
-
-  useEffect(() => {
-    if (!ref.current) {
-      setHovering(false);
-    }
-  }, [ref.current]);
+  const { ref, hovering, onTooltipEnter, onTooltipLeave } =
+    useTooltip<HTMLAnchorElement>();
 
   if (!item)
     return <ItemFrameEmpty border={border} className={className} size={size} />;
@@ -72,8 +67,8 @@ export default function ItemFrame({
           },
           className,
         )}
-        onMouseEnter={e => setHovering(true)}
-        onMouseLeave={e => setHovering(false)}
+        onMouseEnter={onTooltipEnter}
+        onMouseLeave={onTooltipLeave}
         wikiId={item.id}
         ref={ref}
       >
@@ -87,7 +82,7 @@ export default function ItemFrame({
             *
           </span>
         )}
-        {hovering && ref.current && (
+        {hovering && (
           <Tooltip element={ref.current}>
             {item.tooltip || (
               <>

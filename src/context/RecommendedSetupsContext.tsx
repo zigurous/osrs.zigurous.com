@@ -1,7 +1,7 @@
-import { useIsMounted } from '@zigurous/forge-react'; // prettier-ignore
+import { useIsMounted } from '@zigurous/forge-react';
 import { graphql, navigate, useStaticQuery } from 'gatsby';
 import React, { createContext, useCallback, useContext, useEffect, useState } from 'react'; // prettier-ignore
-import type { RecommendedSetup } from '../types'; // prettier-ignore
+import type { RecommendedSetup } from '../types';
 
 interface RecommendedSetupsContextData {
   setups: RecommendedSetup[];
@@ -103,6 +103,7 @@ const dataQuery = graphql`
           }
           runePouch
           spell
+          spellbook
         }
       }
     }

@@ -1,7 +1,8 @@
 import '../styles/skill-filters.css';
 import { Tooltip } from '@zigurous/forge-react';
 import classNames from 'classnames';
-import React, { useRef, useState } from 'react';
+import React from 'react';
+import { useTooltip } from './TooltipWrapper';
 import { useSkillingFilterContext } from '../context';
 import { formatNameFromId, getIconForSortingGroup, skillingFilters } from '../utils'; // prettier-ignore
 import type { SkillFilter } from '../types';
@@ -37,8 +38,8 @@ function SkillFilterButton({
   filter,
   disabled = false,
 }: SkillFilterButtonProps) {
-  const ref = useRef<HTMLButtonElement>(null);
-  const [hovering, setHovering] = useState(false);
+  const { ref, hovering, onTooltipEnter, onTooltipLeave } =
+    useTooltip<HTMLButtonElement>();
   const context = useSkillingFilterContext();
   const selected = !disabled && context.selectedFilters.includes(filter);
   const label = formatNameFromId(filter);
@@ -65,8 +66,8 @@ function SkillFilterButton({
           }
         }
       }}
-      onMouseEnter={e => setHovering(true)}
-      onMouseLeave={e => setHovering(false)}
+      onMouseEnter={onTooltipEnter}
+      onMouseLeave={onTooltipLeave}
       ref={ref}
     >
       <img
@@ -74,9 +75,7 @@ function SkillFilterButton({
         aria-hidden
         src={`https://oldschool.runescape.wiki/images/${getIconForSortingGroup(filter)}.png`}
       />
-      {hovering && ref.current && (
-        <Tooltip element={ref.current}>{label}</Tooltip>
-      )}
+      {hovering && <Tooltip element={ref.current}>{label}</Tooltip>}
     </button>
   );
 }

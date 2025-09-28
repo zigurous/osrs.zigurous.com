@@ -200,6 +200,7 @@ export const createSchemaCustomization = ({
       inventory: [RecommendedSetupInventoryItem!]!
       runePouch: [String!]
       spell: String
+      spellbook: String
     }
     type RecommendedSetupEquipmentItem {
       slot: String!

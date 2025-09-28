@@ -48,7 +48,8 @@
           { "slot": 28, "item": "Rune_pouch" }
         ],
         "runePouch": ["Air_rune", "Blood_rune", "Death_rune"],
-        "spell": "Shadow_Barrage"
+        "spell": "Shadow_Barrage",
+        "spellbook": "Ancient"
       }
     ]
   },
@@ -101,7 +102,8 @@
           { "slot": 28, "item": "Divine_rune_pouch" }
         ],
         "runePouch": ["Fire_rune", "Nature_rune", "Law_rune", "Dust_rune"],
-        "spell": "High_Level_Alchemy"
+        "spell": "High_Level_Alchemy",
+        "spellbook": "Standard"
       },
       {
         "title": "Melee",
@@ -149,7 +151,8 @@
           { "slot": 28, "item": "Divine_rune_pouch" }
         ],
         "runePouch": ["Fire_rune", "Nature_rune", "Law_rune", "Dust_rune"],
-        "spell": "High_Level_Alchemy"
+        "spell": "High_Level_Alchemy",
+        "spellbook": "Standard"
       }
     ]
   },
@@ -199,7 +202,8 @@
           { "slot": 28, "item": "Rune_pouch" }
         ],
         "runePouch": ["Fire_rune", "Blood_rune", "Cosmic_rune"],
-        "spell": "Resurrect_Greater_Ghost"
+        "spell": "Resurrect_Greater_Ghost",
+        "spellbook": "Arceuus"
       },
       {
         "title": "Full Blood Moon",
@@ -242,7 +246,8 @@
           { "slot": 28, "item": "Rune_pouch" }
         ],
         "runePouch": ["Fire_rune", "Blood_rune", "Cosmic_rune"],
-        "spell": "Resurrect_Greater_Ghost"
+        "spell": "Resurrect_Greater_Ghost",
+        "spellbook": "Arceuus"
       }
     ]
   },
@@ -296,7 +301,8 @@
           { "slot": 28, "item": "Divine_rune_pouch" }
         ],
         "runePouch": ["Fire_rune", "Blood_rune", "Cosmic_rune", "Death_rune"],
-        "spell": "Resurrect_Greater_Ghost"
+        "spell": "Resurrect_Greater_Ghost",
+        "spellbook": "Arceuus"
       },
       {
         "title": "Budget Setup",
@@ -344,7 +350,8 @@
           { "slot": 28, "item": "Divine_rune_pouch" }
         ],
         "runePouch": ["Fire_rune", "Blood_rune", "Cosmic_rune", "Death_rune"],
-        "spell": "Resurrect_Greater_Ghost"
+        "spell": "Resurrect_Greater_Ghost",
+        "spellbook": "Arceuus"
       }
     ]
   },
@@ -392,7 +399,8 @@
           { "slot": 28, "item": "Rune_pouch" }
         ],
         "runePouch": ["Air_rune", "Blood_rune"],
-        "spell": "Wind_Wave"
+        "spell": "Wind_Wave",
+        "spellbook": "Standard"
       },
       {
         "title": "Pre-Varlamore",
@@ -434,7 +442,8 @@
           { "slot": 28, "item": "Rune_pouch" }
         ],
         "runePouch": ["Air_rune", "Blood_rune"],
-        "spell": "Wind_Wave"
+        "spell": "Wind_Wave",
+        "spellbook": "Standard"
       }
     ]
   },
@@ -488,7 +497,8 @@
           { "slot": 28, "item": "Divine_rune_pouch" }
         ],
         "runePouch": ["Fire_rune", "Nature_rune", "Law_rune", "Dust_rune"],
-        "spell": "High_Level_Alchemy"
+        "spell": "High_Level_Alchemy",
+        "spellbook": "Standard"
       },
       {
         "title": "Melee",
@@ -536,7 +546,8 @@
           { "slot": 28, "item": "Divine_rune_pouch" }
         ],
         "runePouch": ["Fire_rune", "Nature_rune", "Law_rune", "Dust_rune"],
-        "spell": "High_Level_Alchemy"
+        "spell": "High_Level_Alchemy",
+        "spellbook": "Standard"
       }
     ]
   },
@@ -587,7 +598,9 @@
           { "slot": 26, "item": "Phoenix_necklace" },
           { "slot": 27, "item": "Wilderness_sword_4" },
           { "slot": 28, "item": "Blighted_ancient_ice_sack" }
-        ]
+        ],
+        "spell": "Ice_Barrage",
+        "spellbook": "Ancient"
       },
       {
         "title": "Magic",
@@ -633,7 +646,9 @@
           { "slot": 26, "item": "Phoenix_necklace" },
           { "slot": 27, "item": "Wilderness_sword_4" },
           { "slot": 28, "item": "Blighted_ancient_ice_sack" }
-        ]
+        ],
+        "spell": "Ice_Barrage",
+        "spellbook": "Ancient"
       }
     ]
   },
@@ -687,7 +702,8 @@
           { "slot": 28, "item": "Divine_rune_pouch" }
         ],
         "runePouch": ["Fire_rune", "Blood_rune", "Cosmic_rune", "Nature_rune"],
-        "spell": "Resurrect_Greater_Ghost"
+        "spell": "Resurrect_Greater_Ghost",
+        "spellbook": "Arceuus"
       },
       {
         "title": "Ranged",
@@ -735,7 +751,8 @@
           { "slot": 28, "item": "Divine_rune_pouch" }
         ],
         "runePouch": ["Fire_rune", "Blood_rune", "Cosmic_rune", "Nature_rune"],
-        "spell": "Resurrect_Greater_Ghost"
+        "spell": "Resurrect_Greater_Ghost",
+        "spellbook": "Arceuus"
       }
     ]
   },
@@ -789,7 +806,8 @@
           { "slot": 28, "item": "Divine_rune_pouch" }
         ],
         "runePouch": ["Fire_rune", "Blood_rune", "Cosmic_rune"],
-        "spell": "Resurrect_Greater_Ghost"
+        "spell": "Resurrect_Greater_Ghost",
+        "spellbook": "Arceuus"
       },
       {
         "title": "Intermediate",
@@ -837,7 +855,8 @@
           { "slot": 28, "item": "Divine_rune_pouch" }
         ],
         "runePouch": ["Fire_rune", "Blood_rune", "Cosmic_rune"],
-        "spell": "Resurrect_Greater_Ghost"
+        "spell": "Resurrect_Greater_Ghost",
+        "spellbook": "Arceuus"
       }
     ]
   },
@@ -891,7 +910,8 @@
           { "slot": 28, "item": "Divine_rune_pouch" }
         ],
         "runePouch": ["Fire_rune", "Blood_rune", "Aether_rune", "Death_rune"],
-        "spell": "Resurrect_Greater_Ghost"
+        "spell": "Resurrect_Greater_Ghost",
+        "spellbook": "Arceuus"
       },
       {
         "title": "Pre-Bis",
@@ -939,10 +959,11 @@
           { "slot": 28, "item": "Divine_rune_pouch" }
         ],
         "runePouch": ["Fire_rune", "Blood_rune", "Aether_rune", "Death_rune"],
-        "spell": "Resurrect_Greater_Ghost"
+        "spell": "Resurrect_Greater_Ghost",
+        "spellbook": "Arceuus"
       },
       {
-        "title": "Best In Slot",
+        "title": "Max",
         "equipment": [
           { "slot": "weapon", "item": "Voidwaker" },
           { "slot": "shield", "item": "Avernic_defender" },
@@ -987,7 +1008,8 @@
           { "slot": 28, "item": "Divine_rune_pouch" }
         ],
         "runePouch": ["Fire_rune", "Blood_rune", "Aether_rune", "Death_rune"],
-        "spell": "Resurrect_Greater_Ghost"
+        "spell": "Resurrect_Greater_Ghost",
+        "spellbook": "Arceuus"
       }
     ]
   },
@@ -1042,7 +1064,8 @@
           { "slot": 28, "item": "Rune_pouch" }
         ],
         "runePouch": ["Fire_rune", "Death_rune"],
-        "spell": "Iban_Blast"
+        "spell": "Iban_Blast",
+        "spellbook": "Standard"
       },
       {
         "title": "Barrows Tank",
@@ -1090,7 +1113,8 @@
           { "slot": 28, "item": "Rune_pouch" }
         ],
         "runePouch": ["Fire_rune", "Death_rune"],
-        "spell": "Iban_Blast"
+        "spell": "Iban_Blast",
+        "spellbook": "Standard"
       }
     ]
   },
@@ -1142,7 +1166,8 @@
           { "slot": 28, "item": "Rune_pouch" }
         ],
         "runePouch": ["Fire_rune", "Nature_rune", "Law_rune"],
-        "spell": "High_Level_Alchemy"
+        "spell": "High_Level_Alchemy",
+        "spellbook": "Standard"
       },
       {
         "title": "Upgraded Setup",
@@ -1189,7 +1214,8 @@
           { "slot": 28, "item": "Rune_pouch" }
         ],
         "runePouch": ["Fire_rune", "Nature_rune", "Law_rune"],
-        "spell": "High_Level_Alchemy"
+        "spell": "High_Level_Alchemy",
+        "spellbook": "Standard"
       }
     ]
   },
@@ -1234,7 +1260,8 @@
           { "slot": 28, "item": "Rune_pouch" }
         ],
         "runePouch": ["Fire_rune", "Death_rune"],
-        "spell": "Iban_Blast"
+        "spell": "Iban_Blast",
+        "spellbook": "Standard"
       }
     ]
   },
@@ -1288,7 +1315,8 @@
           { "slot": 28, "item": "Divine_rune_pouch" }
         ],
         "runePouch": ["Fire_rune", "Blood_rune", "Death_rune", "Soul_rune"],
-        "spell": "Dark_Demonbane"
+        "spell": "Dark_Demonbane",
+        "spellbook": "Arceuus"
       },
       {
         "title": "Max Ranged",
@@ -1336,7 +1364,8 @@
           { "slot": 28, "item": "Divine_rune_pouch" }
         ],
         "runePouch": ["Fire_rune", "Blood_rune", "Aether_rune", "Death_rune"],
-        "spell": "Dark_Demonbane"
+        "spell": "Dark_Demonbane",
+        "spellbook": "Arceuus"
       }
     ]
   },
@@ -1390,7 +1419,8 @@
           { "slot": 28, "item": "Divine_rune_pouch" }
         ],
         "runePouch": ["Fire_rune", "Blood_rune", "Aether_rune", "Death_rune"],
-        "spell": "Resurrect_Greater_Ghost"
+        "spell": "Resurrect_Greater_Ghost",
+        "spellbook": "Arceuus"
       },
       {
         "title": "Bandos Setup",
@@ -1438,7 +1468,8 @@
           { "slot": 28, "item": "Divine_rune_pouch" }
         ],
         "runePouch": ["Fire_rune", "Blood_rune", "Cosmic_rune", "Death_rune"],
-        "spell": "Resurrect_Greater_Ghost"
+        "spell": "Resurrect_Greater_Ghost",
+        "spellbook": "Arceuus"
       },
       {
         "title": "Budget Setup",
@@ -1486,7 +1517,8 @@
           { "slot": 28, "item": "Divine_rune_pouch" }
         ],
         "runePouch": ["Fire_rune", "Blood_rune", "Cosmic_rune", "Death_rune"],
-        "spell": "Resurrect_Greater_Ghost"
+        "spell": "Resurrect_Greater_Ghost",
+        "spellbook": "Arceuus"
       }
     ]
   },
@@ -1539,7 +1571,8 @@
           { "slot": 28, "item": "Rune_pouch" }
         ],
         "runePouch": ["Blood_rune", "Death_rune", "Soul_rune"],
-        "spell": "Blood_Barrage"
+        "spell": "Blood_Barrage",
+        "spellbook": "Ancient"
       },
       {
         "title": "Crossbow 6:0",
@@ -1587,7 +1620,8 @@
           { "slot": 28, "item": "Rune_pouch" }
         ],
         "runePouch": ["Blood_rune", "Death_rune", "Soul_rune"],
-        "spell": "Blood_Barrage"
+        "spell": "Blood_Barrage",
+        "spellbook": "Ancient"
       },
       {
         "title": "Melee Tank",
@@ -1635,7 +1669,8 @@
           { "slot": 28, "item": "Rune_pouch" }
         ],
         "runePouch": ["Fire_rune", "Nature_rune", "Law_rune"],
-        "spell": "High_Level_Alchemy"
+        "spell": "High_Level_Alchemy",
+        "spellbook": "Standard"
       }
     ]
   },
@@ -1689,7 +1724,8 @@
           { "slot": 28, "item": "Divine_rune_pouch" }
         ],
         "runePouch": ["Water_rune", "Blood_rune", "Death_rune", "Soul_rune"],
-        "spell": "Ice_Barrage"
+        "spell": "Ice_Barrage",
+        "spellbook": "Ancient"
       },
       {
         "title": "Bowfa On Task",
@@ -1737,7 +1773,8 @@
           { "slot": 28, "item": "Divine_rune_pouch" }
         ],
         "runePouch": ["Water_rune", "Blood_rune", "Death_rune", "Soul_rune"],
-        "spell": "Ice_Barrage"
+        "spell": "Ice_Barrage",
+        "spellbook": "Ancient"
       }
     ]
   },
@@ -1791,7 +1828,8 @@
           { "slot": 28, "item": "Rune_pouch" }
         ],
         "runePouch": ["Air_rune", "Earth_rune", "Blood_rune"],
-        "spell": "Earth_Wave"
+        "spell": "Earth_Wave",
+        "spellbook": "Standard"
       },
       {
         "title": "Blood Healing",
@@ -1839,7 +1877,8 @@
           { "slot": 28, "item": "Rune_pouch" }
         ],
         "runePouch": ["Blood_rune", "Death_rune"],
-        "spell": "Blood_Blitz"
+        "spell": "Blood_Blitz",
+        "spellbook": "Ancient"
       }
     ]
   },
@@ -1893,7 +1932,8 @@
           { "slot": 28, "item": "Rune_pouch" }
         ],
         "runePouch": ["Blood_rune", "Death_rune", "Soul_rune"],
-        "spell": "Death_Charge"
+        "spell": "Death_Charge",
+        "spellbook": "Arceuus"
       },
       {
         "title": "Solo Melee",
@@ -1941,7 +1981,8 @@
           { "slot": 28, "item": "Rune_pouch" }
         ],
         "runePouch": ["Cosmic_rune", "Nature_rune", "Soul_rune"],
-        "spell": "Ward_of_Arceuus"
+        "spell": "Ward_of_Arceuus",
+        "spellbook": "Arceuus"
       }
     ]
   },
@@ -1994,7 +2035,8 @@
           { "slot": 28, "item": "Rune_pouch" }
         ],
         "runePouch": ["Fire_rune", "Nature_rune", "Mud_rune"],
-        "spell": "Bones_to_Peaches"
+        "spell": "Bones_to_Peaches",
+        "spellbook": "Standard"
       }
     ]
   },
@@ -2047,7 +2089,8 @@
           { "slot": 28, "item": "Rune_pouch" }
         ],
         "runePouch": ["Fire_rune", "Blood_rune", "Cosmic_rune"],
-        "spell": "Resurrect_Greater_Ghost"
+        "spell": "Resurrect_Greater_Ghost",
+        "spellbook": "Arceuus"
       },
       {
         "title": "Extra Defence",
@@ -2094,7 +2137,8 @@
           { "slot": 28, "item": "Rune_pouch" }
         ],
         "runePouch": ["Fire_rune", "Blood_rune", "Cosmic_rune"],
-        "spell": "Resurrect_Greater_Ghost"
+        "spell": "Resurrect_Greater_Ghost",
+        "spellbook": "Arceuus"
       }
     ]
   },
@@ -2148,7 +2192,8 @@
           { "slot": 28, "item": "Divine_rune_pouch" }
         ],
         "runePouch": ["Fire_rune", "Blood_rune", "Aether_rune", "Death_rune"],
-        "spell": "Resurrect_Greater_Ghost"
+        "spell": "Resurrect_Greater_Ghost",
+        "spellbook": "Arceuus"
       },
       {
         "title": "Minimum Setup",
@@ -2196,7 +2241,8 @@
           { "slot": 28, "item": "Divine_rune_pouch" }
         ],
         "runePouch": ["Fire_rune", "Blood_rune", "Aether_rune", "Death_rune"],
-        "spell": "Resurrect_Greater_Ghost"
+        "spell": "Resurrect_Greater_Ghost",
+        "spellbook": "Arceuus"
       }
     ]
   },{
@@ -2248,7 +2294,8 @@
           { "slot": 28, "item": "Divine_rune_pouch" }
         ],
         "runePouch": ["Fire_rune", "Blood_rune", "Aether_rune", "Death_rune"],
-        "spell": "Resurrect_Greater_Ghost"
+        "spell": "Resurrect_Greater_Ghost",
+        "spellbook": "Arceuus"
       },
       {
         "title": "Entry Level",
@@ -2295,7 +2342,8 @@
           { "slot": 28, "item": "Divine_rune_pouch" }
         ],
         "runePouch": ["Fire_rune", "Blood_rune", "Aether_rune", "Death_rune"],
-        "spell": "Resurrect_Greater_Ghost"
+        "spell": "Resurrect_Greater_Ghost",
+        "spellbook": "Arceuus"
       }
     ]
   },
@@ -2304,7 +2352,7 @@
     "title": "Royal Titans",
     "loadouts": [
       {
-        "title": "Recommended Setup",
+        "title": "Moons Gear",
         "equipment": [
           { "slot": "weapon", "item": "Dual_macuahuitl" },
           { "slot": "ammo", "item": "Atlatl_dart" },
@@ -2348,7 +2396,8 @@
           { "slot": 28, "item": "Rune_pouch" }
         ],
         "runePouch": ["Water_rune", "Fire_rune", "Blood_rune"],
-        "spell": "Water_Wave"
+        "spell": "Water_Wave",
+        "spellbook": "Standard"
       },
       {
         "title": "Budget Setup",
@@ -2395,7 +2444,8 @@
           { "slot": 28, "item": "Rune_pouch" }
         ],
         "runePouch": ["Water_rune", "Fire_rune", "Blood_rune"],
-        "spell": "Water_Wave"
+        "spell": "Water_Wave",
+        "spellbook": "Standard"
       }
     ]
   },
@@ -2448,7 +2498,8 @@
           { "slot": 28, "item": "Teleport_to_house_(tablet)" }
         ],
         "runePouch": ["Fire_rune", "Blood_rune", "Cosmic_rune"],
-        "spell": "Resurrect_Greater_Ghost"
+        "spell": "Resurrect_Greater_Ghost",
+        "spellbook": "Arceuus"
       }
     ]
   },
@@ -2501,10 +2552,11 @@
           { "slot": 28, "item": "Divine_rune_pouch" }
         ],
         "runePouch": ["Air_rune", "Blood_rune", "Death_rune"],
-        "spell": "Shadow_Barrage"
+        "spell": "Shadow_Barrage",
+        "spellbook": "Ancient"
       },
       {
-        "title": "Elite Void",
+        "title": "Void Crossbow",
         "equipment": [
           { "slot": "weapon", "item": "Armadyl_crossbow" },
           { "slot": "shield", "item": "Antler_guard" },
@@ -2549,7 +2601,8 @@
           { "slot": 28, "item": "Divine_rune_pouch" }
         ],
         "runePouch": ["Air_rune", "Blood_rune", "Death_rune"],
-        "spell": "Shadow_Barrage"
+        "spell": "Shadow_Barrage",
+        "spellbook": "Ancient"
       }
     ]
   },
@@ -2603,7 +2656,8 @@
           { "slot": 28, "item": "Divine_rune_pouch" }
         ],
         "runePouch": ["Water_rune", "Blood_rune", "Death_rune", "Soul_rune"],
-        "spell": "Ice_Barrage"
+        "spell": "Ice_Barrage",
+        "spellbook": "Ancient"
       },
       {
         "title": "Elemental Weakness",
@@ -2651,7 +2705,8 @@
           { "slot": 28, "item": "Divine_rune_pouch" }
         ],
         "runePouch": ["Air_rune", "Earth_rune", "Blood_rune"],
-        "spell": "Earth_Wave"
+        "spell": "Earth_Wave",
+        "spellbook": "Standard"
       }
     ]
   },
@@ -2705,7 +2760,8 @@
           { "slot": 28, "item": "Divine_rune_pouch" }
         ],
         "runePouch": ["Water_rune", "Blood_rune", "Death_rune"],
-        "spell": "Ice_Barrage"
+        "spell": "Ice_Barrage",
+        "spellbook": "Ancient"
       },
       {
         "title": "Melee",
@@ -2753,7 +2809,8 @@
           { "slot": 28, "item": "Divine_rune_pouch" }
         ],
         "runePouch": ["Fire_rune", "Blood_rune", "Cosmic_rune"],
-        "spell": "Resurrect_Greater_Ghost"
+        "spell": "Resurrect_Greater_Ghost",
+        "spellbook": "Arceuus"
       },
       {
         "title": "Ranger",
@@ -2801,7 +2858,8 @@
           { "slot": 28, "item": "Divine_rune_pouch" }
         ],
         "runePouch": ["Earth_rune", "Water_rune", "Astral_rune", "Death_rune"],
-        "spell": "Vengeance"
+        "spell": "Vengeance",
+        "spellbook": "Lunar"
       },
       {
         "title": "Freezer",
@@ -2849,7 +2907,8 @@
           { "slot": 28, "item": "Divine_rune_pouch" }
         ],
         "runePouch": ["Water_rune", "Blood_rune", "Death_rune", "Soul_rune"],
-        "spell": "Ice_Barrage"
+        "spell": "Ice_Barrage",
+        "spellbook": "Ancient"
       }
     ]
   },
@@ -2903,7 +2962,8 @@
           { "slot": 28, "item": "Rune_pouch" }
         ],
         "runePouch": ["Fire_rune", "Blood_rune", "Cosmic_rune"],
-        "spell": "Resurrect_Greater_Ghost"
+        "spell": "Resurrect_Greater_Ghost",
+        "spellbook": "Arceuus"
       },
       {
         "title": "Normal / Hybrid",
@@ -2951,7 +3011,8 @@
           { "slot": 28, "item": "Rune_pouch" }
         ],
         "runePouch": ["Fire_rune", "Blood_rune", "Cosmic_rune"],
-        "spell": "Resurrect_Greater_Ghost"
+        "spell": "Resurrect_Greater_Ghost",
+        "spellbook": "Arceuus"
       },
       {
         "title": "Expert / Bowfa",
@@ -2999,7 +3060,8 @@
           { "slot": 28, "item": "Divine_rune_pouch" }
         ],
         "runePouch": ["Fire_rune", "Blood_rune", "Cosmic_rune"],
-        "spell": "Resurrect_Greater_Ghost"
+        "spell": "Resurrect_Greater_Ghost",
+        "spellbook": "Arceuus"
       }
     ]
   },
@@ -3052,7 +3114,8 @@
           { "slot": 28, "item": "Rune_pouch" }
         ],
         "runePouch": ["Blood_rune", "Death_rune", "Soul_rune"],
-        "spell": "Death_Charge"
+        "spell": "Death_Charge",
+        "spellbook": "Arceuus"
       },
       {
         "title": "Melee / Mage",
@@ -3099,7 +3162,8 @@
           { "slot": 28, "item": "Rune_pouch" }
         ],
         "runePouch": ["Fire_rune", "Cosmic_rune", "Soul_rune"],
-        "spell": "Dark_Demonbane"
+        "spell": "Dark_Demonbane",
+        "spellbook": "Arceuus"
       }
     ]
   },
@@ -3108,7 +3172,7 @@
     "title": "Fight Cave",
     "loadouts": [
       {
-        "title": "Recommended Setup",
+        "title": "Sunlight Crossbow",
         "equipment": [
           { "slot": "weapon", "item": "Hunters'_sunlight_crossbow" },
           { "slot": "shield", "item": "Damaged_book_(Armadyl)" },
@@ -3153,7 +3217,8 @@
           { "slot": 28, "item": "Rune_pouch" }
         ],
         "runePouch": ["Blood_rune", "Chaos_rune", "Death_rune"],
-        "spell": "Blood_Burst"
+        "spell": "Blood_Burst",
+        "spellbook": "Ancient"
       },
       {
         "title": "Early Ironman",
@@ -3201,7 +3266,8 @@
           { "slot": 28, "item": "Rune_pouch" }
         ],
         "runePouch": ["Blood_rune", "Chaos_rune", "Death_rune"],
-        "spell": "Blood_Burst"
+        "spell": "Blood_Burst",
+        "spellbook": "Ancient"
       }
     ]
   },
@@ -3254,7 +3320,8 @@
           { "slot": 28, "item": "Divine_rune_pouch" }
         ],
         "runePouch": ["Fire_rune", "Blood_rune", "Aether_rune", "Death_rune"],
-        "spell": "Resurrect_Greater_Ghost"
+        "spell": "Resurrect_Greater_Ghost",
+        "spellbook": "Arceuus"
       },
       {
         "title": "Bandos Setup",
@@ -3301,7 +3368,8 @@
           { "slot": 28, "item": "Divine_rune_pouch" }
         ],
         "runePouch": ["Fire_rune", "Blood_rune", "Cosmic_rune", "Death_rune"],
-        "spell": "Resurrect_Greater_Ghost"
+        "spell": "Resurrect_Greater_Ghost",
+        "spellbook": "Arceuus"
       },
       {
         "title": "Budget Setup",
@@ -3349,7 +3417,8 @@
           { "slot": 28, "item": "Divine_rune_pouch" }
         ],
         "runePouch": ["Fire_rune", "Blood_rune", "Cosmic_rune", "Death_rune"],
-        "spell": "Resurrect_Greater_Ghost"
+        "spell": "Resurrect_Greater_Ghost",
+        "spellbook": "Arceuus"
       }
     ]
   },
@@ -3552,7 +3621,8 @@
           { "slot": 28, "item": "Divine_rune_pouch" }
         ],
         "runePouch": ["Fire_rune", "Blood_rune", "Cosmic_rune", "Soul_rune"],
-        "spell": "Dark_Demonbane"
+        "spell": "Dark_Demonbane",
+        "spellbook": "Arceuus"
       },
       {
         "title": "Melee",
@@ -3600,7 +3670,8 @@
           { "slot": 28, "item": "Divine_rune_pouch" }
         ],
         "runePouch": ["Fire_rune", "Blood_rune", "Cosmic_rune", "Soul_rune"],
-        "spell": "Dark_Demonbane"
+        "spell": "Dark_Demonbane",
+        "spellbook": "Arceuus"
       }
     ]
   },
@@ -3654,7 +3725,8 @@
           { "slot": 28, "item": "Rune_pouch" }
         ],
         "runePouch": ["Air_rune", "Fire_rune", "Blood_rune"],
-        "spell": "Fire_Wave"
+        "spell": "Fire_Wave",
+        "spellbook": "Standard"
       },
       {
         "title": "Hybrid Setup",
@@ -3702,7 +3774,8 @@
           { "slot": 28, "item": "Rune_pouch" }
         ],
         "runePouch": ["Air_rune", "Fire_rune", "Blood_rune"],
-        "spell": "Fire_Wave"
+        "spell": "Fire_Wave",
+        "spellbook": "Standard"
       },
       {
         "title": "Ranged Only",
@@ -3749,7 +3822,8 @@
           { "slot": 28, "item": "Rune_pouch" }
         ],
         "runePouch": ["Astral_rune", "Cosmic_rune", "Law_rune"],
-        "spell": "Cure_Me"
+        "spell": "Cure_Me",
+        "spellbook": "Lunar"
       }
     ]
   }
