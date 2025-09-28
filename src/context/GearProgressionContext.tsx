@@ -230,7 +230,7 @@ function useGearProgressionTier(
         const item = getItemById(id);
         if (item) {
           equipment[EQUIPMENT_OVERALL][item.slot] = item;
-          item.skillRequirements?.forEach(req => {
+          item.requirements?.forEach(req => {
             skillRequirements[req.skill] = Math.max(
               skillRequirements[req.skill],
               req.level,
@@ -246,7 +246,7 @@ function useGearProgressionTier(
           equipment[subitem.subcategory][item.slot] = item;
           if (subitem.subcategory === subcategoryId) {
             equipment[EQUIPMENT_OVERALL][item.slot] = item;
-            item.skillRequirements?.forEach(req => {
+            item.requirements?.forEach(req => {
               skillRequirements[req.skill] = Math.max(
                 skillRequirements[req.skill],
                 req.level,
