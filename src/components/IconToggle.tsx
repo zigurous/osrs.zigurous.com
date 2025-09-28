@@ -1,4 +1,3 @@
-import { Tooltip } from '@zigurous/forge-react';
 import classNames from 'classnames';
 import React from 'react';
 import { useTooltip } from './TooltipWrapper';
@@ -24,8 +23,7 @@ export default function IconToggle({
   onChange,
   size = 'md',
 }: IconToggleProps) {
-  const { ref, hovering, onTooltipEnter, onTooltipLeave } =
-    useTooltip<HTMLButtonElement>();
+  const { ref, Tooltip } = useTooltip<HTMLButtonElement>();
   return (
     <button
       className={classNames(
@@ -36,8 +34,6 @@ export default function IconToggle({
         className,
       )}
       onClick={() => onChange(!on)}
-      onMouseEnter={onTooltipEnter}
-      onMouseLeave={onTooltipLeave}
       ref={ref}
     >
       <img
@@ -47,9 +43,7 @@ export default function IconToggle({
         height={iconSize}
         src={`https://oldschool.runescape.wiki/images/${icon}.png`}
       />
-      {hovering && !hideTooltip && (
-        <Tooltip element={ref.current}>{label}</Tooltip>
-      )}
+      {!hideTooltip && <Tooltip>{label}</Tooltip>}
     </button>
   );
 }

@@ -1,11 +1,10 @@
 import '../styles/item-frame.css';
-import { Tooltip } from '@zigurous/forge-react';
 import classNames from 'classnames';
 import React from 'react';
-import { useItemsContext } from '../context';
-import { useTooltip } from './TooltipWrapper';
 import WikiIcon from './WikiIcon';
 import WikiLink from './WikiLink';
+import { useTooltip } from './TooltipWrapper';
+import { useItemsContext } from '../context';
 import { formatNameFromId, toTitleCase } from '../utils';
 import type { FoodData, ItemData } from '../types';
 
@@ -26,8 +25,7 @@ export default function ItemFrame({
   item,
   size,
 }: ItemFrameProps) {
-  const { ref, hovering, onTooltipEnter, onTooltipLeave } =
-    useTooltip<HTMLAnchorElement>();
+  const { ref, Tooltip } = useTooltip<HTMLAnchorElement>();
 
   if (!item)
     return <ItemFrameEmpty border={border} className={className} size={size} />;
@@ -67,8 +65,6 @@ export default function ItemFrame({
           },
           className,
         )}
-        onMouseEnter={onTooltipEnter}
-        onMouseLeave={onTooltipLeave}
         wikiId={item.id}
         ref={ref}
       >
@@ -82,32 +78,30 @@ export default function ItemFrame({
             *
           </span>
         )}
-        {hovering && (
-          <Tooltip element={ref.current}>
-            {item.tooltip || (
-              <>
-                {label}
-                {Boolean((item as FoodData).healing) && (
-                  <>
-                    <br />
-                    <span
-                      aria-label={`Heals ${(item as FoodData).healing}`}
-                      className="inline-flex justify-center align-center"
-                    >
-                      {(item as FoodData).healing}
-                      <WikiIcon
-                        aria-hidden
-                        className="ml-xxxs"
-                        icon="Hitpoints_icon"
-                        size={12}
-                      />
-                    </span>
-                  </>
-                )}
-              </>
-            )}
-          </Tooltip>
-        )}
+        <Tooltip>
+          {item.tooltip || (
+            <>
+              {label}
+              {Boolean((item as FoodData).healing) && (
+                <>
+                  <br />
+                  <span
+                    aria-label={`Heals ${(item as FoodData).healing}`}
+                    className="inline-flex justify-center align-center"
+                  >
+                    {(item as FoodData).healing}
+                    <WikiIcon
+                      aria-hidden
+                      className="ml-xxxs"
+                      icon="Hitpoints_icon"
+                      size={12}
+                    />
+                  </span>
+                </>
+              )}
+            </>
+          )}
+        </Tooltip>
       </WikiLink>
       {item.transmutations && <ItemFrameSubitems ids={item.transmutations} />}
     </ParentComponent>

@@ -1,5 +1,5 @@
 import { Tooltip } from '@zigurous/forge-react';
-import React, { useCallback, useEffect, useRef, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 
 type TooltipWrapperProps = {
   tooltip: string | React.ReactNode;
@@ -10,33 +10,40 @@ export default function TooltipWrapper({
   tooltip,
   ...rest
 }: TooltipWrapperProps) {
-  const { ref, hovering, onTooltipEnter, onTooltipLeave } =
-    useTooltip<HTMLDivElement>();
+  const { ref, Tooltip } = useTooltip<HTMLDivElement>();
   return (
-    <div
-      {...rest}
-      onMouseEnter={onTooltipEnter}
-      onMouseLeave={onTooltipLeave}
-      ref={ref}
-    >
+    <div {...rest} ref={ref}>
       {children}
-      {hovering && <Tooltip element={ref.current}>{tooltip}</Tooltip>}
+      <Tooltip>{tooltip}</Tooltip>
     </div>
   );
 }
 
-export function useTooltip<T>() {
+export function useTooltip<T extends HTMLElement>() {
   const ref = useRef<T>(null);
   const [hovering, setHovering] = useState(false);
 
-  const onTooltipEnter = useCallback(() => setHovering(true), []);
-  const onTooltipLeave = useCallback(() => setHovering(false), []);
-
   useEffect(() => {
-    if (!ref.current) {
+    if (ref.current) {
+      const onTooltipEnter = () => setHovering(true);
+      const onTooltipLeave = () => setHovering(false);
+      ref.current.addEventListener('mouseenter', onTooltipEnter);
+      ref.current.addEventListener('mouseleave', onTooltipLeave);
+      return () => {
+        ref.current?.removeEventListener('mouseenter', onTooltipEnter);
+        ref.current?.removeEventListener('mouseleave', onTooltipLeave);
+      };
+    } else {
       setHovering(false);
     }
   }, [ref.current]);
 
-  return { hovering, ref, onTooltipEnter, onTooltipLeave };
+  return {
+    ref,
+    Tooltip: ({ children }: { children: React.ReactNode }) => (
+      <React.Fragment>
+        {hovering && <Tooltip element={ref.current}>{children}</Tooltip>}
+      </React.Fragment>
+    ),
+  };
 }
