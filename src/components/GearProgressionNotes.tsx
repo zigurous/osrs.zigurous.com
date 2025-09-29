@@ -36,7 +36,7 @@ function parseRichText(str: string) {
   let copy = str;
   const jsx: React.ReactNode[] = [str];
   const regex = new RegExp('(?:<Link="([^"]+)">([^<]+)<\/Link>)', 'g');
-  str.matchAll(regex).forEach(match => {
+  [...str.matchAll(regex)].forEach(match => {
     const split = copy.split(match[0]);
     jsx[jsx.length - 1] = (
       <React.Fragment key={split[0]}>{split[0]}</React.Fragment>

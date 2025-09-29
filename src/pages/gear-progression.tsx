@@ -33,12 +33,12 @@ export default function GearProgression({}: PageProps) {
   useEffect(() => {
     if (ref.current && observer) {
       observer.observe(ref.current);
+      return () => {
+        if (ref.current && observer) {
+          observer.unobserve(ref.current);
+        }
+      };
     }
-    return () => {
-      if (ref.current && observer) {
-        observer.unobserve(ref.current);
-      }
-    };
   }, [ref]);
 
   return (
