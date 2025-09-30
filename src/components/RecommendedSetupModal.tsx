@@ -1,6 +1,6 @@
 import '../styles/recommended-setup.css';
 import { Button, clamp, nativeKeyboardEventHandler as keyEventHandler, Overlay, ReactPortal, Stack, Text } from '@zigurous/forge-react'; // prettier-ignore
-import React, { useCallback, useEffect, useRef, useState } from 'react';
+import React, { useCallback, useEffect, useState } from 'react';
 import EquipmentInventory from './EquipmentInventory';
 import ItemInventory from './ItemInventory';
 import TooltipWrapper from './TooltipWrapper';
@@ -9,22 +9,18 @@ import WikiLink from './WikiLink';
 import { createExport } from '../utils';
 import type { EquippedItemIds, InventoryIds, RecommendedSetup } from '../types'; // prettier-ignore
 
-const emptySetup: RecommendedSetup = {
-  id: 'empty',
-  title: '',
-  loadouts: [],
-};
-
 interface RecommendedSetupModalProps {
-  onRequestClose?: () => void;
+  onRequestClose: () => void;
+  open: boolean;
   scale?: number;
-  setup?: RecommendedSetup;
+  setup: RecommendedSetup;
 }
 
 export default function RecommendedSetupModal({
   onRequestClose,
+  open = false,
   scale,
-  setup = emptySetup,
+  setup,
 }: RecommendedSetupModalProps) {
   const [loadoutIndex, setLoadoutIndex] = useState(0);
   const currentLoadout =
@@ -46,7 +42,7 @@ export default function RecommendedSetupModal({
 
   useEffect(() => {
     if (typeof window === 'undefined') return;
-    if (setup.id === emptySetup.id) return;
+    if (setup.loadouts.length <= 1) return;
     const prev = keyEventHandler('ArrowLeft', previousLoadout, true);
     const next = keyEventHandler('ArrowRight', nextLoadout, true);
     window.addEventListener('keydown', prev);
@@ -55,7 +51,7 @@ export default function RecommendedSetupModal({
       window.removeEventListener('keydown', prev);
       window.removeEventListener('keydown', next);
     };
-  }, [setup.id, previousLoadout, nextLoadout]);
+  }, [setup.loadouts.length, previousLoadout, nextLoadout]);
 
   return (
     <Overlay
@@ -65,7 +61,7 @@ export default function RecommendedSetupModal({
       dialogZIndex="modal"
       id="recommended-setup"
       onRequestClose={onRequestClose}
-      open={setup.loadouts.length > 0}
+      open={open}
     >
       <div
         className="modal__content"

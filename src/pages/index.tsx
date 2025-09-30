@@ -3,7 +3,7 @@ import { useEffect } from 'react';
 
 export default function IndexPage() {
   useEffect(() => {
-    navigate('/gear-progression', { replace: true });
+    navigate('/grid-master', { replace: true });
   }, []);
   return null;
 }

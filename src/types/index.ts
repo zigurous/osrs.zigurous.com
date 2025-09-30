@@ -2,6 +2,7 @@ export * from './activity';
 export * from './common';
 export * from './equipment';
 export * from './gear-progression';
+export * from './grid-master';
 export * from './inventory';
 export * from './item';
 export * from './location';

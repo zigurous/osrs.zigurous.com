@@ -5,7 +5,8 @@ import type { RecommendedSetup } from '../types';
 
 interface RecommendedSetupsContextData {
   setups: RecommendedSetup[];
-  currentSetup: RecommendedSetup | undefined;
+  currentSetup: RecommendedSetup | null;
+  previousSetup: RecommendedSetup | null;
   getSetupById: (id: string) => RecommendedSetup | undefined;
   viewSetup: (id: string) => void;
   closeSetup: () => void;
@@ -13,7 +14,8 @@ interface RecommendedSetupsContextData {
 
 const defaultData: RecommendedSetupsContextData = {
   setups: [],
-  currentSetup: undefined,
+  currentSetup: null,
+  previousSetup: null,
   getSetupById: () => undefined,
   viewSetup: () => undefined,
   closeSetup: () => undefined,
@@ -32,9 +34,10 @@ export function RecommendedSetupsContextProvider({
 }: React.PropsWithChildren) {
   const data = useStaticQuery<RecommendedSetupsQueryData>(dataQuery);
   const mounted = useIsMounted();
-  const [currentSetup, setCurrentSetup] = useState<
-    RecommendedSetup | undefined
-  >();
+  const [setup, setSetup] = useState<{
+    current: RecommendedSetup | null;
+    previous: RecommendedSetup | null;
+  }>({ current: null, previous: null });
 
   const getSetupById = useCallback(
     (id: string) => data.setups.nodes.find(setup => setup.id === id),
@@ -42,32 +45,40 @@ export function RecommendedSetupsContextProvider({
   );
 
   const viewSetup = useCallback(
-    (id: string) => setCurrentSetup(getSetupById(id)),
+    (id: string) =>
+      setSetup(state => ({
+        current: getSetupById(id) || null,
+        previous: state.current,
+      })),
     [getSetupById],
   );
 
-  const closeSetup = useCallback(() => setCurrentSetup(undefined), []);
+  const closeSetup = useCallback(
+    () => setSetup(state => ({ current: null, previous: state.current })),
+    [],
+  );
 
   useEffect(() => {
     if (mounted) {
       const query = location.search.replace('?setup=', '');
-      setCurrentSetup(getSetupById(query));
+      setSetup({ current: getSetupById(query) || null, previous: null });
     }
   }, [mounted]);
 
   useEffect(() => {
-    if (currentSetup) {
-      navigate(`?setup=${currentSetup.id}`, { replace: true });
+    if (setup.current) {
+      navigate(`?setup=${setup.current.id}`, { replace: true });
     } else if (mounted) {
       navigate(`/gear-progression`, { replace: true });
     }
-  }, [currentSetup]);
+  }, [setup.current]);
 
   return (
     <RecommendedSetupsContext.Provider
       value={{
         setups: data.setups.nodes,
-        currentSetup,
+        currentSetup: setup.current,
+        previousSetup: setup.previous,
         getSetupById,
         viewSetup,
         closeSetup,

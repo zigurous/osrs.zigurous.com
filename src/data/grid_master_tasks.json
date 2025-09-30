@@ -1,0 +1,39 @@
+[
+  {
+    "id": "Gnomeball",
+    "icon": "Gnomeball"
+  },
+  {
+    "id": "Cabbage",
+    "icon": "Cabbage"
+  },
+  {
+    "id": "Steel_pickaxe",
+    "icon": "Steel_pickaxe"
+  },
+  {
+    "id": "Yama",
+    "icon": "Oathplate_chest"
+  },
+  {
+    "id": "Tombs_of_Amascut",
+    "icon": "Tumeken's_guardian"
+  },
+  {
+    "id": "Stronghold_of_Security",
+    "icon": "Fancy_boots"
+  },
+  {
+    "id": "TzHaar_Fight_Cave",
+    "icon": "Fire_cape",
+    "title": "Fight Cave"
+  },
+  {
+    "id": "Awakener's_orb",
+    "icon": "Awakener's_orb"
+  },
+  {
+    "id": "Scurrius",
+    "icon": "Scurry"
+  }
+]

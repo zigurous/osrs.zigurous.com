@@ -1,28 +1,78 @@
+import classNames from 'classnames';
 import { type HeadFC, type PageProps } from 'gatsby';
-import React from 'react';
-import { FooterBar, HeaderBar, RootLayout } from '../components'; // prettier-ignore
+import React, { useEffect, useRef, useState } from 'react';
+import { FooterBar, GridMasterBoard, GridMasterTaskModal, HeaderBar, RootLayout } from '../components'; // prettier-ignore
+import { GridMasterContextProvider, useGridMasterContext } from '../context';
+import type { GridMasterTask } from '../types';
+import '../styles/grid-master.css';
 
 export const Head: HeadFC = () => <title>OSRS Grid Master</title>;
 
-export default function GridMaster({ location }: PageProps) {
+export default function GridMaster({}: PageProps) {
   return (
-    <ContextProviders location={location}>
-      <RootLayout id="grid-master">
-        <div className="flex flex-col w-full h-full">
-          <HeaderBar title="Grid Master" />
-          <div className="w-full h-full" />
-          <FooterBar />
-        </div>
-      </RootLayout>
-    </ContextProviders>
+    <GridMasterContextProvider>
+      <GridMasterPageContent />
+    </GridMasterContextProvider>
   );
 }
 
-interface ContextProvidersProps {
-  children: React.ReactNode;
-  location: Location;
+function GridMasterPageContent() {
+  const ref = useRef<HTMLDivElement>(null);
+  const context = useGridMasterContext();
+  const [scale, setScale] = useState<number | undefined>();
+
+  const [observer] = useState(() =>
+    typeof window !== 'undefined'
+      ? new ResizeObserver((entries: ResizeObserverEntry[]) => {
+          setScale(
+            Math.min(
+              entries[0].contentRect.width / 512,
+              entries[0].contentRect.height / 512,
+              1.25,
+            ),
+          );
+        })
+      : null,
+  );
+
+  useEffect(() => {
+    if (ref.current && observer) {
+      observer.observe(ref.current);
+      return () => {
+        if (ref.current && observer) {
+          observer.unobserve(ref.current);
+        }
+      };
+    }
+  }, [ref]);
+
+  return (
+    <RootLayout id="grid-master">
+      <div className="flex flex-col w-full h-full">
+        <HeaderBar title="Grid Master" />
+        <div className="grid-master" ref={ref}>
+          <div
+            className={classNames('flex flex-col align-center', {
+              invisible: scale === undefined,
+            })}
+            style={{ transform: `scale(${scale || 1})` }}
+          >
+            <GridMasterBoard />
+          </div>
+        </div>
+        <FooterBar />
+      </div>
+      <GridMasterTaskModal
+        onRequestClose={context.closeTask}
+        open={Boolean(context.selectedTask)}
+        scale={scale}
+        task={context.selectedTask || context.previousTask || emptyTask}
+      />
+    </RootLayout>
+  );
 }
 
-function ContextProviders({ children, location }: ContextProvidersProps) {
-  return children;
-}
+const emptyTask: GridMasterTask = {
+  id: 'Unknown',
+  icon: 'Lumbridge_guide_icon',
+};
