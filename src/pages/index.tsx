@@ -3,7 +3,7 @@ import { useEffect } from 'react';
 
 export default function IndexPage() {
   useEffect(() => {
-    navigate('/grid-master', { replace: true });
+    navigate('/region-analyzer', { replace: true });
   }, []);
   return null;
 }
