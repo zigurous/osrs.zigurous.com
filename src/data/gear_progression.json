@@ -2228,10 +2228,60 @@
   },
   {
     "category": "ranged",
-    "tiers": []
+    "tiers": [
+      {
+        "title": "Coming Soon",
+        "items": [
+          "Training_bow",
+          "Training_arrows",
+          "Ironman_helm",
+          "Ironman_platebody",
+          "Ironman_platelegs"
+        ],
+        "timeline": [
+          {
+            "id": "Adam",
+            "icon": "NPC_Contact",
+            "subtitle": "Ironman tutor",
+            "items": ["Ironman_helm", "Ironman_platebody", "Ironman_platelegs"]
+          },
+          {
+            "id": "Ranged_combat_tutor",
+            "icon": "NPC_Contact",
+            "title": "Nemarti",
+            "subtitle": "Ranged combat tutor",
+            "items": ["Training_bow", "Training_arrows"]
+          }
+        ]
+      }
+    ]
   },
   {
     "category": "magic",
-    "tiers": []
+    "tiers": [
+      {
+        "title": "Coming Soon",
+        "items": [
+          "Ironman_helm",
+          "Ironman_platebody",
+          "Ironman_platelegs"
+        ],
+        "timeline": [
+          {
+            "id": "Adam",
+            "icon": "NPC_Contact",
+            "subtitle": "Ironman tutor",
+            "items": ["Ironman_helm", "Ironman_platebody", "Ironman_platelegs"]
+          },
+          {
+            "id": "Magic_combat_tutor",
+            "icon": "NPC_Contact",
+            "title": "Mikasi",
+            "subtitle": "Magic combat tutor",
+            "items": ["Air_rune", "Mind_rune"]
+          }
+        ]
+      }
+    ]
   }
 ]

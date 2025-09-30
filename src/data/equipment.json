@@ -3976,6 +3976,16 @@
     ]
   },
   {
+    "id": "Training_bow",
+    "slot": "weapon",
+    "tags": ["2h"],
+    "regions": ["misthalin"],
+    "ammo": {
+      "id": "Training_arrows",
+      "icon": "Training_arrows_5"
+    }
+  },
+  {
     "id": "Training_shield",
     "slot": "shield",
     "regions": ["misthalin"]

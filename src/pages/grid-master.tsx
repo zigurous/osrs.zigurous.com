@@ -57,7 +57,8 @@ function GridMasterPageContent() {
             })}
             style={{ transform: `scale(${scale || 1})` }}
           >
-            <GridMasterBoard />
+            <h1 className="mb-2xl">Coming Soon</h1>
+            {/* <GridMasterBoard /> */}
           </div>
         </div>
         <FooterBar />
