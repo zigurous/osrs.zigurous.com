@@ -1,0 +1,363 @@
+[
+  {
+    "col": "R",
+    "row": "1",
+    "type": "reward"
+  },
+  {
+    "col": "A",
+    "row": "1",
+    "type": "hard"
+  },
+  {
+    "col": "B",
+    "row": "1",
+    "type": "hard"
+  },
+  {
+    "col": "C",
+    "row": "1",
+    "type": "medium"
+  },
+  {
+    "col": "D",
+    "row": "1",
+    "type": "easy",
+    "task": "Kill an Ogress.",
+    "reward": "Combatant",
+    "rewardIcon": "Combat_icon"
+  },
+  {
+    "col": "E",
+    "row": "1",
+    "type": "medium",
+    "task": "Defeat Jal-Zek within the Inferno.",
+    "reward": "Slayer Master"
+  },
+  {
+    "col": "F",
+    "row": "1",
+    "type": "hard"
+  },
+  {
+    "col": "G",
+    "row": "1",
+    "type": "hard"
+  },
+  {
+    "col": "R",
+    "row": "2",
+    "type": "reward"
+  },
+  {
+    "col": "A",
+    "row": "2",
+    "type": "hard"
+  },
+  {
+    "col": "B",
+    "row": "2",
+    "type": "medium"
+  },
+  {
+    "col": "C",
+    "row": "2",
+    "type": "medium"
+  },
+  {
+    "col": "D",
+    "row": "2",
+    "type": "easy",
+    "icon": "Stats_icon",
+    "task": "Unknown"
+  },
+  {
+    "col": "E",
+    "row": "2",
+    "type": "medium",
+    "icon": "Shark",
+    "task": "UNKNOWN – Shark",
+    "reward": "Unknown"
+  },
+  {
+    "col": "F",
+    "row": "2",
+    "type": "medium"
+  },
+  {
+    "col": "G",
+    "row": "2",
+    "type": "hard",
+    "task": "Complete the Inferno in 30 minutes or less.",
+    "reward": "Guardian"
+  },
+  {
+    "col": "R",
+    "row": "3",
+    "type": "reward"
+  },
+  {
+    "col": "A",
+    "row": "3",
+    "type": "medium",
+    "icon": "Valuables_5",
+    "task": "UNKNOWN – Stealing Valuables"
+  },
+  {
+    "col": "B",
+    "row": "3",
+    "type": "medium"
+  },
+  {
+    "col": "C",
+    "row": "3",
+    "type": "easy"
+  },
+  {
+    "col": "D",
+    "row": "3",
+    "type": "easy",
+    "icon": "Maple_logs",
+    "task": "UNKNOWN – Maple logs"
+  },
+  {
+    "col": "E",
+    "row": "3",
+    "type": "easy"
+  },
+  {
+    "col": "F",
+    "row": "3",
+    "type": "medium"
+  },
+  {
+    "col": "G",
+    "row": "3",
+    "type": "medium"
+  },
+  {
+    "col": "R",
+    "row": "4",
+    "type": "reward"
+  },
+  {
+    "col": "A",
+    "row": "4",
+    "type": "easy",
+    "icon": "Coins_10000",
+    "task": "Gain over 30,000 coins from one Alchemy spell.",
+    "reward": "Production Prodigy"
+  },
+  {
+    "col": "B",
+    "row": "4",
+    "type": "easy"
+  },
+  {
+    "col": "C",
+    "row": "4",
+    "type": "easy"
+  },
+  {
+    "col": "D",
+    "row": "4",
+    "type": "beginner",
+    "task": "Complete the Grid Master tutorial.",
+    "reward": "A choice from one of the following:\nPower Miner | Lumberjack | Animal Wrangler"
+  },
+  {
+    "col": "E",
+    "row": "4",
+    "type": "easy"
+  },
+  {
+    "col": "F",
+    "row": "4",
+    "type": "easy"
+  },
+  {
+    "col": "G",
+    "row": "4",
+    "type": "easy"
+  },
+  {
+    "col": "R",
+    "row": "5",
+    "type": "reward"
+  },
+  {
+    "col": "A",
+    "row": "5",
+    "type": "medium"
+  },
+  {
+    "col": "B",
+    "row": "5",
+    "type": "medium"
+  },
+  {
+    "col": "C",
+    "row": "5",
+    "type": "easy",
+    "icon": "Tempoross_icon_(mobile)",
+    "task": "UNKNOWN – Tempoross"
+  },
+  {
+    "col": "D",
+    "row": "5",
+    "type": "easy",
+    "icon": "Gold_ore",
+    "task": "UNKNOWN – Gold Ore"
+  },
+  {
+    "col": "E",
+    "row": "5",
+    "type": "easy",
+    "task": "UNKNOWN – Gemstone Crab"
+  },
+  {
+    "col": "F",
+    "row": "5",
+    "type": "medium"
+  },
+  {
+    "col": "G",
+    "row": "5",
+    "type": "medium"
+  },
+  {
+    "col": "R",
+    "row": "6",
+    "type": "reward"
+  },
+  {
+    "col": "A",
+    "row": "6",
+    "type": "hard",
+    "icon": "Ruinous_Powers",
+    "task": "UNKNOWN – Ruinous Powers"
+  },
+  {
+    "col": "B",
+    "row": "6",
+    "type": "medium"
+  },
+  {
+    "col": "C",
+    "row": "6",
+    "type": "medium"
+  },
+  {
+    "col": "D",
+    "row": "6",
+    "type": "easy",
+    "icon": "Bryophyta_icon_(mobile)",
+    "task": "UNKNOWN – Bryophyta"
+  },
+  {
+    "col": "E",
+    "row": "6",
+    "type": "medium"
+  },
+  {
+    "col": "F",
+    "row": "6",
+    "type": "medium"
+  },
+  {
+    "col": "G",
+    "row": "6",
+    "type": "hard"
+  },
+  {
+    "col": "R",
+    "row": "7",
+    "type": "reward"
+  },
+  {
+    "col": "A",
+    "row": "7",
+    "type": "hard",
+    "icon": "Tombs_of_Amascut_-_Normal_Mode_icon",
+    "task": "Obtain a rare unique from Tombs of Amascut.",
+    "reward": "Mega Rare Scroll",
+    "rewardIcon": "Raids_megarare_voucher_(Raging_Echoes_League)"
+  },
+  {
+    "col": "B",
+    "row": "7",
+    "type": "hard",
+    "icon": "Demonic_throne_icon",
+    "task": "UNCONFIRMED\nBuild a demonic throne in your PoH."
+  },
+  {
+    "col": "C",
+    "row": "7",
+    "type": "medium",
+    "icon": "Max_cape",
+    "task": "UNKNOWN – Max Cape",
+    "reward": "Unknown"
+  },
+  {
+    "col": "D",
+    "row": "7",
+    "type": "easy",
+    "task": "Defeat the lesser demon in the Wizards' Tower.",
+    "reward": "Minimum Potential"
+  },
+  {
+    "col": "E",
+    "row": "7",
+    "type": "medium"
+  },
+  {
+    "col": "F",
+    "row": "7",
+    "type": "hard"
+  },
+  {
+    "col": "G",
+    "row": "7",
+    "type": "hard"
+  },
+  {
+    "col": "R",
+    "row": "8",
+    "type": "empty"
+  },
+  {
+    "col": "A",
+    "row": "8",
+    "type": "reward"
+  },
+  {
+    "col": "B",
+    "row": "8",
+    "type": "reward"
+  },
+  {
+    "col": "C",
+    "row": "8",
+    "type": "reward"
+  },
+  {
+    "col": "D",
+    "row": "8",
+    "type": "reward"
+  },
+  {
+    "col": "E",
+    "row": "8",
+    "type": "reward"
+  },
+  {
+    "col": "F",
+    "row": "8",
+    "type": "reward"
+  },
+  {
+    "col": "G",
+    "row": "8",
+    "type": "reward"
+  }
+]

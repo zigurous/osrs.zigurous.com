@@ -1,44 +1,59 @@
-import React from 'react';
-import GridMasterRewardCell from './GridMasterRewardCell';
-import GridMasterTaskCell from './GridMasterTaskCell';
+import { Button } from '@zigurous/forge-react';
+import classNames from 'classnames';
+import React, { useState } from 'react';
+import GridMasterTileImage from './GridMasterTileImage';
+import TooltipWrapper from './TooltipWrapper';
 import { useGridMasterContext } from '../context';
-import type { GridMasterCellType } from '../types';
-
-// prettier-ignore
-const board = [
-  'reward=Production_Prodigy', 'task=Gnomeball', 'task=Cabbage', 'task=Steel_pickaxe', 'task=Yama', 'task=Tombs_of_Amascut', 'task=Stronghold_of_Security', 'task=TzHaar_Fight_Cave',
-  'reward', "task=Awakener's_orb", 'task=', 'task', 'task', 'task', 'task', 'task',
-  'reward', 'task', 'task', 'task', 'task', 'task', 'task', 'task',
-  'reward', 'task', 'task', 'task', 'task', 'task', 'task', 'task',
-  'reward', 'task', 'task', 'task', 'task', 'task', 'task', 'task',
-  'reward', 'task', 'task', 'task', 'task', 'task', 'task', 'task',
-  'reward', 'task', 'task', 'task', 'task', 'task', 'task', 'task',
-  'nothing', 'reward', 'reward', 'reward', 'reward', 'reward', 'reward', 'reward',
-];
 
 export default function GridMasterBoard() {
-  const context = useGridMasterContext();
+  const { tiles } = useGridMasterContext();
+  const [flipped, setFlipped] = useState(false);
   return (
     <div className="grid-master__board">
-      {board.map((id, index) => {
-        const type = getTypeForId(id);
-        const key = `${index}-${id}`;
-        // prettier-ignore
-        switch (type) {
-          case 'task':
-            return <GridMasterTaskCell data={context.getTaskById(id)} key={key} />;
-          case 'reward':
-            return <GridMasterRewardCell data={context.getRewardById(id)} key={key} />;
-          default:
-            return <div className="grid-master__cell" key={key} />;
+      {tiles.map(tile => {
+        const id = `${tile.col}${tile.row}`;
+        const flip = flipped && tile.type !== 'reward';
+        if (tile.type === 'empty') {
+          return (
+            <Button
+              className="w-full h-full"
+              icon="flip"
+              iconAlignment="only"
+              iconProps={{ size: 'lg' }}
+              onClick={() => setFlipped(state => !state)}
+              size="lg"
+              variant="text"
+            >
+              Flip
+            </Button>
+          );
         }
+        return (
+          <TooltipWrapper
+            className={classNames('grid-master__cell', {
+              'grid-master__cell--flipped': flip,
+            })}
+            id={id}
+            key={id}
+            tooltip={(flip ? tile.reward : tile.task) || 'Unknown'}
+          >
+            <div
+              className={classNames('grid-master__tile', {
+                [`grid-master__tile--${tile.type}`]: tile.type,
+                'grid-master__tile--unknown': flip
+                  ? !Boolean(tile.reward)
+                  : !Boolean(tile.task),
+              })}
+            >
+              <GridMasterTileImage
+                cell={id}
+                icon={flip ? tile.rewardIcon : tile.icon}
+                type={flip ? 'reward' : 'task'}
+              />
+            </div>
+          </TooltipWrapper>
+        );
       })}
     </div>
   );
-}
-
-function getTypeForId(id: string): GridMasterCellType {
-  if (id.includes('task')) return 'task';
-  if (id.includes('reward')) return 'reward';
-  return 'empty';
 }

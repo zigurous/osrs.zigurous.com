@@ -92,15 +92,14 @@ export const createSchemaCustomization = ({
       subtitle: String
       setupId: String
     }
-    type GridMasterTasksJson implements Node @dontInfer {
-      jsonId: String!
-      icon: String!
-      title: String
-    }
-    type GridMasterRewardsJson implements Node @dontInfer {
-      jsonId: String!
-      icon: String!
-      title: String
+    type GridMasterTilesJson implements Node @dontInfer {
+      col: String!
+      row: String!
+      type: String!
+      icon: String
+      task: String
+      reward: String
+      rewardIcon: String
     }
     type GuildsJson implements Node @dontInfer {
       jsonId: String!

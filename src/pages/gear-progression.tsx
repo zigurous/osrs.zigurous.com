@@ -9,7 +9,7 @@ import GearProgressionSkills from '../components/GearProgressionSkills';
 import GearProgressionTimeline from '../components/GearProgressionTimeline';
 import { EquipmentContextProvider, GearProgressionContextProvider, ItemsContextProvider, QuestsContextProvider, RecommendedSetupsContextProvider, useGearProgressionContext, useRecommendedSetupsContext } from '../context'; // prettier-ignore
 import { categories } from '../context/GearProgressionContext';
-import { useAspectFitElement } from '../utils';
+import { useAspectFitScaling } from '../utils';
 import type { RecommendedSetup } from '../types';
 import '../styles/gear-progression.css';
 
@@ -43,7 +43,7 @@ function GearProgressionPageContent() {
   const context = useGearProgressionContext();
   const { currentSetup, previousSetup, closeSetup } =
     useRecommendedSetupsContext();
-  const [ref, scale] = useAspectFitElement(1024, 512, 1, 1.333333333333333);
+  const [ref, scale] = useAspectFitScaling(1024, 512, 0, 1.333333333333333);
   return (
     <RootLayout id="gear-progression">
       <HeaderBar
