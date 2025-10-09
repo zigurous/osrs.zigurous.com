@@ -13,7 +13,7 @@ interface GridMasterContextData {
 const defaultData: GridMasterContextData = {
   tiles: [],
   flipped: false,
-  hideUnconfirmed: false,
+  hideUnconfirmed: true,
   setFlipped: () => defaultData.flipped,
   setHideUnconfirmed: () => defaultData.hideUnconfirmed,
 };
