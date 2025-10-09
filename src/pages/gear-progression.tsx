@@ -1,4 +1,4 @@
-import { Stack } from '@zigurous/forge-react';
+import { Badge, Stack } from '@zigurous/forge-react';
 import classNames from 'classnames';
 import { type HeadFC, type PageProps } from 'gatsby';
 import React from 'react';
@@ -48,6 +48,11 @@ function GearProgressionPageContent() {
     <RootLayout id="gear-progression">
       <HeaderBar
         title="Gear Progression"
+        left={
+          <Badge className="ml-lg" color="secondary">
+            Work In Progress
+          </Badge>
+        }
         center={
           <Stack
             inline
