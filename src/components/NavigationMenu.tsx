@@ -87,7 +87,7 @@ const menu = [
     links: [
       {
         icon: 'Bank_Tutor_icon',
-        text: 'Support Us',
+        text: 'Support Me',
         href: 'https://buymeacoffee.com/zigurous',
         external: true,
       },
