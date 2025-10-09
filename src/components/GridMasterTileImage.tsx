@@ -1,57 +1,101 @@
+import classNames from 'classnames';
 import React from 'react';
 import WikiIcon from './WikiIcon';
-import unknown from '../images/grid-master-unknown-task.png';
-import tileD1 from '../images/grid-master-D1.png';
-import tileD4 from '../images/grid-master-D4.png';
-import tileD7 from '../images/grid-master-D7.png';
-import tileE1 from '../images/grid-master-E1.png';
-import tileE5 from '../images/grid-master-E5.png';
-import tileG2 from '../images/grid-master-G2.png';
-import tileA4R from '../images/grid-master-A4R.png';
-import tileC7R from '../images/grid-master-C7R.png';
-import tileD4R from '../images/grid-master-D4R.png';
-import tileD7R from '../images/grid-master-D7R.png';
-import tileE1R from '../images/grid-master-E1R.png';
-import tileE2R from '../images/grid-master-E2R.png';
-import tileG2R from '../images/grid-master-G2R.png';
+import relicCorruptedShark from '../images/grid-master-relic-corrupted-shark.png';
+import relicGoldenGod from '../images/grid-master-relic-golden-god.png';
+import relicGuardian from '../images/grid-master-relic-guardian.png';
+import relicMinimumPotential from '../images/grid-master-relic-minimum-potential.png';
+import relicProductionMaster from '../images/grid-master-relic-production-master.png';
+import relicReloaded from '../images/grid-master-relic-reloaded.png';
+import relicScarab from '../images/grid-master-relic-scarab.png';
+import relicSlayerMaster from '../images/grid-master-relic-slayer-master.png';
+import rewardBerserkerCrown from '../images/grid-master-reward-berserker-crown.png';
+import rewardCombatStyles from '../images/grid-master-reward-combat-styles.png';
+import rewardUnknown from '../images/grid-master-reward-unknown.png';
+import rewardXp from '../images/grid-master-reward-xp.png';
+import rewardXpMultiplier from '../images/grid-master-reward-xp-multiplier.png';
+import taskGemstoneCrab from '../images/grid-master-task-gemstone-crab.png';
+import taskInferno from '../images/grid-master-task-inferno.png';
+import taskJalZek from '../images/grid-master-task-jal-zek.png';
+import taskLesserDemon from '../images/grid-master-task-lesser-demon.png';
+import taskOgress from '../images/grid-master-task-ogress.png';
+import taskTutorial from '../images/grid-master-task-tutorial.png';
+import taskUnknown from '../images/grid-master-task-unknown.png';
 
 type GridMasterTileImageProps = {
   cell: string;
   icon?: string;
-  type: 'task' | 'reward';
+  type: 'task' | 'task-reward' | 'reward';
+  unknown?: boolean;
 } & Omit<React.ComponentProps<'img'>, 'width' | 'height'>;
 
 export default function GridMasterTileImage({
   cell,
   icon,
   type,
+  unknown = false,
   ...rest
 }: GridMasterTileImageProps) {
-  if (icon) {
-    return <WikiIcon className={rest.className} icon={icon} size={48} />;
-  } else {
-    const image =
-      type === 'task' ? tasks[cell] || unknown : rewards[cell] || unknown;
-    if (!image) return null;
-    return <img {...rest} width={56} height={56} src={image} />;
+  if (icon && !unknown) {
+    return (
+      <WikiIcon
+        className={classNames(rest.className, {
+          smooth: icon.includes('_detail'),
+        })}
+        icon={icon}
+        size={48}
+      />
+    );
   }
+  return (
+    <span
+      className={classNames(
+        'inline-flex justify-center align-center shrink-0',
+        rest.className,
+      )}
+      style={{ ...rest.style, width: 56, height: 56 }}
+      {...rest}
+    >
+      <img
+        alt=""
+        aria-hidden
+        className="object-contain w-full h-full"
+        src={
+          unknown
+            ? type === 'reward'
+              ? rewardUnknown
+              : taskUnknown
+            : type === 'reward' || type === 'task-reward'
+              ? rewards[cell] || rewardUnknown
+              : tasks[cell] || taskUnknown
+        }
+      />
+    </span>
+  );
 }
 
 const tasks: Record<string, any> = {
-  D1: tileD1,
-  D4: tileD4,
-  D7: tileD7,
-  E1: tileE1,
-  E5: tileE5,
-  G2: tileG2,
+  D1: taskOgress,
+  D4: taskTutorial,
+  D7: taskLesserDemon,
+  E1: taskJalZek,
+  E5: taskGemstoneCrab,
+  G2: taskInferno,
 };
 
 const rewards: Record<string, any> = {
-  A4: tileA4R,
-  C7: tileC7R,
-  D4: tileD4R,
-  D7: tileD7R,
-  E1: tileE1R,
-  E2: tileE2R,
-  G2: tileG2R,
+  A3: relicGoldenGod,
+  A4: relicProductionMaster,
+  A6: rewardBerserkerCrown,
+  A8: rewardXpMultiplier,
+  C7: relicScarab,
+  D2: rewardXp,
+  D3: relicReloaded,
+  D4: relicReloaded,
+  D5: relicReloaded,
+  D6: rewardCombatStyles,
+  D7: relicMinimumPotential,
+  E1: relicSlayerMaster,
+  E2: relicCorruptedShark,
+  G2: relicGuardian,
 };

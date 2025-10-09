@@ -98,8 +98,12 @@ export const createSchemaCustomization = ({
       type: String!
       icon: String
       task: String
+      taskLink: String
       reward: String
+      rewardDescription: String
       rewardIcon: String
+      rewardLink: String
+      unconfirmed: Boolean
     }
     type GuildsJson implements Node @dontInfer {
       jsonId: String!

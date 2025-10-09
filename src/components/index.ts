@@ -6,6 +6,7 @@ export { default as EquipmentCard } from './EquipmentCard';
 export { default as EquipmentInventory } from './EquipmentInventory';
 export { default as FooterBar } from './FooterBar';
 export { default as GridMasterBoard } from './GridMasterBoard';
+export { default as GridMasterHeader } from './GridMasterHeader';
 export { default as HeaderBar } from './HeaderBar';
 export { default as IconToggle } from './IconToggle';
 export { default as InfoTooltip } from './InfoTooltip';

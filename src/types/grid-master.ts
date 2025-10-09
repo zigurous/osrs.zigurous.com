@@ -4,6 +4,10 @@ export interface GridMasterTile {
   type: 'reward' | 'beginner' | 'easy' | 'medium' | 'hard' | 'empty';
   icon?: string;
   task?: string;
+  taskLink?: string;
   reward?: string;
+  rewardDescription?: string;
   rewardIcon?: string;
+  rewardLink?: string;
+  unconfirmed?: boolean;
 }

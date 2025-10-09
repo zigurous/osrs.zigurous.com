@@ -11,6 +11,7 @@
   grid-template-columns: repeat(8, 64px);
   grid-template-rows: repeat(8, 64px);
   gap: var(--spacing-xxs);
+  margin-bottom: var(--spacing-xxl);
 }
 
 .grid-master__cell {
@@ -32,20 +33,27 @@
 }
 
 .grid-master__tile { --tile-color: #141f33; }
-.grid-master__tile--beginner { --tile-color: #19d9ff; }
+.grid-master__tile--beginner { --tile-color: #19b2ff; }
 .grid-master__tile--easy { --tile-color: #40ff19; }
 .grid-master__tile--medium { --tile-color: #ffb319; }
 .grid-master__tile--hard { --tile-color: #ff1919; }
-.grid-master__tile--reward { background-color: #120f0c; }
+.grid-master__tile--reward { --tile-color: #6699ff; background-color: #120f0c; }
 .grid-master__tile--unknown:not(.grid-master__tile--reward) { background-color: var(--color-surface-1); }
 .grid-master__tile--unknown { opacity: var(--opacity-subtle); }
+.grid-master__tile:not(.grid-master__tile--unknown) {
+  background-image: linear-gradient(to bottom, rgb(from var(--tile-color) r g b / var(--opacity-soft)), rgb(from var(--tile-color) r g b / var(--opacity-soft)));
+}
 
-.grid-master__tile img {
+.grid-master__tile > span:not(.smooth) > img {
   image-rendering: pixelated;
 }
 
 @media (hover: hover) {
   .grid-master__tile:hover {
-    background-image: linear-gradient(to bottom, rgb(from var(--tile-color) r g b / var(--opacity-soft)), rgb(from var(--tile-color) r g b / var(--opacity-disabled)));
+    background-image: linear-gradient(to bottom, rgb(from var(--tile-color) r g b / var(--opacity-soft)), rgb(from var(--tile-color) r g b / var(--opacity-muted)));
+  }
+
+  .grid-master__tile--unknown:hover {
+    background-image: linear-gradient(to bottom, rgb(from var(--tile-color) r g b / var(--opacity-soft)), rgb(from var(--tile-color) r g b / var(--opacity-soft)));
   }
 }

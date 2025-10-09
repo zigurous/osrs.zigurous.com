@@ -2,7 +2,11 @@
   {
     "col": "R",
     "row": "1",
-    "type": "reward"
+    "type": "reward",
+    "reward": "The Dogsword",
+    "rewardIcon": "The_dogsword_detail",
+    "rewardLink": "The_dogsword",
+    "unconfirmed": true
   },
   {
     "col": "A",
@@ -24,15 +28,21 @@
     "row": "1",
     "type": "easy",
     "task": "Kill an Ogress.",
+    "taskLink": "Ogress_Shaman",
     "reward": "Combatant",
-    "rewardIcon": "Combat_icon"
+    "rewardDescription": "You select three Combat skills, then whenever you gain XP in one of your 3 selected Combat skills, you'll gain 50% of that XP in the other 2 selected skills.",
+    "rewardIcon": "Combat_icon",
+    "rewardLink": "Combatant"
   },
   {
     "col": "E",
     "row": "1",
     "type": "medium",
     "task": "Defeat Jal-Zek within the Inferno.",
-    "reward": "Slayer Master"
+    "taskLink": "Jal-Zek",
+    "reward": "Slayer Master",
+    "rewardDescription": "Always be on-task for all slayer monsters and unlock all slayer task perks for free.",
+    "rewardLink": "Slayer_Master_(relic)"
   },
   {
     "col": "F",
@@ -69,15 +79,19 @@
     "row": "2",
     "type": "easy",
     "icon": "Stats_icon",
-    "task": "Unknown"
+    "task": "Unknown",
+    "unconfirmed": true
   },
   {
     "col": "E",
     "row": "2",
     "type": "medium",
     "icon": "Shark",
-    "task": "UNKNOWN – Shark",
-    "reward": "Unknown"
+    "task": "Cook a shark while weaing a Chef's hat.",
+    "taskLink": "Shark",
+    "reward": "Corrupted Shark",
+    "rewardDescription": "A Shark that isn't consumed when eaten.\nHeals a base of 20 hitpoints.",
+    "rewardLink": "Corrupted_Shark"
   },
   {
     "col": "F",
@@ -89,7 +103,10 @@
     "row": "2",
     "type": "hard",
     "task": "Complete the Inferno in 30 minutes or less.",
-    "reward": "Guardian"
+    "taskLink": "Inferno",
+    "reward": "Guardian",
+    "rewardDescription": "This item will allow you to summon a powerful Guardian Thrall, lasting 30 minutes The guardian will attack your target with whatever style it is weak to.",
+    "rewardLink": "Guardian"
   },
   {
     "col": "R",
@@ -101,7 +118,11 @@
     "row": "3",
     "type": "medium",
     "icon": "Valuables_5",
-    "task": "UNKNOWN – Stealing Valuables"
+    "task": "UNKNOWN – Stealing Valuables",
+    "taskLink": "Stealing_valuables",
+    "reward": "Golden God",
+    "rewardLink": "Golden_God",
+    "unconfirmed": true
   },
   {
     "col": "B",
@@ -118,7 +139,11 @@
     "row": "3",
     "type": "easy",
     "icon": "Maple_logs",
-    "task": "UNKNOWN – Maple logs"
+    "task": "UNKNOWN – Maple logs",
+    "taskLink": "Maple_logs",
+    "reward": "Choice: Power Miner, Lumberjack, Animal Wrangler",
+    "rewardLink": "Infernal_Gathering",
+    "unconfirmed": true
   },
   {
     "col": "E",
@@ -146,7 +171,10 @@
     "type": "easy",
     "icon": "Coins_10000",
     "task": "Gain over 30,000 coins from one Alchemy spell.",
-    "reward": "Production Prodigy"
+    "taskLink": "High_Level_Alchemy",
+    "reward": "Production Prodigy",
+    "rewardLink": "Production_Prodigy",
+    "rewardDescription": "When doing the following activities, all items are processed at once:"
   },
   {
     "col": "B",
@@ -163,7 +191,9 @@
     "row": "4",
     "type": "beginner",
     "task": "Complete the Grid Master tutorial.",
-    "reward": "A choice from one of the following:\nPower Miner | Lumberjack | Animal Wrangler"
+    "taskLink": "Grid_Master",
+    "reward": "Choice: Power Miner, Lumberjack, Animal Wrangler",
+    "rewardLink": "Infernal_Gathering"
   },
   {
     "col": "E",
@@ -200,20 +230,33 @@
     "row": "5",
     "type": "easy",
     "icon": "Tempoross_icon_(mobile)",
-    "task": "UNKNOWN – Tempoross"
+    "task": "Subdue Tempoross.",
+    "taskLink": "Tempoross",
+    "reward": "Craftsman",
+    "rewardDescription": "Select three Artisan skills, then whenever you gain XP in one of your 3 selected skills, you'll gain 50% of that XP in the other 2 selected skills.",
+    "rewardIcon": "Crafting_icon_(detail)",
+    "rewardLink": "Craftsman"
   },
   {
     "col": "D",
     "row": "5",
     "type": "easy",
     "icon": "Gold_ore",
-    "task": "UNKNOWN – Gold Ore"
+    "task": "UNKNOWN – Gold Ore",
+    "taskLink": "Gold_ore",
+    "reward": "Choice: Power Miner, Lumberjack, Animal Wrangler",
+    "rewardLink": "Infernal_Gathering",
+    "unconfirmed": true
   },
   {
     "col": "E",
     "row": "5",
     "type": "easy",
-    "task": "UNKNOWN – Gemstone Crab"
+    "task": "UNKNOWN – Gemstone Crab",
+    "taskLink": "Gemstone_Crab",
+    "reward": "Unknown",
+    "rewardIcon": "Woodcutting_icon_(detail)",
+    "unconfirmed": true
   },
   {
     "col": "F",
@@ -235,7 +278,9 @@
     "row": "6",
     "type": "hard",
     "icon": "Ruinous_Powers",
-    "task": "UNKNOWN – Ruinous Powers"
+    "task": "UNKNOWN – Ruinous Powers",
+    "taskLink": "Ruinous_Powers",
+    "unconfirmed": true
   },
   {
     "col": "B",
@@ -252,7 +297,9 @@
     "row": "6",
     "type": "easy",
     "icon": "Bryophyta_icon_(mobile)",
-    "task": "UNKNOWN – Bryophyta"
+    "task": "UNKNOWN – Bryophyta",
+    "taskLink": "Bryophyta",
+    "unconfirmed": true
   },
   {
     "col": "E",
@@ -272,7 +319,11 @@
   {
     "col": "R",
     "row": "7",
-    "type": "reward"
+    "type": "reward",
+    "reward": "Gloves of the Damned",
+    "rewardIcon": "Gloves_of_the_damned_detail",
+    "rewardLink": "Gloves_of_the_damned",
+    "unconfirmed": true
   },
   {
     "col": "A",
@@ -280,15 +331,23 @@
     "type": "hard",
     "icon": "Tombs_of_Amascut_-_Normal_Mode_icon",
     "task": "Obtain a rare unique from Tombs of Amascut.",
+    "taskLink": "Tombs_of_Amascut",
     "reward": "Mega Rare Scroll",
-    "rewardIcon": "Raids_megarare_voucher_(Raging_Echoes_League)"
+    "rewardDescription": "Choose one of the three mega rares from raids:\nScythe of Vitur | Tumeken's Shadow | Twisted Bow",
+    "rewardIcon": "Raids_megarare_voucher_(Raging_Echoes_League)",
+    "rewardLink": "Raids_megarare_voucher"
   },
   {
     "col": "B",
     "row": "7",
     "type": "hard",
     "icon": "Demonic_throne_icon",
-    "task": "UNCONFIRMED\nBuild a demonic throne in your PoH."
+    "task": "UNKNOWN – Demonic Throne",
+    "taskLink": "Demonic_throne",
+    "reward": "Thunder Khopesh",
+    "rewardIcon": "Thunder_khopesh",
+    "rewardLink": "Thunder_khopesh",
+    "unconfirmed": true
   },
   {
     "col": "C",
@@ -296,14 +355,19 @@
     "type": "medium",
     "icon": "Max_cape",
     "task": "UNKNOWN – Max Cape",
-    "reward": "Unknown"
+    "taskLink": "Max_cape",
+    "reward": "Unknown",
+    "unconfirmed": true
   },
   {
     "col": "D",
     "row": "7",
     "type": "easy",
     "task": "Defeat the lesser demon in the Wizards' Tower.",
-    "reward": "Minimum Potential"
+    "taskLink": "Lesser_demon",
+    "reward": "Minimum Potential",
+    "rewardDescription": "Your Melee, Ranged & Magic hits will never deal below 5 damage.",
+    "rewardLink": "Minimum_Potential"
   },
   {
     "col": "E",
@@ -333,7 +397,11 @@
   {
     "col": "B",
     "row": "8",
-    "type": "reward"
+    "type": "reward",
+    "reward": "Thousand-Dragon Ward",
+    "rewardIcon": "Thousand-dragon_ward_detail",
+    "rewardLink": "Thousand-dragon_ward",
+    "unconfirmed": true
   },
   {
     "col": "C",
@@ -353,7 +421,11 @@
   {
     "col": "F",
     "row": "8",
-    "type": "reward"
+    "type": "reward",
+    "reward": "Sunlight Spear",
+    "rewardIcon": "Sunlight_spear_detail",
+    "rewardLink": "Sunlight_spear",
+    "unconfirmed": true
   },
   {
     "col": "G",

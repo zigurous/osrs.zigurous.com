@@ -1,59 +1,88 @@
-import { Button } from '@zigurous/forge-react';
 import classNames from 'classnames';
-import React, { useState } from 'react';
+import React from 'react';
 import GridMasterTileImage from './GridMasterTileImage';
 import TooltipWrapper from './TooltipWrapper';
+import WikiLink from './WikiLink';
 import { useGridMasterContext } from '../context';
+import type { GridMasterTile } from '../types';
 
 export default function GridMasterBoard() {
   const { tiles } = useGridMasterContext();
-  const [flipped, setFlipped] = useState(false);
   return (
     <div className="grid-master__board">
       {tiles.map(tile => {
-        const id = `${tile.col}${tile.row}`;
-        const flip = flipped && tile.type !== 'reward';
+        const key = `${tile.col}${tile.row}`;
         if (tile.type === 'empty') {
-          return (
-            <Button
-              className="w-full h-full"
-              icon="flip"
-              iconAlignment="only"
-              iconProps={{ size: 'lg' }}
-              onClick={() => setFlipped(state => !state)}
-              size="lg"
-              variant="text"
-            >
-              Flip
-            </Button>
-          );
+          return <div aria-hidden key={key} />;
+        } else if (tile.type === 'reward') {
+          return <GridMasterRewardTile tile={tile} key={key} />;
+        } else {
+          return <GridMasterTaskTile tile={tile} key={key} />;
         }
-        return (
-          <TooltipWrapper
-            className={classNames('grid-master__cell', {
-              'grid-master__cell--flipped': flip,
-            })}
-            id={id}
-            key={id}
-            tooltip={(flip ? tile.reward : tile.task) || 'Unknown'}
-          >
-            <div
-              className={classNames('grid-master__tile', {
-                [`grid-master__tile--${tile.type}`]: tile.type,
-                'grid-master__tile--unknown': flip
-                  ? !Boolean(tile.reward)
-                  : !Boolean(tile.task),
-              })}
-            >
-              <GridMasterTileImage
-                cell={id}
-                icon={flip ? tile.rewardIcon : tile.icon}
-                type={flip ? 'reward' : 'task'}
-              />
-            </div>
-          </TooltipWrapper>
-        );
       })}
     </div>
+  );
+}
+
+function GridMasterTaskTile({ tile }: { tile: GridMasterTile }) {
+  const { flipped, hideUnconfirmed } = useGridMasterContext();
+  const cell = `${tile.col}${tile.row}`;
+  const unknown =
+    !Boolean(tile.task) || Boolean(tile.unconfirmed && hideUnconfirmed);
+  return (
+    <TooltipWrapper
+      id={cell}
+      className="grid-master__cell"
+      tooltip={(flipped ? tile.reward : tile.task) || 'Unknown'}
+    >
+      <WikiLink
+        aria-label={tile.task || 'Unknown'}
+        className={classNames('grid-master__tile', {
+          [`grid-master__tile--${tile.type}`]: tile.type,
+          'grid-master__tile--unknown': unknown,
+        })}
+        wikiId={(flipped ? tile.rewardLink : tile.taskLink) || 'Grid_Master'}
+      >
+        <GridMasterTileImage
+          cell={cell}
+          unknown={unknown}
+          icon={flipped ? tile.rewardIcon : tile.icon}
+          type={flipped ? 'task-reward' : 'task'}
+        />
+      </WikiLink>
+    </TooltipWrapper>
+  );
+}
+
+function GridMasterRewardTile({ tile }: { tile: GridMasterTile }) {
+  const { hideUnconfirmed } = useGridMasterContext();
+  const cell = `${tile.col}${tile.row}`;
+  const unknown =
+    !Boolean(tile.reward) || Boolean(tile.unconfirmed && hideUnconfirmed);
+  return (
+    <TooltipWrapper
+      id={cell}
+      className="grid-master__cell"
+      tooltip={tile.reward || 'Unknown'}
+    >
+      <WikiLink
+        aria-label={tile.reward || 'Unknown'}
+        className={classNames(
+          'grid-master__tile',
+          'grid-master__tile--reward',
+          {
+            'grid-master__tile--unknown': unknown,
+          },
+        )}
+        wikiId={tile.rewardLink || 'Grid_Master'}
+      >
+        <GridMasterTileImage
+          cell={cell}
+          unknown={unknown}
+          icon={tile.rewardIcon}
+          type="reward"
+        />
+      </WikiLink>
+    </TooltipWrapper>
   );
 }
