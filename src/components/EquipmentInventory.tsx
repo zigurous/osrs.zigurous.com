@@ -53,6 +53,9 @@ export default function EquipmentInventory({
 }
 
 function EquipmentInventorySlot({ id, item }: EquipmentSlot) {
+  if (item && item.id.includes('#equipmentslot')) {
+    item.icon = equipmentSlotIcons[id];
+  }
   return (
     <div className="equipment-inventory__slot" id={id}>
       <ItemFrame

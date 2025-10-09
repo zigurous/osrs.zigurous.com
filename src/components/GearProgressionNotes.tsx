@@ -5,14 +5,20 @@ import TitledCard from './TitledCard';
 import WikiLink from './WikiLink';
 
 interface GearProgressionNotesProps {
+  filter?: string;
   notes?: string[];
 }
 
 export default function GearProgressionNotes({
+  filter,
   notes,
 }: GearProgressionNotesProps) {
-  if (!notes || notes.length === 0) return null;
-  return (
+  if (filter && notes) {
+    notes = notes
+      .filter(note => !note.startsWith('::') || note.startsWith(`::${filter}|`))
+      .map(note => note.replace(`::${filter}|`, ''));
+  }
+  return notes && notes.length > 0 ? (
     <TitledCard className="gear-progression-card" id="notes" title="Notes">
       <ul className="text-muted">
         {notes.map((note, index) => (
@@ -29,7 +35,7 @@ export default function GearProgressionNotes({
         ))}
       </ul>
     </TitledCard>
-  );
+  ) : null;
 }
 
 function parseRichText(str: string) {
@@ -42,7 +48,7 @@ function parseRichText(str: string) {
       <React.Fragment key={split[0]}>{split[0]}</React.Fragment>
     );
     jsx.push(
-      <WikiLink className="text-primary" key={match[0]} wikiId={match[1]}>
+      <WikiLink className="link" key={match[0]} wikiId={match[1]}>
         {match[2]}
       </WikiLink>,
     );

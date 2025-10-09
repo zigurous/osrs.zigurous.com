@@ -59,17 +59,18 @@ export const createSchemaCustomization = ({
       icon: String
     }
     type GearProgressionJson implements Node @dontInfer {
-      category: String!
-      tiers: [GearProgressionTier!]!
-    }
-    type GearProgressionTier {
       title: String!
-      items: [String!]
+      categories: [String!]!
+      items: [GearProgressionCategoryItem!]
       subcategoryItems: [GearProgressionSubcategoryItem!]
       skills: [SkillLevelHighlight!]
       timeline: [GearProgressionTimelineCard!]!
       notes: [String!]
       questMilestone: String
+    }
+    type GearProgressionCategoryItem {
+      id: String!
+      category: String!
     }
     type GearProgressionSubcategoryItem {
       id: String!
@@ -78,6 +79,7 @@ export const createSchemaCustomization = ({
     type GearProgressionTimelineCard {
       id: String!
       icon: String!
+      category: String
       title: String
       subtitle: String
       items: [String!]

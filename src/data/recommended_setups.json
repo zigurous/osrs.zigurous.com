@@ -1527,7 +1527,7 @@
     "title": "General Graardor",
     "loadouts": [
       {
-        "title": "Bowfa 7:0",
+        "title": "Bowfa 6:0",
         "equipment": [
           { "slot": "weapon", "item": "Bow_of_faerdhinen" },
           { "slot": "ammo", "item": "War_blessing" },
@@ -2982,7 +2982,7 @@
         ],
         "inventory": [
           { "slot": 1, "item": "Eclipse_atlatl" },
-          { "slot": 2, "item": "Bandos_godsword" },
+          { "slot": 2, "item": "Bone_dagger" },
           { "slot": 3, "item": "Trident_of_the_swamp" },
           { "slot": 4, "item": "Blue_moon_chestplate" },
           { "slot": 5, "item": "Ava's_accumulator" },

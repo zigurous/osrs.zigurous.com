@@ -1,5 +1,60 @@
 [
   {
+    "id": "#equipmentslot-ammo",
+    "icon": null,
+    "slot": "ammo"
+  },
+  {
+    "id": "#equipmentslot-body",
+    "icon": null,
+    "slot": "body"
+  },
+  {
+    "id": "#equipmentslot-cape",
+    "icon": null,
+    "slot": "cape"
+  },
+  {
+    "id": "#equipmentslot-feet",
+    "icon": null,
+    "slot": "feet"
+  },
+  {
+    "id": "#equipmentslot-hands",
+    "icon": null,
+    "slot": "hands"
+  },
+  {
+    "id": "#equipmentslot-head",
+    "icon": null,
+    "slot": "head"
+  },
+  {
+    "id": "#equipmentslot-legs",
+    "icon": null,
+    "slot": "legs"
+  },
+  {
+    "id": "#equipmentslot-neck",
+    "icon": null,
+    "slot": "neck"
+  },
+  {
+    "id": "#equipmentslot-ring",
+    "icon": null,
+    "slot": "ring"
+  },
+  {
+    "id": "#equipmentslot-shield",
+    "icon": null,
+    "slot": "shield"
+  },
+  {
+    "id": "#equipmentslot-weapon",
+    "icon": null,
+    "slot": "weapon"
+  },
+  {
     "id": "Abyssal_bludgeon",
     "slot": "weapon",
     "tags": ["2h"],
@@ -187,6 +242,11 @@
     "id": "Amulet_of_glory",
     "slot": "neck",
     "regions": ["all"]
+  },
+  {
+    "id": "Amulet_of_magic",
+    "slot": "neck",
+    "regions": ["misthalin"]
   },
   {
     "id": "Amulet_of_power",
@@ -507,6 +567,14 @@
     "regions_single": ["fremennik"],
     "requirements": [
       { "skill": "ranged", "level": 70 }
+    ]
+  },
+  {
+    "id": "Ava's_attractor",
+    "slot": "cape",
+    "regions": ["misthalin"],
+    "requirements": [
+      { "skill": "ranged", "level": 30 }
     ]
   },
   {
@@ -852,6 +920,11 @@
     ]
   },
   {
+    "id": "Blue_skirt",
+    "slot": "legs",
+    "regions": ["kourend", "misthalin", "varlamore"]
+  },
+  {
     "id": "Blue_wizard_hat",
     "slot": "head",
     "regions": ["asgarnia", "desert", "kandarin", "karamja", "kourend", "misthalin", "varlamore"]
@@ -872,6 +945,12 @@
     "icon": "Bolt_rack_5",
     "slot": "ammo",
     "regions": ["morytania"]
+  },
+  {
+    "id": "Bone_bolts",
+    "icon": "Bone_bolts_5",
+    "slot": "ammo",
+    "regions": ["misthalin"]
   },
   {
     "id": "Bone_dagger",
@@ -937,6 +1016,14 @@
   {
     "id": "Broad_bolts",
     "icon": "Broad_bolts_5",
+    "slot": "ammo",
+    "requirements": [
+      { "skill": "slayer", "level": 55 }
+    ]
+  },
+  {
+    "id": "Bronze_bolts",
+    "icon": "Bronze_bolts_5",
     "slot": "ammo"
   },
   {
@@ -988,6 +1075,11 @@
     "regions": ["karamja"]
   },
   {
+    "id": "Coif",
+    "slot": "head",
+    "regions": ["all"]
+  },
+  {
     "id": "Combat_bracelet",
     "slot": "hands",
     "regions": ["all"]
@@ -1016,6 +1108,16 @@
     "requirements": [
       { "skill": "crafting", "level": 99 }
     ]
+  },
+  {
+    "id": "Crossbow",
+    "slot": "weapon",
+    "tags": ["1h"],
+    "regions": ["all"],
+    "ammo": {
+      "id": "Bronze_bolts",
+      "icon": "Bronze_bolts_5"
+    }
   },
   {
     "id": "Crystal_blessing",
@@ -1220,6 +1322,19 @@
     "regions": ["varlamore"],
     "requirements": [
       { "skill": "ranged", "level": 75 }
+    ]
+  },
+  {
+    "id": "Dorgeshuun_crossbow",
+    "slot": "weapon",
+    "tags": ["1h"],
+    "regions": ["misthalin"],
+    "ammo": {
+      "id": "Bone_bolts",
+      "icon": "Bone_bolts_5"
+    },
+    "requirements": [
+      { "skill": "ranged", "level": "28" }
     ]
   },
   {
@@ -1559,6 +1674,16 @@
     ]
   },
   {
+    "id": "Eldritch_nightmare_staff",
+    "slot": "weapon",
+    "tags": ["1h"],
+    "regions": ["morytania"],
+    "requirements": [
+      { "skill": "magic", "level": 82 },
+      { "skill": "hitpoints", "level": 50 }
+    ]
+  },
+  {
     "id": "Elidinis'_ward",
     "slot": "shield",
     "regions": ["desert"],
@@ -1629,12 +1754,6 @@
     "slot": "ring",
     "tags": ["leagues"],
     "regions": ["fremennik"]
-  },
-  {
-    "id": "Nothing",
-    "icon": "Bank_filler",
-    "tags": ["1h"],
-    "regions": ["all"]
   },
   {
     "id": "Enchanted_hat",
@@ -1759,6 +1878,14 @@
     "id": "Fancy_boots",
     "slot": "feet",
     "regions": ["misthalin"]
+  },
+  {
+    "id": "Farseer_helm",
+    "slot": "head",
+    "regions": ["fremennik"],
+    "requirements": [
+      { "skill": "defence", "level": 45 }
+    ]
   },
   {
     "id": "Ferocious_gloves",
@@ -1893,6 +2020,30 @@
     "requirements": [
       { "skill": "strength", "level": 50 },
       { "skill": "defence", "level": 50 }
+    ]
+  },
+  {
+    "id": "Green_d'hide_body",
+    "slot": "body",
+    "regions": ["kourend", "misthalin", "tirannwn", "wilderness"],
+    "requirements": [
+      { "skill": "ranged", "level": 40 }
+    ]
+  },
+  {
+    "id": "Green_d'hide_chaps",
+    "slot": "legs",
+    "regions": ["asgarnia", "desert", "misthalin", "tirannwn", "wilderness"],
+    "requirements": [
+      { "skill": "ranged", "level": 40 }
+    ]
+  },
+  {
+    "id": "Green_d'hide_vambraces",
+    "slot": "hands",
+    "regions": ["desert", "misthalin", "wilderness"],
+    "requirements": [
+      { "skill": "ranged", "level": 40 }
     ]
   },
   {
@@ -2035,7 +2186,7 @@
   },
   {
     "id": "Hueycoatl_hide_body",
-    "slot": "hands",
+    "slot": "body",
     "regions": ["varlamore"],
     "requirements": [
       { "skill": "ranged", "level": 70 },
@@ -2044,7 +2195,16 @@
   },
   {
     "id": "Hueycoatl_hide_chaps",
-    "slot": "hands",
+    "slot": "legs",
+    "regions": ["varlamore"],
+    "requirements": [
+      { "skill": "ranged", "level": 70 },
+      { "skill": "defence", "level": 40 }
+    ]
+  },
+  {
+    "id": "Hueycoatl_hide_coif",
+    "slot": "head",
     "regions": ["varlamore"],
     "requirements": [
       { "skill": "ranged", "level": 70 },
@@ -2251,6 +2411,11 @@
     ]
   },
   {
+    "id": "Iron_arrow",
+    "icon": "Iron_arrow_5",
+    "slot": "ammo"
+  },
+  {
     "id": "Iron_gloves",
     "slot": "hands"
   },
@@ -2385,12 +2550,32 @@
     ]
   },
   {
+    "id": "Leather_body",
+    "slot": "body",
+    "regions": ["all"]
+  },
+  {
     "id": "Leather_boots",
     "slot": "feet",
     "regions": ["all"]
   },
   {
+    "id": "Leather_chaps",
+    "slot": "legs",
+    "regions": ["all"]
+  },
+  {
+    "id": "Leather_cowl",
+    "slot": "head",
+    "regions": ["all"]
+  },
+  {
     "id": "Leather_gloves",
+    "slot": "hands",
+    "regions": ["all"]
+  },
+  {
+    "id": "Leather_vambraces",
     "slot": "hands",
     "regions": ["all"]
   },
@@ -2402,6 +2587,15 @@
   {
     "id": "Lunar_gloves",
     "slot": "hands",
+    "regions": ["fremennik"],
+    "requirements": [
+      { "skill": "magic", "level": 65 },
+      { "skill": "defence", "level": 40 }
+    ]
+  },
+  {
+    "id": "Lunar_ring",
+    "slot": "ring",
     "regions": ["fremennik"],
     "requirements": [
       { "skill": "magic", "level": 65 },
@@ -2557,10 +2751,7 @@
   {
     "id": "Mind_shield",
     "slot": "shield",
-    "regions": ["kandarin"],
-    "requirements": [
-      { "skill": "magic", "level": 60 }
-    ]
+    "regions": ["kandarin"]
   },
   {
     "id": "Mirror_shield",
@@ -2762,6 +2953,14 @@
     ]
   },
   {
+    "id": "Necklace_of_anguish_(or)",
+    "slot": "neck",
+    "regions": ["kandarin"],
+    "requirements": [
+      { "skill": "hitpoints", "level": 75 }
+    ]
+  },
+  {
     "id": "Neitiznot_faceguard",
     "slot": "head",
     "regions": ["fremennik"],
@@ -2786,6 +2985,12 @@
       { "skill": "magic", "level": 72 },
       { "skill": "hitpoints", "level": 50 }
     ]
+  },
+  {
+    "id": "Nothing",
+    "icon": "Bank_filler",
+    "tags": ["1h"],
+    "regions": ["all"]
   },
   {
     "id": "Noxious_halberd",
@@ -2846,6 +3051,14 @@
   },
   {
     "id": "Occult_necklace",
+    "slot": "neck",
+    "regions": ["kandarin"],
+    "requirements": [
+      { "skill": "magic", "level": 70 }
+    ]
+  },
+  {
+    "id": "Occult_necklace_(or)",
     "slot": "neck",
     "regions": ["kandarin"],
     "requirements": [
@@ -3082,7 +3295,16 @@
   {
     "id": "Red_d'hide_body",
     "slot": "body",
-    "regions": ["desert", "fremennik", "kandarin", "kourend", "wilderness"],
+    "regions": ["desert", "fremennik", "kandarin", "kourend", "varlamore", "wilderness"],
+    "requirements": [
+      { "skill": "ranged", "level": 60 },
+      { "skill": "defence", "level": 40 }
+    ]
+  },
+  {
+    "id": "Red_d'hide_chaps",
+    "slot": "legs",
+    "regions": ["fremennik", "kandarin", "kourend", "morytania", "varlamore", "wilderness"],
     "requirements": [
       { "skill": "ranged", "level": 60 },
       { "skill": "defence", "level": 40 }
@@ -3554,6 +3776,16 @@
     ]
   },
   {
+    "id": "Shortbow",
+    "slot": "weapon",
+    "tags": ["2h"],
+    "regions": ["all"],
+    "ammo": {
+      "id": "Bronze_arrow",
+      "icon": "Bronze_arrow_5"
+    }
+  },
+  {
     "id": "Silverlight",
     "slot": "weapon",
     "tags": ["1h"],
@@ -3703,6 +3935,24 @@
     "regions": ["all"]
   },
   {
+    "id": "Staff_of_earth",
+    "slot": "weapon",
+    "tags": ["1h"],
+    "regions": ["all"]
+  },
+  {
+    "id": "Staff_of_fire",
+    "slot": "weapon",
+    "tags": ["1h"],
+    "regions": ["all"]
+  },
+  {
+    "id": "Staff_of_water",
+    "slot": "weapon",
+    "tags": ["1h"],
+    "regions": ["all"]
+  },
+  {
     "id": "Staff_of_the_dead",
     "slot": "weapon",
     "tags": ["1h"],
@@ -3713,8 +3963,22 @@
     ]
   },
   {
+    "id": "Steel_arrow",
+    "icon": "Steel_arrow_5",
+    "slot": "ammo"
+  },
+  {
     "id": "Steel_gloves",
     "slot": "hands"
+  },
+  {
+    "id": "Steel_knife",
+    "slot": "weapon",
+    "tags": ["1h"],
+    "regions": ["all"],
+    "requirements": [
+      { "skill": "ranged", "level": 5 }
+    ]
   },
   {
     "id": "Steel_ring",
@@ -4040,6 +4304,33 @@
     ]
   },
   {
+    "id": "Twisted_ancestral_hat",
+    "slot": "head",
+    "regions": ["kourend"],
+    "requirements": [
+      { "skill": "magic", "level": 75 },
+      { "skill": "defence", "level": 65 }
+    ]
+  },
+  {
+    "id": "Twisted_ancestral_robe_bottom",
+    "slot": "legs",
+    "regions": ["kourend"],
+    "requirements": [
+      { "skill": "magic", "level": 75 },
+      { "skill": "defence", "level": 65 }
+    ]
+  },
+  {
+    "id": "Twisted_ancestral_robe_top",
+    "slot": "body",
+    "regions": ["kourend"],
+    "requirements": [
+      { "skill": "magic", "level": 75 },
+      { "skill": "defence", "level": 65 }
+    ]
+  },
+  {
     "id": "Twisted_bow",
     "slot": "weapon",
     "tags": ["2h"],
@@ -4354,12 +4645,65 @@
     ]
   },
   {
+    "id": "Willow_shortbow",
+    "slot": "weapon",
+    "tags": ["2h"],
+    "regions": ["all"],
+    "ammo": {
+      "id": "Steel_arrow",
+      "icon": "Steel_arrow_5"
+    },
+    "requirements": [
+      { "skill": "ranged", "level": 20 }
+    ]
+  },
+  {
     "id": "Wizard_boots",
     "slot": "feet",
     "tags": ["clues"],
     "regions": ["all"],
     "requirements": [
       { "skill": "magic", "level": 20 }
+    ]
+  },
+  {
+    "id": "Xerician_hat",
+    "slot": "head",
+    "regions": ["kourend"],
+    "requirements": [
+      { "skill": "magic", "level": 20 },
+      { "skill": "defence", "level": 10 }
+    ]
+  },
+  {
+    "id": "Xerician_robe",
+    "slot": "legs",
+    "regions": ["kourend"],
+    "requirements": [
+      { "skill": "magic", "level": 20 },
+      { "skill": "defence", "level": 10 }
+    ]
+  },
+  {
+    "id": "Xerician_top",
+    "slot": "body",
+    "regions": ["kourend"],
+    "requirements": [
+      { "skill": "magic", "level": 20 },
+      { "skill": "defence", "level": 10 }
+    ]
+  },
+  {
+    "id": "Yew_shortbow",
+    "slot": "weapon",
+    "tags": ["2h"],
+    "regions": ["all"],
+    "ammo": {
+      "id": "Rune_arrow",
+      "icon": "Rune_arrow_5"
+    },
+    "requirements": [
+      { "skill": "ranged", "level": 40 }
     ]
   },
   {

@@ -5,6 +5,7 @@ export type ItemTag =
   | 'leagues'
   | 'cosmetic'
   | 'upgrade'
+  | 'unmarked'
   | '1h'
   | '2h'
   | '*';

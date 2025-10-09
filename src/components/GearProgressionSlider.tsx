@@ -6,16 +6,21 @@ import { useGearProgressionContext, useRecommendedSetupsContext } from '../conte
 export default function GearProgressionSlider() {
   const context = useGearProgressionContext();
   const tier =
-    (context.timelineDirection === 0
-      ? context.current
-      : context.timelineDirection > 0
-        ? context.next
-        : context.previous) ?? context.current;
-  const tierIndex = context.tierIndex + context.timelineDirection;
+    context.transitionIndex !== undefined
+      ? context.category.sequence[context.transitionIndex] ||
+        context.currentTier
+      : context.currentTier;
   const { currentSetup: recommendedSetup } = useRecommendedSetupsContext();
 
-  const previousTier = useCallback(() => context.setTimelineDirection(-1), []);
-  const nextTier = useCallback(() => context.setTimelineDirection(1), []);
+  const previousTier = useCallback(
+    () => context.setTimelineDirection(-1),
+    [context.setTimelineDirection],
+  );
+
+  const nextTier = useCallback(
+    () => context.setTimelineDirection(1),
+    [context.setTimelineDirection],
+  );
 
   useEffect(() => {
     if (typeof window === 'undefined') return;
@@ -41,10 +46,12 @@ export default function GearProgressionSlider() {
         marginBottom="xs"
         type="subtitle"
       >
-        {tier.title || 'Tutorial Island'}
-        <Text as="sup" className="ml-xs" color="disabled" type="body-sm">
-          {`${tierIndex + 1}`}
-        </Text>
+        {tier.title}
+        {tier.sequenceIndex !== undefined && (
+          <Text as="sup" className="ml-xs" color="disabled" type="body-sm">
+            {`${tier.sequenceIndex + 1}`}
+          </Text>
+        )}
       </Text>
       <Stack
         align="center"
@@ -53,7 +60,7 @@ export default function GearProgressionSlider() {
         spacing="md"
       >
         <Button
-          disabled={tierIndex <= 0}
+          disabled={tier.previous === undefined}
           icon="chevron_left"
           iconProps={{
             color: 'var(--color-silver)',
@@ -67,12 +74,12 @@ export default function GearProgressionSlider() {
           className="mb-xxxs"
           id="tier-range"
           min={0}
-          max={context.highestTier}
-          value={tierIndex}
-          onChange={context.setTier}
+          max={context.category.sequence.length - 1}
+          value={tier.sequenceIndex ?? 0}
+          onChange={context.setTierIndex}
         />
         <Button
-          disabled={tierIndex >= context.highestTier}
+          disabled={tier.next === undefined}
           icon="chevron_right"
           iconProps={{
             color: 'var(--color-silver)',

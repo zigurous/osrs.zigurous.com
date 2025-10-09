@@ -39,32 +39,31 @@ const decisions: string[] = [
   'Temple_of_Ikov', // 65 fletching for yew shortbow
   'Desert_Treasure_I', // 50 firemaking, 53 thieving
   'Recipe_for_Disaster/Freeing_King_Awowogei', // 70 cooking
+  'A_Kingdom_Divided', // 54 agility
   'Fairytale_II_-_Cure_a_Queen', // 49 farming
   "King's_Ransom", // 65 defence
-  'A_Kingdom_Divided', // 54 agility
+  'Perilous_Moons', // 48 slayer
+  'At_First_Light', // 46 hunter
   'Regicide', // 56 agility
   "Mourning's_End_Part_I", // 60 ranged
-  'The_Heart_of_Darkness', // 48 slayer, 55 mining
   'Lunar_Diplomacy', // 60 mining, 61 crafting, 65 magic
   'Swan_Song', // 66 magic
   'Grim_Tales', // 58 thieving, 71 woodcutting
-  'At_First_Light', // 46 hunter
   'Defender_of_Varrock', // 52 hunter, 55 smithing
-  'Devious_Minds', // 50 runecraft, 65 smithing
   'The_Final_Dawn', // 52 runecraft, 66 thieving
   'Scrambled!', // 38 construction
   'Shadows_of_Custodia', // 41 construction, 54 slayer
-  'The_Path_of_Glouphrie', // 56 slayer
-  'The_Fremennik_Exiles', // 55 runecraft, 60 slayer, 65 crafting
   'Beneath_Cursed_Sands', // 55 firemaking, 62 agility
-  'Monkey_Madness_II', // 60 firemaking, 60 hunter, 69 slayer, 70 crafting
   'The_Curse_of_Arrav', // 62 ranged, 64 mining
-  'Dragon_Slayer_II', // 50 construction, 68 mining, 70 smithing, 75 magic
-  'Making_Friends_with_My_Arm', // 66 firemaking, 68 agility, 72 mining
-  'Secrets_of_the_North', // 69 agility
+  'The_Path_of_Glouphrie', // 56 slayer
   'While_Guthix_Sleeps', // 65 farming, 65 herblore, 72 thieving
-  'Desert_Treasure_II_-_The_Fallen_Empire', // 60 construction, 60 runecraft, 75 firemaking
-  'Song_of_the_Elves', // 70 agility, 70 construction, 70 farming, 70 herblore, 70 hunter
+  'Devious_Minds', // 65 smithing
+  'The_Fremennik_Exiles', // 55 runecraft, 60 slayer, 65 crafting
+  'Dragon_Slayer_II', // 50 construction, 68 mining, 70 smithing, 75 magic
+  'Monkey_Madness_II', // 60 firemaking, 69 slayer, 70 crafting
+  'Song_of_the_Elves', // 70 agility, 70 construction, 70 farming, 70 herblore, 70 hunter, 70 mining
+  'Making_Friends_with_My_Arm', // 66 firemaking
+  'Desert_Treasure_II_-_The_Fallen_Empire', // 60 runecraft, 75 firemaking
 ];
 
 export function useOptimalQuestOrder(): string[] {

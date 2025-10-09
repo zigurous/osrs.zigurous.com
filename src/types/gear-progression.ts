@@ -1,35 +1,38 @@
-import type { EquipmentCategory } from './equipment';
+import type { EquipmentCategory, EquipmentSubcategoryId } from './equipment';
 import type { SkillLevelHighlight } from './skill';
 
 export type GearProgressionCategoryId = 'melee' | 'ranged' | 'magic';
+export type GearProgressionSubcategoryId = EquipmentSubcategoryId;
 
-export type GearProgressionCategory = Omit<
-  EquipmentCategory,
-  'id' | 'subcategoryKey'
-> & {
+export type GearProgressionCategory = Omit<EquipmentCategory, 'id'> & {
   id: GearProgressionCategoryId;
-  subcategoryKey: keyof GearProgressionSubcategories;
 };
-
-export interface GearProgressionSubcategories {
-  meleeSubcategory: string | undefined;
-  rangedSubcategory: string | undefined;
-  magicSubcategory: string | undefined;
-}
 
 export interface GearProgressionTier {
   title: string;
-  items?: string[];
-  subcategoryItems?: { id: string; subcategory: string }[];
+  categories: (GearProgressionCategoryId | 'all')[];
+  items?: GearProgressionCategoryItem[];
+  subcategoryItems?: GearProgressionSubcategoryItem[];
   skills?: SkillLevelHighlight[];
   timeline: GearProgressionTimelineCard[];
   notes?: string[];
   questMilestone?: string;
 }
 
+export interface GearProgressionCategoryItem {
+  id: string;
+  category: GearProgressionCategoryId | 'all';
+}
+
+export interface GearProgressionSubcategoryItem {
+  id: string;
+  subcategory: GearProgressionSubcategoryId;
+}
+
 export interface GearProgressionTimelineCard {
   id: string;
   icon: string;
+  category?: GearProgressionCategoryId;
   title?: string;
   subtitle?: string;
   items?: string[];
@@ -38,7 +41,7 @@ export interface GearProgressionTimelineCard {
 
 export type GearProgressionTimelineSubCard = Omit<
   GearProgressionTimelineCard,
-  'items' | 'subcards'
+  'items' | 'subcards' | 'category'
 > & {
   setupId?: string;
 };

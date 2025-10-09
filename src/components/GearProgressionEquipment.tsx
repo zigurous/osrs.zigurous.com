@@ -4,19 +4,18 @@ import React from 'react';
 import EquipmentInventory from './EquipmentInventory';
 import IconToggle from './IconToggle';
 import TitledCard from './TitledCard';
-import { useGearProgressionContext } from '../context';
-import { EQUIPMENT_OVERALL } from '../context/GearProgressionContext';
-import { equipmentSlots } from '../utils';
+import { useEquipmentContext, useGearProgressionContext } from '../context';
 
 export default function GearProgressionEquipment() {
   const context = useGearProgressionContext();
+  const { getItemById } = useEquipmentContext();
   return (
     <TitledCard
       className="gear-progression-card"
       id="equipment"
-      title={context.selectedCategory.title}
+      title={context.category.title}
       captionIcon={
-        context.selectedCategory.subcategories && (
+        context.category.subcategories && (
           <Stack
             inline
             className="h-0"
@@ -24,14 +23,18 @@ export default function GearProgressionEquipment() {
             justify="end"
             spacing="xxxs"
           >
-            {context.selectedCategory.subcategories.map(subcategory => {
+            {context.category.subcategories.map(subcategory => {
               const changed = Boolean(
-                context.current.equipment[subcategory.id] &&
-                  equipmentSlots.some(slot =>
-                    context.current.equipment[subcategory.id][
-                      slot
-                    ]?.tags?.includes('upgrade'),
-                  ),
+                context.currentTier.subcategoryItems?.some(el => {
+                  if (el.subcategory !== subcategory.id) return false;
+                  const item = getItemById(el.id);
+                  return (
+                    item &&
+                    context.currentTier.equipment[subcategory.id][
+                      item.slot
+                    ]?.tags?.includes('upgrade')
+                  );
+                }),
               );
               return (
                 <IconToggle
@@ -39,7 +42,7 @@ export default function GearProgressionEquipment() {
                   icon={subcategory.icon}
                   key={subcategory.id}
                   label={subcategory.label}
-                  on={subcategory.id === context.selectedSubcategory}
+                  on={subcategory.id === context.subcategory}
                   onChange={on =>
                     context.setSubcategory(on ? subcategory.id : undefined)
                   }
@@ -59,7 +62,11 @@ export default function GearProgressionEquipment() {
         style={{ minWidth: '240px' }}
       >
         <EquipmentInventory
-          items={context.current.equipment[EQUIPMENT_OVERALL]}
+          items={
+            context.subcategory
+              ? context.currentTier.equipment[context.subcategory]
+              : context.currentTier.equipment[context.category.id]
+          }
         />
       </Stack>
     </TitledCard>

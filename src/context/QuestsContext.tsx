@@ -117,7 +117,7 @@ interface QuestsQueryData {
 
 const dataQuery = graphql`
   query QuestsQuery {
-    order: questOrderJson(jsonId: { eq: "optimal-ironman" }) {
+    order: questOrderJson(jsonId: { eq: "custom" }) {
       id: jsonId
       mode
       quests

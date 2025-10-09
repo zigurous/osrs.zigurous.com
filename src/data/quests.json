@@ -427,9 +427,9 @@
       { "skill": "construction", "level": 60 }
     ],
     "rewards": [
-      { "skill": "prayer", "experience": 100000 },
-      { "skill": "prayer", "experience": 100000 },
-      { "skill": "prayer", "experience": 100000 }
+      { "skill": "prayer", "experience": 100000, "lamp": true },
+      { "skill": "prayer", "experience": 100000, "lamp": true },
+      { "skill": "prayer", "experience": 100000, "lamp": true }
     ]
   },
   {
@@ -495,7 +495,11 @@
       { "skill": "smithing", "experience": 80000 },
       { "skill": "mining", "experience": 60000 },
       { "skill": "agility", "experience": 50000 },
-      { "skill": "thieving", "experience": 50000 }
+      { "skill": "thieving", "experience": 50000 },
+      { "skill": "magic", "experience": 25000, "lamp": true },
+      { "skill": "magic", "experience": 25000, "lamp": true },
+      { "skill": "magic", "experience": 25000, "lamp": true },
+      { "skill": "magic", "experience": 25000, "lamp": true }
     ]
   },
   {
@@ -1168,8 +1172,8 @@
       { "skill": "agility", "experience": 60000 },
       { "skill": "thieving", "experience": 50000 },
       { "skill": "hunter", "experience": 50000 },
-      { "skill": "magic", "experience": 50000 },
-      { "skill": "magic", "experience": 50000 }
+      { "skill": "magic", "experience": 50000, "lamp": true },
+      { "skill": "magic", "experience": 50000, "lamp": true }
     ]
   },
   {

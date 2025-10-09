@@ -2,12 +2,11 @@ import { graphql, useStaticQuery } from 'gatsby';
 import React, { createContext, useCallback, useContext } from 'react';
 import type { EquipmentItem, ItemTag } from '../types';
 
+// prettier-ignore
 interface EquipmentContextData {
   equipment: EquipmentItem[];
   getItemById: (id: string) => EquipmentItem | undefined;
-  getItemData: (
-    item: string | EquipmentItem | undefined,
-  ) => EquipmentItem | undefined;
+  getItemData: (item: string | EquipmentItem | undefined) => EquipmentItem | undefined;
 }
 
 const defaultData: EquipmentContextData = {

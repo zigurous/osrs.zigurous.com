@@ -6,7 +6,7 @@ import type { Skill } from '../types';
 
 export default function GearProgressionSkills() {
   const context = useGearProgressionContext();
-  const highlighted = context.current.skills?.reduce((skills, stat) => {
+  const highlighted = context.currentTier.skills?.reduce((skills, stat) => {
     if (stat.highlight) {
       skills.push(stat.skill);
     }
@@ -16,7 +16,7 @@ export default function GearProgressionSkills() {
     <TitledCard className="gear-progression-card" id="skills" title="Skills">
       <SkillsGrid
         highlighted={highlighted}
-        levels={context.current.skillRequirements}
+        levels={context.currentTier.skillRequirements}
         cols={1}
         rows={8}
       />

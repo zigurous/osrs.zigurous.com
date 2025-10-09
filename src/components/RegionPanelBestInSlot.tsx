@@ -94,6 +94,7 @@ const categories: EquipmentCategory[] = [
     title: 'Prayer',
     icon: 'Prayer_icon_(detail)',
     subcategoryKey: 'prayerSubcategory',
+    subcategories: [],
   },
 ];
 

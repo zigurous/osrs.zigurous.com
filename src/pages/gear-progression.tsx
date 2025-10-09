@@ -86,15 +86,16 @@ function GearProgressionPageContent() {
               <IconToggle
                 hideTooltip
                 icon={category.icon}
-                iconSize={20}
+                iconSize={24}
                 key={category.id}
                 label={category.title}
-                on={context.selectedCategory.id === category.id}
+                on={context.category.id === category.id}
                 onChange={on => {
                   if (on) {
                     context.setCategory(category.id);
                   }
                 }}
+                size="lg"
               />
             ))}
           </Stack>
