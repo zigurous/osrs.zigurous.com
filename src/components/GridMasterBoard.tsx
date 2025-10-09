@@ -33,7 +33,7 @@ function GridMasterTaskTile({ tile }: { tile: GridMasterTile }) {
     <TooltipWrapper
       id={cell}
       className="grid-master__cell"
-      tooltip={(flipped ? tile.reward : tile.task) || 'Unknown'}
+      tooltip={(!unknown && (flipped ? tile.reward : tile.task)) || 'Unknown'}
     >
       <WikiLink
         aria-label={tile.task || 'Unknown'}
@@ -41,7 +41,10 @@ function GridMasterTaskTile({ tile }: { tile: GridMasterTile }) {
           [`grid-master__tile--${tile.type}`]: tile.type,
           'grid-master__tile--unknown': unknown,
         })}
-        wikiId={(flipped ? tile.rewardLink : tile.taskLink) || 'Grid_Master'}
+        wikiId={
+          (!unknown && (flipped ? tile.rewardLink : tile.taskLink)) ||
+          'Grid_Master'
+        }
       >
         <GridMasterTileImage
           cell={cell}
@@ -63,7 +66,7 @@ function GridMasterRewardTile({ tile }: { tile: GridMasterTile }) {
     <TooltipWrapper
       id={cell}
       className="grid-master__cell"
-      tooltip={tile.reward || 'Unknown'}
+      tooltip={(!unknown && tile.reward) || 'Unknown'}
     >
       <WikiLink
         aria-label={tile.reward || 'Unknown'}
@@ -74,7 +77,7 @@ function GridMasterRewardTile({ tile }: { tile: GridMasterTile }) {
             'grid-master__tile--unknown': unknown,
           },
         )}
-        wikiId={tile.rewardLink || 'Grid_Master'}
+        wikiId={(!unknown && tile.rewardLink) || 'Grid_Master'}
       >
         <GridMasterTileImage
           cell={cell}
