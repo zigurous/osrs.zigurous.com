@@ -1,7 +1,7 @@
 import { Stack } from '@zigurous/forge-react';
 import classNames from 'classnames';
 import { type HeadFC, type PageProps } from 'gatsby';
-import React, { useEffect, useRef, useState } from 'react';
+import React from 'react';
 import { FooterBar, HeaderBar, IconToggle, RecommendedSetupModal, RootLayout } from '../components'; // prettier-ignore
 import GearProgressionEquipment from '../components/GearProgressionEquipment';
 import GearProgressionSlider from '../components/GearProgressionSlider';
@@ -9,6 +9,7 @@ import GearProgressionSkills from '../components/GearProgressionSkills';
 import GearProgressionTimeline from '../components/GearProgressionTimeline';
 import { EquipmentContextProvider, GearProgressionContextProvider, ItemsContextProvider, QuestsContextProvider, RecommendedSetupsContextProvider, useGearProgressionContext, useRecommendedSetupsContext } from '../context'; // prettier-ignore
 import { categories } from '../context/GearProgressionContext';
+import { useAspectFitElement } from '../utils';
 import type { RecommendedSetup } from '../types';
 import '../styles/gear-progression.css';
 
@@ -39,37 +40,10 @@ function ContextProviders({ children }: { children: React.ReactNode }) {
 }
 
 function GearProgressionPageContent() {
-  const ref = useRef<HTMLDivElement>(null);
   const context = useGearProgressionContext();
   const { currentSetup, previousSetup, closeSetup } =
     useRecommendedSetupsContext();
-  const [scale, setScale] = useState<number | undefined>();
-
-  const [observer] = useState(() =>
-    typeof window !== 'undefined'
-      ? new ResizeObserver((entries: ResizeObserverEntry[]) => {
-          setScale(
-            Math.min(
-              entries[0].contentRect.width / 1024,
-              entries[0].contentRect.height / 512,
-              1.333333333333333,
-            ),
-          );
-        })
-      : null,
-  );
-
-  useEffect(() => {
-    if (ref.current && observer) {
-      observer.observe(ref.current);
-      return () => {
-        if (ref.current && observer) {
-          observer.unobserve(ref.current);
-        }
-      };
-    }
-  }, [ref]);
-
+  const [ref, scale] = useAspectFitElement(1024, 512, 1, 1.333333333333333);
   return (
     <RootLayout id="gear-progression">
       <HeaderBar

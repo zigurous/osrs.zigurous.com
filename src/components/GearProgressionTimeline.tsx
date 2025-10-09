@@ -1,6 +1,6 @@
 import { getWheelDirection, Stack, throttle } from '@zigurous/forge-react';
 import classNames from 'classnames';
-import React, { useCallback, useEffect, useRef } from 'react';
+import React, { useCallback, useEffect, useState } from 'react';
 import GearProgressionNotes from './GearProgressionNotes';
 import GearProgressionTimelineCards from './GearProgressionTimelineCards';
 import { useGearProgressionContext } from '../context';
@@ -10,7 +10,11 @@ type WheelEventHandler = (e: WheelEvent) => any;
 
 export default function GearProgressionTimeline() {
   const context = useGearProgressionContext();
-  const ref = useRef<HTMLDivElement>(null);
+  const [timeline, setTimeline] = useState<HTMLDivElement | null>();
+
+  const ref = useCallback<React.RefCallback<HTMLDivElement>>(node => {
+    setTimeline(node);
+  }, []);
 
   const scroll = useCallback<WheelEventHandler>(
     throttle((e: WheelEvent) => {
@@ -21,20 +25,20 @@ export default function GearProgressionTimeline() {
   );
 
   useEffect(() => {
-    if (typeof window !== 'undefined') {
-      ref.current?.addEventListener('wheel', scroll, { passive: false });
+    if (timeline && typeof window !== 'undefined') {
+      timeline.addEventListener('wheel', scroll, { passive: false });
       return () => {
-        ref.current?.removeEventListener('wheel', scroll);
+        timeline?.removeEventListener('wheel', scroll);
       };
     }
-  }, [ref, scroll]);
+  }, [timeline, scroll]);
 
   useEffect(() => {
-    if (typeof window !== 'undefined') {
+    if (timeline && typeof window !== 'undefined') {
       const handleWheel = (e: WheelEvent) => {
         let target: HTMLElement | null = e.target as HTMLElement;
         while (target) {
-          if (target === ref.current) {
+          if (target === timeline) {
             e.preventDefault();
             return;
           }
@@ -44,7 +48,7 @@ export default function GearProgressionTimeline() {
       window.addEventListener('wheel', handleWheel, { passive: false });
       return () => window.removeEventListener('wheel', handleWheel);
     }
-  }, [ref]);
+  }, [timeline]);
 
   const transitioningDown =
     context.transitionIndex !== undefined &&

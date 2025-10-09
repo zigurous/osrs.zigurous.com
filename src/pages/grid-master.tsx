@@ -1,8 +1,9 @@
 import classNames from 'classnames';
 import { type HeadFC, type PageProps } from 'gatsby';
-import React, { useEffect, useRef, useState } from 'react';
+import React from 'react';
 import { FooterBar, GridMasterBoard, GridMasterTaskModal, HeaderBar, RootLayout } from '../components'; // prettier-ignore
 import { GridMasterContextProvider, useGridMasterContext } from '../context';
+import { useAspectFitElement } from '../utils';
 import type { GridMasterTask } from '../types';
 import '../styles/grid-master.css';
 
@@ -17,35 +18,8 @@ export default function GridMaster({}: PageProps) {
 }
 
 function GridMasterPageContent() {
-  const ref = useRef<HTMLDivElement>(null);
   const context = useGridMasterContext();
-  const [scale, setScale] = useState<number | undefined>();
-
-  const [observer] = useState(() =>
-    typeof window !== 'undefined'
-      ? new ResizeObserver((entries: ResizeObserverEntry[]) => {
-          setScale(
-            Math.min(
-              entries[0].contentRect.width / 512,
-              entries[0].contentRect.height / 512,
-              1.25,
-            ),
-          );
-        })
-      : null,
-  );
-
-  useEffect(() => {
-    if (ref.current && observer) {
-      observer.observe(ref.current);
-      return () => {
-        if (ref.current && observer) {
-          observer.unobserve(ref.current);
-        }
-      };
-    }
-  }, [ref]);
-
+  const [ref, scale] = useAspectFitElement(512, 512, 1, 1.25);
   return (
     <RootLayout id="grid-master">
       <div className="flex flex-col w-full h-full">
@@ -57,8 +31,7 @@ function GridMasterPageContent() {
             })}
             style={{ transform: `scale(${scale || 1})` }}
           >
-            <h1 className="mb-2xl">Coming Soon</h1>
-            {/* <GridMasterBoard /> */}
+            <GridMasterBoard />
           </div>
         </div>
         <FooterBar />

@@ -1,38 +1,18 @@
 import '../styles/world-map.css';
 import { Button, PanAndZoomProvider, PanAndZoomTransform } from '@zigurous/forge-react'; // prettier-ignore
 import classNames from 'classnames';
-import React, { useEffect, useRef, useState } from 'react';
+import React from 'react';
 import AreaBadge from './AreaBadge';
 import WorldMapSVG from './WorldMapSVG';
 import { useRegionsContext } from '../context';
+import { useAspectFitScaling } from '../utils';
 import type { RegionId } from '../types';
 
 const MAP_SIZE = { width: 463, height: 215 };
 
 export default function WorldMap() {
   const context = useRegionsContext();
-  const ref = useRef<HTMLDivElement>(null);
-
-  const [scale, setScale] = useState(1);
-  const [observer] = useState(() =>
-    typeof window !== 'undefined'
-      ? new ResizeObserver((entries: ResizeObserverEntry[]) => {
-          setScale(entries[0].contentRect.width / MAP_SIZE.width);
-        })
-      : null,
-  );
-
-  useEffect(() => {
-    if (ref.current && observer) {
-      observer.observe(ref.current);
-      return () => {
-        if (ref.current && observer) {
-          observer.unobserve(ref.current);
-        }
-      };
-    }
-  }, [ref]);
-
+  const [ref, scale] = useAspectFitScaling(MAP_SIZE.width, MAP_SIZE.height);
   return (
     <PanAndZoomProvider
       className={classNames(
@@ -53,7 +33,9 @@ export default function WorldMap() {
               style={{
                 width: MAP_SIZE.width,
                 height: MAP_SIZE.height,
-                transform: `translate(-50%, -50%) scale(${scale * 0.8})`,
+                transform: scale
+                  ? `translate(-50%, -50%) scale(${scale * 0.8})`
+                  : undefined,
               }}
             >
               <WorldMapSVG
