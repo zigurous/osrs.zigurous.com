@@ -1,3 +1,4 @@
+import { Text } from '@zigurous/forge-react';
 import classNames from 'classnames';
 import React from 'react';
 import GridMasterTileImage from './GridMasterTileImage';
@@ -5,7 +6,6 @@ import TooltipWrapper from './TooltipWrapper';
 import WikiLink from './WikiLink';
 import { useGridMasterContext } from '../context';
 import type { GridMasterTile } from '../types';
-import { Text } from '@zigurous/forge-react';
 
 export default function GridMasterBoard() {
   const { tiles } = useGridMasterContext();

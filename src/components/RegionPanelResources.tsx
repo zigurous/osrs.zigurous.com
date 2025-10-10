@@ -5,7 +5,7 @@ import RegionPanelSection from './RegionPanelSection';
 import TitledCard from './TitledCard';
 import WikiIcon from './WikiIcon';
 import { useItemsContext } from '../context';
-import { itemIds, healing } from '../utils';
+import { healing, itemWikiIds } from '../utils';
 import type { FoodData, ItemData, Region } from '../types';
 
 interface RegionPanelResourcesProps {
@@ -19,44 +19,44 @@ export default function RegionPanelResources({
   const items = itemsContext.getItemsByIds(region.resources);
 
   const bars = items
-    .filter(item => itemIds.bars.includes(item.id))
+    .filter(item => itemWikiIds.bars.includes(item.id))
     .sort(sortWithKey('bars'));
 
   const food = items
-    .filter(item => itemIds.food.includes(item.id))
+    .filter(item => itemWikiIds.food.includes(item.id))
     .map(item => ({ ...item, healing: healing[item.id] }) as FoodData)
     .sort(sortWithKey('food'));
 
   const gems = items
-    .filter(item => itemIds.gems.includes(item.id))
+    .filter(item => itemWikiIds.gems.includes(item.id))
     .sort(sortWithKey('gems'));
 
   const hides = items
-    .filter(item => itemIds.hides.includes(item.id))
+    .filter(item => itemWikiIds.hides.includes(item.id))
     .sort(sortWithKey('hides'));
 
   const logs = items
-    .filter(item => itemIds.logs.includes(item.id))
+    .filter(item => itemWikiIds.logs.includes(item.id))
     .sort(sortWithKey('logs'));
 
   const misc = items
-    .filter(item => itemIds.misc.includes(item.id))
+    .filter(item => itemWikiIds.misc.includes(item.id))
     .sort(sortWithKey('misc'));
 
   const ores = items
-    .filter(item => itemIds.ores.includes(item.id))
+    .filter(item => itemWikiIds.ores.includes(item.id))
     .sort(sortWithKey('ores'));
 
   const remains = items
-    .filter(item => itemIds.remains.includes(item.id))
+    .filter(item => itemWikiIds.remains.includes(item.id))
     .sort(sortWithKey('remains'));
 
   const runes = items
-    .filter(item => itemIds.runes.includes(item.id))
+    .filter(item => itemWikiIds.runes.includes(item.id))
     .sort(sortWithKey('runes'));
 
   const secondaries = items
-    .filter(item => itemIds.secondaries.includes(item.id))
+    .filter(item => itemWikiIds.secondaries.includes(item.id))
     .sort(sortWithKey('secondaries'));
 
   return (
@@ -161,11 +161,11 @@ export default function RegionPanelResources({
 }
 
 function sortWithKey(
-  key: keyof typeof itemIds,
+  key: keyof typeof itemWikiIds,
 ): (a: ItemData, b: ItemData) => number {
   return (a, b) => {
-    let aIndex = itemIds[key].indexOf(a.id);
-    let bIndex = itemIds[key].indexOf(b.id);
+    let aIndex = itemWikiIds[key].indexOf(a.id);
+    let bIndex = itemWikiIds[key].indexOf(b.id);
     if (aIndex === -1) aIndex = Number.MAX_SAFE_INTEGER;
     if (bIndex === -1) bIndex = Number.MAX_SAFE_INTEGER;
     return aIndex - bIndex;

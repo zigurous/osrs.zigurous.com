@@ -1,4 +1,4 @@
-import { skills } from './constants';
+import { skills } from './skills';
 import type { Quest, Skill, SkillLevels } from '../types';
 
 export const MAX_XP = 200_000_000;

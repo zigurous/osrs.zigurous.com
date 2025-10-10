@@ -5,8 +5,7 @@ import BestInSlotEquipmentCard from './BestInSlotEquipmentCard';
 import CheckboxToggle from './CheckboxToggle';
 import RegionPanelSection from './RegionPanelSection';
 import { useSettingsContext } from '../context';
-import { equipmentCategories } from '../utils';
-import type { BestInSlotQueryData, Region } from '../types';
+import type { BestInSlotQueryData, EquipmentCategory, Region } from '../types';
 
 interface RegionPanelBestInSlotProps {
   region: Region;
@@ -47,7 +46,7 @@ export default function RegionPanelBestInSlot({
       >
         * Requires components from another region or source
       </Text>
-      {equipmentCategories.map(category => (
+      {categories.map(category => (
         <BestInSlotEquipmentCard
           category={category}
           data={data}
@@ -58,6 +57,46 @@ export default function RegionPanelBestInSlot({
     </RegionPanelSection>
   );
 }
+
+const categories: EquipmentCategory[] = [
+  {
+    id: 'melee',
+    title: 'Melee',
+    icon: 'Attack_style_icon',
+    subcategoryKey: 'meleeSubcategory',
+    subcategories: [
+      { id: 'melee-stab', label: 'Stab', icon: 'White_dagger' },
+      { id: 'melee-slash', label: 'Slash', icon: 'White_scimitar' },
+      { id: 'melee-crush', label: 'Crush', icon: 'White_warhammer' },
+      { id: 'melee-spec', label: 'Special', icon: 'Special_attack_orb' },
+    ],
+  },
+  {
+    id: 'ranged',
+    title: 'Ranged',
+    icon: 'Ranged_icon_(detail)',
+    subcategoryKey: 'rangedSubcategory',
+    subcategories: [
+      { id: 'ranged-spec', label: 'Special', icon: 'Special_attack_orb' },
+    ],
+  },
+  {
+    id: 'magic',
+    title: 'Magic',
+    icon: 'Magic_icon_(detail)',
+    subcategoryKey: 'magicSubcategory',
+    subcategories: [
+      { id: 'magic-spec', label: 'Special', icon: 'Special_attack_orb' },
+    ],
+  },
+  {
+    id: 'prayer',
+    title: 'Prayer',
+    icon: 'Prayer_icon_(detail)',
+    subcategoryKey: 'prayerSubcategory',
+    subcategories: [],
+  },
+];
 
 const dataQuery = graphql`
   query BestInSlotQuery {

@@ -12,8 +12,8 @@ import RegionPanelSkilling from './RegionPanelSkilling';
 import RegionPanelSlayer from './RegionPanelSlayer';
 import RegionPanelTabs from './RegionPanelTabs';
 import { useRegionsContext } from '../context';
-import { combineRegions } from '../utils';
-import type { Region } from '../types';
+import { sortById } from '../utils';
+import type { Region, RegionId } from '../types';
 
 export type RegionPanelTab =
   | 'Best In Slot'
@@ -115,4 +115,37 @@ function renderTab(selectedTab: RegionPanelTab, selectedRegion: Region) {
     default:
       return null;
   }
+}
+
+function combineRegions(regions: Region[]): Region {
+  if (regions.length <= 1) return regions[0];
+  return {
+    id: regions.map(region => region.id).join(',') as RegionId,
+    name: 'Regions',
+    description: '',
+    storylines: combineUniqueIds(regions, 'storylines'),
+    skilling: combineUniqueIds(regions, 'skilling'),
+    raids: combineUniqueIds(regions, 'raids'),
+    bosses: combineUniqueIds(regions, 'bosses'),
+    minigames: combineUniqueIds(regions, 'minigames'),
+    guilds: combineUniqueIds(regions, 'guilds'),
+    locations: combineUniqueIds(regions, 'locations'),
+    dungeons: combineUniqueIds(regions, 'dungeons'),
+    monsters: combineUniqueIds(regions, 'monsters'),
+    npcs: combineUniqueIds(regions, 'npcs'),
+    misc: combineUniqueIds(regions, 'misc'),
+    pets: combineUniqueIds(regions, 'pets'),
+    resources: combineUniqueIds(regions, 'resources'),
+  };
+}
+
+function combineUniqueIds(regions: Region[], prop: keyof Region): string[] {
+  return [
+    ...new Set(
+      regions
+        .map(region => region[prop])
+        .flat()
+        .sort(sortById),
+    ),
+  ];
 }

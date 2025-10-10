@@ -1,8 +1,18 @@
 import type { ItemData } from './item';
 import type { SkillRequirement } from './skill';
-import { equipmentSlots } from '../utils';
 
-export type EquipmentSlotId = (typeof equipmentSlots)[number];
+export type EquipmentSlotId =
+  | 'ammo'
+  | 'body'
+  | 'cape'
+  | 'feet'
+  | 'hands'
+  | 'head'
+  | 'legs'
+  | 'neck'
+  | 'ring'
+  | 'shield'
+  | 'weapon';
 
 export interface EquipmentItem extends Omit<ItemData, 'transmutations'> {
   slot: EquipmentSlotId;

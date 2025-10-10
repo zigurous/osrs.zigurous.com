@@ -21,7 +21,6 @@ export { default as RegionPanel } from './RegionPanel';
 export { default as RootLayout } from './RootLayout';
 export { default as SkillFilters } from './SkillFilters';
 export { default as SkillLevelInput } from './SkillLevelInput';
-export { default as SkillsCard } from './SkillsCard';
 export { default as SkillsGrid } from './SkillsGrid';
 export { default as Slider } from './Slider';
 export { default as TermsAndConditions } from './TermsAndConditions';

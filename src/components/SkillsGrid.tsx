@@ -45,7 +45,7 @@ export default function SkillsGrid({
           })}
           key={skill}
         >
-          <WikiIcon icon={getIconForSkill(skill)!} />
+          <WikiIcon icon={getIconForSkill(skill)} />
           <Text className="ml-sm mr-xxs" color="muted" type="body-sm">
             {levels[skill] || (skill === 'hitpoints' ? 10 : 1)}
           </Text>

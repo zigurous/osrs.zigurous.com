@@ -1,4 +1,4 @@
-import type { PreRenderHTMLArgs, RenderBodyArgs } from 'gatsby';
+import { type PreRenderHTMLArgs, type RenderBodyArgs } from 'gatsby';
 import React from 'react';
 
 type ReactProps<T extends Element> = React.DetailedHTMLProps<

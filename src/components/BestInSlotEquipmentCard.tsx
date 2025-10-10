@@ -1,7 +1,6 @@
 import React, { useMemo } from 'react';
 import EquipmentCard from './EquipmentCard';
 import { useEquipmentContext, useSettingsContext } from '../context';
-import { getEmptyEquipmentSlots, isInRegion } from '../utils';
 import type { BestInSlotQueryData, EquipmentCategory, EquippedItems } from '../types'; // prettier-ignore
 
 interface BestInSlotEquipmentCardProps {
@@ -21,7 +20,7 @@ export default function BestInSlotEquipmentCard({
 
   const equipment: EquippedItems = useMemo(() => {
     // Start with an empty set of slots
-    const slots = getEmptyEquipmentSlots();
+    const slots: EquippedItems = {};
     // Assigns items to each slot based on the category (melee, ranged, magic)
     const assignItems = (category: string) => {
       const bis = data.priority.nodes.find(node => node.category === category);
@@ -95,4 +94,13 @@ export default function BestInSlotEquipmentCard({
   }, [data, region, category.id, subcategoryId, settings, getItemById]);
 
   return <EquipmentCard category={category} equipment={equipment} />;
+}
+
+function isInRegion(id: string, regions: string[]): boolean {
+  if (regions.includes('all')) return true;
+  return regions.some(region =>
+    region.includes('/')
+      ? region.split('/').every(split => id.includes(split))
+      : id.includes(region),
+  );
 }

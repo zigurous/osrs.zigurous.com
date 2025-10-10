@@ -2,8 +2,8 @@ import { clamp } from '@zigurous/forge-react';
 import { graphql, useStaticQuery } from 'gatsby';
 import React, { createContext, useCallback, useContext, useEffect, useRef, useState } from 'react'; // prettier-ignore
 import { useEquipmentContext, useQuestsContext } from '../context'; // prettier-ignore
-import { gearProgressionCategories } from '../utils';
-import type { GearProgressionTier, GearProgressionCategoryId, GearProgressionSubcategoryId, GearProgressionContextCategory, GearProgressionContextTier } from '../types'; // prettier-ignore
+import { processGearProgressionData } from '../utils';
+import type { GearProgressionTier, GearProgressionCategoryId, GearProgressionSubcategoryId, GearProgressionContextCategory, GearProgressionContextTier, GearProgressionWorkerInput, GearProgressionCategory } from '../types'; // prettier-ignore
 
 // prettier-ignore
 interface GearProgressionContextData {
@@ -20,6 +20,48 @@ interface GearProgressionContextData {
   setTimelineDirection: (direction: number) => void;
 }
 
+export const categories: GearProgressionCategory[] = [
+  {
+    id: 'melee',
+    title: 'Melee',
+    icon: 'Attack_style_icon',
+    subcategoryKey: 'meleeSubcategory',
+    subcategories: [
+      { id: 'melee-stab', label: 'Stab', icon: 'White_dagger' },
+      { id: 'melee-slash', label: 'Slash', icon: 'White_scimitar' },
+      { id: 'melee-crush', label: 'Crush', icon: 'White_warhammer' },
+      { id: 'melee-spec', label: 'Special', icon: 'Special_attack_orb' },
+      { id: 'melee-slayer', label: 'Slayer', icon: 'Slayer_icon' },
+    ],
+  },
+  {
+    id: 'ranged',
+    title: 'Ranged',
+    icon: 'Ranged_icon_(detail)',
+    subcategoryKey: 'rangedSubcategory',
+    subcategories: [
+      { id: 'ranged-standard', label: 'Standard', icon: 'Steel_arrow_5' },
+      { id: 'ranged-light', label: 'Light', icon: 'Steel_dart' },
+      { id: 'ranged-heavy', label: 'Heavy', icon: 'Steel_bolts_5' },
+      { id: 'ranged-spec', label: 'Special', icon: 'Special_attack_orb' },
+      { id: 'ranged-slayer', label: 'Slayer', icon: 'Slayer_icon' },
+    ],
+  },
+  {
+    id: 'magic',
+    title: 'Magic',
+    icon: 'Magic_icon_(detail)',
+    subcategoryKey: 'magicSubcategory',
+    subcategories: [
+      { id: 'magic-standard', label: 'Standard', icon: 'Standard_spellbook' },
+      { id: 'magic-ancient', label: 'Ancient', icon: 'Ancient_spellbook' },
+      { id: 'magic-arceuus', label: 'Arceuus', icon: 'Arceuus_spellbook' },
+      { id: 'magic-spec', label: 'Special', icon: 'Special_attack_orb' },
+      { id: 'magic-slayer', label: 'Slayer', icon: 'Slayer_icon' },
+    ],
+  },
+];
+
 const emptyTier: GearProgressionContextTier = {
   tierIndex: 0,
   title: 'Loading...',
@@ -32,7 +74,7 @@ const emptyTier: GearProgressionContextTier = {
 
 const defaultData: GearProgressionContextData = {
   category: {
-    ...gearProgressionCategories[0],
+    ...categories[0],
     tiers: [emptyTier],
     sequence: [emptyTier],
   },
@@ -163,6 +205,13 @@ function useGearProgressionCategory(
   const { quests } = useQuestsContext();
 
   useEffect(() => {
+    const category = categories.find(category => category.id === categoryId)!;
+    const input: GearProgressionWorkerInput = {
+      tiers: data.progression.nodes,
+      category,
+      equipment,
+      quests,
+    };
     if (window.Worker) {
       const worker = new Worker(
         new URL('../workers/gear-progression.worker.ts', import.meta.url),
@@ -171,17 +220,12 @@ function useGearProgressionCategory(
       worker.onmessage = (e: MessageEvent<GearProgressionContextCategory>) => {
         setState(e.data);
       };
-      worker.postMessage({
-        tiers: data.progression.nodes,
-        category: gearProgressionCategories.find(
-          category => category.id === categoryId,
-        )!,
-        equipment,
-        quests,
-      });
+      worker.postMessage(input);
       return () => {
         worker.terminate();
       };
+    } else {
+      setState(processGearProgressionData(input));
     }
   }, [data, categoryId, equipment, quests]);
 
