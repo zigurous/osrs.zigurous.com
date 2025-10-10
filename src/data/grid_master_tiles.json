@@ -32,7 +32,7 @@
     "task": "Kill an Ogress.",
     "taskLink": "Ogress_Shaman",
     "reward": "Combatant",
-    "rewardDescription": "You select three Combat skills, then whenever you gain XP in one of your 3 selected Combat skills, you'll gain 50% of that XP in the other 2 selected skills.",
+    "rewardDescription": "Select three combat skills. Whenever you gain XP in one of your chosen skills, gain 50% XP in the other two.",
     "rewardIcon": "Combat_icon",
     "rewardLink": "Combatant"
   },
@@ -93,7 +93,7 @@
     "task": "Cook a shark while weaing a Chef's hat.",
     "taskLink": "Shark",
     "reward": "Corrupted Shark",
-    "rewardDescription": "A Shark that isn't consumed when eaten.\nHeals a base of 20 hitpoints.",
+    "rewardDescription": "A shark that isn't consumed when eaten.\nHeals a base of 20 hitpoints.",
     "rewardLink": "Corrupted_Shark"
   },
   {
@@ -108,7 +108,7 @@
     "task": "Complete the Inferno in 30 minutes or less.",
     "taskLink": "Inferno",
     "reward": "Guardian",
-    "rewardDescription": "This item will allow you to summon a powerful Guardian Thrall, lasting 30 minutes The guardian will attack your target with whatever style it is weak to.",
+    "rewardDescription": "Summon a powerful thrall lasting for 30 minutes. The guardian will attack your target with whatever style it is weak to and will AoE attack in multi-combat.",
     "rewardLink": "Guardian"
   },
   {
@@ -124,7 +124,8 @@
     "task": "Obtain some Valuables from a house in Varlamore.",
     "taskLink": "Stealing_valuables",
     "reward": "Golden God",
-    "rewardLink": "Golden_God"
+    "rewardLink": "Golden_God",
+    "rewardDescription": "• High and Low Level Alchemy spells have no rune cost or level requirements.\n• Items give 15% more gold and have a 65% chance to not be consumed when the spell is cast.\n• 20K coins can be offered at Prayer altars in exchange for Prayer XP equivalent to using a dragon bone."
   },
   {
     "col": "B",
@@ -143,7 +144,8 @@
     "icon": "Maple_logs",
     "task": "UNKNOWN – Maple logs",
     "taskLink": "Maple_logs",
-    "reward": "Choice: Power Miner, Lumberjack, Animal Wrangler",
+    "reward": " ",
+    "rewardDescription": "A choice from one of the following:\n• Power Miner\n• Lumberjack\n• Animal Wrangler",
     "rewardLink": "Infernal_Gathering",
     "unconfirmed": true
   },
@@ -176,7 +178,7 @@
     "taskLink": "High_Level_Alchemy",
     "reward": "Production Prodigy",
     "rewardLink": "Production_Prodigy",
-    "rewardDescription": "When doing the following activities, all items are processed at once:"
+    "rewardDescription": "When doing specific skilling activities, all items are processed at once, with a chance to make an extra product. Artisan skills also receive a permanent +12 boost."
   },
   {
     "col": "B",
@@ -194,7 +196,8 @@
     "type": "beginner",
     "task": "Complete the Grid Master tutorial.",
     "taskLink": "Grid_Master",
-    "reward": "Choice: Power Miner, Lumberjack, Animal Wrangler",
+    "reward": " ",
+    "rewardDescription": "A choice from one of the following:\n• Power Miner\n• Lumberjack\n• Animal Wrangler",
     "rewardLink": "Infernal_Gathering"
   },
   {
@@ -246,7 +249,7 @@
     "task": "Subdue Tempoross.",
     "taskLink": "Tempoross",
     "reward": "Craftsman",
-    "rewardDescription": "Select three Artisan skills, then whenever you gain XP in one of your 3 selected skills, you'll gain 50% of that XP in the other 2 selected skills.",
+    "rewardDescription": "Select three Artisan skills. When you gain experience in one of your three selected skills you'll gain 50% of that experience in the other two skills.",
     "rewardIcon": "Crafting_icon_(detail)",
     "rewardLink": "Craftsman"
   },
@@ -257,7 +260,8 @@
     "icon": "Gold_ore",
     "task": "UNKNOWN – Gold Ore",
     "taskLink": "Gold_ore",
-    "reward": "Choice: Power Miner, Lumberjack, Animal Wrangler",
+    "reward": " ",
+    "rewardDescription": "A choice from one of the following:\n• Power Miner\n• Lumberjack\n• Animal Wrangler",
     "rewardLink": "Infernal_Gathering",
     "unconfirmed": true
   },
@@ -352,7 +356,7 @@
     "task": "Obtain a rare unique from Tombs of Amascut.",
     "taskLink": "Tombs_of_Amascut",
     "reward": "Mega Rare Scroll",
-    "rewardDescription": "Choose one of the three mega rares from raids:\nScythe of Vitur | Tumeken's Shadow | Twisted Bow",
+    "rewardDescription": "Choose one of the three mega rares from raids:\nScythe of Vitur, Tumeken's Shadow, Twisted Bow",
     "rewardIcon": "Raids_megarare_voucher_(Raging_Echoes_League)",
     "rewardLink": "Raids_megarare_voucher"
   },
@@ -385,7 +389,7 @@
     "task": "Defeat the lesser demon in the Wizards' Tower.",
     "taskLink": "Lesser_demon",
     "reward": "Minimum Potential",
-    "rewardDescription": "Your Melee, Ranged & Magic hits will never deal below 5 damage.",
+    "rewardDescription": "Your Melee, Ranged and Magic hits will never deal below 5 damage. You can still miss your attacks.",
     "rewardLink": "Minimum_Potential"
   },
   {

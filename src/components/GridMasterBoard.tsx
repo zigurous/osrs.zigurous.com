@@ -5,6 +5,7 @@ import TooltipWrapper from './TooltipWrapper';
 import WikiLink from './WikiLink';
 import { useGridMasterContext } from '../context';
 import type { GridMasterTile } from '../types';
+import { Text } from '@zigurous/forge-react';
 
 export default function GridMasterBoard() {
   const { tiles } = useGridMasterContext();
@@ -34,7 +35,27 @@ function GridMasterTaskTile({ tile }: { tile: GridMasterTile }) {
     <TooltipWrapper
       id={cell}
       className="grid-master__cell"
-      tooltip={(!unknown && (flipped ? tile.reward : tile.task)) || 'Unknown'}
+      tooltip={
+        flipped && !unknown && tile.rewardDescription ? (
+          <Text style={{ maxWidth: '360px' }}>
+            <Text type="body-md" weight="500">
+              {tile.reward}
+            </Text>
+            <Text className="px-xxs pb-xxs text-wrap" type="body-sm">
+              {tile.rewardDescription.split('\n').map((line, index, array) => (
+                <React.Fragment key={`${index}:${line}`}>
+                  {line}
+                  {index != array.length - 1 && <br />}
+                </React.Fragment>
+              ))}
+            </Text>
+          </Text>
+        ) : (
+          <Text type="body-sm">
+            {(!unknown && (flipped ? tile.reward : tile.task)) || 'Unknown'}
+          </Text>
+        )
+      }
     >
       <WikiLink
         aria-label={tile.task || 'Unknown'}
@@ -67,7 +88,9 @@ function GridMasterRewardTile({ tile }: { tile: GridMasterTile }) {
     <TooltipWrapper
       id={cell}
       className="grid-master__cell"
-      tooltip={(!unknown && tile.reward) || 'Unknown'}
+      tooltip={
+        <Text type="body-sm">{(!unknown && tile.reward) || 'Unknown'}</Text>
+      }
     >
       <WikiLink
         aria-label={tile.reward || 'Unknown'}
