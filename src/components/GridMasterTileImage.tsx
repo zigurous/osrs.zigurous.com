@@ -2,6 +2,7 @@ import classNames from 'classnames';
 import React from 'react';
 import WikiIcon from './WikiIcon';
 import relicCorruptedShark from '../images/grid-master-relic-corrupted-shark.png';
+import relicFriendlyForager from '../images/grid-master-relic-friendly-forager.png';
 import relicGoldenGod from '../images/grid-master-relic-golden-god.png';
 import relicGuardian from '../images/grid-master-relic-guardian.png';
 import relicMinimumPotential from '../images/grid-master-relic-minimum-potential.png';
@@ -98,4 +99,5 @@ const rewards: Record<string, any> = {
   E1: relicSlayerMaster,
   E2: relicCorruptedShark,
   G2: relicGuardian,
+  G4: relicFriendlyForager,
 };

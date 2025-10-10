@@ -220,7 +220,13 @@
   {
     "col": "G",
     "row": "4",
-    "type": "easy"
+    "type": "easy",
+    "icon": "Magic_gold_feather",
+    "task": "UNKNOWN – Magic Gold Feather",
+    "taskLink": "Magic_gold_feather",
+    "reward": "Friendly Forager",
+    "rewardLink": "Friendly_Forager",
+    "unconfirmed": true
   },
   {
     "col": "R",
