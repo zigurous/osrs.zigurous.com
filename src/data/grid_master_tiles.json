@@ -135,7 +135,11 @@
   {
     "col": "C",
     "row": "3",
-    "type": "easy"
+    "type": "easy",
+    "icon": "Steamforge_brew",
+    "task": "UNKNOWN – Steamforge Brew",
+    "taskLink": "Steamforge_brew",
+    "unconfirmed": true
   },
   {
     "col": "D",
@@ -157,7 +161,11 @@
   {
     "col": "F",
     "row": "3",
-    "type": "medium"
+    "type": "medium",
+    "icon": "Limpwurt_root",
+    "task": "UNKNOWN – Limpwurt Root",
+    "taskLink": "Limpwurt_root",
+    "unconfirmed": true
   },
   {
     "col": "G",
@@ -242,6 +250,8 @@
     "col": "B",
     "row": "5",
     "type": "medium",
+    "icon": "Moonlight_moth_icon",
+    "task": "UNKNOWN – Moonlight Moth",
     "reward": "Fairy's Flight",
     "rewardIcon": "Fairy's_Flight",
     "rewardLink": "Fairy's_Flight",
@@ -407,6 +417,9 @@
     "col": "F",
     "row": "7",
     "type": "hard",
+    "icon": "Egg_(Humphrey_Dumphrey)",
+    "task": "UNKNOWN – Humphrey Dumphrey",
+    "taskLink": "Humphrey_Dumphrey",
     "reward": "Last Stand",
     "rewardIcon": "Last_Stand",
     "rewardLink": "Last_Stand",
