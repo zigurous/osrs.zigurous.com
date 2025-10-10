@@ -7,7 +7,11 @@
   {
     "col": "A",
     "row": "1",
-    "type": "hard"
+    "type": "hard",
+    "reward": "Avernic Treads",
+    "rewardIcon": "Avernic_treads_(max)",
+    "rewardLink": "Avernic_treads",
+    "unconfirmed": true
   },
   {
     "col": "B",
@@ -76,6 +80,7 @@
     "type": "easy",
     "icon": "Stats_icon",
     "task": "Unknown",
+    "reward": "Unknown",
     "unconfirmed": true
   },
   {
@@ -279,6 +284,7 @@
     "icon": "Ruinous_Powers",
     "task": "UNKNOWN – Ruinous Powers",
     "taskLink": "Ruinous_Powers",
+    "reward": "Unknown",
     "unconfirmed": true
   },
   {
@@ -298,6 +304,7 @@
     "icon": "Bryophyta_icon_(mobile)",
     "task": "UNKNOWN – Bryophyta",
     "taskLink": "Bryophyta",
+    "reward": "Unknown",
     "unconfirmed": true
   },
   {
@@ -313,7 +320,11 @@
   {
     "col": "G",
     "row": "6",
-    "type": "hard"
+    "type": "hard",
+    "icon": "Contract_of_bloodied_blows",
+    "task": "Yama: Contract of bloodied blows",
+    "taskLink": "Contract_of_bloodied_blows",
+    "unconfirmed": true
   },
   {
     "col": "R",

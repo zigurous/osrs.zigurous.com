@@ -28,7 +28,8 @@ function GridMasterTaskTile({ tile }: { tile: GridMasterTile }) {
   const { flipped, hideUnconfirmed } = useGridMasterContext();
   const cell = `${tile.col}${tile.row}`;
   const unknown =
-    !Boolean(tile.task) || Boolean(tile.unconfirmed && hideUnconfirmed);
+    (flipped ? !Boolean(tile.reward) : !Boolean(tile.task)) ||
+    Boolean(tile.unconfirmed && hideUnconfirmed);
   return (
     <TooltipWrapper
       id={cell}
