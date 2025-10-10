@@ -4,9 +4,10 @@ import React from 'react';
 import ItemFrame from './ItemFrame';
 import WikiIcon from './WikiIcon';
 import WikiLink from './WikiLink';
-import { useItemsContext, useRecommendedSetupsContext } from '../context';
-import { formatNameFromId } from '../utils'; // prettier-ignore
-import type { GearProgressionTimelineCard, GearProgressionTimelineSubCard } from '../types'; // prettier-ignore
+import { useItemsContext } from '../context/ItemsContext';
+import { useRecommendedSetupsContext } from '../context/RecommendedSetupsContext';
+import { formatNameFromId } from '../utils/formatting'; // prettier-ignore
+import type { GearProgressionTimelineCard, GearProgressionTimelineSubCard } from '../types/gear-progression'; // prettier-ignore
 
 interface GearProgressionTimelineCardsProps {
   cards?: GearProgressionTimelineCard[];

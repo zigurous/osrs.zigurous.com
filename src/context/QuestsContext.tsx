@@ -1,6 +1,7 @@
 import { graphql, useStaticQuery } from 'gatsby';
 import React, { createContext, useCallback, useContext } from 'react';
-import type { Quest, QuestId, QuestOrder, QuestSeries, QuestSeriesId, SkillLevels } from '../types'; // prettier-ignore
+import type { Quest, QuestId, QuestOrder, QuestSeries, QuestSeriesId } from '../types/quest'; // prettier-ignore
+import type { SkillLevels } from '../types/skill';
 
 interface QuestsContextData {
   order: QuestOrder;

@@ -4,8 +4,8 @@ import React from 'react';
 import EquipmentInventory from './EquipmentInventory';
 import IconToggle from './IconToggle';
 import TitledCard from './TitledCard';
-import { useSettingsContext } from '../context';
-import type { EquipmentCategory, EquippedItemIds, EquippedItems } from '../types'; // prettier-ignore
+import { useSettingsContext } from '../context/SettingsContext';
+import type { EquipmentCategory, EquippedItemIds, EquippedItems } from '../types/equipment'; // prettier-ignore
 
 interface EquipmentCardProps {
   category: EquipmentCategory;

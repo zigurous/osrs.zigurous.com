@@ -6,9 +6,12 @@ import SlayerDungeonListItem from './SlayerDungeonListItem';
 import SlayerMasterListItem from './SlayerMasterListItem';
 import SlayerMonsterListItem from './SlayerMonsterListItem';
 import TitledCard from './TitledCard';
-import { useItemsContext, useLocationsContext } from '../context';
-import { formatNameFromId, sortByName } from '../utils';
-import type { Region, SlayerDungeon, SlayerMaster, SlayerMonster} from '../types'; // prettier-ignore
+import { useItemsContext } from '../context/ItemsContext';
+import { useLocationsContext } from '../context/LocationsContext';
+import { formatNameFromId } from '../utils/formatting';
+import { sortByName } from '../utils/sorting';
+import type { Region } from '../types/region';
+import type { SlayerDungeon, SlayerMaster, SlayerMonster} from '../types/slayer'; // prettier-ignore
 
 interface RegionPanelSlayerProps {
   region: Region;

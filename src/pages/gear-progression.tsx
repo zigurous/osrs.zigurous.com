@@ -2,15 +2,21 @@ import { Badge, Stack } from '@zigurous/forge-react';
 import classNames from 'classnames';
 import { type HeadFC, type PageProps } from 'gatsby';
 import React from 'react';
-import { FooterBar, HeaderBar, IconToggle, RecommendedSetupModal, RootLayout } from '../components'; // prettier-ignore
+import FooterBar from '../components/FooterBar';
+import HeaderBar from '../components/HeaderBar';
+import IconToggle from '../components/IconToggle';
+import RecommendedSetupModal from '../components/RecommendedSetupModal';
+import RootLayout from '../components/RootLayout';
 import GearProgressionEquipment from '../components/GearProgressionEquipment';
 import GearProgressionSlider from '../components/GearProgressionSlider';
 import GearProgressionSkills from '../components/GearProgressionSkills';
 import GearProgressionTimeline from '../components/GearProgressionTimeline';
-import { EquipmentContextProvider, GearProgressionContextProvider, ItemsContextProvider, QuestsContextProvider, RecommendedSetupsContextProvider, useGearProgressionContext, useRecommendedSetupsContext } from '../context'; // prettier-ignore
-import { categories } from '../context/GearProgressionContext';
-import { useAspectFitScaling } from '../hooks';
-import type { RecommendedSetup } from '../types';
+import { EquipmentContextProvider } from '../context/EquipmentContext';
+import { categories, GearProgressionContextProvider, useGearProgressionContext } from '../context/GearProgressionContext'; // prettier-ignore
+import { ItemsContextProvider } from '../context/ItemsContext';
+import { QuestsContextProvider } from '../context/QuestsContext';
+import { RecommendedSetupsContextProvider, useRecommendedSetupsContext } from '../context/RecommendedSetupsContext'; // prettier-ignore
+import { useAspectFitScaling } from '../hooks/useAspectFitScaling';
 import '../styles/gear-progression.css';
 
 export const Head: HeadFC = () => <title>OSRS Gear Progression</title>;
@@ -104,14 +110,15 @@ function GearProgressionPageContent() {
         onRequestClose={closeSetup}
         open={Boolean(currentSetup)}
         scale={scale}
-        setup={currentSetup || previousSetup || emptySetup}
+        setup={
+          currentSetup ||
+          previousSetup || {
+            id: 'empty',
+            title: '',
+            loadouts: [],
+          }
+        }
       />
     </RootLayout>
   );
 }
-
-const emptySetup: RecommendedSetup = {
-  id: 'empty',
-  title: '',
-  loadouts: [],
-};

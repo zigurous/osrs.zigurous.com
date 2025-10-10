@@ -4,9 +4,13 @@ import RegionPanelSection from './RegionPanelSection';
 import TitledCard from './TitledCard';
 import WikiIcon from './WikiIcon';
 import WikiLink from './WikiLink';
-import { useActivitiesContext, useLocationsContext } from '../context';
-import { formatNameFromId, getIconForActivity, sortByIcon, sortByName } from '../utils'; // prettier-ignore
-import type { Activity, Region } from '../types';
+import { useActivitiesContext } from '../context/ActivitiesContext';
+import { useLocationsContext } from '../context/LocationsContext';
+import { formatNameFromId } from '../utils/formatting';
+import { getIconForActivity } from '../utils/icons';
+import { sortByIcon, sortByName } from '../utils/sorting';
+import type { Activity } from '../types/activity';
+import type { Region } from '../types/region';
 
 interface RegionPanelOverviewProps {
   region: Region;

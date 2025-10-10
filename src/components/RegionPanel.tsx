@@ -11,9 +11,9 @@ import RegionPanelResources from './RegionPanelResources';
 import RegionPanelSkilling from './RegionPanelSkilling';
 import RegionPanelSlayer from './RegionPanelSlayer';
 import RegionPanelTabs from './RegionPanelTabs';
-import { useRegionsContext } from '../context';
-import { sortById } from '../utils';
-import type { Region, RegionId } from '../types';
+import { useRegionsContext } from '../context/RegionsContext';
+import { sortById } from '../utils/sorting';
+import type { Region, RegionId } from '../types/region';
 
 export type RegionPanelTab =
   | 'Best In Slot'

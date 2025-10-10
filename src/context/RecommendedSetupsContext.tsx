@@ -1,7 +1,7 @@
 import { useIsMounted } from '@zigurous/forge-react';
 import { graphql, navigate, useStaticQuery } from 'gatsby';
 import React, { createContext, useCallback, useContext, useEffect, useState } from 'react'; // prettier-ignore
-import type { RecommendedSetup } from '../types';
+import type { RecommendedSetup } from '../types/recommended-setup';
 
 interface RecommendedSetupsContextData {
   setups: RecommendedSetup[];

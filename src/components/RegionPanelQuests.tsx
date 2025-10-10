@@ -5,9 +5,10 @@ import RegionPanelSection from './RegionPanelSection';
 import TitledCard from './TitledCard';
 import WikiIcon from './WikiIcon';
 import WikiLink from './WikiLink';
-import { useItemsContext, useQuestsContext } from '../context';
-import { formatNameFromId } from '../utils';
-import type { Region } from '../types';
+import { useItemsContext } from '../context/ItemsContext';
+import { useQuestsContext } from '../context/QuestsContext';
+import { formatNameFromId } from '../utils/formatting';
+import type { Region } from '../types/region';
 
 interface RegionPanelQuestsProps {
   region: Region;

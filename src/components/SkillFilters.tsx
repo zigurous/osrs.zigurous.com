@@ -2,13 +2,15 @@ import '../styles/skill-filters.css';
 import classNames from 'classnames';
 import React from 'react';
 import { useTooltip } from './TooltipWrapper';
-import { useSkillingFilterContext } from '../context';
-import { formatNameFromId, getIconForSortingGroup, skillingFilters } from '../utils'; // prettier-ignore
-import type { SkillFilter } from '../types';
+import { useSkillingFilterContext } from '../context/SkillingFilterContext';
+import { skills } from '../utils/constants';
+import { formatNameFromId } from '../utils/formatting';
+import { getIconForSortingGroup } from '../utils/icons';
+import type { Skill } from '../types/skill';
 
 interface SkillFiltersProps {
   className?: string;
-  disabledFilters?: SkillFilter[];
+  disabledFilters?: Skill[];
 }
 
 export default function SkillFilters({
@@ -17,11 +19,11 @@ export default function SkillFilters({
 }: SkillFiltersProps) {
   return (
     <div className={classNames('skill-filters', className)}>
-      {skillingFilters.map(filter => (
+      {skills.map(skill => (
         <SkillFilterButton
-          disabled={disabledFilters.includes(filter)}
-          filter={filter}
-          key={filter}
+          disabled={disabledFilters.includes(skill)}
+          filter={skill}
+          key={skill}
         />
       ))}
     </div>
@@ -29,7 +31,7 @@ export default function SkillFilters({
 }
 
 interface SkillFilterButtonProps {
-  filter: SkillFilter;
+  filter: Skill;
   disabled?: boolean;
 }
 

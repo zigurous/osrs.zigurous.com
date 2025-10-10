@@ -1,9 +1,10 @@
 import { clamp } from '@zigurous/forge-react';
 import { graphql, useStaticQuery } from 'gatsby';
 import React, { createContext, useCallback, useContext, useEffect, useRef, useState } from 'react'; // prettier-ignore
-import { useEquipmentContext, useQuestsContext } from '../context'; // prettier-ignore
-import { processGearProgressionData } from '../utils';
-import type { GearProgressionTier, GearProgressionCategoryId, GearProgressionSubcategoryId, GearProgressionContextCategory, GearProgressionContextTier, GearProgressionWorkerInput, GearProgressionCategory } from '../types'; // prettier-ignore
+import { useEquipmentContext } from '../context/EquipmentContext';
+import { useQuestsContext } from '../context/QuestsContext';
+import { processGearProgressionData } from '../utils/gear-progression';
+import type { GearProgressionTier, GearProgressionCategoryId, GearProgressionSubcategoryId, GearProgressionContextCategory, GearProgressionContextTier, GearProgressionWorkerInput, GearProgressionCategory } from '../types/gear-progression'; // prettier-ignore
 
 // prettier-ignore
 interface GearProgressionContextData {

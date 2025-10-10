@@ -4,7 +4,8 @@ import React from 'react';
 import EquipmentInventory from './EquipmentInventory';
 import IconToggle from './IconToggle';
 import TitledCard from './TitledCard';
-import { useEquipmentContext, useGearProgressionContext } from '../context';
+import { useEquipmentContext } from '../context/EquipmentContext';
+import { useGearProgressionContext } from '../context/GearProgressionContext';
 
 export default function GearProgressionEquipment() {
   const context = useGearProgressionContext();

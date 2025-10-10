@@ -1,5 +1,5 @@
 import '../styles/navigation-menu.css';
-import { Drawer, Link, Text } from '@zigurous/forge-react'; // prettier-ignore
+import { Drawer, Link, Text } from '@zigurous/forge-react';
 import { Link as GatsbyLink } from 'gatsby';
 import React from 'react';
 import WikiIcon from './WikiIcon';

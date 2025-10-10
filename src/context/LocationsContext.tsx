@@ -1,6 +1,6 @@
 import { graphql, useStaticQuery } from 'gatsby';
 import React, { createContext, useCallback, useContext } from 'react';
-import type { GameLocation } from '../types';
+import type { GameLocation } from '../types/location';
 
 interface LocationsContextData {
   getLocationById: (id: string) => GameLocation;

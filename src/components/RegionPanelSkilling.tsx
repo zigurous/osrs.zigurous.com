@@ -4,9 +4,14 @@ import ActivityCard from './ActivityCard';
 import InfoTooltip from './InfoTooltip';
 import ActivityFilter from './SkillFilters';
 import SkillLevelInput from './SkillLevelInput';
-import { useActivitiesContext, useSettingsContext, useSkillingFilterContext } from '../context'; // prettier-ignore
-import { skillingFilters, sortByIcon, sortByLevel, sortByName } from '../utils';
-import type { Activity, Region, SkillFilter } from '../types';
+import { useActivitiesContext } from '../context/ActivitiesContext';
+import { useSettingsContext } from '../context/SettingsContext';
+import { useSkillingFilterContext } from '../context/SkillingFilterContext';
+import { skills } from '../utils/constants';
+import { sortByIcon, sortByLevel, sortByName } from '../utils/sorting';
+import type { Activity } from '../types/activity';
+import type { Region } from '../types/region';
+import type { Skill } from '../types/skill';
 
 interface RegionPanelSkillingProps {
   region: Region;
@@ -49,9 +54,7 @@ export default function RegionPanelSkilling({
   const primaryActivities =
     filter.selectedFilters.length > 0
       ? filteredActivities.filter(activity =>
-          filter.selectedFilters.includes(
-            activity.sortingGroups[0] as SkillFilter,
-          ),
+          filter.selectedFilters.includes(activity.sortingGroups[0] as Skill),
         )
       : filteredActivities;
 
@@ -60,7 +63,7 @@ export default function RegionPanelSkilling({
       ? filteredActivities.filter(
           activity =>
             !filter.selectedFilters.includes(
-              activity.sortingGroups[0] as SkillFilter,
+              activity.sortingGroups[0] as Skill,
             ),
         )
       : [];
@@ -192,8 +195,7 @@ function filterByActivity(activity: Activity) {
   }
 
   return activity.sortingGroups.some(
-    group =>
-      group === 'skilling' || skillingFilters.includes(group as SkillFilter),
+    group => group === 'skilling' || skills.includes(group as Skill),
   );
 }
 

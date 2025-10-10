@@ -1,7 +1,6 @@
-import { skills, skillingFilters } from '../utils'; // prettier-ignore
+import { skills } from '../utils/constants';
 
 export type Skill = (typeof skills)[number];
-export type SkillFilter = (typeof skillingFilters)[number];
 export type SkillLevels = Record<Skill, number>;
 
 export interface SkillLevel {

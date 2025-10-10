@@ -1,5 +1,6 @@
-import { skills } from './skills';
-import type { Quest, Skill, SkillLevels } from '../types';
+import { skills } from './constants';
+import type { Quest } from '../types/quest';
+import type { Skill, SkillLevels } from '../types/skill';
 
 export const MAX_XP = 200_000_000;
 
@@ -44,7 +45,7 @@ export function calculateExperienceForLevel(level: number): number {
   return Math.min(Math.floor(sum / 4), MAX_XP);
 }
 
-export function calculateExpectedHitpointsLevel(skills: SkillLevels): number {
+export function expectedHitpointsLevel(skills: SkillLevels): number {
   let xp = getExperienceForLevel(skills.attack) / 3;
   xp += getExperienceForLevel(skills.strength) / 3;
   xp += getExperienceForLevel(skills.defence) / 3;

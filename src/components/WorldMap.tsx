@@ -4,9 +4,9 @@ import classNames from 'classnames';
 import React from 'react';
 import AreaBadge from './AreaBadge';
 import WorldMapSVG from './WorldMapSVG';
-import { useRegionsContext } from '../context';
-import { useAspectFitScaling } from '../hooks';
-import type { RegionId } from '../types';
+import { useRegionsContext } from '../context/RegionsContext';
+import { useAspectFitScaling } from '../hooks/useAspectFitScaling';
+import type { RegionId } from '../types/region';
 
 const MAP_SIZE = { width: 463, height: 215 };
 

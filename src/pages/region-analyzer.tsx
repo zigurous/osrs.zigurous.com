@@ -1,8 +1,19 @@
 import { Toggle } from '@zigurous/forge-react';
 import { type HeadFC, type PageProps } from 'gatsby';
 import React from 'react';
-import { FooterBar, HeaderBar, RegionPanel, RootLayout, WorldMap } from '../components'; // prettier-ignore
-import { ActivitiesContextProvider, EquipmentContextProvider, ItemsContextProvider, LocationsContextProvider, QuestsContextProvider, RegionsContextProvider, SettingsContextProvider, SkillingFilterContextProvider, useRegionsContext } from '../context'; // prettier-ignore
+import FooterBar from '../components/FooterBar';
+import HeaderBar from '../components/HeaderBar';
+import RegionPanel from '../components/RegionPanel';
+import RootLayout from '../components/RootLayout';
+import WorldMap from '../components/WorldMap';
+import { ActivitiesContextProvider } from '../context/ActivitiesContext';
+import { EquipmentContextProvider } from '../context/EquipmentContext';
+import { ItemsContextProvider } from '../context/ItemsContext';
+import { LocationsContextProvider } from '../context/LocationsContext';
+import { QuestsContextProvider } from '../context/QuestsContext';
+import { RegionsContextProvider, useRegionsContext } from '../context/RegionsContext'; // prettier-ignore
+import { SettingsContextProvider } from '../context/SettingsContext';
+import { SkillingFilterContextProvider } from '../context/SkillingFilterContext';
 
 export const Head: HeadFC = () => <title>OSRS Region Analyzer</title>;
 

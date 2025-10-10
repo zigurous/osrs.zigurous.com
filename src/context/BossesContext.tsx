@@ -1,6 +1,6 @@
 import { graphql, useStaticQuery } from 'gatsby';
 import React, { createContext, useCallback, useContext, useMemo } from 'react';
-import type { Boss } from '../types'; // prettier-ignore
+import type { Boss } from '../types/activity';
 
 interface BossesContextData {
   bosses: Boss[];

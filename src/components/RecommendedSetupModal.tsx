@@ -6,8 +6,10 @@ import ItemInventory from './ItemInventory';
 import TooltipWrapper from './TooltipWrapper';
 import WikiIcon from './WikiIcon';
 import WikiLink from './WikiLink';
-import { createExport } from '../utils';
-import type { EquippedItemIds, InventoryIds, RecommendedSetup } from '../types'; // prettier-ignore
+import { createExport } from '../utils/inventory-setups-export';
+import type { EquippedItemIds } from '../types/equipment';
+import type { InventoryIds } from '../types/inventory';
+import type { RecommendedSetup } from '../types/recommended-setup';
 
 interface RecommendedSetupModalProps {
   onRequestClose: () => void;

@@ -1,4 +1,7 @@
-import type { Activity, CombatStyle, Skill, SortingGroup, Spellbook } from '../types'; // prettier-ignore
+import type { Activity, CombatStyle } from '../types/activity';
+import type { SortingGroup } from '../types/common';
+import type { Skill } from '../types/skill';
+import type { Spellbook } from '../types/spell';
 
 export function getIconForActivity(activity: Activity): string {
   if (

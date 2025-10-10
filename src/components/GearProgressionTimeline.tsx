@@ -3,8 +3,8 @@ import classNames from 'classnames';
 import React, { useCallback, useEffect, useState } from 'react';
 import GearProgressionNotes from './GearProgressionNotes';
 import GearProgressionTimelineCards from './GearProgressionTimelineCards';
-import { useGearProgressionContext } from '../context';
-import type { GearProgressionCategoryId, GearProgressionTimelineCard } from '../types'; // prettier-ignore
+import { useGearProgressionContext } from '../context/GearProgressionContext';
+import type { GearProgressionCategoryId, GearProgressionTimelineCard } from '../types/gear-progression'; // prettier-ignore
 
 type WheelEventHandler = (e: WheelEvent) => any;
 

@@ -2,8 +2,8 @@ import '../styles/item-inventory.css';
 import classNames from 'classnames';
 import React from 'react';
 import ItemFrame from './ItemFrame';
-import { useItemsContext } from '../context';
-import type { Inventory, InventoryIds } from '../types';
+import { useItemsContext } from '../context/ItemsContext';
+import type { Inventory, InventoryIds } from '../types/inventory';
 
 interface ItemInventoryProps {
   className?: string;

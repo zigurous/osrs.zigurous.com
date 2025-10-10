@@ -1,8 +1,8 @@
 import { Text } from '@zigurous/forge-react';
 import React from 'react';
 import WikiLink from './WikiLink';
-import { formatNameFromId } from '../utils';
-import type { SlayerMonster } from '../types';
+import { formatNameFromId } from '../utils/formatting';
+import type { SlayerMonster } from '../types/slayer';
 
 interface SlayerMonsterListItemProps {
   monster: SlayerMonster;

@@ -13,8 +13,8 @@ import iconNeck from '../images/equipment-slot-neck.png';
 import iconRing from '../images/equipment-slot-ring.png';
 import iconShield from '../images/equipment-slot-shield.png';
 import iconWeapon from '../images/equipment-slot-weapon.png';
-import { useEquipmentContext } from '../context';
-import type { EquipmentSlot, EquipmentSlotId, EquippedItemIds, EquippedItems } from '../types'; // prettier-ignore
+import { useEquipmentContext } from '../context/EquipmentContext';
+import type { EquipmentSlot, EquipmentSlotId, EquippedItemIds, EquippedItems } from '../types/equipment'; // prettier-ignore
 
 interface EquipmentInventoryProps {
   className?: string;

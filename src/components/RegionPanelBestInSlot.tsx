@@ -4,8 +4,9 @@ import React from 'react';
 import BestInSlotEquipmentCard from './BestInSlotEquipmentCard';
 import CheckboxToggle from './CheckboxToggle';
 import RegionPanelSection from './RegionPanelSection';
-import { useSettingsContext } from '../context';
-import type { BestInSlotQueryData, EquipmentCategory, Region } from '../types';
+import { useSettingsContext } from '../context/SettingsContext';
+import type { BestInSlotQueryData, EquipmentCategory } from '../types/equipment'; // prettier-ignore
+import type { Region } from '../types/region';
 
 interface RegionPanelBestInSlotProps {
   region: Region;

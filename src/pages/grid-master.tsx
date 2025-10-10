@@ -1,9 +1,13 @@
 import classNames from 'classnames';
 import { type HeadFC, type PageProps } from 'gatsby';
 import React from 'react';
-import { FooterBar, GridMasterBoard, GridMasterHeader, HeaderBar, RootLayout } from '../components'; // prettier-ignore
-import { GridMasterContextProvider } from '../context';
-import { useAspectFitScaling } from '../hooks';
+import FooterBar from '../components/FooterBar';
+import GridMasterBoard from '../components/GridMasterBoard';
+import GridMasterHeader from '../components/GridMasterHeader';
+import HeaderBar from '../components/HeaderBar';
+import RootLayout from '../components/RootLayout';
+import { GridMasterContextProvider } from '../context/GridMasterContext';
+import { useAspectFitScaling } from '../hooks/useAspectFitScaling';
 import '../styles/grid-master.css';
 
 export const Head: HeadFC = () => <title>OSRS Grid Master</title>;

@@ -1,6 +1,7 @@
 import { graphql, useStaticQuery } from 'gatsby';
 import React, { createContext, useCallback, useContext } from 'react';
-import type { EquipmentItem, ItemTag } from '../types';
+import type { EquipmentItem } from '../types/equipment';
+import type { ItemTag } from '../types/item';
 
 // prettier-ignore
 interface EquipmentContextData {

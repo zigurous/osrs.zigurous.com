@@ -4,9 +4,9 @@ import React from 'react';
 import WikiIcon from './WikiIcon';
 import WikiLink from './WikiLink';
 import { useTooltip } from './TooltipWrapper';
-import { useItemsContext } from '../context';
-import { formatNameFromId, toTitleCase } from '../utils';
-import type { FoodData, ItemData } from '../types';
+import { useItemsContext } from '../context/ItemsContext';
+import { formatNameFromId, toTitleCase } from '../utils/formatting';
+import type { FoodData, ItemData } from '../types/item';
 
 interface ItemFrameProps {
   border?: boolean;

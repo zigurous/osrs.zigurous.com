@@ -3,9 +3,10 @@ import classNames from 'classnames';
 import React, { useState } from 'react';
 import ItemsStack from './ItemsStack';
 import TitledCard from './TitledCard';
-import { useItemsContext } from '../context';
-import { formatNameFromId, getIconForActivity } from '../utils';
-import type { Activity } from '../types';
+import { useItemsContext } from '../context/ItemsContext';
+import { formatNameFromId } from '../utils/formatting';
+import { getIconForActivity } from '../utils/icons';
+import type { Activity } from '../types/activity';
 
 interface ActivityCardProps {
   className?: string;

@@ -1,6 +1,7 @@
+import { skills } from './constants';
 import { getIconForActivity } from './icons';
-import { skills } from './skills';
-import type { Activity, Skill } from '../types';
+import type { Activity } from '../types/activity';
+import type { Skill } from '../types/skill';
 
 export function sortById(a: string, b: string): number {
   return a.localeCompare(b);
@@ -23,8 +24,8 @@ export function sortByIcon(a: Activity, b: Activity): number {
   const aIcon = getIconForActivity(a);
   const bIcon = getIconForActivity(b);
   return sortByIndex(
-    aIcon ? iconOrder.indexOf(aIcon) : -1,
-    bIcon ? iconOrder.indexOf(bIcon) : -1,
+    aIcon ? iconSortOrder.indexOf(aIcon) : -1,
+    bIcon ? iconSortOrder.indexOf(bIcon) : -1,
   );
 }
 
@@ -60,7 +61,7 @@ export function sortBySkill(a: Activity, b: Activity): number {
   );
 }
 
-const iconOrder = [
+const iconSortOrder = [
   // combat
   'Raids',
   'Master_Reanimation',

@@ -1,8 +1,8 @@
 import React from 'react';
 import SkillsGrid from './SkillsGrid';
 import TitledCard from './TitledCard';
-import { useGearProgressionContext } from '../context';
-import type { Skill } from '../types';
+import { useGearProgressionContext } from '../context/GearProgressionContext';
+import type { Skill } from '../types/skill';
 
 export default function GearProgressionSkills() {
   const context = useGearProgressionContext();

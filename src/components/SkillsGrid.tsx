@@ -3,8 +3,9 @@ import { Text } from '@zigurous/forge-react';
 import classNames from 'classnames';
 import React from 'react';
 import WikiIcon from './WikiIcon';
-import { getIconForSkill, skills as allSkills } from '../utils';
-import type { Skill, SkillLevels } from '../types';
+import { skills as allSkills } from '../utils/constants';
+import { getIconForSkill } from '../utils/icons';
+import type { Skill, SkillLevels } from '../types/skill';
 
 interface SkillsGridProps {
   className?: string;

@@ -1,6 +1,6 @@
 import { graphql, useStaticQuery } from 'gatsby';
 import React, { createContext, useContext, useMemo, useState } from 'react';
-import type { GridMasterTile } from '../types';
+import type { GridMasterTile } from '../types/grid-master';
 
 interface GridMasterContextData {
   tiles: GridMasterTile[];

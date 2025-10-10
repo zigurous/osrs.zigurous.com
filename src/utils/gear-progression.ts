@@ -1,5 +1,7 @@
-import { calculateExpectedHitpointsLevel, getDefaultSkillLevels, skills, sumQuestExperienceLevels } from '.'; // prettier-ignore
-import type { EquipmentSlotId, EquippedItems, GearProgressionContextCategory, GearProgressionContextTier, GearProgressionWorkerInput } from '../types'; // prettier-ignore
+import { skills } from './constants';
+import { expectedHitpointsLevel, getDefaultSkillLevels, sumQuestExperienceLevels } from './xp'; // prettier-ignore
+import type { EquipmentSlotId, EquippedItems } from '../types/equipment';
+import type { GearProgressionContextCategory, GearProgressionContextTier, GearProgressionWorkerInput } from '../types/gear-progression'; // prettier-ignore
 
 export function processGearProgressionData(
   data: GearProgressionWorkerInput,
@@ -146,7 +148,7 @@ function processGearProgressionTier(
   if (skillRequirements.hitpoints >= 60) {
     skillRequirements.hitpoints = Math.max(
       skillRequirements.hitpoints,
-      calculateExpectedHitpointsLevel(skillRequirements),
+      expectedHitpointsLevel(skillRequirements),
     );
   }
 

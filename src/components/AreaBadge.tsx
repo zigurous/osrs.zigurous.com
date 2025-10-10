@@ -12,7 +12,7 @@ import badgeMorytania from '../images/badge-morytania.png';
 import badgeTirannwn from '../images/badge-tirannwn.png';
 import badgeVarlamore from '../images/badge-varlamore.png';
 import badgeWilderness from '../images/badge-wilderness.png';
-import type { Region, RegionId } from '../types';
+import type { Region, RegionId } from '../types/region';
 
 type AreaBadgeProps = {
   region: Region;

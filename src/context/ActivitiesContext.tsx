@@ -1,6 +1,8 @@
 import { graphql, useStaticQuery } from 'gatsby';
 import React, { createContext, useCallback, useContext, useMemo } from 'react';
-import type { Activity, Boss, Dungeon, Guild, Minigame, Monster, Raid, Spell } from '../types'; // prettier-ignore
+import type { Activity, Boss, Dungeon, Guild, Minigame, Raid } from '../types/activity'; // prettier-ignore
+import type { Monster } from '../types/monster';
+import type { Spell } from '../types/spell';
 
 interface ActivitiesContextData {
   activities: Activity[];

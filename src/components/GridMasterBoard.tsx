@@ -4,8 +4,8 @@ import React from 'react';
 import GridMasterTileImage from './GridMasterTileImage';
 import TooltipWrapper from './TooltipWrapper';
 import WikiLink from './WikiLink';
-import { useGridMasterContext } from '../context';
-import type { GridMasterTile } from '../types';
+import { useGridMasterContext } from '../context/GridMasterContext';
+import type { GridMasterTile } from '../types/grid-master';
 
 export default function GridMasterBoard() {
   const { tiles } = useGridMasterContext();

@@ -1,7 +1,7 @@
 import { useIsMounted } from '@zigurous/forge-react';
 import { graphql, navigate, useStaticQuery } from 'gatsby';
 import React, { createContext, useCallback, useContext, useEffect, useState } from 'react'; // prettier-ignore
-import type { Region, RegionId } from '../types';
+import type { Region, RegionId } from '../types/region';
 
 interface RegionsContextData {
   regions: Region[];

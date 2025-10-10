@@ -1,6 +1,8 @@
-import { useQuestsContext } from '../context';
-import { convertExperienceToLevels, convertLevelsToExperience, getDefaultSkillLevels, getExperienceForLevel, sortByIndex } from '../utils'; // prettier-ignore
-import type { Quest, SkillLevels, SkillRequirement } from '../types';
+import { useQuestsContext } from '../context/QuestsContext';
+import { convertExperienceToLevels, convertLevelsToExperience, getDefaultSkillLevels, getExperienceForLevel } from '../utils/xp'; // prettier-ignore
+import { sortByIndex } from '../utils/sorting';
+import type { Quest } from '../types/quest';
+import type { SkillLevels, SkillRequirement } from '../types/skill';
 
 export function useOptimalQuestOrder(): string[] {
   const { quests, order } = useQuestsContext();
@@ -18,7 +20,10 @@ export function useOptimalQuestOrder(): string[] {
     optimalOrder.push(nextQuest.id);
     availableQuests.splice(index, 1);
     nextQuest.skillRequirements?.forEach(req => {
-      experience[req.skill] = Math.max(experience[req.skill], getExperienceForLevel(req.level));
+      experience[req.skill] = Math.max(
+        experience[req.skill],
+        getExperienceForLevel(req.level),
+      );
     });
     nextQuest.rewards?.forEach(reward => {
       experience[reward.skill] += reward.experience;
@@ -31,11 +36,15 @@ export function useOptimalQuestOrder(): string[] {
     if (meetsRequirements(availableQuests[0], optimalOrder, levels)) {
       addNextQuest(0);
     } else if (decisions.length > 0) {
-      addNextQuest(availableQuests.findIndex(quest => quest.id === decisions[0]));
+      addNextQuest(
+        availableQuests.findIndex(quest => quest.id === decisions[0]),
+      );
       decisions.splice(0, 1);
     } else {
       const missingReqs =
-        availableQuests[0].skillRequirements?.filter(req => levels[req.skill] < req.level) ?? [];
+        availableQuests[0].skillRequirements?.filter(
+          req => levels[req.skill] < req.level,
+        ) ?? [];
 
       // prettier-ignore
       {
@@ -50,7 +59,9 @@ export function useOptimalQuestOrder(): string[] {
       console.groupCollapsed('Potential Quests');
       for (let j = 1; j < availableQuests.length; j++) {
         const potentialQuest = availableQuests[j];
-        if (meetsPotentialRequirements(potentialQuest, optimalOrder, missingReqs)) {
+        if (
+          meetsPotentialRequirements(potentialQuest, optimalOrder, missingReqs)
+        ) {
           console.log(potentialQuest);
         }
       }
@@ -73,7 +84,11 @@ export function useOptimalQuestOrder(): string[] {
   return optimalOrder;
 }
 
-function meetsRequirements(quest: Quest, completedQuests: string[], levels: SkillLevels): boolean {
+function meetsRequirements(
+  quest: Quest,
+  completedQuests: string[],
+  levels: SkillLevels,
+): boolean {
   if (quest.questRequirements?.some(id => !completedQuests.includes(id))) {
     return false;
   }
@@ -91,7 +106,11 @@ function meetsPotentialRequirements(
   missingReqs: SkillRequirement[],
 ): boolean {
   if (
-    !Boolean(quest.rewards?.some(reward => missingReqs.some(req => req.skill === reward.skill)))
+    !Boolean(
+      quest.rewards?.some(reward =>
+        missingReqs.some(req => req.skill === reward.skill),
+      ),
+    )
   ) {
     return false;
   }

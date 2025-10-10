@@ -1,7 +1,8 @@
 import { Button, nativeKeyboardEventHandler as keyEventHandler, Stack, Text } from '@zigurous/forge-react'; // prettier-ignore
 import React, { useCallback, useEffect } from 'react';
 import Slider from './Slider';
-import { useGearProgressionContext, useRecommendedSetupsContext } from '../context'; // prettier-ignore
+import { useGearProgressionContext } from '../context/GearProgressionContext';
+import { useRecommendedSetupsContext } from '../context/RecommendedSetupsContext';
 
 export default function GearProgressionSlider() {
   const context = useGearProgressionContext();

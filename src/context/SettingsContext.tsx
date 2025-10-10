@@ -1,5 +1,5 @@
 import React, { createContext, useCallback, useContext, useState } from 'react'; // prettier-ignore
-import type { EquipmentSubcategories } from '../types';
+import type { EquipmentSubcategories } from '../types/equipment';
 
 type Settings = {
   leagues: boolean;

@@ -5,9 +5,12 @@ import CheckboxToggle from './CheckboxToggle';
 import ItemsStack from './ItemsStack';
 import RegionPanelSection from './RegionPanelSection';
 import TitledCard from './TitledCard';
-import { useItemsContext, useSettingsContext } from '../context';
-import { formatNameFromId } from '../utils';
-import type { Boss, ItemData, Raid, Region } from '../types';
+import { useItemsContext } from '../context/ItemsContext';
+import { useSettingsContext } from '../context/SettingsContext';
+import { formatNameFromId } from '../utils/formatting';
+import type { Boss, Raid } from '../types/activity';
+import type { ItemData } from '../types/item';
+import type { Region } from '../types/region';
 
 interface RegionPanelBossesProps {
   region: Region;

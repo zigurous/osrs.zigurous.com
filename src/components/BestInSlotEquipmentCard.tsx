@@ -1,7 +1,8 @@
 import React, { useMemo } from 'react';
 import EquipmentCard from './EquipmentCard';
-import { useEquipmentContext, useSettingsContext } from '../context';
-import type { BestInSlotQueryData, EquipmentCategory, EquippedItems } from '../types'; // prettier-ignore
+import { useEquipmentContext } from '../context/EquipmentContext';
+import { useSettingsContext } from '../context/SettingsContext';
+import type { BestInSlotQueryData, EquipmentCategory, EquippedItems } from '../types/equipment'; // prettier-ignore
 
 interface BestInSlotEquipmentCardProps {
   category: EquipmentCategory;

@@ -1,6 +1,6 @@
 import classNames from 'classnames';
 import React from 'react';
-import { formatNameFromId } from '../utils';
+import { formatNameFromId } from '../utils/formatting';
 
 type WikiLinkProps = {
   textual?: boolean;
