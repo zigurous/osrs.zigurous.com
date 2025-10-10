@@ -2,7 +2,9 @@
   {
     "col": "R",
     "row": "1",
-    "type": "reward"
+    "type": "reward",
+    "reward": "Unknown",
+    "unconfirmed": true
   },
   {
     "col": "A",
@@ -198,7 +200,14 @@
   {
     "col": "E",
     "row": "4",
-    "type": "easy"
+    "type": "easy",
+    "icon": "Fancy_boots",
+    "task": "Complete level 4 of the Stronghold of Security.",
+    "taskLink": "Stronghold_of_Security",
+    "reward": "Sage's Greaves",
+    "rewardIcon": "Sage's_greaves",
+    "rewardLink": "Sage's_greaves",
+    "unconfirmed": true
   },
   {
     "col": "F",

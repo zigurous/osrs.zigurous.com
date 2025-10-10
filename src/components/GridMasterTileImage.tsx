@@ -84,10 +84,10 @@ const tasks: Record<string, any> = {
 };
 
 const rewards: Record<string, any> = {
+  R1: rewardXpMultiplier,
   A3: relicGoldenGod,
   A4: relicProductionMaster,
   A6: rewardBerserkerCrown,
-  A8: rewardXpMultiplier,
   C7: relicScarab,
   D2: rewardXp,
   D3: relicReloaded,
