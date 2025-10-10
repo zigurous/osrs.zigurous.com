@@ -1,12 +1,13 @@
 import { graphql, useStaticQuery } from 'gatsby';
-import React, { createContext, useCallback, useContext } from 'react';
+import React, { createContext, useCallback, useContext, useMemo } from 'react';
+import { sortByIndex } from '../utils/sorting';
 import type { Quest, QuestId, QuestOrder, QuestSeries, QuestSeriesId } from '../types/quest'; // prettier-ignore
 import type { SkillLevels } from '../types/skill';
 
 interface QuestsContextData {
-  order: QuestOrder;
   quests: Quest[];
   series: QuestSeries[];
+  order: QuestOrder;
   getQuestById: (id: QuestId) => Quest | undefined;
   getQuestsByIds: (ids: QuestId[]) => Quest[];
   getQuestSeriesById: (id: QuestSeriesId) => QuestSeries | undefined;
@@ -14,9 +15,9 @@ interface QuestsContextData {
 }
 
 const defaultData: QuestsContextData = {
-  order: { id: 'none', mode: 'main', quests: [] },
   quests: [],
   series: [],
+  order: { id: 'none', mode: 'ironman', quests: [] },
   getQuestById: () => undefined,
   getQuestsByIds: () => [],
   getQuestSeriesById: () => undefined,
@@ -33,9 +34,22 @@ export function useQuestsContext(): QuestsContextData {
 export function QuestsContextProvider({ children }: React.PropsWithChildren) {
   const data = useStaticQuery<QuestsQueryData>(dataQuery);
 
+  const quests = useMemo(() => {
+    return data.quests.nodes
+      .toSorted((a, b) => a.id.localeCompare(b.id))
+      .sort((a, b) =>
+        sortByIndex(
+          data.order.quests.indexOf(a.id),
+          data.order.quests.indexOf(b.id),
+        ),
+      );
+  }, [data]);
+
+  console.log(quests);
+
   const getQuestById = useCallback(
-    (id: QuestId) => data.quests.nodes.find(item => item.id === id),
-    [data],
+    (id: QuestId) => quests.find(item => item.id === id),
+    [quests],
   );
 
   const getQuestsByIds = useCallback(
@@ -64,9 +78,9 @@ export function QuestsContextProvider({ children }: React.PropsWithChildren) {
   return (
     <QuestsContext.Provider
       value={{
-        order: data.order,
-        quests: data.quests.nodes,
+        quests: quests,
         series: data.series.nodes,
+        order: data.order,
         getQuestById,
         getQuestsByIds,
         getQuestSeriesById,
