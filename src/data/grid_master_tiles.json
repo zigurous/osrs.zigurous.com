@@ -355,7 +355,7 @@
     "row": "6",
     "type": "hard",
     "icon": "Contract_of_bloodied_blows",
-    "task": "Yama: Contract of bloodied blows",
+    "task": "UNKNOWN – Contract of Bloodied Blows",
     "taskLink": "Contract_of_bloodied_blows",
     "unconfirmed": true
   },
@@ -381,7 +381,7 @@
     "row": "7",
     "type": "hard",
     "icon": "Demonic_throne_icon",
-    "task": "Build a demonic throne in your PoH.",
+    "task": "UNKNOWN – Demonic Throne",
     "taskLink": "Demonic_throne",
     "reward": "Thunder Khopesh",
     "rewardIcon": "Thunder_khopesh",
