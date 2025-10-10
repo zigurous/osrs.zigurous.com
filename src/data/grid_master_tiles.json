@@ -2,11 +2,7 @@
   {
     "col": "R",
     "row": "1",
-    "type": "reward",
-    "reward": "The Dogsword",
-    "rewardIcon": "The_dogsword_detail",
-    "rewardLink": "The_dogsword",
-    "unconfirmed": true
+    "type": "reward"
   },
   {
     "col": "A",
@@ -118,11 +114,10 @@
     "row": "3",
     "type": "medium",
     "icon": "Valuables_5",
-    "task": "UNKNOWN – Stealing Valuables",
+    "task": "Obtain some Valuables from a house in Varlamore.",
     "taskLink": "Stealing_valuables",
     "reward": "Golden God",
-    "rewardLink": "Golden_God",
-    "unconfirmed": true
+    "rewardLink": "Golden_God"
   },
   {
     "col": "B",
@@ -271,7 +266,11 @@
   {
     "col": "R",
     "row": "6",
-    "type": "reward"
+    "type": "reward",
+    "reward": "Gloves of the Damned",
+    "rewardIcon": "Gloves_of_the_damned_detail",
+    "rewardLink": "Gloves_of_the_damned",
+    "unconfirmed": true
   },
   {
     "col": "A",
@@ -319,11 +318,7 @@
   {
     "col": "R",
     "row": "7",
-    "type": "reward",
-    "reward": "Gloves of the Damned",
-    "rewardIcon": "Gloves_of_the_damned_detail",
-    "rewardLink": "Gloves_of_the_damned",
-    "unconfirmed": true
+    "type": "reward"
   },
   {
     "col": "A",
@@ -342,7 +337,7 @@
     "row": "7",
     "type": "hard",
     "icon": "Demonic_throne_icon",
-    "task": "UNKNOWN – Demonic Throne",
+    "task": "Build a demonic throne in your PoH.",
     "taskLink": "Demonic_throne",
     "reward": "Thunder Khopesh",
     "rewardIcon": "Thunder_khopesh",
@@ -392,7 +387,11 @@
   {
     "col": "A",
     "row": "8",
-    "type": "reward"
+    "type": "reward",
+    "reward": "The Dogsword",
+    "rewardIcon": "The_dogsword_detail",
+    "rewardLink": "The_dogsword",
+    "unconfirmed": true
   },
   {
     "col": "B",
@@ -430,6 +429,10 @@
   {
     "col": "G",
     "row": "8",
-    "type": "reward"
+    "type": "reward",
+    "reward": "Total Recall",
+    "rewardIcon": "Crystal_of_echoes_detail",
+    "rewardLink": "Total_Recall",
+    "unconfirmed": true
   }
 ]
