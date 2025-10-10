@@ -29,10 +29,8 @@ export function useAspectFitScaling<T extends HTMLElement>(
         new ResizeObserver((entries: ResizeObserverEntry[]) => {
           let sw = 1;
           let sh = 1;
-          if (aspectWidth !== null)
-            sw = entries[0].contentRect.width / aspectWidth;
-          if (aspectHeight !== null)
-            sh = entries[0].contentRect.height / aspectHeight;
+          if (aspectWidth !== null) sw = entries[0].contentRect.width / aspectWidth;
+          if (aspectHeight !== null) sh = entries[0].contentRect.height / aspectHeight;
           let scale = Math.min(sw, sh);
           if (minScale !== undefined) scale = Math.max(scale, minScale);
           if (maxScale !== undefined) scale = Math.min(scale, maxScale);

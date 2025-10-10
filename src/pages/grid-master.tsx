@@ -3,7 +3,7 @@ import { type HeadFC, type PageProps } from 'gatsby';
 import React from 'react';
 import { FooterBar, GridMasterBoard, GridMasterHeader, HeaderBar, RootLayout } from '../components'; // prettier-ignore
 import { GridMasterContextProvider } from '../context';
-import { useAspectFitScaling } from '../utils';
+import { useAspectFitScaling } from '../hooks';
 import '../styles/grid-master.css';
 
 export const Head: HeadFC = () => <title>OSRS Grid Master</title>;

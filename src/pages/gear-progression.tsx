@@ -8,8 +8,7 @@ import GearProgressionSlider from '../components/GearProgressionSlider';
 import GearProgressionSkills from '../components/GearProgressionSkills';
 import GearProgressionTimeline from '../components/GearProgressionTimeline';
 import { EquipmentContextProvider, GearProgressionContextProvider, ItemsContextProvider, QuestsContextProvider, RecommendedSetupsContextProvider, useGearProgressionContext, useRecommendedSetupsContext } from '../context'; // prettier-ignore
-import { categories } from '../context/GearProgressionContext';
-import { useAspectFitScaling } from '../utils';
+import { useAspectFitScaling } from '../hooks';
 import type { RecommendedSetup } from '../types';
 import '../styles/gear-progression.css';
 
