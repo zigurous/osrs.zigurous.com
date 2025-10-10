@@ -1,5 +1,5 @@
 import { skills } from './constants';
-import type { Skill, SkillLevels } from '../types';
+import type { Quest, Skill, SkillLevels } from '../types';
 
 export const MAX_XP = 200_000_000;
 
@@ -85,4 +85,87 @@ export function diffSkillLevels(
     }
     return levels;
   }, {} as SkillLevels);
+}
+
+export function sumQuestExperienceLevels(
+  quests: Quest[],
+  includeRequirements: boolean = true,
+  includeRewards: boolean = false,
+): SkillLevels {
+  const experience = convertLevelsToExperience(getDefaultSkillLevels());
+  for (let i = 0; i < quests.length; i++) {
+    const quest = quests[i];
+    if (includeRequirements) {
+      quest.skillRequirements?.forEach(req => {
+        experience[req.skill] = Math.max(
+          experience[req.skill],
+          getExperienceForLevel(req.level),
+        );
+      });
+    }
+    if (includeRewards) {
+      quest.rewards?.forEach(reward => {
+        experience[reward.skill] += reward.experience;
+      });
+    }
+  }
+  return convertExperienceToLevels(experience);
+}
+
+export function getDefaultSkillLevels(): SkillLevels {
+  return {
+    attack: 1,
+    strength: 1,
+    defence: 1,
+    ranged: 1,
+    prayer: 1,
+    magic: 1,
+    runecraft: 1,
+    construction: 1,
+    hitpoints: 10,
+    agility: 1,
+    herblore: 1,
+    thieving: 1,
+    crafting: 1,
+    fletching: 1,
+    slayer: 1,
+    hunter: 1,
+    mining: 1,
+    smithing: 1,
+    fishing: 1,
+    cooking: 1,
+    firemaking: 1,
+    woodcutting: 1,
+    farming: 1,
+    sailing: 1,
+  };
+}
+
+export function getMaxedSkillLevels(): SkillLevels {
+  return {
+    attack: 99,
+    strength: 99,
+    defence: 99,
+    ranged: 99,
+    prayer: 99,
+    magic: 99,
+    runecraft: 99,
+    construction: 99,
+    hitpoints: 99,
+    agility: 99,
+    herblore: 99,
+    thieving: 99,
+    crafting: 99,
+    fletching: 99,
+    slayer: 99,
+    hunter: 99,
+    mining: 99,
+    smithing: 99,
+    fishing: 99,
+    cooking: 99,
+    firemaking: 99,
+    woodcutting: 99,
+    farming: 99,
+    sailing: 99,
+  };
 }

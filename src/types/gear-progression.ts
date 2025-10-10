@@ -1,5 +1,6 @@
-import type { EquipmentCategory, EquipmentSubcategoryId } from './equipment';
-import type { SkillLevelHighlight } from './skill';
+import type { EquipmentCategory, EquipmentItem, EquipmentSubcategoryId, EquippedItems } from './equipment'; // prettier-ignore
+import type { Quest } from './quest';
+import type { SkillLevelHighlight, SkillLevels } from './skill';
 
 export type GearProgressionCategoryId = 'melee' | 'ranged' | 'magic';
 export type GearProgressionSubcategoryId = EquipmentSubcategoryId;
@@ -45,3 +46,29 @@ export type GearProgressionTimelineSubCard = Omit<
 > & {
   setupId?: string;
 };
+
+export type GearProgressionContextCategory = GearProgressionCategory & {
+  tiers: GearProgressionContextTier[];
+  sequence: GearProgressionContextTier[];
+};
+
+export type GearProgressionContextTier = Omit<
+  GearProgressionTier,
+  'categories'
+> & {
+  equipment: Record<string, EquippedItems>;
+  trackedItems: Set<string>;
+  skillRequirements: Partial<SkillLevels>;
+  tierIndex: number;
+  sequenceIndex?: number;
+  previous?: GearProgressionContextTier;
+  next?: GearProgressionContextTier;
+  hidden?: boolean;
+};
+
+export interface GearProgressionWorkerInput {
+  tiers: GearProgressionTier[];
+  category: GearProgressionCategory;
+  equipment: EquipmentItem[];
+  quests: Quest[];
+}

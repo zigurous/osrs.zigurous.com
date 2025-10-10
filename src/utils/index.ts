@@ -1,3 +1,4 @@
+export * from './categories';
 export * from './constants';
 export * from './experience';
 export * from './formatting';

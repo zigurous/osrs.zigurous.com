@@ -25,7 +25,6 @@ export function BossesContextProvider({ children }: React.PropsWithChildren) {
     () => data.bosses.nodes.sort((a, b) => a.id.localeCompare(b.id)),
     [data],
   );
-
   const getBossById = useCallback(
     (id: string) => bosses.find(boss => boss.id === id),
     [bosses],

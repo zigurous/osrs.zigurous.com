@@ -9,6 +9,7 @@ import GearProgressionSkills from '../components/GearProgressionSkills';
 import GearProgressionTimeline from '../components/GearProgressionTimeline';
 import { EquipmentContextProvider, GearProgressionContextProvider, ItemsContextProvider, QuestsContextProvider, RecommendedSetupsContextProvider, useGearProgressionContext, useRecommendedSetupsContext } from '../context'; // prettier-ignore
 import { useAspectFitScaling } from '../hooks';
+import { gearProgressionCategories } from '../utils';
 import type { RecommendedSetup } from '../types';
 import '../styles/gear-progression.css';
 
@@ -60,7 +61,7 @@ function GearProgressionPageContent() {
             justify="end"
             spacing="xs"
           >
-            {categories.map(category => (
+            {gearProgressionCategories.map(category => (
               <IconToggle
                 hideTooltip
                 icon={category.icon}

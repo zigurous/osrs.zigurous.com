@@ -1,6 +1,6 @@
-import { capitalizeFirstLetter } from '@zigurous/forge-react';
 import { combatSkills, iconOrder, nonCombatSkills, skills } from './constants'; // prettier-ignore
-import type { Activity, CombatSkill, CombatStyle, EquippedItems, NonCombatSkill, Region, RegionId, Skill, SkillLevels, SortingGroup, Spell, Spellbook } from '../types'; // prettier-ignore
+import { capitalizeFirstLetter } from './formatting';
+import type { Activity, CombatSkill, CombatStyle, EquippedItems, NonCombatSkill, Region, RegionId, Skill, SortingGroup, Spell, Spellbook } from '../types'; // prettier-ignore
 
 const autoDetectedItemSuffixes = [
   '_arrow',
@@ -272,63 +272,5 @@ export function getEmptyEquipmentSlots(): EquippedItems {
     neck: undefined,
     ring: undefined,
     ammo: undefined,
-  };
-}
-
-export function getDefaultSkillLevels(): SkillLevels {
-  return {
-    attack: 1,
-    strength: 1,
-    defence: 1,
-    ranged: 1,
-    prayer: 1,
-    magic: 1,
-    runecraft: 1,
-    construction: 1,
-    hitpoints: 10,
-    agility: 1,
-    herblore: 1,
-    thieving: 1,
-    crafting: 1,
-    fletching: 1,
-    slayer: 1,
-    hunter: 1,
-    mining: 1,
-    smithing: 1,
-    fishing: 1,
-    cooking: 1,
-    firemaking: 1,
-    woodcutting: 1,
-    farming: 1,
-    sailing: 1,
-  };
-}
-
-export function getMaxedSkillLevels(): SkillLevels {
-  return {
-    attack: 99,
-    strength: 99,
-    defence: 99,
-    ranged: 99,
-    prayer: 99,
-    magic: 99,
-    runecraft: 99,
-    construction: 99,
-    hitpoints: 99,
-    agility: 99,
-    herblore: 99,
-    thieving: 99,
-    crafting: 99,
-    fletching: 99,
-    slayer: 99,
-    hunter: 99,
-    mining: 99,
-    smithing: 99,
-    fishing: 99,
-    cooking: 99,
-    firemaking: 99,
-    woodcutting: 99,
-    farming: 99,
-    sailing: 99,
   };
 }

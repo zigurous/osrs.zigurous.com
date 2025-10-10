@@ -1,6 +1,5 @@
 import { graphql, useStaticQuery } from 'gatsby';
 import React, { createContext, useCallback, useContext } from 'react';
-import { convertExperienceToLevels, convertLevelsToExperience, getDefaultSkillLevels, getExperienceForLevel } from '../utils'; // prettier-ignore
 import type { Quest, QuestId, QuestOrder, QuestSeries, QuestSeriesId, SkillLevels } from '../types'; // prettier-ignore
 
 interface QuestsContextData {
@@ -11,10 +10,6 @@ interface QuestsContextData {
   getQuestsByIds: (ids: QuestId[]) => Quest[];
   getQuestSeriesById: (id: QuestSeriesId) => QuestSeries | undefined;
   setSkillRequirements: (questId: QuestId, levels: SkillLevels) => void;
-  calculateSkillTotals: (
-    milestone: QuestId,
-    includeRewardXP?: boolean,
-  ) => SkillLevels;
 }
 
 const defaultData: QuestsContextData = {
@@ -25,7 +20,6 @@ const defaultData: QuestsContextData = {
   getQuestsByIds: () => [],
   getQuestSeriesById: () => undefined,
   setSkillRequirements: () => {},
-  calculateSkillTotals: () => getDefaultSkillLevels(),
 };
 
 const QuestsContext = createContext<QuestsContextData>(defaultData);
@@ -66,31 +60,6 @@ export function QuestsContextProvider({ children }: React.PropsWithChildren) {
     [getQuestById],
   );
 
-  const calculateSkillTotals = useCallback(
-    (milestone: QuestId, includeRewardXP?: boolean): SkillLevels => {
-      const experience = convertLevelsToExperience(getDefaultSkillLevels());
-      const endIndex = data.order.quests.findIndex(id => milestone === id);
-      for (let i = 0; i <= endIndex; i++) {
-        const quest = getQuestById(data.order.quests[i]);
-        if (quest) {
-          quest.skillRequirements?.forEach(req => {
-            experience[req.skill] = Math.max(
-              experience[req.skill],
-              getExperienceForLevel(req.level),
-            );
-          });
-          if (includeRewardXP) {
-            quest.rewards?.forEach(reward => {
-              experience[reward.skill] += reward.experience;
-            });
-          }
-        }
-      }
-      return convertExperienceToLevels(experience);
-    },
-    [data.order.quests, getQuestById],
-  );
-
   return (
     <QuestsContext.Provider
       value={{
@@ -101,7 +70,6 @@ export function QuestsContextProvider({ children }: React.PropsWithChildren) {
         getQuestsByIds,
         getQuestSeriesById,
         setSkillRequirements,
-        calculateSkillTotals,
       }}
     >
       {children}
