@@ -204,9 +204,9 @@
     "icon": "Fancy_boots",
     "task": "Complete level 4 of the Stronghold of Security.",
     "taskLink": "Stronghold_of_Security",
-    "reward": "Sage's Greaves",
-    "rewardIcon": "Sage's_greaves",
-    "rewardLink": "Sage's_greaves",
+    "reward": "Corner Cutter",
+    "rewardIcon": "Corner_Cutter",
+    "rewardLink": "Corner_Cutter",
     "unconfirmed": true
   },
   {
@@ -232,7 +232,11 @@
   {
     "col": "B",
     "row": "5",
-    "type": "medium"
+    "type": "medium",
+    "reward": "Fairy's Flight",
+    "rewardIcon": "Fairy's_Flight",
+    "rewardLink": "Fairy's_Flight",
+    "unconfirmed": true
   },
   {
     "col": "C",
@@ -392,7 +396,11 @@
   {
     "col": "F",
     "row": "7",
-    "type": "hard"
+    "type": "hard",
+    "reward": "Last Stand",
+    "rewardIcon": "Last_Stand",
+    "rewardLink": "Last_Stand",
+    "unconfirmed": true
   },
   {
     "col": "G",
