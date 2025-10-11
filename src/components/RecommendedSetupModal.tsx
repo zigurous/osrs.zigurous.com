@@ -1,9 +1,8 @@
 import '../styles/recommended-setup.css';
-import { Button, clamp, nativeKeyboardEventHandler as keyEventHandler, Overlay, ReactPortal, Stack, Text } from '@zigurous/forge-react'; // prettier-ignore
+import { Button, clamp, nativeKeyboardEventHandler as keyEventHandler, Overlay, ReactPortal, Stack, Text, TooltipWrapper } from '@zigurous/forge-react'; // prettier-ignore
 import React, { useCallback, useEffect, useState } from 'react';
 import EquipmentInventory from './EquipmentInventory';
 import ItemInventory from './ItemInventory';
-import TooltipWrapper from './TooltipWrapper';
 import WikiIcon from './WikiIcon';
 import WikiLink from './WikiLink';
 import { createExport } from '../utils/inventory-setups-export';

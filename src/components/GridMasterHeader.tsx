@@ -1,6 +1,5 @@
-import { Button, Stack, Text } from '@zigurous/forge-react';
+import { Button, Stack, Text, TooltipWrapper } from '@zigurous/forge-react';
 import React from 'react';
-import TooltipWrapper from './TooltipWrapper';
 import { useGridMasterContext } from '../context/GridMasterContext';
 
 export default function GridMasterHeader() {

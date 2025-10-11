@@ -1,6 +1,5 @@
-import { Button } from '@zigurous/forge-react';
+import { Button, TooltipWrapper } from '@zigurous/forge-react';
 import React from 'react';
-import TooltipWrapper from './TooltipWrapper';
 
 interface InfoTooltipProps {
   children: React.ReactNode;

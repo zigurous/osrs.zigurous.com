@@ -36,9 +36,10 @@ export default function HeaderBar({
               />
               <Text
                 bold
-                className="text-nowrap ml-xs"
+                className="ml-xs"
                 marginBottom="xxxs"
                 type="title-sm"
+                wrap="nowrap"
               >
                 {title}
               </Text>

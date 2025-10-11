@@ -45,11 +45,13 @@ function ContextProviders({ children }: { children: React.ReactNode }) {
   );
 }
 
+const aspectSize = { width: 1024, height: 512 };
+
 function GearProgressionPageContent() {
   const context = useGearProgressionContext();
   const { currentSetup, previousSetup, closeSetup } =
     useRecommendedSetupsContext();
-  const [ref, scale] = useAspectFitScaling(1024, 512, 0, 1.333333333333333);
+  const [scale, ref] = useAspectFitScaling(aspectSize, 0, 1.333333333333333);
   return (
     <RootLayout id="gear-progression">
       <HeaderBar

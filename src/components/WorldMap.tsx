@@ -12,7 +12,7 @@ const MAP_SIZE = { width: 463, height: 215 };
 
 export default function WorldMap() {
   const context = useRegionsContext();
-  const [ref, scale] = useAspectFitScaling(MAP_SIZE.width, MAP_SIZE.height);
+  const [scale, ref] = useAspectFitScaling(MAP_SIZE);
   return (
     <PanAndZoomProvider
       className={classNames(
@@ -29,7 +29,9 @@ export default function WorldMap() {
         <>
           <PanAndZoomTransform>
             <div
-              className="world-map__container"
+              className={classNames('world-map__container', {
+                invisible: scale === undefined,
+              })}
               style={{
                 width: MAP_SIZE.width,
                 height: MAP_SIZE.height,

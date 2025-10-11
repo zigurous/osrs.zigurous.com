@@ -10,10 +10,12 @@ import { GridMasterContextProvider } from '../context/GridMasterContext';
 import { useAspectFitScaling } from '../hooks/useAspectFitScaling';
 import '../styles/grid-master.css';
 
+const aspectSize = { width: 640, height: 720 };
+
 export const Head: HeadFC = () => <title>OSRS Grid Master</title>;
 
 export default function GridMaster({}: PageProps) {
-  const [ref, scale] = useAspectFitScaling(640, 720, 0, 1.25);
+  const [scale, ref] = useAspectFitScaling(aspectSize, 0, 1.25);
   return (
     <GridMasterContextProvider>
       <RootLayout id="grid-master">

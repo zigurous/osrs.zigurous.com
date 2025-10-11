@@ -1,7 +1,7 @@
 import '../styles/skill-filters.css';
+import { useTooltip } from '@zigurous/forge-react';
 import classNames from 'classnames';
 import React from 'react';
-import { useTooltip } from './TooltipWrapper';
 import { useSkillingFilterContext } from '../context/SkillingFilterContext';
 import { skills } from '../utils/constants';
 import { formatNameFromId } from '../utils/formatting';

@@ -1,6 +1,6 @@
+import { useTooltip } from '@zigurous/forge-react';
 import classNames from 'classnames';
 import React from 'react';
-import { useTooltip } from './TooltipWrapper';
 
 interface IconToggleProps {
   className?: string;

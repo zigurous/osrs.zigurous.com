@@ -1,8 +1,7 @@
-import { Text } from '@zigurous/forge-react';
+import { Text, TooltipWrapper } from '@zigurous/forge-react';
 import classNames from 'classnames';
 import React from 'react';
 import GridMasterTileImage from './GridMasterTileImage';
-import TooltipWrapper from './TooltipWrapper';
 import WikiLink from './WikiLink';
 import { useGridMasterContext } from '../context/GridMasterContext';
 import type { GridMasterTile } from '../types/grid-master';

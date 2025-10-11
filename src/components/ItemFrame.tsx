@@ -1,9 +1,9 @@
 import '../styles/item-frame.css';
+import { useTooltip } from '@zigurous/forge-react';
 import classNames from 'classnames';
 import React from 'react';
 import WikiIcon from './WikiIcon';
 import WikiLink from './WikiLink';
-import { useTooltip } from './TooltipWrapper';
 import { useItemsContext } from '../context/ItemsContext';
 import { formatNameFromId, toTitleCase } from '../utils/formatting';
 import type { FoodData, ItemData } from '../types/item';

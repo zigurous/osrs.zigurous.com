@@ -1,44 +1,27 @@
-import { useCallback, useEffect, useState } from 'react';
+import { aspectFit, useMemoizedRef, type Size } from '@zigurous/forge-react'; // prettier-ignore
+import { useEffect, useState } from 'react';
 
 export function useAspectFitScaling<T extends HTMLElement>(
-  aspectWidth: number | null,
-  aspectHeight: number | null,
+  aspectSize: Partial<Size>,
   minScale?: number,
   maxScale?: number,
-): [React.RefCallback<T>, number | undefined] {
-  const [scale, setScale] = useState<number | undefined>();
-  const [element, setElement] = useState<T | null>(null);
-  const [observer, setObserver] = useState<ResizeObserver>();
-
-  const ref = useCallback<React.RefCallback<T>>(node => {
-    setElement(node);
-  }, []);
+): [number | undefined, React.RefCallback<T>] {
+  const [element, ref] = useMemoizedRef<T>();
+  const [scale, setScale] = useState<number>();
 
   useEffect(() => {
-    if (element && observer) {
+    if (typeof window !== 'undefined' && element) {
+      const observer = new ResizeObserver(entries =>
+        setScale(
+          aspectFit(entries[0].contentRect, aspectSize, minScale, maxScale),
+        ),
+      );
       observer.observe(element);
       return () => {
-        observer?.unobserve(element);
+        observer.unobserve(element);
       };
     }
-  }, [element, observer]);
+  }, [element, aspectSize, minScale, maxScale]);
 
-  useEffect(() => {
-    if (typeof window !== 'undefined') {
-      setObserver(
-        new ResizeObserver((entries: ResizeObserverEntry[]) => {
-          let sw = 1;
-          let sh = 1;
-          if (aspectWidth !== null) sw = entries[0].contentRect.width / aspectWidth;
-          if (aspectHeight !== null) sh = entries[0].contentRect.height / aspectHeight;
-          let scale = Math.min(sw, sh);
-          if (minScale !== undefined) scale = Math.max(scale, minScale);
-          if (maxScale !== undefined) scale = Math.min(scale, maxScale);
-          setScale(scale);
-        }),
-      );
-    }
-  }, [aspectWidth, aspectHeight, minScale, maxScale]);
-
-  return [ref, scale];
+  return [scale, ref];
 }
