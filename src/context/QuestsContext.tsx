@@ -45,8 +45,6 @@ export function QuestsContextProvider({ children }: React.PropsWithChildren) {
       );
   }, [data]);
 
-  console.log(quests);
-
   const getQuestById = useCallback(
     (id: QuestId) => quests.find(item => item.id === id),
     [quests],
