@@ -45,7 +45,7 @@
 }
 
 .grid-master__tile > span:not(.smooth) > img {
-  image-rendering: pixelated;
+  image-rendering: crisp-edges;
 }
 
 @media (hover: hover) {

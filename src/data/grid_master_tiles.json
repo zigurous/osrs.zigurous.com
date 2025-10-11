@@ -32,7 +32,7 @@
     "task": "Kill an Ogress.",
     "taskLink": "Ogress_Shaman",
     "reward": "Combatant",
-    "rewardDescription": "Select three combat skills. Whenever you gain XP in one of your chosen skills, gain 50% XP in the other two.",
+    "rewardDescription": "Select three combat skills. Whenever you gain XP in one of your chosen skills, gain 50% XP in the other two.\n\nAvailable skills: Attack, Strength, Defence, Hitpoints, Ranged, Magic, Prayer",
     "rewardIcon": "Combat_icon",
     "rewardLink": "Combatant"
   },
@@ -90,7 +90,7 @@
     "row": "2",
     "type": "medium",
     "icon": "Shark",
-    "task": "Cook a shark while weaing a Chef's hat.",
+    "task": "Cook a shark while weaing a chef's hat.",
     "taskLink": "Shark",
     "reward": "Corrupted Shark",
     "rewardDescription": "A shark that isn't consumed when eaten.\nHeals a base of 20 hitpoints.",
@@ -121,7 +121,7 @@
     "row": "3",
     "type": "medium",
     "icon": "Valuables_5",
-    "task": "Obtain some Valuables from a house in Varlamore.",
+    "task": "Obtain some valuables from a house in Varlamore.",
     "taskLink": "Stealing_valuables",
     "reward": "Golden God",
     "rewardLink": "Golden_God",
@@ -162,9 +162,9 @@
     "col": "F",
     "row": "3",
     "type": "medium",
-    "icon": "Limpwurt_root",
-    "task": "UNKNOWN – Limpwurt Root",
-    "taskLink": "Limpwurt_root",
+    "icon": "Rotten_potato",
+    "task": "UNKNOWN – Rotten Potato",
+    "taskLink": "Rotten_potato",
     "unconfirmed": true
   },
   {
@@ -182,11 +182,11 @@
     "row": "4",
     "type": "easy",
     "icon": "Coins_10000",
-    "task": "Gain over 30,000 coins from one Alchemy spell.",
+    "task": "Gain over 30,000 coins from one alchemy spell.",
     "taskLink": "High_Level_Alchemy",
     "reward": "Production Prodigy",
     "rewardLink": "Production_Prodigy",
-    "rewardDescription": "When doing specific skilling activities, all items are processed at once, with a chance to make an extra product. Artisan skills also receive a permanent +12 boost."
+    "rewardDescription": "All items are processed at once when doing specific skilling activities, with a chance to make an extra product. Artisan skills also receive a +12 boost."
   },
   {
     "col": "B",
@@ -265,7 +265,7 @@
     "task": "Subdue Tempoross.",
     "taskLink": "Tempoross",
     "reward": "Craftsman",
-    "rewardDescription": "Select three Artisan skills. When you gain experience in one of your three selected skills you'll gain 50% of that experience in the other two skills.",
+    "rewardDescription": "Select three artisan skills. When you gain experience in one of your three selected skills you'll gain 50% of that experience in the other two skills.\n\nAvailable skills: Construction, Cooking, Crafting, Firemaking, Fletching, Herblore, Runecraft, Smithing",
     "rewardIcon": "Crafting_icon_(detail)",
     "rewardLink": "Craftsman"
   },
@@ -285,11 +285,11 @@
     "col": "E",
     "row": "5",
     "type": "easy",
-    "task": "UNKNOWN – Gemstone Crab",
+    "task": "Witness the Gemstone Crab burrow away.",
     "taskLink": "Gemstone_Crab",
-    "reward": "Unknown",
-    "rewardIcon": "Woodcutting_icon_(detail)",
-    "unconfirmed": true
+    "reward": "Gatherer",
+    "rewardDescription": "Select three gathering or support skills. When you gain experience in one of your three selected skills you'll gain 50% of that experience in the other two skills.\n\nAvailable skills: Mining, Fishing, Woodcutting, Hunter, Agility, Slayer, Thieving",
+    "rewardIcon": "Woodcutting_icon_(detail)"
   },
   {
     "col": "F",
@@ -381,12 +381,11 @@
     "row": "7",
     "type": "hard",
     "icon": "Demonic_throne_icon",
-    "task": "UNKNOWN – Demonic Throne",
+    "task": "Build a demonic throne in your player owned house.",
     "taskLink": "Demonic_throne",
     "reward": "Thunder Khopesh",
-    "rewardIcon": "Thunder_khopesh",
-    "rewardLink": "Thunder_khopesh",
-    "unconfirmed": true
+    "rewardIcon": "Thunder_khopesh_(Raging_Echoes_League)",
+    "rewardLink": "Thunder_khopesh"
   },
   {
     "col": "C",
@@ -441,8 +440,7 @@
     "type": "reward",
     "reward": "The Dogsword",
     "rewardIcon": "The_dogsword_detail",
-    "rewardLink": "The_dogsword",
-    "unconfirmed": true
+    "rewardLink": "The_dogsword"
   },
   {
     "col": "B",
@@ -473,9 +471,8 @@
     "row": "8",
     "type": "reward",
     "reward": "Sunlight Spear",
-    "rewardIcon": "Sunlight_spear_detail",
-    "rewardLink": "Sunlight_spear",
-    "unconfirmed": true
+    "rewardIcon": "Sunlight_spear_(Raging_Echoes_League)_detail",
+    "rewardLink": "Sunlight_spear"
   },
   {
     "col": "G",
