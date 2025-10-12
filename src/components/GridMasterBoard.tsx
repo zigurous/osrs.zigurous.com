@@ -12,12 +12,13 @@ export default function GridMasterBoard() {
     <div className="grid-master__board">
       {tiles.map(tile => {
         const key = `${tile.col}${tile.row}`;
-        if (tile.type === 'empty') {
-          return <div aria-hidden key={key} />;
-        } else if (tile.type === 'reward') {
-          return <GridMasterRewardTile tile={tile} key={key} />;
-        } else {
-          return <GridMasterTaskTile tile={tile} key={key} />;
+        switch (tile.type) {
+          case 'empty':
+            return <div aria-hidden key={key} />;
+          case 'reward':
+            return <GridMasterRewardTile tile={tile} key={key} />;
+          default:
+            return <GridMasterTaskTile tile={tile} key={key} />;
         }
       })}
     </div>
@@ -88,7 +89,23 @@ function GridMasterRewardTile({ tile }: { tile: GridMasterTile }) {
       id={cell}
       className="grid-master__cell"
       tooltip={
-        <Text type="body-sm">{(!unknown && tile.reward) || 'Unknown'}</Text>
+        !unknown && tile.rewardDescription ? (
+          <Text style={{ maxWidth: '360px' }}>
+            <Text type="body-md" weight="500">
+              {tile.reward}
+            </Text>
+            <Text className="px-xxs pb-xxs text-wrap" type="body-sm">
+              {tile.rewardDescription.split('\n').map((line, index, array) => (
+                <React.Fragment key={`${index}:${line}`}>
+                  {line}
+                  {index != array.length - 1 && <br />}
+                </React.Fragment>
+              ))}
+            </Text>
+          </Text>
+        ) : (
+          <Text type="body-sm">{(!unknown && tile.reward) || 'Unknown'}</Text>
+        )
       }
     >
       <WikiLink

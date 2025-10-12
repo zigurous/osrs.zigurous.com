@@ -11,6 +11,7 @@
     "row": "1",
     "type": "hard",
     "reward": "Avernic Treads",
+    "rewardDescription": "Powerful boots combining all 3 Cerberus boots.",
     "rewardIcon": "Avernic_treads_(max)",
     "rewardLink": "Avernic_treads",
     "unconfirmed": true
@@ -216,6 +217,7 @@
     "task": "Complete level 4 of the Stronghold of Security.",
     "taskLink": "Stronghold_of_Security",
     "reward": "Corner Cutter",
+    "rewardDescription": "SPECULATION",
     "rewardIcon": "Corner_Cutter",
     "rewardLink": "Corner_Cutter",
     "unconfirmed": true
@@ -233,6 +235,7 @@
     "task": "UNKNOWN – Magic Gold Feather",
     "taskLink": "Magic_gold_feather",
     "reward": "Friendly Forager",
+    "rewardDescription": "SPECULATION",
     "rewardLink": "Friendly_Forager",
     "unconfirmed": true
   },
@@ -253,6 +256,7 @@
     "icon": "Moonlight_moth_icon",
     "task": "UNKNOWN – Moonlight Moth",
     "reward": "Fairy's Flight",
+    "rewardDescription": "SPECULATION",
     "rewardIcon": "Fairy's_Flight",
     "rewardLink": "Fairy's_Flight",
     "unconfirmed": true
@@ -306,6 +310,7 @@
     "row": "6",
     "type": "reward",
     "reward": "Gloves of the Damned",
+    "rewardDescription": "Identical stats to Barrows gloves combined with the effect of Amulet of the Damned.",
     "rewardIcon": "Gloves_of_the_damned_detail",
     "rewardLink": "Gloves_of_the_damned",
     "unconfirmed": true
@@ -385,6 +390,7 @@
     "task": "Build a demonic throne in your player owned house.",
     "taskLink": "Demonic_throne",
     "reward": "Thunder Khopesh",
+    "rewardDescription": "A powerful Khopesh, imbued with the power of thunder and lightning.",
     "rewardIcon": "Thunder_khopesh_(Raging_Echoes_League)",
     "rewardLink": "Thunder_khopesh"
   },
@@ -421,6 +427,7 @@
     "task": "UNKNOWN – Humphrey Dumphrey",
     "taskLink": "Humphrey_Dumphrey",
     "reward": "Last Stand",
+    "rewardDescription": "SPECULATION",
     "rewardIcon": "Last_Stand",
     "rewardLink": "Last_Stand",
     "unconfirmed": true
@@ -440,6 +447,7 @@
     "row": "8",
     "type": "reward",
     "reward": "The Dogsword",
+    "rewardDescription": "A godsword combining the effects of all 5 godswords. Counts as a god item towards all factions in the God Wars Dungeon. Woof!",
     "rewardIcon": "The_dogsword_detail",
     "rewardLink": "The_dogsword"
   },
@@ -448,6 +456,7 @@
     "row": "8",
     "type": "reward",
     "reward": "Thousand-Dragon Ward",
+    "rewardDescription": "An offensive shield that provides immunity to all status effects – poison, venom, dragonfire, icy breath, swamp decay, desert heat, and chill stat-drains.",
     "rewardIcon": "Thousand-dragon_ward_detail",
     "rewardLink": "Thousand-dragon_ward",
     "unconfirmed": true
@@ -472,6 +481,7 @@
     "row": "8",
     "type": "reward",
     "reward": "Sunlight Spear",
+    "rewardDescription": "A weapon from a being that truly worships gods. Gains a sunlight stack every attack, up to a max of 20, that can be unleashed for powerful AoE damage.",
     "rewardIcon": "Sunlight_spear_(Raging_Echoes_League)_detail",
     "rewardLink": "Sunlight_spear"
   },
@@ -480,6 +490,7 @@
     "row": "8",
     "type": "reward",
     "reward": "Total Recall",
+    "rewardDescription": "Stores the player's current tile coordinates, hp, prayer, and spec energy. Any time later, the player may use the crystal to teleport back to the stored coordinates while restoring their stats to the stored values.",
     "rewardIcon": "Crystal_of_echoes_detail",
     "rewardLink": "Total_Recall",
     "unconfirmed": true

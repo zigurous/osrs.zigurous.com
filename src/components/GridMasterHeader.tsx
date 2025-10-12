@@ -11,7 +11,7 @@ export default function GridMasterHeader() {
       justify="between"
     >
       <Text className="ml-2xxl" type="title">
-        {context.flipped ? 'Unlocks' : 'Tasks'}
+        {context.flipped ? 'Rewards' : 'Tasks'}
       </Text>
       <Stack align="center">
         <TooltipWrapper
