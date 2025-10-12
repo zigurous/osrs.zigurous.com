@@ -315,10 +315,11 @@
     "row": "6",
     "type": "hard",
     "icon": "Ruinous_Powers",
-    "task": "UNKNOWN – Ruinous Powers",
-    "taskLink": "Ruinous_Powers",
-    "reward": "Unknown",
-    "unconfirmed": true
+    "task": "Defeat all 4 Awakened bosses.",
+    "taskLink": "Awakener's_orb",
+    "reward": "Battlehat",
+    "rewardDescription": "A tribrid helmet with no negative bonuses, that also functions as a slayer helm.",
+    "rewardLink": "Battlehat"
   },
   {
     "col": "B",
