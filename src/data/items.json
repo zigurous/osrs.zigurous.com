@@ -857,7 +857,8 @@
   },
   {
     "id": "Fairy_ring_(Construction)",
-    "icon": "Fairy_ring_(Construction)_icon"
+    "icon": "Fairy_ring_(Construction)_icon",
+    "name": "Fairy Ring"
   },
   {
     "id": "Fairy_rings",
@@ -921,6 +922,10 @@
   {
     "id": "Ghostly_robes",
     "icon": "Ghostly_robe_(top)"
+  },
+  {
+    "id": "Gilded_portal_nexus",
+    "icon": "Gilded_portal_nexus_icon"
   },
   {
     "id": "Glistening_tear",
@@ -1547,6 +1552,10 @@
     "icon": "Oathplate_shards_20"
   },
   {
+    "id": "Occult_altar",
+    "icon": "Occult_altar_icon"
+  },
+  {
     "id": "Odium_shard_1",
     "transmutations": [
       "#plus",
@@ -1584,6 +1593,10 @@
   {
     "id": "Orange_spice",
     "icon": "Orange_spice_(4)"
+  },
+  {
+    "id": "Ornate_jewellery_box",
+    "icon": "Ornate_jewellery_box_icon"
   },
   {
     "id": "Ornate_rejuvenation_pool",

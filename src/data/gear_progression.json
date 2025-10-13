@@ -285,7 +285,7 @@
         "id": "Champions'_Guild",
         "icon": "Bank_icon",
         "category": "melee",
-        "items": ["Rune_mace", "Rune_chainbody", "Rune_platelegs"]
+        "items": ["Rune_longsword", "Rune_mace", "Rune_chainbody", "Rune_platelegs"]
       },
       {
         "id": "Champions'_Guild",
@@ -366,7 +366,6 @@
       { "id": "Dorgeshuun_crossbow", "category": "ranged" },
       { "id": "Ava's_attractor", "category": "ranged" },
       { "id": "Green_d'hide_body", "category": "ranged" },
-      { "id": "Amulet_of_power", "category": "ranged" },
       { "id": "Amulet_of_magic", "category": "magic" },
       { "id": "Bronze_gloves", "category": "magic" }
     ],
@@ -388,6 +387,36 @@
         "icon": "Quest_point_icon",
         "subtitle": "1 subquest",
         "items": ["Bronze_gloves"]
+      },
+      {
+        "id": "Dragon_Slayer_I",
+        "icon": "Quest_point_icon",
+        "category": "melee",
+        "items": ["Rune_platebody"]
+      },
+      {
+        "id": "Dragon_Slayer_I",
+        "icon": "Quest_point_icon",
+        "category": "ranged",
+        "items": ["Green_d'hide_body"]
+      },
+      {
+        "id": "Dragon_Slayer_I",
+        "icon": "Quest_point_icon",
+        "category": "magic",
+        "items": []
+      },
+      {
+        "id": "The_Lost_Tribe",
+        "icon": "Quest_point_icon",
+        "category": "melee",
+        "items": ["Bone_dagger"]
+      },
+      {
+        "id": "The_Lost_Tribe",
+        "icon": "Quest_point_icon",
+        "category": "ranged",
+        "items": ["Dorgeshuun_crossbow"]
       },
       {
         "id": "H.A.M._Storerooms",
@@ -436,22 +465,10 @@
         ]
       },
       {
-        "id": "Dragon_Slayer_I",
-        "icon": "Quest_point_icon",
-        "category": "melee",
-        "items": ["Rune_platebody"]
-      },
-      {
-        "id": "Dragon_Slayer_I",
+        "id": "Animal_Magnetism",
         "icon": "Quest_point_icon",
         "category": "ranged",
-        "items": ["Green_d'hide_body"]
-      },
-      {
-        "id": "Dragon_Slayer_I",
-        "icon": "Quest_point_icon",
-        "category": "magic",
-        "items": []
+        "items": ["Ava's_attractor"]
       }
     ]
   },
@@ -531,6 +548,14 @@
             "title": "55 defence"
           }
         ]
+      },
+      {
+        "id": "Ranged",
+        "icon": "Ranged_icon",
+        "category": "ranged",
+        "title": "50 ranged",
+        "subtitle": "To upgrade Ava's device",
+        "items": ["Ava's_accumulator"]
       }
     ]
   },
@@ -801,7 +826,7 @@
     ]
   },
   {
-    "title": "Rune Crossbow",
+    "title": "Archaeologists",
     "categories": ["all"],
     "items": [
       { "id": "Rune_crossbow", "category": "ranged" },
@@ -819,6 +844,9 @@
       { "id": "Steel_knife", "subcategory": "ranged-light" },
       { "id": "Rada's_blessing_2", "subcategory": "ranged-light" },
       { "id": "Rune_crossbow", "subcategory": "ranged-heavy" },
+      { "id": "Ruby_bolts_(e)", "subcategory": "ranged-heavy" },
+      { "id": "Diamond_bolts_(e)", "subcategory": "ranged-heavy" },
+      { "id": "Broad_bolts", "subcategory": "ranged-heavy" },
       { "id": "Rune_crossbow", "subcategory": "ranged-slayer" },
       { "id": "Dorgeshuun_crossbow", "subcategory": "ranged-spec" },
       { "id": "Bone_bolts", "subcategory": "ranged-spec" }
@@ -844,7 +872,7 @@
       {
         "id": "Deranged_archaeologist",
         "icon": "Unidentified_small_fossil",
-        "items": ["Black_d'hide_body", "Steel_ring"],
+        "items": ["Steel_ring"],
         "subcards": [
           {
             "id": "Setup",
@@ -930,7 +958,7 @@
       { "id": "Magic_shortbow", "subcategory": "ranged-standard" },
       { "id": "Rune_arrow", "subcategory": "ranged-standard" },
       { "id": "Steel_knife", "subcategory": "ranged-light" },
-      { "id": "#equipmentslot-ammo", "subcategory": "ranged-light" },
+      { "id": "Rada's_blessing_2", "subcategory": "ranged-light" },
       { "id": "Hunters'_sunlight_crossbow", "subcategory": "ranged-heavy" },
       { "id": "Hunters'_sunlight_crossbow", "subcategory": "ranged-slayer" },
       { "id": "Dorgeshuun_crossbow", "subcategory": "ranged-spec" },
@@ -1182,7 +1210,7 @@
       }
     ],
     "notes": [
-      "The <Link=\"Master_wand\">Master Wand</Link> is an extremely marginal upgrade compared to the Ancient Staff but it takes quite a while to grind and therefore it is almost never worth the effort until you make a <Link=\"Kodai_wand\">Kodai Wand</Link> towards the end of your progression."
+      "The <Link=\"Master_wand\">master wand</Link> is an extremely marginal upgrade compared to the Ancient Staff but it takes quite a while to grind. It is usually not worth the effort until you can make a <Link=\"Kodai_wand\">Kodai wand</Link> much further in progression."
     ]
   },
   {
@@ -1383,6 +1411,7 @@
       { "id": "Blood_moon_helm", "category": "melee" },
       { "id": "Blood_moon_chestplate", "category": "melee" },
       { "id": "Blood_moon_tassets", "category": "melee" },
+      { "id": "Atlatl_dart", "category": "ranged" },
       { "id": "Eclipse_atlatl", "category": "ranged" },
       { "id": "Eclipse_moon_helm", "category": "ranged" },
       { "id": "Eclipse_moon_chestplate", "category": "ranged" },
@@ -1400,6 +1429,22 @@
       { "id": "Dual_macuahuitl", "subcategory": "melee-crush" },
       { "id": "Arkan_blade", "subcategory": "melee-spec" },
       { "id": "Black_mask_(i)", "subcategory": "melee-slayer" },
+      { "id": "Atlatl_dart", "subcategory": "ranged-standard" },
+      { "id": "Steel_knife", "subcategory": "ranged-light" },
+      { "id": "Rada's_blessing_2", "subcategory": "ranged-light" },
+      { "id": "Helm_of_neitiznot", "subcategory": "ranged-light" },
+      { "id": "Amulet_of_power", "subcategory": "ranged-light" },
+      { "id": "Archers_ring_(i)", "subcategory": "ranged-light" },
+      { "id": "Hunters'_sunlight_crossbow", "subcategory": "ranged-heavy" },
+      { "id": "Sunlight_antler_bolts", "subcategory": "ranged-heavy" },
+      { "id": "Helm_of_neitiznot", "subcategory": "ranged-heavy" },
+      { "id": "Amulet_of_power", "subcategory": "ranged-heavy" },
+      { "id": "Archers_ring_(i)", "subcategory": "ranged-heavy" },
+      { "id": "Dorgeshuun_crossbow", "subcategory": "ranged-spec" },
+      { "id": "Bone_bolts", "subcategory": "ranged-spec" },
+      { "id": "Helm_of_neitiznot", "subcategory": "ranged-spec" },
+      { "id": "Amulet_of_power", "subcategory": "ranged-spec" },
+      { "id": "Archers_ring_(i)", "subcategory": "ranged-spec" },
       { "id": "Black_mask_(i)", "subcategory": "ranged-slayer" },
       { "id": "Black_mask_(i)", "subcategory": "magic-slayer" }
     ],
@@ -1500,10 +1545,22 @@
       {
         "id": "Fire_Wave",
         "icon": "Magic_icon",
-        "category": "magic",
         "title": "75 magic",
         "subtitle": "To cast fire wave",
         "items": ["Fire_Wave"]
+      },
+      {
+        "id": "Royal_Titans",
+        "icon": "Bran",
+        "category": "melee",
+        "items": ["Twinflame_staff", "Deadeye_prayer_scroll", "Mystic_vigour_prayer_scroll"],
+        "subcards": [
+          {
+            "id": "Setup",
+            "icon": "Combat_icon",
+            "setupId": "Royal_Titans"
+          }
+        ]
       },
       {
         "id": "Royal_Titans",
@@ -1546,6 +1603,14 @@
         "title": "63 prayer",
         "subtitle": "To use upgraded prayer",
         "items": ["Mystic_Vigour"]
+      },
+      {
+        "id": "Prayer",
+        "icon": "Prayer_icon",
+        "category": "melee",
+        "title": "63 prayer",
+        "subtitle": "To use upgraded prayers",
+        "items": ["Deadeye", "Mystic_Vigour"]
       }
     ],
     "notes": [
@@ -1559,6 +1624,15 @@
       { "id": "Dragon_hunter_wand", "category": "magic" }
     ],
     "subcategoryItems": [
+      { "id": "Hueycoatl_hide_coif", "subcategory": "ranged-light" },
+      { "id": "Hueycoatl_hide_body", "subcategory": "ranged-light" },
+      { "id": "Hueycoatl_hide_chaps", "subcategory": "ranged-light" },
+      { "id": "Hueycoatl_hide_coif", "subcategory": "ranged-heavy" },
+      { "id": "Hueycoatl_hide_body", "subcategory": "ranged-heavy" },
+      { "id": "Hueycoatl_hide_chaps", "subcategory": "ranged-heavy" },
+      { "id": "Hueycoatl_hide_coif", "subcategory": "ranged-spec" },
+      { "id": "Hueycoatl_hide_body", "subcategory": "ranged-spec" },
+      { "id": "Hueycoatl_hide_chaps", "subcategory": "ranged-spec" },
       { "id": "Tome_of_earth", "subcategory": "magic-standard" },
       { "id": "Twinflame_staff", "subcategory": "magic-standard" },
       { "id": "Dragon_hunter_wand", "subcategory": "magic-ancient" },
@@ -1632,6 +1706,9 @@
         "subtitle": "To unlock Mastering Mixology",
         "items": ["Aldarium"]
       }
+    ],
+    "notes": [
+      "::ranged|Hueycoatl hide armour has similar ranged accuracy to eclipse moon but higher defence and prayer bonus which makes it better when you aren't using an atlatl."
     ]
   },
   {
@@ -1639,7 +1716,8 @@
     "categories": ["all"],
     "questMilestone": "The_Path_of_Glouphrie",
     "items": [
-      { "id": "Warped_sceptre", "category": "magic" }
+      { "id": "Warped_sceptre", "category": "magic" },
+      { "id": "Bandos_d'hide_shield", "category": "ranged" }
     ],
     "subcategoryItems": [
       { "id": "Arclight", "subcategory": "melee-slayer" },
@@ -1682,6 +1760,14 @@
         ]
       },
       {
+        "id": "Clue_scroll_(hard)",
+        "icon": "Clue_scroll_(hard)",
+        "category": "ranged",
+        "title": "Clue Scrolls",
+        "subtitle": "Hard",
+        "items": ["Zamorak_d'hide_boots", "Bandos_d'hide_shield"]
+      },
+      {
         "id": "Attack",
         "icon": "Attack_icon",
         "category": "melee",
@@ -1699,7 +1785,10 @@
       }
     ],
     "notes": [
-      "Slayer should be trained in the <Link=\"Catacombs_of_Kourend\">Catacombs of Kourend</Link> as much as possible to collect <Link=\"Ancient_shard\">Ancient Shards</Link> for charging and imbuing your Arclight."
+      "::melee|Slayer should be trained in the <Link=\"Catacombs_of_Kourend\">Catacombs of Kourend</Link> as much as possible to collect <Link=\"Ancient_shard\">ancient shards</Link> for charging and imbuing your Arclight.",
+      "::ranged|You'll get a lot of hard clue scrolls while training slayer. A blessed d'hide shield and boots are good upgrades if you happen to get them but not required.",
+      "::ranged|Eventually you also want to get <Link=\"Ranger_boots\">Ranger boots</Link> from medium clues but this is something you should work towards passively over time.",
+      "::magic|The Warped Sceptre is likely your first powered staff which does not require a specific spellbook to use. This is good because we can use the Arceuus spellbook for summoning thralls."
     ]
   },
   {
@@ -1711,6 +1800,7 @@
       { "id": "Emberlight", "subcategory": "melee-slayer" },
       { "id": "Purging_staff", "subcategory": "magic-spec" },
       { "id": "Scorching_bow", "subcategory": "ranged-slayer" },
+      { "id": "Rune_arrow", "subcategory": "ranged-slayer" },
       { "id": "Hueycoatl_hide_body", "subcategory": "ranged-slayer" },
       { "id": "Hueycoatl_hide_chaps", "subcategory": "ranged-slayer" },
       { "id": "Amulet_of_power", "subcategory": "ranged-slayer" },
@@ -1732,7 +1822,8 @@
     "timeline": [
       {
         "id": "While_Guthix_Sleeps",
-        "icon": "Quest_point_icon"
+        "icon": "Quest_point_icon",
+        "subtitle": "Grandmaster"
       },
       {
         "id": "Tormented_Demon",
@@ -1794,7 +1885,8 @@
     "timeline": [
       {
         "id": "Monkey_Madness_II",
-        "icon": "Quest_point_icon"
+        "icon": "Quest_point_icon",
+        "subtitle": "Grandmaster"
       },
       {
         "id": "Demonic_gorilla",
@@ -1860,141 +1952,88 @@
     ]
   },
   {
-    "title": "Abyssal Whip",
-    "categories": ["melee"],
+    "title": "Vorkath",
+    "categories": ["ranged"],
+    "questMilestone": "Dragon_Slayer_II",
     "items": [
-      { "id": "Abyssal_whip", "category": "melee" },
-      { "id": "Dragon_boots", "category": "melee" }
+      { "id": "Ava's_assembler", "category": "ranged" }
     ],
     "subcategoryItems": [
-      { "id": "Abyssal_dagger", "subcategory": "melee-stab" },
-      { "id": "Abyssal_whip", "subcategory": "melee-slash" },
-      { "id": "Abyssal_bludgeon", "subcategory": "melee-crush" },
-      { "id": "Burning_claws", "subcategory": "melee-spec" },
-      { "id": "Emberlight", "subcategory": "melee-slayer" }
-    ],
-    "skills": [
-      { "skill": "attack", "level": 80 },
-      { "skill": "strength", "level": 80 },
-      { "skill": "defence", "level": 80 },
-      { "skill": "ranged", "level": 80 },
-      { "skill": "construction", "level": 80, "highlight": true },
-      { "skill": "slayer", "level": 85, "highlight": true },
-      { "skill": "magic", "level": 88 }
+      { "id": "Rune_crossbow", "subcategory": "ranged-heavy" },
+      { "id": "Ruby_bolts_(e)", "subcategory": "ranged-heavy" }
     ],
     "timeline": [
       {
-        "id": "Spiritual_mage",
-        "icon": "Spiritual_mage_icon",
-        "subtitle": "83 slayer",
-        "items": ["Dragon_boots"]
+        "id": "Dragon_Slayer_II",
+        "icon": "Quest_point_icon",
+        "category": "melee",
+        "subtitle": "Grandmaster",
+        "items": ["Mythical_cape"]
       },
       {
-        "id": "Construction",
-        "icon": "Construction_icon",
-        "title": "80 construction",
-        "subtitle": "+5 boost",
-        "items": ["Fairy_ring_(Construction)"]
+        "id": "Dragon_Slayer_II",
+        "icon": "Quest_point_icon",
+        "category": "ranged",
+        "subtitle": "Grandmaster"
       },
       {
-        "id": "Slayer",
-        "icon": "Slayer_icon",
-        "title": "85 slayer"
+        "id": "Dragon_Slayer_II",
+        "icon": "Quest_point_icon",
+        "category": "magic",
+        "subtitle": "Grandmaster"
       },
       {
-        "id": "Abyssal_demon",
-        "icon": "Abyssal_demon_icon",
-        "items": ["Abyssal_whip"]
-      },
-      {
-        "id": "Abyssal_Sire",
-        "icon": "Abyssal_Sire_icon_(mobile)",
-        "subtitle": "Optional",
-        "items": ["Abyssal_dagger", "Abyssal_bludgeon"],
+        "id": "Vorkath",
+        "icon": "Vorkath_icon_(mobile)",
+        "items": ["Vorkath's_head"],
         "subcards": [
           {
             "id": "Setup",
-            "icon": "Attack_icon",
-            "setupId": "Abyssal_Sire"
+            "icon": "Ranged_icon",
+            "setupId": "Vorkath"
           }
         ]
       }
-    ]
-  },
-  {
-    "title": "Kraken",
-    "categories": ["magic", "melee"],
-    "items": [
-      { "id": "Abyssal_tentacle", "category": "melee" },
-      { "id": "Trident_of_the_seas", "category": "magic" }
     ],
-    "subcategoryItems": [
-      { "id": "Abyssal_dagger", "subcategory": "melee-stab" },
-      { "id": "Abyssal_tentacle", "subcategory": "melee-slash" },
-      { "id": "Abyssal_bludgeon", "subcategory": "melee-crush" },
-      { "id": "Burning_claws", "subcategory": "melee-spec" },
-      { "id": "Emberlight", "subcategory": "melee-slayer" },
-      { "id": "Twinflame_staff", "subcategory": "magic-standard" },
-      { "id": "Dragon_hunter_wand", "subcategory": "magic-ancient" },
-      { "id": "Trident_of_the_seas", "subcategory": "magic-arceuus" },
-      { "id": "Dragon_hunter_wand", "subcategory": "magic-slayer" },
-      { "id": "Purging_staff", "subcategory": "magic-spec" }
-    ],
-    "skills": [
-      { "skill": "herblore", "level": 76 },
-      { "skill": "magic", "level": 85 },
-      { "skill": "slayer", "level": 87, "highlight": true }
-    ],
-    "timeline": [
-      {
-        "id": "Slayer",
-        "icon": "Slayer_icon",
-        "title": "87 slayer"
-      },
-      {
-        "id": "Cave_kraken",
-        "icon": "Cave_kraken_icon",
-        "items": ["Trident_of_the_seas"]
-      },
-      {
-        "id": "Kraken",
-        "icon": "Kraken_icon_(mobile)",
-        "items": ["Kraken_tentacle"],
-        "subcards": [
-          {
-            "id": "Setup",
-            "icon": "Magic_icon",
-            "setupId": "Kraken"
-          }
-        ]
-      }
+    "notes": [
+      "We are only killing Vorkath at most 50 times to get the upgraded Ava's device. None of the other items are worth the time investment until we have better gear."
     ]
   },
   {
     "title": "Zulrah",
     "categories": ["all"],
     "items": [
-      { "id": "Serpentine_helm", "category": "melee" },
       { "id": "Toxic_blowpipe", "category": "ranged" },
-      { "id": "Trident_of_the_swamp", "category": "magic" }
+      { "id": "Hueycoatl_hide_coif", "category": "ranged" },
+      { "id": "Hueycoatl_hide_body", "category": "ranged" },
+      { "id": "Hueycoatl_hide_chaps", "category": "ranged" },
+      { "id": "Archers_ring_(i)", "category": "ranged" },
+      { "id": "Rada's_blessing_2", "category": "ranged" }
     ],
     "subcategoryItems": [
-      { "id": "Slayer_helmet_(i)", "subcategory": "melee-slayer" },
+      { "id": "Serpentine_helm", "subcategory": "melee-slash" },
+      { "id": "Serpentine_helm", "subcategory": "melee-spec" },
+      { "id": "Eclipse_atlatl", "subcategory": "ranged-standard" },
+      { "id": "Eclipse_moon_helm", "subcategory": "ranged-standard" },
+      { "id": "Eclipse_moon_chestplate", "subcategory": "ranged-standard" },
+      { "id": "Eclipse_moon_tassets", "subcategory": "ranged-standard" },
+      { "id": "Berserker_ring_(i)", "subcategory": "ranged-standard" },
       { "id": "Toxic_blowpipe", "subcategory": "ranged-light" },
+      { "id": "Rune_crossbow", "subcategory": "ranged-heavy" },
+      { "id": "Ruby_bolts_(e)", "subcategory": "ranged-heavy" },
+      { "id": "Slayer_helmet_(i)", "subcategory": "ranged-slayer" },
+      { "id": "Scorching_bow", "subcategory": "ranged-slayer" },
       { "id": "Toxic_blowpipe", "subcategory": "ranged-spec" },
       { "id": "Rada's_blessing_2", "subcategory": "ranged-spec" },
       { "id": "Twinflame_staff", "subcategory": "magic-standard" },
       { "id": "Dragon_hunter_wand", "subcategory": "magic-ancient" },
-      { "id": "Trident_of_the_swamp", "subcategory": "magic-arceuus" },
       { "id": "Dragon_hunter_wand", "subcategory": "magic-slayer" },
       { "id": "Purging_staff", "subcategory": "magic-spec" }
     ],
     "skills": [
       { "skill": "magic", "level": 75 },
       { "skill": "agility", "level": 76, "highlight": true },
-      { "skill": "fletching", "level": 78, "highlight": true },
-      { "skill": "construction", "level": 82, "highlight": true  },
-      { "skill": "herblore", "level": 83, "highlight": true  }
+      { "skill": "fletching", "level": 78, "highlight": true }
     ],
     "timeline": [
       {
@@ -2006,7 +2045,34 @@
       {
         "id": "Zulrah",
         "icon": "Zulrah_icon_(mobile)",
-        "items": ["Serpentine_visage", "Tanzanite_fang", "Magic_fang"],
+        "category": "melee",
+        "items": ["Serpentine_visage"],
+        "subcards": [
+          {
+            "id": "Setup",
+            "icon": "Magic_icon",
+            "setupId": "Zulrah"
+          }
+        ]
+      },
+      {
+        "id": "Zulrah",
+        "icon": "Zulrah_icon_(mobile)",
+        "category": "ranged",
+        "items": ["Tanzanite_fang"],
+        "subcards": [
+          {
+            "id": "Setup",
+            "icon": "Magic_icon",
+            "setupId": "Zulrah"
+          }
+        ]
+      },
+      {
+        "id": "Zulrah",
+        "icon": "Zulrah_icon_(mobile)",
+        "category": "magic",
+        "items": ["Magic_fang"],
         "subcards": [
           {
             "id": "Setup",
@@ -2038,21 +2104,175 @@
         "title": "78 fletching",
         "subtitle": "Boostable",
         "items": ["Toxic_blowpipe"]
-      },
-      {
-        "id": "Herblore",
-        "icon": "Herblore_icon",
-        "title": "83 herblore",
-        "subtitle": "+4 boost",
-        "items": ["Anti-venom"]
-      },
-      {
-        "id": "Construction",
-        "icon": "Construction_icon",
-        "title": "82 construction",
-        "subtitle": "+8 boost",
-        "items": ["Ornate_rejuvenation_pool"]
       }
+    ],
+    "notes": [
+      "::magic|You probably won't be able to craft the Trident of the Swamp yet since it requires 87 slayer to get a <Link=\"Trident_of_the_seas\">Trident of the Seas</Link> from Kraken. Zulrah is still worth killing now for the ranged Blowpipe though."
+    ]
+  },
+  {
+    "title": "K'ril Tsutsaroth",
+    "categories": ["melee"],
+    "items": [
+      { "id": "Zamorakian_hasta", "category": "melee" },
+      { "id": "Serpentine_helm", "category": "melee" }
+    ],
+    "subcategoryItems": [
+      { "id": "Zamorakian_hasta", "subcategory": "melee-stab" },
+      { "id": "Zombie_axe", "subcategory": "melee-slash" },
+      { "id": "Dual_macuahuitl", "subcategory": "melee-crush" },
+      { "id": "Blood_moon_helm", "subcategory": "melee-crush" },
+      { "id": "Burning_claws", "subcategory": "melee-spec" },
+      { "id": "Emberlight", "subcategory": "melee-slayer" },
+      { "id": "Slayer_helmet_(i)", "subcategory": "melee-slayer" }
+    ],
+    "skills": [
+      { "skill": "ranged", "level": 85, "highlight": true }
+    ],
+    "timeline": [
+      {
+        "id": "K'ril_Tsutsaroth",
+        "icon": "K'ril_Tsutsaroth_icon_(mobile)",
+        "subtitle": "On Task",
+        "items": ["Zamorakian_spear"],
+        "subcards": [
+          {
+            "id": "Setup",
+            "icon": "Ranged_icon",
+            "setupId": "K'ril_Tsutsaroth"
+          }
+        ]
+      },
+      {
+        "id": "Barbarian_Training",
+        "icon": "Smithing_icon",
+        "items": ["Zamorakian_hasta"],
+        "subcards": [
+          {
+            "id": "Coins",
+            "icon": "Coins_10000",
+            "title": "300k",
+            "subtitle": "To convert to hasta"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "The Zamorakian hasta is a great stab weapon for Tombs of Amascut and is eventually needed to create a <Link=\"Dragon_hunter_lance\">Dragon Hunter Lance</Link>."
+    ]
+  },
+  {
+    "title": "Tombs of Amascut",
+    "categories": ["all"],
+    "questMilestone": "Beneath_Cursed_Sands",
+    "items": [
+      { "id": "Osmumten's_fang", "category": "melee" },
+      { "id": "Lightbearer", "category": "ranged" }
+    ],
+    "subcategoryItems": [
+      { "id": "Osmumten's_fang", "subcategory": "melee-stab" },
+      { "id": "Zombie_axe", "subcategory": "melee-slash" },
+      { "id": "Dual_macuahuitl", "subcategory": "melee-crush" },
+      { "id": "Burning_claws", "subcategory": "melee-spec" },
+      { "id": "Emberlight", "subcategory": "melee-slayer" },
+      { "id": "Lightbearer", "subcategory": "melee-spec" },
+      { "id": "Berserker_ring_(i)", "subcategory": "ranged-standard" },
+      { "id": "Archers_ring_(i)", "subcategory": "ranged-heavy" },
+      { "id": "Lightbearer", "subcategory": "ranged-spec" },
+      { "id": "Lightbearer", "subcategory": "magic-spec" }
+    ],
+    "skills": [
+      { "skill": "attack", "level": 70 },
+      { "skill": "strength", "level": 70 },
+      { "skill": "defence", "level": 70 },
+      { "skill": "ranged", "level": 70 },
+      { "skill": "magic", "level": 70 },
+      { "skill": "crafting", "level": 75 },
+      { "skill": "attack", "level": 82, "highlight": true }
+    ],
+    "timeline": [
+      {
+        "id": "Beneath_Cursed_Sands",
+        "icon": "Quest_point_icon",
+        "items": ["Keris_partisan"]
+      },
+      {
+        "id": "Tombs_of_Amascut",
+        "icon": "Tumeken's_guardian",
+        "items": ["Osmumten's_fang", "Lightbearer", "Thread_of_elidinis"],
+        "subcards": [
+          {
+            "id": "Setup",
+            "icon": "Combat_icon",
+            "setupId": "Tombs_of_Amascut"
+          }
+        ]
+      },
+      {
+        "id": "Attack",
+        "icon": "Attack_icon",
+        "title": "82 attack",
+        "subtitle": "To equip weapon"
+      }
+    ],
+    "notes": [
+      "We are only farming a few common items right now: the <Link=\"Osmumten's_fang\">Osmumten's Fang</Link> is a powerful weapon for general bossing, the <Link=\"Lightbearer\">Lighbearer</Link> regens special attack energy twice as fast, and the <Link=\"Divine_rune_pouch\">Divine Rune Pouch</Link> stores an extra rune to maximize inventory space."
+    ]
+  },
+  {
+    "title": "Basilisk Knights",
+    "categories": ["melee"],
+    "questMilestone": "The_Fremennik_Exiles",
+    "items": [
+      { "id": "Neitiznot_faceguard", "category": "melee" },
+      { "id": "Dragon_boots", "category": "melee" },
+      { "id": "Ranger_boots", "category": "ranged" }
+    ],
+    "subcategoryItems": [
+      { "id": "Slayer_helmet_(i)", "subcategory": "melee-slayer" }
+    ],
+    "skills": [
+      { "skill": "ranged", "level": 75 },
+      { "skill": "attack", "level": 80 },
+      { "skill": "strength", "level": 80 },
+      { "skill": "defence", "level": 80 },
+      { "skill": "slayer", "level": 83, "highlight": true }
+    ],
+    "timeline": [
+      {
+        "id": "The_Fremennik_Exiles",
+        "icon": "Quest_point_icon",
+        "items": ["V's_shield"]
+      },
+      {
+        "id": "Basilisk_Knight",
+        "icon": "Basilisk_Knight_icon",
+        "subtitle": "Optional",
+        "items": ["Basilisk_jaw"],
+        "subcards": [
+          {
+            "id": "Setup",
+            "icon": "Slayer_icon",
+            "setupId": "Basilisk_Knight"
+          }
+        ]
+      },
+      {
+        "id": "Spiritual_mage",
+        "icon": "Spiritual_mage_icon",
+        "category": "melee",
+        "items": ["Dragon_boots"],
+        "subcards": [
+          {
+            "id": "Slayer",
+            "icon": "Slayer_icon",
+            "title": "83 slayer"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "Basilisk knights are very slow to kill and don't provide good xp rates so many players opt to skip them. The <Link=\"Serpentine_helm\">Serpentine helm</Link> is very comparable and provides better utility so you can choose to stick with that."
     ]
   },
   {
@@ -2063,8 +2283,8 @@
     ],
     "subcategoryItems": [
       { "id": "Dragon_warhammer", "subcategory": "melee-spec" },
-      { "id": "Rada's_blessing_3", "subcategory": "ranged-light" },
-      { "id": "Rada's_blessing_3", "subcategory": "ranged-light" }
+      { "id": "Atlatl_dart", "subcategory": "ranged-standard" },
+      { "id": "Ruby_bolts_(e)", "subcategory": "ranged-heavy" }
     ],
     "timeline": [
       {
@@ -2087,14 +2307,291 @@
       }
     ],
     "notes": [
-      "The <Link=\"Dragon_warhammer\">Dragon Warhammer</Link> is used at a lot of bosses to drain their defence. It's a long but worthwhile grind, although many players wait until they start doing higher level PvM before grinding this weapon."
+      "The <Link=\"Dragon_warhammer\">Dragon Warhammer</Link> is used at a lot of bosses to drain their defence. It is a long but worthwhile grind and is especially useful at the next raid."
     ]
   },
   {
-    "title": "Commander Zilyana",
-    "categories": ["melee", "ranged"],
+    "title": "Abyssal Whip",
+    "categories": ["melee"],
+    "items": [
+      { "id": "Abyssal_whip", "category": "melee" }
+    ],
     "subcategoryItems": [
-      { "id": "Armadyl_crossbow", "subcategory": "ranged-heavy" }
+      { "id": "Osmumten's_fang", "subcategory": "melee-stab" },
+      { "id": "Abyssal_whip", "subcategory": "melee-slash" },
+      { "id": "Abyssal_bludgeon", "subcategory": "melee-crush" },
+      { "id": "Neitiznot_faceguard", "subcategory": "melee-crush" },
+      { "id": "Dragon_warhammer", "subcategory": "melee-spec" },
+      { "id": "Emberlight", "subcategory": "melee-slayer" }
+    ],
+    "skills": [
+      { "skill": "attack", "level": 80 },
+      { "skill": "strength", "level": 80 },
+      { "skill": "defence", "level": 80 },
+      { "skill": "ranged", "level": 80 },
+      { "skill": "slayer", "level": 85, "highlight": true },
+      { "skill": "magic", "level": 88 }
+    ],
+    "timeline": [
+      {
+        "id": "Slayer",
+        "icon": "Slayer_icon",
+        "title": "85 slayer"
+      },
+      {
+        "id": "Abyssal_demon",
+        "icon": "Abyssal_demon_icon",
+        "items": ["Abyssal_whip"]
+      },
+      {
+        "id": "Abyssal_Sire",
+        "icon": "Abyssal_Sire_icon_(mobile)",
+        "subtitle": "Optional",
+        "items": ["Abyssal_dagger", "Abyssal_bludgeon"],
+        "subcards": [
+          {
+            "id": "Setup",
+            "icon": "Attack_icon",
+            "setupId": "Abyssal_Sire"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "Although the <Link=\"Abyssal_bludgeon\">Abyssal bludgeon</Link> is a good upgrade for crush, there's not many crush-weak bosses in the game where you'll use it. Feel free to skip this if you'd like."
+    ]
+  },
+  {
+    "title": "Kraken",
+    "categories": ["magic", "melee"],
+    "items": [
+      { "id": "Abyssal_tentacle", "category": "melee" },
+      { "id": "Trident_of_the_swamp", "category": "magic" }
+    ],
+    "subcategoryItems": [
+      { "id": "Osmumten's_fang", "subcategory": "melee-stab" },
+      { "id": "Abyssal_tentacle", "subcategory": "melee-slash" },
+      { "id": "Abyssal_bludgeon", "subcategory": "melee-crush" },
+      { "id": "Dragon_warhammer", "subcategory": "melee-spec" },
+      { "id": "Emberlight", "subcategory": "melee-slayer" },
+      { "id": "Twinflame_staff", "subcategory": "magic-standard" },
+      { "id": "Dragon_hunter_wand", "subcategory": "magic-ancient" },
+      { "id": "Trident_of_the_swamp", "subcategory": "magic-arceuus" },
+      { "id": "Dragon_hunter_wand", "subcategory": "magic-slayer" },
+      { "id": "Purging_staff", "subcategory": "magic-spec" }
+    ],
+    "skills": [
+      { "skill": "herblore", "level": 76 },
+      { "skill": "magic", "level": 85 },
+      { "skill": "slayer", "level": 87, "highlight": true }
+    ],
+    "timeline": [
+      {
+        "id": "Slayer",
+        "icon": "Slayer_icon",
+        "title": "87 slayer"
+      },
+      {
+        "id": "Cave_kraken",
+        "icon": "Cave_kraken_icon",
+        "items": ["Trident_of_the_seas"]
+      },
+      {
+        "id": "Kraken",
+        "icon": "Kraken_icon_(mobile)",
+        "items": ["Kraken_tentacle"],
+        "subcards": [
+          {
+            "id": "Setup",
+            "icon": "Magic_icon",
+            "setupId": "Kraken"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "::magic|If you haven't already farmed <Link=\"Zulrah\">Zulrah</Link> yet, then you'll want to do that as soon as possible to upgrade to a <Link=\"Trident_of_the_swamp\">Trident of the Swamp</Link>."
+    ]
+  },
+  {
+    "title": "Chambers of Xeric",
+    "categories": ["all"],
+    "skills": [
+      { "skill": "farming", "level": 55 },
+      { "skill": "thieving", "level": 60 },
+      { "skill": "woodcutting", "level": 60 },
+      { "skill": "mining", "level": 60 },
+      { "skill": "prayer", "level": 77, "highlight": true },
+      { "skill": "herblore", "level": 78, "highlight": true }
+    ],
+    "timeline": [
+      {
+        "id": "Chambers_of_Xeric#Strong_potions",
+        "icon": "Herblore_icon",
+        "title": "78 herblore",
+        "items": ["Xeric's_aid_(+)", "Revitalisation_(+)", "Prayer_enhance_(+)"]
+      },
+      {
+        "id": "Chambers_of_Xeric",
+        "icon": "Great_Olm_icon_(mobile)",
+        "items": ["Dexterous_prayer_scroll", "Arcane_prayer_scroll"],
+        "subcards": [
+          {
+            "id": "Setup",
+            "icon": "Combat_icon",
+            "setupId": "Chambers_of_Xeric"
+          }
+        ]
+      },
+      {
+        "id": "Prayer",
+        "icon": "Prayer_icon",
+        "title": "77 prayer",
+        "subtitle": "To use new prayers",
+        "items": ["Rigour", "Augury"]
+      }
+    ],
+    "notes": [
+      "We are only doing Chambers of Xeric right now for the prayer scrolls since they are the most common unique and provide a massive DPS increase. The rest of the items can be farmed later."
+    ]
+  },
+  {
+    "title": "Corrupted Gauntlet",
+    "questMilestone": "Song_of_the_Elves",
+    "categories": ["ranged"],
+    "items": [
+      { "id": "Bow_of_faerdhinen", "category": "ranged" },
+      { "id": "Crystal_helm", "category": "ranged" },
+      { "id": "Crystal_body", "category": "ranged" },
+      { "id": "Crystal_legs", "category": "ranged" },
+      { "id": "Archers_ring_(i)", "category": "ranged" }
+    ],
+    "subcategoryItems": [
+      { "id": "Bow_of_faerdhinen", "subcategory": "ranged-standard" },
+      { "id": "Rada's_blessing_3", "subcategory": "ranged-standard" },
+      { "id": "Toxic_blowpipe", "subcategory": "ranged-light" },
+      { "id": "Hueycoatl_hide_coif", "subcategory": "ranged-light" },
+      { "id": "Hueycoatl_hide_body", "subcategory": "ranged-light" },
+      { "id": "Hueycoatl_hide_chaps", "subcategory": "ranged-light" },
+      { "id": "Lightbearer", "subcategory": "ranged-light" },
+      { "id": "Rune_crossbow", "subcategory": "ranged-heavy" },
+      { "id": "Hueycoatl_hide_coif", "subcategory": "ranged-heavy" },
+      { "id": "Hueycoatl_hide_body", "subcategory": "ranged-heavy" },
+      { "id": "Hueycoatl_hide_chaps", "subcategory": "ranged-heavy" },
+      { "id": "Scorching_bow", "subcategory": "ranged-slayer" },
+      { "id": "Slayer_helmet_(i)", "subcategory": "ranged-slayer" },
+      { "id": "Hueycoatl_hide_body", "subcategory": "ranged-slayer" },
+      { "id": "Hueycoatl_hide_chaps", "subcategory": "ranged-slayer" },
+      { "id": "Lightbearer", "subcategory": "ranged-slayer" },
+      { "id": "Toxic_blowpipe", "subcategory": "ranged-spec" },
+      { "id": "Hueycoatl_hide_coif", "subcategory": "ranged-spec" },
+      { "id": "Hueycoatl_hide_body", "subcategory": "ranged-spec" },
+      { "id": "Hueycoatl_hide_chaps", "subcategory": "ranged-spec" },
+      { "id": "Lightbearer", "subcategory": "ranged-spec" }
+    ],
+    "timeline": [
+      {
+        "id": "Song_of_the_Elves",
+        "icon": "Quest_point_icon",
+        "subtitle": "Grandmaster"
+      },
+      {
+        "id": "Corrupted_Gauntlet",
+        "icon": "Crystalline_Hunllef_icon_(mobile)",
+        "items": ["Enhanced_crystal_weapon_seed", "Crystal_armour_seed"]
+      },
+      {
+        "id": "Singing_bowl",
+        "icon": "Singing_bowl_icon",
+        "category": "melee",
+        "items": ["Crystal_halberd", "Crystal_shield"]
+      },
+      {
+        "id": "Singing_bowl",
+        "icon": "Singing_bowl_icon",
+        "category": "ranged",
+        "items": ["Bow_of_faerdhinen", "Crystal_helm", "Crystal_body", "Crystal_legs"]
+      },
+      {
+        "id": "Singing_bowl",
+        "icon": "Singing_bowl_icon",
+        "category": "magic",
+        "items": ["Crystal_shield"]
+      }
+    ],
+    "notes": [
+      "Many players opt to do the Corrupted Gauntlet earlier in progression because the Bowfa opens up a lot of bossing content, but the mid-game has expanded with much better gear so it's not strictly needed."
+    ]
+  },
+  {
+    "title": "Player-Owned House",
+    "questMilestone": "The_Eyes_of_Glouphrie",
+    "categories": ["all"],
+    "skills": [
+      { "skill": "herblore", "level": 82, "highlight": true },
+      { "skill": "construction", "level": 83, "highlight": true }
+    ],
+    "timeline": [
+      {
+        "id": "Teak_tree",
+        "icon": "Woodcutting_icon",
+        "items": ["Teak_logs"]
+      },
+      {
+        "id": "Sawmill",
+        "icon": "Sawmill_icon",
+        "subtitle": "500gp each",
+        "items": ["Teak_plank"]
+      },
+      {
+        "id": "Mahogany_Homes",
+        "icon": "Minigame_icon",
+        "subtitle": "Adept",
+        "items": ["Plank_sack"]
+      },
+      {
+        "id": "Herblore",
+        "icon": "Herblore_icon",
+        "title": "82 herblore",
+        "subtitle": "+5 boost",
+        "items": ["Anti-venom"]
+      },
+      {
+        "id": "Construction",
+        "icon": "Construction_icon",
+        "title": "83 construction",
+        "subcards": [
+          {
+            "id": "Construction",
+            "icon": "Orange_spice_(4)",
+            "title": "+8 boost",
+            "subtitle": "crystal saw and +5 spicy stew"
+          }
+        ],
+        "items": ["Fairy_ring_(Construction)", "Gilded_portal_nexus", "Occult_altar", "Ornate_rejuvenation_pool", "Ornate_jewellery_box"]
+      }
+    ]
+  },
+  {
+    "title": "God Wars Dungeon",
+    "categories": ["melee", "ranged"],
+    "items": [
+      { "id": "Bandos_chestplate", "category": "melee" },
+      { "id": "Bandos_tassets", "category": "melee" }
+    ],
+    "subcategoryItems": [
+      { "id": "Armadyl_helmet", "subcategory": "ranged-light" },
+      { "id": "Armadyl_chestplate", "subcategory": "ranged-light" },
+      { "id": "Armadyl_chainskirt", "subcategory": "ranged-light" },
+      { "id": "Armadyl_helmet", "subcategory": "ranged-heavy" },
+      { "id": "Armadyl_chestplate", "subcategory": "ranged-heavy" },
+      { "id": "Armadyl_chainskirt", "subcategory": "ranged-heavy" },
+      { "id": "Lightbearer", "subcategory": "ranged-heavy" },
+      { "id": "Armadyl_helmet", "subcategory": "ranged-spec" },
+      { "id": "Armadyl_chestplate", "subcategory": "ranged-spec" },
+      { "id": "Armadyl_chainskirt", "subcategory": "ranged-spec" },
+      { "id": "Armadyl_crossbow", "subcategory": "ranged-heavy" },
+      { "id": "Ruby_dragon_bolts_(e)", "subcategory": "ranged-heavy" }
     ],
     "skills": [
       { "skill": "ranged", "level": 80 },
@@ -2142,32 +2639,10 @@
         ]
       },
       {
-        "id": "Smithing",
-        "icon": "Smithing_icon",
-        "category": "melee",
-        "title": "80 smithing",
-        "subtitle": "Boostable",
-        "items": ["Saradomin_godsword"]
-      }
-    ]
-  },
-  {
-    "title": "General Graardor",
-    "categories": ["melee"],
-    "items": [
-      { "id": "Bandos_chestplate", "category": "melee" },
-      { "id": "Bandos_tassets", "category": "melee" }
-    ],
-    "skills": [
-      { "skill": "ranged", "level": 80 },
-      { "skill": "smithing", "level": 80, "highlight": true },
-      { "skill": "magic", "level": 92 }
-    ],
-    "timeline": [
-      {
         "id": "General_Graardor",
         "icon": "General_Graardor_icon_(mobile)",
-        "items": ["Bandos_hilt", "Bandos_chestplate", "Bandos_tassets"],
+        "category": "melee",
+        "items": ["Bandos_chestplate", "Bandos_tassets", "Bandos_hilt"],
         "subcards": [
           {
             "id": "Setup",
@@ -2177,69 +2652,11 @@
         ]
       },
       {
-        "id": "Smithing",
-        "icon": "Smithing_icon",
-        "title": "80 smithing",
-        "subtitle": "Boostable",
-        "items": ["Bandos_godsword"]
-      }
-    ],
-    "notes": [
-      "NOTE: Soloing Graardor is very difficult without high gear and skill requirements which means you might not be able to do this boss right now.",
-      "The uniques are useful but not strictly required so it is recommended to skip this boss until you have a <Link=\"Bow_of_faerdhinen\">Bow of Faerdhinen</Link> unless you are in a team."
-    ]
-  },
-  {
-    "title": "K'ril Tsutsaroth",
-    "categories": ["melee", "magic"],
-    "items": [
-      { "id": "Zamorakian_hasta", "category": "melee" }
-    ],
-    "subcategoryItems": [
-      { "id": "Zamorakian_hasta", "subcategory": "melee-stab" },
-      { "id": "Abyssal_tentacle", "subcategory": "melee-slash" },
-      { "id": "Abyssal_bludgeon", "subcategory": "melee-crush" },
-      { "id": "Burning_claws", "subcategory": "melee-spec" },
-      { "id": "Emberlight", "subcategory": "melee-slayer" }
-    ],
-    "skills": [
-      { "skill": "ranged", "level": 85, "highlight": true }
-    ],
-    "timeline": [
-      {
-        "id": "K'ril_Tsutsaroth",
-        "icon": "K'ril_Tsutsaroth_icon_(mobile)",
-        "category": "melee",
-        "subtitle": "On Task",
-        "items": ["Zamorakian_spear"],
-        "subcards": [
-          {
-            "id": "Setup",
-            "icon": "Ranged_icon",
-            "setupId": "K'ril_Tsutsaroth"
-          }
-        ]
-      },
-      {
-        "id": "K'ril_Tsutsaroth",
-        "icon": "K'ril_Tsutsaroth_icon_(mobile)",
-        "category": "ranged",
-        "subtitle": "On Task",
-        "items": ["Zamorakian_spear"],
-        "subcards": [
-          {
-            "id": "Setup",
-            "icon": "Ranged_icon",
-            "setupId": "K'ril_Tsutsaroth"
-          }
-        ]
-      },
-      {
         "id": "K'ril_Tsutsaroth",
         "icon": "K'ril_Tsutsaroth_icon_(mobile)",
         "category": "magic",
         "subtitle": "On Task",
-        "items": ["Staff_of_the_dead", "Zamorakian_spear"],
+        "items": ["Staff_of_the_dead"],
         "subcards": [
           {
             "id": "Setup",
@@ -2249,40 +2666,10 @@
         ]
       },
       {
-        "id": "Barbarian_Training",
-        "icon": "Smithing_icon",
-        "items": ["Zamorakian_hasta"],
-        "subcards": [
-          {
-            "id": "Coins",
-            "icon": "Coins_10000",
-            "title": "300k",
-            "subtitle": "To convert to hasta"
-          }
-        ]
-      }
-    ],
-    "notes": [
-      "The <Link=\"Scorching_bow\">Scorching Bow</Link> makes this boss significantly easier to kill. It's not recommended to kill the boss without it unless you are in a group.",
-      "The Zamorakian Hasta is a great stab weapon for Tombs of Amascut and is eventually needed to create a <Link=\"Dragon_hunter_lance\">Dragon Hunter Lance</Link>."
-    ]
-  },
-  {
-    "title": "Kree'arra",
-    "categories": ["ranged"],
-    "items": [
-      { "id": "Armadyl_helmet", "category": "ranged" },
-      { "id": "Armadyl_chestplate", "category": "ranged" },
-      { "id": "Armadyl_chainskirt", "category": "ranged" }
-    ],
-    "skills": [
-      { "skill": "ranged", "level": 80 },
-      { "skill": "magic", "level": 92 }
-    ],
-    "timeline": [
-      {
         "id": "Kree'arra",
         "icon": "Kree'arra_icon_(mobile)",
+        "category": "ranged",
+        "subtitle": "On Task",
         "items": ["Armadyl_helmet", "Armadyl_chestplate", "Armadyl_chainskirt"],
         "subcards": [
           {
@@ -2291,103 +2678,94 @@
             "setupId": "Kree'arra"
           }
         ]
+      },
+      {
+        "id": "Smithing",
+        "icon": "Smithing_icon",
+        "category": "melee",
+        "title": "80 smithing",
+        "subtitle": "Boostable",
+        "items": ["Godsword_blade"]
       }
     ]
   },
   {
-    "title": "Tombs of Amascut",
-    "categories": ["all"],
-    "questMilestone": "Beneath_Cursed_Sands",
-    "items": [
-      { "id": "Osmumten's_fang", "category": "melee" }
-    ],
+    "title": "Phantom Muspah",
+    "questMilestone": "Secrets_of_the_North",
+    "categories": ["ranged", "magic"],
     "subcategoryItems": [
-      { "id": "Osmumten's_fang", "subcategory": "melee-stab" },
-      { "id": "Abyssal_tentacle", "subcategory": "melee-slash" },
-      { "id": "Abyssal_bludgeon", "subcategory": "melee-crush" },
-      { "id": "Burning_claws", "subcategory": "melee-spec" },
-      { "id": "Emberlight", "subcategory": "melee-slayer" },
-      { "id": "Lightbearer", "subcategory": "melee-spec" },
-      { "id": "Lightbearer", "subcategory": "ranged-spec" },
-      { "id": "Lightbearer", "subcategory": "magic-spec" }
-    ],
-    "skills": [
-      { "skill": "attack", "level": 70 },
-      { "skill": "strength", "level": 70 },
-      { "skill": "defence", "level": 70 },
-      { "skill": "ranged", "level": 70 },
-      { "skill": "magic", "level": 70 },
-      { "skill": "crafting", "level": 75 },
-      { "skill": "attack", "level": 82, "highlight": true }
+      { "id": "Venator_bow", "subcategory": "ranged-slayer" },
+      { "id": "Amethyst_arrow", "subcategory": "ranged-slayer" },
+      { "id": "Archers_ring_(i)", "subcategory": "ranged-slayer" }
     ],
     "timeline": [
       {
-        "id": "Beneath_Cursed_Sands",
-        "icon": "Quest_point_icon",
-        "items": ["Keris_partisan"]
+        "id": "Secrets_of_the_North",
+        "icon": "Quest_point_icon"
       },
       {
-        "id": "Tombs_of_Amascut",
-        "icon": "Tumeken's_guardian",
-        "items": ["Osmumten's_fang", "Lightbearer", "Thread_of_elidinis"],
+        "id": "Phantom_Muspah",
+        "icon": "Muphin_(ranged)",
+        "category": "melee",
+        "items": ["Venator_shard", "Ancient_icon", "Ancient_essence"],
         "subcards": [
           {
             "id": "Setup",
             "icon": "Combat_icon",
-            "setupId": "Tombs_of_Amascut"
+            "setupId": "Phantom_Muspah"
           }
         ]
       },
       {
-        "id": "Attack",
-        "icon": "Attack_icon",
-        "title": "82 attack",
-        "subtitle": "To equip weapon"
-      }
-    ],
-    "notes": [
-      "We are only farming a few common items right now: the <Link=\"Osmumten's_fang\">Osmumten's Fang</Link> is a powerful weapon for general bossing, the <Link=\"Lightbearer\">Lighbearer</Link> regens special attack energy twice as fast, and the <Link=\"Divine_rune_pouch\">Divine Rune Pouch</Link> stores an extra rune to maximize inventory space."
-    ]
-  },
-  {
-    "title": "Basilisk Knights",
-    "categories": ["melee"],
-    "questMilestone": "The_Fremennik_Exiles",
-    "items": [
-      { "id": "Neitiznot_faceguard", "category": "melee" }
-    ],
-    "subcategoryItems": [
-      { "id": "Slayer_helmet_(i)", "subcategory": "melee-slayer" }
-    ],
-    "skills": [
-      { "skill": "slayer", "level": 60 },
-      { "skill": "ranged", "level": 75 },
-      { "skill": "attack", "level": 80 },
-      { "skill": "strength", "level": 80 },
-      { "skill": "defence", "level": 80 }
-    ],
-    "timeline": [
-      {
-        "id": "The_Fremennik_Exiles",
-        "icon": "Quest_point_icon",
-        "items": ["V's_shield"]
-      },
-      {
-        "id": "Basilisk_Knight",
-        "icon": "Basilisk_Knight_icon",
-        "subtitle": "Optional",
-        "items": ["Basilisk_jaw"],
+        "id": "Phantom_Muspah",
+        "icon": "Muphin_(ranged)",
+        "category": "ranged",
+        "items": ["Venator_shard", "Ancient_essence"],
         "subcards": [
           {
             "id": "Setup",
-            "icon": "Slayer_icon",
-            "setupId": "Basilisk_Knight"
+            "icon": "Combat_icon",
+            "setupId": "Phantom_Muspah"
           }
         ]
+      },
+      {
+        "id": "Phantom_Muspah",
+        "icon": "Muphin_(ranged)",
+        "category": "magic",
+        "items": ["Ancient_icon", "Ancient_essence"],
+        "subcards": [
+          {
+            "id": "Setup",
+            "icon": "Combat_icon",
+            "setupId": "Phantom_Muspah"
+          }
+        ]
+      },
+      {
+        "id": "Ranged",
+        "icon": "Ranged_icon",
+        "category": "ranged",
+        "title": "80 ranged",
+        "items": ["Venator_bow"]
+      },
+      {
+        "id": "Eblis",
+        "icon": "NPC_Contact",
+        "category": "magic",
+        "subtitle": "To create the ancient sceptre",
+        "items": ["Ancient_sceptre"]
+      },
+      {
+        "id": "Ancient_essence",
+        "icon": "Ancient_essence_500",
+        "category": "magic",
+        "subtitle": "150,000",
+        "items": ["Saturated_heart"]
       }
     ],
     "notes": [
-      "Basilisk knights are very slow to kill and don't provide good xp rates so many players opt to skip them. The <Link=\"Serpentine_helm\">Serpentine helm</Link> is very comparable and provides better utility so you can choose to stick with that."
+      "::ranged|The Venator Bow is very good for slayer training because it can attack multiple targets at once. For tasks where Ancient Magicks are not effective, the Venator Bow is usually the next best option."
     ]
   },
   {
@@ -2411,7 +2789,6 @@
       {
         "id": "Herblore",
         "icon": "Herblore_icon",
-        "category": "melee",
         "title": "86 herblore",
         "subtitle": "+4 boost",
         "items": ["Super_combat_potion"]
@@ -2497,7 +2874,7 @@
       { "id": "Osmumten's_fang", "subcategory": "melee-stab" },
       { "id": "Noxious_halberd", "subcategory": "melee-slash" },
       { "id": "Abyssal_bludgeon", "subcategory": "melee-crush" },
-      { "id": "Burning_claws", "subcategory": "melee-spec" }
+      { "id": "Dragon_warhammer", "subcategory": "melee-spec" }
     ],
     "skills": [
       { "skill": "smithing", "level": 72 },
@@ -2604,6 +2981,8 @@
     ],
     "subcategoryItems": [
       { "id": "Dragon_hunter_lance", "subcategory": "melee-slayer" },
+      { "id": "Ruby_dragon_bolts_(e)", "subcategory": "ranged-heavy" },
+      { "id": "Amethyst_arrow", "subcategory": "ranged-slayer" },
       { "id": "Lightbearer", "subcategory": "magic-spec" }
     ],
     "skills": [
@@ -2612,11 +2991,6 @@
       { "skill": "slayer", "level": 95, "highlight": true }
     ],
     "timeline": [
-      {
-        "id": "Dragon_Slayer_II",
-        "icon": "Quest_point_icon",
-        "items": ["Mythical_cape"]
-      },
       {
         "id": "Slayer",
         "icon": "Slayer_icon",
@@ -2650,98 +3024,12 @@
     ]
   },
   {
-    "title": "Chambers of Xeric",
-    "categories": ["all"],
-    "skills": [
-      { "skill": "farming", "level": 55 },
-      { "skill": "thieving", "level": 60 },
-      { "skill": "woodcutting", "level": 60 },
-      { "skill": "mining", "level": 60 },
-      { "skill": "prayer", "level": 77, "highlight": true },
-      { "skill": "herblore", "level": 78 }
-    ],
-    "timeline": [
-      {
-        "id": "Chambers_of_Xeric#Strong_potions",
-        "icon": "Herblore_icon",
-        "title": "78 herblore",
-        "items": ["Xeric's_aid_(+)", "Revitalisation_(+)", "Prayer_enhance_(+)"]
-      },
-      {
-        "id": "Chambers_of_Xeric",
-        "icon": "Great_Olm_icon_(mobile)",
-        "items": ["Dexterous_prayer_scroll", "Arcane_prayer_scroll"],
-        "subcards": [
-          {
-            "id": "Setup",
-            "icon": "Combat_icon",
-            "setupId": "Chambers_of_Xeric"
-          }
-        ]
-      },
-      {
-        "id": "Prayer",
-        "icon": "Prayer_icon",
-        "title": "77 prayer",
-        "subtitle": "To use new prayers",
-        "items": ["Rigour", "Augury"]
-      }
-    ],
-    "notes": [
-      "We are only doing Chambers of Xeric for the prayer scrolls to start sending Inferno attempts. The rest of the items will be farmed later, but if you happen to spoon an item, great!"
-    ]
-  },
-  {
-    "title": "Corrupted Gauntlet",
-    "categories": ["ranged"],
-    "items": [
-      { "id": "Bow_of_faerdhinen", "category": "ranged" },
-      { "id": "Crystal_helm", "category": "ranged" },
-      { "id": "Crystal_body", "category": "ranged" },
-      { "id": "Crystal_legs", "category": "ranged" }
-    ],
-    "skills": [
-      { "skill": "crafting", "level": 82, "highlight": true },
-      { "skill": "smithing", "level": 82, "highlight": true }
-    ],
-    "timeline": [
-      {
-        "id": "Corrupted_Gauntlet",
-        "icon": "Crystalline_Hunllef_icon_(mobile)",
-        "items": ["Enhanced_crystal_weapon_seed", "Crystal_armour_seed"]
-      },
-      {
-        "id": "Singing_bowl",
-        "icon": "Singing_bowl_icon",
-        "items": ["Bow_of_faerdhinen", "Crystal_helm", "Crystal_body", "Crystal_legs"],
-        "subcards": [
-          {
-            "id": "Crafting",
-            "icon": "Crafting_icon",
-            "title": "82 crafting",
-            "subtitle": "Not required"
-          },
-          {
-            "id": "Smithing",
-            "icon": "Smithing_icon",
-            "title": "82 smithing",
-            "subtitle": "Not required"
-          }
-        ]
-      }
-    ],
-    "notes": [
-      "Many players opt to do the Corrupted Gauntlet grind significantly earlier in progression because the Bowfa opens up a lot of new bossing content. However, it is not strictly needed anymore due to how much the mid-game has expanded with better gear."
-    ]
-  },
-  {
     "title": "Inferno",
     "categories": ["all"],
     "items": [
       { "id": "Infernal_cape", "category": "melee" }
     ],
     "skills": [
-      { "skill": "prayer", "level": 80 },
       { "skill": "attack", "level": 90 },
       { "skill": "strength", "level": 90 },
       { "skill": "defence", "level": 90, "highlight": true },
@@ -2834,6 +3122,23 @@
       {
         "id": "Yama",
         "icon": "Yami",
+        "category": "ranged",
+        "items": ["Oathplate_helm", "Oathplate_chest", "Oathplate_legs"],
+        "subcards": [
+          {
+            "id": "A_Kingdom_Divided",
+            "icon": "Quest_point_icon"
+          },
+          {
+            "id": "Setup",
+            "icon": "Magic_icon",
+            "setupId": "Yama"
+          }
+        ]
+      },
+      {
+        "id": "Yama",
+        "icon": "Yami",
         "category": "magic",
         "items": ["Soulflame_horn", "Rite_of_vile_transference"],
         "subcards": [
@@ -2854,6 +3159,28 @@
         "title": "90 runecraft",
         "subtitle": "Boostable",
         "items": ["Aether_rune"]
+      }
+    ]
+  },
+  {
+    "title": "Colosseum",
+    "categories": ["ranged"],
+    "items": [
+      { "id": "Dizana's_quiver", "category": "ranged" }
+    ],
+    "timeline": [
+      {
+        "id": "Fortis_Colosseum",
+        "icon": "Smol_heredit",
+        "subtitle": "Sol Heredit",
+        "items": ["Dizana's_quiver"],
+        "subcards": [
+          {
+            "id": "Setup",
+            "icon": "Combat_icon",
+            "setupId": "Fortis_Colosseum"
+          }
+        ]
       }
     ]
   },
@@ -2962,8 +3289,12 @@
       { "id": "Osmumten's_fang", "subcategory": "melee-stab" },
       { "id": "Soulreaper_axe", "subcategory": "melee-slash" },
       { "id": "Soulreaper_axe", "subcategory": "melee-crush" },
-      { "id": "Burning_claws", "subcategory": "melee-spec" },
-      { "id": "Slayer_helmet_(i)", "subcategory": "magic-slayer" }
+      { "id": "Dragon_warhammer", "subcategory": "melee-spec" },
+      { "id": "Lightbearer", "subcategory": "melee-spec" },
+      { "id": "Lightbearer", "subcategory": "ranged-light" },
+      { "id": "Lightbearer", "subcategory": "ranged-spec" },
+      { "id": "Slayer_helmet_(i)", "subcategory": "magic-slayer" },
+      { "id": "Lightbearer", "subcategory": "magic-spec" }
     ],
     "skills": [
       { "skill": "magic", "level": 75 },
@@ -2979,6 +3310,7 @@
         "id": "Desert_Treasure_II_-_The_Fallen_Empire",
         "icon": "Quest_point_icon",
         "title": "Desert Treasure II",
+        "subtitle": "Grandmaster",
         "items": ["Ring_of_shadows"]
       },
       {
@@ -3091,13 +3423,21 @@
     "title": "ToA: Expert",
     "categories": ["ranged", "magic"],
     "items": [
-      { "id": "Tumeken's_shadow", "category": "magic" },
-      { "id": "Elidinis'_ward", "category": "magic" },
+      { "id": "Toxic_blowpipe", "category": "ranged" },
       { "id": "Masori_mask_(f)", "category": "ranged" },
       { "id": "Masori_body_(f)", "category": "ranged" },
-      { "id": "Masori_chaps_(f)", "category": "ranged" }
+      { "id": "Masori_chaps_(f)", "category": "ranged" },
+      { "id": "Tumeken's_shadow", "category": "magic" },
+      { "id": "Elidinis'_ward", "category": "magic" }
     ],
     "subcategoryItems": [
+      { "id": "Bow_of_faerdhinen", "subcategory": "ranged-standard" },
+      { "id": "Crystal_helm", "subcategory": "ranged-standard" },
+      { "id": "Crystal_body", "subcategory": "ranged-standard" },
+      { "id": "Crystal_legs", "subcategory": "ranged-standard" },
+      { "id": "Armadyl_crossbow", "subcategory": "ranged-heavy" },
+      { "id": "Venator_bow", "subcategory": "ranged-slayer" },
+      { "id": "Slayer_helmet_(i)", "subcategory": "ranged-slayer" },
       { "id": "Twinflame_staff", "subcategory": "magic-standard" },
       { "id": "Tome_of_earth", "subcategory": "magic-standard" },
       { "id": "Dragon_hunter_wand", "subcategory": "magic-ancient" },
@@ -3105,7 +3445,30 @@
       { "id": "Dragon_hunter_wand", "subcategory": "magic-slayer" },
       { "id": "Eye_of_ayak", "subcategory": "magic-spec" }
     ],
+    "skills": [
+      { "skill": "prayer", "level": 80, "highlight": true },
+      { "skill": "crafting", "level": 90, "highlight": true },
+      { "skill": "attack", "level": 99 },
+      { "skill": "strength", "level": 99 },
+      { "skill": "defence", "level": 99 },
+      { "skill": "ranged", "level": 99 },
+      { "skill": "magic", "level": 99 }
+    ],
     "timeline": [
+      {
+        "id": "Tombs_of_Amascut",
+        "icon": "Tumeken's_guardian",
+        "category": "melee",
+        "title": "Tombs of Amascut",
+        "subtitle": "Expert",
+        "subcards": [
+          {
+            "id": "Setup",
+            "icon": "Combat_icon",
+            "setupId": "Tombs_of_Amascut"
+          }
+        ]
+      },
       {
         "id": "Tombs_of_Amascut",
         "icon": "Tumeken's_guardian",
@@ -3135,6 +3498,20 @@
             "setupId": "Tombs_of_Amascut"
           }
         ]
+      },
+      {
+        "id": "Crafting",
+        "icon": "Crafting_icon",
+        "category": "ranged",
+        "title": "90 crafting",
+        "subtitle": "To fortify Masori armour"
+      },
+      {
+        "id": "Prayer",
+        "icon": "Prayer_icon",
+        "category": "magic",
+        "title": "80 prayer",
+        "subtitle": "To equip ward"
       }
     ]
   },
@@ -3151,8 +3528,14 @@
     "subcategoryItems": [
       { "id": "Dragon_claws", "subcategory": "melee-spec" },
       { "id": "Twisted_bow", "subcategory": "ranged-standard" },
+      { "id": "Masori_mask_(f)", "subcategory": "ranged-standard" },
+      { "id": "Masori_body_(f)", "subcategory": "ranged-standard" },
+      { "id": "Masori_chaps_(f)", "subcategory": "ranged-standard" },
+      { "id": "Toxic_blowpipe", "subcategory": "ranged-light" },
+      { "id": "Armadyl_crossbow", "subcategory": "ranged-heavy" },
       { "id": "Twisted_buckler", "subcategory": "ranged-heavy" },
-      { "id": "Dragon_hunter_crossbow", "subcategory": "ranged-slayer" },
+      { "id": "Venator_bow", "subcategory": "ranged-slayer" },
+      { "id": "Toxic_blowpipe", "subcategory": "ranged-spec" },
       { "id": "Kodai_wand", "subcategory": "magic-ancient" },
       { "id": "Virtus_mask", "subcategory": "magic-ancient" },
       { "id": "Virtus_robe_top", "subcategory": "magic-ancient" },
@@ -3166,23 +3549,16 @@
       { "skill": "farming", "level": 55 },
       { "skill": "thieving", "level": 75 },
       { "skill": "woodcutting", "level": 75 },
-      { "skill": "mining", "level": 75, "highlight": true },
+      { "skill": "mining", "level": 75 },
       { "skill": "prayer", "level": 85 },
       { "skill": "herblore", "level": 90, "highlight": true },
       { "skill": "attack", "level": 99 },
       { "skill": "strength", "level": 99 },
       { "skill": "defence", "level": 99 },
       { "skill": "ranged", "level": 99 },
-      { "skill": "magic", "level": 99 },
-      { "skill": "hitpoints", "level": 99 }
+      { "skill": "magic", "level": 99 }
     ],
     "timeline": [
-      {
-        "id": "Guardian_(Chambers_of_Xeric)",
-        "icon": "Mining_icon",
-        "title": "75 mining",
-        "subtitle": "For increased damage at Guardians"
-      },
       {
         "id": "Chambers_of_Xeric#Strong_potions",
         "icon": "Herblore_icon",
@@ -3252,18 +3628,18 @@
       { "id": "Dragon_claws", "subcategory": "melee-spec" }
     ],
     "skills": [
-      { "skill": "attack", "level": 90 },
-      { "skill": "strength", "level": 90 },
-      { "skill": "defence", "level": 90 },
-      { "skill": "ranged", "level": 90 },
-      { "skill": "magic", "level": 94 }
+      { "skill": "attack", "level": 99 },
+      { "skill": "strength", "level": 99 },
+      { "skill": "defence", "level": 99 },
+      { "skill": "ranged", "level": 99 },
+      { "skill": "magic", "level": 99 }
     ],
     "timeline": [
       {
         "id": "Theatre_of_Blood",
         "icon": "Verzik_Vitur_icon_(mobile)",
-        "category": "magic",
-        "items": ["Sanguinesti_staff"],
+        "category": "melee",
+        "items": ["Scythe_of_vitur", "Avernic_defender"],
         "subcards": [
           {
             "id": "A_Night_at_the_Theatre",
@@ -3279,8 +3655,24 @@
       {
         "id": "Theatre_of_Blood",
         "icon": "Verzik_Vitur_icon_(mobile)",
-        "category": "melee",
-        "items": ["Scythe_of_vitur", "Avernic_defender"],
+        "category": "ranged",
+        "subcards": [
+          {
+            "id": "A_Night_at_the_Theatre",
+            "icon": "Quest_point_icon"
+          },
+          {
+            "id": "Setup",
+            "icon": "Combat_icon",
+            "setupId": "Theatre_of_Blood"
+          }
+        ]
+      },
+      {
+        "id": "Theatre_of_Blood",
+        "icon": "Verzik_Vitur_icon_(mobile)",
+        "category": "magic",
+        "items": ["Sanguinesti_staff"],
         "subcards": [
           {
             "id": "A_Night_at_the_Theatre",
@@ -3316,7 +3708,20 @@
       {
         "id": "Revenant_Caves",
         "icon": "Skull_(status)_icon",
-        "items": ["Craw's_bow", "Viggora's_chainmace", "Thammaron's_sceptre"]
+        "category": "melee",
+        "items": ["Viggora's_chainmace"]
+      },
+      {
+        "id": "Revenant_Caves",
+        "icon": "Skull_(status)_icon",
+        "category": "ranged",
+        "items": ["Craw's_bow"]
+      },
+      {
+        "id": "Revenant_Caves",
+        "icon": "Skull_(status)_icon",
+        "category": "magic",
+        "items": ["Thammaron's_sceptre"]
       },
       {
         "id": "Callisto",
@@ -3370,7 +3775,8 @@
       { "id": "Torva_platebody", "subcategory": "melee-crush" },
       { "id": "Torva_platelegs", "subcategory": "melee-crush" },
       { "id": "Zaryte_crossbow", "subcategory": "ranged-heavy" },
-      { "id": "Zaryte_crossbow", "subcategory": "ranged-spec" }
+      { "id": "Zaryte_crossbow", "subcategory": "ranged-spec" },
+      { "id": "Ruby_dragon_bolts_(e)", "subcategory": "ranged-spec" }
     ],
     "skills": [
       { "skill": "smithing", "level": 90, "highlight": true },
@@ -3428,11 +3834,6 @@
     ],
     "timeline": [
       {
-        "id": "A_Taste_of_Hope",
-        "icon": "Quest_point_icon",
-        "items": ["Drakan's_medallion"]
-      },
-      {
         "id": "Phosani's_Nightmare",
         "icon": "The_Nightmare_icon_(mobile)",
         "category": "melee",
@@ -3442,6 +3843,18 @@
           "Inquisitor's_hauberk",
           "Inquisitor's_plateskirt"
         ],
+        "subcards": [
+          {
+            "id": "Setup",
+            "icon": "Attack_icon",
+            "setupId": "Phosani's_Nightmare"
+          }
+        ]
+      },
+      {
+        "id": "Phosani's_Nightmare",
+        "icon": "The_Nightmare_icon_(mobile)",
+        "category": "ranged",
         "subcards": [
           {
             "id": "Setup",
