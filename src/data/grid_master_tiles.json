@@ -267,6 +267,7 @@
     "type": "medium",
     "icon": "Moonlight_moth_icon",
     "task": "UNKNOWN – Moonlight Moth",
+    "taskLink": "Moonlight_moth",
     "reward": "Fairy's Flight",
     "rewardDescription": "SPECULATION",
     "rewardIcon": "Fairy's_Flight",
@@ -358,7 +359,7 @@
     "taskLink": "Bryophyta",
     "reward": "Combat Masteries",
     "rewardDescription": "+1 to all combat masteries.",
-    "rewardLink": "Raging_Echoes_League/Combat_Masteries"
+    "rewardLink": "Grid_Master/Combat_Masteries"
   },
   {
     "col": "E",
