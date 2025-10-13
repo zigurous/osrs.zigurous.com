@@ -3,14 +3,13 @@ import React from 'react';
 import WikiIcon from './WikiIcon';
 import relicCorruptedShark from '../images/grid-master-relic-corrupted-shark.png';
 import relicFriendlyForager from '../images/grid-master-relic-friendly-forager.png';
+import relicGathering from '../images/grid-master-relic-gathering.png';
 import relicGoldenGod from '../images/grid-master-relic-golden-god.png';
 import relicGuardian from '../images/grid-master-relic-guardian.png';
 import relicMinimumPotential from '../images/grid-master-relic-minimum-potential.png';
 import relicProductionMaster from '../images/grid-master-relic-production-master.png';
-import relicReloaded from '../images/grid-master-relic-reloaded.png';
 import relicScarab from '../images/grid-master-relic-scarab.png';
 import relicSlayerMaster from '../images/grid-master-relic-slayer-master.png';
-import rewardBerserkerCrown from '../images/grid-master-reward-berserker-crown.png';
 import rewardCombatStyles from '../images/grid-master-reward-combat-styles.png';
 import rewardUnknown from '../images/grid-master-reward-unknown.png';
 import rewardXp from '../images/grid-master-reward-xp.png';
@@ -85,17 +84,17 @@ const tasks: Record<string, any> = {
 };
 
 const rewards: Record<string, any> = {
-  R1: rewardXpMultiplier,
+  R4: rewardXpMultiplier,
   A3: relicGoldenGod,
   A4: relicProductionMaster,
-  A6: rewardBerserkerCrown,
   C7: relicScarab,
   D2: rewardXp,
-  D3: relicReloaded,
-  D4: relicReloaded,
-  D5: relicReloaded,
+  D3: relicGathering,
+  D4: relicGathering,
+  D5: relicGathering,
   D6: rewardCombatStyles,
   D7: relicMinimumPotential,
+  D8: rewardXpMultiplier,
   E1: relicSlayerMaster,
   E2: relicCorruptedShark,
   G2: relicGuardian,

@@ -2,14 +2,15 @@
   {
     "col": "R",
     "row": "1",
-    "type": "reward",
-    "reward": "Unknown",
-    "unconfirmed": true
+    "type": "reward"
   },
   {
     "col": "A",
     "row": "1",
     "type": "hard",
+    "icon": "Cerberus_icon",
+    "task": "SPECULATION – Defeat Echo Cerberus.",
+    "taskLink": "Cerberus_(Echo)",
     "reward": "Avernic Treads",
     "rewardDescription": "Powerful boots combining all 3 Cerberus boots.",
     "rewardIcon": "Avernic_treads_(max)",
@@ -82,9 +83,10 @@
     "row": "2",
     "type": "easy",
     "icon": "Stats_icon",
-    "task": "Unknown",
-    "reward": "Unknown",
-    "unconfirmed": true
+    "task": "Reach 500 total level.",
+    "reward": "XP Lamp",
+    "rewardDescription": "An experience lamp containing 25,000 XP to be used on any skill.",
+    "rewardLink": "Experience_lamp"
   },
   {
     "col": "E",
@@ -147,12 +149,11 @@
     "row": "3",
     "type": "easy",
     "icon": "Maple_logs",
-    "task": "UNKNOWN – Maple logs",
+    "task": "Chop maple logs – 45 woodcutting.",
     "taskLink": "Maple_logs",
     "reward": " ",
     "rewardDescription": "A choice from one of the following:\n• Power Miner\n• Lumberjack\n• Animal Wrangler",
-    "rewardLink": "Infernal_Gathering",
-    "unconfirmed": true
+    "rewardLink": "Lumberjack"
   },
   {
     "col": "E",
@@ -176,7 +177,10 @@
   {
     "col": "R",
     "row": "4",
-    "type": "reward"
+    "type": "reward",
+    "reward": "XP Multiplier",
+    "rewardDescription": "Increase XP gain by 200% for all skills.",
+    "unconfirmed": true
   },
   {
     "col": "A",
@@ -197,7 +201,12 @@
   {
     "col": "C",
     "row": "4",
-    "type": "easy"
+    "type": "easy",
+    "reward": "Dodgy Deals",
+    "rewardDescription": "SPECULATION",
+    "rewardIcon": "Dodgy_Deals",
+    "rewardLink": "Dodgy_Deals",
+    "unconfirmed": true
   },
   {
     "col": "D",
@@ -207,7 +216,7 @@
     "taskLink": "Grid_Master",
     "reward": " ",
     "rewardDescription": "A choice from one of the following:\n• Power Miner\n• Lumberjack\n• Animal Wrangler",
-    "rewardLink": "Infernal_Gathering"
+    "rewardLink": "Animal_Wrangler"
   },
   {
     "col": "E",
@@ -266,7 +275,7 @@
     "row": "5",
     "type": "easy",
     "icon": "Tempoross_icon_(mobile)",
-    "task": "Subdue Tempoross.",
+    "task": "Subdue Tempoross – 35 fishing.",
     "taskLink": "Tempoross",
     "reward": "Craftsman",
     "rewardDescription": "Select three artisan skills. When you gain experience in one of your three selected skills you'll gain 50% of that experience in the other two skills.\n\nAvailable skills: Construction, Cooking, Crafting, Firemaking, Fletching, Herblore, Runecraft, Smithing",
@@ -278,12 +287,11 @@
     "row": "5",
     "type": "easy",
     "icon": "Gold_ore",
-    "task": "UNKNOWN – Gold Ore",
+    "task": "Mine gold ore – 40 mining.",
     "taskLink": "Gold_ore",
     "reward": " ",
     "rewardDescription": "A choice from one of the following:\n• Power Miner\n• Lumberjack\n• Animal Wrangler",
-    "rewardLink": "Infernal_Gathering",
-    "unconfirmed": true
+    "rewardLink": "Power_Miner"
   },
   {
     "col": "E",
@@ -293,7 +301,8 @@
     "taskLink": "Gemstone_Crab",
     "reward": "Gatherer",
     "rewardDescription": "Select three gathering or support skills. When you gain experience in one of your three selected skills you'll gain 50% of that experience in the other two skills.\n\nAvailable skills: Mining, Fishing, Woodcutting, Hunter, Agility, Slayer, Thieving",
-    "rewardIcon": "Woodcutting_icon_(detail)"
+    "rewardIcon": "Woodcutting_icon_(detail)",
+    "rewardLink": "Gatherer"
   },
   {
     "col": "F",
@@ -324,6 +333,7 @@
     "taskLink": "Awakener's_orb",
     "reward": "Battlehat",
     "rewardDescription": "A tribrid helmet with no negative bonuses, that also functions as a slayer helm.",
+    "rewardIcon": "Battlehat",
     "rewardLink": "Battlehat"
   },
   {
@@ -341,10 +351,11 @@
     "row": "6",
     "type": "easy",
     "icon": "Bryophyta_icon_(mobile)",
-    "task": "UNKNOWN – Bryophyta",
+    "task": "Open Bryophyta's chest.",
     "taskLink": "Bryophyta",
-    "reward": "Unknown",
-    "unconfirmed": true
+    "reward": "Combat Masteries",
+    "rewardDescription": "+1 to all combat masteries.",
+    "rewardLink": "Raging_Echoes_League/Combat_Masteries"
   },
   {
     "col": "E",
@@ -361,7 +372,7 @@
     "row": "6",
     "type": "hard",
     "icon": "Contract_of_bloodied_blows",
-    "task": "UNKNOWN – Contract of Bloodied Blows",
+    "task": "SPECULATION – Contract of Bloodied Blows",
     "taskLink": "Contract_of_bloodied_blows",
     "unconfirmed": true
   },
@@ -469,7 +480,9 @@
   {
     "col": "D",
     "row": "8",
-    "type": "reward"
+    "type": "reward",
+    "reward": "XP Multiplier",
+    "rewardDescription": "Increase XP gain by 200% for all skills."
   },
   {
     "col": "E",
