@@ -97,7 +97,7 @@
     "taskLink": "Shark",
     "reward": "Corrupted Shark",
     "rewardDescription": "A shark that isn't consumed when eaten.\nHeals a base of 20 hitpoints.",
-    "rewardLink": "Corrupted_Shark"
+    "rewardLink": "Corrupted_shark"
   },
   {
     "col": "F",
@@ -414,10 +414,11 @@
     "row": "7",
     "type": "medium",
     "icon": "Max_cape",
-    "task": "UNKNOWN – Max Cape",
+    "task": "Deposit a skillcape into your player owned house.",
     "taskLink": "Max_cape",
-    "reward": "Unknown",
-    "unconfirmed": true
+    "reward": "Spikey Aura",
+    "rewardDescription": "Acts like a permanent ring of recoil. Reflect 25% of the damage you receive.",
+    "rewardLink": "Spikey_Aura"
   },
   {
     "col": "D",
