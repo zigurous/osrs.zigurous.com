@@ -272,7 +272,6 @@
     "taskLink": "Stronghold_of_Security",
     "reward": "Fairy's Flight",
     "rewardDescription": "Receive a fairy mushroom which allows teleporting to any fairy ring, spirit tree, or tool leprechaun.",
-    "rewardIcon": "Fairy's_Flight",
     "rewardLink": "Fairy's_Flight",
     "unconfirmed": true
   },
@@ -406,7 +405,7 @@
     "row": "6",
     "type": "easy",
     "task": "Open Bryophyta's chest.",
-    "taskIcon": "Bryophyta_icon_(mobile)",
+    "taskIcon": "Bryophyta_icon",
     "taskLink": "Bryophyta",
     "reward": "Combat Masteries",
     "rewardDescription": "+1 to all combat masteries.",

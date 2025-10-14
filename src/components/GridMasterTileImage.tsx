@@ -2,6 +2,7 @@ import classNames from 'classnames';
 import React from 'react';
 import WikiIcon from './WikiIcon';
 import relicCorruptedShark from '../images/grid-master-relic-corrupted-shark.png';
+import relicFairyFlight from '../images/grid-master-relic-fairy-flight.png';
 import relicFriendlyForager from '../images/grid-master-relic-friendly-forager.png';
 import relicGathering from '../images/grid-master-relic-gathering.png';
 import relicGoldenGod from '../images/grid-master-relic-golden-god.png';
@@ -100,6 +101,7 @@ const rewards: Record<string, any> = {
   D8: rewardXpMultiplier,
   E1: relicSlayerMaster,
   E2: relicCorruptedShark,
+  E4: relicFairyFlight,
   F3: rewardTirannwnUnlock,
   G2: relicGuardian,
   G4: relicFriendlyForager,
