@@ -10,7 +10,9 @@ import relicMinimumPotential from '../images/grid-master-relic-minimum-potential
 import relicProductionMaster from '../images/grid-master-relic-production-master.png';
 import relicScarab from '../images/grid-master-relic-scarab.png';
 import relicSlayerMaster from '../images/grid-master-relic-slayer-master.png';
+import relicTotalRecall from '../images/grid-master-relic-total-recall.png';
 import rewardCombatStyles from '../images/grid-master-reward-combat-styles.png';
+import rewardTirannwnUnlock from '../images/grid-master-reward-tirannwn-unlock.png';
 import rewardUnknown from '../images/grid-master-reward-unknown.png';
 import rewardXp from '../images/grid-master-reward-xp.png';
 import rewardXpMultiplier from '../images/grid-master-reward-xp-multiplier.png';
@@ -87,6 +89,7 @@ const rewards: Record<string, any> = {
   R4: rewardXpMultiplier,
   A3: relicGoldenGod,
   A4: relicProductionMaster,
+  C6: relicTotalRecall,
   C7: relicScarab,
   D2: rewardXp,
   D3: relicGathering,
@@ -97,6 +100,7 @@ const rewards: Record<string, any> = {
   D8: rewardXpMultiplier,
   E1: relicSlayerMaster,
   E2: relicCorruptedShark,
+  F3: rewardTirannwnUnlock,
   G2: relicGuardian,
   G4: relicFriendlyForager,
 };

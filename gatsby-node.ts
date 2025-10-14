@@ -96,8 +96,8 @@ export const createSchemaCustomization = ({
       col: String!
       row: String!
       type: String!
-      icon: String
       task: String
+      taskIcon: String
       taskLink: String
       reward: String
       rewardDescription: String

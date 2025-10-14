@@ -1,5 +1,5 @@
 import { graphql, useStaticQuery } from 'gatsby';
-import React, { createContext, useContext, useMemo, useState } from 'react';
+import React, { createContext, useContext, useState } from 'react';
 import type { GridMasterTile } from '../types/grid-master';
 
 interface GridMasterContextData {
@@ -29,7 +29,6 @@ export function GridMasterContextProvider({
   children,
 }: React.PropsWithChildren) {
   const data = useStaticQuery<GridMasterQueryData>(dataQuery);
-  const tiles = useMemo(() => data.tiles.nodes, [data]);
   const [flipped, setFlipped] = useState(defaultData.flipped);
   const [hideUnconfirmed, setHideUnconfirmed] = useState(
     defaultData.hideUnconfirmed,
@@ -37,7 +36,7 @@ export function GridMasterContextProvider({
   return (
     <GridMasterContext.Provider
       value={{
-        tiles,
+        tiles: data.tiles.nodes,
         flipped,
         hideUnconfirmed,
         setFlipped,
@@ -60,8 +59,8 @@ const dataQuery = graphql`
         col
         row
         type
-        icon
         task
+        taskIcon
         taskLink
         reward
         rewardDescription

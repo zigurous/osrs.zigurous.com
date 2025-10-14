@@ -52,7 +52,14 @@ function GridMasterTaskTile({ tile }: { tile: GridMasterTile }) {
           </Text>
         ) : (
           <Text type="body-sm">
-            {(!unknown && (flipped ? tile.reward : tile.task)) || 'Unknown'}
+            {((!unknown && (flipped ? tile.reward : tile.task)) || 'Unknown')
+              .split('\n')
+              .map((line, index, array) => (
+                <React.Fragment key={`${index}:${line}`}>
+                  {line}
+                  {index != array.length - 1 && <br />}
+                </React.Fragment>
+              ))}
           </Text>
         )
       }
@@ -71,7 +78,7 @@ function GridMasterTaskTile({ tile }: { tile: GridMasterTile }) {
         <GridMasterTileImage
           cell={cell}
           unknown={unknown}
-          icon={flipped ? tile.rewardIcon : tile.icon}
+          icon={flipped ? tile.rewardIcon : tile.taskIcon}
           type={flipped ? 'task-reward' : 'task'}
         />
       </WikiLink>
