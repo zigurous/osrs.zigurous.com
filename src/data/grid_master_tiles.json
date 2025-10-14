@@ -20,7 +20,15 @@
   {
     "col": "B",
     "row": "1",
-    "type": "hard"
+    "type": "hard",
+    "task": "SPECULATION – Obtain a rare unique from Chambers of Xeric.",
+    "taskIcon": "Great_Olm_icon",
+    "taskLink": "Chambers_of_Xeric",
+    "reward": "Mega Rare Scroll",
+    "rewardDescription": "Choose one of the three mega rares from raids:\nScythe of Vitur, Tumeken's Shadow, Twisted Bow",
+    "rewardIcon": "Raids_megarare_voucher_(Raging_Echoes_League)",
+    "rewardLink": "Raids_megarare_voucher",
+    "unconfirmed": true
   },
   {
     "col": "C",
@@ -271,7 +279,13 @@
   {
     "col": "F",
     "row": "4",
-    "type": "easy"
+    "type": "easy",
+    "task": "The sixth brother, but never thought as an equal to them.\nI'm glad I am important to you.",
+    "reward": "Equilibrium",
+    "rewardDescription": "Each time the player gains experience, they will gain additional experience in the skill trained. The additional XP is equal to 10% of the player's combined total level.",
+    "rewardIcon": "Equilibrium",
+    "rewardLink": "Equilibrium",
+    "unconfirmed": true
   },
   {
     "col": "G",
@@ -412,9 +426,13 @@
     "col": "G",
     "row": "6",
     "type": "hard",
-    "task": "SPECULATION – Jim's wet cloth",
-    "taskIcon": "Jim's_wet_cloth",
-    "taskLink": "Jim's_wet_cloth",
+    "task": "SPECULATION – Obtain a rare unique from Theatre of Blood.",
+    "taskIcon": "Verzik_Vitur_icon",
+    "taskLink": "Theatre_of_Blood",
+    "reward": "Mega Rare Scroll",
+    "rewardDescription": "Choose one of the three mega rares from raids:\nScythe of Vitur, Tumeken's Shadow, Twisted Bow",
+    "rewardIcon": "Raids_megarare_voucher_(Raging_Echoes_League)",
+    "rewardLink": "Raids_megarare_voucher",
     "unconfirmed": true
   },
   {
