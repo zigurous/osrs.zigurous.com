@@ -67,6 +67,7 @@
     "type": "hard",
     "task": "Feather meets the claw,\nBalance kept in humble wire,\nSecrets sleep in steel.",
     "taskIcon": "Pigeon_cage",
+    "taskLink": "Nex",
     "reward": "Berserker",
     "rewardDescription": "Damage dealt is increased by 0.4% for each hitpoint missing. The player is guaranteed to hit their max hit on an NPC with full health.",
     "rewardIcon": "Berserker_(Trailblazer_Reloaded_League)",
@@ -191,6 +192,7 @@
     "taskLink": "Rotten_potato",
     "reward": "Tirannwn Unlock",
     "rewardDescription": "Auto-complete all questlines unlocking access to the Tirannwn region, including the elf city of Prifddinas.",
+    "rewardLink": "Tirannwn",
     "unconfirmed": true
   },
   {
@@ -223,6 +225,7 @@
     "type": "easy",
     "task": "Not potion, nor spell,\nStill the hand that sips finds peace,\nWarmth cloaks mortal will.",
     "taskIcon": "Cup_of_tea",
+    "taskLink": "Tea_stall",
     "reward": "Dodgy Deals",
     "rewardDescription": "• Pickpocket all NPCs in an 11x11 square.\n• 100% success rate on all Thieving checks.\n• Auto re-pickpocket until you can no longer do so.\n• Items obtained from pickpocketing are noted.\n• Maximum coin pouch count increased by 3x.",
     "rewardIcon": "Dodgy_Deals",
@@ -449,7 +452,7 @@
     "type": "medium",
     "task": "Deposit a skillcape into your player owned house.",
     "taskIcon": "Max_cape",
-    "taskLink": "Max_cape",
+    "taskLink": "Cape_rack_space",
     "reward": "Spikey Aura",
     "rewardDescription": "Acts like a permanent ring of recoil. Reflect 25% of the damage you receive.",
     "rewardLink": "Spikey_Aura"
