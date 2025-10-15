@@ -1,6 +1,13 @@
 import classNames from 'classnames';
 import React from 'react';
 import WikiIcon from './WikiIcon';
+import questDesertTreasure from '../images/grid-master-quest-desert-treasure.png';
+import questDragonSlayer from '../images/grid-master-quest-dragon-slayer.png';
+import questMonkeyMadness from '../images/grid-master-quest-monkey-madness.png';
+import questSinsOfTheFather from '../images/grid-master-quest-sins-of-the-father.png';
+import questSongOfTheElves from '../images/grid-master-quest-song-of-the-elves.png';
+import questTheFinalDawn from '../images/grid-master-quest-the-final-dawn.png';
+import questWhileGuthixSleeps from '../images/grid-master-quest-while-guthix-sleeps.png';
 import relicBankHeist from '../images/grid-master-relic-bank-heist.png';
 import relicBankersNote from '../images/grid-master-relic-bankers-note.png';
 import relicBottomlessBrew from '../images/grid-master-relic-bottomless-brew.png';
@@ -22,7 +29,6 @@ import relicSlayerMaster from '../images/grid-master-relic-slayer-master.png';
 import relicSpecialist from '../images/grid-master-relic-specialist.png';
 import relicTotalRecall from '../images/grid-master-relic-total-recall.png';
 import rewardCombatMasteries from '../images/grid-master-reward-combat-masteries.png';
-import rewardTirannwnUnlock from '../images/grid-master-reward-tirannwn-unlock.png';
 import rewardUnknown from '../images/grid-master-reward-unknown.png';
 import rewardXp from '../images/grid-master-reward-xp.png';
 import rewardXpMultiplier from '../images/grid-master-reward-xp-multiplier.png';
@@ -96,9 +102,6 @@ const tasks: Record<string, any> = {
 };
 
 const rewards: Record<string, any> = {
-  R3: rewardCombatMasteries,
-  R4: rewardXpMultiplier,
-  R5: rewardCombatMasteries,
   A3: relicGoldenGod,
   A4: relicProductionMaster,
   A5: relicGrimoire,
@@ -106,6 +109,8 @@ const rewards: Record<string, any> = {
   B2: rewardXpMultiplier,
   B3: rewardXpMultiplier,
   B4: relicDodgyDeals,
+  B5: questDragonSlayer,
+  C2: questWhileGuthixSleeps,
   C3: relicBankHeist,
   C4: relicCornerCutter,
   C6: relicTotalRecall,
@@ -126,10 +131,17 @@ const rewards: Record<string, any> = {
   E7: rewardXp,
   E8: rewardCombatMasteries,
   F1: relicLastStand,
-  F3: rewardTirannwnUnlock,
+  F2: questMonkeyMadness,
+  F3: questSongOfTheElves,
+  F4: questSinsOfTheFather,
   F5: relicBottomlessBrew,
+  F6: questDesertTreasure,
   F7: rewardXpMultiplier,
   G2: relicGuardian,
   G3: relicBankersNote,
   G4: relicFriendlyForager,
+  G5: questTheFinalDawn,
+  R3: rewardCombatMasteries,
+  R4: rewardXpMultiplier,
+  R5: rewardCombatMasteries,
 };

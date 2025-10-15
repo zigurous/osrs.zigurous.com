@@ -126,7 +126,6 @@
     "taskLink": "The_Hueycoatl",
     "reward": "Quest Auto-Complete",
     "rewardDescription": "While Guthix Sleeps",
-    "rewardIcon": "Quest_point_icon",
     "rewardLink": "While_Guthix_Sleeps"
   },
   {
@@ -160,7 +159,6 @@
     "taskLink": "Zulrah",
     "reward": "Quest Auto-Complete",
     "rewardDescription": "Monkey Madness II",
-    "rewardIcon": "Quest_point_icon",
     "rewardLink": "Monkey_Madness_II"
   },
   {
@@ -244,7 +242,6 @@
     "taskLink": "Lizardman_shaman",
     "reward": "Quest Auto-Complete",
     "rewardDescription": "Song of the Elves",
-    "rewardIcon": "Quest_point_icon",
     "rewardLink": "Song_of_the_Elves"
   },
   {
@@ -328,7 +325,6 @@
     "taskLink": "Vampyre_Slayer",
     "reward": "Quest Auto-Complete",
     "rewardDescription": "Sins of the Father",
-    "rewardIcon": "Quest_point_icon",
     "rewardLink": "Sins_of_the_Father"
   },
   {
@@ -370,7 +366,6 @@
     "taskLink": "Moth",
     "reward": "Quest Auto-Complete",
     "rewardDescription": "Dragon Slayer II",
-    "rewardIcon": "Quest_point_icon",
     "rewardLink": "Dragon_Slayer_II"
   },
   {
@@ -427,7 +422,6 @@
     "taskLink": "TzTok-Jad",
     "reward": "Quest Auto-Complete",
     "rewardDescription": "The Final Dawn",
-    "rewardIcon": "Quest_point_icon",
     "rewardLink": "The_Final_Dawn"
   },
   {
@@ -505,7 +499,6 @@
     "taskLink": "Amulet_of_fury",
     "reward": "Quest Auto-Complete",
     "rewardDescription": "Desert Treasure II",
-    "rewardIcon": "Quest_point_icon",
     "rewardLink": "Desert_Treasure_II_-_The_Fallen_Empire"
   },
   {
