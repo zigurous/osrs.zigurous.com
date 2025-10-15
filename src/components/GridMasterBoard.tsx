@@ -37,7 +37,7 @@ function GridMasterTaskTile({ tile }: { tile: GridMasterTile }) {
       className="grid-master__cell"
       tooltip={
         flipped && !unknown && tile.rewardDescription ? (
-          <Text style={{ maxWidth: '360px' }}>
+          <div style={{ maxWidth: '360px' }}>
             <Text type="body-md" weight="500">
               {tile.reward}
             </Text>
@@ -49,7 +49,7 @@ function GridMasterTaskTile({ tile }: { tile: GridMasterTile }) {
                 </React.Fragment>
               ))}
             </Text>
-          </Text>
+          </div>
         ) : (
           <Text type="body-sm">
             {((!unknown && (flipped ? tile.reward : tile.task)) || 'Unknown')
@@ -97,7 +97,7 @@ function GridMasterRewardTile({ tile }: { tile: GridMasterTile }) {
       className="grid-master__cell"
       tooltip={
         !unknown && tile.rewardDescription ? (
-          <Text style={{ maxWidth: '360px' }}>
+          <div style={{ maxWidth: '360px' }}>
             <Text type="body-md" weight="500">
               {tile.reward}
             </Text>
@@ -109,7 +109,7 @@ function GridMasterRewardTile({ tile }: { tile: GridMasterTile }) {
                 </React.Fragment>
               ))}
             </Text>
-          </Text>
+          </div>
         ) : (
           <Text type="body-sm">{(!unknown && tile.reward) || 'Unknown'}</Text>
         )

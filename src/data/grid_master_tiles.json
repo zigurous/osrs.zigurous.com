@@ -2,38 +2,46 @@
   {
     "col": "R",
     "row": "1",
-    "type": "reward"
+    "type": "reward",
+    "reward": "Exposure",
+    "rewardDescription": "Special attacks have a 50% chance to deal 50% more damage.",
+    "rewardIcon": "Exposure",
+    "rewardLink": "Exposure"
   },
   {
     "col": "A",
     "row": "1",
     "type": "hard",
-    "task": "SPECULATION – Defeat Echo Cerberus.",
-    "taskIcon": "Cerberus_icon",
-    "taskLink": "Cerberus_(Echo)",
+    "task": "Defeat the Doom of Mokhaiotl at depth 8 or deeper.",
+    "taskIcon": "Mokhaiotl_waystone_5",
+    "taskLink": "Doom_of_Mokhaiotl",
     "reward": "Avernic Treads",
     "rewardDescription": "Powerful boots combining all 3 Cerberus boots.",
     "rewardIcon": "Avernic_treads_(max)",
-    "rewardLink": "Avernic_treads",
-    "unconfirmed": true
+    "rewardLink": "Avernic_treads"
   },
   {
     "col": "B",
     "row": "1",
     "type": "hard",
-    "task": "SPECULATION – Obtain a rare unique from Chambers of Xeric.",
-    "taskIcon": "Great_Olm_icon",
-    "taskLink": "Chambers_of_Xeric",
-    "reward": "Mega Rare Scroll",
-    "rewardDescription": "Choose one of the three mega rares from raids:\nScythe of Vitur, Tumeken's Shadow, Twisted Bow",
-    "rewardIcon": "Raids_megarare_voucher_(Raging_Echoes_League)",
-    "rewardLink": "Raids_megarare_voucher",
-    "unconfirmed": true
+    "task": "Defeat Sol Heredit.",
+    "taskIcon": "Smol_heredit",
+    "taskLink": "Sol_Heredit",
+    "reward": "Specialist",
+    "rewardDescription": "All special attacks cost 20% spec energy and have +100% accuracy.",
+    "rewardLink": "Specialist"
   },
   {
     "col": "C",
     "row": "1",
-    "type": "medium"
+    "type": "medium",
+    "task": "Fully decorate a magic totem in the Auburn Valley.",
+    "taskIcon": "Fletching_knife",
+    "taskLink": "Vale_Totems",
+    "reward": "Devil's Element",
+    "rewardDescription": "Provides unlimited elemental runes whilst equippep and has a passive effect where attacks will double an NPC's elemental weakness when applicable.",
+    "rewardIcon": "Devil's_element",
+    "rewardLink": "Devil's_element"
   },
   {
     "col": "D",
@@ -60,54 +68,66 @@
     "col": "F",
     "row": "1",
     "type": "hard",
-    "task": "SPECULATION – Yama",
+    "task": "Obtain a rare drop from Yama.",
     "taskIcon": "Yami",
     "taskLink": "Yama",
     "reward": "Last Stand",
     "rewardDescription": "When damage would reduce you to 0 hp, you become invulnerable and are healed based on the damage dealt over the next 16 ticks (9.6 seconds).\nYour combat stats are instantly boosted to 255 but begin draining rapidly back down.",
-    "rewardIcon": "Last_Stand",
-    "rewardLink": "Last_Stand",
-    "unconfirmed": true
+    "rewardLink": "Last_Stand"
   },
   {
     "col": "G",
     "row": "1",
     "type": "hard",
-    "task": "Feather meets the claw,\nBalance kept in humble wire,\nSecrets sleep in steel.",
-    "taskIcon": "Pigeon_cage",
-    "taskLink": "Nex",
-    "reward": "Berserker",
-    "rewardDescription": "Damage dealt is increased by 0.4% for each hitpoint missing. The player is guaranteed to hit their max hit on an NPC with full health.",
-    "rewardIcon": "Berserker_(Trailblazer_Reloaded_League)",
-    "rewardLink": "Berserker_(Trailblazer_Reloaded_League)",
-    "unconfirmed": true
+    "task": "Obtain a rare drop from Chambers of Xeric.",
+    "taskIcon": "Great_Olm_icon",
+    "taskLink": "Chambers of Xeric",
+    "reward": "Mega Rare Scroll",
+    "rewardDescription": "Choose one of the three mega rares from raids:\nScythe of Vitur, Tumeken's Shadow, Twisted Bow",
+    "rewardIcon": "Raids_megarare_voucher_(Raging_Echoes_League)",
+    "rewardLink": "Raids_megarare_voucher"
   },
   {
     "col": "R",
     "row": "2",
-    "type": "reward"
+    "type": "reward",
+    "reward": "Amulet of the Monarchs",
+    "rewardDescription": " ",
+    "rewardIcon": "Amulet_of_the_monarchs",
+    "rewardLink": "Amulet_of_the_monarchs"
   },
   {
     "col": "A",
     "row": "2",
     "type": "hard",
-    "task": "Golden moon of milk,\nStored in banks since ages past,\nMice fear only lag.",
-    "taskIcon": "Cheese",
-    "reward": "Specialist",
-    "rewardDescription": "All special attacks cost 20% spec energy and have +100% accuracy.",
-    "rewardIcon": "Specialist",
-    "rewardLink": "Specialist",
-    "unconfirmed": true
+    "task": "Reach 2,000 total level.",
+    "taskIcon": "Stats_icon",
+    "taskLink": "Total_level",
+    "reward": "Auto-complete all combat achievements.",
+    "rewardIcon": "Ghommal's_hilt_6",
+    "rewardLink": "Combat_Achievements"
   },
   {
     "col": "B",
     "row": "2",
-    "type": "medium"
+    "type": "medium",
+    "task": "Subdue the Moons of Peril.",
+    "taskIcon": "Varlamore_crest",
+    "taskLink": "Moons_of_Peril",
+    "reward": "XP Multiplier",
+    "rewardDescription": "Increase XP gain by 200% for all skills."
   },
   {
     "col": "C",
     "row": "2",
-    "type": "medium"
+    "type": "medium",
+    "task": "Obtain a rare drop from The Hueycoatl.",
+    "taskIcon": "Huberte",
+    "taskLink": "The_Hueycoatl",
+    "reward": "Quest Auto-Complete",
+    "rewardDescription": "While Guthix Sleeps",
+    "rewardIcon": "Quest_point_icon",
+    "rewardLink": "While_Guthix_Sleeps"
   },
   {
     "col": "D",
@@ -115,6 +135,7 @@
     "type": "easy",
     "task": "Reach 500 total level.",
     "taskIcon": "Stats_icon",
+    "taskLink": "Total_level",
     "reward": "XP Lamp",
     "rewardDescription": "An experience lamp containing 25,000 XP to be used on any skill.",
     "rewardLink": "Experience_lamp"
@@ -133,7 +154,14 @@
   {
     "col": "F",
     "row": "2",
-    "type": "medium"
+    "type": "medium",
+    "task": "Defeat Zulrah with a blowpipe.",
+    "taskIcon": "Zulrah_icon",
+    "taskLink": "Zulrah",
+    "reward": "Quest Auto-Complete",
+    "rewardDescription": "Monkey Madness II",
+    "rewardIcon": "Quest_point_icon",
+    "rewardLink": "Monkey_Madness_II"
   },
   {
     "col": "G",
@@ -148,7 +176,10 @@
   {
     "col": "R",
     "row": "3",
-    "type": "reward"
+    "type": "reward",
+    "reward": "Combat Masteries",
+    "rewardDescription": "+1 to all combat masteries.",
+    "rewardLink": "Grid_Master/Combat_Masteries"
   },
   {
     "col": "A",
@@ -164,16 +195,23 @@
   {
     "col": "B",
     "row": "3",
-    "type": "medium"
+    "type": "medium",
+    "task": "Obtain a rare unique from the Barrows chest\nwhile wearing some Barrows equipment.",
+    "taskIcon": "Barrows_Brothers_icon",
+    "taskLink": "Barrows",
+    "reward": "XP Multiplier",
+    "rewardDescription": "Increase XP gain by 200% for all skills."
   },
   {
     "col": "C",
     "row": "3",
     "type": "easy",
-    "task": "Boiling iron breath,\nForge-fire warms the drinker's soul,\nCourage in each gulp.",
+    "task": "Drink a steamforge brew within the Stick Your Ore Inn.",
     "taskIcon": "Steamforge_brew",
     "taskLink": "Steamforge_brew",
-    "unconfirmed": true
+    "reward": "Bank Heist",
+    "rewardDescription": "Receive a banker's briefcase, which can teleport to any deposit box, bank, or bank chest.",
+    "rewardLink": "Bank_Heist"
   },
   {
     "col": "D",
@@ -189,32 +227,43 @@
   {
     "col": "E",
     "row": "3",
-    "type": "easy"
+    "type": "easy",
+    "task": "Defeat Scurrius.",
+    "taskIcon": "Scurry",
+    "taskLink": "Scurrius",
+    "reward": "Combat Masteries",
+    "rewardDescription": "+1 to all combat masteries.",
+    "rewardLink": "Grid_Master/Combat_Masteries"
   },
   {
     "col": "F",
     "row": "3",
     "type": "medium",
-    "task": "Buried in brown earth,\nSimple strength for weary hands,\nA meal, hard-earned, warm.",
-    "taskIcon": "Rotten_potato",
-    "taskLink": "Rotten_potato",
-    "reward": "Tirannwn Unlock",
-    "rewardDescription": "Auto-complete all questlines unlocking access to the Tirannwn region, including the elf city of Prifddinas.",
-    "rewardLink": "Tirannwn",
-    "unconfirmed": true
+    "task": "Kill a lizardman shaman in the Lizardman Temple.",
+    "taskIcon": "Lizardmen_icon",
+    "taskLink": "Lizardman_shaman",
+    "reward": "Quest Auto-Complete",
+    "rewardDescription": "Song of the Elves",
+    "rewardIcon": "Quest_point_icon",
+    "rewardLink": "Song_of_the_Elves"
   },
   {
     "col": "G",
     "row": "3",
-    "type": "medium"
+    "type": "medium",
+    "task": "Complete the corrupted gauntlet.",
+    "taskIcon": "Corrupted_youngllef",
+    "taskLink": "The_Gauntlet",
+    "reward": "Banker's Note",
+    "rewardDescription": "Receive a banker's note, which allows players to use items on it to turn them into banknotes or unnote them.",
+    "rewardLink": "Banker's_Note"
   },
   {
     "col": "R",
     "row": "4",
     "type": "reward",
     "reward": "XP Multiplier",
-    "rewardDescription": "Increase XP gain by 200% for all skills.",
-    "unconfirmed": true
+    "rewardDescription": "Increase XP gain by 200% for all skills."
   },
   {
     "col": "A",
@@ -231,27 +280,23 @@
     "col": "B",
     "row": "4",
     "type": "easy",
-    "task": "Not potion, nor spell,\nStill the hand that sips finds peace,\nWarmth cloaks mortal will.",
-    "taskIcon": "Cup_of_tea",
-    "taskLink": "Tea_stall",
+    "task": "Steal from a fruit stall.",
+    "taskIcon": "Cooking_apple",
+    "taskLink": "Fruit_Stall",
     "reward": "Dodgy Deals",
     "rewardDescription": "• Pickpocket all NPCs in an 11x11 square.\n• 100% success rate on all Thieving checks.\n• Auto re-pickpocket until you can no longer do so.\n• Items obtained from pickpocketing are noted.\n• Maximum coin pouch count increased by 3x.",
-    "rewardIcon": "Dodgy_Deals",
-    "rewardLink": "Dodgy_Deals",
-    "unconfirmed": true
+    "rewardLink": "Dodgy_Deals"
   },
   {
     "col": "C",
     "row": "4",
     "type": "easy",
-    "task": "SPECULATION – Win a Gnomeball match.",
+    "task": "Throw a gnomeball.",
     "taskIcon": "Gnomeball",
     "taskLink": "Gnome_Ball",
     "reward": "Corner Cutter",
-    "rewardDescription": "Receive a pair of Sage's greaves. While equipped, the Sage's greaves grant Agility experience based on your Agility level while you run.",
-    "rewardIcon": "Corner_Cutter",
-    "rewardLink": "Corner_Cutter",
-    "unconfirmed": true
+    "rewardDescription": "Receive a pair of Sage's greaves, whichs grants Agility experience based on your Agility level while you run.",
+    "rewardLink": "Corner_Cutter"
   },
   {
     "col": "D",
@@ -267,55 +312,66 @@
     "col": "E",
     "row": "4",
     "type": "easy",
-    "task": "Complete level 4 of the Stronghold of Security.",
+    "task": "Equip any boots from the Stronghold of Security.",
     "taskIcon": "Fancy_boots",
     "taskLink": "Stronghold_of_Security",
     "reward": "Fairy's Flight",
-    "rewardDescription": "Receive a fairy mushroom which allows teleporting to any fairy ring, spirit tree, or tool leprechaun.",
-    "rewardLink": "Fairy's_Flight",
-    "unconfirmed": true
+    "rewardDescription": "Receive a fairy mushroom, which allows teleporting to any fairy ring, spirit tree, or tool leprechaun.",
+    "rewardLink": "Fairy's_Flight"
   },
   {
     "col": "F",
     "row": "4",
     "type": "easy",
-    "task": "The sixth brother, but never thought as an equal to them.\nI'm glad I am important to you.",
-    "reward": "Equilibrium",
-    "rewardDescription": "Each time the player gains experience, they will gain additional experience in the skill trained. The additional XP is equal to 10% of the player's combined total level.",
-    "rewardIcon": "Equilibrium",
-    "rewardLink": "Equilibrium",
-    "unconfirmed": true
+    "task": "Complete the Vampyre Slayer quest.",
+    "taskIcon": "Stake",
+    "taskLink": "Vampyre_Slayer",
+    "reward": "Quest Auto-Complete",
+    "rewardDescription": "Sins of the Father",
+    "rewardIcon": "Quest_point_icon",
+    "rewardLink": "Sins_of_the_Father"
   },
   {
     "col": "G",
     "row": "4",
     "type": "easy",
-    "task": "Golden feather falls,\nGuiding knights through mist and myth,\nFaith finds what is lost.",
-    "taskIcon": "Magic_gold_feather",
-    "taskLink": "Magic_gold_feather",
+    "task": "Clean 3 grimy herbs.",
+    "taskIcon": "Grimy_guam_leaf",
+    "taskLink": "Herb",
     "reward": "Friendly Forager",
     "rewardDescription": "When gathering resources, find and store random grimy herbs, while also providing a small amount of Herblore experience when one is found.",
-    "rewardLink": "Friendly_Forager",
-    "unconfirmed": true
+    "rewardLink": "Friendly_Forager"
   },
   {
     "col": "R",
     "row": "5",
-    "type": "reward"
+    "type": "reward",
+    "reward": "Combat Masteries",
+    "rewardDescription": "+1 to all combat masteries.",
+    "rewardLink": "Grid_Master/Combat_Masteries"
   },
   {
     "col": "A",
     "row": "5",
-    "type": "medium"
+    "type": "medium",
+    "task": "Obtain a rare drop from Vorkath.",
+    "taskIcon": "Vorkath_icon",
+    "taskLink": "Vorkath",
+    "reward": "Grimoire",
+    "rewardDescription": "Gives access to all prayers and spells regardless of area, quest, or diary requirements. Freely swap between all spellbooks at any time.",
+    "rewardLink": "Grimoire"
   },
   {
     "col": "B",
     "row": "5",
     "type": "medium",
-    "task": "Moonlight softly hums,\nSilver wings kiss midnight air,\nDreams take flight unseen.",
+    "task": "Catch a moth bare-handed.",
     "taskIcon": "Moonlight_moth_icon",
-    "taskLink": "Moonlight_moth",
-    "unconfirmed": true
+    "taskLink": "Moth",
+    "reward": "Quest Auto-Complete",
+    "rewardDescription": "Dragon Slayer II",
+    "rewardIcon": "Quest_point_icon",
+    "rewardLink": "Dragon_Slayer_II"
   },
   {
     "col": "C",
@@ -354,12 +410,25 @@
   {
     "col": "F",
     "row": "5",
-    "type": "medium"
+    "type": "medium",
+    "task": "Make a Zamorak brew while wearing Zamorak\nmonk robes in the Varrock chaos altar.",
+    "taskIcon": "Zamorak_brew(4)",
+    "taskLink": "Zamorak_brew",
+    "reward": "Bottomless Brew",
+    "rewardDescription": "Potions will no longer be consumed when used.",
+    "rewardLink": "Bottomless_Brew"
   },
   {
     "col": "G",
     "row": "5",
-    "type": "medium"
+    "type": "medium",
+    "task": "Defeat TzTok-Jad.",
+    "taskIcon": "Tzrek-jad",
+    "taskLink": "TzTok-Jad",
+    "reward": "Quest Auto-Complete",
+    "rewardDescription": "The Final Dawn",
+    "rewardIcon": "Quest_point_icon",
+    "rewardLink": "The_Final_Dawn"
   },
   {
     "col": "R",
@@ -367,9 +436,8 @@
     "type": "reward",
     "reward": "Gloves of the Damned",
     "rewardDescription": "Identical stats to Barrows gloves combined with the effect of Amulet of the Damned.",
-    "rewardIcon": "Gloves_of_the_damned_detail",
-    "rewardLink": "Gloves_of_the_damned",
-    "unconfirmed": true
+    "rewardIcon": "Gloves_of_the_damned",
+    "rewardLink": "Gloves_of_the_damned"
   },
   {
     "col": "A",
@@ -386,19 +454,25 @@
   {
     "col": "B",
     "row": "6",
-    "type": "medium"
+    "type": "medium",
+    "task": "Defeat Kalphite Queen.",
+    "taskIcon": "Kalphite_Queen_icon",
+    "taskLink": "Kalphite_Queen",
+    "reward": "Drygore Blowpipe",
+    "rewardDescription": "A light ranged weapon with a passive effect that rolls accuracy twice, similar to an Osmumten's Fang.",
+    "rewardIcon": "Drygore_blowpipe",
+    "rewardLink": "Drygore_blowpipe"
   },
   {
     "col": "C",
     "row": "6",
     "type": "medium",
-    "task": "SPECULATION – Receive a unique drop from a boss in the God Wars Dungeon.",
+    "task": "Equip a unique item from God Wars Dungeon.",
     "taskIcon": "Armadyl_helmet",
     "taskLink": "God_Wars_Dungeon",
     "reward": "Total Recall",
     "rewardDescription": "Stores the player's current tile coordinates, hp, prayer, and spec energy. Any time later, the player may use the crystal to teleport back to the stored coordinates while restoring their stats to the stored values.",
-    "rewardLink": "Total_Recall",
-    "unconfirmed": true
+    "rewardLink": "Total_Recall"
   },
   {
     "col": "D",
@@ -414,36 +488,51 @@
   {
     "col": "E",
     "row": "6",
-    "type": "medium"
+    "type": "medium",
+    "task": "Check a grown fruit tree.",
+    "taskIcon": "Papaya_fruit",
+    "taskLink": "Fruit_tree_patch",
+    "reward": "Farmer's Fortune",
+    "rewardDescription": "Farming patches will grow instantly and never catch diseases, and have a 20% chance to save the seed or sapling that was planted.",
+    "rewardLink": "Farmer's_Fortune"
   },
   {
     "col": "F",
     "row": "6",
-    "type": "medium"
+    "type": "medium",
+    "task": "Equip an Amulet of Fury.",
+    "taskIcon": "Amulet_of_fury",
+    "taskLink": "Amulet_of_fury",
+    "reward": "Quest Auto-Complete",
+    "rewardDescription": "Desert Treasure II",
+    "rewardIcon": "Quest_point_icon",
+    "rewardLink": "Desert_Treasure_II_-_The_Fallen_Empire"
   },
   {
     "col": "G",
     "row": "6",
     "type": "hard",
-    "task": "SPECULATION – Obtain a rare unique from Theatre of Blood.",
-    "taskIcon": "Verzik_Vitur_icon",
-    "taskLink": "Theatre_of_Blood",
-    "reward": "Mega Rare Scroll",
-    "rewardDescription": "Choose one of the three mega rares from raids:\nScythe of Vitur, Tumeken's Shadow, Twisted Bow",
-    "rewardIcon": "Raids_megarare_voucher_(Raging_Echoes_League)",
-    "rewardLink": "Raids_megarare_voucher",
-    "unconfirmed": true
+    "task": "Complete floor 5 of the Hallowed Sepulchre.",
+    "taskIcon": "Hallowed_mark_25",
+    "taskLink": "Hallowed_Sepulchre",
+    "reward": "Auto-complete all achievement diaries.",
+    "rewardIcon": "Achievement_Diaries_icon",
+    "rewardLink": "Achievement_Diary"
   },
   {
     "col": "R",
     "row": "7",
-    "type": "reward"
+    "type": "reward",
+    "reward": "Rune Saviour",
+    "rewardDescription": "Magic spells no longer require or consume Runes. This includes charges when using powered staves or tomes.",
+    "rewardIcon": "Rune_Saviour",
+    "rewardLink": "Rune_Saviour"
   },
   {
     "col": "A",
     "row": "7",
     "type": "hard",
-    "task": "Obtain a rare unique from Tombs of Amascut.",
+    "task": "Obtain a rare drop from Tombs of Amascut.",
     "taskIcon": "Tombs_of_Amascut_-_Normal_Mode_icon",
     "taskLink": "Tombs_of_Amascut",
     "reward": "Mega Rare Scroll",
@@ -487,21 +576,35 @@
   {
     "col": "E",
     "row": "7",
-    "type": "medium"
+    "type": "medium",
+    "task": "Reach 1,500 total level.",
+    "taskIcon": "Stats_icon",
+    "taskLink": "Total_level",
+    "reward": "XP Lamp",
+    "rewardDescription": "An experience lamp containing 100,000 XP to be used on any skill.",
+    "rewardLink": "Experience_lamp"
   },
   {
     "col": "F",
     "row": "7",
     "type": "hard",
-    "task": "Cracked upon the wall,\nShell of pride and yolk of fear,\nFall, respawn, repeat.",
-    "taskIcon": "Egg_(Humphrey_Dumphrey)",
-    "taskLink": "Humphrey_Dumphrey",
-    "unconfirmed": true
+    "task": "Obtain a rare drop from Araxxor.",
+    "taskIcon": "Nid",
+    "taskLink": "Araxxor",
+    "reward": "XP Multiplier",
+    "rewardDescription": "Increase XP gain by 200% for all skills."
   },
   {
     "col": "G",
     "row": "7",
-    "type": "hard"
+    "type": "hard",
+    "task": "Obtain a rare drop from the Theatre of Blood.",
+    "taskIcon": "Verzik_Vitur_icon",
+    "taskLink": "Theatre_of_Blood",
+    "reward": "Mega Rare Scroll",
+    "rewardDescription": "Choose one of the three mega rares from raids:\nScythe of Vitur, Tumeken's Shadow, Twisted Bow",
+    "rewardIcon": "Raids_megarare_voucher_(Raging_Echoes_League)",
+    "rewardLink": "Raids_megarare_voucher"
   },
   {
     "col": "R",
@@ -514,23 +617,25 @@
     "type": "reward",
     "reward": "The Dogsword",
     "rewardDescription": "A godsword combining the effects of all 5 godswords. Counts as a god item towards all factions in the God Wars Dungeon. Woof!",
-    "rewardIcon": "The_dogsword_detail",
+    "rewardIcon": "The_dogsword",
     "rewardLink": "The_dogsword"
   },
   {
     "col": "B",
     "row": "8",
     "type": "reward",
-    "reward": "Thousand-Dragon Ward",
-    "rewardDescription": "An offensive shield that provides immunity to all status effects – poison, venom, dragonfire, icy breath, swamp decay, desert heat, and chill stat-drains.",
-    "rewardIcon": "Thousand-dragon_ward_detail",
-    "rewardLink": "Thousand-dragon_ward",
-    "unconfirmed": true
+    "reward": "Emperor Ring",
+    "rewardDescription": " ",
+    "rewardIcon": "Emperor_ring",
+    "rewardLink": "Emperor_ring"
   },
   {
     "col": "C",
     "row": "8",
-    "type": "reward"
+    "type": "reward",
+    "reward": "Combat Masteries",
+    "rewardDescription": "+1 to all combat masteries.",
+    "rewardLink": "Grid_Master/Combat_Masteries"
   },
   {
     "col": "D",
@@ -542,7 +647,10 @@
   {
     "col": "E",
     "row": "8",
-    "type": "reward"
+    "type": "reward",
+    "reward": "Combat Masteries",
+    "rewardDescription": "+1 to all combat masteries.",
+    "rewardLink": "Grid_Master/Combat_Masteries"
   },
   {
     "col": "F",
@@ -550,13 +658,16 @@
     "type": "reward",
     "reward": "Sunlight Spear",
     "rewardDescription": "A weapon from a being that truly worships gods. Gains a sunlight stack every attack, up to a max of 20, that can be unleashed for powerful AoE damage.",
-    "rewardIcon": "Sunlight_spear_(Raging_Echoes_League)_detail",
+    "rewardIcon": "Sunlight_spear",
     "rewardLink": "Sunlight_spear"
   },
   {
     "col": "G",
     "row": "8",
     "type": "reward",
-    "unconfirmed": true
+    "reward": "Thousand-Dragon Ward",
+    "rewardDescription": "An offensive shield that provides immunity to all status effects – poison, venom, dragonfire, icy breath, swamp decay, desert heat, and chill stat-drains.",
+    "rewardIcon": "Thousand-dragon_ward",
+    "rewardLink": "Thousand-dragon_ward"
   }
 ]

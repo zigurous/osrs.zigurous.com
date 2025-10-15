@@ -1,18 +1,27 @@
 import classNames from 'classnames';
 import React from 'react';
 import WikiIcon from './WikiIcon';
+import relicBankHeist from '../images/grid-master-relic-bank-heist.png';
+import relicBankersNote from '../images/grid-master-relic-bankers-note.png';
+import relicBottomlessBrew from '../images/grid-master-relic-bottomless-brew.png';
+import relicCornerCutter from '../images/grid-master-relic-corner-cutter.png';
 import relicCorruptedShark from '../images/grid-master-relic-corrupted-shark.png';
+import relicDodgyDeals from '../images/grid-master-relic-dodgy-deals.png';
 import relicFairyFlight from '../images/grid-master-relic-fairy-flight.png';
+import relicFarmersFortune from '../images/grid-master-relic-farmers-fortune.png';
 import relicFriendlyForager from '../images/grid-master-relic-friendly-forager.png';
 import relicGathering from '../images/grid-master-relic-gathering.png';
 import relicGoldenGod from '../images/grid-master-relic-golden-god.png';
+import relicGrimoire from '../images/grid-master-relic-grimoire.png';
 import relicGuardian from '../images/grid-master-relic-guardian.png';
+import relicLastStand from '../images/grid-master-relic-last-stand.png';
 import relicMinimumPotential from '../images/grid-master-relic-minimum-potential.png';
 import relicProductionMaster from '../images/grid-master-relic-production-master.png';
-import relicScarab from '../images/grid-master-relic-scarab.png';
+import relicSpikeyAura from '../images/grid-master-relic-spikey-aura.png';
 import relicSlayerMaster from '../images/grid-master-relic-slayer-master.png';
+import relicSpecialist from '../images/grid-master-relic-specialist.png';
 import relicTotalRecall from '../images/grid-master-relic-total-recall.png';
-import rewardCombatStyles from '../images/grid-master-reward-combat-styles.png';
+import rewardCombatMasteries from '../images/grid-master-reward-combat-masteries.png';
 import rewardTirannwnUnlock from '../images/grid-master-reward-tirannwn-unlock.png';
 import rewardUnknown from '../images/grid-master-reward-unknown.png';
 import rewardXp from '../images/grid-master-reward-xp.png';
@@ -87,22 +96,40 @@ const tasks: Record<string, any> = {
 };
 
 const rewards: Record<string, any> = {
+  R3: rewardCombatMasteries,
   R4: rewardXpMultiplier,
+  R5: rewardCombatMasteries,
   A3: relicGoldenGod,
   A4: relicProductionMaster,
+  A5: relicGrimoire,
+  B1: relicSpecialist,
+  B2: rewardXpMultiplier,
+  B3: rewardXpMultiplier,
+  B4: relicDodgyDeals,
+  C3: relicBankHeist,
+  C4: relicCornerCutter,
   C6: relicTotalRecall,
-  C7: relicScarab,
+  C7: relicSpikeyAura,
+  C8: rewardCombatMasteries,
   D2: rewardXp,
   D3: relicGathering,
   D4: relicGathering,
   D5: relicGathering,
-  D6: rewardCombatStyles,
+  D6: rewardCombatMasteries,
   D7: relicMinimumPotential,
   D8: rewardXpMultiplier,
   E1: relicSlayerMaster,
   E2: relicCorruptedShark,
+  E3: rewardCombatMasteries,
   E4: relicFairyFlight,
+  E6: relicFarmersFortune,
+  E7: rewardXp,
+  E8: rewardCombatMasteries,
+  F1: relicLastStand,
   F3: rewardTirannwnUnlock,
+  F5: relicBottomlessBrew,
+  F7: rewardXpMultiplier,
   G2: relicGuardian,
+  G3: relicBankersNote,
   G4: relicFriendlyForager,
 };

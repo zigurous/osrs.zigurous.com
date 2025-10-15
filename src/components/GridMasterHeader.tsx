@@ -14,7 +14,7 @@ export default function GridMasterHeader() {
         {context.flipped ? 'Rewards' : 'Tasks'}
       </Text>
       <Stack align="center">
-        <TooltipWrapper
+        {/* <TooltipWrapper
           tooltip={
             context.hideUnconfirmed ? 'Show Unconfirmed' : 'Hide Unconfirmed'
           }
@@ -25,7 +25,7 @@ export default function GridMasterHeader() {
             onClick={() => context.setHideUnconfirmed(state => !state)}
             variant="text"
           />
-        </TooltipWrapper>
+        </TooltipWrapper> */}
         <TooltipWrapper tooltip="Flip Board">
           <Button
             icon="flip"
