@@ -84,7 +84,7 @@
     "taskLink": "Chambers of Xeric",
     "reward": "Mega Rare Scroll",
     "rewardDescription": "Choose one of the three mega rares from raids:\nScythe of Vitur, Tumeken's Shadow, Twisted Bow",
-    "rewardIcon": "Raids_megarare_voucher_(Raging_Echoes_League)",
+    "rewardIcon": "Raids_megarare_voucher",
     "rewardLink": "Raids_megarare_voucher"
   },
   {
@@ -530,7 +530,7 @@
     "taskLink": "Tombs_of_Amascut",
     "reward": "Mega Rare Scroll",
     "rewardDescription": "Choose one of the three mega rares from raids:\nScythe of Vitur, Tumeken's Shadow, Twisted Bow",
-    "rewardIcon": "Raids_megarare_voucher_(Raging_Echoes_League)",
+    "rewardIcon": "Raids_megarare_voucher",
     "rewardLink": "Raids_megarare_voucher"
   },
   {
@@ -596,7 +596,7 @@
     "taskLink": "Theatre_of_Blood",
     "reward": "Mega Rare Scroll",
     "rewardDescription": "Choose one of the three mega rares from raids:\nScythe of Vitur, Tumeken's Shadow, Twisted Bow",
-    "rewardIcon": "Raids_megarare_voucher_(Raging_Echoes_League)",
+    "rewardIcon": "Raids_megarare_voucher",
     "rewardLink": "Raids_megarare_voucher"
   },
   {
