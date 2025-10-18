@@ -48,6 +48,11 @@
   image-rendering: crisp-edges;
 }
 
+.grid-master__tile > span > img {
+  pointer-events: none;
+  user-select: none;
+}
+
 @media (hover: hover) {
   .grid-master__tile:hover {
     background-image: linear-gradient(to bottom, rgb(from var(--tile-color) r g b / var(--opacity-soft)), rgb(from var(--tile-color) r g b / var(--opacity-muted)));

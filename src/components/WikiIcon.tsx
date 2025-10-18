@@ -26,6 +26,7 @@ export default function WikiIcon({
         alt=""
         aria-hidden
         className="object-contain w-full h-full"
+        draggable={false}
         src={`https://oldschool.runescape.wiki/images/${icon}.png`}
       />
     </span>

@@ -29,6 +29,7 @@
     "taskLink": "Sol_Heredit",
     "reward": "Specialist",
     "rewardDescription": "All special attacks cost 20% spec energy and have +100% accuracy.",
+    "rewardIcon": "Specialist",
     "rewardLink": "Specialist"
   },
   {
@@ -62,6 +63,7 @@
     "taskLink": "Jal-Zek",
     "reward": "Slayer Master",
     "rewardDescription": "Always be on-task for all slayer monsters and unlock all slayer task perks for free.",
+    "rewardIcon": "Slayer_Master_(relic)",
     "rewardLink": "Slayer_Master_(relic)"
   },
   {
@@ -73,6 +75,7 @@
     "taskLink": "Yama",
     "reward": "Last Stand",
     "rewardDescription": "When damage would reduce you to 0 hp, you become invulnerable and are healed based on the damage dealt over the next 16 ticks (9.6 seconds).\nYour combat stats are instantly boosted to 255 but begin draining rapidly back down.",
+    "rewardIcon": "Last_Stand",
     "rewardLink": "Last_Stand"
   },
   {
@@ -169,6 +172,7 @@
     "taskLink": "Inferno",
     "reward": "Guardian",
     "rewardDescription": "Summon a powerful thrall lasting for 30 minutes. The guardian will attack your target with whatever style it is weak to and will AoE attack in multi-combat.",
+    "rewardIcon": "Guardian",
     "rewardLink": "Guardian"
   },
   {
@@ -187,8 +191,9 @@
     "taskIcon": "Valuables_5",
     "taskLink": "Stealing_valuables",
     "reward": "Golden God",
-    "rewardLink": "Golden_God",
-    "rewardDescription": "• High and Low Level Alchemy spells have no rune cost or level requirements.\n• Items give 15% more gold and have a 65% chance to not be consumed when the spell is cast.\n• 20K coins can be offered at Prayer altars in exchange for Prayer XP equivalent to using a dragon bone."
+    "rewardDescription": "• High and Low Level Alchemy spells have no rune cost or level requirements.\n• Items give 15% more gold and have a 65% chance to not be consumed when the spell is cast.\n• 20K coins can be offered at Prayer altars in exchange for Prayer XP equivalent to using a dragon bone.",
+    "rewardIcon": "Golden_God",
+    "rewardLink": "Golden_God"
   },
   {
     "col": "B",
@@ -209,6 +214,7 @@
     "taskLink": "Steamforge_brew",
     "reward": "Bank Heist",
     "rewardDescription": "Receive a banker's briefcase, which can teleport to any deposit box, bank, or bank chest.",
+    "rewardIcon": "Bank_Heist",
     "rewardLink": "Bank_Heist"
   },
   {
@@ -253,6 +259,7 @@
     "taskLink": "The_Gauntlet",
     "reward": "Banker's Note",
     "rewardDescription": "Receive a banker's note, which allows players to use items on it to turn them into banknotes or unnote them.",
+    "rewardIcon": "Banker's_Note",
     "rewardLink": "Banker's_Note"
   },
   {
@@ -270,8 +277,9 @@
     "taskIcon": "Coins_10000",
     "taskLink": "High_Level_Alchemy",
     "reward": "Production Prodigy",
-    "rewardLink": "Production_Prodigy",
-    "rewardDescription": "All items are processed at once when doing specific skilling activities, with a chance to make an extra product. Artisan skills also receive a +12 boost."
+    "rewardDescription": "All items are processed at once when doing specific skilling activities, with a chance to make an extra product. Artisan skills also receive a +12 boost.",
+    "rewardIcon": "Production_Prodigy",
+    "rewardLink": "Production_Prodigy"
   },
   {
     "col": "B",
@@ -282,6 +290,7 @@
     "taskLink": "Fruit_Stall",
     "reward": "Dodgy Deals",
     "rewardDescription": "• Pickpocket all NPCs in an 11x11 square.\n• 100% success rate on all Thieving checks.\n• Auto re-pickpocket until you can no longer do so.\n• Items obtained from pickpocketing are noted.\n• Maximum coin pouch count increased by 3x.",
+    "rewardIcon": "Dodgy_Deals",
     "rewardLink": "Dodgy_Deals"
   },
   {
@@ -293,6 +302,7 @@
     "taskLink": "Gnome_Ball",
     "reward": "Corner Cutter",
     "rewardDescription": "Receive a pair of Sage's greaves, whichs grants Agility experience based on your Agility level while you run.",
+    "rewardIcon": "Corner_Cutter",
     "rewardLink": "Corner_Cutter"
   },
   {
@@ -314,6 +324,7 @@
     "taskLink": "Stronghold_of_Security",
     "reward": "Fairy's Flight",
     "rewardDescription": "Receive a fairy mushroom, which allows teleporting to any fairy ring, spirit tree, or tool leprechaun.",
+    "rewardIcon": "Fairy's_Flight",
     "rewardLink": "Fairy's_Flight"
   },
   {
@@ -336,6 +347,7 @@
     "taskLink": "Herb",
     "reward": "Friendly Forager",
     "rewardDescription": "When gathering resources, find and store random grimy herbs, while also providing a small amount of Herblore experience when one is found.",
+    "rewardIcon": "Friendly_Forager",
     "rewardLink": "Friendly_Forager"
   },
   {
@@ -355,6 +367,7 @@
     "taskLink": "Vorkath",
     "reward": "Grimoire",
     "rewardDescription": "Gives access to all prayers and spells regardless of area, quest, or diary requirements. Freely swap between all spellbooks at any time.",
+    "rewardIcon": "Grimoire",
     "rewardLink": "Grimoire"
   },
   {
@@ -377,7 +390,7 @@
     "taskLink": "Tempoross",
     "reward": "Craftsman",
     "rewardDescription": "Select three artisan skills. When you gain experience in one of your three selected skills you'll gain 50% of that experience in the other two skills.\n\nAvailable skills: Construction, Cooking, Crafting, Firemaking, Fletching, Herblore, Runecraft, Smithing",
-    "rewardIcon": "Crafting_icon_(detail)",
+    "rewardIcon": "Crafting_icon",
     "rewardLink": "Craftsman"
   },
   {
@@ -399,7 +412,7 @@
     "taskLink": "Gemstone_Crab",
     "reward": "Gatherer",
     "rewardDescription": "Select three gathering or support skills. When you gain experience in one of your three selected skills you'll gain 50% of that experience in the other two skills.\n\nAvailable skills: Mining, Fishing, Woodcutting, Hunter, Agility, Slayer, Thieving",
-    "rewardIcon": "Woodcutting_icon_(detail)",
+    "rewardIcon": "Woodcutting_icon",
     "rewardLink": "Gatherer"
   },
   {
@@ -411,6 +424,7 @@
     "taskLink": "Zamorak_brew",
     "reward": "Bottomless Brew",
     "rewardDescription": "Potions will no longer be consumed when used.",
+    "rewardIcon": "Bottomless_Brew",
     "rewardLink": "Bottomless_Brew"
   },
   {
@@ -466,6 +480,7 @@
     "taskLink": "God_Wars_Dungeon",
     "reward": "Total Recall",
     "rewardDescription": "Stores the player's current tile coordinates, hp, prayer, and spec energy. Any time later, the player may use the crystal to teleport back to the stored coordinates while restoring their stats to the stored values.",
+    "rewardIcon": "Total_Recall",
     "rewardLink": "Total_Recall"
   },
   {
@@ -488,6 +503,7 @@
     "taskLink": "Fruit_tree_patch",
     "reward": "Farmer's Fortune",
     "rewardDescription": "Farming patches will grow instantly and never catch diseases, and have a 20% chance to save the seed or sapling that was planted.",
+    "rewardIcon": "Farmer's_Fortune",
     "rewardLink": "Farmer's_Fortune"
   },
   {
@@ -552,9 +568,10 @@
     "task": "Deposit a skillcape into your player owned house.",
     "taskIcon": "Max_cape",
     "taskLink": "Cape_rack_space",
-    "reward": "Spikey Aura",
+    "reward": "Spiky Aura",
     "rewardDescription": "Acts like a permanent ring of recoil. Reflect 25% of the damage you receive.",
-    "rewardLink": "Spikey_Aura"
+    "rewardIcon": "Spiky_Aura",
+    "rewardLink": "Spiky_Aura"
   },
   {
     "col": "D",
@@ -564,6 +581,7 @@
     "taskLink": "Lesser_demon",
     "reward": "Minimum Potential",
     "rewardDescription": "Your Melee, Ranged and Magic hits will never deal below 5 damage. You can still miss your attacks.",
+    "rewardIcon": "Minimum_Potential",
     "rewardLink": "Minimum_Potential"
   },
   {
