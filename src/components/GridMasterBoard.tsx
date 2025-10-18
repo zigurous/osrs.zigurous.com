@@ -6,6 +6,9 @@ import WikiLink from './WikiLink';
 import { useGridMasterContext } from '../context/GridMasterContext';
 import type { GridMasterTile } from '../types/grid-master';
 
+const cols = ['A', 'B', 'C', 'D', 'E', 'F', 'G'];
+const rows = ['1', '2', '3', '4', '5', '6', '7'];
+
 export default function GridMasterBoard() {
   const { tiles } = useGridMasterContext();
   return (
@@ -26,7 +29,8 @@ export default function GridMasterBoard() {
 }
 
 function GridMasterTaskTile({ tile }: { tile: GridMasterTile }) {
-  const { flipped, hideUnconfirmed } = useGridMasterContext();
+  const { checked, checkable, flipped, hideUnconfirmed, toggleChecked } =
+    useGridMasterContext();
   const cell = `${tile.col}${tile.row}`;
   const unknown =
     (flipped ? !Boolean(tile.reward) : !Boolean(tile.task)) ||
@@ -34,7 +38,10 @@ function GridMasterTaskTile({ tile }: { tile: GridMasterTile }) {
   return (
     <TooltipWrapper
       id={cell}
-      className="grid-master__cell"
+      className={classNames('grid-master__cell', {
+        unchecked: checkable && !Boolean(checked[cell]),
+        checked: checkable && Boolean(checked[cell]),
+      })}
       tooltip={
         flipped && !unknown && tile.rewardDescription ? (
           <div style={{ maxWidth: '360px' }}>
@@ -70,6 +77,17 @@ function GridMasterTaskTile({ tile }: { tile: GridMasterTile }) {
           [`grid-master__tile--${tile.type}`]: tile.type,
           'grid-master__tile--unknown': unknown,
         })}
+        draggable={false}
+        onClick={
+          checkable
+            ? e => {
+                if (!e.ctrlKey) {
+                  e.preventDefault();
+                  toggleChecked(cell);
+                }
+              }
+            : undefined
+        }
         wikiId={
           (!unknown && (flipped ? tile.rewardLink : tile.taskLink)) ||
           'Grid_Master'
@@ -87,14 +105,21 @@ function GridMasterTaskTile({ tile }: { tile: GridMasterTile }) {
 }
 
 function GridMasterRewardTile({ tile }: { tile: GridMasterTile }) {
-  const { hideUnconfirmed } = useGridMasterContext();
+  const { checked, checkable, hideUnconfirmed } = useGridMasterContext();
   const cell = `${tile.col}${tile.row}`;
   const unknown =
     !Boolean(tile.reward) || Boolean(tile.unconfirmed && hideUnconfirmed);
+  const completed =
+    tile.col === 'R'
+      ? cols.every(col => Boolean(checked[`${col}${tile.row}`]))
+      : rows.every(row => Boolean(checked[`${tile.col}${row}`]));
   return (
     <TooltipWrapper
       id={cell}
-      className="grid-master__cell"
+      className={classNames('grid-master__cell', {
+        unchecked: checkable && !completed,
+        checked: checkable && completed,
+      })}
       tooltip={
         !unknown && tile.rewardDescription ? (
           <div style={{ maxWidth: '360px' }}>

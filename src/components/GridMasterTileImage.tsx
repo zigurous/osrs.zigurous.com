@@ -42,6 +42,7 @@ export default function GridMasterTileImage({
         className={classNames(rest.className, {
           smooth: icon.includes('_detail'),
         })}
+        draggable={false}
         icon={icon}
         size={48}
       />
@@ -53,13 +54,15 @@ export default function GridMasterTileImage({
         'inline-flex justify-center align-center shrink-0',
         rest.className,
       )}
-      style={{ ...rest.style, width: 56, height: 56 }}
+      draggable={false}
+      style={{ ...rest.style, width: 48, height: 48 }}
       {...rest}
     >
       <img
         alt=""
         aria-hidden
         className="object-contain w-full h-full"
+        draggable={false}
         src={
           unknown
             ? type === 'reward'

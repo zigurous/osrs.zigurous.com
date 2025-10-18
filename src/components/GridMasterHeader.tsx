@@ -1,4 +1,4 @@
-import { Button, Stack, Text, TooltipWrapper } from '@zigurous/forge-react';
+import { Button, Stack, Text, Toggle, TooltipWrapper } from '@zigurous/forge-react'; // prettier-ignore
 import React from 'react';
 import { useGridMasterContext } from '../context/GridMasterContext';
 
@@ -13,7 +13,14 @@ export default function GridMasterHeader() {
       <Text className="ml-2xxl" type="title">
         {context.flipped ? 'Rewards' : 'Tasks'}
       </Text>
-      <Stack align="center">
+      <Stack align="center" spacing="md">
+        <Toggle
+          label="Completion Mode"
+          labelAlignment="leading"
+          size="sm"
+          toggled={context.checkable}
+          onToggle={toggled => context.setCheckable(toggled)}
+        />
         {/* <TooltipWrapper
           tooltip={
             context.hideUnconfirmed ? 'Show Unconfirmed' : 'Hide Unconfirmed'

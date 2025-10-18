@@ -19,6 +19,14 @@
   cursor: pointer;
 }
 
+.grid-master__cell.unchecked {
+  opacity: var(--opacity-disabled);
+}
+
+.grid-master__cell.checked {
+  opacity: 1;
+}
+
 .grid-master__tile {
   display: inline-flex;
   justify-content: center;
