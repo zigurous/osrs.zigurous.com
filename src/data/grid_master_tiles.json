@@ -84,7 +84,7 @@
     "type": "hard",
     "task": "Obtain a rare drop from Chambers of Xeric.",
     "taskIcon": "Great_Olm_icon",
-    "taskLink": "Chambers of Xeric",
+    "taskLink": "Chambers_of_Xeric",
     "reward": "Mega Rare Scroll",
     "rewardDescription": "Choose one of the three mega rares from raids:\nScythe of Vitur, Tumeken's Shadow, Twisted Bow",
     "rewardIcon": "Raids_megarare_voucher",
@@ -95,7 +95,7 @@
     "row": "2",
     "type": "reward",
     "reward": "Amulet of the Monarchs",
-    "rewardDescription": " ",
+    "rewardDescription": "• +30 accuracy for all combat styles\n• +30 defence for all combat styles\n• +15 melee and ranged strength\n• +10% magic damage\n• +10 prayer bonus",
     "rewardIcon": "Amulet_of_the_monarchs",
     "rewardLink": "Amulet_of_the_monarchs"
   },
@@ -533,7 +533,7 @@
     "row": "7",
     "type": "reward",
     "reward": "Rune Saviour",
-    "rewardDescription": "Magic spells no longer require or consume Runes. This includes charges when using powered staves or tomes.",
+    "rewardDescription": "Magic spells no longer require or consume runes. This includes charges when using powered staves or tomes.",
     "rewardIcon": "Rune_Saviour",
     "rewardLink": "Rune_Saviour"
   },
@@ -636,7 +636,7 @@
     "row": "8",
     "type": "reward",
     "reward": "Emperor Ring",
-    "rewardDescription": " ",
+    "rewardDescription": "• +30 accuracy for all combat styles\n• +30 defence for all combat styles\n• +15 melee and ranged strength\n• +5% magic damage\n• +10 prayer bonus",
     "rewardIcon": "Emperor_ring",
     "rewardLink": "Emperor_ring"
   },
