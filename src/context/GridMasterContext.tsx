@@ -6,7 +6,7 @@ interface GridMasterContextData {
   tiles: GridMasterTile[];
   flipped: boolean;
   checkable: boolean;
-  checked: Partial<Record<string, boolean>>;
+  checked: string[];
   hideUnconfirmed: boolean;
   setFlipped: React.Dispatch<React.SetStateAction<boolean>>;
   setCheckable: React.Dispatch<React.SetStateAction<boolean>>;
@@ -18,7 +18,7 @@ const defaultData: GridMasterContextData = {
   tiles: [],
   flipped: false,
   checkable: false,
-  checked: { D4: true },
+  checked: ['D4'],
   hideUnconfirmed: true,
   setFlipped: () => defaultData.flipped,
   setCheckable: () => defaultData.checkable,
@@ -46,7 +46,14 @@ export function GridMasterContextProvider({
 
   const toggleChecked = useCallback(
     (cell: string) =>
-      setChecked(state => ({ ...state, [cell]: !(state[cell] || false) })),
+      setChecked(state => {
+        const index = state.indexOf(cell);
+        if (index !== -1) {
+          return state.toSpliced(index, 1);
+        } else {
+          return [...state, cell];
+        }
+      }),
     [],
   );
 

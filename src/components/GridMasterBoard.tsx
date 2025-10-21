@@ -32,6 +32,7 @@ function GridMasterTaskTile({ tile }: { tile: GridMasterTile }) {
   const { checked, checkable, flipped, hideUnconfirmed, toggleChecked } =
     useGridMasterContext();
   const cell = `${tile.col}${tile.row}`;
+  const checkedIndex = checked.indexOf(cell);
   const unknown =
     (flipped ? !Boolean(tile.reward) : !Boolean(tile.task)) ||
     Boolean(tile.unconfirmed && hideUnconfirmed);
@@ -39,8 +40,8 @@ function GridMasterTaskTile({ tile }: { tile: GridMasterTile }) {
     <TooltipWrapper
       id={cell}
       className={classNames('grid-master__cell', {
-        unchecked: checkable && !Boolean(checked[cell]),
-        checked: checkable && Boolean(checked[cell]),
+        unchecked: checkable && checkedIndex === -1,
+        checked: checkable && checkedIndex !== -1,
       })}
       tooltip={
         flipped && !unknown && tile.rewardDescription ? (
@@ -99,6 +100,7 @@ function GridMasterTaskTile({ tile }: { tile: GridMasterTile }) {
           icon={flipped ? tile.rewardIcon : tile.taskIcon}
           type={flipped ? 'task-reward' : 'task'}
         />
+        {checkable && checkedIndex !== -1 && <sub>{checkedIndex + 1}</sub>}
       </WikiLink>
     </TooltipWrapper>
   );
@@ -111,8 +113,8 @@ function GridMasterRewardTile({ tile }: { tile: GridMasterTile }) {
     !Boolean(tile.reward) || Boolean(tile.unconfirmed && hideUnconfirmed);
   const completed =
     tile.col === 'R'
-      ? cols.every(col => Boolean(checked[`${col}${tile.row}`]))
-      : rows.every(row => Boolean(checked[`${tile.col}${row}`]));
+      ? cols.every(col => checked.includes(`${col}${tile.row}`))
+      : rows.every(row => checked.includes(`${tile.col}${row}`));
   return (
     <TooltipWrapper
       id={cell}

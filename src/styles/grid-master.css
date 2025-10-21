@@ -61,6 +61,16 @@
   user-select: none;
 }
 
+.grid-master__tile > sub {
+  position: absolute;
+  bottom: 0;
+  right: 4px;
+  height: 9px;
+  text-align: right;
+  pointer-events: none;
+  user-select: none;
+}
+
 @media (hover: hover) {
   .grid-master__tile:hover {
     background-image: linear-gradient(to bottom, rgb(from var(--tile-color) r g b / var(--opacity-soft)), rgb(from var(--tile-color) r g b / var(--opacity-muted)));
