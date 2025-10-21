@@ -1,3 +1,4 @@
+import { useLocalStorage } from '@zigurous/forge-react';
 import { graphql, useStaticQuery } from 'gatsby';
 import React, { createContext, useCallback, useContext, useState } from 'react';
 import type { GridMasterTile } from '../types/grid-master';
@@ -38,31 +39,30 @@ export function GridMasterContextProvider({
 }: React.PropsWithChildren) {
   const data = useStaticQuery<GridMasterQueryData>(dataQuery);
   const [flipped, setFlipped] = useState(defaultData.flipped);
-  const [checked, setChecked] = useState(defaultData.checked);
   const [checkable, setCheckable] = useState(defaultData.flipped);
+  const [checked, setChecked] = useLocalStorage(
+    'grid-master',
+    defaultData.checked,
+  );
   const [hideUnconfirmed, setHideUnconfirmed] = useState(
     defaultData.hideUnconfirmed,
   );
 
-  const toggleChecked = useCallback(
-    (cell: string) =>
-      setChecked(state => {
-        const index = state.indexOf(cell);
-        if (index !== -1) {
-          return state.toSpliced(index, 1);
-        } else {
-          return [...state, cell];
-        }
-      }),
-    [],
-  );
+  const toggleChecked = (cell: string) => {
+    const index = checked?.indexOf(cell) ?? -1;
+    if (checked && index !== -1) {
+      setChecked(checked.toSpliced(index, 1));
+    } else {
+      setChecked([...(checked || []), cell]);
+    }
+  };
 
   return (
     <GridMasterContext.Provider
       value={{
         tiles: data.tiles.nodes,
         flipped,
-        checked,
+        checked: checked || defaultData.checked,
         checkable,
         hideUnconfirmed,
         setFlipped,
