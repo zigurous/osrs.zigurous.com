@@ -4084,14 +4084,12 @@
   },
   {
     "id": "Sunlight_spear",
-    "icon": "Sunlight_spear_(Raging_Echoes_League)",
     "slot": "weapon",
     "tags": ["2h", "leagues"],
     "regions": ["varlamore"]
   },
   {
     "id": "Sunlit_bracers",
-    "icon": "Sunlit_bracers_(Raging_Echoes_League)",
     "slot": "hands",
     "tags": ["leagues"],
     "regions": ["varlamore"]
@@ -4113,7 +4111,6 @@
   },
   {
     "id": "Thunder_khopesh",
-    "icon": "Thunder_khopesh_(Raging_Echoes_League)",
     "slot": "weapon",
     "tags": ["1h", "leagues"],
     "regions": ["wilderness"]
