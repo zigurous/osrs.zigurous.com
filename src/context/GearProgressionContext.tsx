@@ -173,7 +173,14 @@ export function GearProgressionContextProvider({
       }
       setTierIndex(0);
     },
-    [categoryId, subcategory],
+    [
+      category,
+      categoryId,
+      subcategory,
+      categories.melee,
+      categories.ranged,
+      categories.magic,
+    ],
   );
 
   return (
