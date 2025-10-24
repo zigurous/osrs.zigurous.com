@@ -1,6 +1,7 @@
 import '../styles/recommended-setup.css';
-import { Button, clamp, nativeKeyboardEventHandler as keyEventHandler, Overlay, ReactPortal, Stack, Text, TooltipWrapper } from '@zigurous/forge-react'; // prettier-ignore
+import { Button, clamp, nativeKeyboardEventHandler as keyEventHandler, Overlay, Stack, Text, TooltipWrapper, useIsomorphicLayoutEffect } from '@zigurous/forge-react'; // prettier-ignore
 import React, { useCallback, useEffect, useState } from 'react';
+import { createPortal } from 'react-dom';
 import EquipmentInventory from './EquipmentInventory';
 import ItemInventory from './ItemInventory';
 import WikiIcon from './WikiIcon';
@@ -53,6 +54,15 @@ export default function RecommendedSetupModal({
       window.removeEventListener('keydown', next);
     };
   }, [setup.loadouts.length, previousLoadout, nextLoadout]);
+
+  const [runePouch, setRunePouch] = useState<Element | null>(null);
+  useIsomorphicLayoutEffect(() => {
+    setRunePouch(
+      document.querySelector(
+        '.modal#recommended-setup .item-frame[id*=Rune_pouch i]',
+      ),
+    );
+  }, [loadoutIndex, currentLoadout?.spell, currentLoadout?.title]);
 
   return (
     <Overlay
@@ -158,15 +168,16 @@ export default function RecommendedSetupModal({
           )}
         </Stack>
       </div>
-      {currentLoadout?.spell && (
-        <ReactPortal rootElement=".modal#recommended-setup .item-frame[id*=Rune_pouch i]">
+      {runePouch &&
+        currentLoadout?.spell &&
+        createPortal(
           <WikiIcon
             className="recommended-setup__spell"
             icon={currentLoadout.spell}
             size={16}
-          />
-        </ReactPortal>
-      )}
+          />,
+          runePouch,
+        )}
     </Overlay>
   );
 }

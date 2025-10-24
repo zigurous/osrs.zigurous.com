@@ -2235,6 +2235,17 @@
     ]
   },
   {
+    "id": "Ice_ancient_sceptre",
+    "slot": "weapon",
+    "tags": ["1h"],
+    "regions": ["fremennik/desert"],
+    "requirements": [
+      { "skill": "magic", "level": 75 },
+      { "skill": "strength", "level": 60 },
+      { "skill": "attack", "level": 50 }
+    ]
+  },
+  {
     "id": "Iban's_staff",
     "slot": "weapon",
     "tags": ["1h"],
@@ -3335,6 +3346,11 @@
     "regions": ["all"]
   },
   {
+    "id": "Ring_of_recoil",
+    "slot": "ring",
+    "regions": ["all"]
+  },
+  {
     "id": "Ring_of_shadows",
     "slot": "ring",
     "regions": ["desert"]
@@ -3522,7 +3538,7 @@
     "regions": ["morytania"]
   },
   {
-    "id": "Salve_amulet_(ei)",
+    "id": "Salve_amulet(ei)",
     "slot": "neck",
     "regions": ["morytania"]
   },
@@ -3650,6 +3666,15 @@
     "regions": ["all"],
     "requirements": [
       { "skill": "prayer", "level": 20 }
+    ]
+  },
+  {
+    "id": "Saradomin_staff",
+    "slot": "weapon",
+    "tags": ["1h"],
+    "regions": ["all"],
+    "requirements": [
+      { "skill": "magic", "level": 60 }
     ]
   },
   {
@@ -4500,6 +4525,34 @@
   {
     "id": "Void_knight_gloves",
     "slot": "hands",
+    "regions": ["asgarnia"],
+    "requirements": [
+      { "skill": "attack", "level": 42 },
+      { "skill": "strength", "level": 42 },
+      { "skill": "defence", "level": 42 },
+      { "skill": "ranged", "level": 42 },
+      { "skill": "magic", "level": 42 },
+      { "skill": "hitpoints", "level": 42 },
+      { "skill": "prayer", "level": 22 }
+    ]
+  },
+  {
+    "id": "Void_knight_robe",
+    "slot": "legs",
+    "regions": ["asgarnia"],
+    "requirements": [
+      { "skill": "attack", "level": 42 },
+      { "skill": "strength", "level": 42 },
+      { "skill": "defence", "level": 42 },
+      { "skill": "ranged", "level": 42 },
+      { "skill": "magic", "level": 42 },
+      { "skill": "hitpoints", "level": 42 },
+      { "skill": "prayer", "level": 22 }
+    ]
+  },
+  {
+    "id": "Void_knight_top",
+    "slot": "body",
     "regions": ["asgarnia"],
     "requirements": [
       { "skill": "attack", "level": 42 },

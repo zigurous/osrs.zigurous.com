@@ -836,6 +836,10 @@
     "icon": "Extended_anti-venom+(4)"
   },
   {
+    "id": "Extended_super_antifire",
+    "icon": "Extended_super_antifire(4)"
+  },
+  {
     "id": "Eye_of_the_corruptor",
     "transmutations": [
       "#plus",

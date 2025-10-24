@@ -110,6 +110,12 @@
         "items": ["Staff_of_air"]
       },
       {
+        "id": "Lowe's_Archery_Emporium",
+        "icon": "Archery_shop_icon",
+        "category": "ranged",
+        "items": ["Shortbow", "Bronze_arrow"]
+      },
+      {
         "id": "Biohazard",
         "icon": "Quest_point_icon",
         "subtitle": "Following optimal quest guide"
@@ -170,6 +176,19 @@
         "icon": "Quest_point_icon",
         "category": "melee",
         "items": ["Climbing_boots"]
+      },
+      {
+        "id": "Horvik's_Armour_Shop.",
+        "icon": "Chainbody_shop_icon",
+        "category": "ranged",
+        "title": "Horvik's Armour Shop ",
+        "items": ["Studded_body", "Studded_chaps"]
+      },
+      {
+        "id": "Elemental_Workshop_II",
+        "icon": "Quest_point_icon",
+        "category": "magic",
+        "items": ["Mind_shield"]
       },
       {
         "id": "Fairytale_I_-_Growing_Pains",
@@ -297,40 +316,19 @@
         "id": "Scurrius",
         "icon": "Scurry",
         "category": "melee",
-        "items": ["Scurrius'_spine", "Rune_full_helm", "Rune_sq_shield"],
-        "subcards": [
-          {
-            "id": "Setup",
-            "icon": "Combat_icon",
-            "setupId": "Scurrius"
-          }
-        ]
+        "items": ["Scurrius'_spine", "Rune_full_helm", "Rune_sq_shield"]
       },
       {
         "id": "Scurrius",
         "icon": "Scurry",
         "category": "ranged",
-        "items": ["Scurrius'_spine", "Rune_arrow", "Rune_sq_shield"],
-        "subcards": [
-          {
-            "id": "Setup",
-            "icon": "Combat_icon",
-            "setupId": "Scurrius"
-          }
-        ]
+        "items": ["Scurrius'_spine", "Rune_arrow", "Rune_sq_shield"]
       },
       {
         "id": "Scurrius",
         "icon": "Scurry",
         "category": "magic",
-        "items": ["Scurrius'_spine"],
-        "subcards": [
-          {
-            "id": "Setup",
-            "icon": "Combat_icon",
-            "setupId": "Scurrius"
-          }
-        ]
+        "items": ["Scurrius'_spine"]
       },
       {
         "id": "Smithing",
@@ -353,6 +351,9 @@
         "title": "35 crafting",
         "items": ["Bone_staff"]
       }
+    ],
+    "notes": [
+      "Scurrius is a good way to train combat stats during the early game. If you feel undergeared, you may need to level a bit more first. Jump in as soon as you can though because it teaches basic PvM mechanics."
     ]
   },
   {
@@ -422,7 +423,7 @@
         "id": "H.A.M._Storerooms",
         "icon": "Minigame_icon",
         "category": "melee",
-        "items": ["Amulet_of_strength"],
+        "items": ["Ruby_amulet"],
         "subcards": [
           {
             "id": "Death_to_the_Dorgeshuun",
@@ -432,12 +433,6 @@
             "id": "Thieving",
             "icon": "Thieving_icon",
             "title": "20 thieving"
-          },
-          {
-            "id": "Magic",
-            "icon": "Magic_icon",
-            "title": "49 magic",
-            "subtitle": "Lvl-3 enchant"
           }
         ]
       },
@@ -445,7 +440,7 @@
         "id": "H.A.M._Storerooms",
         "icon": "Minigame_icon",
         "category": "magic",
-        "items": ["Amulet_of_magic"],
+        "items": ["Sapphire_amulet"],
         "subcards": [
           {
             "id": "Death_to_the_Dorgeshuun",
@@ -455,14 +450,24 @@
             "id": "Thieving",
             "icon": "Thieving_icon",
             "title": "20 thieving"
-          },
-          {
-            "id": "Magic",
-            "icon": "Magic_icon",
-            "title": "7 magic",
-            "subtitle": "Lvl-1 enchant"
           }
         ]
+      },
+      {
+        "id": "Magic",
+        "icon": "Magic_icon",
+        "category": "magic",
+        "title": "7 magic",
+        "subtitle": "Lvl-1 enchant",
+        "items": ["Amulet_of_magic"]
+      },
+      {
+        "id": "Magic",
+        "icon": "Magic_icon",
+        "category": "melee",
+        "title": "49 magic",
+        "subtitle": "Lvl-3 enchant",
+        "items": ["Amulet_of_strength"]
       },
       {
         "id": "Animal_Magnetism",
@@ -493,6 +498,24 @@
     ],
     "timeline": [
       {
+        "id": "Horror_from_the_Deep",
+        "icon": "Quest_point_icon",
+        "category": "melee",
+        "items": ["Damaged_book_(Zamorak)"]
+      },
+      {
+        "id": "Horror_from_the_Deep",
+        "icon": "Quest_point_icon",
+        "category": "ranged",
+        "items": ["Damaged_book_(Armadyl)"]
+      },
+      {
+        "id": "Horror_from_the_Deep",
+        "icon": "Quest_point_icon",
+        "category": "magic",
+        "items": ["Damaged_book_(Ancient)"]
+      },
+      {
         "id": "Recipe_for_Disaster",
         "icon": "Quest_point_icon",
         "subtitle": "4 subquests",
@@ -502,40 +525,19 @@
         "id": "The_Fremennik_Trials",
         "icon": "Quest_point_icon",
         "category": "melee",
-        "items": ["Berserker_helm"],
-        "subcards": [
-          {
-            "id": "Defence",
-            "icon": "Defence_icon",
-            "title": "45 defence"
-          }
-        ]
+        "items": ["Berserker_helm"]
       },
       {
         "id": "The_Fremennik_Trials",
         "icon": "Quest_point_icon",
         "category": "ranged",
-        "items": ["Archer_helm"],
-        "subcards": [
-          {
-            "id": "Defence",
-            "icon": "Defence_icon",
-            "title": "45 defence"
-          }
-        ]
+        "items": ["Archer_helm"]
       },
       {
         "id": "The_Fremennik_Trials",
         "icon": "Quest_point_icon",
         "category": "magic",
-        "items": ["Farseer_helm"],
-        "subcards": [
-          {
-            "id": "Defence",
-            "icon": "Defence_icon",
-            "title": "45 defence"
-          }
-        ]
+        "items": ["Farseer_helm"]
       },
       {
         "id": "The_Fremennik_Isles",
@@ -561,7 +563,7 @@
   },
   {
     "title": "Underground Pass",
-    "categories": ["all"],
+    "categories": ["magic"],
     "questMilestone": "Underground_Pass",
     "items": [
       { "id": "Iban's_staff", "category": "magic" },
@@ -588,7 +590,7 @@
       {
         "id": "Underground_Pass",
         "icon": "Quest_point_icon",
-        "items": ["Iban's_staff"]
+        "items": ["Iban's_staff", "Zamorak_monk_top", "Zamorak_monk_bottom"]
       },
       {
         "id": "Magic",
@@ -603,7 +605,7 @@
   },
   {
     "title": "Monkey Madness",
-    "categories": ["all"],
+    "categories": ["melee"],
     "questMilestone": "Monkey_Madness_I",
     "items": [
       { "id": "Dragon_scimitar", "category": "melee" },
@@ -668,7 +670,7 @@
       }
     ],
     "notes": [
-      "The Fighter Torso is less important now with the addition of Moons armour in the game. Many players dislike Barbarian Assault and if you are one of them then feel free to skip this grind."
+      "Many players opt to skip Barbarian Assault with the addition of Moons armour in the game, but the Fighter Torso can be earned significantly sooner in progression and it only takes a few hours."
     ]
   },
   {
@@ -703,7 +705,7 @@
   },
   {
     "title": "Desert Treasure I",
-    "categories": ["all"],
+    "categories": ["magic"],
     "questMilestone": "Desert_Treasure_I",
     "items": [
       { "id": "Ancient_staff", "category": "magic" },
@@ -723,28 +725,26 @@
     ],
     "timeline": [
       {
-        "id": "Wizards'_Guild",
-        "subtitle": "+3 boost",
-        "items": ["Mystic_robe_top", "Mystic_robe_bottom", "Mystic_boots"],
-        "icon": "Magic_icon"
+        "id": "Magic",
+        "icon": "Magic_icon",
+        "title": "63 magic"
       },
       {
-        "id": "Desert_Treasure_I",
-        "items": ["Ancient_staff", "Ancient_Magicks"],
-        "icon": "Quest_point_icon"
+        "id": "Wizards'_Guild",
+        "icon": "Magic_shop_icon",
+        "subtitle": "+3 boost",
+        "items": ["Mystic_robe_top", "Mystic_robe_bottom", "Mystic_boots"]
       },
       {
         "id": "Mage_Arena_I",
-        "subtitle": "Miniquest",
-        "items": ["Saradomin_cape"],
         "icon": "Quest_point_icon",
-        "subcards": [
-          {
-            "id": "Magic",
-            "icon": "Magic_icon",
-            "title": "60 magic"
-          }
-        ]
+        "subtitle": "Miniquest",
+        "items": ["Saradomin_cape"]
+      },
+      {
+        "id": "Desert_Treasure_I",
+        "icon": "Quest_point_icon",
+        "items": ["Ancient_staff", "Ancient_Magicks"]
       }
     ]
   },
@@ -999,7 +999,7 @@
     ],
     "notes": [
       "Training hunter is very fast with <Link=\"Hunters'_Rumours\">Hunters' Rumours</Link> and provides a lot of useful items for Ironmen. It's worth doing as early in your progression as you can.",
-      "::ranged|NOTE: The rune crossbow is better than the sunlight crossbow when using enchanted bolts which you might not have for a while and are usually saved for bosses."
+      "::ranged|NOTE: The rune crossbow is better than the sunlight crossbow for bossing when using enchanted bolts but you might not have those for a while."
     ]
   },
   {
@@ -1032,21 +1032,7 @@
       {
         "id": "Armoured_zombie",
         "icon": "Broken_zombie_helmet",
-        "items": ["Broken_zombie_axe"],
-        "subcards": [
-          {
-            "id": "Red_chinchompa",
-            "icon": "Ranged_icon",
-            "title": "Chinchompas",
-            "subtitle": "Recommended"
-          },
-          {
-            "id": "Ice_Burst",
-            "icon": "Magic_icon",
-            "title": "Bursting",
-            "subtitle": "Recommended"
-          }
-        ]
+        "items": ["Broken_zombie_axe"]
       },
       {
         "id": "Smithing",
@@ -1055,6 +1041,9 @@
         "subtitle": "Boostable",
         "items": ["Zombie_axe"]
       }
+    ],
+    "notes": [
+      "The Zombie Axe is a very strong melee weapon for the mid-game. Smithing is one of your first big grinds but it's worth it because you'll use this weapon for a while."
     ]
   },
   {
@@ -1110,7 +1099,7 @@
       }
     ],
     "notes": [
-      "The black mask provides a huge damage and accuracy boost while on a slayer task and will eventually be upgraded to a <Link=\"Slayer_helmet\">Slayer Helmet</Link>."
+      "The Black Mask provides a huge damage and accuracy boost while on a slayer task and will eventually be upgraded to a <Link=\"Slayer_helmet\">Slayer Helmet</Link>."
     ]
   },
   {
@@ -1191,7 +1180,7 @@
       "::melee|Dagannoth Rex can be safespotted relatively easily which makes killing him early in progression viable.",
       "::melee|A dagannoth slayer task will make this easier if you have a <Link=\"Black_mask_(i)\">Black Mask (i)</Link> but it is not required. You can also wait until after Barrows for better tank armour.",
       "::ranged|Dagannoth Supreme is hard to kill without aggroing the others. The ring is an extremely marginal upgrade and usually not worth going for until you have good tank armour or another player can hold aggro on the others.",
-      "::magic|Dagannoth Prime can be killed with ranged without aggroing the others but it's harder to setup. The ring is a very marginal upgrade and usually not worth going for until you have stronger equipment.",
+      "::magic|Dagannoth Prime can be killed with ranged without aggroing the others but it's harder to setup. The ring is a very marginal upgrade and may not be worth going for until you have stronger equipment.",
       "::magic|The Mud Battlestaff dropped by Prime is not required by any means but it can be convenient for grinding the <Link=\"Mage_Training_Arena\">Mage Training Arena</Link>."
     ]
   },
@@ -1210,7 +1199,8 @@
       }
     ],
     "notes": [
-      "The <Link=\"Master_wand\">master wand</Link> is an extremely marginal upgrade compared to the Ancient Staff but it takes quite a while to grind. It is usually not worth the effort until you can make a <Link=\"Kodai_wand\">Kodai wand</Link> much further in progression."
+      "The Mage Training Arena is a slow grind but a couple of the items you can use in nearly any magic setup so it's worth getting them.",
+      "Skip the <Link=\"Master_wand\">master wand</Link> for now. It is the longest item to grind for but only a marginal upgrade. Near the end of gear progression you'll need it to make a <Link=\"Kodai_wand\">Kodai wand</Link>."
     ]
   },
   {
@@ -1295,8 +1285,8 @@
     ],
     "notes": [
       "::melee|Getting tank chest and legs is useful for various grinds. At a minimum you want tank legs since that slot is harder to get strength bonus for. Verac's armour is particularly useful for the extra prayer bonus.",
-      "::ranged|The <Link=\"Karil's_crossbow\">Karil's Crossbow</Link> is very similar to the sunlight crossbow but it's 2h which makes it worse overall.",
-      "::ranged|The <Link=\"Karil's_coif\">Karil's Coif</Link> is technically better but usually a Helm of Neitiznot is worn instead for its prayer bonus.",
+      "::ranged|The <Link=\"Karil's_crossbow\">Karil's crossbow</Link> is very similar to the sunlight crossbow but it's 2h which makes it worse overall.",
+      "::ranged|The <Link=\"Karil's_coif\">Karil's coif</Link> is technically better but usually a Helm of Neitiznot is worn instead for simpler gear switches and for its prayer bonus.",
       "::magic|Ahrim's equipment is quite good for the mid-game because it has magic damage bonus which up until this point has been pretty hard to come by."
     ]
   },
@@ -1650,6 +1640,7 @@
         "id": "The_Hueycoatl",
         "icon": "Huberte",
         "category": "melee",
+        "items": ["Dragon_hunter_wand", "Tome_of_earth", "Hueycoatl_hide"],
         "subcards": [
           {
             "id": "Setup",
@@ -1683,6 +1674,14 @@
             "setupId": "The_Hueycoatl"
           }
         ]
+      },
+      {
+        "id": "Crafting",
+        "icon": "Crafting_icon",
+        "category": "melee",
+        "title": "74 crafting",
+        "subtitle": "+4 boost",
+        "items": ["Hueycoatl_hide_coif", "Hueycoatl_hide_body", "Hueycoatl_hide_chaps"]
       },
       {
         "id": "Crafting",
@@ -1977,7 +1976,16 @@
       { "id": "Rune_crossbow", "subcategory": "ranged-heavy" },
       { "id": "Ruby_bolts_(e)", "subcategory": "ranged-heavy" }
     ],
+    "skills": [
+      { "skill": "herblore", "level": 69, "highlight": true }
+    ],
     "timeline": [
+      {
+        "id": "Herblore",
+        "icon": "Herblore_icon",
+        "title": "69 herblore",
+        "items": ["Antifire_potion"]
+      },
       {
         "id": "Dragon_Slayer_II",
         "icon": "Quest_point_icon",
@@ -4257,7 +4265,12 @@
       { "id": "Dragon_claws_(cr)", "subcategory": "melee-spec" },
       { "id": "Tzkal_slayer_helmet", "subcategory": "melee-slayer" },
       { "id": "Tzkal_slayer_helmet", "subcategory": "ranged-slayer" },
-      { "id": "Tzkal_slayer_helmet", "subcategory": "magic-slayer" }
+      { "id": "Virtus_mask", "subcategory": "magic-ancient" },
+      { "id": "Virtus_robe_top", "subcategory": "magic-ancient" },
+      { "id": "Virtus_robe_bottom", "subcategory": "magic-ancient" },
+      { "id": "Tzkal_slayer_helmet", "subcategory": "magic-slayer" },
+      { "id": "Virtus_robe_top", "subcategory": "magic-slayer" },
+      { "id": "Virtus_robe_bottom", "subcategory": "magic-slayer" }
     ],
     "timeline": [
       {
