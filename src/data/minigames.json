@@ -145,7 +145,7 @@
   {
     "id": "Fishing_Trawler",
     "category": "minigame",
-    "sortingGroups": ["fishing"],
+    "sortingGroups": ["fishing", "cooking"],
     "requiredLevel": 15,
     "notableDrops": [
       "Raw_anchovies",
@@ -421,7 +421,7 @@
   {
     "id": "Nightmare_Zone",
     "category": "minigame",
-    "sortingGroups": ["pvm", "attack", "strength", "defence", "ranged", "magic", "hitpoints"],
+    "sortingGroups": ["pvm"],
     "notableDrops": [
       "Imbuing",
       "Scroll_of_redirection",
@@ -433,7 +433,7 @@
     "id": "Pest_Control",
     "caption": "40-100",
     "category": "minigame",
-    "sortingGroups": ["pvm", "attack", "strength", "defence", "ranged", "magic", "hitpoints", "prayer"],
+    "sortingGroups": ["pvm"],
     "requiredLevel": [40, 70, 100],
     "notableDrops": [
       "Void_melee_helm",
@@ -493,7 +493,7 @@
     "id": "Shades_of_Mort'ton_(minigame)",
     "title": "Shades of Mort'ton",
     "category": "minigame",
-    "sortingGroups": ["prayer", "firemaking", "pvm"],
+    "sortingGroups": ["prayer", "firemaking"],
     "notableDrops": [
       "Zealot's_helm",
       "Zealot's_robe_top",

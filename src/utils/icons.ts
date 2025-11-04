@@ -114,16 +114,8 @@ export function getIconForSkill(skill: Skill): string {
   }
 }
 
-export function autoDetectItemIcon(id: string): string | undefined {
-  if (id.endsWith('_potion') || id.endsWith('_brew')) {
-    return `${id}(4)`;
-  }
-  return autoDetectedItemSuffixes.some(str => id.endsWith(str))
-    ? `${id}_5`
-    : undefined;
-}
-
-const autoDetectedItemSuffixes = [
+const suffixes4 = ['_potion', '_brew'];
+const suffixes5 = [
   '_arrow',
   '_arrowheads',
   '_arrows',
@@ -133,7 +125,16 @@ const autoDetectedItemSuffixes = [
   '_bolts(unf)',
   '_bolt_tips',
   '_dart_tips',
+  '_frag',
   '_javelin_heads',
   '_seed',
   '_shaft',
 ];
+
+export function autoDetectItemIcon(id: string): string | undefined {
+  return suffixes4.some(str => id.endsWith(str))
+    ? `${id}(4)`
+    : suffixes5.some(str => id.endsWith(str))
+      ? `${id}_5`
+      : undefined;
+}

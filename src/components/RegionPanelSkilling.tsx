@@ -27,7 +27,6 @@ export default function RegionPanelSkilling({
   const activities = useMemo(() => {
     const ids = [
       ...new Set([
-        ...region.raids,
         ...region.bosses,
         ...region.minigames,
         ...region.guilds,
@@ -70,74 +69,73 @@ export default function RegionPanelSkilling({
 
   return (
     <section className="panel__section">
-      <Stack className="mb-xl">
+      <Stack align="center" justify="between" className="mb-xl">
         <Text as="h2" className="ml-sm" type="title-lg">
           Skilling
         </Text>
         <InfoTooltip>
-          <p className="text-left mb-xxxs">
-            Click a skill below to filter the list
-          </p>
           <p className="text-left">
+            <b className="font-500">• Click</b> a skill to filter the list
+            <br />
             <b className="font-500">• Shift+Click</b> to select a range of
             skills
             <br />
-            <b className="font-500">• Ctrl/Cmd+Click</b> to select individual
-            skills
+            <b className="font-500">• Ctrl/Cmd+Click</b> to select multiple
+            individual skills
           </p>
         </InfoTooltip>
+        <Stack align="center" className="mt-xxs" spacing="sm">
+          <SkillLevelInput
+            id="min-lvl"
+            placeholder="Min Lvl"
+            level={settings.minSkillLevel}
+            setLevel={lvl => settings.set('minSkillLevel', lvl)}
+          />
+          <SkillLevelInput
+            id="max-lvl"
+            placeholder="Max Lvl"
+            level={settings.maxSkillLevel}
+            setLevel={lvl => settings.set('maxSkillLevel', lvl)}
+          />
+        </Stack>
       </Stack>
-      <ActivityFilter disabledFilters={['sailing']} />
-      <Stack align="center" className="my-xl" spacing="sm">
-        <SkillLevelInput
-          id="min-lvl"
-          placeholder="Min Lvl"
-          level={settings.minSkillLevel}
-          setLevel={lvl => settings.set('minSkillLevel', lvl)}
-        />
-        <SkillLevelInput
-          id="max-lvl"
-          placeholder="Max Lvl"
-          level={settings.maxSkillLevel}
-          setLevel={lvl => settings.set('maxSkillLevel', lvl)}
-        />
-      </Stack>
-      {filteredActivities.length > 0 ? (
-        <ul className="drops-list drops-list--accordion mb-lg">
-          {primaryActivities.map(activity => (
+      <ActivityFilter className="mb-xl" filters={filters} />
+      <ul className="drops-list drops-list--accordion mb-lg">
+        {primaryActivities.length > 0 ? (
+          primaryActivities.map(activity => (
             <li id={activity.id} key={activity.id}>
               <ActivityCard activity={activity} />
             </li>
-          ))}
-          {adjacentActivities.length > 0 && (
-            <>
-              {primaryActivities.length > 0 && (
-                <div className="flex justify-center align-center">
-                  <hr className="full mr-md" />
-                  <Text type="eyebrow" color="disabled">
-                    Adjacent
-                  </Text>
-                  <hr className="full ml-md" />
-                </div>
-              )}
-              {adjacentActivities.map(activity => (
-                <li id={activity.id} key={activity.id}>
-                  <ActivityCard activity={activity} />
-                </li>
-              ))}
-            </>
-          )}
-        </ul>
-      ) : (
-        <Text align="center" color="disabled">
-          No activities found for the selected skill(s).
-        </Text>
-      )}
+          ))
+        ) : (
+          <Text align="center" className="py-lg" color="disabled">
+            No activities found for the selected skill(s).
+          </Text>
+        )}
+        {adjacentActivities.length > 0 && (
+          <>
+            <div className="flex justify-center align-center mb-md">
+              <hr className="full mr-md" />
+              <Text type="eyebrow" color="disabled">
+                Adjacent
+              </Text>
+              <hr className="full ml-md" />
+            </div>
+            {adjacentActivities.map(activity => (
+              <li id={activity.id} key={activity.id}>
+                <ActivityCard activity={activity} />
+              </li>
+            ))}
+          </>
+        )}
+      </ul>
     </section>
   );
 }
 
 const excludedCategories = ['raid', 'chest', 'spellbook', null, undefined];
+const excludedSkills = ['attack', 'strength', 'defence', 'ranged', 'hitpoints'];
+const filters = [...skills].filter(skill => !excludedSkills.includes(skill));
 
 function remapActivityById(
   getActivityById: (id: string) => Activity | undefined,
@@ -195,7 +193,7 @@ function filterByActivity(activity: Activity) {
   }
 
   return activity.sortingGroups.some(
-    group => group === 'skilling' || skills.includes(group as Skill),
+    group => group === 'skilling' || filters.includes(group as Skill),
   );
 }
 

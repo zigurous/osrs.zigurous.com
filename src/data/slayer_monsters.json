@@ -37,9 +37,9 @@
       "Duradel"
     ],
     "locations": [
-      "Slayer_Tower",
-      "Catacombs_of_Kourend",
       "Abyssal_Area",
+      "Catacombs_of_Kourend",
+      "Slayer_Tower",
       "Wilderness_Slayer_Cave"
     ],
     "notableDrops": [
@@ -185,10 +185,10 @@
       "Duradel"
     ],
     "locations": [
-      "The_Forgotten_Cemetery",
-      "Wilderness_Slayer_Cave",
+      "Catacombs_of_Kourend",
       "Stronghold_Slayer_Cave",
-      "Catacombs_of_Kourend"
+      "The_Forgotten_Cemetery",
+      "Wilderness_Slayer_Cave"
     ]
   },
   {
@@ -207,6 +207,22 @@
     ],
     "notableDrops": [
       "Left_skull_half"
+    ]
+  },
+  {
+    "id": "Aquanite",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
+    "requiredSlayerLevel": 78,
+    "slayerMasters": [
+      "Nieve",
+      "Duradel"
+    ],
+    "locations": [
+      "Ynysdail"
+    ],
+    "notableDrops": [
+      "Aquanite_hopper"
     ]
   },
   {
@@ -405,24 +421,24 @@
       "Mazchna"
     ],
     "locations": [
-      "Mos_Le'Harmless_Cave",
       "Abandoned_Mine",
-      "Silvarea",
-      "Haunted_Woods",
-      "Taverley_Dungeon",
-      "Dark_Altar",
-      "Coal_Trucks",
-      "Mount_Karuulm",
-      "Wilderness",
-      "Slayer_Tower",
-      "Underground_Pass_(dungeon)",
-      "Slepe",
-      "Goblin_Cave",
-      "Yanille_Agility_Dungeon",
-      "Legends'_Guild#Dungeon",
-      "Heroes'_Guild#Basement",
+      "Brine_Rat_Cavern",
       "Chaos_Druid_Tower",
-      "Brine_Rat_Cavern"
+      "Coal_Trucks",
+      "Dark_Altar",
+      "Goblin_Cave",
+      "Haunted_Woods",
+      "Heroes'_Guild#Basement",
+      "Legends'_Guild#Dungeon",
+      "Mos_Le'Harmless_Cave",
+      "Mount_Karuulm",
+      "Silvarea",
+      "Slayer_Tower",
+      "Slepe",
+      "Taverley_Dungeon",
+      "Underground_Pass_(dungeon)",
+      "Wilderness",
+      "Yanille_Agility_Dungeon"
     ]
   },
   {
@@ -438,13 +454,13 @@
       "Mazchna"
     ],
     "locations": [
-      "Wilderness",
-      "Rellekka",
       "Ardougne",
-      "Kebos_Lowlands",
       "Isafdar",
+      "Kebos_Lowlands",
       "Mind_Altar",
-      "Varrock"
+      "Rellekka",
+      "Varrock",
+      "Wilderness"
     ]
   },
   {
@@ -457,12 +473,12 @@
       "Spria"
     ],
     "locations": [
-      "River_Lum",
-      "Lumbridge",
-      "South_Falador_Farm",
-      "Port_Sarim",
       "Corsair_Cove",
-      "Port_Piscarilius"
+      "Lumbridge",
+      "Port_Piscarilius",
+      "Port_Sarim",
+      "River_Lum",
+      "South_Falador_Farm"
     ],
     "hideFromMenu": true
   },
@@ -481,11 +497,12 @@
       "Duradel"
     ],
     "locations": [
-      "Taverley_Dungeon",
-      "Edgeville_Dungeon#Wilderness_area_(members_only)",
       "Brimhaven_Dungeon",
       "Catacombs_of_Kourend",
+      "Charred_Island_Dungeon",
       "Chasm_of_Fire",
+      "Edgeville_Dungeon#Wilderness_area_(members_only)",
+      "Taverley_Dungeon",
       "Wilderness_Slayer_Cave"
     ],
     "notableDrops": [
@@ -495,7 +512,7 @@
   {
     "id": "Black_dragon",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm", "crafting"],
+    "sortingGroups": ["slayer", "pvm", "prayer", "crafting"],
     "requiredCombatLevel": 80,
     "requiredSlayerLevel": 1,
     "slayerMasters": [
@@ -505,10 +522,11 @@
       "Duradel"
     ],
     "locations": [
-      "Taverley_Dungeon",
-      "Lava_Maze_Dungeon",
+      "Charred_Island_Dungeon",
       "Evil_Chicken's_Lair",
+      "Lava_Maze_Dungeon",
       "Myths'_Guild#Basement",
+      "Taverley_Dungeon",
       "Wilderness_Slayer_Cave"
     ],
     "notableDrops": [
@@ -527,8 +545,8 @@
       "Krystilia"
     ],
     "locations": [
-      "Wilderness",
-      "Lava_Maze"
+      "Lava_Maze",
+      "Wilderness"
     ]
   },
   {
@@ -546,11 +564,11 @@
       "Duradel"
     ],
     "locations": [
+      "God_Wars_Dungeon",
+      "Meiyerditch_Laboratories",
       "Slayer_Tower",
       "Stronghold_Slayer_Cave",
-      "God_Wars_Dungeon",
-      "Wilderness_God_Wars_Dungeon",
-      "Meiyerditch_Laboratories"
+      "Wilderness_God_Wars_Dungeon"
     ],
     "notableDrops": [
       "Blood_rune",
@@ -561,7 +579,7 @@
     "id": "Blue_dragon",
     "icon": "Blue_dragon_mask",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm", "crafting", "herblore"],
+    "sortingGroups": ["slayer", "pvm", "prayer", "crafting", "herblore"],
     "requiredCombatLevel": 65,
     "requiredSlayerLevel": 1,
     "slayerMasters": [
@@ -572,12 +590,12 @@
       "Duradel"
     ],
     "locations": [
-      "Taverley_Dungeon",
-      "Ruins_of_Tapoyauik",
-      "Ogre_Enclave",
-      "Myths'_Guild#Basement",
+      "Heroes'_Guild#Basement",
       "Isle_of_Souls_Dungeon",
-      "Heroes'_Guild#Basement"
+      "Myths'_Guild#Basement",
+      "Ogre_Enclave",
+      "Ruins_of_Tapoyauik",
+      "Taverley_Dungeon"
     ],
     "notableDrops": [
       "Scaly_blue_dragonhide",
@@ -744,8 +762,8 @@
       "Mazchna"
     ],
     "locations": [
-      "Lumbridge_Swamp_Caves",
-      "Dorgesh-Kaan_South_Dungeon"
+      "Dorgesh-Kaan_South_Dungeon",
+      "Lumbridge_Swamp_Caves"
     ],
     "notableDrops": [
       "Unicorn_horn_dust",
@@ -768,9 +786,9 @@
       "Mazchna"
     ],
     "locations": [
+      "Dorgesh-Kaan_South_Dungeon",
       "Fremennik_Slayer_Dungeon",
       "Lumbridge_Swamp_Caves",
-      "Dorgesh-Kaan_South_Dungeon",
       "Ruins_of_Tapoyauik"
     ],
     "notableDrops": [
@@ -832,8 +850,8 @@
       "Mazchna"
     ],
     "locations": [
-      "Lumbridge_Swamp_Caves",
-      "Dorgesh-Kaan_South_Dungeon"
+      "Dorgesh-Kaan_South_Dungeon",
+      "Lumbridge_Swamp_Caves"
     ]
   },
   {
@@ -927,15 +945,15 @@
       "Spria"
     ],
     "locations": [
-      "Lumbridge",
       "Ardougne",
       "Crafting_Guild",
       "Gwenith",
-      "South_Falador_Farm",
       "Hosidius",
-      "Zanaris",
       "Isle_of_Souls",
-      "Kebos_Lowlands"
+      "Kebos_Lowlands",
+      "Lumbridge",
+      "South_Falador_Farm",
+      "Zanaris"
     ],
     "hideFromMenu": true
   },
@@ -1032,9 +1050,9 @@
       "Duradel"
     ],
     "locations": [
-      "Lighthouse#Dungeon",
       "Catacombs_of_Kourend",
-      "Jormungand's_Prison"
+      "Jormungand's_Prison",
+      "Lighthouse#Dungeon"
     ],
     "notableDrops": [
       "Seeds",
@@ -1082,8 +1100,8 @@
       "Duradel"
     ],
     "locations": [
-      "Mourner_Tunnels",
-      "Iorwerth_Dungeon"
+      "Iorwerth_Dungeon",
+      "Mourner_Tunnels"
     ],
     "notableDrops": [
       "Dark_bow"
@@ -1179,11 +1197,11 @@
       "Mazchna"
     ],
     "locations": [
-      "Wolf_Den",
-      "Mynydd",
       "Arandar",
       "Isafdar",
-      "Lletya"
+      "Lletya",
+      "Mynydd",
+      "Wolf_Den"
     ]
   },
   {
@@ -1222,8 +1240,9 @@
       "Duradel"
     ],
     "locations": [
-      "Smoke_Dungeon",
       "Catacombs_of_Kourend",
+      "Charred_Island_Dungeon",
+      "Smoke_Dungeon",
       "Wilderness_Slayer_Cave"
     ],
     "notableDrops": [
@@ -1243,14 +1262,14 @@
       "Spria"
     ],
     "locations": [
+      "Coal_Trucks",
       "Dwarven_Mine",
-      "Lovakengj",
+      "Falador",
       "Ice_Mountain",
       "Keldagrim",
+      "Lovakengj",
       "Taverley_Dungeon",
-      "Yanille",
-      "Coal_Trucks",
-      "Falador"
+      "Yanille"
     ]
   },
   {
@@ -1317,10 +1336,10 @@
       "Duradel"
     ],
     "locations": [
-      "Lletya",
-      "Prifddinas",
       "Iorwerth_Camp",
-      "Iorwerth_Dungeon"
+      "Iorwerth_Dungeon",
+      "Lletya",
+      "Prifddinas"
     ],
     "notableDrops": [
       "Crystal_teleport_seed",
@@ -1357,7 +1376,8 @@
     "id": "Fire_giant",
     "icon": "Fire_of_Unseasonal_Warmth_icon",
     "category": "monster",
-    "sortingGroups": ["pvm", "slayer"],
+    "sortingGroups": ["slayer", "pvm"],
+    "requiredSlayerLevel": 1,
     "requiredCombatLevel": 65,
     "slayerMasters": [
       "Krystilia",
@@ -1368,15 +1388,16 @@
       "Duradel"
     ],
     "locations": [
-      "Karuulm_Slayer_Dungeon",
-      "Stronghold_Slayer_Cave",
-      "Catacombs_of_Kourend",
-      "Waterfall_Dungeon",
       "Brimhaven_Dungeon",
+      "Catacombs_of_Kourend",
+      "Charred_Island_Dungeon",
+      "Deep_Wilderness_Dungeon",
       "Giants'_Den",
       "Isle_of_Souls_Dungeon",
+      "Karuulm_Slayer_Dungeon",
       "Smoke_Dungeon",
-      "Deep_Wilderness_Dungeon"
+      "Stronghold_Slayer_Cave",
+      "Waterfall_Dungeon"
     ],
     "notableDrops": [
       "Ensouled_giant_head",
@@ -1428,6 +1449,24 @@
       "Calcite",
       "Pyrophosphite",
       "Volcanic_ash"
+    ]
+  },
+  {
+    "id": "Frost_dragon",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm", "prayer"],
+    "requiredSlayerLevel": 1,
+    "slayerMasters": [
+      "Nieve",
+      "Duradel"
+    ],
+    "locations": [
+      "Grimstone"
+    ],
+    "notableDrops": [
+      "Dragon_sheet",
+      "Frost_dragon_bones",
+      "Ensouled_dragon_head"
     ]
   },
   {
@@ -1485,16 +1524,16 @@
       "Mazchna"
     ],
     "locations": [
-      "Stronghold_of_Security",
       "Catacombs_of_Kourend",
-      "Death_Altar",
-      "Taverley_Dungeon",
       "Crumbling_Tower",
-      "Grave_of_Scorpius",
-      "Ectofuntus",
-      "The_Forgotten_Cemetery",
+      "Death_Altar",
       "Draynor_Manor",
+      "Ectofuntus",
+      "Grave_of_Scorpius",
       "Mynydd",
+      "Stronghold_of_Security",
+      "Taverley_Dungeon",
+      "The_Forgotten_Cemetery",
       "Varrock_Sewers",
       "West_Ardougne"
     ]
@@ -1523,19 +1562,19 @@
       "Spria"
     ],
     "locations": [
-      "Lumbridge_Swamp",
-      "Clock_Tower_dungeon",
-      "Stronghold_of_Security",
-      "Grand_Tree_mine",
       "Ardougne_Sewers",
-      "Varrock_Sewers",
+      "Clock_Tower_dungeon",
       "Edgeville_Dungeon",
-      "Ruins_(west)",
-      "Land's_End",
       "Goblin_Cave",
+      "Grand_Tree_mine",
+      "Land's_End",
+      "Lumbridge_Swamp",
       "Mistrock",
+      "Ruins_(west)",
       "Slepe",
-      "The_Hollows"
+      "Stronghold_of_Security",
+      "The_Hollows",
+      "Varrock_Sewers"
     ]
   },
   {
@@ -1562,17 +1601,17 @@
       "Spria"
     ],
     "locations": [
-      "Lumbridge",
-      "Stronghold_of_Security",
-      "Observatory_Dungeon",
+      "Clock_Tower_Dungeon",
+      "Dorgeshuun_Mines",
+      "Gnome_maze",
       "Goblin_Cave",
       "Goblin_Village",
       "God_Wars_Dungeon",
-      "Clock_Tower_Dungeon",
-      "Dorgeshuun_Mines",
+      "Lumbridge_Swamp_Caves",
+      "Lumbridge",
+      "Observatory_Dungeon",
       "Port_Sarim",
-      "Gnome_maze",
-      "Lumbridge_Swamp_Caves"
+      "Stronghold_of_Security"
     ]
   },
   {
@@ -1590,16 +1629,16 @@
       "Duradel"
     ],
     "locations": [
-      "Chasm_of_Fire",
-      "Wilderness_Slayer_Cave",
-      "Catacombs_of_Kourend",
-      "Karuulm_Slayer_Dungeon",
       "Brimhaven_Dungeon",
+      "Catacombs_of_Kourend",
+      "Chasm_of_Fire",
       "Isle_of_Souls_Dungeon",
+      "Karuulm_Slayer_Dungeon",
+      "Lava_Maze_Dungeon",
       "Ogre_Enclave",
-      "Wilderness",
       "Sisterhood_Sanctuary",
-      "Lava_Maze_Dungeon"
+      "Wilderness_Slayer_Cave",
+      "Wilderness"
     ],
     "notableDrops": [
       "Ensouled_demon_head"
@@ -1620,8 +1659,8 @@
       "Duradel"
     ],
     "locations": [
-      "Iorwerth_Dungeon",
       "Catacombs_of_Kourend",
+      "Iorwerth_Dungeon",
       "Wilderness_Slayer_Cave"
     ],
     "notableDrops": [
@@ -1633,7 +1672,7 @@
     "id": "Green_dragon",
     "icon": "Green_dragon_mask",
     "category": "monster",
-    "sortingGroups": ["pvm", "slayer", "crafting"],
+    "sortingGroups": ["pvm", "slayer", "prayer", "crafting"],
     "requiredCombatLevel": 52,
     "slayerMasters": [
       "Krystilia"
@@ -1697,6 +1736,25 @@
     ]
   },
   {
+    "id": "Gryphon",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
+    "requiredSlayerLevel": 51,
+    "slayerMasters": [
+      "Vannaka",
+      "Chaeldar",
+      "Nieve",
+      "Duradel"
+    ],
+    "locations": [
+      "The_Great_Conch"
+    ],
+    "notableDrops": [
+      "Horn_of_plenty",
+      "Gryphon_feather"
+    ]
+  },
+  {
     "id": "Harpie_Bug_Swarm",
     "category": "monster",
     "sortingGroups": ["slayer", "pvm"],
@@ -1725,13 +1783,14 @@
       "Duradel"
     ],
     "locations": [
+      "Catacombs_of_Kourend",
+      "Charred_Island_Dungeon",
+      "Karuulm_Slayer_Dungeon",
+      "Resource_Area",
       "Stronghold_Slayer_Cave",
       "Taverley_Dungeon",
-      "Karuulm_Slayer_Dungeon",
-      "Catacombs_of_Kourend",
       "Wilderness_Slayer_Cave",
-      "Witchaven_Dungeon",
-      "Resource_Area"
+      "Witchaven_Dungeon"
     ],
     "notableDrops": [
       "Smouldering_stone",
@@ -1751,17 +1810,17 @@
       "Vannaka"
     ],
     "locations": [
-      "Giant_Pit",
+      "Avium_Savannah",
+      "Boneyard_Hunter_area",
       "Catacombs_of_Kourend",
+      "Deep_Wilderness_Dungeon",
       "Edgeville_Dungeon",
+      "Giant_Pit",
       "Giants'_Den",
       "Giants'_Plateau",
-      "Deep_Wilderness_Dungeon",
-      "Avium_Savannah",
-      "Taverley_Dungeon",
-      "Lava_Maze",
       "Gnome_maze",
-      "Boneyard_Hunter_area"
+      "Lava_Maze",
+      "Taverley_Dungeon"
     ],
     "notableDrops": [
       "Giant_key",
@@ -1781,13 +1840,13 @@
       "Vannaka"
     ],
     "locations": [
-      "Bandit_Camp_mine",
-      "Hosidius_vinery",
-      "God_Wars_Dungeon",
-      "Crafting_Guild",
-      "Outpost",
       "Asgarnian_Ice_Dungeon",
-      "Edgeville_Dungeon"
+      "Bandit_Camp_mine",
+      "Crafting_Guild",
+      "Edgeville_Dungeon",
+      "God_Wars_Dungeon",
+      "Hosidius_vinery",
+      "Outpost"
     ]
   },
   {
@@ -1822,10 +1881,10 @@
       "Spria"
     ],
     "locations": [
-      "Ruins_of_Tapoyauik",
       "Ice_Mountain",
+      "Mons_Gratia",
       "Ralos'_Rise",
-      "Mons_Gratia"
+      "Ruins_of_Tapoyauik"
     ]
   },
   {
@@ -1841,9 +1900,9 @@
     "locations": [
       "Asgarnian_Ice_Dungeon",
       "Frozen_Waste_Plateau",
-      "Wilderness_Slayer_Cave",
       "Ruins_of_Tapoyauik",
-      "White_Wolf_Mountain"
+      "White_Wolf_Mountain",
+      "Wilderness_Slayer_Cave"
     ],
     "notableDrops": [
       "Ensouled_giant_head",
@@ -1862,9 +1921,9 @@
       "Vannaka"
     ],
     "locations": [
-      "Ice_Queen's_Lair",
       "Asgarnian_Ice_Dungeon",
       "Frozen_Waste_Plateau",
+      "Ice_Queen's_Lair",
       "Ruins_of_Tapoyauik",
       "White_Wolf_Mountain"
     ]
@@ -1877,19 +1936,19 @@
     "slayerMasters": [],
     "locations": [
       "Ardougne_Monastery",
-      "Hosidius",
-      "Varrock",
-      "Karamja_Volcano",
-      "Yanille",
-      "God_Wars_Dungeon",
-      "Stonecutter_Outpost",
       "Chasm_of_Fire",
-      "Kingstown",
       "Civitas_illa_Fortis",
-      "Isle_of_Souls",
       "Edgeville",
+      "God_Wars_Dungeon",
+      "Hosidius",
+      "Isle_of_Souls",
+      "Karamja_Volcano",
+      "Kingstown",
       "South_Falador_Farm",
-      "Wilderness_God_Wars_Dungeon"
+      "Stonecutter_Outpost",
+      "Varrock",
+      "Wilderness_God_Wars_Dungeon",
+      "Yanille"
     ],
     "hideFromMenu": true
   },
@@ -1947,8 +2006,8 @@
     ],
     "locations": [
       "Brimhaven_Dungeon",
-      "Isle_of_Souls_Dungeon",
-      "Catacombs_of_Kourend"
+      "Catacombs_of_Kourend",
+      "Isle_of_Souls_Dungeon"
     ],
     "notableDrops": [
       "Draconic_visage",
@@ -2026,10 +2085,10 @@
       "Spria"
     ],
     "locations": [
+      "Brimhaven",
       "Karamja",
-      "Tai_Bwo_Wannai",
       "Kharazi_Jungle",
-      "Brimhaven"
+      "Tai_Bwo_Wannai"
     ]
   },
   {
@@ -2160,6 +2219,25 @@
     ]
   },
   {
+    "id": "Lava_strykewyrm",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
+    "requiredSlayerLevel": 62,
+    "slayerMasters": [
+      "Chaeldar",
+      "Konar_quo_Maten",
+      "Nieve",
+      "Duradel"
+    ],
+    "locations": [
+      "Charred_Island_Dungeon"
+    ],
+    "notableDrops": [
+      "Dragon_sheet",
+      "Strykewyrm_bones"
+    ]
+  },
+  {
     "id": "Larran's_big_chest",
     "icon": "Larran's_key_1",
     "category": "chest",
@@ -2192,19 +2270,20 @@
       "Chaeldar"
     ],
     "locations": [
-      "Crandor_and_Karamja_Dungeon",
-      "Sisterhood_Sanctuary",
-      "Chasm_of_Fire",
       "Catacombs_of_Kourend",
-      "Wilderness_Slayer_Cave",
-      "Taverley_Dungeon",
-      "King_Black_Dragon_Lair",
+      "Charred_Island_Dungeon",
+      "Chasm_of_Fire",
+      "Crandor_and_Karamja_Dungeon",
+      "Crandor",
+      "Demonic_Ruins",
       "Isle_of_Souls_Dungeon",
+      "King_Black_Dragon_Lair",
+      "Lava_Maze",
+      "Sisterhood_Sanctuary",
+      "Taverley_Dungeon",
       "Temple_of_Ikov_(dungeon)",
       "Viyeldi_caves",
-      "Lava_Maze",
-      "Demonic_Ruins",
-      "Crandor"
+      "Wilderness_Slayer_Cave"
     ],
     "notableDrops": [
       "Ensouled_demon_head"
@@ -2221,8 +2300,8 @@
       "Konar_quo_Maten"
     ],
     "locations": [
-      "Ruins_of_Tapoyauik",
-      "Neypotzli"
+      "Neypotzli",
+      "Ruins_of_Tapoyauik"
     ]
   },
   {
@@ -2381,16 +2460,16 @@
       "Spria"
     ],
     "locations": [
-      "Karamja",
-      "Temple_of_Marimbo_Dungeon",
-      "Crash_Site_Cavern",
       "Ape_Atoll_Dungeon",
+      "Brimhaven",
+      "Crash_Site_Cavern",
+      "Karamja",
       "Marim",
       "Mos_Le'Harmless",
       "Shilo_Village_(location)",
-      "Temple_of_Marimbo",
       "Tai_Bwo_Wannai",
-      "Brimhaven"
+      "Temple_of_Marimbo_Dungeon",
+      "Temple_of_Marimbo"
     ],
     "hideFromMenu": true
   },
@@ -2427,17 +2506,17 @@
     "locations": [
       "Brimhaven_Dungeon",
       "Catacombs_of_Kourend",
+      "Crandor",
       "Giants'_Den",
-      "Pirate's_Cove",
-      "Varrock_Sewers",
       "Iorwerth_Dungeon",
       "Isle_of_Souls",
-      "Varlamore",
-      "Wilderness",
-      "Moss_Giant_Island",
-      "Kourend_Woodland",
       "Kandarin",
-      "Crandor"
+      "Kourend_Woodland",
+      "Moss_Giant_Island",
+      "Pirate's_Cove",
+      "Varlamore",
+      "Varrock_Sewers",
+      "Wilderness"
     ],
     "notableDrops": [
       "Mossy_key",
@@ -2483,6 +2562,7 @@
       "Duradel"
     ],
     "locations": [
+      "Charred_Island_Dungeon",
       "Slayer_Tower"
     ],
     "notableDrops": [
@@ -2499,12 +2579,12 @@
       "Vannaka"
     ],
     "locations": [
+      "Chaos_Druid_Tower",
+      "Combat_Training_Camp",
       "Feldip_Hills",
       "Gu'Tanoth",
-      "Yanille",
-      "Combat_Training_Camp",
-      "Chaos_Druid_Tower",
-      "Witchaven_Dungeon"
+      "Witchaven_Dungeon",
+      "Yanille"
     ]
   },
   {
@@ -2563,8 +2643,8 @@
       "Krystilia"
     ],
     "locations": [
-      "Pirates'_Hideout",
-      "Chaos_Temple_(Wilderness)"
+      "Chaos_Temple_(Wilderness)",
+      "Pirates'_Hideout"
     ]
   },
   {
@@ -2578,11 +2658,11 @@
       "Vannaka"
     ],
     "locations": [
-      "Smoke_Dungeon",
-      "Sisterhood_Sanctuary",
       "Fremennik_Slayer_Dungeon",
-      "Isle_of_Souls",
       "God_Wars_Dungeon",
+      "Isle_of_Souls",
+      "Sisterhood_Sanctuary",
+      "Smoke_Dungeon",
       "Wilderness_God_Wars_Dungeon"
     ],
     "notableDrops": [
@@ -2593,7 +2673,7 @@
   {
     "id": "Red_dragon",
     "category": "monster",
-    "sortingGroups": ["slayer", "pvm", "crafting"],
+    "sortingGroups": ["slayer", "pvm", "prayer", "crafting"],
     "requiredCombatLevel": 68,
     "requiredSlayerLevel": 1,
     "slayerMasters": [
@@ -2603,6 +2683,7 @@
     ],
     "locations": [
       "Brimhaven_Dungeon",
+      "Charred_Island_Dungeon",
       "Forthos_Dungeon",
       "Myths'_Guild#Basement"
     ],
@@ -2650,9 +2731,9 @@
       "Mazchna"
     ],
     "locations": [
+      "Dorgesh-Kaan_South_Dungeon",
       "Fremennik_Slayer_Dungeon",
-      "Lumbridge_Swamp_Caves",
-      "Dorgesh-Kaan_South_Dungeon"
+      "Lumbridge_Swamp_Caves"
     ],
     "notableDrops": [
       "Mystic_gloves_(light)"
@@ -2719,17 +2800,17 @@
       "Mazchna"
     ],
     "locations": [
-      "Kruk's_Dungeon",
+      "Al_Kharid_mine",
       "Ape_Atoll",
       "Dwarven_Mine",
-      "Stonecutter_Outpost",
-      "Wilderness",
-      "Al_Kharid_mine",
-      "Stronghold_of_Security",
       "Karamja_Volcano",
-      "Scorpion_Pit",
+      "Kruk's_Dungeon",
       "Ruins_of_Unkah",
-      "Temple_of_Ikov_(dungeon)"
+      "Scorpion_Pit",
+      "Stonecutter_Outpost",
+      "Stronghold_of_Security",
+      "Temple_of_Ikov_(dungeon)",
+      "Wilderness"
     ]
   },
   {
@@ -2756,9 +2837,9 @@
       "Vannaka"
     ],
     "locations": [
+      "Catacombs_of_Kourend",
       "Mort'ton",
       "Shade_Catacombs",
-      "Catacombs_of_Kourend",
       "Stronghold_of_Security"
     ]
   },
@@ -2812,33 +2893,33 @@
       "Mazchna"
     ],
     "locations": [
-      "Wilderness",
-      "Shayzien_Crypts",
-      "Stronghold_of_Security",
-      "Tarn's_Lair",
-      "Crandor_and_Karamja_Dungeon",
-      "Edgeville_Dungeon",
       "Ape_Atoll_Dungeon",
-      "Wilderness_Agility_Course",
-      "Temple_of_Ikov_(dungeon)",
       "Bone_Yard",
-      "Digsite_Dungeon",
-      "Underground_Pass_(dungeon)",
-      "Crandor",
-      "Varrock_Sewers",
-      "Edgeville_Dungeon#Wilderness_area_(members_only)",
-      "Taverley_Dungeon",
-      "Forthos_Ruin",
+      "Brine_Rat_Cavern",
       "Catacombs_of_Kourend",
+      "Crandor_and_Karamja_Dungeon",
+      "Crandor",
       "Dark_Altar",
-      "Yanille_Dungeon",
-      "Glarial's_Tomb",
-      "Shayziens'_Wall",
+      "Digsite_Dungeon",
       "Draynor_Sewers",
+      "Edgeville_Dungeon",
+      "Edgeville_Dungeon#Wilderness_area_(members_only)",
+      "Forthos_Ruin",
+      "Glarial's_Tomb",
       "Isle_of_Souls_Dungeon",
       "Ogre_Enclave",
+      "Shayzien_Crypts",
+      "Shayziens'_Wall",
+      "Stronghold_of_Security",
+      "Tarn's_Lair",
+      "Taverley_Dungeon",
+      "Temple_of_Ikov_(dungeon)",
+      "Underground_Pass_(dungeon)",
+      "Varrock_Sewers",
       "Waterfall_Dungeon",
-      "Brine_Rat_Cavern"
+      "Wilderness_Agility_Course",
+      "Wilderness",
+      "Yanille_Dungeon"
     ]
   },
   {
@@ -2883,19 +2964,19 @@
       "Krystilia"
     ],
     "locations": [
-      "Wilderness",
-      "Demonic_Ruins",
-      "Escape_Caves",
       "Deep_Wilderness_Dungeon",
+      "Demonic_Ruins",
+      "Edgeville_Dungeon#Wilderness_area_(members_only)",
+      "Escape_Caves",
+      "Frozen_Waste_Plateau",
+      "King_Black_Dragon_Lair",
+      "Lava_Dragon_Isle",
+      "Lava_Maze_Dungeon",
+      "Lava_Maze",
       "Ruins_(east)",
       "Ruins_(west)",
-      "Lava_Maze",
-      "Lava_Maze_Dungeon",
-      "Lava_Dragon_Isle",
-      "King_Black_Dragon_Lair",
-      "Frozen_Waste_Plateau",
-      "Edgeville_Dungeon#Wilderness_area_(members_only)",
-      "Web_Chasm"
+      "Web_Chasm",
+      "Wilderness"
     ]
   },
   {
@@ -3070,6 +3151,7 @@
       "Kourend",
       "Misthalin",
       "Morytania",
+      "Sailing",
       "Tirannwn",
       "Varlamore",
       "Wilderness"
@@ -3191,9 +3273,9 @@
     ],
     "locations": [
       "Death_Plateau_(location)",
-      "Troll_Stronghold_(location)",
       "Keldagrim",
-      "Mount_Quidamortem"
+      "Mount_Quidamortem",
+      "Troll_Stronghold_(location)"
     ],
     "notableDrops": [
       "Granite_shield",
@@ -3309,11 +3391,11 @@
       "Duradel"
     ],
     "locations": [
-      "Haunted_Woods",
-      "Slepe",
-      "Darkmeyer",
       "Burgh_de_Rott",
-      "Meiyerditch"
+      "Darkmeyer",
+      "Haunted_Woods",
+      "Meiyerditch",
+      "Slepe"
     ]
   },
   {
@@ -3407,8 +3489,8 @@
     ],
     "locations": [
       "Ancient_Cavern",
-      "Kraken_Cove",
-      "Iorwerth_Dungeon"
+      "Iorwerth_Dungeon",
+      "Kraken_Cove"
     ],
     "notableDrops": [
       "Mist_battlestaff",
@@ -3455,15 +3537,15 @@
       "Mazchna"
     ],
     "locations": [
-      "Stronghold_of_Security",
       "Feldip_Hills",
-      "White_Wolf_Mountain",
-      "Rellekka",
-      "West_Ardougne",
-      "Outpost",
       "Forthos_Ruin",
+      "Gnome_maze",
+      "Outpost",
+      "Rellekka",
       "Sinclair_Mansion",
-      "Gnome_maze"
+      "Stronghold_of_Security",
+      "West_Ardougne",
+      "White_Wolf_Mountain"
     ]
   },
   {
@@ -3517,20 +3599,20 @@
       "Mazchna"
     ],
     "locations": [
-      "Stronghold_of_Security",
-      "Shayzien_Crypts",
-      "Tarn's_Lair",
       "Chaos_Temple_(Wilderness)",
+      "Draynor_Sewers",
+      "Edgeville_Dungeon",
+      "Glarial's_Tomb",
       "Graveyard_of_Shadows" ,
       "Ruins_(east)",
+      "Shayzien_Crypts",
+      "Stronghold_of_Security",
+      "Tarn's_Lair",
+      "Tree_Gnome_Village_Dungeon",
       "Underground_Pass_(dungeon)",
-      "Edgeville_Dungeon",
-      "Wizards'_Guild#Basement",
-      "Draynor_Sewers",
-      "West_Ardougne",
-      "Glarial's_Tomb",
       "Varrock_Sewers",
-      "Tree_Gnome_Village_Dungeon"
+      "West_Ardougne",
+      "Wizards'_Guild#Basement"
     ]
   },
   {

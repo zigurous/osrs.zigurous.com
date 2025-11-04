@@ -252,6 +252,10 @@
     ]
   },
   {
+    "id": "Belle's_Folly",
+    "icon": "Gleaming_rapier"
+  },
+  {
     "id": "Bird_nest",
     "icon": "Bird_nest_(empty)"
   },
@@ -286,7 +290,7 @@
   },
   {
     "id": "Blast_Furnace",
-    "icon": "Minigame_map_icon"
+    "icon": "Minigame_icon"
   },
   {
     "id": "Blessed_bone_statuette",
@@ -428,6 +432,10 @@
     ]
   },
   {
+    "id": "Bullseye_lantern",
+    "icon": "Bullseye_lantern_(lit)"
+  },
+  {
     "id": "Burning_claw",
     "transmutations": [
       "#transmute",
@@ -437,6 +445,10 @@
   {
     "id": "Butler",
     "icon": "Butler_chathead"
+  },
+  {
+    "id": "Camphor_tree",
+    "icon": "Camphor_logs"
   },
   {
     "id": "Carnivorous_chinchompa",
@@ -897,13 +909,6 @@
     ]
   },
   {
-    "id": "Flax",
-    "transmutations": [
-      "#transmute",
-      "Bow_string"
-    ]
-  },
-  {
     "id": "Fossil_Island_fossil",
     "icon": "Unidentified_large_fossil"
   },
@@ -988,6 +993,10 @@
     "id": "Grimy_herb",
     "icon": "Grimy_guam_leaf",
     "name": "Grimy Herbs"
+  },
+  {
+    "id": "Gryphon",
+    "icon": "Gryphon_feather"
   },
   {
     "id": "Guthix_rest",
@@ -1172,6 +1181,10 @@
   {
     "id": "Infernal_plate",
     "icon": "Infernal_plate_7"
+  },
+  {
+    "id": "Ironwood_tree",
+    "icon": "Ironwood_logs"
   },
   {
     "id": "Jar_of_chemicals",
@@ -1736,6 +1749,10 @@
     "icon": "Rock-shell_plate"
   },
   {
+    "id": "Rosewood_tree",
+    "icon": "Rosewood_logs"
+  },
+  {
     "id": "Ruby_harvest",
     "icon": "Ruby_harvest_icon"
   },
@@ -1753,6 +1770,10 @@
   {
     "id": "Sabre-toothed_kyatt",
     "icon": "Sabre-toothed_kyatt_icon"
+  },
+  {
+    "id": "Sailing",
+    "icon": "Sailing_icon"
   },
   {
     "id": "Salve_shard",
@@ -1990,6 +2011,10 @@
   {
     "id": "Sunfire_splinters",
     "icon": "Sunfire_splinters_4"
+  },
+  {
+    "id": "Sunken_locket",
+    "icon": "Sunken_locket_(small)"
   },
   {
     "id": "Sunlight_antelope",

@@ -28,6 +28,8 @@ export default function AreaBadge({
   selected,
   ...rest
 }: AreaBadgeProps) {
+  const image = Badges[region.id].image;
+  if (!image) return null;
   return (
     <div
       {...rest}
@@ -43,18 +45,13 @@ export default function AreaBadge({
           {region.name}
         </span>
       )}
-      <img
-        alt=""
-        aria-hidden
-        className="area-badge__image"
-        src={Badges[region.id].image}
-      />
+      <img alt="" aria-hidden className="area-badge__image" src={image} />
     </div>
   );
 }
 
 interface BadgeRecord {
-  image: string;
+  image: string | null;
   backgroundColor: string;
 }
 
@@ -70,4 +67,5 @@ export const Badges: Record<RegionId, BadgeRecord> = Object.freeze({
   tirannwn: { image: badgeTirannwn, backgroundColor: '#178c51' },
   varlamore: { image: badgeVarlamore, backgroundColor: '#f9e30c' },
   wilderness: { image: badgeWilderness, backgroundColor: '#4a4a4a' },
+  sailing: { image: null, backgroundColor: 'transparent' },
 });

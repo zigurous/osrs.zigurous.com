@@ -610,6 +610,19 @@
     ]
   },
   {
+    "id": "Shellbane_Gryphon",
+    "icon": "Gryphon_feather",
+    "category": "boss",
+    "subcategory": "slayer",
+    "requiredLevel": 51,
+    "sortingGroups": ["slayer", "pvm"],
+    "recommendedCombatStyle": ["magic", "melee"],
+    "notableDrops": [
+      "Gryphon_pet",
+      "Belle's_Folly"
+    ]
+  },
+  {
     "id": "Skotizo",
     "icon": "Skotizo_icon_(mobile)",
     "category": "boss",

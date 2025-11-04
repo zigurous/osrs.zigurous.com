@@ -35,7 +35,7 @@ export default function BestInSlotEquipmentCard({
           if (!item) return false;
 
           // Discard items not available in the region
-          const available = !item.regions || isInRegion(region, item.regions);
+          const available = item.regions && isInRegion(region, item.regions);
           if (!available) return false;
 
           // Discard items based on toggles

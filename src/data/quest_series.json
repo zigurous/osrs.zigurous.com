@@ -537,6 +537,18 @@
     ]
   },
   {
+    "id": "Tortugan",
+    "quests": [
+      "Pandemonium",
+      "Troubled_Tortugans",
+      "The_Red_Reef"
+    ],
+    "unlocks": [
+      "Sailing",
+      "Gryphon"
+    ]
+  },
+  {
     "id": "Troll",
     "quests": [
       "Death_Plateau",

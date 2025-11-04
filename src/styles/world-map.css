@@ -27,7 +27,8 @@
   -ms-interpolation-mode: nearest-neighbor;
 }
 
-.world-map__image path {
+.world-map__image path,
+.world-map__image rect {
   cursor: pointer;
   pointer-events: all;
 }

@@ -81,7 +81,7 @@ export default function TitledCard({
           <Text size="lg" type="title">
             {title}
             {subtitle && (
-              <Text as="span" className="ml-sm" color="disabled" size="md">
+              <Text as="span" className="ml-sm" color="disabled" size="sm">
                 {subtitle}
               </Text>
             )}

@@ -102,6 +102,15 @@
     ]
   },
   {
+    "id": "Adamant_dart",
+    "slot": "weapon",
+    "tags": ["1h"],
+    "regions": ["asgarnia", "fremennik", "kandarin", "karamja", "kourend", "misthalin", "sailing", "varlamore", "wilderness"],
+    "requirements": [
+      { "skill": "ranged", "level": 60 }
+    ]
+  },
+  {
     "id": "Adamant_full_helm",
     "slot": "head",
     "requirements": [
@@ -206,7 +215,6 @@
     "id": "Air_battlestaff",
     "slot": "weapon",
     "tags": ["1h"],
-    "regions": ["all"],
     "requirements": [
       { "skill": "magic", "level": 30 },
       { "skill": "attack", "level": 30 }
@@ -250,8 +258,7 @@
   },
   {
     "id": "Amulet_of_power",
-    "slot": "neck",
-    "regions": ["all"]
+    "slot": "neck"
   },
   {
     "id": "Amulet_of_rancour",
@@ -272,8 +279,7 @@
   },
   {
     "id": "Amulet_of_strength",
-    "slot": "neck",
-    "regions": ["all"]
+    "slot": "neck"
   },
   {
     "id": "Amulet_of_the_damned",
@@ -381,6 +387,11 @@
     "requirements": [
       { "skill": "prayer", "level": 50 }
     ]
+  },
+  {
+    "id": "Aquanite_hopper",
+    "slot": "shield",
+    "regions": ["sailing"]
   },
   {
     "id": "Aranea_boots",
@@ -507,6 +518,7 @@
     "id": "Arkan_blade",
     "slot": "weapon",
     "tags": ["1h"],
+    "regions": ["varlamore"],
     "requirements": [
       { "skill": "attack", "level": 60 }
     ]
@@ -670,6 +682,16 @@
     "regions_single": ["asgarnia"]
   },
   {
+    "id": "Belle's_Folly",
+    "icon": "Gleaming_rapier",
+    "slot": "weapon",
+    "tags": ["1h"],
+    "regions": ["sailing"],
+    "requirements": [
+      { "skill": "attack", "level": 65 }
+    ]
+  },
+  {
     "id": "Berserker_helm",
     "slot": "head",
     "regions": ["fremennik"],
@@ -709,7 +731,7 @@
   {
     "id": "Black_d'hide_body",
     "slot": "body",
-    "regions": ["asgarnia", "desert", "fremennik", "kandarin", "kourend", "misthalin"],
+    "regions": ["asgarnia", "desert", "fremennik", "kandarin", "kourend", "sailing", "misthalin"],
     "requirements": [
       { "skill": "ranged", "level": 70 },
       { "skill": "defence", "level": 40 }
@@ -718,7 +740,7 @@
   {
     "id": "Black_d'hide_chaps",
     "slot": "legs",
-    "regions": ["asgarnia", "desert", "fremennik", "kandarin", "kourend", "misthalin"],
+    "regions": ["asgarnia", "desert", "fremennik", "kandarin", "kourend", "sailing", "misthalin"],
     "requirements": [
       { "skill": "ranged", "level": 70 },
       { "skill": "defence", "level": 40 }
@@ -736,7 +758,7 @@
   {
     "id": "Black_d'hide_vambraces",
     "slot": "hands",
-    "regions": ["asgarnia", "desert", "fremennik", "kandarin", "kourend", "misthalin", "wilderness"],
+    "regions": ["asgarnia", "desert", "fremennik", "kandarin", "kourend", "misthalin", "sailing", "wilderness"],
     "requirements": [
       { "skill": "ranged", "level": 70 },
       { "skill": "defence", "level": 40 }
@@ -1050,6 +1072,18 @@
     ]
   },
   {
+    "id": "Camphor_blowpipe",
+    "slot": "weapon",
+    "tags": ["2h"],
+    "regions": ["sailing"],
+    "ammo": {
+      "id": "Mithril_dart"
+    },
+    "requirements": [
+      { "skill": "ranged", "level": 45 }
+    ]
+  },
+  {
     "id": "Cape_of_legends",
     "slot": "cape"
   },
@@ -1076,8 +1110,7 @@
   },
   {
     "id": "Coif",
-    "slot": "head",
-    "regions": ["all"]
+    "slot": "head"
   },
   {
     "id": "Combat_bracelet",
@@ -1113,7 +1146,6 @@
     "id": "Crossbow",
     "slot": "weapon",
     "tags": ["1h"],
-    "regions": ["all"],
     "ammo": {
       "id": "Bronze_bolts",
       "icon": "Bronze_bolts_5"
@@ -1353,7 +1385,7 @@
   {
     "id": "Dragon_chainbody",
     "slot": "body",
-    "regions": ["desert", "kandarin", "kourend", "wilderness"],
+    "regions": ["desert", "kandarin", "kourend", "sailing", "wilderness"],
     "requirements": [
       { "skill": "defence", "level": 60 }
     ]
@@ -1389,7 +1421,7 @@
     "id": "Dragon_dagger",
     "slot": "weapon",
     "tags": ["1h"],
-    "regions": ["all"],
+    "regions": ["asgarnia", "desert", "kandarin", "kourend", "misthalin", "morytania", "sailing", "tirannwn", "varlamore", "wilderness"],
     "requirements": [
       { "skill": "attack", "level": 60 }
     ]
@@ -1469,7 +1501,7 @@
     "id": "Dragon_longsword",
     "slot": "weapon",
     "tags": ["1h"],
-    "regions": ["misthalin"],
+    "regions": ["misthalin", "misthalin/fremennik", "misthalin/kandarin", "misthalin/kourend", "misthalin/morytania", "misthalin/varlamore", "misthalin/wilderness"],
     "requirements": [
       { "skill": "attack", "level": 60 }
     ]
@@ -1478,7 +1510,7 @@
     "id": "Dragon_mace",
     "slot": "weapon",
     "tags": ["1h"],
-    "regions": ["asgarnia"],
+    "regions": ["asgarnia", "asgarnia/kandarin", "asgarnia/kourend", "asgarnia/morytania"],
     "requirements": [
       { "skill": "attack", "level": 60 }
     ]
@@ -1504,6 +1536,15 @@
     "slot": "weapon",
     "tags": ["1h"],
     "regions": ["kandarin"],
+    "requirements": [
+      { "skill": "attack", "level": 60 }
+    ]
+  },
+  {
+    "id": "Dragon_spear",
+    "slot": "weapon",
+    "tags": ["2h"],
+    "regions": ["all"],
     "requirements": [
       { "skill": "attack", "level": 60 }
     ]
@@ -1554,7 +1595,7 @@
   {
     "id": "Dragonfire_shield",
     "slot": "shield",
-    "regions": ["misthalin", "misthalin/asgarnia", "misthalin/fremennik", "misthalin/kandarin", "misthalin/karamja", "misthalin/kourend", "misthalin/tirannwn", "misthalin/varlamore", "misthalin/wilderness"],
+    "regions": ["misthalin", "misthalin/asgarnia", "misthalin/fremennik", "misthalin/kandarin", "misthalin/karamja", "misthalin/kourend", "misthalin/sailing", "misthalin/tirannwn", "misthalin/varlamore", "misthalin/wilderness"],
     "requirements": [
       { "skill": "defence", "level": 75 }
     ]
@@ -2446,6 +2487,18 @@
     "regions": ["misthalin"]
   },
   {
+    "id": "Ironwood_blowpipe",
+    "slot": "weapon",
+    "tags": ["2h"],
+    "regions": ["sailing"],
+    "ammo": {
+      "id": "Adamant_dart"
+    },
+    "requirements": [
+      { "skill": "ranged", "level": 55 }
+    ]
+  },
+  {
     "id": "Karil's_coif",
     "slot": "head",
     "regions": ["morytania"],
@@ -2562,33 +2615,28 @@
   },
   {
     "id": "Leather_body",
-    "slot": "body",
-    "regions": ["all"]
+    "slot": "body"
   },
   {
     "id": "Leather_boots",
     "slot": "feet",
-    "regions": ["all"]
+    "regions": ["asgarnia", "desert", "fremennik", "kandarin", "karamja", "kourend", "misthalin", "morytania", "sailing", "tirannwn", "varlamore"]
   },
   {
     "id": "Leather_chaps",
-    "slot": "legs",
-    "regions": ["all"]
+    "slot": "legs"
   },
   {
     "id": "Leather_cowl",
-    "slot": "head",
-    "regions": ["all"]
+    "slot": "head"
   },
   {
     "id": "Leather_gloves",
-    "slot": "hands",
-    "regions": ["all"]
+    "slot": "hands"
   },
   {
     "id": "Leather_vambraces",
-    "slot": "hands",
-    "regions": ["all"]
+    "slot": "hands"
   },
   {
     "id": "Lightbearer",
@@ -2643,7 +2691,7 @@
     "id": "Magic_shortbow",
     "slot": "weapon",
     "tags": ["2h"],
-    "regions": ["all"],
+    "regions": ["asgarnia", "desert", "fremennik", "kandarin", "kourend", "misthalin", "morytania", "tirannwn", "varlamore", "wilderness"],
     "ammo": {
       "id": "Rune_arrow",
       "icon": "Rune_arrow_5"
@@ -3385,6 +3433,11 @@
     "regions": ["wilderness"]
   },
   {
+    "id": "Ring_of_wealth",
+    "slot": "ring",
+    "regions": ["all"]
+  },
+  {
     "id": "Robin_hood_hat",
     "slot": "head",
     "tags": ["clues"],
@@ -3410,6 +3463,18 @@
     ]
   },
   {
+    "id": "Rosewood_blowpipe",
+    "slot": "weapon",
+    "tags": ["2h"],
+    "regions": ["sailing"],
+    "ammo": {
+      "id": "Adamant_dart"
+    },
+    "requirements": [
+      { "skill": "ranged", "level": 65 }
+    ]
+  },
+  {
     "id": "Ruby_bolts_(e)",
     "icon": "Ruby_bolts_(e)_5",
     "slot": "ammo"
@@ -3420,14 +3485,30 @@
     "slot": "ammo"
   },
   {
+    "id": "Rune_2h_sword",
+    "slot": "weapon",
+    "tags": ["2h"],
+    "requirements": [
+      { "skill": "attack", "level": 40 }
+    ]
+  },
+  {
     "id": "Rune_arrow",
     "icon": "Rune_arrow_5",
     "slot": "ammo"
   },
   {
+    "id": "Rune_battleaxe",
+    "slot": "weapon",
+    "tags": ["1h"],
+    "requirements": [
+      { "skill": "attack", "level": 40 }
+    ]
+  },
+  {
     "id": "Rune_boots",
     "slot": "feet",
-    "regions": ["kourend", "morytania", "tirannwn", "wilderness"],
+    "regions": ["kourend", "morytania", "sailing", "tirannwn", "wilderness"],
     "requirements": [
       { "skill": "defence", "level": 40 }
     ]
@@ -3444,7 +3525,6 @@
     "id": "Rune_crossbow",
     "slot": "weapon",
     "tags": ["1h"],
-    "regions": ["all"],
     "requirements": [
       { "skill": "ranged", "level": 61 }
     ]
@@ -3473,8 +3553,9 @@
     "id": "Rune_longsword",
     "slot": "weapon",
     "tags": ["1h"],
+    "regions": ["all"],
     "requirements": [
-      { "skill": "attack", "level": 30 }
+      { "skill": "attack", "level": 40 }
     ]
   },
   {
@@ -3804,7 +3885,6 @@
     "id": "Shortbow",
     "slot": "weapon",
     "tags": ["2h"],
-    "regions": ["all"],
     "ammo": {
       "id": "Bronze_arrow",
       "icon": "Bronze_arrow_5"
@@ -3956,26 +4036,22 @@
   {
     "id": "Staff_of_air",
     "slot": "weapon",
-    "tags": ["1h"],
-    "regions": ["all"]
+    "tags": ["1h"]
   },
   {
     "id": "Staff_of_earth",
     "slot": "weapon",
-    "tags": ["1h"],
-    "regions": ["all"]
+    "tags": ["1h"]
   },
   {
     "id": "Staff_of_fire",
     "slot": "weapon",
-    "tags": ["1h"],
-    "regions": ["all"]
+    "tags": ["1h"]
   },
   {
     "id": "Staff_of_water",
     "slot": "weapon",
-    "tags": ["1h"],
-    "regions": ["all"]
+    "tags": ["1h"]
   },
   {
     "id": "Staff_of_the_dead",
@@ -4000,7 +4076,6 @@
     "id": "Steel_knife",
     "slot": "weapon",
     "tags": ["1h"],
-    "regions": ["all"],
     "requirements": [
       { "skill": "ranged", "level": 5 }
     ]
@@ -4701,7 +4776,6 @@
     "id": "Willow_shortbow",
     "slot": "weapon",
     "tags": ["2h"],
-    "regions": ["all"],
     "ammo": {
       "id": "Steel_arrow",
       "icon": "Steel_arrow_5"
@@ -4750,7 +4824,6 @@
     "id": "Yew_shortbow",
     "slot": "weapon",
     "tags": ["2h"],
-    "regions": ["all"],
     "ammo": {
       "id": "Rune_arrow",
       "icon": "Rune_arrow_5"

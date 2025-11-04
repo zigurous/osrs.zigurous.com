@@ -13,7 +13,7 @@
     ]
   },
   {
-    "id": "Adamantite_bars",
+    "id": "Adamantite_bar",
     "title": "Adamantite",
     "caption": "70-88",
     "category": "skilling",
@@ -31,10 +31,26 @@
     ]
   },
   {
-    "id": "Adamantite_rocks",
-    "title": "Adamantite Ore",
+    "id": "Adamantite_bar#Sailing",
+    "title": "Adamantite",
+    "caption": "74/75",
     "category": "skilling",
-    "sortingGroups": ["mining"],
+    "sortingGroups": ["smithing"],
+    "requiredLevel": [74, 75],
+    "notableDrops": [
+      "Adamantite_ore",
+      "#transmute",
+      "Adamantite_bar",
+      "#transmute",
+      "Adamant_cannonball",
+      "Adamant_keel_part"
+    ]
+  },
+  {
+    "id": "Adamantite_rocks",
+    "title": "Adamantite",
+    "category": "skilling",
+    "sortingGroups": ["mining", "smithing"],
     "requiredLevel": 70,
     "notableDrops": [
       "Adamantite_ore"
@@ -180,7 +196,7 @@
     "id": "Amethyst_rocks",
     "title": "Amethyst",
     "category": "skilling",
-    "sortingGroups": ["mining"],
+    "sortingGroups": ["mining", "crafting", "fletching"],
     "requiredLevel": 92,
     "notableDrops": [
       "Amethyst"
@@ -238,20 +254,6 @@
     ]
   },
   {
-    "id": "Ammonite_Crab",
-    "category": "skilling",
-    "sortingGroups": ["pvm", "attack", "strength", "defence", "ranged", "magic", "hitpoints"],
-    "notableDrops": [
-      "Pyrophosphite",
-      "Calcite",
-      "Numulite",
-      "Unidentified_small_fossil",
-      "Unidentified_medium_fossil",
-      "Unidentified_large_fossil",
-      "Unidentified_rare_fossil"
-    ]
-  },
-  {
     "id": "Ancient_brew",
     "category": "skilling",
     "sortingGroups": ["herblore"],
@@ -270,7 +272,7 @@
     "id": "Ancient_essence_crystals",
     "title": "Ancient Essence",
     "category": "skilling",
-    "sortingGroups": ["mining"],
+    "sortingGroups": ["mining", "herblore"],
     "requiredLevel": 75,
     "notableDrops": [
       "Ancient_essence"
@@ -309,6 +311,34 @@
       "Kronos_plant",
       "Iasor_plant",
       "Attas_plant"
+    ]
+  },
+  {
+    "id": "Anti-bleed_tonic",
+    "category": "skilling",
+    "sortingGroups": ["herblore"],
+    "requiredLevel": 56,
+    "notableDrops": [
+      "Vial_of_water",
+      "#plus",
+      "Elkhorn_coral",
+      "Squid_paste",
+      "#equals",
+      "Anti-bleed_tonic"
+    ]
+  },
+  {
+    "id": "Anti-odour_salt",
+    "category": "skilling",
+    "sortingGroups": ["herblore"],
+    "requiredLevel": 49,
+    "notableDrops": [
+      "Vial_of_water",
+      "#plus",
+      "Elkhorn_coral",
+      "Crab_paste",
+      "#equals",
+      "Anti-odour_salt"
     ]
   },
   {
@@ -676,6 +706,7 @@
   },
   {
     "id": "Arctic_pine_logs",
+    "title": "Arctic Pine",
     "category": "skilling",
     "sortingGroups": ["firemaking"],
     "requiredLevel": 42,
@@ -687,8 +718,9 @@
   },
   {
     "id": "Arctic_pine_tree",
+    "title": "Arctic Pine",
     "category": "skilling",
-    "sortingGroups": ["woodcutting"],
+    "sortingGroups": ["woodcutting", "firemaking"],
     "requiredLevel": 54,
     "notableDrops": [
       "Arctic_pine_logs",
@@ -703,6 +735,20 @@
     "requiredLevel": 90,
     "notableDrops": [
       "Mark_of_grace"
+    ]
+  },
+  {
+    "id": "Armadyl_brew",
+    "category": "skilling",
+    "sortingGroups": ["herblore"],
+    "requiredLevel": 89,
+    "notableDrops": [
+      "Vial_of_water",
+      "#plus",
+      "Umbral_coral",
+      "Rainbow_crab_paste",
+      "#equals",
+      "Armadyl_brew"
     ]
   },
   {
@@ -798,7 +844,7 @@
     "id": "Bakery_stall",
     "title": "Baker's Stall",
     "category": "skilling",
-    "sortingGroups": ["thieving", "cooking"],
+    "sortingGroups": ["thieving"],
     "requiredLevel": 5,
     "notableDrops": [
       "Cake",
@@ -923,6 +969,13 @@
     ]
   },
   {
+    "id": "Barracuda_Trials",
+    "caption": "30+",
+    "category": "skilling",
+    "sortingGroups": ["sailing"],
+    "requiredLevel": [30]
+  },
+  {
     "id": "Barronite_rocks",
     "title": "Barronite",
     "category": "skilling",
@@ -991,7 +1044,7 @@
   {
     "id": "Belladonna_patch",
     "category": "skilling",
-    "sortingGroups": ["farming"],
+    "sortingGroups": ["farming", "herblore"],
     "requiredLevel": 63,
     "notableDrops": [
       "Nightshade"
@@ -1012,7 +1065,7 @@
     "title": "Mackerel | Cod",
     "caption": "16-23",
     "category": "skilling",
-    "sortingGroups": ["fishing"],
+    "sortingGroups": ["fishing", "cooking"],
     "requiredLevel": [16, 23],
     "notableDrops": [
       "Big_fishing_net",
@@ -1100,6 +1153,7 @@
   },
   {
     "id": "Blisterwood_logs",
+    "title": "Blisterwood",
     "category": "skilling",
     "sortingGroups": ["firemaking"],
     "requiredLevel": 62,
@@ -1111,8 +1165,9 @@
   },
   {
     "id": "Blisterwood_tree",
+    "title": "Blisterwood",
     "category": "skilling",
-    "sortingGroups": ["woodcutting"],
+    "sortingGroups": ["woodcutting", "firemaking"],
     "requiredLevel": 62,
     "notableDrops": [
       "Blisterwood_logs"
@@ -1140,6 +1195,31 @@
     ]
   },
   {
+    "id": "Blue_crab",
+    "category": "skilling",
+    "sortingGroups": ["hunter", "cooking", "herblore"],
+    "requiredLevel": 48,
+    "notableDrops": [
+      "Blue_crab"
+    ]
+  },
+  {
+    "id": "Blue_crab_meat",
+    "title": "Blue Crab",
+    "category": "skilling",
+    "sortingGroups": ["cooking"],
+    "requiredLevel": 48,
+    "notableDrops": [
+      "Knife",
+      "#plus",
+      "Blue_crab",
+      "#transmute",
+      "Raw_blue_crab_meat",
+      "#transmute",
+      "Blue_crab_meat"
+    ]
+  },
+  {
     "id": "Blue_dragonhide_armour",
     "title": "Blue Dragonhide",
     "caption": "66-71",
@@ -1156,7 +1236,18 @@
     ]
   },
   {
-    "id": "Blurite_bars",
+    "id": "Bluefin_tuna",
+    "category": "skilling",
+    "sortingGroups": ["cooking"],
+    "requiredLevel": 87,
+    "notableDrops": [
+      "Raw_bluefin_tuna",
+      "#transmute",
+      "Bluefin_tuna"
+    ]
+  },
+  {
+    "id": "Blurite_bar",
     "title": "Blurite",
     "category": "skilling",
     "sortingGroups": ["smithing"],
@@ -1172,9 +1263,9 @@
   },
   {
     "id": "Blurite_rocks",
-    "title": "Blurite Ore",
+    "title": "Blurite",
     "category": "skilling",
-    "sortingGroups": ["mining"],
+    "sortingGroups": ["mining", "smithing"],
     "requiredLevel": 10,
     "notableDrops": [
       "Blurite_ore"
@@ -1287,6 +1378,13 @@
     ]
   },
   {
+    "id": "Bounty_tasks",
+    "caption": "1-55",
+    "category": "skilling",
+    "sortingGroups": ["sailing"],
+    "requiredLevel": [1, 15, 21, 22, 27, 30, 32, 37, 41, 42, 43, 44, 47, 48, 51, 52, 53, 55]
+  },
+  {
     "id": "Bread",
     "category": "skilling",
     "sortingGroups": ["cooking"],
@@ -1341,7 +1439,7 @@
     ]
   },
   {
-    "id": "Bronze_bars",
+    "id": "Bronze_bar",
     "title": "Bronze",
     "caption": "1-18",
     "category": "skilling",
@@ -1356,6 +1454,23 @@
       "Bronze_full_helm",
       "Bronze_platebody",
       "Bronze_platelegs"
+    ]
+  },
+  {
+    "id": "Bronze_bar#Sailing",
+    "title": "Bronze",
+    "caption": "5/10",
+    "category": "skilling",
+    "sortingGroups": ["smithing"],
+    "requiredLevel": [5, 10],
+    "notableDrops": [
+      "Tin_ore",
+      "Copper_ore",
+      "#transmute",
+      "Bronze_bar",
+      "#transmute",
+      "Bronze_cannonball",
+      "Bronze_keel_part"
     ]
   },
   {
@@ -1439,7 +1554,7 @@
     "id": "Cactus_patch",
     "caption": "55/64",
     "category": "skilling",
-    "sortingGroups": ["farming"],
+    "sortingGroups": ["farming", "herblore"],
     "requiredLevel": [55, 64],
     "notableDrops": [
       "Cactus_spine",
@@ -1449,7 +1564,7 @@
   {
     "id": "Calcified_rocks",
     "category": "skilling",
-    "sortingGroups": ["mining"],
+    "sortingGroups": ["mining", "prayer"],
     "requiredLevel": 41,
     "notableDrops": [
       "Blessed_bone_shards",
@@ -1470,12 +1585,90 @@
     ]
   },
   {
+    "id": "Camphor_hull_part",
+    "title": "Camphor",
+    "category": "skilling",
+    "sortingGroups": ["construction", "sailing"],
+    "requiredLevel": 53,
+    "notableDrops": [
+      "Camphor_logs",
+      "#transmute",
+      "Camphor_plank",
+      "#transmute",
+      "Camphor_hull_part"
+    ]
+  },
+  {
+    "id": "Camphor_logs",
+    "title": "Camphor",
+    "category": "skilling",
+    "sortingGroups": ["firemaking"],
+    "requiredLevel": 66,
+    "notableDrops": [
+      "Tinderbox",
+      "#plus",
+      "Camphor_logs"
+    ]
+  },
+  {
+    "id": "Camphor_seed",
+    "title": "Camphor Tree",
+    "category": "skilling",
+    "sortingGroups": ["farming", "woodcutting"],
+    "requiredLevel": 66,
+    "notableDrops": [
+      "Camphor_seed",
+      "#transmute",
+      "Camphor_tree"
+    ]
+  },
+  {
+    "id": "Camphor_tree",
+    "title": "Camphor",
+    "category": "skilling",
+    "sortingGroups": ["woodcutting", "construction", "fletching", "firemaking"],
+    "requiredLevel": 66,
+    "notableDrops": [
+      "Camphor_logs"
+    ]
+  },
+  {
+    "id": "Camphor#Fletching",
+    "title": "Camphor",
+    "category": "skilling",
+    "sortingGroups": ["fletching"],
+    "requiredLevel": 58,
+    "notableDrops": [
+      "Knife",
+      "#plus",
+      "Camphor_logs",
+      "Squid_beak",
+      "#equals",
+      "Camphor_blowpipe"
+    ]
+  },
+  {
     "id": "Canifis_Rooftop_Course",
     "category": "skilling",
     "sortingGroups": ["agility"],
     "requiredLevel": 40,
     "notableDrops": [
       "Mark_of_grace"
+    ]
+  },
+  {
+    "id": "Cannonball_stall",
+    "category": "skilling",
+    "sortingGroups": ["thieving", "sailing"],
+    "requiredLevel": 87,
+    "notableDrops": [
+      "Bronze_cannonball",
+      "Iron_cannonball",
+      "Steel_cannonball",
+      "Mithril_cannonball",
+      "Adamant_cannonball",
+      "Rune_cannonball",
+      "Dragon_cannonball"
     ]
   },
   {
@@ -1612,17 +1805,6 @@
     ]
   },
   {
-    "id": "Chinchompa",
-    "title": "Chinning",
-    "category": "skilling",
-    "sortingGroups": ["ranged"],
-    "notableDrops": [
-      "Chinchompa",
-      "Red_chinchompa",
-      "Black_chinchompa"
-    ]
-  },
-  {
     "id": "Chinchompa_(Hunter)",
     "title": "Chinchompas",
     "category": "skilling",
@@ -1678,7 +1860,7 @@
     "id": "Coal_rocks",
     "title": "Coal",
     "category": "skilling",
-    "sortingGroups": ["mining"],
+    "sortingGroups": ["mining", "smithing"],
     "requiredLevel": 30,
     "notableDrops": [
       "Coal"
@@ -1942,9 +2124,9 @@
   },
   {
     "id": "Copper_rocks",
-    "title": "Copper Ore",
+    "title": "Copper",
     "category": "skilling",
-    "sortingGroups": ["mining"],
+    "sortingGroups": ["mining", "smithing"],
     "requiredLevel": 1,
     "notableDrops": [
       "Copper_ore"
@@ -1960,6 +2142,38 @@
       "Cosmic_rune",
       "Cosmic_tiara"
     ]
+  },
+  {
+    "id": "Cotton_seed",
+    "title": "Cotton",
+    "category": "skilling",
+    "sortingGroups": ["farming", "crafting"],
+    "requiredLevel": 71,
+    "notableDrops": [
+      "Cotton_seed",
+      "#transmute",
+      "Cotton_boll"
+    ]
+  },
+  {
+    "id": "Cotton#Sailing",
+    "title": "Cotton",
+    "category": "skilling",
+    "sortingGroups": ["crafting"],
+    "requiredLevel": 73,
+    "notableDrops": [
+      "Cotton",
+      "#transmute",
+      "Cotton_yarn",
+      "Bolt_of_cotton"
+    ]
+  },
+  {
+    "id": "Courier_tasks",
+    "caption": "1-71",
+    "category": "skilling",
+    "sortingGroups": ["sailing"],
+    "requiredLevel": [1, 7, 9, 10, 11, 15, 21, 22, 25, 26, 28, 30, 31, 36, 41, 46, 50, 51, 56, 58, 61, 62, 65, 71]
   },
   {
     "id": "Crafting#Birdhouses",
@@ -2045,7 +2259,7 @@
   {
     "id": "Crossbow_stall",
     "category": "skilling",
-    "sortingGroups": ["thieving"],
+    "sortingGroups": ["thieving", "ranged"],
     "requiredLevel": 49,
     "notableDrops": [
       "Bronze_bolts",
@@ -2154,6 +2368,19 @@
     ]
   },
   {
+    "id": "Cupronickel_bar",
+    "title": "Cupronickel",
+    "category": "skilling",
+    "sortingGroups": ["smithing"],
+    "requiredLevel": 74,
+    "notableDrops": [
+      "Nickel_ore",
+      "Copper_ore",
+      "#transmute",
+      "Cupronickel_bar"
+    ]
+  },
+  {
     "id": "Daeyalt_essence_mine",
     "title": "Daeyalt Essence",
     "category": "skilling",
@@ -2256,6 +2483,21 @@
     ]
   },
   {
+    "id": "Deep_Sea_Trawling",
+    "caption": "56-84",
+    "category": "skilling",
+    "sortingGroups": ["sailing", "fishing"],
+    "requiredLevel": [56, 65, 76, 84],
+    "notableDrops": [
+      "Raw_giant_krill",
+      "Raw_haddock",
+      "Raw_yellowfin_tuna",
+      "Raw_halibut",
+      "Raw_bluefin_tuna",
+      "Raw_marlin"
+    ]
+  },
+  {
     "id": "Defence_potion",
     "category": "skilling",
     "sortingGroups": ["herblore"],
@@ -2302,6 +2544,118 @@
     ]
   },
   {
+    "id": "Docking_point#Ardougne",
+    "title": "Docking Point",
+    "subtitle": "Ardougne",
+    "category": "skilling",
+    "sortingGroups": ["sailing"],
+    "requiredLevel": 28
+  },
+  {
+    "id": "Docking_point#Brimhaven",
+    "title": "Docking Point",
+    "subtitle": "Brimhaven",
+    "category": "skilling",
+    "sortingGroups": ["sailing"],
+    "requiredLevel": 25
+  },
+  {
+    "id": "Docking_point#Cairn_Isle",
+    "title": "Docking Point",
+    "subtitle": "Cairn Isle",
+    "category": "skilling",
+    "sortingGroups": ["sailing"],
+    "requiredLevel": 23
+  },
+  {
+    "id": "Docking_point#Catherby",
+    "title": "Docking Point",
+    "subtitle": "Catherby",
+    "category": "skilling",
+    "sortingGroups": ["sailing"],
+    "requiredLevel": 21
+  },
+  {
+    "id": "Docking_point#Corsair_Cove",
+    "title": "Docking Point",
+    "subtitle": "Corsair Cove",
+    "category": "skilling",
+    "sortingGroups": ["sailing"],
+    "requiredLevel": 30
+  },
+  {
+    "id": "Docking_point#Entrana",
+    "title": "Docking Point",
+    "subtitle": "Entrana",
+    "category": "skilling",
+    "sortingGroups": ["sailing"],
+    "requiredLevel": 22
+  },
+  {
+    "id": "Docking_point#Musa_Point",
+    "title": "Docking Point",
+    "subtitle": "Musa Point",
+    "category": "skilling",
+    "sortingGroups": ["sailing"],
+    "requiredLevel": 10
+  },
+  {
+    "id": "Docking_point#Port_Khazard",
+    "title": "Docking Point",
+    "subtitle": "Port Khazard",
+    "category": "skilling",
+    "sortingGroups": ["sailing"],
+    "requiredLevel": 30
+  },
+  {
+    "id": "Docking_point#Port_Sarim",
+    "title": "Docking Point",
+    "subtitle": "Port Sarim",
+    "category": "skilling",
+    "sortingGroups": ["sailing"],
+    "requiredLevel": 1
+  },
+  {
+    "id": "Docking_point#Rimmington",
+    "title": "Docking Point",
+    "subtitle": "Rimmington",
+    "category": "skilling",
+    "sortingGroups": ["sailing"],
+    "requiredLevel": 12
+  },
+  {
+    "id": "Docking_point#Ruins_of_Unkah",
+    "title": "Docking Point",
+    "subtitle": "Ruins of Unkah",
+    "category": "skilling",
+    "sortingGroups": ["sailing"],
+    "requiredLevel": 25
+  },
+  {
+    "id": "Docking_point#The_Pandemonium",
+    "title": "Docking Point",
+    "subtitle": "The Pandemonium",
+    "category": "skilling",
+    "sortingGroups": ["sailing"],
+    "requiredLevel": 1
+  },
+  {
+    "id": "Docking_point#Void_Knights'_Outpost",
+    "title": "Docking Point",
+    "subtitle": "Void Knights' Outpost",
+    "category": "skilling",
+    "sortingGroups": ["sailing"],
+    "requiredLevel": 29
+  },
+  {
+    "id": "Docking_point#Witchaven",
+    "title": "Docking Point",
+    "subtitle": "Witchaven",
+    "category": "skilling",
+    "sortingGroups": ["sailing"],
+    "requiredLevel": 24
+  },
+  {
     "id": "Dorgesh-Kaan_Agility_Course",
     "category": "skilling",
     "sortingGroups": ["agility"],
@@ -2346,6 +2700,19 @@
     ]
   },
   {
+    "id": "Dragon_sheet",
+    "title": "Dragon",
+    "category": "skilling",
+    "sortingGroups": ["smithing"],
+    "requiredLevel": 94,
+    "notableDrops": [
+      "Dragon_sheet",
+      "#transmute",
+      "Dragon_cannonball",
+      "Dragon_keel_part"
+    ]
+  },
+  {
     "id": "Drake_bones",
     "caption": "80xp",
     "category": "skilling",
@@ -2367,7 +2734,7 @@
   {
     "id": "Drift_net_fishing",
     "category": "skilling",
-    "sortingGroups": ["fishing"],
+    "sortingGroups": ["fishing", "cooking"],
     "requiredLevel": 47,
     "notableDrops": [
       "Oyster",
@@ -2401,18 +2768,6 @@
     "requiredLevel": 10,
     "notableDrops": [
       "Dust_rune"
-    ]
-  },
-  {
-    "id": "Dwarf_multicannon",
-    "category": "skilling",
-    "sortingGroups": ["ranged"],
-    "notableDrops": [
-      "Cannon_barrels",
-      "Cannon_base",
-      "Cannon_furnace",
-      "Cannon_stand",
-      "Cannonball"
     ]
   },
   {
@@ -2482,6 +2837,18 @@
       "Gold_ore",
       "Crystal_shard",
       "Enhanced_crystal_teleport_seed"
+    ]
+  },
+  {
+    "id": "Elkhorn_frag",
+    "title": "Elkhorn Coral",
+    "category": "skilling",
+    "sortingGroups": ["farming", "herblore"],
+    "requiredLevel": 28,
+    "notableDrops": [
+      "Elkhorn_frag",
+      "#transmute",
+      "Elkhorn_coral"
     ]
   },
   {
@@ -2555,6 +2922,19 @@
     ]
   },
   {
+    "id": "Extended_stamina_potion",
+    "category": "skilling",
+    "sortingGroups": ["herblore"],
+    "requiredLevel": 85,
+    "notableDrops": [
+      "Stamina_potion",
+      "#plus",
+      "Marlin_scales",
+      "#equals",
+      "Extended_stamina_potion"
+    ]
+  },
+  {
     "id": "Extended_super_antifire",
     "category": "skilling",
     "sortingGroups": ["herblore"],
@@ -2565,6 +2945,19 @@
       "Lava_scale_shard",
       "#equals",
       "Extended_super_antifire(4)"
+    ]
+  },
+  {
+    "id": "Extreme_energy_potion",
+    "category": "skilling",
+    "sortingGroups": ["herblore"],
+    "requiredLevel": 66,
+    "notableDrops": [
+      "Super_energy",
+      "#plus",
+      "Yellow_tuna_fin",
+      "#equals",
+      "Extreme_energy_potion"
     ]
   },
   {
@@ -2795,16 +3188,40 @@
     "title": "Sardine | Herring | Pike",
     "caption": "5-25",
     "category": "skilling",
-    "sortingGroups": ["fishing"],
+    "sortingGroups": ["fishing", "cooking"],
     "requiredLevel": [5, 10, 25],
     "notableDrops": [
       "Fishing_rod",
-      "#plus",
       "Fishing_bait",
       "#transmute",
       "Raw_sardine",
       "Raw_herring",
       "Raw_pike"
+    ]
+  },
+  {
+    "id": "Flax_seed",
+    "title": "Flax",
+    "category": "skilling",
+    "sortingGroups": ["farming", "crafting"],
+    "requiredLevel": 18,
+    "notableDrops": [
+      "Flax_seed",
+      "#transmute",
+      "Flax"
+    ]
+  },
+  {
+    "id": "Flax#Sailing",
+    "title": "Flax",
+    "category": "skilling",
+    "sortingGroups": ["crafting"],
+    "requiredLevel": 12,
+    "notableDrops": [
+      "Flax",
+      "#transmute",
+      "Linen_yarn",
+      "Bolt_of_linen"
     ]
   },
   {
@@ -2827,11 +3244,10 @@
     "title": "Trout | Salmon",
     "caption": "20-30",
     "category": "skilling",
-    "sortingGroups": ["fishing"],
+    "sortingGroups": ["fishing", "cooking"],
     "requiredLevel": [20, 30],
     "notableDrops": [
       "Fly_fishing_rod",
-      "#plus",
       "Feather",
       "#transmute",
       "Raw_trout",
@@ -2879,12 +3295,13 @@
     ]
   },
   {
-    "id": "Frost_Crab",
+    "id": "Frost_dragon_bones",
+    "caption": "100xp",
     "category": "skilling",
-    "sortingGroups": ["pvm", "attack", "strength", "defence", "ranged", "magic", "hitpoints"],
+    "sortingGroups": ["prayer"],
+    "requiredLevel": 1,
     "notableDrops": [
-      "Frozen_tear",
-      "Tooth_half_of_key_(moon_key)"
+      "Frost_dragon_bones"
     ]
   },
   {
@@ -2910,7 +3327,7 @@
     "id": "Fruit_tree_patch",
     "caption": "27-81",
     "category": "skilling",
-    "sortingGroups": ["farming"],
+    "sortingGroups": ["farming", "cooking"],
     "requiredLevel": [27, 33, 39, 42, 51, 57, 68, 81],
     "notableDrops": [
       "Cooking_apple",
@@ -3155,7 +3572,7 @@
   {
     "id": "Gem_rocks",
     "category": "skilling",
-    "sortingGroups": ["mining"],
+    "sortingGroups": ["mining", "crafting"],
     "requiredLevel": 40,
     "notableDrops": [
       "Uncut_opal",
@@ -3180,20 +3597,14 @@
     ]
   },
   {
-    "id": "Gemstone_Crab#Training",
-    "title": "Gemstone Crab",
+    "id": "Giant_krill",
     "category": "skilling",
-    "sortingGroups": ["pvm", "attack", "strength", "defence", "ranged", "magic", "hitpoints"],
+    "sortingGroups": ["cooking"],
+    "requiredLevel": 69,
     "notableDrops": [
-      "Uncut_sapphire",
-      "Uncut_emerald",
-      "Uncut_ruby",
-      "Uncut_diamond",
-      "Uncut_dragonstone",
-      "#newline",
-      "Uncut_opal",
-      "Uncut_jade",
-      "Uncut_red_topaz"
+      "Raw_giant_krill",
+      "#transmute",
+      "Giant_krill"
     ]
   },
   {
@@ -3297,7 +3708,7 @@
     ]
   },
   {
-    "id": "Gold_bars",
+    "id": "Gold_bar",
     "title": "Gold",
     "category": "skilling",
     "sortingGroups": ["smithing"],
@@ -3310,7 +3721,7 @@
   },
   {
     "id": "Gold_bar#Products",
-    "title": "Gold Jewellery",
+    "title": "Gold",
     "caption": "20-80",
     "category": "skilling",
     "sortingGroups": ["crafting"],
@@ -3359,9 +3770,9 @@
   },
   {
     "id": "Gold_rocks",
-    "title": "Gold Ore",
+    "title": "Gold",
     "category": "skilling",
-    "sortingGroups": ["mining", "crafting"],
+    "sortingGroups": ["mining", "smithing", "crafting"],
     "requiredLevel": 40,
     "notableDrops": [
       "Gold_ore"
@@ -3370,7 +3781,7 @@
   {
     "id": "Granite",
     "category": "skilling",
-    "sortingGroups": ["mining"],
+    "sortingGroups": ["mining", "construction"],
     "requiredLevel": 45,
     "notableDrops": [
       "Granite_(500g)",
@@ -3455,6 +3866,28 @@
     ]
   },
   {
+    "id": "Haddock",
+    "category": "skilling",
+    "sortingGroups": ["cooking"],
+    "requiredLevel": 73,
+    "notableDrops": [
+      "Raw_haddock",
+      "#transmute",
+      "Haddock"
+    ]
+  },
+  {
+    "id": "Halibut",
+    "category": "skilling",
+    "sortingGroups": ["cooking"],
+    "requiredLevel": 83,
+    "notableDrops": [
+      "Raw_halibut",
+      "#transmute",
+      "Halibut"
+    ]
+  },
+  {
     "id": "Hardwood_Grove",
     "category": "skilling",
     "sortingGroups": ["woodcutting"],
@@ -3474,6 +3907,31 @@
     "notableDrops": [
       "Teak_logs",
       "Mahogany_logs"
+    ]
+  },
+  {
+    "id": "Hemp_seed",
+    "title": "Hemp",
+    "category": "skilling",
+    "sortingGroups": ["farming", "crafting"],
+    "requiredLevel": 37,
+    "notableDrops": [
+      "Hemp_seed",
+      "#transmute",
+      "Hemp"
+    ]
+  },
+  {
+    "id": "Hemp#Sailing",
+    "title": "Hemp",
+    "category": "skilling",
+    "sortingGroups": ["crafting"],
+    "requiredLevel": 39,
+    "notableDrops": [
+      "Hemp",
+      "#transmute",
+      "Hemp_yarn",
+      "Bolt_of_canvas"
     ]
   },
   {
@@ -3553,7 +4011,7 @@
     "id": "Hops_patch",
     "caption": "3-28",
     "category": "skilling",
-    "sortingGroups": ["farming"],
+    "sortingGroups": ["farming", "cooking"],
     "requiredLevel": [3, 4, 8, 13, 16, 21, 28],
     "notableDrops": [
       "Barley",
@@ -3702,7 +4160,7 @@
   {
     "id": "Infernal_shale",
     "category": "skilling",
-    "sortingGroups": ["mining"],
+    "sortingGroups": ["mining", "smithing"],
     "requiredLevel": 78,
     "notableDrops": [
       "Infernal_shale",
@@ -3711,7 +4169,7 @@
     ]
   },
   {
-    "id": "Iron_bars",
+    "id": "Iron_bar",
     "title": "Iron",
     "caption": "15-33",
     "category": "skilling",
@@ -3729,13 +4187,92 @@
     ]
   },
   {
-    "id": "Iron_rocks",
-    "title": "Iron Ore",
+    "id": "Iron_bar#Sailing",
+    "title": "Iron",
+    "caption": "20/22",
     "category": "skilling",
-    "sortingGroups": ["mining"],
+    "sortingGroups": ["smithing"],
+    "requiredLevel": [20, 22],
+    "notableDrops": [
+      "Iron_ore",
+      "#transmute",
+      "Iron_bar",
+      "#transmute",
+      "Iron_cannonball",
+      "Iron_keel_part"
+    ]
+  },
+  {
+    "id": "Iron_rocks",
+    "title": "Iron",
+    "category": "skilling",
+    "sortingGroups": ["mining", "smithing"],
     "requiredLevel": 15,
     "notableDrops": [
       "Iron_ore"
+    ]
+  },
+  {
+    "id": "Ironwood_hull_part",
+    "title": "Ironwood",
+    "category": "skilling",
+    "sortingGroups": ["construction", "sailing"],
+    "requiredLevel": 77,
+    "notableDrops": [
+      "Ironwood_logs",
+      "#transmute",
+      "Ironwood_plank",
+      "#transmute",
+      "Ironwood_hull_part"
+    ]
+  },
+  {
+    "id": "Ironwood_logs",
+    "title": "Ironwood",
+    "category": "skilling",
+    "sortingGroups": ["firemaking"],
+    "requiredLevel": 80,
+    "notableDrops": [
+      "Tinderbox",
+      "#plus",
+      "Ironwood_logs"
+    ]
+  },
+  {
+    "id": "Ironwood_seed",
+    "title": "Ironwood Tree",
+    "category": "skilling",
+    "sortingGroups": ["farming", "woodcutting"],
+    "requiredLevel": 80,
+    "notableDrops": [
+      "Ironwood_seed",
+      "#transmute",
+      "Ironwood_tree"
+    ]
+  },
+  {
+    "id": "Ironwood_tree",
+    "title": "Ironwood",
+    "category": "skilling",
+    "sortingGroups": ["woodcutting", "construction", "fletching", "firemaking"],
+    "requiredLevel": 80,
+    "notableDrops": [
+      "Ironwood_logs"
+    ]
+  },
+  {
+    "id": "Ironwood#Fletching",
+    "title": "Ironwood",
+    "category": "skilling",
+    "sortingGroups": ["fletching"],
+    "requiredLevel": 72,
+    "notableDrops": [
+      "Knife",
+      "#plus",
+      "Ironwood_logs",
+      "Squid_beak",
+      "#equals",
+      "Ironwood_blowpipe"
     ]
   },
   {
@@ -3749,6 +4286,28 @@
       "Crimson_swift",
       "Copper_longtail",
       "Chinchompa_(Hunter)"
+    ]
+  },
+  {
+    "id": "Jatoba_logs",
+    "title": "Jatoba",
+    "category": "skilling",
+    "sortingGroups": ["firemaking"],
+    "requiredLevel": 40,
+    "notableDrops": [
+      "Tinderbox",
+      "#plus",
+      "Jatoba_logs"
+    ]
+  },
+  {
+    "id": "Jatoba_tree",
+    "title": "Jatoba",
+    "category": "skilling",
+    "sortingGroups": ["woodcutting", "firemaking"],
+    "requiredLevel": 40,
+    "notableDrops": [
+      "Jatoba_logs"
     ]
   },
   {
@@ -3788,6 +4347,17 @@
       "Jug_of_water",
       "#equals",
       "Jug_of_wine"
+    ]
+  },
+  {
+    "id": "Jumbo_squid",
+    "category": "skilling",
+    "sortingGroups": ["cooking"],
+    "requiredLevel": 71,
+    "notableDrops": [
+      "Raw_jumbo_squid",
+      "#transmute",
+      "Jumbo_squid"
     ]
   },
   {
@@ -3882,6 +4452,28 @@
     ]
   },
   {
+    "id": "Lead_bar",
+    "title": "Lead",
+    "category": "skilling",
+    "sortingGroups": ["smithing"],
+    "requiredLevel": 25,
+    "notableDrops": [
+      "Lead_ore",
+      "#transmute",
+      "Lead_bar"
+    ]
+  },
+  {
+    "id": "Lead_rocks",
+    "title": "Lead",
+    "category": "skilling",
+    "sortingGroups": ["mining", "smithing"],
+    "requiredLevel": 25,
+    "notableDrops": [
+      "Lead_ore"
+    ]
+  },
+  {
     "id": "Leather_armour",
     "title": "Leather",
     "caption": "1-44",
@@ -3919,7 +4511,7 @@
     "id": "Limestone_rock",
     "title": "Limestone",
     "category": "skilling",
-    "sortingGroups": ["mining"],
+    "sortingGroups": ["mining", "construction"],
     "requiredLevel": 10,
     "notableDrops": [
       "Limestone"
@@ -4027,7 +4619,7 @@
     ]
   },
   {
-    "id": "Lovakite_bars",
+    "id": "Lovakite_bar",
     "title": "Lovakite",
     "category": "skilling",
     "sortingGroups": ["smithing"],
@@ -4042,9 +4634,9 @@
   },
   {
     "id": "Lovakite_rocks",
-    "title": "Lovakite Ore",
+    "title": "Lovakite",
     "category": "skilling",
-    "sortingGroups": ["mining"],
+    "sortingGroups": ["mining", "smithing"],
     "requiredLevel": 65,
     "notableDrops": [
       "Lovakite_ore"
@@ -4067,6 +4659,7 @@
   },
   {
     "id": "Magic_logs",
+    "title": "Magic",
     "caption": "75-87",
     "category": "skilling",
     "sortingGroups": ["fletching"],
@@ -4083,7 +4676,7 @@
   },
   {
     "id": "Magic_logs#Firemaking",
-    "title": "Magic Logs",
+    "title": "Magic",
     "category": "skilling",
     "sortingGroups": ["firemaking"],
     "requiredLevel": 75,
@@ -4095,15 +4688,31 @@
   },
   {
     "id": "Magic_tree",
+    "title": "Magic",
     "category": "skilling",
-    "sortingGroups": ["woodcutting"],
+    "sortingGroups": ["woodcutting", "fletching", "firemaking"],
     "requiredLevel": 75,
     "notableDrops": [
       "Magic_logs"
     ]
   },
   {
+    "id": "Mahogany_hull_part",
+    "title": "Mahogany",
+    "category": "skilling",
+    "sortingGroups": ["construction", "sailing"],
+    "requiredLevel": 41,
+    "notableDrops": [
+      "Mahogany_logs",
+      "#transmute",
+      "Mahogany_plank",
+      "#transmute",
+      "Mahogany_hull_part"
+    ]
+  },
+  {
     "id": "Mahogany_logs",
+    "title": "Mahogany",
     "category": "skilling",
     "sortingGroups": ["firemaking"],
     "requiredLevel": 50,
@@ -4114,9 +4723,22 @@
     ]
   },
   {
-    "id": "Mahogany_tree",
+    "id": "Mahogany_plank",
+    "title": "Mahogany",
+    "caption": "1500gp",
     "category": "skilling",
-    "sortingGroups": ["woodcutting", "construction"],
+    "sortingGroups": ["construction"],
+    "notableDrops": [
+      "Mahogany_logs",
+      "#transmute",
+      "Mahogany_plank"
+    ]
+  },
+  {
+    "id": "Mahogany_tree",
+    "title": "Mahogany",
+    "category": "skilling",
+    "sortingGroups": ["woodcutting", "construction", "firemaking"],
     "requiredLevel": 50,
     "notableDrops": [
       "Mahogany_logs"
@@ -4155,6 +4777,7 @@
   },
   {
     "id": "Maple_logs",
+    "title": "Maple",
     "caption": "45-57",
     "category": "skilling",
     "sortingGroups": ["fletching"],
@@ -4171,7 +4794,7 @@
   },
   {
     "id": "Maple_logs#Firemaking",
-    "title": "Maple Logs",
+    "title": "Maple",
     "category": "skilling",
     "sortingGroups": ["firemaking"],
     "requiredLevel": 45,
@@ -4183,8 +4806,9 @@
   },
   {
     "id": "Maple_tree",
+    "title": "Maple",
     "category": "skilling",
-    "sortingGroups": ["woodcutting"],
+    "sortingGroups": ["woodcutting", "fletching", "firemaking"],
     "requiredLevel": 45,
     "notableDrops": [
       "Maple_logs"
@@ -4194,7 +4818,7 @@
     "id": "Market_stall_(wine)",
     "title": "Wine Stall",
     "category": "skilling",
-    "sortingGroups": ["thieving", "cooking"],
+    "sortingGroups": ["thieving"],
     "requiredLevel": 22,
     "notableDrops": [
       "Jug",
@@ -4202,6 +4826,17 @@
       "Grapes",
       "Jug_of_wine",
       "Bottle_of_wine"
+    ]
+  },
+  {
+    "id": "Marlin",
+    "category": "skilling",
+    "sortingGroups": ["cooking"],
+    "requiredLevel": 93,
+    "notableDrops": [
+      "Raw_marlin",
+      "#transmute",
+      "Marlin"
     ]
   },
   {
@@ -4221,7 +4856,7 @@
   },
   {
     "id": "Mature_juniper_tree",
-    "title": "Juniper Tree",
+    "title": "Juniper",
     "category": "skilling",
     "sortingGroups": ["woodcutting"],
     "requiredLevel": 42,
@@ -4273,7 +4908,7 @@
   {
     "id": "Minnows",
     "category": "skilling",
-    "sortingGroups": ["fishing"],
+    "sortingGroups": ["fishing", "cooking"],
     "requiredLevel": 82,
     "notableDrops": [
       "Small_fishing_net",
@@ -4293,7 +4928,7 @@
     ]
   },
   {
-    "id": "Mithril_bars",
+    "id": "Mithril_bar",
     "title": "Mithril",
     "caption": "50-68",
     "category": "skilling",
@@ -4311,10 +4946,26 @@
     ]
   },
   {
-    "id": "Mithril_rocks",
-    "title": "Mithril Ore",
+    "id": "Mithril_bar#Sailing",
+    "title": "Mithril",
+    "caption": "55/56",
     "category": "skilling",
-    "sortingGroups": ["mining"],
+    "sortingGroups": ["smithing"],
+    "requiredLevel": [55, 56],
+    "notableDrops": [
+      "Mithril_ore",
+      "#transmute",
+      "Mithril_bar",
+      "#transmute",
+      "Steel_cannonball",
+      "Steel_keel_part"
+    ]
+  },
+  {
+    "id": "Mithril_rocks",
+    "title": "Mithril",
+    "category": "skilling",
+    "sortingGroups": ["mining", "smithing"],
     "requiredLevel": 55,
     "notableDrops": [
       "Mithril_ore"
@@ -4433,7 +5084,32 @@
     ]
   },
   {
+    "id": "Nickel_rocks",
+    "title": "Nickel",
+    "category": "skilling",
+    "sortingGroups": ["mining", "smithing"],
+    "requiredLevel": 74,
+    "notableDrops": [
+      "Nickel_ore"
+    ]
+  },
+  {
+    "id": "Oak_hull_part",
+    "title": "Oak",
+    "category": "skilling",
+    "sortingGroups": ["construction", "sailing"],
+    "requiredLevel": 8,
+    "notableDrops": [
+      "Oak_logs",
+      "#transmute",
+      "Oak_plank",
+      "#transmute",
+      "Oak_hull_part"
+    ]
+  },
+  {
     "id": "Oak_logs",
+    "title": "Oak",
     "caption": "15-27",
     "category": "skilling",
     "sortingGroups": ["fletching"],
@@ -4450,7 +5126,7 @@
   },
   {
     "id": "Oak_logs#Firemaking",
-    "title": "Oak Logs",
+    "title": "Oak",
     "category": "skilling",
     "sortingGroups": ["firemaking"],
     "requiredLevel": 15,
@@ -4461,9 +5137,22 @@
     ]
   },
   {
-    "id": "Oak_tree",
+    "id": "Oak_plank",
+    "title": "Oak",
+    "caption": "250gp",
     "category": "skilling",
-    "sortingGroups": ["woodcutting"],
+    "sortingGroups": ["construction"],
+    "notableDrops": [
+      "Oak_logs",
+      "#transmute",
+      "Oak_plank"
+    ]
+  },
+  {
+    "id": "Oak_tree",
+    "title": "Oak",
+    "category": "skilling",
+    "sortingGroups": ["woodcutting", "construction", "fletching", "firemaking"],
     "requiredLevel": 15,
     "notableDrops": [
       "Oak_logs"
@@ -4498,7 +5187,7 @@
   },
   {
     "id": "Onyx#Crafting",
-    "title": "Onyx Jewellery",
+    "title": "Onyx",
     "caption": "67-90",
     "category": "skilling",
     "sortingGroups": ["crafting"],
@@ -4521,6 +5210,21 @@
     "requiredLevel": 47,
     "notableDrops": [
       "Orange_salamander_(Hunter)"
+    ]
+  },
+  {
+    "id": "Ore_stall",
+    "category": "skilling",
+    "sortingGroups": ["thieving", "smithing"],
+    "requiredLevel": 82,
+    "notableDrops": [
+      "Coal",
+      "Iron_ore",
+      "Silver_ore",
+      "Gold_ore",
+      "Mithril_ore",
+      "Adamantite_ore",
+      "Runite_ore"
     ]
   },
   {
@@ -4616,6 +5320,33 @@
       "Dragonfruit_pie",
       "Wild_pie",
       "Summer_pie"
+    ]
+  },
+  {
+    "id": "Pillar_frag",
+    "title": "Pillar Coral",
+    "category": "skilling",
+    "sortingGroups": ["farming", "herblore"],
+    "requiredLevel": 52,
+    "notableDrops": [
+      "Pillar_frag",
+      "#transmute",
+      "Pillar_coral"
+    ]
+  },
+  {
+    "id": "Pirate#Pickpocketing",
+    "title": "Pirate",
+    "category": "skilling",
+    "sortingGroups": ["thieving"],
+    "requiredLevel": 60,
+    "notableDrops": [
+      "Coins",
+      "Elkhorn_coral",
+      "Bronze_cannonball",
+      "Iron_cannonball",
+      "Steel_cannonball",
+      "Clue_scroll_(medium)"
     ]
   },
   {
@@ -4813,6 +5544,31 @@
     ]
   },
   {
+    "id": "Rainbow_crab",
+    "category": "skilling",
+    "sortingGroups": ["hunter", "cooking", "herblore"],
+    "requiredLevel": 77,
+    "notableDrops": [
+      "Rainbow_crab"
+    ]
+  },
+  {
+    "id": "Rainbow_crab_meat",
+    "title": "Rainbow Crab",
+    "category": "skilling",
+    "sortingGroups": ["cooking"],
+    "requiredLevel": 77,
+    "notableDrops": [
+      "Knife",
+      "#plus",
+      "Rainbow_crab",
+      "#transmute",
+      "Raw_rainbow_crab_meat",
+      "#transmute",
+      "Rainbow_crab_meat"
+    ]
+  },
+  {
     "id": "Ranging_potion",
     "category": "skilling",
     "sortingGroups": ["herblore"],
@@ -4841,7 +5597,7 @@
     "id": "Raw_anchovies",
     "title": "Anchovies",
     "category": "skilling",
-    "sortingGroups": ["fishing"],
+    "sortingGroups": ["fishing", "cooking"],
     "requiredLevel": 15,
     "notableDrops": [
       "Small_fishing_net",
@@ -4853,11 +5609,10 @@
     "id": "Raw_anglerfish",
     "title": "Anglerfish",
     "category": "skilling",
-    "sortingGroups": ["fishing"],
+    "sortingGroups": ["fishing", "cooking"],
     "requiredLevel": 82,
     "notableDrops": [
       "Fishing_rod",
-      "#plus",
       "Sandworms",
       "#transmute",
       "Raw_anglerfish"
@@ -4867,12 +5622,22 @@
     "id": "Raw_bass",
     "title": "Bass",
     "category": "skilling",
-    "sortingGroups": ["fishing"],
+    "sortingGroups": ["fishing", "cooking"],
     "requiredLevel": 46,
     "notableDrops": [
       "Big_fishing_net",
       "#transmute",
       "Raw_bass"
+    ]
+  },
+  {
+    "id": "Raw_bluefin_tuna",
+    "title": "Bluefin Tuna",
+    "category": "skilling",
+    "sortingGroups": ["fishing", "cooking"],
+    "requiredLevel": 87,
+    "notableDrops": [
+      "Raw_bluefin_tuna"
     ]
   },
   {
@@ -4883,7 +5648,6 @@
     "requiredLevel": 38,
     "notableDrops": [
       "Fishing_rod",
-      "#plus",
       "Fishing_bait",
       "#transmute",
       "Raw_cave_eel"
@@ -4893,7 +5657,7 @@
     "id": "Raw_cod",
     "title": "Cod",
     "category": "skilling",
-    "sortingGroups": ["fishing"],
+    "sortingGroups": ["fishing", "cooking"],
     "requiredLevel": 23,
     "notableDrops": [
       "Big_fishing_net",
@@ -4905,39 +5669,79 @@
     "id": "Raw_dark_crab",
     "title": "Dark Crab",
     "category": "skilling",
-    "sortingGroups": ["fishing"],
+    "sortingGroups": ["fishing", "cooking"],
     "requiredLevel": 85,
     "notableDrops": [
       "Lobster_pot",
-      "#plus",
       "Dark_fishing_bait",
       "#transmute",
       "Raw_dark_crab"
     ]
   },
   {
+    "id": "Raw_giant_krill",
+    "title": "Giant Krill",
+    "category": "skilling",
+    "sortingGroups": ["fishing", "cooking"],
+    "requiredLevel": 69,
+    "notableDrops": [
+      "Raw_giant_krill"
+    ]
+  },
+  {
+    "id": "Raw_haddock",
+    "title": "Haddock",
+    "category": "skilling",
+    "sortingGroups": ["fishing", "cooking", "herblore"],
+    "requiredLevel": 73,
+    "notableDrops": [
+      "Raw_haddock"
+    ]
+  },
+  {
+    "id": "Raw_halibut",
+    "title": "Halibut",
+    "category": "skilling",
+    "sortingGroups": ["fishing", "cooking"],
+    "requiredLevel": 83,
+    "notableDrops": [
+      "Raw_halibut"
+    ]
+  },
+  {
     "id": "Raw_herring",
     "title": "Herring",
     "category": "skilling",
-    "sortingGroups": ["fishing"],
+    "sortingGroups": ["fishing", "cooking"],
     "requiredLevel": 10,
     "notableDrops": [
       "Fishing_rod",
-      "#plus",
       "Fishing_bait",
       "#transmute",
       "Raw_herring"
     ]
   },
   {
+    "id": "Raw_jumbo_squid",
+    "title": "Jumbo Squid",
+    "category": "skilling",
+    "sortingGroups": ["fishing", "cooking", "herblore"],
+    "requiredLevel": 69,
+    "notableDrops": [
+      "Harpoon",
+      "Bullseye_lantern",
+      "#transmute",
+      "Raw_jumbo_squid"
+    ]
+  },
+  {
     "id": "Raw_karambwan",
     "title": "Karambwan",
     "category": "skilling",
-    "sortingGroups": ["fishing"],
+    "sortingGroups": ["fishing", "cooking"],
     "requiredLevel": 65,
     "notableDrops": [
       "Karambwan_vessel",
-      "#plus",
       "Raw_karambwanji",
       "#transmute",
       "Raw_karambwan"
@@ -4963,7 +5767,6 @@
     "requiredLevel": 53,
     "notableDrops": [
       "Oily_fishing_rod",
-      "#plus",
       "Fishing_bait",
       "#transmute",
       "Raw_lava_eel"
@@ -4973,7 +5776,7 @@
     "id": "Raw_lobster",
     "title": "Lobster",
     "category": "skilling",
-    "sortingGroups": ["fishing"],
+    "sortingGroups": ["fishing", "cooking"],
     "requiredLevel": 40,
     "notableDrops": [
       "Lobster_pot",
@@ -4985,7 +5788,7 @@
     "id": "Raw_mackerel",
     "title": "Mackerel",
     "category": "skilling",
-    "sortingGroups": ["fishing"],
+    "sortingGroups": ["fishing", "cooking"],
     "requiredLevel": 16,
     "notableDrops": [
       "Big_fishing_net",
@@ -4994,10 +5797,20 @@
     ]
   },
   {
+    "id": "Raw_marlin",
+    "title": "Marlin",
+    "category": "skilling",
+    "sortingGroups": ["fishing", "cooking", "herblore"],
+    "requiredLevel": 93,
+    "notableDrops": [
+      "Raw_marlin"
+    ]
+  },
+  {
     "id": "Raw_monkfish",
     "title": "Monkfish",
     "category": "skilling",
-    "sortingGroups": ["fishing"],
+    "sortingGroups": ["fishing", "cooking"],
     "requiredLevel": 62,
     "notableDrops": [
       "Small_fishing_net",
@@ -5009,11 +5822,10 @@
     "id": "Raw_pike",
     "title": "Pike",
     "category": "skilling",
-    "sortingGroups": ["fishing"],
+    "sortingGroups": ["fishing", "cooking"],
     "requiredLevel": 25,
     "notableDrops": [
       "Fishing_rod",
-      "#plus",
       "Fishing_bait",
       "#transmute",
       "Raw_pike"
@@ -5023,11 +5835,10 @@
     "id": "Raw_salmon",
     "title": "Salmon",
     "category": "skilling",
-    "sortingGroups": ["fishing"],
+    "sortingGroups": ["fishing", "cooking"],
     "requiredLevel": 30,
     "notableDrops": [
       "Fly_fishing_rod",
-      "#plus",
       "Feather",
       "#transmute",
       "Raw_salmon"
@@ -5037,11 +5848,10 @@
     "id": "Raw_sardine",
     "title": "Sardine",
     "category": "skilling",
-    "sortingGroups": ["fishing"],
+    "sortingGroups": ["fishing", "cooking"],
     "requiredLevel": 5,
     "notableDrops": [
       "Fishing_rod",
-      "#plus",
       "Fishing_bait",
       "#transmute",
       "Raw_sardine"
@@ -5051,7 +5861,7 @@
     "id": "Raw_shark",
     "title": "Shark",
     "category": "skilling",
-    "sortingGroups": ["fishing"],
+    "sortingGroups": ["fishing", "cooking"],
     "requiredLevel": 76,
     "notableDrops": [
       "Harpoon",
@@ -5063,7 +5873,7 @@
     "id": "Raw_shrimp",
     "title": "Shrimp",
     "category": "skilling",
-    "sortingGroups": ["fishing"],
+    "sortingGroups": ["fishing", "cooking"],
     "requiredLevel": 1,
     "notableDrops": [
       "Small_fishing_net",
@@ -5079,7 +5889,6 @@
     "requiredLevel": 28,
     "notableDrops": [
       "Fishing_rod",
-      "#plus",
       "Fishing_bait",
       "#transmute",
       "Raw_slimy_eel"
@@ -5089,7 +5898,7 @@
     "id": "Raw_swordfish",
     "title": "Swordfish",
     "category": "skilling",
-    "sortingGroups": ["fishing"],
+    "sortingGroups": ["fishing", "cooking"],
     "requiredLevel": 50,
     "notableDrops": [
       "Harpoon",
@@ -5098,14 +5907,26 @@
     ]
   },
   {
+    "id": "Raw_swordtip_squid",
+    "title": "Swordtip Squid",
+    "category": "skilling",
+    "sortingGroups": ["fishing", "cooking", "herblore"],
+    "requiredLevel": 52,
+    "notableDrops": [
+      "Harpoon",
+      "Bullseye_lantern",
+      "#transmute",
+      "Raw_swordtip_squid"
+    ]
+  },
+  {
     "id": "Raw_trout",
     "title": "Trout",
     "category": "skilling",
-    "sortingGroups": ["fishing"],
+    "sortingGroups": ["fishing", "cooking"],
     "requiredLevel": 20,
     "notableDrops": [
       "Fly_fishing_rod",
-      "#plus",
       "Feather",
       "#transmute",
       "Raw_trout"
@@ -5115,12 +5936,47 @@
     "id": "Raw_tuna",
     "title": "Tuna",
     "category": "skilling",
-    "sortingGroups": ["fishing"],
+    "sortingGroups": ["fishing", "cooking"],
     "requiredLevel": 35,
     "notableDrops": [
       "Harpoon",
       "#transmute",
       "Raw_tuna"
+    ]
+  },
+  {
+    "id": "Raw_yellowfin_tuna",
+    "title": "Yellowfin Tuna",
+    "category": "skilling",
+    "sortingGroups": ["fishing", "cooking", "herblore"],
+    "requiredLevel": 79,
+    "notableDrops": [
+      "Raw_yellowfin_tuna"
+    ]
+  },
+  {
+    "id": "Red_crab",
+    "category": "skilling",
+    "sortingGroups": ["hunter", "cooking", "herblore"],
+    "requiredLevel": 21,
+    "notableDrops": [
+      "Red_crab"
+    ]
+  },
+  {
+    "id": "Red_crab_meat",
+    "title": "Red Crab",
+    "category": "skilling",
+    "sortingGroups": ["cooking"],
+    "requiredLevel": 21,
+    "notableDrops": [
+      "Knife",
+      "#plus",
+      "Red_crab",
+      "#transmute",
+      "Raw_red_crab_meat",
+      "#transmute",
+      "Red_crab_meat"
     ]
   },
   {
@@ -5151,6 +6007,7 @@
   },
   {
     "id": "Redwood_logs",
+    "title": "Redwood",
     "caption": "90-92",
     "category": "skilling",
     "sortingGroups": ["fletching"],
@@ -5164,7 +6021,7 @@
   },
   {
     "id": "Redwood_logs#Firemaking",
-    "title": "Redwood Logs",
+    "title": "Redwood",
     "category": "skilling",
     "sortingGroups": ["firemaking"],
     "requiredLevel": 90,
@@ -5176,8 +6033,9 @@
   },
   {
     "id": "Redwood_tree",
+    "title": "Redwood",
     "category": "skilling",
-    "sortingGroups": ["woodcutting"],
+    "sortingGroups": ["woodcutting", "fletching", "firemaking"],
     "requiredLevel": 90,
     "notableDrops": [
       "Redwood_logs"
@@ -5195,6 +6053,20 @@
       "Redwood_sapling",
       "#transmute",
       "Redwood_tree_(Farming)"
+    ]
+  },
+  {
+    "id": "Reinforced_pirate_chest",
+    "category": "skilling",
+    "sortingGroups": ["thieving"],
+    "requiredLevel": 76,
+    "notableDrops": [
+      "Coins",
+      "Umbral_coral",
+      "Steel_cannonball",
+      "Mithril_cannonball",
+      "Adamant_cannonball",
+      "Clue_scroll_(medium)"
     ]
   },
   {
@@ -5252,14 +6124,6 @@
     ]
   },
   {
-    "id": "Rock_Crab",
-    "category": "skilling",
-    "sortingGroups": ["pvm", "attack", "strength", "defence", "ranged", "magic", "hitpoints"],
-    "notableDrops": [
-      "Seaweed"
-    ]
-  },
-  {
     "id": "Rogue#Pickpocketing",
     "title": "Rogue",
     "category": "skilling",
@@ -5271,6 +6135,80 @@
       "Jug_of_wine",
       "Lockpick",
       "Iron_dagger(p)"
+    ]
+  },
+  {
+    "id": "Rosewood_hull_part",
+    "title": "Rosewood",
+    "category": "skilling",
+    "sortingGroups": ["construction", "sailing"],
+    "requiredLevel": 84,
+    "notableDrops": [
+      "Rosewood_logs",
+      "#transmute",
+      "Rosewood_plank",
+      "#transmute",
+      "Rosewood_hull_part"
+    ]
+  },
+  {
+    "id": "Rosewood_logs",
+    "title": "Rosewood",
+    "category": "skilling",
+    "sortingGroups": ["firemaking"],
+    "requiredLevel": 92,
+    "notableDrops": [
+      "Tinderbox",
+      "#plus",
+      "Rosewood_logs"
+    ]
+  },
+  {
+    "id": "Rosewood_seed",
+    "title": "Rosewood Tree",
+    "category": "skilling",
+    "sortingGroups": ["farming", "woodcutting"],
+    "requiredLevel": 92,
+    "notableDrops": [
+      "Rosewood_seed",
+      "#transmute",
+      "Rosewood_tree"
+    ]
+  },
+  {
+    "id": "Rosewood_tree",
+    "title": "Rosewood",
+    "category": "skilling",
+    "sortingGroups": ["woodcutting", "construction", "fletching", "firemaking"],
+    "requiredLevel": 92,
+    "notableDrops": [
+      "Rosewood_logs"
+    ]
+  },
+  {
+    "id": "Rosewood#Fletching",
+    "title": "Rosewood",
+    "category": "skilling",
+    "sortingGroups": ["fletching"],
+    "requiredLevel": 84,
+    "notableDrops": [
+      "Knife",
+      "#plus",
+      "Rosewood_logs",
+      "Squid_beak",
+      "#equals",
+      "Rosewood_blowpipe"
+    ]
+  },
+  {
+    "id": "Rubium_rocks",
+    "title": "Rubium",
+    "caption": "48/68",
+    "category": "skilling",
+    "sortingGroups": ["mining", "smithing"],
+    "requiredLevel": [48, 68],
+    "notableDrops": [
+      "Rubium"
     ]
   },
   {
@@ -5302,7 +6240,7 @@
     ]
   },
   {
-    "id": "Runite_bars",
+    "id": "Runite_bar",
     "title": "Runite",
     "caption": "85-99",
     "category": "skilling",
@@ -5320,13 +6258,43 @@
     ]
   },
   {
-    "id": "Runite_rocks",
-    "title": "Runite Ore",
+    "id": "Runite_bar#Sailing",
+    "title": "Runite",
+    "caption": "86/90",
     "category": "skilling",
-    "sortingGroups": ["mining"],
+    "sortingGroups": ["smithing"],
+    "requiredLevel": [86, 90],
+    "notableDrops": [
+      "Runite_ore",
+      "#transmute",
+      "Runite_bar",
+      "#transmute",
+      "Rune_cannonball",
+      "Rune_keel_part"
+    ]
+  },
+  {
+    "id": "Runite_rocks",
+    "title": "Runite",
+    "category": "skilling",
+    "sortingGroups": ["mining", "smithing"],
     "requiredLevel": 85,
     "notableDrops": [
       "Runite_ore"
+    ]
+  },
+  {
+    "id": "Rusty_pirate_chest",
+    "category": "skilling",
+    "sortingGroups": ["thieving"],
+    "requiredLevel": 33,
+    "notableDrops": [
+      "Coins",
+      "Elkhorn_coral",
+      "Bronze_cannonball",
+      "Iron_cannonball",
+      "Steel_cannonball",
+      "Clue_scroll_(medium)"
     ]
   },
   {
@@ -5371,15 +6339,6 @@
     "requiredLevel": 1,
     "notableDrops": [
       "Saltpetre"
-    ]
-  },
-  {
-    "id": "Sand_Crab",
-    "category": "skilling",
-    "sortingGroups": ["pvm", "attack", "strength", "defence", "ranged", "magic", "hitpoints"],
-    "notableDrops": [
-      "Seaweed",
-      "Bucket_of_sand"
     ]
   },
   {
@@ -5487,6 +6446,21 @@
     "requiredLevel": 1,
     "notableDrops": [
       "Scrapey_tree_logs"
+    ]
+  },
+  {
+    "id": "Sea_charting",
+    "caption": "1-17",
+    "category": "skilling",
+    "sortingGroups": ["sailing"],
+    "requiredLevel": [1, 10, 13, 17],
+    "notableDrops": [
+      "Captain's_log",
+      "Spyglass",
+      "Current_duck",
+      "Crowbar",
+      "Deep_sea_helmet",
+      "Deep_sea_apparatus"
     ]
   },
   {
@@ -5631,6 +6605,17 @@
     ]
   },
   {
+    "id": "Shipwreck_salvaging",
+    "caption": "12-25",
+    "category": "skilling",
+    "sortingGroups": ["sailing"],
+    "requiredLevel": [12, 25],
+    "notableDrops": [
+      "Small_salvage",
+      "Plundered_salvage"
+    ]
+  },
+  {
     "id": "Shooting_Stars",
     "caption": "10-90",
     "category": "skilling",
@@ -5674,8 +6659,8 @@
     "sortingGroups": ["thieving", "smithing"],
     "requiredLevel": 82,
     "notableDrops": [
-      "Iron_ore",
       "Coal",
+      "Iron_ore",
       "Silver_ore",
       "Gold_ore",
       "Mithril_ore",
@@ -5693,7 +6678,7 @@
     ]
   },
   {
-    "id": "Silver_bars",
+    "id": "Silver_bar",
     "title": "Silver",
     "category": "skilling",
     "sortingGroups": ["smithing"],
@@ -5706,7 +6691,7 @@
   },
   {
     "id": "Silver_bar#Products",
-    "title": "Silver Jewellery",
+    "title": "Silver",
     "caption": "1-45",
     "category": "skilling",
     "sortingGroups": ["crafting"],
@@ -5739,9 +6724,9 @@
   },
   {
     "id": "Silver_rocks",
-    "title": "Silver Ore",
+    "title": "Silver",
     "category": "skilling",
-    "sortingGroups": ["mining", "crafting"],
+    "sortingGroups": ["mining", "smithing", "crafting"],
     "requiredLevel": 20,
     "notableDrops": [
       "Silver_ore"
@@ -5763,7 +6748,7 @@
     "title": "Shrimp | Anchovies",
     "caption": "1-15",
     "category": "skilling",
-    "sortingGroups": ["fishing"],
+    "sortingGroups": ["fishing", "cooking"],
     "requiredLevel": [1, 15],
     "notableDrops": [
       "Small_fishing_net",
@@ -5837,7 +6822,7 @@
   {
     "id": "Spice_stall",
     "category": "skilling",
-    "sortingGroups": ["thieving", "cooking"],
+    "sortingGroups": ["thieving"],
     "requiredLevel": 65,
     "notableDrops": [
       "Spice"
@@ -5958,7 +6943,7 @@
     ]
   },
   {
-    "id": "Steel_bars",
+    "id": "Steel_bar",
     "title": "Steel",
     "caption": "30-49",
     "category": "skilling",
@@ -5973,6 +6958,22 @@
       "Steel_full_helm",
       "Steel_platebody",
       "Steel_platelegs"
+    ]
+  },
+  {
+    "id": "Steel_bar#Sailing",
+    "title": "Steel",
+    "caption": "35/38",
+    "category": "skilling",
+    "sortingGroups": ["smithing"],
+    "requiredLevel": [35, 38],
+    "notableDrops": [
+      "Iron_ore",
+      "#transmute",
+      "Steel_bar",
+      "#transmute",
+      "Steel_cannonball",
+      "Steel_keel_part"
     ]
   },
   {
@@ -6137,6 +7138,34 @@
     ]
   },
   {
+    "id": "Super_fishing_potion",
+    "category": "skilling",
+    "sortingGroups": ["herblore"],
+    "requiredLevel": 62,
+    "notableDrops": [
+      "Vial_of_water",
+      "#plus",
+      "Pillar_coral",
+      "Haddock_eye",
+      "#equals",
+      "Super_fishing_potion"
+    ]
+  },
+  {
+    "id": "Super_hunter_potion",
+    "category": "skilling",
+    "sortingGroups": ["herblore"],
+    "requiredLevel": 67,
+    "notableDrops": [
+      "Vial_of_water",
+      "#plus",
+      "Pillar_coral",
+      "Crab_paste",
+      "#equals",
+      "Super_hunter_potion"
+    ]
+  },
+  {
     "id": "Super_restore",
     "category": "skilling",
     "sortingGroups": ["herblore"],
@@ -6244,6 +7273,17 @@
     ]
   },
   {
+    "id": "Swordtip_squid",
+    "category": "skilling",
+    "sortingGroups": ["cooking"],
+    "requiredLevel": 56,
+    "notableDrops": [
+      "Raw_swordtip_squid",
+      "#transmute",
+      "Swordtip_squid"
+    ]
+  },
+  {
     "id": "Tanner",
     "category": "skilling",
     "sortingGroups": ["crafting"],
@@ -6258,6 +7298,19 @@
     ]
   },
   {
+    "id": "Tarnished_pirate_chest",
+    "category": "skilling",
+    "sortingGroups": ["thieving"],
+    "requiredLevel": 54,
+    "notableDrops": [
+      "Coins",
+      "Pillar_coral",
+      "Steel_cannonball",
+      "Mithril_cannonball",
+      "Clue_scroll_(medium)"
+    ]
+  },
+  {
     "id": "Tea_stall",
     "category": "skilling",
     "sortingGroups": ["thieving"],
@@ -6267,7 +7320,22 @@
     ]
   },
   {
+    "id": "Teak_hull_part",
+    "title": "Teak",
+    "category": "skilling",
+    "sortingGroups": ["construction", "sailing"],
+    "requiredLevel": 23,
+    "notableDrops": [
+      "Teak_logs",
+      "#transmute",
+      "Teak_plank",
+      "#transmute",
+      "Teak_hull_part"
+    ]
+  },
+  {
     "id": "Teak_logs",
+    "title": "Teak",
     "category": "skilling",
     "sortingGroups": ["firemaking"],
     "requiredLevel": 35,
@@ -6278,9 +7346,22 @@
     ]
   },
   {
-    "id": "Teak_tree",
+    "id": "Teak_plank",
+    "title": "Teak",
+    "caption": "500gp",
     "category": "skilling",
-    "sortingGroups": ["woodcutting", "construction"],
+    "sortingGroups": ["construction"],
+    "notableDrops": [
+      "Teak_logs",
+      "#transmute",
+      "Teak_plank"
+    ]
+  },
+  {
+    "id": "Teak_tree",
+    "title": "Teak",
+    "category": "skilling",
+    "sortingGroups": ["woodcutting", "construction", "firemaking"],
     "requiredLevel": 35,
     "notableDrops": [
       "Teak_logs"
@@ -6299,9 +7380,9 @@
   },
   {
     "id": "Tin_rocks",
-    "title": "Tin Ore",
+    "title": "Tin",
     "category": "skilling",
-    "sortingGroups": ["mining"],
+    "sortingGroups": ["mining", "smithing"],
     "requiredLevel": 1,
     "notableDrops": [
       "Tin_ore"
@@ -6347,7 +7428,7 @@
   {
     "id": "Tree",
     "category": "skilling",
-    "sortingGroups": ["woodcutting"],
+    "sortingGroups": ["woodcutting", "fletching", "firemaking"],
     "requiredLevel": 1,
     "notableDrops": [
       "Logs"
@@ -6417,9 +7498,38 @@
     ]
   },
   {
-    "id": "Underwater_Agility_and_Thieving",
+    "id": "Umbral_frag",
+    "title": "Umbral Coral",
     "category": "skilling",
-    "sortingGroups": ["thieving", "agility"],
+    "sortingGroups": ["farming", "herblore"],
+    "requiredLevel": 77,
+    "notableDrops": [
+      "Umbral_frag",
+      "#transmute",
+      "Umbral_coral"
+    ]
+  },
+  {
+    "id": "Underwater_Agility_and_Thieving#Agility",
+    "title": "Underwater Agility",
+    "category": "skilling",
+    "sortingGroups": ["agility"],
+    "requiredLevel": 1,
+    "notableDrops": [
+      "Glistening_tear",
+      "Mermaid's_tear",
+      "#transmute",
+      "Seaweed_spore",
+      "Bowl_of_fish",
+      "Fossil_Island_fossil",
+      "Merfolk_trident"
+    ]
+  },
+  {
+    "id": "Underwater_Agility_and_Thieving#Thieving",
+    "title": "Underwater Thieving",
+    "category": "skilling",
+    "sortingGroups": ["thieving"],
     "requiredLevel": 1,
     "notableDrops": [
       "Glistening_tear",
@@ -6456,7 +7566,7 @@
     "id": "Veg_stall",
     "title": "Vegetable Stall",
     "category": "skilling",
-    "sortingGroups": ["thieving", "cooking"],
+    "sortingGroups": ["thieving"],
     "requiredLevel": 2,
     "notableDrops": [
       "Potato",
@@ -6643,6 +7753,7 @@
   },
   {
     "id": "Willow_logs",
+    "title": "Willow",
     "caption": "30-42",
     "category": "skilling",
     "sortingGroups": ["fletching"],
@@ -6659,7 +7770,7 @@
   },
   {
     "id": "Willow_logs#Firemaking",
-    "title": "Willow Logs",
+    "title": "Willow",
     "category": "skilling",
     "sortingGroups": ["firemaking"],
     "requiredLevel": 30,
@@ -6671,8 +7782,9 @@
   },
   {
     "id": "Willow_tree",
+    "title": "Willow",
     "category": "skilling",
-    "sortingGroups": ["woodcutting"],
+    "sortingGroups": ["woodcutting", "fletching", "firemaking"],
     "requiredLevel": 30,
     "notableDrops": [
       "Willow_logs"
@@ -6699,6 +7811,20 @@
       "Jug_of_water",
       "#equals",
       "Wine_of_zamorak"
+    ]
+  },
+  {
+    "id": "Wood_hull_part",
+    "title": "Wood",
+    "category": "skilling",
+    "sortingGroups": ["construction", "sailing"],
+    "requiredLevel": 1,
+    "notableDrops": [
+      "Logs",
+      "#transmute",
+      "Plank",
+      "#transmute",
+      "Wood_hull_part"
     ]
   },
   {
@@ -6771,7 +7897,19 @@
     ]
   },
   {
+    "id": "Yellowfin_tuna",
+    "category": "skilling",
+    "sortingGroups": ["cooking"],
+    "requiredLevel": 79,
+    "notableDrops": [
+      "Raw_yellowfin_tuna",
+      "#transmute",
+      "Yellowfin_tuna"
+    ]
+  },
+  {
     "id": "Yew_logs",
+    "title": "Yew",
     "caption": "60-72",
     "category": "skilling",
     "sortingGroups": ["fletching"],
@@ -6788,7 +7926,7 @@
   },
   {
     "id": "Yew_logs#Firemaking",
-    "title": "Yew Logs",
+    "title": "Yew",
     "category": "skilling",
     "sortingGroups": ["firemaking"],
     "requiredLevel": 60,
@@ -6800,8 +7938,9 @@
   },
   {
     "id": "Yew_tree",
+    "title": "Yew",
     "category": "skilling",
-    "sortingGroups": ["woodcutting"],
+    "sortingGroups": ["woodcutting", "fletching", "firemaking"],
     "requiredLevel": 60,
     "notableDrops": [
       "Yew_logs"
@@ -6824,7 +7963,7 @@
   },
   {
     "id": "Zenyte#Crafting",
-    "title": "Zenyte Jewellery",
+    "title": "Zenyte",
     "caption": "89-98",
     "category": "skilling",
     "sortingGroups": ["crafting"],

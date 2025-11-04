@@ -1293,6 +1293,12 @@
     ]
   },
   {
+    "id": "Pandemonium",
+    "rewards": [
+      { "skill": "sailing", "experience": 512 }
+    ]
+  },
+  {
     "id": "Perilous_Moons",
     "questRequirements": [
       "Twilight's_Promise"
@@ -2229,6 +2235,20 @@
     ]
   },
   {
+    "id": "The_Red_Reef",
+    "questRequirements": [
+      "Troubled_Tortugans"
+    ],
+    "skillRequirements": [
+      { "skill": "smithing", "level": 48 },
+      { "skill": "sailing", "level": 52 }
+    ],
+    "rewards": [
+      { "skill": "sailing", "experience": 15000 },
+      { "skill": "smithing", "experience": 5000 }
+    ]
+  },
+  {
     "id": "The_Restless_Ghost",
     "rewards": [
       { "skill": "prayer", "experience": 1125 }
@@ -2334,6 +2354,24 @@
     ],
     "skillRequirements": [
       { "skill": "agility", "level": 15 }
+    ]
+  },
+  {
+    "id": "Troubled_Tortugans",
+    "questRequirements": [
+      "Pandemonium"
+    ],
+    "skillRequirements": [
+      { "skill": "crafting", "level": 34 },
+      { "skill": "woodcutting", "level": 40 },
+      { "skill": "hunter", "level": 45 },
+      { "skill": "sailing", "level": 45 },
+      { "skill": "construction", "level": 48 },
+      { "skill": "slayer", "level": 51 }
+    ],
+    "rewards": [
+      { "skill": "sailing", "experience": 10000 },
+      { "skill": "slayer", "experience": 8000 }
     ]
   },
   {

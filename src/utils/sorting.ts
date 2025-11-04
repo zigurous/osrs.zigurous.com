@@ -96,6 +96,7 @@ const iconSortOrder = [
   'Firemaking_icon',
   'Woodcutting_icon',
   'Farming_icon',
+  'Sailing_icon',
   // other
   'Flax',
   'Crystal_key',
@@ -111,4 +112,5 @@ const iconSortOrder = [
   'Anvil_icon',
   'Furnace_icon',
   'Cooking_range_icon',
+  'Port_map_icon',
 ];

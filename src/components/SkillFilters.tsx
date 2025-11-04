@@ -11,15 +11,17 @@ import type { Skill } from '../types/skill';
 interface SkillFiltersProps {
   className?: string;
   disabledFilters?: Skill[];
+  filters?: readonly Skill[];
 }
 
 export default function SkillFilters({
   className,
   disabledFilters = [],
+  filters = skills,
 }: SkillFiltersProps) {
   return (
     <div className={classNames('skill-filters', className)}>
-      {skills.map(skill => (
+      {filters.map(skill => (
         <SkillFilterButton
           disabled={disabledFilters.includes(skill)}
           filter={skill}

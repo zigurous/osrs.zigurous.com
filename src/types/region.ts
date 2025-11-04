@@ -9,7 +9,8 @@ export type RegionId =
   | 'morytania'
   | 'tirannwn'
   | 'varlamore'
-  | 'wilderness';
+  | 'wilderness'
+  | 'sailing';
 
 export interface Region {
   id: RegionId;

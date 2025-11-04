@@ -5,6 +5,9 @@ export default function WorldMapSVG(
 ) {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 463 215" {...props}>
+      <g id="sailing">
+        <rect width="463" height="215" opacity="0" />
+      </g>
       <g id="wilderness">
         <path
           className="color-outline"

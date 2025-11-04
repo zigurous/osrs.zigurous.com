@@ -68,9 +68,8 @@ export default function RegionPanelResources({
         style={{ marginTop: '-8px' }}
       >
         This is not a comprehensive list of all resources in the region(s). It
-        only includes the most accessible items that are gathered and crafted
-        from skills as well as items bought from shops and common loot drops
-        from monsters.
+        includes the most accessible items found throughout the region(s) via
+        gathering, crafting, loot drops, and shops.
       </Text>
       <ul className="drops-list">
         {runes.length > 0 && (
@@ -129,7 +128,12 @@ export default function RegionPanelResources({
         {secondaries.length > 0 && (
           <TitledCard
             title="Secondaries"
-            captionIcon={<WikiIcon icon="Herblore_icon" size={18} />}
+            captionIcon={
+              <Stack align="center" spacing="sm">
+                <WikiIcon icon="Herblore_icon" size={18} />
+                <WikiIcon icon="Farming_icon" size={18} />
+              </Stack>
+            }
           >
             <ItemsStack items={secondaries} />
           </TitledCard>
@@ -180,11 +184,13 @@ const itemIds = {
     'Iron_bar',
     'Elemental_metal',
     'Silver_bar',
+    'Lead_bar',
     'Steel_bar',
     'Gold_bar',
     'Lovakite_bar',
     'Mithril_bar',
     'Adamantite_bar',
+    'Cupronickel_bar',
     'Runite_bar',
   ],
   food: [
@@ -193,6 +199,7 @@ const itemIds = {
     'Cooked_meat',
     'Bread',
     'Trout',
+    'Red_crab_meat',
     'Salmon',
     'Tuna',
     'Jug_of_wine',
@@ -200,17 +207,25 @@ const itemIds = {
     'Cake',
     'Lobster',
     'Bass',
+    'Blue_crab_meat',
     'Plain_pizza',
     'Swordfish',
+    'Swordtip_squid',
     'Snowy_knight_mix',
     'Potato_with_cheese',
     'Monkfish',
+    'Giant_krill',
     'Cooked_karambwan',
     'Blighted_karambwan',
+    'Jumbo_squid',
+    'Haddock',
+    'Rainbow_crab_meat',
+    'Yellowfin_tuna',
     'Curry',
     'Ugthanki_kebab',
     'Guthix_rest',
     'Shark',
+    'Halibut',
     'Mushroom_potato',
     'Sea_turtle',
     'Cooked_sunlight_antelope',
@@ -218,12 +233,14 @@ const itemIds = {
     'Wild_pie',
     'Summer_pie',
     'Tuna_potato',
-    'Dark_crab',
     'Manta_ray',
     'Blighted_manta_ray',
     'Anglerfish',
     'Blighted_anglerfish',
+    'Dark_crab',
+    'Bluefin_tuna',
     'Cooked_dashing_kebbit',
+    'Marlin',
     'Cooked_moonlight_antelope',
     'Saradomin_brew',
   ],
@@ -255,6 +272,7 @@ const itemIds = {
     'Oak_logs',
     'Willow_logs',
     'Teak_logs',
+    'Jatoba_logs',
     'Juniper_logs',
     'Bark',
     'Maple_logs',
@@ -262,14 +280,25 @@ const itemIds = {
     'Arctic_pine_logs',
     'Yew_logs',
     'Blisterwood_logs',
+    'Camphor_logs',
     'Magic_logs',
+    'Ironwood_logs',
     'Redwood_logs',
+    'Rosewood_logs',
   ],
   misc: [
     'Plank',
+    'Oak_plank',
+    'Teak_plank',
+    'Mahogany_plank',
+    'Camphor_plank',
+    'Ironwood_plank',
+    'Rosewood_plank',
     'Mushroom',
     'Swamp_paste',
     'Flax',
+    'Hemp',
+    'Cotton_boll',
     'Bow_string',
     'Seaweed',
     'Bucket_of_sand',
@@ -292,19 +321,22 @@ const itemIds = {
     'Condensed_gold',
   ],
   ores: [
-    'Tin_ore',
     'Copper_ore',
+    'Tin_ore',
     'Blurite_ore',
     'Iron_ore',
-    'Coal',
+    'Daeyalt_ore',
     'Silver_ore',
+    'Lead_ore',
+    'Coal',
     'Gold_ore',
+    'Rubium',
     'Mithril_ore',
     'Lunar_ore',
     'Lovakite_ore',
     'Adamantite_ore',
+    'Nickel_ore',
     'Runite_ore',
-    'Daeyalt_ore',
     'Amethyst',
     'Infernal_shale',
   ],
@@ -390,6 +422,9 @@ const itemIds = {
     'Magic_roots',
     'Limpwurt_root',
     'Snape_grass',
+    'Elkhorn_coral',
+    'Pillar_coral',
+    'Umbral_coral',
     'Bird_nest',
     'Lily_of_the_sands',
     'Nightshade',
@@ -417,7 +452,13 @@ const itemIds = {
     'Aldarium',
     'Ancient_essence',
     "Zulrah's_scales",
+    'Marlin_scales',
+    'Haddock_eye',
+    'Yellow_tuna_fin',
     'Swamp_tar',
+    'Crab_paste',
+    'Squid_paste',
+    'Rainbow_crab_paste',
   ],
 };
 
@@ -427,6 +468,8 @@ const healing: Record<string, number | string> = {
   ['Blighted_anglerfish']: '3-22',
   ['Blighted_karambwan']: 18,
   ['Blighted_manta_ray']: 22,
+  ['Blue_crab_meat']: 14,
+  ['Bluefin_tuna']: 22,
   ['Bread']: 5,
   ['Cake']: '4x3',
   ['Cooked_chicken']: 3,
@@ -437,15 +480,22 @@ const healing: Record<string, number | string> = {
   ['Cooked_sunlight_antelope']: '12+9',
   ['Curry']: 19,
   ['Dark_crab']: 22,
+  ['Giant_krill']: 17,
   ['Guthix_rest']: '5x4',
+  ['Haddock']: 18,
+  ['Halibut']: 20,
   ['Jug_of_wine']: 11,
+  ['Jumbo_squid']: 18,
   ['Lobster']: 12,
   ['Manta_ray']: 22,
+  ['Marlin']: 24,
   ['Monkfish']: 16,
   ['Mushroom_potato']: 20,
   ['Pineapple_pizza']: '11x2',
   ['Plain_pizza']: '7x2',
   ['Potato_with_cheese']: 16,
+  ['Rainbow_crab_meat']: 19,
+  ['Red_crab_meat']: 8,
   ['Salmon']: 9,
   ['Saradomin_brew']: '16x4',
   ['Sea_turtle']: 21,
@@ -455,9 +505,11 @@ const healing: Record<string, number | string> = {
   ['Stew']: 11,
   ['Summer_pie']: '11x2',
   ['Swordfish']: 14,
+  ['Swordtip_squid']: 15,
   ['Trout']: 7,
   ['Tuna_potato']: 22,
   ['Tuna']: 10,
   ['Ugthanki_kebab']: 19,
   ['Wild_pie']: '11x2',
+  ['Yellowfin_tuna']: 19,
 };

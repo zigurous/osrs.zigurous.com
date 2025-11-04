@@ -83,7 +83,7 @@
   {
     "id": "Fishing_Guild",
     "category": "guild",
-    "sortingGroups": ["fishing"],
+    "sortingGroups": ["fishing", "cooking"],
     "requiredLevel": 68,
     "notableDrops": [
       "Raw_mackerel",

@@ -30,9 +30,11 @@
           "Zamorakian_hasta",
           "Zamorakian_hasta#*",
           "Zombie_axe",
+          "Belle's_Folly",
           "Dragon_scimitar",
           "Toktz-xil-ak",
-          "Leaf-bladed_battleaxe"
+          "Leaf-bladed_battleaxe",
+          "Dragon_spear"
         ]
       },
       {
@@ -218,7 +220,8 @@
           "Treasonous_ring#Stab",
           "Tyrannical_ring",
           "Granite_ring",
-          "Explorer's_ring_4"
+          "Explorer's_ring_4",
+          "Ring_of_recoil"
         ]
       },
       {
@@ -243,26 +246,29 @@
           "Thunder_khopesh",
           "Ghrazi_rapier#Leagues",
           "Blade_of_saeldor#Leagues",
-          "Abyssal_dagger#Leagues",
           "Zamorakian_hasta#Leagues",
+          "Abyssal_dagger#Leagues",
           "Dragon_hunter_lance#Leagues",
-          "Toktz-xil-ak#Leagues",
           "Leaf-bladed_sword#Leagues",
+          "Toktz-xil-ak#Leagues",
           "Dragon_scimitar#Leagues",
           "Osmumten's_fang",
           "Ghrazi_rapier",
+          "Blade_of_saeldor",
           "Zamorakian_hasta",
           "Zamorakian_hasta#*",
           "Abyssal_dagger",
+          "Voidwaker",
           "Dragon_hunter_lance",
           "Dragon_hunter_lance#*",
-          "Voidwaker",
-          "Blade_of_saeldor",
+          "Belle's_Folly",
           "Dragon_sword",
-          "Dual_macuahuitl",
-          "Toktz-xil-ak",
+          "Arkan_blade",
           "Leaf-bladed_sword",
+          "Toktz-xil-ak",
+          "Dragon_scimitar",
           "Dragon_dagger",
+          "Dragon_spear",
           "Unarmed"
         ]
       }
@@ -299,6 +305,8 @@
           "Leaf-bladed_battleaxe",
           "Sulphur_blades",
           "Toktz-xil-ak",
+          "Rune_scimitar",
+          "Dragon_spear",
           "Unarmed"
         ]
       }
@@ -336,6 +344,7 @@
           "Keris_partisan",
           "Barronite_mace",
           "Rune_mace",
+          "Dragon_spear",
           "Unarmed"
         ]
       }
@@ -360,6 +369,7 @@
           "Osmumten's_fang",
           "Granite_maul",
           "Dragon_dagger",
+          "Dragon_spear",
           "Nothing"
         ]
       }
@@ -388,6 +398,7 @@
           "Zaryte_crossbow",
           "Dragon_hunter_crossbow",
           "Eclipse_atlatl",
+          "Rosewood_blowpipe",
           "Scorching_bow",
           "Webweaver_bow",
           "Venator_bow",
@@ -405,6 +416,7 @@
           "Thousand-dragon_ward",
           "Dragonfire_ward",
           "Dragonfire_ward#*",
+          "Aquanite_hopper",
           "Antler_guard",
           "Odium_ward",
           "Book_of_law",
@@ -547,7 +559,8 @@
           "Ring_of_suffering_(i)",
           "Ring_of_the_gods",
           "Granite_ring",
-          "Explorer's_ring_4"
+          "Explorer's_ring_4",
+          "Ring_of_recoil"
         ]
       },
       {
@@ -571,6 +584,7 @@
           "Dragon_knife",
           "Dark_bow",
           "Heavy_ballista",
+          "Rosewood_blowpipe",
           "Tonalztics_of_ralos",
           "Seercull",
           "Scorching_bow",
@@ -764,7 +778,8 @@
           "Ring_of_the_gods",
           "Granite_ring",
           "Beacon_ring",
-          "Explorer's_ring_4"
+          "Explorer's_ring_4",
+          "Ring_of_recoil"
         ]
       },
       {

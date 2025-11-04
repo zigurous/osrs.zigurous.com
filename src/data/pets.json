@@ -84,6 +84,12 @@
     "tags": ["pet"]
   },
   {
+    "id": "Gryphon_pet",
+    "icon": "Shellbane_gryphon",
+    "source": "Shellbane_Gryphon",
+    "tags": ["pet"]
+  },
+  {
     "id": "Hellcat",
     "icon": "Hell-kitten",
     "source": "Hell-Rat",
@@ -280,6 +286,12 @@
   {
     "id": "Rocky",
     "source": "Thieving",
+    "tags": ["pet"]
+  },
+  {
+    "id": "Sailing_pet",
+    "icon": "Raw_sea_turtle",
+    "source": "Sailing",
     "tags": ["pet"]
   },
   {
