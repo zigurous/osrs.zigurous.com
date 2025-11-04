@@ -1,6 +1,6 @@
 import { useLocalStorage } from '@zigurous/forge-react';
 import { graphql, useStaticQuery } from 'gatsby';
-import React, { createContext, useCallback, useContext, useState } from 'react';
+import React, { createContext, useContext, useState } from 'react';
 import type { GridMasterTile } from '../types/grid-master';
 
 interface GridMasterContextData {
