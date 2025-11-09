@@ -682,8 +682,7 @@
     "regions_single": ["asgarnia"]
   },
   {
-    "id": "Belle's_Folly",
-    "icon": "Gleaming_rapier",
+    "id": "Belle's_folly",
     "slot": "weapon",
     "tags": ["1h"],
     "regions": ["sailing"],
@@ -1077,7 +1076,8 @@
     "tags": ["2h"],
     "regions": ["sailing"],
     "ammo": {
-      "id": "Mithril_dart"
+      "id": "Mithril_dart",
+      "icon": "Mithril_dart"
     },
     "requirements": [
       { "skill": "ranged", "level": 45 }
@@ -1850,6 +1850,52 @@
     ]
   },
   {
+    "id": "Explorer's_ring_2",
+    "slot": "ring",
+    "regions": ["misthalin"],
+    "requirements": [
+      { "skill": "strength", "level": 19 },
+      { "skill": "ranged", "level": 50 },
+      { "skill": "magic", "level": 31 },
+      { "skill": "runecraft", "level": 23 },
+      { "skill": "agility", "level": 20 },
+      { "skill": "thieving", "level": 38 },
+      { "skill": "crafting", "level": 38 },
+      { "skill": "slayer", "level": 18 },
+      { "skill": "hunter", "level": 42 },
+      { "skill": "mining", "level": 15 },
+      { "skill": "fishing", "level": 30 },
+      { "skill": "firemaking", "level": 15 },
+      { "skill": "woodcutting", "level": 36 }
+    ]
+  },
+  {
+    "id": "Explorer's_ring_3",
+    "slot": "ring",
+    "regions": ["misthalin"],
+    "requirements": [
+      { "skill": "strength", "level": 19 },
+      { "skill": "ranged", "level": 50 },
+      { "skill": "prayer", "level": 52 },
+      { "skill": "magic", "level": 60 },
+      { "skill": "runecraft", "level": 59 },
+      { "skill": "agility", "level": 46 },
+      { "skill": "herblore", "level": 25 },
+      { "skill": "thieving", "level": 53 },
+      { "skill": "crafting", "level": 70 },
+      { "skill": "fletching", "level": 10 },
+      { "skill": "slayer", "level": 18 },
+      { "skill": "hunter", "level": 42 },
+      { "skill": "mining", "level": 50 },
+      { "skill": "smithing", "level": 40 },
+      { "skill": "fishing", "level": 53 },
+      { "skill": "cooking", "level": 70 },
+      { "skill": "firemaking", "level": 65 },
+      { "skill": "woodcutting", "level": 57 },
+      { "skill": "farming", "level": 63 }
+    ]
+  },
+  {
     "id": "Explorer's_ring_4",
     "slot": "ring",
     "regions": ["misthalin"],
@@ -1985,9 +2031,34 @@
     ]
   },
   {
+    "id": "Ghommal's_hilt_1",
+    "slot": "shield",
+    "regions": ["asgarnia"]
+  },
+  {
+    "id": "Ghommal's_hilt_2",
+    "slot": "shield",
+    "regions": ["asgarnia"]
+  },
+  {
+    "id": "Ghommal's_hilt_3",
+    "slot": "shield",
+    "regions": ["asgarnia"]
+  },
+  {
+    "id": "Ghommal's_hilt_4",
+    "slot": "shield",
+    "regions": ["asgarnia"]
+  },
+  {
+    "id": "Ghommal's_hilt_5",
+    "slot": "shield",
+    "regions": ["asgarnia"]
+  },
+  {
     "id": "Ghommal's_avernic_defender_6",
     "slot": "shield",
-    "regions": ["morytania/asgarnia"],
+    "regions": ["asgarnia/morytania"],
     "requirements": [
       { "skill": "attack", "level": 70 },
       { "skill": "defence", "level": 70 }
@@ -2492,10 +2563,35 @@
     "tags": ["2h"],
     "regions": ["sailing"],
     "ammo": {
-      "id": "Adamant_dart"
+      "id": "Adamant_dart",
+      "icon": "Adamant_dart"
     },
     "requirements": [
       { "skill": "ranged", "level": 55 }
+    ]
+  },
+  {
+    "id": "Justiciar_chestguard",
+    "slot": "body",
+    "regions": ["morytania"],
+    "requirements": [
+      { "skill": "defence", "level": 75 }
+    ]
+  },
+  {
+    "id": "Justiciar_faceguard",
+    "slot": "head",
+    "regions": ["morytania"],
+    "requirements": [
+      { "skill": "defence", "level": 75 }
+    ]
+  },
+  {
+    "id": "Justiciar_legguards",
+    "slot": "legs",
+    "regions": ["morytania"],
+    "requirements": [
+      { "skill": "defence", "level": 75 }
     ]
   },
   {
@@ -3468,7 +3564,8 @@
     "tags": ["2h"],
     "regions": ["sailing"],
     "ammo": {
-      "id": "Adamant_dart"
+      "id": "Adamant_dart",
+      "icon": "Adamant_dart"
     },
     "requirements": [
       { "skill": "ranged", "level": 65 }
@@ -4321,9 +4418,6 @@
     "slot": "weapon",
     "tags": ["2h"],
     "regions": ["tirannwn"],
-    "ammo": {
-      "id": "Dragon_dart"
-    },
     "requirements": [
       { "skill": "ranged", "level": 75 }
     ]

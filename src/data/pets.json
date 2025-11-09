@@ -84,8 +84,8 @@
     "tags": ["pet"]
   },
   {
-    "id": "Gryphon_pet",
-    "icon": "Shellbane_gryphon",
+    "id": "Gull_(pet)",
+    "name": "Gull",
     "source": "Shellbane_Gryphon",
     "tags": ["pet"]
   },
@@ -289,12 +289,6 @@
     "tags": ["pet"]
   },
   {
-    "id": "Sailing_pet",
-    "icon": "Raw_sea_turtle",
-    "source": "Sailing",
-    "tags": ["pet"]
-  },
-  {
     "id": "Scorpia's_offspring",
     "source": "Scorpia",
     "tags": ["pet"]
@@ -317,6 +311,11 @@
   {
     "id": "Smolcano",
     "source": "Zalcano",
+    "tags": ["pet"]
+  },
+  {
+    "id": "Soup",
+    "source": "Sailing",
     "tags": ["pet"]
   },
   {

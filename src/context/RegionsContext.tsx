@@ -148,6 +148,7 @@ const dataQuery = graphql`
         guilds
         locations
         dungeons
+        islands
         monsters
         npcs
         misc

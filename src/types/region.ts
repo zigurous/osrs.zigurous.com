@@ -24,6 +24,7 @@ export interface Region {
   guilds: string[];
   locations: string[];
   dungeons: string[];
+  islands: string[];
   monsters: string[];
   npcs: string[];
   misc: string[];

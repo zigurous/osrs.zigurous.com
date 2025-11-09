@@ -35,7 +35,7 @@
     "title": "Adamantite",
     "caption": "74/75",
     "category": "skilling",
-    "sortingGroups": ["smithing"],
+    "sortingGroups": ["smithing", "sailing"],
     "requiredLevel": [74, 75],
     "notableDrops": [
       "Adamantite_ore",
@@ -43,7 +43,7 @@
       "Adamantite_bar",
       "#transmute",
       "Adamant_cannonball",
-      "Adamant_keel_part"
+      "Adamant_keel_parts"
     ]
   },
   {
@@ -311,20 +311,6 @@
       "Kronos_plant",
       "Iasor_plant",
       "Attas_plant"
-    ]
-  },
-  {
-    "id": "Anti-bleed_tonic",
-    "category": "skilling",
-    "sortingGroups": ["herblore"],
-    "requiredLevel": 56,
-    "notableDrops": [
-      "Vial_of_water",
-      "#plus",
-      "Elkhorn_coral",
-      "Squid_paste",
-      "#equals",
-      "Anti-bleed_tonic"
     ]
   },
   {
@@ -970,10 +956,10 @@
   },
   {
     "id": "Barracuda_Trials",
-    "caption": "30+",
+    "caption": "30-72",
     "category": "skilling",
     "sortingGroups": ["sailing"],
-    "requiredLevel": [30]
+    "requiredLevel": [30, 55, 72]
   },
   {
     "id": "Barronite_rocks",
@@ -1236,14 +1222,14 @@
     ]
   },
   {
-    "id": "Bluefin_tuna",
+    "id": "Bluefin",
     "category": "skilling",
     "sortingGroups": ["cooking"],
     "requiredLevel": 87,
     "notableDrops": [
-      "Raw_bluefin_tuna",
+      "Raw_bluefin",
       "#transmute",
-      "Bluefin_tuna"
+      "Bluefin"
     ]
   },
   {
@@ -1461,7 +1447,7 @@
     "title": "Bronze",
     "caption": "5/10",
     "category": "skilling",
-    "sortingGroups": ["smithing"],
+    "sortingGroups": ["smithing", "sailing"],
     "requiredLevel": [5, 10],
     "notableDrops": [
       "Tin_ore",
@@ -1470,7 +1456,7 @@
       "Bronze_bar",
       "#transmute",
       "Bronze_cannonball",
-      "Bronze_keel_part"
+      "Bronze_keel_parts"
     ]
   },
   {
@@ -1585,7 +1571,7 @@
     ]
   },
   {
-    "id": "Camphor_hull_part",
+    "id": "Camphor_hull_parts",
     "title": "Camphor",
     "category": "skilling",
     "sortingGroups": ["construction", "sailing"],
@@ -1595,7 +1581,7 @@
       "#transmute",
       "Camphor_plank",
       "#transmute",
-      "Camphor_hull_part"
+      "Camphor_hull_parts"
     ]
   },
   {
@@ -2133,6 +2119,18 @@
     ]
   },
   {
+    "id": "Coral_patch",
+    "caption": "28-75",
+    "category": "skilling",
+    "sortingGroups": ["farming"],
+    "requiredLevel": [28, 50, 75],
+    "notableDrops": [
+      "Elkhorn_coral",
+      "Pillar_coral",
+      "Umbral_coral"
+    ]
+  },
+  {
     "id": "Cosmic_Altar",
     "title": "Cosmic Runes",
     "category": "skilling",
@@ -2162,7 +2160,7 @@
     "sortingGroups": ["crafting"],
     "requiredLevel": 73,
     "notableDrops": [
-      "Cotton",
+      "Cotton_boll",
       "#transmute",
       "Cotton_yarn",
       "Bolt_of_cotton"
@@ -2483,17 +2481,17 @@
     ]
   },
   {
-    "id": "Deep_Sea_Trawling",
+    "id": "Deep_sea_trawling",
     "caption": "56-84",
     "category": "skilling",
     "sortingGroups": ["sailing", "fishing"],
-    "requiredLevel": [56, 65, 76, 84],
+    "requiredLevel": [56, 68, 79, 84],
     "notableDrops": [
       "Raw_giant_krill",
       "Raw_haddock",
-      "Raw_yellowfin_tuna",
+      "Raw_yellowfin",
       "Raw_halibut",
-      "Raw_bluefin_tuna",
+      "Raw_bluefin",
       "Raw_marlin"
     ]
   },
@@ -2544,7 +2542,17 @@
     ]
   },
   {
+    "id": "Docking_point#Aldarin",
+    "url": "https://oldschool.runescape.wiki/w/Aldarin",
+    "title": "Docking Point",
+    "subtitle": "Aldarin",
+    "category": "skilling",
+    "sortingGroups": ["sailing"],
+    "requiredLevel": 46
+  },
+  {
     "id": "Docking_point#Ardougne",
+    "url": "https://oldschool.runescape.wiki/w/Ardougne",
     "title": "Docking Point",
     "subtitle": "Ardougne",
     "category": "skilling",
@@ -2553,6 +2561,7 @@
   },
   {
     "id": "Docking_point#Brimhaven",
+    "url": "https://oldschool.runescape.wiki/w/Brimhaven",
     "title": "Docking Point",
     "subtitle": "Brimhaven",
     "category": "skilling",
@@ -2561,38 +2570,133 @@
   },
   {
     "id": "Docking_point#Cairn_Isle",
+    "url": "https://oldschool.runescape.wiki/w/Cairn_Isle",
     "title": "Docking Point",
     "subtitle": "Cairn Isle",
     "category": "skilling",
     "sortingGroups": ["sailing"],
-    "requiredLevel": 23
+    "requiredLevel": 42
   },
   {
     "id": "Docking_point#Catherby",
+    "url": "https://oldschool.runescape.wiki/w/Catherby",
     "title": "Docking Point",
     "subtitle": "Catherby",
     "category": "skilling",
     "sortingGroups": ["sailing"],
-    "requiredLevel": 21
+    "requiredLevel": 20
+  },
+  {
+    "id": "Docking_point#Chinchompa_Island",
+    "url": "https://oldschool.runescape.wiki/w/Chinchompa_Island",
+    "title": "Docking Point",
+    "subtitle": "Chinchompa Island",
+    "category": "skilling",
+    "sortingGroups": ["sailing"],
+    "requiredLevel": 42
+  },
+  {
+    "id": "Docking_point#Civitas_illa_Fortis",
+    "url": "https://oldschool.runescape.wiki/w/Civitas_illa_Fortis",
+    "title": "Docking Point",
+    "subtitle": "Civitas illa Fortis",
+    "category": "skilling",
+    "sortingGroups": ["sailing"],
+    "requiredLevel": 38
   },
   {
     "id": "Docking_point#Corsair_Cove",
+    "url": "https://oldschool.runescape.wiki/w/Corsair_Cove",
     "title": "Docking Point",
     "subtitle": "Corsair Cove",
     "category": "skilling",
     "sortingGroups": ["sailing"],
-    "requiredLevel": 30
+    "requiredLevel": 40
+  },
+  {
+    "id": "Docking_point#Drumstick_Isle",
+    "url": "https://oldschool.runescape.wiki/w/Drumstick_Isle",
+    "title": "Docking Point",
+    "subtitle": "Drumstick Isle",
+    "category": "skilling",
+    "sortingGroups": ["sailing"],
+    "requiredLevel": 79
   },
   {
     "id": "Docking_point#Entrana",
+    "url": "https://oldschool.runescape.wiki/w/Entrana",
     "title": "Docking Point",
     "subtitle": "Entrana",
     "category": "skilling",
     "sortingGroups": ["sailing"],
-    "requiredLevel": 22
+    "requiredLevel": 36
+  },
+  {
+    "id": "Docking_point#Etceteria",
+    "url": "https://oldschool.runescape.wiki/w/Etceteria",
+    "title": "Docking Point",
+    "subtitle": "Etceteria",
+    "category": "skilling",
+    "sortingGroups": ["sailing"],
+    "requiredLevel": 65
+  },
+  {
+    "id": "Docking_point#Hosidius",
+    "url": "https://oldschool.runescape.wiki/w/Hosidius",
+    "title": "Docking Point",
+    "subtitle": "Hosidius",
+    "category": "skilling",
+    "sortingGroups": ["sailing"],
+    "requiredLevel": 5
+  },
+  {
+    "id": "Docking_point#Isle_of_Souls",
+    "url": "https://oldschool.runescape.wiki/w/Isle_of_Souls",
+    "title": "Docking Point",
+    "subtitle": "Isle of Souls",
+    "category": "skilling",
+    "sortingGroups": ["sailing"],
+    "requiredLevel": 55
+  },
+  {
+    "id": "Docking_point#Jatizso",
+    "url": "https://oldschool.runescape.wiki/w/Jatizso",
+    "title": "Docking Point",
+    "subtitle": "Jatizso",
+    "category": "skilling",
+    "sortingGroups": ["sailing"],
+    "requiredLevel": 68
+  },
+  {
+    "id": "Docking_point#Land's_End",
+    "url": "https://oldschool.runescape.wiki/w/Land's_End",
+    "title": "Docking Point",
+    "subtitle": "Land's End",
+    "category": "skilling",
+    "sortingGroups": ["sailing"],
+    "requiredLevel": 5
+  },
+  {
+    "id": "Docking_point#Lledrith_Island",
+    "url": "https://oldschool.runescape.wiki/w/Lledrith_Island",
+    "title": "Docking Point",
+    "subtitle": "Lledrith Island",
+    "category": "skilling",
+    "sortingGroups": ["sailing"],
+    "requiredLevel": 66
+  },
+  {
+    "id": "Docking_point#Lunar_Isle",
+    "url": "https://oldschool.runescape.wiki/w/Lunar_Isle",
+    "title": "Docking Point",
+    "subtitle": "Lunar Isle",
+    "category": "skilling",
+    "sortingGroups": ["sailing"],
+    "requiredLevel": 76
   },
   {
     "id": "Docking_point#Musa_Point",
+    "url": "https://oldschool.runescape.wiki/w/Musa_Point",
     "title": "Docking Point",
     "subtitle": "Musa Point",
     "category": "skilling",
@@ -2600,7 +2704,26 @@
     "requiredLevel": 10
   },
   {
+    "id": "Docking_point#Neitiznot",
+    "url": "https://oldschool.runescape.wiki/w/Neitiznot",
+    "title": "Docking Point",
+    "subtitle": "Neitiznot",
+    "category": "skilling",
+    "sortingGroups": ["sailing"],
+    "requiredLevel": 68
+  },
+  {
+    "id": "Docking_point#Piscatoris",
+    "url": "https://oldschool.runescape.wiki/w/Piscatoris",
+    "title": "Docking Point",
+    "subtitle": "Piscatoris",
+    "category": "skilling",
+    "sortingGroups": ["sailing"],
+    "requiredLevel": 75
+  },
+  {
     "id": "Docking_point#Port_Khazard",
+    "url": "https://oldschool.runescape.wiki/w/Port_Khazard",
     "title": "Docking Point",
     "subtitle": "Port Khazard",
     "category": "skilling",
@@ -2608,7 +2731,17 @@
     "requiredLevel": 30
   },
   {
+    "id": "Docking_point#Port_Piscarilius",
+    "url": "https://oldschool.runescape.wiki/w/Port_Piscarilius",
+    "title": "Docking Point",
+    "subtitle": "Port Piscarilius",
+    "category": "skilling",
+    "sortingGroups": ["sailing"],
+    "requiredLevel": 15
+  },
+  {
     "id": "Docking_point#Port_Sarim",
+    "url": "https://oldschool.runescape.wiki/w/Port_Sarim",
     "title": "Docking Point",
     "subtitle": "Port Sarim",
     "category": "skilling",
@@ -2616,44 +2749,103 @@
     "requiredLevel": 1
   },
   {
+    "id": "Docking_point#Port_Tyras",
+    "url": "https://oldschool.runescape.wiki/w/Port_Tyras",
+    "title": "Docking Point",
+    "subtitle": "Port Tyras",
+    "category": "skilling",
+    "sortingGroups": ["sailing"],
+    "requiredLevel": 66
+  },
+  {
+    "id": "Docking_point#Prifddinas",
+    "url": "https://oldschool.runescape.wiki/w/Prifddinas",
+    "title": "Docking Point",
+    "subtitle": "Prifddinas",
+    "category": "skilling",
+    "sortingGroups": ["sailing"],
+    "requiredLevel": 70
+  },
+  {
+    "id": "Docking_point#Rellekka",
+    "url": "https://oldschool.runescape.wiki/w/Rellekka",
+    "title": "Docking Point",
+    "subtitle": "Rellekka",
+    "category": "skilling",
+    "sortingGroups": ["sailing"],
+    "requiredLevel": 62
+  },
+  {
     "id": "Docking_point#Rimmington",
+    "url": "https://oldschool.runescape.wiki/w/Rimmington",
     "title": "Docking Point",
     "subtitle": "Rimmington",
     "category": "skilling",
     "sortingGroups": ["sailing"],
-    "requiredLevel": 12
+    "requiredLevel": 18
   },
   {
     "id": "Docking_point#Ruins_of_Unkah",
+    "url": "https://oldschool.runescape.wiki/w/Ruins_of_Unkah",
     "title": "Docking Point",
     "subtitle": "Ruins of Unkah",
     "category": "skilling",
     "sortingGroups": ["sailing"],
-    "requiredLevel": 25
+    "requiredLevel": 48
   },
   {
-    "id": "Docking_point#The_Pandemonium",
+    "id": "Docking_point#Sunset_Coast",
+    "url": "https://oldschool.runescape.wiki/w/Sunset_Coast",
     "title": "Docking Point",
-    "subtitle": "The Pandemonium",
+    "subtitle": "Sunset Coast",
     "category": "skilling",
     "sortingGroups": ["sailing"],
-    "requiredLevel": 1
+    "requiredLevel": 44
   },
   {
     "id": "Docking_point#Void_Knights'_Outpost",
+    "url": "https://oldschool.runescape.wiki/w/Void_Knights'_Outpost",
     "title": "Docking Point",
     "subtitle": "Void Knights' Outpost",
     "category": "skilling",
     "sortingGroups": ["sailing"],
-    "requiredLevel": 29
+    "requiredLevel": 50
+  },
+  {
+    "id": "Docking_point#Waterbirth_Island",
+    "url": "https://oldschool.runescape.wiki/w/Waterbirth_Island",
+    "title": "Docking Point",
+    "subtitle": "Waterbirth Island",
+    "category": "skilling",
+    "sortingGroups": ["sailing"],
+    "requiredLevel": 74
+  },
+  {
+    "id": "Docking_point#Weiss",
+    "url": "https://oldschool.runescape.wiki/w/Weiss",
+    "title": "Docking Point",
+    "subtitle": "Weiss",
+    "category": "skilling",
+    "sortingGroups": ["sailing"],
+    "requiredLevel": 80
   },
   {
     "id": "Docking_point#Witchaven",
+    "url": "https://oldschool.runescape.wiki/w/Witchaven",
     "title": "Docking Point",
     "subtitle": "Witchaven",
     "category": "skilling",
     "sortingGroups": ["sailing"],
-    "requiredLevel": 24
+    "requiredLevel": 34
+  },
+  {
+    "id": "Docking_point#Ynysdail",
+    "url": "https://oldschool.runescape.wiki/w/Ynysdail",
+    "title": "Docking Point",
+    "subtitle": "Ynysdail",
+    "category": "skilling",
+    "sortingGroups": ["sailing"],
+    "requiredLevel": 73
   },
   {
     "id": "Dorgesh-Kaan_Agility_Course",
@@ -2700,16 +2892,16 @@
     ]
   },
   {
-    "id": "Dragon_sheet",
+    "id": "Dragon_metal_sheet",
     "title": "Dragon",
     "category": "skilling",
-    "sortingGroups": ["smithing"],
+    "sortingGroups": ["smithing", "sailing"],
     "requiredLevel": 94,
     "notableDrops": [
-      "Dragon_sheet",
+      "Dragon_metal_sheet",
       "#transmute",
       "Dragon_cannonball",
-      "Dragon_keel_part"
+      "Dragon_keel_parts"
     ]
   },
   {
@@ -2955,7 +3147,7 @@
     "notableDrops": [
       "Super_energy",
       "#plus",
-      "Yellow_tuna_fin",
+      "Yellow_fin",
       "#equals",
       "Extreme_energy_potion"
     ]
@@ -3877,6 +4069,23 @@
     ]
   },
   {
+    "id": "Haemostatic_dressing",
+    "category": "skilling",
+    "sortingGroups": ["herblore"],
+    "requiredLevel": 56,
+    "notableDrops": [
+      "Vial_of_water",
+      "#plus",
+      "Elkhorn_coral",
+      "Squid_paste",
+      "#transmute",
+      "Haemostatic_poultice",
+      "Cotton_yarn",
+      "#transmute",
+      "Haemostatic_dressing"
+    ]
+  },
+  {
     "id": "Halibut",
     "category": "skilling",
     "sortingGroups": ["cooking"],
@@ -4191,7 +4400,7 @@
     "title": "Iron",
     "caption": "20/22",
     "category": "skilling",
-    "sortingGroups": ["smithing"],
+    "sortingGroups": ["smithing", "sailing"],
     "requiredLevel": [20, 22],
     "notableDrops": [
       "Iron_ore",
@@ -4199,7 +4408,7 @@
       "Iron_bar",
       "#transmute",
       "Iron_cannonball",
-      "Iron_keel_part"
+      "Iron_keel_parts"
     ]
   },
   {
@@ -4213,7 +4422,7 @@
     ]
   },
   {
-    "id": "Ironwood_hull_part",
+    "id": "Ironwood_hull_parts",
     "title": "Ironwood",
     "category": "skilling",
     "sortingGroups": ["construction", "sailing"],
@@ -4223,7 +4432,7 @@
       "#transmute",
       "Ironwood_plank",
       "#transmute",
-      "Ironwood_hull_part"
+      "Ironwood_hull_parts"
     ]
   },
   {
@@ -4697,7 +4906,7 @@
     ]
   },
   {
-    "id": "Mahogany_hull_part",
+    "id": "Mahogany_hull_parts",
     "title": "Mahogany",
     "category": "skilling",
     "sortingGroups": ["construction", "sailing"],
@@ -4707,7 +4916,7 @@
       "#transmute",
       "Mahogany_plank",
       "#transmute",
-      "Mahogany_hull_part"
+      "Mahogany_hull_parts"
     ]
   },
   {
@@ -4950,15 +5159,15 @@
     "title": "Mithril",
     "caption": "55/56",
     "category": "skilling",
-    "sortingGroups": ["smithing"],
+    "sortingGroups": ["smithing", "sailing"],
     "requiredLevel": [55, 56],
     "notableDrops": [
       "Mithril_ore",
       "#transmute",
       "Mithril_bar",
       "#transmute",
-      "Steel_cannonball",
-      "Steel_keel_part"
+      "Mithril_cannonball",
+      "Mithril_keel_parts"
     ]
   },
   {
@@ -5094,7 +5303,7 @@
     ]
   },
   {
-    "id": "Oak_hull_part",
+    "id": "Oak_hull_parts",
     "title": "Oak",
     "category": "skilling",
     "sortingGroups": ["construction", "sailing"],
@@ -5104,7 +5313,7 @@
       "#transmute",
       "Oak_plank",
       "#transmute",
-      "Oak_hull_part"
+      "Oak_hull_parts"
     ]
   },
   {
@@ -5549,7 +5758,9 @@
     "sortingGroups": ["hunter", "cooking", "herblore"],
     "requiredLevel": 77,
     "notableDrops": [
-      "Rainbow_crab"
+      "Rainbow_crab_(1)",
+      "Rainbow_crab_(2)",
+      "Rainbow_crab_(3)"
     ]
   },
   {
@@ -5631,13 +5842,13 @@
     ]
   },
   {
-    "id": "Raw_bluefin_tuna",
-    "title": "Bluefin Tuna",
+    "id": "Raw_bluefin",
+    "title": "Bluefin",
     "category": "skilling",
     "sortingGroups": ["fishing", "cooking"],
     "requiredLevel": 87,
     "notableDrops": [
-      "Raw_bluefin_tuna"
+      "Raw_bluefin"
     ]
   },
   {
@@ -5945,13 +6156,13 @@
     ]
   },
   {
-    "id": "Raw_yellowfin_tuna",
-    "title": "Yellowfin Tuna",
+    "id": "Raw_yellowfin",
+    "title": "Yellowfin",
     "category": "skilling",
     "sortingGroups": ["fishing", "cooking", "herblore"],
     "requiredLevel": 79,
     "notableDrops": [
-      "Raw_yellowfin_tuna"
+      "Raw_yellowfin"
     ]
   },
   {
@@ -6138,7 +6349,7 @@
     ]
   },
   {
-    "id": "Rosewood_hull_part",
+    "id": "Rosewood_hull_parts",
     "title": "Rosewood",
     "category": "skilling",
     "sortingGroups": ["construction", "sailing"],
@@ -6148,7 +6359,7 @@
       "#transmute",
       "Rosewood_plank",
       "#transmute",
-      "Rosewood_hull_part"
+      "Rosewood_hull_parts"
     ]
   },
   {
@@ -6262,7 +6473,7 @@
     "title": "Runite",
     "caption": "86/90",
     "category": "skilling",
-    "sortingGroups": ["smithing"],
+    "sortingGroups": ["smithing", "sailing"],
     "requiredLevel": [86, 90],
     "notableDrops": [
       "Runite_ore",
@@ -6270,7 +6481,7 @@
       "Runite_bar",
       "#transmute",
       "Rune_cannonball",
-      "Rune_keel_part"
+      "Rune_keel_parts"
     ]
   },
   {
@@ -6450,17 +6661,18 @@
   },
   {
     "id": "Sea_charting",
-    "caption": "1-17",
+    "caption": "1-57",
     "category": "skilling",
     "sortingGroups": ["sailing"],
-    "requiredLevel": [1, 10, 13, 17],
+    "requiredLevel": [1, 12, 22, 38, 57],
     "notableDrops": [
       "Captain's_log",
       "Spyglass",
-      "Current_duck",
       "Crowbar",
+      "Current_duck",
       "Deep_sea_helmet",
-      "Deep_sea_apparatus"
+      "Deep_sea_apparatus",
+      "Portable_weather_station"
     ]
   },
   {
@@ -6606,13 +6818,19 @@
   },
   {
     "id": "Shipwreck_salvaging",
-    "caption": "12-25",
+    "caption": "15-87",
     "category": "skilling",
     "sortingGroups": ["sailing"],
-    "requiredLevel": [12, 25],
+    "requiredLevel": [15, 26, 35, 53, 64, 73, 80, 87],
     "notableDrops": [
       "Small_salvage",
-      "Plundered_salvage"
+      "Fishy_salvage",
+      "Barracuda_salvage",
+      "Large_salvage",
+      "Plundered_salvage",
+      "Martial_salvage",
+      "Fremennik_salvage",
+      "Opulent_salvage"
     ]
   },
   {
@@ -6965,7 +7183,7 @@
     "title": "Steel",
     "caption": "35/38",
     "category": "skilling",
-    "sortingGroups": ["smithing"],
+    "sortingGroups": ["smithing", "sailing"],
     "requiredLevel": [35, 38],
     "notableDrops": [
       "Iron_ore",
@@ -6973,7 +7191,7 @@
       "Steel_bar",
       "#transmute",
       "Steel_cannonball",
-      "Steel_keel_part"
+      "Steel_keel_parts"
     ]
   },
   {
@@ -7004,6 +7222,16 @@
       "Limpwurt_root",
       "#equals",
       "Strength_potion(3)"
+    ]
+  },
+  {
+    "id": "Strykewyrm_bones",
+    "caption": "60xp",
+    "category": "skilling",
+    "sortingGroups": ["prayer"],
+    "requiredLevel": 1,
+    "notableDrops": [
+      "Strykewyrm_bones"
     ]
   },
   {
@@ -7320,7 +7548,7 @@
     ]
   },
   {
-    "id": "Teak_hull_part",
+    "id": "Teak_hull_parts",
     "title": "Teak",
     "category": "skilling",
     "sortingGroups": ["construction", "sailing"],
@@ -7330,7 +7558,7 @@
       "#transmute",
       "Teak_plank",
       "#transmute",
-      "Teak_hull_part"
+      "Teak_hull_parts"
     ]
   },
   {
@@ -7377,6 +7605,20 @@
       "Immature_tecu_salamander",
       "Tecu_salamander"
     ]
+  },
+  {
+    "id": "The_Great_Conch",
+    "subtitle": "Island",
+    "category": "skilling",
+    "sortingGroups": ["sailing"],
+    "requiredLevel": 45
+  },
+  {
+    "id": "The_Pandemonium",
+    "subtitle": "Island",
+    "category": "skilling",
+    "sortingGroups": ["sailing"],
+    "requiredLevel": 1
   },
   {
     "id": "Tin_rocks",
@@ -7814,7 +8056,7 @@
     ]
   },
   {
-    "id": "Wood_hull_part",
+    "id": "Wooden_hull_parts",
     "title": "Wood",
     "category": "skilling",
     "sortingGroups": ["construction", "sailing"],
@@ -7824,7 +8066,7 @@
       "#transmute",
       "Plank",
       "#transmute",
-      "Wood_hull_part"
+      "Wooden_hull_parts"
     ]
   },
   {
@@ -7897,14 +8139,14 @@
     ]
   },
   {
-    "id": "Yellowfin_tuna",
+    "id": "Yellowfin",
     "category": "skilling",
     "sortingGroups": ["cooking"],
     "requiredLevel": 79,
     "notableDrops": [
-      "Raw_yellowfin_tuna",
+      "Raw_yellowfin",
       "#transmute",
-      "Yellowfin_tuna"
+      "Yellowfin"
     ]
   },
   {

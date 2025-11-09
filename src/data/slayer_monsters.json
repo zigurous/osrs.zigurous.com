@@ -991,7 +991,7 @@
   },
   {
     "id": "Custodian_stalker",
-    "icon": "Antler_guard",
+    "icon": "Elder_custodian_stalker_icon",
     "caption": "54-76",
     "category": "monster",
     "sortingGroups": ["slayer", "pvm"],
@@ -1007,7 +1007,7 @@
       "Antler_guard",
       "Broken_antler",
       "Alchemist's_signet",
-      "Cannonball"
+      "Steel_cannonball"
     ]
   },
   {
@@ -1453,6 +1453,7 @@
   },
   {
     "id": "Frost_dragon",
+    "icon": "Frost_dragon_bones",
     "category": "monster",
     "sortingGroups": ["slayer", "pvm", "prayer"],
     "requiredSlayerLevel": 1,
@@ -1464,7 +1465,7 @@
       "Grimstone"
     ],
     "notableDrops": [
-      "Dragon_sheet",
+      "Dragon_metal_sheet",
       "Frost_dragon_bones",
       "Ensouled_dragon_head"
     ]
@@ -1737,6 +1738,7 @@
   },
   {
     "id": "Gryphon",
+    "icon": "Gryphon_feather",
     "category": "monster",
     "sortingGroups": ["slayer", "pvm"],
     "requiredSlayerLevel": 51,
@@ -2220,6 +2222,7 @@
   },
   {
     "id": "Lava_strykewyrm",
+    "icon": "Strykewyrm_bones",
     "category": "monster",
     "sortingGroups": ["slayer", "pvm"],
     "requiredSlayerLevel": 62,
@@ -2233,7 +2236,7 @@
       "Charred_Island_Dungeon"
     ],
     "notableDrops": [
-      "Dragon_sheet",
+      "Dragon_metal_sheet",
       "Strykewyrm_bones"
     ]
   },

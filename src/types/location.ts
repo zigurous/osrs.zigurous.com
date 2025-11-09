@@ -6,3 +6,6 @@ export interface GameLocation {
   region: string;
   tags?: string[];
 }
+
+export type Dungeon = GameLocation;
+export type Island = GameLocation;

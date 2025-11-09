@@ -618,8 +618,9 @@
     "sortingGroups": ["slayer", "pvm"],
     "recommendedCombatStyle": ["magic", "melee"],
     "notableDrops": [
-      "Gryphon_pet",
-      "Belle's_Folly"
+      "Gull_(pet)",
+      "Belle's_folly",
+      "Gryphon_feather"
     ]
   },
   {

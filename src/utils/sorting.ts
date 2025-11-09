@@ -1,6 +1,7 @@
 import { skills } from './constants';
 import { getIconForActivity } from './icons';
 import type { Activity } from '../types/activity';
+import type { Island } from '../types/location';
 import type { Skill } from '../types/skill';
 
 export function sortById(a: string, b: string): number {
@@ -26,6 +27,13 @@ export function sortByIcon(a: Activity, b: Activity): number {
   return sortByIndex(
     aIcon ? iconSortOrder.indexOf(aIcon) : -1,
     bIcon ? iconSortOrder.indexOf(bIcon) : -1,
+  );
+}
+
+export function sortByIsland(a: Island, b: Island): number {
+  return sortByIndex(
+    a.icon ? islandSortOrder.indexOf(a.icon) : -1,
+    b.icon ? islandSortOrder.indexOf(b.icon) : -1,
   );
 }
 
@@ -113,4 +121,33 @@ const iconSortOrder = [
   'Furnace_icon',
   'Cooking_range_icon',
   'Port_map_icon',
+];
+
+const islandSortOrder = [
+  'The_Pandemonium_icon',
+  'The_Summer_Shore_icon',
+  'Port_Roberts_icon',
+  'Dognose_Island_icon',
+  'The_Little_Pearl_icon',
+  'The_Onyx_Crest_icon',
+  'Charred_Island_icon',
+  'Deepfin_Point_icon',
+  'Vatrachos_Island_icon',
+  "Anglers'_Retreat_icon",
+  "Minotaurs'_Rest_icon",
+  'Isle_of_Bones_icon',
+  'Tear_of_the_Soul_icon',
+  'Wintumber_Island_icon',
+  'The_Crown_Jewel_icon',
+  "Rainbow's_End_icon",
+  'Sunbleak_Island_icon',
+  'Shimmering_Atoll_icon',
+  'Laguna_Aurorae_icon',
+  'Chinchompa_Island_icon',
+  'Lledrith_Island_icon',
+  'Ynysdail_icon',
+  "Buccaneers'_Haven_icon",
+  'Drumstick_Isle_icon',
+  'Brittle_Isle_icon',
+  'Grimstone_icon',
 ];

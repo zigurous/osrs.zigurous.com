@@ -124,6 +124,10 @@ export const createSchemaCustomization = ({
       transmutations: [String!]
       tooltip: String
     }
+    type ItemTablesJson implements Node @dontInfer {
+      jsonId: String!
+      items: [String!]!
+    }
     type LocationsJson implements Node @dontInfer {
       jsonId: String!
       name: String
@@ -220,23 +224,26 @@ export const createSchemaCustomization = ({
     type RecommendedSetupEquipmentItem {
       slot: String!
       item: String!
+      default: String
     }
     type RecommendedSetupInventoryItem {
       slot: Int!
       item: String!
+      default: String
     }
     type RegionsJson implements Node @dontInfer {
       jsonId: String!
       name: String!
       description: String!
       storylines: [String!]!
-      locations: [String!]!
       skilling: [String!]!
       raids: [String!]!
       bosses: [String!]!
       minigames: [String!]!
       guilds: [String!]!
+      locations: [String!]!
       dungeons: [String!]!
+      islands: [String!]!
       monsters: [String!]!
       npcs: [String!]!
       misc: [String!]!

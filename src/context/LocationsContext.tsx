@@ -1,16 +1,13 @@
 import { graphql, useStaticQuery } from 'gatsby';
 import React, { createContext, useCallback, useContext } from 'react';
-import type { GameLocation } from '../types/location';
+import { getIconForIsland } from '../utils/icons';
+import type { Dungeon, GameLocation, Island } from '../types/location';
 
 interface LocationsContextData {
   getLocationById: (id: string) => GameLocation;
-  getDungeonById: (id: string) => GameLocation;
+  getDungeonById: (id: string) => Dungeon;
+  getIslandById: (id: string) => Island;
 }
-
-const icons = {
-  location: 'Map_link_icon',
-  dungeon: 'Dungeon_map_link_icon',
-};
 
 const defaultData: LocationsContextData = {
   getLocationById: id => ({
@@ -25,6 +22,18 @@ const defaultData: LocationsContextData = {
     category: 'dungeon',
     region: 'unknown',
   }),
+  getIslandById: id => ({
+    id,
+    icon: getIconForIsland(id) || icons.island,
+    category: 'location',
+    region: 'unknown',
+  }),
+};
+
+const icons = {
+  location: 'Map_link_icon',
+  dungeon: 'Dungeon_map_link_icon',
+  island: 'Map_link_icon',
 };
 
 const LocationsContext = createContext<LocationsContextData>(defaultData);
@@ -40,7 +49,7 @@ export function LocationsContextProvider({
   const data = useStaticQuery<LocationsQueryData>(dataQuery);
 
   const getLocationById = useCallback(
-    (id: string) => {
+    (id: string): GameLocation => {
       const node = data.locations.nodes.find(location => location.id === id);
       return node
         ? {
@@ -54,7 +63,7 @@ export function LocationsContextProvider({
   );
 
   const getDungeonById = useCallback(
-    (id: string) => {
+    (id: string): Dungeon => {
       const node = data.dungeons.nodes.find(dungeon => dungeon.id === id);
       const region = data.locations.nodes.find(node => node.id === id)?.region;
       return node
@@ -69,11 +78,16 @@ export function LocationsContextProvider({
     [data],
   );
 
+  const getIslandById = useCallback((id: string): Island => {
+    return defaultData.getIslandById(id);
+  }, []);
+
   return (
     <LocationsContext.Provider
       value={{
         getLocationById,
         getDungeonById,
+        getIslandById,
       }}
     >
       {children}

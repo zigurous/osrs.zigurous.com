@@ -114,6 +114,38 @@ export function getIconForSkill(skill: Skill): string {
   }
 }
 
+export function getIconForIsland(island: string): string | undefined {
+  // prettier-ignore
+  switch (island) {
+    case "Anglers'_Retreat": return "Anglers'_Retreat_icon";
+    case 'Brittle_Isle': return 'Brittle_Isle_icon';
+    case "Buccaneers'_Haven": return "Buccaneers'_Haven_icon";
+    case 'Charred_Island': return 'Charred_Island_icon';
+    case 'Chinchompa_Island': return 'Chinchompa_Island_icon';
+    case 'Deepfin_Point': return 'Deepfin_Point_icon';
+    case 'Dognose_Island': return 'Dognose_Island_icon';
+    case 'Drumstick_Isle': return 'Drumstick_Isle_icon';
+    case 'Grimstone': return 'Grimstone_icon';
+    case 'Isle_of_Bones': return 'Isle_of_Bones_icon';
+    case 'Laguna_Aurorae': return 'Laguna_Aurorae_icon';
+    case 'Lledrith_Island': return 'Lledrith_Island_icon';
+    case "Minotaurs'_Rest": return "Minotaurs'_Rest_icon";
+    case 'Port_Roberts': return 'Port_Roberts_icon';
+    case "Rainbow's_End": return "Rainbow's_End_icon";
+    case 'Shimmering_Atoll': return 'Shimmering_Atoll_icon';
+    case 'Sunbleak_Island': return 'Sunbleak_Island_icon';
+    case 'Tear_of_the_Soul': return 'Tear_of_the_Soul_icon';
+    case 'The_Crown_Jewel': return 'The_Crown_Jewel_icon';
+    case 'The_Great_Conch': return 'The_Summer_Shore_icon';
+    case 'The_Little_Pearl': return 'The_Little_Pearl_icon';
+    case 'The_Onyx_Crest': return 'The_Onyx_Crest_icon';
+    case 'The_Pandemonium': return 'The_Pandemonium_icon';
+    case 'Vatrachos_Island': return 'Vatrachos_Island_icon';
+    case 'Wintumber_Island': return 'Wintumber_Island_icon';
+    case 'Ynysdail': return 'Ynysdail_icon';
+  }
+}
+
 const suffixes4 = ['_potion', '_brew'];
 const suffixes5 = [
   '_arrow',
@@ -125,7 +157,6 @@ const suffixes5 = [
   '_bolts(unf)',
   '_bolt_tips',
   '_dart_tips',
-  '_frag',
   '_javelin_heads',
   '_seed',
   '_shaft',

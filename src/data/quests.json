@@ -284,6 +284,16 @@
     ]
   },
   {
+    "id": "Current_Affairs",
+    "questRequirements": [
+      "Pandemonium"
+    ],
+    "skillRequirements": [
+      { "skill": "sailing", "level": 22 },
+      { "skill": "fishing", "level": 10 }
+    ]
+  },
+  {
     "id": "Curse_of_the_Empty_Lord",
     "questRequirements": [
       "Desert_Treasure_I",
@@ -1334,6 +1344,21 @@
   },
   {
     "id": "Prince_Ali_Rescue"
+  },
+  {
+    "id": "Prying_Times",
+    "questRequirements": [
+      "Pandemonium",
+      "The_Knight's_Sword"
+    ],
+    "skillRequirements": [
+      { "skill": "smithing", "level": 30 },
+      { "skill": "sailing", "level": 12 }
+    ],
+    "rewards": [
+      { "skill": "sailing", "experience": 1000 },
+      { "skill": "smithing", "experience": 1000 }
+    ]
   },
   {
     "id": "Rag_and_Bone_Man_I",

@@ -510,6 +510,17 @@
     ]
   },
   {
+    "id": "Sailing",
+    "quests": [
+      "Pandemonium",
+      "Prying_Times",
+      "Current_Affairs"
+    ],
+    "unlocks": [
+      "Sailing"
+    ]
+  },
+  {
     "id": "Tai_Bwo_Wannai",
     "quests": [
       "Jungle_Potion",
@@ -539,13 +550,12 @@
   {
     "id": "Tortugan",
     "quests": [
-      "Pandemonium",
       "Troubled_Tortugans",
       "The_Red_Reef"
     ],
     "unlocks": [
-      "Sailing",
-      "Gryphon"
+      "Gryphon",
+      "Shellbane_Gryphon"
     ]
   },
   {

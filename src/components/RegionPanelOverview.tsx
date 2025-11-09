@@ -8,7 +8,7 @@ import { useActivitiesContext } from '../context/ActivitiesContext';
 import { useLocationsContext } from '../context/LocationsContext';
 import { formatNameFromId } from '../utils/formatting';
 import { getIconForActivity } from '../utils/icons';
-import { sortByIcon, sortByName } from '../utils/sorting';
+import { sortByIcon, sortByIsland, sortByName } from '../utils/sorting';
 import type { Activity } from '../types/activity';
 import type { Region } from '../types/region';
 
@@ -20,7 +20,8 @@ export default function RegionPanelOverview({
   region,
 }: RegionPanelOverviewProps) {
   const { getActivityById } = useActivitiesContext();
-  const { getLocationById, getDungeonById } = useLocationsContext();
+  const { getLocationById, getDungeonById, getIslandById } =
+    useLocationsContext();
 
   // prettier-ignore
   const activities = useMemo(
@@ -61,6 +62,10 @@ export default function RegionPanelOverview({
       dungeons: region.dungeons
         .map(getDungeonById)
         .sort(sortByName),
+      islands: region.islands
+        .map(getIslandById)
+        .sort(sortByName)
+        .sort(sortByIsland),
       storylines: [...new Set(region.storylines.map(id => id.split('#')[0]))]
         .map(series => ({
           id: series,
@@ -134,6 +139,15 @@ export default function RegionPanelOverview({
           <ul>
             {activities.locations.map(location => (
               <OverviewListItem item={location} key={location.id} />
+            ))}
+          </ul>
+        </TitledCard>
+      )}
+      {activities.islands.length > 0 && (
+        <TitledCard title="Islands" type="list">
+          <ul>
+            {activities.islands.map(island => (
+              <OverviewListItem item={island} key={island.id} />
             ))}
           </ul>
         </TitledCard>

@@ -252,8 +252,8 @@
     ]
   },
   {
-    "id": "Belle's_Folly",
-    "icon": "Gleaming_rapier"
+    "id": "Blessed_boots",
+    "icon": "Saradomin_d'hide_boots"
   },
   {
     "id": "Bird_nest",
@@ -1011,6 +1011,10 @@
     "icon": "Ham_shirt"
   },
   {
+    "id": "Haemostatic_dressing",
+    "icon": "Haemostatic_dressing_(4)"
+  },
+  {
     "id": "Harmonised_orb",
     "transmutations": [
       "#plus",
@@ -1686,6 +1690,22 @@
     "tags": ["leagues"]
   },
   {
+    "id": "Rainbow_crab",
+    "icon": "Rainbow_crab_(1)"
+  },
+  {
+    "id": "Rainbow_crab_(1)",
+    "name": "Rainbow Crab"
+  },
+  {
+    "id": "Rainbow_crab_(2)",
+    "name": "Rainbow Crab"
+  },
+  {
+    "id": "Rainbow_crab_(3)",
+    "name": "Rainbow Crab"
+  },
+  {
     "id": "Razor-backed_kebbit",
     "icon": "Razor-backed_kebbit_icon"
   },
@@ -1856,6 +1876,10 @@
       "#equals",
       "Shadow_ancient_sceptre"
     ]
+  },
+  {
+    "id": "Shellbane_Gryphon",
+    "icon": "Gull_(pet)"
   },
   {
     "id": "Sinhaza_shroud_tier_1",
