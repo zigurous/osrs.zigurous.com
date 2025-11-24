@@ -13,6 +13,13 @@ export function toTitleCase(title: string): string {
     const endIndex = str.indexOf(')');
     if (startIndex !== -1 && endIndex !== -1) {
       const substring = str.substring(startIndex, endIndex + 1);
+      if (
+        substring === '(Hunter)' ||
+        substring === '(Farming)' ||
+        substring === '(spell)'
+      ) {
+        return str.slice(0, startIndex);
+      }
       return str.replace(substring, substring.toLowerCase());
     }
     return str;

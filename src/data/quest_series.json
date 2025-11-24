@@ -188,7 +188,7 @@
       "M'speak_amulet",
       "Dragon_scimitar",
       "Royal_seed_pod",
-      "Dragon_javelin_heads",
+      "Dragon_javelin_tips",
       "Light_ballista",
       "Heavy_ballista",
       "Zenyte_shard"
@@ -519,7 +519,7 @@
     "unlocks": [
       "Sailing",
       "The_Pandemonium",
-      "Current_duck"
+      "Sea_charting"
     ]
   },
   {
@@ -556,7 +556,7 @@
       "The_Red_Reef"
     ],
     "unlocks": [
-      "Gryphon",
+      "The_Great_Conch",
       "Shellbane_Gryphon"
     ]
   },

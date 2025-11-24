@@ -499,7 +499,7 @@
     "locations": [
       "Brimhaven_Dungeon",
       "Catacombs_of_Kourend",
-      "Charred_Island_Dungeon",
+      "Charred_Dungeon",
       "Chasm_of_Fire",
       "Edgeville_Dungeon#Wilderness_area_(members_only)",
       "Taverley_Dungeon",
@@ -522,7 +522,7 @@
       "Duradel"
     ],
     "locations": [
-      "Charred_Island_Dungeon",
+      "Charred_Dungeon",
       "Evil_Chicken's_Lair",
       "Lava_Maze_Dungeon",
       "Myths'_Guild#Basement",
@@ -1015,7 +1015,7 @@
     "icon": "Cyclops_head",
     "subtitle": "Warrior's Guild",
     "category": "monster",
-    "sortingGroups": ["melee", "pvm"],
+    "sortingGroups": ["pvm"],
     "requiredCombatLevel": 25,
     "slayerMasters": [
       "Mazchna",
@@ -1241,7 +1241,7 @@
     ],
     "locations": [
       "Catacombs_of_Kourend",
-      "Charred_Island_Dungeon",
+      "Charred_Dungeon",
       "Smoke_Dungeon",
       "Wilderness_Slayer_Cave"
     ],
@@ -1390,7 +1390,7 @@
     "locations": [
       "Brimhaven_Dungeon",
       "Catacombs_of_Kourend",
-      "Charred_Island_Dungeon",
+      "Charred_Dungeon",
       "Deep_Wilderness_Dungeon",
       "Giants'_Den",
       "Isle_of_Souls_Dungeon",
@@ -1786,7 +1786,7 @@
     ],
     "locations": [
       "Catacombs_of_Kourend",
-      "Charred_Island_Dungeon",
+      "Charred_Dungeon",
       "Karuulm_Slayer_Dungeon",
       "Resource_Area",
       "Stronghold_Slayer_Cave",
@@ -2184,7 +2184,8 @@
     ],
     "locations": [
       "Fremennik_Slayer_Dungeon",
-      "Iorwerth_Dungeon"
+      "Iorwerth_Dungeon",
+      "Kurask_Lair"
     ],
     "notableDrops": [
       "Leaf-bladed_battleaxe",
@@ -2221,7 +2222,7 @@
     ]
   },
   {
-    "id": "Lava_strykewyrm",
+    "id": "Lava_Strykewyrm",
     "icon": "Strykewyrm_bones",
     "category": "monster",
     "sortingGroups": ["slayer", "pvm"],
@@ -2233,7 +2234,7 @@
       "Duradel"
     ],
     "locations": [
-      "Charred_Island_Dungeon"
+      "Charred_Dungeon"
     ],
     "notableDrops": [
       "Dragon_metal_sheet",
@@ -2274,7 +2275,7 @@
     ],
     "locations": [
       "Catacombs_of_Kourend",
-      "Charred_Island_Dungeon",
+      "Charred_Dungeon",
       "Chasm_of_Fire",
       "Crandor_and_Karamja_Dungeon",
       "Crandor",
@@ -2565,7 +2566,7 @@
       "Duradel"
     ],
     "locations": [
-      "Charred_Island_Dungeon",
+      "Charred_Dungeon",
       "Slayer_Tower"
     ],
     "notableDrops": [
@@ -2686,7 +2687,7 @@
     ],
     "locations": [
       "Brimhaven_Dungeon",
-      "Charred_Island_Dungeon",
+      "Charred_Dungeon",
       "Forthos_Dungeon",
       "Myths'_Guild#Basement"
     ],

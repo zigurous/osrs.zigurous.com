@@ -208,7 +208,7 @@
     "id": "Warriors'_Guild",
     "icon": "Attack_icon",
     "category": "guild",
-    "sortingGroups": ["pvm", "melee", "attack", "strength"],
+    "sortingGroups": ["pvm", "attack", "strength"],
     "notableDrops": [
       "Attack_potion(3)",
       "Strength_potion(3)",

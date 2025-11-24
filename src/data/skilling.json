@@ -216,7 +216,7 @@
       "#equals",
       "Amethyst_bolt_tips",
       "Amethyst_arrowtips",
-      "Amethyst_javelin_heads",
+      "Amethyst_javelin_tips",
       "Amethyst_dart_tip"
     ]
   },
@@ -240,7 +240,7 @@
       "#equals",
       "Amethyst_arrow",
       "#newline",
-      "Amethyst_javelin_heads",
+      "Amethyst_javelin_tips",
       "#plus",
       "Javelin_shaft",
       "#equals",

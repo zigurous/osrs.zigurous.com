@@ -2693,7 +2693,7 @@
     "id": "Leaf-bladed_battleaxe",
     "slot": "weapon",
     "tags": ["1h"],
-    "regions": ["fremennik", "tirannwn"],
+    "regions": ["fremennik", "sailing", "tirannwn"],
     "requirements": [
       { "skill": "attack", "level": 65 },
       { "skill": "slayer", "level": 55 }
@@ -2703,7 +2703,7 @@
     "id": "Leaf-bladed_sword",
     "slot": "weapon",
     "tags": ["1h"],
-    "regions": ["fremennik", "tirannwn"],
+    "regions": ["fremennik", "sailing", "tirannwn"],
     "requirements": [
       { "skill": "attack", "level": 50 },
       { "skill": "slayer", "level": 55 }

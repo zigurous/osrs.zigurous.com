@@ -7,17 +7,23 @@ export interface DropSource {
 
 export type SortingGroup =
   | Skill
+  | 'boss'
   | 'chest'
   | 'diaries'
+  | 'distraction_and_diversion'
   | 'dungeon'
+  | 'guild'
   | 'location'
-  | 'melee'
+  | 'minigame'
   | 'misc'
+  | 'monster'
   | 'music'
   | 'npc'
   | 'pvm'
   | 'pvp'
   | 'quest'
+  | 'raid'
+  | 'shop'
   | 'skilling'
   | 'spell'
   | 'spellbook';

@@ -3,7 +3,7 @@
     "id": "Ajjat",
     "subtitle": "Skill Master",
     "category": "npc",
-    "sortingGroups": ["attack", "melee"],
+    "sortingGroups": ["attack"],
     "requiredLevel": 99,
     "notableDrops": [
       "Attack_hood",
@@ -166,7 +166,7 @@
     "id": "Harlan",
     "subtitle": "Skill Master",
     "category": "npc",
-    "sortingGroups": ["defence", "melee"],
+    "sortingGroups": ["defence"],
     "requiredLevel": 99,
     "notableDrops": [
       "Defence_hood",
@@ -324,7 +324,7 @@
   {
     "id": "Melee_combat_tutor",
     "category": "npc",
-    "sortingGroups": ["melee"],
+    "sortingGroups": ["attack", "strength", "defence"],
     "notableDrops": [
       "Training_sword",
       "Training_shield"
@@ -373,7 +373,7 @@
     "id": "Sloane",
     "subtitle": "Skill Master",
     "category": "npc",
-    "sortingGroups": ["strength", "melee"],
+    "sortingGroups": ["strength"],
     "requiredLevel": 99,
     "notableDrops": [
       "Strength_hood",

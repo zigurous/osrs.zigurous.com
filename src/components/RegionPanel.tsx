@@ -131,6 +131,7 @@ function combineRegions(regions: Region[]): Region {
     guilds: combineUniqueIds(regions, 'guilds'),
     locations: combineUniqueIds(regions, 'locations'),
     dungeons: combineUniqueIds(regions, 'dungeons'),
+    islands: combineUniqueIds(regions, 'islands'),
     monsters: combineUniqueIds(regions, 'monsters'),
     npcs: combineUniqueIds(regions, 'npcs'),
     misc: combineUniqueIds(regions, 'misc'),

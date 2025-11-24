@@ -41,13 +41,9 @@
       "#transmute",
       "Amethyst_bolt_tips",
       "Amethyst_arrowtips",
-      "Amethyst_javelin_heads",
+      "Amethyst_javelin_tips",
       "Amethyst_dart_tip"
     ]
-  },
-  {
-    "id": "Amoxliatl",
-    "icon": "Moxi"
   },
   {
     "id": "Amulet_of_the_monarchs",
@@ -84,10 +80,6 @@
     ]
   },
   {
-    "id": "Ancient_Magicks",
-    "icon": "Ancient_spellbook"
-  },
-  {
     "id": "Ancient_remnant",
     "tags": ["cosmetic"]
   },
@@ -110,10 +102,6 @@
   {
     "id": "Anti-venom+",
     "icon": "Anti-venom+(4)"
-  },
-  {
-    "id": "Anvil",
-    "icon": "Anvil_icon"
   },
   {
     "id": "Araxyte_fang",
@@ -153,20 +141,8 @@
     ]
   },
   {
-    "id": "Astral_Altar",
-    "icon": "Astral_rune"
-  },
-  {
     "id": "Atlatl_dart",
     "icon": "Atlatl_dart_5"
-  },
-  {
-    "id": "Attas_plant",
-    "icon": "Attas_seed_5"
-  },
-  {
-    "id": "Auto-weed",
-    "icon": "Weeds"
   },
   {
     "id": "Avernic_defender_hilt",
@@ -202,18 +178,6 @@
     ]
   },
   {
-    "id": "Bank",
-    "icon": "Mahogany_chest_icon"
-  },
-  {
-    "id": "Bank_chest",
-    "icon": "Mahogany_chest_icon"
-  },
-  {
-    "id": "Barb-tailed_kebbit",
-    "icon": "Barb-tailed_kebbit_icon"
-  },
-  {
     "id": "Barrel_of_demonic_tallow",
     "transmutations": [
       "#transmute",
@@ -236,6 +200,10 @@
     "icon": "Barronite_shards_25"
   },
   {
+    "id": "Barrows_teleport",
+    "icon": "Barrows_teleport_(tablet)"
+  },
+  {
     "id": "Basilisk_jaw",
     "transmutations": [
       "#plus",
@@ -250,10 +218,6 @@
       "#transmute",
       "Bellator_ring"
     ]
-  },
-  {
-    "id": "Blessed_boots",
-    "icon": "Saradomin_d'hide_boots"
   },
   {
     "id": "Bird_nest",
@@ -271,11 +235,6 @@
     ]
   },
   {
-    "id": "Black_salamander_(Hunter)",
-    "icon": "Black_salamander",
-    "name": "Black Salamander"
-  },
-  {
     "id": "Black_tourmaline_core",
     "transmutations": [
       "#plus",
@@ -285,24 +244,36 @@
     ]
   },
   {
-    "id": "Black_warlock",
-    "icon": "Black_warlock_icon"
-  },
-  {
-    "id": "Blast_Furnace",
-    "icon": "Minigame_icon"
-  },
-  {
     "id": "Blessed_bone_statuette",
     "icon": "Blessed_bone_statuette_(eagle)"
   },
   {
-    "id": "Blighted_super_restore",
-    "icon": "Blighted_super_restore(4)"
+    "id": "Blessed_body",
+    "icon": "Guthix_d'hide_body"
   },
   {
-    "id": "Blood_Altar",
-    "icon": "Blood_talisman"
+    "id": "Blessed_boots",
+    "icon": "Guthix_d'hide_boots"
+  },
+  {
+    "id": "Blessed_bracers",
+    "icon": "Guthix_bracers"
+  },
+  {
+    "id": "Blessed_chaps",
+    "icon": "Guthix_chaps"
+  },
+  {
+    "id": "Blessed_coif",
+    "icon": "Guthix_coif"
+  },
+  {
+    "id": "Blessed_shield",
+    "icon": "Guthix_d'hide_shield"
+  },
+  {
+    "id": "Blighted_super_restore",
+    "icon": "Blighted_super_restore(4)"
   },
   {
     "id": "Blood_quartz",
@@ -443,29 +414,8 @@
     ]
   },
   {
-    "id": "Butler",
-    "icon": "Butler_chathead"
-  },
-  {
-    "id": "Camphor_tree",
-    "icon": "Camphor_logs"
-  },
-  {
-    "id": "Carnivorous_chinchompa",
-    "icon": "Red_chinchompa"
-  },
-  {
-    "id": "Cerulean_twitch",
-    "icon": "Cerulean_twitch_icon"
-  },
-  {
     "id": "Charged_ice",
     "tags": ["cosmetic"]
-  },
-  {
-    "id": "Chinchompa_(Hunter)",
-    "icon": "Chinchompa",
-    "name": "Chinchompa"
   },
   {
     "id": "Claws_of_callisto",
@@ -502,32 +452,8 @@
     "icon": "Coins_10000"
   },
   {
-    "id": "Common_kebbit",
-    "icon": "Common_kebbit_icon"
-  },
-  {
-    "id": "Cook_(servant)",
-    "icon": "Cook_(servant)_chathead"
-  },
-  {
-    "id": "Cooking_range",
-    "icon": "Cooking_range_icon"
-  },
-  {
-    "id": "Copper_longtail",
-    "icon": "Copper_longtail_icon"
-  },
-  {
-    "id": "Cosmic_Altar",
-    "icon": "Cosmic_talisman"
-  },
-  {
     "id": "Crawling_hand_(item)",
     "name": "Crawling Hand"
-  },
-  {
-    "id": "Crimson_swift",
-    "icon": "Crimson_swift_icon"
   },
   {
     "id": "Crushed_infernal_shale",
@@ -606,10 +532,6 @@
     ]
   },
   {
-    "id": "Dark_kebbit",
-    "icon": "Dark_kebbit_icon"
-  },
-  {
     "id": "Dark_Squall_robes",
     "icon": "Dark_squall_hood"
   },
@@ -644,10 +566,6 @@
     ]
   },
   {
-    "id": "Dashing_kebbit",
-    "icon": "Dashing_kebbit_icon"
-  },
-  {
     "id": "Deadman's_cape#Cosmetic",
     "icon": "Deadman's_cape_(cosmetic)",
     "name": "Deadman's cape"
@@ -663,18 +581,6 @@
     "name": "Deadman's legs"
   },
   {
-    "id": "Death_Altar",
-    "icon": "Death_talisman"
-  },
-  {
-    "id": "Demon_butler",
-    "icon": "Demon_butler_chathead"
-  },
-  {
-    "id": "Desert_devil",
-    "icon": "Desert_devil_icon"
-  },
-  {
     "id": "Devil's_element",
     "tags": ["leagues"]
   },
@@ -682,10 +588,6 @@
     "id": "Dizana's_quiver#Uncharged",
     "icon": "Dizana's_quiver_(uncharged)",
     "name": "Dizana's Quiver (uncharged)"
-  },
-  {
-    "id": "Doom_of_Mokhaiotl",
-    "icon": "Mokhaiotl_waystone_5"
   },
   {
     "id": "Dossier_(Yama)",
@@ -751,10 +653,6 @@
     "tags": ["leagues"]
   },
   {
-    "id": "Duke_Sucellus",
-    "icon": "Baron"
-  },
-  {
     "id": "Echo_crystal",
     "transmutations": [
       "#plus",
@@ -788,10 +686,6 @@
       "#equals",
       "Elysian_spirit_shield"
     ]
-  },
-  {
-    "id": "Embertailed_jerboa",
-    "icon": "Embertailed_jerboa_icon"
   },
   {
     "id": "Emperor_ring",
@@ -877,10 +771,6 @@
     "name": "Fairy Ring"
   },
   {
-    "id": "Fairy_rings",
-    "icon": "Fairy_ring_(Construction)_icon"
-  },
-  {
     "id": "Fangs_of_venenatis",
     "transmutations": [
       "#plus",
@@ -892,10 +782,6 @@
   {
     "id": "Fedora",
     "tags": ["cosmetic"]
-  },
-  {
-    "id": "Feldip_weasel",
-    "icon": "Feldip_weasel_icon"
   },
   {
     "id": "Fire_element_staff_crown",
@@ -917,10 +803,6 @@
     "name": "Frozen Key"
   },
   {
-    "id": "Furnace",
-    "icon": "Furnace_icon"
-  },
-  {
     "id": "Gauntlet_cape",
     "tags": ["cosmetic"]
   },
@@ -933,10 +815,6 @@
     "icon": "Ghostly_robe_(top)"
   },
   {
-    "id": "Gilded_portal_nexus",
-    "icon": "Gilded_portal_nexus_icon"
-  },
-  {
     "id": "Glistening_tear",
     "icon": "Glistening_tear_5"
   },
@@ -945,32 +823,8 @@
     "tags": ["leagues"]
   },
   {
-    "id": "God_Wars_Dungeon",
-    "icon": "Dungeon_map_link_icon"
-  },
-  {
     "id": "Gold_decorative_armour",
     "icon": "Cw_armour_3_icon"
-  },
-  {
-    "id": "Golden_armadyl_special_attack",
-    "icon": "Armadyl_hilt"
-  },
-  {
-    "id": "Golden_bandos_special_attack",
-    "icon": "Bandos_hilt"
-  },
-  {
-    "id": "Golden_saradomin_special_attack",
-    "icon": "Saradomin_hilt"
-  },
-  {
-    "id": "Golden_zamorak_special_attack",
-    "icon": "Zamorak_hilt"
-  },
-  {
-    "id": "Golden_warbler",
-    "icon": "Golden_warbler_icon"
   },
   {
     "id": "Granite",
@@ -993,10 +847,6 @@
     "id": "Grimy_herb",
     "icon": "Grimy_guam_leaf",
     "name": "Grimy Herbs"
-  },
-  {
-    "id": "Gryphon",
-    "icon": "Gryphon_feather"
   },
   {
     "id": "Guthix_rest",
@@ -1052,10 +902,6 @@
     "tags": ["cosmetic"]
   },
   {
-    "id": "Horned_graahk",
-    "icon": "Horned_graahk_icon"
-  },
-  {
     "id": "House_keys",
     "icon": "House_keys_1"
   },
@@ -1068,11 +914,6 @@
       "Hueycoatl_hide_chaps",
       "Hueycoatl_hide_vambraces"
     ]
-  },
-  {
-    "id": "Hunter_Kit_(spell)",
-    "icon": "Hunter_Kit",
-    "name": "Hunter Kit"
   },
   {
     "id": "Hunter_spear_tips",
@@ -1135,10 +976,6 @@
     ]
   },
   {
-    "id": "Iasor_plant",
-    "icon": "Iasor_seed_5"
-  },
-  {
     "id": "Ice_element_staff_crown",
     "transmutations": [
       "#plus",
@@ -1179,16 +1016,8 @@
     "tags": ["cosmetic"]
   },
   {
-    "id": "Imbuing",
-    "icon": "Scroll_of_imbuing"
-  },
-  {
     "id": "Infernal_plate",
     "icon": "Infernal_plate_7"
-  },
-  {
-    "id": "Ironwood_tree",
-    "icon": "Ironwood_logs"
   },
   {
     "id": "Jar_of_chemicals",
@@ -1315,20 +1144,12 @@
     ]
   },
   {
-    "id": "Kronos_plant",
-    "icon": "Kronos_seed_5"
-  },
-  {
     "id": "Larran's_key",
     "icon": "Larran's_key_1"
   },
   {
     "id": "Lava_scale_shard",
     "icon": "Lava_scale_shard_5"
-  },
-  {
-    "id": "Law_Altar",
-    "icon": "Law_talisman"
   },
   {
     "id": "Left_skull_half",
@@ -1380,10 +1201,6 @@
     ]
   },
   {
-    "id": "Lunar_equipment",
-    "icon": "Lunar_torso"
-  },
-  {
     "id": "Magic_fang",
     "transmutations": [
       "#transmute",
@@ -1401,10 +1218,6 @@
       "#transmute",
       "Magus_ring"
     ]
-  },
-  {
-    "id": "Maid",
-    "icon": "Maid_chathead"
   },
   {
     "id": "Malediction_shard_1",
@@ -1435,14 +1248,6 @@
       "#equals",
       "Malediction_ward"
     ]
-  },
-  {
-    "id": "Managing_Miscellania",
-    "icon": "Stats_icon"
-  },
-  {
-    "id": "Maniacal_monkey",
-    "icon": "Monkey_(Monkey_Madness_II)"
   },
   {
     "id": "Maniacal_monkey_(item)",
@@ -1488,14 +1293,6 @@
   {
     "id": "Moonclan_robes",
     "icon": "Moonclan_cape"
-  },
-  {
-    "id": "Moonlight_antelope",
-    "icon": "Moonlight_antelope_icon"
-  },
-  {
-    "id": "Moonlight_moth",
-    "icon": "Moonlight_moth_icon"
   },
   {
     "id": "Moonlight_moth_mix",
@@ -1573,10 +1370,6 @@
     "icon": "Oathplate_shards_20"
   },
   {
-    "id": "Occult_altar",
-    "icon": "Occult_altar_icon"
-  },
-  {
     "id": "Odium_shard_1",
     "transmutations": [
       "#plus",
@@ -1607,21 +1400,8 @@
     ]
   },
   {
-    "id": "Orange_salamander_(Hunter)",
-    "icon": "Orange_salamander",
-    "name": "Orange Salamander"
-  },
-  {
     "id": "Orange_spice",
     "icon": "Orange_spice_(4)"
-  },
-  {
-    "id": "Ornate_jewellery_box",
-    "icon": "Ornate_jewellery_box_icon"
-  },
-  {
-    "id": "Ornate_rejuvenation_pool",
-    "icon": "Ornate_rejuvenation_pool_icon"
   },
   {
     "id": "Overload_(+)",
@@ -1641,10 +1421,6 @@
     ]
   },
   {
-    "id": "Phantom_Muspah",
-    "icon": "Muphin_(ranged)"
-  },
-  {
     "id": "Pharaoh's_sceptre",
     "icon": "Pharaoh's_sceptre_(1)"
   },
@@ -1653,20 +1429,12 @@
     "icon": "Pieces_of_eight_1"
   },
   {
-    "id": "Polar_kebbit",
-    "icon": "Polar_kebbit_icon"
-  },
-  {
     "id": "Prayer_enhance_(+)",
     "icon": "Prayer_enhance_(+)(4)"
   },
   {
     "id": "Prescription_goggles",
     "icon": "Prescription_goggles_(focused)"
-  },
-  {
-    "id": "Prickly_kebbit",
-    "icon": "Prickly_kebbit_icon"
   },
   {
     "id": "Primordial_crystal",
@@ -1678,54 +1446,16 @@
     ]
   },
   {
-    "id": "Pyre_fox",
-    "icon": "Pyre_fox_icon"
-  },
-  {
-    "id": "Quetzal_Transport_System",
-    "icon": "Quetzin"
-  },
-  {
     "id": "Raids_megarare_voucher",
     "tags": ["leagues"]
-  },
-  {
-    "id": "Rainbow_crab",
-    "icon": "Rainbow_crab_(1)"
-  },
-  {
-    "id": "Rainbow_crab_(1)",
-    "name": "Rainbow Crab"
-  },
-  {
-    "id": "Rainbow_crab_(2)",
-    "name": "Rainbow Crab"
-  },
-  {
-    "id": "Rainbow_crab_(3)",
-    "name": "Rainbow Crab"
-  },
-  {
-    "id": "Razor-backed_kebbit",
-    "icon": "Razor-backed_kebbit_icon"
   },
   {
     "id": "Red_decorative_armour",
     "icon": "Cw_armour_1_icon"
   },
   {
-    "id": "Red_salamander_(Hunter)",
-    "icon": "Red_salamander",
-    "name": "Red Salamander"
-  },
-  {
     "id": "Red_spice",
     "icon": "Red_spice_(4)"
-  },
-  {
-    "id": "Redwood_tree_(Farming)",
-    "name": "Redwood Tree",
-    "icon": "Redwood_logs"
   },
   {
     "id": "Remnant_of_akkha",
@@ -1752,10 +1482,6 @@
     "icon": "Revitalisation_(+)(4)"
   },
   {
-    "id": "Rick",
-    "icon": "Rick_chathead"
-  },
-  {
     "id": "Right_skull_half",
     "transmutations": [
       "#plus",
@@ -1769,31 +1495,11 @@
     "icon": "Rock-shell_plate"
   },
   {
-    "id": "Rosewood_tree",
-    "icon": "Rosewood_logs"
-  },
-  {
-    "id": "Ruby_harvest",
-    "icon": "Ruby_harvest_icon"
-  },
-  {
     "id": "Runite_limbs",
     "transmutations": [
       "#transmute",
       "Rune_crossbow"
     ]
-  },
-  {
-    "id": "Sabre-toothed_kebbit",
-    "icon": "Sabre-toothed_kebbit_icon"
-  },
-  {
-    "id": "Sabre-toothed_kyatt",
-    "icon": "Sabre-toothed_kyatt_icon"
-  },
-  {
-    "id": "Sailing",
-    "icon": "Sailing_icon"
   },
   {
     "id": "Salve_shard",
@@ -1819,10 +1525,6 @@
   {
     "id": "Sanguine_ornament_kit",
     "tags": ["cosmetic"]
-  },
-  {
-    "id": "Sapphire_glacialis",
-    "icon": "Sapphire_glacialis_icon"
   },
   {
     "id": "Saradomin_hilt",
@@ -1876,10 +1578,6 @@
       "#equals",
       "Shadow_ancient_sceptre"
     ]
-  },
-  {
-    "id": "Shellbane_Gryphon",
-    "icon": "Gull_(pet)"
   },
   {
     "id": "Sinhaza_shroud_tier_1",
@@ -1957,16 +1655,8 @@
     ]
   },
   {
-    "id": "Snowy_knight",
-    "icon": "Snowy_knight_icon"
-  },
-  {
     "id": "Snowy_knight_mix",
     "icon": "Snowy_knight_mix_(2)"
-  },
-  {
-    "id": "Sorceress's_Garden",
-    "icon": "Summer_sq'irk"
   },
   {
     "id": "Soul_cape",
@@ -1986,10 +1676,6 @@
     "icon": "Spined_body"
   },
   {
-    "id": "Spined_larupia",
-    "icon": "Spined_larupia_icon"
-  },
-  {
     "id": "Spirit_flakes",
     "icon": "Spirit_flakes_9"
   },
@@ -2001,14 +1687,6 @@
       "#equals",
       "Blessed_spirit_shield"
     ]
-  },
-  {
-    "id": "Spirit_tree",
-    "icon": "Spirit_tree_(Construction)_icon"
-  },
-  {
-    "id": "Spotted_kebbit",
-    "icon": "Spotted_kebbit_icon"
   },
   {
     "id": "Star_fragment",
@@ -2039,14 +1717,6 @@
   {
     "id": "Sunken_locket",
     "icon": "Sunken_locket_(small)"
-  },
-  {
-    "id": "Sunlight_antelope",
-    "icon": "Sunlight_antelope_icon"
-  },
-  {
-    "id": "Sunlight_Moth",
-    "icon": "Sunlight_Moth_icon"
   },
   {
     "id": "Sunlight_spear",
@@ -2085,11 +1755,6 @@
   {
     "id": "Supply_crate_(Mahogany_Homes)",
     "name": "Supply Crate"
-  },
-  {
-    "id": "Swamp_lizard_(Hunter)",
-    "icon": "Swamp_lizard",
-    "name": "Swamp Lizard"
   },
   {
     "id": "Tanzanite_fang",
@@ -2133,37 +1798,12 @@
     ]
   },
   {
-    "id": "Tecu_salamander_(Hunter)",
-    "icon": "Tecu_salamander",
-    "name": "Tecu Salamander"
-  },
-  {
-    "id": "Teleport_to_house_(tablet)",
-    "name": "Teleport to House"
+    "id": "Teleport_to_house",
+    "icon": "Teleport_to_house_(tablet)"
   },
   {
     "id": "The_dogsword",
     "tags": ["leagues"]
-  },
-  {
-    "id": "The_Gauntlet",
-    "icon": "Youngllef"
-  },
-  {
-    "id": "The_Leviathan",
-    "icon": "Lil'viathan"
-  },
-  {
-    "id": "The_Pandemonium",
-    "icon": "The_Pandemonium_icon"
-  },
-  {
-    "id": "The_Whisperer",
-    "icon": "Wisp"
-  },
-  {
-    "id": "Theatre_of_Blood",
-    "icon": "Lil'_zik"
   },
   {
     "id": "Thousand-dragon_ward",
@@ -2182,10 +1822,6 @@
     "id": "Thunder_khopesh",
     "icon": "Thunder_khopesh",
     "tags": ["leagues"]
-  },
-  {
-    "id": "Tombs_of_Amascut",
-    "icon": "Tumeken's_guardian"
   },
   {
     "id": "Tonalztics_of_ralos#Uncharged",
@@ -2230,10 +1866,6 @@
   {
     "id": "Tricorn_hat",
     "icon": "Grey_tricorn_hat"
-  },
-  {
-    "id": "Tropical_wagtail",
-    "icon": "Tropical_wagtail_icon"
   },
   {
     "id": "Trouble_Brewing",
@@ -2336,10 +1968,6 @@
     ]
   },
   {
-    "id": "Vorkath",
-    "icon": "Vorki"
-  },
-  {
     "id": "Vorkath's_head",
     "transmutations": [
       "#transmute",
@@ -2356,20 +1984,8 @@
     "icon": "White_2h_sword"
   },
   {
-    "id": "White_rabbit",
-    "icon": "White_rabbit_icon"
-  },
-  {
-    "id": "Wild_kebbit",
-    "icon": "Wild_kebbit_icon"
-  },
-  {
     "id": "Woad_leaf",
     "icon": "Woad_leaf_5"
-  },
-  {
-    "id": "Wrath_Altar",
-    "icon": "Wrath_talisman"
   },
   {
     "id": "Wyvern_visage",
@@ -2414,20 +2030,8 @@
     ]
   },
   {
-    "id": "XP",
-    "icon": "XP_drops_icon"
-  },
-  {
-    "id": "Yama",
-    "icon": "Yami"
-  },
-  {
     "id": "Yellow_spice",
     "icon": "Yellow_spice_(4)"
-  },
-  {
-    "id": "Zalcano",
-    "icon": "Smolcano"
   },
   {
     "id": "Zalcano_shard",

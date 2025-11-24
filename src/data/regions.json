@@ -3614,8 +3614,10 @@
       "Frost_dragon",
       "Gryphon",
       "Hellhound",
-      "Lava_strykewyrm",
+      "Kurask",
+      "Lava_Strykewyrm",
       "Lesser_demon",
+      "Moss_giant",
       "Nechryael",
       "Red_dragon"
     ],
@@ -3625,7 +3627,6 @@
       "Soup"
     ],
     "resources": [
-      "Magic_logs",
       "Adamantite_bar",
       "Adamantite_ore",
       "Big_bones",
@@ -3650,6 +3651,7 @@
       "Giant_krill",
       "Gold_bar",
       "Gold_ore",
+      "Granite",
       "Haddock_eye",
       "Haddock",
       "Halibut",
@@ -3662,10 +3664,13 @@
       "Lead_bar",
       "Lead_ore",
       "Logs",
+      "Magic_logs",
       "Mahogany_logs",
       "Malicious_ashes",
       "Marlin_scales",
       "Marlin",
+      "Mithril_bar",
+      "Mithril_ore",
       "Nickel_ore",
       "Pillar_coral",
       "Plank",
@@ -3679,20 +3684,24 @@
       "Ruby",
       "Runite_bar",
       "Runite_ore",
+      "Sandstone",
       "Sapphire",
       "Seaweed",
       "Soda_ash",
       "Squid_paste",
       "Steel_bar",
       "Strykewyrm_bones",
+      "Superior_dragon_bones",
       "Swamp_paste",
       "Swordtip_squid",
       "Teak_logs",
       "Tin_ore",
       "Umbral_coral",
       "Vile_ashes",
+      "White_berries",
       "Yellow_fin",
-      "Yellowfin"
+      "Yellowfin",
+      "Yew_logs"
     ]
   }
 ]

@@ -539,7 +539,7 @@
   {
     "id": "Tackle_organised_crime",
     "category": "minigame",
-    "sortingGroups": ["misc", "pvm", "melee"],
+    "sortingGroups": ["misc", "pvm"],
     "notableDrops": [
       "Training_manual"
     ]
