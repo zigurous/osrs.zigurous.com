@@ -748,7 +748,7 @@
   {
     "id": "Black_d'hide_shield",
     "slot": "shield",
-    "regions": ["kourend"],
+    "regions": ["kourend", "sailing"],
     "requirements": [
       { "skill": "ranged", "level": 70 },
       { "skill": "defence", "level": 40 }
@@ -1430,7 +1430,7 @@
     "id": "Dragon_dart",
     "slot": "weapon",
     "tags": ["1h"],
-    "regions": ["desert", "fremennik", "kourend", "morytania", "varlamore", "wilderness"],
+    "regions": ["desert", "fremennik", "kourend", "morytania", "sailing", "varlamore", "wilderness"],
     "requirements": [
       { "skill": "ranged", "level": 60 }
     ]
@@ -1501,7 +1501,7 @@
     "id": "Dragon_longsword",
     "slot": "weapon",
     "tags": ["1h"],
-    "regions": ["misthalin", "misthalin/fremennik", "misthalin/kandarin", "misthalin/kourend", "misthalin/morytania", "misthalin/varlamore", "misthalin/wilderness"],
+    "regions": ["misthalin", "misthalin/fremennik", "misthalin/kandarin", "misthalin/kourend", "misthalin/morytania", "misthalin/sailing", "misthalin/varlamore", "misthalin/wilderness"],
     "requirements": [
       { "skill": "attack", "level": 60 }
     ]
@@ -3010,7 +3010,7 @@
   {
     "id": "Mystic_boots",
     "slot": "feet",
-    "regions": ["desert", "fremennik", "kandarin", "kourend", "misthalin", "tirannwn", "varlamore"],
+    "regions": ["desert", "fremennik", "kandarin", "kourend", "misthalin", "sailing", "tirannwn", "varlamore"],
     "requirements": [
       { "skill": "magic", "level": 40 },
       { "skill": "defence", "level": 20 }
@@ -3037,7 +3037,7 @@
   {
     "id": "Mystic_hat",
     "slot": "head",
-    "regions": ["kandarin"],
+    "regions": ["kandarin", "sailing"],
     "requirements": [
       { "skill": "magic", "level": 40 },
       { "skill": "defence", "level": 20 }
@@ -3055,7 +3055,7 @@
   {
     "id": "Mystic_robe_bottom",
     "slot": "legs",
-    "regions": ["desert", "fremennik", "kandarin", "kourend", "misthalin", "tirannwn", "varlamore", "wilderness"],
+    "regions": ["desert", "fremennik", "kandarin", "kourend", "misthalin", "sailing", "tirannwn", "varlamore", "wilderness"],
     "requirements": [
       { "skill": "magic", "level": 40 },
       { "skill": "defence", "level": 20 }
@@ -3073,7 +3073,7 @@
   {
     "id": "Mystic_robe_top",
     "slot": "body",
-    "regions": ["kandarin", "wilderness"],
+    "regions": ["kandarin", "sailing", "wilderness"],
     "requirements": [
       { "skill": "magic", "level": 40 },
       { "skill": "defence", "level": 20 }
