@@ -2,6 +2,7 @@ import React, { createContext, useCallback, useContext, useState } from 'react';
 import type { EquipmentSubcategories } from '../types/equipment';
 
 type Settings = {
+  open: boolean;
   leagues: boolean;
   bisClues: boolean;
   bisStrict: boolean;
@@ -12,6 +13,7 @@ type Settings = {
 } & EquipmentSubcategories;
 
 const defaultSettings: Settings = {
+  open: false,
   leagues: false,
   bisClues: false,
   bisStrict: false,

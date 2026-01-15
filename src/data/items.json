@@ -834,7 +834,7 @@
     "id": "Granite_dust",
     "transmutations": [
       "#plus",
-      "Cannonball",
+      "Steel_cannonball",
       "#equals",
       "Granite_cannonball"
     ]
@@ -1529,6 +1529,10 @@
   {
     "id": "Sanguine_ornament_kit",
     "tags": ["cosmetic"]
+  },
+  {
+    "id": "Sapphire_lantern",
+    "icon": "Sapphire_lantern_(lit)"
   },
   {
     "id": "Saradomin_hilt",

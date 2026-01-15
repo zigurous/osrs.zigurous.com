@@ -36,7 +36,7 @@ export default function HeaderBar({
               />
               <Text
                 bold
-                className="ml-xs"
+                className="ml-sm"
                 marginBottom="xxxs"
                 type="title-sm"
                 wrap="nowrap"

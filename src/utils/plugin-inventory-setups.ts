@@ -1,54 +1,55 @@
+import { equipmentSlots } from './constants';
 import type { EquipmentSlotId } from '../types/equipment';
-import type { InventorySetupsExport, InventorySetupsItem, InventorySetupsItemList } from '../types/inventory-setups'; // prettier-ignore
+import type { InventorySetupsExport, InventorySetupsItemList } from '../types/inventory-setups'; // prettier-ignore
 import type { RecommendedSetup, RecommendedSetupLoadout } from '../types/recommended-setup'; // prettier-ignore
 import type { Spellbook } from '../types/spell';
 
 const defaultAmmoQuantity = 5000;
 const defaultRuneQuantity = 10000;
 
-export async function createExport(
+export async function exportSetup(
   setup: RecommendedSetup,
   loadout: RecommendedSetupLoadout,
 ): Promise<InventorySetupsExport> {
   const layout = Array.from({ length: 56 }).fill(-1) as number[];
+  let layoutIndex = 0;
 
   // create equipment data
   const eq = Array.from({ length: 14 }).fill(null) as InventorySetupsItemList;
-  loadout.equipment.forEach(el => {
-    const id = itemId[el.item];
-    const data: InventorySetupsItem = { id };
-    if (fuzzy.includes(el.item)) data.f = true;
-    if (el.slot === 'ammo' && !el.item.includes('blessing')) {
-      data.q = defaultAmmoQuantity;
-    }
-    eq[slotIndex[el.slot]] = data;
-  });
-  let layoutIndex = 0;
-  eq.forEach(item => {
-    if (item && item.id !== -1) {
-      layout[eqLayoutOrder[layoutIndex++]] = item.id;
+  equipmentSlots.forEach(slot => {
+    const item = loadout.equipment[slot];
+    if (item) {
+      const id = itemId[item];
+      eq[slotIndex[slot]] = {
+        id,
+        f: fuzzy.includes(item),
+        q:
+          slot === 'ammo' && !item.includes('blessing')
+            ? defaultAmmoQuantity
+            : undefined,
+      };
+      layout[eqLayoutOrder[layoutIndex++]] = id;
     }
   });
 
   // create inventory data
-  let pouchSize = 3;
   layoutIndex = 0;
+  let pouchSize = 3;
   const inv = Array.from({ length: 28 }).fill(null) as InventorySetupsItemList;
-  loadout.inventory.forEach(el => {
-    const id = itemId[el.item];
-    const data: InventorySetupsItem = { id };
-    if (fuzzy.includes(el.item)) data.f = true;
-    inv[el.slot - 1] = data;
+  for (let i = 0; i < inv.length; i++) {
+    const item = loadout.inventory[i + 1];
+    if (!item) continue;
+    const id = itemId[item];
+    inv[i] = { id, f: fuzzy.includes(item) };
     layout[invLayoutOrder[layoutIndex++]] = id;
-    if (el.item === 'Divine_rune_pouch') {
+    if (item === 'Divine_rune_pouch') {
       pouchSize = 4;
     }
-  });
+  }
 
   // create rune pouch data
-  const rp = Array.from({ length: pouchSize }).fill(
-    null,
-  ) as InventorySetupsItemList;
+  // prettier-ignore
+  const rp = Array.from({ length: pouchSize }).fill(null) as InventorySetupsItemList;
   loadout.runePouch?.forEach((item, index) => {
     const id = itemId[item];
     rp[index] = { id, q: defaultRuneQuantity };
@@ -60,15 +61,24 @@ export async function createExport(
     layout.splice(layout.length - 1, 1);
   }
 
+  // format setup title
+  let name = setup.title;
+  if (loadout.title) {
+    const subtitle = loadout.title
+      .replace(' Setup', '')
+      .replace('Recommended', '');
+    if (subtitle.length > 0) {
+      name += ` (${subtitle})`;
+    }
+  }
+
   const _export: InventorySetupsExport = {
     setup: {
       inv,
       eq,
       rp,
       qv: [null],
-      name: loadout.title
-        ? `${setup.title} (${loadout.title.replace(' Setup', '')})`
-        : setup.title,
+      name,
       notes: `https://oldschool.runescape.wiki/w/${setup.id}`,
       hc: '#80808080',
       fb: true,
@@ -448,7 +458,7 @@ const itemId: Record<string, number> = {
   Super_restore: 3024,
   Super_strength: 2440,
   Superantipoison: 2448,
-  'Teleport_to_house_(tablet)': 8013,
+  Teleport_to_house: 8013,
   Tome_of_earth: 30064,
   Tome_of_fire: 20714,
   Tormented_bracelet: 19544,

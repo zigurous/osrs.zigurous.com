@@ -1,8 +1,9 @@
 import { clamp } from '@zigurous/forge-react';
 import { graphql, useStaticQuery } from 'gatsby';
 import React, { createContext, useCallback, useContext, useEffect, useRef, useState } from 'react'; // prettier-ignore
-import { useEquipmentContext } from '../context/EquipmentContext';
-import { useQuestsContext } from '../context/QuestsContext';
+import { useEquipmentContext } from './EquipmentContext';
+import { useItemsContext } from './ItemsContext';
+import { useQuestsContext } from './QuestsContext';
 import { processGearProgressionData } from '../utils/gear-progression';
 import type { GearProgressionTier, GearProgressionCategoryId, GearProgressionSubcategoryId, GearProgressionContextCategory, GearProgressionContextTier, GearProgressionWorkerInput, GearProgressionCategory } from '../types/gear-progression'; // prettier-ignore
 
@@ -110,9 +111,9 @@ export function GearProgressionContextProvider({
 
   const data = useStaticQuery<GearProgressionQueryData>(dataQuery);
   const categories = {
-    melee: useGearProgressionCategory(data, 'melee'),
-    ranged: useGearProgressionCategory(data, 'ranged'),
-    magic: useGearProgressionCategory(data, 'magic'),
+    melee: useGearProgressionCategory('melee', data),
+    ranged: useGearProgressionCategory('ranged', data),
+    magic: useGearProgressionCategory('magic', data),
   };
 
   const category = categories[categoryId];
@@ -205,10 +206,11 @@ export function GearProgressionContextProvider({
 }
 
 function useGearProgressionCategory(
-  data: GearProgressionQueryData,
   categoryId: GearProgressionCategoryId,
+  data: GearProgressionQueryData,
 ): GearProgressionContextCategory {
   const [state, setState] = useState(defaultData.category);
+  const { ownedItems } = useItemsContext();
   const { equipment } = useEquipmentContext();
   const { quests } = useQuestsContext();
 
@@ -217,6 +219,7 @@ function useGearProgressionCategory(
     const input: GearProgressionWorkerInput = {
       tiers: data.progression.nodes,
       category,
+      ownedItems,
       equipment,
       quests,
     };
@@ -235,7 +238,7 @@ function useGearProgressionCategory(
     } else {
       setState(processGearProgressionData(input));
     }
-  }, [data, categoryId, equipment, quests]);
+  }, [categoryId, data, ownedItems, equipment, quests]);
 
   return state;
 }

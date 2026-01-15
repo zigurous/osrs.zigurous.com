@@ -225,11 +225,13 @@ export const createSchemaCustomization = ({
       slot: String!
       item: String!
       default: String
+      minimum: String
     }
     type RecommendedSetupInventoryItem {
       slot: Int!
       item: String!
       default: String
+      minimum: String
     }
     type RegionsJson implements Node @dontInfer {
       jsonId: String!

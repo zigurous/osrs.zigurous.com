@@ -1,18 +1,8 @@
-import type { ItemData } from './item';
+import type { ItemData, ItemHighlightOptions } from './item';
 import type { SkillRequirement } from './skill';
+import { equipmentSlots } from '../utils/constants';
 
-export type EquipmentSlotId =
-  | 'ammo'
-  | 'body'
-  | 'cape'
-  | 'feet'
-  | 'hands'
-  | 'head'
-  | 'legs'
-  | 'neck'
-  | 'ring'
-  | 'shield'
-  | 'weapon';
+export type EquipmentSlotId = (typeof equipmentSlots)[number];
 
 export interface EquipmentItem extends Omit<ItemData, 'transmutations'> {
   slot: EquipmentSlotId;
@@ -26,6 +16,7 @@ export interface EquipmentItem extends Omit<ItemData, 'transmutations'> {
 export interface EquipmentSlot {
   id: EquipmentSlotId;
   item?: EquipmentItem;
+  highlights?: ItemHighlightOptions;
 }
 
 export type EquippedItems = Partial<Record<EquipmentSlotId, EquipmentItem>>;

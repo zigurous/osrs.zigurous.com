@@ -5,14 +5,15 @@ import React from 'react';
 import WikiIcon from './WikiIcon';
 import WikiLink from './WikiLink';
 import { useItemsContext } from '../context/ItemsContext';
+import { itemHighlights } from '../utils/constants';
 import { formatNameFromId, toTitleCase } from '../utils/formatting';
-import type { FoodData, ItemData } from '../types/item';
+import type { FoodData, ItemData, ItemHighlightOptions } from '../types/item';
 
 interface ItemFrameProps {
   border?: boolean;
   borderless?: boolean;
   className?: string;
-  highlights?: 'all' | ('upgrade' | 'pet' | 'leagues' | 'megarare')[] | 'none';
+  highlights?: ItemHighlightOptions;
   item?: ItemData;
   size?: 'xs' | 'sm' | 'md' | 'lg' | 'xl';
 }
@@ -46,23 +47,15 @@ export default function ItemFrame({
             [`item-frame--${size}`]: size,
             'item-frame--border': border,
             'item-frame--borderless': borderless,
-            'item-frame--upgrade':
-              item.tags?.includes('upgrade') &&
-              (highlights === 'all' ||
-                (Array.isArray(highlights) && highlights.includes('upgrade'))),
-            'item-frame--pet':
-              item.tags?.includes('pet') &&
-              (highlights === 'all' ||
-                (Array.isArray(highlights) && highlights.includes('pet'))),
-            'item-frame--leagues':
-              item.tags?.includes('leagues') &&
-              (highlights === 'all' ||
-                (Array.isArray(highlights) && highlights.includes('leagues'))),
-            'item-frame--megarare':
-              item.tags?.includes('megarare') &&
-              (highlights === 'all' ||
-                (Array.isArray(highlights) && highlights.includes('megarare'))),
           },
+          highlights &&
+            highlights !== 'none' &&
+            itemHighlights.map(tag =>
+              (highlights === 'all' || highlights.includes(tag)) &&
+              item.tags?.includes(tag)
+                ? `item-frame--${tag}`
+                : null,
+            ),
           className,
         )}
         wikiId={item.id}

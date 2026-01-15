@@ -11,6 +11,7 @@
   --color-dark-body: #1b1612;
   --color-primary: #20c2fe;
   --color-secondary: #c2410c;
+  --color-danger: #9f261e;
 
   --color-foreground: var(--color-white);
   --color-background: var(--color-dark-body);

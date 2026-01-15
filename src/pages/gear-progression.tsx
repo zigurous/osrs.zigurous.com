@@ -16,6 +16,7 @@ import { categories, GearProgressionContextProvider, useGearProgressionContext }
 import { ItemsContextProvider } from '../context/ItemsContext';
 import { QuestsContextProvider } from '../context/QuestsContext';
 import { RecommendedSetupsContextProvider, useRecommendedSetupsContext } from '../context/RecommendedSetupsContext'; // prettier-ignore
+import { SettingsContextProvider, useSettingsContext } from '../context/SettingsContext'; // prettier-ignore
 import { useAspectFitScaling } from '../hooks/useAspectFitScaling';
 import '../styles/gear-progression.css';
 
@@ -31,23 +32,26 @@ export default function GearProgression({}: PageProps) {
 
 function ContextProviders({ children }: { children: React.ReactNode }) {
   return (
-    <ItemsContextProvider>
-      <EquipmentContextProvider>
-        <QuestsContextProvider>
-          <GearProgressionContextProvider>
-            <RecommendedSetupsContextProvider>
-              {children}
-            </RecommendedSetupsContextProvider>
-          </GearProgressionContextProvider>
-        </QuestsContextProvider>
-      </EquipmentContextProvider>
-    </ItemsContextProvider>
+    <SettingsContextProvider>
+      <ItemsContextProvider>
+        <EquipmentContextProvider>
+          <QuestsContextProvider>
+            <GearProgressionContextProvider>
+              <RecommendedSetupsContextProvider>
+                {children}
+              </RecommendedSetupsContextProvider>
+            </GearProgressionContextProvider>
+          </QuestsContextProvider>
+        </EquipmentContextProvider>
+      </ItemsContextProvider>
+    </SettingsContextProvider>
   );
 }
 
 const aspectSize = { width: 1024, height: 512 };
 
 function GearProgressionPageContent() {
+  const settings = useSettingsContext();
   const context = useGearProgressionContext();
   const { currentSetup, previousSetup, closeSetup } =
     useRecommendedSetupsContext();
@@ -58,7 +62,7 @@ function GearProgressionPageContent() {
         title="Gear Progression"
         left={
           <Badge className="ml-lg" color="secondary">
-            Work In Progress
+            Beta
           </Badge>
         }
         center={

@@ -1,6 +1,6 @@
 import { skills } from './constants';
 import { expectedHitpointsLevel, getDefaultSkillLevels, sumQuestExperienceLevels } from './xp'; // prettier-ignore
-import type { EquipmentSlotId, EquippedItems } from '../types/equipment';
+import type { EquipmentItem, EquipmentSlotId, EquippedItems } from '../types/equipment'; // prettier-ignore
 import type { GearProgressionContextCategory, GearProgressionContextTier, GearProgressionWorkerInput } from '../types/gear-progression'; // prettier-ignore
 
 export function processGearProgressionData(
@@ -49,8 +49,14 @@ function processGearProgressionTier(
   const skillRequirements = getDefaultSkillLevels();
   let questMilestone: string | undefined;
 
-  const getItemById = (id: string) =>
-    data.equipment.find(item => item.id === id);
+  const getItemById = (id: string): EquipmentItem | undefined => {
+    const item = data.equipment.find(item => item.id === id);
+    if (item && data.ownedItems && data.ownedItems.has(item.id)) {
+      const tags = item.tags || [];
+      return { ...item, tags: [...tags, 'owned'] };
+    }
+    return item;
+  };
 
   for (let i = 0; i <= tierIndex; i++) {
     const tier = data.tiers[i];
@@ -136,7 +142,7 @@ function processGearProgressionTier(
           !item.id.includes('#equipmentslot')
         ) {
           const tags = item.tags || [];
-          if (!tags.includes('unmarked')) {
+          if (!tags.includes('unmarked') && !tags.includes('owned')) {
             equipment[set][slot] = { ...item, tags: [...tags, 'upgrade'] };
           }
         }

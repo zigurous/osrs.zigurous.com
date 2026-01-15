@@ -2152,9 +2152,17 @@
       { "id": "Slayer_helmet_(i)", "subcategory": "melee-slayer" }
     ],
     "skills": [
-      { "skill": "ranged", "level": 85, "highlight": true }
+      { "skill": "ranged", "level": 85, "highlight": true },
+      { "skill": "magic", "level": 92, "highlight": true }
     ],
     "timeline": [
+      {
+        "id": "Magic",
+        "icon": "Magic_icon",
+        "title": "92 magic",
+        "subtitle": "To cast blood barrage",
+        "items": ["Blood_Barrage"]
+      },
       {
         "id": "K'ril_Tsutsaroth",
         "icon": "K'ril_Tsutsaroth_icon_(mobile)",

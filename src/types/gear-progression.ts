@@ -69,6 +69,7 @@ export type GearProgressionContextTier = Omit<
 export interface GearProgressionWorkerInput {
   tiers: GearProgressionTier[];
   category: GearProgressionCategory;
+  ownedItems: Set<string> | null;
   equipment: EquipmentItem[];
   quests: Quest[];
 }

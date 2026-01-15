@@ -16,7 +16,8 @@ export function toTitleCase(title: string): string {
       if (
         substring === '(Hunter)' ||
         substring === '(Farming)' ||
-        substring === '(spell)'
+        substring === '(spell)' ||
+        substring === '(tablet)'
       ) {
         return str.slice(0, startIndex);
       }

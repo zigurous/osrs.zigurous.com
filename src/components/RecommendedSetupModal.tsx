@@ -6,9 +6,7 @@ import EquipmentInventory from './EquipmentInventory';
 import ItemInventory from './ItemInventory';
 import WikiIcon from './WikiIcon';
 import WikiLink from './WikiLink';
-import { createExport } from '../utils/inventory-setups-export';
-import type { EquippedItemIds } from '../types/equipment';
-import type { InventoryIds } from '../types/inventory';
+import { exportSetup } from '../utils/plugin-inventory-setups';
 import type { RecommendedSetup } from '../types/recommended-setup';
 
 interface RecommendedSetupModalProps {
@@ -45,8 +43,8 @@ export default function RecommendedSetupModal({
   useEffect(() => {
     if (typeof window === 'undefined') return;
     if (setup.loadouts.length <= 1) return;
-    const prev = keyEventHandler('ArrowLeft', previousLoadout, true);
-    const next = keyEventHandler('ArrowRight', nextLoadout, true);
+    const prev = keyEventHandler('ArrowLeft', previousLoadout, false);
+    const next = keyEventHandler('ArrowRight', nextLoadout, false);
     window.addEventListener('keydown', prev);
     window.addEventListener('keydown', next);
     return () => {
@@ -100,7 +98,7 @@ export default function RecommendedSetupModal({
                   icon="ios_share"
                   iconAlignment="only"
                   iconProps={{ color: '', size: 'sm' }}
-                  onClick={() => createExport(setup, currentLoadout)}
+                  onClick={() => exportSetup(setup, currentLoadout)}
                   size="sm"
                   variant="text"
                 />
@@ -142,16 +140,12 @@ export default function RecommendedSetupModal({
           )}
           <Stack align="center" justify="center" spacing="2xxl">
             <EquipmentInventory
-              items={currentLoadout?.equipment.reduce((slots, equipment) => {
-                slots[equipment.slot] = equipment.item;
-                return slots;
-              }, {} as EquippedItemIds)}
+              highlights={['missing']}
+              items={currentLoadout?.equipment}
             />
             <ItemInventory
-              items={currentLoadout?.inventory.reduce((inventory, el) => {
-                inventory[el.slot] = el.item;
-                return inventory;
-              }, {} as InventoryIds)}
+              highlights={['missing']}
+              items={currentLoadout?.inventory}
               runePouch={currentLoadout?.runePouch}
             />
           </Stack>

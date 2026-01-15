@@ -1,0 +1,3146 @@
+[
+  {
+    "id": "{ammo_antler_bolts}",
+    "items": [
+      "Moonlight_antler_bolts",
+      "Sunlight_antler_bolts"
+    ]
+  },
+  {
+    "id": "{ammo_arrow}",
+    "items": [
+      "Dragon_arrow",
+      "Amethyst_arrow",
+      "Rune_arrow",
+      "Adamant_arrow",
+      "Broad_arrow",
+      "Mithril_arrow",
+      "Steel_arrow",
+      "Iron_arrow",
+      "Bronze_arrow"
+    ]
+  },
+  {
+    "id": "{ammo_arrow_rune}",
+    "items": [
+      "Rune_arrow",
+      "Adamant_arrow",
+      "Broad_arrow",
+      "Mithril_arrow",
+      "Steel_arrow",
+      "Iron_arrow",
+      "Bronze_arrow"
+    ]
+  },
+  {
+    "id": "{ammo_blessing}",
+    "items": [
+      "Crystal_blessing",
+      "Rada's_blessing_4",
+      "Rada's_blessing_3",
+      "Rada's_blessing_2",
+      "Holy_blessing",
+      "Unholy_blessing",
+      "Peaceful_blessing",
+      "Honourable_blessing",
+      "War_blessing",
+      "Ancient_blessing"
+    ]
+  },
+  {
+    "id": "{ammo_bolts}",
+    "items": [
+      "Diamond_dragon_bolts_(e)",
+      "Diamond_bolts_(e)",
+      "Dragon_bolts",
+      "Amethyst_broad_bolts",
+      "Runite_bolts",
+      "Adamant_bolts",
+      "Broad_bolts",
+      "Mithril_bolts"
+    ]
+  },
+  {
+    "id": "{ammo_bolts_rune}",
+    "items": [
+      "Diamond_bolts_(e)",
+      "Runite_bolts",
+      "Adamant_bolts",
+      "Broad_bolts",
+      "Mithril_bolts"
+    ]
+  },
+  {
+    "id": "{ammo_bolts_diamond}",
+    "items": [
+      "Diamond_dragon_bolts_(e)",
+      "Diamond_bolts_(e)"
+    ]
+  },
+  {
+    "id": "{ammo_bolts_ruby}",
+    "items": [
+      "Ruby_dragon_bolts_(e)",
+      "Ruby_bolts_(e)"
+    ]
+  },
+  {
+    "id": "{ammo_javelin}",
+    "items": [
+      "Dragon_javelin",
+      "Amethyst_javelin",
+      "Rune_javelin",
+      "Adamant_javelin",
+      "Broad_javelin",
+      "Mithril_javelin",
+      "Steel_javelin",
+      "Iron_javelin",
+      "Bronze_javelin"
+    ]
+  },
+  {
+    "id": "{ammo_kebbit_bolts}",
+    "items": [
+      "Long_kebbit_bolts",
+      "Kebbit_bolts"
+    ]
+  },
+  {
+    "id": "{body_magic}",
+    "items": [
+      "Ancestral_robe_top",
+      "Virtus_robe_top",
+      "Blue_moon_chestplate",
+      "Ahrim's_robetop",
+      "Dagon'hai_robe_top",
+      "Infinity_top",
+      "Bloodbark_body",
+      "Elder_chaos_top",
+      "Robe_top_of_darkness",
+      "Enchanted_top",
+      "Mystic_robe_top",
+      "Swampbark_body",
+      "Splitbark_body",
+      "Skeletal_top",
+      "Xerician_top",
+      "Moonclan_armour",
+      "Zamorak_monk_top",
+      "Monk's_robe_top",
+      "Blue_wizard_robe",
+      "Black_robe"
+    ]
+  },
+  {
+    "id": "{body_magic_dmg}",
+    "items": [
+      "Ancestral_robe_top",
+      "Virtus_robe_top",
+      "Blue_moon_chestplate",
+      "Ahrim's_robetop",
+      "Dagon'hai_robe_top",
+      "Infinity_top",
+      "Bloodbark_body",
+      "Elder_chaos_top"
+    ]
+  },
+  {
+    "id": "{body_magic_prayer}",
+    "items": [
+      "Ancestral_robe_top",
+      "Virtus_robe_top",
+      "Blue_moon_chestplate",
+      "Ahrim's_robetop",
+      "Dagon'hai_robe_top",
+      "Infinity_top",
+      "Bloodbark_body",
+      "Elder_chaos_top",
+      "Zealot's_robe_top",
+      "Zamorak_monk_top",
+      "Monk's_robe_top",
+      "Mystic_robe_top"
+    ]
+  },
+  {
+    "id": "{body_magic_wilderness}",
+    "items": [
+      "Bloodbark_body",
+      "Mystic_robe_top",
+      "Xerician_top",
+      "Zamorak_monk_top",
+      "Monk's_robe_top"
+    ]
+  },
+  {
+    "id": "{body_melee}",
+    "items": [
+      "Torva_platebody",
+      "Oathplate_chest",
+      "Bandos_chestplate",
+      "Inquisitor's_hauberk",
+      "Fighter_torso",
+      "Blood_moon_chestplate",
+      "Obsidian_platebody",
+      "Eclipse_moon_chestplate",
+      "Mixed_hide_top",
+      "Blue_moon_chestplate",
+      "Dharok's_platebody",
+      "Torag's_platebody",
+      "Guthan's_platebody",
+      "Verac's_brassard",
+      "Dragon_platebody",
+      "Dragon_chainbody",
+      "Proselyte_hauberk",
+      "Rune_platebody",
+      "Rune_chainbody"
+    ]
+  },
+  {
+    "id": "{body_melee_crush}",
+    "items": [
+      "Inquisitor's_hauberk",
+      "Torva_platebody",
+      "Oathplate_chest",
+      "Bandos_chestplate",
+      "Fighter_torso",
+      "Blood_moon_chestplate",
+      "Obsidian_platebody",
+      "Eclipse_moon_chestplate",
+      "Mixed_hide_top",
+      "Blue_moon_chestplate",
+      "Dharok's_platebody",
+      "Torag's_platebody",
+      "Guthan's_platebody",
+      "Verac's_brassard",
+      "Dragon_platebody",
+      "Dragon_chainbody",
+      "Proselyte_hauberk",
+      "Rune_platebody",
+      "Rune_chainbody"
+    ]
+  },
+  {
+    "id": "{body_melee_slash}",
+    "items": [
+      "Oathplate_chest",
+      "Torva_platebody",
+      "Bandos_chestplate",
+      "Fighter_torso",
+      "Blood_moon_chestplate",
+      "Inquisitor's_hauberk",
+      "Obsidian_platebody",
+      "Eclipse_moon_chestplate",
+      "Mixed_hide_top",
+      "Blue_moon_chestplate",
+      "Dharok's_platebody",
+      "Torag's_platebody",
+      "Guthan's_platebody",
+      "Verac's_brassard",
+      "Dragon_platebody",
+      "Dragon_chainbody",
+      "Proselyte_hauberk",
+      "Rune_platebody",
+      "Rune_chainbody"
+    ]
+  },
+  {
+    "id": "{body_melee_stab}",
+    "items": [
+      "Torva_platebody",
+      "Oathplate_chest",
+      "Bandos_chestplate",
+      "Fighter_torso",
+      "Blood_moon_chestplate",
+      "Inquisitor's_hauberk",
+      "Obsidian_platebody",
+      "Eclipse_moon_chestplate",
+      "Mixed_hide_top",
+      "Blue_moon_chestplate",
+      "Dharok's_platebody",
+      "Torag's_platebody",
+      "Guthan's_platebody",
+      "Verac's_brassard",
+      "Dragon_platebody",
+      "Dragon_chainbody",
+      "Proselyte_hauberk",
+      "Rune_platebody",
+      "Rune_chainbody"
+    ]
+  },
+  {
+    "id": "{body_melee_str}",
+    "items": [
+      "Torva_platebody",
+      "Oathplate_chest",
+      "Bandos_chestplate",
+      "Inquisitor's_hauberk",
+      "Fighter_torso",
+      "Blood_moon_chestplate",
+      "Obsidian_platebody",
+      "Eclipse_moon_chestplate",
+      "Mixed_hide_top",
+      "Blue_moon_chestplate"
+    ]
+  },
+  {
+    "id": "{body_melee_tank}",
+    "items": [
+      "Torva_platebody",
+      "Oathplate_chest",
+      "Justiciar_faceguard",
+      "Bandos_chestplate",
+      "Dharok's_platebody",
+      "Torag's_platebody",
+      "Guthan's_platebody",
+      "Fighter_torso",
+      "Verac's_brassard",
+      "Blood_moon_chestplate",
+      "Inquisitor's_hauberk",
+      "Obsidian_platebody",
+      "Dragon_platebody",
+      "Dragon_chainbody",
+      "Granite_body",
+      "Rune_platebody",
+      "Rune_chainbody"
+    ]
+  },
+  {
+    "id": "{body_ranged}",
+    "items": [
+      "Masori_body_(f)",
+      "Masori_body",
+      "Armadyl_chestplate",
+      "Crystal_body",
+      "Eclipse_moon_chestplate",
+      "Hueycoatl_hide_body",
+      "Guthix_d'hide_body",
+      "Armadyl_d'hide_body",
+      "Saradomin_d'hide_body",
+      "Ancient_d'hide_body",
+      "Zamorak_d'hide_body",
+      "Bandos_d'hide_body",
+      "Karil's_leathertop",
+      "Black_d'hide_body",
+      "Mixed_hide_top",
+      "Red_d'hide_body",
+      "Blue_d'hide_body",
+      "Spined_body",
+      "Green_d'hide_body",
+      "Rangers'_tunic",
+      "Snakeskin_body",
+      "Frog-leather_body",
+      "Studded_body",
+      "Hardleather_body",
+      "Leather_body"
+    ]
+  },
+  {
+    "id": "{body_ranged_prayer}",
+    "items": [
+      "Masori_body_(f)",
+      "Masori_body",
+      "Armadyl_chestplate",
+      "Crystal_body",
+      "Hueycoatl_hide_body",
+      "Guthix_d'hide_body",
+      "Armadyl_d'hide_body",
+      "Saradomin_d'hide_body",
+      "Ancient_d'hide_body",
+      "Zamorak_d'hide_body",
+      "Bandos_d'hide_body",
+      "Eclipse_moon_chestplate",
+      "Karil's_leathertop",
+      "Black_d'hide_body",
+      "Mixed_hide_top",
+      "Red_d'hide_body",
+      "Blue_d'hide_body",
+      "Spined_body",
+      "Green_d'hide_body",
+      "Rangers'_tunic",
+      "Snakeskin_body",
+      "Frog-leather_body",
+      "Studded_body",
+      "Hardleather_body",
+      "Leather_body"
+    ]
+  },
+  {
+    "id": "{body_ranged_str}",
+    "items": [
+      "Masori_body_(f)",
+      "Masori_body"
+    ]
+  },
+  {
+    "id": "{body_ranged_wilderness}",
+    "items": [
+      "Masori_body_(f)",
+      "Masori_body",
+      "Black_d'hide_body",
+      "Mixed_hide_top"
+    ]
+  },
+  {
+    "id": "{body_tank}",
+    "items": [
+      "Justiciar_chestguard",
+      "Torva_platebody",
+      "Oathplate_chest",
+      "Bandos_chestplate",
+      "Dharok's_platebody",
+      "Torag's_platebody",
+      "Guthan's_platebody",
+      "Verac's_brassard",
+      "Dragon_platebody",
+      "Dragon_chainbody",
+      "Granite_body",
+      "Rune_platebody",
+      "Rune_chainbody"
+    ]
+  },
+  {
+    "id": "{body_void}",
+    "items": [
+      "Elite_void_top",
+      "Void_knight_top"
+    ]
+  },
+  {
+    "id": "{cape_hybrid}",
+    "items": [
+      "Infernal_max_cape",
+      "Infernal_cape",
+      "Fire_max_cape",
+      "Fire_cape",
+      "Ardougne_cloak_4",
+      "Ardougne_cloak_3",
+      "Ardougne_cloak_2",
+      "Ardougne_cloak_1"
+    ]
+  },
+  {
+    "id": "{cape_magic}",
+    "items": [
+      "Imbued_saradomin_max_cape",
+      "Imbued_zamorak_max_cape",
+      "Imbued_guthix_max_cape",
+      "Imbued_saradomin_cape",
+      "Imbued_zamorak_cape",
+      "Imbued_guthix_cape",
+      "Saradomin_cape",
+      "Zamorak_cape",
+      "Guthix_cape",
+      "Ardougne_cloak_4",
+      "Ardougne_cloak_3",
+      "Ardougne_cloak_2",
+      "Ardougne_cloak_1"
+    ]
+  },
+  {
+    "id": "{cape_magic_dmg}",
+    "items": [
+      "Imbued_saradomin_max_cape",
+      "Imbued_zamorak_max_cape",
+      "Imbued_guthix_max_cape",
+      "Imbued_saradomin_cape",
+      "Imbued_zamorak_cape",
+      "Imbued_guthix_cape"
+    ]
+  },
+  {
+    "id": "{cape_magic_prayer}",
+    "items": [
+      "Imbued_saradomin_max_cape",
+      "Imbued_zamorak_max_cape",
+      "Imbued_guthix_max_cape",
+      "Imbued_saradomin_cape",
+      "Imbued_zamorak_cape",
+      "Imbued_guthix_cape",
+      "Vestment_cloak",
+      "Ardougne_cloak_4",
+      "Ardougne_cloak_3",
+      "Ardougne_cloak_2",
+      "Ardougne_cloak_1",
+      "Saradomin_cape",
+      "Zamorak_cape",
+      "Guthix_cape"
+    ]
+  },
+  {
+    "id": "{cape_magic_wilderness}",
+    "items": [
+      "Imbued_saradomin_max_cape",
+      "Imbued_zamorak_max_cape",
+      "Imbued_guthix_max_cape",
+      "Imbued_saradomin_cape",
+      "Imbued_zamorak_cape",
+      "Imbued_guthix_cape",
+      "Saradomin_cape",
+      "Zamorak_cape",
+      "Guthix_cape",
+      "Ardougne_cloak_4",
+      "Ardougne_cloak_3",
+      "Ardougne_cloak_2",
+      "Ardougne_cloak_1"
+    ]
+  },
+  {
+    "id": "{cape_melee}",
+    "items": [
+      "Infernal_max_cape",
+      "Infernal_cape",
+      "Fire_max_cape",
+      "Fire_cape",
+      "Mythical_max_cape",
+      "Mythical_cape",
+      "Mixed_hide_cape",
+      "Obsidian_cape",
+      "Ardougne_cloak_4",
+      "Ardougne_cloak_3",
+      "Ardougne_cloak_2",
+      "Ardougne_cloak_1",
+      "Cape_of_legends"
+    ]
+  },
+  {
+    "id": "{cape_melee_str}",
+    "items": [
+      "Infernal_max_cape",
+      "Infernal_cape",
+      "Fire_max_cape",
+      "Fire_cape"
+    ]
+  },
+  {
+    "id": "{cape_ranged}",
+    "items": [
+      "Dizana's_max_cape",
+      "Blessed_dizana's_quiver",
+      "Dizana's_quiver",
+      "Masori_assembler",
+      "Ava's_assembler",
+      "Ranging_cape(t)",
+      "Ava's_accumulator",
+      "Ava's_attractor",
+      "Mixed_hide_cape",
+      "Ardougne_cloak_4",
+      "Ardougne_cloak_3",
+      "Ardougne_cloak_2",
+      "Ardougne_cloak_1",
+      "Vestment_cloak"
+    ]
+  },
+  {
+    "id": "{cape_ranged_str}",
+    "items": [
+      "Dizana's_max_cape",
+      "Blessed_dizana's_quiver",
+      "Dizana's_quiver",
+      "Masori_assembler",
+      "Ava's_assembler"
+    ]
+  },
+  {
+    "id": "{feet_avernic}",
+    "items": [
+      "Avernic_treads_(max)",
+      "Avernic_treads_(pr)(et)",
+      "Avernic_treads_(pr)(pe)",
+      "Avernic_treads_(pe)(et)",
+      "Avernic_treads_(pr)",
+      "Avernic_treads_(et)",
+      "Avernic_treads_(pe)",
+      "Avernic_treads"
+    ]
+  },
+  {
+    "id": "{feet_hybrid}",
+    "items": [
+      "Avernic_treads_(max)",
+      "Avernic_treads_(pr)(et)",
+      "Avernic_treads_(pr)(pe)",
+      "Avernic_treads_(pe)(et)",
+      "Avernic_treads_(pr)",
+      "Avernic_treads_(et)",
+      "Avernic_treads_(pe)",
+      "Avernic_treads",
+      "Aranea_boots"
+    ]
+  },
+  {
+    "id": "{feet_magic}",
+    "items": [
+      "Avernic_treads_(max)",
+      "Avernic_treads_(pr)(et)",
+      "Avernic_treads_(pe)(et)",
+      "Avernic_treads_(et)",
+      "Avernic_treads_(pr)(pe)",
+      "Avernic_treads_(pr)",
+      "Avernic_treads_(pe)",
+      "Avernic_treads",
+      "Eternal_boots",
+      "Aranea_boots",
+      "Infinity_boots",
+      "Bloodbark_boots",
+      "Wizard_boots",
+      "Boots_of_brimstone",
+      "Mystic_boots"
+    ]
+  },
+  {
+    "id": "{feet_magic_dmg}",
+    "items": [
+      "Avernic_treads_(max)",
+      "Avernic_treads_(pr)(et)",
+      "Avernic_treads_(pe)(et)",
+      "Avernic_treads_(et)",
+      "Avernic_treads_(pr)(pe)",
+      "Avernic_treads_(pr)",
+      "Avernic_treads_(pe)",
+      "Avernic_treads",
+      "Eternal_boots"
+    ]
+  },
+  {
+    "id": "{feet_magic_prayer}",
+    "items": [
+      "Avernic_treads_(max)",
+      "Avernic_treads_(pr)(et)",
+      "Avernic_treads_(pe)(et)",
+      "Avernic_treads_(et)",
+      "Avernic_treads_(pr)(pe)",
+      "Avernic_treads_(pr)",
+      "Avernic_treads_(pe)",
+      "Avernic_treads",
+      "Devout_boots",
+      "Holy_sandals",
+      "Eternal_boots",
+      "Aranea_boots",
+      "Infinity_boots",
+      "Bloodbark_boots",
+      "Wizard_boots",
+      "Boots_of_brimstone",
+      "Mystic_boots"
+    ]
+  },
+  {
+    "id": "{feet_magic_wilderness}",
+    "items": [
+      "Mystic_boots",
+      "Ghostly_boots",
+      "Splitbark_boots",
+      "Moonclan_boots"
+    ]
+  },
+  {
+    "id": "{feet_melee}",
+    "items": [
+      "Avernic_treads_(max)",
+      "Avernic_treads_(pr)(et)",
+      "Avernic_treads_(pr)(pe)",
+      "Avernic_treads_(pr)",
+      "Avernic_treads_(pe)(et)",
+      "Avernic_treads_(pe)",
+      "Avernic_treads_(et)",
+      "Avernic_treads",
+      "Primordial_boots",
+      "Dragon_boots",
+      "Aranea_boots",
+      "Spiked_manacles",
+      "Echo_boots",
+      "Guardian_boots",
+      "Granite_boots",
+      "Rune_boots",
+      "Mixed_hide_boots",
+      "Climbing_boots",
+      "Adamant_boots",
+      "Bandos_boots"
+    ]
+  },
+  {
+    "id": "{feet_melee_hybrid_magic}",
+    "items": [
+      "Avernic_treads_(max)",
+      "Avernic_treads_(pr)(et)",
+      "Avernic_treads_(pr)(pe)",
+      "Avernic_treads_(pr)",
+      "Avernic_treads_(pe)(et)",
+      "Avernic_treads_(pe)",
+      "Avernic_treads_(et)",
+      "Avernic_treads",
+      "Primordial_boots",
+      "Aranea_boots",
+      "Dragon_boots",
+      "Spiked_manacles",
+      "Climbing_boots",
+      "Boots_of_brimstone"
+    ]
+  },
+  {
+    "id": "{feet_melee_tank}",
+    "items": [
+      "Avernic_treads_(max)",
+      "Avernic_treads_(pr)(et)",
+      "Avernic_treads_(pr)(pe)",
+      "Avernic_treads_(pr)",
+      "Avernic_treads_(pe)(et)",
+      "Avernic_treads_(pe)",
+      "Avernic_treads_(et)",
+      "Avernic_treads",
+      "Primordial_boots",
+      "Echo_boots",
+      "Guardian_boots",
+      "Dragon_boots",
+      "Granite_boots",
+      "Bandos_boots",
+      "Rune_boots"
+    ]
+  },
+  {
+    "id": "{feet_ranged}",
+    "items": [
+      "Avernic_treads_(max)",
+      "Avernic_treads_(pr)(pe)",
+      "Avernic_treads_(pe)(et)",
+      "Avernic_treads_(pe)",
+      "Avernic_treads_(pr)(et)",
+      "Avernic_treads_(pr)",
+      "Avernic_treads_(et)",
+      "Avernic_treads",
+      "Pegasian_boots",
+      "Ranger_boots",
+      "Guthix_d'hide_boots",
+      "Armadyl_d'hide_boots",
+      "Saradomin_d'hide_boots",
+      "Ancient_d'hide_boots",
+      "Zamorak_d'hide_boots",
+      "Bandos_d'hide_boots",
+      "Aranea_boots",
+      "Boots_of_brimstone",
+      "Mixed_hide_boots",
+      "Shayzien_boots_(5)",
+      "Snakeskin_boots",
+      "Frog-leather_boots",
+      "Leather_boots"
+    ]
+  },
+  {
+    "id": "{feet_ranged_karuulm}",
+    "items": [
+      "Avernic_treads_(max)",
+      "Avernic_treads_(pr)(pe)",
+      "Avernic_treads_(pe)(et)",
+      "Avernic_treads_(pe)",
+      "Avernic_treads_(pr)(et)",
+      "Avernic_treads_(pr)",
+      "Avernic_treads_(et)",
+      "Avernic_treads",
+      "Pegasian_boots",
+      "Devout_boots",
+      "Holy_sandals",
+      "Guthix_d'hide_boots",
+      "Armadyl_d'hide_boots",
+      "Saradomin_d'hide_boots",
+      "Ancient_d'hide_boots",
+      "Zamorak_d'hide_boots",
+      "Bandos_d'hide_boots",
+      "Aranea_boots",
+      "Ranger_boots",
+      "Boots_of_brimstone",
+      "Boots_of_stone"
+    ]
+  },
+  {
+    "id": "{feet_ranged_prayer}",
+    "items": [
+      "Avernic_treads_(max)",
+      "Avernic_treads_(pr)(pe)",
+      "Avernic_treads_(pe)(et)",
+      "Avernic_treads_(pe)",
+      "Avernic_treads_(pr)(et)",
+      "Avernic_treads_(pr)",
+      "Avernic_treads_(et)",
+      "Avernic_treads",
+      "Devout_boots",
+      "Pegasian_boots",
+      "Holy_sandals",
+      "Guthix_d'hide_boots",
+      "Armadyl_d'hide_boots",
+      "Saradomin_d'hide_boots",
+      "Ancient_d'hide_boots",
+      "Zamorak_d'hide_boots",
+      "Bandos_d'hide_boots",
+      "Aranea_boots",
+      "Ranger_boots",
+      "Boots_of_brimstone",
+      "Mixed_hide_boots",
+      "Shayzien_boots_(5)",
+      "Snakeskin_boots",
+      "Frog-leather_boots",
+      "Leather_boots"
+    ]
+  },
+  {
+    "id": "{feet_ranged_prayer_pegasian}",
+    "items": [
+      "Avernic_treads_(max)",
+      "Avernic_treads_(pr)(pe)",
+      "Avernic_treads_(pe)(et)",
+      "Avernic_treads_(pe)",
+      "Avernic_treads_(pr)(et)",
+      "Avernic_treads_(pr)",
+      "Avernic_treads_(et)",
+      "Avernic_treads",
+      "Pegasian_boots",
+      "Devout_boots",
+      "Holy_sandals",
+      "Guthix_d'hide_boots",
+      "Armadyl_d'hide_boots",
+      "Saradomin_d'hide_boots",
+      "Ancient_d'hide_boots",
+      "Zamorak_d'hide_boots",
+      "Bandos_d'hide_boots",
+      "Aranea_boots",
+      "Ranger_boots",
+      "Boots_of_brimstone",
+      "Mixed_hide_boots",
+      "Shayzien_boots_(5)",
+      "Snakeskin_boots",
+      "Frog-leather_boots",
+      "Leather_boots"
+    ]
+  },
+  {
+    "id": "{feet_tank}",
+    "items": [
+      "Echo_boots",
+      "Guardian_boots",
+      "Avernic_treads_(max)",
+      "Avernic_treads_(pr)(et)",
+      "Avernic_treads_(pr)(pe)",
+      "Avernic_treads_(pe)(et)",
+      "Avernic_treads_(pr)",
+      "Avernic_treads_(et)",
+      "Avernic_treads_(pe)",
+      "Avernic_treads",
+      "Bandos_boots",
+      "Granite_boots"
+    ]
+  },
+  {
+    "id": "{food_blighted}",
+    "items": [
+      "Blighted_anglerfish",
+      "Blighted_manta_ray",
+      "Blighted_karambwan"
+    ]
+  },
+  {
+    "id": "{food_blighted_combo}",
+    "items": [
+      "Blighted_karambwan"
+    ]
+  },
+  {
+    "id": "{food_budget}",
+    "items": [
+      "Shark",
+      "Pineapple_pizza",
+      "Cooked_sunlight_antelope",
+      "Cooked_karambwan",
+      "Potato_with_cheese",
+      "Monkfish",
+      "Swordfish",
+      "Bass",
+      "Lobster",
+      "Tuna",
+      "Salmon",
+      "Pike",
+      "Trout",
+      "Mackerel",
+      "Bread",
+      "Herring",
+      "Shrimps",
+      "Cooked_chicken",
+      "Cooked_meat"
+    ]
+  },
+  {
+    "id": "{food_combo}",
+    "items": [
+      "Halibut",
+      "Cooked_karambwan"
+    ]
+  },
+  {
+    "id": "{food_overheal}",
+    "items": [
+      "Anglerfish",
+      "Haddock"
+    ]
+  },
+  {
+    "id": "{food_primary}",
+    "items": [
+      "Marlin",
+      "Bluefin",
+      "Manta_ray",
+      "Dark_crab",
+      "Tuna_potato",
+      "Anglerfish",
+      "Sea_turtle",
+      "Shark",
+      "Halibut",
+      "Cooked_karambwan",
+      "Potato_with_cheese",
+      "Monkfish",
+      "Swordfish",
+      "Bass",
+      "Lobster",
+      "Tuna",
+      "Salmon",
+      "Pike",
+      "Trout",
+      "Mackerel",
+      "Bread",
+      "Herring",
+      "Shrimps",
+      "Cooked_chicken",
+      "Cooked_meat"
+    ]
+  },
+  {
+    "id": "{hands_hybrid}",
+    "items": [
+      "Barrows_gloves",
+      "Dragon_gloves",
+      "Rune_gloves",
+      "Regen_bracelet",
+      "Adamant_gloves",
+      "Combat_bracelet",
+      "Mithril_gloves",
+      "Black_gloves",
+      "Steel_gloves",
+      "Iron_gloves",
+      "Bronze_gloves",
+      "Hardleather_gloves"
+    ]
+  },
+  {
+    "id": "{hands_magic}",
+    "items": [
+      "Confliction_gauntlets",
+      "Tormented_bracelet",
+      "Gloves_of_the_damned",
+      "Barrows_gloves",
+      "Dragon_gloves",
+      "Infinity_gloves",
+      "Rune_gloves",
+      "Bloodbark_gauntlets",
+      "Regen_bracelet",
+      "Adamant_gloves",
+      "Combat_bracelet",
+      "Mithril_gloves",
+      "Black_gloves",
+      "Mystic_gloves",
+      "Steel_gloves",
+      "Iron_gloves",
+      "Bronze_gloves",
+      "Hardleather_gloves"
+    ]
+  },
+  {
+    "id": "{hands_magic_dmg}",
+    "items": [
+      "Confliction_gauntlets",
+      "Tormented_bracelet"
+    ]
+  },
+  {
+    "id": "{hands_magic_prayer}",
+    "items": [
+      "Confliction_gauntlets",
+      "Tormented_bracelet",
+      "Holy_wraps",
+      "Gloves_of_the_damned",
+      "Barrows_gloves",
+      "Dragon_gloves",
+      "Infinity_gloves",
+      "Rune_gloves",
+      "Bloodbark_gauntlets",
+      "Regen_bracelet",
+      "Adamant_gloves",
+      "Combat_bracelet",
+      "Mithril_gloves",
+      "Black_gloves",
+      "Mystic_gloves",
+      "Steel_gloves",
+      "Iron_gloves",
+      "Bronze_gloves",
+      "Hardleather_gloves"
+    ]
+  },
+  {
+    "id": "{hands_magic_wilderness}",
+    "items": [
+      "Barrows_gloves",
+      "Dragon_gloves",
+      "Rune_gloves",
+      "Adamant_gloves",
+      "Combat_bracelet",
+      "Mithril_gloves",
+      "Black_gloves",
+      "Mystic_gloves",
+      "Steel_gloves",
+      "Iron_gloves",
+      "Bronze_gloves",
+      "Hardleather_gloves"
+    ]
+  },
+  {
+    "id": "{hands_melee}",
+    "items": [
+      "Ferocious_gloves",
+      "Gloves_of_the_damned",
+      "Barrows_gloves",
+      "Dragon_gloves",
+      "Rune_gloves",
+      "Regen_bracelet",
+      "Adamant_gloves",
+      "Granite_gloves",
+      "Combat_bracelet",
+      "Mithril_gloves",
+      "Black_gloves",
+      "Steel_gloves",
+      "Iron_gloves",
+      "Bronze_gloves",
+      "Steel_gauntlets",
+      "Hardleather_gloves"
+    ]
+  },
+  {
+    "id": "{hands_ranged}",
+    "items": [
+      "Sunlit_bracers",
+      "Zaryte_vambraces",
+      "Gloves_of_the_damned",
+      "Barrows_gloves",
+      "Hueycoatl_hide_vambraces",
+      "Black_d'hide_vambraces",
+      "Ranger_gloves",
+      "Red_d'hide_vambraces",
+      "Dragon_gloves",
+      "Blue_d'hide_vambraces",
+      "Rune_gloves",
+      "Green_d'hide_vambraces",
+      "Rune_gloves",
+      "Regen_bracelet",
+      "Adamant_gloves",
+      "Combat_bracelet",
+      "Mithril_gloves",
+      "Snakeskin_vambraces",
+      "Black_gloves",
+      "Steel_gloves",
+      "Iron_gloves",
+      "Bronze_gloves",
+      "Hardleather_gloves"
+    ]
+  },
+  {
+    "id": "{hands_ranged_str}",
+    "items": [
+      "Sunlit_bracers",
+      "Zaryte_vambraces"
+    ]
+  },
+  {
+    "id": "{head_hybrid}",
+    "items": [
+      "Neitiznot_faceguard",
+      "Helm_of_neitiznot"
+    ]
+  },
+  {
+    "id": "{head_magic}",
+    "items": [
+      "Battlehat",
+      "Ancestral_hat",
+      "Virtus_mask",
+      "Blue_moon_helm",
+      "Ahrim's_hood",
+      "Dagon'hai_hat",
+      "Infinity_hat",
+      "Bloodbark_helm",
+      "Elder_chaos_hood",
+      "Farseer_helm",
+      "Hood_of_darkness",
+      "Enchanted_hat",
+      "Mystic_hat",
+      "Swampbark_helm",
+      "Splitbark_helm",
+      "Skeletal_helm",
+      "Xerician_hat",
+      "Moonclan_hat",
+      "Moonclan_helm",
+      "Blue_wizard_hat",
+      "Wizard_hat"
+    ]
+  },
+  {
+    "id": "{head_magic_dmg}",
+    "items": [
+      "Battlehat",
+      "Ancestral_hat",
+      "Virtus_mask",
+      "Blue_moon_helm",
+      "Ahrim's_hood",
+      "Dagon'hai_hat",
+      "Infinity_hat",
+      "Bloodbark_helm",
+      "Elder_chaos_hood"
+    ]
+  },
+  {
+    "id": "{head_magic_prayer}",
+    "items": [
+      "Battlehat",
+      "Ancestral_hat",
+      "Virtus_mask",
+      "Blue_moon_helm",
+      "Ahrim's_hood",
+      "Dagon'hai_hat",
+      "Infinity_hat",
+      "Bloodbark_helm",
+      "Elder_chaos_hood",
+      "Mitre",
+      "Helm_of_neitiznot",
+      "Farseer_helm",
+      "Mystic_hat"
+    ]
+  },
+  {
+    "id": "{head_magic_wilderness}",
+    "items": [
+      "Bloodbark_helm",
+      "Farseer_helm",
+      "Helm_of_neitiznot",
+      "Mystic_hat",
+      "Xerician_hat",
+      "Moonclan_hat",
+      "Moonclan_helm"
+    ]
+  },
+  {
+    "id": "{head_melee}",
+    "items": [
+      "Battlehat",
+      "Torva_full_helm",
+      "Oathplate_helm",
+      "Neitiznot_faceguard",
+      "Serpentine_helm",
+      "Inquisitor's_great_helm",
+      "Blood_moon_helm",
+      "Helm_of_neitiznot",
+      "Berserker_helm",
+      "Obsidian_helmet",
+      "Zombie_helmet",
+      "Verac's_helm",
+      "Guthan's_helm",
+      "Torag's_helm",
+      "Dharok's_helm",
+      "Dragon_full_helm",
+      "Dragon_med_helm",
+      "Proselyte_sallet",
+      "Rune_full_helm",
+      "Rune_med_helm"
+    ]
+  },
+  {
+    "id": "{head_melee_crush}",
+    "items": [
+      "Battlehat",
+      "Inquisitor's_great_helm",
+      "Torva_full_helm",
+      "Oathplate_helm",
+      "Neitiznot_faceguard",
+      "Serpentine_helm",
+      "Blood_moon_helm",
+      "Helm_of_neitiznot",
+      "Berserker_helm",
+      "Obsidian_helmet",
+      "Zombie_helmet",
+      "Verac's_helm",
+      "Guthan's_helm",
+      "Torag's_helm",
+      "Dharok's_helm",
+      "Dragon_full_helm",
+      "Dragon_med_helm",
+      "Proselyte_sallet",
+      "Rune_full_helm",
+      "Rune_med_helm"
+    ]
+  },
+  {
+    "id": "{head_melee_slash}",
+    "items": [
+      "Battlehat",
+      "Torva_full_helm",
+      "Oathplate_helm",
+      "Neitiznot_faceguard",
+      "Serpentine_helm",
+      "Inquisitor's_great_helm",
+      "Blood_moon_helm",
+      "Helm_of_neitiznot",
+      "Berserker_helm",
+      "Obsidian_helmet",
+      "Zombie_helmet",
+      "Warrior_helm",
+      "Verac's_helm",
+      "Guthan's_helm",
+      "Torag's_helm",
+      "Dharok's_helm",
+      "Dragon_full_helm",
+      "Dragon_med_helm",
+      "Proselyte_sallet",
+      "Rune_full_helm",
+      "Rune_med_helm"
+    ]
+  },
+  {
+    "id": "{head_melee_stab}",
+    "items": [
+      "Battlehat",
+      "Torva_full_helm",
+      "Oathplate_helm",
+      "Neitiznot_faceguard",
+      "Serpentine_helm",
+      "Inquisitor's_great_helm",
+      "Blood_moon_helm",
+      "Helm_of_neitiznot",
+      "Berserker_helm",
+      "Obsidian_helmet",
+      "Zombie_helmet",
+      "Verac's_helm",
+      "Guthan's_helm",
+      "Torag's_helm",
+      "Dharok's_helm",
+      "Dragon_full_helm",
+      "Dragon_med_helm",
+      "Proselyte_sallet",
+      "Rune_full_helm",
+      "Rune_med_helm"
+    ]
+  },
+  {
+    "id": "{head_melee_tank}",
+    "items": [
+      "Battlehat",
+      "Torva_full_helm",
+      "Oathplate_helm",
+      "Justiciar_faceguard",
+      "Serpentine_helm",
+      "Neitiznot_faceguard",
+      "Verac's_helm",
+      "Guthan's_helm",
+      "Torag's_helm",
+      "Dharok's_helm",
+      "Blood_moon_helm",
+      "Helm_of_neitiznot",
+      "Berserker_helm",
+      "Inquisitor's_great_helm",
+      "Obsidian_helmet",
+      "Zombie_helmet",
+      "Dragon_full_helm",
+      "Dragon_med_helm",
+      "Granite_helm",
+      "Rune_full_helm",
+      "Rune_med_helm"
+    ]
+  },
+  {
+    "id": "{head_ranged}",
+    "items": [
+      "Battlehat",
+      "Masori_mask_(f)",
+      "Masori_mask",
+      "Armadyl_helmet",
+      "Crystal_helm",
+      "Eclipse_moon_helm",
+      "Hueycoatl_hide_coif",
+      "Robin_hood_hat",
+      "Guthix_coif",
+      "Armadyl_coif",
+      "Saradomin_coif",
+      "Ancient_coif",
+      "Zamorak_coif",
+      "Bandos_coif",
+      "Karil's_coif",
+      "Archer_helm",
+      "Spined_helm",
+      "Ranger_hat",
+      "Snakeskin_bandana",
+      "Coif",
+      "Leather_cowl"
+    ]
+  },
+  {
+    "id": "{head_ranged_prayer}",
+    "items": [
+      "Battlehat",
+      "Masori_mask_(f)",
+      "Masori_mask",
+      "Armadyl_helmet",
+      "Crystal_helm",
+      "Hueycoatl_hide_coif",
+      "Guthix_coif",
+      "Armadyl_coif",
+      "Saradomin_coif",
+      "Ancient_coif",
+      "Zamorak_coif",
+      "Bandos_coif",
+      "Eclipse_moon_helm",
+      "Robin_hood_hat",
+      "Karil's_coif",
+      "Archer_helm",
+      "Spined_helm",
+      "Ranger_hat",
+      "Snakeskin_bandana",
+      "Coif",
+      "Leather_cowl"
+    ]
+  },
+  {
+    "id": "{head_ranged_prayer_tank}",
+    "items": [
+      "Battlehat",
+      "Masori_mask_(f)",
+      "Masori_mask",
+      "Armadyl_helmet",
+      "Crystal_helm",
+      "Hueycoatl_hide_coif",
+      "Guthix_coif",
+      "Armadyl_coif",
+      "Saradomin_coif",
+      "Ancient_coif",
+      "Zamorak_coif",
+      "Bandos_coif",
+      "Verac's_helm",
+      "Neitiznot_faceguard",
+      "Helm_of_neitiznot",
+      "Eclipse_moon_helm",
+      "Robin_hood_hat",
+      "Karil's_coif",
+      "Archer_helm",
+      "Spined_helm",
+      "Ranger_hat",
+      "Snakeskin_bandana",
+      "Coif",
+      "Leather_cowl"
+    ]
+  },
+  {
+    "id": "{head_ranged_str}",
+    "items": [
+      "Battlehat",
+      "Masori_mask_(f)",
+      "Masori_mask"
+    ]
+  },
+  {
+    "id": "{head_ranged_wilderness}",
+    "items": [
+      "Karil's_coif",
+      "Archer_helm",
+      "Helm_of_neitiznot",
+      "Snakeskin_bandana"
+    ]
+  },
+  {
+    "id": "{head_slayer}",
+    "items": [
+      "Battlehat",
+      "Slayer_helmet_(i)",
+      "Black_mask_(i)",
+      "Slayer_helmet",
+      "Black_mask"
+    ]
+  },
+  {
+    "id": "{head_tank}",
+    "items": [
+      "Justiciar_faceguard",
+      "Torva_full_helm",
+      "Serpentine_helm",
+      "Oathplate_helm",
+      "Neitiznot_faceguard",
+      "Verac's_helm",
+      "Guthan's_helm",
+      "Torag's_helm",
+      "Dharok's_helm",
+      "Helm_of_neitiznot",
+      "Berserker_helm",
+      "Warrior_helm",
+      "Zombie_helmet",
+      "Dragon_full_helm",
+      "Dragon_med_helm",
+      "Granite_helm",
+      "Rune_full_helm",
+      "Rune_med_helm"
+    ]
+  },
+  {
+    "id": "{imbued_heart}",
+    "items": [
+      "Saturated_heart",
+      "Imbued_heart"
+    ]
+  },
+  {
+    "id": "{legs_magic}",
+    "items": [
+      "Ancestral_robe_bottom",
+      "Virtus_robe_bottom",
+      "Blue_moon_tassets",
+      "Ahrim's_robeskirt",
+      "Dagon'hai_robe_bottom",
+      "Infinity_bottoms",
+      "Bloodbark_legs",
+      "Elder_chaos_robe",
+      "Robe_bottom_of_darkness",
+      "Enchanted_robe",
+      "Mystic_robe_bottom",
+      "Swampbark_legs",
+      "Splitbark_legs",
+      "Skeletal_bottoms",
+      "Xerician_robe",
+      "Moonclan_skirt",
+      "Zamorak_monk_bottom",
+      "Monk's_robe",
+      "Blue_skirt",
+      "Black_skirt"
+    ]
+  },
+  {
+    "id": "{legs_magic_dmg}",
+    "items": [
+      "Ancestral_robe_bottom",
+      "Virtus_robe_bottom",
+      "Blue_moon_tassets",
+      "Ahrim's_robeskirt",
+      "Dagon'hai_robe_bottom",
+      "Infinity_bottoms",
+      "Bloodbark_legs",
+      "Elder_chaos_robe"
+    ]
+  },
+  {
+    "id": "{legs_magic_prayer}",
+    "items": [
+      "Ancestral_robe_bottom",
+      "Virtus_robe_bottom",
+      "Blue_moon_tassets",
+      "Ahrim's_robeskirt",
+      "Dagon'hai_robe_bottom",
+      "Infinity_bottoms",
+      "Bloodbark_legs",
+      "Elder_chaos_robe",
+      "Zealot's_robe_bottom",
+      "Zamorak_monk_bottom",
+      "Monk's_robe",
+      "Mystic_robe_bottom"
+    ]
+  },
+  {
+    "id": "{legs_magic_wilderness}",
+    "items": [
+      "Bloodbark_legs",
+      "Mystic_robe_bottom",
+      "Xerician_robe",
+      "Zamorak_monk_bottom",
+      "Monk's_robe"
+    ]
+  },
+  {
+    "id": "{legs_melee}",
+    "items": [
+      "Torva_platelegs",
+      "Oathplate_legs",
+      "Bandos_tassets",
+      "Inquisitor's_plateskirt",
+      "Blood_moon_tassets",
+      "Obsidian_platelegs",
+      "Eclipse_moon_tassets",
+      "Fremennik_kilt",
+      "Blue_moon_tassets",
+      "Dharok's_platelegs",
+      "Torag's_platelegs",
+      "Verac's_plateskirt",
+      "Guthan's_chainskirt",
+      "Dragon_platelegs",
+      "Dragon_plateskirt",
+      "Proselyte_cuisse",
+      "Proselyte_tasset",
+      "Rune_platelegs",
+      "Rune_plateskirt"
+    ]
+  },
+  {
+    "id": "{legs_melee_crush}",
+    "items": [
+      "Inquisitor's_plateskirt",
+      "Torva_platelegs",
+      "Oathplate_legs",
+      "Bandos_tassets",
+      "Blood_moon_tassets",
+      "Obsidian_platelegs",
+      "Eclipse_moon_tassets",
+      "Fremennik_kilt",
+      "Blue_moon_tassets",
+      "Dharok's_platelegs",
+      "Torag's_platelegs",
+      "Verac's_plateskirt",
+      "Guthan's_chainskirt",
+      "Dragon_platelegs",
+      "Dragon_plateskirt",
+      "Proselyte_cuisse",
+      "Proselyte_tasset",
+      "Rune_platelegs",
+      "Rune_plateskirt"
+    ]
+  },
+  {
+    "id": "{legs_melee_slash}",
+    "items": [
+      "Oathplate_legs",
+      "Torva_platelegs",
+      "Bandos_tassets",
+      "Blood_moon_tassets",
+      "Inquisitor's_plateskirt",
+      "Obsidian_platelegs",
+      "Eclipse_moon_tassets",
+      "Fremennik_kilt",
+      "Blue_moon_tassets",
+      "Dharok's_platelegs",
+      "Torag's_platelegs",
+      "Verac's_plateskirt",
+      "Guthan's_chainskirt",
+      "Dragon_platelegs",
+      "Dragon_plateskirt",
+      "Proselyte_cuisse",
+      "Proselyte_tasset",
+      "Rune_platelegs",
+      "Rune_plateskirt"
+    ]
+  },
+  {
+    "id": "{legs_melee_stab}",
+    "items": [
+      "Torva_platelegs",
+      "Oathplate_legs",
+      "Bandos_tassets",
+      "Blood_moon_tassets",
+      "Inquisitor's_plateskirt",
+      "Obsidian_platelegs",
+      "Eclipse_moon_tassets",
+      "Fremennik_kilt",
+      "Blue_moon_tassets",
+      "Dharok's_platelegs",
+      "Torag's_platelegs",
+      "Verac's_plateskirt",
+      "Guthan's_chainskirt",
+      "Dragon_platelegs",
+      "Dragon_plateskirt",
+      "Proselyte_cuisse",
+      "Proselyte_tasset",
+      "Rune_platelegs",
+      "Rune_plateskirt"
+    ]
+  },
+  {
+    "id": "{legs_melee_str}",
+    "items": [
+      "Torva_platelegs",
+      "Oathplate_legs",
+      "Bandos_tassets",
+      "Inquisitor's_plateskirt",
+      "Blood_moon_tassets",
+      "Obsidian_platelegs",
+      "Eclipse_moon_tassets",
+      "Fremennik_kilt",
+      "Blue_moon_tassets"
+    ]
+  },
+  {
+    "id": "{legs_melee_tank}",
+    "items": [
+      "Torva_platelegs",
+      "Oathplate_legs",
+      "Justiciar_legguards",
+      "Bandos_tassets",
+      "Dharok's_platelegs",
+      "Torag's_platelegs",
+      "Verac's_plateskirt",
+      "Guthan's_chainskirt",
+      "Blood_moon_tassets",
+      "Inquisitor's_plateskirt",
+      "Obsidian_platelegs",
+      "Dragon_platelegs",
+      "Dragon_plateskirt",
+      "Granite_legs",
+      "Rune_platelegs",
+      "Rune_plateskirt"
+    ]
+  },
+  {
+    "id": "{legs_ranged}",
+    "items": [
+      "Masori_chaps_(f)",
+      "Masori_chaps",
+      "Armadyl_chainskirt",
+      "Crystal_legs",
+      "Eclipse_moon_tassets",
+      "Hueycoatl_hide_chaps",
+      "Guthix_chaps",
+      "Armadyl_chaps",
+      "Saradomin_chaps",
+      "Ancient_chaps",
+      "Zamorak_chaps",
+      "Bandos_chaps",
+      "Karil's_leatherskirt",
+      "Black_d'hide_chaps",
+      "Mixed_hide_legs",
+      "Red_d'hide_chaps",
+      "Blue_d'hide_chaps",
+      "Spined_chaps",
+      "Green_d'hide_chaps",
+      "Rangers'_tights",
+      "Snakeskin_chaps",
+      "Frog-leather_chaps",
+      "Studded_chaps",
+      "Leather_chaps"
+    ]
+  },
+  {
+    "id": "{legs_ranged_prayer}",
+    "items": [
+      "Masori_chaps_(f)",
+      "Masori_chaps",
+      "Armadyl_chainskirt",
+      "Crystal_legs",
+      "Hueycoatl_hide_chaps",
+      "Guthix_chaps",
+      "Armadyl_chaps",
+      "Saradomin_chaps",
+      "Ancient_chaps",
+      "Zamorak_chaps",
+      "Bandos_chaps",
+      "Eclipse_moon_tassets",
+      "Karil's_leatherskirt",
+      "Black_d'hide_chaps",
+      "Mixed_hide_legs",
+      "Red_d'hide_chaps",
+      "Blue_d'hide_chaps",
+      "Spined_chaps",
+      "Green_d'hide_chaps",
+      "Rangers'_tights",
+      "Snakeskin_chaps",
+      "Frog-leather_chaps",
+      "Studded_chaps",
+      "Leather_chaps"
+    ]
+  },
+  {
+    "id": "{legs_ranged_str}",
+    "items": [
+      "Masori_chaps_(f)",
+      "Masori_chaps"
+    ]
+  },
+  {
+    "id": "{legs_ranged_wilderness}",
+    "items": [
+      "Masori_chaps_(f)",
+      "Masori_chaps",
+      "Black_d'hide_chaps",
+      "Mixed_hide_legs"
+    ]
+  },
+  {
+    "id": "{legs_tank}",
+    "items": [
+      "Justiciar_legguards",
+      "Torva_platelegs",
+      "Oathplate_legs",
+      "Bandos_tassets",
+      "Dharok's_platelegs",
+      "Torag's_platelegs",
+      "Verac's_plateskirt",
+      "Guthan's_chainskirt",
+      "Dragon_platelegs",
+      "Dragon_plateskirt",
+      "Granite_legs",
+      "Rune_platelegs",
+      "Rune_plateskirt"
+    ]
+  },
+  {
+    "id": "{legs_void}",
+    "items": [
+      "Elite_void_robe",
+      "Void_knight_robe"
+    ]
+  },
+  {
+    "id": "{misc_axe}",
+    "items": [
+      "Crystal_axe",
+      "Dragon_axe",
+      "Rune_axe",
+      "Adamant_axe",
+      "Mithril_axe",
+      "Black_axe",
+      "Steel_axe",
+      "Iron_axe",
+      "Bronze_axe"
+    ]
+  },
+  {
+    "id": "{misc_wilderness_sword}",
+    "items": [
+      "Wilderness_sword_4",
+      "Wilderness_sword_3",
+      "Wilderness_sword_2",
+      "Wilderness_sword_1"
+    ]
+  },
+  {
+    "id": "{neck_hybrid}",
+    "items": [
+      "Amulet_of_the_monarchs",
+      "Amulet_of_fury",
+      "Bonecrusher_necklace",
+      "Dragonbone_necklace",
+      "Amulet_of_eternal_glory",
+      "Amulet_of_glory",
+      "Amulet_of_the_damned",
+      "Amulet_of_power",
+      "Unholy_symbol",
+      "Holy_symbol",
+      "Amulet_of_accuracy"
+    ]
+  },
+  {
+    "id": "{neck_magic}",
+    "items": [
+      "Amulet_of_the_monarchs",
+      "Occult_necklace",
+      "Amulet_of_fury",
+      "Bonecrusher_necklace",
+      "Dragonbone_necklace",
+      "Amulet_of_eternal_glory",
+      "Amulet_of_glory",
+      "Amulet_of_the_damned",
+      "Amulet_of_magic",
+      "Amulet_of_power",
+      "Unholy_symbol",
+      "Holy_symbol",
+      "Amulet_of_accuracy"
+    ]
+  },
+  {
+    "id": "{neck_magic_prayer}",
+    "items": [
+      "Amulet_of_the_monarchs",
+      "Occult_necklace",
+      "Bonecrusher_necklace",
+      "Dragonbone_necklace",
+      "Amulet_of_fury",
+      "Amulet_of_eternal_glory",
+      "Amulet_of_glory",
+      "Amulet_of_the_damned",
+      "Stole",
+      "Unholy_symbol",
+      "Holy_symbol",
+      "Amulet_of_magic",
+      "Amulet_of_power",
+      "Amulet_of_accuracy"
+    ]
+  },
+  {
+    "id": "{neck_magic_wilderness}",
+    "items": [
+      "Occult_necklace",
+      "Amulet_of_fury",
+      "Amulet_of_glory",
+      "Amulet_of_magic",
+      "Amulet_of_power",
+      "Unholy_symbol",
+      "Holy_symbol"
+    ]
+  },
+  {
+    "id": "{neck_magic_dmg}",
+    "items": [
+      "Amulet_of_the_monarchs",
+      "Occult_necklace"
+    ]
+  },
+  {
+    "id": "{neck_melee}",
+    "items": [
+      "Amulet_of_the_monarchs",
+      "Amulet_of_rancour",
+      "Amulet_of_torture",
+      "Amulet_of_fury",
+      "Amulet_of_strength",
+      "Berserker_necklace",
+      "Amulet_of_eternal_glory",
+      "Amulet_of_glory",
+      "Amulet_of_the_damned",
+      "Amulet_of_power",
+      "Unholy_symbol",
+      "Holy_symbol",
+      "Amulet_of_accuracy"
+    ]
+  },
+  {
+    "id": "{neck_melee_blood_fury}",
+    "items": [
+      "Amulet_of_the_monarchs",
+      "Amulet_of_rancour",
+      "Amulet_of_torture",
+      "Amulet_of_blood_fury",
+      "Amulet_of_fury",
+      "Amulet_of_strength",
+      "Berserker_necklace",
+      "Amulet_of_eternal_glory",
+      "Amulet_of_glory",
+      "Amulet_of_the_damned",
+      "Amulet_of_power",
+      "Unholy_symbol",
+      "Holy_symbol",
+      "Amulet_of_accuracy"
+    ]
+  },
+  {
+    "id": "{neck_melee_hybrid}",
+    "items": [
+      "Amulet_of_the_monarchs",
+      "Amulet_of_rancour",
+      "Amulet_of_torture",
+      "Amulet_of_fury",
+      "Amulet_of_strength",
+      "Amulet_of_eternal_glory",
+      "Amulet_of_glory",
+      "Amulet_of_the_damned",
+      "Bonecrusher_necklace",
+      "Dragonbone_necklace",
+      "Amulet_of_power",
+      "Unholy_symbol",
+      "Holy_symbol",
+      "Amulet_of_accuracy"
+    ]
+  },
+  {
+    "id": "{neck_melee_str}",
+    "items": [
+      "Amulet_of_the_monarchs",
+      "Amulet_of_rancour",
+      "Amulet_of_torture",
+      "Amulet_of_strength",
+      "Bonecrusher_necklace",
+      "Dragonbone_necklace",
+      "Amulet_of_fury",
+      "Berserker_necklace",
+      "Amulet_of_eternal_glory",
+      "Amulet_of_glory",
+      "Amulet_of_the_damned",
+      "Amulet_of_power"
+    ]
+  },
+  {
+    "id": "{neck_prayer}",
+    "items": [
+      "Amulet_of_the_monarchs",
+      "Bonecrusher_necklace",
+      "Dragonbone_necklace",
+      "Stole",
+      "Unholy_symbol",
+      "Holy_symbol",
+      "Amulet_of_fury",
+      "Amulet_of_eternal_glory",
+      "Amulet_of_glory",
+      "Amulet_of_the_damned",
+      "Salve_amulet(ei)",
+      "Salve_amulet_(e)",
+      "Salve_amulet(i)",
+      "Salve_amulet",
+      "Amulet_of_power"
+    ]
+  },
+  {
+    "id": "{neck_ranged}",
+    "items": [
+      "Amulet_of_the_monarchs",
+      "Necklace_of_anguish",
+      "Amulet_of_fury",
+      "Bonecrusher_necklace",
+      "Dragonbone_necklace",
+      "Amulet_of_eternal_glory",
+      "Amulet_of_glory",
+      "Amulet_of_the_damned",
+      "Amulet_of_power",
+      "Amulet_of_accuracy"
+    ]
+  },
+  {
+    "id": "{neck_ranged_prayer}",
+    "items": [
+      "Amulet_of_the_monarchs",
+      "Necklace_of_anguish",
+      "Bonecrusher_necklace",
+      "Dragonbone_necklace",
+      "Amulet_of_fury",
+      "Amulet_of_eternal_glory",
+      "Amulet_of_glory",
+      "Amulet_of_the_damned",
+      "Stole",
+      "Unholy_symbol",
+      "Holy_symbol",
+      "Amulet_of_power",
+      "Amulet_of_accuracy"
+    ]
+  },
+  {
+    "id": "{neck_ranged_str}",
+    "items": [
+      "Amulet_of_the_monarchs",
+      "Necklace_of_anguish"
+    ]
+  },
+  {
+    "id": "{neck_salve_amulet}",
+    "items": [
+      "Salve_amulet(ei)",
+      "Salve_amulet_(e)",
+      "Salve_amulet(i)",
+      "Salve_amulet"
+    ]
+  },
+  {
+    "id": "{potion_antifire}",
+    "items": [
+      "Extended_super_antifire",
+      "Super_antifire_potion",
+      "Extended_antifire",
+      "Antifire_potion"
+    ]
+  },
+  {
+    "id": "{potion_antipoison}",
+    "items": [
+      "Antidote++",
+      "Antidote+",
+      "Superantipoison",
+      "Antipoison"
+    ]
+  },
+  {
+    "id": "{potion_antivenom}",
+    "items": [
+      "Extended_anti-venom+",
+      "Anti-venom+",
+      "Anti-venom"
+    ]
+  },
+  {
+    "id": "{potion_attack}",
+    "items": [
+      "Super_combat_potion",
+      "Super_attack",
+      "Attack_potion",
+      "Combat_potion"
+    ]
+  },
+  {
+    "id": "{potion_combat}",
+    "items": [
+      "Super_combat_potion",
+      "Combat_potion"
+    ]
+  },
+  {
+    "id": "{potion_defence}",
+    "items": [
+      "Super_combat_potion",
+      "Super_defence",
+      "Defence_potion"
+    ]
+  },
+  {
+    "id": "{potion_divine_attack}",
+    "items": [
+      "Divine_super_combat_potion",
+      "Divine_super_attack_potion",
+      "Super_combat_potion",
+      "Super_attack",
+      "Attack_potion",
+      "Combat_potion"
+    ]
+  },
+  {
+    "id": "{potion_divine_bastion}",
+    "items": [
+      "Divine_bastion_potion",
+      "Bastion_potion"
+    ]
+  },
+  {
+    "id": "{potion_divine_combat}",
+    "items": [
+      "Divine_super_combat_potion",
+      "Super_combat_potion",
+      "Combat_potion"
+    ]
+  },
+  {
+    "id": "{potion_divine_defence}",
+    "items": [
+      "Divine_super_combat_potion",
+      "Divine_super_defence_potion",
+      "Super_combat_potion",
+      "Super_defence",
+      "Defence_potion"
+    ]
+  },
+  {
+    "id": "{potion_divine_ranging}",
+    "items": [
+      "Divine_ranging_potion",
+      "Ranging_potion"
+    ]
+  },
+  {
+    "id": "{potion_divine_strength}",
+    "items": [
+      "Divine_super_combat_potion",
+      "Divine_super_strength_potion",
+      "Super_combat_potion",
+      "Super_strength",
+      "Strength_potion",
+      "Combat_potion"
+    ]
+  },
+  {
+    "id": "{potion_energy}",
+    "items": [
+      "Extended_stamina_potion",
+      "Stamina_potion",
+      "Extreme_energy_potion",
+      "Super_energy",
+      "Energy_potion",
+      "Summer_pie",
+      "Guthix_rest",
+      "Cooked_dashing_kebbit"
+    ]
+  },
+  {
+    "id": "{potion_magic}",
+    "items": [
+      "Forgotten_brew",
+      "Ancient_brew",
+      "Battlemage_potion",
+      "Magic_potion"
+    ]
+  },
+  {
+    "id": "{potion_prayer}",
+    "items": [
+      "Prayer_potion",
+      "Moonlight_moth_mix",
+      "Moonlight_moth_(item)"
+    ]
+  },
+  {
+    "id": "{potion_prayer_blighted}",
+    "items": [
+      "Blighted_super_restore"
+    ]
+  },
+  {
+    "id": "{potion_prayer_restore}",
+    "items": [
+      "Super_restore",
+      "Prayer_potion",
+      "Moonlight_moth_mix",
+      "Moonlight_moth_(item)"
+    ]
+  },
+  {
+    "id": "{potion_ranging}",
+    "items": [
+      "Bastion_potion",
+      "Ranging_potion"
+    ]
+  },
+  {
+    "id": "{potion_stamina}",
+    "items": [
+      "Extended_stamina_potion",
+      "Stamina_potion"
+    ]
+  },
+  {
+    "id": "{potion_strength}",
+    "items": [
+      "Super_combat_potion",
+      "Super_strength",
+      "Strength_potion",
+      "Combat_potion"
+    ]
+  },
+  {
+    "id": "{ring_magic}",
+    "items": [
+      "Emperor_ring",
+      "Magus_ring",
+      "Brimstone_ring",
+      "Seers_ring_(i)",
+      "Seers_ring",
+      "Ring_of_shadows",
+      "Ring_of_suffering_(ri)",
+      "Ring_of_suffering_(i)",
+      "Ring_of_suffering",
+      "Ring_of_the_gods_(i)",
+      "Ring_of_the_gods",
+      "Explorer's_ring_4",
+      "Explorer's_ring_3",
+      "Explorer's_ring_2",
+      "Explorer's_ring_1",
+      "Beacon_ring",
+      "Lunar_ring"
+    ]
+  },
+  {
+    "id": "{ring_magic_dmg}",
+    "items": [
+      "Emperor_ring",
+      "Magus_ring",
+      "Brimstone_ring",
+      "Seers_ring_(i)",
+      "Seers_ring"
+    ]
+  },
+  {
+    "id": "{ring_magic_prayer}",
+    "items": [
+      "Emperor_ring",
+      "Magus_ring",
+      "Ring_of_the_gods_(i)",
+      "Ring_of_the_gods",
+      "Ring_of_suffering_(ri)",
+      "Ring_of_suffering_(i)",
+      "Ring_of_suffering",
+      "Brimstone_ring",
+      "Ring_of_shadows",
+      "Seers_ring_(i)",
+      "Seers_ring",
+      "Explorer's_ring_4",
+      "Explorer's_ring_3",
+      "Explorer's_ring_2",
+      "Explorer's_ring_1",
+      "Beacon_ring",
+      "Lunar_ring"
+    ]
+  },
+  {
+    "id": "{ring_magic_wilderness}",
+    "items": [
+      "Ring_of_shadows",
+      "Explorer's_ring_4",
+      "Explorer's_ring_3",
+      "Explorer's_ring_2",
+      "Explorer's_ring_1",
+      "Beacon_ring",
+      "Ring_of_wealth_(i)",
+      "Ring_of_recoil"
+    ]
+  },
+  {
+    "id": "{ring_melee}",
+    "items": [
+      "Emperor_ring",
+      "Ultor_ring",
+      "Berserker_ring_(i)",
+      "Bellator_ring",
+      "Brimstone_ring",
+      "Berserker_ring",
+      "Ring_of_shadows",
+      "Ring_of_suffering_(ri)",
+      "Ring_of_suffering_(i)",
+      "Ring_of_suffering",
+      "Ring_of_the_gods_(i)",
+      "Ring_of_the_gods",
+      "Warrior_ring_(i)",
+      "Warrior_ring",
+      "Explorer's_ring_4",
+      "Explorer's_ring_3",
+      "Explorer's_ring_2",
+      "Explorer's_ring_1"
+    ]
+  },
+  {
+    "id": "{ring_melee_crush}",
+    "items": [
+      "Emperor_ring",
+      "Ultor_ring",
+      "Berserker_ring_(i)",
+      "Lightbearer",
+      "Brimstone_ring",
+      "Berserker_ring",
+      "Tyrannical_ring_(i)",
+      "Tyrannical_ring",
+      "Ring_of_shadows"
+    ]
+  },
+  {
+    "id": "{ring_melee_slash}",
+    "items": [
+      "Emperor_ring",
+      "Bellator_ring",
+      "Ultor_ring",
+      "Berserker_ring_(i)",
+      "Lightbearer",
+      "Brimstone_ring",
+      "Berserker_ring",
+      "Warrior_ring_(i)",
+      "Warrior_ring",
+      "Ring_of_shadows"
+    ]
+  },
+  {
+    "id": "{ring_melee_stab}",
+    "items": [
+      "Emperor_ring",
+      "Ultor_ring",
+      "Berserker_ring_(i)",
+      "Lightbearer",
+      "Brimstone_ring",
+      "Berserker_ring",
+      "Treasonous_ring_(i)",
+      "Treasonous_ring",
+      "Ring_of_shadows"
+    ]
+  },
+  {
+    "id": "{ring_melee_str}",
+    "items": [
+      "Emperor_ring",
+      "Ultor_ring",
+      "Berserker_ring_(i)",
+      "Bellator_ring",
+      "Brimstone_ring",
+      "Berserker_ring",
+      "Ring_of_shadows"
+    ]
+  },
+  {
+    "id": "{ring_prayer}",
+    "items": [
+      "Emperor_ring",
+      "Ring_of_the_gods_(i)",
+      "Ring_of_the_gods",
+      "Ring_of_suffering_(ri)",
+      "Ring_of_suffering_(i)",
+      "Ring_of_suffering",
+      "Ring_of_shadows",
+      "Explorer's_ring_4",
+      "Explorer's_ring_3",
+      "Explorer's_ring_2",
+      "Explorer's_ring_1"
+    ]
+  },
+  {
+    "id": "{ring_ranged}",
+    "items": [
+      "Emperor_ring",
+      "Venator_ring",
+      "Archers_ring_(i)",
+      "Archers_ring",
+      "Ring_of_suffering_(ri)",
+      "Ring_of_suffering_(i)",
+      "Ring_of_suffering",
+      "Ring_of_the_gods_(i)",
+      "Ring_of_the_gods",
+      "Ring_of_shadows",
+      "Brimstone_ring",
+      "Granite_ring_(i)",
+      "Granite_ring",
+      "Explorer's_ring_4",
+      "Explorer's_ring_3",
+      "Explorer's_ring_2",
+      "Explorer's_ring_1"
+    ]
+  },
+  {
+    "id": "{ring_ranged_prayer}",
+    "items": [
+      "Emperor_ring",
+      "Venator_ring",
+      "Ring_of_the_gods_(i)",
+      "Ring_of_the_gods",
+      "Ring_of_suffering_(ri)",
+      "Ring_of_suffering_(i)",
+      "Ring_of_suffering",
+      "Archers_ring_(i)",
+      "Archers_ring",
+      "Ring_of_shadows",
+      "Brimstone_ring",
+      "Explorer's_ring_4",
+      "Explorer's_ring_3",
+      "Explorer's_ring_2",
+      "Explorer's_ring_1"
+    ]
+  },
+  {
+    "id": "{ring_ranged_str}",
+    "items": [
+      "Emperor_ring",
+      "Venator_ring"
+    ]
+  },
+  {
+    "id": "{ring_suffering}",
+    "items": [
+      "Ring_of_suffering_(ri)",
+      "Ring_of_suffering_(i)",
+      "Ring_of_suffering"
+    ]
+  },
+  {
+    "id": "{ring_tank}",
+    "items": [
+      "Emperor_ring",
+      "Ring_of_suffering_(ri)",
+      "Ring_of_suffering_(i)",
+      "Ring_of_suffering",
+      "Granite_ring_(i)",
+      "Granite_ring",
+      "Steel_ring"
+    ]
+  },
+  {
+    "id": "{rune_pouch}",
+    "items": [
+      "Divine_rune_pouch",
+      "Rune_pouch"
+    ]
+  },
+  {
+    "id": "{shield_ghommal_hilt}",
+    "items": [
+      "Ghommal's_avernic_defender_6",
+      "Ghommal's_hilt_6",
+      "Ghommal's_hilt_5",
+      "Ghommal's_hilt_4",
+      "Ghommal's_hilt_3",
+      "Ghommal's_hilt_2"
+    ]
+  },
+  {
+    "id": "{shield_magic}",
+    "items": [
+      "Devil's_element",
+      "Elidinis'_ward_(f)",
+      "Arcane_spirit_shield",
+      "Elidinis'_ward",
+      "Ancient_wyvern_shield",
+      "Mage's_book",
+      "Malediction_ward",
+      "Thousand-dragon_ward",
+      "Book_of_darkness",
+      "Antler_guard",
+      "Tome_of_fire",
+      "Tome_of_earth",
+      "Tome_of_water",
+      "Unholy_book",
+      "Book_of_the_dead",
+      "Arcane_grimoire",
+      "Book_of_balance",
+      "Broodoo_shield",
+      "Damaged_book_(Ancient)"
+    ]
+  },
+  {
+    "id": "{shield_magic_dmg}",
+    "items": [
+      "Devil's_element",
+      "Elidinis'_ward_(f)",
+      "Arcane_spirit_shield",
+      "Elidinis'_ward",
+      "Ancient_wyvern_shield",
+      "Mage's_book",
+      "Malediction_ward"
+    ]
+  },
+  {
+    "id": "{shield_magic_dragonfire}",
+    "items": [
+      "Thousand-dragon_ward",
+      "Ancient_wyvern_shield",
+      "Anti-dragon_shield"
+    ]
+  },
+  {
+    "id": "{shield_magic_tank}",
+    "items": [
+      "Elidinis'_ward_(f)",
+      "Arcane_spirit_shield",
+      "Ancient_wyvern_shield",
+      "Elysian_spirit_shield",
+      "Thousand-dragon_ward",
+      "Spectral_spirit_shield",
+      "Blessed_spirit_shield",
+      "Malediction_ward"
+    ]
+  },
+  {
+    "id": "{shield_magic_wilderness}",
+    "items": [
+      "Elidinis'_ward_(f)",
+      "Elidinis'_ward",
+      "Book_of_darkness",
+      "Unholy_book",
+      "Tome_of_fire",
+      "Book_of_balance",
+      "Broodoo_shield",
+      "Damaged_book_(Ancient)"
+    ]
+  },
+  {
+    "id": "{shield_melee}",
+    "items": [
+      "Thousand-dragon_ward",
+      "Ghommal's_avernic_defender_6",
+      "Avernic_defender",
+      "Dragon_defender",
+      "Dragonfire_shield",
+      "Rune_defender",
+      "Antler_guard",
+      "Toktz-ket-xil",
+      "Book_of_war",
+      "Unholy_book"
+    ]
+  },
+  {
+    "id": "{shield_melee_defender}",
+    "items": [
+      "Ghommal's_avernic_defender_6",
+      "Avernic_defender",
+      "Dragon_defender",
+      "Rune_defender",
+      "Antler_guard"
+    ]
+  },
+  {
+    "id": "{shield_melee_dragonfire}",
+    "items": [
+      "Thousand-dragon_ward",
+      "Dragonfire_shield",
+      "Anti-dragon_shield"
+    ]
+  },
+  {
+    "id": "{shield_melee_hybrid}",
+    "items": [
+      "Thousand-dragon_ward",
+      "Antler_guard",
+      "Ghommal's_avernic_defender_6",
+      "Avernic_defender",
+      "Dragon_defender",
+      "Rune_defender",
+      "Unholy_book",
+      "Book_of_war",
+      "Damaged_book_(Zamorak)"
+    ]
+  },
+  {
+    "id": "{shield_ranged}",
+    "items": [
+      "Thousand-dragon_ward",
+      "Twisted_buckler",
+      "Dragonfire_ward",
+      "Odium_ward",
+      "Antler_guard",
+      "Book_of_law",
+      "Guthix_d'hide_shield",
+      "Armadyl_d'hide_shield",
+      "Saradomin_d'hide_shield",
+      "Ancient_d'hide_shield",
+      "Zamorak_d'hide_shield",
+      "Bandos_d'hide_shield",
+      "Black_d'hide_shield",
+      "Red_d'hide_shield",
+      "Blue_d'hide_shield",
+      "Green_d'hide_shield",
+      "Snakeskin_shield",
+      "Hard_leather_shield",
+      "Damaged_book_(Armadyl)"
+    ]
+  },
+  {
+    "id": "{shield_ranged_dragonfire}",
+    "items": [
+      "Thousand-dragon_ward",
+      "Dragonfire_ward",
+      "Anti-dragon_shield"
+    ]
+  },
+  {
+    "id": "{shield_tank}",
+    "items": [
+      "Elysian_spirit_shield",
+      "Thousand-dragon_ward",
+      "Dragonfire_shield",
+      "Spectral_spirit_shield",
+      "Blessed_spirit_shield",
+      "Crystal_shield",
+      "Dragon_kiteshield",
+      "Dragon_sq_shield",
+      "Granite_shield",
+      "Toktz-ket-xil",
+      "Rune_kiteshield",
+      "Rune_sq_shield"
+    ]
+  },
+  {
+    "id": "{teleport}",
+    "items": [
+      "Max_cape",
+      "Construct._cape(t)",
+      "Teleport_to_house",
+      "Ring_of_dueling",
+      "Ardougne_cloak_4",
+      "Ardougne_cloak_3",
+      "Ardougne_cloak_2",
+      "Ardougne_cloak_1"
+    ]
+  },
+  {
+    "id": "{teleport_fairy_ring}",
+    "items": [
+      "Max_cape",
+      "Construct._cape(t)",
+      "Ardougne_cloak_4",
+      "Ardougne_cloak_3",
+      "Ardougne_cloak_2",
+      "Ardougne_cloak_1"
+    ]
+  },
+  {
+    "id": "{teleport_fairy_ring_staff}",
+    "items": [
+      "Dramen_staff",
+      "Lunar_staff"
+    ]
+  },
+  {
+    "id": "{teleport_restore_pool}",
+    "items": [
+      "Desert_amulet_4",
+      "Ring_of_dueling",
+      "Teleport_to_house"
+    ]
+  },
+  {
+    "id": "{teleport_wilderness}",
+    "items": [
+      "Royal_seed_pod",
+      "Teleport_to_house",
+      "Ring_of_dueling",
+      "Ardougne_cloak_4",
+      "Ardougne_cloak_3",
+      "Ardougne_cloak_2",
+      "Ardougne_cloak_1"
+    ]
+  },
+  {
+    "id": "{weapon_magic_ancients}",
+    "items": [
+      "Kodai_wand",
+      "Dragon_hunter_wand",
+      "Blue_moon_spear",
+      "Ancient_sceptre",
+      "Ancient_staff"
+    ]
+  },
+  {
+    "id": "{weapon_magic_ancients_healing}",
+    "items": [
+      "Blood_ancient_sceptre",
+      "Kodai_wand",
+      "Dragon_hunter_wand",
+      "Blue_moon_spear",
+      "Ancient_sceptre",
+      "Ahrim's_staff",
+      "Master_wand",
+      "Ancient_staff"
+    ]
+  },
+  {
+    "id": "{weapon_magic_demonbane}",
+    "items": [
+      "Purging_staff"
+    ]
+  },
+  {
+    "id": "{weapon_magic_dragonbane}",
+    "items": [
+      "Dragon_hunter_wand"
+    ]
+  },
+  {
+    "id": "{weapon_magic_elemental_air}",
+    "items": [
+      "Harmonised_nightmare_staff",
+      "Twinflame_staff",
+      "Mystic_air_staff",
+      "Air_battlestaff",
+      "Staff_of_air"
+    ]
+  },
+  {
+    "id": "{weapon_magic_elemental_earth}",
+    "items": [
+      "Harmonised_nightmare_staff",
+      "Twinflame_staff",
+      "Mystic_earth_staff",
+      "Earth_battlestaff",
+      "Staff_of_earth"
+    ]
+  },
+  {
+    "id": "{weapon_magic_elemental_fire}",
+    "items": [
+      "Harmonised_nightmare_staff",
+      "Twinflame_staff",
+      "Mystic_fire_staff",
+      "Fire_battlestaff",
+      "Staff_of_fire"
+    ]
+  },
+  {
+    "id": "{weapon_magic_elemental_water}",
+    "items": [
+      "Harmonised_nightmare_staff",
+      "Twinflame_staff",
+      "Mystic_water_staff",
+      "Water_battlestaff",
+      "Staff_of_water"
+    ]
+  },
+  {
+    "id": "{weapon_magic_powered_staff}",
+    "items": [
+      "Tumeken's_shadow",
+      "Eye_of_ayak",
+      "Sanguinesti_staff",
+      "Trident_of_the_swamp",
+      "Trident_of_the_seas",
+      "Accursed_sceptre",
+      "Thammaron's_sceptre",
+      "Warped_sceptre"
+    ]
+  },
+  {
+    "id": "{weapon_magic_standard}",
+    "items": [
+      "Harmonised_nightmare_staff",
+      "Nightmare_staff",
+      "Twinflame_staff",
+      "Blue_moon_spear",
+      "Ahrim's_staff",
+      "Iban's_staff_(u)",
+      "Iban's_staff",
+      "Mystic_air_staff",
+      "Air_battlestaff",
+      "Staff_of_air"
+    ]
+  },
+  {
+    "id": "{weapon_magic_standard_accuracy}",
+    "items": [
+      "Purging_staff",
+      "Kodai_wand",
+      "Toxic_staff_of_the_dead",
+      "Ancient_sceptre",
+      "Master_wand",
+      "Staff_of_the_dead",
+      "Harmonised_nightmare_staff",
+      "Nightmare_staff",
+      "Ahrim's_staff",
+      "Ancient_staff",
+      "Mystic_air_staff",
+      "Air_battlestaff",
+      "Staff_of_air"
+    ]
+  },
+  {
+    "id": "{weapon_magic_wilderness}",
+    "items": [
+      "Accursed_sceptre",
+      "Thammaron's_sceptre",
+      "Eye_of_ayak",
+      "Sanguinesti_staff",
+      "Trident_of_the_swamp",
+      "Trident_of_the_seas",
+      "Warped_sceptre",
+      "Iban's_staff_(u)",
+      "Iban's_staff",
+      "Mystic_air_staff",
+      "Air_battlestaff",
+      "Staff_of_air"
+    ]
+  },
+  {
+    "id": "{weapon_melee}",
+    "items": [
+      "Scythe_of_vitur",
+      "Soulreaper_axe",
+      "Inquisitor's_mace",
+      "Blade_of_saeldor",
+      "Ghrazi_rapier",
+      "Osmumten's_fang",
+      "Noxious_halberd",
+      "Abyssal_tentacle",
+      "Abyssal_whip",
+      "Voidwaker",
+      "Ursine_chainmace",
+      "Zamorakian_hasta",
+      "Dual_macuahuitl",
+      "Saradomin_sword",
+      "Zombie_axe",
+      "Belle's_folly",
+      "Dragon_scimitar",
+      "Toktz-xil-ak",
+      "Rune_scimitar"
+    ]
+  },
+  {
+    "id": "{weapon_melee_blood_moon}",
+    "items": [
+      "Scythe_of_vitur",
+      "Soulreaper_axe",
+      "Noxious_halberd",
+      "Blade_of_saeldor",
+      "Ghrazi_rapier",
+      "Abyssal_tentacle",
+      "Abyssal_whip",
+      "Sulphur_blades",
+      "Zombie_axe",
+      "Zamorakian_hasta",
+      "Arkan_blade",
+      "Dragon_scimitar"
+    ]
+  },
+  {
+    "id": "{weapon_melee_blue_moon}",
+    "items": [
+      "Scythe_of_vitur",
+      "Dual_macuahuitl",
+      "Glacial_temotli",
+      "Inquisitor's_mace",
+      "Soulreaper_axe",
+      "Ursine_chainmace",
+      "Zamorakian_hasta",
+      "Abyssal_bludgeon",
+      "Sarachnis_cudgel",
+      "Zombie_axe",
+      "Torag's_hammers"
+    ]
+  },
+  {
+    "id": "{weapon_melee_cerberus}",
+    "items": [
+      "Scythe_of_vitur",
+      "Emberlight",
+      "Soulreaper_axe",
+      "Inquisitor's_mace",
+      "Arclight",
+      "Osmumten's_fang"
+    ]
+  },
+  {
+    "id": "{weapon_melee_crush}",
+    "items": [
+      "Scythe_of_vitur",
+      "Inquisitor's_mace",
+      "Soulreaper_axe",
+      "Abyssal_bludgeon",
+      "Ursine_chainmace",
+      "Zamorakian_hasta",
+      "Sarachnis_cudgel",
+      "Dragon_hunter_lance",
+      "Viggora's_chainmace",
+      "Zombie_axe",
+      "Dual_macuahuitl",
+      "Saradomin_sword",
+      "Dragon_mace",
+      "Leaf-bladed_battleaxe",
+      "Tzhaar-ket-em",
+      "Barronite_mace",
+      "Rune_mace"
+    ]
+  },
+  {
+    "id": "{weapon_melee_crush_1h}",
+    "items": [
+      "Inquisitor's_mace",
+      "Ursine_chainmace",
+      "Zamorakian_hasta",
+      "Sarachnis_cudgel",
+      "Dragon_hunter_lance",
+      "Viggora's_chainmace",
+      "Zombie_axe",
+      "Dragon_mace",
+      "Leaf-bladed_battleaxe",
+      "Tzhaar-ket-em",
+      "Barronite_mace",
+      "Rune_mace"
+    ]
+  },
+  {
+    "id": "{weapon_melee_crush_4t}",
+    "items": [
+      "Inquisitor's_mace",
+      "Abyssal_bludgeon",
+      "Ursine_chainmace",
+      "Zamorakian_hasta",
+      "Sarachnis_cudgel",
+      "Dragon_hunter_lance",
+      "Viggora's_chainmace",
+      "Dual_macuahuitl",
+      "Saradomin_sword",
+      "Dragon_mace",
+      "Barronite_mace",
+      "Rune_mace"
+    ]
+  },
+  {
+    "id": "{weapon_melee_demonbane}",
+    "items": [
+      "Emberlight",
+      "Arclight"
+    ]
+  },
+  {
+    "id": "{weapon_melee_dragonbane}",
+    "items": [
+      "Dragon_hunter_lance"
+    ]
+  },
+  {
+    "id": "{weapon_melee_eclipse_moon}",
+    "items": [
+      "Soulreaper_axe",
+      "Scythe_of_vitur",
+      "Ghrazi_rapier",
+      "Blade_of_saeldor",
+      "Noxious_halberd",
+      "Voidwaker",
+      "Osmumten's_fang",
+      "Belle's_folly",
+      "Zamorakian_hasta",
+      "Abyssal_dagger",
+      "Zombie_axe",
+      "Dragon_sword",
+      "Arkan_blade"
+    ]
+  },
+  {
+    "id": "{weapon_melee_eclipse_moon_clone}",
+    "items": [
+      "Dharok's_greataxe",
+      "Soulreaper_axe",
+      "Elder_maul",
+      "Colossal_blade",
+      "Noxious_halberd",
+      "Saradomin_godsword",
+      "Bandos_godsword",
+      "Armadyl_godsword",
+      "Zamorak_godsword",
+      "Crystal_halberd",
+      "Zombie_axe",
+      "Barrelchest_anchor"
+    ]
+  },
+  {
+    "id": "{weapon_melee_slash}",
+    "items": [
+      "Scythe_of_vitur",
+      "Soulreaper_axe",
+      "Blade_of_saeldor",
+      "Noxious_halberd",
+      "Abyssal_tentacle",
+      "Abyssal_whip",
+      "Voidwaker",
+      "Zamorakian_hasta",
+      "Saradomin_sword",
+      "Zombie_axe",
+      "Arkan_blade",
+      "Dragon_scimitar",
+      "Sulphur_blades",
+      "Toktz-xil-ak",
+      "Leaf-bladed_battleaxe",
+      "Rune_scimitar"
+    ]
+  },
+  {
+    "id": "{weapon_melee_slash_1h}",
+    "items": [
+      "Blade_of_saeldor",
+      "Abyssal_tentacle",
+      "Abyssal_whip",
+      "Voidwaker",
+      "Zamorakian_hasta",
+      "Zombie_axe",
+      "Arkan_blade",
+      "Dragon_scimitar",
+      "Toktz-xil-ak",
+      "Leaf-bladed_battleaxe",
+      "Rune_scimitar"
+    ]
+  },
+  {
+    "id": "{weapon_melee_slash_4t}",
+    "items": [
+      "Blade_of_saeldor",
+      "Abyssal_tentacle",
+      "Abyssal_whip",
+      "Voidwaker",
+      "Zamorakian_hasta",
+      "Saradomin_sword",
+      "Arkan_blade",
+      "Dragon_scimitar",
+      "Sulphur_blades",
+      "Toktz-xil-ak",
+      "Rune_scimitar"
+    ]
+  },
+  {
+    "id": "{weapon_melee_spec_highdef}",
+    "items": [
+      "Thunder_khopesh",
+      "Voidwaker",
+      "Dragon_claws",
+      "Burning_claws",
+      "Arkan_blade",
+      "Abyssal_dagger",
+      "Dragon_dagger",
+      "Dragon_mace"
+    ]
+  },
+  {
+    "id": "{weapon_melee_spec_highdef_1h}",
+    "items": [
+      "Thunder_khopesh",
+      "Voidwaker",
+      "Arkan_blade",
+      "Abyssal_dagger",
+      "Dragon_dagger",
+      "Dragon_mace"
+    ]
+  },
+  {
+    "id": "{weapon_melee_spec_highdef_drain}",
+    "items": [
+      "The_dogsword",
+      "Elder_maul",
+      "Dragon_warhammer",
+      "Bandos_godsword",
+      "Bone_dagger"
+    ]
+  },
+  {
+    "id": "{weapon_melee_spec_lowdef}",
+    "items": [
+      "Thunder_khopesh",
+      "Burning_claws",
+      "Dragon_claws",
+      "Voidwaker",
+      "Arkan_blade",
+      "Dragon_dagger",
+      "Abyssal_dagger",
+      "Dragon_mace"
+    ]
+  },
+  {
+    "id": "{weapon_melee_spec_lowdef_drain}",
+    "items": [
+      "The_dogsword",
+      "Bandos_godsword",
+      "Elder_maul",
+      "Dragon_warhammer",
+      "Bone_dagger"
+    ]
+  },
+  {
+    "id": "{weapon_melee_spec_lowdef_lowhp}",
+    "items": [
+      "Thunder_khopesh",
+      "Dragon_claws",
+      "Burning_claws",
+      "Voidwaker",
+      "Arkan_blade",
+      "Dragon_dagger",
+      "Abyssal_dagger",
+      "Dragon_mace"
+    ]
+  },
+  {
+    "id": "{weapon_melee_spec_moons}",
+    "items": [
+      "Thunder_khopesh",
+      "Dragon_claws",
+      "Crystal_halberd",
+      "Voidwaker",
+      "Burning_claws",
+      "Arkan_blade",
+      "Dragon_dagger",
+      "Abyssal_dagger",
+      "Dragon_mace"
+    ]
+  },
+  {
+    "id": "{weapon_melee_stab}",
+    "items": [
+      "Osmumten's_fang",
+      "Ghrazi_rapier",
+      "Blade_of_saeldor",
+      "Abyssal_dagger",
+      "Zamorakian_hasta",
+      "Noxious_halberd",
+      "Belle's_folly",
+      "Dragon_sword",
+      "Arkan_blade",
+      "Dual_macuahuitl",
+      "Leaf-bladed_sword",
+      "Toktz-xil-ak",
+      "Dragon_scimitar"
+    ]
+  },
+  {
+    "id": "{weapon_melee_stab_1h}",
+    "items": [
+      "Osmumten's_fang",
+      "Ghrazi_rapier",
+      "Blade_of_saeldor",
+      "Abyssal_dagger",
+      "Zamorakian_hasta",
+      "Belle's_folly",
+      "Dragon_sword",
+      "Arkan_blade",
+      "Leaf-bladed_sword",
+      "Toktz-xil-ak",
+      "Dragon_scimitar"
+    ]
+  },
+  {
+    "id": "{weapon_melee_stab_4t}",
+    "items": [
+      "Ghrazi_rapier",
+      "Blade_of_saeldor",
+      "Abyssal_dagger",
+      "Zamorakian_hasta",
+      "Dragon_sword",
+      "Arkan_blade",
+      "Dual_macuahuitl",
+      "Leaf-bladed_sword",
+      "Toktz-xil-ak",
+      "Dragon_scimitar"
+    ]
+  },
+  {
+    "id": "{weapon_ranged_crossbow}",
+    "items": [
+      "Zaryte_crossbow",
+      "Armadyl_crossbow",
+      "Dragon_hunter_crossbow",
+      "Dragon_crossbow",
+      "Rune_crossbow",
+      "Hunters'_sunlight_crossbow",
+      "Karil's_crossbow",
+      "Hunters'_crossbow",
+      "Dorgeshuun_crossbow"
+    ]
+  },
+  {
+    "id": "{weapon_ranged_crossbow_1h}",
+    "items": [
+      "Zaryte_crossbow",
+      "Armadyl_crossbow",
+      "Dragon_hunter_crossbow",
+      "Dragon_crossbow",
+      "Rune_crossbow",
+      "Hunters'_sunlight_crossbow",
+      "Hunters'_crossbow",
+      "Dorgeshuun_crossbow"
+    ]
+  },
+  {
+    "id": "{weapon_ranged_crossbow_fast}",
+    "items": [
+      "Hunters'_sunlight_crossbow",
+      "Karil's_crossbow"
+    ]
+  },
+  {
+    "id": "{weapon_ranged_demonbane}",
+    "items": [
+      "Scorching_bow"
+    ]
+  },
+  {
+    "id": "{weapon_ranged_dragonbane}",
+    "items": [
+      "Dragon_hunter_crossbow"
+    ]
+  },
+  {
+    "id": "{weapon_ranged_fast}",
+    "items": [
+      "Drygore_blowpipe",
+      "Toxic_blowpipe",
+      "Eclipse_atlatl",
+      "Hunters'_sunlight_crossbow",
+      "Karil's_crossbow"
+    ]
+  },
+  {
+    "id": "{weapon_ranged_fast_1h}",
+    "items": [
+      "Dragon_knife",
+      "Hunters'_sunlight_crossbow",
+      "Rune_knife",
+      "Toktz-xil-ul"
+    ]
+  },
+  {
+    "id": "{weapon_ranged_spec}",
+    "items": [
+      "Zaryte_crossbow",
+      "Tonalztics_of_ralos",
+      "Toxic_blowpipe"
+    ]
+  },
+  {
+    "id": "{weapon_ranged_standard}",
+    "items": [
+      "Twisted_bow",
+      "Bow_of_faerdhinen",
+      "Eclipse_atlatl",
+      "Webweaver_bow",
+      "Scorching_bow",
+      "Magic_shortbow"
+    ]
+  }
+]

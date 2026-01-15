@@ -1,13 +1,13 @@
 import { graphql, useStaticQuery } from 'gatsby';
 import React, { createContext, useCallback, useContext } from 'react';
-import type { EquipmentItem } from '../types/equipment';
+import type { EquipmentItem, EquipmentSlotId } from '../types/equipment';
 import type { ItemTag } from '../types/item';
 
 // prettier-ignore
 interface EquipmentContextData {
   equipment: EquipmentItem[];
-  getItemById: (id: string) => EquipmentItem | undefined;
-  getItemData: (item: string | EquipmentItem | undefined) => EquipmentItem | undefined;
+  getItemById: (id: string, slot?: EquipmentSlotId) => EquipmentItem | undefined;
+  getItemData: (item: string | EquipmentItem | undefined, slot?: EquipmentSlotId) => EquipmentItem | undefined;
 }
 
 const defaultData: EquipmentContextData = {
@@ -16,7 +16,7 @@ const defaultData: EquipmentContextData = {
   getItemData: () => undefined,
 };
 
-const specialTags = ['*', 'Leagues', 'Clues'];
+const specialTags = ['*', 'Leagues', 'Clues', 'Missing'];
 
 const EquipmentContext = createContext<EquipmentContextData>(defaultData);
 export default EquipmentContext;
@@ -31,7 +31,7 @@ export function EquipmentContextProvider({
   const data = useStaticQuery<EquipmentQueryData>(dataQuery);
 
   const getItemById = useCallback(
-    (id: string) => {
+    (id: string, slot?: EquipmentSlotId) => {
       if (id.includes('#')) {
         const split = id.split('#');
         const baseId = split[0];
@@ -40,7 +40,6 @@ export function EquipmentContextProvider({
           data.equipment.nodes.find(item => item.id === baseId);
         if (!item) return undefined;
         const specialIdentifier = split[1];
-        const regions = item.regions_single || item.regions;
         const tags = [...(item.tags || [])];
         if (specialTags.includes(specialIdentifier)) {
           tags.push(split[1].toLowerCase() as ItemTag);
@@ -48,17 +47,26 @@ export function EquipmentContextProvider({
         const requiredWeapon = specialIdentifier.includes('Weapon=')
           ? specialIdentifier.split('Weapon=')[1]
           : undefined;
-        return { ...item, id, tags, regions, requiredWeapon } as EquipmentItem;
+        return {
+          ...item,
+          id: baseId,
+          tags,
+          regions: item.regions_single || item.regions,
+          requiredWeapon,
+        } as EquipmentItem;
       }
-      return data.equipment.nodes.find(item => item.id === id);
+      return (
+        data.equipment.nodes.find(item => item.id === id) ||
+        (slot && { id, slot })
+      );
     },
     [data],
   );
 
   const getItemData = useCallback(
-    (item: string | EquipmentItem | undefined) => {
+    (item: string | EquipmentItem | undefined, slot?: EquipmentSlotId) => {
       if (!item) return undefined;
-      if (typeof item === 'string') return getItemById(item);
+      if (typeof item === 'string') return getItemById(item, slot);
       return item;
     },
     [getItemById],

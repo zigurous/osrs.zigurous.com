@@ -24,3 +24,26 @@ export const skills = [
   'farming',
   'sailing',
 ] as const;
+
+export const equipmentSlots = [
+  'ammo',
+  'body',
+  'cape',
+  'feet',
+  'hands',
+  'head',
+  'legs',
+  'neck',
+  'ring',
+  'shield',
+  'weapon',
+] as const;
+
+export const itemHighlights = [
+  'pet',
+  'megarare',
+  'leagues',
+  'upgrade',
+  'owned',
+  'missing',
+] as const;

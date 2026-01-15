@@ -26,8 +26,8 @@ export default function GearProgressionSlider() {
   useEffect(() => {
     if (typeof window === 'undefined') return;
     if (recommendedSetup) return;
-    const prev = keyEventHandler(['ArrowLeft', 'ArrowUp'], previousTier, true);
-    const next = keyEventHandler(['ArrowRight', 'ArrowDown'], nextTier, true);
+    const prev = keyEventHandler(['ArrowLeft', 'ArrowUp'], previousTier, false);
+    const next = keyEventHandler(['ArrowRight', 'ArrowDown'], nextTier, false);
     window.addEventListener('keydown', prev);
     window.addEventListener('keydown', next);
     return () => {

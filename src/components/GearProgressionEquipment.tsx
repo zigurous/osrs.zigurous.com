@@ -63,6 +63,7 @@ export default function GearProgressionEquipment() {
         style={{ minWidth: '240px' }}
       >
         <EquipmentInventory
+          highlights={['upgrade']}
           items={
             context.subcategory
               ? context.currentTier.equipment[context.subcategory]

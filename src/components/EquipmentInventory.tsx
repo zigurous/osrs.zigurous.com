@@ -14,56 +14,51 @@ import iconRing from '../images/equipment-slot-ring.png';
 import iconShield from '../images/equipment-slot-shield.png';
 import iconWeapon from '../images/equipment-slot-weapon.png';
 import { useEquipmentContext } from '../context/EquipmentContext';
-import type { EquipmentSlot, EquipmentSlotId, EquippedItemIds, EquippedItems } from '../types/equipment'; // prettier-ignore
+import type { ItemHighlightOptions } from '../types/item';
+import type { EquipmentItem, EquipmentSlot, EquipmentSlotId, EquippedItemIds, EquippedItems } from '../types/equipment'; // prettier-ignore
 
 interface EquipmentInventoryProps {
   className?: string;
+  highlights?: ItemHighlightOptions;
   items?: EquippedItems | EquippedItemIds;
 }
 
 export default function EquipmentInventory({
   className,
+  highlights,
   items = {},
 }: EquipmentInventoryProps) {
-  const { getItemData } = useEquipmentContext();
-  const weapon = getItemData(items.weapon);
-  const ammo = getItemData(items.ammo) ?? weapon?.ammo;
-  const shield = weapon?.tags?.includes('2h')
-    ? undefined
-    : getItemData(items.shield);
+  const equipment = useEquipment(items);
   return (
     <div className={classNames('equipment-inventory', className)}>
-      <div aria-hidden />
-      <EquipmentInventorySlot id="head" item={getItemData(items.head)} />
-      <div aria-hidden />
-      <EquipmentInventorySlot id="cape" item={getItemData(items.cape)} />
-      <EquipmentInventorySlot id="neck" item={getItemData(items.neck)} />
-      <EquipmentInventorySlot id="ammo" item={ammo} />
-      <EquipmentInventorySlot id="weapon" item={weapon} />
-      <EquipmentInventorySlot id="body" item={getItemData(items.body)} />
-      <EquipmentInventorySlot id="shield" item={shield} />
-      <div aria-hidden />
-      <EquipmentInventorySlot id="legs" item={getItemData(items.legs)} />
-      <div aria-hidden />
-      <EquipmentInventorySlot id="hands" item={getItemData(items.hands)} />
-      <EquipmentInventorySlot id="feet" item={getItemData(items.feet)} />
-      <EquipmentInventorySlot id="ring" item={getItemData(items.ring)} />
+      {slots.map((slot, index) =>
+        slot ? (
+          <EquipmentInventorySlot
+            key={slot}
+            id={slot}
+            item={equipment[slot]}
+            highlights={highlights}
+          />
+        ) : (
+          <div aria-hidden key={`null-${index}`} />
+        ),
+      )}
     </div>
   );
 }
 
-function EquipmentInventorySlot({ id, item }: EquipmentSlot) {
+function EquipmentInventorySlot({ id, item, highlights }: EquipmentSlot) {
   if (item && item.id.includes('#equipmentslot')) {
-    item.icon = equipmentSlotIcons[id];
+    item.icon = icons[id];
   }
   return (
     <div className="equipment-inventory__slot" id={id}>
       <ItemFrame
-        highlights={['upgrade']}
+        highlights={highlights}
         item={
           item || {
             id: '#equipmentslot',
-            icon: equipmentSlotIcons[id],
+            icon: icons[id],
             name: id,
           }
         }
@@ -72,7 +67,49 @@ function EquipmentInventorySlot({ id, item }: EquipmentSlot) {
   );
 }
 
-const equipmentSlotIcons: Record<EquipmentSlotId, string> = {
+function useEquipment(
+  items: EquippedItems | EquippedItemIds,
+): Record<EquipmentSlotId, EquipmentItem | undefined> {
+  const { getItemData } = useEquipmentContext();
+  const weapon = getItemData(items.weapon, 'weapon');
+  const ammo = weapon?.ammo ?? getItemData(items.ammo, 'ammo');
+  const shield = weapon?.tags?.includes('2h')
+    ? undefined
+    : getItemData(items.shield, 'shield');
+  return {
+    ammo,
+    body: getItemData(items.body, 'body'),
+    cape: getItemData(items.cape, 'cape'),
+    feet: getItemData(items.feet, 'feet'),
+    hands: getItemData(items.hands, 'hands'),
+    head: getItemData(items.head, 'head'),
+    legs: getItemData(items.legs, 'legs'),
+    neck: getItemData(items.neck, 'neck'),
+    ring: getItemData(items.ring, 'ring'),
+    shield,
+    weapon,
+  };
+}
+
+const slots: (EquipmentSlotId | null)[] = [
+  null,
+  'head',
+  null,
+  'cape',
+  'neck',
+  'ammo',
+  'weapon',
+  'body',
+  'shield',
+  null,
+  'legs',
+  null,
+  'hands',
+  'feet',
+  'ring',
+];
+
+const icons: Record<EquipmentSlotId, string> = {
   ammo: iconAmmo,
   body: iconBody,
   cape: iconCape,
