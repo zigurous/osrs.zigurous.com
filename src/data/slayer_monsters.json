@@ -1740,7 +1740,6 @@
   },
   {
     "id": "Gryphon",
-    "icon": "Gryphon_feather",
     "category": "monster",
     "sortingGroups": ["slayer", "pvm"],
     "requiredSlayerLevel": 51,
