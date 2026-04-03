@@ -78,7 +78,10 @@ export default function RegionPanel() {
             selectedTab={selectedTab}
             onSelectTab={tab => setSelectedTab(tab)}
           />
-          <article className="region-panel__body">
+          <article
+            className="region-panel__body"
+            id={selectedTab.toLowerCase().replaceAll(' ', '_')}
+          >
             {renderTab(
               selectedTab,
               combineRegions(
@@ -123,6 +126,7 @@ function combineRegions(regions: Region[]): Region {
     id: regions.map(region => region.id).join(',') as RegionId,
     name: 'Regions',
     description: '',
+    badge: '',
     storylines: combineUniqueIds(regions, 'storylines'),
     skilling: combineUniqueIds(regions, 'skilling'),
     raids: combineUniqueIds(regions, 'raids'),

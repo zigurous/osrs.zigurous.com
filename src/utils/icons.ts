@@ -121,6 +121,7 @@ const bossIcons: Record<string, string> = {
   Amoxliatl: 'Moxi',
   Araxxor: 'Nid',
   Barrows: 'Barrows_Brothers_icon_(mobile)',
+  Brutus: 'Brutus_Boss_icon',
   Bryophyta: 'Bryophyta_icon_(mobile)',
   Callisto: 'Callisto_cub',
   Cerberus: 'Cerberus_icon_(Shattered_Relics_League,_mobile)',

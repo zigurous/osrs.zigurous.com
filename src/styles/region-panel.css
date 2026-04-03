@@ -132,6 +132,11 @@
   margin-bottom: var(--spacing-lg);
 }
 
+.region-panel__body#bosses .titled-card__title > .titled-card__icon {
+  margin-right: var(--spacing-xs);
+  transform: translateY(1px);
+}
+
 .region-panel__section + hr {
   margin: var(--spacing-xxl) calc(var(--spacing-xl) * -1) var(--spacing-xl);
 }

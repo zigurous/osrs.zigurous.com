@@ -140,6 +140,7 @@ const dataQuery = graphql`
         id: jsonId
         name
         description
+        badge
         storylines
         skilling
         raids

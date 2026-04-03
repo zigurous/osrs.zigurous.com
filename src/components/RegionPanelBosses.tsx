@@ -6,8 +6,10 @@ import ItemsStack from './ItemsStack';
 import RegionPanelSection from './RegionPanelSection';
 import TitledCard from './TitledCard';
 import { useItemsContext } from '../context/ItemsContext';
+import { useRegionsContext } from '../context/RegionsContext';
 import { useSettingsContext } from '../context/SettingsContext';
 import { formatNameFromId } from '../utils/formatting';
+import { sortByName } from '../utils/sorting';
 import type { Boss, Raid } from '../types/activity';
 import type { ItemData } from '../types/item';
 import type { Region } from '../types/region';
@@ -18,15 +20,30 @@ interface RegionPanelBossesProps {
 
 export default function RegionPanelBosses({ region }: RegionPanelBossesProps) {
   const data = useStaticQuery<BossingQueryData>(dataQuery);
+  const regions = useRegionsContext();
   const settings = useSettingsContext();
   const itemsContext = useItemsContext();
 
-  const raids = region.raids
-    .map(id => data.raids.nodes.find(raid => raid.id === id))
-    .filter(raid => !!raid);
-  const bosses = region.bosses
-    .map(id => data.bosses.nodes.find(boss => boss.id === id))
-    .filter(boss => !!boss);
+  const getBossById = useCallback(
+    (id: string) =>
+      data.bosses.nodes.find(boss => boss.id === id) ||
+      data.raids.nodes.find(raid => raid.id === id),
+    [data],
+  );
+
+  const bosses = regions.selectedRegions
+    .map(regionId => {
+      const region = regions.getRegionById(regionId);
+      if (!region) return [];
+      return [...region.bosses, ...region.raids].map(id => {
+        const boss = getBossById(id);
+        if (!boss) return undefined;
+        return { ...boss, badge: region.badge };
+      });
+    })
+    .flat()
+    .filter(boss => !!boss)
+    .sort(sortByName);
 
   const dropFilter = useCallback(
     (item: ItemData) => {
@@ -66,27 +83,6 @@ export default function RegionPanelBosses({ region }: RegionPanelBossesProps) {
           onChange={checked => settings.set('dropsCosmetics', checked)}
         />
       </Stack>
-      {raids.length > 0 && (
-        <ul className="drops-list">
-          {raids.map(raid => {
-            const drops = itemsContext
-              .getItemsByIds(raid.notableDrops)
-              .filter(dropFilter);
-            return (
-              <li id={raid.id} key={raid.id}>
-                <TitledCard
-                  subtitle={raid.subtitle}
-                  title={raid.title || formatNameFromId(raid.id)}
-                  titleLinkId={raid.id}
-                >
-                  <ItemsStack highlights="all" items={drops} />
-                </TitledCard>
-              </li>
-            );
-          })}
-        </ul>
-      )}
-      {raids.length > 0 && bosses.length > 0 && <hr className="thick" />}
       {bosses.length > 0 && (
         <ul className="drops-list">
           {bosses.map(boss => {
@@ -96,9 +92,12 @@ export default function RegionPanelBosses({ region }: RegionPanelBossesProps) {
             return (
               <li id={boss.id} key={boss.id}>
                 <TitledCard
+                  titleIcon={
+                    regions.selectedRegions.length > 1 ? boss.badge : undefined
+                  }
                   subtitle={
                     boss.subtitle ||
-                    (settings.leagues && Boolean(boss.echoVariant) ? (
+                    (Boolean(boss.echoVariant) ? (
                       <Badge
                         className="ml-sm"
                         color="warning"

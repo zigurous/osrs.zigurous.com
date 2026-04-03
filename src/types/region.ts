@@ -16,6 +16,7 @@ export interface Region {
   id: RegionId;
   name: string;
   description: string;
+  badge: string;
   storylines: string[];
   skilling: string[];
   raids: string[];

@@ -238,6 +238,7 @@ export const createSchemaCustomization = ({
       jsonId: String!
       name: String!
       description: String!
+      badge: String!
       storylines: [String!]!
       skilling: [String!]!
       raids: [String!]!
