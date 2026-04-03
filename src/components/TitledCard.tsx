@@ -12,7 +12,7 @@ interface TitledCardProps {
   onClickHeader?: () => void;
   shadow?: boolean;
   style?: React.CSSProperties;
-  subtitle?: string;
+  subtitle?: string | React.ReactNode;
   title: string;
   titleIcon?: string;
   titleLinkId?: string;
@@ -80,12 +80,13 @@ export default function TitledCard({
           )}
           <Text size="lg" type="title">
             {title}
-            {subtitle && (
+            {subtitle && typeof subtitle === 'string' && (
               <Text as="span" className="ml-sm" color="disabled" size="sm">
                 {subtitle}
               </Text>
             )}
           </Text>
+          {typeof subtitle !== 'string' && subtitle}
         </div>
         {(caption || captionIcon) && (
           <div className="titled-card__caption">

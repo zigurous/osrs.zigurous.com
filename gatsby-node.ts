@@ -32,6 +32,7 @@ export const createSchemaCustomization = ({
       sortingGroups: [String!]!
       recommendedCombatStyle: [String!]!
       requiredLevel: RequiredLevel
+      echoVariant: Boolean
       notableDrops: [String!]!
     }
     type DungeonsJson implements Node @dontInfer {

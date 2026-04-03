@@ -24,6 +24,7 @@ export interface CombatActivity extends Activity {
 
 export interface Boss extends CombatActivity {
   category: 'boss';
+  echoVariant?: boolean;
 }
 
 export interface Raid extends Omit<Boss, 'category'> {

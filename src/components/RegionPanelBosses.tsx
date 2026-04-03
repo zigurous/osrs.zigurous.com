@@ -1,4 +1,4 @@
-import { Stack, Text } from '@zigurous/forge-react';
+import { Badge, Stack, Text } from '@zigurous/forge-react';
 import { graphql, useStaticQuery } from 'gatsby';
 import React, { useCallback } from 'react';
 import CheckboxToggle from './CheckboxToggle';
@@ -96,7 +96,19 @@ export default function RegionPanelBosses({ region }: RegionPanelBossesProps) {
             return (
               <li id={boss.id} key={boss.id}>
                 <TitledCard
-                  subtitle={boss.subtitle}
+                  subtitle={
+                    boss.subtitle ||
+                    (settings.leagues && Boolean(boss.echoVariant) ? (
+                      <Badge
+                        className="ml-sm"
+                        color="warning"
+                        size="sm"
+                        variant="tint"
+                      >
+                        Echo
+                      </Badge>
+                    ) : null)
+                  }
                   title={boss.title || formatNameFromId(boss.id)}
                   titleLinkId={boss.id}
                 >
@@ -125,6 +137,7 @@ const dataQuery = graphql`
         title
         subtitle
         notableDrops
+        echoVariant
       }
     }
     raids: allRaidsJson {

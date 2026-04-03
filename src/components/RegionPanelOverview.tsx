@@ -1,4 +1,4 @@
-import { Text } from '@zigurous/forge-react';
+import { Badge, Text } from '@zigurous/forge-react';
 import React, { useMemo } from 'react';
 import RegionPanelSection from './RegionPanelSection';
 import TitledCard from './TitledCard';
@@ -183,6 +183,7 @@ function OverviewListItem({
     title?: string;
     name?: string;
     link?: string;
+    echoVariant?: boolean;
   };
 }) {
   return (
@@ -194,6 +195,11 @@ function OverviewListItem({
             {item.title || item.name || formatNameFromId(item.id)}
           </Text>
         </div>
+        {Boolean(item.echoVariant) && (
+          <Badge color="warning" size="sm" variant="tint">
+            Echo
+          </Badge>
+        )}
       </WikiLink>
     </li>
   );

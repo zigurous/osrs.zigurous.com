@@ -95,6 +95,7 @@ const dataQuery = graphql`
         subcategory
         sortingGroups
         requiredLevel
+        echoVariant
         notableDrops
       }
     }

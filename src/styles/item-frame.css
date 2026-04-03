@@ -147,6 +147,10 @@
   margin-top: calc(-1 * var(--spacing-sm));
 }
 
+.item-frame--newline:last-child {
+  display: none;
+}
+
 .item-frame--plus,
 .item-frame--transmute,
 .item-frame--equals {
