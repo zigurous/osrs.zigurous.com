@@ -200,8 +200,9 @@ function OverviewListItem({
             color="warning"
             size="sm"
             variant="tint"
-            onClick={() => {
+            onClick={e => {
               if (typeof window !== 'undefined') {
+                e.preventDefault();
                 window.open(
                   `https://oldschool.runescape.wiki/w/${item.id}_(Echo)`,
                   '_blank',

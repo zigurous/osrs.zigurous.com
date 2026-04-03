@@ -103,8 +103,9 @@ export default function RegionPanelBosses({ region }: RegionPanelBossesProps) {
                         color="warning"
                         size="sm"
                         variant="tint"
-                        onClick={() => {
+                        onClick={e => {
                           if (typeof window !== 'undefined') {
+                            e.preventDefault();
                             window.open(
                               `https://oldschool.runescape.wiki/w/${boss.id}_(Echo)`,
                               '_blank',
