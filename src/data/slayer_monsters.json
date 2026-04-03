@@ -1253,7 +1253,7 @@
   },
   {
     "id": "Dwarf",
-    "icon": "Mountain_Dwarf_icon",
+    "icon": "Mountain_Dwarf_icon_(v1)",
     "category": "monster",
     "sortingGroups": ["pvm", "slayer"],
     "requiredCombatLevel": 6,
