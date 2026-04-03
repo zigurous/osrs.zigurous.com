@@ -103,6 +103,14 @@ export default function RegionPanelBosses({ region }: RegionPanelBossesProps) {
                         color="warning"
                         size="sm"
                         variant="tint"
+                        onClick={() => {
+                          if (typeof window !== 'undefined') {
+                            window.open(
+                              `https://oldschool.runescape.wiki/w/${boss.id}_(Echo)`,
+                              '_blank',
+                            );
+                          }
+                        }}
                       >
                         Echo
                       </Badge>

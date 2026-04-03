@@ -196,7 +196,19 @@ function OverviewListItem({
           </Text>
         </div>
         {Boolean(item.echoVariant) && (
-          <Badge color="warning" size="sm" variant="tint">
+          <Badge
+            color="warning"
+            size="sm"
+            variant="tint"
+            onClick={() => {
+              if (typeof window !== 'undefined') {
+                window.open(
+                  `https://oldschool.runescape.wiki/w/${item.id}_(Echo)`,
+                  '_blank',
+                );
+              }
+            }}
+          >
             Echo
           </Badge>
         )}
