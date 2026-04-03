@@ -2105,6 +2105,7 @@
     "raids": [],
     "bosses": [
       "Abyssal_Sire",
+      "Brutus",
       "Bryophyta",
       "Deranged_archaeologist",
       "Obor",
@@ -2192,6 +2193,7 @@
     ],
     "pets": [
       "Abyssal_orphan",
+      "Beef",
       "Cat",
       "Hellcat",
       "Herbi",
@@ -2221,6 +2223,7 @@
       "Coal",
       "Cooked_chicken",
       "Cooked_meat",
+      "Cooked_t-bone_steak",
       "Copper_ore",
       "Cosmic_rune",
       "Cowhide",

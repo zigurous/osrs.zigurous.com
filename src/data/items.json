@@ -452,6 +452,11 @@
     "icon": "Coins_10000"
   },
   {
+    "id": "Cow_slippers",
+    "icon": "Cow_slippers_(1)",
+    "tags": ["cosmetic"]
+  },
+  {
     "id": "Crawling_hand_(item)",
     "name": "Crawling Hand"
   },

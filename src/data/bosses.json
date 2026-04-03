@@ -115,6 +115,19 @@
     ]
   },
   {
+    "id": "Brutus",
+    "icon": "Brutus_Boss_icon",
+    "category": "boss",
+    "sortingGroups": ["pvm"],
+    "recommendedCombatStyle": ["melee", "ranged", "magic"],
+    "notableDrops": [
+      "Beef",
+      "Mooleta",
+      "Bottomless_milk_bucket",
+      "Cow_slippers"
+    ]
+  },
+  {
     "id": "Bryophyta",
     "icon": "Bryophyta_icon_(mobile)",
     "category": "boss",

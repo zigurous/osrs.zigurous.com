@@ -31,6 +31,11 @@
     "tags": ["pet"]
   },
   {
+    "id": "Beef",
+    "source": "Brutus",
+    "tags": ["pet"]
+  },
+  {
     "id": "Bloodhound",
     "source": "Clue_scroll_(master)",
     "tags": ["pet"]
