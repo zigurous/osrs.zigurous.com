@@ -3,6 +3,7 @@ import { Drawer, Link, Text } from '@zigurous/forge-react';
 import { Link as GatsbyLink } from 'gatsby';
 import React from 'react';
 import WikiIcon from './WikiIcon';
+import logo from '../images/logo.png';
 
 interface NavigationMenuProps {
   open: boolean;
@@ -20,7 +21,9 @@ export default function NavigationMenu({
       onRequestClose={onRequestClose}
       size="sm"
     >
-      <div aria-hidden className="navigation-menu__header" />
+      <div aria-hidden className="navigation-menu__header">
+        <img alt="Logo" src={logo} />
+      </div>
       {menu.map((section, index) => (
         <React.Fragment key={section.header}>
           <section>
