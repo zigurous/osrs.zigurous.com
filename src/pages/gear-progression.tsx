@@ -1,18 +1,18 @@
-import { Badge, Stack } from '@zigurous/forge-react';
+import { Badge, Button, Stack } from '@zigurous/forge-react';
 import classNames from 'classnames';
 import { type HeadFC, type PageProps } from 'gatsby';
 import React from 'react';
 import FooterBar from '../components/FooterBar';
 import HeaderBar from '../components/HeaderBar';
-import IconToggle from '../components/IconToggle';
 import RecommendedSetupModal from '../components/RecommendedSetupModal';
 import RootLayout from '../components/RootLayout';
+import GearProgressionDrawer from '../components/GearProgressionDrawer';
 import GearProgressionEquipment from '../components/GearProgressionEquipment';
 import GearProgressionSlider from '../components/GearProgressionSlider';
 import GearProgressionSkills from '../components/GearProgressionSkills';
 import GearProgressionTimeline from '../components/GearProgressionTimeline';
 import { EquipmentContextProvider } from '../context/EquipmentContext';
-import { categories, GearProgressionContextProvider, useGearProgressionContext } from '../context/GearProgressionContext'; // prettier-ignore
+import { GearProgressionContextProvider } from '../context/GearProgressionContext';
 import { ItemsContextProvider } from '../context/ItemsContext';
 import { QuestsContextProvider } from '../context/QuestsContext';
 import { RecommendedSetupsContextProvider, useRecommendedSetupsContext } from '../context/RecommendedSetupsContext'; // prettier-ignore
@@ -48,11 +48,10 @@ function ContextProviders({ children }: { children: React.ReactNode }) {
   );
 }
 
-const aspectSize = { width: 1024, height: 512 };
+const aspectSize = { width: 1092, height: 546 };
 
 function GearProgressionPageContent() {
   const settings = useSettingsContext();
-  const context = useGearProgressionContext();
   const { currentSetup, previousSetup, closeSetup } =
     useRecommendedSetupsContext();
   const [scale, ref] = useAspectFitScaling(aspectSize, 0, 1.333333333333333);
@@ -65,31 +64,14 @@ function GearProgressionPageContent() {
             Beta
           </Badge>
         }
-        center={
-          <Stack
-            inline
-            className="ml-lg h-0"
-            align="center"
-            justify="end"
-            spacing="xs"
-          >
-            {categories.map(category => (
-              <IconToggle
-                hideTooltip
-                icon={category.icon}
-                iconSize={24}
-                key={category.id}
-                label={category.title}
-                on={context.category.id === category.id}
-                onChange={on => {
-                  if (on) {
-                    context.setCategory(category.id);
-                  }
-                }}
-                size="lg"
-              />
-            ))}
-          </Stack>
+        right={
+          <Button
+            icon="settings"
+            iconAlignment="only"
+            onClick={() => settings.set('open', true)}
+            size="xl"
+            variant="text"
+          />
         }
       />
       <div className="gear-progression" ref={ref}>
@@ -112,6 +94,7 @@ function GearProgressionPageContent() {
         </div>
       </div>
       <FooterBar />
+      <GearProgressionDrawer />
       <RecommendedSetupModal
         onRequestClose={closeSetup}
         open={Boolean(currentSetup)}

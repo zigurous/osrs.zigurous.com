@@ -1,11 +1,11 @@
-import { Stack } from '@zigurous/forge-react';
+import { Stack, TooltipWrapper } from '@zigurous/forge-react';
 import classNames from 'classnames';
 import React from 'react';
 import EquipmentInventory from './EquipmentInventory';
 import IconToggle from './IconToggle';
 import TitledCard from './TitledCard';
 import { useEquipmentContext } from '../context/EquipmentContext';
-import { useGearProgressionContext } from '../context/GearProgressionContext';
+import { categories, useGearProgressionContext } from '../context/GearProgressionContext'; // prettier-ignore
 
 export default function GearProgressionEquipment() {
   const context = useGearProgressionContext();
@@ -70,6 +70,30 @@ export default function GearProgressionEquipment() {
               : context.currentTier.equipment[context.category.id]
           }
         />
+      </Stack>
+      <Stack
+        align="end"
+        className="gear-progression__combat-styles"
+        justify="end"
+        layout="vertical"
+        spacing="xs"
+      >
+        {categories.map(category => (
+          <TooltipWrapper key={category.id} tooltip={category.title}>
+            <IconToggle
+              hideTooltip
+              icon={category.icon}
+              iconSize={18}
+              label={category.title}
+              on={context.category.id === category.id}
+              onChange={on => {
+                if (on) {
+                  context.setCategory(category.id);
+                }
+              }}
+            />
+          </TooltipWrapper>
+        ))}
       </Stack>
     </TitledCard>
   );

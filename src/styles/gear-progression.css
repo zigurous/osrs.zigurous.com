@@ -160,6 +160,31 @@ a.gear-progression__timeline-link + div {
   right: var(--spacing-sm);
 }
 
+.gear-progression-card#equipment .gear-progression__combat-styles {
+  position: absolute;
+  top: 56px;
+  left: -48px;
+  width: 48px;
+}
+
+.gear-progression-card#equipment .gear-progression__combat-styles .item-frame {
+  width: 36px;
+  height: 36px;
+  background-color: var(--color-surface-2);
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  transition: width 200ms;
+}
+
+.gear-progression-card#equipment .gear-progression__combat-styles .item-frame.active {
+  width: 42px;
+  background-color: var(--color-surface-4);
+}
+
+.gear-progression-card#equipment .gear-progression__combat-styles .item-frame > img {
+  transform: translateX(1px);
+}
+
 .gear-progression-card#notes > .titled-card__header {
   display: none;
 }
