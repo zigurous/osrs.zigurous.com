@@ -238,8 +238,10 @@
     "category": "boss",
     "sortingGroups": ["pvm"],
     "recommendedCombatStyle": ["hybrid"],
+    "echoVariant": true,
     "notableDrops": [
       "Youngllef",
+      "Crystal_blessing",
       "Crystal_armour_seed",
       "Enhanced_crystal_weapon_seed",
       "Crystal_weapon_seed",
