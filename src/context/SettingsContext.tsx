@@ -14,7 +14,7 @@ type Settings = {
 
 const defaultSettings: Settings = {
   open: false,
-  leagues: false,
+  leagues: true,
   bisClues: false,
   bisStrict: false,
   dropsPets: false,
