@@ -197,7 +197,7 @@ function OverviewListItem({
         </div>
         {Boolean(item.echoVariant) && (
           <Badge
-            color="warning"
+            color="danger"
             size="sm"
             variant="tint"
             onClick={e => {

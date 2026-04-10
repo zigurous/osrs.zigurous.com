@@ -123,6 +123,10 @@ a.link, a.link:hover, a.link:visited {
   font-weight: 400;
 }
 
+.badge--danger {
+  --badge-color-primary: #f26d60;
+}
+
 input::placeholder,
 select::placeholder,
 textarea::placeholder {

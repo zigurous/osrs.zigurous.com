@@ -100,7 +100,7 @@ export default function RegionPanelBosses({ region }: RegionPanelBossesProps) {
                     (Boolean(boss.echoVariant) ? (
                       <Badge
                         className="ml-sm"
-                        color="warning"
+                        color="danger"
                         size="sm"
                         variant="tint"
                         onClick={e => {
