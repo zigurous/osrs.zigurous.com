@@ -5,8 +5,8 @@
       {
         "id": "weapon",
         "items": [
-          "Thunder_khopesh",
-          "Sunlight_spear",
+          "Fang_of_the_hound",
+          "Infernal_tecpatl",
           "Scythe_of_vitur#Leagues",
           "Soulreaper_axe#Leagues",
           "Noxious_halberd#Leagues",
@@ -41,7 +41,6 @@
       {
         "id": "shield",
         "items": [
-          "Thousand-dragon_ward",
           "Avernic_defender#Leagues",
           "Avernic_defender",
           "Avernic_defender#*",
@@ -57,7 +56,7 @@
       {
         "id": "head",
         "items": [
-          "Sunfire_fanatic_helm#Leagues",
+          "V's_helm",
           "Crystal_helm#Leagues",
           "Blood_moon_helm#Weapon=Dual_macuahuitl",
           "Obsidian_helmet#Weapon=Toktz-xil-ak",
@@ -80,7 +79,6 @@
       {
         "id": "body",
         "items": [
-          "Sunfire_fanatic_cuirass#Leagues",
           "Crystal_body#Leagues",
           "Blood_moon_chestplate#Weapon=Dual_macuahuitl",
           "Obsidian_platebody#Weapon=Toktz-xil-ak",
@@ -103,7 +101,6 @@
       {
         "id": "legs",
         "items": [
-          "Sunfire_fanatic_chausses#Leagues",
           "Crystal_legs#Leagues",
           "Blood_moon_tassets#Weapon=Dual_macuahuitl",
           "Obsidian_platelegs#Weapon=Toktz-xil-ak",
@@ -128,8 +125,6 @@
           "Ferocious_gloves#Leagues",
           "Ferocious_gloves",
           "Ferocious_gloves#*",
-          "Gloves_of_the_damned",
-          "Sunlit_bracers",
           "Granite_gloves#Crush",
           "Regen_bracelet",
           "Granite_gloves",
@@ -187,7 +182,6 @@
       {
         "id": "neck",
         "items": [
-          "Amulet_of_the_monarchs",
           "Amulet_of_rancour#Leagues",
           "Amulet_of_rancour",
           "Amulet_of_rancour#*",
@@ -206,7 +200,6 @@
       {
         "id": "ring",
         "items": [
-          "Emperor_ring",
           "Ultor_ring#Leagues",
           "Ultor_ring",
           "Ultor_ring#*",
@@ -241,10 +234,10 @@
       {
         "id": "weapon",
         "items": [
-          "Sunlight_spear",
+          "Fang_of_the_hound",
+          "Infernal_tecpatl",
           "Osmumten's_fang#Leagues",
           "Noxious_halberd#Leagues",
-          "Thunder_khopesh",
           "Ghrazi_rapier#Leagues",
           "Blade_of_saeldor#Leagues",
           "Zamorakian_hasta#Leagues",
@@ -281,10 +274,11 @@
       {
         "id": "weapon",
         "items": [
+          "Fang_of_the_hound",
+          "Infernal_tecpatl",
           "Scythe_of_vitur#Leagues",
           "Soulreaper_axe#Leagues",
           "Noxious_halberd#Leagues",
-          "Thunder_khopesh",
           "Zombie_axe#Leagues",
           "Blade_of_saeldor#Leagues",
           "Abyssal_tentacle#Leagues",
@@ -320,6 +314,7 @@
       {
         "id": "weapon",
         "items": [
+          "Infernal_tecpatl",
           "Scythe_of_vitur#Leagues",
           "Soulreaper_axe#Leagues",
           "Zombie_axe#Leagues",
@@ -355,9 +350,7 @@
       {
         "id": "weapon",
         "items": [
-          "Thunder_khopesh",
-          "Sunlight_spear",
-          "The_dogsword",
+          "Infernal_tecpatl",
           "Dragon_claws",
           "Voidwaker",
           "Burning_claws",
@@ -380,8 +373,10 @@
       {
         "id": "weapon",
         "items": [
-          "Twisted_bow#Leagues",
+          "King's_barrage",
           "Drygore_blowpipe",
+          "Nature's_recurve",
+          "Twisted_bow#Leagues",
           "Toxic_blowpipe#Leagues",
           "Zaryte_crossbow#Leagues",
           "Bow_of_faerdhinen#Leagues",
@@ -412,7 +407,6 @@
         "id": "shield",
         "items": [
           "Twisted_buckler",
-          "Thousand-dragon_ward",
           "Dragonfire_ward",
           "Dragonfire_ward#*",
           "Aquanite_hopper",
@@ -429,6 +423,7 @@
       {
         "id": "head",
         "items": [
+          "V's_helm",
           "Crystal_helm#Weapon=Bow_of_faerdhinen",
           "Eclipse_moon_helm#Weapon=Eclipse_atlatl",
           "Masori_mask_(f)",
@@ -486,8 +481,6 @@
         "id": "hands",
         "items": [
           "Zaryte_vambraces",
-          "Gloves_of_the_damned",
-          "Sunlit_bracers",
           "Hueycoatl_hide_vambraces",
           "Guthix_bracers",
           "Black_d'hide_vambraces",
@@ -536,7 +529,6 @@
       {
         "id": "neck",
         "items": [
-          "Amulet_of_the_monarchs",
           "Necklace_of_anguish",
           "Amulet_of_fury",
           "Dragonbone_necklace",
@@ -548,7 +540,6 @@
       {
         "id": "ring",
         "items": [
-          "Emperor_ring",
           "Venator_ring#Leagues",
           "Venator_ring",
           "Venator_ring#*",
@@ -599,6 +590,8 @@
       {
         "id": "weapon",
         "items": [
+          "Shadowflame_quadrant",
+          "Lithic_sceptre",
           "Tumeken's_shadow#Leagues",
           "Eye_of_ayak#Leagues",
           "Sanguinesti_staff#Leagues",
@@ -656,6 +649,8 @@
       {
         "id": "head",
         "items": [
+          "V's_helm",
+          "Crystal_helm#Leagues",
           "Ancestral_hat",
           "Virtus_mask",
           "Blue_moon_helm",
@@ -673,6 +668,7 @@
       {
         "id": "body",
         "items": [
+          "Crystal_body#Leagues",
           "Ancestral_robe_top",
           "Virtus_robe_top",
           "Blue_moon_chestplate",
@@ -688,6 +684,7 @@
       {
         "id": "legs",
         "items": [
+          "Crystal_legs#Leagues",
           "Ancestral_robe_bottom",
           "Virtus_robe_bottom",
           "Blue_moon_tassets",
@@ -701,11 +698,10 @@
       {
         "id": "hands",
         "items": [
+          "Confliction_gauntlets#Leagues",
           "Confliction_gauntlets",
           "Confliction_gauntlets#*",
           "Tormented_bracelet",
-          "Gloves_of_the_damned",
-          "Sunlit_bracers",
           "Infinity_gloves",
           "Bloodbark_gauntlets",
           "Lunar_gloves",
@@ -754,7 +750,6 @@
       {
         "id": "neck",
         "items": [
-          "Amulet_of_the_monarchs",
           "Occult_necklace",
           "Amulet_of_fury",
           "Dragonbone_necklace",
@@ -766,7 +761,6 @@
       {
         "id": "ring",
         "items": [
-          "Emperor_ring",
           "Magus_ring#Leagues",
           "Magus_ring",
           "Magus_ring#*",
@@ -784,6 +778,7 @@
       {
         "id": "ammo",
         "items": [
+          "Crystal_blessing",
           "Rada's_blessing_4",
           "Ancient_blessing"
         ]
@@ -796,6 +791,8 @@
       {
         "id": "weapon",
         "items": [
+          "Lithic_sceptre",
+          "Fang_of_the_hound",
           "Volatile_nightmare_staff",
           "Accursed_sceptre",
           "Soulflame_horn",
@@ -825,7 +822,6 @@
       {
         "id": "shield",
         "items": [
-          "Thousand-dragon_ward",
           "Falador_shield_4",
           "Holy_book",
           "Antler_guard",
@@ -918,7 +914,6 @@
           "Bonecrusher_necklace",
           "Bonecrusher_necklace#*",
           "Dragonbone_necklace",
-          "Amulet_of_the_monarchs",
           "Saradomin_stole",
           "Holy_symbol",
           "Unholy_symbol",
@@ -931,7 +926,6 @@
       {
         "id": "ring",
         "items": [
-          "Emperor_ring",
           "Ring_of_the_gods",
           "Ring_of_suffering_(i)",
           "Ring_of_shadows",

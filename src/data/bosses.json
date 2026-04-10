@@ -52,6 +52,7 @@
     "echoVariant": true,
     "notableDrops": [
       "Moxi",
+      "Infernal_tecpatl",
       "Glacial_temotli",
       "Pendant_of_ates",
       "Frozen_tear",
@@ -166,6 +167,7 @@
     "echoVariant": true,
     "notableDrops": [
       "Hellpuppy",
+      "Fang_of_the_hound",
       "Eternal_crystal",
       "Pegasian_crystal",
       "Primordial_crystal",
@@ -273,6 +275,7 @@
       "Pet_dagannoth_prime",
       "Pet_dagannoth_rex",
       "Pet_dagannoth_supreme",
+      "V's_helm",
       "Berserker_ring",
       "Warrior_ring",
       "Seers_ring",
@@ -384,6 +387,7 @@
     "echoVariant": true,
     "notableDrops": [
       "Noon",
+      "Lithic_sceptre",
       "Black_tourmaline_core",
       "Granite_gloves",
       "Granite_ring",
@@ -402,6 +406,7 @@
     "requiredLevel": 65,
     "echoVariant": true,
     "notableDrops": [
+      "Nature's_recurve",
       "Bottomless_compost_bucket",
       "Attas_seed",
       "Iasor_seed",
@@ -466,6 +471,7 @@
     "echoVariant": true,
     "notableDrops": [
       "Prince_black_dragon",
+      "King's_barrage",
       "Draconic_visage",
       "Kbd_heads",
       "Dragon_pickaxe"
@@ -767,6 +773,7 @@
     "echoVariant": true,
     "notableDrops": [
       "Pet_smoke_devil",
+      "Shadowflame_quadrant",
       "Devil's_element",
       "Occult_necklace",
       "Smoke_battlestaff",

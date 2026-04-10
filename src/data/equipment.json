@@ -1967,6 +1967,12 @@
     "regions": ["misthalin"]
   },
   {
+    "id": "Fang_of_the_hound",
+    "slot": "weapon",
+    "tags": ["1h", "leagues"],
+    "regions": ["asgarnia"]
+  },
+  {
     "id": "Farseer_helm",
     "slot": "head",
     "regions": ["fremennik"],
@@ -2531,6 +2537,12 @@
     ]
   },
   {
+    "id": "Infernal_tecpatl",
+    "slot": "weapon",
+    "tags": ["2h", "leagues"],
+    "regions": ["varlamore"]
+  },
+  {
     "id": "Infinity_boots",
     "slot": "feet",
     "regions": ["desert"],
@@ -2758,6 +2770,16 @@
     ]
   },
   {
+    "id": "King's_barrage",
+    "slot": "weapon",
+    "tags": ["2h", "leagues"],
+    "regions": ["wilderness"],
+    "ammo": {
+      "id": "Ruby_dragon_bolts_(e)",
+      "icon": "Ruby_dragon_bolts_(e)_5"
+    }
+  },
+  {
     "id": "Kodai_wand",
     "slot": "weapon",
     "tags": ["1h"],
@@ -2816,6 +2838,12 @@
     "id": "Lightbearer",
     "slot": "ring",
     "regions": ["desert"]
+  },
+  {
+    "id": "Lithic_sceptre",
+    "slot": "weapon",
+    "tags": ["1h", "leagues"],
+    "regions": ["morytania"]
   },
   {
     "id": "Lunar_gloves",
@@ -3170,6 +3198,16 @@
     "id": "Mythical_cape",
     "slot": "cape",
     "regions": ["kandarin"]
+  },
+  {
+    "id": "Nature's_recurve",
+    "slot": "weapon",
+    "tags": ["2h", "leagues"],
+    "regions": ["kourend"],
+    "ammo": {
+      "id": "Dragon_arrow",
+      "icon": "Dragon_arrow_5"
+    }
   },
   {
     "id": "Nature's_reprisal",
@@ -4017,6 +4055,12 @@
     "regions": ["misthalin", "kourend"]
   },
   {
+    "id": "Shadowflame_quadrant",
+    "slot": "weapon",
+    "tags": ["1h", "leagues"],
+    "regions": ["kandarin"]
+  },
+  {
     "id": "Shayzien_body_(5)",
     "slot": "body",
     "regions": ["kourend"],
@@ -4689,6 +4733,12 @@
     "requirements": [
       { "skill": "attack", "level": 70 }
     ]
+  },
+  {
+    "id": "V's_helm",
+    "slot": "head",
+    "tags": ["leagues"],
+    "regions": ["fremennik"]
   },
   {
     "id": "Venator_bow",

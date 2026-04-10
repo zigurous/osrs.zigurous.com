@@ -776,6 +776,10 @@
     "name": "Fairy Ring"
   },
   {
+    "id": "Fang_of_the_hound",
+    "tags": ["leagues"]
+  },
+  {
     "id": "Fangs_of_venenatis",
     "transmutations": [
       "#plus",
@@ -1025,6 +1029,10 @@
     "icon": "Infernal_plate_7"
   },
   {
+    "id": "Infernal_tecpatl",
+    "tags": ["leagues"]
+  },
+  {
     "id": "Jar_of_chemicals",
     "tags": ["cosmetic"]
   },
@@ -1125,6 +1133,10 @@
     "icon": "Khazard_armour"
   },
   {
+    "id": "King's_barrage",
+    "tags": ["leagues"]
+  },
+  {
     "id": "Kodai_insignia",
     "transmutations": [
       "#plus",
@@ -1195,6 +1207,10 @@
       "#equals",
       "Limestone_brick"
     ]
+  },
+  {
+    "id": "Lithic_sceptre",
+    "tags": ["leagues"]
   },
   {
     "id": "Long_kebbit_bolts",
@@ -1306,6 +1322,10 @@
   {
     "id": "Moonlight_moth_mix",
     "icon": "Moonlight_moth_mix_(2)"
+  },
+  {
+    "id": "Nature's_recurve",
+    "tags": ["leagues"]
   },
   {
     "id": "Nature's_reprisal",
@@ -1591,6 +1611,10 @@
       "#equals",
       "Shadow_ancient_sceptre"
     ]
+  },
+  {
+    "id": "Shadowflame_quadrant",
+    "tags": ["leagues"]
   },
   {
     "id": "Sinhaza_shroud_tier_1",
@@ -1902,6 +1926,10 @@
       "#transmute",
       "Ultor_ring"
     ]
+  },
+  {
+    "id": "V's_helm",
+    "tags": ["leagues"]
   },
   {
     "id": "Valuables",
