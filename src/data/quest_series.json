@@ -277,11 +277,8 @@
     ],
     "unlocks": [
       "The_Whisperer",
-      "Sirenic_tablet",
-      "Shadow_quartz",
-      "Siren's_staff",
       "Bellator_ring",
-      "#newline",
+      "Shadow_ancient_sceptre",
       "Broken_zombie_helmet",
       "Elite_black_armour",
       "Dark_Squall_robes"
@@ -298,16 +295,14 @@
     ],
     "unlocks": [
       "Camulet",
+      "Ancient_Magicks",
       "Ancient_staff",
       "Ancient_signet",
-      "Ancient_Magicks",
       "Ring_of_shadows",
       "#newline",
       "The_Leviathan",
-      "Scarred_tablet",
-      "Smoke_quartz",
-      "Leviathan's_lure",
-      "Venator_ring"
+      "Venator_ring",
+      "Smoke_ancient_sceptre"
     ]
   },
   {
@@ -320,16 +315,14 @@
     ],
     "unlocks": [
       "Phantom_Muspah",
-      "Ancient_icon",
+      "Ancient_sceptre",
       "Ancient_essence",
       "Saturated_heart",
       "Forgotten_brew",
       "#newline",
       "Duke_Sucellus",
-      "Frozen_tablet",
-      "Ice_quartz",
-      "Eye_of_the_duke",
-      "Magus_ring"
+      "Magus_ring",
+      "Ice_ancient_sceptre"
     ]
   },
   {
@@ -382,10 +375,8 @@
     ],
     "unlocks": [
       "Vardorvis",
-      "Strangled_tablet",
-      "Blood_quartz",
-      "Executioner's_axe_head",
-      "Ultor_ring"
+      "Ultor_ring",
+      "Blood_ancient_sceptre"
     ]
   },
   {
@@ -594,10 +585,6 @@
     "unlocks": [
       "Civitas_illa_Fortis_Teleport",
       "Quetzal_Transport_System",
-      "Emissary_hood",
-      "Emissary_robe_top",
-      "Emissary_robe_bottom",
-      "Emissary_sandals",
       "Pendant_of_ates",
       "Arkan_blade",
       "Amoxliatl",
