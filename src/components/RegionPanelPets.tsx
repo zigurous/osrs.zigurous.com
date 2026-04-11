@@ -18,7 +18,7 @@ export default function RegionPanelPets({ region }: RegionPanelPetsProps) {
     .map(id => data.pets.nodes.find(pet => pet.id === id))
     .filter(pet => !!pet);
   return (
-    <RegionPanelSection title="Pets">
+    <RegionPanelSection title="Pets" counter={pets.length}>
       <ul className="items-list">
         {pets.map(pet => (
           <li className="shadow-xs" key={pet.id} id={pet.id}>

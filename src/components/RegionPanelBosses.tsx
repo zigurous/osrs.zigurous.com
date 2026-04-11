@@ -59,7 +59,7 @@ export default function RegionPanelBosses({ region }: RegionPanelBossesProps) {
   );
 
   return (
-    <RegionPanelSection title="Bosses" titleMargin="lg">
+    <RegionPanelSection title="Bosses" titleMargin="lg" counter={bosses.length}>
       <Text className="ml-sm mb-xxxs" color="disabled" type="body-sm">
         Show the following drops:
       </Text>
