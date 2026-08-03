@@ -5,6 +5,7 @@ export interface SlayerMaster {
   image: string;
   region: string;
   requiredCombatLevel?: number;
+  requiredSlayerLevel?: number;
 }
 
 export interface SlayerMonster extends Omit<Monster, 'notableDrops'> {

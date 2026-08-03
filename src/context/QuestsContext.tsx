@@ -111,10 +111,12 @@ const dataQuery = graphql`
         skillRequirements {
           skill
           level
+          ironman
         }
         rewards {
           skill
           experience
+          lamp
         }
       }
     }

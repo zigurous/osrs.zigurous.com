@@ -227,8 +227,8 @@
       "X_Marks_the_Spot"
     ],
     "rewards": [
-      { "skill": "agility", "experience": 500, "lamp": true },
-      { "skill": "agility", "experience": 500, "lamp": true }
+      { "skill": "construction", "experience": 500, "lamp": true },
+      { "skill": "construction", "experience": 500, "lamp": true }
     ]
   },
   {
@@ -887,7 +887,7 @@
       "Gertrude's_Cat"
     ],
     "skillRequirements": [
-      { "skill": "woodcutting", "level": 30 }
+      { "skill": "woodcutting", "level": 30, "ironman": true }
     ],
     "rewards": [
       { "skill": "thieving", "experience": 4500 },
@@ -2074,11 +2074,6 @@
   },
   {
     "id": "The_Fremennik_Trials",
-    "skillRequirements": [
-      { "skill": "woodcutting", "level": 40 },
-      { "skill": "crafting", "level": 40 },
-      { "skill": "fletching", "level": 25 }
-    ],
     "rewards": [
       { "skill": "strength", "experience": 2812 },
       { "skill": "defence", "experience": 2812 },

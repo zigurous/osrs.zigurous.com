@@ -44,6 +44,18 @@
     "sortingGroups": ["herblore"]
   },
   {
+    "id": "Brass_Hand_Harry",
+    "subtitle": "Skill Master",
+    "category": "npc",
+    "sortingGroups": ["sailing"],
+    "requiredLevel": 99,
+    "notableDrops": [
+      "Sailing_hood",
+      "Sailing_cape",
+      "Sailing_cape(t)"
+    ]
+  },
+  {
     "id": "Brother_Jered",
     "subtitle": "Skill Master",
     "category": "npc",
@@ -342,6 +354,12 @@
       "Magic_stone",
       "Condensed_gold"
     ]
+  },
+  {
+    "id": "Mortimer",
+    "subtitle": "Slayer Master",
+    "category": "npc",
+    "sortingGroups": ["slayer"]
   },
   {
     "id": "Nieve",

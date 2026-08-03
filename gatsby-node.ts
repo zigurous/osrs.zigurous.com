@@ -178,12 +178,13 @@ export const createSchemaCustomization = ({
       jsonId: String!
       title: String
       questRequirements: [String!]
-      skillRequirements: [SkillLevel!]
+      skillRequirements: [SkillRequirement!]
       rewards: [QuestReward!]
     }
     type QuestReward {
       skill: String!
       experience: Int!
+      lamp: Boolean
     }
     type QuestOrderJson implements Node @dontInfer {
       jsonId: String!
@@ -275,11 +276,18 @@ export const createSchemaCustomization = ({
       level: Int!
       highlight: Boolean
     }
+    type SkillRequirement {
+      skill: String!
+      level: Int!
+      boostable: Boolean
+      ironman: Boolean
+    }
     type SlayerMastersJson implements Node @dontInfer {
       jsonId: String!
       image: String!
       region: String!
       requiredCombatLevel: Int
+      requiredSlayerLevel: Int
     }
     type SlayerMonstersJson implements Node @dontInfer {
       jsonId: String!

@@ -416,17 +416,17 @@
       "The_Blood_Moon_Rises"
     ],
     "unlocks": [
-      "Gadderhammer",
+      "Drakan's_medallion",
+      "Vyre_noble_clothing",
       "Rod_of_ivandis",
       "Blisterwood_flail",
-      "Drakan's_medallion",
-      "Vyre_noble_top",
-      "Vyre_noble_legs",
-      "Vyre_noble_shoes",
-      "Daeyalt_essence",
-      "Blood_Altar",
+      "Hallowed_flail",
+      "Sunspear",
       "Blood_shard",
-      "Theatre_of_Blood"
+      "Blood_Altar",
+      "Daeyalt_essence",
+      "Theatre_of_Blood",
+      "Maggot_King"
     ]
   },
   {
@@ -505,12 +505,14 @@
     "quests": [
       "Pandemonium",
       "Prying_Times",
-      "Current_Affairs"
+      "Current_Affairs",
+      "Fallen_From_Grace"
     ],
     "unlocks": [
       "Sailing",
+      "Sea_charting",
       "The_Pandemonium",
-      "Sea_charting"
+      "Wyrmscraig"
     ]
   },
   {

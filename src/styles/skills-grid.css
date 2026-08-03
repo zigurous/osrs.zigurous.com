@@ -2,6 +2,7 @@ ul.skills-grid {
   display: grid;
   gap: var(--spacing-xs);
   flex-shrink: 0;
+  width: max-content;
 }
 
 ul.skills-grid > li {

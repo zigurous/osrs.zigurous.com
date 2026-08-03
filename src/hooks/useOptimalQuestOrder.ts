@@ -1,10 +1,9 @@
 import { useQuestsContext } from '../context/QuestsContext';
-import { convertExperienceToLevels, convertLevelsToExperience, getDefaultSkillLevels, getExperienceForLevel } from '../utils/xp'; // prettier-ignore
+import { helpsMeetMissingQuestReqs, meetsQuestReqs } from '../utils/quests';
 import { sortByIndex } from '../utils/sorting';
-import type { Quest } from '../types/quest';
-import type { SkillLevels, SkillRequirement } from '../types/skill';
+import { convertExperienceToLevels, convertLevelsToExperience, getDefaultSkillLevels, getExperienceForLevel } from '../utils/xp'; // prettier-ignore
 
-export function useOptimalQuestOrder(): string[] {
+export function useOptimalQuestOrder(ironman: boolean = false): string[] {
   const { quests, order } = useQuestsContext();
   const experience = convertLevelsToExperience(getDefaultSkillLevels());
   const optimalOrder: string[] = [];
@@ -15,7 +14,8 @@ export function useOptimalQuestOrder(): string[] {
 
   console.group('Optimal Quest Order');
 
-  const addNextQuest = (index: number) => {
+  const addNextQuest = (index: number): boolean => {
+    if (index === -1 || availableQuests.length === 0) return false;
     const nextQuest = availableQuests[index];
     optimalOrder.push(nextQuest.id);
     availableQuests.splice(index, 1);
@@ -28,17 +28,20 @@ export function useOptimalQuestOrder(): string[] {
     nextQuest.rewards?.forEach(reward => {
       experience[reward.skill] += reward.experience;
     });
+    return true;
   };
 
   for (let i = 0; i < allQuests.length; i++) {
     const levels = convertExperienceToLevels(experience);
 
-    if (meetsRequirements(availableQuests[0], optimalOrder, levels)) {
+    if (meetsQuestReqs(availableQuests[0], optimalOrder, levels, ironman)) {
       addNextQuest(0);
-    } else if (decisions.length > 0) {
+    } else if (
+      decisions.length > 0 &&
       addNextQuest(
         availableQuests.findIndex(quest => quest.id === decisions[0]),
-      );
+      )
+    ) {
       decisions.splice(0, 1);
     } else {
       const missingReqs =
@@ -58,11 +61,15 @@ export function useOptimalQuestOrder(): string[] {
 
       console.groupCollapsed('Potential Quests');
       for (let j = 1; j < availableQuests.length; j++) {
-        const potentialQuest = availableQuests[j];
         if (
-          meetsPotentialRequirements(potentialQuest, optimalOrder, missingReqs)
+          helpsMeetMissingQuestReqs(
+            availableQuests[j],
+            levels,
+            missingReqs,
+            ironman,
+          )
         ) {
-          console.log(potentialQuest);
+          console.log(availableQuests[j]);
         }
       }
       console.groupEnd();
@@ -82,52 +89,6 @@ export function useOptimalQuestOrder(): string[] {
   console.groupEnd();
 
   return optimalOrder;
-}
-
-function meetsRequirements(
-  quest: Quest,
-  completedQuests: string[],
-  levels: SkillLevels,
-): boolean {
-  if (quest.questRequirements?.some(id => !completedQuests.includes(id))) {
-    return false;
-  }
-
-  if (quest.skillRequirements?.some(req => levels[req.skill] < req.level)) {
-    return false;
-  }
-
-  return true;
-}
-
-function meetsPotentialRequirements(
-  quest: Quest,
-  completedQuests: string[],
-  missingReqs: SkillRequirement[],
-): boolean {
-  if (
-    !Boolean(
-      quest.rewards?.some(reward =>
-        missingReqs.some(req => req.skill === reward.skill),
-      ),
-    )
-  ) {
-    return false;
-  }
-
-  // if (quest.questRequirements?.some(id => !completedQuests.includes(id))) {
-  //   return false;
-  // }
-
-  // if (
-  //   quest.skillRequirements?.some(req =>
-  //     missingReqs.some(missing => missing.skill === req.skill && req.level >= missing.level),
-  //   )
-  // ) {
-  //   return false;
-  // }
-
-  return true;
 }
 
 const decisions: string[] = [

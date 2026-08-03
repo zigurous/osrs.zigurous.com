@@ -104,6 +104,13 @@
     "icon": "Anti-venom+(4)"
   },
   {
+    "id": "Aquanite_tendon",
+    "transmutations": [
+      "#transmute",
+      "Aquanite_hopper"
+    ]
+  },
+  {
     "id": "Araxyte_fang",
     "transmutations": [
       "#plus",
@@ -671,6 +678,15 @@
     "icon": "Ecto-token_3"
   },
   {
+    "id": "Elder_venator_fang",
+    "transmutations": [
+      "#plus",
+      "Necklace_of_anguish",
+      "#equals",
+      "Necklace_of_rupture"
+    ]
+  },
+  {
     "id": "Eldritch_orb",
     "transmutations": [
       "#plus",
@@ -822,6 +838,10 @@
   {
     "id": "Ghostly_robes",
     "icon": "Ghostly_robe_(top)"
+  },
+  {
+    "id": "Giant_egg_sac",
+    "icon": "Giant_egg_sac(full)"
   },
   {
     "id": "Glistening_tear",
@@ -1025,6 +1045,16 @@
     "tags": ["cosmetic"]
   },
   {
+    "id": "Immaculate_mole_skin",
+    "transmutations": [
+      "#plus",
+      "Gem_bag",
+      "Gem_tote",
+      "#equals",
+      "Gem_sack"
+    ]
+  },
+  {
     "id": "Infernal_plate",
     "icon": "Infernal_plate_7"
   },
@@ -1058,6 +1088,10 @@
   },
   {
     "id": "Jar_of_feathers",
+    "tags": ["cosmetic"]
+  },
+  {
+    "id": "Jar_of_light",
     "tags": ["cosmetic"]
   },
   {
@@ -1475,6 +1509,15 @@
     ]
   },
   {
+    "id": "Pristine_spider_silk",
+    "transmutations": [
+      "#plus",
+      "Herb_sack",
+      "#equals",
+      "Silklined_herb_sack"
+    ]
+  },
+  {
     "id": "Raids_megarare_voucher",
     "tags": ["leagues"]
   },
@@ -1766,6 +1809,15 @@
     "tags": ["leagues"]
   },
   {
+    "id": "Sunstone",
+    "transmutations": [
+      "#plus",
+      "Chisel",
+      "#equals",
+      "Sunstone_core"
+    ]
+  },
+  {
     "id": "Superantipoison",
     "icon": "Superantipoison(4)"
   },
@@ -1940,10 +1992,24 @@
     "icon": "Butch"
   },
   {
+    "id": "Venator_fang",
+    "transmutations": [
+      "#transmute",
+      "Dragon_arrowtips"
+    ]
+  },
+  {
     "id": "Venator_shard",
     "transmutations": [
       "#transmute",
       "Venator_bow"
+    ]
+  },
+  {
+    "id": "Venator_tooth",
+    "transmutations": [
+      "#transmute",
+      "Dragon_dart_tip"
     ]
   },
   {

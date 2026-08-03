@@ -17,7 +17,7 @@ import { SkillingFilterContextProvider } from '../context/SkillingFilterContext'
 
 export const Head: HeadFC = () => <title>OSRS Region Analyzer</title>;
 
-export default function RegionAnalyzer({ location }: PageProps) {
+export default function RegionAnalyzerPage({ location }: PageProps) {
   return (
     <ContextProviders location={location}>
       <RootLayout id="region-analyzer">

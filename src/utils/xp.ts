@@ -1,6 +1,6 @@
 import { skills } from './constants';
 import type { Quest } from '../types/quest';
-import type { Skill, SkillLevels } from '../types/skill';
+import type { Skill, SkillExperience, SkillLevels } from '../types/skill';
 
 export const MAX_XP = 200_000_000;
 
@@ -86,6 +86,15 @@ export function diffSkillLevels(
     }
     return levels;
   }, {} as SkillLevels);
+}
+
+export function printLevels(xp: SkillExperience) {
+  console.log(
+    skills.map(
+      skill =>
+        `${skill}: ${getLevelForExperience(xp[skill])} (${xp[skill]} xp)`,
+    ),
+  );
 }
 
 export function sumQuestExperienceLevels(

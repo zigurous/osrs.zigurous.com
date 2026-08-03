@@ -27,7 +27,7 @@ export default function SlayerMonsterListItem({
             {monster.title || formatNameFromId(monster.id)}
           </Text>
           <span className="inline-flex align-center">
-            {monster.requiredCombatLevel && monster.requiredCombatLevel > 1 && (
+            {/* {monster.requiredCombatLevel && monster.requiredCombatLevel > 1 && (
               <Text
                 aria-label={`Combat level requirement: ${monster.requiredCombatLevel}`}
                 className="inline-flex align-center ml-md"
@@ -44,7 +44,7 @@ export default function SlayerMonsterListItem({
                 />
                 {monster.requiredCombatLevel}
               </Text>
-            )}
+            )} */}
             <Text
               aria-label={`Slayer level requirement: ${monster.requiredSlayerLevel ?? 1}`}
               className="inline-flex align-center ml-md"
@@ -59,7 +59,7 @@ export default function SlayerMonsterListItem({
                 src="https://oldschool.runescape.wiki/images/Slayer_icon_(detail).png"
                 style={{ width: 18, height: 18 }}
               />
-              {monster.requiredSlayerLevel ?? 1}
+              {monster.requiredSlayerLevel ?? '1'}
             </Text>
           </span>
         </div>

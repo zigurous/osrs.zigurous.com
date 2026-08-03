@@ -49,7 +49,6 @@
     "category": "boss",
     "sortingGroups": ["pvm"],
     "recommendedCombatStyle": ["melee"],
-    "echoVariant": true,
     "notableDrops": [
       "Moxi",
       "Infernal_tecpatl",
@@ -73,7 +72,7 @@
       "Noxious_point",
       "Noxious_blade",
       "Noxious_pommel",
-      "Araxyte_venom_sack",
+      "Araxyte_venom_sac",
       "Coagulated_venom",
       "Araxyte_head",
       "Jar_of_venom"
@@ -164,7 +163,6 @@
     "sortingGroups": ["slayer", "pvm"],
     "recommendedCombatStyle": ["melee", "ranged"],
     "requiredLevel": 91,
-    "echoVariant": true,
     "notableDrops": [
       "Hellpuppy",
       "Fang_of_the_hound",
@@ -240,7 +238,6 @@
     "category": "boss",
     "sortingGroups": ["pvm"],
     "recommendedCombatStyle": ["hybrid"],
-    "echoVariant": true,
     "notableDrops": [
       "Youngllef",
       "Crystal_blessing",
@@ -270,7 +267,6 @@
     "category": "boss",
     "sortingGroups": ["pvm", "slayer", "prayer"],
     "recommendedCombatStyle": ["hybrid"],
-    "echoVariant": true,
     "notableDrops": [
       "Pet_dagannoth_prime",
       "Pet_dagannoth_rex",
@@ -372,8 +368,9 @@
     "recommendedCombatStyle": ["ranged", "magic", "melee"],
     "notableDrops": [
       "Baby_mole",
+      "Mole_claw",
       "Mole_skin",
-      "Mole_claw"
+      "Immaculate_mole_skin"
     ]
   },
   {
@@ -384,7 +381,6 @@
     "sortingGroups": ["slayer", "pvm"],
     "recommendedCombatStyle": ["melee", "ranged"],
     "requiredLevel": 75,
-    "echoVariant": true,
     "notableDrops": [
       "Noon",
       "Lithic_sceptre",
@@ -404,7 +400,6 @@
     "sortingGroups": ["farming", "pvm"],
     "recommendedCombatStyle": ["melee"],
     "requiredLevel": 65,
-    "echoVariant": true,
     "notableDrops": [
       "Nature's_recurve",
       "Bottomless_compost_bucket",
@@ -450,7 +445,6 @@
     "category": "boss",
     "sortingGroups": ["pvm", "slayer", "herblore"],
     "recommendedCombatStyle": ["melee", "ranged"],
-    "echoVariant": true,
     "notableDrops": [
       "Kalphite_princess",
       "Drygore_blowpipe",
@@ -468,7 +462,6 @@
     "subcategory": "wilderness",
     "sortingGroups": ["pvm"],
     "recommendedCombatStyle": ["melee", "ranged"],
-    "echoVariant": true,
     "notableDrops": [
       "Prince_black_dragon",
       "King's_barrage",
@@ -505,6 +498,32 @@
       "Armadyl_chestplate",
       "Armadyl_chainskirt",
       "Armadyl_hilt"
+    ]
+  },
+  {
+    "id": "Mad_Angel",
+    "icon": "Aggy",
+    "category": "boss",
+    "sortingGroups": ["pvm"],
+    "recommendedCombatStyle": ["melee"],
+    "requiredLevel": 51,
+    "notableDrops": [
+      "Aggy",
+      "Hallowfell",
+      "Granite_dust",
+      "Jar_of_light"
+    ]
+  },
+  {
+    "id": "Maggot_King",
+    "icon": "Maggot_marquess",
+    "category": "boss",
+    "sortingGroups": ["pvm"],
+    "recommendedCombatStyle": ["melee", "magic"],
+    "notableDrops": [
+      "Maggot_marquess",
+      "Crimson_kisten",
+      "Elder_venator_fang"
     ]
   },
   {
@@ -600,7 +619,8 @@
     "notableDrops": [
       "Sraracha",
       "Sarachnis_cudgel",
-      "Giant_egg_sac(full)",
+      "Giant_egg_sac",
+      "Pristine_spider_silk",
       "Jar_of_eyes"
     ]
   },
@@ -770,7 +790,6 @@
     "sortingGroups": ["slayer", "pvm"],
     "recommendedCombatStyle": ["magic", "melee"],
     "requiredLevel": 93,
-    "echoVariant": true,
     "notableDrops": [
       "Pet_smoke_devil",
       "Shadowflame_quadrant",
@@ -906,10 +925,8 @@
       "Oathplate_helm",
       "Oathplate_chest",
       "Oathplate_legs",
-      "Oathplate_shards",
       "Soulflame_horn",
       "Rite_of_vile_transference",
-      "Diabolic_worms",
       "Barrel_of_demonic_tallow"
     ]
   },

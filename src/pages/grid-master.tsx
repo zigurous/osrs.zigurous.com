@@ -14,7 +14,7 @@ const aspectSize = { width: 640, height: 720 };
 
 export const Head: HeadFC = () => <title>OSRS Grid Master</title>;
 
-export default function GridMaster({}: PageProps) {
+export default function GridMasterPage({}: PageProps) {
   const [scale, ref] = useAspectFitScaling(aspectSize, 0, 1.25);
   return (
     <GridMasterContextProvider>

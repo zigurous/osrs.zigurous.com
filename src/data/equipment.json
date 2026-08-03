@@ -1143,6 +1143,16 @@
     ]
   },
   {
+    "id": "Crimson_kisten",
+    "slot": "weapon",
+    "tags": ["2h"],
+    "regions": ["morytania"],
+    "requirements": [
+      { "skill": "attack", "level": 60 },
+      { "skill": "strength", "level": 85 }
+    ]
+  },
+  {
     "id": "Crossbow",
     "slot": "weapon",
     "tags": ["1h"],
@@ -2213,6 +2223,24 @@
     ]
   },
   {
+    "id": "Hallowed_flail",
+    "slot": "weapon",
+    "tags": ["1h"],
+    "regions": ["morytania"],
+    "requirements": [
+      { "skill": "attack", "level": 50 }
+    ]
+  },
+  {
+    "id": "Hallowfell",
+    "slot": "weapon",
+    "tags": ["2h"],
+    "regions": ["sailing"],
+    "requirements": [
+      { "skill": "attack", "level": 75 }
+    ]
+  },
+  {
     "id": "Hardleather_gloves",
     "slot": "hands"
   },
@@ -3232,6 +3260,15 @@
     ]
   },
   {
+    "id": "Necklace_of_rupture",
+    "slot": "neck",
+    "regions": ["morytania/kandarin"],
+    "regions_single": ["morytania"],
+    "requirements": [
+      { "skill": "hitpoints", "level": 90 }
+    ]
+  },
+  {
     "id": "Neitiznot_faceguard",
     "slot": "head",
     "regions": ["fremennik"],
@@ -3680,8 +3717,8 @@
     "tags": ["2h"],
     "regions": ["sailing"],
     "ammo": {
-      "id": "Adamant_dart",
-      "icon": "Adamant_dart"
+      "id": "Rune_dart",
+      "icon": "Rune_dart"
     },
     "requirements": [
       { "skill": "ranged", "level": 65 }

@@ -35,7 +35,7 @@
     "title": "Adamantite",
     "category": "skilling",
     "sortingGroups": ["smithing", "sailing"],
-    "requiredLevel": 74,
+    "requiredLevel": 70,
     "notableDrops": [
       "Adamantite_bar",
       "#transmute",
@@ -753,6 +753,23 @@
     ]
   },
   {
+    "id": "Arrows#Seeking_arrows",
+    "title": "Seeking Arrows",
+    "caption": "1-90",
+    "category": "skilling",
+    "sortingGroups": ["fletching", "woodcutting"],
+    "requiredLevel": [1, 15, 30, 45, 60, 75, 90],
+    "notableDrops": [
+      "Seeking_bronze_arrow",
+      "Seeking_iron_arrow",
+      "Seeking_steel_arrow",
+      "Seeking_mithril_arrow",
+      "Seeking_adamant_arrow",
+      "Seeking_rune_arrow",
+      "Seeking_dragon_arrow"
+    ]
+  },
+  {
     "id": "Ash_pile",
     "category": "skilling",
     "sortingGroups": ["mining", "crafting", "farming"],
@@ -1180,6 +1197,16 @@
     ]
   },
   {
+    "id": "Bloodwood_tree",
+    "title": "Bloodwood",
+    "category": "skilling",
+    "sortingGroups": ["woodcutting", "fletching"],
+    "requiredLevel": 77,
+    "notableDrops": [
+      "Bucket_of_bloodwood_sap"
+    ]
+  },
+  {
     "id": "Blue_crab",
     "category": "skilling",
     "sortingGroups": ["hunter", "cooking", "herblore"],
@@ -1369,9 +1396,9 @@
     "sortingGroups": ["sailing"],
     "requiredLevel": [30, 38, 40, 45, 46, 48, 50, 55, 60, 62, 65, 66, 67, 70, 75, 76, 80],
     "notableDrops": [
+      "Dragon_cannon_barrel",
       "Broken_dragon_hook",
       "Bottled_storm",
-      "Inky_paint",
       "Narwhal_horn",
       "Swift_albatross_feather",
       "Ray_barbs",
@@ -1455,7 +1482,7 @@
     "title": "Bronze",
     "category": "skilling",
     "sortingGroups": ["smithing", "sailing"],
-    "requiredLevel": 10,
+    "requiredLevel": 1,
     "notableDrops": [
       "Bronze_bar",
       "#transmute",
@@ -2906,7 +2933,7 @@
     "title": "Dragon",
     "category": "skilling",
     "sortingGroups": ["smithing", "sailing"],
-    "requiredLevel": 94,
+    "requiredLevel": 92,
     "notableDrops": [
       "Dragon_metal_sheet",
       "#transmute",
@@ -3119,7 +3146,7 @@
     "notableDrops": [
       "Anti-venom+(4)",
       "#plus",
-      "Araxyte_venom_sack",
+      "Araxyte_venom_sac",
       "#equals",
       "Extended_anti-venom+(4)"
     ]
@@ -3911,6 +3938,17 @@
     ]
   },
   {
+    "id": "Goat_hunting",
+    "category": "skilling",
+    "sortingGroups": ["hunter"],
+    "requiredLevel": 60,
+    "notableDrops": [
+      "Goat_horn",
+      "Wyrmscraig_goat_fur",
+      "Mr_mcgroot"
+    ]
+  },
+  {
     "id": "Gold_bar",
     "title": "Gold",
     "category": "skilling",
@@ -3979,6 +4017,21 @@
     "requiredLevel": 40,
     "notableDrops": [
       "Gold_ore"
+    ]
+  },
+  {
+    "id": "Golem_crafting",
+    "category": "skilling",
+    "sortingGroups": ["crafting"],
+    "requiredLevel": 60,
+    "notableDrops": [
+      "Chisel",
+      "#plus",
+      "Sunstone",
+      "#equals",
+      "Sunstone_core",
+      "#transmute",
+      "Jeweller's_chisel"
     ]
   },
   {
@@ -4411,7 +4464,7 @@
     "title": "Iron",
     "category": "skilling",
     "sortingGroups": ["smithing", "sailing"],
-    "requiredLevel": 22,
+    "requiredLevel": 15,
     "notableDrops": [
       "Iron_bar",
       "#transmute",
@@ -4713,6 +4766,30 @@
       "Hard_leather_shield",
       "Studded_body",
       "Studded_chaps"
+    ]
+  },
+  {
+    "id": "Leechfin",
+    "category": "skilling",
+    "sortingGroups": ["fishing"],
+    "requiredLevel": 78,
+    "notableDrops": [
+      "Big_fishing_net",
+      "#transmute",
+      "Leechfin",
+      "#plus",
+      "Knife",
+      "#transmute",
+      "Blood_sac"
+    ]
+  },
+  {
+    "id": "Letvek_(Hunter)",
+    "category": "skilling",
+    "sortingGroups": ["hunter"],
+    "requiredLevel": 76,
+    "notableDrops": [
+      "Letvek"
     ]
   },
   {
@@ -5171,7 +5248,7 @@
     "title": "Mithril",
     "category": "skilling",
     "sortingGroups": ["smithing", "sailing"],
-    "requiredLevel": 56,
+    "requiredLevel": 50,
     "notableDrops": [
       "Mithril_bar",
       "#transmute",
@@ -6432,7 +6509,53 @@
     "sortingGroups": ["mining", "smithing"],
     "requiredLevel": [48, 68],
     "notableDrops": [
-      "Rubium"
+      "Rubium_splinters",
+      "Rubium_geode"
+    ]
+  },
+  {
+    "id": "Rubium_splinters",
+    "title": "Rubium",
+    "caption": "5-90",
+    "category": "skilling",
+    "sortingGroups": ["smithing", "mining"],
+    "requiredLevel": [5, 20, 35, 55, 75, 90],
+    "notableDrops": [
+      "Rubium_splinters",
+      "#plus",
+      "Bronze_cannonball",
+      "#equals",
+      "Bronze_incendiary_cannonball",
+      "#newline",
+      "Rubium_splinters",
+      "#plus",
+      "Iron_cannonball",
+      "#equals",
+      "Iron_incendiary_cannonball",
+      "#newline",
+      "Rubium_splinters",
+      "#plus",
+      "Steel_cannonball",
+      "#equals",
+      "Steel_incendiary_cannonball",
+      "#newline",
+      "Rubium_splinters",
+      "#plus",
+      "Mithril_cannonball",
+      "#equals",
+      "Mithril_incendiary_cannonball",
+      "#newline",
+      "Rubium_splinters",
+      "#plus",
+      "Adamant_cannonball",
+      "#equals",
+      "Adamant_incendiary_cannonball",
+      "#newline",
+      "Rubium_splinters",
+      "#plus",
+      "Rune_cannonball",
+      "#equals",
+      "Rune_incendiary_cannonball"
     ]
   },
   {
@@ -6486,7 +6609,7 @@
     "title": "Runite",
     "category": "skilling",
     "sortingGroups": ["smithing", "sailing"],
-    "requiredLevel": 86,
+    "requiredLevel": 85,
     "notableDrops": [
       "Runite_bar",
       "#transmute",
@@ -7195,7 +7318,7 @@
     "title": "Steel",
     "category": "skilling",
     "sortingGroups": ["smithing", "sailing"],
-    "requiredLevel": 38,
+    "requiredLevel": 30,
     "notableDrops": [
       "Steel_bar",
       "#transmute",
@@ -7246,6 +7369,18 @@
     ]
   },
   {
+    "id": "Stymphike",
+    "category": "skilling",
+    "sortingGroups": ["hunter"],
+    "requiredLevel": 82,
+    "notableDrops": [
+      "Stymphike",
+      "#transmute",
+      "Stymphike_feather",
+      "Stymphike_carcass"
+    ]
+  },
+  {
     "id": "Sulliusceps",
     "category": "skilling",
     "sortingGroups": ["woodcutting"],
@@ -7289,6 +7424,16 @@
       "Sunfire_splinters",
       "#equals",
       "Sunfire_rune"
+    ]
+  },
+  {
+    "id": "Sunstone_rocks",
+    "title": "Sunstone",
+    "category": "skilling",
+    "sortingGroups": ["mining", "crafting"],
+    "requiredLevel": 50,
+    "notableDrops": [
+      "Sunstone"
     ]
   },
   {

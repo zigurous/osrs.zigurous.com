@@ -10,6 +10,11 @@
     "tags": ["pet"]
   },
   {
+    "id": "Aggy",
+    "source": "Mad_Angel",
+    "tags": ["pet"]
+  },
+  {
     "id": "Baby_chinchompa",
     "icon": "Baby_chinchompa_(grey)",
     "source": "Hunter",
@@ -163,8 +168,18 @@
     "tags": ["pet"]
   },
   {
+    "id": "Maggot_marquess",
+    "source": "Maggot_King",
+    "tags": ["pet"]
+  },
+  {
     "id": "Moxi",
     "source": "Amoxliatl",
+    "tags": ["pet"]
+  },
+  {
+    "id": "Mr_mcgroot",
+    "source": "Goat_hunting",
     "tags": ["pet"]
   },
   {

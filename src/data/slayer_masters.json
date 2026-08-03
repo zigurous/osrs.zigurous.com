@@ -48,6 +48,14 @@
     "id": "Duradel",
     "image": "Duradel_chathead",
     "region": "karamja",
+    "requiredSlayerLevel": 50,
+    "requiredCombatLevel": 100
+  },
+  {
+    "id": "Mortimer",
+    "image": "Mortimer_chathead",
+    "region": "sailing",
+    "requiredSlayerLevel": 70,
     "requiredCombatLevel": 100
   }
 ]

@@ -112,6 +112,7 @@ const islandIcons: Record<string, string> = {
   The_Pandemonium: 'The_Pandemonium_icon',
   Vatrachos_Island: 'Vatrachos_Island_icon',
   Wintumber_Island: 'Wintumber_Island_icon',
+  Wyrmscraig: 'Wyrmscraig_icon',
   Ynysdail: 'Ynysdail_icon',
 };
 
@@ -147,6 +148,8 @@ const bossIcons: Record<string, string> = {
   King_Black_Dragon: 'King_Black_Dragon_icon_(mobile)',
   Kraken: 'Kraken_icon_(mobile)',
   "Kree'arra": "Kree'arra_icon_(mobile)",
+  Mad_Angel: 'Aggy',
+  Maggot_King: 'Maggot_marquess',
   Moons_of_Peril: 'Varlamore_crest',
   Nex: 'Nex_icon_(mobile)',
   Obor: 'Obor_icon_(mobile)',
@@ -195,6 +198,7 @@ const hunterCreatureIcons: Record<string, string> = {
   Feldip_weasel: 'Feldip_weasel_icon',
   Golden_warbler: 'Golden_warbler_icon',
   Horned_graahk: 'Horned_graahk_icon',
+  Letvek: 'Letvek_icon',
   Maniacal_monkey: 'Monkey_(Monkey_Madness_II)',
   Moonlight_antelope: 'Moonlight_antelope_icon',
   Moonlight_moth: 'Moonlight_moth_icon',
@@ -212,6 +216,7 @@ const hunterCreatureIcons: Record<string, string> = {
   Snowy_knight: 'Snowy_knight_icon',
   Spined_larupia: 'Spined_larupia_icon',
   Spotted_kebbit: 'Spotted_kebbit_icon',
+  Stymphike: 'Stymphike_icon',
   Sunlight_antelope: 'Sunlight_antelope_icon',
   Sunlight_Moth: 'Sunlight_Moth_icon',
   'Swamp_lizard_(Hunter)': 'Swamp_lizard',
@@ -269,6 +274,7 @@ const icons: Record<string, string> = {
   Sea_charting: 'Sea_charting_icon',
   "Sorceress's_Garden": "Summer_sq'irk",
   Spirit_tree: 'Spirit_tree_(Construction)_icon',
+  Vyre_noble_clothing: 'Vyre_noble_top',
   Wrath_Altar: 'Wrath_talisman',
   XP: 'XP_drops_icon',
 };

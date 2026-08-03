@@ -22,7 +22,7 @@ import '../styles/gear-progression.css';
 
 export const Head: HeadFC = () => <title>OSRS Gear Progression</title>;
 
-export default function GearProgression({}: PageProps) {
+export default function GearProgressionPage({}: PageProps) {
   return (
     <ContextProviders>
       <GearProgressionPageContent />

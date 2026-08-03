@@ -31,22 +31,42 @@ export default function SlayerMasterListItem({
           <Text as="span" size="md">
             {name}
           </Text>
-          <Text
-            as="span"
-            aria-label={`Combat level requirement: ${master.requiredCombatLevel || 1}`}
-            className="inline-flex align-center ml-md"
-            color="muted"
-            type="caption"
-          >
-            <img
-              alt=""
-              aria-hidden
-              className="object-contain mr-xs"
-              src="https://oldschool.runescape.wiki/images/Attack_style_icon.png"
-              style={{ width: 18, height: 18 }}
-            />
-            {master.requiredCombatLevel || 1}
-          </Text>
+          <span className="inline-flex align-center">
+            <Text
+              as="span"
+              aria-label={`Combat level requirement: ${master.requiredCombatLevel || 1}`}
+              className="inline-flex align-center ml-md"
+              color="muted"
+              type="caption"
+            >
+              <img
+                alt=""
+                aria-hidden
+                className="object-contain mr-xs"
+                src="https://oldschool.runescape.wiki/images/Attack_style_icon.png"
+                style={{ width: 18, height: 18 }}
+              />
+              {master.requiredCombatLevel || 1}
+            </Text>
+            {master.requiredSlayerLevel && master.requiredSlayerLevel > 1 && (
+              <Text
+                aria-label={`Slayer level requirement: ${master.requiredSlayerLevel ?? 1}`}
+                className="inline-flex align-center ml-md"
+                color="muted"
+                style={{ minWidth: '38px' }}
+                type="caption"
+              >
+                <img
+                  alt=""
+                  aria-hidden
+                  className="object-contain mr-xxs"
+                  src="https://oldschool.runescape.wiki/images/Slayer_icon_(detail).png"
+                  style={{ width: 18, height: 18 }}
+                />
+                {master.requiredSlayerLevel ?? '1'}
+              </Text>
+            )}
+          </span>
         </div>
       </WikiLink>
     </li>

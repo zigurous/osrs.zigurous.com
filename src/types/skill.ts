@@ -2,6 +2,7 @@ import { skills } from '../utils/constants';
 
 export type Skill = (typeof skills)[number];
 export type SkillLevels = Record<Skill, number>;
+export type SkillExperience = Record<Skill, number>;
 
 export interface SkillLevel {
   skill: Skill;

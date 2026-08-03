@@ -52,6 +52,12 @@ export default function RegionPanelSlayer({ region }: RegionPanelSlayerProps) {
           ],
         };
         monsters[existingIndex] = combined;
+      } else if (
+        monster.id === 'Wyrmling' &&
+        monsters.some(m => m.id === 'Wyrm')
+      ) {
+        // Don't include 'Wyrmling' if 'Wyrm' is already added
+        return monsters;
       } else {
         monsters.push(monster);
       }
@@ -130,6 +136,7 @@ const dataQuery = graphql`
         image
         region
         requiredCombatLevel
+        requiredSlayerLevel
       }
     }
     monsters: allSlayerMonstersJson {

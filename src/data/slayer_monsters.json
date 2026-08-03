@@ -10,7 +10,8 @@
       "Chaeldar",
       "Konar_quo_Maten",
       "Nieve",
-      "Duradel"
+      "Duradel",
+      "Mortimer"
     ],
     "locations": [
       "Slayer_Tower",
@@ -34,7 +35,8 @@
       "Chaeldar",
       "Konar_quo_Maten",
       "Nieve",
-      "Duradel"
+      "Duradel",
+      "Mortimer"
     ],
     "locations": [
       "Abyssal_Area",
@@ -61,7 +63,8 @@
       "Chaeldar",
       "Konar_quo_Maten",
       "Nieve",
-      "Duradel"
+      "Duradel",
+      "Mortimer"
     ],
     "locations": [
       "Abyssal_Nexus"
@@ -107,7 +110,8 @@
     "sortingGroups": ["slayer", "pvm"],
     "requiredSlayerLevel": 95,
     "slayerMasters": [
-      "Konar_quo_Maten"
+      "Konar_quo_Maten",
+      "Mortimer"
     ],
     "locations": [
       "Karuulm_Slayer_Dungeon"
@@ -216,13 +220,14 @@
     "requiredSlayerLevel": 78,
     "slayerMasters": [
       "Nieve",
-      "Duradel"
+      "Duradel",
+      "Mortimer"
     ],
     "locations": [
       "Ynysdail"
     ],
     "notableDrops": [
-      "Aquanite_hopper"
+      "Aquanite_tendon"
     ]
   },
   {
@@ -234,7 +239,8 @@
     "requiredSlayerLevel": 92,
     "slayerMasters": [
       "Nieve",
-      "Duradel"
+      "Duradel",
+      "Mortimer"
     ],
     "locations": [
       "Morytania_Spider_Cave"
@@ -246,7 +252,7 @@
       "Noxious_blade",
       "Noxious_pommel",
       "Coagulated_venom",
-      "Araxyte_venom_sack",
+      "Araxyte_venom_sac",
       "Araxyte_head",
       "Jar_of_venom"
     ]
@@ -258,7 +264,8 @@
     "requiredSlayerLevel": 92,
     "slayerMasters": [
       "Nieve",
-      "Duradel"
+      "Duradel",
+      "Mortimer"
     ],
     "locations": [
       "Morytania_Spider_Cave"
@@ -266,7 +273,7 @@
     "notableDrops": [
       "Aranea_boots",
       "Araxyte_head",
-      "Araxyte_venom_sack"
+      "Araxyte_venom_sac"
     ]
   },
   {
@@ -356,7 +363,8 @@
     "slayerMasters": [
       "Turael",
       "Spria",
-      "Mazchna"
+      "Mazchna",
+      "Mortimer"
     ],
     "locations": [
       "Slayer_Tower"
@@ -377,7 +385,8 @@
       "Chaeldar",
       "Konar_quo_Maten",
       "Nieve",
-      "Duradel"
+      "Duradel",
+      "Mortimer"
     ],
     "locations": [
       "Fremennik_Slayer_Dungeon",
@@ -398,7 +407,8 @@
       "Chaeldar",
       "Konar_quo_Maten",
       "Nieve",
-      "Duradel"
+      "Duradel",
+      "Mortimer"
     ],
     "locations": [
       "Jormungand's_Prison"
@@ -561,7 +571,8 @@
       "Chaeldar",
       "Konar_quo_Maten",
       "Nieve",
-      "Duradel"
+      "Duradel",
+      "Mortimer"
     ],
     "locations": [
       "God_Wars_Dungeon",
@@ -783,7 +794,8 @@
     "slayerMasters": [
       "Turael",
       "Spria",
-      "Mazchna"
+      "Mazchna",
+      "Mortimer"
     ],
     "locations": [
       "Dorgesh-Kaan_South_Dungeon",
@@ -810,7 +822,8 @@
     "slayerMasters": [
       "Chaeldar",
       "Nieve",
-      "Duradel"
+      "Duradel",
+      "Mortimer"
     ],
     "locations": [
       "Mos_Le'Harmless_Cave"
@@ -923,7 +936,8 @@
     "requiredSlayerLevel": 25,
     "slayerMasters": [
       "Mazchna",
-      "Vannaka"
+      "Vannaka",
+      "Mortimer"
     ],
     "locations": [
       "Fremennik_Slayer_Dungeon"
@@ -965,7 +979,8 @@
     "slayerMasters": [
       "Turael",
       "Spria",
-      "Mazchna"
+      "Mazchna",
+      "Mortimer"
     ],
     "locations": [
       "Slayer_Tower"
@@ -998,7 +1013,8 @@
     "requiredSlayerLevel": 54,
     "slayerMasters": [
       "Nieve",
-      "Vannaka"
+      "Vannaka",
+      "Mortimer"
     ],
     "locations": [
       "Stalker_Den"
@@ -1097,7 +1113,8 @@
     "slayerMasters": [
       "Konar_quo_Maten",
       "Nieve",
-      "Duradel"
+      "Duradel",
+      "Mortimer"
     ],
     "locations": [
       "Iorwerth_Dungeon",
@@ -1212,7 +1229,8 @@
     "slayerMasters": [
       "Konar_quo_Maten",
       "Nieve",
-      "Duradel"
+      "Duradel",
+      "Mortimer"
     ],
     "locations": [
       "Karuulm_Slayer_Dungeon"
@@ -1237,7 +1255,8 @@
       "Chaeldar",
       "Konar_quo_Maten",
       "Nieve",
-      "Duradel"
+      "Duradel",
+      "Mortimer"
     ],
     "locations": [
       "Catacombs_of_Kourend",
@@ -1504,7 +1523,8 @@
       "Chaeldar",
       "Konar_quo_Maten",
       "Nieve",
-      "Duradel"
+      "Duradel",
+      "Mortimer"
     ],
     "locations": [
       "Slayer_Tower"
@@ -1582,7 +1602,7 @@
   },
   {
     "id": "Goat",
-    "icon": "Desert_goat_horn",
+    "icon": "Goat_horn",
     "title": "Desert Goat",
     "category": "monster",
     "sortingGroups": ["pvm", "herblore"],
@@ -1591,7 +1611,7 @@
       "Kharidian_Desert"
     ],
     "notableDrops": [
-      "Desert_goat_horn"
+      "Goat_horn"
     ]
   },
   {
@@ -1659,7 +1679,8 @@
       "Chaeldar",
       "Konar_quo_Maten",
       "Nieve",
-      "Duradel"
+      "Duradel",
+      "Mortimer"
     ],
     "locations": [
       "Catacombs_of_Kourend",
@@ -1723,7 +1744,8 @@
       "Chaeldar",
       "Konar_quo_Maten",
       "Nieve",
-      "Duradel"
+      "Duradel",
+      "Mortimer"
     ],
     "locations": [
       "Slayer_Tower"
@@ -1747,7 +1769,8 @@
       "Vannaka",
       "Chaeldar",
       "Nieve",
-      "Duradel"
+      "Duradel",
+      "Mortimer"
     ],
     "locations": [
       "The_Great_Conch"
@@ -1858,7 +1881,8 @@
     "sortingGroups": ["slayer", "pvm", "prayer"],
     "requiredSlayerLevel": 95,
     "slayerMasters": [
-      "Konar_quo_Maten"
+      "Konar_quo_Maten",
+      "Mortimer"
     ],
     "locations": [
       "Karuulm_Slayer_Dungeon"
@@ -1962,7 +1986,8 @@
     "requiredCombatLevel": 40,
     "requiredSlayerLevel": 45,
     "slayerMasters": [
-      "Vannaka"
+      "Vannaka",
+      "Mortimer"
     ],
     "locations": [
       "Slayer_Tower"
@@ -2044,7 +2069,8 @@
       "Krystilia",
       "Vannaka",
       "Chaeldar",
-      "Konar_quo_Maten"
+      "Konar_quo_Maten",
+      "Mortimer"
     ],
     "locations": [
       "Fremennik_Slayer_Dungeon",
@@ -2181,7 +2207,8 @@
       "Chaeldar",
       "Konar_quo_Maten",
       "Nieve",
-      "Duradel"
+      "Duradel",
+      "Mortimer"
     ],
     "locations": [
       "Fremennik_Slayer_Dungeon",
@@ -2232,10 +2259,12 @@
       "Chaeldar",
       "Konar_quo_Maten",
       "Nieve",
-      "Duradel"
+      "Duradel",
+      "Mortimer"
     ],
     "locations": [
-      "Charred_Dungeon"
+      "Charred_Dungeon",
+      "Wyrmscraig_Cavern"
     ],
     "notableDrops": [
       "Dragon_metal_sheet",
@@ -2499,6 +2528,32 @@
     ]
   },
   {
+    "id": "Mountain_troll",
+    "icon": "Ensouled_troll_head",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
+    "requiredCombatLevel": 60,
+    "requiredSlayerLevel": 1,
+    "slayerMasters": [
+      "Vannaka",
+      "Chaeldar",
+      "Konar_quo_Maten",
+      "Nieve",
+      "Duradel"
+    ],
+    "locations": [
+      "Death_Plateau_(location)",
+      "Keldagrim",
+      "Mount_Quidamortem",
+      "Troll_Stronghold_(location)",
+      "Wyrmscraig_Cavern"
+    ],
+    "notableDrops": [
+      "Grimy_herb",
+      "Seeds"
+    ]
+  },
+  {
     "id": "Moss_giant",
     "icon": "Bryophyta_icon_(mobile)",
     "category": "monster",
@@ -2564,7 +2619,8 @@
       "Chaeldar",
       "Konar_quo_Maten",
       "Nieve",
-      "Duradel"
+      "Duradel",
+      "Mortimer"
     ],
     "locations": [
       "Charred_Dungeon",
@@ -2660,7 +2716,8 @@
     "requiredSlayerLevel": 30,
     "slayerMasters": [
       "Mazchna",
-      "Vannaka"
+      "Vannaka",
+      "Mortimer"
     ],
     "locations": [
       "Fremennik_Slayer_Dungeon",
@@ -2733,7 +2790,8 @@
     "requiredCombatLevel": 20,
     "requiredSlayerLevel": 20,
     "slayerMasters": [
-      "Mazchna"
+      "Mazchna",
+      "Mortimer"
     ],
     "locations": [
       "Dorgesh-Kaan_South_Dungeon",
@@ -2936,7 +2994,8 @@
     "slayerMasters": [
       "Konar_quo_Maten",
       "Nieve",
-      "Duradel"
+      "Duradel",
+      "Mortimer"
     ],
     "locations": [
       "Smoke_Devil_Dungeon"
@@ -3226,7 +3285,8 @@
     "slayerMasters": [
       "Konar_quo_Maten",
       "Nieve",
-      "Duradel"
+      "Duradel",
+      "Mortimer"
     ],
     "locations": [
       "Smoke_Devil_Dungeon"
@@ -3298,7 +3358,8 @@
       "Vannaka",
       "Chaeldar",
       "Konar_quo_Maten",
-      "Nieve"
+      "Nieve",
+      "Mortimer"
     ],
     "locations": [
       "Fremennik_Slayer_Dungeon"
@@ -3404,6 +3465,30 @@
     ]
   },
   {
+    "id": "Venator",
+    "icon": "Venator_slayer_icon",
+    "category": "monster",
+    "sortingGroups": ["slayer", "pvm"],
+    "requiredSlayerLevel": 74,
+    "slayerMasters": [
+      "Mazchna",
+      "Vannaka",
+      "Chaeldar",
+      "Konar_quo_Maten",
+      "Nieve",
+      "Duradel",
+      "Mortimer"
+    ],
+    "locations": [
+      "Vampyrium"
+    ],
+    "notableDrops": [
+      "Blood_shard",
+      "Venator_fang",
+      "Venator_tooth"
+    ]
+  },
+  {
     "id": "Vyrewatch_Sentinel",
     "icon": "Vyre_icon",
     "category": "monster",
@@ -3452,7 +3537,8 @@
     "slayerMasters": [
       "Vannaka",
       "Chaeldar",
-      "Konar_quo_Maten"
+      "Konar_quo_Maten",
+      "Mortimer"
     ],
     "locations": [
       "Catacombs_of_Kourend"
@@ -3472,7 +3558,8 @@
       "Chaeldar",
       "Konar_quo_Maten",
       "Nieve",
-      "Duradel"
+      "Duradel",
+      "Mortimer"
     ],
     "locations": [
       "Poison_Waste_Dungeon"
@@ -3562,10 +3649,12 @@
       "Chaeldar",
       "Konar_quo_Maten",
       "Nieve",
-      "Duradel"
+      "Duradel",
+      "Mortimer"
     ],
     "locations": [
-      "Karuulm_Slayer_Dungeon"
+      "Karuulm_Slayer_Dungeon",
+      "Wyrmscraig_Cavern"
     ],
     "notableDrops": [
       "Dragon_harpoon",
@@ -3585,10 +3674,12 @@
       "Chaeldar",
       "Konar_quo_Maten",
       "Nieve",
-      "Duradel"
+      "Duradel",
+      "Mortimer"
     ],
     "locations": [
-      "Neypotzli"
+      "Neypotzli",
+      "Wyrmscraig"
     ]
   },
   {
