@@ -249,7 +249,7 @@ const itemId: Record<string, number> = {
   Bolt_rack: 4740,
   Bone_dagger: 8872,
   'Bones_to_peaches_(tablet)': 8015,
-  Book_of_darkness: 12612,
+  Book_of_Darkness: 12612,
   Book_of_the_Dead: 25818,
   Boots_of_Brimstone: 22951,
   Bow_of_Faerdhinen: 25865,

@@ -14,6 +14,15 @@
     "icon": "Abyssal_pearls_5"
   },
   {
+    "id": "Air_diamond",
+    "transmutations": [
+      "#plus",
+      "Amulet_of_magic",
+      "#transmute",
+      "Amulet_of_air"
+    ]
+  },
+  {
     "id": "Alchemical_hydra_heads",
     "tags": ["cosmetic"],
     "transmutations": [
@@ -665,6 +674,15 @@
     "tags": ["leagues"]
   },
   {
+    "id": "Earth_emerald",
+    "transmutations": [
+      "#plus",
+      "Amulet_of_magic",
+      "#transmute",
+      "Amulet_of_earth"
+    ]
+  },
+  {
     "id": "Echo_crystal",
     "transmutations": [
       "#plus",
@@ -817,6 +835,15 @@
       "Battlestaff",
       "#equals",
       "Twinflame_staff"
+    ]
+  },
+  {
+    "id": "Fire_ruby",
+    "transmutations": [
+      "#plus",
+      "Amulet_of_magic",
+      "#transmute",
+      "Amulet_of_fire"
     ]
   },
   {
@@ -2080,6 +2107,15 @@
       "#transmute",
       "Ava's_assembler",
       "Turquoise_slayer_helmet"
+    ]
+  },
+  {
+    "id": "Water_sapphire",
+    "transmutations": [
+      "#plus",
+      "Amulet_of_magic",
+      "#transmute",
+      "Amulet_of_water"
     ]
   },
   {

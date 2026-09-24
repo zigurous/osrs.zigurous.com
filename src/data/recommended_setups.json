@@ -468,7 +468,7 @@
         "title": "Magic",
         "equipment": [
           { "slot": "weapon", "item": "Accursed_sceptre" },
-          { "slot": "shield", "item": "Book_of_darkness" },
+          { "slot": "shield", "item": "Book_of_Darkness" },
           { "slot": "ammo", "item": "Rada's_blessing_4" },
           { "slot": "head", "item": "Bloodbark_helm" },
           { "slot": "neck", "item": "Occult_necklace" },

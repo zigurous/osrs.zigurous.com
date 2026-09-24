@@ -2357,7 +2357,7 @@
       "Mage's_book",
       "Malediction_ward",
       "Thousand-dragon_ward",
-      "Book_of_darkness",
+      "Book_of_Darkness",
       "Antler_guard",
       "Tome_of_Fire",
       "Tome_of_Earth",
@@ -2365,7 +2365,7 @@
       "Unholy_book",
       "Book_of_the_Dead",
       "Arcane_grimoire",
-      "Book_of_balance",
+      "Book_of_Balance",
       "Broodoo_shield",
       "Damaged_book_(Ancient)"
     ]
@@ -2408,10 +2408,10 @@
     "items": [
       "Elidinis'_ward_(f)",
       "Elidinis'_ward",
-      "Book_of_darkness",
+      "Book_of_Darkness",
       "Unholy_book",
       "Tome_of_Fire",
-      "Book_of_balance",
+      "Book_of_Balance",
       "Broodoo_shield",
       "Damaged_book_(Ancient)"
     ]
@@ -2427,7 +2427,7 @@
       "Rune_defender",
       "Antler_guard",
       "Toktz-ket-xil",
-      "Book_of_war",
+      "Book_of_War",
       "Unholy_book"
     ]
   },
@@ -2459,7 +2459,7 @@
       "Dragon_defender",
       "Rune_defender",
       "Unholy_book",
-      "Book_of_war",
+      "Book_of_War",
       "Damaged_book_(Zamorak)"
     ]
   },
@@ -2471,7 +2471,7 @@
       "Dragonfire_ward",
       "Odium_ward",
       "Antler_guard",
-      "Book_of_law",
+      "Book_of_Law",
       "Guthix_d'hide_shield",
       "Armadyl_d'hide_shield",
       "Saradomin_d'hide_shield",

@@ -40,7 +40,7 @@
           "Antler_guard",
           "Elysian_spirit_shield",
           "Toktz-ket-xil",
-          "Book_of_war",
+          "Book_of_War",
           "Rune_kiteshield"
         ]
       },
@@ -399,7 +399,7 @@
           "Aquanite_hopper",
           "Antler_guard",
           "Odium_ward",
-          "Book_of_law",
+          "Book_of_Law",
           "Guthix_d'hide_shield",
           "Black_d'hide_shield",
           "Red_d'hide_shield",
@@ -520,6 +520,7 @@
           "Necklace_of_rupture",
           "Necklace_of_rupture#*",
           "Necklace_of_anguish",
+          "Necklace_of_Fangs",
           "Amulet_of_fury",
           "Dragonbone_necklace",
           "Amulet_of_avarice",
@@ -620,7 +621,7 @@
           "Tome_of_Earth",
           "Tome_of_Water",
           "Book_of_the_Dead",
-          "Book_of_darkness",
+          "Book_of_Darkness",
           "Mind_shield",
           "Broodoo_shield",
           "Mirror_shield"
@@ -731,6 +732,7 @@
         "id": "neck",
         "items": [
           "Occult_necklace",
+          "Elemental_amulet",
           "Amulet_of_fury",
           "Dragonbone_necklace",
           "Amulet_of_avarice",

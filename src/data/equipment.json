@@ -989,12 +989,12 @@
     ]
   },
   {
-    "id": "Book_of_darkness",
+    "id": "Book_of_Darkness",
     "slot": "shield",
     "regions": ["fremennik"]
   },
   {
-    "id": "Book_of_law",
+    "id": "Book_of_Law",
     "slot": "shield",
     "regions": ["fremennik"]
   },
@@ -1004,7 +1004,7 @@
     "regions": ["kourend"]
   },
   {
-    "id": "Book_of_war",
+    "id": "Book_of_War",
     "slot": "shield",
     "regions": ["fremennik"]
   },
@@ -1741,6 +1741,14 @@
     "requirements": [
       { "skill": "magic", "level": 82 },
       { "skill": "hitpoints", "level": 50 }
+    ]
+  },
+  {
+    "id": "Elemental_amulet",
+    "slot": "neck",
+    "regions": ["misthalin/morytania/fremennik"],
+    "requirements": [
+      { "skill": "magic", "level": 59 }
     ]
   },
   {
@@ -3267,6 +3275,11 @@
     "requirements": [
       { "skill": "hitpoints", "level": 75 }
     ]
+  },
+  {
+    "id": "Necklace_of_Fangs",
+    "slot": "neck",
+    "regions": ["fremennik"]
   },
   {
     "id": "Necklace_of_rupture",
