@@ -23,6 +23,7 @@
   appearance: none;
   width: var(--spacing-xl);
   height: var(--spacing-xl);
+  border: none;
   border-radius: 50%;
   background: var(--color-secondary);
   cursor: pointer;
@@ -31,6 +32,7 @@
 .slider::-moz-range-thumb {
   width: var(--spacing-xl);
   height: var(--spacing-xl);
+  border: none;
   border-radius: 50%;
   background: var(--color-secondary);
   cursor: pointer;
