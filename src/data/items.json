@@ -214,7 +214,7 @@
     "id": "Basilisk_jaw",
     "transmutations": [
       "#plus",
-      "Helm_of_neitiznot",
+      "Helm_of_Neitiznot",
       "#equals",
       "Neitiznot_faceguard"
     ]
@@ -348,7 +348,7 @@
     ]
   },
   {
-    "id": "Breach_of_the_scarab",
+    "id": "Breach_of_the_Scarab",
     "transmutations": [
       "#plus",
       "Keris_partisan",
@@ -425,7 +425,7 @@
     "tags": ["cosmetic"]
   },
   {
-    "id": "Claws_of_callisto",
+    "id": "Claws_of_Callisto",
     "transmutations": [
       "#plus",
       "Viggora's_chainmace",
@@ -648,7 +648,7 @@
       "#plus",
       "Boots_of_stone",
       "#equals",
-      "Boots_of_brimstone"
+      "Boots_of_Brimstone"
     ]
   },
   {
@@ -692,7 +692,7 @@
       "#plus",
       "Nightmare_staff",
       "#equals",
-      "Eldritch_nightmare_staff"
+      "Eldritch_Nightmare_staff"
     ]
   },
   {
@@ -725,8 +725,8 @@
     "icon": "Enhanced_crystal_weapon_seed",
     "transmutations": [
       "#transmute",
-      "Bow_of_faerdhinen",
-      "Blade_of_saeldor"
+      "Bow_of_Faerdhinen",
+      "Blade_of_Saeldor"
     ]
   },
   {
@@ -753,7 +753,7 @@
       "#plus",
       "Leviathan's_lure",
       "Siren's_staff",
-      "Eye_of_the_duke",
+      "Eye_of_the_Duke",
       "#equals",
       "Soulreaper_axe"
     ]
@@ -767,7 +767,7 @@
     "icon": "Extended_super_antifire(4)"
   },
   {
-    "id": "Eye_of_the_corruptor",
+    "id": "Eye_of_the_Corruptor",
     "transmutations": [
       "#plus",
       "Keris_partisan",
@@ -776,7 +776,7 @@
     ]
   },
   {
-    "id": "Eye_of_the_duke",
+    "id": "Eye_of_the_Duke",
     "transmutations": [
       "#plus",
       "Leviathan's_lure",
@@ -796,7 +796,7 @@
     "tags": ["leagues"]
   },
   {
-    "id": "Fangs_of_venenatis",
+    "id": "Fangs_of_Venenatis",
     "transmutations": [
       "#plus",
       "Craw's_bow",
@@ -848,7 +848,7 @@
     "icon": "Glistening_tear_5"
   },
   {
-    "id": "Gloves_of_the_damned",
+    "id": "Gloves_of_the_Damned",
     "tags": ["leagues"]
   },
   {
@@ -899,7 +899,7 @@
       "#plus",
       "Nightmare_staff",
       "#equals",
-      "Harmonised_nightmare_staff"
+      "Harmonised_Nightmare_staff"
     ]
   },
   {
@@ -1063,71 +1063,71 @@
     "tags": ["leagues"]
   },
   {
-    "id": "Jar_of_chemicals",
+    "id": "Jar_of_Chemicals",
     "tags": ["cosmetic"]
   },
   {
-    "id": "Jar_of_darkness",
+    "id": "Jar_of_Darkness",
     "tags": ["cosmetic"]
   },
   {
-    "id": "Jar_of_decay",
+    "id": "Jar_of_Decay",
     "tags": ["cosmetic"]
   },
   {
-    "id": "Jar_of_dirt",
+    "id": "Jar_of_Dirt",
     "tags": ["cosmetic"]
   },
   {
-    "id": "Jar_of_dreams",
+    "id": "Jar_of_Dreams",
     "tags": ["cosmetic"]
   },
   {
-    "id": "Jar_of_eyes",
+    "id": "Jar_of_Eyes",
     "tags": ["cosmetic"]
   },
   {
-    "id": "Jar_of_feathers",
+    "id": "Jar_of_Feathers",
     "tags": ["cosmetic"]
   },
   {
-    "id": "Jar_of_light",
+    "id": "Jar_of_Light",
     "tags": ["cosmetic"]
   },
   {
-    "id": "Jar_of_miasma",
+    "id": "Jar_of_Miasma",
     "tags": ["cosmetic"]
   },
   {
-    "id": "Jar_of_sand",
+    "id": "Jar_of_Sand",
     "tags": ["cosmetic"]
   },
   {
-    "id": "Jar_of_smoke",
+    "id": "Jar_of_Smoke",
     "tags": ["cosmetic"]
   },
   {
-    "id": "Jar_of_souls",
+    "id": "Jar_of_Souls",
     "tags": ["cosmetic"]
   },
   {
-    "id": "Jar_of_spirits",
+    "id": "Jar_of_Spirits",
     "tags": ["cosmetic"]
   },
   {
-    "id": "Jar_of_stone",
+    "id": "Jar_of_Stone",
     "tags": ["cosmetic"]
   },
   {
-    "id": "Jar_of_swamp",
+    "id": "Jar_of_Swamp",
     "tags": ["cosmetic"]
   },
   {
-    "id": "Jar_of_venom",
+    "id": "Jar_of_Venom",
     "tags": ["cosmetic"]
   },
   {
-    "id": "Jewel_of_amascut",
+    "id": "Jewel_of_Amascut",
     "transmutations": [
       "#plus",
       "Keris_partisan",
@@ -1136,7 +1136,7 @@
     ]
   },
   {
-    "id": "Jewel_of_the_sun",
+    "id": "Jewel_of_the_Sun",
     "transmutations": [
       "#plus",
       "Keris_partisan",
@@ -1221,7 +1221,7 @@
       "#plus",
       "Siren's_staff",
       "Executioner's_axe_head",
-      "Eye_of_the_duke",
+      "Eye_of_the_Duke",
       "#equals",
       "Soulreaper_axe"
     ]
@@ -1263,8 +1263,8 @@
     "id": "Magic_fang",
     "transmutations": [
       "#transmute",
-      "Trident_of_the_swamp",
-      "Toxic_staff_of_the_dead"
+      "Trident_of_the_Swamp",
+      "Toxic_Staff_of_the_Dead"
     ]
   },
   {
@@ -1530,19 +1530,19 @@
     "icon": "Red_spice_(4)"
   },
   {
-    "id": "Remnant_of_akkha",
+    "id": "Remnant_of_Akkha",
     "tags": ["cosmetic"]
   },
   {
-    "id": "Remnant_of_ba-ba",
+    "id": "Remnant_of_Ba-Ba",
     "tags": ["cosmetic"]
   },
   {
-    "id": "Remnant_of_kephri",
+    "id": "Remnant_of_Kephri",
     "tags": ["cosmetic"]
   },
   {
-    "id": "Remnant_of_zebak",
+    "id": "Remnant_of_Zebak",
     "tags": ["cosmetic"]
   },
   {
@@ -1628,7 +1628,7 @@
     ]
   },
   {
-    "id": "Scythe_of_vitur",
+    "id": "Scythe_of_Vitur",
     "tags": ["megarare"]
   },
   {
@@ -1685,7 +1685,7 @@
       "#plus",
       "Leviathan's_lure",
       "Executioner's_axe_head",
-      "Eye_of_the_duke",
+      "Eye_of_the_Duke",
       "#equals",
       "Soulreaper_axe"
     ]
@@ -1708,7 +1708,7 @@
     "name": "Skeleton Monkey"
   },
   {
-    "id": "Skull_of_vet'ion",
+    "id": "Skull_of_Vet'ion",
     "transmutations": [
       "#plus",
       "Thammaron's_sceptre",
@@ -1899,7 +1899,7 @@
     "tags": ["leagues"]
   },
   {
-    "id": "Thread_of_elidinis",
+    "id": "Thread_of_Elidinis",
     "transmutations": [
       "#plus",
       "Rune_pouch",
@@ -1913,8 +1913,8 @@
     "tags": ["leagues"]
   },
   {
-    "id": "Tonalztics_of_ralos#Uncharged",
-    "icon": "Tonalztics_of_ralos_(uncharged)",
+    "id": "Tonalztics_of_Ralos#Uncharged",
+    "icon": "Tonalztics_of_Ralos_(uncharged)",
     "name": "Tonalztics of Ralos (uncharged)"
   },
   {
@@ -2071,7 +2071,7 @@
       "#plus",
       "Nightmare_staff",
       "#equals",
-      "Volatile_nightmare_staff"
+      "Volatile_Nightmare_staff"
     ]
   },
   {

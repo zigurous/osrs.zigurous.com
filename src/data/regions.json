@@ -219,14 +219,14 @@
       "Turael"
     ],
     "pets": [
-      "Baby_mole",
+      "Baby_Mole",
       "Bran",
       "Hellpuppy",
       "Nexling",
-      "Pet_general_graardor",
-      "Pet_k'ril_tsutsaroth",
-      "Pet_kree'arra",
-      "Pet_zilyana",
+      "Pet_General_Graardor",
+      "Pet_K'ril_Tsutsaroth",
+      "Pet_Kree'arra",
+      "Pet_Zilyana",
       "Wisp"
     ],
     "resources": [
@@ -318,7 +318,7 @@
       "Water_rune",
       "White_berries",
       "Willow_logs",
-      "Wine_of_zamorak",
+      "Wine_of_Zamorak",
       "Wool",
       "Wyvern_bones",
       "Yew_logs",
@@ -489,7 +489,7 @@
     ],
     "pets": [
       "Abyssal_protector",
-      "Kalphite_princess",
+      "Kalphite_Princess",
       "Lil'viathan",
       "Tiny_tempor",
       "Tumeken's_guardian"
@@ -535,7 +535,7 @@
       "Jug_of_wine",
       "Lava_rune",
       "Law_rune",
-      "Lily_of_the_sands",
+      "Lily_of_the_Sands",
       "Limpwurt_root",
       "Lobster",
       "Logs",
@@ -570,7 +570,7 @@
       "Tuna",
       "Ugthanki_kebab",
       "Water_rune",
-      "Wine_of_zamorak"
+      "Wine_of_Zamorak"
     ]
   },
   {
@@ -787,9 +787,9 @@
     "pets": [
       "Baron",
       "Muphin",
-      "Pet_dagannoth_prime",
-      "Pet_dagannoth_rex",
-      "Pet_dagannoth_supreme",
+      "Pet_Dagannoth_Prime",
+      "Pet_Dagannoth_Rex",
+      "Pet_Dagannoth_Supreme",
       "Pet_rock",
       "Vorki"
     ],
@@ -1184,9 +1184,9 @@
       "Broav",
       "Chompy_chick",
       "Fishbowl_(pet)",
-      "Pet_kraken",
-      "Pet_penance_queen",
-      "Pet_smoke_devil"
+      "Pet_Kraken",
+      "Pet_Penance_Queen",
+      "Pet_Smoke_Devil"
     ],
     "resources": [
       "Achey_tree_logs",
@@ -1451,8 +1451,8 @@
       "Duradel"
     ],
     "pets": [
-      "Jal-nib-rek",
-      "Tzrek-jad"
+      "Jal-Nib-Rek",
+      "TzRek-Jad"
     ],
     "resources": [
       "Adamantite_bar",
@@ -1709,7 +1709,7 @@
       "Willow_logs#Firemaking",
       "Willow_tree",
       "Windmill",
-      "Wine_of_zamorak",
+      "Wine_of_Zamorak",
       "Wyrm_bones",
       "Xerician_robes",
       "Yew_logs",
@@ -1802,7 +1802,7 @@
       "Mary_(Getting_Ahead)"
     ],
     "pets": [
-      "Ikkle_hydra",
+      "Ikkle_Hydra",
       "Olmlet",
       "Phoenix",
       "Skotos",
@@ -1914,7 +1914,7 @@
       "White_berries",
       "Wild_pie",
       "Willow_logs",
-      "Wine_of_zamorak",
+      "Wine_of_Zamorak",
       "Wool",
       "Wrath_rune",
       "Wyrm_bones",
@@ -2204,7 +2204,7 @@
       "Cat",
       "Hellcat",
       "Herbi",
-      "Lil'_creator",
+      "Lil'_Creator",
       "Scurry"
     ],
     "resources": [
@@ -2491,8 +2491,8 @@
       "Sbott"
     ],
     "pets": [
-      "Lil'_zik",
-      "Little_nightmare",
+      "Lil'_Zik",
+      "Little_Nightmare",
       "Maggot_marquess",
       "Nid",
       "Noon"
@@ -2580,7 +2580,7 @@
       "Vile_ashes",
       "Water_rune",
       "Wild_pie",
-      "Wine_of_zamorak",
+      "Wine_of_Zamorak",
       "Yew_logs"
     ]
   },
@@ -2756,7 +2756,7 @@
       "Friendly_Forester"
     ],
     "pets": [
-      "Pet_snakeling",
+      "Pet_Snakeling",
       "Smolcano",
       "Youngllef"
     ],
@@ -3083,7 +3083,7 @@
       "Humphrey_Dumphrey",
       "Moxi",
       "Quetzin",
-      "Smol_heredit"
+      "Smol_Heredit"
     ],
     "resources": [
       "Adamantite_bar",
@@ -3358,10 +3358,10 @@
       "Callisto_cub",
       "Pet_chaos_elemental",
       "Pet_dark_core",
-      "Prince_black_dragon",
+      "Prince_Black_Dragon",
       "Scorpia's_offspring",
       "Venenatis_spiderling",
-      "Vet'ion_jr."
+      "Vet'ion_Jr."
     ],
     "resources": [
       "Abyssal_ashes",
@@ -3425,7 +3425,7 @@
       "Vile_ashes",
       "Water_rune",
       "White_berries",
-      "Wine_of_zamorak",
+      "Wine_of_Zamorak",
       "Yew_logs"
     ]
   },
@@ -3667,7 +3667,7 @@
     "pets": [
       "Aggy",
       "Gull_(pet)",
-      "Mr_mcgroot",
+      "Mr_McGroot",
       "Soup"
     ],
     "resources": [

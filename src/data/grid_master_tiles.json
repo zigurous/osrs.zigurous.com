@@ -25,7 +25,7 @@
     "row": "1",
     "type": "hard",
     "task": "Defeat Sol Heredit.",
-    "taskIcon": "Smol_heredit",
+    "taskIcon": "Smol_Heredit",
     "taskLink": "Sol_Heredit",
     "reward": "Specialist",
     "rewardDescription": "All special attacks cost 20% spec energy and have +100% accuracy.",
@@ -215,7 +215,7 @@
     "reward": "Bank Heist",
     "rewardDescription": "Receive a banker's briefcase, which can teleport to any deposit box, bank, or bank chest.",
     "rewardIcon": "Bank_Heist",
-    "rewardLink": "Bank_Heist"
+    "rewardLink": "Bank_Heist_(Grid_Master)"
   },
   {
     "col": "D",
@@ -255,7 +255,7 @@
     "row": "3",
     "type": "medium",
     "task": "Complete the corrupted gauntlet.",
-    "taskIcon": "Corrupted_youngllef",
+    "taskIcon": "Corrupted_Youngllef",
     "taskLink": "The_Gauntlet",
     "reward": "Banker's Note",
     "rewardDescription": "Receive a banker's note, which allows players to use items on it to turn them into banknotes or unnote them.",
@@ -347,8 +347,8 @@
     "taskLink": "Herb",
     "reward": "Friendly Forager",
     "rewardDescription": "When gathering resources, find and store random grimy herbs, while also providing a small amount of Herblore experience when one is found.",
-    "rewardIcon": "Friendly_Forager",
-    "rewardLink": "Friendly_Forager"
+    "rewardIcon": "Friendly_Forager_(Grid_Master)",
+    "rewardLink": "Friendly_Forager_(Grid_Master)"
   },
   {
     "col": "R",
@@ -367,8 +367,8 @@
     "taskLink": "Vorkath",
     "reward": "Grimoire",
     "rewardDescription": "Gives access to all prayers and spells regardless of area, quest, or diary requirements. Freely swap between all spellbooks at any time.",
-    "rewardIcon": "Grimoire",
-    "rewardLink": "Grimoire"
+    "rewardIcon": "Grimoire_(Grid_Master)",
+    "rewardLink": "Grimoire_(Grid_Master)"
   },
   {
     "col": "B",
@@ -432,7 +432,7 @@
     "row": "5",
     "type": "medium",
     "task": "Defeat TzTok-Jad.",
-    "taskIcon": "Tzrek-jad",
+    "taskIcon": "TzRek-Jad",
     "taskLink": "TzTok-Jad",
     "reward": "Quest Auto-Complete",
     "rewardDescription": "The Final Dawn",
@@ -444,8 +444,8 @@
     "type": "reward",
     "reward": "Gloves of the Damned",
     "rewardDescription": "Identical stats to Barrows gloves combined with the effect of Amulet of the Damned.",
-    "rewardIcon": "Gloves_of_the_damned",
-    "rewardLink": "Gloves_of_the_damned"
+    "rewardIcon": "Gloves_of_the_Damned",
+    "rewardLink": "Gloves_of_the_Damned"
   },
   {
     "col": "A",

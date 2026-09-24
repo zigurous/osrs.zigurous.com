@@ -163,7 +163,7 @@
       "Rock-shell_armour",
       "Spined_armour",
       "Skeletal_armour",
-      "Helm_of_neitiznot",
+      "Helm_of_Neitiznot",
       "Neitiznot_faceguard",
       "Neitiznot_shield",
       "V's_shield"
@@ -212,10 +212,10 @@
       "Circlet_of_water",
       "#newline",
       "Tombs_of_Amascut",
-      "Thread_of_elidinis",
-      "Eye_of_the_corruptor",
-      "Jewel_of_the_sun",
-      "Breach_of_the_scarab"
+      "Thread_of_Elidinis",
+      "Eye_of_the_Corruptor",
+      "Jewel_of_the_Sun",
+      "Breach_of_the_Scarab"
     ]
   },
   {
@@ -234,7 +234,7 @@
     "unlocks": [
       "Kourend_Castle_Teleport",
       "Kharedst's_memoirs",
-      "Book_of_the_dead",
+      "Book_of_the_Dead",
       "Arceuus_spellbook",
       "Yama"
     ]
@@ -258,9 +258,9 @@
       "Saradomin_Strike",
       "Flames_of_Zamorak",
       "Claws_of_Guthix",
-      "Imbued_saradomin_cape",
-      "Imbued_zamorak_cape",
-      "Imbued_guthix_cape"
+      "Imbued_Saradomin_cape",
+      "Imbued_Zamorak_cape",
+      "Imbued_Guthix_cape"
     ]
   },
   {
@@ -397,7 +397,7 @@
       "Dream_Mentor"
     ],
     "unlocks": [
-      "Seal_of_passage",
+      "Seal_of_Passage",
       "Astral_Altar",
       "Lunar_spellbook",
       "Lunar_staff",
@@ -418,7 +418,7 @@
     "unlocks": [
       "Drakan's_medallion",
       "Vyre_noble_clothing",
-      "Rod_of_ivandis",
+      "Rod_of_Ivandis",
       "Blisterwood_flail",
       "Hallowed_flail",
       "Sunspear",
@@ -447,10 +447,10 @@
       "Catalytic_talisman",
       "Elemental_talisman",
       "Ring_of_the_elements",
-      "Hat_of_the_eye",
-      "Robe_top_of_the_eye",
-      "Robe_bottoms_of_the_eye",
-      "Boots_of_the_eye"
+      "Hat_of_the_Eye",
+      "Robe_top_of_the_Eye",
+      "Robe_bottoms_of_the_Eye",
+      "Boots_of_the_Eye"
     ]
   },
   {
@@ -471,7 +471,7 @@
     ],
     "unlocks": [
       "Holy_wrench",
-      "Book_o'_piracy",
+      "Book_o'_Piracy",
       "Black_mask",
       "Barrelchest_anchor",
       "Prayer_book",
@@ -568,7 +568,7 @@
       "Law_Altar",
       "God_Wars_Dungeon",
       "Trollheim_Teleport",
-      "Scroll_of_redirection",
+      "Scroll_of_Redirection",
       "Goutweed",
       "Efh_salt",
       "Urt_salt",
@@ -587,7 +587,7 @@
     "unlocks": [
       "Civitas_illa_Fortis_Teleport",
       "Quetzal_Transport_System",
-      "Pendant_of_ates",
+      "Pendant_of_Ates",
       "Arkan_blade",
       "Amoxliatl",
       "Doom_of_Mokhaiotl"

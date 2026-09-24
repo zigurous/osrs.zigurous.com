@@ -161,7 +161,7 @@
     "sortingGroups": ["agility"],
     "requiredLevel": 20,
     "notableDrops": [
-      "Mark_of_grace"
+      "Mark_of_Grace"
     ]
   },
   {
@@ -680,7 +680,7 @@
     "sortingGroups": ["agility"],
     "requiredLevel": 48,
     "notableDrops": [
-      "Mark_of_grace",
+      "Mark_of_Grace",
       "Karamjan_monkey_(item)",
       "Zombie_monkey_(item)",
       "Maniacal_monkey_(item)",
@@ -719,7 +719,7 @@
     "sortingGroups": ["agility"],
     "requiredLevel": 90,
     "notableDrops": [
-      "Mark_of_grace"
+      "Mark_of_Grace"
     ]
   },
   {
@@ -935,7 +935,7 @@
     "sortingGroups": ["agility"],
     "requiredLevel": 35,
     "notableDrops": [
-      "Mark_of_grace"
+      "Mark_of_Grace"
     ]
   },
   {
@@ -1009,7 +1009,7 @@
       "#plus",
       "Cadantine",
       "#plus",
-      "Wine_of_zamorak",
+      "Wine_of_Zamorak",
       "#equals",
       "Bastion_potion(3)"
     ]
@@ -1673,7 +1673,7 @@
     "sortingGroups": ["agility"],
     "requiredLevel": 40,
     "notableDrops": [
-      "Mark_of_grace"
+      "Mark_of_Grace"
     ]
   },
   {
@@ -2338,10 +2338,10 @@
       "Crystal_shield",
       "Enhanced_crystal_key",
       "Eternal_teleport_crystal",
-      "Blade_of_saeldor",
-      "Bow_of_faerdhinen",
-      "Blade_of_saeldor_(c)",
-      "Bow_of_faerdhinen_(c)"
+      "Blade_of_Saeldor",
+      "Bow_of_Faerdhinen",
+      "Blade_of_Saeldor_(c)",
+      "Bow_of_Faerdhinen_(c)"
     ]
   },
   {
@@ -2365,10 +2365,10 @@
       "Crystal_shield",
       "Enhanced_crystal_key",
       "Eternal_teleport_crystal",
-      "Blade_of_saeldor",
-      "Bow_of_faerdhinen",
-      "Blade_of_saeldor_(c)",
-      "Bow_of_faerdhinen_(c)"
+      "Blade_of_Saeldor",
+      "Bow_of_Faerdhinen",
+      "Blade_of_Saeldor_(c)",
+      "Bow_of_Faerdhinen_(c)"
     ]
   },
   {
@@ -2890,7 +2890,7 @@
     "sortingGroups": ["agility"],
     "requiredLevel": 70,
     "notableDrops": [
-      "Mark_of_grace"
+      "Mark_of_Grace"
     ]
   },
   {
@@ -2958,7 +2958,7 @@
     "sortingGroups": ["agility"],
     "requiredLevel": 1,
     "notableDrops": [
-      "Mark_of_grace"
+      "Mark_of_Grace"
     ]
   },
   {
@@ -3196,7 +3196,7 @@
     "sortingGroups": ["agility"],
     "requiredLevel": 50,
     "notableDrops": [
-      "Mark_of_grace"
+      "Mark_of_Grace"
     ]
   },
   {
@@ -3902,7 +3902,7 @@
     "sortingGroups": ["agility"],
     "requiredLevel": 1,
     "notableDrops": [
-      "Mark_of_grace"
+      "Mark_of_Grace"
     ]
   },
   {
@@ -3945,7 +3945,7 @@
     "notableDrops": [
       "Goat_horn",
       "Wyrmscraig_goat_fur",
-      "Mr_mcgroot"
+      "Mr_McGroot"
     ]
   },
   {
@@ -5176,7 +5176,7 @@
       "#plus",
       "Dwarf_weed",
       "#plus",
-      "Lily_of_the_sands",
+      "Lily_of_the_Sands",
       "#equals",
       "Menaphite_remedy(3)"
     ]
@@ -5712,7 +5712,7 @@
     "sortingGroups": ["agility"],
     "requiredLevel": 70,
     "notableDrops": [
-      "Mark_of_grace"
+      "Mark_of_Grace"
     ]
   },
   {
@@ -5878,7 +5878,7 @@
       "#plus",
       "Dwarf_weed",
       "#plus",
-      "Wine_of_zamorak",
+      "Wine_of_Zamorak",
       "#equals",
       "Ranging_potion(3)"
     ]
@@ -6405,7 +6405,7 @@
     "sortingGroups": ["agility"],
     "requiredLevel": 80,
     "notableDrops": [
-      "Mark_of_grace"
+      "Mark_of_Grace"
     ]
   },
   {
@@ -6861,7 +6861,7 @@
     "sortingGroups": ["agility"],
     "requiredLevel": 60,
     "notableDrops": [
-      "Mark_of_grace"
+      "Mark_of_Grace"
     ]
   },
   {
@@ -6946,7 +6946,7 @@
     "sortingGroups": ["agility"],
     "requiredLevel": [1, 45],
     "notableDrops": [
-      "Mark_of_grace",
+      "Mark_of_Grace",
       "Crossbow",
       "Mith_grapple"
     ]
@@ -7772,7 +7772,7 @@
     "requiredLevel": 72,
     "notableDrops": [
       "Serrated_key",
-      "Heart_of_ithell",
+      "Heart_of_Ithell",
       "Gwyna's_fabric_roll"
     ]
   },
@@ -7983,7 +7983,7 @@
     "sortingGroups": ["agility"],
     "requiredLevel": 30,
     "notableDrops": [
-      "Mark_of_grace"
+      "Mark_of_Grace"
     ]
   },
   {
@@ -8148,7 +8148,7 @@
     "sortingGroups": ["agility"],
     "requiredLevel": 60,
     "notableDrops": [
-      "Mark_of_grace",
+      "Mark_of_Grace",
       "Stick_(item)"
     ]
   },
@@ -8225,7 +8225,7 @@
     ]
   },
   {
-    "id": "Wine_of_zamorak",
+    "id": "Wine_of_Zamorak",
     "category": "skilling",
     "sortingGroups": ["cooking"],
     "requiredLevel": 65,
@@ -8234,7 +8234,7 @@
       "#plus",
       "Jug_of_water",
       "#equals",
-      "Wine_of_zamorak"
+      "Wine_of_Zamorak"
     ]
   },
   {

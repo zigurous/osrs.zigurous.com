@@ -27,14 +27,14 @@
       },
       {
         "id": "Adam",
-        "icon": "NPC_Contact",
+        "icon": "Astral_Contact",
         "category": "melee",
         "subtitle": "Ironman tutor",
         "items": ["Ironman_helm", "Ironman_platebody", "Ironman_platelegs"]
       },
       {
         "id": "Melee_combat_tutor",
-        "icon": "NPC_Contact",
+        "icon": "Astral_Contact",
         "category": "melee",
         "title": "Harlan",
         "subtitle": "Melee combat tutor",
@@ -42,7 +42,7 @@
       },
       {
         "id": "Ranged_combat_tutor",
-        "icon": "NPC_Contact",
+        "icon": "Astral_Contact",
         "category": "ranged",
         "title": "Nemarti",
         "subtitle": "Ranged combat tutor",
@@ -50,7 +50,7 @@
       },
       {
         "id": "Magic_combat_tutor",
-        "icon": "NPC_Contact",
+        "icon": "Astral_Contact",
         "category": "magic",
         "title": "Mikasi",
         "subtitle": "Magic combat tutor",
@@ -482,7 +482,7 @@
     "categories": ["all"],
     "questMilestone": "The_Fremennik_Isles",
     "items": [
-      { "id": "Helm_of_neitiznot", "category": "melee" },
+      { "id": "Helm_of_Neitiznot", "category": "melee" },
       { "id": "Black_gloves", "category": "melee" },
       { "id": "Archer_helm", "category": "ranged" },
       { "id": "Ava's_accumulator", "category": "ranged" },
@@ -542,7 +542,7 @@
       {
         "id": "The_Fremennik_Isles",
         "icon": "Quest_point_icon",
-        "items": ["Helm_of_neitiznot"],
+        "items": ["Helm_of_Neitiznot"],
         "subcards": [
           {
             "id": "Defence",
@@ -679,7 +679,7 @@
     "questMilestone": "Legends'_Quest",
     "items": [
       { "id": "Rune_gloves", "category": "all" },
-      { "id": "Cape_of_legends", "category": "melee" }
+      { "id": "Cape_of_Legends", "category": "melee" }
     ],
     "subcategoryItems": [
       { "id": "Dragon_mace", "subcategory": "melee-crush" }
@@ -692,7 +692,7 @@
       },
       {
         "id": "Legends'_Quest",
-        "items": ["Cape_of_legends"],
+        "items": ["Cape_of_Legends"],
         "icon": "Quest_point_icon"
       },
       {
@@ -790,11 +790,11 @@
       { "id": "Rada's_blessing_2", "category": "melee" },
       { "id": "Rada's_blessing_2", "category": "magic" },
       { "id": "Shayzien_boots_(5)", "category": "ranged" },
-      { "id": "Book_of_the_dead", "category": "magic" }
+      { "id": "Book_of_the_Dead", "category": "magic" }
     ],
     "subcategoryItems": [
       { "id": "Rada's_blessing_2", "subcategory": "ranged-light" },
-      { "id": "Book_of_the_dead", "subcategory": "magic-arceuus" }
+      { "id": "Book_of_the_Dead", "subcategory": "magic-arceuus" }
     ],
     "timeline": [
       {
@@ -812,7 +812,7 @@
       {
         "id": "A_Kingdom_Divided",
         "icon": "Quest_point_icon",
-        "items": ["Book_of_the_dead"]
+        "items": ["Book_of_the_Dead"]
       },
       {
         "id": "Kourend_&_Kebos_Diary",
@@ -947,7 +947,7 @@
     "items": [
       { "id": "Hunters'_sunlight_crossbow", "category": "ranged" },
       { "id": "Sunlight_antler_bolts", "category": "ranged" },
-      { "id": "Helm_of_neitiznot", "category": "ranged" },
+      { "id": "Helm_of_Neitiznot", "category": "ranged" },
       { "id": "Mixed_hide_cape", "category": "melee" },
       { "id": "Mixed_hide_boots", "category": "melee" },
       { "id": "Mixed_hide_boots", "category": "ranged" },
@@ -1310,7 +1310,7 @@
       },
       {
         "id": "TzHaar_Fight_Cave",
-        "icon": "Tzrek-jad",
+        "icon": "TzRek-Jad",
         "title": "Fight Cave",
         "subtitle": "TzTok-Jad",
         "items": ["Fire_cape"],
@@ -1332,7 +1332,7 @@
     "title": "Mage Arena II",
     "categories": ["magic"],
     "items": [
-      { "id": "Imbued_saradomin_cape", "category": "magic" }
+      { "id": "Imbued_Saradomin_cape", "category": "magic" }
     ],
     "skills": [
       { "skill": "magic", "level": 75, "highlight": true }
@@ -1347,7 +1347,7 @@
         "id": "Mage_Arena_II",
         "icon": "Quest_point_icon",
         "subtitle": "Miniquest",
-        "items": ["Imbued_saradomin_cape", "Imbued_zamorak_cape", "Imbued_guthix_cape"],
+        "items": ["Imbued_Saradomin_cape", "Imbued_Zamorak_cape", "Imbued_Guthix_cape"],
         "subcards": [
           {
             "id": "Setup",
@@ -1378,7 +1378,7 @@
         "id": "Amoxliatl",
         "icon": "Moxi",
         "subtitle": "Optional",
-        "items": ["Glacial_temotli", "Pendant_of_ates"],
+        "items": ["Glacial_temotli", "Pendant_of_Ates"],
         "subcards": [
           {
             "id": "Setup",
@@ -1398,20 +1398,20 @@
     "questMilestone": "Perilous_Moons",
     "items": [
       { "id": "Dual_macuahuitl", "category": "melee" },
-      { "id": "Blood_moon_helm", "category": "melee" },
-      { "id": "Blood_moon_chestplate", "category": "melee" },
-      { "id": "Blood_moon_tassets", "category": "melee" },
+      { "id": "Blood_Moon_helm", "category": "melee" },
+      { "id": "Blood_Moon_chestplate", "category": "melee" },
+      { "id": "Blood_Moon_tassets", "category": "melee" },
       { "id": "Atlatl_dart", "category": "ranged" },
       { "id": "Eclipse_atlatl", "category": "ranged" },
-      { "id": "Eclipse_moon_helm", "category": "ranged" },
-      { "id": "Eclipse_moon_chestplate", "category": "ranged" },
-      { "id": "Eclipse_moon_tassets", "category": "ranged" },
+      { "id": "Eclipse_Moon_helm", "category": "ranged" },
+      { "id": "Eclipse_Moon_chestplate", "category": "ranged" },
+      { "id": "Eclipse_Moon_tassets", "category": "ranged" },
       { "id": "Amulet_of_strength", "category": "ranged" },
       { "id": "Berserker_ring_(i)", "category": "ranged" },
-      { "id": "Blue_moon_spear", "category": "magic" },
-      { "id": "Blue_moon_helm", "category": "magic" },
-      { "id": "Blue_moon_chestplate", "category": "magic" },
-      { "id": "Blue_moon_tassets", "category": "magic" }
+      { "id": "Blue_Moon_spear", "category": "magic" },
+      { "id": "Blue_Moon_helm", "category": "magic" },
+      { "id": "Blue_Moon_chestplate", "category": "magic" },
+      { "id": "Blue_Moon_tassets", "category": "magic" }
     ],
     "subcategoryItems": [
       { "id": "Dual_macuahuitl", "subcategory": "melee-stab" },
@@ -1422,17 +1422,17 @@
       { "id": "Atlatl_dart", "subcategory": "ranged-standard" },
       { "id": "Steel_knife", "subcategory": "ranged-light" },
       { "id": "Rada's_blessing_2", "subcategory": "ranged-light" },
-      { "id": "Helm_of_neitiznot", "subcategory": "ranged-light" },
+      { "id": "Helm_of_Neitiznot", "subcategory": "ranged-light" },
       { "id": "Amulet_of_power", "subcategory": "ranged-light" },
       { "id": "Archers_ring_(i)", "subcategory": "ranged-light" },
       { "id": "Hunters'_sunlight_crossbow", "subcategory": "ranged-heavy" },
       { "id": "Sunlight_antler_bolts", "subcategory": "ranged-heavy" },
-      { "id": "Helm_of_neitiznot", "subcategory": "ranged-heavy" },
+      { "id": "Helm_of_Neitiznot", "subcategory": "ranged-heavy" },
       { "id": "Amulet_of_power", "subcategory": "ranged-heavy" },
       { "id": "Archers_ring_(i)", "subcategory": "ranged-heavy" },
       { "id": "Dorgeshuun_crossbow", "subcategory": "ranged-spec" },
       { "id": "Bone_bolts", "subcategory": "ranged-spec" },
-      { "id": "Helm_of_neitiznot", "subcategory": "ranged-spec" },
+      { "id": "Helm_of_Neitiznot", "subcategory": "ranged-spec" },
       { "id": "Amulet_of_power", "subcategory": "ranged-spec" },
       { "id": "Archers_ring_(i)", "subcategory": "ranged-spec" },
       { "id": "Black_mask_(i)", "subcategory": "ranged-slayer" },
@@ -1452,7 +1452,7 @@
         "id": "Moons_of_Peril",
         "icon": "Varlamore_crest",
         "category": "melee",
-        "items": ["Dual_macuahuitl", "Blood_moon_helm", "Blood_moon_chestplate", "Blood_moon_tassets"],
+        "items": ["Dual_macuahuitl", "Blood_Moon_helm", "Blood_Moon_chestplate", "Blood_Moon_tassets"],
         "subcards": [
           {
             "id": "Setup",
@@ -1465,7 +1465,7 @@
         "id": "Moons_of_Peril",
         "icon": "Varlamore_crest",
         "category": "ranged",
-        "items": ["Eclipse_atlatl", "Eclipse_moon_helm", "Eclipse_moon_chestplate", "Eclipse_moon_tassets"],
+        "items": ["Eclipse_atlatl", "Eclipse_Moon_helm", "Eclipse_Moon_chestplate", "Eclipse_Moon_tassets"],
         "subcards": [
           {
             "id": "Setup",
@@ -1478,7 +1478,7 @@
         "id": "Moons_of_Peril",
         "icon": "Varlamore_crest",
         "category": "magic",
-        "items": ["Blue_moon_spear", "Blue_moon_helm", "Blue_moon_chestplate", "Blue_moon_tassets"],
+        "items": ["Blue_Moon_spear", "Blue_Moon_helm", "Blue_Moon_chestplate", "Blue_Moon_tassets"],
         "subcards": [
           {
             "id": "Setup",
@@ -1518,10 +1518,10 @@
     ],
     "subcategoryItems": [
       { "id": "Twinflame_staff", "subcategory": "magic-standard" },
-      { "id": "Blue_moon_spear", "subcategory": "magic-ancient" },
-      { "id": "Blue_moon_spear", "subcategory": "magic-arceuus" },
-      { "id": "Blue_moon_spear", "subcategory": "magic-slayer" },
-      { "id": "Blue_moon_spear", "subcategory": "magic-spec" }
+      { "id": "Blue_Moon_spear", "subcategory": "magic-ancient" },
+      { "id": "Blue_Moon_spear", "subcategory": "magic-arceuus" },
+      { "id": "Blue_Moon_spear", "subcategory": "magic-slayer" },
+      { "id": "Blue_Moon_spear", "subcategory": "magic-spec" }
     ],
     "skills": [
       { "skill": "runecraft", "level": 50 },
@@ -1623,12 +1623,12 @@
       { "id": "Hueycoatl_hide_coif", "subcategory": "ranged-spec" },
       { "id": "Hueycoatl_hide_body", "subcategory": "ranged-spec" },
       { "id": "Hueycoatl_hide_chaps", "subcategory": "ranged-spec" },
-      { "id": "Tome_of_earth", "subcategory": "magic-standard" },
+      { "id": "Tome_of_Earth", "subcategory": "magic-standard" },
       { "id": "Twinflame_staff", "subcategory": "magic-standard" },
       { "id": "Dragon_hunter_wand", "subcategory": "magic-ancient" },
-      { "id": "Blue_moon_spear", "subcategory": "magic-arceuus" },
+      { "id": "Blue_Moon_spear", "subcategory": "magic-arceuus" },
       { "id": "Dragon_hunter_wand", "subcategory": "magic-slayer" },
-      { "id": "Blue_moon_spear", "subcategory": "magic-spec" }
+      { "id": "Blue_Moon_spear", "subcategory": "magic-spec" }
     ],
     "skills": [
       { "skill": "herblore", "level": 60, "highlight": true },
@@ -1640,7 +1640,7 @@
         "id": "The_Hueycoatl",
         "icon": "Huberte",
         "category": "melee",
-        "items": ["Dragon_hunter_wand", "Tome_of_earth", "Hueycoatl_hide"],
+        "items": ["Dragon_hunter_wand", "Tome_of_Earth", "Hueycoatl_hide"],
         "subcards": [
           {
             "id": "Setup",
@@ -1666,7 +1666,7 @@
         "id": "The_Hueycoatl",
         "icon": "Huberte",
         "category": "magic",
-        "items": ["Dragon_hunter_wand", "Tome_of_earth"],
+        "items": ["Dragon_hunter_wand", "Tome_of_Earth"],
         "subcards": [
           {
             "id": "Setup",
@@ -1728,7 +1728,7 @@
       { "id": "Warped_sceptre", "subcategory": "magic-arceuus" },
       { "id": "Dragon_hunter_wand", "subcategory": "magic-slayer" },
       { "id": "Slayer_helmet_(i)", "subcategory": "magic-slayer" },
-      { "id": "Blue_moon_spear", "subcategory": "magic-spec" }
+      { "id": "Blue_Moon_spear", "subcategory": "magic-spec" }
     ],
     "skills": [
       { "skill": "slayer", "level": 67, "highlight": true },
@@ -2038,9 +2038,9 @@
       { "id": "Serpentine_helm", "subcategory": "melee-spec" },
       { "id": "Atlatl_dart", "subcategory": "ranged-standard" },
       { "id": "Eclipse_atlatl", "subcategory": "ranged-standard" },
-      { "id": "Eclipse_moon_helm", "subcategory": "ranged-standard" },
-      { "id": "Eclipse_moon_chestplate", "subcategory": "ranged-standard" },
-      { "id": "Eclipse_moon_tassets", "subcategory": "ranged-standard" },
+      { "id": "Eclipse_Moon_helm", "subcategory": "ranged-standard" },
+      { "id": "Eclipse_Moon_chestplate", "subcategory": "ranged-standard" },
+      { "id": "Eclipse_Moon_tassets", "subcategory": "ranged-standard" },
       { "id": "Berserker_ring_(i)", "subcategory": "ranged-standard" },
       { "id": "Toxic_blowpipe", "subcategory": "ranged-light" },
       { "id": "Rune_crossbow", "subcategory": "ranged-heavy" },
@@ -2120,7 +2120,7 @@
         "category": "magic",
         "title": "59 crafting",
         "subtitle": "Boostable",
-        "items": ["Trident_of_the_swamp"]
+        "items": ["Trident_of_the_Swamp"]
       },
       {
         "id": "Fletching",
@@ -2132,7 +2132,7 @@
       }
     ],
     "notes": [
-      "::magic|You probably won't be able to craft the Trident of the Swamp yet since it requires 87 slayer to get a <Link=\"Trident_of_the_seas\">Trident of the Seas</Link> from Kraken. Zulrah is still worth killing now for the ranged Blowpipe though."
+      "::magic|You probably won't be able to craft the Trident of the Swamp yet since it requires 87 slayer to get a <Link=\"Trident_of_the_Seas\">Trident of the Seas</Link> from Kraken. Zulrah is still worth killing now for the ranged Blowpipe though."
     ]
   },
   {
@@ -2146,7 +2146,7 @@
       { "id": "Zamorakian_hasta", "subcategory": "melee-stab" },
       { "id": "Zombie_axe", "subcategory": "melee-slash" },
       { "id": "Dual_macuahuitl", "subcategory": "melee-crush" },
-      { "id": "Blood_moon_helm", "subcategory": "melee-crush" },
+      { "id": "Blood_Moon_helm", "subcategory": "melee-crush" },
       { "id": "Burning_claws", "subcategory": "melee-spec" },
       { "id": "Emberlight", "subcategory": "melee-slayer" },
       { "id": "Slayer_helmet_(i)", "subcategory": "melee-slayer" }
@@ -2232,7 +2232,7 @@
       {
         "id": "Tombs_of_Amascut",
         "icon": "Tumeken's_guardian",
-        "items": ["Osmumten's_fang", "Lightbearer", "Thread_of_elidinis"],
+        "items": ["Osmumten's_fang", "Lightbearer", "Thread_of_Elidinis"],
         "subcards": [
           {
             "id": "Setup",
@@ -2407,7 +2407,7 @@
     "categories": ["magic", "melee"],
     "items": [
       { "id": "Abyssal_tentacle", "category": "melee" },
-      { "id": "Trident_of_the_swamp", "category": "magic" }
+      { "id": "Trident_of_the_Swamp", "category": "magic" }
     ],
     "subcategoryItems": [
       { "id": "Osmumten's_fang", "subcategory": "melee-stab" },
@@ -2417,7 +2417,7 @@
       { "id": "Emberlight", "subcategory": "melee-slayer" },
       { "id": "Twinflame_staff", "subcategory": "magic-standard" },
       { "id": "Dragon_hunter_wand", "subcategory": "magic-ancient" },
-      { "id": "Trident_of_the_swamp", "subcategory": "magic-arceuus" },
+      { "id": "Trident_of_the_Swamp", "subcategory": "magic-arceuus" },
       { "id": "Dragon_hunter_wand", "subcategory": "magic-slayer" },
       { "id": "Purging_staff", "subcategory": "magic-spec" }
     ],
@@ -2435,7 +2435,7 @@
       {
         "id": "Cave_kraken",
         "icon": "Cave_kraken_icon",
-        "items": ["Trident_of_the_seas"]
+        "items": ["Trident_of_the_Seas"]
       },
       {
         "id": "Kraken",
@@ -2547,14 +2547,14 @@
     "questMilestone": "Song_of_the_Elves",
     "categories": ["ranged"],
     "items": [
-      { "id": "Bow_of_faerdhinen", "category": "ranged" },
+      { "id": "Bow_of_Faerdhinen", "category": "ranged" },
       { "id": "Crystal_helm", "category": "ranged" },
       { "id": "Crystal_body", "category": "ranged" },
       { "id": "Crystal_legs", "category": "ranged" },
       { "id": "Archers_ring_(i)", "category": "ranged" }
     ],
     "subcategoryItems": [
-      { "id": "Bow_of_faerdhinen", "subcategory": "ranged-standard" },
+      { "id": "Bow_of_Faerdhinen", "subcategory": "ranged-standard" },
       { "id": "Rada's_blessing_3", "subcategory": "ranged-standard" },
       { "id": "Toxic_blowpipe", "subcategory": "ranged-light" },
       { "id": "Hueycoatl_hide_coif", "subcategory": "ranged-light" },
@@ -2597,7 +2597,7 @@
         "id": "Singing_bowl",
         "icon": "Singing_bowl_icon",
         "category": "ranged",
-        "items": ["Bow_of_faerdhinen", "Crystal_helm", "Crystal_body", "Crystal_legs"]
+        "items": ["Bow_of_Faerdhinen", "Crystal_helm", "Crystal_body", "Crystal_legs"]
       },
       {
         "id": "Singing_bowl",
@@ -2788,7 +2788,7 @@
         "icon": "K'ril_Tsutsaroth_icon_(mobile)",
         "category": "magic",
         "subtitle": "On Task",
-        "items": ["Staff_of_the_dead"],
+        "items": ["Staff_of_the_Dead"],
         "subcards": [
           {
             "id": "Setup",
@@ -2823,7 +2823,7 @@
     "notes": [
       "::melee|Bandos armour is the same strength bonus as Blood moon, but it provides a lot more defence. At the very least, Graardor is worth killing for his godsword.",
       "::ranged|Kree'arra can be pretty annoying to kill without good gear so you can opt to kill him later. Armadyl armour is only a minor upgrade but you'll eventually want it to fortify <Link=\"Masori_armour\">Masori armour</Link>.",
-      "::magic|Unfortunately there's not many magic upgrades in the God Wars Dungeon. The Staff of the Dead exists but it's really only used to upgrade into a <Link=\"Toxic_staff_of_the_dead\">Toxic staff</Link> for PvP."
+      "::magic|Unfortunately there's not many magic upgrades in the God Wars Dungeon. The Staff of the Dead exists but it's really only used to upgrade into a <Link=\"Toxic_Staff_of_the_Dead\">Toxic staff</Link> for PvP."
     ]
   },
   {
@@ -2891,7 +2891,7 @@
       },
       {
         "id": "Eblis",
-        "icon": "NPC_Contact",
+        "icon": "Astral_Contact",
         "category": "magic",
         "subtitle": "To create the ancient sceptre",
         "items": ["Ancient_sceptre"]
@@ -3170,7 +3170,7 @@
       { "id": "Dizana's_quiver", "category": "ranged" }
     ],
     "subcategoryItems": [
-      { "id": "Tonalztics_of_ralos", "subcategory": "ranged-spec" }
+      { "id": "Tonalztics_of_Ralos", "subcategory": "ranged-spec" }
     ],
     "skills": [
       { "skill": "ranged", "level": 90 },
@@ -3200,7 +3200,7 @@
         "category": "ranged",
         "title": "Colosseum",
         "subtitle": "Waves 1-11",
-        "items": ["Tonalztics_of_ralos", "Sunfire_fanatic_armour"],
+        "items": ["Tonalztics_of_Ralos", "Sunfire_fanatic_armour"],
         "subcards": [
           {
             "id": "Setup",
@@ -3226,7 +3226,7 @@
       },
       {
         "id": "Sol_Heredit",
-        "icon": "Smol_heredit",
+        "icon": "Smol_Heredit",
         "subtitle": "Wave 12",
         "items": ["Dizana's_quiver"]
       }
@@ -3270,7 +3270,7 @@
       },
       {
         "id": "Inferno",
-        "icon": "Tzrek-zuk",
+        "icon": "TzRek-Zuk",
         "subtitle": "TzKal-Zuk",
         "items": ["Infernal_cape"],
         "subcards": [
@@ -3382,15 +3382,15 @@
     "questMilestone": "The_Final_Dawn",
     "items": [
       { "id": "Avernic_treads_(max)", "category": "all" },
-      { "id": "Eye_of_ayak", "category": "magic" },
+      { "id": "Eye_of_Ayak", "category": "magic" },
       { "id": "Confliction_gauntlets", "category": "magic" }
     ],
     "subcategoryItems": [
       { "id": "Twinflame_staff", "subcategory": "magic-standard" },
       { "id": "Ancient_sceptre", "subcategory": "magic-ancient" },
-      { "id": "Eye_of_ayak", "subcategory": "magic-arceuus" },
+      { "id": "Eye_of_Ayak", "subcategory": "magic-arceuus" },
       { "id": "Dragon_hunter_wand", "subcategory": "magic-slayer" },
-      { "id": "Eye_of_ayak", "subcategory": "magic-spec" }
+      { "id": "Eye_of_Ayak", "subcategory": "magic-spec" }
     ],
     "skills": [
       { "skill": "agility", "level": 75 },
@@ -3444,7 +3444,7 @@
         "id": "Doom_of_Mokhaiotl",
         "icon": "Mokhaiotl_waystone_5",
         "category": "magic",
-        "items": ["Avernic_treads", "Eye_of_ayak", "Mokhaiotl_cloth"],
+        "items": ["Avernic_treads", "Eye_of_Ayak", "Mokhaiotl_cloth"],
         "subcards": [
           {
             "id": "The_Final_Dawn",
@@ -3632,21 +3632,21 @@
       { "id": "Elidinis'_ward", "category": "magic" }
     ],
     "subcategoryItems": [
-      { "id": "Bow_of_faerdhinen", "subcategory": "ranged-standard" },
+      { "id": "Bow_of_Faerdhinen", "subcategory": "ranged-standard" },
       { "id": "Crystal_helm", "subcategory": "ranged-standard" },
       { "id": "Crystal_body", "subcategory": "ranged-standard" },
       { "id": "Crystal_legs", "subcategory": "ranged-standard" },
       { "id": "Armadyl_crossbow", "subcategory": "ranged-heavy" },
-      { "id": "Tonalztics_of_ralos", "subcategory": "ranged-spec" },
+      { "id": "Tonalztics_of_Ralos", "subcategory": "ranged-spec" },
       { "id": "Venator_bow", "subcategory": "ranged-slayer" },
       { "id": "Dragon_arrow", "subcategory": "ranged-slayer" },
       { "id": "Slayer_helmet_(i)", "subcategory": "ranged-slayer" },
       { "id": "Twinflame_staff", "subcategory": "magic-standard" },
-      { "id": "Tome_of_earth", "subcategory": "magic-standard" },
+      { "id": "Tome_of_Earth", "subcategory": "magic-standard" },
       { "id": "Blood_ancient_sceptre", "subcategory": "magic-ancient" },
       { "id": "Tumeken's_shadow", "subcategory": "magic-arceuus" },
       { "id": "Dragon_hunter_wand", "subcategory": "magic-slayer" },
-      { "id": "Eye_of_ayak", "subcategory": "magic-spec" }
+      { "id": "Eye_of_Ayak", "subcategory": "magic-spec" }
     ],
     "skills": [
       { "skill": "prayer", "level": 80, "highlight": true },
@@ -3748,7 +3748,7 @@
       { "id": "Twisted_buckler", "subcategory": "ranged-heavy" },
       { "id": "Ruby_dragon_bolts_(e)", "subcategory": "ranged-heavy" },
       { "id": "Venator_bow", "subcategory": "ranged-slayer" },
-      { "id": "Tonalztics_of_ralos", "subcategory": "ranged-spec" },
+      { "id": "Tonalztics_of_Ralos", "subcategory": "ranged-spec" },
       { "id": "Rada's_blessing_4", "subcategory": "ranged-spec" },
       { "id": "Kodai_wand", "subcategory": "magic-ancient" },
       { "id": "Virtus_mask", "subcategory": "magic-ancient" },
@@ -3831,14 +3831,14 @@
     "categories": ["melee", "magic"],
     "questMilestone": "A_Night_at_the_Theatre",
     "items": [
-      { "id": "Scythe_of_vitur", "category": "melee" },
+      { "id": "Scythe_of_Vitur", "category": "melee" },
       { "id": "Avernic_defender", "category": "melee" }
     ],
     "subcategoryItems": [
       { "id": "Osmumten's_fang", "subcategory": "melee-stab" },
       { "id": "Avernic_defender", "subcategory": "melee-stab" },
-      { "id": "Scythe_of_vitur", "subcategory": "melee-slash" },
-      { "id": "Scythe_of_vitur", "subcategory": "melee-crush" },
+      { "id": "Scythe_of_Vitur", "subcategory": "melee-slash" },
+      { "id": "Scythe_of_Vitur", "subcategory": "melee-crush" },
       { "id": "Dragon_claws", "subcategory": "melee-spec" }
     ],
     "skills": [
@@ -3853,7 +3853,7 @@
         "id": "Theatre_of_Blood",
         "icon": "Verzik_Vitur_icon_(mobile)",
         "category": "melee",
-        "items": ["Scythe_of_vitur", "Ghrazi_rapier", "Avernic_defender"],
+        "items": ["Scythe_of_Vitur", "Ghrazi_rapier", "Avernic_defender"],
         "subcards": [
           {
             "id": "A_Night_at_the_Theatre",
@@ -3950,7 +3950,7 @@
       {
         "id": "Callisto",
         "icon": "Callisto_cub",
-        "items": ["Voidwaker_hilt", "Claws_of_callisto"],
+        "items": ["Voidwaker_hilt", "Claws_of_Callisto"],
         "subcards": [
           {
             "id": "Setup",
@@ -3961,8 +3961,8 @@
       },
       {
         "id": "Vet'ion",
-        "icon": "Vet'ion_jr.",
-        "items": ["Voidwaker_blade", "Skull_of_vet'ion"],
+        "icon": "Vet'ion_Jr.",
+        "items": ["Voidwaker_blade", "Skull_of_Vet'ion"],
         "subcards": [
           {
             "id": "Setup",
@@ -3974,7 +3974,7 @@
       {
         "id": "Venenatis",
         "icon": "Venenatis_spiderling",
-        "items": ["Voidwaker_gem", "Fangs_of_venenatis"],
+        "items": ["Voidwaker_gem", "Fangs_of_Venenatis"],
         "subcards": [
           {
             "id": "Setup",
@@ -4094,8 +4094,8 @@
       { "id": "Inquisitor's_great_helm", "subcategory": "melee-crush" },
       { "id": "Inquisitor's_hauberk", "subcategory": "melee-crush" },
       { "id": "Inquisitor's_plateskirt", "subcategory": "melee-crush" },
-      { "id": "Harmonised_nightmare_staff", "subcategory": "magic-standard" },
-      { "id": "Tome_of_fire", "subcategory": "magic-standard" }
+      { "id": "Harmonised_Nightmare_staff", "subcategory": "magic-standard" },
+      { "id": "Tome_of_Fire", "subcategory": "magic-standard" }
     ],
     "timeline": [
       {
@@ -4153,7 +4153,7 @@
       { "id": "Elidinis'_ward_(f)", "category": "magic" }
     ],
     "subcategoryItems": [
-      { "id": "Tome_of_fire", "subcategory": "magic-standard" },
+      { "id": "Tome_of_Fire", "subcategory": "magic-standard" },
       { "id": "Elidinis'_ward_(f)", "subcategory": "magic-ancient" },
       { "id": "Elidinis'_ward_(f)", "subcategory": "magic-slayer" },
       { "id": "Elidinis'_ward_(f)", "subcategory": "magic-spec" }
@@ -4210,7 +4210,7 @@
     "items": [
       { "id": "Infernal_max_cape", "category": "melee" },
       { "id": "Dizana's_max_cape", "category": "ranged" },
-      { "id": "Imbued_saradomin_max_cape", "category": "magic" }
+      { "id": "Imbued_Saradomin_max_cape", "category": "magic" }
     ],
     "timeline": [
       {
@@ -4247,7 +4247,7 @@
     "title": "Cosmetics",
     "categories": ["all"],
     "items": [
-      { "id": "Sanguine_scythe_of_vitur", "category": "melee" },
+      { "id": "Sanguine_Scythe_of_Vitur", "category": "melee" },
       { "id": "Ghommal's_avernic_defender_6", "category": "melee" },
       { "id": "Radiant_oathplate_helm", "category": "melee" },
       { "id": "Radiant_oathplate_chest", "category": "melee" },
@@ -4264,7 +4264,7 @@
       { "id": "Sanguine_torva_full_helm", "subcategory": "melee-stab" },
       { "id": "Sanguine_torva_platebody", "subcategory": "melee-stab" },
       { "id": "Sanguine_torva_platelegs", "subcategory": "melee-stab" },
-      { "id": "Sanguine_scythe_of_vitur", "subcategory": "melee-slash" },
+      { "id": "Sanguine_Scythe_of_Vitur", "subcategory": "melee-slash" },
       { "id": "Ghommal's_avernic_defender_6", "subcategory": "melee-crush" },
       { "id": "Inquisitor's_mace", "subcategory": "melee-crush" },
       { "id": "Inquisitor's_great_helm", "subcategory": "melee-crush" },

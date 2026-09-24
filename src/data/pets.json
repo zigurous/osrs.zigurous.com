@@ -21,7 +21,7 @@
     "tags": ["pet"]
   },
   {
-    "id": "Baby_mole",
+    "id": "Baby_Mole",
     "source": "Giant_Mole",
     "tags": ["pet"]
   },
@@ -132,18 +132,18 @@
     "tags": ["pet"]
   },
   {
-    "id": "Ikkle_hydra",
-    "icon": "Ikkle_hydra_(serpentine)",
+    "id": "Ikkle_Hydra",
+    "icon": "Ikkle_Hydra_(serpentine)",
     "source": "Alchemical_Hydra",
     "tags": ["pet"]
   },
   {
-    "id": "Jal-nib-rek",
+    "id": "Jal-Nib-Rek",
     "source": "Inferno",
     "tags": ["pet"]
   },
   {
-    "id": "Kalphite_princess",
+    "id": "Kalphite_Princess",
     "source": "Kalphite_Queen",
     "tags": ["pet"]
   },
@@ -153,17 +153,17 @@
     "tags": ["pet"]
   },
   {
-    "id": "Lil'_creator",
+    "id": "Lil'_Creator",
     "source": "Soul_Wars",
     "tags": ["pet"]
   },
   {
-    "id": "Lil'_zik",
+    "id": "Lil'_Zik",
     "source": "Theatre_of_Blood",
     "tags": ["pet"]
   },
   {
-    "id": "Little_nightmare",
+    "id": "Little_Nightmare",
     "source": "The_Nightmare",
     "tags": ["pet"]
   },
@@ -178,7 +178,7 @@
     "tags": ["pet"]
   },
   {
-    "id": "Mr_mcgroot",
+    "id": "Mr_McGroot",
     "source": "Goat_hunting",
     "tags": ["pet"]
   },
@@ -214,17 +214,17 @@
     "tags": ["pet"]
   },
   {
-    "id": "Pet_dagannoth_prime",
+    "id": "Pet_Dagannoth_Prime",
     "source": "Dagannoth_Prime",
     "tags": ["pet"]
   },
   {
-    "id": "Pet_dagannoth_rex",
+    "id": "Pet_Dagannoth_Rex",
     "source": "Dagannoth_Rex",
     "tags": ["pet"]
   },
   {
-    "id": "Pet_dagannoth_supreme",
+    "id": "Pet_Dagannoth_Supreme",
     "source": "Dagannoth_Supreme",
     "tags": ["pet"]
   },
@@ -234,27 +234,27 @@
     "tags": ["pet"]
   },
   {
-    "id": "Pet_general_graardor",
+    "id": "Pet_General_Graardor",
     "source": "General_Graardor",
     "tags": ["pet"]
   },
   {
-    "id": "Pet_k'ril_tsutsaroth",
+    "id": "Pet_K'ril_Tsutsaroth",
     "source": "K'ril_Tsutsaroth",
     "tags": ["pet"]
   },
   {
-    "id": "Pet_kraken",
+    "id": "Pet_Kraken",
     "source": "Kraken",
     "tags": ["pet"]
   },
   {
-    "id": "Pet_kree'arra",
+    "id": "Pet_Kree'arra",
     "source": "Kree'arra",
     "tags": ["pet"]
   },
   {
-    "id": "Pet_penance_queen",
+    "id": "Pet_Penance_Queen",
     "source": "Barbarian_Assault",
     "tags": ["pet"]
   },
@@ -264,17 +264,17 @@
     "tags": ["pet"]
   },
   {
-    "id": "Pet_smoke_devil",
+    "id": "Pet_Smoke_Devil",
     "source": "Thermonuclear_smoke_devil",
     "tags": ["pet"]
   },
   {
-    "id": "Pet_snakeling",
+    "id": "Pet_Snakeling",
     "source": "Zulrah",
     "tags": ["pet"]
   },
   {
-    "id": "Pet_zilyana",
+    "id": "Pet_Zilyana",
     "source": "Commander_Zilyana",
     "tags": ["pet"]
   },
@@ -284,7 +284,7 @@
     "tags": ["pet"]
   },
   {
-    "id": "Prince_black_dragon",
+    "id": "Prince_Black_Dragon",
     "source": "King_Black_Dragon",
     "tags": ["pet"]
   },
@@ -324,7 +324,7 @@
     "tags": ["pet"]
   },
   {
-    "id": "Smol_heredit",
+    "id": "Smol_Heredit",
     "source": "Fortis_Colosseum",
     "tags": ["pet"]
   },
@@ -364,7 +364,7 @@
     "tags": ["pet"]
   },
   {
-    "id": "Tzrek-jad",
+    "id": "TzRek-Jad",
     "source": "TzHaar_Fight_Cave",
     "tags": ["pet"]
   },
@@ -374,7 +374,7 @@
     "tags": ["pet"]
   },
   {
-    "id": "Vet'ion_jr.",
+    "id": "Vet'ion_Jr.",
     "source": ["Vet'ion", "Calvar'ion"],
     "tags": ["pet"]
   },

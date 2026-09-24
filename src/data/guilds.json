@@ -129,11 +129,11 @@
   },
   {
     "id": "Legends'_Guild",
-    "icon": "Cape_of_legends",
+    "icon": "Cape_of_Legends",
     "category": "guild",
     "sortingGroups": ["location", "misc", "quest"],
     "notableDrops": [
-      "Cape_of_legends",
+      "Cape_of_Legends",
       "Shield_right_half",
       "Swordfish",
       "Mithril_seeds",

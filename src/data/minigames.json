@@ -4,7 +4,7 @@
     "category": "minigame",
     "sortingGroups": ["pvm"],
     "notableDrops": [
-      "Pet_penance_queen",
+      "Pet_Penance_Queen",
       "Fighter_torso",
       "Penance_skirt",
       "Runner_boots",
@@ -166,14 +166,14 @@
     "category": "minigame",
     "sortingGroups": ["pvm"],
     "notableDrops": [
-      "Smol_heredit",
+      "Smol_Heredit",
       "Sunlight_spear",
       "Sunlit_bracers",
       "Dizana's_quiver",
       "Sunfire_fanatic_helm",
       "Sunfire_fanatic_cuirass",
       "Sunfire_fanatic_chausses",
-      "Tonalztics_of_ralos",
+      "Tonalztics_of_Ralos",
       "Echo_crystal",
       "Uncut_onyx",
       "Sunfire_splinters"
@@ -231,10 +231,10 @@
       "Abyssal_green_dye",
       "Abyssal_blue_dye",
       "Abyssal_red_dye",
-      "Hat_of_the_eye",
-      "Robe_top_of_the_eye",
-      "Robe_bottoms_of_the_eye",
-      "Boots_of_the_eye",
+      "Hat_of_the_Eye",
+      "Robe_top_of_the_Eye",
+      "Robe_bottoms_of_the_Eye",
+      "Boots_of_the_Eye",
       "Ring_of_the_elements",
       "Abyssal_lantern",
       "Guardian's_eye",
@@ -289,7 +289,7 @@
     "category": "minigame",
     "sortingGroups": ["pvm"],
     "notableDrops": [
-      "Jal-nib-rek",
+      "Jal-Nib-Rek",
       "Infernal_cape"
     ]
   },
@@ -343,9 +343,9 @@
       "Saradomin_Strike",
       "Flames_of_Zamorak",
       "Claws_of_Guthix",
-      "Imbued_saradomin_cape",
-      "Imbued_zamorak_cape",
-      "Imbued_guthix_cape"
+      "Imbued_Saradomin_cape",
+      "Imbued_Zamorak_cape",
+      "Imbued_Guthix_cape"
     ]
   },
   {
@@ -424,7 +424,7 @@
     "sortingGroups": ["pvm"],
     "notableDrops": [
       "Imbuing",
-      "Scroll_of_redirection",
+      "Scroll_of_Redirection",
       "Herb_box",
       "Flax"
     ]
@@ -499,7 +499,7 @@
       "Zealot's_robe_top",
       "Zealot's_robe_bottom",
       "Zealot's_boots",
-      "Amulet_of_the_damned",
+      "Amulet_of_the_Damned",
       "Flamtaer_bag",
       "Fine_cloth",
       "Gold_locks",
@@ -529,7 +529,7 @@
     "category": "minigame",
     "sortingGroups": ["pvp"],
     "notableDrops": [
-      "Lil'_creator",
+      "Lil'_Creator",
       "Ectoplasmator",
       "Soul_cape",
       "Spoils_of_war",
@@ -654,7 +654,7 @@
     "category": "minigame",
     "sortingGroups": ["pvm"],
     "notableDrops": [
-      "Tzrek-jad",
+      "TzRek-Jad",
       "Fire_cape"
     ]
   },

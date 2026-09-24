@@ -78,7 +78,7 @@
       "Abyssal_dagger",
       "Abyssal_whip",
       "Abyssal_head",
-      "Jar_of_miasma"
+      "Jar_of_Miasma"
     ]
   },
   {
@@ -117,7 +117,7 @@
       "Karuulm_Slayer_Dungeon"
     ],
     "notableDrops": [
-      "Ikkle_hydra",
+      "Ikkle_Hydra",
       "Hydra's_claw",
       "Hydra_leather",
       "Hydra_tail",
@@ -127,7 +127,7 @@
       "Dragon_knife",
       "Dragon_thrownaxe",
       "Alchemical_hydra_heads",
-      "Jar_of_chemicals"
+      "Jar_of_Chemicals"
     ]
   },
   {
@@ -254,7 +254,7 @@
       "Coagulated_venom",
       "Araxyte_venom_sac",
       "Araxyte_head",
-      "Jar_of_venom"
+      "Jar_of_Venom"
     ]
   },
   {
@@ -889,7 +889,7 @@
       "Pegasian_crystal",
       "Primordial_crystal",
       "Smouldering_stone",
-      "Jar_of_souls"
+      "Jar_of_Souls"
     ]
   },
   {
@@ -1506,7 +1506,7 @@
     ],
     "notableDrops": [
       "Glacial_temotli",
-      "Pendant_of_ates",
+      "Pendant_of_Ates",
       "Tooth_half_of_key_(moon_key)",
       "Frozen_tear"
     ],
@@ -1757,7 +1757,7 @@
       "Granite_ring",
       "Granite_hammer",
       "Granite_dust",
-      "Jar_of_stone"
+      "Jar_of_Stone"
     ]
   },
   {
@@ -1776,7 +1776,7 @@
       "The_Great_Conch"
     ],
     "notableDrops": [
-      "Horn_of_plenty",
+      "Horn_of_Plenty",
       "Gryphon_feather"
     ]
   },
@@ -2190,10 +2190,10 @@
       "Kraken_Cove"
     ],
     "notableDrops": [
-      "Pet_kraken",
+      "Pet_Kraken",
       "Kraken_tentacle",
-      "Trident_of_the_seas",
-      "Jar_of_dirt"
+      "Trident_of_the_Seas",
+      "Jar_of_Dirt"
     ]
   },
   {
@@ -3292,11 +3292,11 @@
       "Smoke_Devil_Dungeon"
     ],
     "notableDrops": [
-      "Pet_smoke_devil",
+      "Pet_Smoke_Devil",
       "Occult_necklace",
       "Smoke_battlestaff",
       "Dragon_chainbody",
-      "Jar_of_smoke"
+      "Jar_of_Smoke"
     ]
   },
   {
@@ -3423,7 +3423,7 @@
   },
   {
     "id": "Undead_Druid",
-    "icon": "Mask_of_ranul",
+    "icon": "Mask_of_Ranul",
     "category": "monster",
     "sortingGroups": ["pvm", "slayer"],
     "requiredCombatLevel": 10,
@@ -3436,7 +3436,7 @@
       "Forthos_Dungeon"
     ],
     "notableDrops": [
-      "Mask_of_ranul",
+      "Mask_of_Ranul",
       "Grubby_key"
     ],
     "hideFromMenu": true

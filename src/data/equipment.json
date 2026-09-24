@@ -282,7 +282,7 @@
     "slot": "neck"
   },
   {
-    "id": "Amulet_of_the_damned",
+    "id": "Amulet_of_the_Damned",
     "slot": "neck",
     "regions": ["morytania"]
   },
@@ -786,7 +786,7 @@
     ]
   },
   {
-    "id": "Blade_of_saeldor",
+    "id": "Blade_of_Saeldor",
     "slot": "weapon",
     "tags": ["1h"],
     "regions": ["tirannwn"],
@@ -823,7 +823,7 @@
     ]
   },
   {
-    "id": "Blood_moon_chestplate",
+    "id": "Blood_Moon_chestplate",
     "slot": "body",
     "regions": ["varlamore"],
     "requirements": [
@@ -832,7 +832,7 @@
     ]
   },
   {
-    "id": "Blood_moon_helm",
+    "id": "Blood_Moon_helm",
     "slot": "head",
     "regions": ["varlamore"],
     "requirements": [
@@ -841,7 +841,7 @@
     ]
   },
   {
-    "id": "Blood_moon_tassets",
+    "id": "Blood_Moon_tassets",
     "slot": "legs",
     "regions": ["varlamore"],
     "requirements": [
@@ -904,7 +904,7 @@
     ]
   },
   {
-    "id": "Blue_moon_chestplate",
+    "id": "Blue_Moon_chestplate",
     "slot": "body",
     "regions": ["varlamore"],
     "requirements": [
@@ -913,7 +913,7 @@
     ]
   },
   {
-    "id": "Blue_moon_helm",
+    "id": "Blue_Moon_helm",
     "slot": "head",
     "regions": ["varlamore"],
     "requirements": [
@@ -922,7 +922,7 @@
     ]
   },
   {
-    "id": "Blue_moon_spear",
+    "id": "Blue_Moon_spear",
     "slot": "weapon",
     "tags": ["2h"],
     "regions": ["varlamore"],
@@ -932,7 +932,7 @@
     ]
   },
   {
-    "id": "Blue_moon_tassets",
+    "id": "Blue_Moon_tassets",
     "slot": "legs",
     "regions": ["varlamore"],
     "requirements": [
@@ -999,7 +999,7 @@
     "regions": ["fremennik"]
   },
   {
-    "id": "Book_of_the_dead",
+    "id": "Book_of_the_Dead",
     "slot": "shield",
     "regions": ["kourend"]
   },
@@ -1009,7 +1009,7 @@
     "regions": ["fremennik"]
   },
   {
-    "id": "Boots_of_brimstone",
+    "id": "Boots_of_Brimstone",
     "slot": "feet",
     "regions": ["kourend"],
     "requirements": [
@@ -1020,7 +1020,7 @@
     ]
   },
   {
-    "id": "Bow_of_faerdhinen",
+    "id": "Bow_of_Faerdhinen",
     "slot": "weapon",
     "tags": ["2h"],
     "regions": ["tirannwn"],
@@ -1084,7 +1084,7 @@
     ]
   },
   {
-    "id": "Cape_of_legends",
+    "id": "Cape_of_Legends",
     "slot": "cape"
   },
   {
@@ -1697,7 +1697,7 @@
     ]
   },
   {
-    "id": "Eclipse_moon_chestplate",
+    "id": "Eclipse_Moon_chestplate",
     "slot": "body",
     "regions": ["varlamore"],
     "requirements": [
@@ -1706,7 +1706,7 @@
     ]
   },
   {
-    "id": "Eclipse_moon_helm",
+    "id": "Eclipse_Moon_helm",
     "slot": "head",
     "regions": ["varlamore"],
     "requirements": [
@@ -1715,7 +1715,7 @@
     ]
   },
   {
-    "id": "Eclipse_moon_tassets",
+    "id": "Eclipse_Moon_tassets",
     "slot": "legs",
     "regions": ["varlamore"],
     "requirements": [
@@ -1734,7 +1734,7 @@
     ]
   },
   {
-    "id": "Eldritch_nightmare_staff",
+    "id": "Eldritch_Nightmare_staff",
     "slot": "weapon",
     "tags": ["1h"],
     "regions": ["morytania"],
@@ -1945,7 +1945,7 @@
     ]
   },
   {
-    "id": "Eye_of_ayak",
+    "id": "Eye_of_Ayak",
     "slot": "weapon",
     "tags": ["1h"],
     "regions": ["varlamore"],
@@ -2108,7 +2108,7 @@
     ]
   },
   {
-    "id": "Gloves_of_the_damned",
+    "id": "Gloves_of_the_Damned",
     "slot": "hands",
     "tags": ["leagues"],
     "regions": ["morytania"]
@@ -2254,7 +2254,7 @@
     "slot": "hands"
   },
   {
-    "id": "Harmonised_nightmare_staff",
+    "id": "Harmonised_Nightmare_staff",
     "slot": "weapon",
     "tags": ["1h"],
     "regions": ["morytania"],
@@ -2284,7 +2284,7 @@
     ]
   },
   {
-    "id": "Helm_of_neitiznot",
+    "id": "Helm_of_Neitiznot",
     "slot": "head",
     "regions": ["fremennik"],
     "requirements": [
@@ -2421,7 +2421,7 @@
     ]
   },
   {
-    "id": "Imbued_guthix_cape",
+    "id": "Imbued_Guthix_cape",
     "slot": "cape",
     "regions": ["wilderness"],
     "requirements": [
@@ -2429,7 +2429,7 @@
     ]
   },
   {
-    "id": "Imbued_guthix_max_cape",
+    "id": "Imbued_Guthix_max_cape",
     "slot": "cape",
     "regions": ["wilderness/asgarnia"],
     "requirements": [
@@ -2460,7 +2460,7 @@
     ]
   },
   {
-    "id": "Imbued_saradomin_cape",
+    "id": "Imbued_Saradomin_cape",
     "slot": "cape",
     "regions": ["wilderness"],
     "requirements": [
@@ -2468,7 +2468,7 @@
     ]
   },
   {
-    "id": "Imbued_saradomin_max_cape",
+    "id": "Imbued_Saradomin_max_cape",
     "slot": "cape",
     "regions": ["wilderness/asgarnia"],
     "requirements": [
@@ -2499,7 +2499,7 @@
     ]
   },
   {
-    "id": "Imbued_zamorak_cape",
+    "id": "Imbued_Zamorak_cape",
     "slot": "cape",
     "regions": ["wilderness"],
     "requirements": [
@@ -2507,7 +2507,7 @@
     ]
   },
   {
-    "id": "Imbued_zamorak_max_cape",
+    "id": "Imbued_Zamorak_max_cape",
     "slot": "cape",
     "regions": ["wilderness/asgarnia"],
     "requirements": [
@@ -3883,7 +3883,7 @@
     "regions": ["morytania"]
   },
   {
-    "id": "Sanguine_scythe_of_vitur",
+    "id": "Sanguine_Scythe_of_Vitur",
     "slot": "weapon",
     "tags": ["2h"],
     "regions": ["morytania"],
@@ -4049,7 +4049,7 @@
     ]
   },
   {
-    "id": "Scythe_of_vitur",
+    "id": "Scythe_of_Vitur",
     "slot": "weapon",
     "tags": ["2h"],
     "regions": ["morytania"],
@@ -4319,7 +4319,7 @@
     "tags": ["1h"]
   },
   {
-    "id": "Staff_of_the_dead",
+    "id": "Staff_of_the_Dead",
     "slot": "weapon",
     "tags": ["1h"],
     "regions": ["asgarnia"],
@@ -4517,7 +4517,7 @@
     ]
   },
   {
-    "id": "Tome_of_earth",
+    "id": "Tome_of_Earth",
     "slot": "shield",
     "regions": ["varlamore"],
     "requirements": [
@@ -4525,7 +4525,7 @@
     ]
   },
   {
-    "id": "Tome_of_fire",
+    "id": "Tome_of_Fire",
     "slot": "shield",
     "regions": ["kourend"],
     "requirements": [
@@ -4533,7 +4533,7 @@
     ]
   },
   {
-    "id": "Tome_of_water",
+    "id": "Tome_of_Water",
     "slot": "shield",
     "regions": ["desert"],
     "requirements": [
@@ -4541,7 +4541,7 @@
     ]
   },
   {
-    "id": "Tonalztics_of_ralos",
+    "id": "Tonalztics_of_Ralos",
     "slot": "weapon",
     "tags": ["1h"],
     "regions": ["varlamore"],
@@ -4591,7 +4591,7 @@
     ]
   },
   {
-    "id": "Toxic_staff_of_the_dead",
+    "id": "Toxic_Staff_of_the_Dead",
     "slot": "weapon",
     "tags": ["1h"],
     "regions": ["tirannwn/asgarnia"],
@@ -4628,7 +4628,7 @@
     "regions": ["wilderness"]
   },
   {
-    "id": "Trident_of_the_seas",
+    "id": "Trident_of_the_Seas",
     "slot": "weapon",
     "tags": ["1h"],
     "regions": ["kandarin"],
@@ -4637,7 +4637,7 @@
     ]
   },
   {
-    "id": "Trident_of_the_swamp",
+    "id": "Trident_of_the_Swamp",
     "slot": "weapon",
     "tags": ["1h"],
     "regions": ["tirannwn/kandarin"],
@@ -4974,7 +4974,7 @@
     ]
   },
   {
-    "id": "Volatile_nightmare_staff",
+    "id": "Volatile_Nightmare_staff",
     "slot": "weapon",
     "tags": ["1h"],
     "regions": ["morytania"],
