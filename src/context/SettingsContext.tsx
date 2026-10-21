@@ -17,7 +17,7 @@ const defaultSettings: Settings = {
   leagues: false,
   bisClues: false,
   bisStrict: false,
-  dropsPets: false,
+  dropsPets: true,
   dropsCosmetics: false,
   minSkillLevel: '',
   maxSkillLevel: '',

@@ -2109,7 +2109,9 @@
       "Yew_tree",
       "Zanaris"
     ],
-    "raids": [],
+    "raids": [
+      "The_Fractured_Archive"
+    ],
     "bosses": [
       "Abyssal_Sire",
       "Brutus",
@@ -2205,6 +2207,7 @@
       "Hellcat",
       "Herbi",
       "Lil'_Creator",
+      "Orion",
       "Scurry"
     ],
     "resources": [

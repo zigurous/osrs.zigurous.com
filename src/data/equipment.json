@@ -560,6 +560,25 @@
     ]
   },
   {
+    "id": "Ascension_bolts",
+    "icon": "Ascension_bolts_5",
+    "slot": "ammo",
+    "regions": ["misthalin"]
+  },
+  {
+    "id": "Ascension_crossbows",
+    "slot": "weapon",
+    "tags": ["2h"],
+    "regions": ["misthalin"],
+    "ammo": {
+      "id": "Ascension_bolts",
+      "icon": "Ascension_bolts_5"
+    },
+    "requirements": [
+      { "skill": "ranged", "level": 80 }
+    ]
+  },
+  {
     "id": "Atlatl_dart",
     "icon": "Atlatl_dart_5",
     "slot": "ammo"
@@ -795,7 +814,7 @@
     ]
   },
   {
-    "id": "Blessed_dizana's_quiver",
+    "id": "Blessed_Dizana's_quiver",
     "slot": "cape",
     "regions": ["varlamore"],
     "requirements": [
@@ -1747,6 +1766,7 @@
     "id": "Elemental_amulet",
     "slot": "neck",
     "regions": ["misthalin/morytania/fremennik"],
+    "regions_single": ["misthalin"],
     "requirements": [
       { "skill": "magic", "level": 59 }
     ]
@@ -3356,6 +3376,15 @@
     ]
   },
   {
+    "id": "Obligator",
+    "slot": "weapon",
+    "tags": ["2h"],
+    "regions": ["misthalin"],
+    "requirements": [
+      { "skill": "attack", "level": 85 }
+    ]
+  },
+  {
     "id": "Obsidian_helmet",
     "slot": "head",
     "regions": ["karamja"],
@@ -3709,7 +3738,7 @@
     "regions": ["all"]
   },
   {
-    "id": "Robin_hood_hat",
+    "id": "Robin_Hood_hat",
     "slot": "head",
     "tags": ["clues"],
     "regions": ["all"],
@@ -3731,6 +3760,14 @@
     "regions": ["fremennik"],
     "requirements": [
       { "skill": "defence", "level": 40 }
+    ]
+  },
+  {
+    "id": "Rondache",
+    "slot": "shield",
+    "regions": ["misthalin"],
+    "requirements": [
+      { "skill": "defence", "level": 80 }
     ]
   },
   {
@@ -5210,6 +5247,15 @@
     "requirements": [
       { "skill": "strength", "level": 50 },
       { "skill": "defence", "level": 50 }
+    ]
+  },
+  {
+    "id": "Zorya's_tome",
+    "slot": "weapon",
+    "tags": ["2h"],
+    "regions": ["misthalin"],
+    "requirements": [
+      { "skill": "magic", "level": 85 }
     ]
   }
 ]

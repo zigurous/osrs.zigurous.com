@@ -209,6 +209,11 @@
     "tags": ["pet"]
   },
   {
+    "id": "Orion",
+    "source": "The_Fractured_Archive",
+    "tags": ["pet"]
+  },
+  {
     "id": "Pet_chaos_elemental",
     "source": ["Chaos_Elemental", "Chaos_Fanatic"],
     "tags": ["pet"]

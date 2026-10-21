@@ -157,6 +157,13 @@
     ]
   },
   {
+    "id": "Ascension_shards",
+    "transmutations": [
+      "#transmute",
+      "Ascension_bolts"
+    ]
+  },
+  {
     "id": "Atlatl_dart",
     "icon": "Atlatl_dart_5"
   },
@@ -611,6 +618,10 @@
     "name": "Dizana's Quiver (uncharged)"
   },
   {
+    "id": "Dorgeshuun_weapons",
+    "icon": "Dorgeshuun_crossbow"
+  },
+  {
     "id": "Dossier_(Yama)",
     "name": "Dossier (Yama)"
   },
@@ -746,6 +757,10 @@
       "Bow_of_Faerdhinen",
       "Blade_of_Saeldor"
     ]
+  },
+  {
+    "id": "Essence_pouch",
+    "icon": "Small_pouch"
   },
   {
     "id": "Eternal_crystal",
@@ -1090,6 +1105,10 @@
     "tags": ["leagues"]
   },
   {
+    "id": "Initiate_armour",
+    "icon": "Initiate_sallet"
+  },
+  {
     "id": "Jar_of_Chemicals",
     "tags": ["cosmetic"]
   },
@@ -1272,6 +1291,26 @@
   {
     "id": "Lithic_sceptre",
     "tags": ["leagues"]
+  },
+  {
+    "id": "Living_record_(tier_1)",
+    "tags": ["cosmetic"]
+  },
+  {
+    "id": "Living_record_(tier_2)",
+    "tags": ["cosmetic"]
+  },
+  {
+    "id": "Living_record_(tier_3)",
+    "tags": ["cosmetic"]
+  },
+  {
+    "id": "Living_record_(tier_4)",
+    "tags": ["cosmetic"]
+  },
+  {
+    "id": "Living_record_(tier_5)",
+    "tags": ["cosmetic"]
   },
   {
     "id": "Long_kebbit_bolts",
@@ -1460,6 +1499,10 @@
     "icon": "Oathplate_shards_20"
   },
   {
+    "id": "Obligator",
+    "tags": ["megarare"]
+  },
+  {
     "id": "Odium_shard_1",
     "transmutations": [
       "#plus",
@@ -1543,6 +1586,10 @@
       "#equals",
       "Silklined_herb_sack"
     ]
+  },
+  {
+    "id": "Proselyte_armour",
+    "icon": "Proselyte_sallet"
   },
   {
     "id": "Raids_megarare_voucher",
@@ -2171,6 +2218,10 @@
       "Xerician_top",
       "Xerician_robe"
     ]
+  },
+  {
+    "id": "Yak-hide_armour",
+    "icon": "Yak-hide_armour_(top)"
   },
   {
     "id": "Yellow_spice",

@@ -3311,7 +3311,7 @@
   },
   {
     "id": "Tormented_Demon",
-    "icon": "Burning_claw",
+    "icon": "Tormented_synapse",
     "title": "Tormented Demons",
     "category": "monster",
     "sortingGroups": ["slayer", "pvm"],

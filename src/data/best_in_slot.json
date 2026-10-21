@@ -5,6 +5,7 @@
       {
         "id": "weapon",
         "items": [
+          "Obligator",
           "Scythe_of_Vitur",
           "Soulreaper_axe",
           "Soulreaper_axe#Leagues",
@@ -36,6 +37,7 @@
           "Avernic_defender",
           "Avernic_defender#*",
           "Dragon_defender",
+          "Rondache",
           "Dragonfire_shield",
           "Antler_guard",
           "Elysian_spirit_shield",
@@ -307,6 +309,7 @@
       {
         "id": "weapon",
         "items": [
+          "Obligator",
           "Inquisitor's_mace",
           "Scythe_of_Vitur",
           "Soulreaper_axe",
@@ -375,6 +378,7 @@
           "Nature's_recurve",
           "Twisted_bow",
           "Bow_of_Faerdhinen",
+          "Ascension_crossbows",
           "Toxic_blowpipe",
           "Zaryte_crossbow",
           "Dragon_hunter_crossbow",
@@ -418,7 +422,7 @@
           "Armadyl_helmet",
           "Crystal_helm",
           "Eclipse_Moon_helm",
-          "Robin_hood_hat",
+          "Robin_Hood_hat",
           "Karil's_coif",
           "Archer_helm",
           "Ranger_hat",
@@ -498,7 +502,7 @@
         "id": "cape",
         "items": [
           "Dizana's_max_cape",
-          "Blessed_dizana's_quiver",
+          "Blessed_Dizana's_quiver",
           "Ava's_assembler",
           "Ava's_assembler#*",
           "Ava's_accumulator",
@@ -733,6 +737,7 @@
         "items": [
           "Occult_necklace",
           "Elemental_amulet",
+          "Elemental_amulet#*",
           "Amulet_of_fury",
           "Dragonbone_necklace",
           "Amulet_of_avarice",
@@ -774,6 +779,7 @@
         "id": "weapon",
         "items": [
           "Lithic_sceptre",
+          "Zorya's_tome",
           "Fang_of_the_hound",
           "Volatile_Nightmare_staff",
           "Accursed_sceptre",
