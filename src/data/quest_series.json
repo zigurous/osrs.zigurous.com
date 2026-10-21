@@ -34,11 +34,7 @@
     ],
     "unlocks": [
       "H.A.M._robes",
-      "Mining_helmet",
-      "Bone_club",
-      "Bone_spear",
-      "Bone_dagger",
-      "Dorgeshuun_crossbow",
+      "Dorgeshuun_weapons",
       "Ancient_mace"
     ]
   },
@@ -66,7 +62,8 @@
     "unlocks": [
       "Wrath_Altar",
       "Locator_orb",
-      "Mythical_cape"
+      "Myths'_Guild",
+      "Dragon_forge"
     ]
   },
   {
@@ -82,9 +79,7 @@
       "Dragonfire_shield",
       "Green_d'hide_body",
       "Rune_platebody",
-      "Dragon_platebody",
-      "Dragon_kiteshield",
-      "Ferocious_gloves"
+      "Lithkren_Vault"
     ]
   },
   {
@@ -117,12 +112,10 @@
       "Klank's_gauntlets",
       "Iban's_staff",
       "Dragon_halberd",
-      "Crystal_halberd",
-      "Crystal_bow",
-      "Crystal_shield",
       "Teleport_crystal",
+      "Crystal_weapons",
       "Death_Altar",
-      "Dark_bow",
+      "Dark_beast",
       "Zalcano",
       "The_Gauntlet"
     ]
@@ -154,19 +147,19 @@
     ],
     "unlocks": [
       "Enchanted_lyre(i)",
-      "Fremennik_blade",
-      "Fremennik_helm",
       "Warrior_helm",
       "Berserker_helm",
       "Archer_helm",
       "Farseer_helm",
+      "Helm_of_Neitiznot",
+      "Neitiznot_faceguard",
       "Rock-shell_armour",
       "Spined_armour",
       "Skeletal_armour",
-      "Helm_of_Neitiznot",
-      "Neitiznot_faceguard",
+      "Yak-hide_armour",
       "Neitiznot_shield",
-      "V's_shield"
+      "V's_shield",
+      "Basilisk_Knight"
     ]
   },
   {
@@ -181,17 +174,17 @@
       "Monkey_Madness_II"
     ],
     "unlocks": [
+      "Gnome_amulet",
+      "Spirit_trees",
       "Gnome_glider",
       "Crystal_saw",
-      "Warped_sceptre",
+      "Warped_creatures",
       "Greegree",
       "M'speak_amulet",
       "Dragon_scimitar",
       "Royal_seed_pod",
       "Dragon_javelin_tips",
-      "Light_ballista",
-      "Heavy_ballista",
-      "Zenyte_shard"
+      "Demonic_gorilla"
     ]
   },
   {
@@ -206,16 +199,11 @@
     "unlocks": [
       "Sorceress's_Garden",
       "Catspeak_amulet",
-      "Pharaoh's_sceptre",
+      "Pyramid_Plunder",
       "Keris",
       "Keris_partisan",
       "Circlet_of_water",
-      "#newline",
-      "Tombs_of_Amascut",
-      "Thread_of_Elidinis",
-      "Eye_of_the_Corruptor",
-      "Jewel_of_the_Sun",
-      "Breach_of_the_Scarab"
+      "Tombs_of_Amascut"
     ]
   },
   {
@@ -276,12 +264,10 @@
       "While_Guthix_Sleeps"
     ],
     "unlocks": [
-      "The_Whisperer",
-      "Bellator_ring",
-      "Shadow_ancient_sceptre",
-      "Broken_zombie_helmet",
+      "Zombie_helmet",
       "Elite_black_armour",
-      "Dark_Squall_robes"
+      "Dark_Squall_robes",
+      "The_Whisperer"
     ]
   },
   {
@@ -299,10 +285,7 @@
       "Ancient_staff",
       "Ancient_signet",
       "Ring_of_shadows",
-      "#newline",
-      "The_Leviathan",
-      "Venator_ring",
-      "Smoke_ancient_sceptre"
+      "The_Leviathan"
     ]
   },
   {
@@ -315,14 +298,11 @@
     ],
     "unlocks": [
       "Phantom_Muspah",
-      "Ancient_sceptre",
       "Ancient_essence",
+      "Ancient_sceptre",
       "Saturated_heart",
       "Forgotten_brew",
-      "#newline",
-      "Duke_Sucellus",
-      "Magus_ring",
-      "Ice_ancient_sceptre"
+      "Duke_Sucellus"
     ]
   },
   {
@@ -343,7 +323,6 @@
       "Carnillean_armour",
       "Khazard_armour_set",
       "Boots_of_lightness",
-      "Armadyl_pendant",
       "Ring_of_visibility",
       "Ghostly_robes",
       "Shadow_sword"
@@ -361,9 +340,9 @@
     ],
     "unlocks": [
       "Digsite_pendant",
-      "Broken_zombie_axe",
-      "Tormented_synapse",
-      "Burning_claw"
+      "Armoured_zombie",
+      "Tormented_Demon",
+      "The_Fractured_Archive"
     ]
   },
   {
@@ -374,9 +353,7 @@
       "Desert_Treasure_II"
     ],
     "unlocks": [
-      "Vardorvis",
-      "Ultor_ring",
-      "Blood_ancient_sceptre"
+      "Vardorvis"
     ]
   },
   {
@@ -438,19 +415,10 @@
     ],
     "unlocks": [
       "Pure_essence",
-      "Small_pouch",
-      "Medium_pouch",
-      "Large_pouch",
-      "Giant_pouch",
-      "Colossal_pouch",
-      "Abyssal_lantern",
-      "Catalytic_talisman",
+      "Abyss",
+      "Essence_pouch",
       "Elemental_talisman",
-      "Ring_of_the_elements",
-      "Hat_of_the_Eye",
-      "Robe_top_of_the_Eye",
-      "Robe_bottoms_of_the_Eye",
-      "Boots_of_the_Eye"
+      "Guardians_of_the_Rift"
     ]
   },
   {
@@ -459,7 +427,8 @@
       "Cold_War"
     ],
     "unlocks": [
-      "Clockwork_suit"
+      "Clockwork_suit",
+      "Penguin_Agility_Course"
     ]
   },
   {
@@ -471,7 +440,6 @@
     ],
     "unlocks": [
       "Holy_wrench",
-      "Book_o'_Piracy",
       "Black_mask",
       "Barrelchest_anchor",
       "Prayer_book",
@@ -522,9 +490,9 @@
       "Tai_Bwo_Wannai_Trio"
     ],
     "unlocks": [
-      "Raw_karambwan",
+      "Karambwan_vessel",
       "Raw_karambwanji",
-      "Karambwan_vessel"
+      "Raw_karambwan"
     ]
   },
   {
@@ -537,9 +505,9 @@
     ],
     "unlocks": [
       "White_equipment",
-      "Proselyte_sallet",
-      "Proselyte_hauberk",
-      "Proselyte_cuisse"
+      "Initiate_armour",
+      "Proselyte_armour",
+      "Fishing_Platform"
     ]
   },
   {
@@ -568,12 +536,7 @@
       "Law_Altar",
       "God_Wars_Dungeon",
       "Trollheim_Teleport",
-      "Scroll_of_Redirection",
-      "Goutweed",
-      "Efh_salt",
-      "Urt_salt",
-      "Te_salt",
-      "Basalt"
+      "Salt_Mine"
     ]
   },
   {
